@@ -37,6 +37,7 @@ from functools import lru_cache
 from pathlib import Path
 
 from importers.annals import letters
+from importers import corrections
 from importers.columns import is_speck, mark_notes, rows, split_columns
 from importers.ocr import (
     TOKEN, Block, Line, Page, Para, Reference, Vocabulary, Word, align, attested, blocks, key,
@@ -481,7 +482,7 @@ def build(house: str, its: list[Item], readings: dict[int, list[dict]], known: s
                 (None, body, lambda n: f"{base}.{n}", lambda n: f"{house}, {label}, ¶ {n}"),
                 ("footnote", notes, lambda n: f"{base}.fn{n}", lambda n: f"{house}, {label}, note {n}")):
             for n, b in enumerate(bs, 1):
-                text, spans = text_of_readings(readings[id(b)], known)
+                text, spans, fixed = corrections.apply(ref_of(n), *text_of_readings(readings[id(b)], known))
                 first_page = int(b.folios[0])
                 seg = {"label": label_of(n), "pages": b.folios, "ref": ref_of(n),
                        "scan": {"item": unt_record(first_page), "leaves": [unt_leaf(first_page)], "site": "unt"},
@@ -490,6 +491,8 @@ def build(house: str, its: list[Item], readings: dict[int, list[dict]], known: s
                     seg["kind"] = kind
                 if spans:
                     seg["uncertain"] = spans
+                if fixed:
+                    seg["corrected"] = fixed
                 segments.append(seg)
     pages = sorted({int(f) for s in segments for f in s["pages"]})
     return {

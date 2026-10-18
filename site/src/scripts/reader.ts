@@ -20,6 +20,7 @@ let selected: HTMLElement | null = null;
 type Conn = {
   verb: string; status: string; other_label: string; other_url: string | null;
   other_overruled?: boolean; other_quote?: string; rationale?: string; source?: string;
+  other_excerpt?: { before: string; quote: string; after: string };
 };
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 const connUrl = document.querySelector<HTMLElement>("[data-reader]")?.dataset.connUrl;
@@ -52,7 +53,15 @@ function renderConn(c: Conn): HTMLLIElement {
     a.href = BASE + url;
     li.append(a);
   } else li.append(el("span", "conn-target", c.other_label));
-  if (c.other_quote) li.append(el("blockquote", undefined, c.other_quote));
+  // The linked passage's own words around the quote, the quoted words marked.
+  const ex = c.other_excerpt;
+  if (ex && (ex.before || ex.quote || ex.after)) {
+    const bq = el("blockquote");
+    if (ex.before) bq.append(ex.before);
+    if (ex.quote) bq.append(el("mark", undefined, ex.quote));
+    if (ex.after) bq.append(ex.after);
+    li.append(bq);
+  } else if (c.other_quote) li.append(el("blockquote", undefined, c.other_quote));
   if (c.rationale) li.append(el("p", "why", c.rationale));
   if (c.source) li.append(el("p", "src", `Source: ${c.source}`));
   return li;

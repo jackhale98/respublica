@@ -29,6 +29,7 @@ from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
 
+from importers import corrections
 from importers.columns import body_span, is_speck, mark_notes, rows, split_columns
 from importers.ocr import (
     TOKEN, Block, Page, Reference, Vocabulary, align, attested, blocks, OCR_DIR, OCR_MANIFEST, TESSERACT_ARGS,
@@ -341,13 +342,15 @@ def build(its: list[Item], readings: dict[int, list[dict]], known: set[str]) -> 
                 (None, body, lambda n: f"{base}.{n}", lambda n: f"House, {label}, ¶ {n}"),
                 ("footnote", notes, lambda n: f"{base}.fn{n}", lambda n: f"House, {label}, note {n}")):
             for n, b in enumerate(bs, 1):
-                text, spans = text_of_readings(readings[id(b)], known)
+                text, spans, fixed = corrections.apply(ref_of(n), *text_of_readings(readings[id(b)], known))
                 seg = {"columns": b.folios, "label": label_of(n), "ref": ref_of(n),
                        "scan": {"item": SCAN_ITEM, "leaves": b.leaves}, "text": text}
                 if kind:
                     seg["kind"] = kind
                 if spans:
                     seg["uncertain"] = spans
+                if fixed:
+                    seg["corrected"] = fixed
                 segments.append(seg)
     first, last = its[0].date.isoformat(), its[-1].date.isoformat()
     return {

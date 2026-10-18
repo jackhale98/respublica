@@ -29,7 +29,7 @@ TEXTS_DIR = ROOT / "texts"
 CASES_DIR = ROOT / "cases"
 LINKS_DIR = ROOT / "links"
 
-# Raw files too large for git (the U.S. Reports scans, decision 48; the Annals
+# Raw files too large for git (the U.S. Reports scans, decision 49; the Annals
 # of Congress scans' DjVu XML, decision 46; the Congressional Globe's, decision 47): recorded
 # in the manifest like any other, listed in .gitignore, restored by `make fetch`
 # and cached in CI.

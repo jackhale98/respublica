@@ -7,7 +7,7 @@ The Library of Congress publishes every case of volumes 1 to about 578 as
 a PDF of the printed pages, with a text layer (OCR for older volumes). The
 case import takes the official syllabus from it, word for word.
 
-The PDFs are too large to keep in git (decision 48): the manifest records
+The PDFs are too large to keep in git (decision 49): the manifest records
 each one (URL, date, sha256, license) and `make fetch` downloads them;
 .gitignore keeps them out of commits.
 """
@@ -40,7 +40,7 @@ def source_id(volume: int, page: int) -> str:
 
 # Volumes 1-90 are the nominative reports (Dallas to Wallace), whose
 # headnotes are each reporter's own and often printed as marginal notes;
-# a syllabus is read from volume 91 (1875) on (decision 48).
+# a syllabus is read from volume 91 (1875) on (decision 49).
 FIRST_SYLLABUS_VOLUME = 91
 DATE_LINE = re.compile(r"\b(Argued|Submitted|Decided|Reargued)\b")
 # A paragraph that starts any of these ends the syllabus.

@@ -284,6 +284,7 @@
 .conn-verb { font: 600 .72rem/1 var(--font-sans); letter-spacing: .05em; text-transform: uppercase; color: var(--text-faint); }
 .conn-target { display: block; margin-top: .3rem; font-weight: 600; }
 .conn blockquote { margin: .45rem 0 0; padding-left: .7rem; border-left: 2px solid var(--border-strong); font: italic 400 .92rem/1.5 var(--font-serif); color: var(--text-muted); }
+.conn blockquote mark { color: var(--text); font-style: normal; background: var(--highlight-soft); border-radius: 2px; padding: 0 .1em; }
 .conn .why { margin: .45rem 0 0; color: var(--text-muted); }
 .conn .src { margin: .3rem 0 0; color: var(--text-faint); font-size: .8rem; }
 

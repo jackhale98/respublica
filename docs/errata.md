@@ -10,8 +10,11 @@ source, and its status.
 
 Texts read from scans (the ratification debate) also carry their own list:
 every word the scans could not settle is recorded under `uncertain` in its
-passage, with each scan's reading, and is marked on the site. Entries here are
-for errors the scans share, which that list cannot show.
+passage, with each scan's reading, and is marked on the site. Maintainers
+read those words off the page images on the errata page (`/errata/`); the
+corrections are recorded in `corrections/` and applied by the importers
+(decision 48). Entries here are for errors the scans share, which that list
+cannot show, and for paragraph breaks and attributions.
 
 | # | Ref | Suspected problem | Source location | Status |
 |---|---|---|---|---|

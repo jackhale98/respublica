@@ -769,7 +769,41 @@ approved the University of North Texas Digital Library as a new source.
 - **On the site** both works join "Debates in Congress" (`/congress/`), which
   groups the debates by amendment.
 
-## 48. Importing the first set of cases
+## 48. Correcting words read from scans: the errata page
+
+The project owner asked for a page, like the link review page, on which to
+read uncertain words off the scans and record what is printed.
+
+- **What is reviewed.** Every word the scans could not settle (`uncertain`
+  in its passage), shown with the twelve words on either side, each scan's
+  reading and the page images (`/errata/`). The maintainer picks a reading
+  or types what the page prints. A reading picked as it stands confirms it.
+- **Images from the libraries that hold the scans.** The errata page alone
+  loads page images from the Internet Archive and the UNT Digital Library
+  (its Content Security Policy allows those hosts for images only, and
+  `tools/check_site.py` allows that on no other page). It is a page for
+  maintainers; readers' pages still load nothing from elsewhere.
+- **Recorded as link reviews are.** The page opens a GitHub issue titled
+  "Errata review", one correction per line. A workflow
+  (`.github/workflows/errata.yml`) runs only for an issue opened by someone
+  with write access: `python -m tools.errata apply` appends each correction
+  to `corrections/{work}.jsonl` under their GitHub login and date, updates
+  any link quote that contains the old word (quotes must stay exact), re-runs
+  the importers and `make verify`, and commits to main. Agents never record
+  a correction (rule 3).
+- **Applied by the importers.** A correction names the passage, the word as
+  imported and its place among the passage's uncertain words. The importers
+  (`importers/corrections.py`) replace the word, drop its uncertain mark and
+  log the change in the passage's `corrected` list (who, when, the scans'
+  word), so `texts/` stays exactly what the importers produce. A correction
+  that no longer matches its passage (the scans were read again) stops the
+  import for a person to look at again.
+- **On the site** a corrected word is underlined, and its title says who
+  corrected it and what the scans read. A correction never changes refs.
+- **`docs/errata.md` stays** for what the page cannot show: misreadings the
+  scans share, paragraph breaks and attributions.
+
+## 49. Importing the first set of cases
 
 The project owner chose, when phase 7 resumed with a CourtListener token:
 

@@ -21,6 +21,8 @@ export const loadPage = (id) => cached(`page:${id}`, () => readJson(path.join(DA
 export const loadRefs = () => cached("refs", () => readJson(path.join(DATA, "refs.json")));
 export const loadReview = () => cached("review", () => readJson(path.join(DATA, "review", "index.json")));
 export const loadReviewBatch = (b) => readJson(path.join(DATA, "review", `${b}.json`));
+export const loadErrata = () => cached("errata", () => readJson(path.join(DATA, "errata", "index.json")));
+export const loadErrataWork = (w) => readJson(path.join(DATA, "errata", `${w}.json`));
 export const loadManifest = () => cached("manifest", () => readJson(path.resolve(process.cwd(), "..", "sources", "manifest.json")));
 
 // Only http(s) URLs from data are ever rendered (CLAUDE.md rule 8).
@@ -97,6 +99,9 @@ export function uncertainTitle(readings = {}) {
   const parts = Object.entries(readings).map(([k, v]) => `“${v}” (${SCANS[k] || k})`);
   return `Uncertain reading. ${parts.length > 1 ? "The scans read" : "Only one scan has this word"}: ${parts.join(", ")}`;
 }
+
+// A word a person corrected against the page image (decision 48).
+export const fixTitle = (fix) => `Corrected from the page image by ${fix.by}; the scans read “${fix.was}”`;
 
 export const runsText = (runs = []) => runs.map((r) => r.t).join("");
 

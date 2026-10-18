@@ -274,7 +274,7 @@ from volume 91 (1875) on: the earlier, nominative reports carry the
 reporters' own headnotes, often as marginal notes. Where a paragraph seems to
 stop mid-sentence (the text layer is out of order, or the end was missed),
 no syllabus is imported and the case says so (`syllabus_note`). The scans are
-kept out of git (decision 48): `make fetch` downloads them.
+kept out of git (decision 49): `make fetch` downloads them.
 
 **Opinions** are not imported; each case links to its opinion on
-CourtListener (decision 48).
+CourtListener (decision 49).

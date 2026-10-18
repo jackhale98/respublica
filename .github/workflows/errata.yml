@@ -1,0 +1,91 @@
+name: Apply errata review
+
+# Records corrections made on the site's errata page (/errata/): words the
+# scans could not settle, read off the page image by a maintainer. The page
+# opens a GitHub issue titled "Errata review" whose body lists one
+# correction per line (correct REF INDEX "was" "now"). This job runs only
+# for issues opened by someone with write access to this repository: it
+# records each correction under that person's GitHub login with
+# `python -m tools.errata apply` (corrections/{work}.jsonl, updating link
+# quotes that contain the word), re-runs the importers, which apply them,
+# runs `make verify`, commits to main (which Cloudflare builds and deploys),
+# and comments on and closes the issue. It uses only the workflow's own
+# GITHUB_TOKEN; no secrets. See docs/ocr.md, "Correcting words", and
+# docs/decisions.md 48.
+
+on:
+  issues:
+    types: [opened]
+
+permissions: {}
+
+concurrency:
+  group: errata-review
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: >-
+      startsWith(github.event.issue.title, 'Errata review') &&
+      contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.issue.author_association)
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      ISSUE: ${{ github.event.issue.number }}
+      REVIEWER: ${{ github.event.issue.user.login }}
+    steps:
+      - name: Check that the author can write to the repository
+        run: |
+          perm=$(gh api "repos/$REPO/collaborators/$REVIEWER/permission" --jq .permission)
+          case "$perm" in
+            admin|maintain|write) echo "$REVIEWER has $perm access" ;;
+            *) gh issue comment "$ISSUE" --repo "$REPO" --body "Only people with write access to this repository can record corrections; nothing was changed."
+               gh issue close "$ISSUE" --repo "$REPO" --reason "not planned"
+               exit 1 ;;
+          esac
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version-file: .python-version
+      # Raw sources kept out of git (the U.S. Reports scans, decision 49): cached, then fetched if missing.
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            sources/raw/loc-usrep-*.pdf
+            sources/raw/ia-annals-*
+            sources/raw/ia-globe-*
+          key: raw-${{ hashFiles('sources/manifest.json') }}
+          restore-keys: raw-
+      - run: make fetch
+      - name: Record the corrections
+        env:
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          printf '%s\n' "$BODY" > "$RUNNER_TEMP/errata.txt"
+          python -m tools.errata apply --reviewer "$REVIEWER" --text "$RUNNER_TEMP/errata.txt" > "$RUNNER_TEMP/result.json"
+          cat "$RUNNER_TEMP/result.json"
+      - run: make import
+      - run: make verify
+      - name: Commit and report
+        run: |
+          read -r recorded missing < <(python -c 'import json,sys; r=json.load(open(sys.argv[1])); print(r["recorded"], len(r["not_found"]) + len(r["unreadable"]))' "$RUNNER_TEMP/result.json")
+          if [ "$recorded" = "0" ]; then
+            gh issue comment "$ISSUE" --repo "$REPO" --body "No listed word matched an uncertain word of its passage ($missing not found or unreadable: already corrected, or not copied in full); nothing was changed."
+            gh issue close "$ISSUE" --repo "$REPO"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add corrections texts cases links
+          git commit -q -m "Errata review by $REVIEWER: $recorded word(s) corrected (#$ISSUE)"
+          for i in 1 2 3; do git push origin HEAD:main && break; git pull --rebase -q origin main; done
+          note=""
+          if [ "$missing" != "0" ]; then note=" $missing listed word(s) were not found (already corrected, or not copied in full)."; fi
+          gh issue comment "$ISSUE" --repo "$REPO" --body "Recorded $recorded correction(s) as read by @$REVIEWER.$note The site is being redeployed."
+          gh issue close "$ISSUE" --repo "$REPO"

@@ -7,6 +7,7 @@ to make it pass; fix the data or the importer instead.
 from __future__ import annotations
 
 import datetime as dt
+import json
 import re
 import tempfile
 from pathlib import Path
@@ -177,6 +178,63 @@ def check_uncertain(where: str, text: str, spans: Any) -> list[str]:
     return errors
 
 
+LOGIN = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$")
+
+
+def check_corrected(where: str, text: str, fixed: Any, spans: list[dict]) -> list[str]:
+    """Words a person corrected against the page image (decision 48): each
+    lies inside the text, in order, apart from the words still uncertain,
+    and names who corrected it and when."""
+    if not isinstance(fixed, list):
+        return [f"{where}: corrected must be a list"]
+    errors, end = [], 0
+    unsettled = [(u.get("start", 0), u.get("end", 0)) for u in spans]
+    for c in fixed:
+        start, stop = c.get("start"), c.get("end")
+        if not (isinstance(start, int) and isinstance(stop, int) and end <= start < stop <= len(text)):
+            errors.append(f"{where}: corrected span {start}-{stop} is out of place")
+            continue
+        end = stop
+        if any(a < stop and start < b for a, b in unsettled):
+            errors.append(f"{where}: corrected span {start}-{stop} overlaps an uncertain word")
+        if not (isinstance(c.get("by"), str) and LOGIN.match(c["by"]) and _is_date(c.get("at"))
+                and isinstance(c.get("was"), str)):
+            errors.append(f"{where}: corrected span {start}-{stop} needs who corrected it (by), when (at) and the scans' word (was)")
+    return errors
+
+
+def check_corrections(corpus: Corpus) -> list[str]:
+    """corrections/*.jsonl: one file per work, each line a person's decision
+    on a passage of that work (importers/corrections.py applies them; an
+    import stops on one that no longer matches)."""
+    errors = []
+    for f in sorted((ROOT / "corrections").glob("*")):
+        if f.name == "README.md":
+            continue
+        if f.suffix != ".jsonl" or f.stem not in corpus.works:
+            errors.append(f"corrections/{f.name}: must be named after a work ({{work}}.jsonl)")
+            continue
+        prefix = corpus.works[f.stem].get("ref_prefix", "") + "."
+        for n, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            if not line.strip():
+                continue
+            try:
+                c = json.loads(line)
+            except ValueError:
+                errors.append(f"corrections/{f.name}:{n}: not JSON")
+                continue
+            if sorted(c) != ["at", "by", "index", "now", "ref", "was"]:
+                errors.append(f"corrections/{f.name}:{n}: needs exactly at, by, index, now, ref, was")
+                continue
+            if not str(c["ref"]).startswith(prefix) or c["ref"] not in corpus.segments:
+                errors.append(f"corrections/{f.name}:{n}: {c['ref']!r} is not a passage of {f.stem}")
+            if not (isinstance(c["by"], str) and LOGIN.match(c["by"]) and _is_date(c["at"])):
+                errors.append(f"corrections/{f.name}:{n}: by must be a GitHub login and at a date")
+            if not (isinstance(c["now"], str) and c["now"].strip() and "\n" not in c["now"] and isinstance(c["index"], int)):
+                errors.append(f"corrections/{f.name}:{n}: now must be one line of text and index a number")
+    return errors
+
+
 def looks_like_markup(text: str, uncertain: list[dict]) -> bool:
     """A tag-like run ("<p ", "</i>") anywhere but inside a word marked
     uncertain: there the text is a scan's reading kept for a person to check
@@ -229,6 +287,8 @@ def check_texts(corpus: Corpus) -> list[str]:
                 if not (isinstance(span, list) and len(span) == 2 and 0 <= span[0] < span[1] <= len(text)):
                     errors.append(f"{ref}: bad emphasis span {span}")
             errors += check_uncertain(ref, text, s.get("uncertain", []))
+            if "corrected" in s:
+                errors += check_corrected(ref, text, s["corrected"], s.get("uncertain", []))
             if "scan" in s:
                 scan = s["scan"]
                 if not (isinstance(scan, dict) and isinstance(scan.get("item"), str) and SCAN_ITEM.match(scan["item"])
@@ -462,6 +522,7 @@ CHECKS = [
     ("sources", lambda c: check_manifest()),
     ("budgets", check_repo_budgets),
     ("texts", check_texts),
+    ("corrections", check_corrections),
     ("reproducible", lambda c: check_reproducible()),
     ("refs", check_refs_locked),
     ("links", check_links),

@@ -39,7 +39,7 @@ against. Run 4 of the linking guide (`docs/linking.md`) proposes their
 links to the Constitution and to the amendments. Next in this line: the
 Thirteenth and Fifteenth Amendments in the Globe, by the same rule.
 
-**Phase 7, Supreme Court cases: the first set is imported** (decision 48):
+**Phase 7, Supreme Court cases: the first set is imported** (decision 49):
 
 - 213 cases (`cases/`), chosen by the rules of decisions 41 to 43, each
   keyed by its CourtListener cluster (`importers/courtlistener.py`; the
@@ -56,6 +56,9 @@ Thirteenth and Fifteenth Amendments in the Globe, by the same rule.
 
 ## Next
 
+0. **Read uncertain words off the scans** on `/errata/` (decision 48):
+   about 5,700 words, most in the 1866 debates. Corrections come back
+   through the errata workflow; agents never record them.
 1. **Review the case links** on `/review/` ("Supreme Court cases"), checking
    a sample against the Constitution Annotated pages each link names.
 2. **Syllabi not yet shown** (each case says why in `syllabus_note`):

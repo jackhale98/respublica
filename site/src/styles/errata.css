@@ -1,0 +1,25 @@
+/* The /errata/ page (scripts/errata.ts); shares the review page's layout (review.css). */
+
+.er-edition { display: block; font-weight: 400; font-size: .82rem; color: var(--text-muted); margin-top: .15rem; }
+.er-passage[data-state="done"] { border-left-color: var(--ok); }
+.er-passage[data-state="sent"] { opacity: .6; }
+.er-pages { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+.er-pages .rv-choice { padding: .4rem .8rem; font-size: .82rem; }
+.er-pages a { font-size: .82rem; color: var(--link); }
+.er-image { display: block; width: 100%; height: auto; cursor: zoom-in; border: 1px solid var(--border); border-radius: var(--radius); background: #fff; }
+.er-image.zoomed { width: 250%; max-width: none; cursor: zoom-out; }
+.er-image-box { max-height: 70vh; overflow: auto; border-radius: var(--radius); }
+.er-image-box[hidden] { display: none; }
+.er-words { display: grid; gap: .8rem; margin: 0; padding: 0; list-style: none; }
+.er-word { display: grid; gap: .45rem; padding-top: .7rem; border-top: 1px solid var(--border); }
+.er-word:first-child { border-top: 0; padding-top: 0; }
+.er-context { margin: 0; font: 400 1rem/1.55 var(--font-serif); overflow-wrap: anywhere; }
+.er-context mark { background: var(--highlight-soft); color: inherit; box-shadow: 0 1px 0 var(--highlight); border-radius: 2px; padding: 0 .1em; }
+.er-word[data-state="chosen"] .er-context mark { background: color-mix(in srgb, var(--ok) 18%, transparent); box-shadow: 0 1px 0 var(--ok); }
+.er-readings { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; }
+.er-readings .rv-choice { font-family: var(--font-serif); font-weight: 500; padding: .4rem .75rem; }
+.er-readings .rv-choice small { font: 500 .72rem var(--font-sans); color: var(--text-faint); margin-left: .35rem; }
+.er-readings .rv-choice[aria-pressed="true"] { background: var(--ok); border-color: var(--ok); color: var(--bg-raised); }
+.er-readings .rv-choice[aria-pressed="true"] small { color: inherit; opacity: .8; }
+.er-readings .rv-note { flex: 1 1 10rem; font-family: var(--font-serif); }
+.er-more { justify-self: center; }

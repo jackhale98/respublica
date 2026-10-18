@@ -13,6 +13,8 @@ Output:
   site/.data/graph/{page}.json   two-hop link neighborhoods of a page's passages
   site/.data/review/index.json   suggested links awaiting review, by batch
   site/.data/review/{batch}.json one batch's suggested links, with both passages
+  site/.data/errata/index.json   words the scans could not settle, by work
+  site/.data/errata/{work}.json  one work's uncertain words, with context and page images
 """
 
 from __future__ import annotations
@@ -93,12 +95,21 @@ SCAN_PAGE_URL = "https://archive.org/details/{item}/page/n{n}"
 
 # Page images in the UNT Digital Library (the Congressional Globe): "m1/{n}" counts from 1.
 UNT_PAGE_URL = "https://digital.library.unt.edu/ark:/67531/{item}/m1/{n}/"
+# Page images shown on the errata page (its Content Security Policy allows these hosts).
+SCAN_IMAGE_URL = "https://archive.org/download/{item}/page/n{n}_w1200.jpg"
+UNT_IMAGE_URL = "https://digital.library.unt.edu/ark:/67531/{item}/m1/{n}/med_res/"
 
 
 def scan_url(item: str, leaf: int, site: str = "archive.org") -> str:
     if site == "unt":
         return UNT_PAGE_URL.format(item=item, n=leaf)
     return SCAN_PAGE_URL.format(item=item, n=leaf - 1)
+
+
+def scan_image(item: str, leaf: int, site: str = "archive.org") -> str:
+    if site == "unt":
+        return UNT_IMAGE_URL.format(item=item, n=leaf)
+    return SCAN_IMAGE_URL.format(item=item, n=leaf - 1)
 
 
 def marked_runs(text: str, spans: list[dict]) -> list[dict]:
@@ -135,6 +146,33 @@ def case_root(ref: str) -> str:
     return ".".join(parts[:2]) if parts[0] == "Case" else ref
 
 
+EXCERPT_WORDS = 30
+
+
+def excerpt(text: str, quote: str | None) -> dict:
+    """A passage's words around a quote: the sentence it is in, with at most
+    EXCERPT_WORDS words on each side ("…" where cut). {"before", "quote",
+    "after"}; with no quote found, the passage's opening words."""
+    at = text.find(quote) if quote else -1
+    if at < 0:
+        words = text.split()
+        return {"before": "", "quote": "", "after": " ".join(words[:2 * EXCERPT_WORDS]) + ("…" if len(words) > 2 * EXCERPT_WORDS else "")}
+    end = at + len(quote)
+    # The sentence: back to the last stop before the quote, on to the first after it.
+    starts = [m.end() for m in re.finditer(r"[.?!]\s+", text[:at])]
+    stop = re.search(r"[.?!](?=\s|$)", text[end:])
+    lo = starts[-1] if starts else 0
+    hi = end + stop.end() if stop else len(text)
+    before, after = text[lo:at], text[end:hi]
+    words = list(re.finditer(r"\S+", before))
+    if len(words) > EXCERPT_WORDS:
+        before = "…" + before[words[-EXCERPT_WORDS].start():]
+    words = list(re.finditer(r"\S+", after))
+    if len(words) > EXCERPT_WORDS:
+        after = after[:words[EXCERPT_WORDS - 1].end()] + "…"
+    return {"before": before, "quote": quote, "after": after}
+
+
 def build_link_index(links: list[dict], corpus: Corpus) -> dict:
     """Index non-rejected links by both endpoints.
 
@@ -168,6 +206,12 @@ def build_link_index(links: list[dict], corpus: Corpus) -> dict:
                 entry["quote"] = l[here_q]
             if l.get(other_q):
                 entry["other_quote"] = l[other_q]
+            far = corpus.segments.get(other)
+            if far:
+                # The far passage's own words around the quote, so that a
+                # reader on a clause sees what the Federalist wrote, not only
+                # its quotation of the clause.
+                entry["other_excerpt"] = excerpt(far["text"], l.get(other_q))
             by_ref.setdefault(here, []).append(entry)
     return {"by_ref": by_ref, "overruled": sorted(overruled)}
 
@@ -263,8 +307,9 @@ def runs_for(segment: dict, changed: list[dict]) -> list[list[list[dict]]]:
 
     A run is {"t": text} plus optional "em": true (italics),
     "chg": index into `changed` (a span the National Archives marks as
-    changed by an amendment) and "unc": the scans' readings of a word they
-    could not settle. Paragraphs are separated by a blank line in the text,
+    changed by an amendment), "unc": the scans' readings of a word they
+    could not settle, and "fix": a word a person corrected against the page
+    image ({"was": the scans' word, "by": their GitHub login}; decision 48). Paragraphs are separated by a blank line in the text,
     lines by a single newline.
     """
     text = segment["text"]
@@ -272,7 +317,12 @@ def runs_for(segment: dict, changed: list[dict]) -> list[list[list[dict]]]:
     em = [False] * n
     chg: list[int | None] = [None] * n
     unc: list[int | None] = [None] * n
+    fix: list[int | None] = [None] * n
     spans = segment.get("uncertain", [])
+    fixed = segment.get("corrected", [])
+    for idx, c in enumerate(fixed):
+        for i in range(c["start"], c["end"]):
+            fix[i] = idx
     for idx, u in enumerate(spans):
         for i in range(u["start"], u["end"]):
             unc[i] = idx
@@ -295,7 +345,7 @@ def runs_for(segment: dict, changed: list[dict]) -> list[list[list[dict]]]:
             i += 1
             continue
         j = i
-        while j < n and text[j] != "\n" and em[j] == em[i] and chg[j] == chg[i] and unc[j] == unc[i]:
+        while j < n and text[j] != "\n" and em[j] == em[i] and chg[j] == chg[i] and unc[j] == unc[i] and fix[j] == fix[i]:
             j += 1
         run: dict = {"t": text[i:j]}
         if em[i]:
@@ -304,6 +354,8 @@ def runs_for(segment: dict, changed: list[dict]) -> list[list[list[dict]]]:
             run["chg"] = chg[i]
         if unc[i] is not None:
             run["unc"] = spans[unc[i]]["readings"]
+        if fix[i] is not None:
+            run["fix"] = {"by": fixed[fix[i]]["by"], "was": fixed[fix[i]]["was"]}
         paras[-1][-1].append(run)
         i = j
     return paras
@@ -819,6 +871,57 @@ def build_review(corpus: Corpus, proposed: list[tuple[str, dict]], refs: dict[st
     return index, batches
 
 
+# ------------------------------------------------------------ errata page
+
+ERRATA_CONTEXT = 12  # words of the passage shown each side of an uncertain word
+
+
+def build_errata(corpus: Corpus, refs: dict[str, dict]) -> tuple[dict, dict[str, dict]]:
+    """The errata page's data: every word the scans could not settle, by
+    work, with the words around it, each scan's reading and the page images,
+    so a maintainer can read the word off the page. Decisions are recorded
+    through a GitHub issue (tools/errata.py apply; decision 48)."""
+    def words_before(text: str) -> str:
+        w = text.split(" ")
+        return ("…" if len(w) > ERRATA_CONTEXT else "") + " ".join(w[-ERRATA_CONTEXT:])
+
+    def words_after(text: str) -> str:
+        w = text.split(" ")
+        return " ".join(w[:ERRATA_CONTEXT]) + ("…" if len(w) > ERRATA_CONTEXT else "")
+
+    works, per_work = [], {}
+    for wid, work in corpus.works.items():
+        items, corrected = [], 0
+        for seg in work.get("segments", []):
+            spans, scan = seg.get("uncertain", []), seg.get("scan")
+            corrected += len(seg.get("corrected", []))
+            if not spans or not scan:
+                continue
+            site = scan.get("site", "archive.org")
+            pages = [{"image": scan_image(scan["item"], leaf, site), "url": scan_url(scan["item"], leaf, site)}
+                     for leaf in scan["leaves"]]
+            info = refs.get(seg["ref"], {"label": seg.get("label", seg["ref"]), "url": None})
+            text = seg["text"]
+            items.append({"label": info["label"], "pages": pages, "ref": seg["ref"], "url": info["url"], "words": [
+                {"after": words_after(text[u["end"]:].replace("\n", " ")),
+                 "before": words_before(text[:u["start"]].replace("\n", " ")),
+                 "index": i, "readings": u["readings"], "was": text[u["start"]:u["end"]]}
+                for i, u in enumerate(spans)]})
+        if not items and not corrected:
+            continue
+        per_work[wid] = {"id": wid, "passages": items, "title": work["title"]}
+        works.append({"corrected": corrected, "edition": work.get("edition", {}).get("name", ""), "id": wid,
+                      "passages": len(items), "title": work["title"],
+                      "words": sum(len(i["words"]) for i in items)})
+    works.sort(key=lambda w: w["title"])
+    repo = read_json(ROOT / "site" / "site.config.json")["repo"]
+    if not re.fullmatch(r"[A-Za-z0-9-]+/[A-Za-z0-9._-]+", repo):
+        raise ValueError(f"site.config.json: repo must be owner/name, not {repo!r}")
+    index = {"corrected": sum(w["corrected"] for w in works), "repo": repo,
+             "total": sum(w["words"] for w in works), "works": works}
+    return index, per_work
+
+
 def main() -> None:
     from tools.verify import load_links
 
@@ -838,6 +941,10 @@ def main() -> None:
     write_json(OUT / "review" / "index.json", review)
     for name, batch in batches.items():
         write_json(OUT / "review" / f"{name}.json", batch)
+    errata, errata_works = build_errata(corpus, refs)
+    write_json(OUT / "errata" / "index.json", errata)
+    for wid, data in errata_works.items():
+        write_json(OUT / "errata" / f"{wid}.json", data)
     print(f"wrote {OUT.relative_to(ROOT)}: {len(pages)} pages, {len(refs)} refs")
 
 

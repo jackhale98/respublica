@@ -263,7 +263,7 @@ agent against both texts before it is proposed, as in run 2.
 Links between cases and the Constitution are not proposed by a linker but
 imported by code from the Constitution Annotated (2022 print edition), with
 `created_by.kind: "import"` and a `source` naming the pages they come from
-(`python -m importers.case_links`, decision 48):
+(`python -m importers.case_links`, decision 49):
 
 - `links/proposed/conan-interprets.jsonl`: a case `interprets` a provision
   when the Constitution Annotated's essays on that provision cite it on at

@@ -81,8 +81,10 @@ python3 -m tools.uncertain              # counts per work
 python3 -m tools.uncertain cato --md    # checklist with page-image links
 ```
 
-Record what the page shows in `docs/errata.md`; never edit `texts/`. See
-`docs/ocr.md`, "Reviewing and correcting".
+Record what the page shows on the errata page (`/errata/`), which sends it
+as a GitHub issue that the errata workflow records in `corrections/`; never
+edit `texts/` or `corrections/` by hand. Shared misreadings go in
+`docs/errata.md`. See `docs/ocr.md`, "Reviewing and correcting".
 
 ## Text files
 
@@ -106,8 +108,9 @@ Record what the page shows in `docs/errata.md`; never edit `texts/`. See
 authors in `names`), `pseudonym` or `body`.
 
 Texts read from scans add, per passage, `pages` (printed page numbers),
-`scan` (`{item, leaves}`) and `uncertain` (`[{start, end, readings}]`), and
-per work `position` and `short`; see `docs/ocr.md`, "What the output records".
+`scan` (`{item, leaves}`), `uncertain` (`[{start, end, readings}]`) and,
+once a maintainer has corrected a word, `corrected` (`[{start, end, was, by,
+at}]`, decision 48), and per work `position` and `short`; see `docs/ocr.md`, "What the output records".
 
 `cases/{cluster_id}.json` has the same shape, with `ref_prefix`
 `Case.{cluster_id}` and no divisions, plus the case's `date`, `us_cite` (or
@@ -140,9 +143,10 @@ Linking criteria and tools are in [`linking.md`](linking.md). In short:
 
 | Check | Rule |
 |---|---|
-| `budgets` | Raw files stay under 40 MB each and 300 MB in total in git (files kept out of git: 1 GB in total, with no limit per file, and `.gitignore` must list them); data files under 20 MB (decisions 15, 46, 48). |
+| `budgets` | Raw files stay under 40 MB each and 300 MB in total in git (files kept out of git: 1 GB in total, with no limit per file, and `.gitignore` must list them); data files under 20 MB (decisions 15, 46, 49). |
 | `sources` | Every manifest entry has id, url, retrieved_at, sha256, license, notes and path; every raw file matches its sha256; every file in `sources/raw/` is in the manifest; every URL is http(s); `auth_env` names an environment variable; `encoding`, if any, is gzip; every file in `sources/ocr/` is recorded, matches its sha256, and names the raw images it was read from as they are in the manifest. |
-| `texts` | Required fields; refs are unique and start with the work's `ref_prefix`; texts are non-empty and contain no markup; `source_ids` are in the manifest; emphasis spans are in range; every `changed_by` quote is in its text and names a real amendment; every division has segments; every URL field is http(s). For texts read from scans: each `uncertain` span lies in order inside its text (or its division's heading line, salutation or signature) and the text there is one of the scans' readings; `scan` names a valid archive.org item and page numbers; `kind` and `position` take known values. |
+| `texts` | Required fields; refs are unique and start with the work's `ref_prefix`; texts are non-empty and contain no markup; `source_ids` are in the manifest; emphasis spans are in range; every `changed_by` quote is in its text and names a real amendment; every division has segments; every URL field is http(s). For texts read from scans: each `uncertain` span lies in order inside its text (or its division's heading line, salutation or signature) and the text there is one of the scans' readings; `scan` names a valid archive.org item and page numbers; `kind` and `position` take known values; each `corrected` span lies in order inside its text, apart from the uncertain words, and names who corrected it and when. |
+| `corrections` | Each file in `corrections/` is named after a work; each line has exactly at, by, index, now, ref, was, names a passage of that work, a GitHub login and a date, and gives one line of text. |
 | `reproducible` | Re-runs every importer into a temporary directory and requires `texts/` and `cases/` to match byte for byte. Every file in them must come from an importer. |
 | `refs` | Every ref in `refs.lock` still exists. Published refs are never dropped or renumbered. |
 | `links` | Known keys and link types; ids match `lnk_…` and are unique across all files; both refs exist; quotes are exact substrings (whitespace and quote-mark style only); a rationale, or a source for imported links; `created_by` is complete; proposals are `suggested`; reviewed links name a reviewer; `overrules` links are case-to-case and cite a source; `interprets` links start from a case; URLs are http(s). |
@@ -152,7 +156,8 @@ Unit tests in `tests/` exercise these checks against bad records.
 
 `make build` also runs `tools/check_site.py` on the built site: one strict
 Content Security Policy per page (only `'self'`, hashes, and
-`'wasm-unsafe-eval'` for search), no third-party or inline scripts, no inline
+`'wasm-unsafe-eval'` for search; the errata page alone may load page images
+from the Internet Archive and UNT), no third-party or inline scripts, no inline
 event handlers or style attributes, only http(s) absolute URLs, no broken
 internal links or anchors, every segment ref rendered on some page, and the
 free-tier budgets of decision 15.
