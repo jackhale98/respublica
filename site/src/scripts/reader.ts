@@ -269,6 +269,81 @@ if (headings.length && "IntersectionObserver" in window) {
   update();
 }
 
+// ---------------------------------------------------------------- swipe
+
+// On screens where the contents are a drawer, a left-to-right swipe across
+// the page opens them and a right-to-left swipe closes them. Swipes that
+// start at the very left edge are left to the browser (back), and swipes
+// inside the passage panel, dialogs or wide content are ignored.
+let swipe: { x: number; y: number; t: number } | null = null;
+document.addEventListener("touchstart", (e) => {
+  swipe = null;
+  if (!tocDrawer.matches || e.touches.length !== 1) return;
+  const t = e.touches[0];
+  const target = e.target as HTMLElement;
+  if (t.clientX < 24 || target.closest("dialog, [data-panel], pre, table, input, textarea, .graph-canvas")) return;
+  swipe = { x: t.clientX, y: t.clientY, t: performance.now() };
+}, { passive: true });
+document.addEventListener("touchend", (e) => {
+  if (!swipe) return;
+  const t = e.changedTouches[0];
+  const dx = t.clientX - swipe.x, dy = t.clientY - swipe.y, dt = performance.now() - swipe.t;
+  swipe = null;
+  if (dt > 800 || Math.abs(dy) > Math.abs(dx) * 0.5 || window.getSelection()?.toString()) return;
+  const open = toc?.classList.contains("open");
+  if (!open && dx > 70 && !panel?.classList.contains("open")) openToc();
+  else if (open && dx < -60) closeToc();
+}, { passive: true });
+
+// ---------------------------------------------------------------- place bar
+
+// Scrolling back up a little shows a slim bar under the header naming the
+// page and the division being read; scrolling down, or reaching the top,
+// hides it. The bar opens the contents (a drawer on narrow screens; on wide
+// ones, where the contents are always shown, it scrolls to the division).
+const placebar = document.querySelector<HTMLElement>("[data-placebar]");
+const placeHeadings = Array.from(document.querySelectorAll<HTMLElement>("[data-place]"));
+const docHead = document.querySelector<HTMLElement>(".doc-head");
+if (placebar) {
+  const here = placebar.querySelector<HTMLElement>("[data-placebar-here]")!;
+  let lastY = window.scrollY, turnY = lastY, shown = false, current: HTMLElement | undefined;
+  const show = (on: boolean) => {
+    if (on === shown) return;
+    shown = on;
+    // Sit just under the site header, whatever its height on this screen.
+    const header = document.querySelector<HTMLElement>(".site-header");
+    if (on && header) placebar.style.top = `${Math.max(0, header.getBoundingClientRect().bottom)}px`;
+    placebar.classList.toggle("show", on);
+    placebar.toggleAttribute("inert", !on);
+  };
+  const place = () => {
+    const top = ((document.querySelector(".site-header") as HTMLElement)?.offsetHeight ?? 0) + 72;
+    let best: HTMLElement | undefined;
+    for (const h of placeHeadings) if (h.getBoundingClientRect().top <= top) best = h;
+    current = best;
+    // "Article I, Section 8": a section heading's label already names its article.
+    here.textContent = best?.dataset.place ?? "";
+  };
+  const onScroll = () => {
+    const y = window.scrollY;
+    const pastHead = docHead ? docHead.getBoundingClientRect().bottom < 0 : y > 300;
+    if ((y > lastY) !== (lastY > turnY)) turnY = lastY; // direction changed
+    if (!pastHead) show(false);
+    else if (y < turnY - 24) { place(); show(true); }
+    else if (y > turnY + 12) show(false);
+    lastY = y;
+  };
+  window.addEventListener("scroll", () => requestAnimationFrame(onScroll), { passive: true });
+  placebar.querySelector("[data-placebar-open]")?.addEventListener("click", () => {
+    if (tocDrawer.matches) { show(false); openToc(); }
+    else (current ?? docHead)?.scrollIntoView({ block: "start", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  });
+  placebar.querySelector("[data-placebar-top]")?.addEventListener("click", () => {
+    show(false);
+    window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  });
+}
+
 // ---------------------------------------------------------------- text size
 
 const SIZES = ["s", "m", "l", "xl"];

@@ -8,10 +8,25 @@ import Panel from "../components/Panel.astro";
 
 // Reader shell: contents (slot "toc"), the text (default slot) and the
 // passage panel (slot "panel" holds its default content).
-const { title, description, section, progress = false, pageId } = Astro.props;
+// `place` names the page in the floating bar that appears when the reader
+// scrolls back up ("Federalist No. 10", "Constitution"); the bar adds the
+// division being read on pages with headings.
+const { title, description, section, progress = false, pageId, place = title } = Astro.props;
 ---
 <Base title={title} description={description} section={section}>
   {progress && <div class="progress" aria-hidden="true"></div>}
+  <div class="placebar" data-placebar inert>
+    <div class="container placebar-inner">
+      <button class="placebar-btn" type="button" data-placebar-open aria-label="Open contents">
+        <Icon name="list" />
+        <span class="placebar-text">
+          <span class="placebar-work">{place}</span>
+          <span class="placebar-here" data-placebar-here></span>
+        </span>
+      </button>
+      <button class="icon-btn placebar-top" type="button" data-placebar-top aria-label="Back to top"><Icon name="up" /></button>
+    </div>
+  </div>
   <div class="container reader" data-reader data-conn-url={href(`/data/conn/${pageId}.json`)} data-graph-url={href(`/data/graph/${pageId}.json`)}>
     <nav class="toc" id="toc" aria-label="Contents" data-toc-nav>
       <button class="icon-btn toc-close" type="button" data-toc-close aria-label="Close contents"><Icon name="x" /></button>

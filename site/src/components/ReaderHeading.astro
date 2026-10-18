@@ -10,11 +10,11 @@ const num = space > 0 ? label.slice(space + 1) : label;
 ---
 {block.level === 1 ? (
   <Fragment>
-    <h2 class="rh rh-1" id={block.anchor} data-toc={block.ref}>
+    <h2 class="rh rh-1" id={block.anchor} data-toc={block.ref} data-place={block.label}>
       {kicker ? <Fragment><span class="rh-kicker">{kicker}</span><span class="rh-num">{num}</span></Fragment> : label}
     </h2>
     {block.notes && <ul class="rh-notes" data-pagefind-ignore>{block.notes.map((n) => <li>{n}</li>)}</ul>}
   </Fragment>
 ) : (
-  <h3 class="rh rh-2" id={block.anchor} data-toc={block.ref}>{label}</h3>
+  <h3 class="rh rh-2" id={block.anchor} data-toc={block.ref} data-place={block.label}>{label}</h3>
 )}

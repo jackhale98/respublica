@@ -369,3 +369,20 @@ CommonHall gradient from `tokens.css`.
   same animation once. Its animations all begin with `#rpeggGo` and freeze
   on the resting pose; `site.ts` makes it a button only when JavaScript runs
   and motion is allowed, so without either it is just the logo.
+
+## 31. Reader gestures and the place bar
+
+- **Swipe for contents.** Where the contents are a drawer (below 80rem), a
+  left-to-right swipe across the page opens them and a right-to-left swipe
+  closes them. A swipe must be mostly horizontal, at least 70px, and quick;
+  swipes that start within 24px of the left edge are left to the browser's
+  own back gesture, and swipes in the passage panel, dialogs, tables or
+  form fields are ignored.
+- **Place bar.** Scrolling back up a little (24px), once past the page
+  heading, shows a slim bar under the header naming the page ("Federalist
+  No. 10 · The Same Subject Continued…", "Constitution") and, on pages with
+  headings, the division being read ("Article I, Section 9"). Scrolling down
+  or returning to the top hides it. The bar opens the contents on narrow
+  screens and scrolls to the division's heading on wide ones; a button goes
+  back to the top. It is `inert` while hidden, absent without JavaScript,
+  and does not animate for readers who prefer reduced motion.

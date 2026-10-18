@@ -18,7 +18,7 @@ const num = (label) => label.split(" ").at(-1);
 const heading = d.title || d.label;
 const printed = d.publication.map((l) => l).join(" ");
 ---
-<Reader title={page.title} section={work.id} pageId={page.id} progress description={`${d.label}${d.title ? `: ${d.title}` : ""}. ${authorText(attr)}.`}>
+<Reader title={page.title} section={work.id} pageId={page.id} place={d.title ? `${d.label} · ${d.title}` : d.label} progress description={`${d.label}${d.title ? `: ${d.title}` : ""}. ${authorText(attr)}.`}>
   <ol class="crumbs" slot="crumbs">
     <li><a href={href("/")}>Library</a></li>
     {debate && <li><a href={href("/ratification/")}>Ratification debate</a></li>}
