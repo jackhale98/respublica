@@ -6,6 +6,7 @@
 
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 const KEY = "rp-review";
+const CONF_KEY = "rp-review-confidence"; // the confidence level shown, remembered in this browser
 const PER_ISSUE = 150; // GitHub limits how long a new-issue link can be
 const TYPE_LABELS: Record<string, string> = {
   quotes: "quotes", cites: "cites", responds_to: "responds to", rebuts: "rebuts",
@@ -44,12 +45,53 @@ function save() {
   } catch {
     /* kept for this visit only */
   }
-  update();
+  applyFilter();
+update();
 }
 
 function pending(): [string, Decision][] {
   return Object.entries(decisions).filter(([, v]) => !v.sent);
 }
+
+// ---------------------------------------------------------------- confidence filter
+
+const filterBox = root.querySelector<HTMLElement>("[data-conf-filter]")!;
+let level = "all";
+try {
+  level = localStorage.getItem(CONF_KEY) || "all";
+} catch {
+  /* default */
+}
+if (!filterBox.querySelector(`[data-conf="${level}"]`)) level = "all";
+
+const shown = (conf: string) => level === "all" || conf === level;
+
+function applyFilter() {
+  filterBox.querySelectorAll<HTMLButtonElement>("[data-conf]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.conf === level)));
+  root.querySelectorAll<HTMLElement>("[data-batch]").forEach((b) => {
+    b.hidden = level !== "all" && !(b.dataset[level] || "").trim();
+    b.querySelectorAll<HTMLElement>(".rv-link").forEach((c) => (c.hidden = !shown(c.dataset.conf || "")));
+    const all = b.querySelector<HTMLButtonElement>(".rb-all");
+    if (all) all.textContent = level === "all" ? "Approve the undecided" : `Approve the undecided ${level}-confidence links`;
+  });
+  root.querySelectorAll<HTMLElement>(".review-group").forEach((g) => {
+    g.hidden = ![...g.querySelectorAll<HTMLElement>("[data-batch]")].some((b) => !b.hidden);
+  });
+}
+
+filterBox.hidden = false;
+filterBox.querySelectorAll<HTMLButtonElement>("[data-conf]").forEach((b) =>
+  b.addEventListener("click", () => {
+    level = b.dataset.conf || "all";
+    try {
+      if (level === "all") localStorage.removeItem(CONF_KEY);
+      else localStorage.setItem(CONF_KEY, level);
+    } catch {
+      /* kept for this visit only */
+    }
+    applyFilter();
+  }),
+);
 
 // ---------------------------------------------------------------- sending
 
@@ -162,6 +204,7 @@ function paint(card: HTMLElement) {
 function card(link: Link): HTMLElement {
   const c = el("article", "rv-link");
   c.dataset.id = link.id;
+  c.dataset.conf = link.confidence;
   const head = el("header", "rv-head");
   const conf = el("span", `rv-conf ${link.confidence}`, `${link.confidence} confidence`);
   head.append(el("span", "rv-type", TYPE_LABELS[link.type] || link.type), conf, el("code", "rv-id", link.id));
@@ -224,12 +267,14 @@ async function load(details: HTMLDetailsElement) {
     const all = el("button", "btn btn-ghost rb-all", "Approve the undecided");
     all.type = "button";
     all.addEventListener("click", () => {
-      for (const l of data.links) if (!decisions[l.id]) decisions[l.id] = { d: "approve" };
+      // Only the links shown: with a confidence level chosen, the others are left undecided.
+      for (const l of data.links) if (!decisions[l.id] && shown(l.confidence)) decisions[l.id] = { d: "approve" };
       save();
       body.querySelectorAll<HTMLElement>(".rv-link").forEach(paint);
     });
     tools.append(all);
     body.append(tools, ...data.links.map(card));
+    applyFilter();
   } catch {
     delete details.dataset.loaded;
     body.replaceChildren(el("p", "review-empty", "Could not load this batch. Close it and open it again to retry."));
@@ -242,4 +287,5 @@ root.querySelectorAll<HTMLDetailsElement>("details[data-batch]").forEach((d) => 
   });
 });
 
+applyFilter();
 update();

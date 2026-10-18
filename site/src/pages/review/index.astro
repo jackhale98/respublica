@@ -33,6 +33,17 @@ const review = loadReview();
       <p>Decisions are kept in this browser until you send them. The criteria are in <a href={`https://github.com/${review.repo}/blob/main/docs/linking.md`} rel="noopener">the linking guide</a>.</p>
     </aside>
 
+    <div class="review-filter" role="group" aria-labelledby="rf-label" data-conf-filter hidden>
+      <span id="rf-label" class="rf-label">Show</span>
+      <button type="button" data-conf="all" aria-pressed="true">All <span>{formatNumber(review.total)}</span></button>
+      {["high", "medium", "low"].filter((c) => review.by_confidence[c]).map((c) => (
+        <button type="button" data-conf={c} aria-pressed="false">
+          <span class={`rf-dot ${c}`} aria-hidden="true"></span>{c[0].toUpperCase() + c.slice(1)} confidence <span>{formatNumber(review.by_confidence[c])}</span>
+        </button>
+      ))}
+      <p class="rf-note">Links are listed high confidence first in every batch. With a level chosen, batches show only those links, and “Approve the undecided” approves only them.</p>
+    </div>
+
     <noscript><p class="review-empty">Reviewing needs JavaScript. You can also review from the command line: <code>python3 -m tools.links review --reviewer NAME</code>.</p></noscript>
 
     {review.groups.map((g) => (
@@ -43,9 +54,15 @@ const review = loadReview();
         </div>
         <div class="review-batches">
           {g.batches.map((b) => (
-            <details class="review-batch card" data-batch={b.batch} data-ids={b.ids.join(" ")}>
+            <details class="review-batch card" data-batch={b.batch} data-ids={b.ids.join(" ")}
+                     data-high={b.by_confidence.high.join(" ")} data-medium={b.by_confidence.medium.join(" ")} data-low={b.by_confidence.low.join(" ")}>
               <summary>
                 <span class="rb-label">{b.label}</span>
+                <span class="rb-conf" aria-label={["high", "medium", "low"].filter((c) => b.by_confidence[c].length).map((c) => `${b.by_confidence[c].length} ${c}`).join(", ")}>
+                  {["high", "medium", "low"].filter((c) => b.by_confidence[c].length).map((c) => (
+                    <span class={`rb-c ${c}`} title={`${b.by_confidence[c].length} ${c} confidence`}>{b.by_confidence[c].length}</span>
+                  ))}
+                </span>
                 <span class="rb-count" data-batch-count>{b.count} {b.count === 1 ? "link" : "links"}</span>
               </summary>
               <div class="rb-body" data-batch-body><p class="review-empty">Loading…</p></div>
