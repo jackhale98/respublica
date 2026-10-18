@@ -157,3 +157,26 @@ conduct but voted to ratify) is `other`.
   Wilson's speech, Fabius, Aristides, Randolph, Mason's Objections, Marcus,
   Civis, A Plebeian): planned. That scan has missing pages and bracketed
   original page numbers that need handling first.
+
+## Supreme Court cases (phase 7, in progress)
+
+**Which cases interpret which clause** come from the *Constitution of the
+United States of America: Analysis and Interpretation* (the Constitution
+Annotated), 2022 print edition, prepared by the Congressional Research
+Service and published by the Government Publishing Office: govinfo package
+`GPO-CONAN-2022`, granules 7–42 (the Preamble, each article and amendment,
+and the Appendix), fetched as PDFs (`conan-2022-{n}`). It is a U.S.
+Government work in the public domain. `importers/conan.py` reads it with
+`tools/pdf.py`:
+
+- the essays on each printed page, by their ids (`ArtI.S8.C3.2.1`), and so
+  the clause each discusses (`Constitution.1.8.3`);
+- the Table of Cases: each case cited and the pages that cite it (6,702
+  entries, 6,270 of them Supreme Court decisions);
+- the Table of Supreme Court Decisions Overruled by Subsequent Decisions
+  (235 rows), the only source for `overrules` links.
+
+**Case texts and identifiers** will come from CourtListener (Free Law
+Project), keyed by cluster ID as CommonHall does. Its API needs a free
+token; nothing is imported from it yet. Which cases form the first set is
+an open decision (decision 39).

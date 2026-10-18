@@ -535,3 +535,28 @@ A workflow records them.
   without it.
 - Links may carry a `review_note`.
 
+
+## 39. The Constitution Annotated as the source for case links
+
+- **Source.** Case-to-clause links will be imported from the 2022 print
+  edition of the Constitution Annotated (govinfo `GPO-CONAN-2022`), as
+  PLAN.md proposes: an official, public-domain, expert-written source, so
+  no agent judges what a case interprets. Overrulings come only from its
+  Table of Supreme Court Decisions Overruled by Subsequent Decisions, which
+  counts a decision as overruled only when a majority of the Court said so
+  (rule 7). congress.gov blocks scripts, so the govinfo PDFs are used.
+- **Reading PDFs.** `tools/pdf.py` extracts positioned text with the
+  standard library (cross-reference and object streams, Flate, font
+  encodings and ToUnicode maps, text matrices). Checked against
+  `pdftotext` on Article I (about 340,000 words), 99.8% of words agree; the
+  rest are small capitals in footnotes, which the case import does not use.
+- **How a case meets a clause.** The Table of Cases gives the pages citing
+  each case; each page's essays (from their running heads and headings)
+  give the clauses. A case "is cited in the essays on" a clause when a page
+  of those essays cites it; the count of such pages measures how much the
+  essays discuss it. This is a fact about the Constitution Annotated, and
+  links will say so in their source, never what the case held.
+- **Open: the first set of cases.** Any rule built on these counts is
+  neutral but has edges. For example, cases cited on 10 or more pages give
+  97 cases, including *Brown v. Board of Education* (11) but not *Roe v.
+  Wade* (9) or *Gideon v. Wainwright* (8). The project owner chooses the rule.

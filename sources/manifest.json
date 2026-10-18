@@ -1,5 +1,329 @@
 [
   {
+    "id": "conan-2022-10",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 10: Article III - Judicial Branch.",
+    "path": "sources/raw/conan-2022-10.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "3b398bc3f5878747217078b624d10f6ccb87bbfb45523647b225e948724cd009",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-10.pdf"
+  },
+  {
+    "id": "conan-2022-11",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 11: Article IV - Relationships Between the States.",
+    "path": "sources/raw/conan-2022-11.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "cf863e487df035c6f657ff34cb841c19c4d9d29f7420aa28b87b7b10e9a2d601",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-11.pdf"
+  },
+  {
+    "id": "conan-2022-12",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 12: Article V - Amending the Constitution.",
+    "path": "sources/raw/conan-2022-12.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "79d4afef63f7d67af1b9c76e4c0874e059c05d875c36e48da70b692aea8bd3f3",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-12.pdf"
+  },
+  {
+    "id": "conan-2022-13",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 13: Article VI - Supreme Law.",
+    "path": "sources/raw/conan-2022-13.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "cf2bfe4e01a63898162d46a60321853f0a1fae00b03ac14e9517455d32842be9",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-13.pdf"
+  },
+  {
+    "id": "conan-2022-14",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 14: Article VII - Ratification.",
+    "path": "sources/raw/conan-2022-14.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "2b9f6931ead7da935ed9d369dc6a15664069cc0e250727234700507df10fa1d5",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-14.pdf"
+  },
+  {
+    "id": "conan-2022-15",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 15: First Amendment - Fundamental Freedoms.",
+    "path": "sources/raw/conan-2022-15.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "331b7e4ee8d04f4acc563a6a74298a4d9e44b0bb0138bca7a95c0afa48c73cb1",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-15.pdf"
+  },
+  {
+    "id": "conan-2022-16",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 16: Second Amendment - Right to Bear Arms.",
+    "path": "sources/raw/conan-2022-16.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "33671577dfaa877f641f60c4260445f539b8a29adc5fd2cabd9b9064b4b05428",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-16.pdf"
+  },
+  {
+    "id": "conan-2022-17",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 17: Third Amendment - Quartering Soldiers.",
+    "path": "sources/raw/conan-2022-17.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "be34ffbb3e69edf94b37e535ac9178a68be3156927a1bb194bf0daaf469cf1a7",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-17.pdf"
+  },
+  {
+    "id": "conan-2022-18",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 18: Fourth Amendment - Searches and Seizures.",
+    "path": "sources/raw/conan-2022-18.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "eef9a9e9d4d0a3fe4b946683a84acb6ef8d2a7361c71173230e44bcacb0cb455",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-18.pdf"
+  },
+  {
+    "id": "conan-2022-19",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 19: Fifth Amendment - Rights of Persons.",
+    "path": "sources/raw/conan-2022-19.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "4cfc3f99b565f063ef048464f9d698a463a298e0077079b7e0d027efe65bc944",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-19.pdf"
+  },
+  {
+    "id": "conan-2022-20",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 20: Sixth Amendment - Rights in Criminal Prosecutions.",
+    "path": "sources/raw/conan-2022-20.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "62b5fc0330519127c3652021c2f2572084e8466021398d5b84cc43fb3a5db3b3",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-20.pdf"
+  },
+  {
+    "id": "conan-2022-21",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 21: Seventh Amendment - Civil Trial Rights.",
+    "path": "sources/raw/conan-2022-21.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "dc70a206e1e3e737f2e6fc70779deff9864bcd8c6156950ce954a6d9ab4dc036",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-21.pdf"
+  },
+  {
+    "id": "conan-2022-22",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 22: Eighth Amendment - Cruel and Unusual Punishment.",
+    "path": "sources/raw/conan-2022-22.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "b7a4df4b26f6192b17f14efaf60567d7a687ff3f5021e094cbd2ae9efe0689a0",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-22.pdf"
+  },
+  {
+    "id": "conan-2022-23",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 23: Ninth Amendment - Unenumerated Rights.",
+    "path": "sources/raw/conan-2022-23.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "1c18a2e2ce06fcc0c6b7730b0b43316e12434db0e45b1fedaae159ae3a996403",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-23.pdf"
+  },
+  {
+    "id": "conan-2022-24",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 24: Tenth Amendment - Rights Reserved to the States and the People.",
+    "path": "sources/raw/conan-2022-24.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0c2fd16d5ef4d6919a1fb6ff326b4a426e17eaa09cfc417a48b7785c7b8e239c",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-24.pdf"
+  },
+  {
+    "id": "conan-2022-25",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 25: Eleventh Amendment - Suits Against States.",
+    "path": "sources/raw/conan-2022-25.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "617e8ce0ef0dc882b1f0136bdf56d52eb3bb16d9656524f29b5f1f1fe1bbae9b",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-25.pdf"
+  },
+  {
+    "id": "conan-2022-26",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 26: Twelfth Amendment - Election of President.",
+    "path": "sources/raw/conan-2022-26.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "df6106d3df345c7936010844e86b84b10a221fc1b91d33e12540cffaed0a6877",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-26.pdf"
+  },
+  {
+    "id": "conan-2022-27",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 27: Thirteenth Amendment - Abolition of Slavery.",
+    "path": "sources/raw/conan-2022-27.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "39bb3013196cf4c2d4a0b74b51eae71452a1fe0ae5cfa3b937386f9aa910a23c",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-27.pdf"
+  },
+  {
+    "id": "conan-2022-28",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 28: Fourteenth Amendment - Equal Protection and Other Rights.",
+    "path": "sources/raw/conan-2022-28.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "9aa19e4bc1acfc3b44062d589561a197cccbdcfc982921847a811a819f22c39e",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-28.pdf"
+  },
+  {
+    "id": "conan-2022-29",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 29: Fifteenth Amendment - Right of Citizens to Vote.",
+    "path": "sources/raw/conan-2022-29.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "d6f8f5e9e529a2363c5daf620489c8ec6d7552f093a79409bcaa14d908d423c4",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-29.pdf"
+  },
+  {
+    "id": "conan-2022-30",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 30: Sixteenth Amendment - Income Tax.",
+    "path": "sources/raw/conan-2022-30.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "14bdff5fe5db9856b31fed52d470cbd5dd106ec2f947470d35d72e5da229e1ef",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-30.pdf"
+  },
+  {
+    "id": "conan-2022-31",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 31: Seventeenth Amendment - Popular Election of Senators.",
+    "path": "sources/raw/conan-2022-31.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "2462e2351eb0ad4b373eba6e0f94f64fe853c67728a4122b3b4a2777554c0e60",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-31.pdf"
+  },
+  {
+    "id": "conan-2022-32",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 32: Eighteenth Amendment - Prohibition of Liquor.",
+    "path": "sources/raw/conan-2022-32.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "5af52571ce8af8d8d46739feba7df817df7f3d4d5af403c7f1a41ff03a0fc6b2",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-32.pdf"
+  },
+  {
+    "id": "conan-2022-33",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 33: Nineteenth Amendment - Women's Suffrage.",
+    "path": "sources/raw/conan-2022-33.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "06af60ffe35d09b2e92b26e468999fc3382d1cce90d51a48da29d4ae1e136dfd",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-33.pdf"
+  },
+  {
+    "id": "conan-2022-34",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 34: Twentieth Amendment - Presidential Term and Succession.",
+    "path": "sources/raw/conan-2022-34.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "e9819381996fcc2a22bca3c13919e8b9ab8151ca85f3cc4d63f298db5741692c",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-34.pdf"
+  },
+  {
+    "id": "conan-2022-35",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 35: Twenty-First Amendment - Repeal of Prohibition.",
+    "path": "sources/raw/conan-2022-35.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "c8bfa44b9df5737a19ae08fc3d947af3d27e0b66f80553b43d5c7d9f580f2662",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-35.pdf"
+  },
+  {
+    "id": "conan-2022-36",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 36: Twenty-Second Amendment - Presidential Term Limits.",
+    "path": "sources/raw/conan-2022-36.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "73784dca210ea90c51ddb28080c0015a526a0f38ac7f05f55e5a496bcdcfd0e0",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-36.pdf"
+  },
+  {
+    "id": "conan-2022-37",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 37: Twenty-Third Amendment - District of Columbia Electors.",
+    "path": "sources/raw/conan-2022-37.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0cd46d4a0481fa3edb0dad4e758b2f94beaceb13400b9fdd9143d51bb4cd5301",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-37.pdf"
+  },
+  {
+    "id": "conan-2022-38",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 38: Twenty-Fourth Amendment - Abolition of Poll Tax.",
+    "path": "sources/raw/conan-2022-38.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "111b7636d7f925223594a27ee47f6c243f06d5a3b6f03c8961e79b87acc516dc",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-38.pdf"
+  },
+  {
+    "id": "conan-2022-39",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 39: Twenty-Fifth Amendment - Presidential Vacancy.",
+    "path": "sources/raw/conan-2022-39.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "3ce1670c7552043b2b05a10f1d4c010ab4a92912208c59a5caeb5bf5b568e451",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-39.pdf"
+  },
+  {
+    "id": "conan-2022-40",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 40: Twenty-Sixth Amendment - Reduction of Voting Age.",
+    "path": "sources/raw/conan-2022-40.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "de5db8d1f60bbd2a8e73bd7dce26af6d073e2ba634a07b4518b4a970868c6531",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-40.pdf"
+  },
+  {
+    "id": "conan-2022-41",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 41: Twenty-Seventh Amendment - Congressional Compensation.",
+    "path": "sources/raw/conan-2022-41.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "ade87094a852373467affc3fc2e9912fb74807c40f0c2e8a83ef6181237322ad",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-41.pdf"
+  },
+  {
+    "id": "conan-2022-42",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 42: Appendix and Resources.",
+    "path": "sources/raw/conan-2022-42.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "3373a09b82ead2f557b46067dcf55368aa2238ce00f0901a536da923af1d2714",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-42.pdf"
+  },
+  {
+    "id": "conan-2022-7",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 7: The Preamble.",
+    "path": "sources/raw/conan-2022-7.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "32cf46113b4c750aafd70800b0d88b4e099415c2046123cfa378e79c6e99526c",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-7.pdf"
+  },
+  {
+    "id": "conan-2022-8",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 8: Article I - Legislative Branch.",
+    "path": "sources/raw/conan-2022-8.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "e8df55f4d2eee563615531dd1f3f895333d5f2313fc49ff0cdb98e37bd860cd0",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-8.pdf"
+  },
+  {
+    "id": "conan-2022-9",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
+    "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 9: Article II - Executive Branch.",
+    "path": "sources/raw/conan-2022-9.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "9758f4fc568122ba2d6394ce360066b0820471597db134aa7ca7693c56bc506f",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-9.pdf"
+  },
+  {
     "id": "gutenberg-federalist-18",
     "license": "Text is public domain in the USA. The file itself carries the Project Gutenberg License; Res Publica reproduces only the public-domain text and none of the Project Gutenberg trademark or license material.",
     "notes": "Project Gutenberg eBook #18, The Federalist Papers, plain-text UTF-8.",
