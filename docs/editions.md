@@ -126,6 +126,7 @@ others), which could be imported alongside.
 ligatures ("eflFect"), broken words, and stray marks. Comparing the three
 independent OCR texts of Ford's *Essays* on Cato I (924 words), each pair
 disagrees in about 14 places. Where two of the three agree, the agreed
-reading was correct in every case checked (including original spellings
-such as "analize"); where all three differ, the word needs a human check
-against the page image.
+reading was right in all but one case (including original spellings such as
+"analize"); in that one, two scans shared the same misreading ("youJ"), so
+agreement reduces errors but does not remove them. Where all three differ,
+the word needs a human check against the page image.
