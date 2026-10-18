@@ -6,7 +6,8 @@ Inputs (sources/manifest.json ids):
   nara-bill-of-rights     https://www.archives.gov/founding-docs/bill-of-rights-transcript
   nara-amendments-11-27   https://www.archives.gov/founding-docs/amendments-11-27
 
-Outputs: texts/declaration.json, texts/constitution.json, texts/amendments.json
+Outputs: texts/declaration.json, texts/constitution.json, texts/amendments.json,
+         texts/joint-resolution-1789.json (from the Bill of Rights page)
 
 Numbering follows docs/references.md. The importer only segments the
 transcription and collapses HTML whitespace; it never changes wording,
@@ -337,6 +338,67 @@ def _amendments_11_27() -> list[dict]:
     return out
 
 
+ORDINALS = ("first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth",
+            "eleventh", "twelfth")
+
+
+def import_resolution() -> dict:
+    """The Joint Resolution of Congress of September 25, 1789, proposing
+    twelve amendments, as the National Archives transcribes the enrolled
+    original on its Bill of Rights page. Refs (docs/references.md):
+    Resolution1789.Heading (the line naming the Congress),
+    Resolution1789.{n} for the three paragraphs before the articles (the
+    preamble "THE Conventions of a number of the States…", the resolving
+    clause, the line introducing the articles), Resolution1789.Article.{n}
+    for "Article the first…" to "Article the twelfth…", and
+    Resolution1789.Attest for the attestation and signatures."""
+    root = parse_html(read_raw_text(BOR_SRC))
+    blocks = _blocks_after_h1(root, "The Bill of Rights: A Transcription")
+    start = next((i for i, b in enumerate(blocks) if b.tag == "h2" and b.text().startswith(
+        "Transcription of the 1789 Joint Resolution")), None)
+    _expect(start is not None, "the 1789 Joint Resolution heading was not found")
+    paras = []
+    for b in blocks[start + 1:]:
+        if b.tag == "h2":
+            break
+        if b.tag == "p" and b.text():
+            paras.append(b.text())
+    _expect(paras[0].startswith("Congress of the United States begun and held"), f"unexpected heading {paras[0][:40]!r}")
+    _expect(paras[1].startswith("THE Conventions of a number of the States"), "expected the preamble")
+    _expect(paras[2].startswith("RESOLVED by the Senate and House"), "expected the resolving clause")
+    _expect(paras[3].startswith("ARTICLES in addition to"), "expected the line introducing the articles")
+    articles = paras[4:16]
+    for n, (t, word) in enumerate(zip(articles, ORDINALS), 1):
+        _expect(t.startswith(f"Article the {word}..."), f"expected Article the {word}, got {t[:30]!r}")
+    _expect(len(articles) == 12 and paras[16] == "ATTEST,", "expected twelve articles, then ATTEST,")
+    _expect("Speaker of the House of Representatives" in paras[17], "expected the signatures after ATTEST,")
+    segments = [{"label": "Heading", "ref": "Resolution1789.Heading", "text": paras[0]}]
+    for n, (t, what) in enumerate(zip(paras[1:4], ("Preamble", "Resolving clause", "The articles")), 1):
+        segments.append({"label": f"Joint Resolution of 1789, ¶ {n} ({what.lower()})", "ref": f"Resolution1789.{n}",
+                         "text": t})
+    for n, (t, word) in enumerate(zip(articles, ORDINALS), 1):
+        segments.append({"label": f"Article the {word} (1789)", "ref": f"Resolution1789.Article.{n}", "text": t})
+    segments.append({"label": "Attestation", "ref": "Resolution1789.Attest", "text": f"{paras[16]}\n{paras[17]}"})
+    return {
+        "attribution": {"kind": "body", "names": ["Congress of the United States"]},
+        "date": "1789-09-25",
+        "divisions": [{"label": "Articles", "level": 1, "ref": "Resolution1789.Article"}],
+        "edition": {
+            "name": "National Archives transcription of the enrolled original",
+            "notes": "The Joint Resolution of Congress proposing twelve amendments to the States, as the National "
+                     "Archives transcribes the enrolled original on its Bill of Rights page; spelling and "
+                     "punctuation follow the original. As the National Archives notes there, Articles 3-12 were "
+                     "ratified as the first ten amendments (December 15, 1791), Article 2 as the 27th (1992), and "
+                     "Article 1 never.",
+        },
+        "id": "joint-resolution-1789",
+        "ref_prefix": "Resolution1789",
+        "segments": segments,
+        "source_ids": [BOR_SRC],
+        "title": "The Joint Resolution of Congress Proposing Twelve Amendments",
+    }
+
+
 def import_amendments() -> dict:
     segments: list[dict] = []
     divisions: list[dict] = []
@@ -387,7 +449,7 @@ def import_amendments() -> dict:
 def run(out_dir: Path = TEXTS_DIR) -> list[Path]:
     paths = []
     for name, doc in (("declaration", import_declaration()), ("constitution", import_constitution()),
-                      ("amendments", import_amendments())):
+                      ("amendments", import_amendments()), ("joint-resolution-1789", import_resolution())):
         path = out_dir / f"{name}.json"
         write_json(path, doc)
         paths.append(path)
