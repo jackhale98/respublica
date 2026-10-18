@@ -14,6 +14,7 @@ const declSigners = declBlocks.filter((b) => b.ref.startsWith("Declaration.Signe
 const constitution = works.constitution;
 const amendments = works.amendments;
 const federalist = works.federalist;
+const resolution = works["joint-resolution-1789"];
 const articles = loadPage("constitution").toc.filter((t) => t.kind === "division" && t.level === 1 && t.label.startsWith("Article")).length;
 const clauses = loadPage("constitution").blocks.filter((b) => b.type === "passage" && /^Constitution\.\d/.test(b.ref)).length;
 
@@ -97,6 +98,14 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
         <p>All {amendments.top_divisions} amendments, from the Bill of Rights to the Twenty-seventh, in the National Archives transcriptions.</p>
         <div class="work-meta"><span>{amendments.top_divisions} amendments</span><span>{formatDate(amendments.date)}</span></div>
       </a>
+      {resolution && (
+        <a class="card work-card w-amendments" href={href(resolution.url)}>
+          <span class="work-icon"><Icon name="book" /></span>
+          <h3>The Bill of Rights as proposed</h3>
+          <p>The Joint Resolution of {formatDate(resolution.date)}: Congress sends the States twelve articles, saying that conventions of several States had asked for “further declaratory and restrictive clauses”.</p>
+          <div class="work-meta"><span>12 articles</span><span>10 ratified in 1791</span></div>
+        </a>
+      )}
       {federalist && (
         <a class="card work-card w-federalist" href={href(federalist.url)}>
           <span class="work-icon"><Icon name="feather" /></span>

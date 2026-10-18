@@ -13,7 +13,7 @@ the rules every contributor (human or agent) follows.
 | Phase | State |
 |---|---|
 | 0. Setup | Done: Makefile, stdlib-only Python tools, `make verify`, Astro site with CSP, CI with pinned actions, deploy to Cloudflare (respublicalibrary.org), free-tier budgets, MIT + CC BY-SA 4.0. |
-| 1. Constitution | Done: Constitution and all 27 amendments imported from National Archives transcriptions; every clause renders with its ref. The Declaration of Independence added the same way (each grievance its own passage). |
+| 1. Constitution | Done: Constitution and all 27 amendments imported from National Archives transcriptions; every clause renders with its ref. The Declaration of Independence added the same way (each grievance its own passage), and Congress's 1789 Joint Resolution proposing twelve amendments (each article its own passage). |
 | 2. Federalist | Done: all 85 papers from Project Gutenberg eBook #18, with paragraph refs, footnotes and attribution (disputed papers marked). |
 | 3. Explicit links | Linked: 289 suggested links from 51 Federalist papers to 73 clauses of the Constitution (81 quotations, 208 citations), awaiting human review. See [`docs/linking.md`](docs/linking.md). |
 | 4. Connections panel and graph | Done: the panel (a bottom sheet on phones) lists each passage's connections; "Graph" opens a two-hop graph of them (force layout with zoom, pan and drag; d3), filterable by link type, side (founding documents, Federalist, Anti-Federalist) and review status. |

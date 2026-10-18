@@ -75,6 +75,24 @@ and Amendment XVII's three paragraphs are `Amendment.17.1`–`Amendment.17.3`.
 A section with more than one paragraph (XXIII §1, XXV §4) is one segment; its
 paragraphs are separated by a blank line in the text.
 
+## The Joint Resolution of 1789 (`texts/joint-resolution-1789.json`)
+
+Source: the National Archives transcription of the enrolled original, on its
+Bill of Rights page.
+
+| Ref | Covers |
+|---|---|
+| `Resolution1789.Heading` | "Congress of the United States begun and held at the City of New-York…" |
+| `Resolution1789.1` | The preamble: "THE Conventions of a number of the States…" |
+| `Resolution1789.2` | The resolving clause: "RESOLVED by the Senate and House…" |
+| `Resolution1789.3` | "ARTICLES in addition to, and Amendment of the Constitution…" |
+| `Resolution1789.Article.{n}` | "Article the first…" to "Article the twelfth…", `n` = 1–12 |
+| `Resolution1789.Attest` | "ATTEST," and the three signatures |
+
+The articles keep the 1789 numbering: Article the third is the First
+Amendment, Article the twelfth the Tenth, and Article the second the
+Twenty-seventh.
+
 ## The Federalist (`texts/federalist.json`)
 
 Source: Project Gutenberg eBook #18 (see `docs/editions.md`).

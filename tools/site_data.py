@@ -32,6 +32,8 @@ WORKS = {
     "declaration": {"collection": "founding", "order": 0, "paged": False, "short": "Declaration", "slug": "declaration"},
     "constitution": {"collection": "founding", "order": 1, "paged": False, "short": "Constitution", "slug": "constitution"},
     "amendments": {"collection": "founding", "order": 2, "paged": False, "short": "Amendments", "slug": "amendments"},
+    "joint-resolution-1789": {"collection": "founding", "order": 2.5, "paged": False, "short": "Resolution of 1789",
+                              "slug": "joint-resolution-1789"},
     "federalist": {"collection": "federalist", "order": 3, "paged": True, "short": "Federalist", "slug": "federalist"},
 }
 

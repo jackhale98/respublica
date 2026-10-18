@@ -52,8 +52,10 @@ and quote-mark style (curly vs straight). See `tools/common.py`,
   `nara-bill-of-rights`, section "The U.S. Bill of Rights": the first ten
   amendments "in their original form") and of Amendments XI–XXVII (source
   `nara-amendments-11-27`).
-- The 1789 Joint Resolution proposing twelve articles is on the same page but
-  is not imported yet.
+- The 1789 Joint Resolution proposing twelve articles, on the same page, is
+  its own work (`texts/joint-resolution-1789.json`): the heading line, the
+  preamble, the resolving clause, the twelve articles and the attestation,
+  as transcribed (including "Article the first..." with its three periods).
 - The Archives' editorial matter for each amendment (dates passed and
   ratified, "Note:" lines, and footnotes such as "*Superseded by section 3 of
   the 20th amendment.") is stored verbatim as `notes` on the amendment's
