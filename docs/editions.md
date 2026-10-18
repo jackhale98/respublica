@@ -140,7 +140,14 @@ conduct but voted to ratify) is `other`.
 - **Brutus** (sixteen essays in the *New-York Journal*, 1787–88). It is in
   neither Ford volume nor McMaster and Stone; no 1787–88 issues of the
   *New-York Journal* are on the Internet Archive; and the issues of the
-  *American Museum* checked do not reprint it.
+  *American Museum* checked do not reprint it. The original Greenleaf
+  printing is in the Library of Congress's Chronicling America (page images
+  and word-level OCR) for 13 essays (II, III and XI are not online). There is
+  only one scan of each page and its OCR is poor, so the consensus method
+  cannot be used; every line would need correcting against the image. The
+  *Debates … of the Commonwealth of Massachusetts* (1856, Internet Archive)
+  reprints I–IV from the Boston *Independent Chronicle* in clean type.
+  Adding either is a new upstream source and waits on the project owner.
 - **The Federal Farmer's *Additional Letters* (1788).** The only copies found
   are 1962 facsimile reprints, lending-only.
 - The rest of Ford's *Pamphlets* (the Columbian Patriot, Jay, Webster, Coxe,

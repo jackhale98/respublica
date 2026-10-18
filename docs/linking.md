@@ -168,3 +168,15 @@ Confidence and rationale follow run 1. For links between essays: `high` when
 the text names the writer or piece and the target is unambiguous; `medium`
 when it names the writer but the essay meant has to be worked out from dates
 or subject; `low` only with a stated doubt.
+
+**Results.** 67 runs (one per essay, plus three for The Federalist's notes
+naming debate writers) proposed 410 links: 331 to 74 clauses of the
+Constitution, 2 to the Declaration, and 77 between essays (14 `responds_to`,
+8 `rebuts`, the rest `quotes` and `cites`); 216 `high`, 194 `medium`. A
+second agent checked all 81 links between essays and a random sample of 70
+links to the Constitution against both texts. It found 4 wrong (two general
+recaps of earlier numbers, a piece named only by description, and a bare
+mention at `high`) and 4 doubtful (a section number without its article, a
+quotation describing a Convention draft rather than the signed text, a
+rationale explaining a clause, and a response named only in the paper's
+note); all eight were removed or corrected before publishing.

@@ -410,8 +410,10 @@ Refs: `docs/references.md`.
   in `docs/linking.md`, "Run 2".
 - **Independent check.** A second agent, which did not write the links,
   checked every link between essays and a random sample of the links to the
-  Constitution against both texts; links it found wrong were removed or
-  corrected before publishing, and the rest are left for human review.
+  Constitution against both texts (151 links). Of those, 143 were sound;
+  the 8 it found wrong or doubtful were removed or corrected before
+  publishing (details in `docs/linking.md`). Everything is left for human
+  review.
 - **Signatures run into the text.** Linking showed signatures the importer
   had left at the end of an essay's last paragraph, sometimes with a place
   and date after them ("… oppression ? CenTinei,. Philadelphia, Nov. 30,
