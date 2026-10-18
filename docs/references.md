@@ -119,20 +119,24 @@ Essays and letters imported by `importers/ratification.py` (series listed in
 
 ## Retired refs
 
-When a correction joins two passages that were wrongly imported as one
-(a paragraph split at a page break, for example), the second ref is
-**retired**, never reused, and the passages after it keep their numbers:
-`Cassius.4.5` was merged into `Cassius.4.4`, and Cassius IV goes on from
-`Cassius.4.6`. A correction like this needs an erratum and a decision by the
-project owner (`docs/decisions.md` 35).
+Once the site has launched, a correction that joins two passages wrongly
+imported as one (a paragraph split at a page break, for example) never
+renumbers: the second ref is **retired**, never reused, and the passages
+after it keep their numbers. Each needs an erratum and a decision by the
+project owner.
 
-- The work's file lists it: `"retired": [{"ref", "merged_into", "reason"}]`,
-  written by the importer from its configuration.
+- The importer's series configuration names it (`"retired": {"X.4.5":
+  "X.4.4"}` with a `retired_reason`), and the work's file lists it:
+  `"retired": [{"ref", "merged_into", "reason"}]`.
 - It stays in `refs.lock`. `make verify` accepts it there only while the
   passage it was merged into exists, and fails if the ref is used again.
 - Links may not point at it.
 - Its URL still works: the site keeps an anchor with its id inside the
-  passage it was merged into (`/cassius/4/#Cassius.4.5`).
+  passage it was merged into.
+
+Before launch, the project owner may instead approve renumbering, and the
+refs that no longer exist are removed from `refs.lock` (decision 36:
+Cassius IV).
 
 ## Cases (planned)
 

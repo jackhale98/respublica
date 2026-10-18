@@ -584,13 +584,6 @@
   "id": "cassius",
   "position": "federalist",
   "ref_prefix": "Cassius",
-  "retired": [
-    {
-      "merged_into": "Cassius.4.4",
-      "reason": "One paragraph imported as two, split at the page's running head; joined, at the project owner's decision (docs/errata.md 17, docs/decisions.md 35).",
-      "ref": "Cassius.4.5"
-    }
-  ],
   "segments": [
     {
       "label": "Cassius 1, ¶ 1",
@@ -1237,6 +1230,20 @@
       "text": "Vox Populi requests the inhabitants of Massachusetts \" to pay that attention to the federal constitution which the importance of its nature demands;\" and informs them, that they \" have hazarded their lives and fortunes (by the way, a wonderful piece of news) to establish a government founded on the principles of genuine civil liberty,\" &c. I join with him in his request. And am confident if that attention which is requisite is paid to the proposed plan of federal government, that it will meet with the hearty approbation of every well wisher to the freedom and happiness of his country. It is true, that the inhabitants of America have hazarded their lives and fortunes to establish a free and efficient government ; but will Vox Populi, that moon-light prophet, pretend to say that such a government is at present established? Vox Populi goes on to inform us, that, by adopting the new plan of government, we shall make inroads on the constitution of this State, which he seems to think will be sacrilegious. His narrow and contracted ideas, his weak, absurd, and contemptible arguments, discover him to be possessed of a mind clouded with the gloom of ignorance, and thick with the grossest absurdity. Strange it is, that that babbler should suppose it unjustifiable for the people to alter or amend, or even entirely abolish, what they themselves have established. But says Vox Populi, perhaps the new plan will not have the same number to approbate it, that the constitution of this State had. Perhaps Vox Populi will be hung for high treason. There is, in my opinion, as much probability in the latter perhaps, as in the former. Pray, Mr. Vox Populi, if I may be so bold, what reason have you to judge that there will not be so many for adopting the constitution proposed by the convention, as there were for adopting the constitution of this State some years ago? Do you suppose the inhabitants of Massachusetts have depreciated in their understanding? or do you suppose that the sublimity of your jargon has blinded them with respect to their best interests? If you suppose the former, I think you have not been much conversant with them of late, or that your intellects are something defective. If you suppose the latter, in my opinion, you are no better than a downright Fool,"
     },
     {
+      "label": "Cassius 4, ¶ 5",
+      "pages": [
+        "17"
+      ],
+      "ref": "Cassius.4.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          29
+        ]
+      },
+      "text": "Vox Populi sets out to touch the consciences of men in office, in representing the solemnity of an oath. It seems almost impossible that any one should be so stupidly blinded to every dictate of reason and common sense, as to start such things as have been mentioned by Vox Populi, to deter men from using their influence to effect the adoption of the new plan of government."
+    },
+    {
       "label": "Cassius 4, ¶ 6",
       "pages": [
         "17"
@@ -1248,7 +1255,7 @@
           29
         ]
       },
-      "text": "Vox Populi sets out to touch the consciences of men in office, in representing the solemnity of an oath. It seems almost impossible that any one should be so stupidly blinded to every dictate of reason and common sense, as to start such things as have been mentioned by Vox Populi, to deter men from using their influence to effect the adoption of the new plan of government."
+      "text": "Can that shallow-pated scribbler suppose that an oath taken by rulers to stand by a form of government, adopted by the people, can be of any force or consideration if the people choose to change that form of government for another more agreeable to their wishes?"
     },
     {
       "label": "Cassius 4, ¶ 7",
@@ -1262,7 +1269,7 @@
           29
         ]
       },
-      "text": "Can that shallow-pated scribbler suppose that an oath taken by rulers to stand by a form of government, adopted by the people, can be of any force or consideration if the people choose to change that form of government for another more agreeable to their wishes?"
+      "text": "But (in order without doubt to strike a greater dread upon their minds) Vox Populi says, \"the oath is registered in Heaven.\" Pray, Mr. Vox Populi, when was you there? and did you really see the oath registered? The constitution of this state was formed, and officers appointed under it, long since the awful battle was fought in Heaven, between Michael and the Prince of Darkness, and I cannot conceive of your admittance there in any other way than under the banners of his Satanick Majesty, who might suppose that such an unparelleled phenomenon would have an effect on the archangel that would be favourable to his cause."
     },
     {
       "label": "Cassius 4, ¶ 8",
@@ -1276,29 +1283,15 @@
           29
         ]
       },
-      "text": "But (in order without doubt to strike a greater dread upon their minds) Vox Populi says, \"the oath is registered in Heaven.\" Pray, Mr. Vox Populi, when was you there? and did you really see the oath registered? The constitution of this state was formed, and officers appointed under it, long since the awful battle was fought in Heaven, between Michael and the Prince of Darkness, and I cannot conceive of your admittance there in any other way than under the banners of his Satanick Majesty, who might suppose that such an unparelleled phenomenon would have an effect on the archangel that would be favourable to his cause."
+      "text": "Vox Populi asserts that the General Court* acted merely officially in laying the proposed plan of government before the people. No man of candour, sense and foresight, Mr. Vox Populi, will ask the reason of the General Court's laying the plan of government proposed by the federal constiution before the people, as their own minds will suggest to them the true reason for it, and none but those who are as stupid and ignorant as yourself, would suppose that the General Court acted merely officially in doing as they did. The General Court were undoubtedly influenced by motives of the best kind in what they did."
     },
     {
       "label": "Cassius 4, ¶ 9",
       "pages": [
-        "17"
-      ],
-      "ref": "Cassius.4.9",
-      "scan": {
-        "item": "essaysonconstitu00forduoft",
-        "leaves": [
-          29
-        ]
-      },
-      "text": "Vox Populi asserts that the General Court* acted merely officially in laying the proposed plan of government before the people. No man of candour, sense and foresight, Mr. Vox Populi, will ask the reason of the General Court's laying the plan of government proposed by the federal constiution before the people, as their own minds will suggest to them the true reason for it, and none but those who are as stupid and ignorant as yourself, would suppose that the General Court acted merely officially in doing as they did. The General Court were undoubtedly influenced by motives of the best kind in what they did."
-    },
-    {
-      "label": "Cassius 4, ¶ 10",
-      "pages": [
         "17",
         "1"
       ],
-      "ref": "Cassius.4.10",
+      "ref": "Cassius.4.9",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1307,6 +1300,20 @@
         ]
       },
       "text": "They without doubt were anxious that the people should have the new plan of government to consider of in due time, and, considering the importance of it, and the tendency it had to promote their happiness, liberty and security, took the first opportunity to present it to them. 'Tis true, Mr. Vox Populi, that you are a member of the legislature; it is also true that you are possessed of a mind as emaciated as the mass of corrupt matter that encircles it. But although you belong to the house of representatives, I trust you are not the mouth of that honourable body; and, if not, pray who authorised you to inform the publick of the motives for their conduct? Did they in an official manner make their motives known to you, and request you to lay them before the publick? Indeed, Mr. Vox Populi, you seem to put on very assuming airs, but I think you had better humble yourself, as your station may, ere long, be lowered."
+    },
+    {
+      "label": "Cassius 4, ¶ 10",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          30
+        ]
+      },
+      "text": "A writer under the signature of Examiner,* has several times pointed out the fallacy of the writings of Vox Populi, and requested that ghost-like scribbler to lay a form of government before the publick in lieu of that which he has taken upon him to condemn ; and has informed him, that if he does not, and still continues scribbling, his modesty will be called in question."
     },
     {
       "label": "Cassius 4, ¶ 11",
@@ -1320,7 +1327,7 @@
           30
         ]
       },
-      "text": "A writer under the signature of Examiner,* has several times pointed out the fallacy of the writings of Vox Populi, and requested that ghost-like scribbler to lay a form of government before the publick in lieu of that which he has taken upon him to condemn ; and has informed him, that if he does not, and still continues scribbling, his modesty will be called in question."
+      "text": "The Examiner is entirely unacquainted with the babbler he justly reproves, or he would not have mentioned anything to him respecting modesty; as he must be sensible that screech-owls are entirely divested of modesty, and he may be assured that Vox Populi is one of those midnight squallers."
     },
     {
       "label": "Cassius 4, ¶ 12",
@@ -1334,7 +1341,7 @@
           30
         ]
       },
-      "text": "The Examiner is entirely unacquainted with the babbler he justly reproves, or he would not have mentioned anything to him respecting modesty; as he must be sensible that screech-owls are entirely divested of modesty, and he may be assured that Vox Populi is one of those midnight squallers."
+      "text": "Inhabitants of Massachusetts ! be constantly on the watch — It requires almost the eyes of an Argus to penetrate into all the schemes of those designing wretches, who are waiting to see you reject the federal system of government, and involve yourselves in all the horrours of anarchy, then to riot with pleasure on your miseries. Disappoint their expectations — adopt the proposed plan of federal government — it will secure to you every blessing which a free and enlightened people can expect to enjoy."
     },
     {
       "label": "Cassius 4, ¶ 13",
@@ -1348,7 +1355,7 @@
           30
         ]
       },
-      "text": "Inhabitants of Massachusetts ! be constantly on the watch — It requires almost the eyes of an Argus to penetrate into all the schemes of those designing wretches, who are waiting to see you reject the federal system of government, and involve yourselves in all the horrours of anarchy, then to riot with pleasure on your miseries. Disappoint their expectations — adopt the proposed plan of federal government — it will secure to you every blessing which a free and enlightened people can expect to enjoy."
+      "text": "Some, who are now in office, but expect soon to leave it, and bid adieu to power, unless they can effect the establishment of a government which shall"
     },
     {
       "label": "Cassius 4, ¶ 14",
@@ -1356,20 +1363,6 @@
         "1"
       ],
       "ref": "Cassius.4.14",
-      "scan": {
-        "item": "essaysonconstitu00forduoft",
-        "leaves": [
-          30
-        ]
-      },
-      "text": "Some, who are now in office, but expect soon to leave it, and bid adieu to power, unless they can effect the establishment of a government which shall"
-    },
-    {
-      "label": "Cassius 4, ¶ 15",
-      "pages": [
-        "1"
-      ],
-      "ref": "Cassius.4.15",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1390,11 +1383,11 @@
       ]
     },
     {
-      "label": "Cassius 4, ¶ 16",
+      "label": "Cassius 4, ¶ 15",
       "pages": [
         "1"
       ],
-      "ref": "Cassius.4.16",
+      "ref": "Cassius.4.15",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [

@@ -168,13 +168,11 @@ class RatificationImportTests(unittest.TestCase):
             doc = json.loads((TEXTS_DIR / f"{wid}.json").read_text(encoding="utf-8"))
             self.assertEqual(len(doc["divisions"]), n, wid)
 
-    def test_a_retired_paragraph_number_is_not_reused(self):
+    def test_a_running_head_read_as_two_blocks_does_not_split_a_paragraph(self):
         doc = json.loads((TEXTS_DIR / "cassius.json").read_text(encoding="utf-8"))
         refs = {s["ref"]: s for s in doc["segments"]}
-        self.assertNotIn("Cassius.4.5", refs)
-        self.assertIn("Cassius.4.6", refs)
-        self.assertIn("respect to their best interests", refs["Cassius.4.4"]["text"])
-        self.assertEqual(doc["retired"][0]["merged_into"], "Cassius.4.4")
+        self.assertIn("blinded them with respect to their best interests", refs["Cassius.4.4"]["text"])
+        self.assertNotIn("Cassius.4.16", refs)
 
     def test_duplicate_printed_numbers_get_letters(self):
         doc = json.loads((TEXTS_DIR / "landholder.json").read_text(encoding="utf-8"))

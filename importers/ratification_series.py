@@ -51,11 +51,6 @@ SERIES = [
         "slug": "Cassius", "work_id": "cassius", "title": "The Letters of Cassius", "short": "Cassius",
         "book": "ford-essays", "pages": (1, 48), "essays": 11,
         "heading": r"CASSIUS,?\s+" + NUM, "signature": "Cassius.",
-        # Imported as two paragraphs until the page's running head was
-        # recognized (docs/errata.md 17; decision 35).
-        "retired": {"Cassius.4.5": "Cassius.4.4"},
-        "retired_reason": "One paragraph imported as two, split at the page's running head; joined, at the "
-                          "project owner's decision (docs/errata.md 17, docs/decisions.md 35).",
         "attribution": {"byline": "Written by James Sullivan", "kind": "single", "names": ["James Sullivan"]},
         "position": "federalist", "date": "1787-09-18/1787-12-25",
     },

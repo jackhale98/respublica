@@ -470,3 +470,14 @@ it stays in `refs.lock`, and its URL leads to an anchor inside
 `Cassius.4.4`. Nothing linked to it. The mechanism is general
 (`docs/references.md`, "Retired refs"), but each use needs an erratum and a
 decision like this one.
+
+## 36. Renumbering before launch
+
+The site has not launched, so the project owner chose to renumber Cassius
+IV rather than retire `Cassius.4.5` (decision 35): the joined paragraph is
+`Cassius.4.4`, the paragraphs after it move up by one (the old 4.6 is now
+4.5), and `Cassius.4.16`, which no longer exists, was removed from
+`refs.lock` at the owner's direction. No link pointed into Cassius IV.
+
+After launch, rule 6 applies without exception and such a correction uses
+retired refs (`docs/references.md`). The mechanism stays in place for that.
