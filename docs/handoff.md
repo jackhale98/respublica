@@ -9,7 +9,8 @@ where the work stands and what comes next.
 
 - **Deploys.** The owner has approved deploying after every finished task:
   run `make verify`, `make build` and a browser check of what changed, then
-  push to `main` (that deploys to GitHub Pages). Agents work on their
+  push to `main` (Cloudflare then builds and deploys it to
+  respublicalibrary.org). Agents work on their
   session's branch and push the same commits to `main`.
 - **Links.** Agents propose; only a person reviews (rule 4). The owner
   reviews on the site's review page (`/review/`), which records decisions
@@ -28,7 +29,7 @@ founding documents, The Federalist, twenty works of the ratification
 debate read from scans, about 740 suggested links awaiting review, the
 connections panel and graph, search, and the review page.
 
-**Phase 7, Supreme Court cases: the first set is imported** (decision 44):
+**Phase 7, Supreme Court cases: the first set is imported** (decision 45):
 
 - 189 cases (`cases/`), chosen by the rules of decisions 41 to 43, each
   keyed by its CourtListener cluster (`importers/courtlistener.py`; the

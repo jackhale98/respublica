@@ -150,7 +150,7 @@ refs that no longer exist are removed from `refs.lock` (decisions 36 and
   first line, or a line after a short one. Each records the printed page it
   starts on (`page`).
 - `Case.{cluster_id}.{paragraph}`: reserved for paragraphs of the majority
-  opinion, which are not imported (decision 44).
+  opinion, which are not imported (decision 45).
 
 A case whose syllabus could not be read reliably has no syllabus refs yet;
 when the syllabus is imported later, its refs are new, not renumbered.

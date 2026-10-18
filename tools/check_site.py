@@ -33,9 +33,9 @@ RESOURCE_RELS = {"stylesheet", "preload", "modulepreload", "prefetch", "icon", "
 # The only CSP source beyond 'self' and hashes: Pagefind compiles WebAssembly.
 ALLOWED_UNSAFE = {"'wasm-unsafe-eval'"}
 
-# Free-tier budgets (docs/decisions.md). GitHub Pages: 1 GB site, ~100 GB/month
-# bandwidth. Cloudflare Pages (the fallback host): 20,000 files, 25 MiB per file.
-# Budgets sit well inside both so growth is caught early.
+# Free-tier budgets (docs/decisions.md 15, 44). Cloudflare static assets:
+# 20,000 files and 25 MiB per file on the free plan. Budgets sit well inside
+# so growth is caught early.
 BUDGET_TOTAL_BYTES = 250 * 2**20
 BUDGET_FILES = 10_000
 BUDGET_FILE_BYTES = 5 * 2**20

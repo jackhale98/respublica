@@ -5,10 +5,10 @@ name: Apply link review
 # decision per line ("approve lnk_…" / "reject lnk_… — note"). This job runs
 # only for issues opened by someone with write access to this repository: it
 # records each decision under that person's GitHub login with
-# `python -m tools.links apply`, runs `make verify`, commits to main, starts
-# the Deploy workflow, and comments on and closes the issue. It uses only the
-# workflow's own GITHUB_TOKEN; no secrets. See docs/linking.md, "Reviewing
-# links".
+# `python -m tools.links apply`, runs `make verify`, commits to main (which
+# Cloudflare builds and deploys, as it does every push), and comments on and
+# closes the issue. It uses only the workflow's own GITHUB_TOKEN; no secrets.
+# See docs/linking.md, "Reviewing links".
 
 on:
   issues:
@@ -29,7 +29,6 @@ jobs:
     permissions:
       contents: write
       issues: write
-      actions: write
     env:
       GH_TOKEN: ${{ github.token }}
       REPO: ${{ github.repository }}
@@ -51,7 +50,7 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version-file: .python-version
-      # Raw sources kept out of git (the U.S. Reports scans, decision 44): cached, then fetched if missing.
+      # Raw sources kept out of git (the U.S. Reports scans, decision 45): cached, then fetched if missing.
       - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: sources/raw/loc-usrep-*.pdf
@@ -66,7 +65,7 @@ jobs:
           python -m tools.links apply --reviewer "$REVIEWER" --text "$RUNNER_TEMP/review.txt" > "$RUNNER_TEMP/result.json"
           cat "$RUNNER_TEMP/result.json"
       - run: make verify
-      - name: Commit, deploy and report
+      - name: Commit and report
         run: |
           read -r approved rejected missing < <(python -c 'import json,sys; r=json.load(open(sys.argv[1])); print(r["approved"], r["rejected"], len(r["not_found"]))' "$RUNNER_TEMP/result.json")
           if git diff --quiet -- links; then
@@ -79,7 +78,6 @@ jobs:
           git add links
           git commit -q -m "Link review by $REVIEWER: $approved approved, $rejected rejected (#$ISSUE)"
           for i in 1 2 3; do git push origin HEAD:main && break; git pull --rebase -q origin main; done
-          gh workflow run deploy.yml --repo "$REPO" --ref main
           note=""
           if [ "$missing" != "0" ]; then note=" $missing listed link(s) were not found (already decided, or not copied in full)."; fi
           gh issue comment "$ISSUE" --repo "$REPO" --body "Recorded $approved approved and $rejected rejected link(s) as reviewed by @$REVIEWER.$note The site is being redeployed."

@@ -45,5 +45,12 @@ class FederalistParsingTests(unittest.TestCase):
         self.assertEqual([text[a:b] for a, b in spans], ["vide"])
 
 
+
+class PinTests(unittest.TestCase):
+    def test_node_version_pins_agree(self):
+        # Cloudflare reads .node-version at the root; the site's tools read site/.nvmrc.
+        from tools.common import ROOT
+        self.assertEqual((ROOT / ".node-version").read_text().strip(), (ROOT / "site" / ".nvmrc").read_text().strip())
+
 if __name__ == "__main__":
     unittest.main()
