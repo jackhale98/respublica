@@ -1,6 +1,6 @@
 import unittest
 
-from importers.conan import CaseEntry, _pages_list, clause_ref
+from importers.conan import CaseEntry, _pages_list, clause_ref, landmark_cases, topic_of
 
 REFS = {"Constitution.1.8.3", "Constitution.1.1", "Constitution.1.1.1", "Constitution.1.2", "Constitution.6.2",
         "Constitution.5.1", "Amendment.1.1", "Amendment.14.1", "Amendment.14.2", "Constitution.Preamble"}
@@ -16,6 +16,18 @@ class ConanTests(unittest.TestCase):
         self.assertEqual(clause_ref("Amdt14.S1.8.1", REFS), "Amendment.14.1")
         self.assertEqual(clause_ref("Pre.1", REFS), "Constitution.Preamble")
         self.assertIsNone(clause_ref("Appx.1.6", REFS))
+
+    def test_topics(self):
+        self.assertEqual(topic_of("Amdt14.S1.8.1.3"), "Amdt14.S1.8")
+        self.assertEqual(topic_of("ArtI.S8.C3.2.1"), "ArtI.S8.C3.2")
+        self.assertEqual(topic_of("Amdt1.7.2"), "Amdt1.7")
+
+    def test_most_cited_case_in_each_topic(self):
+        a = CaseEntry("A v. B", "1 U.S. 1 (1790)", [10, 11, 12, 13, 20])
+        b = CaseEntry("C v. D", "2 U.S. 2 (1791)", [10, 11, 20, 21])
+        lower = CaseEntry("E v. F", "3 F.2d 3 (2d Cir. 1925)", [10, 11, 12, 13, 14])
+        pages = {p: ["Amdt1.7.1"] for p in (10, 11, 12, 13, 14)} | {20: ["Amdt4.3.1"], 21: ["Amdt4.3.2"]}
+        self.assertEqual(landmark_cases([a, b, lower], pages), {"A v. B, 1 U.S. 1 (1790)": [("Amdt1.7", 4)]})
 
     def test_page_lists(self):
         self.assertEqual(_pages_list("163, 168, 173–174, 1280"), [163, 168, 173, 174, 1280])

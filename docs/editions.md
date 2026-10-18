@@ -178,5 +178,5 @@ Government work in the public domain. `importers/conan.py` reads it with
 
 **Case texts and identifiers** will come from CourtListener (Free Law
 Project), keyed by cluster ID as CommonHall does. Its API needs a free
-token; nothing is imported from it yet. Which cases form the first set is
-an open decision (decision 39).
+token; nothing is imported from it yet. The first set is the most-cited
+case in each essay topic of the Constitution Annotated: 89 cases (decision 41).

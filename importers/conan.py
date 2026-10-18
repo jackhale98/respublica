@@ -251,9 +251,42 @@ def citations_by_clause(cases: list[CaseEntry], pages: dict[int, list[str]], ref
     return out
 
 
+# The first set of cases (decision 41): in each essay topic, the Supreme
+# Court case its essays cite on the most pages (all of them, if tied), when
+# that is at least MIN_PAGES pages.
+MIN_PAGES = 4
+TOPIC = re.compile(r"^((?:Pre|Art[IVX]+|Amdt\d+)(?:\.S\d+)?(?:\.C\d+)?)\.(\d+)")
+
+
+def topic_of(essay_id: str) -> str | None:
+    """An essay's topic: its id to the first number under the clause
+    ("Amdt14.S1.8.1.3" -> "Amdt14.S1.8", "ArtI.S8.C3.2.1" -> "ArtI.S8.C3.2")."""
+    m = TOPIC.match(essay_id)
+    return f"{m.group(1)}.{m.group(2)}" if m else None
+
+
+def landmark_cases(cases: list[CaseEntry], pages: dict[int, list[str]]) -> dict[str, list[tuple[str, int]]]:
+    """Case ("Name, citation") -> the topics it was chosen for, with its page count."""
+    by_topic: dict[str, Counter] = defaultdict(Counter)
+    for c in cases:
+        if c.supreme_court:
+            for p in set(c.pages):
+                for t in {topic_of(e) for e in pages.get(p, [])} - {None}:
+                    by_topic[t][f"{c.name}, {c.citation}"] += 1
+    chosen: dict[str, list[tuple[str, int]]] = defaultdict(list)
+    for t, counts in sorted(by_topic.items()):
+        ranked = counts.most_common()
+        if ranked and ranked[0][1] >= MIN_PAGES:
+            for name, n in ranked:
+                if n == ranked[0][1]:
+                    chosen[name].append((t, n))
+    return dict(chosen)
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--cases", type=int, default=0, help="list the N most-cited Supreme Court cases")
+    ap.add_argument("--landmarks", action="store_true", help="list the first set of cases (decision 41)")
     args = ap.parse_args(argv)
     corpus = load_corpus()
     refs = set(corpus.segments) | set(corpus.divisions) | corpus.prefixes
@@ -266,6 +299,11 @@ def main(argv: list[str] | None = None) -> int:
           f"essays with no matching ref: {unknown[:10]}")
     print(f"table of cases: {len(cases)} entries, {len(scotus)} Supreme Court")
     print(f"overruled table: {len(rows)} rows, {sum(len(r.overruled) for r in rows)} overruled decisions")
+    if args.landmarks:
+        chosen = landmark_cases(cases, pages)
+        print(f"first set: {len(chosen)} cases")
+        for name, topics in sorted(chosen.items(), key=lambda kv: kv[0]):
+            print(f"  {name}  [{', '.join(f'{t} {n}' for t, n in topics)}]")
     if args.cases:
         by_clause = citations_by_clause(cases, pages, refs)
         total = Counter()

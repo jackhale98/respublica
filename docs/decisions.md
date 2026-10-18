@@ -579,3 +579,20 @@ be reached from them. They now reach every passage, in reading order
   paragraphs the same way.
 - The highlight follows both the division and the passage being read.
 
+## 41. The first set of cases: the most-cited case in each essay topic
+
+The project owner chose the rule (decision 39 left it open). The
+Constitution Annotated divides the essays on each clause into topics (the
+id up to the first number under the clause: `Amdt1.7` freedom of speech,
+`Amdt14.S1.8` equal protection, `ArtI.S8.C3.6` the commerce power's
+modern doctrine). For each topic, the first set takes the Supreme Court
+case cited on the most pages of that topic's essays (every case, if tied),
+when that is at least four pages: 89 cases from 2022's edition
+(`python -m importers.conan --landmarks`). The rule spreads the set across
+the Constitution (religion, speech, search and seizure, the commerce power,
+jurisdiction, …) and needs no one's judgment of importance. Its edges are
+known: cases the essays discuss across many topics without leading any
+(for example *Brown v. Board of Education*, *McCulloch v. Maryland*,
+*Marbury v. Madison*) are not in it. More cases can be added later by a
+further rule, never by hand.
+
