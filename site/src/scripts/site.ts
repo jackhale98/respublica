@@ -45,7 +45,26 @@ for (const b of document.querySelectorAll<HTMLButtonElement>("[data-theme-toggle
 const egg = document.querySelector<HTMLElement>("[data-logo-egg]");
 if (egg && !prefersReducedMotion()) {
   const go = egg.querySelector<SVGAnimationElement>("#rpeggGo");
-  const play = () => go?.beginElement();
+  const ring = egg.querySelector<SVGPathElement>("[data-egg-ring]");
+  // The ring draws on, then off, over the same 4 s as the SMIL animations
+  // (which Firefox's CSP handling would block for these two properties).
+  const draw = { easing: "cubic-bezier(0.45, 0, 0.25, 1)" };
+  const play = () => {
+    go?.beginElement();
+    ring?.animate(
+      [
+        { offset: 0, strokeDashoffset: 239, opacity: 0 },
+        { offset: 0.2, strokeDashoffset: 239, opacity: 0 },
+        { offset: 0.2, strokeDashoffset: 239, opacity: 1, ...draw },
+        { offset: 0.64, strokeDashoffset: 0, opacity: 1 },
+        { offset: 0.76, strokeDashoffset: 0, opacity: 1, ...draw },
+        { offset: 0.92, strokeDashoffset: -239, opacity: 1 },
+        { offset: 0.92, strokeDashoffset: -239, opacity: 0 },
+        { offset: 1, strokeDashoffset: -239, opacity: 0 },
+      ],
+      { duration: 4000, fill: "forwards" },
+    );
+  };
   egg.setAttribute("role", "button");
   egg.setAttribute("aria-label", "Play the logo animation");
   egg.tabIndex = 0;
