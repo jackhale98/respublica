@@ -346,3 +346,26 @@ ending like the main scan's is preferred. With these, 116 of 120 sampled
 changes were clearly right and none replaced a real word with a different
 one; uncertain words rose from 459 to 611. The rules lean toward marking a
 word uncertain over guessing.
+
+## 30. Logo, app icons and the nib loader
+
+The mark is a pen nib, for the pen that signed the founding texts; its
+breather hole doubles as a node, for passages joined by links. It uses the
+CommonHall gradient from `tokens.css`.
+
+- `site/public/`: `logo.svg` (the mark), `favicon.svg` (lighter stops in dark
+  mode), `favicon.ico` (16/32/48), `icon.svg` with `icon-192.png`,
+  `icon-512.png`, `icon-maskable-512.png` (mark inside the maskable safe zone)
+  and `apple-touch-icon.png`, all the mark on white. `site.webmanifest` uses
+  relative URLs so it works under any `base`.
+- `loader.svg` is the loading animation, in SVG with SMIL so it needs no
+  script and runs inside an `<img>`: the nib springs up, inks a ring linking
+  three nodes around its own resting place, lands, and the ink drains back
+  into the breather hole. It starts and ends on the static mark. It replaces
+  the "Searching…" and "Loading connections…" text-only states
+  (`scripts/loader.ts`). Readers who prefer reduced motion get
+  `loader-still.svg`, the resting frame, since CSS can't pause SMIL.
+- Easter egg: pressing the footer logo (`components/LogoEgg.astro`) plays the
+  same animation once. Its animations all begin with `#rpeggGo` and freeze
+  on the resting pose; `site.ts` makes it a button only when JavaScript runs
+  and motion is allowed, so without either it is just the logo.

@@ -1,6 +1,8 @@
 // Site-wide behavior: theme toggle, search shortcut, toast.
 // Everything degrades to plain links without JavaScript.
 
+import { prefersReducedMotion } from "./loader";
+
 const root = document.documentElement;
 
 // ---------------------------------------------------------------- theme
@@ -33,6 +35,26 @@ for (const b of document.querySelectorAll<HTMLButtonElement>("[data-theme-toggle
     const next = THEMES[(THEMES.indexOf(currentTheme()) + 1) % THEMES.length];
     setTheme(next);
     toast(`Theme: ${next}`);
+  });
+}
+
+// ---------------------------------------------------------------- logo egg
+
+// Pressing the footer logo plays the nib loader once (decision 30). The SVG's
+// animations all begin with #rpeggGo and freeze on the resting pose.
+const egg = document.querySelector<HTMLElement>("[data-logo-egg]");
+if (egg && !prefersReducedMotion()) {
+  const go = egg.querySelector<SVGAnimationElement>("#rpeggGo");
+  const play = () => go?.beginElement();
+  egg.setAttribute("role", "button");
+  egg.setAttribute("aria-label", "Play the logo animation");
+  egg.tabIndex = 0;
+  egg.addEventListener("click", play);
+  egg.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      play();
+    }
   });
 }
 

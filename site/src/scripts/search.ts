@@ -7,6 +7,8 @@
 // word positions are grouped by passage (Pagefind records every element with
 // an id, and a passage's id is its ref), and each passage gets its own excerpt.
 
+import { loading } from "./loader";
+
 type RefEntry = { label: string; url: string };
 export type Passage = { ref: string | null; label: string; url: string; excerpt: string; score: number; phrase: boolean };
 export type PageHit = { url: string; title: string; work: string; passages: Passage[] };
@@ -340,7 +342,7 @@ export function attachPalette(dialog: HTMLDialogElement, initial = "") {
       all.href = resultsUrl(q);
       all.querySelector("[data-q]")!.textContent = q;
     }
-    results.replaceChildren(...head, note("Searching…", "sr-loading"));
+    results.replaceChildren(...head, loading("Searching…", "sr-loading"));
     const s = await search(q, {}, 150);
     if (mine !== token || s === "stale") return;
     if (s === null) {
