@@ -177,7 +177,7 @@ Government work in the public domain. `importers/conan.py` reads it with
   (235 rows), the only source for `overrules` links.
 
 **Which cases.** The first set is 189 cases chosen from the Constitution
-Annotated by the rules of decisions 41 and 42 (`python -m importers.conan
+Annotated by the rules of decisions 41 to 43 (`python -m importers.conan
 --landmarks`).
 
 **Identifiers and details** come from CourtListener (Free Law Project),
@@ -208,7 +208,7 @@ from volume 91 (1875) on: the earlier, nominative reports carry the
 reporters' own headnotes, often as marginal notes. Where a paragraph seems to
 stop mid-sentence (the text layer is out of order, or the end was missed),
 no syllabus is imported and the case says so (`syllabus_note`). The scans are
-kept out of git (decision 43): `make fetch` downloads them.
+kept out of git (decision 44): `make fetch` downloads them.
 
 **Opinions** are not imported; each case links to its opinion on
-CourtListener (decision 43).
+CourtListener (decision 44).

@@ -5,7 +5,7 @@
 
 Cases are keyed by CourtListener cluster ID (`Case.{cluster_id}`). The
 first set of cases comes from the Constitution Annotated
-(`importers.conan.landmark_cases`, decisions 41 and 42), each named by its
+(`importers.conan.landmark_cases`, decisions 41 to 43), each named by its
 U.S. Reports citation ("347 U.S. 483") or, for a slip opinion, its docket
 number ("No. 19-1392").
 
@@ -122,8 +122,8 @@ def match(key: str, name: str, responses: list[tuple[str, object]]) -> Match:
 
 def landmarks() -> dict[str, str]:
     """Citation key -> name as printed, for the first set of cases."""
-    from importers.conan import essay_pages, landmark_cases, overruled, table_of_cases
-    chosen = landmark_cases(table_of_cases(), essay_pages(), overruled())
+    from importers.conan import first_set
+    chosen = first_set()
     return {k: c.name for k, c in sorted(chosen.items())}
 
 
@@ -144,7 +144,7 @@ def cmd_lookup(_: argparse.Namespace) -> int:
         e = add_source(f"courtlistener-citations-{n}", f"{API}citation-lookup/", LICENSE, ext=".json",
                        auth_env=TOKEN_ENV, post=urllib.parse.urlencode({"text": "; ".join(batch)}),
                        notes=f"CourtListener citation lookup: the clusters for {len(batch)} U.S. Reports "
-                             "citations of the first set of cases (decisions 41, 42).")
+                             "citations of the first set of cases (decisions 41 to 43).")
         print(f"looked up {len(batch)} citations: {e['path']}", flush=True)
     for key in dockets:
         e = add_source(docket_source(key), docket_url(key), LICENSE, ext=".json", auth_env=TOKEN_ENV,

@@ -28,9 +28,9 @@ founding documents, The Federalist, twenty works of the ratification
 debate read from scans, about 740 suggested links awaiting review, the
 connections panel and graph, search, and the review page.
 
-**Phase 7, Supreme Court cases: the first set is imported** (decision 43):
+**Phase 7, Supreme Court cases: the first set is imported** (decision 44):
 
-- 189 cases (`cases/`), chosen by the rules of decisions 41 and 42, each
+- 189 cases (`cases/`), chosen by the rules of decisions 41 to 43, each
   keyed by its CourtListener cluster (`importers/courtlistener.py`; the
   recorded lookups are raw sources), with a page at `/cases/{id}/` and an
   index at `/cases/`.

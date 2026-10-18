@@ -12,7 +12,7 @@ The syllabus is copied as the scan's text layer reads it (rule 7: no
 summaries of our own); where the reader cannot be sure it has the whole
 syllabus in order (`importers.usreports.problems`), the case has none and
 says why (`syllabus_note`). Opinion text is not imported: case pages link
-to CourtListener for it (decision 43).
+to CourtListener for it (decision 44).
 """
 
 from __future__ import annotations
@@ -106,8 +106,8 @@ def import_case(match: courtlistener.Match, reasons: list[str]) -> dict:
 
 def run(out_dir: Path = CASES_DIR) -> list[Path]:
     from importers import courtlistener
-    from importers.conan import essay_pages, landmark_cases, overruled, table_of_cases
-    chosen = landmark_cases(table_of_cases(), essay_pages(), overruled())
+    from importers.conan import first_set
+    chosen = first_set()
     responses = courtlistener.recorded()
     paths = []
     for key, ch in sorted(chosen.items()):

@@ -6,7 +6,7 @@ Two kinds, written by code as `import` links that cite their source and
 proposed like any other link (status "suggested"; a person reviews them):
 
 - `interprets`, case -> clause: the Constitution Annotated's essays on the
-  clause cite the case on at least MIN_PAGES printed pages (decision 43).
+  clause cite the case on at least MIN_PAGES printed pages (decision 44).
   The source names the essays and pages. This records where the essays
   cite the case, never what the case held (rule 7).
 - `overrules`, case -> case: a row of the Constitution Annotated's Table of
@@ -48,7 +48,7 @@ def build() -> dict[str, list[dict]]:
     pages = conan.essay_pages()
     cases = conan.table_of_cases()
     rows = conan.overruled()
-    chosen = conan.landmark_cases(cases, pages, rows)
+    chosen = conan.first_set()
     responses = courtlistener.recorded()
     cluster = {k: courtlistener.match(k, c.name, responses).cluster["id"] for k, c in chosen.items()}
 

@@ -18,8 +18,9 @@ const cite = (c) => c.us_cite || (c.docket ? `No. ${c.docket}` : "");
       <h1>Supreme Court Cases</h1>
       <p class="lede">
         A first set of decisions, chosen by fixed rules from the Constitution Annotated (2022): in each topic of its
-        essays, the case they cite most; every case they cite on ten or more pages; and the decisions those cases
-        overruled. Each is linked to the provisions whose essays cite it.
+        essays, the case they cite most; every case they cite on ten or more pages or name in an essay's title; the
+        decisions those cases overruled; and overruled decisions the essays still discuss. Each is linked to the
+        provisions whose essays cite it.
       </p>
       <div class="doc-stats">
         <span><strong>{formatNumber(cases.length)}</strong> cases</span>

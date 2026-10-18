@@ -90,6 +90,31 @@ def essay_pages() -> dict[int, list[str]]:
     return out
 
 
+def essay_titles() -> dict[str, str]:
+    """Essay id -> title, from each part's table of contents (a title may
+    wrap onto a second line before its dotted leader and page number)."""
+    out: dict[str, str] = {}
+    for g in ESSAY_PARTS:
+        pending = None
+        for page in _pages(g):
+            for line in page:
+                first = line.text.split(" ", 1)[0]
+                if ESSAY_ID.match(first) and " " in line.text:
+                    pending = line.text
+                elif pending is not None:
+                    pending += " " + line.text
+                else:
+                    continue
+                if re.search(r"\.{3,}\s*\d+$", pending):
+                    eid, title = pending.split(" ", 1)
+                    out.setdefault(eid, re.sub(r"\s*\.{3,}\s*\d+$", "", title).strip())
+                    pending = None
+                elif pending.count(" ") > 40:  # not a contents line after all
+                    pending = None
+    _expect(len(out) > 1000, f"only {len(out)} essay titles found")
+    return out
+
+
 def clause_ref(essay_id: str, refs: set[str]) -> str | None:
     """The ref of the clause (or section, or article) an essay discusses."""
     m = ESSAY_ID.match(essay_id)
@@ -254,15 +279,20 @@ def citations_by_clause(cases: list[CaseEntry], pages: dict[int, list[str]], ref
     return out
 
 
-# The first set of cases (decisions 41 and 42) is the union of three rules,
+# The first set of cases (decisions 41 to 43) is the union of five rules,
 # each applied to the Constitution Annotated as printed:
 #  1. in each essay topic, the Supreme Court case its essays cite on the
 #     most pages (every case, if tied), when that is at least TOPIC_PAGES;
 #  2. every Supreme Court case cited on at least TOTAL_PAGES pages;
 #  3. every decision that a case chosen by 1 or 2 overruled, per the Table
-#     of Supreme Court Decisions Overruled by Subsequent Decisions.
+#     of Supreme Court Decisions Overruled by Subsequent Decisions;
+#  4. every Supreme Court case named in the title of an essay
+#     ("Liberty of Contract and Lochner v. New York");
+#  5. every decision the table lists as overruled that is cited on at least
+#     OVERRULED_PAGES pages: overruled decisions the essays still discuss.
 TOPIC_PAGES = 4
 TOTAL_PAGES = 10
+OVERRULED_PAGES = 5
 TOPIC = re.compile(r"^((?:Pre|Art[IVX]+|Amdt\d+)(?:\.S\d+)?(?:\.C\d+)?)\.(\d+)")
 US_CITE = re.compile(r"(\d+) U\.S\. (?:\([^)]*\) )?(\d+)")
 SLIP = re.compile(r"No\. ([\w-]+)(?:, [\w-]+)* \(U\.S\.")
@@ -305,7 +335,8 @@ class Chosen:
 
 
 def landmark_cases(cases: list[CaseEntry], pages: dict[int, list[str]],
-                   overrulings: list[Overruling] | None = None) -> dict[str, Chosen]:
+                   overrulings: list[Overruling] | None = None,
+                   titles: dict[str, str] | None = None) -> dict[str, Chosen]:
     """The first set of cases, keyed by citation, each with why it was chosen."""
     cited: dict[str, set[int]] = defaultdict(set)
     names: dict[str, str] = {}
@@ -344,7 +375,32 @@ def landmark_cases(cases: list[CaseEntry], pages: dict[int, list[str]],
             for text, _ in row.overruled:
                 for key in case_keys(text):
                     choose(key, f"overruled by {chosen[by].name.split(',')[0]} (table of overruled decisions)", text)
+    # Rule 4. A name in a title is matched exactly against the Table of
+    # Cases ("Brown v. Board of Education" names both decisions of that name).
+    by_case_name: dict[str, set[str]] = defaultdict(set)
+    for c in cases:
+        if c.supreme_court and (" v. " in c.name or c.name.endswith("Cases")):
+            by_case_name[c.name].add(case_keys(c.citation)[0])
+    for eid, title in sorted((titles or {}).items()):
+        if " v. " not in title and "Cases" not in title:
+            continue
+        for name, keys in by_case_name.items():
+            if name in title and re.search(rf"(?<![\w.]){re.escape(name)}(?![\w])", title):
+                for key in sorted(keys):
+                    choose(key, f"named in the title of essay {eid}")
+    # Rule 5.
+    for row in overrulings or []:
+        for text, _ in row.overruled:
+            for key in case_keys(text):
+                if len(cited.get(key, ())) >= OVERRULED_PAGES:
+                    choose(key, f"overruled (table of overruled decisions) and cited on {len(cited[key])} pages", text)
     return chosen
+
+
+def first_set() -> dict[str, Chosen]:
+    """The first set of cases from the 2022 edition as printed: what the
+    case import and the case links start from."""
+    return landmark_cases(table_of_cases(), essay_pages(), overruled(), essay_titles())
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -364,7 +420,7 @@ def main(argv: list[str] | None = None) -> int:
     print(f"table of cases: {len(cases)} entries, {len(scotus)} Supreme Court")
     print(f"overruled table: {len(rows)} rows, {sum(len(r.overruled) for r in rows)} overruled decisions")
     if args.landmarks:
-        chosen = landmark_cases(cases, pages, rows)
+        chosen = landmark_cases(cases, pages, rows, essay_titles())
         print(f"first set: {len(chosen)} cases")
         for c in sorted(chosen.values(), key=lambda c: c.name):
             print(f"  {c.name}  [{'; '.join(c.reasons)}]")
