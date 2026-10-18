@@ -67,8 +67,10 @@ def fetch_bytes(url: str, timeout: int = 60, attempts: int = 4) -> bytes:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 check_url(resp.geturl())
                 return resp.read()
-        except urllib.error.HTTPError:
-            raise
+        except urllib.error.HTTPError as e:
+            if e.code < 500 or attempt + 1 == attempts:
+                raise
+            time.sleep(2 ** (attempt + 1))
         except (urllib.error.URLError, TimeoutError, ConnectionError):
             if attempt + 1 == attempts:
                 raise
