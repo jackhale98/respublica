@@ -10,7 +10,7 @@
   --border-strong: #9a9cb3;
   --text: #12131f;
   --text-muted: #4f5370;
-  --text-faint: #6e7290;
+  --text-faint: #636785;  /* at least 4.7:1 on every light background (WCAG AA) */
   --brand: #5b4cf0;
   --brand-strong: #3f32c4;
   --brand-soft: #ecebff;
