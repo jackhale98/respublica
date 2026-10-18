@@ -72,14 +72,19 @@ authors in `names`), `pseudonym` or `body`.
 
 ## Links
 
-Agents write proposals to `links/proposed/{batch}.jsonl`, one JSON object per
-line, using the record format in `PLAN.md`. A proposal must have
-`status: "suggested"`, a `rationale`, a `confidence`, and `created_by` with
-`kind`, `model` and `run`. Copy any `from_quote` / `to_quote` from the text
-file programmatically. Only a human sets `status: "reviewed"` (with
-`reviewed_by`) or `"rejected"`.
+Linking criteria and tools are in [`linking.md`](linking.md). In short:
 
-One linker run covers one unit (for example, one Federalist paper).
+- Linkers write a decisions file and run `python3 -m tools.links propose`,
+  which copies quotes from the text, assigns ids, refuses duplicates and
+  writes `status: "suggested"` records to `links/proposed/{batch}.jsonl`.
+  Never write link files by hand.
+- One linker run covers one unit (for example, one Federalist paper), with
+  its own batch file.
+- Only a human reviews: `python3 -m tools.links review --reviewer NAME` moves
+  each link to `links/{batch}.jsonl` (reviewed) or `links/rejected/{batch}.jsonl`
+  (rejected, kept so it is not proposed again). `python3 -m tools.links sample`
+  prints a spot-check sheet.
+- Suggested links appear on the site, labeled "Suggested" with a dashed border.
 
 ## What `make verify` checks
 
