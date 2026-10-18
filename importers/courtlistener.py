@@ -43,7 +43,7 @@ class CourtListenerError(ValueError):
     pass
 
 
-BATCH = 50          # citations per lookup request (the API resolves at most 60 a minute)
+BATCH = 60          # citations per lookup request (the API resolves at most 60 a minute)
 BATCH_PAUSE = 65    # seconds between lookup requests
 US = re.compile(r"(\d+) U\.S\. (\d+)")
 DOCKET = re.compile(r"No\. ([\w-]+)")
