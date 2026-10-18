@@ -55,8 +55,8 @@ kbd {
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
 
-.container { width: 100%; max-width: var(--page); margin: 0 auto; padding: 0 1rem; }
-@media (min-width: 48rem) { .container { padding: 0 1.5rem; } }
+.container { width: 100%; max-width: var(--page); margin: 0 auto; padding-inline: 1rem; }
+@media (min-width: 48rem) { .container { padding-inline: 1.5rem; } }
 
 .eyebrow {
   font: 700 .75rem/1.2 var(--font-sans);
