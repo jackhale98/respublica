@@ -70,6 +70,12 @@ function fillPanel(p: HTMLElement) {
   const chg = p.querySelector<HTMLTemplateElement>("template.chg-data");
   changed.replaceChildren(...(chg ? [chg.content.cloneNode(true)] : []));
   changed.hidden = !chg;
+  const source = q("[data-panel-source]");
+  const src = p.querySelector<HTMLTemplateElement>("template.src-data");
+  if (source) {
+    source.replaceChildren(...(src ? [src.content.cloneNode(true)] : []));
+    source.hidden = !src;
+  }
   const conns = q("[data-panel-conns]")!;
   const empty = q("[data-panel-empty]")!;
   const has = !!p.querySelector(".conns");

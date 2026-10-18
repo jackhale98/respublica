@@ -45,3 +45,23 @@
 .paper-foot { display: flex; justify-content: space-between; gap: .75rem; font-size: .78rem; color: var(--text-faint); }
 .no-match { text-align: center; color: var(--text-muted); padding: 2rem; }
 .linkish { border: 0; background: none; color: var(--link); text-decoration: underline; cursor: pointer; padding: 0; }
+
+/* The ratification debate: groups by side (always labeled in text; the dot
+   repeats the label). Colors are two of the validated author hues. */
+:root { --pos-anti: var(--author-madison); --pos-federalist: var(--author-hamilton); --pos-other: var(--text-faint); }
+.pos-dot { display: inline-block; width: .7rem; height: .7rem; border-radius: 50%; margin-right: .55rem; vertical-align: .05em; }
+.pos-anti { --pos: var(--pos-anti); }
+.pos-federalist { --pos: var(--pos-federalist); }
+.pos-other { --pos: var(--pos-other); }
+.pos-dot { background: var(--pos); }
+.eyebrow.pos { color: var(--text-muted); display: inline-flex; align-items: center; gap: .45rem; }
+.eyebrow.pos::before { content: ""; width: .6rem; height: .6rem; border-radius: 50%; background: var(--pos); }
+.debate-group { margin-top: 2rem; }
+.debate-group h2 { font: 650 1.25rem/1.2 var(--font-heading); margin: 0 0 .9rem; display: flex; align-items: center; }
+.debate-works { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); }
+.debate-work { display: flex; flex-direction: column; gap: .35rem; height: 100%; padding: 1.1rem 1.2rem; color: inherit; text-decoration: none; min-width: 0; }
+.debate-work h3 { font: 650 1.05rem/1.3 var(--font-heading); margin: 0; }
+.debate-work .by { margin: 0; color: var(--text-muted); font-size: .9rem; }
+.debate-work .paper-foot { margin-top: auto; padding-top: .5rem; }
+.debate-work.soon { border-style: dashed; box-shadow: none; }
+.debate-work .small { font-size: .82rem; margin: .2rem 0 0; }

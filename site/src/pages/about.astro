@@ -21,7 +21,7 @@ const sourceById = Object.fromEntries(sources.map((s) => [s.id, s]));
 
   <div class="container about">
     <nav class="about-nav" aria-label="On this page">
-      <a href="#texts">Texts</a><a href="#refs">References</a><a href="#connections">Connections</a><a href="#editions">Editions</a><a href="#privacy">Privacy</a><a href="#open">Open source</a>
+      <a href="#texts">Texts</a><a href="#refs">References</a><a href="#connections">Connections</a><a href="#editions">Editions</a><a href="#ocr">Scans</a><a href="#privacy">Privacy</a><a href="#open">Open source</a>
     </nav>
 
     <div class="prose">
@@ -43,6 +43,8 @@ const sourceById = Object.fromEntries(sources.map((s) => [s.id, s]));
           <tr><td><a class="ref-chip" href={href("/constitution/#Constitution.6.2")}>Constitution.6.2</a></td><td>Article VI, Clause 2 (Articles V–VII have no sections)</td></tr>
           <tr><td><a class="ref-chip" href={href("/amendments/#Amendment.14.1")}>Amendment.14.1</a></td><td>Amendment XIV, Section 1</td></tr>
           <tr><td><a class="ref-chip" href={href("/federalist/10/#Federalist.10.1")}>Federalist.10.1</a></td><td>The Federalist No. 10, first paragraph</td></tr>
+          <tr><td><a class="ref-chip" href={href("/cato/3/#Cato.3.2")}>Cato.3.2</a></td><td>The third letter of Cato, second paragraph</td></tr>
+          <tr><td><a class="ref-chip" href={href("/caution/#Caution.1")}>Caution.1</a></td><td>A single essay (“Caution”), first paragraph</td></tr>
         </tbody>
       </table>
 
@@ -60,7 +62,7 @@ const sourceById = Object.fromEntries(sources.map((s) => [s.id, s]));
       <p>Any quotation shown in a connection is checked by code against the text, letter for letter.</p>
 
       <h2 id="editions">Editions</h2>
-      {site.works.map((w) => (
+      {site.works.filter((w) => w.collection !== "ratification").map((w) => (
         <section class="edition card">
           <h3>{w.title}</h3>
           <p class="muted">{w.edition.name}{w.date && ` · ${formatDate(w.date)}`}</p>
@@ -79,6 +81,49 @@ const sourceById = Object.fromEntries(sources.map((s) => [s.id, s]));
           </ul>
         </section>
       ))}
+
+      <h2 id="ocr">The ratification debate: texts read from scans</h2>
+      <p>
+        The essays and letters of the ratification debate come from three collections printed in 1888 and 1892, now
+        in the public domain. No accurate digital text of them existed, so Res Publica reads them from the Internet
+        Archive's scans of the printed books:
+      </p>
+      <ol class="steps">
+        <li><strong>Layout.</strong> One scan's OCR gives the words and their place on the page. Running heads, page numbers and footnotes are set apart, and a paragraph broken by a page is joined again.</li>
+        <li><strong>A second reading.</strong> Each word is compared with the OCR of another scan of the same printed edition, made from a different copy of the book.</li>
+        <li><strong>A vote, with limits.</strong> Where the scans differ, the reading most scans share wins, or the one that is an English word found in a clean text. A real word is never swapped for a different real word, and figures that differ are never settled by vote.</li>
+        <li><strong>Doubt is shown.</strong> Words no rule settles are kept as the main scan reads them and <span class="unc">underlined with dots</span>. Select the paragraph to see each scan's reading and a link to the page image.</li>
+      </ol>
+      <p>
+        No word is typed by hand. Errors that every scan shares cannot be caught this way, and the newspaper headings,
+        set in display type, are read worst; please report what you find. Which side a writer took is Res Publica's
+        grouping; authors are as the editions give them, and several of those attributions are disputed.
+      </p>
+      <p>
+        Brutus, one of the most important Anti-Federalist writers, is not here yet: none of these collections prints his
+        essays, and no other public-domain printing has been found that can be imported and checked.
+      </p>
+      {[...new Set(site.works.filter((w) => w.collection === "ratification").map((w) => w.edition.name))].map((name) => {
+        const ws = site.works.filter((w) => w.collection === "ratification" && w.edition.name === name);
+        return (
+          <section class="edition card">
+            <h3>{name}</h3>
+            <p class="muted">{ws.map((w) => w.title).join(" · ")}</p>
+            <ul class="src-list">
+              {ws[0].source_ids.map((id) => {
+                const s = sourceById[id];
+                const url = s && safeUrl(s.url);
+                return s && (
+                  <li>
+                    {url ? <a href={url} rel="noopener noreferrer">{s.notes || s.id}</a> : (s.notes || s.id)}
+                    <span class="muted"> Retrieved {formatDate(s.retrieved_at)}. {s.license}</span>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        );
+      })}
 
       <h2 id="privacy">Privacy</h2>
       <p>

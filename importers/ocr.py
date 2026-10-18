@@ -105,38 +105,86 @@ def parse_djvu_xml(path: Path) -> list[Page]:
 
 
 FOLIO = re.compile(r"^\(?\s*([0-9ivxlcdm]{1,4})\s*\)?$", re.I)
+# The editor's notes end "— Ed." (as OCR reads it: "EJ.", "LJ.", "£d.", "E,i.").
+NOTE_MARK = re.compile(r"^\s*(?:[*•♦†‡§\\]|[f■]\s|■?j-|■?\)-)")
+EDITOR_NOTE = re.compile(r"(?:^|[\s—.-])(?:Ed|EJ|LJ|£d|£i/|E,i|Ed,)[.,]?\s*$")
 
 
 def classify(pages: list[Page]) -> None:
-    """Mark running heads, folios and footnotes on each page (in place)."""
+    """Split paragraphs OCR ran together, then mark running heads, folios and
+    footnotes on each page (in place)."""
+    notes_continue = False  # the page before ended in a note
+    for page in pages:
+        if page.paras:
+            page.paras = split_paragraphs(page, body_margin(page))
+    # The first line of each page, without figures, to find running heads
+    # that repeat from page to page ("604 Letters of Centinel. No. IV.").
+    tops = {p.leaf: re.sub(r"[^a-z]", "", p.paras[0].lines[0].text.lower()) if p.paras else "" for p in pages}
+
+    def repeats(leaf: int) -> bool:
+        mine = tops.get(leaf, "")
+        return len(mine) >= 6 and any(
+            SequenceMatcher(None, mine, tops.get(leaf + d, ""), autojunk=False).ratio() >= 0.75 for d in (-2, -1, 1, 2))
+
     for page in pages:
         if not page.paras:
             continue
         top = page.paras[0]
-        # Running head: the first line on the page, short, holding a page number.
+        # Running head: a short single line at the very top of the page,
+        # holding a page number, set in capitals, or repeated from the pages
+        # around it (the number itself may be misread: "A LANDHOLDER. I4I").
         first_line = top.lines[0].text
-        if len(top.lines) == 1 and len(first_line.split()) <= 9 and re.search(r"\b\d{1,4}\b", first_line):
+        letters = [c for c in first_line if c.isalpha()]
+        capitals = letters and sum(c.isupper() for c in letters) >= 0.6 * len(letters)
+        at_top = page.height and top.lines[0].words[0].y0 < 0.16 * page.height
+        if (len(top.lines) == 1 and len(first_line.split()) <= 12 and len(page.paras) > 1
+                and (re.search(r"\b\d{1,4}\b", first_line) or (at_top and (capitals or repeats(page.leaf))))):
             top.kind = "head"
             m = re.search(r"(?:^|\s)(\d{1,4})(?:\s|$)", first_line)
             page.folio = m.group(1) if m else None
-        # Folio at the foot: "( 247 )" or "247".
+        # Folio at the foot: "( 247 )" or "247", or a mark of a few
+        # characters on its own line at the very bottom ("('56)", "(no)":
+        # OCR misreads the small figures).
         for para in page.paras[-2:]:
-            if len(para.lines) == 1 and FOLIO.match(para.text.replace(" ", "")):
+            squeezed = para.text.replace(" ", "")
+            low = page.height and para.lines[0].words[0].y0 > 0.85 * page.height
+            if len(para.lines) == 1 and (FOLIO.match(squeezed) or (low and len(squeezed) <= 7)):
                 para.kind = "folio"
-                page.folio = page.folio or FOLIO.match(para.text.replace(" ", "")).group(1)
+                m = FOLIO.match(squeezed)
+                page.folio = page.folio or (m.group(1) if m and m.group(1).isdigit() else None)
         # Footnotes: smaller type at the foot of the page, after the last body
         # paragraph ("smaller" against the page's own text, since scans of
-        # different pages differ in scale).
-        heights = [w.height for para in page.paras if para.kind == "text" for w in para.words if w.height > 0]
-        body_h = statistics.median(heights) if heights else 0
+        # different pages differ in scale; a line's type size is its tallest
+        # word, since OCR boxes fit each word's letters).
+        # A note begins with a mark (*, †) unless it continues a note from
+        # the page before; small type without one (a signature in small
+        # capitals, a quotation) is text.
+        # (The text's size is taken high in the range: on some pages a long
+        # note has more lines than the text above it.)
+        sizes = sorted(_line_height(l) for para in page.paras if para.kind == "text" for l in para.lines)
+        body_size = sizes[int(len(sizes) * 0.8)] if sizes else 0
+        run = []
         for para in reversed(page.paras):
             if para.kind != "text":
                 continue
-            hs = [w.height for w in para.words if w.height > 0]
-            if hs and body_h and statistics.median(hs) < 0.85 * body_h and para.lines[0].words[0].y0 > page.height * 0.5:
-                para.kind = "note"
+            lower = para.lines[0].words[0].y0 > page.height * (0.3 if NOTE_MARK.match(para.text) else 0.5)
+            small = body_size and statistics.median(_line_height(l) for l in para.lines) < 0.88 * body_size
+            if lower and (small or EDITOR_NOTE.search(para.text)):
+                run.insert(0, para)
             else:
                 break
+        marked = [i for i, para in enumerate(run) if NOTE_MARK.match(para.text)]
+        start = 0 if notes_continue else (marked[0] if marked else len(run))
+        for para in run[start:]:
+            para.kind = "note"
+        # A note that stops mid-sentence at the foot of the page goes on overleaf.
+        notes_continue = bool(run[start:]) and not re.search(r"[.?!:;)\]\"']\s*(?:\(\d+\))?$", run[-1].text)
+        # A note of the editor's, marked and signed, even where OCR put a
+        # line of text after it ("(To be continued.)").
+        for para in page.paras:
+            if (para.kind == "text" and para.lines[0].words[0].y0 > page.height * 0.3
+                    and NOTE_MARK.match(para.text) and EDITOR_NOTE.search(para.text)):
+                para.kind = "note"
 
 
 def body_margin(page: Page) -> int:
@@ -157,15 +205,23 @@ class Block:
 
 
 def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None) -> list[Block]:
-    """Paragraphs of text and notes in reading order between two scan pages,
-    with paragraphs split by a page break rejoined."""
+    """Paragraphs of text and notes in reading order between two scan pages.
+    A paragraph continues the one before it (across a page break, or where
+    OCR split a paragraph in two) when the one before ends with a line that
+    runs to the right margin and its own first line is not indented (and is
+    not a heading)."""
     out: list[Block] = []
     last_text: Block | None = None
+    last_note: Block | None = None
+    open_end = False  # the last text line on the previous page ran to the margin
     for page in pages:
         if page.leaf < first_leaf or (last_leaf and page.leaf > last_leaf):
             continue
-        margin = body_margin(page)
-        first_on_page = True
+        if page.folio is None and not any(p.kind == "head" for p in page.paras) and sum(
+                len(p.words) for p in page.paras) < 25:
+            continue  # a plate (a portrait and its caption), not a page of text
+        margin, right = body_margin(page), right_margin(page)
+        body_h = body_height(page)
         for para in page.paras:
             if para.kind in ("head", "folio"):
                 continue
@@ -173,25 +229,91 @@ def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None)
             if not text:
                 continue
             if para.kind == "note":
-                out.append(Block(text, [page.leaf], [page.folio] if page.folio else [], "note"))
+                # A note that runs on (no mark, and the last note stopped
+                # mid-sentence, on this page or the one before) is joined to it.
+                if (last_note is not None and not NOTE_MARK.match(text)
+                        and not re.search(r"[.?!:;\"')\]”’]$", last_note.text)):
+                    last_note.text = join_across(last_note.text, text)
+                    if last_note.leaves[-1] != page.leaf:
+                        last_note.leaves.append(page.leaf)
+                        if page.folio:
+                            last_note.folios.append(page.folio)
+                else:
+                    last_note = Block(text, [page.leaf], [page.folio] if page.folio else [], "note")
+                    out.append(last_note)
                 continue
             indented = para.lines[0].x0 > margin + max(20, page.width * 0.012)
-            if first_on_page and last_text is not None and not indented and not _is_heading(para, margin, page):
+            # A paragraph never ends mid-sentence before a line beginning in
+            # lower case (OCR drops a leading dash, "——a convention", and the
+            # line then looks indented).
+            mid_sentence = (last_text is not None and not re.search(r"[.?!:;\"')\]”’]$", last_text.text)
+                            and re.match(r"[a-z]", text))
+            if last_text is not None and not _is_heading(para, margin, page, body_h) and (
+                    (open_end and not indented) or mid_sentence):
                 last_text.text = join_across(last_text.text, text)
-                last_text.leaves.append(page.leaf)
-                if page.folio:
-                    last_text.folios.append(page.folio)
+                if last_text.leaves[-1] != page.leaf:
+                    last_text.leaves.append(page.leaf)
+                    if page.folio:
+                        last_text.folios.append(page.folio)
             else:
                 last_text = Block(text, [page.leaf], [page.folio] if page.folio else [], "text", indented)
                 out.append(last_text)
-            first_on_page = False
+            open_end = max(w.x1 for w in para.lines[-1].words) >= right - page.width * 0.05
     return out
 
 
-def _is_heading(para: Para, margin: int, page: Page) -> bool:
-    """Centered short lines (titles, essay headings) never continue a paragraph."""
+def right_margin(page: Page) -> int:
+    """Where full lines end (most text lines are justified to it)."""
+    rights = sorted(max(w.x1 for w in l.words) for para in page.paras if para.kind == "text" for l in para.lines)
+    return rights[int(len(rights) * 0.9)] if rights else page.width
+
+
+def body_height(page: Page) -> float:
+    hs = [w.height for para in page.paras if para.kind == "text" for w in para.words if w.height > 0]
+    return statistics.median(hs) if hs else 0
+
+
+def split_paragraphs(page: Page, margin: int) -> list[Para]:
+    """The page's paragraphs, with any that OCR ran together split again
+    where print marks a new paragraph: a line that stops short of the right
+    margin, followed by a line indented as a paragraph is (verse, indented
+    further, is not split line by line)."""
+    if not any(para.kind == "text" for para in page.paras):
+        return page.paras
+    right = right_margin(page)
+    lo, hi = margin + max(20, page.width * 0.012), margin + page.width * 0.06
+    out = []
+    for para in page.paras:
+        if para.kind != "text" or len(para.lines) < 2:
+            out.append(para)
+            continue
+        cur = [para.lines[0]]
+        for prev, line in zip(para.lines, para.lines[1:]):
+            short = max(w.x1 for w in prev.words) < right - page.width * 0.05
+            # Text, then a footnote: smaller type, starting with a note mark.
+            smaller = _line_height(line) < 0.85 * _line_height(prev) and NOTE_MARK.match(line.text)
+            continues = re.match(r"[a-z]", line.text) and not re.search(r"[.?!:;\"')\]”’]$", prev.text)
+            if ((short and lo < line.x0 < hi) or smaller) and not continues:
+                out.append(Para(cur, para.leaf, para.kind))
+                cur = []
+            cur.append(line)
+        out.append(Para(cur, para.leaf, para.kind))
+    return out
+
+
+def _line_height(line: Line) -> float:
+    """The tallest word's height: the type size, whatever letters the line has."""
+    return max((w.height for w in line.words), default=0)
+
+
+def _is_heading(para: Para, margin: int, page: Page, body_h: float = 0) -> bool:
+    """Centered short lines and lines in large type (titles, essay headings)
+    never continue a paragraph."""
     if len(para.lines) > 2:
         return False
+    hs = [w.height for w in para.words if w.height > 0]
+    if body_h and hs and statistics.median(hs) > 1.25 * body_h:
+        return True
     line = para.lines[0]
     right = max(w.x1 for w in line.words)
     return line.x0 > margin + page.width * 0.08 and right < page.width * 0.85
@@ -252,14 +374,30 @@ class Reference:
                 self.index.setdefault(k, []).append(i)
 
     def locate(self, keys: list[str], hint: int = 0) -> int | None:
-        """Start offset of a run of keys in this stream (first 4-gram that
-        occurs once), searching forward from `hint` first."""
+        """Start offset of a run of keys in this stream: the offset that the
+        most of the run's 4-grams (up to 40 of them) agree on, at least two,
+        the nearest to `hint` on a tie."""
+        votes: Counter = Counter()
+        tried = 0
         for i in range(0, max(1, len(keys) - 3)):
             k = tuple(keys[i:i + 4])
-            hits = [h for h in self.index.get(k, []) if h >= hint - 50] or self.index.get(k, [])
-            if len(hits) == 1 or (hits and hits[0] >= hint - 50):
-                return max(0, hits[0] - i)
-        return None
+            if not all(k) or k not in self.index:
+                continue
+            hits = self.index[k]
+            if len(hits) > 20:
+                continue  # too common to place anything
+            for h in hits:
+                votes[(h - i) // 8] += 1  # a little slack for words read as two
+            tried += 1
+            if tried >= 40:
+                break
+        if not votes:
+            return None
+        best = max(votes.values())
+        if best < 2:
+            return None
+        bucket = min((b for b, n in votes.items() if n == best), key=lambda b: abs(b * 8 - hint))
+        return max(0, bucket * 8 - 8)
 
 
 @dataclass
@@ -281,14 +419,16 @@ def align(tokens: list[str], refs: list[Reference], hints: dict[str, int]) -> li
         start = ref.locate(keys, hints.get(ref.name, 0))
         if start is None:
             continue
-        window_end = min(len(ref.tokens), start + int(len(tokens) * 1.25) + 20)
+        window_end = min(len(ref.tokens), start + int(len(tokens) * 1.25) + 30)
         sm = SequenceMatcher(None, keys, ref.keys[start:window_end], autojunk=False)
         last = start
         ops = sm.get_opcodes()
+        if sum(i2 - i1 for op, i1, i2, _, _ in ops if op == "equal") < 0.5 * len(tokens):
+            continue  # not the same passage
         for n, (op, i1, i2, j1, j2) in enumerate(ops):
             # Words that differ are paired only when their letters are mostly
             # alike, or when one or two words differ between runs of at least
-            # two words that agree: elsewhere a run of different words, side
+            # three words that agree: elsewhere a run of different words, side
             # by side, means the scans are not at the same place, and pairing
             # them would let two misplaced scans outvote the primary.
             if op == "equal":
@@ -315,13 +455,13 @@ def align(tokens: list[str], refs: list[Reference], hints: dict[str, int]) -> li
 
 
 def _anchored(ops: list, n: int) -> bool:
-    """True when opcode n lies between two runs of at least two equal words
+    """True when opcode n lies between two runs of at least three equal words
     (or the start or end of the paragraph)."""
     def agrees(m: int) -> bool:
         if m < 0 or m >= len(ops):
             return True
         op, i1, i2, _, _ = ops[m]
-        return op == "equal" and i2 - i1 >= 2
+        return op == "equal" and i2 - i1 >= 3
     return agrees(n - 1) and agrees(n + 1)
 
 
@@ -431,7 +571,13 @@ def consensus(readings: list[dict[str, str]], known: set[str]) -> tuple[list[str
         joint = {src: " ".join(v for v in (r[src] for r in group) if v)
                  for src in group[0] if all(src in r for r in group)}
         word, settled = vote(joint, known)
-        if not settled and len(group) > 1:
+        if len(group) > 1 and settled and key(word) != key(joint["primary"]):
+            # Another scan reads one word where the primary reads two. Only
+            # a word the primary split with a space ("com munity") is settled;
+            # otherwise ("deliver d" against "delivered", where the page has
+            # "deliver'd") the readings are kept for a human.
+            word, settled = joint["primary"], False
+        elif len(group) > 1 and not settled:
             # No agreement on the run as a whole: vote word by word among the
             # scans that read it word by word.
             split = [{s: v for s, v in r.items() if all(x.get(s) for x in group)} for r in group]
@@ -454,7 +600,10 @@ def plain(tok: str) -> bool:
     """A cleanly printed word: PLAIN, with brackets that open and close."""
     return bool(PLAIN.match(tok)) and tok.count("(") == tok.count(")") and tok.count("[") == tok.count("]")
 
-STRAY = re.compile(r"[\\^|*~_{}<>]|([,.;:!?'\"])\1")
+# Marks OCR leaves in a word that print does not: odd symbols, a doubled
+# stop, and an asterisk inside a word (one before or after a word is a
+# footnote mark).
+STRAY = re.compile(r"[\\^|~_{}<>]|(?<=\w)\*(?=\w)|([,.;:!?'\"])\1")
 
 
 def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
@@ -462,7 +611,9 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
 
     Readings are grouped by their letters and digits. The group most scans
     agree on wins; on a tie, a group whose letters form a known word beats one
-    that does not; otherwise the primary scan's group is kept, unsettled.
+    that does not, if it is like the primary's reading ("tliis" and "this",
+    not "(ISrumlaer" and "Timber"); otherwise the primary scan's group is
+    kept, unsettled.
     Within the winning group (same letters, possibly different marks), the
     primary's reading is used unless it has stray marks another reading lacks.
 
@@ -480,6 +631,14 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
       * a word only the primary scan has (no other scan aligned there) that
         is not a known word: nothing corroborates it.
     """
+    def elided(k: str) -> bool:
+        """A scan reads the word with an elision ("renown'd") that the known
+        word ("renowned") spells out: OCR dictionaries regularize these."""
+        return k.endswith("ed") and any(re.search(r"\w'\s?d\b", v) for v in readings.values())
+
+    def alike(x: str, y: str) -> bool:
+        return x == y or SequenceMatcher(None, x, y, autojunk=False).ratio() >= 0.6
+
     groups: dict[str, list[str]] = {}
     for src in sorted(readings, key=lambda s: s != "primary"):
         groups.setdefault(key(readings[src]), []).append(readings[src])
@@ -491,7 +650,7 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
         top = pk
     elif len(ranked) > 1:
         a, b = ranked[0], ranked[1]
-        if len(groups[a]) == len(groups[b]) and (a in known) == (b in known):
+        if len(groups[a]) == len(groups[b]) and ((a in known) == (b in known) or not alike(a, pk) or elided(a)):
             settled = False
             top = pk
         elif any(c.isdigit() for c in top) or (top != pk and pk in known and top in known
@@ -501,7 +660,8 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
     elif len(readings) == 1 and pk and pk not in known:
         settled = False
     candidates = groups[top]
-    clean = [r for r in candidates if not STRAY.search(r)]
+    # (a word read whole beats the same letters with a space in them)
+    clean = sorted((r for r in candidates if not STRAY.search(r)), key=lambda r: " " in r)
     return (clean[0] if clean else candidates[0]), settled
 
 

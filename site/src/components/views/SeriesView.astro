@@ -1,0 +1,60 @@
+---
+import "../../styles/collection.css";
+import Base from "../../layouts/Base.astro";
+import AuthorChip from "../AuthorChip.astro";
+import { href, POSITION_LABELS, authorText, formatDate, newspaper, printedDate, readingMinutes } from "../../lib/data.js";
+
+// Index of a series from the ratification debate: Cato's seven letters,
+// Centinel's twenty-four.
+const { work } = Astro.props;
+const parts = work.parts;
+const words = parts.reduce((s, p) => s + p.words, 0);
+const attr = work.attribution;
+---
+<Base title={work.title} section="ratification" description={`${work.title}: ${parts.length} essays from the ratification debate, ${formatDate(work.date)}, with a permanent reference for every paragraph.`}>
+  <section class="page-head">
+    <div class="container">
+      <ol class="crumbs">
+        <li><a href={href("/")}>Library</a></li>
+        <li><a href={href("/ratification/")}>Ratification debate</a></li>
+        <li aria-current="page">{work.short}</li>
+      </ol>
+      <span class={`eyebrow pos pos-${work.position}`}>{POSITION_LABELS[work.position]}</span>
+      <h1>{work.title}</h1>
+      <p class="lede">
+        {parts.length} essays, {formatDate(work.date)}. {attr?.byline && <Fragment>{attr.byline} <span class="muted">(as given in {attr.source})</span>.</Fragment>}
+      </p>
+      <div class="doc-stats">
+        <span><strong>{parts.length}</strong> essays</span>
+        <span><strong>{work.passages.toLocaleString("en-US")}</strong> paragraphs</span>
+        <span><strong>{words >= 1000 ? `${Math.round(words / 1000)}k` : words}</strong> words</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <ol class="papers">
+      {parts.map((p) => {
+        const date = printedDate(p.publication);
+        return (
+          <li>
+            <a class="card paper" href={href(p.url)}>
+              <div class="paper-top">
+                <span class="paper-no">{p.label.split(" ").at(-1)}</span>
+                <AuthorChip attribution={p.attribution} short />
+              </div>
+              <h3>{p.label}</h3>
+              <div class="paper-foot">
+                <span>{newspaper(p.publication)}{date && ` · ${date}`}</span>
+                <span>{readingMinutes(p.words)} min</span>
+              </div>
+            </a>
+          </li>
+        );
+      })}
+    </ol>
+    <p class="legend-note">
+      Text of {work.edition.name}, read from OCR scans. <a href={href("/about/#ocr")}>How this text was made</a>
+    </p>
+  </div>
+</Base>

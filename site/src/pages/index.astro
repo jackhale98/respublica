@@ -27,6 +27,9 @@ const fedSegs = fedCounts.map((a) => {
   return { ...a, x: (x / fedTotal) * 100, w: (a.n / fedTotal) * 100 };
 });
 const featured = site.featured;
+const debate = site.works.filter((w) => w.collection === "ratification");
+const debateEssays = debate.reduce((s, w) => s + w.top_divisions, 0);
+const sideCount = (k) => debate.filter((w) => w.position === k).length;
 ---
 <Base>
   <section class="hero">
@@ -35,8 +38,8 @@ const featured = site.featured;
         <p class="eyebrow">Free · Nonpartisan · Open source</p>
         <h1>America's founding texts, <span class="grad">connected.</span></h1>
         <p class="lede">
-          Read the Constitution, its amendments and The Federalist, with a permanent reference for every
-          passage and links you can check between them.
+          Read the Constitution, its amendments, The Federalist and the essays of the ratification debate,
+          with a permanent reference for every passage and links you can check between them.
         </p>
         <a class="hero-search" href={href("/search/")} data-search-open>
           <Icon name="search" />
@@ -94,11 +97,14 @@ const featured = site.featured;
           <div class="work-meta">{fedCounts.map((a) => <span><span class:list={["dot", a.key]} aria-hidden="true"></span>{a.label} {a.n}</span>)}</div>
         </a>
       )}
-      <div class="card work-card soon">
-        <span class="work-icon"><Icon name="feather" /></span>
-        <h3>Anti-Federalist essays <span class="badge soon">Coming</span></h3>
-        <p>Brutus, the Federal Farmer, Centinel and others: the case against ratification, from public-domain printings.</p>
-      </div>
+      {debate.length > 0 && (
+        <a class="card work-card w-debate" href={href("/ratification/")}>
+          <span class="work-icon"><Icon name="feather" /></span>
+          <h3>The ratification debate</h3>
+          <p>Cato, Centinel, the Federal Farmer, Agrippa, the Landholder and more: {debateEssays} essays and letters for and against the Constitution, from public-domain printings.</p>
+          <div class="work-meta"><span>{sideCount("anti")} Anti-Federalist works</span><span>{sideCount("federalist")} Federalist</span></div>
+        </a>
+      )}
       <div class="card work-card soon">
         <span class="work-icon"><Icon name="scale" /></span>
         <h3>Supreme Court <span class="badge soon">Coming</span></h3>

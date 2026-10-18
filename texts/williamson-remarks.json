@@ -1,0 +1,349 @@
+{
+  "attribution": {
+    "byline": "By Hugh Williamson",
+    "kind": "single",
+    "names": [
+      "Hugh Williamson"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1788",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "By Hugh Williamson",
+        "kind": "single",
+        "names": [
+          "Hugh Williamson"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Remarks on the New Plan",
+      "level": 1,
+      "publication": [
+        "STATE GAZETTE OF NORTH CAROLINA."
+      ],
+      "ref": "WilliamsonRemarks"
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 395–406. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "williamson-remarks",
+  "position": "federalist",
+  "ref_prefix": "WilliamsonRemarks",
+  "segments": [
+    {
+      "label": "Remarks on the New Plan, ¶ 1",
+      "pages": [
+        "397"
+      ],
+      "ref": "WilliamsonRemarks.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          409
+        ]
+      },
+      "text": "Though I am conscious that a subject of the greatest magnitude must suffer in the hands of such an advocate, I cannot refuse, at the request of my fellow-citizens, to make some observations on the new plan of government."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 2",
+      "pages": [
+        "397",
+        "398"
+      ],
+      "ref": "WilliamsonRemarks.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          409,
+          410
+        ]
+      },
+      "text": "It seems to be generally admitted, that the system of government which has been proposed by the late convention, is well calculated to relieve us from many of the grievances under which we have been laboring. If I might express my particular sentiments on this subject, I should describe it as more free and more perfect than any form of government that has ever been adopted by any nation; but I would not say it has no faults. Imperfection is inseparable from every device. Several objections were made to this system by two or three very respectable characters in the convention, which have been the subject of much conversation; and other objections, by citizens of this state, have lately reached our ears. It is proper you should consider of these objections. They are of two kinds; they respect the things that are in the system, and the things that are not in it. We are told that there should have been a section for securing the trial by Jury in civil cases, and the liberty of the press: that there should also have been a declaration of rights. In the new system, it is provided, that the trial of all crimes, except in cases of impeachment, shall be by jury\" but this provision could not possibly be extended to all civil cases. For it is well known that the trial by jury is not general and uniform throughout the United States, either in cases of admiralty or of chancery; hence it becomes necessary to submit the question to the general Legislature, who might accommo- their laws on this occasion to the desires and habits of the nation. Surely there is no prohibition in a case that is untouched."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 3",
+      "pages": [
+        "398"
+      ],
+      "ref": "WilliamsonRemarks.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          410
+        ]
+      },
+      "text": "We have been told that the liberty of the press is not secured by the new Constitution. Be pleased to examine the Plan, and you will find that the liberty of the press and the laws of Mahomet are equally affected by it. The new government is to have the power of protecting literary property; the very power which you have by a special act delegated to the present congress. There was a time in England, when neither book, pamphlet, nor paper could be published without a license from government. That restraint was finally removed in the year 1694: and, by such removal, their press became perfectly free, for it is not under the restraint of any license. Certainly the new government can have no power to impose restraints. The citizens of the United States have no more occasion for a second declaration of rights, than they have for a section in favour of the press. Their rights, in the several states, have long since been explained and secured by particular declarations, which make a part of their several constitutions. It is granted, and perfectly understood, that under the government of the assemblies of the states, and under the government of the congress, every right is reserved to the individual which he has not expressly delegated to this, or that legislature. The other objections that have been made to the new plan of government, are : That it absorbs the powers of the several states; that the national judiciary is too extensive; that a standing army is permitted ; that congress is allowed to regulate trade; that the several states are prevented from taxing exports for their own benefit."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 4",
+      "pages": [
+        "398",
+        "399"
+      ],
+      "ref": "WilliamsonRemarks.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          410,
+          411
+        ]
+      },
+      "text": "When Gentlemen are pleased to complain, that little power is left in the hands of the separate states, they should be advised to cast an eye upon the large code of laws, which have passed in this state since the peace. Let them consider how few of those laws have been framed for the general benefit of the nation. Nine out often of them are domestic; calculated for the sole use of this state or of particular citizens. There must still be use for such laws, though you should enable the congress to collect a revenue for national purposes; and the collection of that revenue includes the chief of the new powers, which are now to be committed to the congress."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 5",
+      "pages": [
+        "399"
+      ],
+      "ref": "WilliamsonRemarks.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          411
+        ]
+      },
+      "text": "Hitherto you have delegated certain powers to the Congress, and other powers to the Assemblies of the states. The portion that you have delegated to Congress, is found to have been useless, because it is too small : and the powers that are committed to the Assemblies of the several states are also found to be absolutely ineffectual for national purposes, because they can never be so managed as to operate in concert. Of what use is that small portion of reserve powers ? It neither makes you respectable nor powerful. The consequence of such reservation is national contempt abroad, and a state of dangerous weakness at home. What avails the claim of power, which appears to be nothing better than the empty whistling of a name ? The Congress will be chosen by yourselves, as your members of Assembly are. They will be creatures of your hands, and subject to your advice. Protected and cherished by the small addition of power which you shall put into their hands, you may become a great and respectable nation."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 6",
+      "pages": [
+        "399",
+        "400"
+      ],
+      "ref": "WilliamsonRemarks.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          411,
+          412
+        ]
+      },
+      "text": "It is complained that the powers of the national judiciary are too extensive. This objection appears to have the greatest weight in the eyes of gentlemen who have not carefully compared the powers which are to be delegated, with those that had been formerly delegated to Congress. The powers now to be committed to the national legislature, as they are detailed in the 8th section of the first article, have already been chiefly delegated to the Congress, under one form or another, except those which are contained in the first paragraph of that section. And the objects that are now to be submitted to the supreme judiciary, or to the inferior courts, are those which naturally arise from the constitutional laws of Congress. If there is a single new case that can be exceptional, it is that between a Foreigner and a Citizen, or that between the Citizens of different States. These cases may come up by appeal. It is provided in this system, that there shall be no fraudulent tender in the payments of debts. Foreigners with whom we have treaties will trust our citizens on the faith of this engagement ; and the citizens of different states will do the same. If the Congress had a negative on the laws of the several states, they would certainly prevent all such laws as might endanger the honor or peace of the nation, by making a tender of base money; but they have no such power, and it is at least possible that some state may be found in this union, disposed to break the constitution, and abolish private debts by such tenders. In these cases the courts of the offending state would probably decide according to its own laws. The foreigner would complain, and the nation might be involved in war for the support of such dishonest measures. Is it not better to have a court of appeals in which the judges can only be determined by the laws of the nation? This court is equally to be desired by the citizens of different states. But we are told that justice will be delayed, and the poor will be drawn away by the rich to a distant court. The authors of this remark have not fully considered the question, else they must have recollected that the poor of this country have little to do with foreigners or with the citizens of distant states. They do not consider that there may be an inferior court in every state; nor have they recollected that the appeals being with such exceptions, and under such regulations as Congress shall make, will never be permitted for trifling sums or under trivial pretences, unless we can suppose that the national legislature shall be composed of knaves and fools. The line that separates the powers of the national legislature from those of the several states is clearly drawn. The several states reserve every power that can be exercised for the particular use and comfort of the state. They do not yield a single power which is not absolutely necessary to the safety and prosperity of the nation, nor one that could be employed to any effect in the hands of particular states. The powers of judiciary naturally arise from those of the legislature. Questions that are of a national concern, and those cases which are determinable by the general laws of the nation, are to be referred to the national judiciary; but they have not anything to do with a single case either civil or criminal which respects the private and particular concerns of a state or its citizens.",
+      "uncertain": [
+        {
+          "end": 2376,
+          "readings": {
+            "brittle": "wich",
+            "google": "wich",
+            "primary": "with"
+          },
+          "start": 2372
+        }
+      ]
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 7",
+      "pages": [],
+      "ref": "WilliamsonRemarks.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          413
+        ]
+      },
+      "text": "The possibility of keeping regular troops in the public service, has been urged as another objection against the new constitution. It is very remarkable that the same objection has not been made against the original confederation, in which the same grievance obtains without the same guards. It is now provided, that no appropriation of money for the use of the army shall be for a longer time than two years. Provision is also made for having a powerful militia, in which there never can be occasion for many regular troops."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 8",
+      "pages": [],
+      "ref": "WilliamsonRemarks.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          413
+        ]
+      },
+      "text": "It has been objected in some of the southern states, that the Congress, by a majority of votes, is to have the power to regulate trade. It is universally admitted that Congress ought to have this power, else our commerce, which is nearly ruined, can never be restored; but some gentlemen think that the concurrence of two-thirds of the votes in Congress should have been required. By the sundry regulations of commerce, it will be in the power of government not only to collect a vast revenue for the general benefit of the nation, but to secure the carrying trade in the hands of citizens in preference to strangers. It has been alleged that there are few ships belonging to the southern states; and that the price of freight must rise in consequence of our excluding many foreign vessels : but when we have not vessels of our own, it is certainly proper that we should hire those of citizens in preference to strangers; and though the price of freight should rise for two or three years, this advantage is fully due to our brethren in the eastern and middle states, who, with great and exemplary candour, have given us equal advantages in return. A small increase in the price of freight would operate greatly in favour of the southern states: it would promote the spirit of ship-building; it would promote a nursery for native seamen, and would afford support to the poor who live near the sea coast; it would increase the value of their lands, and, at the same time, it would reduce their taxes."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 9",
+      "pages": [],
+      "ref": "WilliamsonRemarks.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          413
+        ]
+      },
+      "text": "It has finally been objected that the several states are not permitted to tax their exports for the benefit of their particular treasuries. This strange objection has been occasionally repeated by citizens of this state. They must have transplanted it from another state, for it could not have been the growth of North Carolina."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 10",
+      "pages": [
+        "402"
+      ],
+      "ref": "WilliamsonRemarks.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          414
+        ]
+      },
+      "text": "Such have been the objections against the new constitution."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 11",
+      "pages": [
+        "402"
+      ],
+      "ref": "WilliamsonRemarks.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          414
+        ]
+      },
+      "text": "Whilst the honest patriot who guards with jealous eye the liberties of his country, and apprehends danger under every form — the placeman in every state, who fears lest his office should pass into other hands — the idle, the fractious, and the dishonest, who live by plunder or speculation on the miseries of their country — while these, assisted by a numerous body of secret enemies, who never have been reconciled to our independence, are seeking for objections to this constitution — it is a remarkable circumstance, and a very high encomium on the plan, that nothing more plausible has been offered against it; for it is an easy matter to find faults."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 12",
+      "pages": [
+        "402",
+        "403"
+      ],
+      "ref": "WilliamsonRemarks.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          414,
+          415
+        ]
+      },
+      "text": "Let us turn our eyes to a more fruitful subject; let us consider the present condition of the United States, and the particular benefits that North Carolina must reap by the proposed form of government. Without money no government can be supported; and Congress can raise no money under the present constitution. They have not the power to make commercial treaties, because they cannot preserve them when made. Hence it is, that we are the prey of every nation. We are indulged in such foreign commerce as must be hurtful to us; we are prohibited from that which might be profitable; and we are accordingly told, that in the last two years, the thirteen states have hardly paid into the treasury as much as should have been paid by a single state. Intestine commotions in some of the states — paper money in others — a want of inclination in some, and a general suspicion throughout the union that the burden is unequally laid — added to the general loss of trade — have produced a general bankruptcy, and loss of honor. We have borrowed money of Spain — she demands the principal, but we cannot pay the interest. It is a circumstance perfectly humiliating, that we should remain under obligations to that nation. We are considerably indebted to France; but she is too generous to insist upon what she knows we cannot pay, either the principal or interest. In the hour of distress, we borrowed money in Holland; not from the government but from private citizens. Those who were called the patriots, were our friends, and they are oppressed in their turn by hosts of enemies. They will soon have need of money. At this hour, we are not able to pay the interest of their loan. What is to be done? Will you borrow money again from other citizens of that oppressed republic, to pay the interest of what you borrowed from their brethren? This would a painful expedient: but our want of government may render it necessary. You have two or three ministers abroad; they must soon return home, for they cannot be supported. You have four or five hundred troops scattered along the Ohio to protect the frontier inhabitants, and give some value to your lands; those troops are ill paid, and in a fair way for being disbanded. There is hardly a circumstance remaining — hardly one external mark — by which you can deserve to be called a nation. You are not in a condition to resist the most contemptuous enemy. What is there to prevent an Algerine pirate from landing on your coast, and carr)'- ing your citizens into slavery? You have not a single sloop of war. Does one of the states attempt to raise a little money by imposts or other commercial regulations? A neighbouring state immediately alters her laws, and defeats the revenue by throwing the trade into a different channel. Instead of supporting or assisting, we are uniformly taking the advantage of one another. Such an assemblage of people are not a nation. Like a dark cloud, without cohesion or firmness, we are ready to be torn asunder, and scattered abroad by every breeze of external violence, or internal commotion.",
+      "uncertain": [
+        {
+          "end": 2486,
+          "readings": {
+            "brittle": "carrying",
+            "google": "carrying",
+            "primary": "carr)'- ing"
+          },
+          "start": 2475
+        }
+      ]
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 13",
+      "pages": [
+        "403",
+        "404",
+        "405"
+      ],
+      "ref": "WilliamsonRemarks.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          415,
+          416,
+          417
+        ]
+      },
+      "text": "Is there a man in this state, who believes it possible for us to continue under such a government? Let us suppose but for a minute, that such a measure should be attempted. Let us suppose that the several states shall be required and obliged to pay their several quotas according to the original plan. You know that North Carolina, in the last four years, has not paid one dollar into the treasury for eight dollars that she ought to have paid. We must increase our taxes exceedingly, and those taxes must be of the most grievous kind; they must be taxes on land and heads, taxes that cannot fail to grind the face of the poor; for it is clear that we can raise little by imports and exports. Some foreign goods are imported by water from the northern states : such goods pay a duty for the benefit of those states, which is seldom drawn back. This operates as a tax upon our citizens. On this side, Virginia promotes her revenue to the amount of twenty-five thousand dollars every year, by a tax on our tobacco that she exports. South Carolina, on the other side, may avail herself of similar opportunities. Two-thirds of foreign goods that are consumed in this state, are imported by land from Virginia or South Carolina. Such goods pay a certain impost for the benefit of the importing states, but our treasury is not profited by this commerce. By such means our citizens are taxed more than one hundred thousand dollars every year; but the state does not receive credit for a shilling of that money. Like a patient that is bleeding at both arms, North Carolina must soon expire under such wasteful operations. Unless I am greatly mistaken, we have seen enough of the state of the union, and of North Carolina in particular, to be assured that another form of government is become necessary. Is the form of government now proposed well calculated to give relief? To this we must answer in the affirmative. All foreign goods that shall be imported into these states, are to pay a duty for the use of the nation. All the states will be on a footing, whether they have bad ports or good ones. No duties will be laid on exports ; hence the planter will receive the true value for his produce, wherever it may be shipped. If excises are laid on wine, spirits, or other luxuries, they must be uniform throughout the states. By a careful management of imposts and excises, the national expenses may be discharged without any other species of tax ; but if a poll tax or land tax shall ever become necessary, the weight must press equally on every part of the union. For in all cases such taxes must be according to the number of inhabitants. Is it not a pleasing consideration that North Carolina, under all her natural disadvantages, must have the same facility of paying her share of the public debt, as the most favoured, or the most fortunate state ? She gains no advantage by this plan, but she recovers from her misfortunes. She stands on the same footing with her sisters, and they are too generous to desire that she should stand on lower ground. When you consider those parts of the new system which .ireofthe greatest import — those which respect the general question of liberty and safety — you will recollect that the states in convention were unanimous; and you must remember, that some of the members of that body have risqued their lives in defence of liberty : but the system does not require the help of such arguments; it will bear the most scrupulous examination.",
+      "uncertain": [
+        {
+          "end": 3113,
+          "readings": {
+            "primary": ".ireofthe"
+          },
+          "start": 3104
+        }
+      ]
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 14",
+      "pages": [
+        "405"
+      ],
+      "ref": "WilliamsonRemarks.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          417
+        ]
+      },
+      "text": "When you refer the proposed system to the particular circumstances of North Carolina, and consider how she is to be affected by this plan, you must find the utmost reason to rejoice in the prospect of better times. This is a sentiment that I have ventured with the greater confidence, because it is the general opinion of my late honourable colleagues,* and I have the utmost reliance in their superior abilities. But if our constituents shall discover faults where we could not see any — or if they shall suppose that a plan is formed for abridging their liberties, when we imagined that we had been securing both liberty and property on a more stable foundation — if they perceive that they are to suffer a loss, where we thought they must rise from a misfortune — they will, at least do us the justice to charge those errors to the head, and not to the heart."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 15",
+      "pages": [
+        "405"
+      ],
+      "ref": "WilliamsonRemarks.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          417
+        ]
+      },
+      "text": "The proposed system is now in your hands, and with it the fate of your country. We have a common interest for we are embarked in the same vessel. At present she is in a sea of trouble, without sails, oars, or pilot; ready to be dashed to pieces by every flaw of wind. You may secure a port, unless you think it better to remain at sea. If there is any man among you that wishes for troubled times and fluctuating measures, that he may live by speculations, and thrive by the calamities of the state, this government is not for him."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 16",
+      "pages": [
+        "405"
+      ],
+      "ref": "WilliamsonRemarks.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          417
+        ]
+      },
+      "text": "If there is any man who envies the prosperity of a native citizen — who wishes that we should remain without native merchants or seamen, without shipping, without manufactures, without commerce— poor and contemptible, the tributaries of a sovereign country — this government is not for him."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 17",
+      "pages": [
+        "406"
+      ],
+      "ref": "WilliamsonRemarks.17",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          418
+        ]
+      },
+      "text": "And if there is any man who has never been reconciled to our independence, who wishes to see us degraded and insulted abroad, oppressed by anarchy at home, and torn into pieces by factions — incapable of resistance, and ready to become a prey to the first invader — this government is not for him."
+    },
+    {
+      "label": "Remarks on the New Plan, ¶ 18",
+      "pages": [
+        "406"
+      ],
+      "ref": "WilliamsonRemarks.18",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          418
+        ]
+      },
+      "text": "But it is a government, unless I am greatly mistaken, that gives the fairest promise of being firm and honourable; safe from foreign invasion or domestic sedition — a government by which our commerce must be protected and enlarged; the value of our produce and of our lands must be increased; the labourer and the mechanic must be encouraged and supported. It is a form of government that is perfectly fitted for protecting liberty and property, and for cherishing the good citizen and honest man."
+    },
+    {
+      "kind": "footnote",
+      "label": "Remarks on the New Plan, note 1",
+      "pages": [
+        "405"
+      ],
+      "ref": "WilliamsonRemarks.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          417
+        ]
+      },
+      "text": "* Williamson was a member of the Federal Convention. — Ed."
+    }
+  ],
+  "short": "Remarks on the New Plan",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "Remarks on the New Plan of Government"
+}

@@ -1,0 +1,1502 @@
+{
+  "attribution": {
+    "byline": "Written by Robert Yates",
+    "kind": "single",
+    "names": [
+      "Robert Yates"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1788-06-13/1788-06-14",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Written by Robert Yates",
+        "kind": "single",
+        "names": [
+          "Robert Yates"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Sydney 1",
+      "level": 1,
+      "publication": [
+        "THE NEW YORK JOURNAL.",
+        "(ISr (Number 2320)",
+        "Friday, June 13, 17S8.",
+        "For the Daily Patriotic Register. To THE Citizens OF THE StATE OF NeW YoRK."
+      ],
+      "ref": "Sydney.1",
+      "signature": "Sydney.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 4,
+            "readings": {
+              "primary": "(ISr"
+            },
+            "start": 0
+          },
+          {
+            "end": 18,
+            "readings": {
+              "brittle": "2320)",
+              "google": "S320)",
+              "primary": "2320)"
+            },
+            "start": 13
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 16,
+            "readings": {
+              "brittle": "13,",
+              "google": "1",
+              "primary": "13,"
+            },
+            "start": 13
+          },
+          {
+            "end": 22,
+            "readings": {
+              "brittle": "1788.",
+              "google": "788.",
+              "primary": "17S8."
+            },
+            "start": 17
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Robert Yates",
+        "kind": "single",
+        "names": [
+          "Robert Yates"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Sydney 2",
+      "level": 1,
+      "publication": [
+        "THE NEW YORK JOURNAL.",
+        "(Number 2321)",
+        "Saturday, June 14, 1788.",
+        "For the Daily Patriotic Register.",
+        "(Concluded from yesterday's paper.)"
+      ],
+      "ref": "Sydney.2",
+      "salutation": "To THE Citizens of the State of New York.",
+      "signature": "Sydney.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "3331)",
+              "google": "8381)",
+              "primary": "2321)"
+            },
+            "start": 8
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 293–314. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "sydney",
+  "position": "anti",
+  "ref_prefix": "Sydney",
+  "segments": [
+    {
+      "label": "Sydney 1, ¶ 1",
+      "pages": [
+        "297"
+      ],
+      "ref": "Sydney.1.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          309
+        ]
+      },
+      "text": "Although a variety of objections to the proposed new constitution for the government of the United States have been laid before the public by men of the best abilities, 1 am led to believe that representing it in a point of view which has escaped their observation may be of use, that is, by comparing it with the constitution of the State of New York."
+    },
+    {
+      "label": "Sydney 1, ¶ 2",
+      "pages": [
+        "297"
+      ],
+      "ref": "Sydney.1.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          309
+        ]
+      },
+      "text": "The following contrast is therefore submitted to the public, to show in what instances the powers of the state government will be either totally or partially absorbed, and enable us to determine whether the remaining powers will, from those kind of pillars, be capable of supporting the mutilated fabric of a government, which even the advocates for the new constitution admit excels \" the boasted models of Greece or Rome, and those of all other nations, in having precisely marked out the power of the government and the rights of the people.\""
+    },
+    {
+      "label": "Sydney 1, ¶ 3",
+      "pages": [
+        "297",
+        "298"
+      ],
+      "ref": "Sydney.1.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          309,
+          310
+        ]
+      },
+      "text": "It may be proper to premise that the pressure of necessity and distress (and not corruption) had a principal tendency to induce the adoption of the state constitutions and the existing confederation, that power was even then vested in the rulers with the greatest caution, and that, as from every circumstance we have reason to infer that the new constitution does not originate from a pure source, we ought deliberately to trace the extent and tendency of the trust we are about to repose, under the conviction that a reassumption of that trust will at least be difficult, if not impracticable. If we take a retrospective view of the measures of Congress who have their secret journals, the conduct of their officers, at home and abroad, acting under an oath of secrecy, as well as of individuals who were intimately connected with them, from the year 1780 to the last convention, who also acted under an injunction of secrecy (and whose journals have not been published even to this day, but will no doubt continue buried in the dark womb of suspicious secrecy), we can scarcely entertain a doubt but that a plan has long since been framed to subvert the confederation ; that that plan has been matured with the most persevering industry and unremitted attention, and that the objects expressed in the preamble to the constitution, that is \"to promote the general welfare and secure the blessings of liberty to ourselves and our posterity,\" were merely the ostensible, and not the real reasons of its framers. That necessity and danger have been the moving causes to the establishment of the confederation will appear from the words of Congress recommending its formation to the several legislatures which are \" under a conviction of the absolute necessity of uniting all our councils and all our strength to maintain our common liberties. Let them be examined with liberality becoming brethren and fellow-citizens, surrounded by the same iminent dangers, contending for the same illustrious prize, and deeply interested in being forever bound and connected together by the ties the most intimate and indissoluble.\""
+    },
+    {
+      "label": "Sydney 1, ¶ 4",
+      "pages": [
+        "298",
+        "299"
+      ],
+      "ref": "Sydney.1.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          310,
+          311
+        ]
+      },
+      "text": "That these principles equally applied to the formation of our state constitution no person can seriously doubt who recollects the rapid progress of the British troops in this state and in Jersey in the year 1776, and the despondence which prevailed among the people on that occasion. The convention of this state, about that period, in explaining to the people the justice of the American cause, addressed them as follows: \"You and all men were created free and authorised to establish civil government for the preservation of our rights against civil oppression, and the security of that freedom which God had given you, against the rapacious hand of tyranny and lawless power. If then God hath given US freedom, are we not responsible to him for that as well as other talents ? If it is our birth-right, let us not sell it for a mess of pottage, nor suffer it to be torn from us by the hand of violence.\""
+    },
+    {
+      "label": "Sydney 1, ¶ 5",
+      "pages": [
+        "299"
+      ],
+      "ref": "Sydney.1.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          311
+        ]
+      },
+      "text": "The omission of a bill of rights in this State has given occasion to an inference that the omission was equally warrantable in the constitution for the United States. On this it may be necessary to observe that while the constitution of this State was in agitation, there appeared doubts upon the propriety of the measure, from the peculiar situation in which the country then was ; our connection with Britain dissolved, and her government formally renounced — no substitute devised — all the powers of government avowedly temporary, and solely calculated for defence ; it was urged by those in favor of a bill of rights that the power of the rulers ought to be circumscribed, the better to protect the people at large from the oppression and usurpation of their rulers. The English petition of rights, in the reign of Charles the First, and the bill of rights in the reign of king William, were mentioned as examples to support their opinions. Those in opposition admitted that in established governments, which had an implied constitution, a declaration of rights might be necessary to prevent the usurpation of ambitious men, but that was not our situation, for upon the declaration of independence it had become necessary that the exercise of every kind of authority \" under the former government should be totally suppressed, and all the power of government exerted under the authority of the people of the colonies ;\" that we could not suppose that we liad an existing constitution or form of government, express or implied, and therefore our situation resembled a people in a state of nature, who are preparing \"to institute a government, laying its foundation on such principles, and organizing its powers in such form as to them shall seem most likely to effect their safety and happiness,\" and as such, the constitution to be formed would operate as a bill of rights.",
+      "uncertain": [
+        {
+          "end": 1463,
+          "readings": {
+            "brittle": "had",
+            "google": "had",
+            "primary": "liad"
+          },
+          "start": 1459
+        }
+      ]
+    },
+    {
+      "label": "Sydney 1, ¶ 6",
+      "pages": [
+        "299",
+        "300"
+      ],
+      "ref": "Sydney.1.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          311,
+          312
+        ]
+      },
+      "text": "These and the like considerations operated to induce the convention of New York to dismiss the idea of a bill of rights, and the more especially as the legislative state officers being elected by the people at short periods, and thereby rendered from time to time liable to be displaced in case of mal-conduct. But these reasons will not apply to the general government, because it will appear in the sequel that the state governments are considered in it as mere dependencies, existing solely by its toleration, and possessing powers of which they maybe deprived whenever the general government is disposed so to do. If then the powers of the state governments are to be totally absorbed, in which all agree, and only differ as to the mode, whether it will be effected by a rapid progression, or by as certain, but slower, operations : what is to limit the oppression of the general government ? Where are the rights, which are declared to be incapable of violation ? And what security have people against the wanton oppression of unprincipled governors? No constitutional redress is pointed out, and no express declaration is contained in it, to limit the boundaries of their rulers ; beside which the mode and period of their being elected tends to take away their responsibility to the people over whom they may, by the power of the purse and the sword, domineer at discretion ; nor is there a power on earth to tell them, What dost thou ? or, Why dost thou so ?"
+    },
+    {
+      "label": "Sydney 1, ¶ 7",
+      "pages": [
+        "300"
+      ],
+      "ref": "Sydney.1.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          312
+        ]
+      },
+      "text": "I shall now proceed to compare the constitution of the state of New York with the proposed federal government, distinguishing the paragraphs in the former, which are rendered nugatory by the latter ; those which are in a great measure enervated, and such as are in the discretion of the general government to permit or not."
+    },
+    {
+      "label": "Sydney 1, ¶ 8",
+      "pages": [
+        "300"
+      ],
+      "ref": "Sydney.1.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          312
+        ]
+      },
+      "text": "The 1st and 37th paragraphs of the constitution of the state of New York."
+    },
+    {
+      "label": "Sydney 1, ¶ 9",
+      "pages": [
+        "300"
+      ],
+      "ref": "Sydney.1.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          312
+        ]
+      },
+      "text": "The 1st \" Ordains, determines, and declares that no authority shall on any pretence whatever be exercised over the people or members of this State, but such as shall be derived from and granted by them.\""
+    },
+    {
+      "label": "Sydney 1, ¶ 10",
+      "pages": [
+        "300"
+      ],
+      "ref": "Sydney.1.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          312
+        ]
+      },
+      "text": "The 37th, \" That no purchases or contracts for the sale of lands with or of the Indians within the limits of this state, shall be binding on the Indians, or deemed valid, unless made under the authority and with the consent of the legislature of this state.\""
+    },
+    {
+      "label": "Sydney 1, ¶ 11",
+      "pages": [
+        "300"
+      ],
+      "ref": "Sydney.1.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          312,
+          313
+        ]
+      },
+      "text": "I beg here to observe that the whole history of this spurious constitution for the government of the United States, from its origin to the present day, and the measures taken by Congress respecting the Indian affairs in this state, are a series of violations of these paragraphs, and of the 13th article of the confederation.",
+      "uncertain": [
+        {
+          "end": 295,
+          "readings": {
+            "primary": "13th"
+          },
+          "start": 291
+        }
+      ]
+    },
+    {
+      "label": "Sydney 1, ¶ 12",
+      "pages": [],
+      "ref": "Sydney.1.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          313
+        ]
+      },
+      "text": "It was a violation of the state constitution for the senate and assembly, on the 19th of February, 1787, to instruct their members to move in Congress for an act recommending a convention ; and it was also a violation of the 13th article of the confederation for Congress, on the 21st day February, to recommend a convention to the several legislatures. It was a further violation of the constitution of this state, by the senate and assembly, on the 27th day of March, to join and to appoint delegates to meet in convention, and it being done in that hasty, if not surreptitious manner, by joint resolutions, when acts of the least consequence, even for the yoking of hogs, require to be passed under the formalities of a law, makes it more glaringly so.",
+      "uncertain": [
+        {
+          "end": 104,
+          "readings": {
+            "brittle": "1787^0",
+            "google": "1787,",
+            "primary": "1787,"
+          },
+          "start": 99
+        }
+      ]
+    },
+    {
+      "label": "Sydney 1, ¶ 13",
+      "pages": [],
+      "ref": "Sydney.1.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          313
+        ]
+      },
+      "text": "It was an outrageous violation in the convention on the 17th of September, 1787, to attempt a consolidation of the union, and utterly destroy the confederation and the sovereignty of particular states, when their powers were restricted \" to the sole and express purpose of revising and amending the confederation.\""
+    },
+    {
+      "label": "Sydney 1, ¶ 14",
+      "pages": [],
+      "ref": "Sydney.1.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          313
+        ]
+      },
+      "text": "It was again an infringement of the 13th article in the confederation, for Congress, on the 28th of September, not to arrest and prevent its being transmitted to the several legislatures ; nor was the legislature of this state less culpable, in the beginning of February, 1788, who, in the course of three hours, took up and concluded the measure of calling a convention without apprising their constituents of the danger."
+    },
+    {
+      "label": "Sydney 1, ¶ 15",
+      "pages": [
+        "302",
+        "303"
+      ],
+      "ref": "Sydney.1.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          313,
+          314,
+          315
+        ]
+      },
+      "text": "It is notorious that the right of regulating Indian affairs, especially with the five nations, has been in the colony of New York since the year 1664, and before that period, from the year 1614, whilst it was called New Nederland under the Dutch. That by the confederation, although Congress are invested with the power of regulating the trade and managing all affairs with the Indians, that they are restricted to those Indians \" not members of any of the states, and a special proviso that the legislative rights of any state within its own limits be not infringed or violated.\" It therefore was a violation of the confederation and of the rights of the state for the congressional commissioners of Indian affairs to treat, at fort Stanwix, with and thereat to make a purchase from the five nations without the authority or consent of the legislature of this state. It was an infraction of the rights of the citizens of this state, and an insult on their government, for those commissioners to wrest private property from individuals, imprison their persons, set at defiance the civil authority of the county of Montgomery, and violently to resist the execution of legal process. Nor was the ordinance of the 7th of August, 1786, for the regulation of Indian affairs, less so, namely, that \" the Indian department be divided into two districts, viz.: the southern, which shall comprehend within its limits all the nations in the territory of the United States, who reside to the southward of the Ohio ; and the northern, which shall comprehend all the nations within the said territory, and westward, not of lake Ontario, but of Hudson's river; that a superintendent for the northern districts shall have authority to appoint two deputies to reside in such places as shall best facilitate the regulation of the Indian trade; that no person, citizen or other, under the penalty of five hundred dollars, shall reside among or trade with any Indian or Indian nations within the territory of the United States, without a licence for that purpose first obtained from the superintendent of the district, or of one of the deputies, who is hereby directed to give such licence to every person who shall produce from the supreme executive of any state a certificate under the seal of the state, that he is of good character and suitably qualified and provided for that employment, for which licence he shall pay for one year the sum of fifty dollars to the said superintendent for the use of the United States.\" If this was the conduct of Congress and their officers, when possessed of powers which were declared by them to be insufficient for the purposes of government, what have we reasonably to expect will be their conduct when possessed of the powers \" to regulate commerce with foreign nations, and among the several states, and with the Indian tribes,\" when they are armed with legislative, executive and judicial powers, and their laws the supreme laws of the land — and when the states are prohibited, without the consent of Congress, to lay any \"imposts or duties on imports,\" and if they do they shall be for the use of the treasury ofthe United States — and all such laws subject to the revision and controul of Congress."
+    },
+    {
+      "label": "Sydney 1, ¶ 16",
+      "pages": [
+        "303"
+      ],
+      "ref": "Sydney.1.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          315
+        ]
+      },
+      "text": "It is therefore evident that this state, by adopting the new [government, will enervate their legislative rights, and totally surrender into the hands of Congress the management and regulation ot the Indian trade to an improper government, and the traders to be fleeced by iniquitous impositions, operating at one and the same time as a monopoly and a poll-tax. The deputy by the above ordinance, has a right to exact yearly fifty dollars from every trader, which Congress may increase to any amount, and give it all the operation of a monopoly ; fifty dollars on a cargo of 10,000 dollars' value will be inconsiderable, on a cargo of lOOO dollars burthensome, but on a cargo of lOO dollars will be intolerable, and amount to a total prohibition, as to small adventurers,",
+      "uncertain": [
+        {
+          "end": 195,
+          "readings": {
+            "brittle": "of",
+            "google": "of",
+            "primary": "ot"
+          },
+          "start": 193
+        },
+        {
+          "end": 581,
+          "readings": {
+            "brittle": "10,000",
+            "google": "lO.oco",
+            "primary": "10,000"
+          },
+          "start": 575
+        }
+      ]
+    },
+    {
+      "label": "Sydney 1, ¶ 17",
+      "pages": [
+        "303"
+      ],
+      "ref": "Sydney.1.17",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          315
+        ]
+      },
+      "text": "II, III, IX, XII, AND XXXI."
+    },
+    {
+      "label": "Sydney 1, ¶ 18",
+      "pages": [
+        "303"
+      ],
+      "ref": "Sydney.1.18",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          315
+        ]
+      },
+      "text": "The second paragraph provides \" that the supreme legislative power within this state shall be vested in two separate and distinct bodies of men, the one to be called the assembly, and the other to be called the senate of the state of New York, who together shall form the legislature.\""
+    },
+    {
+      "label": "Sydney 1, ¶ 19",
+      "pages": [
+        "303"
+      ],
+      "ref": "Sydney.1.19",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          315
+        ]
+      },
+      "text": "The ninth provides \" that the assembly shall be the judge of their own members, and enjoy the same privileges, and proceed in doing business in like manner as the assembly of the colony of New York of right formerly did.\""
+    },
+    {
+      "label": "Sydney 1, ¶ 20",
+      "pages": [
+        "303"
+      ],
+      "ref": "Sydney.1.20",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          315
+        ]
+      },
+      "text": "The twelfth paragraph provides \" that the senate shall, in like manner, be judges of their own members,\" etc."
+    },
+    {
+      "label": "Sydney 1, ¶ 21",
+      "pages": [
+        "303"
+      ],
+      "ref": "Sydney.1.21",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          315
+        ]
+      },
+      "text": "The 31st describes even the stile of laws — that the stile of all laws shall be as follows : \" Be it enacted by the people of the state of New York represented in senate and assembly,\" and that all writs and proceedings shall run in the name of the people of the state of New York, and tested in the name of the chancellor or the chief judge from whence they shall issue."
+    },
+    {
+      "label": "Sydney 1, ¶ 22",
+      "pages": [
+        "303"
+      ],
+      "ref": "Sydney.1.22",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          315
+        ]
+      },
+      "text": "The third provides against laws that may be hastily and inadvertently passed, inconsistent with the spirit of the constitution and the public good, and that \" the governor, the chancellor and judges ofthe supreme court, shall revise all bills about to be passed into laws, by the legislature.\""
+    },
+    {
+      "label": "Sydney 1, ¶ 23",
+      "pages": [
+        "304"
+      ],
+      "ref": "Sydney.1.23",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          316
+        ]
+      },
+      "text": "The powers vested in the legislature of this state by these paragraphs will be weakened, for the proposed new government declares that \" all legislative powers therein granted shall be vested in a congress of the United States, which shall consist of a senate and a house of representatives,\" and it further prescribes, that \" this constitution and the laws of the United States, which shall be made in pursuance thereof; and all treaties made, or which shall be made under the authority of the United States, shall be the supreme law of the land, and the judges in every state shall be bound thereby, anything in the constitution or laws of any state to the contrary notwithstanding; and the members of the several state legislatures, and all executive and judicial officers, both of the United States and of the several states, shall be bound by oath or affirmation to support this constitution.\""
+    },
+    {
+      "label": "Sydney 1, ¶ 24",
+      "pages": [
+        "304"
+      ],
+      "ref": "Sydney.1.24",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          316
+        ]
+      },
+      "text": "Those who are full of faith, suppose that the words in pursuance thereof are restrictive, but if they reflect a moment and take into consideration the comprehensive expressions of the instrument, they will find that their restrictive construction is unavailing, and this is evinced by i start, 8 sect., where this government has a power \" to lay and collect all taxes, duties, imposts and excises, to pay the debts, and provide for the common defence and general welfare of the United States,\" and also \" to make all laws which shall be necessary and proper for carrying into execution the foregoing powers vested by this constitution in the government of the United States, or in any department or office thereof\""
+    },
+    {
+      "label": "Sydney 1, ¶ 25",
+      "pages": [
+        "304"
+      ],
+      "ref": "Sydney.1.25",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          316
+        ]
+      },
+      "text": "Art 1st, sect. 7, provides a qualified negative, that is, that \" every bill which shall be passed [by] the house of representatives and the senate, shall, before it become a law, be presented to the president of the United States.\""
+    },
+    {
+      "label": "Sydney 1, ¶ 26",
+      "pages": [
+        "304"
+      ],
+      "ref": "Sydney.1.26",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          316
+        ]
+      },
+      "text": "To conclude my observations on this head, it appears to me as impossible that th.ese powers in the state constitution and those in the general government can exist and operate together, as it would be for a man to serve two masters whose interests clash, and secure the approbation of both. Can there at the same time and place be and operate two supreme legislatures, executives, and judicials ? Will a \" guarantee of a republican form of government to every state in the union\" be of any avail, or secure the establishment and retention of state rights ?"
+    },
+    {
+      "label": "Sydney 1, ¶ 27",
+      "pages": [],
+      "ref": "Sydney.1.27",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          317
+        ]
+      },
+      "text": "If this guarantee had remained, as it was first reported by the committee of the whole house, to wit,. . . \" that a republican constitution, and its existing laws, ought to be guaranteed to each state by the United States,\" it would have been substantial ; but the changing the word constitution into the word form bears no favorable appearance."
+    },
+    {
+      "label": "Sydney 1, ¶ 28",
+      "pages": [],
+      "ref": "Sydney.1.28",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          317
+        ]
+      },
+      "text": "IV, V, XII, XVI."
+    },
+    {
+      "label": "Sydney 1, ¶ 29",
+      "pages": [],
+      "ref": "Sydney.1.29",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          317
+        ]
+      },
+      "text": "The fourth provides, \"that the assembly o'i the state of New York shall consist of at least seventy members, to be annually chosen in the several counties in certain proportions.\" The 5th, 1 2th and i6lh, declare that a census shall be taken every seven years, to regulate the augmentation of the number seventy, so as not to exceed three hundred. Here seventy members are divided among the several counties, and consequently into at least as many poles and sets of members to be annually chosen. If this is contrasted with the constitution for the federal government — the constitutional assembly or house of representatives will be found to consist of sixty-five members divided among thirteen states, to be chosen every second year. Six for the state of New York ; not distributed among the counties, but by all the counties. And, although \" the times, places and manner of holding elections for senators and representatives shall be prescribed in each state by the legislature thereof,\" yet, as it provides that \" Congress may at any time by law, make or alter those regulations, except as to places of chusing senators\" — the power in the state government to prescribe rules in those cases will be superseded by the executive of the general government, perhaps to the great inconvenience of the people.",
+      "uncertain": [
+        {
+          "end": 43,
+          "readings": {
+            "brittle": "of",
+            "google": "of",
+            "primary": "o'i"
+          },
+          "start": 40
+        },
+        {
+          "end": 204,
+          "readings": {
+            "brittle": "6th,",
+            "google": "i6lh,",
+            "primary": "i6lh,"
+          },
+          "start": 199
+        }
+      ]
+    },
+    {
+      "label": "Sydney 1, ¶ 30",
+      "pages": [],
+      "ref": "Sydney.1.30",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          317
+        ]
+      },
+      "text": "FROM THE VITH TO THE XIITH."
+    },
+    {
+      "label": "Sydney 1, ¶ 31",
+      "pages": [],
+      "ref": "Sydney.1.31",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          317
+        ]
+      },
+      "text": "The sixth paragraph recites that \" an opinion hath long prevailed among divers of the good people of this state that the voting at the election by ballot would tend more to preserve the liberty and equal freedom of the people than voting viva voce ; to the end, therefore, that a fair experiment be made which of these two methods of voting is to be preferred, it declares that after the war elections shall be by ballot."
+    },
+    {
+      "label": "Sydney 1, ¶ 32",
+      "pages": [
+        "306"
+      ],
+      "ref": "Sydney.1.32",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          318
+        ]
+      },
+      "text": "The seventh and eighth regulate the freeholds, and what property shall entitle a man to vote ; the ninth, the mode of conducting business in the assembly, and their privileges; the tenth, eleventh, and twelfth, the number of the senate, and how and by whom they shall be elected."
+    },
+    {
+      "label": "Sydney 1, ¶ 33",
+      "pages": [
+        "306"
+      ],
+      "ref": "Sydney.1.33",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          318
+        ]
+      },
+      "text": "As these clauses regulate the mode of elections and qualifications of the voters of senate and assembly, a relation of what gave rise to the provisions for voting by ballot and that of the value of the freehold, will help to unravel what otherwise may appear mysterious."
+    },
+    {
+      "label": "Sydney 1, ¶ 34",
+      "pages": [
+        "306"
+      ],
+      "ref": "Sydney.1.34",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          318
+        ]
+      },
+      "text": "In respect to the first it may be necessary to observe that under the colonial government there existed violent parties, not known by the name of whig or tory — republicans and aristocrats. Those who were in the employments of government, or the ins, were for extending the prerogative of the crown, while the outs were checks to it. Many of the leaders on both sides were under strong expectations that sooner or later that branch of colonial government called the king's council would be erected into a hereditary house of lords. The ins being nearest to the disposition of the offices of honor and profit, and in the way of obtaining patents for vacant lands, and being from time to time joined by other crown officers and dependents, who flocked to and settled in this colony since the year 1763, had the means of making use of undue influence to retain their situations, which made the outs at last dispair of ever having a turn, unless the elections were by ballot. This opinion was propagated in every part of the colony before and at the time of the revolution, and so strongly did it operate upon the committee that were ordered to consider of and report the constitution, that at one time they had the whole system interwoven in the draft; but either because it would have made it too lengthy, or that one of the parties were then reduced, and not likely to rise again into importance, about the time the draft was reported, it was struck out and was left by the constitution to the legislature to decide, as experience on the exercise of both principles should suggest."
+    },
+    {
+      "label": "Sydney 2, ¶ 1",
+      "pages": [
+        "307"
+      ],
+      "ref": "Sydney.2.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          319
+        ]
+      },
+      "text": "As to the value of the freeholds, there has been great diversity of opinions, for notwithstanding all agreed that the rights and liberties of a country were ever in danger from the rich and poor, and their safety in the middle sort or yeomanry of the country, still the difficulty occurred in establishing the mean."
+    },
+    {
+      "label": "Sydney 2, ¶ 2",
+      "pages": [
+        "307",
+        "308"
+      ],
+      "ref": "Sydney.2.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          319,
+          320
+        ]
+      },
+      "text": "While the convention, in 1776, was setting at Harlem, the outlines of a constitution were handed about, to try, it was supposed, the temper of the members, in which it was proposed to have a governor, lieutenant governor, senate, and assembly; the qualification of the governor, lieutenant governor, and senate, to be that each should possess real estate to the value,of io,ooo pounds, and to be elected by freeholders possessing freeholds to the value of 1,000 pounds. Although this was not attended with bad effects, yet the qualifications of the electors gave rise to various arguments, and, among others, that as taxation and representation ought to go together, so the right of electing shall be in proportion to the value of each man's estate. To exemplify this, a man of ;^ioo estate had one vote; a man of ;£'iooo should have ten, and a man of ten thousand pounds a hundred, and so on in the same ratio. Others on the contrary supposed that there ought to be no other criterion than the age of twenty-one, a citizen born and resident in this country; out of the two extremes was produced the present system of election and qualification, both admitted to be as secure and consistent rights as any that have been contrived.",
+      "uncertain": [
+        {
+          "end": 377,
+          "readings": {
+            "google": "10,000",
+            "primary": "io,ooo"
+          },
+          "start": 371
+        },
+        {
+          "end": 783,
+          "readings": {
+            "brittle": "£100",
+            "primary": ";^ioo"
+          },
+          "start": 778
+        }
+      ]
+    },
+    {
+      "label": "Sydney 2, ¶ 3",
+      "pages": [
+        "308"
+      ],
+      "ref": "Sydney.2.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          320
+        ]
+      },
+      "text": "It is apprehended, from the duplicity in the wording of 1st art., 4th sec, that seemingly to leave in the power of the respective legislatures to regulate the elections, and still, that Congress may at any time by law make or alter such regulations; and the undesigned wording of the sixth article, that the constitution and laws of the United States which shall be made in pursuance thereof shall be the law of the land, anything in the constitution or laws of any State to the contrary notwithstanding, will render the whole system ineffectual, if not nugatory, and a new system as destructive to the liberties of the citizens as that of the ratio of voices to the ratio of property introduced. Besides being liable to have the whole State erected into one district, and consequently may give rise to the inconveniences I mentioned before."
+    },
+    {
+      "label": "Sydney 2, ¶ 4",
+      "pages": [
+        "308"
+      ],
+      "ref": "Sydney.2.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          320
+        ]
+      },
+      "text": "VII, SEC. 6; viii, SEC. 6; ix, sec. 6; x, section 6; xi, sec. 6; xii, SEC. 2, 6; xvi, SEC. 6; xiii, xxxv, xli."
+    },
+    {
+      "label": "Sydney 2, ¶ 5",
+      "pages": [
+        "308"
+      ],
+      "ref": "Sydney.2.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          320
+        ]
+      },
+      "text": "By the 13th paragraph \"no member of this State shall be disfranchised, or deprived of any of the rights or privileges secured to the subjects of the State by this constitution, unless by the law of the land, or judgment of its peers.\""
+    },
+    {
+      "label": "Sydney 2, ¶ 6",
+      "pages": [
+        "308"
+      ],
+      "ref": "Sydney.2.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          320
+        ]
+      },
+      "text": "The 35th adopts, under certain exceptions and modifications, the common law of England, the statute law of England and Great Britain, and the acts of the legislature of the colony, which together formed the law on the 19th of April, 1775."
+    },
+    {
+      "label": "Sydney 2, ¶ 7",
+      "pages": [
+        "308"
+      ],
+      "ref": "Sydney.2.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          320
+        ]
+      },
+      "text": "The 41st provides \" that the trial by jury remain inviolate forever; that no acts of attainder shall be passed by the legislature of this State for crimes other than those committed before the termination of the present war. And that the legislature shall at no time hereafter institute any new courts but such as shall proceed according to the course of the common law."
+    },
+    {
+      "label": "Sydney 2, ¶ 8",
+      "pages": [
+        "308"
+      ],
+      "ref": "Sydney.2.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          320,
+          321
+        ]
+      },
+      "text": "There can be no doubt that if the new government be adopted in all its latitude, every one of these paragraphs will become a dead letter : nor will it solve any difficulties, if the United States guarantee \" to every state in the union a republican form of government;\" we maybe allowed the form and not the substance, and that it was so intended will appear from the changing the word constitution to the word form and the omission of the words, and its existing laws. And I do not even think it uncharitable to suppose that it was designedly done ; but whether it was so or not, by leaving out these words the jurisprudence of each state is left to the mercy of the new government. By 1st art., 8th sec, ist clause, \"The Congress shall have power to lay and collect taxes, duties, imposts and excises, to pay the debts and provide for the common defence and general welfare of the United States.\""
+    },
+    {
+      "label": "Sydney 2, ¶ 9",
+      "pages": [],
+      "ref": "Sydney.2.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          321
+        ]
+      },
+      "text": "By the 9th clause of the same section, \" To constitute tribunals inferior to the court.\""
+    },
+    {
+      "label": "Sydney 2, ¶ 10",
+      "pages": [],
+      "ref": "Sydney.2.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          321
+        ]
+      },
+      "text": "By the iSth clause, \"To make all laws which shall be necessary and proper for carrying into execution the foregoing powers, and all other powers vested by this constitution in the government of the United States, or in any department thereof.\"",
+      "uncertain": [
+        {
+          "end": 11,
+          "readings": {
+            "brittle": "18th",
+            "google": "i8th",
+            "primary": "iSth"
+          },
+          "start": 7
+        }
+      ]
+    },
+    {
+      "label": "Sydney 2, ¶ 11",
+      "pages": [],
+      "ref": "Sydney.2.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          321
+        ]
+      },
+      "text": "The 3d art., ist sec, \" The judicial power of the United States shall be vested in one supreme court, and in such inferior courts as the Congress may from time to time ordain and establish,\""
+    },
+    {
+      "label": "Sydney 2, ¶ 12",
+      "pages": [],
+      "ref": "Sydney.2.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          321
+        ]
+      },
+      "text": "By sec. 2nd,\" The judicial power shall extend to all cases in law and equity.\" To have in various instances an original and exclusive, in others a concurrent jurisdiction, and the supreme court in many cases an appellate jurisdiction, both as to law and fact. It provides, indeed, that the trial for crimes shall be by jury, but has left the trial in civil matters to the mercy of construction and their own legislative sovereign will and pleasure."
+    },
+    {
+      "label": "Sydney 2, ¶ 13",
+      "pages": [],
+      "ref": "Sydney.2.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          321
+        ]
+      },
+      "text": "By the 3d art., 3d sec, \" The Congress shall have power to declare the punishment of treason, but no attainder shall work a corruption of blood or forfeiture, except during the life of the person attainted. By 1st art., 9th sec, 3d clause, \" No bill of attainder or ex post facto law shall be passed.\"",
+      "uncertain": [
+        {
+          "end": 213,
+          "readings": {
+            "brittle": "1st",
+            "google": "ist",
+            "primary": "1st"
+          },
+          "start": 210
+        }
+      ]
+    },
+    {
+      "label": "Sydney 2, ¶ 14",
+      "pages": [],
+      "ref": "Sydney.2.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          321
+        ]
+      },
+      "text": "XVII, XVIII. XIX, XX, XXI, XXIII, XL."
+    },
+    {
+      "label": "Sydney 2, ¶ 15",
+      "pages": [],
+      "ref": "Sydney.2.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          321,
+          322
+        ]
+      },
+      "text": "The 17th orders \" That the supreme executive power and authority of this State shall be vested in a governor.\" By the i8th he is commander-in-chief of the militia and admiral of the navy of the State; may grant pardons to all persons convicted of crimes ; he may suspend the execution of the sentence in treason or murder.",
+      "uncertain": [
+        {
+          "end": 122,
+          "readings": {
+            "brittle": "18th",
+            "google": "i8th",
+            "primary": "i8th"
+          },
+          "start": 118
+        }
+      ]
+    },
+    {
+      "label": "Sydney 2, ¶ 16",
+      "pages": [],
+      "ref": "Sydney.2.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          322
+        ]
+      },
+      "text": "By the 19th paragraph he is to see that the laws and resolutions of the legislature be faithfully executed."
+    },
+    {
+      "label": "Sydney 2, ¶ 17",
+      "pages": [],
+      "ref": "Sydney.2.17",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          322
+        ]
+      },
+      "text": "By the 27th he is president of the council of appointment, and has a casting vote and the commissioning of all officers."
+    },
+    {
+      "label": "Sydney 2, ¶ 18",
+      "pages": [],
+      "ref": "Sydney.2.18",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          322
+        ]
+      },
+      "text": "The 20th and 21st paragraphs give the lieutenant-governor, on the death, resignation, removal from office, or impeachment of the governor, all the powers of a governor."
+    },
+    {
+      "label": "Sydney 2, ¶ 19",
+      "pages": [],
+      "ref": "Sydney.2.19",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          322
+        ]
+      },
+      "text": "The 40th paragraph orders that the militia at all times, both in peace and war, shall be armed and disciplined, and kept in readiness ; in what manner the Quakers shall be excused; and that a magazine of warlike stores be forever kept at the expence of the State, and by act of the legislature, established, maintained, and continued in every county in the State."
+    },
+    {
+      "label": "Sydney 2, ¶ 20",
+      "pages": [],
+      "ref": "Sydney.2.20",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          322
+        ]
+      },
+      "text": "Whoever considers the following powers vested in the government, and compares them with the above, must readily perceive they are either all enervated or annihilated."
+    },
+    {
+      "label": "Sydney 2, ¶ 21",
+      "pages": [],
+      "ref": "Sydney.2.21",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          322
+        ]
+      },
+      "text": "By the ist art., 8th sec, 15th, i6th and 17th clauses, Congress will be empowered to call forth the militia to execute the laws of the union, suppress insurrections and repel invasions ; to provide for organizing, arming and disciplining the militia, for the governing such part of them as may be employed in the service of the United States, and for the erection of forts, magazines, etc.",
+      "uncertain": [
+        {
+          "end": 36,
+          "readings": {
+            "brittle": "16th",
+            "google": "i6th",
+            "primary": "i6th"
+          },
+          "start": 32
+        }
+      ]
+    },
+    {
+      "label": "Sydney 2, ¶ 22",
+      "pages": [],
+      "ref": "Sydney.2.22",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          322
+        ]
+      },
+      "text": "And by the 2nd art., 2d sec, \" The president shall be commander-in-chief of the army and navy of the United States, and of the militia of the several States when called into actual service of the United States, except in cases of impeachment.\""
+    },
+    {
+      "label": "Sydney 2, ¶ 23",
+      "pages": [],
+      "ref": "Sydney.2.23",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          322
+        ]
+      },
+      "text": "And by the 6th art., \" The members of the several state legislatures, and all the executive and judicial officers; both of the United States, and of the several states, shall be bound by oath or affirmation to support the constitution.\" Can this oath betaken by those who have already taken one under the constitution of this state ?"
+    },
+    {
+      "label": "Sydney 2, ¶ 24",
+      "pages": [],
+      "ref": "Sydney.2.24",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323
+        ]
+      },
+      "text": "xviii, SEC. 17 ; XIX. SIX. 17 ; xx. six. 17 ; xxi, six. 17 ; xxiii, sec.",
+      "uncertain": [
+        {
+          "end": 26,
+          "readings": {
+            "brittle": "sec.",
+            "google": "SEC.",
+            "primary": "SIX."
+          },
+          "start": 22
+        },
+        {
+          "end": 40,
+          "readings": {
+            "brittle": "sec.",
+            "google": "sec.",
+            "primary": "six."
+          },
+          "start": 36
+        },
+        {
+          "end": 55,
+          "readings": {
+            "google": "sec.",
+            "primary": "six."
+          },
+          "start": 51
+        }
+      ]
+    },
+    {
+      "label": "Sydney 2, ¶ 25",
+      "pages": [],
+      "ref": "Sydney.2.25",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323
+        ]
+      },
+      "text": "17 ; XXII TO XXX INCLUSIVE."
+    },
+    {
+      "label": "Sydney 2, ¶ 26",
+      "pages": [],
+      "ref": "Sydney.2.26",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323
+        ]
+      },
+      "text": "These paragraphs regulate the election, appointment, construction and duration of all the state, county and district officers, including the delegates to Congress, and how they severally are to be created and commissioned."
+    },
+    {
+      "label": "Sydney 2, ¶ 27",
+      "pages": [],
+      "ref": "Sydney.2.27",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323
+        ]
+      },
+      "text": "The 22d directs that the treasurer shall be appointed by act of the legislature to originate with the assembly. The 23d establishes a council to appoint the officers."
+    },
+    {
+      "label": "Sydney 2, ¶ 28",
+      "pages": [],
+      "ref": "Sydney.2.28",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323
+        ]
+      },
+      "text": "The 24th directs that the military officers shall be, during the pleasure of the council, the chancellor, judges of the supreme court, the first judge in every county until the age of 60."
+    },
+    {
+      "label": "Sydney 2, ¶ 29",
+      "pages": [],
+      "ref": "Sydney.2.29",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323
+        ]
+      },
+      "text": "Twenty-five and 28, which offices are incompatible, and the tenure and duration of such officers."
+    },
+    {
+      "label": "Sydney 2, ¶ 30",
+      "pages": [],
+      "ref": "Sydney.2.30",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323
+        ]
+      },
+      "text": "Twenty-six, that sheriffs and coroners be annually appointed, and shall not continue more than four years."
+    },
+    {
+      "label": "Sydney 2, ¶ 31",
+      "pages": [],
+      "ref": "Sydney.2.31",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323
+        ]
+      },
+      "text": "Twenty-seven, that the officers of the court be appointed by the respective courts, except the attorneys, by the first judge of every court."
+    },
+    {
+      "label": "Sydney 2, ¶ 32",
+      "pages": [],
+      "ref": "Sydney.2.32",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323
+        ]
+      },
+      "text": "Twenty-nine, provides that town clerks, supervisors, assessors, constables and collectors, and all other officers heretofore elegible by the people, shall always continue to be so elegible."
+    },
+    {
+      "label": "Sydney 2, ¶ 33",
+      "pages": [],
+      "ref": "Sydney.2.33",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323
+        ]
+      },
+      "text": "Thirty, directs the mode how the delegates to represent this state in the general Congress of the United States shall be elected."
+    },
+    {
+      "label": "Sydney 2, ¶ 34",
+      "pages": [],
+      "ref": "Sydney.2.34",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323
+        ]
+      },
+      "text": "I apprehend that the paragraphs aforesaid will be compleatly rendered unoperative by the following articles in the new constitution :"
+    },
+    {
+      "label": "Sydney 2, ¶ 35",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.35",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          323,
+          324
+        ]
+      },
+      "text": "Second article, second section, second clause, the president \" shall have power, and by and with the advice and consent of the Senate, shall appoint embassadors, other public ministers and consuls, judges of the supreme court, and all officers of the United States where appointments are not herein otherwise provided for, and which shall be established by law ; but the Congress may by law vest the power of such inferior officers as they think proper, in the president alone, in the courts of law. or in the heads of departments.\" By the 1st art, 8 section, 9, 18 clauses, Congress have power \" to constitute tribunals inferior to the supreme court, to make all laws which shall be necessary and proper for carrying into execution the foregoing powers, and all other powers vested by this constitution in the government of the United States, or in any department or officer thereof.\"",
+      "uncertain": [
+        {
+          "end": 543,
+          "readings": {
+            "brittle": "1st",
+            "google": "ist",
+            "primary": "1st"
+          },
+          "start": 540
+        }
+      ]
+    },
+    {
+      "label": "Sydney 2, ¶ 36",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.36",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "By the third article, 2d section, there is an extensive federal power as above-mentioned."
+    },
+    {
+      "label": "Sydney 2, ¶ 37",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.37",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "By the 2d article, 2d section, the president \" shall take care that the laws be faithfully executed, and shall commission all the officers of the United States.\""
+    },
+    {
+      "label": "Sydney 2, ¶ 38",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.38",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "From these powers lodged in Congress and the powers vested in the states, it is clear that there must be a government within a government, two legislative, executive and judicial powers. The power of raising an army in time of peace, and to command the militia, will give the president ample means to enforce the supreme laws of the land."
+    },
+    {
+      "label": "Sydney 2, ¶ 39",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.39",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "XXIII, SEC. 21 ; XXIV, SEC. 21 ; XXV, SEC. 21 ; XXVI, SEC. 21 ; XXVII,"
+    },
+    {
+      "label": "Sydney 2, ¶ 40",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.40",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "SEC. 21 ; XXVIII, SEC. 21 ; XXIX, SEC. 21 ; XXX, SEC. 21 ;"
+    },
+    {
+      "label": "Sydney 2, ¶ 41",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.41",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "XXXI, SEC. 2 ; XXXII, XXXIII, XXXIV."
+    },
+    {
+      "label": "Sydney 2, ¶ 42",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.42",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "The 32d paragraph orders, \" That a court shall be instituted for the trial of impeachments and the correction of errors under the regulations which shall be established by the legislature, and to consist of the president of the senate for the time being, and the senators, chancellors and judges of the supreme court.\""
+    },
+    {
+      "label": "Sydney 2, ¶ 43",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.43",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "The 33d vests the power of impeaching all officers of the state for mal and corrupt practice in the representatives of the people in assembly."
+    },
+    {
+      "label": "Sydney 2, ¶ 44",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.44",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "The 34th allows the parties impeached or indicted for crimes and misdemeanors to have counsel."
+    },
+    {
+      "label": "Sydney 2, ¶ 45",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.45",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "This system is undermined and rendered nugatory by 1st art., 6th and 7th clauses, where the senate in the new constitution, have the trial and judgment on all impeachments."
+    },
+    {
+      "label": "Sydney 2, ¶ 46",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.46",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "By 3d art., 2d sec, 3d clause, the trial of all crimes is regulated."
+    },
+    {
+      "label": "Sydney 2, ¶ 47",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.47",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "By the 3d art., 3d sec, it is defined what shall be treason, the proof required, the punishment, and how the judgment in attainder shall operate."
+    },
+    {
+      "label": "Sydney 2, ¶ 48",
+      "pages": [],
+      "ref": "Sydney.2.48",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          325
+        ]
+      },
+      "text": "XXXIII, SEC. 32 ; xxxiv, sec. 32 ; xxxv, sec. 13 ; XXXVII, SEC. i; xxxviii, xxxix."
+    },
+    {
+      "label": "Sydney 2, ¶ 49",
+      "pages": [],
+      "ref": "Sydney.2.49",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          325
+        ]
+      },
+      "text": "The 38th paragraph provides \" that the free exercise and enjoyment of religious procession and worship, without discrimination or preference, shall forever hereafter be allowed within this State to all mankind, provided that the liberty of conscience hereby granted shall not excuse acts of licentiousness or justify practices inconsistent with the peace or safety of the State.\""
+    },
+    {
+      "label": "Sydney 2, ¶ 50",
+      "pages": [],
+      "ref": "Sydney.2.50",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          325
+        ]
+      },
+      "text": "The 39th provides that \" no minister of the gospel, or priest of any denomination whatsoever, shall at any time hereafter, under any pretence or description whatever, be eligible to or capable of holding any civil or military office or place within this state.\""
+    },
+    {
+      "label": "Sydney 2, ¶ 51",
+      "pages": [],
+      "ref": "Sydney.2.51",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          325
+        ]
+      },
+      "text": "The first of those articles protects us from persecution in religious matters. The other excludes the clergy from enjoying any office, civil or military. Two provisions pas.sed by in silence by the framers of the new constitution ; and although possibly the leaders in both have been equally averse to a democratic system, and have had the same object, the ruin of state government, in view."
+    },
+    {
+      "label": "Sydney 2, ¶ 52",
+      "pages": [],
+      "ref": "Sydney.2.52",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          325
+        ]
+      },
+      "text": "XLII."
+    },
+    {
+      "label": "Sydney 2, ¶ 53",
+      "pages": [],
+      "ref": "Sydney.2.53",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          325
+        ]
+      },
+      "text": "This paragraph provides \" that it shall be in the discretion of the legislature to naturalize all such persons and in such manner as they shall think proper.\""
+    },
+    {
+      "label": "Sydney 2, ¶ 54",
+      "pages": [],
+      "ref": "Sydney.2.54",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          325
+        ]
+      },
+      "text": "The 1st art, 8 sec, 4th clause, give to the new government power to establish a uniform rule of naturalization."
+    },
+    {
+      "label": "Sydney 2, ¶ 55",
+      "pages": [],
+      "ref": "Sydney.2.55",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          325
+        ]
+      },
+      "text": "And by the 4th art., 2d sec, \" the citizens of each state shall be entitled to all the privileges and immunities of citizens in the several states,\" whereby the clause is rendered entirely nugatory."
+    },
+    {
+      "label": "Sydney 2, ¶ 56",
+      "pages": [
+        "314"
+      ],
+      "ref": "Sydney.2.56",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          325,
+          326
+        ]
+      },
+      "text": "From this contrast it appears that the general government, when compleatly organized, will absorb all those powers of the state which the framers of its constitution had declared should be only exercised by the representatives of the people of the state ; that the burthens and expence of supporting a state establishment will be perpetuated; but its operations to ensure or contribute to any essential measures promotive of the happiness of the people may be totally prostrated, the general government arrogating to itself the right of interfering in the most minute objects of internal police, and the most trifling domestic concerns of every state, by possessing a power of passing laws \" to provide for the general welfare of the United States,\" which may affect life, liberty and property in every modification they may think expedient, unchecked by cautionary reservations, and unrestrained by a declaration of any of those rights which the wisdom and prudence of America in the year 1776 held ought to be at all events protected from violation."
+    },
+    {
+      "label": "Sydney 2, ¶ 57",
+      "pages": [
+        "314"
+      ],
+      "ref": "Sydney.2.57",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          326
+        ]
+      },
+      "text": "In a word, the new constitution will prove finally to dissolve all the power of the several state legislatures, and destroy the rights and liberties of the people ; for the power of the first will be all in all, and of the latter a mere shadow and form without substance, and if adopted we may (in imitation of the Carthagenians) say, Delenda vit American."
+    }
+  ],
+  "short": "Sydney",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "The Letters of Sydney"
+}

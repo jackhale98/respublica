@@ -1,0 +1,690 @@
+{
+  "attribution": {
+    "byline": "Written by Roger Sherman",
+    "kind": "single",
+    "names": [
+      "Roger Sherman"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1788-12-04/1788-12-25",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Written by Roger Sherman",
+        "kind": "single",
+        "names": [
+          "Roger Sherman"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Citizen of New Haven 1",
+      "level": 1,
+      "publication": [
+        "THE NEW HAVEN GAZETTE.",
+        "Thursday, December 4, 1788.",
+        "Observations on the Alterations Proposed as Amendments to the new Federal Constitution."
+      ],
+      "ref": "CitizenOfNewHaven.1",
+      "signature": "A Citizen of New Haven."
+    },
+    {
+      "attribution": {
+        "byline": "Written by Roger Sherman",
+        "kind": "single",
+        "names": [
+          "Roger Sherman"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Citizen of New Haven 2",
+      "level": 1,
+      "publication": [
+        "THE NEW HAVEN GAZETTE.",
+        "(Number 51)",
+        "Thursday, December 25, 1788.",
+        "Observations on the New Federal Constitution."
+      ],
+      "ref": "CitizenOfNewHaven.2",
+      "signature": "A Citizen of New Haven.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "£31)",
+              "google": "01)",
+              "primary": "51)"
+            },
+            "start": 8
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 229–242. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "citizen-of-new-haven",
+  "position": "federalist",
+  "ref_prefix": "CitizenOfNewHaven",
+  "segments": [
+    {
+      "label": "Citizen of New Haven 1, ¶ 1",
+      "pages": [],
+      "ref": "CitizenOfNewHaven.1.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          245
+        ]
+      },
+      "text": "Six of the states have adopted the new constitution without proposing any alteration, and the most of those proposed by the conventions of other states may be provided for by congress in a code of laws without altering the constitution. If congress may be safely \"trusted with the affairs of the Union, and have sufficient powers for that purpose, and possess no powers but such as respect the common interest of the states (as I have endeavored to show in a former piece), then all the matters that can be regulated by law may safely be left to their discretion, and those will include all that I have noticed except the following, which I think on due consideration will appear to be improper or unnecessary."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 2",
+      "pages": [],
+      "ref": "CitizenOfNewHaven.1.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          245
+        ]
+      },
+      "text": "1. It is proposed that the consent of two-thirds or three-fourths of the members present in this branch of the congress shall be required for passing certain acts."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 3",
+      "pages": [],
+      "ref": "CitizenOfNewHaven.1.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          245
+        ]
+      },
+      "text": "On which I would observe, that this would give a minority in congress power to controul the majority, joined with the concurrent voice of the president, for if the president dissents, no act can pass without the consent of two-thirds of the members in each branch of congress ; and would not that be contrary to the general principles of republican government ?"
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 4",
+      "pages": [],
+      "ref": "CitizenOfNewHaven.1.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          245
+        ]
+      },
+      "text": "2. That impeachments ought not to be tried by the senate, or not by the senate alone."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 5",
+      "pages": [
+        "234"
+      ],
+      "ref": "CitizenOfNewHaven.1.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          246
+        ]
+      },
+      "text": "But what good reason can be assigned why the senate is not the most proper tribunal for that purpose? The members are to be chosen by the legislatures of the several states, who will doubtless appoint persons of wisdom and probity, and from their office can have no interested motives to partiality. The house of peers in Great Britian try impeachments and are also a branch of the legislature."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 6",
+      "pages": [
+        "234"
+      ],
+      "ref": "CitizenOfNewHaven.1.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          246
+        ]
+      },
+      "text": "3. It is said that the president ought not to have power to grant pardons in cases of high treason, but the congress."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 7",
+      "pages": [
+        "234"
+      ],
+      "ref": "CitizenOfNewHaven.1.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          246
+        ]
+      },
+      "text": "It does not appear that any great mischief can arise from the exercise of this power by the president (though perhaps it might as well have been lodged in congress). The president cannot pardon in case of impeachment, so that such offenders may be excluded from office notwithstanding his pardon."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 8",
+      "pages": [
+        "234"
+      ],
+      "ref": "CitizenOfNewHaven.1.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          246
+        ]
+      },
+      "text": "4. It is proposed that members of congress be rendered ineligible to any other office during the time for which they are elected members of that body."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 9",
+      "pages": [
+        "234"
+      ],
+      "ref": "CitizenOfNewHaven.1.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          246
+        ]
+      },
+      "text": "This is an objection that will admit of something plausible to be said on both sides, and it was settled in convention on full discussion and deliberation. There are some offices which a member of congress may be best qualified to fill, from his knowledge of public affairs acquired by being a member, such as minister to foreign courts, &c., and on accepting any other office his seat in congress will be vacated, and no member is eligible to any office that shall have been instituted or the emoluments increased while he was a member."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 10",
+      "pages": [
+        "234"
+      ],
+      "ref": "CitizenOfNewHaven.1.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          246
+        ]
+      },
+      "text": "5. It is proposed to make the president and senators ineligible after certain periods."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 11",
+      "pages": [
+        "234"
+      ],
+      "ref": "CitizenOfNewHaven.1.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          246
+        ]
+      },
+      "text": "But this would abridge the privilege of the people, and remove one great motive to fidelity in office, and render persons incapable of serving in offices, on account of their experience, which would best qualify them for usefulness in office — but if their services are not acceptable they may be left out at any new election."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 12",
+      "pages": [
+        "234"
+      ],
+      "ref": "CitizenOfNewHaven.1.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          246
+        ]
+      },
+      "text": "6. It is proposed that no commercial treaty should be made without the consent of two-thirds of the senators, nor any cession of territory, right of navigation or fishery, without the consent of three-fourths of the members present in each branch of congress."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 13",
+      "pages": [
+        "235"
+      ],
+      "ref": "CitizenOfNewHaven.1.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          247
+        ]
+      },
+      "text": "It is provided by the constitution that no commercial treatyshall be made by the president without the consent of two-thirds of the senators present, and as each state has an equal representation and suffrage in the senate, the rights of the state will be as well secured under the new constitution as under the old; and it is not probable that they would ever make a cession of territory or any important national right without the consent of congress. The king of Great Britian has by the constitution a power to make treaties, yet in matters of great importance he consults the parliament."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 14",
+      "pages": [
+        "235"
+      ],
+      "ref": "CitizenOfNewHaven.1.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          247
+        ]
+      },
+      "text": "7. There is one amendment proposed by the convention of South Carolina respecting religious tests, by inserting the word other, between the words no and religious in that article, which is an ingenious thought, and had that word been inserted, it would probably have prevented any objection on that head. But it may be considered as a clerical omission and be inserted without calling a convention; as it now stands the effect will be the same."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 15",
+      "pages": [
+        "235"
+      ],
+      "ref": "CitizenOfNewHaven.1.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          247
+        ]
+      },
+      "text": "On the whole it is hoped that all the states will consent to make a fair trial of the constitution before they attempt to alter it ; experience will best show whether it is deficent or not, on trial it may appear that the alterations that have been proposed are not necessary, or that others not yet thought of may be necessary; everything that tends to disunion ought to be avoided. Instability in government and laws tends to weaken a state and render the rights of the people precarious."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 16",
+      "pages": [
+        "235"
+      ],
+      "ref": "CitizenOfNewHaven.1.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          247
+        ]
+      },
+      "text": "If another convention should be called to revise the constitution, 'tis not likely they would be more unanimous than the former; they might judge differently in some things, but is it certain that they would judge better? When experience has convinced the states and people in general that alterations are necessary, they may be easily made, but attempting it at present may be detrimental if not fatal to the union of the states."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 17",
+      "pages": [
+        "235"
+      ],
+      "ref": "CitizenOfNewHaven.1.17",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          247
+        ]
+      },
+      "text": "The judiciary department is perhaps the most difficult to be precisely limited by the constitution, but congress have full power to regulate it by law, and it may be found necessary to vary the regulations at different times as circumstances may differ."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 18",
+      "pages": [
+        "235",
+        "236"
+      ],
+      "ref": "CitizenOfNewHaven.1.18",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          247,
+          248
+        ]
+      },
+      "text": "Congress may make requisitions for supplies previous to direct taxation, if it should be thought to be expedient, but if requisitions be made and some states comply and others not, the noncomplying states must be considered and treated as delinquents, which will tend to excite disaffection and disunion among the states, besides occasioning delay ; but if congress lay the taxes in the first instance these evils will be prevented, and they will doubtless accommodate the taxes to the customs and convenience of the several states."
+    },
+    {
+      "label": "Citizen of New Haven 1, ¶ 19",
+      "pages": [
+        "236"
+      ],
+      "ref": "CitizenOfNewHaven.1.19",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          248
+        ]
+      },
+      "text": "Some suppose that the representation will be too small, but I think it is in the power of congress to make it too large, but I believe that it may be safely trusted with them. Great Britian contains about three times the number of the inhabitants in the United States, and according to Burgh's account in his political disquisitions, the members of parliament in that kingdom do not exceed 131, and if 69 more be added from the principal cities and towns the number would be 200; and strike off those who are elected by the small boroughs, which are called the rotten part of the constitution by their best patriots and politicians, that nation would be more equally and better represented than at present ; and if that would be a sufficient number for their national legislature, one-third of that number will be more than sufficient for our federal legislature who will have few general matters to transact. But these and other objections have been considered in a former paper, before referred to. I shall therefore conclude this with my best wishes for the continuance of the peace, liberty and union of these states."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 1",
+      "pages": [
+        "237"
+      ],
+      "ref": "CitizenOfNewHaven.2.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          249
+        ]
+      },
+      "text": "In order to form a good Constitution of Government, the legislature should be properly organized, and be vested with plenary powers for all the purposes for which the government was instituted, to be exercised for the public good as occasion may require."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 2",
+      "pages": [
+        "237"
+      ],
+      "ref": "CitizenOfNewHaven.2.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          249
+        ]
+      },
+      "text": "The greatest security that a people can have for the enjoyment of the\" rights and liberties, is that no laws can be made to bind them nor any taxes imposed upon them, without their consent by representatives of their own chusing, who will participate with them in the public burthens and benefits; this was the great point contended for in our controversy with Great Britain, and this will be fully secured to us by the new constitution. The rights of the people will be secured by a representation in proportion to their numbers in one branch of the legislature, and the rights of the particular states by their equal representation in the other branch.",
+      "uncertain": [
+        {
+          "end": 70,
+          "readings": {
+            "brittle": "their",
+            "google": "their",
+            "primary": "the\""
+          },
+          "start": 66
+        }
+      ]
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 3",
+      "pages": [
+        "237"
+      ],
+      "ref": "CitizenOfNewHaven.2.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          249
+        ]
+      },
+      "text": "The President and Vice-President as well as the members of Congress will be eligible for fixed periods, and may be re-elected as often as the electors shall think fit, which will be a great security for their fidelity in office, and give greater stability and energ)- to government than an exclusion by rotation, and will be an operative and effectual security against arbitrary government, either monarchial or aristocratic."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 4",
+      "pages": [
+        "238"
+      ],
+      "ref": "CitizenOfNewHaven.2.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          250
+        ]
+      },
+      "text": "The immediate security of the civil and domestic rights of the people will be in the government of the particular states. And as the different states have different local interests and customs which can be best regulated by their own laws, it should not be expedient to admit the federal government to interfere with them, any farther than may be necessary for the good of the whole. The great end of the federal government is to protect the several states in the enjoyment of those rights, against foreign invasion, and to preserve peace and a beneficial intercourse among themselves; and to regulate and protect our commerce with foreign nations."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 5",
+      "pages": [
+        "238"
+      ],
+      "ref": "CitizenOfNewHaven.2.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          250
+        ]
+      },
+      "text": "These were not sufficiently provided for by the former articles of confederation, which was the occasion of calling the late Convention to make amendments. This they have done by forming a new constitution containing the powers vested in the federal government, under the former, with such additional powers as they deemed necessary to attain the ends the states had in view, in their appointment. And to carry those powers into effect, they thought it necessary to make some alterations in the organization of the government : this they supposed to be warranted by their commission."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 6",
+      "pages": [
+        "238"
+      ],
+      "ref": "CitizenOfNewHaven.2.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          250
+        ]
+      },
+      "text": "The powers vested in the federal government are clearly defined, so that each state still retain its sovereignty in what concerns its own internal government, and a right to exercise every power of a sovereign state not particularly delegated to the government of the United States. The new powers vested in the United States, are, to regulate commerce; provide for a uniform practice respecting naturalization, bankruptcies, and organizing, arming and training the militia ; and for the punishment of certain crimes against the United States ; and for promoting the progress of science in the mode therein pointed out. There are some other matters which Congress has power under the present confederation to require to be done by the particular states, which they will be authorized to carry into effect themselves under the new constitution; these powers appear to be necessary for the common benefit of the states, and could not be effectually provided for by the particular states."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 7",
+      "pages": [
+        "239"
+      ],
+      "ref": "CitizenOfNewHaven.2.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          251
+        ]
+      },
+      "text": "CITIZEN objects of expenditure will be the same under the new constitution, as under the old; nor need the administration of government be more expensive; the number of members of Congress will be the same, nor will it be necessary to increase the number of officers in the executive department or their salaries; the supreme executive will be in a single person, who must have an honourable support; which perhaps will not exceed the present allowance to the President of Congress, and the expence of su[)- porting a committee of the states in the recess of Congress.",
+      "uncertain": [
+        {
+          "end": 515,
+          "readings": {
+            "brittle": "supporting",
+            "google": "supporting",
+            "primary": "su[)- porting"
+          },
+          "start": 502
+        }
+      ]
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 8",
+      "pages": [
+        "239"
+      ],
+      "ref": "CitizenOfNewHaven.2.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          251
+        ]
+      },
+      "text": "It is not probable that Congress will have occasien to sit longer than two or three months in a year, after the first session, which may perhaps be something longer. Nor will it be necessary for the Senate to sit longer than the other branch. The appointment of officers may be made during the session of Congress, and trials on impeachment will not often occur, and will require but little time to attend to them. The security against keeping up armies in time of peace will be greater under the new constitution than under the present, because it can't be done without the concurrence of two branches of the legislature, nor can any appropriation of money for that purpose be in force more than two years; whereas there is no restriction under the present confederation."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 9",
+      "pages": [
+        "239"
+      ],
+      "ref": "CitizenOfNewHaven.2.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          251
+        ]
+      },
+      "text": "The liberty of the press can be in no danger, because that is not put under the direction of the new government."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 10",
+      "pages": [
+        "239"
+      ],
+      "ref": "CitizenOfNewHaven.2.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          251
+        ]
+      },
+      "text": "If the federal government keeps within its proper jurisdiction, it will be the interest of the state legislatures to support it, and they will be a powerful and effectual check to its interfering with their jurisdiction. But the objects of federal government will be so obvious that there will be no great danger of any interference."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 11",
+      "pages": [
+        "239"
+      ],
+      "ref": "CitizenOfNewHaven.2.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          251
+        ]
+      },
+      "text": "The principal sources of revenue : will he imposts on goods ii^i- ported, and sale of the western l.uuN. which will probably •»<■ sufficient to pay the debts and expences ol the United States while peace continues; but if there should be occasion to resort to dm ct taxation, each state's quota will \\)v a-itri Mined according to a ii;!t; which has been approved by the legislatures (^.fekvi n ol the states, and should any state neglect to furnish its quota, Congress may raise it in the same manner that tin; state ought to have done; and what remedy more easy ami equitable could be devised, Iw obtain the supplies from a delinquent state",
+      "uncertain": [
+        {
+          "end": 42,
+          "readings": {
+            "brittle": "be",
+            "google": "be",
+            "primary": "he"
+          },
+          "start": 40
+        },
+        {
+          "end": 73,
+          "readings": {
+            "brittle": "imported,",
+            "google": "imported,",
+            "primary": "ii^i- ported,"
+          },
+          "start": 60
+        },
+        {
+          "end": 104,
+          "readings": {
+            "primary": "l.uuN."
+          },
+          "start": 98
+        },
+        {
+          "end": 173,
+          "readings": {
+            "brittle": "of",
+            "google": "of",
+            "primary": "ol"
+          },
+          "start": 171
+        },
+        {
+          "end": 265,
+          "readings": {
+            "brittle": "direct",
+            "google": "direct",
+            "primary": "dm ct"
+          },
+          "start": 260
+        },
+        {
+          "end": 316,
+          "readings": {
+            "brittle": "ascertained",
+            "google": "ascertained",
+            "primary": "a-itri Mined"
+          },
+          "start": 304
+        },
+        {
+          "end": 338,
+          "readings": {
+            "primary": "ii;!t;"
+          },
+          "start": 332
+        },
+        {
+          "end": 393,
+          "readings": {
+            "brittle": "eleven",
+            "google": "eleven",
+            "primary": "(^.fekvi n"
+          },
+          "start": 383
+        },
+        {
+          "end": 396,
+          "readings": {
+            "brittle": "of",
+            "google": "of",
+            "primary": "ol"
+          },
+          "start": 394
+        },
+        {
+          "end": 510,
+          "readings": {
+            "primary": "tin;"
+          },
+          "start": 506
+        },
+        {
+          "end": 566,
+          "readings": {
+            "primary": "ami"
+          },
+          "start": 563
+        },
+        {
+          "end": 597,
+          "readings": {
+            "primary": "Iw"
+          },
+          "start": 595
+        }
+      ]
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 12",
+      "pages": [],
+      "ref": "CitizenOfNewHaven.2.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          252
+        ]
+      },
+      "text": "Some object, that the representation will be too small; but the states have not thought fit to keep half the number of representatives in Congress that they are entitled to under the present confederation ; and of what advantage can it be to have a large assembly to transact the few general matters that will come under the direction of Congress. — The regulating of time, place and manner of elections seems to be as well secured as possible; the legislature of each state may do it, and if they neglect to do it in the best manner, it may be done by Congress; — and what motive can either have to injure the people in the exercise of that right? the qualifications of the electors are to remain as fixed by the constitutions and laws of the several states."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 13",
+      "pages": [],
+      "ref": "CitizenOfNewHaven.2.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          252
+        ]
+      },
+      "text": "It is by some objected, that the executive is blended with the legislature, and that those powers ought to be entirely distinct and unconnected, but is not this a gross error in politics ? The united wisdom and various interests of a nation should be combined in framing the laws. But the execution of them should not be in the whole legislature ; that would be too troublesome and expensive; but it will not thence follow that the executive should have no voice or influence in legislation. The executive in Great Britian is one branch of the legislature, and has a negative on all laws ; perhaps that is an extreme not to be imitated by a republic, but the partial negative vested in the President by the new Constitution on the acts of Congress and the subsequent revision, may be very useful to prevent laws being passed without mature deliberation."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 14",
+      "pages": [],
+      "ref": "CitizenOfNewHaven.2.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          252
+        ]
+      },
+      "text": "The Vice-President while he acts as President of the Senate will have nothing to do in the executive department ; his being elected by all the states will incline him to regard the interests of the whole, and when the members of the senate are equally divided on any question, who so proper to give a casting vote as one who represents all the states ?"
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 15",
+      "pages": [],
+      "ref": "CitizenOfNewHaven.2.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          252
+        ]
+      },
+      "text": "The power of the President to grant pardons extends only to offences committed against the United States, which can't be productive of much mischief, especially as those on Impeachment are excepted, which will exclude offenders from office."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 16",
+      "pages": [],
+      "ref": "CitizenOfNewHaven.2.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          252,
+          253
+        ]
+      },
+      "text": "It was thought necessary in order to carry into effect the laws of the Union, to promote justice, and preserve harmony among the states, to extend the judicial powers of the United States to the enumerated cases, under such regulations and with such exceptions as shall be provided by law, which will doubtless reduce them to cases of such magnitude and importance as cannot safely be trusted to the final decision of the courts of particular states; and the constitution does not make it necessary that any inferior tribunals should be instituted, but it may be done if found necessary; 'tis probable that the courts of particular states will be authorized by the laws of the union, as has been heretofore done in cases of piracy, &c., and the Supreme Court may have a circuit to make trials as convenient, and as little expensive as possible to the parties; nor is there anything in the constitution to deprive them of trial by jury in cases where that mode of trial has been heretofore used. All cases in the courts of common law between citizens of the same state, except those claiming lands under grants of different states, must be finally decided by courts of the state to which they belong, so that it is not probable that more than one citizen to a thousand will ever have a cause that can come before a federal court."
+    },
+    {
+      "label": "Citizen of New Haven 2, ¶ 17",
+      "pages": [],
+      "ref": "CitizenOfNewHaven.2.17",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          253
+        ]
+      },
+      "text": "Every department and officer of the federal government will be subject to the regulation and control of the laws, and the people will have all possible securities against oppression. Upon the whole, the constitution appears to be well framed to secure the rights and liberties of the people and for preserving the governments of the individual states, and if well administered, to restore and secure public and private credit, and to give respectability to the states both abroad and at home. Perhaps a more perfect one could not be formed on mere speculation ; and if upon experience it shall be found deficient, it provides an easy and peaceable mode to make amendments. Is it not much better to adopt it than to continue in present circumstances? Its being agreed to by all the states present in Convention, is a circumstance in its favour, so far as any respect is due to their opinions."
+    }
+  ],
+  "short": "Citizen of New Haven",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "The Letters of a Citizen of New Haven"
+}

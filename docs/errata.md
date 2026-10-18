@@ -8,6 +8,11 @@ to the entry) and the entry records the outcome. Refs are never renumbered.
 Each entry gives the ref, the suspected problem, where it is in the raw
 source, and its status.
 
+Texts read from scans (the ratification debate) also carry their own list:
+every word the scans could not settle is recorded under `uncertain` in its
+passage, with each scan's reading, and is marked on the site. Entries here are
+for errors the scans share, which that list cannot show.
+
 | # | Ref | Suspected problem | Source location | Status |
 |---|---|---|---|---|
 | 1 | `Federalist.10.1` | "wellconstructed" may be a transcription error for "well constructed" (Project Gutenberg eBook #1404 reads "well constructed"). | `sources/raw/gutenberg-federalist-18.txt`, first line of the body of No. X. | Open: needs a check against a page image |
@@ -23,3 +28,5 @@ source, and its status.
 | 11 | `Federalist.84.5`, `Federalist.85.15` | "Usays he,e" and "Usays hee" look like a mangled "[says he]" inside quotations (Blackstone in No. 84, Hume in No. 85). | Lines 19371 and 19940. | Open: needs a check against a page image |
 | 12 | `Federalist.80.14` | "the word “equity What equitable" seems to have lost a closing quotation mark and a question mark after "equity". | Line 18104 (No. LXXX). | Open: needs a check against a page image |
 | 13 | `Federalist.67.8` | "fill up ?? VACANCIES": the "??" (the only one in the e-text) looks like a lost word or character; the clause quoted (`Constitution.2.2.3`) reads "fill up all Vacancies". | Line 14899 (No. LXVII). | Open: needs a check against a page image |
+| 14 | `Cato.5` (salutation) | All three scans read "To the Citizens of the State ^New York."; "of" is probably lost (the other letters read "of the State of New York"). | Ford, *Essays* (1892), p. 265; scan `essaysonconstitu00forduoft`, page n276. | Open: needs a check against the page image |
+| 15 | `Cato.2` (heading) | All scans read the date "Thursday, October ii, 1787." ("11" in old-style figures). Similar shared misreadings of figures are likely in other newspaper headings ("Novembers" in `Cato.4`, "17S7"). | Ford, *Essays* (1892), p. 250; page n261. | Open: needs a check against the page images |

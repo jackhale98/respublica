@@ -1,0 +1,276 @@
+{
+  "attribution": {
+    "byline": "By Elbridge Gerry",
+    "kind": "single",
+    "names": [
+      "Elbridge Gerry"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1788-01-05/1788-04-30",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "By Elbridge Gerry",
+        "kind": "single",
+        "names": [
+          "Elbridge Gerry"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Reply to a Landholder 1",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS CENTINEL,",
+        "(Number 32 of Volume \"VIII)",
+        "Saturday, January 5, 1788."
+      ],
+      "ref": "GerryReply.1",
+      "salutation": "Mr. Russell:",
+      "signature": "Cambridge, January 3, 1788,",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "brittle": "32",
+              "google": "33",
+              "primary": "32"
+            },
+            "start": 8
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "By Elbridge Gerry",
+        "kind": "single",
+        "names": [
+          "Elbridge Gerry"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Reply to a Landholder 2",
+      "level": 1,
+      "publication": [
+        "THE NEW YORK JOURNAL,",
+        "(Number 3283)",
+        "Wednesday, April 30, 1788.",
+        "From the American Herald, printed at Boston."
+      ],
+      "ref": "GerryReply.2",
+      "salutation": "Mr. Greenleaf,",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "3282)",
+              "google": "9882)",
+              "primary": "3283)"
+            },
+            "start": 8
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 123–134. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "gerry-reply",
+  "position": "anti",
+  "ref_prefix": "GerryReply",
+  "segments": [
+    {
+      "label": "Reply to a Landholder 1, ¶ 1",
+      "pages": [
+        "128"
+      ],
+      "ref": "GerryReply.1.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          139,
+          140
+        ]
+      },
+      "text": "You are desired to inform the publick from good authority, that Mr. Gerry, by giving his dissent to the proposed Constitution, could have no motives for preserving an office, for he holds none under the United States, or any of them; that he has not, as has been asserted, exchanged Continental for State Securities, and if he had, it would have been for his interest to have supported the new system, because thereby the states are restrained from impairing the obligation of contracts, and by a transfer of such securities, they may be recovered in the new federal court; that he never heard, in the Convention, a motion made, much less did make any, \" for the redemption of the old continental money;\" but that he proposed the public debt should be made neither better nor worse by the new system, but stand precisely on the same ground by the Articles of Confederation ; that had there been such a motion, he was not interested in it, as he did not then, neither does he now, own the value of ten pounds in continental money ; that he neither was called on for his reasons for not signing, but stated them fully in the progress of the business. His objections are chiefly contained in his letter to the Legislature; that he believes his colleagues men of too much honour to assert what is not truth; that his reasons in the Convention \" were totally different from those which he published,\" that his only motive for dissenting from the Constitution, was a firm persuasion that it would endanger the liberties of America; that if the people are of a different opinion, they have a right to adopt; but he was not authorized to an act, which appeared to him was a surrender of their liberties; that a representative of a free state, he was bound in honour to vote according to his idea of her true interest, and that he should do the same in similar circumstances."
+    },
+    {
+      "label": "Reply to a Landholder 2, ¶ 1",
+      "pages": [
+        "129"
+      ],
+      "ref": "GerryReply.2.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          141
+        ]
+      },
+      "text": "As the Connecticut Landholder's publications are dispersed throughout the state, it will be useful for the sake of truth to publish the following."
+    },
+    {
+      "label": "Reply to a Landholder 2, ¶ 2",
+      "pages": [
+        "129"
+      ],
+      "ref": "GerryReply.2.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          141
+        ]
+      },
+      "text": "To THE Public."
+    },
+    {
+      "label": "Reply to a Landholder 2, ¶ 3",
+      "pages": [
+        "129",
+        "130"
+      ],
+      "ref": "GerryReply.2.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          141,
+          142
+        ]
+      },
+      "text": "An elegant writer, under the signature of \" A Landholder,\" having in a series of publications, with a modesty and delicacypeculiar to himself, undertaken to instruct members of legislatures, executives, and conventions, in their duty respecting the new constitution, is, in stating facts, unfortunate, in being repeatedly detected in errors ; but his perseverance therein does honor \"to his magnanimity,\" and reminds me of Dr. Sangerado (in Gil Bias) who being advised to alter his practice, as it was founded on false principles and destructive to his patients, firmly determined to pursue it, because he had written a book in support of it. Had our learned author, the modern Sangerado, confined himself to facts and to reasoning on the constitution, he might have continued to write without interruption from its opposers, until by instructing others, he had obtained that instruction which he seems to need, or a temporary relief from the inenviable malady, the cacoethes scribendi ; but his frequent misrepresentations having exposed him to suspicions that as a disciple of Mandeville he was an advocate for vice, or that to correct his curiosity some humourist has palmed on him a spurious history of the proceedings of the federal convention, and exhibited his credulity as a subject of ridicule, it is proper to set him right in facts, which, in almost every instance he has mistated.",
+      "uncertain": [
+        {
+          "end": 1089,
+          "readings": {
+            "primary": "Mandeville"
+          },
+          "start": 1079
+        }
+      ]
+    },
+    {
+      "label": "Reply to a Landholder 2, ¶ 4",
+      "pages": [
+        "130"
+      ],
+      "ref": "GerryReply.2.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          142
+        ]
+      },
+      "text": "In a late address to the honorable Luther Martin, Esquire, the Landholder has asserted, that Mr. Gerry \" uniformly opposed Mr. Martin's principles,\" but this is a circumstance wholly unknown to Mr. Gerry, until he was informed of it by the Conneticut Landholder; indeed Mr. Gerry from the first acquaintance with Mr. Martin, has \" uniformly had a friendship for him.\""
+    },
+    {
+      "label": "Reply to a Landholder 2, ¶ 5",
+      "pages": [
+        "130"
+      ],
+      "ref": "GerryReply.2.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          142
+        ]
+      },
+      "text": "This writer has also asserted, \" that the day Mr. Martin took his seat in convention, without requesting information, or to be let into the reasons of the adoption of what he might not approve, he opened against them in a speech which held during two days.\" But the facts are, that Mr. Martin had been a considable time in convention before he spoke; that when he entered into the debates he appeared not to need \" information,\" as he was fully possessed of the subject; and that his .speech, if published, would do him great honor."
+    },
+    {
+      "label": "Reply to a Landholder 2, ¶ 6",
+      "pages": [
+        "130"
+      ],
+      "ref": "GerryReply.2.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          142
+        ]
+      },
+      "text": "Another assertion of this famous writer is, that Mr. Gerry in \" a sarcastical reply, admired the strength of Mr. Martin's lungs, and his profound knowledge in the first principles of government;\" that \"this reply\" \" left him a prey to the most humiliating reflections ; but these did not teach him to bound his future speeches by the lines of moderation ; for the very next day he exhibited, without a blush, another specimen of eternal volubility.\" This is so remote from the truth, that no such reply was made by Mr. Gerry to Mr. Martin, or to any member of the convention; on the contrary, Mr. Martin, on the first day he spoke, about the time of adjournment, signified to the convention that the heat of the season, and his indisposition prevented his proceeding, and the house adjourned without further debate, or a reply to Mr. Martin from any member whatever."
+    },
+    {
+      "label": "Reply to a Landholder 2, ¶ 7",
+      "pages": [
+        "130"
+      ],
+      "ref": "GerryReply.2.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          142,
+          143
+        ]
+      },
+      "text": "Again, the Landholder has asserted that Mr. Martin voted \"an appeal should lay to the supreme judiciary of the United States for the correction of all errors both in law and fact,\" and \" agreed to the clause that declares nine states to be sufficient to put the government in motion:\" and in a note says, \"Mr. Gerry agreed with Mr. Martin on these questions.\" Whether there is any truth in the assertions as they relate to Mr. Martin, he can best determine ; but as they respect Mr. Gerry, they reverse the facts ; for he not only voted against the first proposition (which is not stated by the Landholder, with the accuracy requisite for a writer on government) but contended for jury trials in civil cases, and declared his opinion, that a federal judiciary with the powers above mentioned, would be as oppressive and dangerous, as the establishment of a star-chamber, and as to the clause that \" declares nine states to be sufficient to put the government in motion,\" Mr. Gerry was so much opposed to it, as to vote against it in the first instance, and afterwards to move for a reconsideration of it."
+    },
+    {
+      "label": "Reply to a Landholder 2, ¶ 8",
+      "pages": [],
+      "ref": "GerryReply.2.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          143
+        ]
+      },
+      "text": "The Landholder having in a former publication asserted \"that Mr. Gerry introduced a motion, respecting the redemption of old continental money\" and the public having been informed by a paragraph in the Massachusetts Centinel, No. 32, of vol. 8, as well as by the honorable Mr. Martin, that neither Mr. Gerry, or any other member, had introduced such a proposition, the Landholder now says that \"out of 126 days, Mr. Martin attended only 66,\" and then enquires \"whether it is to be presumed that Mr. Martin could have been minutely informed, of all that happened in convention, and committees of convention, during the sixty days of absence ?\" and \" Why is it that we do not see Mr. McHenry's verification of his assertion, who was of the committee for considering a provision for the debts of the union?\" But if these enquiries were intended for subterfuges, unfortunately for the Landholder, they will not avail him : for, had Mr. Martin not been present at the debates on this subject, the fact is, that Mr. Gerry was not on a committee with Mr. McHenry, or with any other person, for considering a provision for the debts of the union, or any provision that related to the subject of old continental money; neither did he make any proposition, in convention, committee, or on any occasion, to any member of convenvention or other person, respecting the redemption of such money ; and the assertions of the Landholder to the contrary, are altogether destitute of the shadow of truth."
+    },
+    {
+      "label": "Reply to a Landholder 2, ¶ 9",
+      "pages": [
+        "132"
+      ],
+      "ref": "GerryReply.2.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          144
+        ]
+      },
+      "text": "The Landholder addressing Mr. Martin, further says, \"Your reply to my second charge against Mr. Gerry, may be soon dismissed: compare his letter to the legislature of his state, with your defence, and you will find, that you have put into his mouth, objections different from anything it contains, so that if your representation be true, his must be false.\" The objections referred to, are those mentioned by Mr. Martin, as being made by Mr. Gerry, against the supreme power of Congress over the militia. Mr. Gerry, in his letter to the legislature, states as an objection, \"That some of the powers of the federal legislature are ambiguous, and others (meaning the unlimited power of Congress, to keep up a standing army, in time of peace, and their entire controul of the militia) are indefinite and dangerous.\" Against both these did Mr. Gerry warmly contend, and why his representations must be false, if Mr. Martin's are true, which particularized what Mr. Gerry's stated generally, can only be discovered by such a profound reasoner, as the Connecticut Landholder."
+    },
+    {
+      "label": "Reply to a Landholder 2, ¶ 10",
+      "pages": [
+        "132"
+      ],
+      "ref": "GerryReply.2.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          144
+        ]
+      },
+      "text": "The vanity of this writer, in supposing that his charges would be the subject of constitutional investigation, can only be equalled by his impertinence, in interfering with the politics of other states, or by his ignorance, in supposing a state convention could take cognizance of such matters as he calls charges, and that Mr. Gerry required a formal defence, or the assistance of his colleagues, to defeat the unprovoked and libellous attacks of the Landholder, or any other unprincipled revilei."
+    },
+    {
+      "label": "Reply to a Landholder 2, ¶ 11",
+      "pages": [
+        "132",
+        "1"
+      ],
+      "ref": "GerryReply.2.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          144,
+          145
+        ]
+      },
+      "text": "The landholder says: \"That Mr. Martin thought the deputy attorney-general of the United States, for the state of Maryland, destined for a different character, and that inspired him with the hope that he might derive from a desperate opposition, what he saw no prospect of gaining by a contrary conduct; but the landholder ventures to predict, that though Mr. Martin was to double his efforts he would fail in his object.\" By this we may form some estimate of the patriotism of the landholder, for, whilst he so readily resolves Mr. Martin's conduct into a manoeuvre for office, he gives too much reason to suppose, that he himself has no idea of any other motive in conducting politicks. But how can the landholder ascertain, that \" Mr. Martin thought\" the office mentioned \"destined for a different character?\" Was the landholder present at the destination? If so, it was natural for him, knowing there was a combination against Mr. Martin (however remote this gentleman was from discovering it) to suppose his accidental opposition to the complotters, proceeded from a discovery of the plot. Surely the landholder must have some reason for his conjecture respecting the motives of Mr. Martin's conduct, or to be subject to the charge of publishing calumny, knowing it to be such. If then, this great statesman was in a secret, which has been long impenetrable, he is now entitled to the honor of giving the public the most important information they have received, concerning the origin of the new constitution, and having candidly informed them who is not, he ought to inform who is to fill that office, and all others of the new federal government. It may then, in some measure be ascertained, what individuals have supported the constitution on principles of patriotism, and who under this guise have been only squabbling for office. Perhaps we shall find that the landholder is to have the contract for supplying the standing army under the new government, and that many others, who have recurred to abuse on this occasion, have some such happy prospects; indeed the landholder puts it beyond a doubt, if we can believe him, that it was determined in the privy council of this federal convention, that however Mr. Martin might advocate the new constitution, he should not have the office mentioned; for if this was not the case, how can the landholder so roundly assert that Mr. Martin could have no prospect by a contrary conduct of gaining the office, and so remarkably sanguine is the landholder, that the members of the privy council would be senators of the new Congress, in which case the elections would undoubtedly be made according to the conventional list of nominations, as that he ventures to predict, though Mr. Martin was to double his efforts, he would fail in his object. Thus whilst this blazing star of federalism is taking great pains to hold up Mr. Gerry and Mr. Mason, as having held private meetings \" to aggrandize old Massachusetts and the antient dominion\" he has confessed enough to shew that his private meetings were solely to aggrandize himself"
+    }
+  ],
+  "short": "Reply to a Landholder",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "Replies to a Landholder"
+}

@@ -109,6 +109,32 @@ def check_manifest() -> list[str]:
 # ------------------------------------------------------------ texts
 
 
+SEGMENT_KINDS = {"footnote"}
+POSITIONS = {"anti", "federalist", "other"}
+SCAN_ITEM = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{2,99}$")
+
+
+def check_uncertain(where: str, text: str, spans: Any) -> list[str]:
+    """Words the scans could not settle: each span lies inside the text, in
+    order, and the text there is one of the scans' readings."""
+    errors = []
+    if not isinstance(spans, list):
+        return [f"{where}: uncertain must be a list"]
+    end = 0
+    for u in spans:
+        start, stop, readings = u.get("start"), u.get("end"), u.get("readings")
+        if not (isinstance(start, int) and isinstance(stop, int) and end <= start < stop <= len(text)):
+            errors.append(f"{where}: uncertain span {start}-{stop} is out of place")
+            continue
+        end = stop
+        if not (isinstance(readings, dict) and "primary" in readings
+                and all(isinstance(v, str) for v in readings.values())):
+            errors.append(f"{where}: uncertain span {start}-{stop} needs the primary scan's reading")
+        elif text[start:stop] not in readings.values():
+            errors.append(f"{where}: {text[start:stop]!r} at {start} is not one of the scans' readings")
+    return errors
+
+
 def check_texts(corpus: Corpus) -> list[str]:
     errors: list[str] = []
     source_ids = {e["id"] for e in load_manifest()}
@@ -142,14 +168,33 @@ def check_texts(corpus: Corpus) -> list[str]:
             for span in s.get("emphasis", []):
                 if not (isinstance(span, list) and len(span) == 2 and 0 <= span[0] < span[1] <= len(text)):
                     errors.append(f"{ref}: bad emphasis span {span}")
+            errors += check_uncertain(ref, text, s.get("uncertain", []))
+            if "scan" in s:
+                scan = s["scan"]
+                if not (isinstance(scan, dict) and isinstance(scan.get("item"), str) and SCAN_ITEM.match(scan["item"])
+                        and scan.get("leaves") and all(isinstance(n, int) and n > 0 for n in scan["leaves"])):
+                    errors.append(f"{ref}: bad scan {scan!r}")
+            if "kind" in s and s["kind"] not in SEGMENT_KINDS:
+                errors.append(f"{ref}: unknown kind {s['kind']!r}")
             for cb in s.get("changed_by", []):
                 if cb.get("quote") not in text:
                     errors.append(f"{ref}: changed_by quote is not in the text: {cb.get('quote')!r}")
                 if not corpus.exists(cb.get("amendment", "")):
                     errors.append(f"{ref}: changed_by refers to unknown {cb.get('amendment')}")
+        if "position" in doc and doc["position"] not in POSITIONS:
+            errors.append(f"{name}: unknown position {doc['position']!r}")
         for d in doc.get("divisions", []):
             if not corpus.exists(d.get("ref", "")) or not corpus.passages(d["ref"]):
                 errors.append(f"{name}: division {d.get('ref')} has no segments")
+            for field, spans in d.get("uncertain", {}).items():
+                head, _, idx = field.partition(".")
+                value = d.get(head)
+                if head == "publication" and isinstance(value, list) and idx.isdigit() and int(idx) < len(value):
+                    value = value[int(idx)]
+                if head not in ("publication", "salutation", "signature") or not isinstance(value, str):
+                    errors.append(f"{d.get('ref')}: uncertain names an unknown field {field!r}")
+                    continue
+                errors += check_uncertain(f"{d.get('ref')} {field}", value, spans)
         for loc, url in walk_urls(doc, str(name)):
             if not is_safe_url(url):
                 errors.append(f"{loc}: URL must be http(s): {url!r}")

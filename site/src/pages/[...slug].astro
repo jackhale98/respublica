@@ -1,5 +1,7 @@
 ---
+import CollectionView from "../components/views/CollectionView.astro";
 import IndexView from "../components/views/IndexView.astro";
+import SeriesView from "../components/views/SeriesView.astro";
 import PaperView from "../components/views/PaperView.astro";
 import WorkView from "../components/views/WorkView.astro";
 import { loadPage, loadSite } from "../lib/data.js";
@@ -11,7 +13,7 @@ export function getStaticPaths() {
   const works = Object.fromEntries(site.works.map((w) => [w.id, w]));
   return site.pages.map((p) => {
     const page = loadPage(p.id);
-    return { params: { slug: p.url.replace(/^\/|\/$/g, "") }, props: { page, work: works[page.work.id] } };
+    return { params: { slug: p.url.replace(/^\/|\/$/g, "") }, props: { page, work: page.work ? works[page.work.id] : null } };
   });
 }
 
@@ -19,4 +21,5 @@ const { page, work } = Astro.props;
 ---
 {page.kind === "work" && <WorkView page={page} work={work} />}
 {page.kind === "part" && <PaperView page={page} work={work} />}
-{page.kind === "index" && <IndexView work={work} />}
+{page.kind === "index" && (work.collection === "ratification" ? <SeriesView work={work} /> : <IndexView work={work} />)}
+{page.kind === "collection" && <CollectionView page={page} />}

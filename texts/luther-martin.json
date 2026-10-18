@@ -1,0 +1,789 @@
+{
+  "attribution": {
+    "byline": "Luther Martin",
+    "kind": "single",
+    "names": [
+      "Luther Martin"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1788-01-18/1788-04-04",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Luther Martin",
+        "kind": "single",
+        "names": [
+          "Luther Martin"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Luther Martin 1",
+      "level": 1,
+      "publication": [
+        "THE MARYLAND JOURNAL.",
+        "(?<r\\ain\"l5er 1004)",
+        "Friday, January iS, 1788.",
+        "Mr. William Goddard :"
+      ],
+      "ref": "LutherMartin.1",
+      "salutation": "Sir,",
+      "signature": "I am, sir, your very obedient servant, Luther Martin. Baltimore, January /j, 17SS,",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "(IN\"TJLixiber",
+              "primary": "(?<r\\ain\"l5er"
+            },
+            "start": 0
+          },
+          {
+            "end": 19,
+            "readings": {
+              "brittle": "1004)",
+              "google": "100-4r)",
+              "primary": "1004)"
+            },
+            "start": 14
+          }
+        ],
+        "signature": [
+          {
+            "end": 82,
+            "readings": {
+              "primary": "17SS,"
+            },
+            "start": 77
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Luther Martin",
+        "kind": "single",
+        "names": [
+          "Luther Martin"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Luther Martin 2",
+      "level": 1,
+      "publication": [
+        "THE MARYLAND JOURNAL.",
+        "(Niainl>er 1018)",
+        "Friday, March 7, 1788.",
+        "MR, Goddard:"
+      ],
+      "ref": "LutherMartin.2",
+      "salutation": "Sir,",
+      "signature": "I am, sir, your very humble servant, Luther Martin. Baltimore, March j, lySS.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "brittle": "QSTixixiber",
+              "primary": "(Niainl>er"
+            },
+            "start": 0
+          },
+          {
+            "end": 16,
+            "readings": {
+              "brittle": "IOIS)",
+              "primary": "1018)"
+            },
+            "start": 11
+          }
+        ],
+        "signature": [
+          {
+            "end": 77,
+            "readings": {
+              "primary": "lySS."
+            },
+            "start": 72
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Luther Martin",
+        "kind": "single",
+        "names": [
+          "Luther Martin"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Luther Martin 3",
+      "level": 1,
+      "publication": [
+        "THE MARYLAND JOURNAL.",
+        "(Number 1031)",
+        "Tuesday, March i8, 1788.",
+        "Number I."
+      ],
+      "ref": "LutherMartin.3",
+      "salutation": "To THE Citizens of Maryland.",
+      "signature": "Luther Martin. Baltimore, March 14, xySS.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "1021)",
+              "primary": "1031)"
+            },
+            "start": 8
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 18,
+            "readings": {
+              "brittle": "18,",
+              "google": "i8,",
+              "primary": "i8,"
+            },
+            "start": 15
+          }
+        ],
+        "signature": [
+          {
+            "end": 41,
+            "readings": {
+              "primary": "xySS."
+            },
+            "start": 36
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Luther Martin",
+        "kind": "single",
+        "names": [
+          "Luther Martin"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Luther Martin 4",
+      "level": 1,
+      "publication": [
+        "THE MARYLAND JOURNAL.",
+        "Friday, March 21, 1788.",
+        "(TsToamlDer 1022)",
+        "Number II."
+      ],
+      "ref": "LutherMartin.4",
+      "salutation": "To THE Citizens of Maryland.",
+      "signature": "Luther Martin. Baltimore, March ig, ijS8.",
+      "uncertain": {
+        "publication.2": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "QSriirribeir*",
+              "primary": "(TsToamlDer"
+            },
+            "start": 0
+          }
+        ],
+        "signature": [
+          {
+            "end": 41,
+            "readings": {
+              "primary": "ijS8."
+            },
+            "start": 36
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Luther Martin",
+        "kind": "single",
+        "names": [
+          "Luther Martin"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Luther Martin 5",
+      "level": 1,
+      "publication": [
+        "THE MARYLAND JOURNAL.",
+        "Friday, March 28, 1788.",
+        "dSTuinber 1024)",
+        "Number III."
+      ],
+      "ref": "LutherMartin.5",
+      "salutation": "To THE Citizens of Maryland.",
+      "signature": "Luther Martin. Baltimore, March 2j, ijSS.",
+      "uncertain": {
+        "publication.2": [
+          {
+            "end": 9,
+            "readings": {
+              "brittle": "(Number",
+              "google": "(N'iiml>er",
+              "primary": "dSTuinber"
+            },
+            "start": 0
+          },
+          {
+            "end": 15,
+            "readings": {
+              "brittle": "1024)",
+              "google": "lOS^)",
+              "primary": "1024)"
+            },
+            "start": 10
+          }
+        ],
+        "signature": [
+          {
+            "end": 35,
+            "readings": {
+              "primary": "2j,"
+            },
+            "start": 32
+          },
+          {
+            "end": 41,
+            "readings": {
+              "primary": "ijSS."
+            },
+            "start": 36
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Luther Martin",
+        "kind": "single",
+        "names": [
+          "Luther Martin"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Luther Martin 6",
+      "level": 1,
+      "publication": [
+        "THE MARYLAND JOURNAL.",
+        "Friday, April 4, 1 788.",
+        "(ISTuixiber 1026)",
+        "Number IV. To THE Citizens of Maryland."
+      ],
+      "ref": "LutherMartin.6",
+      "signature": "Luther Martin. Baltimore, March 2(), ijSS.",
+      "uncertain": {
+        "publication.2": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "(Number",
+              "google": "(29*11X1x1307",
+              "primary": "(ISTuixiber"
+            },
+            "start": 0
+          },
+          {
+            "end": 17,
+            "readings": {
+              "brittle": "10S6)",
+              "google": "1086)",
+              "primary": "1026)"
+            },
+            "start": 12
+          }
+        ],
+        "signature": [
+          {
+            "end": 36,
+            "readings": {
+              "primary": "2(),"
+            },
+            "start": 32
+          },
+          {
+            "end": 42,
+            "readings": {
+              "primary": "ijSS."
+            },
+            "start": 37
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 337–384. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "luther-martin",
+  "position": "anti",
+  "ref_prefix": "LutherMartin",
+  "segments": [
+    {
+      "label": "Luther Martin 1, ¶ 1",
+      "pages": [
+        "341",
+        "342",
+        "343"
+      ],
+      "ref": "LutherMartin.1.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          353,
+          354,
+          355
+        ]
+      },
+      "text": "As the Publication under the Signature of the Connecticut Landholder is circulating remote from the place of Mr. Gerry's residence, and is calculated not only to injure the honourable gentleman in his private character, but also to weaken the effect of his opposition to the government proposed by the late convention, and thereby promote the adoption of a System which I consider destructive of the rights and liberties of the respective states and of their citizens, I beg leave, through the channel of your Paper, to declare to the Public that from the time I took my seat in convention, which was early in June, until the fourth day of September, when I left Philadelphia, I am satisfied I was not ten minutes absent from convention while sitting (excepting only five days in the beginning of August, immediately after the committee of detail had reported, during which but little business was done). That during my attendance I never heard Mr. Gerry or any other member introduce a proposition for the redemption of continental money according to its nominal or any other value, nor did I ever hear that such a proposition had been offered to consideration or had been thought of. I was intimate with Mr. Gerry, and never heard him express, in private conversation or otherwise, a wish for the redemption of continental money, or assign the want of such a provision as a defect. Nor did I ever hear in Convention, or anywhere else, such a motive of conduct attributed to Mr. Gerry. I also declare to the Public that a considerable time before I left the convention Mr. Gerry's opposition to the System was warm and decided ; that in a particular manner he strenuously opposed that provision by which the power and authority over the militia is taken away from the States and given to the general government; that in the debate he declared if that measure was adopted it would be the most convincing proof that the destruction of the State governments and the introduction of a king was designed, and that no declarations to the contrary ought to be credited, since it was giving the states the last coup de grace by taking from them the only means of self preservation. The conduct of the advocates and framers of this system towards the thirteen States, in pretending that it was designed for their advantage, and gradually obtaining power after power to the general government, which could not but end in their slavery, he compared to the conduct of a number of jockeys who had thirteen young colts to break ; they begin with the appearance of kindness, giving them a lock of hay, or a handful of oats, and stroaking them while they eat, until being rendered sufficiently gentle they suffer a halter to be put round their necks ; obtaining a further degree of their confidence, the jockeys slip a curb bridle on their heads and the bit into their mouths, after which the saddle follows of course, and well booted and spurred, with good whips in their hands, they mount and ride them at their pleasure, and although they may kick and flounce a little at first, nor being able to get rid of their riders, they soon become as tame and passive as their masters could wish them. In the course of public debate in the convention Mr. Gerry applied to the system of government, as then under discussion, the words of Pope with respect to vice, \" that it was a monster of such horrid mien, as to be hated need but to be seen.\" And some time before I left Philadelphia, he in the same public manner declared in convention that he should consider himself a traitor to his country if he did not oppose the system there, and also when he left the convention. These, sir, are facts which I do not fear being contradicted by any member of the convention, and will, I apprehend, satisfactorily shew that Mr. Gerry's opposition proceeded from a conviction in his own mind that the government, if adopted, would terminate in the destruction of the States and in the introduction of a kingly government."
+    },
+    {
+      "label": "Luther Martin 2, ¶ 1",
+      "pages": [
+        "345",
+        "346",
+        "348",
+        "349",
+        "350",
+        "35",
+        "352"
+      ],
+      "ref": "LutherMartin.2.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364
+        ]
+      },
+      "text": "In consequence of the justice I did Mr. Gerry, on a former occasion, I find myself complimented with an Address in your last Paper. Whether the Landholder of the Connecticut Courant, and of the Maryland Journal,* is the same person, or different, is not very material ; I however incline to the former opinion, as I hope for the honour of human nature, it would be difficult to find more than one individual who could be capable of so total a disregard to the principles of truth and honour. After having made the most unjust and illiberal attack on Mr. Gerry, and stigmatized him as an enemy to his country, and the basest of mankind for no other reason than a firm and conscientious discharge of an important trust reposed in that gentleman, had I not come in for a share of his censure, I confess I should have been both disappointed and mortified. It would have had at least the appearance, that the Landholder had discovered something in my principles, which he considered congenial with his own. However great may be my political sins, to be cursed with his approbation and applause, would be a punishment much beyond their demerit. But, Sir, at present I mean to confine myself to the original subject of controversy, the injustice of the charges made against Mr. Gerry. That my veracity will not be questioned when giving my negative to anonymous slander, I have the fullest confidence. I have equal confidence that it will be as little questioned by any who know me, even should the Landholder vouchsafe to give the Public his name — a respectable name I am sure it cannot be. His absolute want of truth and candour in assertions meant to injure the reputation of individuals, whose names are given to the public, and to hold them up to the indignation of their fellow citizens, will ever justify this assertion, even should the name belong to one decorated with wealth, or dignified by station. But the Landholder wishes it to be supposed, that though my veracity should not be doubted, yet my evidence ought to be rejected, and observes, that to comprehend what credit ought to be given to it, by which I suppose he means its sufficiency if credited, it ought to be known how long I was absent from Convention, as well as the time I attended. I believe Sir, whoever will read my former publication will in a moment perceive, that I there \"stated\" all the \"information\" on this subject that was necessary or material, and that I left no defect for the Landholder to supply. I there mentioned that \" I took my seat early in June, that I left Philadelphia on the fourth of September, and during that period was not absent from the con^ vention while sitting, except only five days in the beginning of August, immediately after the Committee of Detail had reported.\" I did not state the precise day of June when I took my seat — it was the ninth, not the tenth — a very inconsiderable mistake of the Landholder. But between that day and the fourth of September he says that I was absent ten days at Baltimore, and as many at New York, and thereby insinuates that an absence of twenty days from the Convention intervened during that period, in which time Mr. Gerry might have made and failed in his motion concerning continental money. A short state of facts is all that is necessary to shew the disingenuity of the Landholder, and that it is very possible to convey a falsehood, or something very much like it, almost in the words of truth. On the twenty-fifth of July the Convention adjourned, to meet again on the sixth of August. I embraced that opportunity to come to Baltimore, and left Philadelphia on the twenty-seventh ; I returned on the fourth of August, and on the sixth attended the Convention, with such members as were in town, at which time the Committee of Detail made their report, and many of the members being yet absent, we adjourned to the next day. Mr. Gerry left Philadelphia to go to New York the day before I left there to come to Baltimore ; he had not returned on Tuesday, the seventh of August, when I set out for New York, from whence I returned and took my seat in Convention on Monday, the thirteenth. It is true that from the twenty-fifth of July to the thirteenth of August eighteen (not twenty) days had elapsed, but on one of those days I attended, and on twelve of them the Convention did not meet. I was, therefore, perfectly correct in my original statement that from early in June to the fourth of September I was absent but five days from the Convention while sitting, and in that statement omitted no \"necessary information.\" It is also true that of those eighteen days Mr. Gerry was absent twelve or thirteen, and that one of those days when he was not absent was Sunday, on which -day the Convention did not meet. Thus, Sir, by relating facts as they really occurred, we find the only time between early in June .and the fourth of September when such a motion could have been .made by Mr. Gerry without my being present is narrowed down tto four, or at most five days, as I originally stated it, although ^Landholder wishes it should be supposed there were twenty days .during that period when it might have taken place without my knowledge, to wit, ten while I was at Baltimore, and as many more while at New York. The Landholder also states that the Convention commenced the fourteenth day of May, and that I did not take my seat till the tenth day of June, by which, if he means anything, I presume he means to insinuate that within that portion of time Mr. Gerry's motion might have been made and rejected. He is here, Sir, equally unfortunate and disingenuous. Though the Convention was to have met by appointment on the fourteenth of May, yet no material business was entered upon till on or about the thirtieth of that month. It was on that day that the Convention, having had certain propositions laid before them by the Honourable Governor of Virginia, resolved to go into a consideration of these propositions. In this fact I am confident I am not mistaken, as I state the day not merely from my own recollection but from minutes which I believe to be very correct, in my possession, of the information given by the Honourable Mr. McHenry to the assembly. The truth is, Sir, that very little progress had been made by the Convention before I arrived, and that they had not been more than ten days, or about that time, seriously engaged in business. The first thing I did after I took my seat was carefully to examine the journals for information of what had already been done or proposed. I was also furnished with notes of the debates which had taken place, and can with truth say that I made myself \" minutely informed\" of what had happened before that period. In the same manner, after my return from New York, I consulted the journals (for we were permitted to read them, although we were not always permitted to take copies). If the motion attributed to Mr. Gerry had been made and rejected, either before I first took my seat or while at New York, it would have there appeared, and that no such motion was made and rejected during either of these periods I appeal to the highest possible authority. I appeal to those very journals, which ought to have been published, and which we are informed are placed in the possession of our late Honourable President. But why, Sir, should I appeal to these journals, or to any other authority ? Let the Landholder turn to his eighth number, addressed to the Honourable Mr. Gerry; let him blush, unless incapable of that sensation, while he reads the following passage: \"Almost the whole time during the sitting of the Convention, and until the Constitution had received its present form, no man was more plausible and conciliating on every subject than Mr. Gerry,\" &c. Thus stood Mr. Gerry', till towards the close of the business he introduced a motion respecting the redemption of paper money. The whole time of the sitting of the Convention was not almost past. The Constitution had not received its present form, nor was the business drawing towards a close, until long after I took my seat in Convention. It is therefore proved by the Landholder himself that Mr. Gerry did not make this motion at any time before the ninth day of June. Nay more, in the paper now before me he acknowledges that in his eighth number he meant (and surely no one ought to know his meaning better than himself) to fix Mr. Gerry's apostacy to a period within the last thirteen days. Why then all this misrepresentation of my absence at Baltimore and New York? Why the attempt to induce a belief that the Convention had been engaged in business from the fourteenth of May, and the insinuation that it might have happened in those periods ? And why the charge that in not stating those facts I had withheld from the public information necessary to its forming a right judgment of the credit which ought to be given to my evidence. But, Sir, I am really at a loss which most to admire — the depravity of this writer's heart or the weakness of his head. Is it possible he should not perceive that the moment he fixes the time of Mr. Gerry's motion to the last thirteen days of the Convention, he proves incontestably the falsehood and malice of his charges against that gentleman — for he has expressly stated that this motion and the rejection it received was the cause, and the sole cause, of his apostacy; that \" before, there was nothing in the system, as it now stands, to which he had any objection, but that afterwards he was inspired with the utmost rage and intemperate opposition to the whole system he had formerly praised ;\" whereas I have shown to the clearest demonstration, that a considerable time before the last thirteen days, Mr. Gerry had given the most decided opposition to the system. I have shown this by recital of facts, which if credited, incontestibly prove it — facts which, I again repeat, will never be contradicted by any member of the Convention. I ground this assertion upon the fullest conviction that it is impossible to find a single person in that number so wicked, as publicly and deliberately to prostitute his name in support of falsehood, and at the same time so weak as to do this when he must be sure of detection. But the Landholder is willing to have it supposed that Mr. Gerry might have made the motion in a \"committee,\" and that there it might have happened without my knowledge ; to such wretched subterfuges is he driven. This evasion, however, will be equally unavailing. The business of the committees were not of a secret nature, nor were they conducted in a secret manner; I mean as to the members of the Convention. I am satisfied that there was no committee while I was there, of whose proceedings I was not at least \" so minutely informed,\" that an attempt of so extraordinary a nature as that attributed to Mr. Gerry, and attended with such an immediate and remarkable revolution in his conduct, could not have taken place without my having heard something concerning it. The non-adoption of a measure by a committee did not preclude its being proposed to the Convention, and being there adopted. Can it be presumed that a question in which Mr. Gerry is represented to have been so deeply interested, and by the fate of which his conduct was entirely influenced, would for want of success in a committee have been totally relinquished by him, without a single effort to carry it in Convention ! If any other proof is wanting, I appeal again to the Landholder himself. In his eighth number he states that the motion was rejected \" by the Convention.\" Let it be remembered also, as I have before observed, in the paper now before me, he declares it was his intention in that number to fix Mr. Gerry's apostacy to a period within the last thirteen days ; and in the same number he observes that Mr. Gerry's resentment could only embarrass and delay the completion of the business for a few days ; all which equally militate against every idea of the motion being made before he left Philadelphia, whether in Committee or in Convention. The Landholder hath also asserted, that I have \"put into Mr. Gerry's mouth, objections different from any thing his letter to the legislature of his State contains, so that if my representation is true, his must be false.\" In this charge he is just as well founded as in those I have already noticed. Mr. Gerry has more than once published to the world, under the sanction of his name, that he opposed the system from a firm persuasion that it would endanger the liberties of America, and destroy the freedom of the States and their citizens. Every word which I have stated as coming from his mouth, so far from being inconsistent with those declarations, are perfectly correspondent thereto and direct proofs of their truth. When the Landholder informed us that Mr. Gerry was \" face to face with his colleagues in the Convention of Massachusetts,\" why did he not, unless he wished to mislead the public, also inform us for what purpose he was there? that it was only to answer questions; that might be proposed to him, not himself to ask questions that he could not consistently interfere in any manner in the debates, and that he was even prohibited an opportunity of explaining such parts of his conduct as were censured in his presence? By the anonymous publication alluded to by the Landholder, and inserted in the note, Mr. Gerry's colleagues are not called upon to acquit him: it only declares \" that he believes them to be men of too much honour to assert that his reasons in Convention were totally different from those he published;\" and in this I presume he was not disappointed for the Landholder otherwise would have published it with triumph ; but if Mr. Gerry, as it is insinuated, was only prevented by pride, from, in person, requesting them to acquit him, it amounts to a proof of his consciousness that, as men of honour, they could not have refused it, had he made the request. No person who views the absurdities and inconsistencies of the Landholder, can I think, have a very respectable opinion of his understanding, but I who am not much prejudiced in his favour, could scarcely have conceived him so superlatively weak as to expect to deceive the public and obtain credit to himself by asking \" if charges against Mr. Gerry are not true why do not his colleagues contradict them?\" and \" why is it that we do not see Mr. McHenry's verification of your assertions?\" If these Gentlemen were to do Mr. Gerry that justice, he might as well inquire \" why is it we do not also see the verification of A, B, C and D and so on to the last letter of the Conventional alphabet. When the Landholder in his eighth number addressed himself to Mr, Gerry he introduces his charges by saying \" you doubtless will recollect the following state of facts ; if you do not every member of the Convention will attest them.\" One member of the Convention has had firmness sufficient to contradict them with his name, although he was well apprised that he thereby exposed himself as a mark for the arrows of his political adversaries, and as to some of them, he was not unacquainted with what kind of men he had to deal. But of all the members who composed that body, not one has yet stepped forward to make good the Landholder's prediction; nor has one been found to \"attest\" his statement of facts. Many reasons may be assigned why the members of the Convention should not think themselves under a moral obligations of involving themselves in controversy by giving their names in vindication of Mr. Gerry; and I do not believe any of those who signed the proposed Constitution would consider themselves bound to do this by any political obligation : But, Sir I can hardly suppose that Mr. Gerry is so perfectly esteemed and respected by every person who had a seat in that body, that not a single individual could possibly be procured to give his sanction to the Landholder's charges, if it could be done with justice and as to myself, I much question whether it would be easy to convince any person, who was present at our information to the assembly,* that every one of my honourable colleagues, (to each of whose merit I cordially subscribe, though compelled to differ from them in political sentiments) would be prevented by motives of personal delicacy to myself, from contradicting the facts I have stated relative to Mr. Gerry, if it could be done consistent with truth. If the Landholder was a member of the Convention, to facilitate the adoption of a favourite system, or to gratify his resentment against its opposers, he has originally invented and is now labouring to support, charges the most unjust and ungenerous, contrary to his own knowledge of facts. If he was not a member, he is acting the same part, without any knowledge of the subject, and in this has the merit of either following his own invention, of dealing out the information he receives from some person of whom he is the wretched tool and dupe, at the same time expressing himself with a decision, and making such professions of being perfectly in every secret, as naturally tends, unless contradicted, to deceive and delude the unsuspecting multitude. In one of these predicaments the Landholder must stand, he is welcome to take his choice, in either case he only wants to be known to be despised. Now sir, let the Landholder come forward and give his name to the public. It is the only thing necessary to finish his character, and to convince the world that he is as dead to shame, as he is lost to truth and destitute of honour. If I sir, can be instrumental in procuring him to disclose himself; even in this I shall consider myself as rendering a service to my country. I flatter myself for the dignity of human kind, there are few such characters ; but there is no situation in life, in which they may not prove the bane and curse of society ; they therefore ought to be known, that they may be guarded against.",
+      "uncertain": [
+        {
+          "end": 2643,
+          "readings": {
+            "brittle": "com",
+            "google": "co»*",
+            "primary": "con^"
+          },
+          "start": 2639
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Luther Martin 2, note 1",
+      "pages": [],
+      "ref": "LutherMartin.2.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          356
+        ]
+      },
+      "text": "* See Afite, pages 182 and \\^g. — Ed. (344)",
+      "uncertain": [
+        {
+          "end": 12,
+          "readings": {
+            "primary": "Afite,"
+          },
+          "start": 6
+        },
+        {
+          "end": 22,
+          "readings": {
+            "primary": "182"
+          },
+          "start": 19
+        },
+        {
+          "end": 43,
+          "readings": {
+            "primary": "(344)"
+          },
+          "start": 38
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Luther Martin 2, note 2",
+      "pages": [
+        "35"
+      ],
+      "ref": "LutherMartin.2.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          363
+        ]
+      },
+      "text": "* The Maryland Delegates to the Federal Convention were required by the legislature to report the proceedings of that body to them, and it was in this connection that Martin's Genuine Information was prepared. — EJ.",
+      "uncertain": [
+        {
+          "end": 215,
+          "readings": {
+            "brittle": "Ed.",
+            "google": "be",
+            "primary": "EJ."
+          },
+          "start": 212
+        }
+      ]
+    },
+    {
+      "label": "Luther Martin 3, ¶ 1",
+      "pages": [
+        "353",
+        "354",
+        "355",
+        "356",
+        "357"
+      ],
+      "ref": "LutherMartin.3.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
+        ]
+      },
+      "text": "To you my fellow citizens, I hold myself in a particular manner accountable for every part of my conduct in the exercise of a trust reposed in me by you, and should consider myself highly, culpable if I was to withhold from you any information in my possession, the knowledge of which may be material to enableyou to form a right judgment on questions wherein the happinessof yourselves and your posterity are involved. Nor shall I ever consider it an act of condescention when impeached in my public conduct, or character, to vindicate myself at your bar, and to submit myself to your decision. In conformity to these sentiments, which have regulated my conduct since my return from the Convention, and which will be the rule of my actions in the sequel, I shall at this time beg your indulgence, while I make some observations on a publication which the Landholder has done me the honour to address to me, in the Maryland Journal of the 29th of February last. In my controversy with that writer, on the subject of Mr. Gerry, I have already enabled you to decide, without difficulty, on the credit which ought to be given to his most positive assertions and should scarce think it worth my time to notice his charges against myself, was it not for the opportunity it affords me of stating certain facts and transactions, of which you ought to be informed, some of which were undesignedly omitted by me when I had the honour of being called before the House of Delegates. No \" extreme modesty\" on my part was requisite to induce me to conceal the \" sacrifice of resentments \" against Mr. Gerry, since no such sacrifice had ever been made, nor had any such resentments ever existed. The principal opposition in sentiment between Mr. Gerry and myself, was on the subject of representation ; but even on that subject, he was much more conceding than his colleagues, two of whom obstinately persisted in voting against the equality of representation in the senate, when the question was taken in Convention upon the adoption of the conciliatory propositions, on the fate of which depended, I believe, the continuance of the Convention. In many important questions we perfectly harmonized in opinion, and where we differed, it never was attended with warmth or animosity, nor did it in any respect interfere with a friendly intercourse and interchange of attention and civilities. We both opposed the extraordinary powers over the militia, given to the general government. We were both against the re-eligibility of the president. We both concurred in the attempt to prevent members of each branch of the legislature from being appointable to offices, and in many other instances, although the Landholder, with his usual regard to :truth and his usual imposing effrontery, tells me, that I \"doubtless must remember Mr. Gerry and myself never voted alike, ■ except in the instances\" he has mentioned. As little foundation is there in his assertion, that I \"cautioned certain members to be on their guard against his wiles, for that he and Mr. Mason held private meetings, where the plans were concerted to aggrandize, at the expence of the small States, old Massachusetts and the ancient dominion.\" I need only state facts to refute the assertion. Some time in the month of August, a number of members who considered the system, as then under consideration and likely to be adopted, extremely exceptionable, and of a tendency to destroy the rights and liberties of the United States, thought it advisable to meet together in the evenings, in order to have a communication of sentiments, and to concert a plan of conventional opposition to, and amendment of that system, so as, if possible, to render it less dangerous. Mr. Gerry was the first who proposed this measure to me, and that before any meeting had taken place, and wished we might assemble at my lodgings, but not having a room convenient, we fixed upon another place. There Mr. Gerry and Mr. Mason did hold meetings, but with them also met the Delegates from New Jersey and Connecticut, a part of the Delegation from Delaware, an honorable member from South Carolina, one other from Georgia, and myself. These were the only \"private meetings\" that ever I knew or heard to be held by Mr. Gerry and Mr. Mason, meetings at which I myself attended until I left the Convention, and of which the sole object was not to aggrandize the great at the expense of the small, but to protect and preserve, if possible, the existence and essential rights of all the states, and the liberty and freedom of their citizens. Thus, my fellow citizens, I am obliged, unless I could accept the compliment at an expence of truth equal to the Landholder's, to give up all claim to being \"placed beyond the reach of ordinary panegyrick,\" and to that \" magnanimity\" which he was so solicitous to bestow upon me, that he has wandered [into] the regions of falsehood to seek the occasion. When we find such disregard of truth, even in the introduction, while only on the threshold, we may form judgment what respect is to be paid to the information he shall give us of what passed in the Convention when he \" draws aside the veil,\" a veil which was interposed between our proceedings and the Public, in my opinion, for the most dangerous of purposes, and which was never designed by the advocates of the system to be drawn aside, or if it was, not till it should be too late for any beneficial purpose, which as far as it is done, or pretended to be done, on the present occasion ,is only for the purpose of deception and misrepresentation. It was on Saturday that I first took my seat. I obtained that day a copy of the propositions that had been laid before the Convention, and which were then the subject of discussion in a committee of the whole. The Secretary was so polite as, at my request, to wait upon me at the State House the next day (being Sunday), and there gave me an opportunity of examining the journals and making myself acquainted with the little that had been done before my arrival. I was not a little surprised at the system brought forward, and was solicitous to learn the reasons which had been assigned in its support ; for this purpose the journals could be of no service ; I therefore conversed on the subject with different members of the Convention, and was favoured with minutes of the debates which had taken place before my arrival. I applied to history for what lights it could afford me, and I procured everything the most valuable I could find in Philadelphia on the subject of governments in general, and on the American revolution and governments in particular. I devoted my whole time and attention to the business in which we were engaged, and made use of all the opportunities I had, and abilities I possessed, conscientiously to decide what part I ought to adopt in the discharge of that sacred duty I owed to my country, in the exercise of the trust you had reposed in me. I attended the Convention many days without taking any share in the debates, listening in silence to the eloquence of others, and offering no other proof that I possessed the powers of speech, than giving my yea or nay when a question was taken, and notwithstanding my propensity to \" endless garrulity,\" should have been extremely happy if I could have continued that line of conduct, without making a sacrifice of your rights and political happiness. The committee of the whole house had made but small progress, at the time I arrived, in the discussion of the propositions which had been referred to them ; they completed that discussion, and made their report. The propositions of the minority were then brought forward and rejected. The Convention had resumed the report of the committee, and had employed some days in its consideration. Thirty days, I believe, or more, had elasped from my taking my seat before in the language of the Landholder, I \" opened in a speech which held during two days.\" Such, my fellow citizens, is the true state of the conduct I pursued when I took my seat in Convention, and which the Landholder, to whom falsehood appears more familiar than truth, with his usual effrontery, has misrepresented by a positive declaration, that without obtaining or endeavouring to obtain any information on the subject, I hastily and insolently obtruded my sentiments on the Convention, and to the astonishment of every member present, on the very day I took my seat, began a speech, which continued two days, in opposition to those measures which, on mature deliberation, had been adopted by the Convention. But I \" alone advocated the political heresy, that the people ought not to be trusted with the election of representatives.\" On this subject, as I would wish to be on every other, my fellow citizens, 1 have been perfectly explicit in the information I gave to the House of Delegates, and which has since been published. In a state government, I consider all power flowing immediately from the people in their individual capacity, and that the people, in their individual capacity, have, and ever ought to have the right of choosing delegates in a state legislature, the business of which is to make laws, regulating their concerns, as individuals, and operating upon them as such ; but in a federal government, formed over free states, the power flows from the people, and the right of choosing delegates belongs to them only mediately through their respective state governments which are the members composing the federal government, and from whom all its power immediately proceeds ; to which state governments, the choice of the federal delegates immediately belongs. I should blush indeed for my ignorance of the first elements of government, was 1 to entertain different sentiments on the subject; and if this is \"political heresy,\" I have no ambition to be ranked with those who are orthodox. Let me here, my fellow citizens, by way of caution, add an observation, which will prove to be founded in truth: those who are the most liberal in complimenting you with powers which do not belong to you,\" act commonly from improper and interested motives, and most generally have in view thereby to prepare the way for depriving you of those rights to which you are justly entitled. Every thing that weakens and impairs the bands of legitimate authority smooths the road of ambition ; nor can there be a surer method of supporting and preserving the just rights of the people, than by supporting and protecting the just rights of government. As to the \"jargon\" attributed to me of maintaining that \"notwithstanding each state had an equal number of votes in the senate, yet the states were unequally represented in the senate,\" the Landholder has all the merit of its absurdity; nor cm I conceive what sentiment it is that I ever have expressed, to which he, with his usual perversion and misrepresentation, could give such a colouring. That I ever suggested the idea of letting loose an army indiscriminately on the innocent and guilty, in a state refusing to comply with the requisitions of Congress, or that such an idea ever had place in my mind, is a falsehood so groundless, so base and malignant, that it could only have originated or been devised by a heart which would dishonour the midnight assassin. My sentiments on this subject are well known ; it was only in the case where a state refused to comply with the requisitions of Congress, that I was willing to grant the general government those powers which the proposed constitution gives it in every case.* Had I been a greater friend to a standmg army, and not quite so averse to expose your liberties to a soldiery, I do not believe the Landholder would have chose me for the object on whom to expend his artillery of falsehood.",
+      "uncertain": [
+        {
+          "end": 9724,
+          "readings": {
+            "brittle": "1",
+            "google": "I",
+            "primary": "1"
+          },
+          "start": 9723
+        },
+        {
+          "end": 10757,
+          "readings": {
+            "primary": "cm"
+          },
+          "start": 10755
+        }
+      ]
+    },
+    {
+      "label": "Luther Martin 3, ¶ 2",
+      "pages": [
+        "359"
+      ],
+      "ref": "LutherMartin.3.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          370,
+          371
+        ]
+      },
+      "text": "That a system may enable government wantonly to exercise power over the militia, to call out an unreasonable number from any particular state without its permission, and to march them upon, and continue them in, remote and improper services ; that the same system should enable the government totally to discard, render useless, and even disarm, the militia, when it would remove them out of the way of opposing its ambitious views, is by no means inconsistent, and is really the case in the proposed constitution. In both these respects it is, in my opinion, highly faulty, and ought to be amended. In the proposed system the general government has a power not only without the consent, but contrary to the will of the state government, to call out the whole of its militia, without regard to religious scruples, or any other consideration, and to continue tlu ni in service as long as it pleases, thereby subjecting the freemen of a whole state to martial law and reducing them to the situation of slaves. It has also, by another clause, the powers by which only the militia can be organized and armed, and by the neglect of which they may be rendered utterly useless and insignificant, when it suits the ambitious purposes ot government. Nor is the suggestion unreasonable, even if it had been made, that the government might improperly oppress and harass the militia, the better to reconcile them to the idea of regular troops, who might relieve them from the burthen, and to render them less opposed to the measures it might be disposed to adopt for the purpose of reducing them to that state of insignificancy and uselessness. When the Landholder declared that \" I contended the powers and authorities of the new constitution must destroy the liberties of the people,\" he for once stumbled on the truth, but even this he could not avoid coupling with an assertion utterly false. I never suggested that \" the same powers could be safely entrusted to the old Congress;\" on the contrary', I opposed many of the powers as being of that nature that, in my opinion, they could not be entrusted to any government whatever consistent with the freedom of the states and their citizens, and I earnestly recommended, what I wish my fellow citizens deeply to impress on your minds, that in altering or amending our federal government no greater powers ought to be given than experience has show'n to be necessary, since it will be easy to delegate further power when time shall dictate the expediency or necessity, but powers once bestowed upon a government, should they be found ever so dangerous or destructive to freedom, cannot be resumed or wrested from government but by another revolution.",
+      "uncertain": [
+        {
+          "end": 861,
+          "readings": {
+            "primary": "tlu"
+          },
+          "start": 858
+        },
+        {
+          "end": 864,
+          "readings": {
+            "primary": "ni"
+          },
+          "start": 862
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Luther Martin 3, note 1",
+      "pages": [],
+      "ref": "LutherMartin.3.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          370
+        ]
+      },
+      "text": "* According to this idea, I endeavored to obtain as an amendment to the system the following clause : \" And whenever the legislature of the United States shall find it necessary that revenue shall be raised by direct taxation, having apportioned the same by the above rule, requisitions shall be made of the respective states to pay into the continental treasury their respective quotas within a time in the said requisition to be specified, and in case of any of the states failing to comply with such requisition, then, and then only, to have power to devise and pass acts directing the mode, and authorizing the same in the state failing therein.\" This was rejected, and that power, which I wished to have given the government only in this particular instance, is given to It without any restraint or limitation in every case."
+    },
+    {
+      "label": "Luther Martin 4, ¶ 1",
+      "pages": [
+        "360",
+        "361"
+      ],
+      "ref": "LutherMartin.4.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          372,
+          373
+        ]
+      },
+      "text": "In the recognition which the Landholder professes to make \"of what occurred to my advantage,\" he equally deals in the arts of misrepresentation, as while he was \" only the record of the bad,\" and I am equally obliged from a regard to truth to disclaim his pretended approbation as his avowed censure. He declares that I originated the clause which enacts that \" this Constitution and the laws of the United States, which shall be made in pursuance thereof, and all treaties made, or which shall be made, under the authority of the United States, shall be the supreme law of the land, and the judges in every state shall be bound thereby, any thing in the Constitution or the laws of any state to the contrary notwithstanding.\" To place this matter in a proper point of view, it will be necessary to state, that as the propositions were reported by the committee of the whole house, a power was given to the general government to negative the laws passed by the state legislatures, a power which I considered as totally inadmissible; in substitution of this I proposed the following clause, which you will find very materially different from the clause adopted by the Constitution, \" that the legislative acts of the United States, made by virtue and in pursuance of the articles of the union, and all treaties made and ratified under the authority of tlic United States, shall be the supreme law of the respective states, so far as those acts or treaties shall relate to the said states or their citizens, and that the judiciaries of the several states shall be bound thereby in their decisions, any thing in the respective laws of the individual states to the contrary notwithstanding.\" When this clause was introduced, it was not established that inferior continental courts should be appointed for trial of all questions arising on treaties and on the laws of the general government, and it was my wish and hope that every question of that kind would have been determined in the first instance in the courts of the respective states; had this been the case, the propriety and the necessity that treaties duly made and ratified, and the laws of the general government, should be binding on the state judiciaries which were to decide upon them, must be evident to every capacity, while at the same time, if such treaties or laws were inconsistent with our constitution and bill of rights, the judiciaries of this state would be bound to reject the first and abide by the last, since in the form I introduced the clause, notwithstanding treaties and the laws of the general government were intended to be superior to the laws of our state government, where they should be opposed to each other, yet that they were not proposed nor meant to be superior to our constitution and bill of rights. It was afterwards altered and amended (if it can be called an amendment) to the form in which it stands in the system now published, and as inferior continental, and not state courts, are originally to decide on those questions, it is now worse than useless, for being so altered as to render the treaties and laws made under the general government superior to our constitution, if the system is adopted it will amount to a total and unconditional surrender to that government. by the citizens of this state, of every right and privilege secured to them by our constitution, and an express compact and stipulation with the general government that it may. at its discretion, make laws in direct violation of those rights. But on this subject I shall enlarge in a future number.",
+      "uncertain": [
+        {
+          "end": 1355,
+          "readings": {
+            "primary": "tlic"
+          },
+          "start": 1351
+        }
+      ]
+    },
+    {
+      "label": "Luther Martin 4, ¶ 2",
+      "pages": [
+        "361",
+        "62",
+        "363",
+        "364",
+        "365",
+        "366"
+      ],
+      "ref": "LutherMartin.4.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          373,
+          374,
+          375,
+          376,
+          377,
+          378
+        ]
+      },
+      "text": "That I \"voted an appeal should lay to the supreme judiciary of the United States, for the correction of all errors both in law and fact,\" in rendering judgment is most true, and it is equallytrue that if it had been so ordained by the Constitution, the supreme judiciary would only have had an appellate jurisdiction, of the same nature with that possessed by our high court of appeals, and could not in any respect intermeddle with any fact decided by a jury; but as the clause now stands, an appeal being given in general terms from the inferior courts, both as to law and fact, it not only doth, but is avowedly intended, to give a power very different from what our court of appeals, or any court of appeals in the United States or in England enjoys, a power of the most dangerous and alarming nature, that of setting at nought the verdict of a jury, and having the same facts which they had determined, without any regard or respect to their determination, examined and ultimately decided by the judges themselves, and that by judges immediately appointed by the government. But the Landholder also says that \" I agreed to the clause that declares nine states to be sufficient to put the government in motion.\" I cannot take to myself the merit even of this without too great a sacrifice of truth. It was proposed that if seven states agreed that should be sufficient; by a rule of Convention in filling up blanks, if different numbers were mentioned, the question was always to be taken on the highest. It was my opinion, that to agree upon a ratification of the constitution by any less number than the whole thirteen states, is so directly repugnant to our present articles of confederation, and the mode therein prescribed for their alteration, and such a violation of the compact which the states, in the most solemn manner, have entered into with each other, that those who could advocate a contrary proposition, ought never to be confided in, and entrusted in public life. I availed myself of this rule, and had the question taken on thirteen, which was rejected. Twelve, eleven, ten and nine were proposed in succession ; the last was adopted by a majority of the members. I voted successively for each of these members, to prevent a less number being agreed on. Kad nine not been adopted, I should on the same principle have voted for eight. But so far was I from giving my approbation that the assent of a less number of states than thirteen should be sufficient to put llic government in motion, that 1 most explicitly expressed my sentiments to the contrary, and always intended, had I been present when the ultimate vote was taken on the constitution, to have given it my decided negative, accompanied with a solemn protest against it, assigning this reason among others for my dissent. Thus, my fellow citizens, that candour with which I have conducted myself through the whole of this business obliges me, however reluctantly, and however \" mortifying it may be to my vanity,\" to disavow all \"those greater positive virtues\" which the Landholder has so obligingly attributed to me in Convention, and which he was so desirous of conferring upon me as to consider the guilt of misrepresentation and falsehood but a trifling sacrifice for that purpose, and to increase my mortification, you will find I am equally compelled to yield up every pretence even to those of a negative nature, which a regard to justice has, as he says, obliged him not to omit. These consist, as he tells us, in giving my entire approbation to the system as to those parts which are said to endanger a trial by jury, and as to its want of a bill of rights, and in having too much candour there to signify that I thought it deficient in either of these respects. But how, I pray, can the Landholder be certain that I deserve this encomium? Is it not possible, as I so frequently exhausted the politeness of the Convention, that some of those marks of fatigue and disgust, with which he intimates I was mortified as oft as I attempted to speak, might at that time have taken place, and have been of such a nature as to attract his attention; or, perhaps, as the Convention was prepared to slumber whenever I rose, the Landholder, among others, might have sunk into sleep, and at that very moment might have been feasting his imagination with the completion of his ambitious views, and dreams of future greatness. But supposing I never did declare in Convention that I thought the system defective in those essential points, will it amount to a positive proof that I approved the system in those respects, or that I culpably' neglected an indispensable duty? Is it not possible, whatever might have been my insolence and assurance when I first took my seat, and however fond I might be at that time of obtruding my sentiments, that the many rebuffs with which I met. the repeated mortifications I experienced, the marks of fatigue and disgust with which my eyes were sure to be assailed wherever I turned them — one gaping here, another yawning there, a third slumbering in this place, and a fourth snoring in that — might so effectually have put to flight all my original arrogance, that, as we are apt to-run into extremes, having at length become convinced of my comparative nothingness, in so august an assembly and one in which the science of government was so perfectly understood, I might sink into such a state of modesty and diffidence as not to be able to muster up resolution enough to break the seal of silence and open my lips even after the rays of light had begun to penetrate my understanding, and in some measure to chase away those clouds of error and ignorance in which it was enveloped on my first arrival? Perhaps had I been treated with a more forbearing indulgence while committing those memorable blunders, for a want of a sufficient knowledge in the science of government, I might, after the rays of light had illuminated my mind, have rendered my country much more important services, and not only assisted in raising some of the pillars, but have furnished the edifice with a new roof of my own construction, rather better calculated for the convenience and security of those who might wish to take shelter beneath it, than that which it at present enjoys. Or even admitting I was not mortified, as I certainly ought to have been, from the Landholder's account of the matter, into a total loss of speech, was it in me, who considered the system, for a variety of reasons, absolutely inconsistent with your political welfare and happiness, a culpable neglect of duty in not endeavouring, and that against every chance of success, to remove one or two defects, when I had before ineffectually endeavoured to clear it of the others, which therefore, I knew must remain? But to be serious, as to what relates to the appellate jurisdiction in the extent given by the system proposed, I am positive there were objections made to it, and as far as my memory will serve me, I think I was in the number of those who actually objected ; but I am sure that the objections met with my approbation. With respect to a bill of rights, had the government been formed upon principles truly federal, as I wished it, legislating over and acting upon the states only in their collective or political capacity, and not on individuals, there would have been no need of a bill of rights, as far as related to the rights of individuals, but only as to the rights of states, But the proposed constitution being intended and empowered to act not only on states, but also immediately on individuals, it renders a recognition and a stipulation in favour of the rights both of states and of men, not only proper, but in my opinion absolutely necessary. I endeavoured to obtain a restraint on the powers of the general government, as to standing armies, but it was rejected. It was my wish that the general government should not have the power of suspending the privilege of the writ of habeas corpus, as it appears to me altogether unnecessary, and that the power given to it may and will be used as a dangerous engine of oppression, but I could not succeed. An honorable member from South Carolina most anxiously sought to have a clause inserted securing the liberty of the Press, and repeatedly brought this subject before the Convention, but could not obtain it. I am almost positive he made the same attempt to have a stipulation in favour of liberty of conscience, but in vain. The more the system advanced the more was I impressed with the necessity of not merely attempting to secure a few rights, but of digesting and forming a complete bill of rights, including those of states and of individuals, which should be assented to, and prefixed to the Constitution, to serve as a barrier between the general government and the respective states and their citizens ; because the more the system advanced the more clearly it appeared to me that the framers of it did not consider that either states or men had any rights at all, or that they meant to secure the enjoyment of any to either the one or the other; accordingly, I devoted a part of my time to the actually preparing and draughting such a bill of rights, and had it in readiness before I left the Convention, to have laid it before a committee. I conversed with several members on the subject ; they agreed with me on the propriety of the measure, but at the same time expressed their sentiments that it would be impossible to procure its adoption if attempted. A very few days before I left the Convention, I shewed to an honorable member sitting by me a proposition, which I then had in my hand, couched in the following words : \" Resolved that a committee be appointed to prepare and report a bill of rights, to be prefixed to the proposed Constitution,\" and I then would instantly have moved for the appointment of a committee for that purpose, if he would have agreed to second the motion, to do which he hesitated, not as I understand from any objection to the measure, but from a conviction in his own mind that the motion would be in vain.",
+      "uncertain": [
+        {
+          "end": 2489,
+          "readings": {
+            "primary": "llic"
+          },
+          "start": 2485
+        },
+        {
+          "end": 2518,
+          "readings": {
+            "primary": "1"
+          },
+          "start": 2517
+        }
+      ]
+    },
+    {
+      "label": "Luther Martin 4, ¶ 3",
+      "pages": [
+        "366",
+        "369"
+      ],
+      "ref": "LutherMartin.4.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          378,
+          379,
+          380,
+          381
+        ]
+      },
+      "text": "Thus my fellow citizens, you see that so far from having no objections to the system on this account, while I was at Convention, I not only then thought a bill of rights necessary, but I took some pains to have the subject brought forward, which would have been done, had it not been for the difficulties I have stated. At the same time I declare that when I drew up the motion, and was about to have proposed it to the Convention, I had not the most distant hope it would meet with success. The rejection of the clauses attempted in favour of particular rights, and to check and restrain the dangerous and exorbitant powers of the general government from being abused, had sufficiently taught me what to expect. And from the best judgment I could form while in Convention, I then was, and yet remained, decidedly of the opinion that ambition and interest had so far blinded the understanding of some of the principal framers of the Constitution, that while they were labouring to erect a fabrick by which they themselves might be exalted and benefited, they were rendered insensible to the sacrifice of the freedom and happiness of the states and their citizens, which must, inevitably be the consequence. I most sacredly believe their object is the total abolition and destruction of all state governments, and the erection on their ruins of one great and extensive empire, calculated to aggrandize and elevate its rulers and chief officers far above the common herd of mankind, to enrich them with wealth, and to encircle them with honours and glory, and which according to my judgment on the maturest reflection, must inevitably be attended with the most humiliating and abject slavery of their fellow citizens, by the sweat of whose brows, and by the toil of whose bodies, it can only be effected. And SO anxious were its zealous promoters to hasten to a birth this misshapened heterogenous monster of ambition and interest, that, for some time before the Convention rose, upon the least attempt to alter its form, or modify its powers, the most fretful impatience was shown, such as would not have done much honour to a State Assembly, had they been sitting as long a time, and their treasury empty ; while it was repeatedly urged on the contrary, but urged in vain, that in so momentous an undertaking, in forming a system for such an extensive continent, on which the political happiness of so many millions, even to the latest ages, may depend, no time could be too long — no thoughts and reflections too great — and that if by continuing six months, or even as many years, we could free the system from all its errors and defects, it would be the best use to which we could possibly devote our time. Thus my fellow citizens am I under necessity of resigning again into the hands of the Landholder, all those virtues both of a positive and negative kind, which from an excess of goodness he bestowed upon me, and give him my full permission to dispose of them hereafter in favour of some other person, who may be more deserving, and to whom they will be more acceptable : at the same time, I must frankly acknowledge, however it may operate as a proof of my dullness and stupidity, that the \"ignorance in the science of government\" under which I laboured at first was not removed by more than two months close application under those august and enlightened masters of the science with which the Convention abounded, nor was I able to discover during that time, either by my own researches, or by any light borrowed from those luminaries, anything in the history of mankind or in the sentiments of those who have favoured the world with their ideas on government, to warrant or countenance the motley mixture of a system proposed : a system which is an innovation in government of the most extraordinary kind ; a system neither wholly federal, nor wholly national — but a strange hotch-potch of both — just so much federal in appearance as to give its advocates in some measure, an opportunity' of passing it as such upon the unsuspecting multitude, before they had time and opportunity to examine it, and )xt so predominantly national as to put it in the power of its movers, whenever the machine shall be set agoing, to strike out every part that has the appearance of being federal, and to render it wholly and entirely a national government: And if the framing and approving the Constitution now offered to our acceptance, is a proof of knowledge in the science of government, I not only admit, but I glory in my ignorance; and if my rising to speak had such a somnific influence on the Convention as the Landholder represents, I have no doubt the time will come, should this system be adopted, when my countrymen will ardently wish I had never left the Convention, but remained there to the last, daily administering to my associates the salutary opiate. Happy, thrice happy, would it have been for my country, if the whole of that time had been devoted to sleep, or been a blank in our lives, rather than employed in forging its chains. As I fully intended to have returned to the Convention before the completion of its business, my colleagues very probably might, and were certainly well warranted to, give that information the Landholder mentions; but whether the Convention was led to conclude that I \"would have honoured the Constitution with my signature had not indispensable business called me away,\" may be easily determined after stating a few facts. The Landholder admits I was at first against the system — when the compromise took place on the subject of representation, I in the most explicit manner declared in Convention, that though I had concurred in the report, so far as to consent to proceed upon it that we might see what kind of a system might be formed, yet I disclaimed every idea of being bound to give it my assent, but reserved to myself the full liberty of finally giving it my negative, if it appeared to me inconsistent with the happiness of my country. In a desultory conversation which long after took place in Convention, one morning before our honourable president took the chair, he was observing how unhappy it would be should there be such a diversity of sentiment as to cause any of the members to oppose the system when they returned to their states; on that occasion I replied that I was confident no state in the union would more readily accede to a proper system of government than Maryland, but that the system under consideration was of such a nature, that I nc\\cr could rcconiniciul it for acceptance ; that I thought the state never ought to adopt it, and expressed my firm belief that it never would.",
+      "uncertain": [
+        {
+          "end": 4117,
+          "readings": {
+            "primary": ")xt"
+          },
+          "start": 4114
+        },
+        {
+          "end": 6523,
+          "readings": {
+            "primary": "nc\\cr"
+          },
+          "start": 6518
+        },
+        {
+          "end": 6542,
+          "readings": {
+            "primary": "rcconiniciul"
+          },
+          "start": 6530
+        }
+      ]
+    },
+    {
+      "label": "Luther Martin 4, ¶ 4",
+      "pages": [
+        "369",
+        "370"
+      ],
+      "ref": "LutherMartin.4.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          381,
+          382,
+          383
+        ]
+      },
+      "text": "An honourable member from Pennsylvania objected against that part of the sixth article which requires an oath to be taken by the persons there mentioned, in support of the constitution, observing (as he justly might from the conduct the convention was then pursuing) how little such oaths were regarded. I immediately joined in the objection, but declared my reason to be, that I thought it such a constitution as no friend of his country ought to bind himself to support. And not more than two days before I left Philadelphia, another honourable member from the same state urged most strenuously that the Convention ought to hasten their deliberations to a conclusion, assigning as a reason that the Assembly of Pennsylvania was just then about to meet,. and that it would be of the greatest importance to bring the system before that session of the legislature, in order that a Convention of the State might be immediately called to ratify it, before the enemies of the system should have an opportunity of making, the people acquainted with their objections, at the same time declaring that if the matter should be delayed and the people havetime to hear the variety of objections which would be made to it. by its opposers, he thought it doubtful whether that state or any other state in the union would adopt it.* As soon as the honourable member took his seat, I rose and observed, that I wasprecisely of the same opinion, that the people of America never would, nor did I think they ought to, adopt the system, if they had time to consider and understand it; whereas a proneness for novelty and change — a conviction that some alteration was necessary, and a confidence in the members who composed the Convention— might possibly procure its adoption, if brought hastily before them, but that these sentiments induced me to wish that a very different line of conduct should be pursued from that recommended by the honourable member. I wished the people to have every opportunity of information, as I thought it much preferable that a bad system should be rejected at first, than hastily adopted and afterwards be unavailingly repented of. If these were instances of my \"high approbation,\" I gave them in abundance as all the Convention can testify, and continued so to do till I left them. That I expressed great regret at being obliged to leave Philadelphia, and a fixed determination to return if possible before the Convention rose, is certain. That I might declare that I had rather lose an hundred guineas than not to be there at the close of the business is very probable — and it is possible that some who heard me say this, not knowing my reasons, which could not be expressed without a breach of that secrecy to which we were enjoined, might erroneously have concluded that my motive was the gratification of vanity, in having my name enrolled with those of a Franklin and a Washington. As to the first, I cordially join in the tribute of praise so justly paid to the enlightened philosopher and statesman, while the polite, friendly and affectionate treatment myself and my family received from that venerable sage and the worthy family in which he is embosomed, will ever ■ endear him to my heart. The name of Washington is far above my praise. I would to Heaven that on this occasion one .more wreath had been added to the number of those which .are twined around his amiable brow — that those with which it is .already surrounded may flourish with immortal verdure, nor wither or fade till time shall be no more, is my fervent prayer, and may that glory which encircles his head ever shine with undiminished rays. To find myself under the necessity of opposing such .illustrious characters, whom I venerated and loved, filled me with regret ; but viewing the system in the light I then did, and yet do view it, to have hesitated would have been criminal; complaisance would have been guilt. If it was the idea of my state that whatever a Washington or Franklin approved, was to be blindly adopted, she ought to have spared herself the expence of sending any members to the Convention, or to have instructed them implicitly to follow where they led the way. It was not to have my \"name enrolled with the other labourers,\" that I wished to return to Philadelphia — that sacrifice which I must have made of my principles by putting my name to the Constitution, could not have been effaced by any derivative lustre it could possibly receive from the bright constellation with which it would have been surrounded. My object was in truth the very reverse; as I had uniformly opposed the system in its progress, I wished to have been present at the conclusion, to have then given it my solemn negative, which I certainly should have done, even had I stood single and alone, being perfectly willing to leave it to the cool and impartial investigation both of the present and of future ages to decide who best understood the science of government — who best knew the rights of men and of states, who best consulted the true interest of America, and who most faithfully discharged the trust reposed in them, those who agreed to or those who opposed the new Constitution — and so fully have I made up my own mind on this subject, that as long as the history of mankind shall record the appointment of the late Convention, and the system which has been proposed by them, it is my highest ambition that my name may also be recorded as one who considered the system injurious to my country, and as such opposed it. Having shown that I did not \" alter my opinion after I left Philadelphia,\" and that I acted no \" contradictory parts on the great political stage,\" and therefore that there are none such to reconcile, the reason assigned by the Landholder for that purpose doth not deserve my notice, except only to observe that he shrewdly intimates there is already a Junto established, who are to share in and deal out the offices of this new government at their will and pleasure, and that they have already fixed upon the character who is to be \" Deputy Attorney General of the United States for the State of Maryland.\" If this is true, it is worth while to inquire of whom this Junto consists, as it might lead to a discovery of the persons for the gratification of whose ambition and interest this system is prepared, and is, if possible, to be enforced, and from the disposition of offices already allotted in the various and numerous departments, we possibly might discover whence proceeds the conviction and zeal of some of its advocates."
+    },
+    {
+      "kind": "footnote",
+      "label": "Luther Martin 4, note 1",
+      "pages": [
+        "369"
+      ],
+      "ref": "LutherMartin.4.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          381
+        ]
+      },
+      "text": "• How exactly agreeable to the sentiments of that honourable member has been the conduct of the friends of the Constitution in Pennsylvania and some other states, I need not mention."
+    },
+    {
+      "label": "Luther Martin 5, ¶ 1",
+      "pages": [
+        "372",
+        "373",
+        "374",
+        "375",
+        "377"
+      ],
+      "ref": "LutherMartin.5.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          384,
+          385,
+          386,
+          387,
+          388,
+          389
+        ]
+      },
+      "text": "There is, my fellow citizens, scarcely an individual of common understanding, I believe, in this state, who is any ways acquainted with the proposed Constitution, who doth not allow it to be, in many instances, extremely censurable, and that a variety of alterations and amendments are essentially requisite, to render it consistent with a reasonable security for the liberty of the respective states, and their citizens. Aristides,* it is true, is an exception from this observation ; he declares, that \" if the whole matter was left to his discretion, he would not change any part of the proposed Constitution,\" whether he meant this declaration as a proof of his discretion, I will not say; it will however, readily be admitted, by most, as a proof of his enthusiastic zeal in favour of the system. But it would be injustice to that writer not to observe, that if he is as much mistaken in the other parts of the Constitution, as in that which relates to the judicial department, the Constitution which he is so earnestly recommending to his countrymen, and on which he is lavishing so liberally his commendations, is a thing of his own creation and totally different from that which is offered for your acceptance. — He has given us an explanation of the original andappellate jurisdiction of the judiciary of the general government, and of the manner in which he supposes it is to operate — an explanation so inconsistent with the intention of its framers, and so different from its true construction and from the effect which it will have, should the system be adopted, that I could scarce restrain my astonishment at the error, although I was in some measure prepared for it, by his previous acknowledgment that he did not very well understand that part of the system ; a circumstance I apprehended he did not recollect at the time when he was bestowing upon it his dying benediction. And if one of our judges, possessed of no common share of understanding, and of extensive acquired knowledge, who, as he informs us, has long made the science of government his peculiar st-udy, so little understands the true import and construction of this Constitution, and that too in a part more particularly within his own province, can it be wondered at that the people in general, whose knowledge in subjects of this nature is much more limited and circumscribed, should but imperfectly comprehend the extent, operation and consequences of so complex and intricate a system; and is not this of itself a strong proof of the necessity that it should be corrected and amended, at least so as to render it more clear and comprehensible to those who are to decide upon it, or to be affected by it. But although almost every one agrees the Constitution, as it is, to be both defective and dangerous, we are not wanting in characters who earnestly advise us to adopt it, in its present form, with all its faults, and assure us we may safely rely on obtaining hereafter the amendments that are necessary. But why, I pray you, my fellow citizens, should we not insist upon the necessary amendments being made now, while we have the liberty of acting for ourselves, before the Constitution becomes binding upon us by our assent, as every principle of reason, common sense and safe-ty would dictate? Because, say they, the sentiments of men are so different, and the interests of the different states are so jarring and dissonant, that there is no probability they would agree if alterations and amendments were attempted. Thus with one breath they tell us that the obstacles to any alterations and amendments being agreed to by the states are so insuperable, that it is vain to make the experiment, while in the next they would persuade us it is so certain the states will accede to those which shall be necessary, and that they may be procured even after the system shall be ratified, that we need not hesitate swallowing the poison, from the ease and security of instantly obtaining the antidote — and they seem to think it astonishing that any person should find a difficulty in reconciling the absurdity and contradiction. If it is easy to obtain proper amendments, do not let us sacrifice everything that ought to be dear to freemen, for want of insisting upon its being done, while we have the power. If the obtaining them will be difficult and improbable, for God's sake do not accept of such a form of government as without amendments cannot fail of rendering you mere beasts of burthen, and reducing you to a level with your own slaves, with this aggravating distinction, that you once tasted the blessings of freedom. Those who would wish you to believe that the faults in the system proposed are wholly or principally owing to the difference of state interests, and proceed from that cause, are either imposed upon themselves, or mean to impose upon you. The principal questions, in which the state interests had any material effect, were those which related to representation, and the number in each branch of the legislature, whose concurrence should be necessary for passing navigation acts, or making commercial regulations. But what state is there in the union whose interest would prompt it to give the general government the extensive and unlimited powers it possesses in the executive, legislative and judicial departments, together with the powers over the militia, and the liberty of establishing a standing army without any restriction? What state in the union considers it advantageous to its interest that the President should be re eligible — the members of both houses appointable to offices — the judges capable of holding other offices at the will and pleasure of the government, and that there should be no real responsibility either in the President or in the members of either branch of the Legislature? Or what state is there that would have been averse to a bill of rights, or that would have wished for the destruction of jury trial in a great variety of cases, and in a particular manner in every case without exception where the government itself is interested ? These parts of the system, so far from promoting the interest of any state, or states, have an immediate tendency to annihilate all the state governments indiscriminately, and to subvert their rights and the rights of their citizens. To oppose these, and to procure their alteration, is equally the interest of every state in the union. The introduction of these parts of the system must not be attributed to the jarring interests of states, but to a very different source, the pride, the ambition and the interest of individuals. This being the case, we may be enabled to form some judgment of the probability of obtaining a safe and proper system, should we have firmness and wisdom to reject that which is now offered; and also of the great improbability of procuring any amendments to the present system, if we should weakly and inconsiderately adopt it. The bold and daring attempt that has been made to use, for the total annihilation of the states, that power that was delegated for their preservation, will put the different states on their guard. The votaries of ambition and interest being totally defeated in their attempt to establish themselves on the ruins of the States, which they will be if this Constitution is rejected, an attempt in which they had more probability of success from the total want of suspicion in their countrymen than they can have hereafter, they will not hazard a second attempt of the same nature, in which they will have much less chance of success; besides, being once discovered they will not be confided in. The true interest and happiness of the states and their citizens will, therefore, most probably be the object which will be principally sought for by a second Convention, should a second be appointed, which if really aimed at, I cannot think very difficult to accomplish, by giving to the federal government sufficient power for every salutary purpose, while the rights of the states and their citizens should be secure from any imminent danger. But if the arts and influence of ambitious and interested men, even in their present situation, while more on a level with yourselves, and unarmed with any extraordinary powers, should procure you to adopt this system, dangerous as it i.s admitted to be to your rights, I will appeal to the MARTIN. derstanding of every one of you, who will on this occasion give his reason fair play, whether there is not every cause to believe they will, should this government be adopted, with that additional power, consequence and influence it will give them, most easily prevent the necessary alterations which might be wished for, the purpose of which would be directly opposite to their views, and defeat every attempt to procure them. Be assured, whatever obstacles or difficulties may be at this time in the way of obtaining a proper system of government, they will be increased an hundred fold after this system is adopted. Reflect also, I entreat you, my fellow citizens, that the alterations and amendments which are wanted in the present system are of such a nature as to diminish and lessen, to check and restrain the powers of the general government, not to increase and enlarge those powers. If they were of the last kind, we might safely adopt it, and trust to giving greater powers hereafter, like a physician who administers an emetic ex re nata, giving a moderate dose at first, and increasing it afterwards as the constitution of the patient may require. But I appeal to the history of mankind for this truth, that when once power and authority are delegated to a government, it knows how to keep it, and is sufficiently and successfully fertile in expedients for that purpose. Nay more, the whole history of mankind proves that so far from parting with the powers actually delegated to it, government is constantly encroaching on the small pittance of rights reserved by the people to themselves, and gradually wresting them out of their hands until it either terminates in their slavery or forces them to arms, and brings about a revolution. From these observations it appears to me, my fellow citizens, that nothing can be more weak and absurd than to accept of a system that is admitted to stand in need of immediate amendments to render your rights secure — for remember, if you fail in obtaining them, you cannot free yourselves from the yoke you will have placed on your necks, and servitude must, therefore, be your portion. Let me ask you my fellow citizens what you would think of a physician who, because you were slightly indisposed, should bring you a dose which properly corrected with other ingredients might be a salutary remedy, but of itself was a deadly poison, and with great appearance of friendship and zeal, should advise you to swallow it immediately, and trust to accident for those requisites necessary to qualify its malignity, and prevent its destructive effects? Would not you reject the advice, in however friendly a manner it might appear to be given, with indignation, and insist that he should first procure, and properly attempt, the necessary ingredients, since after the fatal draught was once received into your bowels, it would be too late should the antidote prove unattainable, and death must ensue. With the same indignation ought you, my fellow citizens, to reject the advice of those political quacks, who under pretence of healing the disorders of our present government, would urge you rashly to gulp down a constitution, which in its present form, unaltered and unamended, would be as certain death to your liberty, as arsenic could be to your bodies."
+    },
+    {
+      "kind": "footnote",
+      "label": "Luther Martin 5, note 1",
+      "pages": [
+        "372"
+      ],
+      "ref": "LutherMartin.5.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          384
+        ]
+      },
+      "text": "* A reference to Alexander Contee Hanson's pamphlet, written under the pseudonym of Aristides. It is reprinted in Ford's Pamphlets on the Constitution. — Ed,"
+    },
+    {
+      "label": "Luther Martin 6, ¶ 1",
+      "pages": [
+        "378",
+        "380",
+        "38",
+        "382"
+      ],
+      "ref": "LutherMartin.6.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          390,
+          391,
+          392,
+          393,
+          394,
+          395
+        ]
+      },
+      "text": "If those, my fellow citizens, to whom the administration of our government was about to be committed, had sufficient wisdom never to err, and sufficient goodness always to consult the true interest of the governed, and if we could have a proper security that their successors should to the end of time be possessed of the same qualifications, it would be impossible that power could be lavished upon them with too liberal a hand. Power absolute and unlimited, united with unerring wisdom and unbounded goodness, is the government of the Deity of the universe. But remember, my fellow citizens, that the persons to whom you are about to delegate authority are and will be weak, erring mortals, subject to the same passions, prejudices and infirmities with yourselves ; and let it be deeply engraven on your hearts, that from the first history of government to the present time, if we begin with Nimrod and trace down the rulers of nations to those who are now invested with supreme power, we shall find few, very few, who have made the beneficent Governor of the universe the model of their conduct, while many are they who, on the contrary, have imitated the demons of the darkness. We have no right to expect that our rulers will be more wise, more virtuous, or more perfect than those of other nations have been, or that they will not be equally under the influence of ambition, avarice and all that train of baleful passions, which have so generally proved the curse of our unhappy race. We must consider mankind such as they really are, — such as experience has shown them to be heretofore, and bids us expect to find them hereafter, — and not suffer ourselves to be misled by interested deceivers or enthusiastick visionaries; and therefore in forming a system of government, to delegate no greater power than is clearly and certainly necessary, ought to be the first principle with every people who are influenced by reason and a regard for their safety, and in doing this, they ought most solicitously to endeavour so to qualify even that power, by such checks and restraints, as to produce a perfect responsibility in those who are to exercise it, and pre- \\ent them from its abuse with a chance of impunity ; — since such is the nature of man, that he has a propensity to abuse authority and to tyrannize over the rights of his fellowmen; — and to whomsoever power is given, not content with the actual deposit, they will ever strive to obtain an increase. Those who would wish to excite and keep awake your jealousy and distrust are your truest friends ; while they who speak peace to you when there is no peace — who would lull you into security, and wish you to repose blind confidence in your future governors — are your most dangerous enemies ; jealousy and distrust are the guardian angels who watch over liberty — security and confidence are the forerunners of slavery. But the advocates of the system tell you that we who oppose it, endeavour to terrify you with mere possibilities which may never be realized, that all our objections consist in saying government may do this, and government may do that. — I will for argument sake admit the justice of this remark, and yet maintain that the objections are insurmountable. I consider it an incontrovertible truth, that whatever by the constitution government even may do, if it relates to the abuse of power by acts tyrannical and oppressive, it some time or other will do. Such is th.e ambition of man, and his lust for domination, that no power less than that which fixed its bounds to the ocean can say to them, \"Thus far shall ye go and no farther.\" Ascertain the limits of the may with ever so much precision, and let them be as extensive as you please, government will speedily reach their utmost verge; nor will it stop there, but soon will overleap those boundaries, and roam at large into the regions of the may not. Those who tell you the government by this constitution may keep up a standing army, abolish the trial by jury, oppress the citizens of the states by its powers over the militia, destroy the freedom of the press, infringe the liberty of conscience, and do a number of other acts injurious and destructive of your rights, yet that it never will do so ; and that you safely may accept such a constitution and be perfectly at ease and secure that your rulers will always be so good, so wise, and so virtuous — such emanations of the Deity — that they will never use their power but for your interest and your happiness, contradict the uniform experience of ages, and betray a total ignorance of human nature, or a total want of ingenuity. Look back, my fellow citizens, to your conduct but a few years past, and let that instruct you what ought to be your conduct at this time. Great Britain then claimed the right to pass laws to bind you in all cases whatever. You were then told in all the soft insinuating language of the present day, and with all the appearance of disinterested friendship now used, that those who insisted this claim of power might be abused, only wandered in the regions of fancy — that you need not be uneasy, but might safely acquiesce in the claim — that you might have the utmost possible confidence in your rulers, that they never would use that power to your injury; but distrustful of government, and jealous of your liberty, you rejected such counsel with disdain ; the bare possibility that Britain might abuse it, if once conceded, kindled a flame from one end of this continent to the other, and roused you to arms. Weak and defenseless as you were, unused to military exertions, and unsupplied with warlike stores, you braved the strength of a nation the most powerful and best provided — you chose to risk your lives and property rather than to risque the possibility that the power claimed by the British government should be exercised to your injury — a possibility which the minions of power at that time, with as much confidence as those of the present day, declared to be absolutely visionary. Heaven wrought a miracle in your favour, and your efforts were crowned w itli success. You are not now called upon to make an equal sacrifice. you are not now requested to heat your ploughshares into swords, or your pruning hooks into spears, to leave your peaceful habitations, and exchange domestic tranquillity for the horrors of war; peaceably, quietly and orderly to give this system of slavery your negative, is all that is asked by the advocates of freedom — to pronounce the single monosyllable no, is all they entreat. Shall they entreat you in vain? when by this it is to be determined, whether our independence, for obtaining which we have been accustomed to bow the knee with reverential gratitude to Heaven, shall be our greatest curse; and when on this it depends whether we shall be subject to a government, of which the little finger will be thicker than the loins of that of Great Britain. But there are also persons who pretend that your situation is at present so bad that it cannot be worse, and urge that as an argument why we should embrace any remedy proposed, however desperate it may appear. Thus do the poor erring children of mortality, suffering under the presence of real or imaginary evils, have recourse to a pistol or halter for relief, and rashly launch into the untried regions of eternity — nor wake from this delusion, until they wake in endless woe. Should the citizens of America, in a fit desperation, be induced to commit this fatal act of political suicide, to which by such arguments they are stimulated, the day will come when laboring under more than Egyptian bondage ; compelled to finish their quota of brick, though destitute of straw and of mortar; galled with your chains, and worn down by oppression, you will, by sad experience, be convinced (when that conviction shall be too late), that there is a difference in evils, and that the buzzing of gnats is more supportable than the sting of a serpent. From the wisdom of antiquity we might obtain excellent instruction, if we were not too proud to profit by it. yEsop has furnished us with a history of a nation of frogs, between which and our own there is a striking resemblance — whether the catastrophe be the same, rests with ourselves. Jupiter out of pure good nature, wishing to do them as little injury as possible, on being asked for a king, had thrown down into their pond a log to rule over them; — under whose government, had tiicj' been wise enough to know their own interest and to pursue it, they might to this day, have remained happy and prosperous. Terrified with the noise, and affrighted by the violent undulations of the water, they for some time kept an awful distance, and regarded their monarch with reverence; but the first impression being in some measure worn off, and perceiving him to be of a tame and peaceable disposition, they approached him with familiarity, and soon entertained for him the utmost contempt. In a little time were seen the leaders of the frogs croaking to their respective circles on the weakness and feebleness of the government at home, and of its want of dignity and respect abroad, till the sentiment being caught by their auditors, the whole pond resounded with \" Oh Jupiter, good Jupiter, hear our prayers ! take away from us this vile log, and give us a ruler who shall know how to support the dignity and splendor of government! give us any government you please, only let it be energetic and efficient.\" The Thunderer, in his wrath, sent them a crane. With what delight did they gaze on their monarch, as he came majestically floating on the wings of the wind. They admired his uncommon shape — it was such as they had never before seen — his deformities were, in their eyes, the greatest of beauties, and they were heard like Aristides to declare that, were they on the verge of eternity, they would not wish a single alteration in his form. His monstrous beak, his long neck, and his enormous poke, even these, the future means of their destruction, were subjects of their warm approbation. He took possessian of his new dominions, and instantly began to swallow down his subjects, and it is said that those who had been the warmest zealots for crane administration, fared no better than the rest. The poor wretches were now much more dissatisfied than before, and with all possible humility applied to Jupiter again for his aid, but in vain — he dismissed them with this reproof, \" that the evil of which they complained they had foolishly brought upon themselves, and that they had no other remedy now, but to submit with patience.\" Thus forsaken by the god, and left to the mercy of the crane, they sought to escape his cruelty by flight ; but pursuing them to every place of retreat, and thrusting his long neck through the water to the bottom, he drew them out with his beak from their most secret hiding-places, and served them up as a regale for his ravenous appetite. The present federal government is, my fellow citizens, the log of the fable — the crane is the system now offered to your acceptance — I wish you not to remain under the government of the one, nor to become subjected to the tyranny of the other. If either of these events take place, it must arise from your being greatly deficient to yourselves — from your being. liKe the nation of Frogs, \" a discontented, variable race, weary of liberty and fond of change.\" At the same time I have no hesitation in declaring, that if the one or the otherjmust be our fate, I think the harmless, inoffensive, though contemptible Log, infinitely to be preferred to the powerful, the efficient, but all-devouring Crane.",
+      "uncertain": [
+        {
+          "end": 2169,
+          "readings": {
+            "brittle": "prevent",
+            "google": "prevent",
+            "primary": "pre- \\ent"
+          },
+          "start": 2160
+        },
+        {
+          "end": 6102,
+          "readings": {
+            "brittle": "with",
+            "google": "with",
+            "primary": "w itli"
+          },
+          "start": 6096
+        },
+        {
+          "end": 6201,
+          "readings": {
+            "brittle": "beat",
+            "google": "beat",
+            "primary": "heat"
+          },
+          "start": 6197
+        },
+        {
+          "end": 8091,
+          "readings": {
+            "brittle": "JEsop",
+            "google": "iEsop",
+            "primary": "yEsop"
+          },
+          "start": 8086
+        },
+        {
+          "end": 8467,
+          "readings": {
+            "primary": "tiicj'"
+          },
+          "start": 8461
+        }
+      ]
+    }
+  ],
+  "short": "Luther Martin",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "The Letters of Luther Martin"
+}

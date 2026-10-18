@@ -1,0 +1,351 @@
+{
+  "attribution": {
+    "byline": "Written by Alexander Hamilton",
+    "kind": "single",
+    "names": [
+      "Alexander Hamilton"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1787-10-01/1787-10-17",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Written by Alexander Hamilton",
+        "kind": "single",
+        "names": [
+          "Alexander Hamilton"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Caesar 1",
+      "level": 1,
+      "publication": [
+        "THE DAILY ADVERTISER,",
+        "(Number 81^)",
+        "Monday, October i, 1787."
+      ],
+      "ref": "Caesar.1",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 12,
+            "readings": {
+              "brittle": "813)",
+              "primary": "81^)"
+            },
+            "start": 8
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Alexander Hamilton",
+        "kind": "single",
+        "names": [
+          "Alexander Hamilton"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Caesar 2",
+      "level": 1,
+      "publication": [
+        "THE DAILY ADVERTISER,",
+        "(ISTumber 826)",
+        "Wednesday, October 17, 1787.",
+        "For the Daily Advertiser."
+      ],
+      "ref": "Caesar.2",
+      "signature": "C/ESAR. October 15.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 9,
+            "readings": {
+              "brittle": "CN\"-amber",
+              "google": "(N\"ixmber",
+              "primary": "(ISTumber"
+            },
+            "start": 0
+          },
+          {
+            "end": 14,
+            "readings": {
+              "brittle": "826)",
+              "google": "©20)",
+              "primary": "826)"
+            },
+            "start": 10
+          }
+        ],
+        "signature": [
+          {
+            "end": 7,
+            "readings": {
+              "brittle": "Caesar.",
+              "google": "CiESAR.",
+              "primary": "C/ESAR."
+            },
+            "start": 0
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 279–292. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "caesar",
+  "position": "federalist",
+  "ref_prefix": "Caesar",
+  "segments": [
+    {
+      "label": "Caesar 1, ¶ 1",
+      "pages": [
+        "283"
+      ],
+      "ref": "Caesar.1.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          295
+        ]
+      },
+      "text": "The citizens of the State of New York have received yesterday, from Cato (an ally oi Pompey, no doubt), an introductory discourse on the appearance of the new system for the government of the United States : this, we are told, will be followed by such observations, on the constitution proposed to the union, \"as will promote our welfare and be justified by reason and truth.\" There is, in this preparatory lecture, little that is necessary to be dwelt on just now; and if Cato had not possessed his future investigations in such terms as wore a questionable shape, they should have passed unheeded."
+    },
+    {
+      "label": "Caesar 1, ¶ 2",
+      "pages": [
+        "283",
+        "284",
+        "285"
+      ],
+      "ref": "Caesar.1.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          295,
+          296,
+          297
+        ]
+      },
+      "text": "Cato tells us that he will not directly engage as an advocate for this new form of government, or as an opponent. Here Cato, without any dispute, acts prudently. It will be wise in him to rest awhile; since he has given a preface, which, with small address, can easily be made to work on either side. When the sentiments of the confederate states come to be generally known it will be time enough to proceed. Cato will then start fair. A little caution, however, he thinks necessary to be given the meantime. \" Do not,\" says this prudent censor, in addressing the citizens, \"because you will admit that something must be done, adopt anything.\" What, in the name of common sense, does this injunction import? I appeal to men of understanding, whether it is not obviously the language of distrust, calculated, as far as such a thing can influence, to prejudice the public opinion against the new constitution ; and, in effect, by a periphrastic mode of speech, recommending the rejection of it? \" Teach the members of the Convention (Cato very modestly goes on) that you are capable of supervison of their conduct; the same medium that gave you this system, if it is erroneous, while the door is now open, can make amendments or give you anothery O excellent thought, and happily advised! Be clamorous, my friends — be discontented — assert your prerogative — forever assert the power and majesty of the people. I am not willing to suspect any man's intentions, when they aim at giving information; but when they come abroad, couched in such magisterial terms, I own I feel some indignation. If this demagogue had talents to throw light on the subject of legislation, why did he not offer them when the Convention was in session? If they had been judged useful, no doubt they would have been attended to. But is this now a time for such insinuations? Has not the wisdom of America been drawn, as it were, into a focus, and the proffered constitution sent forth with a unanimity that is unequalled in ancient or modern story? And shall we now wrangle and find fault with the excellent whole, because, perhaps some of its parts might have been more perfect? There is neither virtue or patriotism in such conduct. Besides, how can Cato say, \" that the door is now open to receive any amendments, or give us another constitution, if required ?\" I believe he has advanced this without proper authority. I am inclined to believe that the door of recommendation is shut and cannot be opened by the same men ; that the Convention, in one word, is dissolved ; if so we must reject in TOTO, or vice versa; just take it as it is and be thankful. I deny the similarity betwixt the present constitution and that of the United Netherlands. Cato would have drawn a very melancholy picture, but it won't apply. In my most humble opinion, it has a much greater affinity with the government, which, in all human probability, will remain when the history of the Seven Provinces shall be forgotten. Cato tells us (what all America knows by this time) that the new constitution comes sanctioned with the approbation of General Washington ; and, though he appears to have some reverence for that great patriot chief, yet he very sagaciously observes, that the best and wisest man viaj> err; and thence asserts, that every man in /politics, as well as in religion, ought to judge for himself. This paragraph needs no comment, and, for that reason, I shall not touch it ; but with all deference to Cato's penetration, I would recommend to him, instead of entering into fruitless discussion of what has come from so many clear heads and good hearts, to join his fellow-citizens, and endeavor to reconcile this excellent constitution to the weak, the sj:s- picious, and the interested, who will be chiefly opposed to it, as soon as possible. I would also advise him to give his vote (as he will probably be one of the Electors) to the American Fabius; it will be more healthy for this country, and this state, that he should be induced to accept of the presidency of the new government, than that he should be solicited again to accept of the command of an army.",
+      "uncertain": [
+        {
+          "end": 3261,
+          "readings": {
+            "google": "may",
+            "primary": "viaj>"
+          },
+          "start": 3256
+        },
+        {
+          "end": 3737,
+          "readings": {
+            "brittle": "suspicious,",
+            "google": "stispicious,",
+            "primary": "sj:s- picious,"
+          },
+          "start": 3723
+        }
+      ]
+    },
+    {
+      "label": "Caesar 1, ¶ 3",
+      "pages": [
+        "285"
+      ],
+      "ref": "Caesar.1.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          297
+        ]
+      },
+      "text": "Cato, it appears, intends to adventure on perilous grounds; it will therefore become him to be cautious on what terms he takes the field. \" He advises us to attach ourselves to measures, and not to men.\" In this instance he advises well ; and I heartily recommend it to himself, and not to forget the force of that important admonition; for Cato, in his future marches, will very probably be /t'/Z^tr^ by Caesar.",
+      "uncertain": [
+        {
+          "end": 401,
+          "readings": {
+            "primary": "/t'/Z^tr^"
+          },
+          "start": 392
+        }
+      ]
+    },
+    {
+      "label": "Caesar 1, ¶ 4",
+      "pages": [
+        "285"
+      ],
+      "ref": "Caesar.1.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          297
+        ]
+      },
+      "text": "Friday."
+    },
+    {
+      "label": "Caesar 2, ¶ 1",
+      "pages": [
+        "286"
+      ],
+      "ref": "Caesar.2.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          298
+        ]
+      },
+      "text": "\" The great source of all the evils which afflict Republics, is, that the people are too apt to make choice of rulers, who are either Politicians without being Patriots, or Patriots without being Politicians.\""
+    },
+    {
+      "label": "Caesar 2, ¶ 2",
+      "pages": [
+        "286"
+      ],
+      "ref": "Caesar.2.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          298
+        ]
+      },
+      "text": "Mr. Childs:"
+    },
+    {
+      "label": "Caesar 2, ¶ 3",
+      "pages": [
+        "286",
+        "288",
+        "289"
+      ],
+      "ref": "Caesar.2.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          298,
+          299,
+          300,
+          301
+        ]
+      },
+      "text": "When I took notice of Cato's prefatory address to the Citizens of the State of New York, in your paper of the first instant, I had no serious intention of becoming a controversial defendant of the new constitution. Indeed, if the system required defence, I was neither so weak nor so vain as to suppose myself competent to the task. To obviate difficulties which may arise, when such weighty affairs as the principles of legislation are under discuscussion, I am sensible requires talents far beyond my limited abilities. When I offered a few remarks on Cato's introduction, I was strongly impressed with the idea that even the most substantial criticisms, promulgated by the most influential avowed Citizens, could have no good tendency at this time. I viewed the public mind as wound up to a great pitch of dissatisfaction, by the inadequacy of the powers of the present Congress to the general good and conversation of the union. I believed then, as I do now, that the people were determined and prepared for a change. I conceived, therefore, that the wish of every good man would be, that this change might be peaceably effected. With this view I opposed myself to Cato. I asserted, in my last, that the door of recommendation was shut, and cannot be opened by the same men — that the Convention was dissolved. If I am wrong, it will be of great importance to Cato's future remarks that he make it appear. If he will declare from sufficient authority, that the members of the late Convention have only adjourned to give time to hear the sentiments of every political disputant, that after the numerous presses of America have groaned with the heavy productions of speculative politicians, they will again meet, weigh their respective merits, and accommodate accordingly — I say, if Cato can do this, I make no hesitation in acknowledging the utility of his plan. In the mean time, I positively deny having any, the most distant desire of shutting the door of free discussion, on any subject which may benefit the people ; but I maintain (until Cato's better information refutes me) that the door, as far as relates to this subject, is already shut, not by me, but by the highest possible authority which the case admits, even by those great Patriots who were delegated by the people of the United States to open such a door, as might enable them to escape from impendding calamities and political shipwreck. This distinction is clear, I conceive, and ought to have some weight even with Cato, as well as those for whom he writes. I am not one of those who gain an influence by cajoling the unthinking mass (tho' I pity their delusions), and ringing in their ears the gracious sound of their absolute Sovereignty. I despise the trick of such dirty policy. I know there are Citizens, who, to gain their own private ends, enflame the minds of the well-meaning, tho' less intelligent parts of the community, by sating their vanity with that cordial and unfailing specific, that all poiccr is seated in the people. For my part, I am not much attached to the majesty of the multitude, and therefore waive all pretensions (founded on such conduct), to their countenance. I consider them in general as very ill qualified to judge for themselves what government will best suit their peculiar situations; nor is this to be wondered at. The science of government is not easily understood. Cato will admit, I presume, that men of good education and deep reflection, only, are judges of the of a government ; whether it is constituted on such principles as will restrain arbitrary power, on the one hand, and equal to the exclusion of corruption and the destruction of licentiousness on the other; whether the New Constitution, ii adopted, will prove adequate to such desirable ends, time, the mother of events, will show. For my own part, I sincerely esteem it a system, which, without the finger of God, never could have been suggested and agreed upon by such a diversity of interests. I will not presume to say that a more perfect system might not have been fabricated ; but who expects perfection at once ? And it may be asked, who are judges of it ? Few, I believe, who have leisure to study the nature of Government scientifically, but will frequently disagree about the quantum of power to be delegated to Rulers, and the different modifications of it. Ingenious men will give every plausible, and, it may be, pretty substantial reasons, for the adoption of two plans of Government, which shall be fundamentally different in their construction, and not less so in their operation; yet both, if honestly administered, might operate with safety and advantage. When a new form of government is fabricated, it lies with the people at large to receive or reject it — that is, their inherent rights. Now, I would ask (without intending to triumph over the weaknesses or follies of any men), how are the people to profit by this inherent right ? By what conduct do they discover that they are sensible of their own interests in this situation ? Is it by the exercise of a welldisciplined reason, and a correspondent education? I believe not. How then ? As I humbly conceive, by a tractable and docile disposition, and by honest men endeavoring to keep their minds easy, while others, of the same disposition, with the advantages of genius and learning, are constructing the bark that may, by the blessing of Heaven, carry them to the port of rest and happiness, if they will embark without diffidence and proceed without mutiny. I know this is blunt and ungracious reasoning; it is the best, however, which I am prepared to offer on this momentous business ; and, since my own heart does not reproach me, I shall not be very solicitous about its reception. If truth, then, is permitted to speak, the mass of the people of America (any more than the mass of other countries) cannot judge with any degree of precision concerning the fitness of this New Constitution to the peculiar situation of America ; they have, however, done wisely in delegating the power of framing a government to those every way worthy ami well-qualified; and, if this Government is snatched, untasted, from them, it may not be amiss to inquire into the causes which will probably occasion their disappointment. Out of several, which present to my mind, I shall venture to select one, baneful enough, in my opinion, to work this dreadful evil. There are always men in society of some talents, but more ambition, in quest of that w'hich it would be impossible for them to obtain in any other way than by working on the passions and prejudices of the less discerning classes of citizens and yeomanry. It is the plan of men of this stamp to frighten the people with ideal bugbears, in order to mould them to their own purposes. The unceasing cry of these designing croakers is, My friends, your liberty is invaded! Have you thrown off the yoke of one tyrant to invest yourselves with that of another? Have you fought, bled and conquered for such a change? If you have — go — retire into silent obscurity, and kiss the rod that scourges you.",
+      "uncertain": [
+        {
+          "end": 2988,
+          "readings": {
+            "brittle": "power",
+            "google": "poiver",
+            "primary": "poiccr"
+          },
+          "start": 2982
+        },
+        {
+          "end": 6103,
+          "readings": {
+            "primary": "ami"
+          },
+          "start": 6100
+        }
+      ]
+    },
+    {
+      "label": "Caesar 2, ¶ 4",
+      "pages": [
+        "289"
+      ],
+      "ref": "Caesar.2.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          301
+        ]
+      },
+      "text": "To be serious : These state empirics leave no species of deceit untried to convince the unthinking people that they have power to do — what? Why truly to do much mischief, and to occasion anarchy and wild uproar. And for what reason do these political jugglers incite the peaceably disposed to such extravagant commotions ? Because until the people really discover that they have power by some outrageous act, they never can become of any importance. The misguided people never reflect during this frenzy, jhflt ^^'\" ^<^m<^u^ ^^f^y b'^'''^\"\"\" '''\"\"'•^\"° ^•^'\"y '•^\"f;^'.\\':f from that moment, their independence, and commence vassals to their ambitious leaders, who instantly, and with a high hand, rob them of their consequence, and apply it to their own present or future aggrandisement ; nor will these tyrants over the people stick at sacrificing their good, if an advantageous compromise can be effected for themselves.",
+      "uncertain": [
+        {
+          "end": 511,
+          "readings": {
+            "primary": "jhflt"
+          },
+          "start": 506
+        },
+        {
+          "end": 525,
+          "readings": {
+            "primary": "^<^m<^u^"
+          },
+          "start": 517
+        },
+        {
+          "end": 531,
+          "readings": {
+            "primary": "^^f^y"
+          },
+          "start": 526
+        },
+        {
+          "end": 574,
+          "readings": {
+            "primary": "'•^\"f;^'.\\':f"
+          },
+          "start": 561
+        }
+      ]
+    },
+    {
+      "label": "Caesar 2, ¶ 5",
+      "pages": [
+        "289",
+        "290"
+      ],
+      "ref": "Caesar.2.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          301,
+          302
+        ]
+      },
+      "text": "Before I conclude, I cannot refrain from observing that Cato states very disingenuously the manner in which the Federal System came abroad. He tells us. Congress were sensible that the late Convention exercised a power which no authority could delegate to them. The Convention, says Cato, have taken upon them to make a perfectly new system, which by its operations will absorb the sovereignties of the individual States; this new government founded on usurpation,. (Cato, this expression is very indecent — but I will rouse no passions against you) this consolidated system Congress did not approve and therefore have been silent on its character. That Congress was silent on its character is true, but could Cato find no other reason for their silence than that of disapprobation? I believe Congress were by no means dissatisfied with the freedom the Convention took with the Articles of Confederation ; I believe further that with very few exceptions, that honorable body approves of the New Constitution; and that they did not accompany it to the States with a recommendatory capitation or circular letter, proceeded from a delicate attention to the members of the late Convention, to a few of their own body, and to the people of America at large. That the Convention went so earnesly into the business committed to their care ought, instead of being matter of chagrin, to occasion the liveliest expressions of approbation and gratitude — as matters stand just now. I think it may be fairly said, that no generous plan of government for the United States has ever been constructed, (the plan only excepted which is under consideration) so that it seems quite unnecessary in Cato to disturb the peace ot society by a bombast appeal to their feelings, on the generous plan of power delivered down by their renowned for efatliers. I venerate the memory of the slaughtered patriots of America, and rejoice as much as Cato that they did not bleed in vain, but I would have America profit by their death in a different manner from him. I believe they sought to obtain liberty for no particular State, but for the whole Union, indissolubly connected under one controlling and supreme head.",
+      "uncertain": [
+        {
+          "end": 1832,
+          "readings": {
+            "brittle": "forefathers.",
+            "google": "forefathers,",
+            "primary": "for efatliers."
+          },
+          "start": 1818
+        }
+      ]
+    },
+    {
+      "label": "Caesar 2, ¶ 6",
+      "pages": [
+        "290"
+      ],
+      "ref": "Caesar.2.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          302,
+          303
+        ]
+      },
+      "text": "Cato complains of my anticipating parts of his subject which he intended for future periods. I shall break in no more upon his arrangements. All he can say against the New Constitution has been already disseminated in a neighboring State by the glorious defenders of Shayism, I shall therefore leave Cato to the wicked influences of his own heart, in the fullest persuasion that all good citizens will combine their influence to establish the fair fabric of American liberty beyond the reach of suspicion, violence, anarchy, and tyranny. When this glorious work is accomplished, what may America not hope to arrive at? I will venture to prophesy that the day on which the Union under the new government shall be ratified by the American States, that that day will begin an era which will be recorded and observed by future ages as a day which the Americans had marked by their wisdom in circumscribing the power and ascertaining the decline of the ancient nations in Christendom."
+    }
+  ],
+  "short": "Caesar",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "The Letters of Caesar"
+}

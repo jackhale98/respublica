@@ -90,30 +90,74 @@ and quote-mark style (curly vs straight). See `tools/common.py`,
   such as `[1]` stay in the paragraph text where the edition prints them.
 - Importer: `importers/federalist.py`.
 
-## Anti-Federalist essays
+## The ratification debate
 
-Research (phase 5, October 2026). Nothing is imported yet; the choices below
-are waiting on the project owner. Modern compilations (Storing, 1981; Borden,
-1965) are not candidates because of copyright.
+Imported by `importers/ratification.py` (phase 5) from three public-domain
+compilations, read from the Internet Archive's scans. Modern compilations
+(Storing, 1981; Borden, 1965) are not candidates because of copyright.
 
-**Reachable from the build environment:** the Internet Archive (scans with
-OCR text, marked not in copyright where noted). HathiTrust and the Library of
-Congress block automated requests, so they cannot be pipeline sources.
-
-**What the public-domain compilations contain** (checked against the OCR
-text of each scan, not from memory):
-
-| Source | Anti-Federalist contents | Internet Archive scans |
+| Book | Scans used | Imported |
 |---|---|---|
-| Paul Leicester Ford, ed., *Essays on the Constitution of the United States* (Brooklyn, 1892) | Agrippa I–XVIII (attributed by Ford to James Winthrop); Cato I–VII (George Clinton); Sydney I–II (Robert Yates); letters of Luther Martin; A Plain Dealer (Spencer Roane); Elbridge Gerry's replies to "A Landholder"; William Williams's letter to "A Landholder"; Samuel Chase's letter of "Caution" | `essaysonconstitu00forduoft` (University of Toronto, marked not in copyright), `EssaysOnTheConstitutionOfTheUnitedStates`, `essaysonconstit00fordgoog` |
-| Paul Leicester Ford, ed., *Pamphlets on the Constitution of the United States* (Brooklyn, 1888) | Letters of a Federal Farmer, the 1787 *Observations* (five letters; Ford attributes them to Richard Henry Lee); A Plebeian (Melancton Smith); George Mason's *Objections*; the "Columbian Patriot" *Observations* (Ford attributes it to Elbridge Gerry; the attribution should be checked before publishing) | `cu31924020874099` (Cornell), `pamphletsoncons00fordgoog` |
-| John Bach McMaster and Frederick D. Stone, eds., *Pennsylvania and the Federal Constitution, 1787–1788* (1888) | Letters of Centinel I–XXIV (chapter VII, pp. 565–700); the editors say the author "cannot be known" | `cu31924030454387` (Cornell), `pennsylvaniafede00hist` |
+| Paul Leicester Ford, ed., *Essays on the Constitution of the United States* (Brooklyn, 1892) | layout and words: `essaysonconstitu00forduoft` (DjVu XML); checked against the OCR text of `EssaysOnTheConstitutionOfTheUnitedStates` and `essaysonconstit00fordgoog` | every section: Cassius, Agrippa, Gerry's replies to A Landholder, A Landholder, William Williams's letter, A Countryman, A Citizen of New Haven, Cato, Caesar, Sydney, Cursory Remarks, Caution, A Friend to the Constitution, Luther Martin, A Plain Dealer, Hugh Williamson's Remarks, A Steady and Open Republican |
+| Paul Leicester Ford, ed., *Pamphlets on the Constitution of the United States* (Brooklyn, 1888) | `cu31924020874099` (DjVu XML); checked against `pamphletsoncons00fordgoog` | Letters from the Federal Farmer (I–V) so far |
+| John Bach McMaster and Frederick D. Stone, eds., *Pennsylvania and the Federal Constitution, 1787–1788* (Lancaster, 1888) | `cu31924030454387` (DjVu XML); checked against `pennsylvaniafede00hist` | Centinel I–XXIV (chapter VII) |
 
-Both Ford volumes also contain Federalist-side pieces (A Landholder,
-A Countryman, Fabius, Noah Webster, Tench Coxe, James Wilson's speech, and
-others), which could be imported alongside.
+**Method** (`importers/ocr.py`). No word is typed; every word in the output is
+a reading found in at least one scan.
 
-**Not found in any public-domain digitized source:**
+1. *Layout from one scan.* The DjVu XML gives each word's box. Running heads
+   (a short line at the top of the page holding a page number, in capitals,
+   or repeated from the pages around it), page numbers, plates and footnotes
+   (smaller type at the foot of a page, starting with a note mark or
+   continuing a note) are separated from the text. Paragraphs are rejoined
+   across a page break, or where OCR split one, when the line before runs to
+   the right margin and the next is not indented, or when a sentence plainly
+   continues (no closing punctuation, next line in lower case). A word
+   hyphenated at a line end is rejoined.
+2. *Alignment.* The plain-text OCR of each other scan is aligned word by word
+   (located by 4-word sequences, then matched). Words that differ are paired
+   only when their letters are mostly alike, or when one or two words differ
+   between runs of three that agree; a passage that does not mostly match is
+   not used. A word one scan reads as two is paired as a unit.
+3. *Vote* (`vote`). The reading most scans share wins; on a tie, a reading
+   that is a known word (in the clean texts of the Constitution and The
+   Federalist, or read identically by two scans) wins if it looks like the
+   main scan's reading. A cleanly printed known word is never replaced by a
+   different word or by a non-word; figures that differ, a word only the main
+   scan has that is not a known word, a word that scans split differently
+   ("deliver d" against "delivered"), and an elision a scan spells out
+   ("renown'd" against "renowned") all stay unsettled.
+4. *Unsettled words* keep the main scan's reading and are recorded under
+   `uncertain` with every scan's reading; the site underlines them with dots
+   and links each paragraph to its page image. A human checks them against
+   the image, and corrections go through `docs/errata.md`.
+
+Known limits: misreadings every scan shares cannot be caught (all scans read
+Cato II's date as "October ii"); the newspaper headings, set in display type,
+are read worst; OCR dictionaries can regularize old spellings where only one
+scan disagrees. Spot checks against page images (October 2026) found the
+paragraphing right on the pages checked after the fixes above.
+
+**Structure** (`importers/ratification.py`). Each section runs from its title
+page to the page before the next (`ratification_series.py`). Essays start at
+their heading ("CATO, III."); the printed numeral must match the essay's id.
+Short lines before the salutation are the essay's heading lines; short lines
+after the last paragraph (signature, place, date, "(To be continued.)") are
+its signature. Ford's own introductory notes before each series are not
+imported; his footnotes are, as notes.
+
+**Attribution** follows each section's title page in the edition ("Written
+by George Clinton", "Accredited to James Winthrop"), or the place in the
+edition named in the work's `attribution.source` (Centinel: Ford's
+bibliography, *Essays*, p. 415). Several of these attributions are disputed
+by later scholars (Cato, Caesar, the Federal Farmer among them); Res Publica
+records what the edition says and makes no claim of its own.
+
+**Side.** `position` (`anti`, `federalist`, `other`) is Res Publica's
+grouping, not the editors'. William Williams's letter (he defended his
+conduct but voted to ratify) is `other`.
+
+**Not yet imported:**
 
 - **Brutus** (sixteen essays in the *New-York Journal*, 1787–88). It is in
   neither Ford volume nor McMaster and Stone; no 1787–88 issues of the
@@ -121,12 +165,7 @@ others), which could be imported alongside.
   *American Museum* checked do not reprint it.
 - **The Federal Farmer's *Additional Letters* (1788).** The only copies found
   are 1962 facsimile reprints, lending-only.
-
-**OCR quality.** The scans' OCR is usable but imperfect: misread "ff"
-ligatures ("eflFect"), broken words, and stray marks. Comparing the three
-independent OCR texts of Ford's *Essays* on Cato I (924 words), each pair
-disagrees in about 14 places. Where two of the three agree, the agreed
-reading was right in all but one case (including original spellings such as
-"analize"); in that one, two scans shared the same misreading ("youJ"), so
-agreement reduces errors but does not remove them. Where all three differ,
-the word needs a human check against the page image.
+- The rest of Ford's *Pamphlets* (the Columbian Patriot, Jay, Webster, Coxe,
+  Wilson's speech, Fabius, Aristides, Randolph, Mason's Objections, Marcus,
+  Civis, A Plebeian): planned. That scan has missing pages and bracketed
+  original page numbers that need handling first.

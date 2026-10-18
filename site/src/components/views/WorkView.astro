@@ -2,17 +2,28 @@
 import Reader from "../../layouts/Reader.astro";
 import Passage from "../Passage.astro";
 import ReaderHeading from "../ReaderHeading.astro";
-import { href, COLLECTIONS, formatDate, formatNumber } from "../../lib/data.js";
+import AuthorChip from "../AuthorChip.astro";
+import DocLines from "../DocLines.astro";
+import Runs from "../Runs.astro";
+import { href, COLLECTIONS, authorText, formatDate, formatNumber } from "../../lib/data.js";
 
-// A work shown on one page (the Constitution, the Amendments).
+// A work shown on one page (the Constitution, the Amendments, a single
+// essay or letter of the ratification debate).
 const { page, work } = Astro.props;
+const debate = work.collection === "ratification";
+const d = page.division;
+const attr = work.attribution;
 const tops = page.toc.filter((t) => t.level === 1);
 const subsOf = (ref) => page.toc.filter((t) => t.level === 2 && t.ref.startsWith(ref + "."));
 const hasChanged = page.blocks.some((b) => b.type === "passage" && b.changed.length);
 const anchorOf = (t) => t.url.split("#")[1];
 ---
 <Reader title={work.title} section={work.id} pageId={page.id} description={`Read ${work.title} with a permanent reference for every passage.`}>
-  <ol class="crumbs" slot="crumbs"><li><a href={href("/")}>Library</a></li><li aria-current="page">{work.short}</li></ol>
+  <ol class="crumbs" slot="crumbs">
+    <li><a href={href("/")}>Library</a></li>
+    {debate && <li><a href={href("/ratification/")}>Ratification debate</a></li>}
+    <li aria-current="page">{work.short}</li>
+  </ol>
 
   <Fragment slot="toc">
     <h2>Contents</h2>
@@ -33,11 +44,14 @@ const anchorOf = (t) => t.url.split("#")[1];
   <header class="doc-head">
     <span class="eyebrow">{COLLECTIONS[work.collection]}</span>
     <h1 data-pagefind-meta="title" data-pagefind-filter={`work:${work.title}`}>{work.title}</h1>
+    {attr && attr.names.map((n) => <span data-pagefind-filter={`author:${n}`}></span>)}
     <div class="doc-meta" data-pagefind-ignore>
+      {debate && <AuthorChip attribution={attr} />}
       {work.date && <span class="chip">{formatDate(work.date)}</span>}
-      <span class="chip">{formatNumber(work.passages)} passages</span>
-      <span class="chip">{work.edition.name}</span>
+      <span class="chip">{formatNumber(work.passages)} {debate ? "paragraphs" : "passages"}</span>
+      {!debate && <span class="chip">{work.edition.name}</span>}
     </div>
+    {debate && <DocLines header={d?.header} />}
     {hasChanged && (
       <p class="doc-note" data-pagefind-ignore>
         Spelling and punctuation follow the original. <mark class="chg">Highlighted text</mark> is marked by the
@@ -46,18 +60,28 @@ const anchorOf = (t) => t.url.split("#")[1];
     )}
   </header>
 
+  {d?.header?.salutation && <p class="salutation"><Runs runs={d.header.salutation} /></p>}
   <div class="blocks">
     {page.blocks.map((b) => (b.type === "heading" ? <ReaderHeading block={b} /> : <Passage block={b} />))}
   </div>
+  {d?.header?.signature && <p class="signature"><Runs runs={d.header.signature} /></p>}
+  {page.notes?.length > 0 && (
+    <section class="notes-section" aria-labelledby="notes-h">
+      <h2 id="notes-h">Notes</h2>
+      {page.notes.map((b) => <Passage block={b} />)}
+    </section>
+  )}
 
   <Fragment slot="panel">
     <span class="eyebrow">About this text</span>
     <h2>{work.title}</h2>
     <dl>
+      {debate && <Fragment><dt>Author</dt><dd>{authorText(attr)}</dd></Fragment>}
+      {debate && attr?.byline && <Fragment><dt>Byline</dt><dd>“{attr.byline}” in {attr.source}</dd></Fragment>}
       {work.date && <Fragment><dt>Date</dt><dd>{formatDate(work.date)}</dd></Fragment>}
       <dt>Passages</dt><dd>{formatNumber(work.passages)}</dd>
       <dt>Edition</dt><dd>{work.edition.name}</dd>
     </dl>
-    <p><a href={href("/about/#editions")}>How this text was imported</a></p>
+    <p><a href={href(debate ? "/about/#ocr" : "/about/#editions")}>How this text was imported</a></p>
   </Fragment>
 </Reader>

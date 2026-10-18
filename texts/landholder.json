@@ -1,0 +1,2754 @@
+{
+  "attribution": {
+    "byline": "Written by Oliver Ellsworth",
+    "kind": "single",
+    "names": [
+      "Oliver Ellsworth"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1787-11-05/1788-03-24",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 1",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT,",
+        "(]Sr\\iinl>er 11S9)",
+        "Monday, November 5, 1787."
+      ],
+      "ref": "Landholder.1",
+      "salutation": "To THE Holders and Tillers of Land.",
+      "signature": "A Landholder.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 12,
+            "readings": {
+              "brittle": "(IISr-a.:m.\"ber",
+              "primary": "(]Sr\\iinl>er"
+            },
+            "start": 0
+          },
+          {
+            "end": 18,
+            "readings": {
+              "brittle": "1189)",
+              "google": "118Q)",
+              "primary": "11S9)"
+            },
+            "start": 13
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 2",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT,",
+        "(NMirx.'her 1190)",
+        "Monday, November 12, 1787."
+      ],
+      "ref": "Landholder.2",
+      "salutation": "To THE Holder and Tillers of Land. Gentlemen,",
+      "signature": "A Landholder.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "(Number",
+              "google": "(Nixxn-ber",
+              "primary": "(NMirx.'her"
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 3",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT.",
+        "(N\"Tainber 1191)",
+        "Monday, November 19, 1787."
+      ],
+      "ref": "Landholder.3",
+      "salutation": "To THE Holders and Tillers of Land. Gentlemen,",
+      "signature": "A Landholder.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "brittle": "QNTLoxLbei*",
+              "google": "(dumber",
+              "primary": "(N\"Tainber"
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 4",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT, 2.",
+        "(N\"uixil>er 1103)",
+        "Monday, November 26, 1787.",
+        "Remarks on the objections made by the Hon. Elbridge Gerry ^ to the nciv Constitution*"
+      ],
+      "ref": "Landholder.4",
+      "salutation": "To THE Landholders and Farmers.",
+      "signature": "Landholder.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "(lS\"T3.m\"ber",
+              "google": "CN'nzn'ber",
+              "primary": "(N\"uixil>er"
+            },
+            "start": 0
+          },
+          {
+            "end": 17,
+            "readings": {
+              "brittle": "119S)",
+              "google": "IIQS)",
+              "primary": "1103)"
+            },
+            "start": 12
+          }
+        ],
+        "publication.3": [
+          {
+            "end": 71,
+            "readings": {
+              "google": "new",
+              "primary": "nciv"
+            },
+            "start": 67
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 5",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT.",
+        "CNTiiinber llf)3)",
+        "Monday, December 3, 1787.",
+        "Continuation of Remarks on tlic Hon. Elbridge Gerry's Objections to the new Constitution."
+      ],
+      "ref": "Landholder.5",
+      "salutation": "To THE Landholders and Farmers.",
+      "signature": "A Landholder.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "google": "(I^Tnixiber",
+              "primary": "CNTiiinber"
+            },
+            "start": 0
+          },
+          {
+            "end": 17,
+            "readings": {
+              "primary": "llf)3)"
+            },
+            "start": 11
+          }
+        ],
+        "publication.3": [
+          {
+            "end": 31,
+            "readings": {
+              "primary": "tlic"
+            },
+            "start": 27
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 6",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT,",
+        "(Nuinber 1194)",
+        "Monday, December io, 1787.",
+        "lie that is first in his own cause seemeth just ; but his neighbor cometh and searcheth him."
+      ],
+      "ref": "Landholder.6",
+      "salutation": "To THE Landholders and Farmers:",
+      "signature": "A Landholder.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 8,
+            "readings": {
+              "brittle": "(dumber",
+              "google": "(NvLXUhGT",
+              "primary": "(Nuinber"
+            },
+            "start": 0
+          }
+        ],
+        "publication.3": [
+          {
+            "end": 3,
+            "readings": {
+              "brittle": "He",
+              "google": "He",
+              "primary": "lie"
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 7",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT,",
+        "Monday, December 17, 1787."
+      ],
+      "ref": "Landholder.7",
+      "salutation": "To THE Landholders and Farmers.",
+      "signature": "A Landholder."
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 8",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT.",
+        "(Numlaer 1196)",
+        "Monday, December 24, 1787."
+      ],
+      "ref": "Landholder.8",
+      "salutation": "To THE Hon. Elbridge Gerry, Esquire. Sir,",
+      "signature": "A Landholder.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 8,
+            "readings": {
+              "brittle": "QSTnuiber",
+              "google": "(I^uxxilaer",
+              "primary": "(Numlaer"
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 9",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT,",
+        "(N\"iainl>er 1197)",
+        "Monday, December 31, 1787."
+      ],
+      "ref": "Landholder.9",
+      "salutation": "To THE Hon. Gentlemen chosen to serve in the State Convention.* Gentlemen,",
+      "signature": "A Landholder.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "CNTiaixiber",
+              "google": "(Nvim\"ber",
+              "primary": "(N\"iainl>er"
+            },
+            "start": 0
+          },
+          {
+            "end": 17,
+            "readings": {
+              "google": "1107)",
+              "primary": "1197)"
+            },
+            "start": 12
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 10",
+      "level": 1,
+      "publication": [
+        "THE MARYLAND JOURNAL.",
+        "(Nuixiber 1016)",
+        "Friday, February 29, 1788.",
+        "For the Maryland Journal, etc."
+      ],
+      "ref": "Landholder.10",
+      "salutation": "To THE Honourable Luther Martin, Esq,* Sir,",
+      "signature": "February, 1788. A Landholder.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 9,
+            "readings": {
+              "brittle": "(nSTiaxxibei-",
+              "google": "(irixznber",
+              "primary": "(Nuixiber"
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 10b",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT.",
+        "(Number 1200)",
+        "Monday, March 3, 1788."
+      ],
+      "ref": "Landholder.10b",
+      "salutation": "To THE Citizens of New Hampshire.*}*",
+      "signature": "A Landholder.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "1206)",
+              "google": "1S06)",
+              "primary": "1200)"
+            },
+            "start": 8
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 11",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT.",
+        "(Number 1S07)",
+        "Monday, March io, 1788."
+      ],
+      "ref": "Landholder.11",
+      "salutation": "To THE Citizens of New Hampshire.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "12070",
+              "google": "ISOT)",
+              "primary": "1S07)"
+            },
+            "start": 8
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 12",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT,",
+        "(N'uiTi'ber 13 OS)",
+        "Monday, March 17, 1788."
+      ],
+      "ref": "Landholder.12",
+      "salutation": "To THE Rhode Island Friends of Paper Money, Tender Acts AND Anti-federalism,",
+      "signature": "A L.AXDHOLDKK.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 11,
+            "readings": {
+              "primary": "(N'uiTi'ber"
+            },
+            "start": 0
+          },
+          {
+            "end": 14,
+            "readings": {
+              "primary": "13"
+            },
+            "start": 12
+          },
+          {
+            "end": 18,
+            "readings": {
+              "primary": "OS)"
+            },
+            "start": 15
+          }
+        ],
+        "signature": [
+          {
+            "end": 14,
+            "readings": {
+              "primary": "L.AXDHOLDKK."
+            },
+            "start": 2
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Oliver Ellsworth",
+        "kind": "single",
+        "names": [
+          "Oliver Ellsworth"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Landholder 13",
+      "level": 1,
+      "publication": [
+        "THE CONNECTICUT COURANT,",
+        "(ISTuiXLTDer 1209)",
+        "Monday, March 24, 1788."
+      ],
+      "ref": "Landholder.13",
+      "signature": "A Landholder.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 12,
+            "readings": {
+              "brittle": "QSPu-iiibex*",
+              "primary": "(ISTuiXLTDer"
+            },
+            "start": 0
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 135–202. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "landholder",
+  "position": "federalist",
+  "ref_prefix": "Landholder",
+  "segments": [
+    {
+      "label": "Landholder 1, ¶ 1",
+      "pages": [],
+      "ref": "Landholder.1.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          151
+        ]
+      },
+      "text": "The writer of the following passed the first part of his life in mercantile employments, and by industry and economy acquired a sufficient sum on retiring from trade to purchase and stock a decent plantation, on which he now lives in the state of a farmer. By his present employment he is interested in the prosperity of I agriculture, and those who derive a support from cultivating the earth. An acquaintance with business has freed him from many prejudices and jealousies, which he sees in his neighbors, who have not intermingled with mankind, nor learned by experience the method of managing an extensive circulating property. Conscious of an honest intention he wishes to address his brethren on some political subjects which now engage the public attention, and will in the sequel greatly influence the value of landed property. The new constitution for the United States is now before the public, the people are to determine, and the people at large generally determine right, when they have had means of information."
+    },
+    {
+      "label": "Landholder 1, ¶ 2",
+      "pages": [
+        "140"
+      ],
+      "ref": "Landholder.1.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          151,
+          152
+        ]
+      },
+      "text": "It proves the honesty and patriotism of the gentlemen who composed the general Convention, that they chose to submit their system to the people rather than the legislatures, whose decisions are often influenced by men in the higher departments of government, who have provided well for themselves and dread any change least they should be injured by its operation. I would not wish to exclude from a State Convention those gentlemen who compose the higher branches of the assemblies in the several states, but choose to see them stand on an even floor with their brethren, where the artifice of a small number cannot negative a vast majority of the people."
+    },
+    {
+      "label": "Landholder 1, ¶ 3",
+      "pages": [
+        "140"
+      ],
+      "ref": "Landholder.1.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          152
+        ]
+      },
+      "text": "This danger was foreseen by the Federal Convention, and they have wisely avoided it by appealing directly to the people. The landholders and farmers are more than any other men concerned in the present decision whether the proposed alteration is best they are to determine; but that an alteration is necessary an individual may assert. It may be assumed as a fixed truth that the prosperity and riches of the farmer must depend on the prosperity, and good national regulation of trade. Artful men may insinuate the contrary — tell you let trade take care of itself, and excite your jealousy against the merchant because his business leads him to wear a gayer coat, than your economy directs. But let your own experience refute such insinuations. Your property and riches depend on a ready demand and generous price for the produce you can annually spare. When and where do you find this ? Is it not where trade flourishes, and when the merchant can freely export the produce of the country to such parts of the world as will bring the richest return? When the merchant doth not purchase, your produce is low, finds a dull market — in vexation you call the trader a jocky, and curse the men whom you ought to pity. A desire of gain is common to mankind, and the general motive to business and industry. You cannot expect many purchases when trade is restricted, and your merchants are shut out from nine-tenths of the ports in the world. While you depend on the mercy of foreign nations, you are the first persons who will be humbled. Confined to a few foreign ports they must sell low, or not at all ; and can you expect they will greedily buy in at a high price, the very articles which they must sell under every restriction."
+    },
+    {
+      "label": "Landholder 1, ¶ 4",
+      "pages": [
+        "140"
+      ],
+      "ref": "Landholder.1.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          152,
+          153
+        ]
+      },
+      "text": "Every foreign prohibition on American trade is aimed in the most deadly manner against the holders and tillers of the land, and they are the men made poor. Your only remedy is such a national government as will make the country respectable; such a supreme (government as can boldly meet the supremacy of proud and self-interested nations. The regulation of trade ever was and ever will be a national matter. A single state in the American union cannot direct much less control it. This must be a work of the whole, and requires all the wisdom and force of the continent, and untill it is effected our commerce may be insulted by every overgrown merchant in Europe. Think not the evil will rest on your merchants alone; it may distress them, but it will destroy those who cultivate the earth. Their produce will bear a low price, and require bad pay; the laborer will not find employment; the value of lands will fall, and the landholder become poor."
+    },
+    {
+      "label": "Landholder 1, ¶ 5",
+      "pages": [],
+      "ref": "Landholder.1.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          153
+        ]
+      },
+      "text": "While our shipping rots at home by being prohibited from ports abroad, foreigners will bring you such articles and at such price as they please. Even the necessary article of salt has the present year, been chiefly imported in foreign bottoms, and you already feel the consequence, your flax-seed in barter has not returned you more than two-thirds of the usual quantity. From this beginning learn what is to come."
+    },
+    {
+      "label": "Landholder 1, ¶ 6",
+      "pages": [],
+      "ref": "Landholder.1.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          153
+        ]
+      },
+      "text": "Blame not our merchants, the fault is not in them but in the public. A Federal government of energy is the only means which will deliver us, and now or never is your opportunity to establish it, on such a basis as will preserve your liberty and riches. Think not that time without your own exertions will remedy the disorder. Other nations will be pleased with your poverty; they know the advantage of commanding trade, and carrying in their own bottoms. By these means they can govern prices and breed up a hardy race of seamen, to man their ships of war when they wish again to conquer you by arms. It is strange the holders and tillers of the land have had patience so long. They are men of resolution as well as patience, and will I presume be no longer deluded by British emissaries, and those men who think their own offices will be hazarded by any change in the constitution. Having opportunity, they will cooly demand a government which can protect what they have bravely defended in war,"
+    },
+    {
+      "label": "Landholder 2, ¶ 1",
+      "pages": [
+        "142"
+      ],
+      "ref": "Landholder.2.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          154
+        ]
+      },
+      "text": "You were told in the late war that peace and Independence would reward your toil, and that riches would accompany the establishment of your liberties, by opening a wider market, and consequently raising the price of such commodities as America produces for exportation."
+    },
+    {
+      "label": "Landholder 2, ¶ 2",
+      "pages": [
+        "142",
+        "1"
+      ],
+      "ref": "Landholder.2.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          154,
+          155
+        ]
+      },
+      "text": "Such a conclusion appeared just and natural. We had been restrained by the British to trade only with themselves, who often re-exported to other nations, at a high advance, the raw materials they have procured from us. This advance we designed to realize, but our expectation has been disappointed. The produce of the country is in general down to the old price, and bids fair to fall much lower. It is time for those who till the earth in the sweat of their brow to enquire the cause. And we shall find it neither in the merchant or farmer, but in a bad system of policy and government, or rather in having no system at all. When we call ourselves an independent nation it is false, we are neither a nation, nor are we independent. Like thirteen contentious neighbors we devour and take every advantage of each other, and are without that system of policy which gives safety and strength, and constitutes a national structure. Once we were dependent only on Great-Britain, now we are dependent on every petty state in the world and on every custom house officer of foreign ports. If the injured apply for redress to the assemblies of the several states, it is in vain, for they are not, and cannot be known abroad. If they apply to Congress, it is also vain, for however wise and good that body may be, they have not power to vindicate either themselves or their subjects."
+    },
+    {
+      "label": "Landholder 2, ¶ 3",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.2.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          155
+        ]
+      },
+      "text": "Do not my countrymen fall into a passion on hearing these truths, nor think your treatment unexampled. From the beginning it hath been the case that people without policy will find enough to take advantage of their weakness, and you are not the first who have been devoured by their wiser neighbours, but perhaps it is not too late for a remedy, we ought at least to make a trial, and if we still die shall have this consolation in our last hours, that we tried to live."
+    },
+    {
+      "label": "Landholder 2, ¶ 4",
+      "pages": [
+        "1",
+        "144"
+      ],
+      "ref": "Landholder.2.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          155,
+          156
+        ]
+      },
+      "text": "I can foresee that several classes of men will try to alarm your fears, and however selfish their motives, we may expect that liberty, the encroachments of power, and the inestimable privileges of dear posterity will with them be fruitful topicks of argument. As holy scripture is used in the exorcisms of Romish priests to expel imaginary demons; so the most sacred words will be conjured together to oppose evils which have no existence in the new constitution, and which no man dare attempt to carry into execution, among a people of so free a spirit as the Americans. The first to oppose a federal government will be the old friends Great Britain, who in their hearts cursed the prosperity of your arms, and have ever since delighted in the perplexity of your councils. Many of these men are still among us, and for several years their hopes of a reunion with Britain have been high. They rightly judge that nothing will so soon effect their wishes as the deranged state we are now in, if it should continue. They see that the merchant is weary of a government which cannot ( protect his property, and that the farmer finding no benefit from the revolution, begins to dread much evil ; and they hope the people will soon supplicate the protection of their old masters. We may therefore expect that all the policy of these men will center in defeating those measures which will protect the people, and give system and force to American councils. I was lately in a circle where the new constitution was discussed. AH but one man approved. He was full of trembling for the liberties of poor America. It was strange! It was wondorous strange to see his concern ! After several of his arguments had been refuted by an ingenious farmer in the company, but, says he, it is against the treaty of peace, we received independence from Great Britain on condition of our keeping the old constitution. Here the man came out ! We had beat the British with a bad frame of government, and with a good one he feared we should eat them up. Debtors in desperate circumstances, who have not resolution to be either honest or industrious, will be the next men to take the alarm. They have long been upheld by the property of their creditors and the mercy of the public, and daily destroy a thousand honest men who are unsuspicious. Paper money and tender acts, is the only atmosphere in which they can breath, and live. This is now so generally known that by being a friend to such measures a man effectually advertises himself as a bankrupt. The opposition of these we expect, but for the sake of all honest and industrious debtors, we most earnestly wish the proposed constitution may pass, for whatever gives a new spring to business will extricate them from their difficulties.",
+      "uncertain": [
+        {
+          "end": 1518,
+          "readings": {
+            "brittle": "All",
+            "google": "All",
+            "primary": "AH"
+          },
+          "start": 1516
+        }
+      ]
+    },
+    {
+      "label": "Landholder 2, ¶ 5",
+      "pages": [
+        "144"
+      ],
+      "ref": "Landholder.2.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          156
+        ]
+      },
+      "text": "There is another kind of people will be found in the opposition. Men of much self importance and supposed skill in politics, who are not of sufficient consequence to obtain public employment, but can spread jealousies in the little districts of country where they are placed. These are always jealous of men in place and of public measures, and aim at making themselves consequential by distrusting every one in the higher offices of society."
+    },
+    {
+      "label": "Landholder 2, ¶ 6",
+      "pages": [
+        "144"
+      ],
+      "ref": "Landholder.2.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          156
+        ]
+      },
+      "text": "It is a strange madness of some persons, immediately to distrust those who are raised by the free suffi-ages of the people, to sustain powers which are absolutely necessary for public safety. Why were they elevated but for a general reputation of wisdom and integrity; and why should they be distrusted, untill by ignorance or some base action they have forfeited a right to our confidence?"
+    },
+    {
+      "label": "Landholder 2, ¶ 7",
+      "pages": [
+        "144"
+      ],
+      "ref": "Landholder.2.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          156,
+          157
+        ]
+      },
+      "text": "To fear a general government or energetic principles least it should create tyrants, when without such a government all have an opportunity to become tyrants and avoid punishment, is fearing the possibility of one act of oppression, more than the real exercise of a thousand. But in the present case, men who have lucrative and influential state offices, if they act from principles ot self-interest, will be tempted to oppose an alteration, which would doubtless be beneficial to the people. To sink from a controlment of finance, or any other great department of the state, thro' want of ability or opportunity to act a part in the federal system, must be a terrifying consideration. Believe not those who insinuate that til is is a scheme of great men to grasp more power. The temptation is on the other side. Those in great offices never wish to hazard their places by such a change. This is the scheme of the people, and those high and worthy characters who in obedience to the public voice offer the proposed amendment of our federal constitution thus esteemed it, or they would have determined state Conventions as the tribunal of ultimate decision. This is the last opportunity you may have to adopt a government which gives all protection to personal liberty, and at the same time promises fair to afford you all the advantages of a sovereign empire. While you deliberate with coolness, be not duped by the artful surmises of such as from their own interest or prejudice are blind to the public good.",
+      "uncertain": [
+        {
+          "end": 385,
+          "readings": {
+            "brittle": "of",
+            "google": "of",
+            "primary": "ot"
+          },
+          "start": 383
+        },
+        {
+          "end": 729,
+          "readings": {
+            "brittle": "this",
+            "google": "this",
+            "primary": "til is"
+          },
+          "start": 723
+        }
+      ]
+    },
+    {
+      "label": "Landholder 3, ¶ 1",
+      "pages": [
+        "146"
+      ],
+      "ref": "Landholder.3.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          158
+        ]
+      },
+      "text": "When we rushed to arms for preventing British usurpation, liberty was the argument of every tongue."
+    },
+    {
+      "label": "Landholder 3, ¶ 2",
+      "pages": [
+        "146"
+      ],
+      "ref": "Landholder.3.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          158,
+          159
+        ]
+      },
+      "text": "This word would open all the resources of the country and draw out a brigade of militia rapidly as the most decisive orders of a despotic government. Liberty is a word which, according as it is used, comprehends the most good and the most evil of any in the world. Justly understood it is sacred next to those which we appropiate in divine adoration ; but in the mouths of some it means anything, which enervate a necessary government ; excite a jealousy of the rulers who are our own choice, and keep society in confusion for want of a power sufficiently concentered to promote its good. It is not strange that the licentious should tell us a government of energy is inconsistent with liberty, for being inconsistent with their wishes and their vices, they would have us think it contrary to human happiness. In the state this country was left by the war, with want of experience in sovereignty, and the feelings which the people then had ; nothing but the scene we had passed thro' could give a general conviction that an internal government of strength is the only means of repressing external violence, and preserving the national rights of the people against the injustice of their own brethren. Even the common duties of humanity will gradually go out of use, when the constitution and laws of a country do not insure justice from the public and between individuals. American experience, in our present deranged state, hath again proved these great truths, which have been verified in every age since men were made and became sufficiently numerous to form into public bodies. A government capable of controling the whole, and bringing its force to a point, is one of the prerequisites for national liberty. We con> bine in society, with an expectation to have our persons and properties defended against unreasonable exactions either at home or abroad. If the public are unable to protest against the unjust impositions of foreigners, in this case we do not enjoy our natural rights, and a weakness of government is the cause. If we mean to have our natural rights and properties protected, we must first create a power which is able to do it, and in our case there is no want of resources, but a civil constitution which may draw them out and point their force.",
+      "uncertain": [
+        {
+          "end": 1725,
+          "readings": {
+            "brittle": "combine",
+            "google": "combine",
+            "primary": "con> bine"
+          },
+          "start": 1716
+        }
+      ]
+    },
+    {
+      "label": "Landholder 3, ¶ 3",
+      "pages": [],
+      "ref": "Landholder.3.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "The present question is, shall we have such a constitution or not? We allow it to be a creation of power; but power when necessary for our good is as much to be desired as the food we eat or the air we breathe. Some men are mightily afraid of giving power lest it should be improved for oppression ; this is doubtless possible, but where is the probability. The same objection may be made against the constitution of every state in the union, and against every possible mode of government; because a power of doing good always implies a power to do evil if the person or party be disposed."
+    },
+    {
+      "label": "Landholder 3, ¶ 4",
+      "pages": [],
+      "ref": "Landholder.3.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "The right of the legislature to ordain laws binding on the people, gives them a power to make bad laws."
+    },
+    {
+      "label": "Landholder 3, ¶ 5",
+      "pages": [],
+      "ref": "Landholder.3.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "The right of the judge to inflict punishment, gives him both power and opportunity to oppress the innocent; yet none but crazy men will from thence determine that it is best to have neither a legislature nor judges."
+    },
+    {
+      "label": "Landholder 3, ¶ 6",
+      "pages": [
+        "148"
+      ],
+      "ref": "Landholder.3.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          159,
+          160
+        ]
+      },
+      "text": "If a power to promote the best interest of the people, necessarily implies a power to do evil, we must never expect such a constitution in theory as will not be open in some respects to the objections of carping and jealous men. The new Constitution is perhaps more cautiously guarded than any other in the world. and at the same time creates a power which will be able to protect the subject ; yet doubtless objections may be raised, and so they may against the constitution of each state in the union. In Connecticut the laWs are the constitution by which the people are governed, and it is generally allowed to be the most free and popular in the thirteen states. As this is the state in which I live and write, I will instance several things which with a proper coloring and a spice of jealousy appear most dangerous to the natural rights of the people, yet they have never been dangerous in practice, and are absolutely necessary at some times to prevent much greater evil."
+    },
+    {
+      "label": "Landholder 3, ¶ 7",
+      "pages": [
+        "148",
+        "1"
+      ],
+      "ref": "Landholder.3.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          160,
+          161
+        ]
+      },
+      "text": "The right of taxation or of assessing and collecting money out of the people, is one of those powers which may prove dangerous in the exercise, and which by the new constitution is vested solely in representatives chosen for that purpose. But by the laws of Connecticut, this power called so dangerous may be exercised by selectmen of each town, and this not only without their consent but against their express will, where they have considered the matter, and judge it improper. This power they may exercise when and so often as they judge necessary ! Three justices of the quorum may tax a whole county in such sums as they think meet, against the express will of all the inhabitants. Here we see the dangerous power of taxation vested in the justices of the quorum and even in selectmen, men whom we should suppose as likely to err and tyrannize as the representatives of three millions of people in solemn deliberation, and amenable to the vengeance of their constitutents, for every act of injustice. The same town officers have equal authority where personal liberty is concerned, in a matter more sacred than all the property in the world, the disposal of your children. When they judge fit, with the advice of one justice of the peace, they may tear them from the parent's embrace, and place them under the absolute control of such masters as they please; and if the parent's reluctance excites their resentment, they may place him and his property under overseers. Fifty other instances fearfull as these might be collected from the laws of the state, but I will not repeat them lest my readers should be alarmed where there is no danger. These regulations are doubtless best ; we have seen much good and no evil come from them. I adduce these instances to shew, that the most free constitution when made the subject of criticism may be exhibited in frightful colors, and such attempts we must expect against that now proposed. If, my countrymen, you wait for a constitution which absolutely bars a power of doing evil, you must wait long, and when obtained it will have no power of doing good. I allow you are oppressed, but not from the quarter that jealous and wrongheaded men would insinuate. You are oppressed by the men, who to serve their own purposes would prefer the shadow of government to the reality. You are oppressed for the want of power which can protect commerce, encourage business, and create a ready demand for the productions of your farms. You are become poor ; oppression continued will make wise men mad. The landholders and farmers have long borne this oppression, we have been patient and groaned in secret, but can promise for ourselves no longer; unless relieved, madness may excite us to actions we now dread."
+    },
+    {
+      "label": "Landholder 4, ¶ 1",
+      "pages": [
+        "5"
+      ],
+      "ref": "Landholder.4.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          162,
+          163
+        ]
+      },
+      "text": "To censure a man for an opinion in which he declares himself honest, and in a matter of which all men have a right to judge, is highly injurious ; at the same time, when the opinions even of honorable men are submitted to the people, a tribunal before which the meanest citizen hath a right to speak, they must abide the consequence of public stricture. We are ignorant whether the honorable gentlemen possesses state dignities or emoluments which will be endangered by the new system, or hath motives of personality to prejudice his mind and throw him into the opposition; or if it be so, do not wish to evade the objections by such a charge. As a member of the General Convention, and deputy from a great state, this honorable person hath a right to speak and be heard. It gives pleasure to know the extent of what may be objected or even surmised, by one whose situation was the best to espy danger, and mark the defective parts of the constitution if any such there be. Mr. Gerry, tho' in the character of an objector, tells us \" he was fully convinced that to preserve the union an efficient government was indispensibly necessary, and that it would be difficult to make proper amendments to the old articles of confederation,\" therefore by his own confession there was an indispensible necessity of a system, in many particulars entirely new. I He tell us further \" that if the people reject this altogether, anarchy may ensue,\" and what situation can be pictured more awful than a total dissolution of all government? Many defects in the constitution had better be risked than to fall back into that state of rude violence, in which every man's hand is against his neighbor, and there is no judge to decide between them, or power of justice to control. But we hope to shew that there are no alarming defects in the proposed structure of government, and that while a public force is created, the liberties of the people have every possible guard."
+    },
+    {
+      "label": "Landholder 4, ¶ 2",
+      "pages": [
+        "5"
+      ],
+      "ref": "Landholder.4.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          163
+        ]
+      },
+      "text": "Several of the honourable Gentlemen's objections are expressed in such vague and- indecisive terms, that they rather deserve the name of insinuations, and we know not against what particular parts of the system they are pointed. Others are explicit, and if real deserve serious attention. His first objection is \"that there is no adequate provision for representation of the people.\" This must have respect either to the number of representatives, or to the manner in which they are chosen. The proper number to constitute a safe representation is a matter of judgment, in which honest and wise men often disagree. Were it possible for all the people to convene and give their personal assent, some would think this the best mode of making laws, but in the present instance it is impracticable. In towns and smaller districts where all the people may meet conveniently and without expense this is doubtless preferable. The state representation is composed of one or two from every town and district, which composes an assembly not so large as to be unwieldy in acting, nor so expensive as to burden the people. But if so numerous a representation were made from every part of the United States, with our present population, the new Congress would consist of three thousand men ; with the population of Great Britain, to which we may arrive in half a century, of ten thousand; and with the population of France, which we shall probably equal in a century and a half, of thirty thousand."
+    },
+    {
+      "label": "Landholder 4, ¶ 3",
+      "pages": [
+        "5",
+        "152"
+      ],
+      "ref": "Landholder.4.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          163,
+          164
+        ]
+      },
+      "text": "Such a body of men might be an army to defend the country in case of foreign invasion, but not a legislature, and the expense to support them would equal the whole national revenue. By the proposed constitution the new Congress will consist of nearlyone hundred men ; when our population is equal to Great Britain of three hundred men, and when equal to P\" France of nine hundred. Plenty of Lawgivers ! why any gentlemen should wish for more is not conceivable."
+    },
+    {
+      "label": "Landholder 4, ¶ 4",
+      "pages": [
+        "152"
+      ],
+      "ref": "Landholder.4.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          164
+        ]
+      },
+      "text": "Considering the immense territory of America, the objection with many will be on the other side ; that when the whole is populated it will constitute a legislature unmanageable by its numbers. Convention foreseeing this danger, have so worded the article, that if the people should at any future time judge necessary, they may diminish the representation."
+    },
+    {
+      "label": "Landholder 4, ¶ 5",
+      "pages": [
+        "152"
+      ],
+      "ref": "Landholder.4.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          164
+        ]
+      },
+      "text": "As the state legislatures have to regulate the internal policy of every town and neighborhood, it is convenient enough to have one or two men, particularly acquainted with every small district of country, its interests, parties and passions. But the federal legislature can take cognizance only of national questions and interests which in their very nature are general, and for this purpose five or ten honest and wise men chosen from each state ; men who have had previous experience in state legislation, will be more competent than an hundred. From an acquaintance with their own state legislatures, they will always know the sense of the people at large, and the expense of supporting such a number will be as much as we ought to incur."
+    },
+    {
+      "label": "Landholder 4, ¶ 6",
+      "pages": [
+        "152"
+      ],
+      "ref": "Landholder.4.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          164
+        ]
+      },
+      "text": "If the Hon. gentleman, in saying \" there is not adequate provision for the representation of the people, \" refers to the manner of choosing them, a reply to this is naturally blended with its second objection, that \"they would have no security for the right of election.\" It is impossible to conceive what greater security can be given, by any form of words, than we here find."
+    },
+    {
+      "label": "Landholder 4, ¶ 7",
+      "pages": [
+        "152"
+      ],
+      "ref": "Landholder.4.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          164
+        ]
+      },
+      "text": "The federal representatives are to be chosen by the votes of the people. Every freeman is an elector. The same qualification which enables you to vote for state representatives, gives you a federal voice. It is a right you cannot lose, unless you first annihilate the state legislature, and declare yourself incapable of electing, which is a degree of infatuation improbable as a second deluge to drown the world."
+    },
+    {
+      "label": "Landholder 4, ¶ 8",
+      "pages": [
+        "53"
+      ],
+      "ref": "Landholder.4.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          165
+        ]
+      },
+      "text": "Your own assemblies are to regulate the formalities of this choice, and unless they betray you, you cannot be betrayed. But perhaps it may be said, Congress have a power to control this formality as to the time and places of electing;, and we allow they have: but this objection which at first looks frightful was designed as a guard to the privileges of the electors. Even state assemblies may have their fits of madness and passion, this tho' not probable is possible."
+    },
+    {
+      "label": "Landholder 4, ¶ 9",
+      "pages": [
+        "53",
+        "154"
+      ],
+      "ref": "Landholder.4.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          165,
+          166
+        ]
+      },
+      "text": "We have a recent instance in the state of Rhode Island, where a desperate junto are governing contrary to the sense of a great majority of the people. It may be the case in any other state, and should it happen, that the ignorance or rashness of the state assemblies, in a fit of jealousy, should deny you this sacred right, the deliberate justice of the continent is enabled to interpose and restore you a federal voice. This right is therefore more inviolably guarded than it can be by the government of your state, for it is guaranteed by the whole empire. Tho' out of the order in which the Hon. gentleman proposes his doubts, I wish here to notice some questions which he makes. The proposed plan among others he tells us involves these questions: \" Whether the several state governments, shall be so altered as in effect to be dissolved ? Whether in lieu of the state governments the national constitution now proposed shall be substituted?\" I wish for sagacity to see on what these questions are founded. No alteration in the state governments is even now proposed, but they are to remain identically the same that they are now. Some powers are to be given into the hands of your federal representatives, but these powers are all in their nature general, such as must be exercised by the whole or not at all, and such as are absolutely necessary; or your commerce, the price of your commodities, your riches and your safety, will be the sport of every foreign adventurer. Why are we told of the dissolution of our state governments, when by this plan they are indissolubly linked ? They must stand or fall, live or die together. The national legislature consists of two houses, a senate and house of representatives. The senate is to be chosen by the assemblies of the particular states ; so that if the assemblies are dissolved, the senate dissolves with them. The national representatives are to be chosen by the same electors, and under the same qualifications, as choose the state representatives ; so that if the state representation be dissolved, the national representation is gone of course."
+    },
+    {
+      "label": "Landholder 4, ¶ 10",
+      "pages": [
+        "154"
+      ],
+      "ref": "Landholder.4.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          166
+        ]
+      },
+      "text": "State representation and government is the very basis of the congressional power proposed. This is the most valuable link in the chain of connection, and affords double security for the rights of the people. Your liberties are pledged to you by your own state, and by the power of the whole empire. You have a voice in the government of your own state, and in the government of the whole, Were not the gentleman on whom the remarks are made very honorable, and by the eminence of office raised above a suspicion of cunning, we should think he had, in this instance, insinuated merely to alarm the fears of the people. His other objections will be mentioned in some future number of the"
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 4, note 1",
+      "pages": [],
+      "ref": "Landholder.4.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          162
+        ]
+      },
+      "text": "* Printed in Elliot, I, 492. — Ed."
+    },
+    {
+      "label": "Landholder 5, ¶ 1",
+      "pages": [],
+      "ref": "Landholder.5.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          167
+        ]
+      },
+      "text": "It is unhappy both for Mr. Gerry and the public, that he was not more explicit in publishing his doubts. Certainly this must have been from inattention, and not thro' any want of ability ; as all his honorable friends allow him to be a politician even of metaphysical nicety."
+    },
+    {
+      "label": "Landholder 5, ¶ 2",
+      "pages": [
+        "156"
+      ],
+      "ref": "Landholder.5.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          167,
+          168
+        ]
+      },
+      "text": "In a question of such magnitude, every candid man will consent to discuss objections, which are stated with perspicuity ; but to follow the honorable writer into the field of conjecture, and combat phantoms, uncertain whether or not they are the same which terrified him, is a ta.sk too laborious for patience itself Such must be the writer's situation in replying to the next objection, \" that some of the powers of the legislature are ambiguous, and others indefinite and dangerous.\" There are many powers given to the legislature ; if any of them are dangerous, the people have a right to know which they are, and how they will operate, that we may guard against the evil. The charge of being ambiguous and indefinite may be brought against every human composition, and necessarily arises from the imperfection of language. Perhaps no two men will express the same sentiment in the same manner, and by the same words ; neither do they connect precisely the same ideas with the same words. From hence arises an ambiguity in all language, with which the most perspicuous and precise writers are in a degree chargeable. Some persons never attain to the happy art of perspicuous expression, and it is equally true that some persons thro' a mental defect of their own, will judge the most correct and certain language of others to be indefinite and ambiguous. As Mr. Gerry is the first and only man who has charged the new Constitution with ambiguousness, is there not room to suspect that his understanding is different from other men's, and whether it be better of worse, the Landholder presumes not to decide."
+    },
+    {
+      "label": "Landholder 5, ¶ 3",
+      "pages": [
+        "156"
+      ],
+      "ref": "Landholder.5.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          168
+        ]
+      },
+      "text": "It is an excellency of this Constitution that it is expressed with brevity, and in the plain, common language of mankind."
+    },
+    {
+      "label": "Landholder 5, ¶ 4",
+      "pages": [
+        "156"
+      ],
+      "ref": "Landholder.5.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          168
+        ]
+      },
+      "text": "Had it swelled into the magnitude of a volume, there would have been more room to entrap the unwary, and the people who are to be its judges would have had neither patience nor opportunity to understand it. Had it been expressed in the scientific language of law, or those terms of art which we often find in political compositions, to the honorable gentleman it might have appeared more definite and less ambiguous ; but to the great body of the people altogether obscure, and to accept it they must leap into the dark."
+    },
+    {
+      "label": "Landholder 5, ¶ 5",
+      "pages": [
+        "156"
+      ],
+      "ref": "Landholder.5.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          168
+        ]
+      },
+      "text": "The people to whom in this case the great appeal is made, best understand those compositions which are concise and in their own language. Had the powers given to the legislature been loaded with provisos, and such qualifications as a lawyer who is so cunning as even to suspect himself, would probably have intermingled ; there would have been much more of a deception in the case. It would not be difficult to shew that every power given to the legislature is necessary for national defence and justice, and to protect the rights of the people who create this authority for their own advantage ; but to consider each one particularly would exceed the limits of my design."
+    },
+    {
+      "label": "Landholder 5, ¶ 6",
+      "pages": [
+        "156"
+      ],
+      "ref": "Landholder.5.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          168
+        ]
+      },
+      "text": "I shall, therefore, select two powers given them, which have been more abused to oppress and enslave mankind, than all the others with which this or any legislature on earth is cloathed — the right of taxation or of collecting money from the people; and of raising and supporting armies."
+    },
+    {
+      "label": "Landholder 5, ¶ 7",
+      "pages": [
+        "57"
+      ],
+      "ref": "Landholder.5.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          169
+        ]
+      },
+      "text": "These are the powers which enable tyrants to scourge their subjects; and they are also the very powers by which good rulers protect the people against the violence of wicked and overgrown citizens, and invasion by the rest of mankind. Judge candidly what a wretched figure the American empire will exhibit in the eye of other nations, without a power to array and support a military force for its own protection. Half a dozen regiments from Canada or New-Spain, might lay whole provinces under contribution, while we were disputing who has power to pay and raise an army. This power is also necessary to restrain the violence of seditious citizens. A concurrence of circumstances frequently enables a few disaffected persons to make great revolutions, unless government is vested with the most extensive powers of self-defence. Had Shays, the malecontent of Massachussetts, been a man of genius, fortune and address, he might have conquered that state, and by the aid of a little sedition in the other states, and an army proud by victory, become the monarch and tyrant of America. Fortunately he was checked; but should jealousy prevent vesting these powers in the hands of men chosen by yourselves, and who are under every constitutional restraint, accident or design will in all probability raise up some future Shays to be the tyrant of your children."
+    },
+    {
+      "label": "Landholder 5, ¶ 8",
+      "pages": [
+        "57"
+      ],
+      "ref": "Landholder.5.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          169
+        ]
+      },
+      "text": "A people cannot long retain their freedom, whose government is incapable of protecting them."
+    },
+    {
+      "label": "Landholder 5, ¶ 9",
+      "pages": [
+        "57"
+      ],
+      "ref": "Landholder.5.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          169
+        ]
+      },
+      "text": "The power of collecting money from the people, is not to be rejected because it has sometimes been oppressive."
+    },
+    {
+      "label": "Landholder 5, ¶ 10",
+      "pages": [
+        "57"
+      ],
+      "ref": "Landholder.5.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          169
+        ]
+      },
+      "text": "Public credit is as necessary for the prosperity of a nation as private credit is for the support and wealth of a family."
+    },
+    {
+      "label": "Landholder 5, ¶ 11",
+      "pages": [
+        "57"
+      ],
+      "ref": "Landholder.5.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          169
+        ]
+      },
+      "text": "We are this day many millions poorer than we should have been had a well arranged government taken place at the conclusion of the war. All have shared in this loss, but none in so great proportion as the landholders and farmers."
+    },
+    {
+      "label": "Landholder 5, ¶ 12",
+      "pages": [
+        "57",
+        "158"
+      ],
+      "ref": "Landholder.5.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          169,
+          170
+        ]
+      },
+      "text": "The public must be served in various departments. Who will serve them without a meet recompense ? Who will go to war and pay the charges of his own warfare? What man will any longer take empty promises of reward from those, who have no constitutional power to reward or means of fulfilling them ? Promises have done their utmost, more than they ever did in any other age or country. The delusive bubble has broke, and in breaking has beggared thousands, and left you an unprotected people; numerous without force, and full of resources but unable to command one of them. For these purposes there must be a general treasury, with a power to replenish it as often as necessity requires. And where can this power be more safely vested, than in the common legislature, men chosen by yourselves from every part of the union, and who have the confidence of their several states ; men who must share in the burdens they impose on others ; men who by a seat in Congress are incapable of holding any office under the states, which might prove a temptation to spoil the people for increasing their own income?"
+    },
+    {
+      "label": "Landholder 5, ¶ 13",
+      "pages": [
+        "158"
+      ],
+      "ref": "Landholder.5.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          170
+        ]
+      },
+      "text": "We find another objection to be \" that the executive is blended with and will have an undue influence over the legislature.\" On examination you will find this objection unfounded. The supreme executive is vested in a President of the United States; every bill that hath passed the senate and representatives, must be presented to the president, and if he approve it becomes law. If he disapproves, but makes no return within ten days, it still becomes law. If he returns the bill with his objections, the senate and representatives consider it a second time, and if twothirds of them adhere to the first resolution it becomes law notwithstanding the president's dissent. We allow the president hath an influence, tho' strictly speaking he hath not a legislative voice; and think such an influence must be salutary. In the president all the executive departments meet, and he will be a channel of communication between those who make and those who execute the laws. Many things look fair in theory which in practice are impossible. If lawmakers, in every instance, before their final decree, had the opinion of those who are to execute them, it would prevent a thousand absurd ordinances, which are solemnly made, only to be repealed, and lessen the dignity of legi<=lation in the eyes of mankind."
+    },
+    {
+      "label": "Landholder 5, ¶ 14",
+      "pages": [
+        "158"
+      ],
+      "ref": "Landholder.5.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          170
+        ]
+      },
+      "text": "The vice-president is not an executive officer while the president is in discharge of his duty, and when he is called to preside his legislative voice ceases. In no other instance is there even the shadow of blending or influence between the two departments."
+    },
+    {
+      "label": "Landholder 5, ¶ 15",
+      "pages": [],
+      "ref": "Landholder.5.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          171
+        ]
+      },
+      "text": "We are further told \" that the judicial departments, or those courts of law, to be instituted by Congress, will be oppressive.\" We allow it to be possible, but from whence arises the probability of this event? State judges may be corrupt, and juries may be prejudiced and ignorant, but these instances are not common; and why shall we suppose they will be more frequent under a national appointment and influence, when the eyes of a whole empire are watching for their detection ?"
+    },
+    {
+      "label": "Landholder 5, ¶ 16",
+      "pages": [],
+      "ref": "Landholder.5.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          171
+        ]
+      },
+      "text": "Their courts are not to intermeddle with your internal policy, and will have cognizance only of those subjects which are placed under the control of a national legislature. It is as necessary there should be courts of law and executive officers, to carry into effect the laws of the nation, as that there be courts and officers to execute the laws made by your state assemblies. There are many reasons why their decisions ought not to be left to courts instituted by particular states."
+    },
+    {
+      "label": "Landholder 5, ¶ 17",
+      "pages": [],
+      "ref": "Landholder.5.17",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          171,
+          172
+        ]
+      },
+      "text": "A perfect uniformity must be observed thro' the whole union, or jealousy and unrighteousness will take place ; and for a uniformity one judiciary must pervade the whole. The inhabitants of one state will not have confidence in judges appointed by the legislature of another state, in which they have no voice. Judges who owe their appointment and support to one state, will be unduly influenced, and not reverence the laws of the union. It will at any time be in the power of the smallest state, by interdicting their own judiciary, to defeat the measures, defraud the revenue, and annul the mo.st sacred laws of the whole empire. A legislative power, without a judicial and executive under their own control, is in the nature of things a nullity. Congress under the old confederation had power to ordain and resolve, but having no judicial or executive of their own, their most solemn resolves were totally disregarded. The little state of Rhode Island was purposely left by Heaven to its present madness, for a general conviction in the other states, that such a .system as is now proposed is our only preservation from ruin. What respect can any one think would be paid to national laws, by judicial and executive officers who are amenable only to the present as.sembly of Rhode Island ? The rebellion of Shays and the present measures of Rhode Island ought to convince us that a national legislature, judiciary and executive, must be united, or the whole is but a name ; and that we must have these, or soon be hewers of wood and drawers of water for all other people."
+    },
+    {
+      "label": "Landholder 5, ¶ 18",
+      "pages": [],
+      "ref": "Landholder.5.18",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          172
+        ]
+      },
+      "text": "In all these matters and powers given to Congress, their ordinances must be the supreme law of the land, or they are nothing. They must have authority to enact any laws for executing their own powers, or those powers will be evaded by the artful and unjust, and the dishonest trader will defraud the public of its revenue. As we have every reason to think this system was honestly planned, we ought to hope it may be honestly and justly executed. I am sensible that speculation is always liable to error. If there be any capital defects in this constitution, it is most probable that experience alone will discover them. Provision is made for an alteration if, on trial, it be found necessary."
+    },
+    {
+      "label": "Landholder 5, ¶ 19",
+      "pages": [],
+      "ref": "Landholder.5.19",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          172
+        ]
+      },
+      "text": "When your children see the candor and greatness of mind, with which you lay the foundation, they will be inspired with equity to furnish and adorn the superstructure."
+    },
+    {
+      "label": "Landholder 6, ¶ 1",
+      "pages": [
+        "161"
+      ],
+      "ref": "Landholder.6.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          173
+        ]
+      },
+      "text": "The publication of Col. Mason's* reasons for not signing the new Constitution, has extorted some truths that would otherwise in all probability have remained unknown to us all. His reasons, like Mr. Gerry's, are most of them ex post facto, have been revised in New Y — k by R. H. L.f and by him brought into their present artful and insidious form. The factious spirit of R. H, L., his implacable hatred to General Washington, his well-known intrigues against him in the late war, his attempts to displace him and give the command of the American army to General Lee, is so recent in your minds it is not necessary to repeat them. He is supposed to be the author of most of the scurrility poured out in the New- York papers against the new constitution."
+    },
+    {
+      "label": "Landholder 6, ¶ 2",
+      "pages": [
+        "161"
+      ],
+      "ref": "Landholder.6.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          173,
+          174
+        ]
+      },
+      "text": "Just at the close of the Convention, whose proceedings in general were zealously supported by Mr. Mason, he moved for a clause that no navigation act should ever be passed but with the consent of two thirds of both branches J urging that a navigation act might otherwise be passed excluding foreign bottoms from carrying American produce to market, and throw a monopoly of the carrying business into the hands of the eastern states who attend to navigation, and that such an exclusion of foreigners would raise the freight of the produce of the southern states, and for these reasons Mr. Mason would have it in the power of the southern states to prevent any navigation act. This clause, as unequal and partial in the extreme to the southern states, was rejected ; because it ought to be left on the same footing with other national concerns, and because no state would have a right to complain of a navigation act which should leave the carrying business equally open to them all. Those who preferred cultivating their lands would do so; those who chose to navigate and become carriers would do that. The loss of this question determined Mr. Mason against the signing the doings of the convention, and is undoubtedly among his reasons as drawn for the southern states; but for the eastern states this reason would not do.* It would convince us that Mr. Mason preferred the subjects of every foreign power to the subjects of the United States who live in New-England; even the British who lately ravaged Virginia— that Virginia, my countrymen, where your relations lavished their blood — where your sons laid down their lives to secure to her and us the freedom and independence in which we now rejoice, and which can only be continued to us by a firm, equal and effective union. But do not believe that the people of Virginia are all thus selfish: No, there is a Washington, a Blair, a Madison and a Lee, (not R. H. L.) and I am persuaded there is a majority of liberal, just and federal men in Virginia, who, whatever their sentiments may be of the new constitution, will despise the artful injustice contained in Col. Mason's reasons as published in the Connecticut papers."
+    },
+    {
+      "label": "Landholder 6, ¶ 3",
+      "pages": [
+        "163"
+      ],
+      "ref": "Landholder.6.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          174,
+          175
+        ]
+      },
+      "text": "The President of the United States has no council, etc., says Col. Mason. His proposed council f would have been expensive — tlicy must constantly attend the president, because the president constantly acts. This council must have been composed of great characters, who could not be kept attending without great salaries, and if their opinions were binding on the president his responsibility would be destroyed — if divided, prevent vigor and dispatch — if not binding, they would be no security. The states who have had such councils have found them useless, and complain of them as a dead weight. In others, as in England, the supreme executive advises when and with whom he pleases ; if any information is wanted, the heads of the departments who are always at hand can best give it, and from the manner of their appointment will be trustworthy. Secrecy, vigor, dispatch and responsibility, require that the supreme executive should be one person, and unfettered otherwise than by the laws he is to execute.",
+      "uncertain": [
+        {
+          "end": 130,
+          "readings": {
+            "primary": "tlicy"
+          },
+          "start": 125
+        }
+      ]
+    },
+    {
+      "label": "Landholder 6, ¶ 4",
+      "pages": [
+        "163"
+      ],
+      "ref": "Landholder.6.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          175
+        ]
+      },
+      "text": "TJicrc is 710 Declaration of Rights. Bills of Rights were introduced in England when its kings claimed all power and jurisdiction, and were considered by them as grants to the people. They are insignificant since government is considered as originating from the people, and all the power government now has is a grant from the people. The constitution they establish with powers limited and defined, becomes now to the legislator and magistrate, what originally a bill of rights was to the people. To have inserted in this constitution a bill of rights for the states, would suppose them to derive and hold their rights from the federal government, when the reverse is the case.",
+      "uncertain": [
+        {
+          "end": 6,
+          "readings": {
+            "primary": "TJicrc"
+          },
+          "start": 0
+        },
+        {
+          "end": 13,
+          "readings": {
+            "primary": "710"
+          },
+          "start": 10
+        }
+      ]
+    },
+    {
+      "label": "Landholder 6, ¶ 5",
+      "pages": [
+        "163"
+      ],
+      "ref": "Landholder.6.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          175
+        ]
+      },
+      "text": "There is to be no ex post facto laws. This was moved by Mr. Gerry and supported by Mr. Mason,* and is exceptional only as being unnecessary ; for it ought not to be presumed that government will be so tyranical, and opposed to the sense of all modern civilians, as to pass such laws : if they should, they would be void."
+    },
+    {
+      "label": "Landholder 6, ¶ 6",
+      "pages": [
+        "163",
+        "164"
+      ],
+      "ref": "Landholder.6.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          175,
+          176
+        ]
+      },
+      "text": "The general legislature is restrained from prohibiting the further importation of slaves for twenty odd years. But every state legislature may restrain its own subjects; but if they should not, shall we refuse to confederate with them ? their consciences are their own, tho' their wealth and strength are blended with ours, Mr, Mason has himself about three hundred slaves, and lives in Virginia, where it is found by prudent management they can breed and raise slaves faster than they want them for their own use, and could supply the deficiency in Georgia and South Carolina ; and perhaps Col. Mason may suppose it more humane to breed than import slaves — those imported having been bred and born free, may not so tamely bear slavery as those born slaves, and from their infancy inured to it ; but his objections are not on the side of freedom, nor in compassion to the human race who are slaves, but that such importations render the United States weaker, more vulnerable, and less capable of defence. To this I readily agree, and all good men wish the entire abolition of slavery, as soon as it can take place with safety to the public, and for the lasting good of the present wretched race of slaves. The only possible step that could be taken towards it by the convention was to fix a period after which they should not be imported."
+    },
+    {
+      "label": "Landholder 6, ¶ 7",
+      "pages": [
+        "164"
+      ],
+      "ref": "Landholder.6.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          176
+        ]
+      },
+      "text": "There is no declaration of any kind to preserve the liberty of the press, etc. Nor is liberty of conscience, or of matrimony, or of burial of the dead ; it is enough that congress have no power to prohibit either, and can have no temptation. This objection is answered in that the states have all the power originally, and congress have only what the states grant them."
+    },
+    {
+      "label": "Landholder 6, ¶ 8",
+      "pages": [
+        "164"
+      ],
+      "ref": "Landholder.6.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          176,
+          177
+        ]
+      },
+      "text": "The Judiciary of the United States is so constructed and extended as to absorb and destroy the judiciaries of the several states ; thereby rendering law as tedious, intricate and expensive, and justice as unattainable by a great part of the community, as in England; and enable the rich to oppress and ruin the poor. It extends only to objects and cases specified, and wherein the national peace or rights, or the harmony of the states is concerned, and not to controversies between citizens of the same state (except where they claim under grants of different states) ; and nothing hinders but the supreme federal court may be held in different districts, or in all the states, and that all the cases, except the few in which it has original and not appellate jurisdiction, may in the first instance be had in the state courts and those trials be final except in cases of great magnitude; and the trials be by jury also in most or all the causes which were wont to be tried by them, as congress shall provide, whose appointment is security enough for their attention to the wishes and convenience of the people. In chancery courts juries are never used, nor are they proper in admiralty courts, which proceed not by municipal laws, which they may be supposed to understand, but by the civil law and law of nations."
+    },
+    {
+      "label": "Landholder 6, ¶ 9",
+      "pages": [],
+      "ref": "Landholder.6.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          177
+        ]
+      },
+      "text": "Mr. Mason deems the president and senate's power to make treaties dangerous, because they become laws of the land. If the president and his proposed council had this power, or the president alone, as in England and other nations is the case, could the danger be less? — or is the representative branch suited to the making of treaties, which are often intricate, and require much negotiation and secrecy? The senate is objected to as having too much power, and bold unfounded assertions that they will destroy any balance in the government, and accomplish what usurpation they please upon the rights and liberties of the people ; to which it may be answered, they are elective and rotative, to the mass of the people ; the populace can as well balance the senatorial branch there as in the states, and much better than in England, where the lords are hereditary, and yet the commons preserve their weight ; but the state governments on which the constitution is built will forever be security enough to the people against aristocratic usurpations : — The danger of the constitution is not aristrocracy or monarchy, but anarchy."
+    },
+    {
+      "label": "Landholder 6, ¶ 10",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.6.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          177,
+          178
+        ]
+      },
+      "text": "I intreat you, my fellow citizens, to read and examine the new constitution with candor — examine it for yourselves : you are, most of you, as learned as the objector, and certainly as able to judge of its virtues or vices as he is. To make the objections the more plausible, they are called The objections of the Hon. George Mason, etc. — They may possibly be his, but be assured they were not those made in convention, and being directly against what he there supported in one instance ought to caution you against giving any credit to the rest; his violent opposition to the powers given congress to regulate trade, was an open decided preference of all the world to you. A man governed by such narrow views and local prejudices, can never be trusted ; and his pompous declaration in the House of Delegates in Virginia that no man was more federal than himself, amounts to no more than this, \" Make a federal government that will secure Virginia all her natural advantages, promote all her interests regardless of every disadvantage to the other states, and I will subscribe to it.\""
+    },
+    {
+      "label": "Landholder 6, ¶ 11",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.6.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          178
+        ]
+      },
+      "text": "It may be asked how I came by my information respecting Col. Mason's conduct in convention, as the doors were shut ? To this I answer, no delegate of the late convention will contradict my assertions, as I have repeatedly heard them made by others in presence of several of them, who could not deny their truth. Whether the constitution in question will be adopted by the United States in our day is uncertain ; but it is neither aristocracy or monarchy can grow out of it, so long as the present descent of landed estates last, and the mass of the people have, as at present, a tolerable education ; and were it ever so perfect a scheme of freedom, when we become ignorant, vicious, idle, and regardless of the education of our children, our liberties will be lost — we shall be fitted for slavery, and it will be an easy business to reduce us to obey one or more tyrants."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 6, note 1",
+      "pages": [
+        "161"
+      ],
+      "ref": "Landholder.6.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          173
+        ]
+      },
+      "text": "♦Printed in Ford's Pamphlets on the Constitution, p. 327."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 6, note 2",
+      "pages": [
+        "161"
+      ],
+      "ref": "Landholder.6.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          173
+        ]
+      },
+      "text": "I Richard Henry Lee."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 6, note 3",
+      "pages": [
+        "161"
+      ],
+      "ref": "Landholder.6.fn3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          173
+        ]
+      },
+      "text": "Saturday, September 15. See Papers of James Madison, III., 1593."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 6, note 4",
+      "pages": [],
+      "ref": "Landholder.6.fn4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          174
+        ]
+      },
+      "text": "* The paragraph containing Mason's objection to the mere majority power of Congress to regulate commerce, was included in all the southern papers, but omitted in copies furnished to the papers north of Maryland. — Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 6, note 5",
+      "pages": [],
+      "ref": "Landholder.6.fn5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          174
+        ]
+      },
+      "text": "\\ Mason proposed in the convention that the President should have a privy council of six. — Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 6, note 6",
+      "pages": [
+        "163"
+      ],
+      "ref": "Landholder.6.fn6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          175
+        ]
+      },
+      "text": "* This is an error. It was moved by Mason and seconded by Gerry, Cf . Papers of James Madison, III., 1578."
+    },
+    {
+      "label": "Landholder 7, ¶ 1",
+      "pages": [],
+      "ref": "Landholder.7.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          179
+        ]
+      },
+      "text": "I have often admired the spirit of candour, liberality, and justice, with which the Convention began and completed the important object of their mission. \" In all our deliberation on this subject,\" say they, \" we kept steadily in our view, that which ap- \" pears to us the greatest interest of every true American, the \"consolidation of our union, in which is involved our prosperity, felicity, safety, perhaps our national existence. This important \" consideration, seriously and deeply impressed on our minds, led \" each state in the Convention to be less rigid on points of in- \" ferior magnitude, than might otherwise have been expected ; \"and thus the Constitution which we now present, is the result of \" a spirit of amity, and of that mutual deference and concession, \"which the peculiarity of our political situation rendered indis- \" pensible.\""
+    },
+    {
+      "label": "Landholder 7, ¶ 2",
+      "pages": [],
+      "ref": "Landholder.7.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          179,
+          180
+        ]
+      },
+      "text": "Let us, my fellow citizens, take up this constitution with the same spirit of candour and liberality ; consider it in all its parts ; consider the important advantages which may be derived from it ; let us obtain full information on the subject, and then weigh these objections in the balance of cool impartial reason. Let us see if they be not wholly groundless ; but if upon the whole they appear to have some weight, let us consider well, whether they be so important, that we ought on account of them to reject the whole constitution. Perfection is not the lot of human institutions ; that which has the most excellencies and fewest faults, is the best that we can expect."
+    },
+    {
+      "label": "Landholder 7, ¶ 3",
+      "pages": [],
+      "ref": "Landholder.7.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          180
+        ]
+      },
+      "text": "Some very worthy persons, who have not had great advantages for information, have objected against that clause in the constitution which provides, that no religious test shall ever be required as a qualification to any office or public trust under the United States.* They have been afraid that this clause is unfavorable to religion. But my countrymen, the sole purpose and effect of it is to exclude persecution, and to secure to you the important right of religious liberty. We are almost the only people in the world, who have a full enjoyment of this important right of human nature. In our country every man has a right to worship God in that way which is most agreeable to his conscience. If he be a good and peaceable person he is liable to no penalties or incapacities on account of his religious sentiments ; or in other words, he is no subject to persecution."
+    },
+    {
+      "label": "Landholder 7, ¶ 4",
+      "pages": [
+        "169"
+      ],
+      "ref": "Landholder.7.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          180,
+          181
+        ]
+      },
+      "text": "But in other parts of the world, it has been, and still is, far different. Systems of religious error have been adopted, in times of ignorance. It has been the interest of tyrannical kings, popes, and prelates, to maintain these errors. When the clouds of ignorance began to vanish, and the people grew more enlightened, there was no other way to keep them in error, but to prohibit their altering their religious opinions by severe persecuting laws. In this way persecution became general throughout Europe. It was the universal opinion that one religion must be established by law; and that all who differed in their religious opinions, must suffer the vengeance of persecution. In pursuance of this opinion, when popery was abolished in England, and the Church of England was established in its stead, severe penalties were inflicted upon all who dissented from the established church. In the time of the civil wars, in the reign of Charles I., the presbyterians got the upper hand, and inflicted legal penalties upon all who differed from them in their sentiments respecting religious doctrines and discipline. When Charles II. was restored, the Church of England was likewise restored, and the presbyterians and other dissenters were laid under legal penalties and incapacities. It was in this reign, that a religious test was established as a qualification for office; that is, a law was made requiring all officers civil and military (among other things) to receive the Sacrament of the Lord's Supper, according to the usage of the Church of England, written [within ?] six months after their admission to office under the penalty of 500/^ and disability to hold the office. And by another statute of the same reign, no person was capable of being elected to any office relating to the government of any city or corporation, unless, within a twelvemonth before, he had received the sacrament according to the rites of the Church of England. The pretence for making these severe laws, by which all but churchmen were made incapable of any office civil or military, was to exclude the papists; but the real design was to exclude the protestant dissenters. From this account of test-laws, there arises an unfavorable presumption against them. But if we consider the nature of them and the effects which they are calculated to produce, we shall find that they are useless, tyrannical, and peculiarly unfit for the people of this country."
+    },
+    {
+      "label": "Landholder 7, ¶ 5",
+      "pages": [
+        "169"
+      ],
+      "ref": "Landholder.7.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          181
+        ]
+      },
+      "text": "A religious test is an act to be done, or profession to be made, relating to religion (such as partaking of the sacrament according to certain rites and forms, or declaring one's belief of certain doctrines,) for the purpose of determining whether his religious opinions are such, that he is admissable to a publick office. A test in favour of any one denomination of Christians would be to the last degree absurd in the United States. If it were in favour of either congregationalists, presbyterians, episcopalions, baptists, or quakers, it would incapacitate more than three-fourths of the American citizens for any publick office; and thus degrade them from the rank of freemen. There need no argument to prove that the majority of our citizens would never submit to this indignity."
+    },
+    {
+      "label": "Landholder 7, ¶ 6",
+      "pages": [
+        "169"
+      ],
+      "ref": "Landholder.7.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          181,
+          182
+        ]
+      },
+      "text": "If any test-act were to be made, perhaps the least exceptionable would be one, requiring all persons appointed to office to declare, at the time of their admission, their belief in the being of a God, and in the divine authority of the scriptures. In favour of such a test, it may be said, that one who believes these great truths, will not be so likely to violate his obligations to his country, as one who disbelieves them; we may have greater confidence in his integrity. But I answer: His making a declaration of such a belief is no security at all. For suppose him to be an unprincipled man, who believes neither the word nor the being of God ; and to be governed merely by selfish motives ; how easy is it for him to dissemble ! how easy is it for him to make a public declaration of his belief in the creed which the law prescribes; and excuse himself by calling it a mere formality. This is the case with the test-laws and creeds in England. The most abandoned characters partake of the sacrament, in order to qualify themselves for public employments. The clergy are obliged by law to administer the ordinance unto them, and thus prostitute the most sacred office of religion, for it is a civil right in the party to receive the sacrament. In that country, subscribing to the thirtynine articles is a test for administration into holy orders. And it is a fact, that many of the clergy do this, when at the same time they totally disbelieve several of the doctrines contained in them. In short, test-laws are utterly ineffectual : they are no security at all ; because men of loose principles will, by an external compliance, evade them. If they exclude any persons, it will be honest men, men of principle, who will rather suffer an injury, than act contrary to the dictates of their consciences. If we mean to have those appointed to public offices, who are sincere friends to religion, we, the people who appoint them, must take care to choose such chara.cters ; and not rely upon such cob-web barriers as testlaws are."
+    },
+    {
+      "label": "Landholder 7, ¶ 7",
+      "pages": [],
+      "ref": "Landholder.7.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          182
+        ]
+      },
+      "text": "But to come to the true principle by which this question ought to be determined : The business of a civil government is to protect the citizen in his rights, to defend the community from hostile powers, and to promote the general welfare. Civil government has no business to meddle with the private opinions of the people. If I demean myself as a good citizen, I am accountable, not to man, but to God, for the religious opinions which I embrace, and the manner in which I worship the supreme being. If such had been the universal sentiments of mankind, and they had acted accordingly, persecution, the bane of truth and nurse of error, with her bloody axe and flaming hand, would never have turned so great a part of the world into a field of blood."
+    },
+    {
+      "label": "Landholder 7, ¶ 8",
+      "pages": [
+        "3"
+      ],
+      "ref": "Landholder.7.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          183
+        ]
+      },
+      "text": "But while I assert the rights of religious liberty, I would not deny that the civil power has a right, in some cases, to interfere in matters of religion. It has a right to prohibit and punish gross immoralities and impieties ; because the open practice of these is of evil example and detriment. For this reason, I heartily approve of our laws against drunkenness, profane swearing, blasphemy, and professed atheism. But in this state, we have never thought it expedient to adopt a test-law ; and yet I sincerely believe we have as great a proportion of religion and morality, as they have in England, where every person who holds a public office, must either be a saint by law, or a hypocrite by practice. A test-law is the parent of hypocrisy, and the offspring of error and the spirit of persecution. Legislatures have no right to set up an inquisition, and examine into the private opinions of men. Test-laws are useless and ineffectual, unjust and tyrannical ; therefore the Convention have done wisely in excluding this engine of persecution, and providing that no religious test shall ever be required."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 7, note 1",
+      "pages": [],
+      "ref": "Landholder.7.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          180
+        ]
+      },
+      "text": "* See letter of William Williams in this collection. — Ed."
+    },
+    {
+      "label": "Landholder 8, ¶ 1",
+      "pages": [
+        "172"
+      ],
+      "ref": "Landholder.8.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          184
+        ]
+      },
+      "text": "When a man in public life first deviates from the line of truth and rectitude, an uncommon degree of art and attention becomes necessary to secure him from detection. Duplicity of conduct in him requires more than double caution, a caution which his former habits of simplicity have never furnished him the means of calculating; and his first leap into the region of treachery and falsehood is often as fatal to himself as it was designed to be to his country. Whether you and Mr. Mason may be ranked in this class of transgressors I pretend not to determine. Certain it is, that both your management and his for a short time before and after the rising of the fcederal convention impress us with a favorable opinion, that you are great novices in the arts of dissimulation. A small degree of forethought would have taught you both a much more successful method of directing the rage of resentment which you caught at the close of the business at Philadelphia, than the one you took. You ought to have considered that you reside in regions very distant from each other, where different parts were to be acted, and then made your cast accordingly.",
+      "uncertain": [
+        {
+          "end": 669,
+          "readings": {
+            "brittle": "foederal",
+            "google": "foederal",
+            "primary": "fcederal"
+          },
+          "start": 661
+        }
+      ]
+    },
+    {
+      "label": "Landholder 8, ¶ 2",
+      "pages": [
+        "172"
+      ],
+      "ref": "Landholder.8.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          184,
+          185
+        ]
+      },
+      "text": "Mr. Mason was certainly wrong in telling the world that he acted a double part — he ought not to have published two setts of reasons for his dissent to the constitution. His New England reasons would have come better from you. He ought to have contented himself with haranguing in the southern states, that it was too popular, and was calculated too much for the advantage of the eastern states. At the same time you might have come on, and in the Coffee-House at New York you might have found an excellent sett of objections ready made to your hand, a sett that with very little alteration would have exactly suited the latitude of New England, the whole of which district ought most clearly to have been submitted to your protection and patronage. A Lamb, a Willet, a Smith, a Clinton, a Yates,* or any other gentleman whose salary is paid by the state impost, as they had six months the start of you in considering the subject, would have furnished you with a good discourse upon the \" liberty of the press,\" the \" bill of rights,\" the \" blending of the executive and legislative,\" \" internal taxation,\" or any other topic which you did not happen to think of while in convention."
+    },
+    {
+      "label": "Landholder 8, ¶ 3",
+      "pages": [
+        "174"
+      ],
+      "ref": "Landholder.8.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          185,
+          186
+        ]
+      },
+      "text": "It is evident that this mode of proceeding would have been well calculated for the security of Mr. Mason; he there might have vented his antient enmity against the independence of America, and his sore mortification for the loss of his favorite motion respecting the navigation act, and all under the mask of sentiments, which with a proper caution in expressing them, might have gained many adherents in his own state. But, although Mr. Mason's conduct might have been easily guarded in this particular, your character would not have been entirelysafe even with the precaution above mentioned. Your policy. Sir, ought to have led you one step farther back. You have been so precipitate and unwary in your proceedings, that it will be impossible to set you right, even in idea, without recurring to previous transactions and recalling to your view the whole history of your conduct in the convention, as well as the subsequent display of patriotism contained in your publication. I undertake this business, not that I think it possible to help you out of your present embarassments ; but, as those transactions have evidently slipt your memory, the recollection of the blunder into which your inexperience has betrayed you, may be of eminent service in forming future schemes of popularity, should the public ever give you another opportunity to traduce and deceive them."
+    },
+    {
+      "label": "Landholder 8, ¶ 4",
+      "pages": [
+        "174",
+        "75"
+      ],
+      "ref": "Landholder.8.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          186,
+          187
+        ]
+      },
+      "text": "You will doubtless recollect the following state of facts — if you do not, every member of the convention will attest them — that almost the whole time during the setting of the convention, and until the constitution had received its present form, no man was more plausible and conciliating upon every subject than Mr. Gerry — he was willing to sacrifice every private feeling and opinion— to concede every state interest that should be in the least incompatible with the most substantial and permanent system of general government — that mutual concession and unanimity were the whole burden of his song ; and although he originated no idea himself, yet there was nothing in the system as it now stands to which he had the least objection — indeed, Mr. Gerry's conduct was agreeably surprising to all his acquaintance, and very unlike that turbulent obstinacy of spirit which they had formerly affixed to his character. Thus stood Mr. Gerry, till toward the close of the business, he introduced a motion respecting the redemption of the old Continental Money — that it should be placed upon a footing with other liquidated securities of the Uuited States.* As Mr. Gerry was supposed to be possessed of large quantities of this species of paper, his motion appeared to be founded in such barefaced selfishness and injustice, that it at once accounted for all his former plausibility and concession, while the rejection of it by the convention inspired its author with the utmost rage and intemperate opposition to the whole system he had formerly praised. His resentment could no more than embarrass and delay the completion of the business for a few days; when he refused signing the constitution and was called upon for his reasons. These reasons were committed to writing by one of his colleagues and likewise by the Secretary, as Mr, Gerry delivered them.f These reasons were totally different from those which he has published, neither was a single objection which is tained in his letter to the legislature of Massachusetts ever offered by him in convention."
+    },
+    {
+      "label": "Landholder 8, ¶ 5",
+      "pages": [
+        "75"
+      ],
+      "ref": "Landholder.8.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          187
+        ]
+      },
+      "text": "Now, Mr. Gerry, as this is generally known to be the state of facts, and as neither the reasons which you publish nor those retained on the Secretary's files can be supposed to have the least affinity to truth, or to contain the real motives which induced you to withold your name from the constitution, it appears to me that your plan was not judiciously contrived. When we act without principle, we ought to be prepared against embarrassments. You might have expected some difficulties in realizing your continental money; indeed the chance was rather against your motion, even in the most artful shape in which it could have been proposed. An experienced hand would therefore have laid the whole plan beforehand, and have guarded against a disappointment. You should have begun the business with doubts, and expressed your sentiments with great ambiguity upon every subject as it passed. This method would have secured you many advantages. Your doubts and ambiguities, if artfully managed, might have passed, like those of the Delphic Oracle, for wisdom and deliberation ; and at the close of the business you might have acted either for or against 'the constitution, according to the success of your motion, without appearing dishonest or inconsistent with yourself One farther precaution would have brought you off clear."
+    },
+    {
+      "label": "Landholder 8, ¶ 6",
+      "pages": [
+        "75"
+      ],
+      "ref": "Landholder.8.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          187
+        ]
+      },
+      "text": "Instead of waiting till the convention rose, before you consulted your friends at New York, you ought to have applied to them at an earlier period, to know what objections you should make. They could have instructed you as well in August as October."
+    },
+    {
+      "label": "Landholder 8, ¶ 7",
+      "pages": [
+        "75"
+      ],
+      "ref": "Landholder.8.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          187
+        ]
+      },
+      "text": "With these advantages you might have past for a complete politician, and your duplicity might never have been detected."
+    },
+    {
+      "label": "Landholder 8, ¶ 8",
+      "pages": [
+        "75"
+      ],
+      "ref": "Landholder.8.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          187
+        ]
+      },
+      "text": "The enemies of America have always been extremely unfortunate in concerting their measures. They have generally betrayed great ignorance of the true spirit and feeling of the country, and they have failed to act in concert with each other. This is uniformly conspicuous, from the first Bute Parliament in London to the last Shays Parliament at Pelham."
+    },
+    {
+      "label": "Landholder 8, ¶ 9",
+      "pages": [],
+      "ref": "Landholder.8.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          188
+        ]
+      },
+      "text": "The conduct of the enemies of the new constitution compares with that of the other enemies above mentioned only in two particulars, its object and its tendency."
+    },
+    {
+      "label": "Landholder 8, ¶ 10",
+      "pages": [],
+      "ref": "Landholder.8.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          188
+        ]
+      },
+      "text": "Its object was self interest built on the ruins of the country, and its tendency is the disgrace of its authors and the final prosperity of the same country they meant to depress. Whether the constitution will be adopted at the first trial in the conventions of nine states is at present doubtful. It is certain, however, that its enemies have great difficulties to encounter arising from their disunion : in the different states where the opposition rages the most, their principles are totally opposite to each other, and their objections discordant and irreconcilable, so that no regular system can be formed among you, and you will betray each other's motives."
+    },
+    {
+      "label": "Landholder 8, ¶ 11",
+      "pages": [],
+      "ref": "Landholder.8.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          188,
+          189
+        ]
+      },
+      "text": "In Massachusetts the opposition began with you, and from motives most pitifully selfish and despicable, you addressed yourself to the feelings of the Shays faction, and that faction will be your only support. In New York the opposition is not to this constitution in particular, but to the federal impost, it is confined wholly to salary-men and their connections, men whose salary is paid by the state impost. This class of citizens are endeavoring to convince the ignorant part of the community that an annual income of fifty thousand pounds, extorted from the citizens of Massachusetts, Connecticut and New Jersey, is a great blessing to the state of New York. And although the regulalation of trade and other advantages of a federal government would secure more than five times that sum to the people of that state, yet, as this would not come through the same hands, these men find fault with the constitution. In Pennsylvania the old quarrel respecting their state constitution has thrown the state into parties for a number of years. One of these parties happened to declare for the new federal constitution, and this was a sufficient motive for the other to oppose it ; the dispute there is not upon the merits of the subject, but it is their old warfare carried on with different weapons, and it was an even chance that the parties had taken different sides from what they have taken, for there is no doubt but either party would sacrifice the whole country to the destruction of their enemies. In Virginia the opposition wholly originated in two principles ; the madness of Mason, and the enemity of the Lee faction to General Washington. Had the General not attended the convention nor given his sentiments respecting the constitution, the Lee party would undoubtedly have supported it, and Col. Mason would have vented his rage to his own negroes and to the winds. In Connecticut, our wrongheads are few in number and feeble in their influence. The opposition here is not one-half so great to the federal government as it was three years ago to the federal impost, and the faction, such as it is, is from the same blindfold party."
+    },
+    {
+      "label": "Landholder 8, ¶ 12",
+      "pages": [],
+      "ref": "Landholder.8.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          189
+        ]
+      },
+      "text": "I thought it my duty to give you these articles of information, for the reasons above mentioned. Wishing you more caution and better success in your future manoeuvers, I have the honor to be, Sir, with great respect, your very humble servant."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 8, note 1",
+      "pages": [],
+      "ref": "Landholder.8.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          185
+        ]
+      },
+      "text": "*John I^mb, Marinus Willetts, Melancthon Smith, George Clinton and Robert or Abraham Yates, the principal anti-federalists of New York. — Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 8, note 2",
+      "pages": [
+        "174"
+      ],
+      "ref": "Landholder.8.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          186
+        ]
+      },
+      "text": "*See counter-statements of Gerry and Martin in their answers. — Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 8, note 3",
+      "pages": [
+        "174"
+      ],
+      "ref": "Landholder.8.fn3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          186
+        ]
+      },
+      "text": "Cf. Papers of James Madison, III, 1595."
+    },
+    {
+      "label": "Landholder 9, ¶ 1",
+      "pages": [],
+      "ref": "Landholder.9.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          190
+        ]
+      },
+      "text": "When the deputies of a free people are met to deliberate on a constitution for their country; they must find themselves in a solemn situation. Few persons realize the greatness of this business, and none can certainly determine how it will terminate. A love of liberty in which we have all been educated, and which your country expects on you to preserve sacred, will doubtless make you careful not to lay such foundations as will terminate in despotism. Oppression and a loss of liberty arise from very different causes, and which at first blush appear totally different from another."
+    },
+    {
+      "label": "Landholder 9, ¶ 2",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.9.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          190,
+          191,
+          192
+        ]
+      },
+      "text": "If you had only to guard against vesting an undue power in certain great officers of state your work would be comparatively easy. This some times occasions a loss of liberty, but the history of nations teacheth us that for one instance from this cause, there are ten from the contrary, a want of necessary power in some public department to protect and to preserve the true interests of the people. America is at this moment in ten -fold greater danger of slavery than ever she was from the councils of a British monarchy, or the triumph of British arms. She is in danger from herself and her own citizens, not from giving too much, but from denying all power to her rulers — not from a constitution on despotic principles, but from having no constitution at all. Should this great effort to organize the empire prove abortive, heaven only knows the situation in which we shall find ourselves ; but there is reason to fear it will be troublesome enough. It is awful to meet the passions of a people who not only believe but feel themselves uncontrouled — who not finding from government the expected protection of their interests, tho' otherwise honest, become desperate, each man determining to share by the spoils of anarchy, what he would wish to acquire by industry under an efficient national protection. It becomes the deputies of the people to consider what will be the consequence of a miscarriage in this business. Ardent expectation is waiting for its issue — all allow something is necessary — thousands of sufferers have stifled their rights in reverence to the public effort — the industrious classes of men are waiting with patience for better times, and should that be rejected on which they make dependance, will not the public convulsion be great ? Or if the civil state should survive the first effects of disappointment, what will be the consequences of slower operations? The men who have done their best to give relief, will despair of success, and gloomily determine that greater sufferings must open the eyes of the deluded — the men who oppose, tho' they may claim a temporary triumph, will find themselves totally unable to propose, and much less to adopt a better system ; the narrowness of policy that they have pursued will instantly appear more ridiculous than at present, and the triumph will spoil that importance, which nature designed them to receive not by succeeding, but by impeding national councils. These men cannot, therefore, be the saviours of their country. While those who have been foremost in the political contention disappear either thro' despondence or neglect, every man will do what is right in his own eyes and his hand will be against his neighbor — industry will cease — the states will be filled with jealousy — some opposing and others endeavoring to retaliate — a thousand existing factions, and acts of public injustice, thro' the temporary influence of parties, will prepare the way for chance to erect a government, which might now be established by deliberate wisdom. When government thus arises, it carries an iron hand."
+    },
+    {
+      "label": "Landholder 9, ¶ 3",
+      "pages": [],
+      "ref": "Landholder.9.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          192
+        ]
+      },
+      "text": "Should the states reject a union upon solid and efficient principles, there needs but some daring genius to step forth, and impose an authority which future deliberation never can correct. Anarchy, or a want of such government as can protect the interests of the subjects against foreign and domestic injustice, is the worst of all conditions. It is a condition which mankind will not long endure. To avoid its distress they will resort to any standard which is erected, and bless the ambitious usurper as a messenger sent by heaven to save a miserable people. We must not depend too much on the enlightened state of the country; in deliberation this may preserve us, but when deliberation proves abortive, we are immediately to calculate on other principles, and enquire to what may the passions of men lead them, when they have deliberated to the utmost extent of patience, and been foiled in every measure, by a set of men who think their emoluments more safe upon a partial system, than upon one which regards the national good."
+    },
+    {
+      "label": "Landholder 9, ¶ 4",
+      "pages": [],
+      "ref": "Landholder.9.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          192,
+          193
+        ]
+      },
+      "text": "Politics ought to be free from passion — we ought to have patience for a certain time with those who oppose a federal system. But have they not been indulged until the state is on the brink of ruin, and they appear stubborn in error ? Have they not been our scourge and the perplexers of our councils for many years? Is it not thro' their policy that the state of New York draws an annual tribute of forty thousand pounds from the citizens of Connecticut? Is it not by their means that our foreign trade is ruined, and the farmer unable to command a just price for his commodities ? The enlightened part of the people have long .seen their measures to be destructive, and it is only the ignorant and jealous who give them support. The men who oppose this constitution are the same who have been unfederal from the beginning. They were as unfriendly to the old confedation as to the system now proposed, but bore it with more patience because it was wholly inefficacious. They talk of amendments— of dangerous articles which must be corrected — that they will heartily join in a safe plan of federal government; ; but when we look on their past conduct can we think them sincere? Doubtless their design is to procrastinate, and by this carry their own measures ; but the artifice must not succeed. The people are now ripe for a government which will do justice to their interests, and if the honourable convention deny them, they will despair of help. They have shewn a noble spirit in appointing their first citizens for this business — when convened you will constitute the most august assembly that were ever collected in the State, and your duty is the greatest that can be expected from men, the salvation of your country. If coolness and magnanimity of mind attend your deliberations, all little objections will vanish, and the world will be more astonished by your political wisdom than they were by the victory of your arms."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 9, note 1",
+      "pages": [],
+      "ref": "Landholder.9.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          190
+        ]
+      },
+      "text": "*The Convention of Connecticut, which was to meet Jan. 4. — Ed"
+    },
+    {
+      "label": "Landholder 10, ¶ 1",
+      "pages": [
+        "182",
+        "83",
+        "184",
+        "1",
+        "1"
+      ],
+      "ref": "Landholder.10.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          194,
+          195,
+          196,
+          197,
+          198,
+          199
+        ]
+      },
+      "text": "I have just met with your performance in favour of the Honourable Mr. Gerry, published in the Maryland Journal of the i8th January, 1788. As the Public may be ignorant of the Sacrifice you have made of your resentments on this occasion, you will excuse me for communicating what your extreme modesty must have induced you to conceal. You, no doubt, remember that you and Mr. Gerry never voted alike in Convention, except in the instances I shall hereafter enumerate. He uniformly opposed your principles, and so far did you carry your abhorrence of his politics, as to inform certain members to be on their guard against his wiles, so that, he and Mr. Mason held private meetings, where plans were concerted \" to aggrandise, at the expence of the small States, Old Massachusetts and the Ancient Dominion.\" After having thus opposed him and accused him, to appear his Champion and intimate acquaintance, has placed you beyond the reach of ordinary panegyric. Having done this justice to your magnanimity, I cannot resist drawing the veil of the Convention a little farther aside ; not, I assure you, with any intention to give pain to your Constituents, but merely to induce them to pity you for the many piercing mortifications you met with in the discharge of your duty. The day you took your seat* must be long remembered by those who were present ; nor will it be possible for you to forget the astonishment your behaviour almost instantaneously produced. You had scarcely time to read the propositions which had been agreed to after the fullest investigation, when, without requesting information, or to be let into the reasons of the adoption of what you might not approve, you opened against them in a speech which held during two days, and which might have continued two months, but for those marks of fatigue and disgust you saw strongly expressed on whichever side of the house you turned your mortified eyes. There needed no other display to fix your character and the rank of your abilities, which the Convention would have confirmed by the most distinguished silence, had not a certain similarity in genius provoked a sarcastic reply from the pleasant Mr. Gerry; in which he admired the strength of your lungs and your profound knowledge in the first principles of government; mixing and illustrating his little remarks with a profusion of those hems, that never fail to lengthen out and enliven his oratory. This reply (from'your intimate acquaintance), the match being so equal and the contrast so comic, had the happy effect to put the house in good humor, and leave you a prey to the most humiliating reflections. But this did not teach you to bound your future speeches by the lines of moderation ; for the very next day you exhibited without a blush another specimen of eternal volubility. It was not, however, to the duration of your speeches you owed the perfection of your reputation. You, alone, advocated the political heresy, that the people ought not to be trusted with the election of representatives. f You held the jargon, that notwithstanding each state had an equal number of votes in the Senate, yet the states were unequally represented in the Senate. You espoused the tyrannic principle, that where a State refused to comply with a requisition of Congress for money, that an army should be marched into its bowels, to fall indiscriminately upon the property of the innocent and the guilty, instead of having it collected as the Constitution proposed, by the mild and equal operation of laws. One hour you sported the opinion that Congress, afraid of the militia resisting their measures, would neither arm nor organize them, and the next, as if men required no time to breathe between such contradictions, that they would harass them by long and unnecessary marches, till they wore down their spirit and rendered them fit subjects for despotism. You, too, contended that the powers and authorities of the new Constitution must destroy the liberties of the people ; but that the same powers and authorities might be safely trusted with the Old Congress. You cannot have forgotten, that by such ignorance in politics and contradictory opinions, you exhausted the politeness of the Convention, which at length prepared to slumber when you rose to speak ; nor can you have forgotten, you were only twice appointed a member of a Committee, or that these appointments were made merely to avoid your endless garrulity, and if possible, lead you to reason, by the easy road of familiar conversation. But lest you should say that I am a record only of the bad, I shall faithfully recognize whatever occurred to your advantage. You originated that clause in the Constitution which enacts, that \" This Constitution and the laws of the United States which shall be made in pursuance thereof, and all treaties made or which shall be made, under the authority of the United States, shall be the supreme law of the land, and the judges in every State shall be bound thereby, anything in the Constitution or the law of any State to the contrary notwithstanding.\" You voted that an appeal should lay to the Supreme Judiciary of the United States, for the correction of all errors, both in law and fact. You also agreed to the clause that declares nine States to be sufficient to put the government in motion.* These are among the greater positive virtues you exhibited in the Convention ; but it would be doing you injustice were I to omit those of a negative nature. Since the publication of the Constitution, every topic of vulgar declamation has been employed to persuade the people, that it will destroy the trial by jury, and is defective for being without a bill of rights. You, sir, had more candour in the Convention than we can allow to those declaimers out of it; there you never signified by any motion or expression whatever, that it stood in need of a bill of rights, or in any wise endangered the trial by jury. In these respects the Constitution met your entire approbation ; for had you believed it defective in these essentials, you ought to have mentioned it in Convention, or had you thought it wanted further guards, it was your indispensable duty to have proposed them. I hope to hear that the same candour that influenced you on this occasion, has induced you to obviate any improper impressions such publications may have excited in your constituents, when you had the honor to appear before the General Assembly.* From such high instances of your approbation (for every member, like you, had made objections to parts of the Constitution) the Convention were led to conclude that you would have honored it with your signature, had you not been called to Maryland upon some indispensable business ; nor ought it to be withheld from you, that your colleagues informed many Gentlemen of the House, that you told them you intended to return before its completion. Durst I proceed beyond these facts, to which the whole Convention can witness, I would ask you why you changed your opinion of the Constitution after leaving Philadelphia. I have it from good authority that you complained to an intimate acquaintance, that nothing grieved you so much as the apprehension of being detained in Maryland longer than you could wish ; for that you had rather lose one hundred guineas, than not have your name appear to the Constitution. But as this circumstance seems to have been overlooked when you composed your defence of Mr. Gerry, you may have your recollection of it revived by applying to Mr. Young, of Spruce street, Philadelphia, to whom you made your complaint. But leaving this curious piece of human vanity to such further investigation as you may think it deserves, let us come to those matters more particularly between us. You have said, that you \" never heard Mr. Gerry, or any other member, introduce a proposition for the redemption of Continental money according to its nominal or any other value ; nor did you ever hear that such a proposition had been offered to the Convention, or had been thought of\" That the Public may clearly comprehend what degree of credit ought to be given to this kind of evidence, they should know the time you were absent from the Convention, as well as the time you attended. If it should appear that you were only a few days absent, when unimportant business was the object, they will conclude in your favour, provided they entertain a good opinion of your veracity ; on the other hand, should it appear that you were absent nearly half the session, however your veracity may be esteemed, they must reject your evidence. As you have not stated this necessary information, I shall do it for you. The Session of Convention commenced the 14th of May, and ended the 17th of September, which makes 126 days. You took your seat the loth of June, * and left it the 4th of September, of which period you were absent at Baltimore ten days, and as many at New York, so that you attended only 66 days out of 126. Now, sir, is it to be presumed that you could have been minutely informed of all that happened in Convention, and committees of Convention, during the 60 days of your absence ? or does it follow by any rule of reasoning or logic, that because a thing did not happen in the 66 days you were present, that it did not happen in the 60 days which you did not attend ? Is it anywise likely that you could have heard what passed, especially during the last 13 days, within which period the Landholder has fixed the apostacy of Mr. Gerry ? or if it is likely that your particular intimacy with Mr. Gerry would stimulate to inquiries respecting his conduct, why is it that we do not see Mr. McHenry's verification of your assertion, who was of the Committee for considering a proposition for the debts of the union ? Your reply to my second charge against this gentleman may be soon dismissed. Compare his letter to the Legislature of his State with your defence, and you will find that you have put into his mouth objections different from anything it contains, so that if your representation be true, his must be false. But there is another circumstance which militates against your new friend. Though he was face to face with his colleagues at the State Convention of Massachusetts,* he has not ventured to call upon them to clear him either of this charge, or that respecting the Continental money. But as the Public seemed to require that something should be said on this occasion, an anonymous writer denies that he made such a motion, and endeavours to abate the force of my second allegation, merely by supposing that \" his colleagues were men of too much honor to assert that his reasons in Convention were totally different from those which he has published.\"",
+      "uncertain": [
+        {
+          "end": 122,
+          "readings": {
+            "brittle": "18th",
+            "google": "i8th",
+            "primary": "i8th"
+          },
+          "start": 118
+        },
+        {
+          "end": 9673,
+          "readings": {
+            "brittle": "Henry's",
+            "google": "Henry's",
+            "primary": "McHenry's"
+          },
+          "start": 9664
+        }
+      ]
+    },
+    {
+      "label": "Landholder 10, ¶ 2",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.10.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          199,
+          200
+        ]
+      },
+      "text": "But alas, his colleagues would not acquit him in this way, and he was of too proud a spirit to ask them to do it in person.f Hence the charge remains on its original grounds, while you, for want of proper concert, have joined his accusers and reduced him to the humiliating necessity of endeavouring to stifle your justification. These points being dismissed, it remains only to reconcile the contradictory parts you have acted on the great political stage. You entered the convention without a sufficient knowledge in the science of government, where you committed a succession of memorable blunders, as the work advanced. Some rays of light penetrated your understanding, and enabled you (as has been shown) to assist in raising some of its pillars, when the desire of having your name enrolled with the other laborers drew from you that remarkable complaint so expressive of vanity and conviction. But self-interest soon gained the ascendant, you quickly comprehended the delicacy of your situation, and this restored your first impressions in all their original force. You thought the Deputy Attorney General of the United States for the state of Maryland, destined for a different character, and that inspired you with the hope that you might derive from a desperate opposition what you saw no prospect of gaining by a contrary conduct. But I will venture to predict, that though you were to double your efforts, you would fail in your object. I leave you now to your own reflections, under a promise, however, to give my name to the public, should you be able to procure any indifferent testimony to contradict a single fact I have stated."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 10, note 1",
+      "pages": [
+        "182"
+      ],
+      "ref": "Landholder.10.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          194
+        ]
+      },
+      "text": "*The Landholder, IV — VIII, were reprinted in T/ie Maryland Journal, and the attack on Gerry in them, drew from Luther Martin a defence of that gentleman, which is printed in this collection. To that the Landholder replied as above, but this one of the series was not printed in The Connecticut Courant, its place being taken by the number X., printed immediately after this letter. — Ed.",
+      "uncertain": [
+        {
+          "end": 50,
+          "readings": {
+            "brittle": "The",
+            "google": "T^",
+            "primary": "T/ie"
+          },
+          "start": 46
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 10, note 2",
+      "pages": [
+        "83"
+      ],
+      "ref": "Landholder.10.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          195
+        ]
+      },
+      "text": "*June 9. — Ed.",
+      "uncertain": [
+        {
+          "end": 8,
+          "readings": {
+            "primary": "9."
+          },
+          "start": 6
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 10, note 3",
+      "pages": [
+        "83"
+      ],
+      "ref": "Landholder.10.fn3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          195
+        ]
+      },
+      "text": "\\ This is a misstatement. The motion to elect representatives as the state legislature should direct was made by C. C. Pinckney, was. second eil by Martin, and approved of by Sherman, and on being put to a vote was favored by Connecticut, New Jersey, Delaware and South Carolina. Cf. Papers of James Madison, n.,925. — EJ.",
+      "uncertain": [
+        {
+          "end": 144,
+          "readings": {
+            "brittle": "seconded",
+            "google": "seconded",
+            "primary": "second eil"
+          },
+          "start": 134
+        },
+        {
+          "end": 316,
+          "readings": {
+            "primary": "n.,925."
+          },
+          "start": 309
+        },
+        {
+          "end": 322,
+          "readings": {
+            "brittle": "Ed,",
+            "primary": "EJ."
+          },
+          "start": 319
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 10, note 4",
+      "pages": [
+        "184"
+      ],
+      "ref": "Landholder.10.fn4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          196
+        ]
+      },
+      "text": "* Mr. Gerry agreed with Mr. Martin on these questions."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 10, note 5",
+      "pages": [],
+      "ref": "Landholder.10.fn5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          197
+        ]
+      },
+      "text": "* By direction of the General Assembly of Maryland, Martin reported the proceedings of the federal Convention to them, and this was afterwards printed in pamphlet form under the title of Genuine Information. — Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 10, note 6",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.10.fn6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          198
+        ]
+      },
+      "text": "* June 9, according to Madison, the Journal and Martin's Genuine Information. -Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 10, note 7",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.10.fn7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          199
+        ]
+      },
+      "text": "* Gerry, though defeated in an election to the Massachusetts Convention, was invited by them to attend, in order to furnish information to the members. — Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 10, note 8",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.10.fn8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          199
+        ]
+      },
+      "text": "to prevent any misconstruction the following is the publication entire :"
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 10, note 9",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.10.fn9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          199
+        ]
+      },
+      "text": "[This note is by the Landholder, and is followed by the article already printed at p. 127. It therefore seems unnecessary to add it here. — Ed.] I will not say this writer makes a distinction between a thing done in convention and a thing done in committee. Be this as it may, he confesses more than Mr. Martin ; for it seems that Mr. Gerry proposed that \" the public debt should stand on the same ground it now stands on by the articles of confederation.\" He might have subjoined that Mr. Gerry prefaced this motion by observing that it was the same in substance as his first, in as much as it included his first. But notwithstanding this motion was readily agreed to without his explanation being contradicted, yet he never afterwards favoured the convention with a look of peace, or a word of reconcilement."
+    },
+    {
+      "label": "Landholder 10b, ¶ 1",
+      "pages": [
+        "189"
+      ],
+      "ref": "Landholder.10b.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          201
+        ]
+      },
+      "text": "The opposition in your state to the new federal constitution, is an event surprising to your New England brethren, yet we are not disposed to criminate a people, which made such gallant efforts in the establishment of the American Empire. It is the prerogative of freemen to determine their own form of government, and if this constitution is not addressed to your interest, if it is not calculated to preserve your freedom and make you glorious, we wish you not to accept it. We have fought by your side, we have long been connected in interest, and with many of you by consanguinity, and wish that you may share with us in all the benefits of a great and free empire. Brethren who differ in their opinions how a common interest may be best governed, ought to deliberate with coolness, and not wantonly accuse each other, either of folly or design. Massachusetts and Connecticut have decidedly judged the new government well calculated not only for the whole but for the northern states. Either you or these states have judged wrong. Your interests are similar to theirs, and cannot be separated from them without counteracting nature."
+    },
+    {
+      "label": "Landholder 10b, ¶ 2",
+      "pages": [],
+      "ref": "Landholder.10b.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          202
+        ]
+      },
+      "text": "If there be any one state more interested than the others in the adoption of this system, it is New Hampshire. Your local situation, which can never be altered, is a solemn argument in its favor. Tho' separated from the government of Britain at no less price than the blood of your bravest sons, you border on her dominions. She is your enemy, and wishes nothing more than your submission to her laws, and to the will of her proud servants."
+    },
+    {
+      "label": "Landholder 10b, ¶ 3",
+      "pages": [],
+      "ref": "Landholder.10b.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          202,
+          203
+        ]
+      },
+      "text": "Her force may easily be pointed thro' your whole territory and a few regiments would effectually banish resistance. New Hampshire, tho' growing in population, and amongst the first states in personal bravery, cannot yet standalone. Should a disunion of the states tempt Britain to make another effort for recovering her former greatness, you will be the first to fall under her sway. In such case you will have nothing to expect from the other states. Dispirited with a fruitless attempt to unite in some plan of general government and protection, they will say, let the dissenting states abide the consequence of their own false opinions. Though such a reply might not be wise, it would be exactly comfortable to what we have ever found in human nature ; and nature will have its course, let policy be what it may. You are the northern barrier of the United States, and by your situation, must first meet any hostile animosity from that quarter designed against any part of them. It is certainly for the interest of a barrier country, to have a general government on such efficient principles, as can point the force of the whole for its relief when attacked. The old constitution could not do this ; that now under consideration, if accepted, we trust will produce a circulation of riches and the powers of protection to the most extreme parts of the body. On these principles it has generally been said that New Hampshire and Georgia would be amongst the first in adopting. Georgia has done it, not, perhaps, because they were more wise than New Hampshire, but being pressed with a dangerous war in the very moment of decision, they felt its necessity; and feeling is an argument none can resist. Trust not to any complaisance of those British provinces on your northern borders, or those artful men who govern them, who were selected on purpose to beguile your politicks, and divide and weaken the union. When the hour for a permanent connection between the states is past, the teeth of the Hon will be again made bare, and you must be either devoured, or become its jackal to hunt for prey in the other states.",
+      "uncertain": [
+        {
+          "end": 1998,
+          "readings": {
+            "brittle": "lion",
+            "google": "lion",
+            "primary": "Hon"
+          },
+          "start": 1995
+        }
+      ]
+    },
+    {
+      "label": "Landholder 10b, ¶ 4",
+      "pages": [],
+      "ref": "Landholder.10b.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          203
+        ]
+      },
+      "text": "We believe those among you who are opposed to the system, as honest and brave as any part of the community, and cannot suspect them of any design against American Independence ; but such persons ought to consider what will be the probable consequence of their dissent ; and whether this is not the only hour in which this community can be saved from a condition, which is, on all hands, allowed to be dangerous and unhappy. There are certain critical periods in which nations, as well as individuals, who have fallen into perplexity, by a wise exertion may save themselves and be glorious. Such is the present era in American policy, but if we do not see the hour of our salvation, there is no reason to expect that heaven will repeat it. The unexpected harmony of the federal Convention — their mutual condescension in the reconcilement of jarring interests and opposing claims between the several States — the formation of a system so efficient in appearance, at the same time so well guarded against an oppression of the subject — the concurring sentiments of avast majority thro' the United States, of those persons who have been most experienced in policy, and most eminent in wisdom and virtue ; are events which must be attributed to the special influence of heaven."
+    },
+    {
+      "label": "Landholder 10b, ¶ 5",
+      "pages": [],
+      "ref": "Landholder.10b.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          203
+        ]
+      },
+      "text": "To be jealous of our liberties is lawful, but jealously in excess is a deliriam [sic] of the imagination, by no means favourable to liberty. If you would be free and happy a power must be created to protect your persons and properties ; otherwise you are slaves to all mankind. Your British neighbors have long known these truths, and will not fail by their emissaries to seminate such jealousies as favor their own designs."
+    },
+    {
+      "label": "Landholder 10b, ¶ 6",
+      "pages": [],
+      "ref": "Landholder.10b.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          203
+        ]
+      },
+      "text": "To prophesy evil is ungrateful business ; but forgive me when I predict, that the adoption of this Constitution is the only probable means of saving the greatest part of your State from becoming an appendage of Canada or Nova Scotia. In some future paper I shall assign other reasons why New Hampshire, more than any other State, is interested in this event."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 10b, note 1",
+      "pages": [
+        "189"
+      ],
+      "ref": "Landholder.10b.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          201
+        ]
+      },
+      "text": "♦This number duplicates the preceding one, for an explanation of which see the foot-note to the first Number X. — Eii.",
+      "uncertain": [
+        {
+          "end": 118,
+          "readings": {
+            "primary": "Eii."
+          },
+          "start": 114
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 10b, note 2",
+      "pages": [
+        "189"
+      ],
+      "ref": "Landholder.10b.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          201
+        ]
+      },
+      "text": "— The convention of New Hampshire had met on the 13 of June, and after a discussion of seven days, had adjourned without voting upon the constitution. — Ed."
+    },
+    {
+      "label": "Landholder 11, ¶ 1",
+      "pages": [
+        "192"
+      ],
+      "ref": "Landholder.11.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          204
+        ]
+      },
+      "text": "Those who wish to enjoy the blessings of society must be willing to suffer some restraint of personal liberty, and devote some part of their property to the public that the remainder may be secured and protected. The cheapest form of government is not always best, for parsimony, though it spends little, generally gains nothing. Neither is that the best government which imposes the least restraint on its subjects ; for the benefit of having others restrained may be greater than the disadvantage of being restrained ourselves. That is the best form of government which returns the greatest number of advantages in proportion to the disadvantages with which it is attended."
+    },
+    {
+      "label": "Landholder 11, ¶ 2",
+      "pages": [
+        "192"
+      ],
+      "ref": "Landholder.11.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          204
+        ]
+      },
+      "text": "Measured by this rule, the state of New Hampshire cannot expect a Constitution preferable to that now proposed for the union. In point of defence it gives you the whole force of the empire, so arranged as to act speedily and in concert, which is an article of greatest importance to the frontier states. With the present generation of men, national interest is the measure by which war or peace are determined ; and when we see the British nation, by a late treaty, paying an enormous annual subsidy to the little principality of Hesse- Cassel for the purpose of retaining her in military alliance, it should teach us the necessity of those parts in the Constitution which enable the efficient force of the whole to be opposed to an invasion of any part."
+    },
+    {
+      "label": "Landholder 11, ¶ 3",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.11.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          205
+        ]
+      },
+      "text": "A national revenue and the manner of collecting it is another very interesting matter, and here the citizens of New Hampshire have better terms offered them, than their local situation can ever enable them to demand or enforce. Impost and duties on trade, which must be collected in the great importing towns, are the means by which an American revenue will be principally, and perhaps wholly raised. But a point of your state comes near the sea, and that point so situated that it never can collect commerce, and become an emporium for the whole state. Nineteen parts in twenty of New Hampshire are greatly inland, so that local situation necessitates you to be an agricultural people ; and this is not a hard necessity, if you now form such a political connection with other states, as will entitle you to a just share in that revenue they raise on commerce. New York, the trading towns on Connecticut River, and Boston, are the sources from which a great part of your foreign supplies will be obtained, and where your produce will be exposed for market."
+    },
+    {
+      "label": "Landholder 11, ¶ 4",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.11.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          205
+        ]
+      },
+      "text": "In all these places an impost is collected, of which, as consumers, you pay a share without deriving any public benefit. You cannot expect any alteration in the private systems of these states, unless effected by the proposed governments, neither to remedy the evil can you command trade from the natural channels, but must sit down contented under the burden, if the present hour of deliverance be not accepted. This argument alone, if there were no other, ought to decide you in favour of adoption."
+    },
+    {
+      "label": "Landholder 11, ¶ 5",
+      "pages": [
+        "1"
+      ],
+      "ref": "Landholder.11.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          205
+        ]
+      },
+      "text": "It has been said that you object to the number of inhabitants being a ratio to determine your proportion of the national expence — that your lands are poor, but the climate favourable to population, which will draw a share of expence beyond your ability to pay. I do not think this objection well founded. Long experience hath taught that the number of industrious inhabitants in any climate is not only the strength, but the wealth of a state, and very justly measures their ability of defraying public expences, without encroaching on the necessary support of life."
+    },
+    {
+      "label": "Landholder 11, ¶ 6",
+      "pages": [
+        "1",
+        "194"
+      ],
+      "ref": "Landholder.11.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          205,
+          206
+        ]
+      },
+      "text": "If a great proportion of your lands are barren, you ought likewise to remember another rule of nature ; that the population and fertility in many tracts of country will be proportioned to each other. Accidental causes for a short time may interrupt the rule, but they cannot be of dangerous continuance. Force may controul a despotic government, and commerce may interrupt it in an advantageous situation for trade ; but from the first of these causes you have no reason to fear, and the last, should it happen, will increase wealth with numbers."
+    },
+    {
+      "label": "Landholder 11, ¶ 7",
+      "pages": [
+        "194"
+      ],
+      "ref": "Landholder.11.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          206
+        ]
+      },
+      "text": "The fishery is a source of wealth and an object of immense consequence to all the eastern coasts. The jealousy of European nations ought to teach us its value. So far as you become a navigating people, the fishery should be an object of your first attention. It cannot flourish until patronized and protected by the general government. All the interests of navigation and commerce must be protected by the union or come to ruin, and in our present system where is the power to do it ?"
+    },
+    {
+      "label": "Landholder 11, ¶ 8",
+      "pages": [
+        "194"
+      ],
+      "ref": "Landholder.11.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          206
+        ]
+      },
+      "text": "When Americans are debarred the fishery, as will soon be the case unless a remedy is provided, all the eastern shores will become miserably poor."
+    },
+    {
+      "label": "Landholder 11, ¶ 9",
+      "pages": [
+        "194"
+      ],
+      "ref": "Landholder.11.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          206
+        ]
+      },
+      "text": "Your forests embosom an immense quantity of timber for shipbuilding and the lumber trade, but of how little value at present you cannot be ignorant, and the value cannot increase until American navigation and commerce are placed on a respectable footing, which no single state can do for itself The embarrassments of trade lower the price of your produce, which with the distance of transportation almost absorbs the value ; and when by a long journey we have arrived at the place of market, even the finest of your grain will not command cash, at that season of the year most convenient for you to transport. Hence arises that scarcity of specie of which you complain. Your interest is intimately connected with that of the most commercial states, and you cannot separate it. When trade is embarrassed the merchant is the first to complain, but the farmer in event bears more than his share of the loss."
+    },
+    {
+      "label": "Landholder 11, ¶ 10",
+      "pages": [
+        "194"
+      ],
+      "ref": "Landholder.11.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          206
+        ]
+      },
+      "text": "Let the citizens of New Hampshire candidly consider these facts, and they must be convinced that no other state is so much interested in adopting that system of government now under consideration. A Landholder."
+    },
+    {
+      "label": "Landholder 11, ¶ 11",
+      "pages": [],
+      "ref": "Landholder.11.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          207
+        ]
+      },
+      "text": "The Landholder presents his most respectful compliments to Hon W. Williams,* and begs leave to remind him that many dispensations in this world, which have the appearance of judgment, are designed in goodness. Such was the short address to you, and though at first it might excite an exquisite sensibility of injury, will in its consequence prove to your advantage, by giving you an honorable opportunity to come out and declare your sentiments to the people. It had been represented in several parts of the state, to the great surprise of your friends, that you wished some religious test as an introduction to office, but as you have explained the matter, it is only a religious preamble which you wish — against preambles we have no animosity. Every man hath a sovereign right to use words in his own sense, and when he hath explained himself, it ought to be believed that he uses them conscientiously. The Landholder, for the sake of his honourable friend, regrets that he denies his having used his name publicly as a writer, for, though the honourable gentleman doubtless asserts the truth, there are a great number of those odd people who really think they were present on that occasion, and have such a strong habit of believing their senses, that they will not be convinced even by evidence which is superior to all sense. But it must be so in this imperfect world."
+    },
+    {
+      "label": "Landholder 11, ¶ 12",
+      "pages": [],
+      "ref": "Landholder.11.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          207
+        ]
+      },
+      "text": "P. S. The Landholder begs his honourable friend not to be surprised at his former address, as he can assure him most seriously, that he does not even conjecture by whom it was written."
+    },
+    {
+      "kind": "footnote",
+      "label": "Landholder 11, note 1",
+      "pages": [],
+      "ref": "Landholder.11.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          207
+        ]
+      },
+      "text": "* See Letter of William Williams in this Collection. — Ed."
+    },
+    {
+      "label": "Landholder 12, ¶ 1",
+      "pages": [
+        "196"
+      ],
+      "ref": "Landholder.12.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          208
+        ]
+      },
+      "text": "The singular system of policy adopted by your state, no longer excites either the surprise or indignation of mankind. There are certain extremes of iniquity, which are beheld with patience, from a fixed conviction that the transgressor is inveterate, and that his example from its great injustice hath no longer a seducing influence. Milton's lapse of the angels and their expulsion from Heaven, produces deeper regret in a benevolent mind than all the evil tricks they have played or torments they have suffered since the bottomless pit became their proper home. Something similar to this is excited in beholding the progress of hnman depravity. Our minds cannot bear to be always pained; the Creator hath, therefore wisely provided that our tender sentiments should subside, in those desperate cases where there is no longer a probability that any effort to which we may be excited, will have a power to reclaim. But though our benevolence is no longer distressed with the injustice of your measures, as philosophers above the feelings of passion, we can speculate on them to our advantage. The sentiment thrown out by some of our adventurous divines, that the permission of sin is the highest display of supreme wisdom, and the greatest blessing to the universe, is most successfully illustrated by the effects of your general policy."
+    },
+    {
+      "label": "Landholder 12, ¶ 2",
+      "pages": [
+        "97",
+        "198"
+      ],
+      "ref": "Landholder.12.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          209,
+          210
+        ]
+      },
+      "text": "In point of magnitude, your little state bears much the same proportion to the united American empire, as the little world doth to the immense intelligent universe ; and if the apostacy of man hath conveyed such solemn warning and instruction to the whole, as your councils have to every part of the union, no one will doubt the usefulness of Adam's fall. At the commencement, of peace, America was placed in a singular situation. Fear of a common danger could no longer bind us together ; patriotism had done its best and was wearied with exertion rewarded only by ingratitude — our federal system was inadequate for national government and justice, and from inexperience the great body of the people were ignorant what consequences should flow from the want of them. Experiments in public credit, though ruinous to thousands, and a disregard to the promises of government had been pardoned in the moment of extreme necessity, and many honest men did not realize that a repetition of them in an hour less critical would shake the existence of society. Men full of evil and desperate fortune were ready to propose every method of public fraud that can be effected by a violation of public faith and depreciating promises. This poison of the community was their only preservation from deferred poverty, and from prisons appointed to be the reward of indolence and knav'ery. An easement of the poor and necessitous was plead as a reason for measures which have reduced them to more extreme necessity. Most of the states have had their prejudices against an efficient and just government, and have made their experiments in a false policy; but it was done with a timorous mind, and seeing the evil they have receded. A sense of subordination and moral right was their check. Most of the people were convinced, and but few remained who wished to establish iniquity by law. To silence such opposition as might be made to the new constitution, it was fit that public injustice should be exhibited in its greatest degree and most extreme effects. For this end Heaven permitted your apostacy from all the principles of good and just government. By your system we see unrighteousness in the essence, in effects, and in its native miseries. The rogues ot every other state blush at the exhibition, and say you have betrayed them by carrying the matter too far. The very naming of your measures is a complete refutation of anti-federalism, paper money and tender acts, for no man chooses such company in argument."
+    },
+    {
+      "label": "Landholder 12, ¶ 3",
+      "pages": [
+        "198"
+      ],
+      "ref": "Landholder.12.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          210
+        ]
+      },
+      "text": "The distress to which many of your best citizens are reduced — the groans of ruined creditors, of widows and orphans, demonstrates that unhappiness follows vice by the unalterable laws of nature and society. I did not mention the stings of conscience, but the authors of public distress ought to remember that there is a world where conscience will not sleep."
+    },
+    {
+      "label": "Landholder 12, ¶ 4",
+      "pages": [
+        "198"
+      ],
+      "ref": "Landholder.12.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          210
+        ]
+      },
+      "text": "Is it now at length time to consider. The great end for which your infatuation was permitted is now become complete. The whole union has seen and fears, and while history gives true information, no other people will ever repeat the studied process of fraud. You may again shew the distorted features of injustice, but never in more lively colors, or by more able hands than has been done already. As virtue and good government has derived all possible advantage from your experiment, and every other state thanks you for putting their own rogues and fools out of countenance, begin to have mercy on yourselves. You may not expect to exist in this course any longer than is necessary for public good ; and there is no need that such a kind of warning as you set before us should be eternal. Secure as you may feel in prosecuting what all the rest of mankind condemn, the hour of your political revolution is at hand. The cause is within to yourselves, and needs but the permission of your neighbors to take its full effect. Every moral and social law calls for a review, and a volume of penal statutes cannot prevent it. They are in the first instance nullified by injustice, and five years hence not a man in your territories will presume their vindication. Passion and obstinacy, which were called in to aid injustice, have had their reign, and can support you no longer. By a change of policy give us evidence that you are returned to manhood and honour. The inventors of such councils can never be forgiven in this world, but the people at large who acted by their guidance may break from the connection and restore themselves to virtue."
+    },
+    {
+      "label": "Landholder 12, ¶ 5",
+      "pages": [
+        "198"
+      ],
+      "ref": "Landholder.12.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          210,
+          211
+        ]
+      },
+      "text": "There are among you legislators eminent, through the union lor their wisdom and integrity. Penetrated with grief and astonishment they stand in silence, waiting the return of your reason. They are the only men who can remove the impassable gulph that is between you and the rest of mankind. In your situation there must be some sacrifice. It is required by the necessity of the case, and for the dignity of government. You have guilty victims enough for whom even benevolence will not plead ; let them make the atonement and save your state. The large body of a people are rarely guilty of any crime greater than indiscretion, in following those who have no qualification to lead but an unblushing assurance infraud. Acknowledge the indiscretion, and leave those whom you have followed into the quicksands of death to the infamy prepared for them, and from which they cannot be reserved. Your situation admits no compounding of opposite systems, or halving with justice, but to make the cure there must be an entire change of measures. The Creator of nature and its laws made justice as necessary for nations as for individuals, and this necessity hath been sealed by the fate of all obstinate offenders. If you will not hear your own groans, nor feel the pangs of your own torture, it must continue until removed by a political annihilation. Such as do not pity themselves cannot be long be pitied."
+    },
+    {
+      "label": "Landholder 12, ¶ 6",
+      "pages": [],
+      "ref": "Landholder.12.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          211
+        ]
+      },
+      "text": "Determined that our feelings shall be no longer wounded by any thing to which despair may lead you, with philosophic coolness we wait to continue our speculations on the event."
+    },
+    {
+      "label": "Landholder 13, ¶ 1",
+      "pages": [
+        "200"
+      ],
+      "ref": "Landholder.13.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          212
+        ]
+      },
+      "text": "The attempt to amend our federal Constitution, which for some time past hath engrossed the public regard, is doubtless become an old and unwelcome topic to many readers, whose opinions are fixed, or who are concerned for the event. There are other subjects which claim a share of attention, both from the public and from private citizens. It is good government which secures the fruits of industry and virtue ; but the best system of government cannot produce general happiness unless the people are virtuous, industrious and economical."
+    },
+    {
+      "label": "Landholder 13, ¶ 2",
+      "pages": [
+        "200",
+        "201"
+      ],
+      "ref": "Landholder.13.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          212,
+          213
+        ]
+      },
+      "text": "The love of wealth is a passion common to men, and when justly regulated it is conducive to human happiness. Industry may be encouraged by good laws ; wealth may be protected by civil regulations ; but we are not to depend on these to create it for us, while we are indolent and luxurious. Industry is most favourable to the moral virtue of the world ; it is therefore wisely ordered by the Author of Nature, that the blessings of this world should be acquired by our own application in some business useful to society ; so that we have no reason to expect any climate or soil will be found, or any age take place, in which plenty and wealth will be spontaneously produced. The industry and labour of a people furnish a general rule to measure their wealth, and if we use the means we may promise ourselves the reward. The present state of America will limit the greatest part of its inhabitants to agriculture ; for as the art of tilling the earth is easily acquired, the price of land low, and the produce immedidiatcly necessary for life, greater encouragement to this is offered here than in any country on earth. But still suffer me to enquire whether we are not happily circumstanced and actually able to manage some principal manufactories with success, and increase our wealth by increasing the labour of the people, and saving the surplus of our earnings for a better purpose than to purchase the labour of the European nations. It is a remark often made, and generally believed, that in a country so new as this, where the price of land is low and the price of labour high, manufactories cannot be conducted with profit. This may be true of some manufactures, but of others it is grossly false. It is now in the power of New England to make itself more formidable to Great Britain by rivaling some of her principal manufactures, than ever it was by separating from her government. Woolen cloaths, the principal English manufacture, may more easily be rivaled than any other. Purchasing all the materials and labour at the common price of the country, cloths of three-quarters width, may be fabricated for six shillings per yard, of fineness and beauty equal to English cloths of six quarters width, which fell at twenty shillings. The cost of our own manufacture is little more than half of the imported, and for service it is allowed to be much preferable. It is found that our wool is of equal quality with the English, and that what we once supposed the defect in our wool, is only a deficiency in cleaning, sorting and dressing it.",
+      "uncertain": [
+        {
+          "end": 248,
+          "readings": {
+            "brittle": "lor",
+            "google": "tor",
+            "primary": "for"
+          },
+          "start": 245
+        },
+        {
+          "end": 1021,
+          "readings": {
+            "brittle": "diately",
+            "primary": "immedidiatcly"
+          },
+          "start": 1008
+        }
+      ]
+    },
+    {
+      "label": "Landholder 13, ¶ 3",
+      "pages": [
+        "201"
+      ],
+      "ref": "Landholder.13.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          213
+        ]
+      },
+      "text": "It gives me pleasure to hear that a number of gentlemen in Hartford and the neighboring towns are forming a fund for the establishment of a great woolen manufactory. The plan will doubtless succeed; and be more profitable to the stockholders that money deposited in trade. As the manufacture of cloths is introduced, the raising ot wool and flax, the raw materials, will become an object of the farmer's attention.",
+      "uncertain": [
+        {
+          "end": 331,
+          "readings": {
+            "brittle": "of",
+            "google": "of",
+            "primary": "ot"
+          },
+          "start": 329
+        }
+      ]
+    },
+    {
+      "label": "Landholder 13, ¶ 4",
+      "pages": [
+        "201",
+        "202"
+      ],
+      "ref": "Landholder.13.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          213,
+          214
+        ]
+      },
+      "text": "Sheep are the most profitable part of our stock, and the breed is much sooner multiplied than horses or cattle. Why do not our opulent farmers avail themselves of the profit ? An experience would soon convince them there is no better method of advancing property, and their country would thank them for the trial. Sheep are found to thrive and the wool to be of good quality in every part of New England, but as this animal delights in grazing, and is made healthy by coming often to the earth, our sea-coasts with the adjacent country, where snow is of short continuance, are particularly favourable to their propagation. Our hilly coasts were designed by nature for this, and every part of the country that abounds in hills ought to make an experiment by which they will be enriched."
+    },
+    {
+      "label": "Landholder 13, ¶ 5",
+      "pages": [
+        "202"
+      ],
+      "ref": "Landholder.13.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          214
+        ]
+      },
+      "text": "In Connecticut, the eastern and southern counties, with the highlands on Connecticut river towards the sea, ought to produce more wool than would cloath the inhabitants of the state. At present the quantity falls short of what is needed by our own consumption ; if a surplusage could be produced, it would find a ready market and the best pay."
+    },
+    {
+      "label": "Landholder 13, ¶ 6",
+      "pages": [
+        "202"
+      ],
+      "ref": "Landholder.13.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          214
+        ]
+      },
+      "text": "The culture of flax, another principal material for manufacturing, affords great profit to the farmer. The seed of this crop when it succeeds will pay the husbandman for his labour, and return a better ground-rent than many other crops which are cultivated. The seed is one of our best articles for remittance and exportation abroad. Dressing and preparing the flax for use is done in the most leisure part of the year, when labour is cheap, and we had better work for sixpence a day and become wealthy, than to be idle and poor."
+    },
+    {
+      "label": "Landholder 13, ¶ 7",
+      "pages": [
+        "202"
+      ],
+      "ref": "Landholder.13.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          214
+        ]
+      },
+      "text": "It is not probable the market can be overstocked, or if it should chance for a single season to be the case, no article is more meliorated by time, or will better pay for keeping by an increase of quality. A large flax crop is one most certain sign of a thrifty husbandman. The present method of agriculture in a course of different crops is well calculated to give the husbandman a sufificieny of flax ground, as it is well known that this vegetable will not thrive when sown successively in the same place.",
+      "uncertain": [
+        {
+          "end": 394,
+          "readings": {
+            "brittle": "sufficieny",
+            "google": "suflicieny",
+            "primary": "sufificieny"
+          },
+          "start": 383
+        }
+      ]
+    },
+    {
+      "label": "Landholder 13, ¶ 8",
+      "pages": [
+        "202"
+      ],
+      "ref": "Landholder.13.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          214
+        ]
+      },
+      "text": "The nail manufacture might be another source of wealth to the northern states. Why should we twice transport our own iron, and pay other nations for labour which our boys might perform as well? The art of nail-making is easily acquired. Remittances have actually been made from some parts of the state in this article ; the example is laudable, and ought to be imitated. The sources of wealth are open to us, and there needs but industry to become as rich as we are free."
+    }
+  ],
+  "short": "Landholder",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "The Letters of a Landholder"
+}

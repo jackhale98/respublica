@@ -1,0 +1,110 @@
+{
+  "attribution": {
+    "byline": "By William Williams",
+    "kind": "single",
+    "names": [
+      "William Williams"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1788-02-11",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "By William Williams",
+        "kind": "single",
+        "names": [
+          "William Williams"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Letter to the Landholder",
+      "level": 1,
+      "publication": [
+        "THE AMERICAN MERCURY,",
+        "(Number 88)",
+        "Monday, February iith, 1788."
+      ],
+      "ref": "WilliamsLetter",
+      "salutation": "Mr. Babcock :",
+      "signature": "Feb. 2d, 1788."
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 203–210. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "williams-letter",
+  "position": "other",
+  "ref_prefix": "WilliamsLetter",
+  "segments": [
+    {
+      "label": "Letter to the Landholder, ¶ 1",
+      "pages": [
+        "207"
+      ],
+      "ref": "WilliamsLetter.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          219,
+          220,
+          221
+        ]
+      },
+      "text": "Since the Federal Constitution has had so calm, dispassionate and so happy an issue, in the late worthy Convention of this State ; I did not expect any members of that hon. body to be challenged in a News-paper, and especially by name, and by anonymous writers, on account of their opinion, or decently expressing their sentiments relative to the great subject then under consideration, or any part of it. Nor do I yet see the propriety, or happy issue of such a proceeding. However as a gentleman in your Paper feels uneasy, that every sentiment contained in his publications, (tho' in general they are well written) is not received with perfect acquiescence and submission, I will endeavour to satisfy him, or the candid reader, by the same channel, that I am not so reprehensible as he supposes, in the matter refer'd to. When the clause in the 6th article, which provides that \" no religious test should ever be required as a qualification to any office or trust, &c.\" came under consideration, I observed I should have chose that sentence and anything relating to a religious test, had been totally omitted rather than stand as it did, but still more wished something of the kind should have been inserted, but with a reverse sense, so far as to require an explicit acknowledgment of the being of a God, his perfections and his providence, and to have been prefixed to, and stand as, the first introductory words of the Constitution, in the following or similar terms, viz. We the people of the United States, in a firm belief of the being and perfections of the one living and true God, the creator and supreme Governour of the world, in his universal providence and the authority of his laws ; that he will require of all moral agents an account of their conduct; that all rightful powers among men are ordained of, and mediately derived from God; therefore in a dependence on his blessing and acknowledgment of his efficient protection in establishing our Independence, whereby it is become necessary to agree upon and settle a Constitution of federal government for ourselves, and in order to form a more perfect union &c., as it is expressed in the present introduction, do ordain &c., and instead of none, that no other religious test should ever be required &c., and that supposing, but not granting, this would be no security at all, that it would make hypocrites, &c. yet this would not be a sufficient reason against it; as it would be a public declaration against, and disapprobation of men, who did not, even with sincerity, make such a profession, and they must be left to the searcher of hearts ; that it would however, be the voice of the great body of the people, and an acknowledgment proper and highly becoming them to express on this great and only occasion, and according to the course of Providence, one mean of obtaining blessings from the most high. But that since it was not, and so difficult and dubious to get inserted, I would not wish to make it a capital objection ; that I had no more idea of a religious test, which should restrain offices to any particular sect, class, or denomination of men or Christians in the long list of diversity, than to regulate their bestowments by the stature or dress of the candidate, nor did I believe one sensible catholic man in the state wished for such a limitation ; and that therefore the News-Paper observations, and reasonings (I named no author) against a test, in favour of any one denomination of Christians, and the sacrilegious injunctions of the test laws of England &c., combatted objections which did not exist, and was building up a man of straw and knocking him down again. These are the same and only ideas and sentiments I endeavoured to communicate on that subject, tho' perhaps not precisely in the same terms ; as I had not written, nor preconceivcd them, except the proposed test, and whether there is any reason in them or not, I submit to the public.",
+      "uncertain": [
+        {
+          "end": 3840,
+          "readings": {
+            "primary": "preconceivcd"
+          },
+          "start": 3828
+        }
+      ]
+    },
+    {
+      "label": "Letter to the Landholder, ¶ 2",
+      "pages": [],
+      "ref": "WilliamsLetter.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          221
+        ]
+      },
+      "text": "I freely confess such a test and acknowledgment would have given me great additional satisfaction ; and I conceive the arguments against it, on the score of hypocrisy, would apply with equal force against requiring an oath from any officer of the united or individual states ; and with little abatement, to any oath in any case whatever; but divine and human wisdom, with universal experience, have approved and established them as useful, and a security to mankind,"
+    },
+    {
+      "label": "Letter to the Landholder, ¶ 3",
+      "pages": [],
+      "ref": "WilliamsLetter.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          221
+        ]
+      },
+      "text": "I thought it was my duty to make the observations, in this behalf, which I did, and to bear my testimony for God ; and that it was also my duty to say the Constitution, with this, and some other faults of another kind, was yet too wise and too necessary to be rejected. W. Williams."
+    },
+    {
+      "label": "Letter to the Landholder, ¶ 4",
+      "pages": [],
+      "ref": "WilliamsLetter.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          221
+        ]
+      },
+      "text": "P. S. — I could not have suspected the Landholder (if I know him) to be the author of the piece referred to ; but if he or any other is pleased to reply, without the signature of his proper name, he will receive no further answer or notice from me."
+    }
+  ],
+  "short": "Letter to the Landholder",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "Letter to the Landholder"
+}

@@ -1,0 +1,705 @@
+{
+  "attribution": {
+    "byline": "Written by Roger Sherman",
+    "kind": "single",
+    "names": [
+      "Roger Sherman"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1787-11-14/1787-12-20",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Written by Roger Sherman",
+        "kind": "single",
+        "names": [
+          "Roger Sherman"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Countryman 1",
+      "level": 1,
+      "publication": [
+        "THE NEW HAVEN GAZETTE,",
+        "(Nvmiber 39)",
+        "Thursday, November 14, 1787."
+      ],
+      "ref": "Countryman.1",
+      "salutation": "To THE People of Connecticut.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 8,
+            "readings": {
+              "brittle": "(JS'-u.m.'bei?",
+              "google": "(XT'axxi'ber",
+              "primary": "(Nvmiber"
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Roger Sherman",
+        "kind": "single",
+        "names": [
+          "Roger Sherman"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Countryman 2",
+      "level": 1,
+      "publication": [
+        "THE NEW HAVEN GAZETTE.",
+        "(Nu-inTaer 4:0)",
+        "Thursday, November 22, 1787."
+      ],
+      "ref": "Countryman.2",
+      "salutation": "To THE People of Connecticut.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "brittle": "(!N\"ixmjber",
+              "google": "(IN'u.m'ber",
+              "primary": "(Nu-inTaer"
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by Roger Sherman",
+        "kind": "single",
+        "names": [
+          "Roger Sherman"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Countryman 3",
+      "level": 1,
+      "publication": [
+        "THE NEW HAVEN GAZETTE.",
+        "Thursday, November 29, 1787."
+      ],
+      "ref": "Countryman.3",
+      "salutation": "To THE People of Connecticut."
+    },
+    {
+      "attribution": {
+        "byline": "Written by Roger Sherman",
+        "kind": "single",
+        "names": [
+          "Roger Sherman"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Countryman 4",
+      "level": 1,
+      "publication": [
+        "THE NEW HAVEN GAZETTE. Thursday, December 6, 1787."
+      ],
+      "ref": "Countryman.4",
+      "salutation": "To THE People of Connecticut."
+    },
+    {
+      "attribution": {
+        "byline": "Written by Roger Sherman",
+        "kind": "single",
+        "names": [
+          "Roger Sherman"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Countryman 5",
+      "level": 1,
+      "publication": [
+        "THE NEW HAVEN GAZETTE.",
+        "(Number 44)",
+        "Tuesday, December 20, 1787."
+      ],
+      "ref": "Countryman.5",
+      "salutation": "To THE People of Connecticut.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 11,
+            "readings": {
+              "google": ")",
+              "primary": "44)"
+            },
+            "start": 8
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 211–228. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "countryman",
+  "position": "federalist",
+  "ref_prefix": "Countryman",
+  "segments": [
+    {
+      "label": "Countryman 1, ¶ 1",
+      "pages": [],
+      "ref": "Countryman.1.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          227
+        ]
+      },
+      "text": "You are now called on to make important alterations in your government, by ratifying the new federal constitution."
+    },
+    {
+      "label": "Countryman 1, ¶ 2",
+      "pages": [],
+      "ref": "Countryman.1.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          227
+        ]
+      },
+      "text": "There are, undoubtedly, such advantages to be expected from this measure, as will be sufficient inducement to adopt the proposal, provided it can be done without sacrificing more important advantages, which we now do or may possess. By a wise provision in the constitution of man, whenever a proposal is made to change any present habit or practice, he much more minutely considers what he is to lose by the alterations, what effect it is to have on what he at present possesses, than what is to be hoped for in the proposed expedient."
+    },
+    {
+      "label": "Countryman 1, ¶ 3",
+      "pages": [],
+      "ref": "Countryman.1.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          227
+        ]
+      },
+      "text": "Thus people are justly cautious how they exchange present advantages for the hope of others in a system not yet experienced."
+    },
+    {
+      "label": "Countryman 1, ¶ 4",
+      "pages": [],
+      "ref": "Countryman.1.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          227,
+          228
+        ]
+      },
+      "text": "Hence all large states have dreaded a division into smaller parts, as being nearly the same thing as ruin ; and all smaller states have predicted endless embarrassment from every attempt to unite them into larger. It is no more than probable that if any corner of this State of ten miles square, was now, and long had been independent of the residue of the State, that they would consider a proposal to unite them to the other parts of the State, as a violent attempt to wrest from them the only security for their persons or property. They would lament how little security they should derive from sending one or two members to the legislature at Hartford & New Haven, and all the evils that the Scots pre- ■ predicted from the proposed union with England, in the beginning of the present century, would be thundered with all the vehemence of American politics, from the little ten miles district. But surely no man believes that the inhabitants of this district would be less secure when united to the residue of the State, than when independent. Does any person suppose that the people would be more safe, more happy, or more respectable, if every town in this State was independent, and had no State government?",
+      "uncertain": [
+        {
+          "end": 706,
+          "readings": {
+            "primary": "pre-"
+          },
+          "start": 702
+        }
+      ]
+    },
+    {
+      "label": "Countryman 1, ¶ 5",
+      "pages": [],
+      "ref": "Countryman.1.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          228
+        ]
+      },
+      "text": "Is it not certain that government would be weak and irregular, and that the people would be poor and contemptible ? And still it must be allowed, that each town would entirely surrender its boasted independence if they should unite in State government, and would retain only about one-eightieth part of the administration of their own affairs."
+    },
+    {
+      "label": "Countryman 1, ¶ 6",
+      "pages": [],
+      "ref": "Countryman.1.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          228
+        ]
+      },
+      "text": "Has it ever been found, that people's property or persons were less regarded and less protected in large states than in small?"
+    },
+    {
+      "label": "Countryman 1, ¶ 7",
+      "pages": [],
+      "ref": "Countryman.1.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          228
+        ]
+      },
+      "text": "Have not the Legistature in large states been as careful not to over-burden the people with taxes as in small? But still it must be admitted, that a single town in a small state holds a greater proportion of the authority than in a large."
+    },
+    {
+      "label": "Countryman 1, ¶ 8",
+      "pages": [
+        "217"
+      ],
+      "ref": "Countryman.1.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          228,
+          229
+        ]
+      },
+      "text": "If the United States were one single government, provided the constitution of this extensive government was as good as the constitution of this State now is, would this part of it be really in greater danger of oppression or tyranny, than at present? It is true that many people who are great men because they go to Hartford to make laws for us once or twice in a year, would then be no greater than their neighbours, as much fewer representatives would be chosen. But would not the people be as safe, governed by their representatives assembled in New York or Philadelphia, as by their representatives assembled in Hartford or New Haven? Many instances can be quoted, where people have been unsafe, poor and contemptible, because they were governed only in small bodies; but can any instance be found where they were less safe for uniting? Has not every instance proved somewhat similar to the so much dreaded union between Ensfland and Scotland, where the Scots, instead of becoming a poor, despicable, dependent people, have become much more secure, happy, and respectable? If then, the constitution is a good one, why should we be afraid of uniting, even if the Union was to be much more complete and entire than is proposed?",
+      "uncertain": [
+        {
+          "end": 933,
+          "readings": {
+            "primary": "Ensfland"
+          },
+          "start": 925
+        }
+      ]
+    },
+    {
+      "label": "Countryman 2, ¶ 1",
+      "pages": [
+        "218"
+      ],
+      "ref": "Countryman.2.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          230
+        ]
+      },
+      "text": "It is fortunate that you have been but little distressed with that torrent of impertinence and folly, with which the newspaper politicians have over whelmed many parts of our country."
+    },
+    {
+      "label": "Countryman 2, ¶ 2",
+      "pages": [
+        "218"
+      ],
+      "ref": "Countryman.2.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          230
+        ]
+      },
+      "text": "It is enough that you should have heard, that one party has seriously urged, that we should adopt the New Constitution because it has been approved by Washington and Franklin: and the other, with all the solemnity of apostolic address to Men, Brethren, Fathers, Friends and Countryman, have urged that we should reject, as dangerous, every clause thereof, because that Washington is more used to command as a soldier, than to reason as a politician — Franklin is old, others are young — and Wilson is haughty* You are too well informed to decide by the opinion of others, and too independent to need a caution against undue influence."
+    },
+    {
+      "label": "Countryman 2, ¶ 3",
+      "pages": [
+        "218",
+        "219"
+      ],
+      "ref": "Countryman.2.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          230,
+          231
+        ]
+      },
+      "text": "Of a very different nature, tho' only one degree better than the other reasoning, is all that sublimity of nonsense and alarm, that has been thundered against it in every shape of metaphoric terror, on the subject of a bill of rights, the liberty of the press, rights of conscience, rights of taxation and election, trials in the vicinity, freedom, of speech, trial by jury, and a standing army. These last are undoubtedly important points, much too important to depend on mere paper protection. For, guard such privileges by the strongest expressions, still if you leave the legislative and executive power in the hands of those who are or may be disposed to deprive you of them — you are but slaves. Make an absolute monarch— give him the supreme authority, and guard as much as you will by bills of rights, your liberty of the press, and trial by jury; — he will find means either to take them from you, or to render them useless."
+    },
+    {
+      "label": "Countryman 2, ¶ 4",
+      "pages": [
+        "219"
+      ],
+      "ref": "Countryman.2.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          231
+        ]
+      },
+      "text": "The only real security that you can have for all your important rights must be in the nature of your government. If you suffer any man to govern you who is not strongly interested in supporting your privileges, you will certainly lose them. If you are about to trust your liberties with people whom it is necessary to bind by stipulation, that they shall not keep a standing army, your stipulation is not worth even the trouble of writing. No bill of rights ever yet bound the supreme power longer than the honeymoon of a new married couple, unless the rulers were interested in preserving the rights ; and in that case they have always been ready enough to declare the rights, and to preserve them when they were declared. — The famous English Magna Charta is but an act of parliament, which every subsequent parliament has had just as much constitutional power to repeal and annul, as the parliament which made it had to pass it at first. But the security of the nation has always been, that their government was so formed, that at least one branch of their legislature must be strongly interested to preserve the rights of the nation."
+    },
+    {
+      "label": "Countryman 2, ¶ 5",
+      "pages": [
+        "219"
+      ],
+      "ref": "Countryman.2.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          231
+        ]
+      },
+      "text": "You have a bill of rights in Connecticut (i. e.) your legislature many years since enacted that the subjects of this state should enjoy certain privileges. Every assembly since that time, could, by the same authority, enact that the subjects should enjoy none of those privileges; and the only reason that it has not long since been so enacted, is that your legislature were as strongly interested in preserving those rights as any of the subjects; and this is your only security that it shall not be so enacted at the next session of assembly: and it is security enough."
+    },
+    {
+      "label": "Countryman 2, ¶ 6",
+      "pages": [
+        "219",
+        "220"
+      ],
+      "ref": "Countryman.2.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          231,
+          232
+        ]
+      },
+      "text": "Your General Assembly under your present constitution are supreme. They may keep troops on foot in the most profound peace, if they think proper. They have heretofore abridged the trial by jury in some cases, and they can again in all. They can restrain the press, and may lay the most burdensome taxes if they please, and who can forbid? But still the people are perfectly safe that not one of these events shall take place so long as the members of the General Assembly are as much interested, and interested in the same manner, as the other subjects."
+    },
+    {
+      "label": "Countryman 2, ¶ 7",
+      "pages": [
+        "220"
+      ],
+      "ref": "Countryman.2.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          232
+        ]
+      },
+      "text": "On examining the new proposed constitution, there can be no question but that there is authority enough lodged in the proposed Federal Congress, if abused, to do the greatest injury. And it is perfectly idle to object to it, that there is no bill of rights, or to propose to add to it a provision that a trial by jury shall in no case be omitted, or to patch it up by adding a stipulation in favor of the press, or to guard it by removing the paltry objection to the right of Congress to regulate the time and manner of elections."
+    },
+    {
+      "label": "Countryman 2, ¶ 8",
+      "pages": [
+        "220"
+      ],
+      "ref": "Countryman.2.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          232
+        ]
+      },
+      "text": "If you cannot prove by the best of all evidence, viz., by the interest of the rulers, that this authority will not be abused, or at least that those powers are not more likely to be abused by the Congress, than by those who now have the same powers, you must by no means adopt the constitution : — No, not with all the bills of rights and with all the stipulations in favor of the people that can be made."
+    },
+    {
+      "label": "Countryman 2, ¶ 9",
+      "pages": [
+        "220"
+      ],
+      "ref": "Countryman.2.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          232
+        ]
+      },
+      "text": "But if the members of Congress are to be interested just as you and I are, and just as the members of our present legislatures are interested, we shall be just as safe, with even supreme power (if that were granted) in Congress, as in the General Assembly. If the members of Congress can take no improper step which will not affect them as much as it does us, we need not apprehend that they will usurp authorities not given them to injure that society of which they are a part."
+    },
+    {
+      "label": "Countryman 2, ¶ 10",
+      "pages": [
+        "220",
+        "22"
+      ],
+      "ref": "Countryman.2.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          232,
+          233
+        ]
+      },
+      "text": "The sole question, (so far as any apprehension of tyranny and oppression is concerned) ought to be, how are Congress formed? how far have you a control over them? Decide this, and then all the questions about their power may be dismissed for the amusement of those politicians whose business it is to catch flies. or may occasionally furnish subjects for George Bryan's Pomposity, or the declamations of Cato — An Old Whig — Son of Liberty— Brutus — Brutus junior — An Officer of the Continental Army, — the more contemptible Timoleon, and the residue of that rabble of writers."
+    },
+    {
+      "kind": "footnote",
+      "label": "Countryman 2, note 1",
+      "pages": [
+        "218"
+      ],
+      "ref": "Countryman.2.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          230
+        ]
+      },
+      "text": "* This is a paraphrase of the arguments of \"The Centinel\" in The Independent Gazetteer. — Ed."
+    },
+    {
+      "label": "Countryman 3, ¶ 1",
+      "pages": [
+        "222"
+      ],
+      "ref": "Countryman.3.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          234
+        ]
+      },
+      "text": "The same thing once more — I am a plain man, of few words ; for this reason perhaps it is, that when I have said a thing I love to repeat it. Last week I endeavored to evince, that the onlysurety you could have for your liberties must be in the nature of your government]; that you could derive no security from bills of rights, or stipulations, on the subject of a standing army, the liberty of the press, trial by jury, or on any other subject. Did you ever hear of an absolute monarchy, where those rights which are proposed by the pigmy politicians of this day, to be secured by stipulation, were ever preserved? Would it not be mere trifling to make any such stipulations, in any absolute monarchy?"
+    },
+    {
+      "label": "Countryman 3, ¶ 2",
+      "pages": [
+        "222"
+      ],
+      "ref": "Countryman.3.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          234
+        ]
+      },
+      "text": "On the other hand, if your interest and that of your rulers are the same, your liberties are abundantly secure. Perhaps the most secure when their power is most complete. Perhaps a provision that they should never raise troops in time of peace, might at some period embarrass the public concerns and endanger the liberties of the people. It is possible that in the infinite variety of events, it might become improper strictly to adhere to any one provision that has ever been proposed to be stipulated. At all events, the people have always been perfectly safe without any stipulation of the kind, when the rulers were interested to make them safe; and never otherwise."
+    },
+    {
+      "label": "Countryman 3, ¶ 3",
+      "pages": [
+        "222",
+        "223"
+      ],
+      "ref": "Countryman.3.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          234,
+          235
+        ]
+      },
+      "text": "No people can be more secure against any oppression in their rulers than you are at present ; and no rulers can have more supreme and unlimited authority than your general assembly have. When you consult on the subject of adopting the new constitution, you do not enquire whether the powers therein contained can be safely lodged in any hands whatever. For not only those very powers, but all other powers, are already in the general assembly. - - - - The enquiry is, whether Congress is by this new constitution so formed that a part of the power now in the general assembly would be as well lodged in Congress. Or, as was before said, it depends on how far the members are under your control ; and how far their interest and yours are the same ; to which careful attention must be given."
+    },
+    {
+      "label": "Countryman 4, ¶ 1",
+      "pages": [
+        "224"
+      ],
+      "ref": "Countryman.4.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          236
+        ]
+      },
+      "text": "If the propriety of trusting your government in the hands of your representatives was now a perfectly new question, the expediency of the measure might be doubted. A very great portion of the objections which we daily find made against adopting the new constitution (and which are just as weighty objections against our present government, or against any government in existence) would doubtless have their influence; and perhaps would determine you against trusting the powers of sovereignty out of your own hands."
+    },
+    {
+      "label": "Countryman 4, ¶ 2",
+      "pages": [
+        "224"
+      ],
+      "ref": "Countryman.4.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          236
+        ]
+      },
+      "text": "The best theory, the best philosophy on the subject, would be too uncertain for you to hazard your freedom upon."
+    },
+    {
+      "label": "Countryman 4, ¶ 3",
+      "pages": [
+        "224"
+      ],
+      "ref": "Countryman.4.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          236
+        ]
+      },
+      "text": "But your freedom, in that sense of the expression (if it could be called sense), is already totally gone. Your Legislature is not only supreme in the usual sense of the word, but they have literally, all the powers of society. Can you — can you possibly grant anything new? Have you any power which is not already granted to your General Assembly ? You are indeed called on to say whether a part of the powers now exercised by the General Assembly, shall not, in future, be exercised by Congress. And it is clearly much better for your interest, that Congress should experience those powers than that they should continue in the General Assembly, provided you can trust Congress as safely as the General Assembly."
+    },
+    {
+      "label": "Countryman 4, ¶ 4",
+      "pages": [
+        "22"
+      ],
+      "ref": "Countryman.4.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          237
+        ]
+      },
+      "text": "What forms your security under the General Assembly? Nothing save that the interest of the members is the same as yours. Will it be the same with Congress? There are essentially only two differences between the formation of Congress and of your General Assembly. One is, - - - that Congress are to govern a much larger tract of country, and a much greater number of people, consequently your proportion of the government will be much smaller than at present. The other difference is - - - that the members of Congress when elected, hold their places for two, four and six years, and the members of Assembly only six and twelve months."
+    },
+    {
+      "label": "Countryman 4, ¶ 5",
+      "pages": [
+        "22"
+      ],
+      "ref": "Countryman.4.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          237
+        ]
+      },
+      "text": "The first of these differences was discussed pretty fully in the first number, (when there was no idea of proceeding thus far on the subject), and has all the force as an objection against the powers of Congress, that it would have if applied to a proposal to give up the sovereignty of the several towns of the state, (if such sovereignty had existed,) and unite in state government."
+    },
+    {
+      "label": "Countryman 4, ¶ 6",
+      "pages": [
+        "22"
+      ],
+      "ref": "Countryman.4.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          237
+        ]
+      },
+      "text": "It would be only a repetition to enter into a consideration of this difference between Congress and your Assembly."
+    },
+    {
+      "label": "Countryman 4, ¶ 7",
+      "pages": [
+        "22"
+      ],
+      "ref": "Countryman.4.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          237
+        ]
+      },
+      "text": "It has been suggested that the six or eight members which we shall send to Congress will be men of property, who can little feel any burthens they may lay on society. How far is this idea supported by experience ? As the members are to pay their proportion, will they not be as careful of laying too great burthens as poorer people ? Are they less careful of their money than the poor? This objection w'ould be much stronger against trusting the power out of your hands at all. If the several towns were now independent, this objection would be much more forcible against uniting in state government, and sending one or two of your most wealthy men to Hartford or New Haven, to vote away your money. But this you have tried, and found that assemblies of representatives are less willing to vote away money than even their constituents. An individual of any tolerable economy, pays all his debts, and perhaps has money beforehand. A small school district, or a small parish, will see what sum they want, and usually provide sufficiently for their wants, and often have a little money at interest."
+    },
+    {
+      "label": "Countryman 4, ¶ 8",
+      "pages": [
+        "226"
+      ],
+      "ref": "Countryman.4.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          238
+        ]
+      },
+      "text": "Town voters are partly representatives, i. e. many people pay town taxes who have no right to vote, but the money they vote away is principally their own. The towns in this state tax themselves less willingly than smaller bodies. They generally however tax themselves sufficiently to nearly pay the demands against them within the year, very seldom raise money beforehand by taxes. The Generally Assembly of this state could never be induced to attempt to do more than pay the annual interest of what they owe, and occasionally sink very small parts of the principal, and they never in fact did thus much, and we are all witnesses that they are full as careful of the public money as we can wishs It never was a complaint that they were too ready to allow individuals large sums. A man who has a claim against a town, and applies to a town-meeting, is very likely to obtain justice: but he who has a claim against the state, and applies to the General Assembly, stands but a poor chance to obtain justice. Some rule will be found to exclude his claim, — or to lessen it, — or he will be paid in a security not worth half the money."
+    },
+    {
+      "label": "Countryman 4, ¶ 9",
+      "pages": [
+        "226"
+      ],
+      "ref": "Countryman.4.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          238
+        ]
+      },
+      "text": "You have uniformly experienced that your representatives are as careful, if not more so, of your money, than you yourselves are in your town-meetings; but still your representatives are generally men of property, and those of them who are most independent, and those whom you have sent to Congress, have not been by any means the least careful."
+    },
+    {
+      "label": "Countryman 5, ¶ 1",
+      "pages": [
+        "227"
+      ],
+      "ref": "Countryman.5.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          239
+        ]
+      },
+      "text": "You do not hate to read Newspaper Essays on the new constitution, more than I hate to write them. Then we will be short - - - which I have often found the best expression in a dull sermon, except the last."
+    },
+    {
+      "label": "Countryman 5, ¶ 2",
+      "pages": [
+        "227"
+      ],
+      "ref": "Countryman.5.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          239
+        ]
+      },
+      "text": "Whether the mode of election pointed out in the proposed constitution is well calculated to support the principles which were designed to be established in the different branches of the legislature, may perhaps be justly doubted: — and may perhaps in some future day be discussed."
+    },
+    {
+      "label": "Countryman 5, ¶ 3",
+      "pages": [
+        "227"
+      ],
+      "ref": "Countryman.5.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          239
+        ]
+      },
+      "text": "The design undoubtedly was, that the house of representatives should be popular assembly, — that the senate should, in its nature, be somewhat more permanent, and that the two houses should be completely independent of each other. These principles are right. — for the present we will suppose they will be supported— there then remains to be considered no considerable difference between the constitutional government which is proposed, and your present government, except that the time for which you choose your present rulers is only for six and twelve months, and the time for which you are to choose your continental rulers is for two, four and six years."
+    },
+    {
+      "label": "Countryman 5, ¶ 4",
+      "pages": [
+        "227",
+        "228"
+      ],
+      "ref": "Countryman.5.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          239,
+          240
+        ]
+      },
+      "text": "The convention were mistaken if they supposed they should lessen the evils of tumultuous elections by making elections less frequent. But are your liberties endangered by this measure? Philosophy may mislead you. Ask experience. Are not the liberties of the people of England as safe as yours? — They are not as free as yours, because much of their government is in the hands of hereditary majesty and nobility. But is not that part of the government which is under the control of the commons exceedingly well guarded? But still the house of commons is only a third branch — the only branch who are appointed by the people — and they are chosen but once in seven years. Is there then any danger to be apprehended from the length of time that your rulers are to serve? when none are to serve more than six years one whole house but two years, and your President but four."
+    },
+    {
+      "label": "Countryman 5, ¶ 5",
+      "pages": [
+        "228"
+      ],
+      "ref": "Countryman.5.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          240
+        ]
+      },
+      "text": "The great power and influence of an hereditary monarch of Britain has spread many alarms, from an apprehension that the commons would sacrifice the liberties of the people to the money or influence of the crown : but the influence of a powerful hereditary monarch, with the national Treasury — Army — and fleet at his command — and the whole executive government and one-third of the legislative in his hands constantly operating on a house of commons, whose duration is never less than seven years, unless this same monarch should end it, (which he can do in an hour,) has never yet been sufficient to obtain one vote of the house of commons which has taken from the people the liberty of the press, - - - trial by jury, - - - the rights of conscience, or of private property."
+    },
+    {
+      "label": "Countryman 5, ¶ 6",
+      "pages": [
+        "228"
+      ],
+      "ref": "Countryman.5.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          240
+        ]
+      },
+      "text": "Can you then apprehend danger of oppression and tyranny from the too great duration of the power oi your rulers ?",
+      "uncertain": [
+        {
+          "end": 99,
+          "readings": {
+            "brittle": "of",
+            "google": "of",
+            "primary": "oi"
+          },
+          "start": 97
+        }
+      ]
+    }
+  ],
+  "short": "Countryman",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "The Letters of a Countryman"
+}

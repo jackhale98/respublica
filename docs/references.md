@@ -76,11 +76,28 @@ Paragraph boundaries are the edition's blank lines.
 The edition prints No. 70 twice; refs `Federalist.70.*` number the first
 version. The second is stored unsegmented on the paper as a variant.
 
-## Anti-Federalist series (planned)
+## The ratification debate (`texts/{work}.json`)
 
-`{Series}.{essay}.{paragraph}`, e.g. `Brutus.1.4`, `FederalFarmer.3.2`. The
-series name is written without spaces. Rules for each series' base edition will
-be added here when it is imported.
+Essays and letters imported by `importers/ratification.py` (series listed in
+`importers/ratification_series.py`; editions in `docs/editions.md`).
+
+- A series: `{Series}.{essay}.{paragraph}`, e.g. `Cato.3.2`, `FederalFarmer.3.2`,
+  `Centinel.24.1`. The essay number is the number printed in its heading.
+  Where the edition prints the same number twice, the second gets a letter:
+  `Landholder.10b` (Ford prints two numbers X), `Agrippa.15b` (two numbers XV,
+  and no XVI).
+- A single essay or letter: `{Name}.{paragraph}`, e.g. `Caution.1`,
+  `PlainDealer.3`.
+- Footnotes: `{essay}.fn{k}` (`Cato.2.fn1`), numbered in order within the
+  essay; for a single piece `{Name}.fn{k}`.
+- The essay's heading lines (newspaper, number, date), salutation and
+  signature are fields of the essay's division, not passages.
+- Names are written without spaces: `Cato`, `Centinel`, `Agrippa`,
+  `FederalFarmer`, `LutherMartin`, `GerryReply` (Elbridge Gerry's replies to
+  A Landholder), `Landholder`, `Cassius`, `Caesar`, `Sydney`, `Countryman`,
+  `CitizenOfNewHaven`, `CursoryRemarks`, `Caution`, `FriendToTheConstitution`,
+  `PlainDealer`, `WilliamsonRemarks`, `SteadyAndOpenRepublican`,
+  `WilliamsLetter`. `Brutus` is reserved for Brutus's essays.
 
 ## Cases (planned)
 

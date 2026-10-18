@@ -1,0 +1,153 @@
+{
+  "attribution": {
+    "byline": "Accredited to Spencer Roane",
+    "kind": "single",
+    "names": [
+      "Spencer Roane"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1788-02-13",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Accredited to Spencer Roane",
+        "kind": "single",
+        "names": [
+          "Spencer Roane"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "A Plain Dealer",
+      "level": 1,
+      "publication": [
+        "THE VIRGINIA INDEPENDENT CHRONICLE,",
+        "(NuiTiber 82)",
+        "Wednesday, February 13, 1788.",
+        "Mans parturiens et ecce nascitur mus."
+      ],
+      "ref": "PlainDealer",
+      "signature": "A Plain Dealer.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 9,
+            "readings": {
+              "brittle": "QSPuiiiber",
+              "primary": "(NuiTiber"
+            },
+            "start": 0
+          },
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "S2)",
+              "primary": "82)"
+            },
+            "start": 10
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 385–394. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "plain-dealer",
+  "position": "anti",
+  "ref_prefix": "PlainDealer",
+  "segments": [
+    {
+      "label": "A Plain Dealer, ¶ 1",
+      "pages": [
+        "389",
+        "390"
+      ],
+      "ref": "PlainDealer.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          401,
+          402
+        ]
+      },
+      "text": "After a long and general expectancy of some dissertation on the subject of the proposed Fcederal Constitution, worthy the first magistrate of the respectable state of Virginia, a letter of his Excellency Governor Randolph, of Oct. 10, 1787, is at length presented to the public. Previous to the appearance of this letter, various opinions were prevailing in different parts of this country respecting that gentleman's real opinion on the subject of the said Constitution; and it became difficult for many to conjecture how his Excellency would devise a middle course, so as to catch the spirit of all his countrymen, and to reconcile himself to all parties. It was not known to me, at least, that his Excellency felt an \" unwillingness to disturb the harmony of the legislature \" on this important subject; nor could I conceive that the sentiments of even the ablest man among us could \" excite a contest unfavorable \" to the fairest discussion of the question. On the other hand, I thought it right that the adversaries of the Constistitution, as well as its framers, should candidly avow their real sentiments as early and decidedly as possible, for the information of those who are to determine. It is true, his Excellency was prevented declaring his opinion sooner, \" by motives of delicacy arising from two questions depending before the General Assembly, one respecting the Constitution, the other respecting himself;\" but I am of opinion that during the pendency of a question concerning the Constitution, every information on that subject is most properly to be adduced ; and I did not know that the being or not being Governor of Virginia, (an office in a great degree nominal) was sufficient to deter a real patriot from speaking the warning voice of opposition, in behalf of the liberties of his country."
+    },
+    {
+      "label": "A Plain Dealer, ¶ 2",
+      "pages": [
+        "390"
+      ],
+      "ref": "PlainDealer.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          402,
+          403
+        ]
+      },
+      "text": "The letter above-mentioned can derive no aid from panegyric, as to the brilliancy and elegance of its stile, for unlike the threadbare discourses of other statesmen on the dry subject of government, it amuses us with a number of fine words. But how shall I express my dislike of the ultimatum of his Excellency's letter, wherein he declares \" that if after our best efforts for amendments, they cannot be obtained, he will adopt the Constitution as it is.\" How is this declaration reconcilable to a former opinion of his Excellency's, expressed to the Honorable Richard Henry Lee, and repeated by the latter gentleman in his letter,* as printed in the public papers, \" that either a monarchy or an aristocracy will be generated from the proposed Constitution.\" Good God! how can the first Magistrate and Father of a free republican government, after a feeble parade of opposition, and before his desired plan of amendments has been determined upon, declare that he will accept a Constitution which is to beget a monarchy or an aristocracy ? How can such a determination be reconcileable to the feelings of Virginia, and to the principles which have prevailed in almost every legislature of the union, who looked no farther than the amendment of our present republican confederation? I have charity to believe that the respectable characters who signed this Constitution did so, thinking that neither a monarchy nor an aristocracy would ensue, but that they should thereby preserve and ameliorate the republic of America ; but never until now, that his Excellency has let the cat out of the bag, did I suppose that any member of the Convention, at least from the republican state of Virginia, would accept a Constitution, whereby the republic of his constitucnts is to be sacrificed in its infancy, and before it has had a fair trial. But his Excellency will adopt this Constitution, \" because HE WOULD REGULATE HIMSELF BY THE SPIRIT OF AMERICA.\" But is his Excellency a prophet as well as a politician — can he foretell future events? How else can he at this time discover what the spirit of America is? But admitting his infallibility for a moment, how far will his principle carry him? — why, that if the dominion of Shays, instead of that of the new Constitution, should be generally accepted, and become the spirit of America, his Excellency, too, would turn Shayite! — and yet this question of the Constitution, is \" one on which the fate of thousands yet unborn DEPENDS.\" It is his Excellency's opinion, as expressed in the aforesaid letter, that the powers which are acknowledged necessary for supporting the Union, cannot safely be entrusted to our Congress as at present constituted ; and his vain objection is *' that the representation of the states bears no proportion to their importance.\" This is literally true; but is equally true of the Senate of the proposed Constitution, which is to be an essential part of the legislature ; and yet his Excellency will accept the latter, and not agree to invest the necessary powers in the former, although the above objection equally applies to both. Nay, I am inclined to believe that the injurious consequences of this unequal representation will operate more strongly under the new government— for under the present confederation the members of Congress are removable at the pleasure of their constituents ; — whereas under the proposed Constitution, the only method of removing a wicked, unskilful or treacherous senator, will be by impeachment before the senate itself, of which he is a member.",
+      "uncertain": [
+        {
+          "end": 1761,
+          "readings": {
+            "primary": "constitucnts"
+          },
+          "start": 1749
+        }
+      ]
+    },
+    {
+      "label": "A Plain Dealer, ¶ 3",
+      "pages": [
+        "392"
+      ],
+      "ref": "PlainDealer.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          403,
+          404
+        ]
+      },
+      "text": "These, Mr. Printer, are some of the inconsistencies which even a slight observation of the above letter will suggest. It is not my purpose to oppose now, or to investigate, the merits of the Constitution. This I leave to abler pens, and to the common sense of my countrymen. The science of government is in itself simple and plain ; and if in the history of mankind no perfect government can be found, let it be attributed to the chicane, perfidy and ambition of those who fabricate them; and who are more or less, in common with all mankind, infected with a lust of power. It is. however, certainly not consistent with sound sense to accept a Constitution, knowing it to be imperfect; and his Excellency acknowledges the proposed one to have radical objections. A Constitution ought to be like Caesar's wife, not only good, but unsuspected, since it is the highest compact which men are capable of forming, and involves the dearest rights of life, liberty and property. I fear his Excellency has done no service to his favorite scheme of amendments (and he too seems to be of the same opinion) by his very candid declaration at the end of his letter. Subtlety and chicane in politics, are equally odious and dishonorable; but when it is considered that the present is not the golden age — the epoch of virtue, candor and integrity — that the views of ambitious and designing men are continually working to their own aggrandizement and to the overthrow of liberty, and that the discordant interests of thirteen different commonwealths are to be reconciled and promoted by one general government; common reason will teach us that the utmost caution, secrecy, and political sagacity is requisite to secure to each the important blessings of a good government."
+    },
+    {
+      "label": "A Plain Dealer, ¶ 4",
+      "pages": [
+        "392"
+      ],
+      "ref": "PlainDealer.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          404
+        ]
+      },
+      "text": "I shall now take my leave of his Excellency and the abovementioned letter, declaring my highest veneration for his character and abilities; and it can be no impeachment of the talents of any man who has not served a regular apprenticeship to politics, to say, that his opinions on an intricate political question are erroneous. For if, as the celebrated Dr. Blackstone observes, \" in every art, occupation, or science, commercial or mechanical, some method of instruction or apprenticeship is held necessary, how much more requisite will such apprenticeship be found to be, in the science of government, the noblest and most difficult of any!\""
+    },
+    {
+      "kind": "footnote",
+      "label": "A Plain Dealer, note 1",
+      "pages": [
+        "390"
+      ],
+      "ref": "PlainDealer.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          402
+        ]
+      },
+      "text": "* Printed in Elliot, I, 503 . — Ed."
+    }
+  ],
+  "short": "A Plain Dealer",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "A Plain Dealer"
+}

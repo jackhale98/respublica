@@ -32,6 +32,43 @@ WORKS = {
     "federalist": {"collection": "federalist", "order": 3, "paged": True, "short": "Federalist", "slug": "federalist"},
 }
 
+# Essays and letters of the ratification debate (texts with a `position`)
+# get their settings from the text: one page per essay for a series, one
+# page for a single piece. Their order: Anti-Federalist, then Federalist,
+# then others, each by date.
+POSITIONS = ("anti", "federalist", "other")
+POSITION_LABELS = {"anti": "Anti-Federalist", "federalist": "Federalist", "other": "Other"}
+
+
+def debate_settings(corpus: Corpus) -> dict[str, dict]:
+    docs = [d for d in corpus.works.values() if d.get("position")]
+    docs.sort(key=lambda d: (POSITIONS.index(d["position"]), d.get("date") or "", d["id"]))
+    return {d["id"]: {"collection": "ratification", "order": 10 + i, "paged": len(d.get("divisions", [])) > 1,
+                      "short": d.get("short", d["title"]), "slug": d["id"]} for i, d in enumerate(docs)}
+
+
+# Page images of a scan: archive.org "page/n{index}" counts from 0.
+SCAN_PAGE_URL = "https://archive.org/details/{item}/page/n{n}"
+
+
+def scan_url(item: str, leaf: int) -> str:
+    return SCAN_PAGE_URL.format(item=item, n=leaf - 1)
+
+
+def marked_runs(text: str, spans: list[dict]) -> list[dict]:
+    """A line of text as runs, with words the scans could not settle carrying
+    their readings ("unc")."""
+    runs, at = [], 0
+    for u in spans:
+        if u["start"] > at:
+            runs.append({"t": text[at:u["start"]]})
+        runs.append({"t": text[u["start"]:u["end"]], "unc": u["readings"]})
+        at = u["end"]
+    if at < len(text):
+        runs.append({"t": text[at:]})
+    return runs
+
+
 LINK_TYPE_LABELS = {
     "quotes": ("quotes", "quoted by"),
     "cites": ("cites", "cited by"),
@@ -152,15 +189,21 @@ def label_for(corpus: Corpus, ref: str) -> str:
 def runs_for(segment: dict, changed: list[dict]) -> list[list[list[dict]]]:
     """Split a segment's text into paragraphs -> lines -> runs.
 
-    A run is {"t": text} plus optional "em": true (italics) and
+    A run is {"t": text} plus optional "em": true (italics),
     "chg": index into `changed` (a span the National Archives marks as
-    changed by an amendment). Paragraphs are separated by a blank line in
-    the text, lines by a single newline.
+    changed by an amendment) and "unc": the scans' readings of a word they
+    could not settle. Paragraphs are separated by a blank line in the text,
+    lines by a single newline.
     """
     text = segment["text"]
     n = len(text)
     em = [False] * n
     chg: list[int | None] = [None] * n
+    unc: list[int | None] = [None] * n
+    spans = segment.get("uncertain", [])
+    for idx, u in enumerate(spans):
+        for i in range(u["start"], u["end"]):
+            unc[i] = idx
     for a, b in segment.get("emphasis", []):
         for i in range(a, b):
             em[i] = True
@@ -180,13 +223,15 @@ def runs_for(segment: dict, changed: list[dict]) -> list[list[list[dict]]]:
             i += 1
             continue
         j = i
-        while j < n and text[j] != "\n" and em[j] == em[i] and chg[j] == chg[i]:
+        while j < n and text[j] != "\n" and em[j] == em[i] and chg[j] == chg[i] and unc[j] == unc[i]:
             j += 1
         run: dict = {"t": text[i:j]}
         if em[i]:
             run["em"] = True
         if chg[i] is not None:
             run["chg"] = chg[i]
+        if unc[i] is not None:
+            run["unc"] = spans[unc[i]]["readings"]
         paras[-1][-1].append(run)
         i = j
     return paras
@@ -195,8 +240,8 @@ def runs_for(segment: dict, changed: list[dict]) -> list[list[list[dict]]]:
 # ------------------------------------------------------------ structure
 
 
-def work_url(wid: str) -> str:
-    return f"/{WORKS[wid]['slug']}/"
+def work_url(wid: str, settings: dict | None = None) -> str:
+    return f"/{(settings or WORKS)[wid]['slug']}/"
 
 
 def part_slug(work: dict, division_ref: str) -> str:
@@ -215,8 +260,10 @@ class SiteBuilder:
     def __init__(self, corpus: Corpus, links: list[dict]):
         self.corpus = corpus
         self.link_index = build_link_index(links, corpus)
-        self.works = [corpus.works[w] for w in sorted(WORKS, key=lambda k: WORKS[k]["order"]) if w in corpus.works]
-        missing = set(corpus.works) - set(WORKS)
+        self.settings = {**WORKS, **debate_settings(corpus)}
+        self.works = [corpus.works[w] for w in sorted(self.settings, key=lambda k: self.settings[k]["order"])
+                      if w in corpus.works]
+        missing = set(corpus.works) - set(self.settings)
         if missing:
             raise ValueError(f"works without site settings in tools/site_data.py: {sorted(missing)}")
         self.ref_urls: dict[str, str] = {}
@@ -227,11 +274,11 @@ class SiteBuilder:
     def _plan_urls(self) -> None:
         for work in self.works:
             wid = work["id"]
-            base = work_url(wid)
+            base = work_url(wid, self.settings)
             self.ref_urls[work["ref_prefix"]] = base
             tops = [d for d in work.get("divisions", []) if d["level"] == 1]
             for d in work.get("divisions", []):
-                if WORKS[wid]["paged"]:
+                if self.settings[wid]["paged"]:
                     top = next(t for t in tops if d["ref"] == t["ref"] or d["ref"].startswith(t["ref"] + "."))
                     page = f"{base}{part_slug(work, top['ref'])}/"
                     self.ref_urls[d["ref"]] = page if d is top else f"{page}#{d['ref']}"
@@ -239,7 +286,7 @@ class SiteBuilder:
                     self.ref_urls[d["ref"]] = f"{base}#{d['ref']}"
             for s in work["segments"]:
                 top = self._top_division(work, s["ref"])
-                if WORKS[wid]["paged"] and top:
+                if self.settings[wid]["paged"] and top:
                     self.ref_urls[s["ref"]] = f"{base}{part_slug(work, top['ref'])}/#{s['ref']}"
                 else:
                     self.ref_urls[s["ref"]] = f"{base}#{s['ref']}"
@@ -286,6 +333,11 @@ class SiteBuilder:
         }
         if s.get("kind"):
             block["kind"] = s["kind"]
+        if s.get("scan"):
+            leaves = s["scan"]["leaves"]
+            pages = s.get("pages", [])
+            block["scan"] = {"pages": pages, "url": scan_url(s["scan"]["item"], leaves[0])}
+            block["uncertain"] = len(s.get("uncertain", []))
         return block
 
     def _blocks(self, work: dict, segments: list[dict], heading_levels: tuple[int, ...]) -> list[dict]:
@@ -329,8 +381,20 @@ class SiteBuilder:
         else:
             text = " and ".join(names)
         out = {"kind": kind, "names": names, "text": text}
-        if attr.get("byline"):
-            out["byline"] = attr["byline"]
+        for key in ("byline", "source"):
+            if attr.get(key):
+                out[key] = attr[key]
+        return out
+
+    @staticmethod
+    def _header(d: dict) -> dict:
+        """A division's heading lines, salutation and signature as runs, with
+        the words the scans could not settle marked."""
+        unc = d.get("uncertain", {})
+        out = {"publication": [marked_runs(t, unc.get(f"publication.{i}", [])) for i, t in enumerate(d.get("publication", []))]}
+        for key in ("salutation", "signature"):
+            if d.get(key):
+                out[key] = marked_runs(d[key], unc.get(key, []))
         return out
 
     def build(self) -> tuple[dict, dict[str, dict]]:
@@ -338,7 +402,7 @@ class SiteBuilder:
         works_out = []
         for work in self.works:
             wid = work["id"]
-            cfg = WORKS[wid]
+            cfg = self.settings[wid]
             tops = [d for d in work.get("divisions", []) if d["level"] == 1]
             info = {
                 "attribution": self._attribution(work.get("attribution")),
@@ -352,19 +416,30 @@ class SiteBuilder:
                 "source_ids": work["source_ids"],
                 "title": work["title"],
                 "top_divisions": len(tops),
-                "url": work_url(wid),
+                "url": work_url(wid, self.settings),
             }
+            if work.get("position"):
+                info["position"] = work["position"]
+            if work.get("position"):
+                notes = sum(1 for s in work["segments"] if s.get("kind") == "footnote")
+                info["notes"] = notes
             if not cfg["paged"]:
                 pid = wid
+                single = work.get("position") and len(work.get("divisions", [])) == 1
+                body = [s for s in work["segments"] if not (single and s.get("kind") == "footnote")]
                 pages[pid] = {
-                    "blocks": self._blocks(work, work["segments"], (1, 2)),
+                    "blocks": self._blocks(work, body, () if single else (1, 2)),
                     "id": pid,
                     "kind": "work",
                     "title": work["title"],
-                    "toc": self._toc(work, (1, 2)),
+                    "toc": [] if single else self._toc(work, (1, 2)),
                     "url": info["url"],
                     "work": self._work_ref(info),
                 }
+                if single:
+                    d = work["divisions"][0]
+                    pages[pid]["division"] = {"header": self._header(d), "label": d["label"], "ref": d["ref"]}
+                    pages[pid]["notes"] = self._blocks(work, [s for s in work["segments"] if s.get("kind") == "footnote"], ())
             else:
                 parts = []
                 for i, d in enumerate(tops):
@@ -388,6 +463,7 @@ class SiteBuilder:
                         "blocks": self._blocks(work, body, ()),
                         "division": {
                             **part,
+                            "header": self._header(d),
                             "notes": [n["text"] for n in d.get("notes", [])],
                             "salutation": d.get("salutation"),
                             "signature": d.get("signature"),
@@ -410,6 +486,16 @@ class SiteBuilder:
                 pages[wid] = {"id": wid, "kind": "index", "title": work["title"], "url": info["url"],
                               "work": self._work_ref(info), "parts": parts}
             works_out.append(info)
+
+        debate = [w for w in works_out if w["collection"] == "ratification"]
+        if debate:
+            pages["ratification"] = {
+                "groups": [{"key": k, "label": POSITION_LABELS[k],
+                            "works": [w["id"] for w in debate if w.get("position") == k]}
+                           for k in POSITIONS if any(w.get("position") == k for w in debate)],
+                "id": "ratification", "kind": "collection", "title": "The Ratification Debate",
+                "url": "/ratification/",
+            }
 
         site = {
             "pages": [{"id": p["id"], "kind": p["kind"], "url": p["url"]} for p in pages.values()],

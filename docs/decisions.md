@@ -276,3 +276,25 @@ The passage panel's "Graph" button opens a dialog drawn by
   file per page, not per ref, keeps the file count low (decision 15). The
   largest, the Constitution's, is 74 KB and loads only when a graph is opened.
 
+
+## 27. The ratification debate is read from scans, by consensus
+
+No accurate public-domain digital text of the ratification essays exists, so
+phase 5 reads them from OCR scans of three 1888–1892 compilations (Ford's
+*Essays* and *Pamphlets*; McMaster and Stone). One scan's DjVu XML gives the
+layout; other scans of the same printed edition check each word; a vote with
+strict limits settles disagreements, and words it cannot settle are kept as
+the main scan reads them and marked `uncertain`, with every reading, for a
+human to check against the page image (docs/editions.md). The project owner
+chose this over importing one scan as is, and over waiting for a hand-checked
+transcription.
+
+- Both sides are imported, grouped by `position`, which is Res Publica's
+  label. Attributions are the editions' own.
+- Every passage records its scan pages (`scan`), and the site links each
+  paragraph to its page image on archive.org.
+- Essay numbers follow the print; a number printed twice gets a letter
+  (`Landholder.10b`, `Agrippa.15b`).
+- Brutus is not imported: no public-domain printing was found.
+- URLs: `/ratification/` lists the works; a series has one page per essay
+  (`/cato/3/`), a single piece one page (`/caution/`).

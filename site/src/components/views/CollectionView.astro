@@ -1,0 +1,75 @@
+---
+import "../../styles/collection.css";
+import Base from "../../layouts/Base.astro";
+import Icon from "../Icon.astro";
+import { href, authorText, formatDate, formatNumber, loadSite, readingMinutes } from "../../lib/data.js";
+
+// The ratification debate: essays and letters for and against the
+// Constitution, grouped by side.
+const { page } = Astro.props;
+const works = Object.fromEntries(loadSite().works.map((w) => [w.id, w]));
+const federalist = works.federalist;
+const all = page.groups.flatMap((g) => g.works.map((id) => works[id]));
+const words = all.reduce((s, w) => s + w.words, 0);
+---
+<Base title={page.title} section="ratification" description="Essays and letters for and against the Constitution, 1787–1788, from public-domain printings, with a permanent reference for every paragraph.">
+  <section class="page-head">
+    <div class="container">
+      <ol class="crumbs"><li><a href={href("/")}>Library</a></li><li aria-current="page">Ratification debate</li></ol>
+      <h1>The Ratification Debate</h1>
+      <p class="lede">
+        Essays and letters printed in newspapers while the states debated the Constitution, for it and against it,
+        from collections edited by Paul Leicester Ford and by John Bach McMaster and Frederick D. Stone.
+      </p>
+      <div class="doc-stats">
+        <span><strong>{all.length}</strong> works</span>
+        <span><strong>{formatNumber(all.reduce((s, w) => s + w.passages, 0))}</strong> paragraphs</span>
+        <span><strong>{Math.round(words / 1000)}k</strong> words</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    {page.groups.map((g) => (
+      <section class="debate-group" aria-labelledby={`g-${g.key}`}>
+        <h2 id={`g-${g.key}`}><span class={`pos-dot pos-${g.key}`} aria-hidden="true"></span>{g.key === "other" ? "Other letters" : `${g.label} writers`}</h2>
+        <ol class="debate-works">
+          {g.key === "federalist" && federalist && (
+            <li>
+              <a class="card debate-work" href={href(federalist.url)}>
+                <h3>{federalist.title}</h3>
+                <p class="by">Hamilton, Madison and Jay as “Publius”</p>
+                <div class="paper-foot"><span>{federalist.top_divisions} papers</span><span>{formatDate(federalist.date)}</span></div>
+              </a>
+            </li>
+          )}
+          {g.works.map((id) => works[id]).map((w) => (
+            <li>
+              <a class="card debate-work" href={href(w.url)}>
+                <h3>{w.title}</h3>
+                <p class="by">{authorText(w.attribution)}{w.attribution?.byline?.startsWith("Attributed") || w.attribution?.byline?.startsWith("Accredited") ? " (attributed)" : ""}</p>
+                <div class="paper-foot">
+                  <span>{w.top_divisions > 1 ? `${w.top_divisions} essays` : `${readingMinutes(w.words)} min read`}</span>
+                  <span>{formatDate(w.date)}</span>
+                </div>
+              </a>
+            </li>
+          ))}
+          {g.key === "anti" && (
+            <li>
+              <div class="card debate-work soon">
+                <h3>Brutus <span class="badge soon">Not yet</span></h3>
+                <p class="by">Sixteen essays in the New-York Journal, 1787–1788</p>
+                <p class="muted small">No public-domain printing has been found yet that can be imported and checked. <a href={href("/about/#ocr")}>Why</a></p>
+              </div>
+            </li>
+          )}
+        </ol>
+      </section>
+    ))}
+    <p class="legend-note">
+      Which side a writer took is Res Publica's grouping, not the editors'. Authors are as the editions give them;
+      several attributions are disputed by later scholars. <a href={href("/about/#ocr")}>About these texts</a>
+    </p>
+  </div>
+</Base>

@@ -2,20 +2,28 @@
 import Reader from "../../layouts/Reader.astro";
 import Passage from "../Passage.astro";
 import AuthorChip from "../AuthorChip.astro";
+import DocLines from "../DocLines.astro";
+import Runs from "../Runs.astro";
 import Icon from "../Icon.astro";
-import { href, authorKey, authorText, formatNumber, readingMinutes } from "../../lib/data.js";
+import { href, authorKey, authorText, formatNumber, printedDate, readingMinutes, runsText } from "../../lib/data.js";
 
-// One part of a paged work (a Federalist paper).
+// One part of a paged work: a Federalist paper, or one essay or letter of
+// a series from the ratification debate.
 const { page, work } = Astro.props;
 const d = page.division;
 const attr = d.attribution;
 const authorNames = attr ? attr.names : [];
+const debate = work.collection === "ratification";
+const num = (label) => label.split(" ").at(-1);
+const heading = d.title || d.label;
+const printed = d.publication.map((l) => l).join(" ");
 ---
 <Reader title={page.title} section={work.id} pageId={page.id} progress description={`${d.label}${d.title ? `: ${d.title}` : ""}. ${authorText(attr)}.`}>
   <ol class="crumbs" slot="crumbs">
     <li><a href={href("/")}>Library</a></li>
+    {debate && <li><a href={href("/ratification/")}>Ratification debate</a></li>}
     <li><a href={href(work.url)}>{work.title}</a></li>
-    <li aria-current="page">No. {d.label.split(" ").at(-1)}</li>
+    <li aria-current="page">No. {num(d.label)}</li>
   </ol>
 
   <Fragment slot="toc">
@@ -24,9 +32,9 @@ const authorNames = attr ? attr.names : [];
       {work.parts.map((p) => (
         <li>
           <a href={href(p.url)} aria-current={p.ref === d.ref ? "page" : undefined}>
-            <span class="n">{p.label.split(" ").at(-1)}</span>
-            <span class:list={["dot", authorKey(p.attribution)]} aria-hidden="true"></span>
-            <span class="t">{p.title}</span>
+            <span class="n">{num(p.label)}</span>
+            {!debate && <span class:list={["dot", authorKey(p.attribution)]} aria-hidden="true"></span>}
+            <span class="t">{p.title || printedDate(p.publication) || p.label}</span>
           </a>
         </li>
       ))}
@@ -34,23 +42,24 @@ const authorNames = attr ? attr.names : [];
   </Fragment>
 
   <header class="doc-head">
-    <span class="eyebrow">{d.label}</span>
-    <h1 data-pagefind-meta="title" data-pagefind-filter={`work:${work.title}`}>{d.title}</h1>
+    <span class="eyebrow">{debate ? work.title : d.label}</span>
+    <h1 data-pagefind-meta="title" data-pagefind-filter={`work:${work.title}`}>{heading}</h1>
     <span data-pagefind-meta={`label:${d.label}`}></span>
     {authorNames.map((n) => <span data-pagefind-filter={`author:${n}`}></span>)}
     <div class="doc-meta" data-pagefind-ignore>
       <AuthorChip attribution={attr} />
-      {d.publication.length > 0 && <span class="chip">{d.publication.join(" ")}</span>}
+      {!debate && d.publication.length > 0 && <span class="chip">{printed}</span>}
       <span class="chip">{readingMinutes(d.words)} min read</span>
     </div>
+    {debate && <DocLines header={d.header} />}
     {d.notes.length > 0 && <p class="doc-note" data-pagefind-ignore>{d.notes[0]}</p>}
   </header>
 
-  {d.salutation && <p class="salutation">{d.salutation}</p>}
+  {d.salutation && <p class="salutation">{d.header?.salutation ? <Runs runs={d.header.salutation} /> : d.salutation}</p>}
   <div class="blocks">
     {page.blocks.map((b) => <Passage block={b} />)}
   </div>
-  {d.signature && <p class="signature">{d.signature}</p>}
+  {d.signature && <p class="signature">{d.header?.signature ? <Runs runs={d.header.signature} /> : d.signature}</p>}
 
   {page.notes.length > 0 && (
     <section class="notes-section" aria-labelledby="notes-h">
@@ -67,32 +76,32 @@ const authorNames = attr ? attr.names : [];
     </details>
   ))}
 
-  <nav class="pager" aria-label="Papers" data-pagefind-ignore>
+  <nav class="pager" aria-label={debate ? "Essays" : "Papers"} data-pagefind-ignore>
     {page.prev && (
       <a class="card prev" rel="prev" href={href(page.prev.url)}>
         <small><Icon name="left" />Previous</small>
         <strong>{page.prev.label}</strong>
-        <span class="t">{page.prev.title}</span>
+        {page.prev.title && <span class="t">{page.prev.title}</span>}
       </a>
     )}
     {page.next && (
       <a class="card next" rel="next" href={href(page.next.url)}>
         <small>Next<Icon name="right" /></small>
         <strong>{page.next.label}</strong>
-        <span class="t">{page.next.title}</span>
+        {page.next.title && <span class="t">{page.next.title}</span>}
       </a>
     )}
   </nav>
 
   <Fragment slot="panel">
-    <span class="eyebrow">About this paper</span>
+    <span class="eyebrow">{debate ? "About this essay" : "About this paper"}</span>
     <h2>{d.label}</h2>
     <dl>
       <dt>Author</dt><dd>{authorText(attr)}</dd>
-      {attr?.byline && <Fragment><dt>Byline</dt><dd>“{attr.byline}” in this edition</dd></Fragment>}
-      {d.publication.length > 0 && <Fragment><dt>Printed</dt><dd>{d.publication.join(" ")}</dd></Fragment>}
+      {attr?.byline && <Fragment><dt>Byline</dt><dd>“{attr.byline}” in {debate ? attr.source || "this edition" : "this edition"}</dd></Fragment>}
+      {d.publication.length > 0 && <Fragment><dt>Printed</dt><dd>{debate ? d.header.publication.map((r) => runsText(r)).join(" · ") : printed}</dd></Fragment>}
       <dt>Paragraphs</dt><dd>{formatNumber(d.passages)}</dd>
     </dl>
-    <p><a href={href("/about/#editions")}>About this edition</a></p>
+    <p><a href={href(debate ? "/about/#ocr" : "/about/#editions")}>About this edition</a></p>
   </Fragment>
 </Reader>

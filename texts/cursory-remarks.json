@@ -1,0 +1,289 @@
+{
+  "attribution": {
+    "byline": "By Hugh Henry Brackenridge",
+    "kind": "single",
+    "names": [
+      "Hugh Henry Brackenridge"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1788-04",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "By Hugh Henry Brackenridge",
+        "kind": "single",
+        "names": [
+          "Hugh Henry Brackenridge"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cursory Remarks",
+      "level": 1,
+      "publication": [
+        "THE AMERICAN MUSEUM.",
+        "(Number 4)",
+        "April, 1788."
+      ],
+      "ref": "CursoryRemarks",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "primary": "4)"
+            },
+            "start": 8
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 315–322. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "cursory-remarks",
+  "position": "federalist",
+  "ref_prefix": "CursoryRemarks",
+  "segments": [
+    {
+      "label": "Cursory Remarks, ¶ 1",
+      "pages": [],
+      "ref": "CursoryRemarks.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          331
+        ]
+      },
+      "text": "It is not my intention to enter largely into a consideration of this plan of government, but to suggest some ideas in addition to, and of the same nature with, those already made, showing the imperfections and the danger of it."
+    },
+    {
+      "label": "Cursory Remarks, ¶ 2",
+      "pages": [],
+      "ref": "CursoryRemarks.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          331
+        ]
+      },
+      "text": "The first thing that strikes a diligent observer, is the want of precaution with regard to the sex of the president. Is it provided that he shall be of the male gender? The Salii, a tribe of the Burgundians, in the nth century, excluded females from the sovereignty. Without a similar exclusion, what shall we think, if, in progress of time, we should come to have an o/d woman at the head of our affairs? But what security have we that he shall be a white man? What would be the national disgrace if he should be elected from one of the southern states, and a vile negro should come to rule over us? Treaties would then be formed with the tribes of Congo and Loango, instead of the civilized nations of Europe. But is there any security that he shall be 2i freeman? Who knows but the electors at a future period, in days of corruption, may pick up a man-servant, a convict perhaps, and give him the dominion? Is any care taken that he shall be of perfect parts? Shall we, in affairs of a civil nature, leave a door open to lame men, bastards, eunuchs, and the devil knows what?",
+      "uncertain": [
+        {
+          "end": 757,
+          "readings": {
+            "brittle": "a",
+            "google": "di",
+            "primary": "2i"
+          },
+          "start": 755
+        }
+      ]
+    },
+    {
+      "label": "Cursory Remarks, ¶ 3",
+      "pages": [
+        "320"
+      ],
+      "ref": "CursoryRemarks.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          331,
+          332
+        ]
+      },
+      "text": "A senate is the next great constituent part of the government ; and yet there is not a word said with regard to the ancestry of any of them; whether they should be altogether Irish, or only Scots Irish. If any of them have been in the war of the White Boys, the Heart of Oak, or the Hke, they may overturn all authority, and make Shilelah the supreme law of the land."
+    },
+    {
+      "label": "Cursory Remarks, ¶ 4",
+      "pages": [
+        "320"
+      ],
+      "ref": "CursoryRemarks.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          332
+        ]
+      },
+      "text": "The house of representatives is to be so large, that it can never be built. They may begin it, but it can never be finished. Ten miles square! Babylon itself, unless the suburbs are taken into view, was not of greater extent."
+    },
+    {
+      "label": "Cursory Remarks, ¶ 5",
+      "pages": [
+        "320"
+      ],
+      "ref": "CursoryRemarks.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          332
+        ]
+      },
+      "text": "But what avails it to dwell on these things? The want of a bill of rights is the great evil. There was no occasion for a bill of wrongs; ; for there will be wrongs enough. But oh ! a bill of rights ! What is the nature of a bill of rights ? \" It is a schedule or inventory of those powers which Congress do not possess.\" But if it is clearly ascertained what powers they have, what need of a catalogue of those powers they have not? Ah ! there is the mistake. A minister preaching, undertook, first, to show what was in his text; second, what was not in it. When it is specified what powers are given, why not also what powers are not given? A bill of rights is wanting, and all those things which are usually secured under it —"
+    },
+    {
+      "label": "Cursory Remarks, ¶ 6",
+      "pages": [
+        "320"
+      ],
+      "ref": "CursoryRemarks.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          332
+        ]
+      },
+      "text": "1. The rights of conscience are swept away. The Confession of Faith, the Prayer-Book, the Manual and Pilgrim's Progress are to go. The psalms of Watts, I am told, are the only thing of the kind that is to have any quarter at all."
+    },
+    {
+      "label": "Cursory Remarks, ¶ 7",
+      "pages": [
+        "320"
+      ],
+      "ref": "CursoryRemarks.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          332
+        ]
+      },
+      "text": "2. The liberty of the press — that is gone at the first stroke. Not so much as an advertisement for a stray horse, or a runaway negro, can be put in any of the gazettes."
+    },
+    {
+      "label": "Cursory Remarks, ¶ 8",
+      "pages": [
+        "320"
+      ],
+      "ref": "CursoryRemarks.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          332
+        ]
+      },
+      "text": "3. The trial by jury — that is knocked in the head, and all that worthy class of men, the lawyers, who live by haranguing and bending the juries, are demolished."
+    },
+    {
+      "label": "Cursory Remarks, ¶ 9",
+      "pages": [
+        "320",
+        "321"
+      ],
+      "ref": "CursoryRemarks.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          332,
+          333
+        ]
+      },
+      "text": "I would submit it to any candid man, if in this constitution there is the least provision for the privilege of shaving the beard? or is there any mode laid down to take the measure of a pair of breeches? Whence is it then, that men of learning seem so much to approve, while the ignorant are against it ? The cause is perfectly apparent, viz., that reason is an erring guide, while instinct, which is the governing principle of the untaught, is certain. Put a pig in a poke, carry it half a day's journey through woods and by-ways, let it out, and it will run home without deviation. Could Dr. Franklin do this? What reason have we then to suppose that his judgment, or that of Washington, could be equal to that of Mr. Smilie* in state affairs?"
+    },
+    {
+      "label": "Cursory Remarks, ¶ 10",
+      "pages": [
+        "321"
+      ],
+      "ref": "CursoryRemarks.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          333
+        ]
+      },
+      "text": "Were it not on this principle that we are able to account for it, it might be thought strange that old Livingston,f of the Jersies, could be so hoodwinked as to give his sanction to such a diabolical scheme of tyranny amongst men — a constitution which may well be called hell-born. For if all the devils in Pandemonium had been employed about it, they could not have made a worse."
+    },
+    {
+      "label": "Cursory Remarks, ¶ 11",
+      "pages": [
+        "321"
+      ],
+      "ref": "CursoryRemarks.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          333
+        ]
+      },
+      "text": "Neil MacLaughlin, a neighbor of mine, who has been talking with Mr. Findley, says that under this constitution all weavers are to be put to death. What have these innocent manufacturers done that they should be proscribed ?"
+    },
+    {
+      "label": "Cursory Remarks, ¶ 12",
+      "pages": [
+        "321"
+      ],
+      "ref": "CursoryRemarks.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          333
+        ]
+      },
+      "text": "Let other states think what they will of it, there is one reason why every Pennsylvanian should execrate this imposition upon mankind. It will make his state most probably the seat of government, and bring all the officers, and cause a great part of the revenue to be expended here. This must make the people rich, enable them to pay their debts, and corrupt their morals. Any citizen, therefore, on the Delaware and Susquehannah waters, ought to be hanged and quartered, that would give it countenance."
+    },
+    {
+      "label": "Cursory Remarks, ¶ 13",
+      "pages": [
+        "321"
+      ],
+      "ref": "CursoryRemarks.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          333
+        ]
+      },
+      "text": "I shall content myself at present with these strictures, but shall continue them from time to time as occasion may require."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cursory Remarks, note 1",
+      "pages": [
+        "321"
+      ],
+      "ref": "CursoryRemarks.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          333
+        ]
+      },
+      "text": "* John Smilie, a prominent Anti- Federalist. — IN"
+    },
+    {
+      "kind": "footnote",
+      "label": "Cursory Remarks, note 2",
+      "pages": [
+        "321"
+      ],
+      "ref": "CursoryRemarks.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          333
+        ]
+      },
+      "text": "■f- William Livingston. — £(/.",
+      "uncertain": [
+        {
+          "end": 23,
+          "readings": {
+            "primary": "Livingston."
+          },
+          "start": 12
+        }
+      ]
+    }
+  ],
+  "short": "Cursory Remarks",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "Cursory Remarks"
+}

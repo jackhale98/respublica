@@ -1,0 +1,157 @@
+{
+  "attribution": {
+    "byline": "Written by Samuel Chase",
+    "kind": "single",
+    "names": [
+      "Samuel Chase"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1787-10-12",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Written by Samuel Chase",
+        "kind": "single",
+        "names": [
+          "Samuel Chase"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Caution",
+      "level": 1,
+      "publication": [
+        "THE MARYLAND JOURNAL,",
+        "dSTuinber 07G)",
+        "Friday, October 12, 1787."
+      ],
+      "ref": "Caution",
+      "salutation": "To THE Inhabitants of Baltimore Town.",
+      "signature": "October ii, ijSy. Caution.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 9,
+            "readings": {
+              "brittle": "O^-axxiber",
+              "primary": "dSTuinber"
+            },
+            "start": 0
+          },
+          {
+            "end": 14,
+            "readings": {
+              "brittle": "976)",
+              "primary": "07G)"
+            },
+            "start": 10
+          }
+        ],
+        "signature": [
+          {
+            "end": 17,
+            "readings": {
+              "primary": "ijSy."
+            },
+            "start": 12
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 323–328. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "caution",
+  "position": "anti",
+  "ref_prefix": "Caution",
+  "segments": [
+    {
+      "label": "Caution, ¶ 1",
+      "pages": [
+        "327"
+      ],
+      "ref": "Caution.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          339
+        ]
+      },
+      "text": "An attempt to surprise you into zxiy public measure, ought to meet your indignation and contempt. When violence or cunning is substituted for argument and reason, suspicion should take the alarm, and prudence should dictate the propriety of deliberation. Questions of consequence in private life ought not to be hastily decided, and with greater reason, determinations that involve the future felicity of a whole people, ought not to be taken before the most mature and deliberate consideration, and a free and full examination of the subject and all its consequences. These reflections occurred on being informed that some gentlemen of this Town employ themselves in carrying about and soliciting subscribers to a petition, addressed to the General Assembly, requesting them to call a Convention to ratify the new system of government, proposed for the United States by the late Convention at Philadelphia. If this petition contained no more, it would not have been worthy of notice; but it publishes to the world your entire approbation of the New Federal Government, and your desire that it should be adopted and confirmed by this State, as it stands, without any amendment or alteration.",
+      "uncertain": [
+        {
+          "end": 36,
+          "readings": {
+            "brittle": "any",
+            "google": "zny",
+            "primary": "zxiy"
+          },
+          "start": 32
+        }
+      ]
+    },
+    {
+      "label": "Caution, ¶ 2",
+      "pages": [
+        "327",
+        "328"
+      ],
+      "ref": "Caution.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          339,
+          340
+        ]
+      },
+      "text": "The ostensible cause for offering you the petition to sign is, that you may express your sentiments to the legislature, that they ought to call a Convention to ratify the new form of government for the United States ; but the real design of the moters of the petition is to draw you into a declaration in favour of the whole system, and to bind you hereafter to support it, which you must do, or allege deception and surprise, if, on further reflection, you should discover that you rashly gave an opinion against your real interests. If the real intention of the promoters and carriers of this petition was only to obtain your opinion in favour of calling a Convention, it might have been expressed in 3. few lines ; and no one would oppose such a petition, although improper and unnecessary, because your Delegates will certainly move for, and exert themselves to procure, the calling a Convention ; and no member of the General Assembly will deny that, in so doing, your Delegates speak your sentiments.",
+      "uncertain": [
+        {
+          "end": 705,
+          "readings": {
+            "brittle": "a",
+            "primary": "3."
+          },
+          "start": 703
+        }
+      ]
+    },
+    {
+      "label": "Caution, ¶ 3",
+      "pages": [
+        "328"
+      ],
+      "ref": "Caution.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          340
+        ]
+      },
+      "text": "In my opinion, it is not necessary or proper for you, at this time, to express your approbation, or disapprobation, of the new constitution for the United States, for the following reasons :"
+    },
+    {
+      "label": "Caution, ¶ 4",
+      "pages": [
+        "328"
+      ],
+      "ref": "Caution.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          340
+        ]
+      },
+      "text": "First — because the decision, /<?r or against the plan, is of the greatest consequence, as it involves no less than the happiness or misery of you and all your posterity forever; and therefore, I think, requires your dispassionate and most deliberate consideration. Secondly — because you want information, and have not had time yourselves to examine the proposed system, and to consider the consequences that may flow from rejecting or adopting it. Thirdly — because time is not given for your countrymen in this, and the other States, to consider the subject, and to lay their sentiments and reasons for or against the measure before you. Fourthly — because you ought to hear both sides, as the man who determines on hearing one part only, will almost always be mistaken in his judgment. He may be in the right, but it will be by chance and not by reason. Fifthly — because you are not pressed in point of time to determine on the subject; you have at least three months for deliberation; to decide, therefore, in a few days will be rashness and folly. Sixthly — when men urge you to determine in haste, on so momentuous a subject, it is not unreasonable to require their motives; and it is not uncharitable to suspect that they are improper; and no possible mischief or inconvenience can happen from delay,"
+    }
+  ],
+  "short": "Caution",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "Caution"
+}

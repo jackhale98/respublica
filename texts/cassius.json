@@ -1,0 +1,3143 @@
+{
+  "attribution": {
+    "byline": "Written by James Sullivan",
+    "kind": "single",
+    "names": [
+      "James Sullivan"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1787-09-18/1787-12-25",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Written by James Sullivan",
+        "kind": "single",
+        "names": [
+          "James Sullivan"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cassius 1",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(:N\"\\aiTi\"ber 307)",
+        "Tuesday, September iS, 17S7.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Cassius.1",
+      "signature": "Cassius.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 13,
+            "readings": {
+              "primary": "(:N\"\\aiTi\"ber"
+            },
+            "start": 0
+          },
+          {
+            "end": 18,
+            "readings": {
+              "brittle": "367)",
+              "google": "367)",
+              "primary": "307)"
+            },
+            "start": 14
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 28,
+            "readings": {
+              "brittle": "1787.",
+              "google": "1787.",
+              "primary": "17S7."
+            },
+            "start": 23
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by James Sullivan",
+        "kind": "single",
+        "names": [
+          "James Sullivan"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cassius 2",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(KrviiTi\"ber 371)",
+        "Tuesday, October 2, 1787.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Cassius.2",
+      "signature": "Cassius.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 12,
+            "readings": {
+              "brittle": "(ISTum-ber",
+              "google": "(ITixxn'ber",
+              "primary": "(KrviiTi\"ber"
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by James Sullivan",
+        "kind": "single",
+        "names": [
+          "James Sullivan"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cassius 3",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(N\"umber 383)",
+        "Friday, November i6, 17S7.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Cassius.3",
+      "signature": "Cassius»",
+      "uncertain": {
+        "publication.2": [
+          {
+            "end": 20,
+            "readings": {
+              "brittle": "i-6,",
+              "google": "i",
+              "primary": "i6,"
+            },
+            "start": 17
+          },
+          {
+            "end": 26,
+            "readings": {
+              "brittle": "1787.",
+              "google": "1787.",
+              "primary": "17S7."
+            },
+            "start": 21
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by James Sullivan",
+        "kind": "single",
+        "names": [
+          "James Sullivan"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cassius 4",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(ISTun^ber 385)",
+        "Friday, November 23, 17S7.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Cassius.4",
+      "signature": "Cassius.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "google": "(X^Tixn'ber",
+              "primary": "(ISTun^ber"
+            },
+            "start": 0
+          },
+          {
+            "end": 15,
+            "readings": {
+              "brittle": "3©",
+              "google": "395)",
+              "primary": "385)"
+            },
+            "start": 11
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 26,
+            "readings": {
+              "brittle": "1787.",
+              "google": "1787.",
+              "primary": "17S7."
+            },
+            "start": 21
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by James Sullivan",
+        "kind": "single",
+        "names": [
+          "James Sullivan"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cassius 5",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(ISruiTiTDer 3B6)",
+        "Tuesday, November 27, 1787.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Cassius.5",
+      "signature": "Cassius.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 12,
+            "readings": {
+              "brittle": "CSTuixiber",
+              "google": "(dumber",
+              "primary": "(ISruiTiTDer"
+            },
+            "start": 0
+          },
+          {
+            "end": 17,
+            "readings": {
+              "brittle": "386)",
+              "google": "386)",
+              "primary": "3B6)"
+            },
+            "start": 13
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by James Sullivan",
+        "kind": "single",
+        "names": [
+          "James Sullivan"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cassius 6",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(ISTTaiTi'ber SSV)",
+        "Friday, November 30, 1787.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Cassius.6",
+      "salutation": "Mr. Allen :",
+      "signature": "Cassius.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "(Number",
+              "google": "(N'viiril>er",
+              "primary": "(ISTTaiTi'ber"
+            },
+            "start": 0
+          },
+          {
+            "end": 18,
+            "readings": {
+              "brittle": "387)",
+              "google": "387)",
+              "primary": "SSV)"
+            },
+            "start": 14
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by James Sullivan",
+        "kind": "single",
+        "names": [
+          "James Sullivan"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cassius 7",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(ISTuml^er 3S7)",
+        "Friday, November 30, 1787.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Cassius.7",
+      "signature": "Cassius.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "brittle": "CSTumljer",
+              "google": "(N'liml^ex-",
+              "primary": "(ISTuml^er"
+            },
+            "start": 0
+          },
+          {
+            "end": 15,
+            "readings": {
+              "brittle": "387)",
+              "google": "387)",
+              "primary": "3S7)"
+            },
+            "start": 11
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by James Sullivan",
+        "kind": "single",
+        "names": [
+          "James Sullivan"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cassius 8",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(^J'liinber 301)",
+        "Friday, December 14, 17S7.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Cassius.8",
+      "salutation": "To THE Inhabitants of this State:",
+      "signature": "Cass! us. ( To be continued)",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "CN'iaixiber",
+              "google": "(Number",
+              "primary": "(^J'liinber"
+            },
+            "start": 0
+          },
+          {
+            "end": 16,
+            "readings": {
+              "brittle": "391)",
+              "google": "391)",
+              "primary": "301)"
+            },
+            "start": 12
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 26,
+            "readings": {
+              "brittle": "1787.",
+              "google": "1787.",
+              "primary": "17S7."
+            },
+            "start": 21
+          }
+        ],
+        "signature": [
+          {
+            "end": 9,
+            "readings": {
+              "brittle": "CASsius.",
+              "google": "CASsius.",
+              "primary": "Cass! us."
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by James Sullivan",
+        "kind": "single",
+        "names": [
+          "James Sullivan"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cassius 9",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE.",
+        "(3SruiTi\"ber 392)",
+        "Tuesday, December i8, 17S7.",
+        "For the Massachusetts Gazette.",
+        "(^Continued from our last.')"
+      ],
+      "ref": "Cassius.9",
+      "salutation": "To THE Inhabitants of this State,",
+      "signature": "Cassius. (To be continued)",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 12,
+            "readings": {
+              "brittle": "(Number",
+              "primary": "(3SruiTi\"ber"
+            },
+            "start": 0
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 21,
+            "readings": {
+              "brittle": "18,",
+              "google": "i8,",
+              "primary": "i8,"
+            },
+            "start": 18
+          },
+          {
+            "end": 27,
+            "readings": {
+              "brittle": "1787.",
+              "google": "1787.",
+              "primary": "17S7."
+            },
+            "start": 22
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by James Sullivan",
+        "kind": "single",
+        "names": [
+          "James Sullivan"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cassius 10",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(ISTxTixLber 303)",
+        "Friday, December 21, 17S7.",
+        "For the Massachusetts Gazette.",
+        "(^Continued from our last.')"
+      ],
+      "ref": "Cassius.10",
+      "salutation": "To THE Inhabitants of this State.",
+      "signature": "Cassius. (To be Continued))",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 12,
+            "readings": {
+              "brittle": "(Niaxxiber",
+              "google": "(N'la.Txiber",
+              "primary": "(ISTxTixLber"
+            },
+            "start": 0
+          },
+          {
+            "end": 17,
+            "readings": {
+              "brittle": "393)",
+              "google": "303)",
+              "primary": "303)"
+            },
+            "start": 13
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 26,
+            "readings": {
+              "brittle": "1787.",
+              "google": "1787.",
+              "primary": "17S7."
+            },
+            "start": 21
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Written by James Sullivan",
+        "kind": "single",
+        "names": [
+          "James Sullivan"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Cassius 11",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(Nviinljer 304)",
+        "Tuesday. December 25, 17S7.",
+        "For the Massachusetts Gazette.",
+        "{Concluded from our last.)"
+      ],
+      "ref": "Cassius.11",
+      "salutation": "To THE Inhabitants of this State.",
+      "signature": "Cassius.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "brittle": "(Number",
+              "google": "(K'Tixnber",
+              "primary": "(Nviinljer"
+            },
+            "start": 0
+          },
+          {
+            "end": 15,
+            "readings": {
+              "brittle": "3©<L)",
+              "google": "39^)",
+              "primary": "304)"
+            },
+            "start": 11
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 27,
+            "readings": {
+              "brittle": "1787.",
+              "google": "1787.",
+              "primary": "17S7."
+            },
+            "start": 22
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 1–48. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "cassius",
+  "position": "federalist",
+  "ref_prefix": "Cassius",
+  "segments": [
+    {
+      "label": "Cassius 1, ¶ 1",
+      "pages": [
+        "5"
+      ],
+      "ref": "Cassius.1.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          17
+        ]
+      },
+      "text": "It is a great pity that such an able writer as Numa* should take up the pen to distribute sentiments, which have a tendency to create uneasiness in the minds of the misinformed and weak, (for none other will be influenced by them) especially at this time when the state is hardly recovered from those convulsions,! it has so recently experienced."
+    },
+    {
+      "label": "Cassius 1, ¶ 2",
+      "pages": [
+        "5"
+      ],
+      "ref": "Cassius.1.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          17
+        ]
+      },
+      "text": "The real well-wisher to peace and good government cannot but execrate many of the ideas which that would be- disturber of tranquillity has lately proclaimed to the publick, through the channels of the Hampshire Gazette, and Independent Chronicle.| The man of sense, the true lover of his country, would, if a change of officers was to take place in the government to which he was subject, and men be placed in power, whom he thought not so capable of the task as those who preceded them, endeavour, all in his power, to extenuate the evil, and none but the ruthless incendiary, or the disappointed tool, would, at such a period, conduct in a manner the reverse."
+    },
+    {
+      "label": "Cassius 1, ¶ 3",
+      "pages": [
+        "5",
+        "0"
+      ],
+      "ref": "Cassius.1.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          17,
+          18
+        ]
+      },
+      "text": "It is well known, that there is a party in this state whose sentiments are in favour of aristocracy ; who wish to see the constitution dissolved, and another, which shall be more arbitrary and tyrannical, established on its ruins. Perhaps a few of this description were members of the last ad . . . st . . . n.* If so, most happy for the commonwealth, they are now hurled from seats of power, and unable to carry into effect plans laid for subverting the liberties of the people. — Checked at once in their horrid career — all those hopes blasted which they entertained of concerting measures which would \"afford them matter for derision at a future day,\" — they now put on the garb of hypocrisy, and seem to weep for the terrible misfortunes which they pretend are hovering around us. Such characters are, it is hoped, forever banished from places of trust. Some of them pretend to be mighty politicians, — they display a vast knowledge of ancient times — and by their harangues about the conduct of Greece, Rome and Athens, show their acquaintance with the pages of antiquity. In some few instances, however, perhaps they are a little mistaken. The learned Numa says, \"the degenerate Romans banished Cicero for saving the commonwealth.\" Rome did not banish Cicero — a faction, who wished to triumph over the liberties of Rome, exiled that immortal orator ; and to that, or a similiar one, he at last fell a sacrifice. If a faction can be styled the people, with great propriety do the disappointed aristocraticks, and their tools, in our day, style themselves, the great majority of the people."
+    },
+    {
+      "label": "Cassius 1, ¶ 4",
+      "pages": [
+        "0"
+      ],
+      "ref": "Cassius.1.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          18
+        ]
+      },
+      "text": "If Numa, and others of the like stamp, are politicians, they are very short-sighted ones. If our government is weak, is it policy to weaken it still more by false suggestions, and by a scandalous abuse of our rulers? by endeavouring to spread a spirit of discontent among the people, and prejudicing their minds against those whom, by their suffrages, they have chosen to take the helm of affairs? If this is policy, Numa is, indeed, an accomplished politician."
+    },
+    {
+      "label": "Cassius 1, ¶ 5",
+      "pages": [
+        "0",
+        "7"
+      ],
+      "ref": "Cassius.1.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          18,
+          19
+        ]
+      },
+      "text": "But the time of triumph for the aristocratick clan is now over. The people have seen their folly in listening too much to them already. Their conduct has involved the state in confusion; but it is hoped, a conduct the reverse will place matters again upon a right footing. The secret machinations, which were harboured in the breasts of those aristocratick dupes, have been laid open to publick inspection — their plans thoroughly investigated — and the horrid tendency of them, had they taken effect, been fully manifested."
+    },
+    {
+      "label": "Cassius 1, ¶ 6",
+      "pages": [
+        "7"
+      ],
+      "ref": "Cassius.1.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          19
+        ]
+      },
+      "text": "They may weep, crocodile-like, till the source of their tears is dried up, they never will get the prey into their jaws, which they hoped to devour. The sting of remorse, it may be hoped, will bring them to a sense of their guilt, and an upright conduct make some amends for their high-handed offences. Should this take place, an injured people may forgive, though they never can forget them."
+    },
+    {
+      "label": "Cassius 1, ¶ 7",
+      "pages": [
+        "7"
+      ],
+      "ref": "Cassius.1.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          19
+        ]
+      },
+      "text": "Let Numa reflect, that we now have, at the head of government, those men who were the first to step forth in the great cause of liberty — who risked their all to acquire the blessings of freedom; though that freedom, through the influence of such characters as himself, has been often abused."
+    },
+    {
+      "label": "Cassius 1, ¶ 8",
+      "pages": [
+        "7"
+      ],
+      "ref": "Cassius.1.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          19
+        ]
+      },
+      "text": "The people know their rulers, and have confidence in them : and can it be supposed, that they would have confidence in those, whose dastardly souls, in time of danger, shrunk back from the scene of action, and kept secure in their strong holds? and when peace and independence had crowned the exertions of far more noble souls, they groped out of darkness and obscurity, and intruded themselves into places of power and trust?"
+    },
+    {
+      "label": "Cassius 1, ¶ 9",
+      "pages": [
+        "7"
+      ],
+      "ref": "Cassius.1.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          19
+        ]
+      },
+      "text": "Can it be expected, that the people should have confidence in such men, or feel themselves secure under their government? By no means. The bandage is taken from their eyes — they see and detest them. They have displaced them, that they may return to their former obscurity, and pass the remainder of their days in philosophizing upon their conduct. Numa and his coadjutors may exert themselves all in their power; but they cannot again stir up sedition and rebellion."
+    },
+    {
+      "label": "Cassius 1, ¶ 10",
+      "pages": [
+        "7"
+      ],
+      "ref": "Cassius.1.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          19
+        ]
+      },
+      "text": "The people now have too much penetration to be led away by their falsehoods and scandal: they will, it is hoped, ere long, reap the blessings of good government, under the direction of a wise administration, and treat in a manner they deserve, every incendiary attempt against their peace and happiness."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 1, note 1",
+      "pages": [
+        "5"
+      ],
+      "ref": "Cassius.1.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          17
+        ]
+      },
+      "text": "*A writer then attacking the Hancock party. See The Independent Chronicle for Aug. 23, and Sept. 15, 20, 17S7. Ed.",
+      "uncertain": [
+        {
+          "end": 110,
+          "readings": {
+            "brittle": "1787.",
+            "google": "1787.",
+            "primary": "17S7."
+          },
+          "start": 105
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 1, note 2",
+      "pages": [
+        "5"
+      ],
+      "ref": "Cassius.1.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          17
+        ]
+      },
+      "text": "\\ Shay's Rebellion. Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 1, note 3",
+      "pages": [
+        "5"
+      ],
+      "ref": "Cassius.1.fn3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          17
+        ]
+      },
+      "text": "\\ Massachusetts newspapers published in Northampton and Boston. Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 1, note 4",
+      "pages": [
+        "0"
+      ],
+      "ref": "Cassius.1.fn4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          18
+        ]
+      },
+      "text": "* The administration of Governor Bowdoin. Ed."
+    },
+    {
+      "label": "Cassius 2, ¶ 1",
+      "pages": [
+        "8"
+      ],
+      "ref": "Cassius.2.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          20
+        ]
+      },
+      "text": "To Numa's long list of evils, which he says, in some of his productions, are prevalent in the commonwealth, he might have added, that when priests became Jesuits, the liberties of the people were in danger — in almost all countries, we shall find, that when sedition and discontent were brewing. Political Jesuits were often at the bottom of the affair."
+    },
+    {
+      "label": "Cassius 2, ¶ 2",
+      "pages": [
+        "8"
+      ],
+      "ref": "Cassius.2.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          20
+        ]
+      },
+      "text": "Unhappily for Numa, the citizens of Massachusetts are not so blinded by ignorance, nor so devoted to prejudice and superstition, as the common people in those arbitrary and despotick governments, where clerical imposition reigns paramount almost to everything else; where the freedom of speech is suppressed, and the liberty of the people, with regard to examining for themselves, totally restrained."
+    },
+    {
+      "label": "Cassius 2, ¶ 3",
+      "pages": [
+        "8"
+      ],
+      "ref": "Cassius.2.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          20
+        ]
+      },
+      "text": "It is, however, the case that, even in this country, the weak and ignorant are often led too implicitly to put their faith wholly upon what their spiritual teachers think proper to inform them, and precipitately imbibe sentiments from them, which, if their teacher is a designing knave, may prove detrimental to society. The Jesuit will, however, find it very difficult, notwithstanding many circumstances may seem to favor his views, to carry the point of altering a free government to one more arbitrary, in such a country as this."
+    },
+    {
+      "label": "Cassius 2, ¶ 4",
+      "pages": [
+        "8",
+        "9"
+      ],
+      "ref": "Cassius.2.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          20,
+          21
+        ]
+      },
+      "text": "The cloak of religion too often answers to promote plans detrimental to the peace and happiness of mankind. The priests, who accompanied the Spaniards when they first invaded the kingdoms of Mexico and Peru, urged on those blood-hounds to perpetrate scenes of cruelty and horror (at the bare recital of which human nature shudders), with assurances that it would tend to promote the cause of the Christian religion, if they effected the conquest of those unhappy people, and that any conduct was justifiable to bring infidels to a sense of their duty."
+    },
+    {
+      "label": "Cassius 2, ¶ 5",
+      "pages": [
+        "9"
+      ],
+      "ref": "Cassius.2.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          21
+        ]
+      },
+      "text": "The teacher of the benign and peaceable doctrine of the Saviour of mankind, often thinks he can, with greater security, on account of his profession, disseminate the seeds of sedition and discontent, without being suspected. This thought no doubt occurred to Numa before he exhibited his designing productions to the publick. Sheltered under the sacred wing of religion, how many an impious wretch stalks secure from publick justice,"
+    },
+    {
+      "label": "Cassius 2, ¶ 6",
+      "pages": [
+        "9"
+      ],
+      "ref": "Cassius.2.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          21
+        ]
+      },
+      "text": "\"Whose mem'ries ought, and will perhaps yet live, In all the glare which infamy can give.\""
+    },
+    {
+      "label": "Cassius 2, ¶ 7",
+      "pages": [
+        "9"
+      ],
+      "ref": "Cassius.2.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          21
+        ]
+      },
+      "text": "Numa indicates that he means to prepare the minds of the people for the reception of that government which the Federal Convention shall think most proper for them to adopt. In the name of common sense, what can that scribbler mean by this assertion ? Is a scandalous abuse of our rulers — the propagation of sentiments which are calculated to set the publick mind in a ferment — if they are so far attended to as to have any influence among the people — a fit preparation for such a measure? Surely, by no means, and every thinking mind will discover that the productions of Numa are either intended to effect secret purposes, or that they are merely effusions of the fanatick brain of that Quixote of the day."
+    },
+    {
+      "label": "Cassius 2, ¶ 8",
+      "pages": [
+        "9"
+      ],
+      "ref": "Cassius.2.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          21,
+          22
+        ]
+      },
+      "text": "Instead of vile insinuations and falsehoods being spread among the people, in regard to their rulers, in order to prepare their minds for the reception of that form of government which the Federal Convention may propose, sentiments the very reverse ought to be propagated. The people ought to be inspired with the highest confidence in those who preside over the affairs of the state. It ought to be implanted in their minds, that their rulers are men fit to conduct every plan which might be proposed, to promote the general welfare of the people; and this with truth may be asserted. But Numa has no more intention of preparing the minds of the people for the government which the Federal Convention may propose, than Queen Catharine has of abdicating the throne of Russia."
+    },
+    {
+      "label": "Cassius 2, ¶ 9",
+      "pages": [],
+      "ref": "Cassius.2.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          22
+        ]
+      },
+      "text": "The people of Massachusetts ought to be cautioned, above everything, to be on their guard with respect to the conduct of Political Jesuits, They have generally been the curse of almost every country that has cherished ; they have often been the promoters of revolution and bloodshed. A set of infernal fiends, let loose from the dreary mansions of Beelzebub, cannot be more detrimental to the place and happiness of society, than a band of Political Jesuits."
+    },
+    {
+      "label": "Cassius 2, ¶ 10",
+      "pages": [],
+      "ref": "Cassius.2.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          22
+        ]
+      },
+      "text": "Citizens of Massachusetts ! those men who now preside over you are, and ever have been, the patrons of freedom and independence! men whose exertions have been unceasing to promote and secure to you the blessings of a free government; whose grand stimulus to act is the advancement of your welfare and happiness! — men whose conduct is not stinted by the narrow concerns of self, and who, \" when their country calls, can yield their treasure up, and know no wish beyond the publick good.\" Such are the men who now wield the affairs of state, and whose deeds will, when those of that vile clan of calumniators who exist in this state are rotting in the tomb of oblivion, conspicuously adorn the brightest pages of the American revolution,"
+    },
+    {
+      "label": "Cassius 2, ¶ 11",
+      "pages": [],
+      "ref": "Cassius.2.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          22
+        ]
+      },
+      "text": "Numa* and his band, the calumniators of true worth, may bustle away for a while; but they will ere long be obliged to retire from the bright flashes of patriotism and merit; and, after finding their endeavours fruitless, to sully The Character of the Brightest Luminary that ever Adorned the Hemisphere of Massachusetts,! and many other illustrious patriots, who compose the present administration, they will retire to gnash their teeth in anguish and disappointment, in the caverns of obscurity — a punishment their conduct most justly merits."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 2, note 1",
+      "pages": [],
+      "ref": "Cassius.2.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          22
+        ]
+      },
+      "text": "*The author of the productions under the signature of Numa,it is said, is a gentleman of the cloth, in one of the Western counties."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 2, note 2",
+      "pages": [],
+      "ref": "Cassius.2.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          22
+        ]
+      },
+      "text": "f John Hancock. Ed."
+    },
+    {
+      "label": "Cassius 3, ¶ 1",
+      "pages": [],
+      "ref": "Cassius.3.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          23
+        ]
+      },
+      "text": "It was the saying of an eminent legislator, that if we had angels to govern us, we should quarrel with them. The conduct of some among us has repeatedly evinced, beyond a doubt, that this would actually be the case ; we have proof of this in a more particular manner in the opposition now made by some (but I sincerely hope the number is few) to the form of government agreed upon by the late federal Convention. I firmly believe, if a form of government was proposed to some of the inhabitants of the United States by the great Author of Nature himself, founded on the basis of eternal rectitude, and sanctioned in the courts above, that they would object to it."
+    },
+    {
+      "label": "Cassius 3, ¶ 2",
+      "pages": [],
+      "ref": "Cassius.3.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          23
+        ]
+      },
+      "text": "It is a happy circumstance for the citizens of the United States that they are acquainted with the motives which actuate the present opposers to the plan of federal government; as they now, instead of listening with candour to the dictates of mad frenzy and wild ambition, will treat with the deserved contempt all their productions."
+    },
+    {
+      "label": "Cassius 3, ¶ 3",
+      "pages": [
+        "12"
+      ],
+      "ref": "Cassius.3.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          23,
+          24
+        ]
+      },
+      "text": "The opposers to the plan of federal government, are composed of such as are either deeply in debt and ;know:not how to extricate themselves, should a strict administration of law and justice take place, or those who are determined not to be contented under any form of government, or of such:as mean to \" owe their greatness to their country's ruin.\" — Are such fit men to point out objections to a government, proposed by the first characters in the universe, after a long and candid discussion of the subject ? — Are such fit characters to propose a government for ruling a free and enlightened people? — Can those who are known to be divested of honour, justice and integrity, expect to propagate sentiments that will outweigh those of men whose character as true republicans and wise statesmen, are known from pole to pole — men, whose wisdom and firmness have emancipated the United States from the yoke of bondage, and laid the foundation of an empire, which (if the people will still follow their precepts) will last till time shall be swallowed up in the \"wasteless ages of eternity?\" — Can scribblers whose fame is but of a day, think to influence the citizens of the United States so far as to cause them to respect a form of government calculated to diffuse the blessings of civil society far and wide? — If they can harbour ideas of such a nature, I pity their weakness and despise their villainy."
+    },
+    {
+      "label": "Cassius 3, ¶ 4",
+      "pages": [
+        "12"
+      ],
+      "ref": "Cassius.3.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          24
+        ]
+      },
+      "text": "Some writers in Pennsylvania, New York and Massachusetts, have displayed their scribbling talents in opposition to the plan of federal government; but it is easy to perceive by their arguments, that they are men who are fearful of not being noticed in a federal government, or are some of the stamp before mentioned. Their arguments are without weight, and their assertions and insinuations as foreign to the real state of facts as anything possibly can be: they anticipate evils, which, in the nature of things, it is almost impossible should ever happen, and, for the most part, their reasoning (if it is not a degradation to reason to call such jargon by its name) is incoherent, nonsensical and absurd."
+    },
+    {
+      "label": "Cassius 3, ¶ 5",
+      "pages": [
+        "12",
+        "1"
+      ],
+      "ref": "Cassius.3.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          24,
+          25
+        ]
+      },
+      "text": "Some writers in Massachusetts have discovered such weakness, inconsistency and folly in their productions, that it discovers them to be entirely ignorant of the subject they pretend to discuss, and totally unacquainted with the plan of government proposed by the federal convention. Among this number, is a scribbler under the signature of Vox Populi ;* whose signature, to have been consistent with his productions, should have been Vox Insania. This pompous and very learned scribbler, goes on to harrangue the public about the danger, hazard, terrour and struction which will attend the adoption of the federal Constitution. He pleads, in a mournful strain, much about woful experience. From this circumstance, I am induced to suppose Vox Populi was an adherent of the celebrated Shays, in his unfortunate expedition the last winter, and wofully experienced the misfortune attendant on the insurgents, through the energy of government. However, the inhabitants of Massachusetts may be assured, that they will have Woful Experience with a witness, if they suffer themselves to be led away by such ignorant, knavish and designing numbheads as Vox Populi and his clan, so far as to reject the plan of federal government proposed by the Convention. Vox Populi complains that our source for taxes is exhausted, and says we must have a new system for taxation: but he must consider, that if the federal government is adopted, we shall not have occasion to employ the legislature so great a part of the year as we are now obliged to do; of consequence, government will be able to apply their money to better uses than paying anti-federalists, while they are spreading their poisonous vapours through the already too much infected atmosphere."
+    },
+    {
+      "label": "Cassius 3, ¶ 6",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.3.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          25
+        ]
+      },
+      "text": "Mr. Vox Populi remarks, that some people are already taxed more than their estates are worth ; in this instance I sincerely believe he speaks the truth. But what is the occasion of their being thus taxed? — It is because they make a show as though they have property, though in fact it belongs to another; they live sumptuously, and riot in the property of their unfortunate creditors. Perhaps Mr. Vox Populi is one of this class, and has wofully experienced a taxation more than his whole estate is worth: if he is, I would advise him, instead of employing his time in belching out his \" de factos, plene proofs\" and other chit-chat of the like kind, and disseminating his execrable \"ideas,\" to go about adjusting his affairs, as it will tend more to his honour, and perhaps be the means of saving him from the woful experience of confinement in a place much more fit for him than that in which he now is."
+    },
+    {
+      "label": "Cassius 3, ¶ 7",
+      "pages": [
+        "1",
+        "14"
+      ],
+      "ref": "Cassius.3.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          25,
+          26
+        ]
+      },
+      "text": "I pity Mr. Vox Populi's weakness and conceit, in thinking he and others of his class have accents not less majestick than thunder, as I really think he is very singular in his opinion. Instead of his \"accents\" being majestick as thunder, they are as harmless and insignificant as the feeble breeze."
+    },
+    {
+      "label": "Cassius 3, ¶ 8",
+      "pages": [
+        "14"
+      ],
+      "ref": "Cassius.3.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          26
+        ]
+      },
+      "text": "Citizens of Massachusetts, look well about you ; you are beset by harpies, knaves and blockheads, who are employing every artifice and falsehood to effect your ruin. The plan of federal government is fraught with every thing favourable to your happiness, your freedom and your future welfare : if you reject it, posterity will execrate your memories, and ceaselessly insult your ashes : if you adopt it, they will revere your departed shades, and offer up libations of gratitude on your tombs."
+    },
+    {
+      "label": "Cassius 3, ¶ 9",
+      "pages": [
+        "14"
+      ],
+      "ref": "Cassius.3.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          26
+        ]
+      },
+      "text": "May that wisdom which is profitable to direct guide your judgments — and may you, by adopting the federal government, secure to yourselves and your posterity every social and religious advantage, and every national blessing."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 3, note 1",
+      "pages": [
+        "12"
+      ],
+      "ref": "Cassius.3.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          24
+        ]
+      },
+      "text": "* A writer in the Massachusetts Gazette, Oct 30, Nov. 6, 13, 16, and 23. Ed.",
+      "uncertain": [
+        {
+          "end": 48,
+          "readings": {
+            "brittle": "30,",
+            "google": "50,",
+            "primary": "30,"
+          },
+          "start": 45
+        }
+      ]
+    },
+    {
+      "label": "Cassius 4, ¶ 1",
+      "pages": [],
+      "ref": "Cassius.4.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          27
+        ]
+      },
+      "text": "Anarchy, with her haggard cheeks and extended jaws, stands ready, and all allow that unless some efficient form of government is adopted she will soon swallow us. The opposers to the plan of government lately agreed upon by the federal convention have not spared their censures upon it: they have stigmatized it with every odious appellation that can be named ; but amidst all their railing, have not so much as hinted at a form of government that would be proper for us to adopt : and even if they had, if would have remained for us to examine, whether they were mer of more honesty, greater abilities, and firmer patriots and friend to their country, than the members of the late convention; anc whether the form of government, which they might propose, was better adapted to our situation and circumstances, and freer from imperfections, than the one which has already been proposed to us. But it is not the intention of the opposers to the plan of federal government, founded on firm and truly republican principles; as, in that case, their aims would be entirely defeated, as it would put it out of their power to stir up sedition and discontent; and they would be lost in obscurity, or move in a most contemptible sphere.",
+      "uncertain": [
+        {
+          "end": 506,
+          "readings": {
+            "brittle": "ii",
+            "google": "it",
+            "primary": "if"
+          },
+          "start": 504
+        }
+      ]
+    },
+    {
+      "label": "Cassius 4, ¶ 2",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          27,
+          28
+        ]
+      },
+      "text": "I have before hinted, that the opposers of the plan of federal government are composed of knaves, harpies and debtors; and, I trust, it will soon appear, what I have said is not a bare assertion only, but a matter of fact."
+    },
+    {
+      "label": "Cassius 4, ¶ 3",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          28
+        ]
+      },
+      "text": "I shall now proceed to make a few remarks on the conclusion of \"Vox Populi's,\" or rather Vox Insania's, production which appeared in last Friday's paper."
+    },
+    {
+      "label": "Cassius 4, ¶ 4",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          28
+        ]
+      },
+      "text": "Vox Populi requests the inhabitants of Massachusetts \" to pay that attention to the federal constitution which the importance of its nature demands;\" and informs them, that they \" have hazarded their lives and fortunes (by the way, a wonderful piece of news) to establish a government founded on the principles of genuine civil liberty,\" &c. I join with him in his request. And am confident if that attention which is requisite is paid to the proposed plan of federal government, that it will meet with the hearty approbation of every well wisher to the freedom and happiness of his country. It is true, that the inhabitants of America have hazarded their lives and fortunes to establish a free and efficient government ; but will Vox Populi, that moon-light prophet, pretend to say that such a government is at present established? Vox Populi goes on to inform us, that, by adopting the new plan of government, we shall make inroads on the constitution of this State, which he seems to think will be sacrilegious. His narrow and contracted ideas, his weak, absurd, and contemptible arguments, discover him to be possessed of a mind clouded with the gloom of ignorance, and thick with the grossest absurdity. Strange it is, that that babbler should suppose it unjustifiable for the people to alter or amend, or even entirely abolish, what they themselves have established. But says Vox Populi, perhaps the new plan will not have the same number to approbate it, that the constitution of this State had. Perhaps Vox Populi will be hung for high treason. There is, in my opinion, as much probability in the latter perhaps, as in the former. Pray, Mr. Vox Populi, if I may be so bold, what reason have you to judge that there will not be so many for adopting the constitution proposed by the convention, as there were for adopting the constitution of this State some years ago? Do you suppose the inhabitants of Massachusetts have depreciated in their understanding? or do you suppose that the sublimity of your jargon has blinded them with"
+    },
+    {
+      "label": "Cassius 4, ¶ 5",
+      "pages": [],
+      "ref": "Cassius.4.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          29
+        ]
+      },
+      "text": "17 respect to their best interests? If you suppose the former, I think you have not been much conversant with them of late, or that your intellects are something defective. If you suppose the latter, in my opinion, you are no better than a downright Fool,"
+    },
+    {
+      "label": "Cassius 4, ¶ 6",
+      "pages": [],
+      "ref": "Cassius.4.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          29
+        ]
+      },
+      "text": "Vox Populi sets out to touch the consciences of men in office, in representing the solemnity of an oath. It seems almost impossible that any one should be so stupidly blinded to every dictate of reason and common sense, as to start such things as have been mentioned by Vox Populi, to deter men from using their influence to effect the adoption of the new plan of government."
+    },
+    {
+      "label": "Cassius 4, ¶ 7",
+      "pages": [],
+      "ref": "Cassius.4.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          29
+        ]
+      },
+      "text": "Can that shallow-pated scribbler suppose that an oath taken by rulers to stand by a form of government, adopted by the people, can be of any force or consideration if the people choose to change that form of government for another more agreeable to their wishes?"
+    },
+    {
+      "label": "Cassius 4, ¶ 8",
+      "pages": [],
+      "ref": "Cassius.4.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          29
+        ]
+      },
+      "text": "But (in order without doubt to strike a greater dread upon their minds) Vox Populi says, \"the oath is registered in Heaven.\" Pray, Mr. Vox Populi, when was you there? and did you really see the oath registered? The constitution of this state was formed, and officers appointed under it, long since the awful battle was fought in Heaven, between Michael and the Prince of Darkness, and I cannot conceive of your admittance there in any other way than under the banners of his Satanick Majesty, who might suppose that such an unparelleled phenomenon would have an effect on the archangel that would be favourable to his cause."
+    },
+    {
+      "label": "Cassius 4, ¶ 9",
+      "pages": [],
+      "ref": "Cassius.4.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          29
+        ]
+      },
+      "text": "Vox Populi asserts that the General Court* acted merely officially in laying the proposed plan of government before the people. No man of candour, sense and foresight, Mr. Vox Populi, will ask the reason of the General Court's laying the plan of government proposed by the federal constiution before the people, as their own minds will suggest to them the true reason for it, and none but those who are as stupid and ignorant as yourself, would suppose that the General Court acted merely officially in doing as they did. The General Court were undoubtedly influenced by motives of the best kind in what they did."
+    },
+    {
+      "label": "Cassius 4, ¶ 10",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          29,
+          30
+        ]
+      },
+      "text": "They without doubt were anxious that the people should have the new plan of government to consider of in due time, and, considering the importance of it, and the tendency it had to promote their happiness, liberty and security, took the first opportunity to present it to them. 'Tis true, Mr. Vox Populi, that you are a member of the legislature; it is also true that you are possessed of a mind as emaciated as the mass of corrupt matter that encircles it. But although you belong to the house of representatives, I trust you are not the mouth of that honourable body; and, if not, pray who authorised you to inform the publick of the motives for their conduct? Did they in an official manner make their motives known to you, and request you to lay them before the publick? Indeed, Mr. Vox Populi, you seem to put on very assuming airs, but I think you had better humble yourself, as your station may, ere long, be lowered."
+    },
+    {
+      "label": "Cassius 4, ¶ 11",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          30
+        ]
+      },
+      "text": "A writer under the signature of Examiner,* has several times pointed out the fallacy of the writings of Vox Populi, and requested that ghost-like scribbler to lay a form of government before the publick in lieu of that which he has taken upon him to condemn ; and has informed him, that if he does not, and still continues scribbling, his modesty will be called in question."
+    },
+    {
+      "label": "Cassius 4, ¶ 12",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          30
+        ]
+      },
+      "text": "The Examiner is entirely unacquainted with the babbler he justly reproves, or he would not have mentioned anything to him respecting modesty; as he must be sensible that screech-owls are entirely divested of modesty, and he may be assured that Vox Populi is one of those midnight squallers."
+    },
+    {
+      "label": "Cassius 4, ¶ 13",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          30
+        ]
+      },
+      "text": "Inhabitants of Massachusetts ! be constantly on the watch — It requires almost the eyes of an Argus to penetrate into all the schemes of those designing wretches, who are waiting to see you reject the federal system of government, and involve yourselves in all the horrours of anarchy, then to riot with pleasure on your miseries. Disappoint their expectations — adopt the proposed plan of federal government — it will secure to you every blessing which a free and enlightened people can expect to enjoy."
+    },
+    {
+      "label": "Cassius 4, ¶ 14",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          30
+        ]
+      },
+      "text": "Some, who are now in office, but expect soon to leave it, and bid adieu to power, unless they can effect the establishment of a government which shall"
+    },
+    {
+      "label": "Cassius 4, ¶ 15",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          31
+        ]
+      },
+      "text": "\" CASSIUS. treason, rapine, sacrilege and crimes, To blot the annals of these western climes,\""
+    },
+    {
+      "label": "Cassius 4, ¶ 16",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          31
+        ]
+      },
+      "text": "are busy in spreading every false and malicious insinuation in their power, to prejudice the people against the new plan of government ; but it is hoped they will see through their designs, and treat them with contempt — and wisely agree to embrace the new plan of government, which is favourable to every sentiment of republicanism, and replete with every thing beneficial to their welfare."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 4, note 1",
+      "pages": [],
+      "ref": "Cassius.4.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          29
+        ]
+      },
+      "text": "* The Legislature of Mass.ichuselts w.-is then so styled. Ed.",
+      "uncertain": [
+        {
+          "end": 35,
+          "readings": {
+            "primary": "Mass.ichuselts"
+          },
+          "start": 21
+        },
+        {
+          "end": 41,
+          "readings": {
+            "primary": "w.-is"
+          },
+          "start": 36
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 4, note 2",
+      "pages": [
+        "1"
+      ],
+      "ref": "Cassius.4.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          30
+        ]
+      },
+      "text": "* In llie Jl/tissac/mseiis Gazette, for Nov. 2, 9, and 20, 1787. Ed.",
+      "uncertain": [
+        {
+          "end": 9,
+          "readings": {
+            "google": "die",
+            "primary": "llie"
+          },
+          "start": 5
+        },
+        {
+          "end": 26,
+          "readings": {
+            "brittle": "the Massachusetts",
+            "google": "Massachusetts",
+            "primary": "Jl/tissac/mseiis"
+          },
+          "start": 10
+        }
+      ]
+    },
+    {
+      "label": "Cassius 5, ¶ 1",
+      "pages": [
+        "20"
+      ],
+      "ref": "Cassius.5.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          32
+        ]
+      },
+      "text": "\" Now there was a day when the sons of God came to present themselves before the Lord, and Satan came also among them."
+    },
+    {
+      "label": "Cassius 5, ¶ 2",
+      "pages": [
+        "20"
+      ],
+      "ref": "Cassius.5.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          32
+        ]
+      },
+      "text": "\"And the Lord said unto Satan, Whence comest thou? Then Satan answered the Lord, and said. From going to and fro in the earth, and from walking up and down in it."
+    },
+    {
+      "label": "Cassius 5, ¶ 3",
+      "pages": [
+        "20"
+      ],
+      "ref": "Cassius.5.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          32
+        ]
+      },
+      "text": "\"And the Lord said unto Satan, Hast thou considered my servant Job, that there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil ?\" &c., &c."
+    },
+    {
+      "label": "Cassius 5, ¶ 4",
+      "pages": [
+        "20"
+      ],
+      "ref": "Cassius.5.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          32
+        ]
+      },
+      "text": "Citizens of Massachusetts! like the sons of God have the members of the late federal convention assembled together; like them too, have they been infested with the presence of Satan, or such as were influenced by Satanick principles, and who wish to thwart every design that has a tendency to promote the general good of the United States."
+    },
+    {
+      "label": "Cassius 5, ¶ 5",
+      "pages": [
+        "20",
+        "21"
+      ],
+      "ref": "Cassius.5.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          32,
+          33
+        ]
+      },
+      "text": "Let us take a short view of the characters who composed the late federal convention. Are they not men who, from their infancy, have been nurtured in the principles of liberty, and taught to pay a sacred regard to the rights of human nature? Are they not men who, when the poisonous breath of tyranny would have blasted the flower of Independence in its bud, and veiled every ray of freedom in the clouds of lawless despotism, nobly stepped forth in defence of their injured country's rights, and through the influence of whose exertions, favoured by the protection of an over-ruling Power, the thick fog of despotism vanished hke the early dew before the powerful rays of the resplendent luminary of the universe? Are they not honest, upright and just men, who fear God and eschew evil ?",
+      "uncertain": [
+        {
+          "end": 629,
+          "readings": {
+            "brittle": "like",
+            "google": "like",
+            "primary": "hke"
+          },
+          "start": 626
+        }
+      ]
+    },
+    {
+      "label": "Cassius 5, ¶ 6",
+      "pages": [
+        "21"
+      ],
+      "ref": "Cassius.5.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          33
+        ]
+      },
+      "text": "With few exceptions, they are mostly men of this character; and, Citizens of Massachusetts, they have formed a government adequate to the maintaining and supporting the rank and dignity of America in the scale of nations; a government which, if adopted, will protect your trade and commerce, and cause business of every kind rapidly to increase and flourish; it is a government which wants only a candid perusal and due attention paid to it, to recommend it to every well-wisher to his country."
+    },
+    {
+      "label": "Cassius 5, ¶ 7",
+      "pages": [
+        "21"
+      ],
+      "ref": "Cassius.5.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          33
+        ]
+      },
+      "text": "Brethren and citizens, hearken to the voice of men who have dictated only for your and posterity's good ; men who ever"
+    },
+    {
+      "label": "Cassius 5, ¶ 8",
+      "pages": [
+        "21"
+      ],
+      "ref": "Cassius.5.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          33
+        ]
+      },
+      "text": "\" Have made the publick good their only aim, And on that basis mean to build their fame.\""
+    },
+    {
+      "label": "Cassius 5, ¶ 9",
+      "pages": [
+        "21"
+      ],
+      "ref": "Cassius.5.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          33
+        ]
+      },
+      "text": "Listen not to the insinuations of those who will glory only in your destruction, but wisely persevere in the paths of rectitude,"
+    },
+    {
+      "label": "Cassius 6, ¶ 1",
+      "pages": [
+        "22"
+      ],
+      "ref": "Cassius.6.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          34
+        ]
+      },
+      "text": "Through the channel of your Paper, I beg leave to offer one or two short remarks on a production which appeared in your last, under the signature of Agrippa.*"
+    },
+    {
+      "label": "Cassius 6, ¶ 2",
+      "pages": [
+        "22"
+      ],
+      "ref": "Cassius.6.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          34
+        ]
+      },
+      "text": "Without saying anything concerning the justness of the learned Agrippa's observations on past events, I shall confine myself chiefly to a small part of his uncommonly ingenious essay."
+    },
+    {
+      "label": "Cassius 6, ¶ 3",
+      "pages": [
+        "22",
+        "23"
+      ],
+      "ref": "Cassius.6.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          34,
+          35
+        ]
+      },
+      "text": "Agrippa says, \" the attempt has been made to deprive us,\" &c., \"by exalting characters on the one side, and vilifying them on the other.\" And goes on, \"I wish to say nothing of the merits or demerits of individuals, such arguments always do hurt.\" Immediately after this he insinuates that the members of the late federal convention have, \" from their cradles, been incapable of comprehending any other principles of government than those of absolute power, and who have, in this instance (meaning the form of government proposed by them) attempted to deprive the people of their constitutional liberty by a pitiful trick.\" Thus the ignorant loggerhead blunders directly into the very same thing which he himself, just before, takes upon him to censure. Perhaps Agrippa thinks that excusable in anti-federalists, which in a federalist he beholds as criminal; justly thinking, without doubt, that as absurdity, knavery aiul falsehood, is tlic (general characteristick of anti-federalists, he might indulge himself in either of them, without meriting censure.",
+      "uncertain": [
+        {
+          "end": 922,
+          "readings": {
+            "primary": "aiul"
+          },
+          "start": 918
+        },
+        {
+          "end": 941,
+          "readings": {
+            "primary": "tlic"
+          },
+          "start": 937
+        }
+      ]
+    },
+    {
+      "label": "Cassius 6, ¶ 4",
+      "pages": [
+        "23"
+      ],
+      "ref": "Cassius.6.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          35
+        ]
+      },
+      "text": "I apprehend, that Agrippa has a new budget of political ideas, centered in his pericranium, which he will, in his own due time, lay before the publick; for he insinuates, that the members of the late federal convention are incapable of comprehending any other principles of government than those of absolute power. Was it the dictates of absolute power, that inspired the immortal Washington to lead forth a band of freemen to oppose the inroads of despotism, and establish the independence of his country? Was it the dictates of arbitrary power, that induced the celebrated Franklin to cross the wide Atlantick to procure succours for his injured countrymen and citizens?"
+    },
+    {
+      "label": "Cassius 6, ¶ 5",
+      "pages": [
+        "23"
+      ],
+      "ref": "Cassius.6.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          35
+        ]
+      },
+      "text": "Blush and tremble, Agrippa ! thou ungrateful monster! — Charon's boat now waits on the borders of the Styx, to convey you to those mansions where guilt of conscience will prey upon your intellects, at least for a season !"
+    },
+    {
+      "label": "Cassius 6, ¶ 6",
+      "pages": [
+        "23"
+      ],
+      "ref": "Cassius.6.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          35
+        ]
+      },
+      "text": "\" Is there not some chosen curse, Some hidden thunder in the stores of heaven, Red with uncommon wrath, to blast \" the wretch. Who dares pollute such names So sacred, and so much belov'd? Methinks I hear each freeman cry, Most certainly there is."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 6, note 1",
+      "pages": [
+        "22"
+      ],
+      "ref": "Cassius.6.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          34
+        ]
+      },
+      "text": "* See the letters of Agrippa in this work. Ed."
+    },
+    {
+      "label": "Cassius 7, ¶ 1",
+      "pages": [
+        "24"
+      ],
+      "ref": "Cassius.7.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          36
+        ]
+      },
+      "text": "I believe it may be asserted for fact, that since the foundations of the universe were laid, there has no kind of government been formed, without opposition being made to it, from one quarter or another."
+    },
+    {
+      "label": "Cassius 7, ¶ 2",
+      "pages": [
+        "24"
+      ],
+      "ref": "Cassius.7.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          36
+        ]
+      },
+      "text": "There always has been, and ever will be, in every country, men who have no other aim in view than to be in direct opposition to every thing which takes place, or which is proposed to be adopted.— This class of beings always wish to make themselves important, and to incur notice ; and, conscious of their inability to obtain that notice which is bestowed on the patriot and the just man, they put up (because they cannot help it) with being noticed only for their absurdity and folly. When you hear this class of Would Be's engaged in condemning any form of government, or any thing else, ask them this simple question — What do you think would be better than that which you condemn? — O! that is quite another matter, would most probably be the answer; we are not adequate to the task of fabricating a government, we leave that to wiser heads — but, they will continue, it is easy for any one to discover the imperfections in this form of government we are condemning. Strange absurdity ! — inadequate to the task of constructing, yet capable of criticizing upon, and pointing out the defects of, anything which is constructed. Well may we say, in the words of another —"
+    },
+    {
+      "label": "Cassius 7, ¶ 3",
+      "pages": [
+        "25"
+      ],
+      "ref": "Cassius.7.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          37
+        ]
+      },
+      "text": "\" Some are bewildei'il in the maze of schools, And some made criticks Nature meant but fools: In search of wit these lose their common sense, And then turn critics in their own defence.\"",
+      "uncertain": [
+        {
+          "end": 22,
+          "readings": {
+            "brittle": "bewilder'",
+            "google": "bewilder'd",
+            "primary": "bewildei'il"
+          },
+          "start": 11
+        }
+      ]
+    },
+    {
+      "label": "Cassius 7, ¶ 4",
+      "pages": [
+        "25"
+      ],
+      "ref": "Cassius.7.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          37
+        ]
+      },
+      "text": "There is not, in the extensive circle of human nature, objects more completely despicable than those who take upon them to censure and condemn a work, without being able to substitute any things preferable in lieu of it.",
+      "uncertain": [
+        {
+          "end": 194,
+          "readings": {
+            "brittle": "thing",
+            "google": "thing",
+            "primary": "things"
+          },
+          "start": 188
+        }
+      ]
+    },
+    {
+      "label": "Cassius 7, ¶ 5",
+      "pages": [
+        "25"
+      ],
+      "ref": "Cassius.7.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          37
+        ]
+      },
+      "text": "In those objects, last mentioned, this country considerably abounds, as the newspaporial pages fully evince. They have been busily employed of late, in finding fault with the plan of government proposed by the federal convention; they have almost exhausted their folly, knavery, absurdity, and ridiculous, inconclusive, non-applicable arguments on the subject; and, in my opinion, was this question asked them. What do you mean by all your learned farrago about this matter? they could not give any other reasonable answer, than that their intent was, to exhibit specimens of their scribbling talents. — But I will dismiss this subject for the present, in order to make a few remarks on the conduct of some others, since the proposed form of government made its appearance."
+    },
+    {
+      "label": "Cassius 7, ¶ 6",
+      "pages": [
+        "25"
+      ],
+      "ref": "Cassius.7.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          37
+        ]
+      },
+      "text": "In some assemblies, where the necessity of calling a state convention to consider of the merits of the new constitution has been debated, some gentlemen, who were opposed to the plan of federal government, while they reprobated it, at the same time declared that none were more truly federal than themselves. — What a pity it is, for these patriots in theory, that actions speak louder than words — and that the people are so incredulous as not to believe a thing which they know to be directly the reverse of truth. —"
+    },
+    {
+      "label": "Cassius 7, ¶ 7",
+      "pages": [
+        "25",
+        "26"
+      ],
+      "ref": "Cassius.7.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          37,
+          38
+        ]
+      },
+      "text": "It ever prejudices people against arguments, even if they should happen to be just, if they are prefaced by a glaring falsehood — this, sharpers do not always consider, when they are attempting to carry their favourite points. — It is something to be wondered at, that a certain theoretical patriot,* instead of saying he would sooner have lost his hand than subscribed his name to the plan of federal government, had not have declared, that he would sooner have lost his head, and the amazing fund of federal wisdom it contains, before he would have been guilty of so horrid an act."
+    },
+    {
+      "label": "Cassius 7, ¶ 8",
+      "pages": [
+        "26"
+      ],
+      "ref": "Cassius.7.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          38
+        ]
+      },
+      "text": "Look around you, inhabitants of America! and see of what characters the anti-federal junto are composed. — Are any of them men of that class, who, in the late war, made bare their arms and girded on the helmet in your defence? — few, very few indeed, of the antifederalists, are men of this character. But who are they that are supporters of that grand republican fabrick, the Federal Constitution ? — Are they not the men who were among the first to assert the rights of freemen, and put a check to the invasions of tyranny ? Are they not, many of them, men who have fought and bled under the banners of liberty? — Most certainly this is the case. — Will you then, countrymen and fellow-citizens, give heed to these infamous, anti-federal slanderers, who, in censuring the proposed plan of federal government, have dared, basely dared to treat even the characters of a Washington and a Franklin with reproach ? — Surely you will not. Your good sense and discernment will lead you to treat with abhorrence and contempt every artifice which is put in practice to sap the confidence you have in men who are the boast of their country, and an honour to human nature. You certainly cannot harbour an idea so derogatory to reason and the nature of things, as that men, who, for eight years, have fought and struggled, to obtain and secure to you freedom and independence, should now be engaged in a design to subvert your liberties and reduce you to a state of servitude. Reason revolts at the thought, . . . and none but the infamous incendiary, or the unprincipled monster, would insinuate a thing so vile."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 7, note 1",
+      "pages": [
+        "25"
+      ],
+      "ref": "Cassius.7.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          37
+        ]
+      },
+      "text": "* Probably Elbridge Gerry, delegate from Massachusetts to the Federal Convention. Ed."
+    },
+    {
+      "label": "Cassius 8, ¶ 1",
+      "pages": [
+        "27"
+      ],
+      "ref": "Cassius.8.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          39
+        ]
+      },
+      "text": "In some former publications, I have confined myself chiefly to pointing out the views of the opposers to the plan of federal government; the reason why I did not enter particularly into the merits of the new constitution is, that I conceived if it was candidly read, and properly attended to, that alone would be sufficient to recommend it to the acceptance of every rational and thinking mind that was interested in the happiness of the United States of America. Some babblers of the opposition junto have, however, complained that nothing has been said, except in general terms, in favour of the federal constitution; in consequence of this, incompetent as I am to the undertaking, I have been induced to lay the following remarks before the publick."
+    },
+    {
+      "label": "Cassius 8, ¶ 2",
+      "pages": [
+        "27"
+      ],
+      "ref": "Cassius.8.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          39
+        ]
+      },
+      "text": "Sect, first, of the new constitution, says,"
+    },
+    {
+      "label": "Cassius 8, ¶ 3",
+      "pages": [
+        "27"
+      ],
+      "ref": "Cassius.8.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          39
+        ]
+      },
+      "text": "\"All legislative powers Herein Granted shall be vested in a congress of the United States.\""
+    },
+    {
+      "label": "Cassius 8, ¶ 4",
+      "pages": [
+        "27"
+      ],
+      "ref": "Cassius.8.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          39
+        ]
+      },
+      "text": "I beg the reader to pay particular attention to the words herein granted, as perhaps there may be occasion for me to recur to them more than once in the course of my observations."
+    },
+    {
+      "label": "Cassius 8, ¶ 5",
+      "pages": [
+        "27",
+        "28"
+      ],
+      "ref": "Cassius.8.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          39,
+          40
+        ]
+      },
+      "text": "The second section of the federal constitution says, that the members of the house of representatives shall be chosen every second year, and the electors shall have the qualifications requisite for electors of the most numerous branch of the state legislature. Some have made objections to the time for which the representatives are to be chosen ; but it is to be considered, that the convention, in this particular, meant to accommodate the time for which the representatives should stand elected, to the constitutions of the different states. If it had been provided, that the time should have been of shorter duration, would not a citizen of Maryland or South-Carolina had reason to murmur?"
+    },
+    {
+      "label": "Cassius 8, ¶ 6",
+      "pages": [
+        "28"
+      ],
+      "ref": "Cassius.8.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          40
+        ]
+      },
+      "text": "The weakness the anti-federalists discover in insinuating that the federal government will have it in their power to establish a despotick government, must be obvious to every one; for the time for which they are elected is so short, as almost to preclude the possibility of their effecting plans for enslaving so vast an empire as the United States of America, even if they were so base as to hope for anything of the kind. The representatives of the people would also be conscious, that their good conduct alone, would be the only thing which could influence a free people to continue to bestow on them their suffrages: the representatives of the people would not, moreover, dare to act contrary to the instructions of their constituents; and if any one can suppose that they would, I would ask them, why such clamour is made about a bill of rights, for securing the liberties of the subject? for if the delegates dared to act contrary to their instructions, would they be afraid to encroach upon a bill of rights? If they determined among themselves to use their efforts to effect the establishment of an aristocratical or despotick government, would a bill of rights be any obstacle to their proceedings? If they were guilty of a breach of trust in one instance, they would be so in another."
+    },
+    {
+      "label": "Cassius 8, ¶ 7",
+      "pages": [
+        "28",
+        "29"
+      ],
+      "ref": "Cassius.8.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          40,
+          41
+        ]
+      },
+      "text": "The second section also says, no person shall be elected a representative who shall not have been seven years an inhabitant of the United States. This clause effectually confounds all the assertions of the anti-federalists, respecting the representatives not being sufficiently acquainted with the different local interests of their constituents ; for a representative, qualified as the constitution directs, must be a greater numbskull than a Vox Populi or an Agrippa,* not to have a knowledge of the different concerns of the Confederation."
+    },
+    {
+      "label": "Cassius 8, ¶ 8",
+      "pages": [
+        "29"
+      ],
+      "ref": "Cassius.8.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          41
+        ]
+      },
+      "text": "The objection that the representation will not be sufficient, is weak in the highest degree. It is supposed, that there are sufficient inhabitants in the state of Massachusetts to warrant the sending of six delegates, at least, to the new Congress — To suppose that three gentlemen, of the first characters and abilities, were inadequate to represent the concerns of this state in a just manner, would be absurd in the highest degree, and contradictory to reason and common sense. The weakness of the antifederalists, in regard to the point just mentioned, sufficiently shews their delinquency with respect to rational argument. They have done nothing more than barely to assert, that the representation would not be sufficient : it is a true saying, that assertions are often the very reverse of facts."
+    },
+    {
+      "label": "Cassius 8, ¶ 9",
+      "pages": [
+        "29"
+      ],
+      "ref": "Cassius.8.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          41
+        ]
+      },
+      "text": "Sect, third, of the new constitution, says, each state shall choose two senators, &c. The liberalty of this clause is sufficient, any reasonable person would suppose, to damp all opposition."
+    },
+    {
+      "label": "Cassius 8, ¶ 10",
+      "pages": [
+        "29"
+      ],
+      "ref": "Cassius.8.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          41
+        ]
+      },
+      "text": "Can any thing be more consistent with the strictest principles of republicanism ?"
+    },
+    {
+      "label": "Cassius 8, ¶ 11",
+      "pages": [
+        "29"
+      ],
+      "ref": "Cassius.8.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          41
+        ]
+      },
+      "text": "Each state is here upon an equal footing; for the house of representatives can of themselves do nothing without the concurrence of the senate."
+    },
+    {
+      "label": "Cassius 8, ¶ 12",
+      "pages": [
+        "29"
+      ],
+      "ref": "Cassius.8.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          41
+        ]
+      },
+      "text": "The third section further provides, that the senate shall choose their own officers. This is so congenial with the constitution of our own state, that I need not advance any argument to induce the free citizens of Massachusetts to approbate it. And those who oppose this part of the federal plan, act in direct opposition to what the anti-federalists often profess, for the excellency of our constitution has been their favourite theme."
+    },
+    {
+      "label": "Cassius 8, ¶ 13",
+      "pages": [
+        "29"
+      ],
+      "ref": "Cassius.8.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          41
+        ]
+      },
+      "text": "The third section also provides, that the senate shall have the sole power to try all impeachments. This clause seems to be peculiarly obnoxious to anti-federal sycophants."
+    },
+    {
+      "label": "Cassius 8, ¶ 14",
+      "pages": [
+        "29",
+        "30"
+      ],
+      "ref": "Cassius.8.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          41,
+          42
+        ]
+      },
+      "text": "They have declared it to be arbitrary and tyrannical in the highest degree. But, fellow-citizens, your own good sense will lead you to see the folly and weakness contained in such assertions. You have experienced the tyranny of such a government; that under which you now live is an exact model of it. In Massachusetts, the house of representatives impeach, and the senate try, the offender."
+    },
+    {
+      "label": "Cassius 8, ¶ 15",
+      "pages": [
+        "30"
+      ],
+      "ref": "Cassius.8.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          42
+        ]
+      },
+      "text": "That part of the proposed form of government, which is to be styled the senate, will not have it in their power to try any person, without the consent of two-thirds of the members."
+    },
+    {
+      "label": "Cassius 8, ¶ 16",
+      "pages": [
+        "30"
+      ],
+      "ref": "Cassius.8.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          42
+        ]
+      },
+      "text": "In this respect, therefore, the new constitution is not more arbitrary than the constitution of this state. This clause does not, therefore, savour in the least of any thing more arbitrary than what has already been experienced: so that the horrours the anti-federal junto pretend to anticipate on that head, must sink into nothing. Besides, when the house of representatives have impeached, and the senate tried any one, and found him guilty of the offence for which he is impeached, they can only disqualify him from holding any office of power and trust in the United States: and after that he comes within the jurisdiction of the law of the land."
+    },
+    {
+      "label": "Cassius 8, ¶ 17",
+      "pages": [
+        "30"
+      ],
+      "ref": "Cassius.8.17",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          42
+        ]
+      },
+      "text": "How such a proceeding can be called arbitrary, or thought improper, I cannot conceive. I leave it to the gentlemen in opposition to point out the tyranny of such conduct, and explain the horrid tendency it will have, for the government of the United States to determine whether any one or more of their own body are worthy to continue in the station to which they were elected."
+    },
+    {
+      "label": "Cassius 8, ¶ 18",
+      "pages": [
+        "30",
+        "3"
+      ],
+      "ref": "Cassius.8.18",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          42,
+          43
+        ]
+      },
+      "text": "Another clause, which the anti-federal junto labour to prove to be arbitrary and tyrannical, is contained in the fourth section, which provides, that the time and place for electing senators and representatives shall be appointed by the different state legislatures, except Congress shall at any time make a law to alter such regulation in regard to the place of choosing representatives. The former part of this clause, gives not the least opportunity for a display of anti-federal scandal, and the latter, only by misrepresentation, and false construction, is by them made a handle of What is intended, by saying that Congress shall have power to appoint the place for electing representatives, is, only to have a check iipcui the legislature of any state, if they should happen to be composed of villains and knaves, as is the case in a sister state;* and should take upon themselves to appoint a place for choosing delegates to send to Congress; which place might be the most inconvenient in the whole state ; and for that reason be appointed by the legislature, in order to create a disgust in the minds of the people against the federal government, if they themselves should dislike it. The weakness of their arguments on this head, must therefore be obvious to every attentive mind.",
+      "uncertain": [
+        {
+          "end": 728,
+          "readings": {
+            "primary": "iipcui"
+          },
+          "start": 722
+        }
+      ]
+    },
+    {
+      "label": "Cassius 8, ¶ 19",
+      "pages": [
+        "3"
+      ],
+      "ref": "Cassius.8.19",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          43
+        ]
+      },
+      "text": "There is one thing, however, which I might mention, as a reason why the opposition junto dread the clause a forementioned — they may suppose, that Congress, when the people are assembled for the choice of their rulers, in the place they have appointed, will send their terrible standing army (which I shall speak of in its place) and, Cesar Borgia like, massacre the whole, in order to render themselves absolute. This is so similar to many of the apprehensions they have expressed, that I could not pass it by unnoticed. Indeed the chief of their productions abound with improbabilities and absurdities of the like kind ; for having nothing reasonable to alledge against a government founded on the principles of staunch republicanism, and which, if well supported, will establish the glory and happiness of our country. They resort to things the most strange and fallacious, in order to blind the eyes of the unsuspecting and misinformed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 8, note 1",
+      "pages": [
+        "29"
+      ],
+      "ref": "Cassius.8.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          41
+        ]
+      },
+      "text": "* Anti-federal scribblers in the Mass. Gazette."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 8, note 2",
+      "pages": [
+        "3"
+      ],
+      "ref": "Cassius.8.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          43
+        ]
+      },
+      "text": "* Referring to Rhode Island. Ed."
+    },
+    {
+      "label": "Cassius 9, ¶ 1",
+      "pages": [
+        "32",
+        "33"
+      ],
+      "ref": "Cassius.9.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          44,
+          45
+        ]
+      },
+      "text": "Section 5, of the new constitution, says, Each house shall be a judge of the elections, returns and qualifications of its own members— a majority shall constitute a quorum, and be authorized to compel the attendance of absent members, in such manner and under such penalties as the law may provide. Each house shall determine the rules of its proceedings — punish its members for disorderly behaviour — and with the consent of two-thirds, expel a member. Each house shall keep a journal of its proceedings, and from time to time publish the same, &c. No one, who professes to be governed by reason, will dispute the propriety of any assembly's being the judge of the qualifications requisite to constitute a member of their own body. That part of the fifth section which says a majority shall constitute a quorum, has been an object against which many anti- federal shafts have been levelled. It has been asserted by some, that this clause empowers a majority of members present, to transact any business relating to the affairs of the United States, and that eight or ten members of the house of representatives, and an equal number of the senate, might pass a law which would benefit themselves, and injure the community at large. The fallacy of such assertions is ciently conspicuous to render them ridiculous and contemptible in the eyes of every unprejudiced mind — for the section further expresses, That a smaller number than a quorum may adjourn from day to day, and be authorised to compel attendance of absent members. This is all the power that is vested in a smaller number than the majority. It is therefore evident, that when it says a majority shall constitute a quorum to do business, it means a majority of the whole number of members that belong to either house."
+    },
+    {
+      "label": "Cassius 9, ¶ 2",
+      "pages": [
+        "33"
+      ],
+      "ref": "Cassius.9.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          45
+        ]
+      },
+      "text": "Sect. 5, further provides, That each house shall keep a journal of its proceedings, and from time to time publish the same, &c. This clause is so openly marked with every feature of republicanism, and expressed in such liberal and comprehensive terms, that it needs no comment to render it acceptable to the enlightened citizens of Massachusetts."
+    },
+    {
+      "label": "Cassius 9, ¶ 3",
+      "pages": [
+        "33"
+      ],
+      "ref": "Cassius.9.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          45
+        ]
+      },
+      "text": "Sect. 6, provides. That the senators and representatives shall receive a compensation for their services, to be ascertained by law — they shall, except in cases of treason, felony, or breach of peace, be privileged from arrest during their session. — The necessity of such regulations must appear plain to every one; the inhabitants of Massachusetts, fully convinced of the justness of such provision, made it in the constitution of this state. The 6th section further says, No member shall be called to account for sentiments delivered in either house, at any other place. In this clause, the freedom of debate, so essential to the preservation of liberty and the support of a republican form of government, is amply provided for. Impeded by no obstacle whatever, the patriot may here proclaim every sentiment that glows within his breast. How far despotism can encroach upon such a government I leave the antifederal junto to declare."
+    },
+    {
+      "label": "Cassius 9, ¶ 4",
+      "pages": [
+        "33"
+      ],
+      "ref": "Cassius.9.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          45
+        ]
+      },
+      "text": "The 6th section further provides, that no senator or representative shall, during the time he is in office, be elected or appointed to any office under the United States — nor shall any person, holding any office under the government, be elected a member of either house during his continuance in that station."
+    },
+    {
+      "label": "Cassius 9, ¶ 5",
+      "pages": [
+        "33",
+        "34"
+      ],
+      "ref": "Cassius.9.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          45,
+          46
+        ]
+      },
+      "text": "This clause at once confutes every assertion of the antifederalists respecting the new congress being able to secure to themselves all offices of power, profit and trust. This section is even more rigidly republican than the constitution of this commonwealth ; for in the general assembly of Massachusetts, a civil officer is not excluded a seat; whereas the new constitution expressly asserts that no person in civil office under the United States shall be eligible to a seat in either house."
+    },
+    {
+      "label": "Cassius 9, ¶ 6",
+      "pages": [
+        "34"
+      ],
+      "ref": "Cassius.9.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "Sect. 7 provides that all bills for raising revenues shall originate in the house of representatives. Here again must the anti-federists appear weak and contemptible in their assertions that the senate will have it in their power to establish themselves a complete aristocratick body; for this clause fully evinces that if their inclinations were ever so great to effect such an establishment, it would answer no end, for being unable to levy taxes, or collect a revenue, is a sufficient check upon every attempt of such a nature."
+    },
+    {
+      "label": "Cassius 9, ¶ 7",
+      "pages": [
+        "34"
+      ],
+      "ref": "Cassius.9.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "The 7th section further provides. That every bill which passes the house of representatives and the senate, before it becomes a law, shall be presented to the president of the United States; if he objects to it the sense of both houses will be again taken on the subject, and if two-thirds of the members are in favour of the bill, it passes into a law."
+    },
+    {
+      "label": "Cassius 9, ¶ 8",
+      "pages": [
+        "34"
+      ],
+      "ref": "Cassius.9.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "Much clamour has been made about the power of the president; it has been asserted that his influence would be such as to enable him to continue in office during life."
+    },
+    {
+      "label": "Cassius 9, ¶ 9",
+      "pages": [
+        "34"
+      ],
+      "ref": "Cassius.9.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "Such insinuations are founded on a very slender basis. If the president opposes the sense of both houses, without sufficient reasons for his conduct, he will soon become obnoxious, and his influence vanish like the fleeting smoke; and his objection to anything which the house and senate may think calculated for the promotion of the publick good, will be of no effect."
+    },
+    {
+      "label": "Cassius 9, ¶ 10",
+      "pages": [
+        "34",
+        "35"
+      ],
+      "ref": "Cassius.9.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          46,
+          47
+        ]
+      },
+      "text": "Sect. 8 provides, That Congress shall have power to lay and •collect taxes, duties, imposts, excises, &c. — to pay debts, to provide for the common defence and general welfare of the United States — that all duties, imposts and excises shall be uniform throughout the Union — they shall have power to coin money, and to fix the value thereof, &c. — The impotency of the present Congress sufficiently indicates the necessity of granting greater powers to a federal head; and it is highly requisite such a head should be cnal'Ii'u In .'si.ililMi .1 fniKl -k adequate to the exigencies of the Union.",
+      "uncertain": [
+        {
+          "end": 528,
+          "readings": {
+            "primary": "cnal'Ii'u"
+          },
+          "start": 519
+        },
+        {
+          "end": 543,
+          "readings": {
+            "primary": ".'si.ililMi"
+          },
+          "start": 532
+        },
+        {
+          "end": 546,
+          "readings": {
+            "primary": ".1"
+          },
+          "start": 544
+        },
+        {
+          "end": 552,
+          "readings": {
+            "primary": "fniKl"
+          },
+          "start": 547
+        }
+      ]
+    },
+    {
+      "label": "Cassius 9, ¶ 11",
+      "pages": [
+        "35"
+      ],
+      "ref": "Cassius.9.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          47
+        ]
+      },
+      "text": "The propriety of all duties and imposts being uniform throughout the states, cannot be disputed. It is also highly requisite that Congress should be enabled to establish a coin which shall circulate the same throughout all the states. The necessity of such arrangements is certainly very obvious. For other particulars contained in the 8di section, I must refer my readers to tho Constitution, and am confident they will find it replete with nothing more than what is absolutely necessary should be vested in the guardians of a free country.",
+      "uncertain": [
+        {
+          "end": 339,
+          "readings": {
+            "brittle": "8th",
+            "google": "8th",
+            "primary": "8di"
+          },
+          "start": 336
+        },
+        {
+          "end": 379,
+          "readings": {
+            "brittle": "the",
+            "google": "the",
+            "primary": "tho"
+          },
+          "start": 376
+        }
+      ]
+    },
+    {
+      "label": "Cassius 9, ¶ 12",
+      "pages": [
+        "35"
+      ],
+      "ref": "Cassius.9.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          47
+        ]
+      },
+      "text": "Can, then, those murmuring sycophants, who oppose the plan of federal government, wish for anything more liberal than what is contained in the aforementioned section ? If the powers of a federal head were to be established on as weak a frame as that on which the present confederation is founded, what effect would any constitution have in giving energy to measures designed to promote the glory of the Union, and for establishing its honour and credit? One great object of the federal Convention was, to give more power to future Assemblies of the States. In this they have done liberally, without partiallity to the interests of the states individually; and their intentions were known before the honourable body was dissolved. And now that a form of government, every way adequate to the purposes of the Union, has been proposed by them, in which proper powers are to be vested in the supreme head, a hue and cry is raised by the sons of sedition and dishonesty, as though an army of uncircumcised Philistines were upon us !"
+    },
+    {
+      "label": "Cassius 9, ¶ 13",
+      "pages": [
+        "35"
+      ],
+      "ref": "Cassius.9.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          47
+        ]
+      },
+      "text": "They are bellowing about, that tyranny will inevitably follow the adoption of the proposed constitution. It is, however, an old saying, that the greatest rogue is apt to cry rogue first. This we may rely upon, that if we follow perfidious counsels, as those are, I dare affirm, of the anti-federalists, every evil which that sapp brood anticipates, will befall us. Besides, foreign creditors will not be cheated out of their property; nor will the creditors of our own country be tame spectators of the sacrifice of their interest at the shrine of villainy."
+    },
+    {
+      "label": "Cassius 9, ¶ 14",
+      "pages": [],
+      "ref": "Cassius.9.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          48
+        ]
+      },
+      "text": "Section Qth says, The writ of habeus corpus shall not be suspended, unless in case of rebellion, or the invasion of the publick safety may require it. It has been asserted by some, that a person accused of a crime, would be obliged to ruin himself, in order to prove his innocence ; as he would be obliged to repair to the seat of federal government, in order to have his cause tried before a federal court, and be liable to pay all expenses which might be incurred in the undertaking. But the section beforementioned proves that assertion to be futile and false, as it expressly provides for securing the right of the subjects, in regard to his being tried in his own state.",
+      "uncertain": [
+        {
+          "end": 11,
+          "readings": {
+            "brittle": "9th",
+            "google": "9th",
+            "primary": "Qth"
+          },
+          "start": 8
+        }
+      ]
+    },
+    {
+      "label": "Cassius 9, ¶ 15",
+      "pages": [],
+      "ref": "Cassius.9.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          48
+        ]
+      },
+      "text": "The 9th section further provides, that a regular statement and account of the receipts and expenditures of all publick monies, shall be published from time to time. Thus the people will have it in their power to examine the appropriations made of the revenues and taxes collected by Congress ; and if they are not satisfied in regard to the conduct of their rulers in this respect, they will be able to effect a change agreeable to their wishes."
+    },
+    {
+      "label": "Cassius 9, ¶ 16",
+      "pages": [],
+      "ref": "Cassius.9.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          48
+        ]
+      },
+      "text": "The last section of this article provides, that no state shall enter into any treaty, alliance, &c., coin money, emit bills of credit, make any other but gold and silver coin a tender in payment of debts — all laws respecting imposts, duties, and excises, shall be subject to the revision and controul of Congress,"
+    },
+    {
+      "label": "Cassius 9, ¶ 17",
+      "pages": [],
+      "ref": "Cassius.9.17",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          48
+        ]
+      },
+      "text": "The. absolute necessity of powers of this nature being vested in a federal head is indisputable."
+    },
+    {
+      "label": "Cassius 9, ¶ 18",
+      "pages": [],
+      "ref": "Cassius.9.18",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          48
+        ]
+      },
+      "text": "For want of such a power, what vile proceedings have of late disgraced almost every legislative measure of Rhode Island ! For want of such a power, some honest creditors in Massachusetts have been paid in old horses and enormous rocks, in return for money loaned upon interest. With respect to the controul of Congress over laws of the afore-mentioned description, it is highly requisite that it should take place : nor have the people any thing to fear from such a proceeding; for their controul cannot be extended farther than the powers granted in the new constitution; the words of which are, \"all powers Herein Granted.\" If any act originates contrary to this, it will be of no effect, and a mere nullity."
+    },
+    {
+      "label": "Cassius 9, ¶ 19",
+      "pages": [
+        "37"
+      ],
+      "ref": "Cassius.9.19",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          49
+        ]
+      },
+      "text": "Section one, of article second, provides that the executive power shall be vested in a president of the United States. The necessity of such a provision must appear reasonable to any one ; and further remarks, therefore, on this head will be needless."
+    },
+    {
+      "label": "Cassius 9, ¶ 20",
+      "pages": [
+        "37"
+      ],
+      "ref": "Cassius.9.20",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          49
+        ]
+      },
+      "text": "In the same section it is provided, (among other things which to argue upon would be unnecessary, as they are founded on the firmest principles of republicanism) that Congress shall determine the time for choosing electors, and the day of election shall be the same throughout the Union. Can anything more strongly mark a liberal and free government than this clause? No one state will in the least be influenced in their choice by that of another; and Congress cannot have the least controul in regard to the appointment of any particular men for electors. This, among other things, proves that all requisite power will still remain in the hands of the people, and any insinuation to the contrary, must be a mere chicane to blind the judgments of the misinformed."
+    },
+    {
+      "label": "Cassius 10, ¶ 1",
+      "pages": [],
+      "ref": "Cassius.10.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          50
+        ]
+      },
+      "text": "Section i, of article II. further provides, That the president shall, previous to his entering upon the duties of his office, take the following oath or affirmation : I do solemnly swear (or affirm) that I will faithfully execute the office of president of the United States, and will, to the best of my ability, preserve, protect, and defend the constitution of the United States. Thus we see that instead of the president's being vested with all the powers of a monarch, as has been asserted, that he is under the immediate controul of the constitution, which if he should presume to deviate from, he would be immediately arrested in his career and summoned to answer for his conduct before a federal court, where strict justice and equity would undoubtedly preside."
+    },
+    {
+      "label": "Cassius 10, ¶ 2",
+      "pages": [],
+      "ref": "Cassius.10.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          50
+        ]
+      },
+      "text": "Section 3, of article II. provides. That the president of the United States shall, from tim.e to time, give Congress information of the state of the union, and recommend to their consideration such measures as he shall judge necessary and expedient — he may, on extraordinary occasions, convene both houses or either of them, and adjourn them to such time as he may think proper — he shall take care that the laws be faithfully executed, and shall commis- ,s!on all officers of the United States.",
+      "uncertain": [
+        {
+          "end": 461,
+          "readings": {
+            "brittle": "commisskui",
+            "google": "commission",
+            "primary": "commis- ,s!on"
+          },
+          "start": 448
+        }
+      ]
+    },
+    {
+      "label": "Cassius 10, ¶ 3",
+      "pages": [
+        "39"
+      ],
+      "ref": "Cassius.10.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          51
+        ]
+      },
+      "text": "Vd)- little more power is granted to the president of the United States, by the above section, than what is vested in the governours of the different states. The propriety of vesting such powers in a supreme executive cannot be doubted. What would it signify to appoint an executive officer, and immediately after to make laws which would be a barrier to the execution of his commission?",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "primary": "Vd)-"
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Cassius 10, ¶ 4",
+      "pages": [
+        "39"
+      ],
+      "ref": "Cassius.10.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          51
+        ]
+      },
+      "text": "It would answer the same end that the nominal power which is vested in the different states answers, that is, it would answer the end of paying for the support of a shaddow, without reaping the benefit of the substance."
+    },
+    {
+      "label": "Cassius 10, ¶ 5",
+      "pages": [
+        "39"
+      ],
+      "ref": "Cassius.10.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          51
+        ]
+      },
+      "text": "It is certainly requisite that proper powers should be vested in an executive (and certainly no more than necessary powers are vested in the executive of the United States by the new constitution) or else the establishment of such a branch is needless."
+    },
+    {
+      "label": "Cassius 10, ¶ 6",
+      "pages": [
+        "39"
+      ],
+      "ref": "Cassius.10.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          51
+        ]
+      },
+      "text": "Section 4, of article II. says, The president, vice-president, and all civil officers of the United States, shall be removed from office on impeachment for, and conviction of treason, bribery, or other high crimes and misdemeanors. — Thus we see that no office, however exalted, can protect the miscreant, who dares invade the liberties of his country, or countenance in his crimes the impious villain who sacrilegiously attempts to trample upon the rights of freemen."
+    },
+    {
+      "label": "Cassius 10, ¶ 7",
+      "pages": [
+        "39"
+      ],
+      "ref": "Cassius.10.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          51
+        ]
+      },
+      "text": "Who will be absurd enough to affirm, that the section alluded to, does not sufficiently prove that the federal convention have formed a government which provides that we shall be ruled by laws and not by men? None, surely, but an anti-federalist — and from them falsehood receives constant homage; for it is on the basis of falsehood and the summit of ignorance, that all opposition to the federal government is founded."
+    },
+    {
+      "label": "Cassius 10, ¶ 8",
+      "pages": [
+        "39",
+        "40"
+      ],
+      "ref": "Cassius.10.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          51,
+          52
+        ]
+      },
+      "text": "Section i, of article III. provides. That the judicial power of the United States shall be vested in one supreme court, and in such inferiour courts as Congress may from time to time appoint. — It has been asserted, that a federal court would be an engine of partiality in the government, a .source of oppression and injustice to the poorer part of the community ; but how far consistency influenced the conduct of the authors of such assertions, the publick must determine. The anti-federalists have said, that if a cause should come before one of state judicial courts, and judgment be given against the person who possessed most interest, that he would immediately appeal to the federal court, whose residence would be at the seat of government, and consequently at so great a distance that an inhabitant of the state of Georgia or New-Hampshire, if he was in low circumstances, would not be able to carry his cause before the federal court, and would, therefore, be obliged to give it up to his wealthier antagonist. The glaring improbability with which such insinuations abound, must be obvious to every one."
+    },
+    {
+      "label": "Cassius 10, ¶ 9",
+      "pages": [
+        "40"
+      ],
+      "ref": "Cassius.10.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          52
+        ]
+      },
+      "text": "Can it be supposed, that any person would be so inconsistent, after a cause was given against him, in a court where judges presided whose characters, as honest and just men, were unrivalled, as to attempt to have the cause re-heard before the federal court?"
+    },
+    {
+      "label": "Cassius 10, ¶ 10",
+      "pages": [
+        "40"
+      ],
+      "ref": "Cassius.10.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          52
+        ]
+      },
+      "text": "Indeed if such a thing was to take place, the man in low circumstances would have nothing to fear, as the payment of all charges would fall upon the person who lost the cause, and there is not the shadow of a doubt, with respect to the person's losing the cause, who had lost it before in a court of justice in either of the states."
+    },
+    {
+      "label": "Cassius 10, ¶ 11",
+      "pages": [
+        "40"
+      ],
+      "ref": "Cassius.10.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          52
+        ]
+      },
+      "text": "In regard to the equal administration of justice in all the states, a rattle brained anti-federalist, in the last Mass. Gazette, under the signature of Agrippa,* has asserted, that the inequality of the administration of justice throughout the states, was a favourite argument in support of the new constitution — an assertion founded on as impudent and barefaced a falsehood as ever was uttered, for the very reverse is the case. The equality of the administration of justice in the different states, has ever been dwelt upon as recommendatory of the new plan of government. I am induced to think that Agrippa is non compos, and this might proceed from his close application to study, while the library of a celebrated university was under his caref — he seems to be one of those whom Pope describes when he says,"
+    },
+    {
+      "label": "Cassius 10, ¶ 12",
+      "pages": [
+        "40"
+      ],
+      "ref": "Cassius.10.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          52
+        ]
+      },
+      "text": "\" Some are bewilder'd in the maze of schools,\" &c."
+    },
+    {
+      "label": "Cassius 10, ¶ 13",
+      "pages": [
+        "40",
+        "4"
+      ],
+      "ref": "Cassius.10.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          52,
+          53
+        ]
+      },
+      "text": "I hope my readers will forgive this digression, when they sider that such .scandalous lies, absurdities, and misrepresentations as the productions of Agrippa, that political Quixote, abound with, may have a tendency to prejudice the minds of the misinformed against the new constitution, unless they are properly noticed."
+    },
+    {
+      "label": "Cassius 10, ¶ 14",
+      "pages": [
+        "4"
+      ],
+      "ref": "Cassius.10.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          53
+        ]
+      },
+      "text": "Section 2, of Article III. provides, among other things, that the trial of all crimes, except in cases of impeachment, shall be by jury; and such trial shall be held in the state where the crime shall have been committed; but when not committed within any state, the trial shall be at such place or places, as Congress may by law have directed. It has been frequently asserted that the new constitution deprived the subject of the right of trial by jury; on what grounds such an assertion could be founded, is to me a mystery ; for the constitution expressly says, that the trial shall be by jury, except in cases of impeachment. In our own state, if a civil officer is impeached he will not be tried by a jury, but by that branch of our legislature styled the senate. Tired, no doubt, with a repetition of arguments, upon parts of the constitution which did not appear quite plain till investigated and rightly construed, the anti-federalists have taken upon them to assert things which the proposed system does not afford them the least grounds for. Presumptuous, indeed, must they be in the highest degree, if they suppose any will be so blind as to listen to the most palpable falsehoods, uttered by them. Their conduct seems to evince, that they harbour sentiments similar to those of the Romish priests, in countries where the common people have scarcely any knowledge of things wherein their interests are insuperably connected, and imbibe their principles wholly from what the priests think proper to inform them. But such artifices will not avail to practice upon the inhabitants of America; for here, almost all have some knowledge of government, derived from their own study and experience ; and very few are so stupidly ignorant as to believe all that is circulated by minions and miscreants."
+    },
+    {
+      "label": "Cassius 10, ¶ 15",
+      "pages": [
+        "4",
+        "42"
+      ],
+      "ref": "Cassius.10.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          53,
+          54
+        ]
+      },
+      "text": "Section 3, of article III. provides, that Congress shall have power to declare the punishment of treason, but no attainder of treason shall work corruption of blood, or forfeiture, except daring the life of the person attainted. — This section is truly republican in every sense of the expression, and is of itself fully adequate to proving that the members of the federal convention were actuated by principles the most liberal and free — this single section alone is sufficient to enroll their proceedings on the records of immortal fame.",
+      "uncertain": [
+        {
+          "end": 194,
+          "readings": {
+            "brittle": "during",
+            "google": "during",
+            "primary": "daring"
+          },
+          "start": 188
+        }
+      ]
+    },
+    {
+      "label": "Cassius 10, ¶ 16",
+      "pages": [
+        "42"
+      ],
+      "ref": "Cassius.10.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          54
+        ]
+      },
+      "text": "Contrast this section with the laws of England, in regard to treason, and, notwithstanding the boasted rights of the subject in that isle, we shall find our own in this, as well as almost every other particular, far to exceed them."
+    },
+    {
+      "label": "Cassius 10, ¶ 17",
+      "pages": [
+        "42"
+      ],
+      "ref": "Cassius.10.17",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          54
+        ]
+      },
+      "text": "Section l, of article IV. says, full faith and credit shall be given in each state, to the publick acts, records and judicial proceedings of every other state. The benefit to be derived from such a regulation must be great, especially to those who are sometimes obliged to have recourse to law, for the settlement of their affairs.",
+      "uncertain": [
+        {
+          "end": 10,
+          "readings": {
+            "brittle": "I,",
+            "google": "i,",
+            "primary": "l,"
+          },
+          "start": 8
+        }
+      ]
+    },
+    {
+      "label": "Cassius 10, ¶ 18",
+      "pages": [
+        "42"
+      ],
+      "ref": "Cassius.10.18",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          54
+        ]
+      },
+      "text": "Section 2, of article IV. provides, that the citizens of each state shall be intitled to all the privileges and immunities of citizens in the several states. This section must also be a source of much advantage to the inhabitants of the different states, who may have business to transact in various parts of the continent, as being equally intitled to the rights of citizenship in one as well as another."
+    },
+    {
+      "label": "Cassius 10, ¶ 19",
+      "pages": [
+        "42"
+      ],
+      "ref": "Cassius.10.19",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          54
+        ]
+      },
+      "text": "They will find less difficulty in pursuing their various concerns than if it were otherwise."
+    },
+    {
+      "label": "Cassius 10, ¶ 20",
+      "pages": [
+        "42"
+      ],
+      "ref": "Cassius.10.20",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          54
+        ]
+      },
+      "text": "In the same article, section 3, it is provided, That new states may be admitted into the Union ; but no new state shall be formed or erected within the jurisdiction of any other state, nor any states be formed by the sanction of two or more states, or parts of states, without the consent of the legislatures of the states concerned, as well as of Congress. This section can be opposed by none who have the peace and happiness of the states at heart; for, by this section, the designs of those who wish to effect the disunion of the states, in order to get themselves established in posts of honour and profit, are entirely defeated. The majority of the citizens of Massachusetts, in particular, will see the good effects to be derived from such a regulation."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 10, note 1",
+      "pages": [
+        "40"
+      ],
+      "ref": "Cassius.10.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          52
+        ]
+      },
+      "text": "* Harvard University Library, of which James Winthrop was librarian. — Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Cassius 10, note 2",
+      "pages": [
+        "40"
+      ],
+      "ref": "Cassius.10.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          52
+        ]
+      },
+      "text": "■)-Said to be by James Winthrop. See the letters, printed herein. — Ed."
+    },
+    {
+      "label": "Cassius 11, ¶ 1",
+      "pages": [
+        "43"
+      ],
+      "ref": "Cassius.11.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          55
+        ]
+      },
+      "text": "The 3d section, in article IV. also provides, that Congress shall have power to dispose of and make all needful rules and regulations respecting the territory or other property of the United States; and nothing in this constitution shall be construed as a prejudice to the claims of the United States, or any particular state."
+    },
+    {
+      "label": "Cassius 11, ¶ 2",
+      "pages": [
+        "43"
+      ],
+      "ref": "Cassius.11.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          55
+        ]
+      },
+      "text": "There is not, certainly, anything contained in the aforementioned clause, which can be opposed on reasonable grounds. It is certainly necessary that Congress should have power to make all needful rules and regulations respecting the concerns of the Union ; and if they exceed what is necessary, their regulations will be of no effect; for whatever is done by them, which the constitution does not warrant, is null and void, and can be no more binding on the inhabitants of America, than the edicts of the grand signior of Turkey."
+    },
+    {
+      "label": "Cassius 11, ¶ 3",
+      "pages": [
+        "43"
+      ],
+      "ref": "Cassius.11.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          55
+        ]
+      },
+      "text": "You will remember, my countrymen, that the words of the constitution are, \"All Powers Herein Granted.\""
+    },
+    {
+      "label": "Cassius 11, ¶ 4",
+      "pages": [
+        "43",
+        "44"
+      ],
+      "ref": "Cassius.11.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          55,
+          56
+        ]
+      },
+      "text": "Section 4, of article IV. says. The United States shall guarantee to every state in the Union a Republican Form of Governmcnt; and shall protect each of them against invasion; and on application of the legislature, or of the executive (when the legislature cannot be convened) against domestic violence. — At the perusal of this clause, anti-federalism must blush, and opposition hide its head. Could anything have more openly, or more plainly evinced to the world, the noble motives which influenced the conduct of the delegates of America, than the clause aforementioned? it provides, that a republican form of government shall be guaranteed to each state in the Union. The inhabitants of America are surely acquainted with the principles of republicanism, and will certainly demand the establishment of them, in their fullest extent.",
+      "uncertain": [
+        {
+          "end": 126,
+          "readings": {
+            "primary": "Governmcnt;"
+          },
+          "start": 115
+        }
+      ]
+    },
+    {
+      "label": "Cassius 11, ¶ 5",
+      "pages": [
+        "44"
+      ],
+      "ref": "Cassius.11.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          56
+        ]
+      },
+      "text": "The section just mentioned, secures to us the full enjoyment of every thing which freemen hold dear, and provides for protecting us against every thing which they can dread."
+    },
+    {
+      "label": "Cassius 11, ¶ 6",
+      "pages": [
+        "44"
+      ],
+      "ref": "Cassius.11.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          56
+        ]
+      },
+      "text": "This article, my countrymen, is sufficient to convince you of the excellency of that constitution which the federal convention have formed; a constitution founded on the broad basis of liberty, and, should the citizens of America happily concur in adopting it, its pillars may be as fixed as the foundations of created nature."
+    },
+    {
+      "label": "Cassius 11, ¶ 7",
+      "pages": [
+        "44"
+      ],
+      "ref": "Cassius.11.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          56
+        ]
+      },
+      "text": "Say, ye mighty cavillers, ye inconsistent opposers of the new plan of government, of what avail, to the thinking part of the community, do you suppose will be all your clamours about a bill of rights? Does not the abovementioned section provide for the establishment of a free government in all the states? and if that freedom is encroached upon, will not the constitution be violated? It certainly will; and its violators be hurled from the seat of power, and arraigned before a tribunal where impartial justice will no doubt preside, to answer for their high-handed crime."
+    },
+    {
+      "label": "Cassius 11, ¶ 8",
+      "pages": [
+        "44",
+        "45"
+      ],
+      "ref": "Cassius.11.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          56,
+          57
+        ]
+      },
+      "text": "Article V. of the new constitution, says. That Congress, whenever two-thirds of both houses shall deem it necessary, shall propose amendments to this constitution; or on the application of the legislatures of two-thirds of the states, shall call a convention for proposing amendments, which in either case shall be valid to all intents and purposes, as part of the constitution, when ratified by the legislatures of three-fourths of the states, or by conventions in three-fourths thereof; as one or the other modes of ratification may be proposed by Congress; provided that no amendments which may be made prior to the year one thousand eight hundred and eight, shall in any manner affect the first and fourth clauses in the ninth section of the first article, and th.at no state, without its consent, shall be deprived of its equal suffrage in the senate. —"
+    },
+    {
+      "label": "Cassius 11, ¶ 9",
+      "pages": [
+        "45"
+      ],
+      "ref": "Cassius.11.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          57
+        ]
+      },
+      "text": "On what grounds can the opposers to the new plan found their assertions that Congress will have it in their power to make what laws they please, and what alterations they think proper in the constitution, after the people have adopted it ? The constitution expressly says, that any alterations in the constitution must be ratified by three-fourths of the states. The 5th article also provides, that the states may propose any alterations which they see fit, and that Congress shall take measures for having them carried into effect."
+    },
+    {
+      "label": "Cassius 11, ¶ 10",
+      "pages": [
+        "45"
+      ],
+      "ref": "Cassius.11.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          57
+        ]
+      },
+      "text": "If this article does not clearly demonstrate that all power is in the hands of the people, then the language by which we convey our ideas, is shockingly inadequate to its intended purposes, and as little to be understood by us, as Hebrew to the most illiterate."
+    },
+    {
+      "label": "Cassius 11, ¶ 11",
+      "pages": [
+        "45"
+      ],
+      "ref": "Cassius.11.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          57
+        ]
+      },
+      "text": "The 6th section provides, that this constitution, and the laws which shall be made in pursuance thereof, and all treaties made, or which shall be made, in pursuance thereof, under the authority of the United States, shall be the supreme law of the land, and the judges in every state shall be bound thereby, anything in the constitution or laws of any state to the contrary notwithstanding."
+    },
+    {
+      "label": "Cassius 11, ¶ 12",
+      "pages": [
+        "45"
+      ],
+      "ref": "Cassius.11.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          57
+        ]
+      },
+      "text": "This is the article, my countrymen, which knaves and blockheads have so often dressed up in false colours, and requested your attention to the construction of it. Adopt not a constitution, say they, which stipulates that the laws of Congress shall be the supreme law of the land — or, in other words, they request of you not to obey laws of your own making. This is the article which they say is so arbitrary and tyrannical, that unless you have a bill of rights to secure you, you are ruined forever."
+    },
+    {
+      "label": "Cassius 11, ¶ 13",
+      "pages": [
+        "45",
+        "46"
+      ],
+      "ref": "Cassius.11.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          57,
+          58
+        ]
+      },
+      "text": "But in the name of common sense I would ask, of what use would be a bill of rights, in the present case ? . . It can only be to resort to when it is supposed that Congress have infringed the unalienable rights of the people: but would it not be much easier to resort to the federal constitution, to see if therein power is given to Congress to make the law in question ? If such power is not given, the law is in fact a nullity, and the people will not be bound thereby. For let it be remembered, that such laws, and such only, as are founded on this constitution, are to be the supreme law of the land; — and it would be absurd indeed, if the laws which are granted in the constitution, were not to be, without reserve, the supreme law of the land. To give Congress power to make laws for the Union, and then to say they should not have force throughout the Union, would be glaringly inconsistent : — Such an inconsistency, however, has hitherto been the evil which the whole continent have complained of, and which the new constitution is designed to remedy. — Let us reverse the proposition, and see how it will then stand. — This constitution, and the laws of the United States which shall be made in pursuance thereof, and all treaties made, or which shall be made under their authority, shall not be the supreme law of the land — and the judges in the several states shall not be bound thereby. — This is exactly what the anti-federalists wish to be the case; this, and in this alone would they glory. — But, fellow citizens, you will discern the excellency of the aforementioned clause ; you will perceive that it is calculated, wisely calculated, to support the dignity of this mighty empire, to restore publick and private credit, and national confidence."
+    },
+    {
+      "label": "Cassius 11, ¶ 14",
+      "pages": [
+        "46"
+      ],
+      "ref": "Cassius.11.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          58
+        ]
+      },
+      "text": "Article IV. further provides, That the senators and representatives before mentioned, and the members of the several state legislatures and all executive and judicial officers, both of the United States and of the several states, shall be bound, by oath or affirmation, to support this constitution ; but no religious test shall ever be required as a qualification to any office or publick trust under the United States."
+    },
+    {
+      "label": "Cassius 11, ¶ 15",
+      "pages": [
+        "46"
+      ],
+      "ref": "Cassius.11.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          58
+        ]
+      },
+      "text": "Thus, my fellow-citizens, we see that our rulers are to be bound by the most sacred ties, to support our rights and liberties, to secure to us the full enjoyment of every privilege which we can wish for; they are bound by the constitution to guarantee to usa republican form of government in its fullest extent; and what is there more that we can wish for?"
+    },
+    {
+      "label": "Cassius 11, ¶ 16",
+      "pages": [
+        "47"
+      ],
+      "ref": "Cassius.11.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          59
+        ]
+      },
+      "text": "Thus the people of the United States, \" in order to form a more perfect Union, establish justice, insure domestick tranquillity, provide for the common defence, promote the general welfare, and secure the blessings of liberty to ourselves and our posterity,\" have appointed a federal convention to \"ordain and establish,\" with the concurrence of the people, a constitution for the United States of America. That federal convention have assembled together, and after a full investigation of the different concerns of ^ the Union, have proposed a form of government, calculated to support, and transmit, inviolate, to the latest posterity, all the blessings of civil and religious liberty."
+    },
+    {
+      "label": "Cassius 11, ¶ 17",
+      "pages": [
+        "47"
+      ],
+      "ref": "Cassius.11.17",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          59
+        ]
+      },
+      "text": "Citizens of Massachusetts! consider, O consider well, these important matters, and weigh them deliberately in the scale of reason ! Consider at what a vast expense of toil, difficulty, treasure and blood, you have emancipated yourselves from the yoke of bondage, and established yourselves an independent people ! Consider that those immortal characters, who first planned the event of the revolution, and with arms in their hands stepped forth in the glorious cause of human nature, have now devised a plan for supporting your freedom, and increasing your strength, your power and happiness."
+    },
+    {
+      "label": "Cassius 11, ¶ 18",
+      "pages": [
+        "47"
+      ],
+      "ref": "Cassius.11.18",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          59
+        ]
+      },
+      "text": "Will you then, O my countrymen! listen to the mad dictates of men, who are aiming, by every artifice and falsehood, which the emissaries of hell can invent, to effect your total destruction and overthrow? who wish to ascend the chariot of anarchy, and ride triumphant over your smoking ruins, which they hope to effect, by their m.ore than hellish arts: in your misery they hope to glory, and establish their own greatness \"on their country's ruin.\""
+    },
+    {
+      "label": "Cassius 11, ¶ 19",
+      "pages": [
+        "47"
+      ],
+      "ref": "Cassius.11.19",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          59
+        ]
+      },
+      "text": "If they can effect this, they will laugh at your calamity, and mock your misfortunes — the language of each brother in iniquity, when they meet, will be, \"hail damn'd associates,\" sec our high success !",
+      "uncertain": [
+        {
+          "end": 183,
+          "readings": {
+            "brittle": "see",
+            "google": "see",
+            "primary": "sec"
+          },
+          "start": 180
+        }
+      ]
+    },
+    {
+      "label": "Cassius 11, ¶ 20",
+      "pages": [
+        "47",
+        "48"
+      ],
+      "ref": "Cassius.11.20",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          59,
+          60
+        ]
+      },
+      "text": "Think, O my countrymen! think, before it is too late! — Th.e important moment approaches, when these states must, by the most wise of all conduct, forever establish their glory and happiness, on the firmest basis, by adopting the constitution, >• ''^- the most foolish and inconsistent of all conduct, in rejecting it, entail on themselves and on their posterity, endless infamy."
+    },
+    {
+      "label": "Cassius 11, ¶ 21",
+      "pages": [
+        "48"
+      ],
+      "ref": "Cassius.11.21",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          60
+        ]
+      },
+      "text": "\"There is a tide in the affairs of men, Which taken at the flood, leads on to fortune ; Omitted, all the voyage of their life Is bound in shallowness.\""
+    },
+    {
+      "label": "Cassius 11, ¶ 22",
+      "pages": [
+        "48"
+      ],
+      "ref": "Cassius.11.22",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          60
+        ]
+      },
+      "text": "If you embrace not the golden moment now before you, and refuse to receive that which only can establish the dignity of your towering Eagle, this and generations yet unborn, will curse, with an anathema, your dying fame, and breathe, with imprecations and just indignation, vengeance and insults on your sleeping ashes! But should you, on the contrary, with energy and vigour, push your fortune, and, with earnestness and gratitude, clasp to your arms this great blessing which Heaven has pointed to your view, posterity, made happy by your wisdom and exertions, will honour and revere your memories. Secure in their prosperity, they will weep for joy, that Heaven had given them — Fathers !"
+    }
+  ],
+  "short": "Cassius",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "The Letters of Cassius"
+}

@@ -1,0 +1,265 @@
+{
+  "attribution": {
+    "byline": "Written by Daniel Carroll",
+    "kind": "single",
+    "names": [
+      "Daniel Carroll"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1787-10-16",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Written by Daniel Carroll",
+        "kind": "single",
+        "names": [
+          "Daniel Carroll"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "A Friend to the Constitution",
+      "level": 1,
+      "publication": [
+        "THE MARYLAND JOURNAL.",
+        "(NiaiTiber 977)",
+        "Tuesday, October i6, 17S7."
+      ],
+      "ref": "FriendToTheConstitution",
+      "salutation": "To THE Inhabitants of Baltimore Town.",
+      "signature": "A Friend to the Constitution, Baltimore, October ij, i^Sj.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "google": "(N\"u.inl3or",
+              "primary": "(NiaiTiber"
+            },
+            "start": 0
+          },
+          {
+            "end": 15,
+            "readings": {
+              "google": "9T7)",
+              "primary": "977)"
+            },
+            "start": 11
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 20,
+            "readings": {
+              "brittle": "16,",
+              "google": "i6,",
+              "primary": "i6,"
+            },
+            "start": 17
+          },
+          {
+            "end": 26,
+            "readings": {
+              "brittle": "1787.",
+              "google": "1787.",
+              "primary": "17S7."
+            },
+            "start": 21
+          }
+        ],
+        "signature": [
+          {
+            "end": 58,
+            "readings": {
+              "primary": "i^Sj."
+            },
+            "start": 53
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 329–336. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "friend-to-the-constitution",
+  "position": "federalist",
+  "ref_prefix": "FriendToTheConstitution",
+  "segments": [
+    {
+      "label": "A Friend to the Constitution, ¶ 1",
+      "pages": [],
+      "ref": "FriendToTheConstitution.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          345
+        ]
+      },
+      "text": "You have been addressed in the last Friday's paper, by a writer under the signature of Caution, who would persuade you that you ought to withhold your approbation, at this time, from the Federal Constitution recommended by the Convention."
+    },
+    {
+      "label": "A Friend to the Constitution, ¶ 2",
+      "pages": [],
+      "ref": "FriendToTheConstitution.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          345
+        ]
+      },
+      "text": "This writer may have the best intentions in the world towards the public welfare, and the prosperity of Baltimore ; but every one must perceive that he is an enemy to the proposed Constitution, and wishes to prevent you from expressing yourselves in its favour, not only at this time, but at zxiy future time.",
+      "uncertain": [
+        {
+          "end": 296,
+          "readings": {
+            "brittle": "any",
+            "google": "3Xiy",
+            "primary": "zxiy"
+          },
+          "start": 292
+        }
+      ]
+    },
+    {
+      "label": "A Friend to the Constitution, ¶ 3",
+      "pages": [],
+      "ref": "FriendToTheConstitution.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          345
+        ]
+      },
+      "text": "Mr. C is said to be the author of this admonition ; but that this is a malicious insinuation, aimed at his sincerity, will appear by considering his recent promise on this subject, signed and published by himself, in reference with the resolution of the Convention, upon which that promise is founded. I shall state both the resolution and promise, that you may judge for yourselves."
+    },
+    {
+      "label": "A Friend to the Constitution, ¶ 4",
+      "pages": [],
+      "ref": "FriendToTheConstitution.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          345
+        ]
+      },
+      "text": "The resolve of the Convention declares, that the Constitution should be submitted to a Convention of Delegates, chosen in each State by the people, under the recommendation of its legislature, for their assent and ratification."
+    },
+    {
+      "label": "A Friend to the Constitution, ¶ 5",
+      "pages": [],
+      "ref": "FriendToTheConstitution.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          345
+        ]
+      },
+      "text": "Mr. C being called upon, before his election, to declare himself on this point, promises to the people, *' that he will use his endeavours, if elected, to call a Convention.\""
+    },
+    {
+      "label": "A Friend to the Constitution, ¶ 6",
+      "pages": [
+        "334"
+      ],
+      "ref": "FriendToTheConstitution.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          345,
+          346
+        ]
+      },
+      "text": "I would just observe on this resolve and promise: First — that the resolve makes it an absolute condition that the legislature recommend a Convention to assent to, and ratify, the Constitution. Secondly — that the promise made by Mr. C is obligatory upon him, to use his endeavors to procure a Convention for this purpose."
+    },
+    {
+      "label": "A Friend to the Constitution, ¶ 7",
+      "pages": [
+        "334"
+      ],
+      "ref": "FriendToTheConstitution.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          346
+        ]
+      },
+      "text": "Another remark, which occurs on this occasion, is, that Mr. C could not mean that a Convention ought to be called for any other purpose than to assent to, and ratify, the Constitution; for it is absurd to suppose he meant the Convention should be authorized by the legislature to propose amendments or alterations, that being contrary to the declared intention of the resolution, and the sense which his friends entertained of his engagement at the time he entered into it. Mr. C , therefore (without presuming him capable of doing the greatest violence to his promise), cannot be considered as the author of Caution, who argues strenuously, though indirectly, against adopting the Constitution."
+    },
+    {
+      "label": "A Friend to the Constitution, ¶ 8",
+      "pages": [
+        "334",
+        "335"
+      ],
+      "ref": "FriendToTheConstitution.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          346,
+          347
+        ]
+      },
+      "text": "From this brief view of the nature and intention of the resolve, I think it is evident that the people ought, without delay, to signify their approbation of the Constitution by a petition to the legislature, to the end that the legislature, which is called upon by the Convention and Congress to recommend to the people to choose Delegates to ratify it, may have the authority of the largest and most promising commercial and manufacturing Town in the State to countenance so important a recommendation. But Caution thinks a petition improper and unnecessary ; because, says he, \"your Delegates will move for, and exert themselves to procure, the calling a Convention.\" Admitting your Delegates to move to have a Convention called, does it follow that they will add to their motion these essential words, to confirm and ratify the Constitution? Does it not rather appear, from the tenor of this writer's remarks, that your Delegates ought to leave these words out of their motion? But i\\\\Q propriety and necessity of a petition does not depend on what your Delegates may, or may not do. It is proper at this time, because the Constitution meets your approbation. It is necessary at this time, because wanted as an inducement to the legislature to call upon the people to appoint a Convention to carry into effect the object of the resolution. In other words, as the recommendation for a Convention involves the legislature in a complete approbation of the Constitution, there is the greatest propriety and necessity for your telling the legislature that it meets your approbation.",
+      "uncertain": [
+        {
+          "end": 989,
+          "readings": {
+            "brittle": "the",
+            "primary": "i\\\\Q"
+          },
+          "start": 985
+        }
+      ]
+    },
+    {
+      "label": "A Friend to the Constitution, ¶ 9",
+      "pages": [
+        "335"
+      ],
+      "ref": "FriendToTheConstitution.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          347
+        ]
+      },
+      "text": "I am sorry to find, by Caution's publication and insinuations, which I am told are circulated with great industry, that an opposition is opened against the Constitution. I did not, I confess, expect to see it adopted without some opposition ; but I could not bring myself to believe, that this opposition could have originated in Baltimore, which is so peculiarly interested in its speedy adoption. But what I intended to say on this point, is so well expressed in a late speech of Mr. Wilson, to the people of Philadelphia, previous to their election for representatives, that I shall take the liberty of closing with it."
+    },
+    {
+      "label": "A Friend to the Constitution, ¶ 10",
+      "pages": [
+        "335",
+        "336"
+      ],
+      "ref": "FriendToTheConstitution.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          347,
+          348
+        ]
+      },
+      "text": "\"After all, my fellow-citizens, (says this excellent politician) it is neither extraordinary nor unexpected, that the Constitution offered to your consideration should meet with opposition. It is the nature of man to pursue his own interest in preference to the public good ; and I do not mean to make any personal reflection, when I add, that it is the interest of a very numerous, powerful and respectable body to counteract and destroy the excellent work produced by the late Convention. All the offices of government, and all the appointments for the administration of justice, and the collection of the public revenue, which are transferred from the individual to the aggregate sovereignty of the States, will necessarily turn the stream of influence and emolument into a new channel. Every person, therefore, who either enjoys, or expects to enjoy, a place of profit under the present establishment, will object to the proposed innovations, not, in truth, because it is injurious to the liberties of his count fy ; but because it affects his schemes of wealth and consequence. I will confess, indeed, that I am not a blind admirer of this plan of government, and that there are some parts of it, which, if my wish had prevailed, would certainly have been altered. But, when I reflect how widely men differ in their opinions, and that every man (and the observation applies likewise to every state) has an equal pretension to assert his own, I am satisfied that anything nearer to perfection could not have been accomplished. If there are errors, it should be remembered, that the seeds of reformation are sown in the work itself, and the concurrence of two-thirds of the Congress may, at any time, introduce alterations and amendments. Regarding it, then, in every point of view, with a candid and disinterested mind, I am bold to assert, that is the best form of government which has ever been offered to the world.\"",
+      "uncertain": [
+        {
+          "end": 1018,
+          "readings": {
+            "brittle": "country",
+            "google": "country;",
+            "primary": "count fy"
+          },
+          "start": 1010
+        }
+      ]
+    }
+  ],
+  "short": "A Friend to the Constitution",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "A Friend to the Constitution"
+}

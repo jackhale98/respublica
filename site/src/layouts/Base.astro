@@ -20,6 +20,7 @@ const nav = [
   { href: "/constitution/", label: "Constitution", key: "constitution" },
   { href: "/amendments/", label: "Amendments", key: "amendments" },
   { href: "/federalist/", label: "The Federalist", short: "Federalist", key: "federalist" },
+  { href: "/ratification/", label: "Debate", short: "Debate", key: "ratification" },
   { href: "/about/", label: "About", key: "about" },
 ];
 const canonical = new URL(Astro.url.pathname, Astro.site);
@@ -87,6 +88,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
             <li><a href={href("/constitution/")}>The Constitution</a></li>
             <li><a href={href("/amendments/")}>Amendments</a></li>
             <li><a href={href("/federalist/")}>The Federalist</a></li>
+            <li><a href={href("/ratification/")}>The ratification debate</a></li>
           </ul>
         </div>
         <div>

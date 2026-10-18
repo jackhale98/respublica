@@ -81,14 +81,34 @@ export function newspaper(publication = []) {
 export const COLLECTIONS = {
   founding: "Founding document",
   federalist: "The ratification debate",
+  ratification: "The ratification debate",
 };
+
+export const POSITION_LABELS = { anti: "Anti-Federalist", federalist: "Federalist", other: "Other" };
+
+// Scan names in readings ("primary", "brittle", "google", "pitt") -> words.
+const SCANS = { primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan" };
+
+// "Uncertain reading. The scans read: “Delibeiatc,” (main scan), …"
+export function uncertainTitle(readings = {}) {
+  const parts = Object.entries(readings).map(([k, v]) => `“${v}” (${SCANS[k] || k})`);
+  return `Uncertain reading. ${parts.length > 1 ? "The scans read" : "Only one scan has this word"}: ${parts.join(", ")}`;
+}
+
+export const runsText = (runs = []) => runs.map((r) => r.t).join("");
 
 // "1787-09-17" -> "September 17, 1787"; "1791-12-15/1992-05-07" -> "1791–1992"
 export function formatDate(iso) {
   if (!iso) return null;
   if (iso.includes("/")) {
     const [a, b] = iso.split("/");
-    return a.slice(0, 4) === b.slice(0, 4) ? a.slice(0, 4) : `${a.slice(0, 4)}–${b.slice(0, 4)}`;
+    if (a.slice(0, 4) !== b.slice(0, 4)) return `${a.slice(0, 4)}–${b.slice(0, 4)}`;
+    const month = (x) => new Date(`${x.slice(0, 7)}-15T12:00:00Z`).toLocaleDateString("en-US", { month: "long", timeZone: "UTC" });
+    return a.length >= 7 && b.length >= 7 && a.slice(0, 7) !== b.slice(0, 7) ? `${month(a)}–${month(b)} ${a.slice(0, 4)}` : a.slice(0, 4);
+  }
+  if (/^\d{4}$/.test(iso)) return iso;
+  if (/^\d{4}-\d{2}$/.test(iso)) {
+    return new Date(`${iso}-15T12:00:00Z`).toLocaleDateString("en-US", { year: "numeric", month: "long", timeZone: "UTC" });
   }
   const d = new Date(`${iso}T12:00:00Z`);
   return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });

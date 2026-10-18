@@ -1,0 +1,18 @@
+---
+import Runs from "./Runs.astro";
+import { href } from "../lib/data.js";
+
+// Heading lines of an essay or letter as printed in its edition (newspaper,
+// number, date), and a note on how the text was read from scans.
+const { header, notes = 0 } = Astro.props;
+---
+{header?.publication?.length > 0 && (
+  <div class="doc-lines" data-pagefind-ignore>
+    {header.publication.map((runs) => <p><Runs runs={runs} /></p>)}
+  </div>
+)}
+<p class="doc-note" data-pagefind-ignore>
+  Read from OCR scans of a nineteenth-century printing and checked word by word against a second scan.{" "}
+  <span class="unc">Dotted words</span> are ones the scans disagree on; select a paragraph to see their readings
+  and the page image.{" "}<a href={href("/about/#ocr")}>How this text was made</a>
+</p>

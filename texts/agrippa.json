@@ -1,0 +1,2755 @@
+{
+  "attribution": {
+    "byline": "Accredited to James Winthrop",
+    "kind": "single",
+    "names": [
+      "James Winthrop"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1787-11-23/1788-02-05",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 1",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE.",
+        "(Number 38^)",
+        "Friday, November 23, 17S7.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Agrippa.1",
+      "salutation": "To THE People.",
+      "signature": "Agrippa.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 12,
+            "readings": {
+              "brittle": "385)",
+              "primary": "38^)"
+            },
+            "start": 8
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 26,
+            "readings": {
+              "brittle": "1787.",
+              "google": "1787.",
+              "primary": "17S7."
+            },
+            "start": 21
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 2",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(N-umber 380)",
+        "Tuesday, November 27, 1787.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Agrippa.2",
+      "salutation": "To THE People of Massachusetts,",
+      "signature": "Agrippa. November 2^, 1787.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "386)",
+              "primary": "380)"
+            },
+            "start": 9
+          }
+        ],
+        "signature": [
+          {
+            "end": 21,
+            "readings": {
+              "brittle": "24.,",
+              "google": "24,,",
+              "primary": "2^,"
+            },
+            "start": 18
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 3",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(N\\imber 387)",
+        "Friday, November 30, 1787.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Agrippa.3",
+      "salutation": "To THE People.",
+      "signature": "Agrippa.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 8,
+            "readings": {
+              "brittle": "(3ST-a.m\"ber",
+              "google": "{^■nxii'ber",
+              "primary": "(N\\imber"
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 4",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(Number 3S8)",
+        "Tuesday, December 3, 17S7."
+      ],
+      "ref": "Agrippa.4",
+      "salutation": "To THE People.",
+      "signature": "Agrippa.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 12,
+            "readings": {
+              "brittle": "388)",
+              "google": "386)",
+              "primary": "3S8)"
+            },
+            "start": 8
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 26,
+            "readings": {
+              "brittle": "1787.",
+              "google": "1787.",
+              "primary": "17S7."
+            },
+            "start": 21
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 5",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE.",
+        "(]SrviiTi\"ber 39 O)",
+        "Tuesday, December ii, 1787.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Agrippa.5",
+      "salutation": "To THE People.",
+      "signature": "Agrippa.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "CNTrmiber",
+              "primary": "(]SrviiTi\"ber"
+            },
+            "start": 0
+          },
+          {
+            "end": 16,
+            "readings": {
+              "brittle": "390)",
+              "google": "390)",
+              "primary": "39"
+            },
+            "start": 14
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 6",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE.",
+        "(Jfwinbev 301)",
+        "Friday, December 14, 1787.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Agrippa.6",
+      "salutation": "To THE People.",
+      "signature": "Agrippa.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 9,
+            "readings": {
+              "brittle": "(Number",
+              "primary": "(Jfwinbev"
+            },
+            "start": 0
+          },
+          {
+            "end": 14,
+            "readings": {
+              "brittle": "391)",
+              "primary": "301)"
+            },
+            "start": 10
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 7",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(ISriamlaer 393)",
+        "Tuesday, December i8, 1787.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Agrippa.7",
+      "salutation": "To THE People.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 11,
+            "readings": {
+              "google": "(NvLixilyeT",
+              "primary": "(ISriamlaer"
+            },
+            "start": 0
+          },
+          {
+            "end": 16,
+            "readings": {
+              "brittle": "393)",
+              "google": "398)",
+              "primary": "393)"
+            },
+            "start": 12
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 21,
+            "readings": {
+              "brittle": "18,",
+              "google": "i8,",
+              "primary": "i8,"
+            },
+            "start": 18
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 8",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(N'runber 394.)",
+        "Tuesday, December 25, 1787.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Agrippa.8",
+      "salutation": "To THE People.",
+      "signature": "Agrippa.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 9,
+            "readings": {
+              "brittle": "(Climber",
+              "google": "(19'iuxi.ber",
+              "primary": "(N'runber"
+            },
+            "start": 0
+          },
+          {
+            "end": 15,
+            "readings": {
+              "brittle": "394)",
+              "google": "SQ^)",
+              "primary": "394.)"
+            },
+            "start": 10
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 9",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE.",
+        "(INTuinber 305)",
+        "Friday, December 28, 1787.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Agrippa.9",
+      "salutation": "To THE People.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "brittle": "(ISTnixfber",
+              "google": "(N'u.xn'ber",
+              "primary": "(INTuinber"
+            },
+            "start": 0
+          },
+          {
+            "end": 15,
+            "readings": {
+              "brittle": "395)",
+              "google": "305)",
+              "primary": "305)"
+            },
+            "start": 11
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 10",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(Num'ber 396)",
+        "Tuesday, January i, 1788.",
+        "For the Massachusetts Gazette,"
+      ],
+      "ref": "Agrippa.10",
+      "salutation": "To THE People. Friends and Brethren,",
+      "signature": "Agkitfa.",
+      "uncertain": {
+        "signature": [
+          {
+            "end": 8,
+            "readings": {
+              "primary": "Agkitfa."
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 11",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(ISr 111X11361- 308)",
+        "Tuesday, January 8, 1788.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Agrippa.11",
+      "salutation": "To THE People.",
+      "signature": "Agrippa.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 4,
+            "readings": {
+              "primary": "(ISr"
+            },
+            "start": 0
+          },
+          {
+            "end": 15,
+            "readings": {
+              "primary": "111X11361-"
+            },
+            "start": 5
+          },
+          {
+            "end": 20,
+            "readings": {
+              "brittle": "398)",
+              "google": "308)",
+              "primary": "308)"
+            },
+            "start": 16
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 12",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(ISTuinber 39D)",
+        "Friday, January ii, 1788.",
+        "For the Massachusetts Gazette."
+      ],
+      "ref": "Agrippa.12",
+      "salutation": "To THE Massachusetts Convention. Gentlemen,",
+      "signature": "Agrippa. [Remainder next Tuesday^",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 10,
+            "readings": {
+              "brittle": "CN\"u:mJt>e:r",
+              "google": "(ITuiii\"ber",
+              "primary": "(ISTuinber"
+            },
+            "start": 0
+          },
+          {
+            "end": 15,
+            "readings": {
+              "brittle": "399)",
+              "google": "309)",
+              "primary": "39D)"
+            },
+            "start": 11
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 13",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(NvnTLber 400)",
+        "Tuesday, January 14, 17S8.",
+        "{^Concluded from our last.')"
+      ],
+      "ref": "Agrippa.13",
+      "salutation": "To THE Massachusetts Convention. Gentlemen,",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 9,
+            "readings": {
+              "brittle": "(Number",
+              "primary": "(NvnTLber"
+            },
+            "start": 0
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 26,
+            "readings": {
+              "brittle": "1788.",
+              "google": "1788.",
+              "primary": "17S8."
+            },
+            "start": 21
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 14",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(N\\iiTi\"ber 401)",
+        "Friday, January i8, 1788.",
+        "(^Concluded from our last.')"
+      ],
+      "ref": "Agrippa.14",
+      "salutation": "To THE Massachusetts Convention. Gentlemen,",
+      "signature": "Agrippa.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "(Number",
+              "google": "(N'u.xn'ber",
+              "primary": "(N\\iiTi\"ber"
+            },
+            "start": 0
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 19,
+            "readings": {
+              "brittle": "18,",
+              "google": "i8,",
+              "primary": "i8,"
+            },
+            "start": 16
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 15",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(KTumber 403)",
+        "Tuesday, January 22, 1788."
+      ],
+      "ref": "Agrippa.15",
+      "salutation": "To THE Massachusetts Convention. Gentlemen,",
+      "signature": "Agrippa.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 8,
+            "readings": {
+              "brittle": "(isr-a.m\"ber",
+              "primary": "(KTumber"
+            },
+            "start": 0
+          },
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "402)",
+              "primary": "403)"
+            },
+            "start": 9
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 15b",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(ISTTimTaer <t03)",
+        "Friday, January 25, 1788."
+      ],
+      "ref": "Agrippa.15b",
+      "salutation": "To The Massachusetts Convention. Gentlemen,",
+      "signature": "Agrippa. (Remainder next Tuesday*)",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 11,
+            "readings": {
+              "google": "CN'u.Tnljer",
+              "primary": "(ISTTimTaer"
+            },
+            "start": 0
+          },
+          {
+            "end": 17,
+            "readings": {
+              "brittle": "403)",
+              "google": "4t03)",
+              "primary": "<t03)"
+            },
+            "start": 12
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 17",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(llSTiamber 404)",
+        "Tuesday, January 20, 1788."
+      ],
+      "ref": "Agrippa.17",
+      "salutation": "To THE Massachusetts Convention. Gentlemen,",
+      "signature": "Agrippa.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "(:N~-iam\"be:r",
+              "primary": "(llSTiamber"
+            },
+            "start": 0
+          }
+        ]
+      }
+    },
+    {
+      "attribution": {
+        "byline": "Accredited to James Winthrop",
+        "kind": "single",
+        "names": [
+          "James Winthrop"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "Agrippa 18",
+      "level": 1,
+      "publication": [
+        "THE MASSACHUSETTS GAZETTE,",
+        "(Nuinber 406)",
+        "Tuesday, February 5, 178S."
+      ],
+      "ref": "Agrippa.18",
+      "salutation": "To THE Massachusetts Convention. Gentlemen,",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 8,
+            "readings": {
+              "brittle": "(]Srxi3XL\"ber",
+              "google": "(IN'xizn'ber",
+              "primary": "(Nuinber"
+            },
+            "start": 0
+          },
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "406)",
+              "google": "^06)",
+              "primary": "406)"
+            },
+            "start": 9
+          }
+        ],
+        "publication.2": [
+          {
+            "end": 26,
+            "readings": {
+              "brittle": "1788.",
+              "google": "788.",
+              "primary": "178S."
+            },
+            "start": 21
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 49–122. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "agrippa",
+  "position": "anti",
+  "ref_prefix": "Agrippa",
+  "segments": [
+    {
+      "label": "Agrippa 1, ¶ 1",
+      "pages": [
+        "53"
+      ],
+      "ref": "Agrippa.1.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          65
+        ]
+      },
+      "text": "Many inconveniences and difficulties in the new plan of government have been mentioned by different writers on that subject. Mr. Gerry has given the publick his objections against it, with a manly freedom.* The seceding members from the Pennsylvania Assembly also published theirs.f Various anonymous writers have mentioned reasons of great weight. Among the many objections have been stated the unlimited right of taxation — a standing army — an inadequate representation of the people — a right to destroy the constitution of the separate states, and all the barriers that have been set up in defence of liberty — the right to try causes between private persons in many cases without a jury ; without trying in the vicinity of either party; and without any limitation of the value which is to be tried. To none of these or any other objections has any answer been given, but such as have acknowledged the truth of the objection while they insulted the objector. This conduct has much the appearance of trying to force a general sentiment upon the people."
+    },
+    {
+      "label": "Agrippa 1, ¶ 2",
+      "pages": [
+        "53",
+        "54"
+      ],
+      "ref": "Agrippa.1.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          65,
+          66
+        ]
+      },
+      "text": "The idea.of promoting the happiness of the people by opposing all their habits of business, and by subverting the laws to which they are habituated, appears to me to be at least a mistaken proceeding. If to this we add the limitations of trade, restraints on its freedom, and the alteration of its course, and transfer of the market, all under the pretence of regulation iox federal purposes, we shall not find any additional reason to be pleased with the plan.",
+      "uncertain": [
+        {
+          "end": 374,
+          "readings": {
+            "google": "(or",
+            "primary": "iox"
+          },
+          "start": 371
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 1, ¶ 3",
+      "pages": [
+        "54"
+      ],
+      "ref": "Agrippa.1.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          66
+        ]
+      },
+      "text": "It is now conceded on all sides that the laws relating to civil causes were never better executed than at present. It is confessed by a warm federalist in answer to Mr. Gerry's sensible letter, that the courts are so arranged at present that no inconvenience is found, and that if the new plan takes place great difficulties may arise. With this confession before him, can any reasonable man doubt whether he shall exchange a system, found by experience to be convenient, for one that is in many respects inconvenient and dangerous ? The expense of the new plan is terrifying, if there was no other objection. But they are multiplied. Let us consider that of the representation."
+    },
+    {
+      "label": "Agrippa 1, ¶ 4",
+      "pages": [
+        "54"
+      ],
+      "ref": "Agrippa.1.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          66
+        ]
+      },
+      "text": "There is to be one representative for every thirty thousand people. Boston would nearly send one, but with regard to another there is hardly a county in the state which would have one. The representatives are to be chosen for two years. In this space, when it is considered that their residence is from two hundred to five hundred miles from their constituents, it is difficult to suppose that they will retain any great affection for the welfare of the people. They will have an army to support them, and may bid defiance to the clamours of their subjects. Should the people cry aloud the representative may avail himself of the right to alter the time of election and postpone it for another year. In truth, the question before the people is, whether they will have a limited government or an absolute one ?",
+      "uncertain": [
+        {
+          "end": 809,
+          "readings": {
+            "brittle": "f",
+            "google": "t",
+            "primary": "?"
+          },
+          "start": 808
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 1, ¶ 5",
+      "pages": [
+        "54"
+      ],
+      "ref": "Agrippa.1.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          66
+        ]
+      },
+      "text": "It is a fact justified by the experience of all mankind from the earliest antiquity down to the present time, that freedom is necessary to industry. We accordingly find that in absolute governments, the people, be the climate what it may, are general [sic] lazy, cowardly, turbulent, and vicious to an extreme. On the other hand, in free countries are found in general, activity, industry, arts, courage, generosity, and all the manly virtues."
+    },
+    {
+      "label": "Agrippa 1, ¶ 6",
+      "pages": [
+        "55"
+      ],
+      "ref": "Agrippa.1.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          67
+        ]
+      },
+      "text": "Can there be any doubt which to choose? He that Hesitates must be base indeed."
+    },
+    {
+      "label": "Agrippa 1, ¶ 7",
+      "pages": [
+        "55"
+      ],
+      "ref": "Agrippa.1.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          67
+        ]
+      },
+      "text": "A favourite objection against a free government is drawn from the irregularities of the Greek and Roman republicks. But it is to be considered that war was the employment which they considered as most becoming freemen. Agriculture, arts, and most domestick employment were committed chiefly to slaves. But Carthage, the great commercial republick of antiquity, though resembling Rome in the form of its government, and her rival for power, retained her freedom longer than Rome, and was never disturbed by sedition during the long period of her duration. This is a striking proof that the fault of the Greek and Roman republicks was not owing to the form of their government, and that the spirit of commerce is the great bond of union among citizens. This furnishes employment for their activity, supplies their mutual wants, defends the rights of property, and producing reciprocal dependencies, renders the whole system harmonious and energetick. Our great object therefore ought to be to encourage this spirit. If we examine the present state of the world we shall find that most of the business is done in the freest states, and that industry decreases in proportion to the rigour of government."
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 1, note 1",
+      "pages": [
+        "53"
+      ],
+      "ref": "Agrippa.1.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          65
+        ]
+      },
+      "text": "* Printed in Elliot, I, ^<)2.—E,i.",
+      "uncertain": [
+        {
+          "end": 34,
+          "readings": {
+            "primary": "^<)2.—E,i."
+          },
+          "start": 24
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 1, note 2",
+      "pages": [
+        "53"
+      ],
+      "ref": "Agrippa.1.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          65
+        ]
+      },
+      "text": "f \" An Address of the subscribers, members of the late Houses of Representatives of the Commonwealth of Pennsylvania, to their constituents,\" printed in the Pennsylvania Packet, Oct. 4, I7S7. — Ed.",
+      "uncertain": [
+        {
+          "end": 191,
+          "readings": {
+            "brittle": "1787.",
+            "google": "1787.—",
+            "primary": "I7S7."
+          },
+          "start": 186
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 2, ¶ 1",
+      "pages": [],
+      "ref": "Agrippa.2.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          68
+        ]
+      },
+      "text": "In the Gazette of the 23d instant, I ascertained from the state of other countries and the experience of mankind, that free countries are most friendly to commerce and to the rights of property. This produces greater internal tranquility. For every m.an, finding sufficient employment for his active powers in the way of trade, agriculture and manufactures, feels no disposition to quarrel with his neighbour, nor with the government which protects him, and of which he is a constituent part. Of the truth of these positions we have abundant evidence in the history of our own country. Soon after the settlement of Massachusetts, and its formation into a commonwealth, in the earlier part of the last century, there was a sedition at Hingham and Weymouth. The governour passing by at that time with his guard, seized some of the mutineers and imprisoned them. This was complained of as a violation of their rights, and the governour lost his election the next year; but the year afterwards was restored and continued to be re-elected for several years. The government does not appear to have been disturbed again till the revocation of the charter in 1686, being a period of about half a century."
+    },
+    {
+      "label": "Agrippa 2, ¶ 2",
+      "pages": [
+        "57"
+      ],
+      "ref": "Agrippa.2.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          68,
+          69
+        ]
+      },
+      "text": "Connecticut set out originally on the same principles, and has continued uniformly to exercise tlie powers of government to this time.",
+      "uncertain": [
+        {
+          "end": 106,
+          "readings": {
+            "brittle": "the powers",
+            "google": "theipowers",
+            "primary": "tlie powers"
+          },
+          "start": 95
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 2, ¶ 3",
+      "pages": [
+        "57"
+      ],
+      "ref": "Agrippa.2.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          69
+        ]
+      },
+      "text": "During the last year,* we bad decisive evidences of the vigour of this kind of government. In Connecticut, the treason was restrained while it existed only in the form of.conspiracy. In Vermont, the conspirators assembled in arms, but were suppressed by the exertions of the militia, under the direction of their sheriffs. In New-Hampshire, the attack was made on the legislature, but the insurrection was in a very few hours suppressed, and has never been renewed. In Massachusetts, the danger was by delay suffered to increase. One judicial court after another was stopped, and even the capital trembled. Still, however, when the supreme executive gave the signal, a force of many thou.sands of active, resolute men, took the field, during the .severities of winter, and every difficulty vanished before them. Since that time we have been continually coalescing. The people have applied with diligence to their several occupations, and the whole country wears one face of improvement. Agriculture has been improved, manufactures multiplied, and trade prodigiously enlarged. These are the advantages of freedom in a growing country. While our resources have been thus rapidly increasing, the courts have set in every part of the commonwealth, without any guard to defend them; have tried causes of every kind, whether civil or criminal, and the sheriffs, have in no case been interrupted in the execution of their office. In those cases indeed, where the government was more particularly interested, mercy has been extended; but in civil causes, and in the case of moral offences, the law has been punctually executed. Damage done to individuals, during the tumults, has been repaired, by judgment of the courts of law, and the award has been carried into effect. This is the present state of affairs, when we are asked to relinquish that freedom which produces such happy effects.",
+      "uncertain": [
+        {
+          "end": 29,
+          "readings": {
+            "brittle": "had",
+            "google": "had",
+            "primary": "bad"
+          },
+          "start": 26
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 2, ¶ 4",
+      "pages": [
+        "57",
+        "58"
+      ],
+      "ref": "Agrippa.2.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          69,
+          70
+        ]
+      },
+      "text": "The attempt has been made to deprive us of such a beneficial system, and to substitute a rigid one in its stead, by criminally alarming our fears, exalting certain characters on one side, and villifying them on the oth.er. I wi.sh to say nothing of the merits or demerits of individuals; such arguments always do hurt. But assuredly my countrymen cannot fail to consider and determine who are the most worthy of confidence in a business of this magnitude."
+    },
+    {
+      "label": "Agrippa 2, ¶ 5",
+      "pages": [
+        "58"
+      ],
+      "ref": "Agrippa.2.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          70
+        ]
+      },
+      "text": "Whether they will trust persons, who have from their cradles been incapable of comprehending any other principles of government, than those of absolute power, and who have, in this very affair, tried to deprive them of their constitutional liberty, by a pitiful trick. They cannot avoid prefering those who have uniformly exerted themselves to establish a limited government, and to secure to individuals all the liberty that is consistent with justice, between man and man, and whose efforts, by the smiles of Providence, have hitherto been crowned with the most splendid success. After the treatment we have received, we have aright to be jealous, and to guard our present constitution with the strictest care. It is the right of the people to judge, and they will do wisely to give an explicit instruction to their delegates in the proposed convention, not to agree to any proposition that will in any degree militate with that happy system of government under which Heaven has placed them."
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 2, note 1",
+      "pages": [
+        "57"
+      ],
+      "ref": "Agrippa.2.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          69
+        ]
+      },
+      "text": "* Referring to Sli.iy's rebellion. — LJ.",
+      "uncertain": [
+        {
+          "end": 23,
+          "readings": {
+            "primary": "Sli.iy's"
+          },
+          "start": 15
+        },
+        {
+          "end": 40,
+          "readings": {
+            "primary": "LJ."
+          },
+          "start": 37
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 3, ¶ 1",
+      "pages": [
+        "59"
+      ],
+      "ref": "Agrippa.3.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          71,
+          72
+        ]
+      },
+      "text": "It has been proved from the clearest evidence, in two former papers, that a free government, I mean one in which the power frequently returns to the body of the people, is in principle the most stable and efficient of any kind; that such a government affords the most ready and effectual remedy for all injuries done to persons and the rights of property. It is true we have had a tender act.* But what government has not some law in favour of debtors ? The difficulty consists in finding one that is not more unfriendly to the creditors than ours. I am far from justifying such things. On the contrary, I believe that it is universally true, that acts made to favour a part of the community are wrong in principle. All that is now intended is, to remark that we are not worse than other people in that respect which we most condemn. Probably the inquiry will be made, whence the complaints arise. This is easily answered. Let any man look round his own neighbourhood, and see if the people are not, with a very few exceptions, peaceable and attached to the government ; if the country had ever within their knowledge more appearance of industry, improvement and tranquillity; if there was ever more of the produce of all kinds together for the market; if their stock does not rapidly increase ; if there was ever a more ready vent for their surplus; and if the average of prices is not about as high as was usual in a plentiful year before the war. These circumstances all denote a general prosperity. Some classes of citizens indeed suffer greatly. Two descriptions I at present recollect. The publick creditors form the first of these classes, and they ought to, and will be provided for."
+    },
+    {
+      "label": "Agrippa 3, ¶ 2",
+      "pages": [],
+      "ref": "Agrippa.3.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          72,
+          73
+        ]
+      },
+      "text": "Let us for a moment consider their situation and prospects. The embarrassments consequent upon a war, and the usual reduction of prices immediately after a war, necessarily occasioned a want of punctuality in publick payments. Still, however, the publick debt has been very considerably reduced, not by the dirty and delusive scheme of depreciation, but the nominal sum. Applications are continually making for purchases in our eastern and western lands. Great exertions are making for clearing off the arrears of outstanding taxes, so that the certificates* for interest on the state debt have considerably increased in value. This is a certain indication of returning credit. Congress this year disposed of a large tract of their lands towards paying the principal of their debt.f Pennsylvania has discharged the whole of their part of the continental debt. New York has nearly cleared its state debt, and has located a large part of their new lands towards paying the continental demands. | Other states have made considerable payments. Every day from these considerations the publick ability and inclination to satisfy their creditors increases. The exertions of last winter were as much to support public as private credit. The prospect therefore of the publick creditors is brightening under the present system. If the new system should take effect without amendments, which' however is hardly probable, the increase of expense will be death to the hopes of all creditors, both of the continental and of the state. With respect, however, to our publick delays of payment we have the precedent of the best established countries in Europe."
+    },
+    {
+      "label": "Agrippa 3, ¶ 3",
+      "pages": [],
+      "ref": "Agrippa.3.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          73
+        ]
+      },
+      "text": "The other class of citizens to which I alluded was the shipcarpenters. All agree that their business is dull ; but as nobody objects against a system of commercial regulations for the whole continent, that business may be relieved without subverting all the ancient foundations and laws which have the respect of the people. It is a very serious question whether giving to Congress the unlimited right to regulate trade would not injure them still further. It is evidently for the interest of the state to encourage our own trade as much as possible. But in a very large empire, as the whole states consolidated must be, there will always be a desire of the government to increase the trade of the capital, and to weaken the extremes. We should in that case be one of the extremes, and should feel all the impoverishment incident to that situation. Besides, a jealousy of our enterprising spirit, would always be an inducement to cramp our exertions. We must then be impoverished or we must rebel. The alternative is dreadful."
+    },
+    {
+      "label": "Agrippa 3, ¶ 4",
+      "pages": [],
+      "ref": "Agrippa.3.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          73
+        ]
+      },
+      "text": "At present this state is one of the most respectable and one of the most influential in the union. If we alone should object to receiving the system without amendments, there is no doubt but it would be amended. But the case is not quite so bad. NewYork appears to have no disposition even to call a convention. If they should neglect, are we to lend our assistance to compel them by arms, and thus to kindle a civil war without any provocation on their part? Virginia has put off their convention till May, and appears to have no disposition to receive the new plan without amendments. Pennsylvania does not seem to be disposed to receive it as it is. The same objections are made in all the states, that the civil government which they have adopted and which secures their rights will be subverted. All the defenders of this system undertake to prove that the rights of the states and of the citizens are kept safe. The opposers of it agree that they will receive the least burdensome system which shall defend those rights."
+    },
+    {
+      "label": "Agrippa 3, ¶ 5",
+      "pages": [
+        "62"
+      ],
+      "ref": "Agrippa.3.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          74
+        ]
+      },
+      "text": "Both parties therefore found their arguments on the idea that these rights ought to be held sacred. With this disposition is it not in every man's mind better to recommit it to a new convention, or to Congress, which is a regular convention for the purpose, and to instruct our delegates to confine the system to the general purposes of the union, than the endeavour to force it through in its present form, and with so many opposers as it must have in every state on the continent ? The case is not of such pressing necessity as some have represented. Europe is engaged, and we are tranquil. Never therefore was an happier time for deliberation. The supporters of the measure are by no means afraid of insurrections taking place, but they are afraid that the present government will prove superiour to their assaults."
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 3, note 1",
+      "pages": [
+        "59"
+      ],
+      "ref": "Agrippa.3.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          71
+        ]
+      },
+      "text": "* Act of 17S6, providing that executions issued for private debt may be satisfied by articles particularly enumerated, at an appraised value from impartial men. — EJ.",
+      "uncertain": [
+        {
+          "end": 14,
+          "readings": {
+            "brittle": "1786,",
+            "google": "1786,",
+            "primary": "17S6,"
+          },
+          "start": 9
+        },
+        {
+          "end": 166,
+          "readings": {
+            "brittle": "Ed.",
+            "primary": "EJ."
+          },
+          "start": 163
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 3, note 2",
+      "pages": [],
+      "ref": "Agrippa.3.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          72
+        ]
+      },
+      "text": "*No attempt had been made by Massachusetts for several years to pay the interest on its debt, except by the State Treasurer's issuing \" consolidated notes \" or \" certificates \" of indebtedness, bearing 6 per cent, interest. Though these were by law receivable for taxes, they had sold as low as 4/ in the pound. — Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 3, note 3",
+      "pages": [],
+      "ref": "Agrippa.3.fn3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          72
+        ]
+      },
+      "text": "■j- The sales to the Ohio Company. — Ed."
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 3, note 4",
+      "pages": [],
+      "ref": "Agrippa.3.fn4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          72
+        ]
+      },
+      "text": "— By Act of July 5, 1786. — Ed."
+    },
+    {
+      "label": "Agrippa 4, ¶ 1",
+      "pages": [],
+      "ref": "Agrippa.4.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          75
+        ]
+      },
+      "text": "Having considered some of the principal advantages of the happy form of government under which it is our pecuh'ar good fortune to live, we find by experience, that it is the best calculated of any form hitherto invented, to secure to us the rights of our persons and of our property, and that the general circumstances of the people shew an advanced state of improvement never before known. We have found the shock given by the war, in a great measure obliterated, and the public debt contracted at that time to be considerably reduced in the nominal sum. The Congress lands are full adequate to the redemption of the principal of their debt, and are selling and populating ver> fast. The lands of this state, at the west, are, at the moderate price of eighteen pence an acre, worth near half a million pounds in our money. They ought, therefore, to be sold as quick as possible. An application was made lately for a large tract at that price, and continual applications are made for other lands in the eastern part of the state. Our resources are daily augmenting."
+    },
+    {
+      "label": "Agrippa 4, ¶ 2",
+      "pages": [],
+      "ref": "Agrippa.4.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          75
+        ]
+      },
+      "text": "We find, then, that after the experience of near two centuries our .separate governments are in full vigor. They discover, for all the purposes of internal regulation, every symptom of strength, and none of decay. The new system is, therefore, for such purposes, useless and burdensome."
+    },
+    {
+      "label": "Agrippa 4, ¶ 3",
+      "pages": [
+        "64"
+      ],
+      "ref": "Agrippa.4.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          76
+        ]
+      },
+      "text": "Let US now consider how far it is practicable consistent with the happiness of the people and their freedom. It is the opinion of the ablest writers on the subject, that no extensive empire can be governed upon republican principles, and that such a government will degenerate to a despotism, unless it be made up of a confederacy of smaller states, each having the full powers of internal regulation. This is precisely the principle which has hitherto preserved our freedom. No instance can be found of any free government of considerable extent which has been supported upon any other plan. Large and consolidated empires may indeed dazzle the eyes of a distant spectator with their splendour, but if examined more nearly are always found to be full of misery. The reason is obvious. In large states the same principles of legislation will not apply to all the parts. The inhabitants of warmer climates are more dissolute in their manners, and less industrious, than in colder countries. A degree of severity is, therefore, necessary with one which would cramp the spirit of the other. We accordingly find that the very great empires have always been despotick. They have indeed tried to remedy the inconveniences to which the people were exposed by local regulations; but these contrivances have never answered the end. The laws not being made by the people, who felt the inconveniences, did not suit their circumstances. It is under such tyranny that the Spanish provinces languish, and such would be our misfortune and degradation, if we should submit to have the concernsof the whole empire managed by one legislature. To promote the happiness of the people it is necessary that there should be local laws; and it is necessary that those laws should be made by the representatives of those who are immediately subject to the want of them. By endeavouring to suit both extremes, both are injured."
+    },
+    {
+      "label": "Agrippa 4, ¶ 4",
+      "pages": [
+        "64",
+        "65"
+      ],
+      "ref": "Agrippa.4.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          76,
+          77
+        ]
+      },
+      "text": "It is impossible for one code of laws to suit Georgia and Massachusetts. They must, therefore, legislate for themselves. Yet there is, I believe, not one point of legislation that is not surrendered in the proposed plan. Questions of every kind respecting property are determinable in a continental court, and so are all kinds of criminal causes. The continental legislature has, therefore, a right to make rules in all cases by which their judicial courts shall proceed and decide causes. No rights are reserved to the citizens. The laws of Congress are in all cases to be the supreme law of the land, and paramount to the constitutions of the individual states. The Congress may institute what modes of trial they please, and no plea drawn from the constitution of any state can avail. This new system is, therefore, a consolidation of all the states into one large mass, however diverse the parts may be of which it is to be composed. The idea of an uncompounded republick, on an average one thousand miles in length, and eight hundred in breadth, and containing six millions of white inhabitants all reduced to the same standard of morals, of habits, and of laws, is in itself an absurdity, and contrary to the whole experience of mankind. The attempt made by Great Britain to introduce such a system, struck us with horrour, and when it was proposed by some theorist that we should be represented in parliament, we uniformly declared that one legislature could not represent so many different interests for the purposes of legislation and taxation. This was the leading principle of the revolution, and makes an essential article in our creed. All that part, therefore, of the new system, which relates to the internal government of the states, ought at once to be rejected."
+    },
+    {
+      "label": "Agrippa 5, ¶ 1",
+      "pages": [
+        "66"
+      ],
+      "ref": "Agrippa.5.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          78
+        ]
+      },
+      "text": "In the course of inquiry it has appeared, that for the purposes of internal regulation and domestick tranquillity, our small and separate governments are not only admirably suited in theory, but have been remarkably successful in practice. It is also found, that the direct tendency of the proposed system, is to consolidate the whole empire into one mass, and, like the tyrant's bed, to reduce all to one standard. Though this idea has been started in different parts of the continent, and is the most important trait of this draft, the reasoning ought to be extensively understood. I therefore hope to be indulged in a particular statement of it."
+    },
+    {
+      "label": "Agrippa 5, ¶ 2",
+      "pages": [
+        "66"
+      ],
+      "ref": "Agrippa.5.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          78,
+          79
+        ]
+      },
+      "text": "Causes of all kinds, between citizens of different states, are to be tried before a continental court. This court is not bound to try it according to the local laws where the controversies happen; for in that case it may as well be tried in a state court. The rule which is to govern the new courts, must, therefore, be made by the court itself, or by its employers, the Congress. If by the former, the legislative and judicial departments will be blended; and if by the Congress, though these departments will be kept separate, still the power of legislation departs from the state in all those cases. The Congress, therefore, have the right to make rules for trying all kinds of questions relating to property between citizens of different states. The sixth article of the new constitution provides, that the continental laws shall be the supreme law of the land, and that all judges in the separate states shall be bound thereby, anything in the constitution or laws of any state to the contrary notwithstanding. All the state officers are also bound by oath to support this constitution. These provisions cannot be understood otherwise than as binding the state judges and other officers, to execute the continental laws in their own proper departments within the state. For all questions, other than those between citizens of the same state, are at once put within the jurisdiction of the continental courts. As no authority remains to the state judges, but to decide questions between citizens of the same state, and those judges are to be bound by the laws of Congress, it clearly follows, that all questions between citizens of the same state are to be decided by the general laws and not by the local ones."
+    },
+    {
+      "label": "Agrippa 5, ¶ 3",
+      "pages": [],
+      "ref": "Agrippa.5.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          79
+        ]
+      },
+      "text": "Authority is also given to the continental courts, to try all causes between a state and its own citizens. A question of property between these parties rarely occurs. But if such questions were more frequent than they are, the proper process is not to sue the state before an higher authority; but to apply to the supreme authority of the state, by way of petition. This is the universal practice of all states, and any other mode of redress destroys the sovereignty of the state over its own subjects. The only case of the kind in which the state would probably be sued, would be upon the state notes. The endless confusion that would arise from making the estates of individuals answerable, must be obvious to every one."
+    },
+    {
+      "label": "Agrippa 5, ¶ 4",
+      "pages": [
+        "68"
+      ],
+      "ref": "Agrippa.5.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          79,
+          80
+        ]
+      },
+      "text": "There is another sense in which the clause relating to causes between the state and individuals is to be understood, and it is more probable than the other, as it will be eternal in its duration, and increasing in its extent. This is the whole branch of the law relating to criminal prosecutions. In all such cases, the state is plaintiff, and the person accused is defendant. The process, therefore, will be, for the attorney-general of the state to commence his suit before a continental court. Considering the state as a party, the cause must be tried in another, and all the expense of transporting witnesses incurred. The individual is to take his trial among strangers, friendless and unsupported, without its being known whether he is habitually a good or a bad man ; and consequently with one essential circumstance wanting by which to determine whether the action was performed maliciously or accidentally. All these inconveniences are avoided by the present important restriction, that the cause shall be tried by a jury of the vicinity, and tried in the county where the offence was committed. But by the proposed derangement, I can call it by no softer name, a man must be ruined to prove his innocence. This is far from being a forced construction of the proposed form. The words appear to me not intelligible, upon the idea that- it is to be a system of government, unless the construction now given, both for civil and criminal processes, be admitted. I do not say that it is intended that all these changes should take place within one year, but they probably will in the course of half a dozen years, if this system is adopted. In the meantime we shall be subject to all the horrors of a divided sovereignty, not knowing whether to obey the Congress or the State. We shall find it impossible to please two masters. In such a state frequent broils will ensue. Advantage will be taken of a popular commotion, and even the venerable forms of the state be done away, while the new system will be enforced in its utmost rigour by an army. — I am the more apprehensive of a standing army, on account of a clause in the new constitution which empowers Congress to keep one at all times ; but this constitution is evidently such that it cannot stand any considerable time without an army. Upon this principle one is very wisely provided. Our present government knows of no such thing."
+    },
+    {
+      "label": "Agrippa 6, ¶ 1",
+      "pages": [
+        "69"
+      ],
+      "ref": "Agrippa.6.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          81
+        ]
+      },
+      "text": "To prevent any mistakes, or misapprehensions of the argument, stated in my last paper, to prove that the proposed constitution is an actual consolidation of the separate states into one extensive commonwealth, the reader is desired to observe, that in the course of the argument, the new plan is considered as an entire .system. It is not dependent on any other book for an explanation, and contains no references to any other book. All the defences of it, therefore, so far as they are drawn from the state constitutions, or from maxims of the common law, are foreign to the purpose. It is only by comparing the different parts of it together, that the meaning of the whole is to be understood. For instance —"
+    },
+    {
+      "label": "Agrippa 6, ¶ 2",
+      "pages": [
+        "69"
+      ],
+      "ref": "Agrippa.6.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          81,
+          82
+        ]
+      },
+      "text": "We find in it, that there is to be a legislative assembly, with authority to constitute courts for the trial of all kinds of civil causes, between citizens of different states. The right to appoint such courts necessarily involves in it the right of defining their powers, and determining the rules by which their judgment shall be regulated; and the grant of the former of those rights is nugatory without the latter. It is vain to tell us, that a maxim of common law requires contracts to be determined by the law existing where the contract was made: for it is also a maxim, that the legislature has a right to alter the common law. Such a power forms an essential part of legislation. Here, then, a dcclaration of rights is of inestimable value. It contains those principles which the government never can invade without an open violation of the compact between them and the citizens. Such a declaration ought to have come to the new constitution in favour of the legislative rights of the several states, by which their sovereignty over their own citizens within the state should be secured. Without such an express declaration the states are annihilated in reality upon receiving this constitution — the forms will be preserved only during the pleasure of Congress.",
+      "uncertain": [
+        {
+          "end": 714,
+          "readings": {
+            "primary": "dcclaration"
+          },
+          "start": 703
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 6, ¶ 3",
+      "pages": [],
+      "ref": "Agrippa.6.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          82
+        ]
+      },
+      "text": "The idea of consolidation is further kept up in the right given to regulate trade. Though this power under certain limitations would be a proper one for the department of Congress; it is in this system carried much too far, and much farther than is necessary. This is, without exception, the m.ost commercial state upon the continent. Our extensive coasts, cold climate, small estates, and equality of rights, with a variety of subordinate and concurring circumstances, place us in this respect at the head o' the Union. We must, therefore, be indulged if a point which so nearly relates to our welfare be rigidly examined. The new constitution not only prohibits vessels, bound from one state to another, from paying any duties, but even from entering and clearing. The only use of such a regulation is, to keep each state in complete ignorance of its own resources. It certainly is no hardship to enter and clear at the custom house, and the expense is too small to be an object.",
+      "uncertain": [
+        {
+          "end": 509,
+          "readings": {
+            "brittle": "of",
+            "google": "of",
+            "primary": "o'"
+          },
+          "start": 507
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 6, ¶ 4",
+      "pages": [
+        "7"
+      ],
+      "ref": "Agrippa.6.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          82,
+          83
+        ]
+      },
+      "text": "The unlimited right to regulate trade, includes the right of granting exclusive charters. This, in all old countries, is considered as one principal branch of prerogative. We find hardly a country in Europe which has not felt the ill effects of such a power. Holland has carried the exercise of it farther than any other state, and the reason why that country has felt less evil from it is, that the territory is very small, and they have drawn large revenues from their colonies in the East and West Indies. In this respect, the whole country is to be considered as a trading company, having exclusive privileges. The colonies are large in proportion to the parent state ; so that, upon the whole, the latter may gain by such a system. We are also to take into consideration the industry which the genius of a free government inspires. But in the British islands all these circumstances together have not prevented them from being injured by the monopolies created there. Individuals have been enriched, but the country at large has been hurt. Some valuable branches ol trade being granted to companies, who transact their business in London, that city is, perhaps, the place of the greatest trade in the world, But Ireland, under such influence, suffers exceedingly, and is impoverished ; and Scotland is a mere bye-word. Bristol, the second city in England, ranks not much above this town in population. These things must be accounted for by the incorporation of trading companies; and if they are felt so severely in countries of small extent, they will operate with tenfold severity upon us, who inhabit an immense tract; and living towards one extreme of an extensive empire, shall feel the evil, without retaining that influence in government, which may enable us to procure redress. There ought, then, to have been inserted a restraining clause which might prevent the Congress from making any such grant, because they consequentially defeat the trade of the out-ports, and are also injurious to the general commerce, by enhancing prices and destroying that rivalship which is the great stimulus to industry."
+    },
+    {
+      "label": "Agrippa 7, ¶ 1",
+      "pages": [
+        "72",
+        "73"
+      ],
+      "ref": "Agrippa.7.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          84,
+          85
+        ]
+      },
+      "text": "There cannot be a doubt, that, while the trade of this continent remains free, the activity of our countrymen will .secure their full share. All the estimates for the present year, let them be made by what party they may, suppose the balance of trade to be largely in our favour. The credit of our merchants is, therefore, fully established in foreign countries. This is a sufficient proof, that when business is unshackled, it will find out that channel which is most friendly to its course. We ought, therefore, to be exceedingly cautious about diverting or restraining it. Every day produces fresh proofs, that people, under the immediate pressure of difficulties, do not, at first glance, discover the proper relief. The last year, a desire to get rid of embarrassments induced many honest people to agree to a tender act, and many others, of a different description, to obstruct the courts of justice. Both these methods only increased the evil they were intended to cure. Experience has since shown that, instead of trying to lessen an evil by altering the present course of things, that every endeavor should have been applied to facilitate the course of law, and thus to encourage a mutual confidence among the citizens, which increases the resources of them all, and renders easy the payment of debts. By this means one does not grow rich at the expense of another, but all are benefited. The case is the same with the States. Pennsylvania, with one port and a large territory, is less favourably situated for trade than the Massachusetts, which has an extensive coast in proportion to its limits of jurisdiction. Accordingly a much larger proportion of our people are engaged in maritime affairs. We ought therefore to be particularly attentive to securing so great an interest. It is vain to tell us that we ought to overlook local interests. It is only by protecting local concerns that the interest of the whole is preserved. No man when he enters into society does it from a view to promote the good of others, but he does it for his own good. All men having the same view are bound equally to promote the welfare of the whole. To recur then to such a principle as that local interests must be disregarded, is requiring of one man to do more than another, and is subverting the foundation of a free government. The Philadelphians would be shocked with a proposition to place the seat of general government and the unlimited right to regulate trade in the Massachusetts. There can be no greater reason for our surrendering the preference to them. Such sacrifices, however we may delude ourselves with the form of words, always originate in folly, and not in generosity."
+    },
+    {
+      "label": "Agrippa 7, ¶ 2",
+      "pages": [
+        "73"
+      ],
+      "ref": "Agrippa.7.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          85
+        ]
+      },
+      "text": "Let me now request your attention a little while to the actual state of publick credit, that we may see whether it has not been as much misrepresented as the state of our trade."
+    },
+    {
+      "label": "Agrippa 7, ¶ 3",
+      "pages": [
+        "73",
+        "74"
+      ],
+      "ref": "Agrippa.7.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          85,
+          86
+        ]
+      },
+      "text": "At the beginning of the present year, the whole continental debt was about twelve millions of pounds in our money. About one-quarter part of this sum was due to our foreign creditors. Of these France was the principal, and called for the arrears of interest. A new loan of one hundred and twenty thousand pounds was negotiated in Holland, at five per cent., to pay the arrears due to France. At first sight this has the appearance of bad economy, and has been used for the villainous purpose of disafiecting the people. Ikit in the course of this same year, Congress have negotiated the sale of as much of their western lands on the Ohio and Mississippi, as amount nearly to the whole sum of the foreign debt; and instead of a dead loss by borrowing money at five per cent, to the amount of an hundred and twenty thousand pounds in one sum, they make a saving of the interest at six per cent, on three millions of their domestick debt, which is an annual saving of an hundred and eighty thousand pounds. It is easy to see how such an immense fund as the western territory may be applied to the payment of the foreign debt. Purchasers of the land would as willingly procure any kind of the produce of the United States as they would buy loan office certificates to pay for the land. The produce thus procured would easily be negotiated for the benefit of our foreign creditors. I do not mean to insinuate that no other provision should be made for our creditors, but only to shew that our credit is not so bad in other countries as has been represented, and that our resources are fully equal to the pressure.",
+      "uncertain": [
+        {
+          "end": 507,
+          "readings": {
+            "brittle": "disaffecting",
+            "google": "disafTecting",
+            "primary": "disafiecting"
+          },
+          "start": 495
+        },
+        {
+          "end": 524,
+          "readings": {
+            "primary": "Ikit"
+          },
+          "start": 520
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 7, ¶ 4",
+      "pages": [
+        "74",
+        "75"
+      ],
+      "ref": "Agrippa.7.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          86,
+          87
+        ]
+      },
+      "text": "The perfection of government depends on the equality of its operation, as far as human affairs will admit, upon all parts of the empire, and upon all the citizens. Some inequalities indeed will necessarily take place. One man will be obliged to travel a few miles further than another man to procure justice. But when he has travelled, the poor man ought to have the same measure of justice as the rich one. Small enqualities [sic] may be easily compensated. There ought, however, to be no inequality in the law itself, and the government ought to have the same authority in one place as in another. Evident as this truth is, the most plausible argument in favour of the new plan is drawn from the inequality of its operation in different states. In Connecticut, they have been told that the bulk of the revenue will be raised by impost and excise, and, therefore, they need not be afraid to trust Congress with the power of levying a dry tax at pleasure. New York and Massachusetts are both more commercial states than Connecticut. The latter, therefore, hopes that the other two will pay the bulk of the continental expense. The argument is, in itself, delusive. If the trade is not over-taxed, the consumer pays it. If the trade is over-taxed, it languishes, and by the ruin of trade the farmer loses his market. The farmer has, in truth, no other advantage from imposts than that they save him the trouble of collecting money for the government. He neither gets nor loses money by changing the mode of taxation. The government indeed finds it the easiest way to raise the revenue; and the reason is that the tax is by this means collected where the money circulates most freely. But if the argument was not delusive, it ought to conclude against the plan, because it would prove the unequal operation of it; and if any saving is to be made by the mode of taxing, the saving should be applied towards our own debt, and not to the payment of that part of the continental burden which Connecticut ought to discharge. It would be impossible to refute in writing all the delusions made use of to force this system through. Those respecting the publick debt, and the benefit of imposts, are the most important, and these I have taken pains to explain. In one instance, indeed, the impost does raise money at the direct expense of the seaports. This is when goods are imported subject to a duty, and re-exported without a drawback. Whatever benefit is derived from this source, surely should not be transferred to another state, at least till our own debts are cleared."
+    },
+    {
+      "label": "Agrippa 7, ¶ 5",
+      "pages": [
+        "75"
+      ],
+      "ref": "Agrippa.7.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          87
+        ]
+      },
+      "text": "Another instance of unequal operation is, that it establishes different degrees of authority in different states, and thus creates different interests. The lands in New Hampshire having been formerly granted by this state, and afterwards by that state, to private persons, the whole authority of trying titles becomes vested in a continental court, and that state loses a branch of authority, which the others retain, over their own citizens."
+    },
+    {
+      "label": "Agrippa 7, ¶ 6",
+      "pages": [
+        "75"
+      ],
+      "ref": "Agrippa.7.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          87
+        ]
+      },
+      "text": "I have now gone through tw'o parts of my argument, and have proved the efficiency of the state governments for internal regulation, and the disadvantages of the new system, at least some of the principal. The argument has been much longer than I at first apprehended, or possibly I should have been deterred from it. The importance of the question has, however, prevented me from relinquishing it. Agkuta.",
+      "uncertain": [
+        {
+          "end": 405,
+          "readings": {
+            "primary": "Agkuta."
+          },
+          "start": 398
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 8, ¶ 1",
+      "pages": [
+        "76"
+      ],
+      "ref": "Agrippa.8.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          88
+        ]
+      },
+      "text": "It has been proved, by indisputable evidence, that power is not the grand principle of union among the parts of a very extensive empire ; and that when this principle is pushed beyond the degree necessary for rendering justice between man and man, it debases the character of individuals, and renders them less secure in their persons and property. Civil liberty consists in the consciousness of that security, and is best guarded by political liberty, which is the share that every citizen has in the government. Accordingly all our accounts agree, that in those empires which are commonly called despotick, and which comprehend by far the greatest part of the world, the government is most fluctuating, and property least secure. In those countries insults are borne by the sovereign, which, if offered to one of our governours, would fill us with horrour, and we should think the government dissolving."
+    },
+    {
+      "label": "Agrippa 8, ¶ 2",
+      "pages": [
+        "76"
+      ],
+      "ref": "Agrippa.8.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          88,
+          89
+        ]
+      },
+      "text": "The common conclusion from this reasoning is an exceedingly unfair one, that we must then separate, and form distinct confederacies. This would be true if there was no principle to substitute in the room of power. Fortunately there is one. This is commerce. All the states have local advantages, and in a considerable degree separate interests. They are, therefore, in a situation to supply each other's wants. Carolina, for instance, is inhabited by planters, while the Massachusetts is more engaged in commerce and manufactures. Congress has the power of deciding their differences. The most friendly intercourse may therefore be established between them. A diversity of produce, wants and interests, produces commerce ; and commerce, where there is a common, equal and moderate authority to preside, produces friendship."
+    },
+    {
+      "label": "Agrippa 8, ¶ 3",
+      "pages": [],
+      "ref": "Agrippa.8.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          89
+        ]
+      },
+      "text": "The same principles apply to the connection with the new settlers in the west. Many supplies they want for which they must look to the older settlements, and the greatness of their crops enables them to make payments. Here, then, we have a bond of union which applies to all parts of the empire, and would continue to operate if the empire comprehended all America."
+    },
+    {
+      "label": "Agrippa 8, ¶ 4",
+      "pages": [],
+      "ref": "Agrippa.8.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          89,
+          90
+        ]
+      },
+      "text": "We are now, in the strictest sense of the terms, a federal republick. Each part has within its own limits the sovereignty over its citizens, while some of the general concerns are committed to Congress. The complaints of the deficiency of the Congressional powers are confined to two articles. They are not able to raise a revenue by taxation, and they have not a complete regulation of the intercourse between us and foreigners. For each of these complaints there is some foundation, but not enough to justify the clamour which has been raised. Congress, it is true, owes a debt which ought to be paid. A considerable part of it has been paid. Our share of what remains would annually amount to about sixty or seventy thousand pounds. If, therefore, Congress were put in possession of such branches of the impost as would raise this sum in our state, we should fairly be considered as having done our part towards their debt; and our remaining resources, whether arising from impost, excise, or dry tax, might be applied to the reduction of our own debt. The principal of this last amounts to about thirteen hundred thousand pounds, and the interest to between seventy or eighty thousand. This is, surely, too much property to be sacrificed; and it is as reasonable that it should be paid as the continental debt. But if the new system should be adopted, the whole impost, with an unlimited claim to excise and dry tax, will be given to Congress. There will remain no adequate found for the state debt, and the state will still be subject to be sued on their notes. This is, then, an article which ought to be limited. We can, without difficulty, pay as much annually as shall clear the interest of our state debt, and our share of the interest on the continental one. But if we surrender the impost, we shall still, by this new constitution, be held to pay our full proportion of the remaining debt, as if nothing had been done. The impost will not be considered as being paid by this state, but by the continent. The federalists, indeed, tell us that the state debts will all be incorporated with the continental debt, and all paid out of one fund. In this as in all other instances, they endeavour to support their scheme of consolidation by delusion. Not one word is said in the book in favour of such a scheme, and there is no reason to think it true. Assurances of that sort are easily given, and as easily forgotten. There is an interest in forgetting what is false. No man can expect town debts to be united with that of the state; and there will be as little reason to expect that the state and continental debts will be united together."
+    },
+    {
+      "label": "Agrippa 9, ¶ 1",
+      "pages": [
+        "19"
+      ],
+      "ref": "Agrippa.9.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          91
+        ]
+      },
+      "text": "We come now to the second and last article of complaint against the present confederation, which is, that Congress has not the sole power to regulate the intercourse between us and foreigners. Such a power extends not only to war and peace, but to trade and naturalization. This last article ought never to be given them; for though most of the states may be willing for certain reasons to receive foreigners as citizens, yet reasons of equal weight may induce other states, differently circumstanced, to keep their blood pure. Pennsylvania has chosen to receive all that would come there. Let any indifferent person judge whether that state in point of morals, education, energy is equal to any of the eastern states; the small state of Rhode Island only excepted. Pennsylvania in the course of a century has acquired her present extent and population at the expense of religion and good morals. The eastern states have, by keeping separate from the foreign mixtures, acquired their present greatness in the course of a century and an half, and have preserved their religion and morals. They have also preserved that manly virtue which is equally fitted for rendering them respectable in war, and industrious in peace."
+    },
+    {
+      "label": "Agrippa 9, ¶ 2",
+      "pages": [
+        "19",
+        "80"
+      ],
+      "ref": "Agrippa.9.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          91,
+          92
+        ]
+      },
+      "text": "The remaining power for peace and trade might perhaps be safely enough lodged with Congress under some limitations. Three restrictions appear to me to be essentially necessary to preserve that equality of rights to the states, which it is the object of the state governments to secure to each citizen, ist. It ought not to be in the power of Congress, either by treaty or otherwise, to alienate part of any state without the consent of the legislature. 2d. They ought not to be able, by treaty or other law, to give any legal preference to one part above another. 3d. They ought to be restrained from creating any monopolies. Perhaps others may propose different regulations and restrictions. One of these is to be found in the old confederation, and another in the newly proposed plan. The third scenes [sic] to be equally necessary."
+    },
+    {
+      "label": "Agrippa 9, ¶ 3",
+      "pages": [
+        "80",
+        "8"
+      ],
+      "ref": "Agrippa.9.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          92,
+          93
+        ]
+      },
+      "text": "After all that has been said and written on this subject, and on the difficulty of amending our old constitution so as to render it adequate to national purposes, it does not appear that any thing more was necessary to be done, than framing two new articles. By one a limited revenue would be given to Congress with a right to collect it, and by the other a limited right to regulate our intercourse with foreign nations. By such an addition we should have preserved to each state its power to defend the rights of the citizens, and the whole empire would be capable of expanding and receiving additions without altering its former constitution. Congress, at the same time, by the extent of their jurisdiction, and the number of their officers, would have acquired more respectability at home, and a sufficient influence abroad. If any state was in such a case to invade the rights of the Union, the other states would join in defence of those rights, and it would be in the power of Congress to direct the national force to that object. But it is certain that the powers of Congress over the citizens should be small in proportion as the empire is extended; that, in order to preserve the balance, each state may supply by energy what is wanting in numbers. Congress would be able by such a system as we have proposed to regulate trade with foreigners by such duties as should effectually give the preference to the produce and manufactures of our own country. We should then have a friendly intercourse established between the states, upon the principles of mutual interest. A moderate duty upon foreign vessels would give an advantage to our own people, while it would avoid all the disadvantages arising from a prohibition, and the consequent deficiency of vessels to transport the produce of the southern states."
+    },
+    {
+      "label": "Agrippa 9, ¶ 4",
+      "pages": [
+        "8"
+      ],
+      "ref": "Agrippa.9.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          93
+        ]
+      },
+      "text": "Our country is at present upon an average a thousand miles long from north to south, and eight hundred broad from the Mississippi to the Ocean. We have at least six millions of white inhabitants, and the annual increase is about two hundred and fifty thousand souls, exclusive of emigrants from Europe. The greater part of our increase is employed in settling the new lands, while the older settlements are entering largely into manufactures of various kinds. It is probable that the extraordinary exertions of this state in the way of industry for the present year only, exceed in value five hundred thousand pounds. The new settlements, if all made in the same tract of country, would form a large state annually; and the time seems to be literally accomplished when a nation shall be born in a day. Such an immense country is not only capable of yielding all the produce of Europe, but actually does produce by far the greater part of the raw materials. The restrictions on our trade in Europe, necessarily oblige us to make use of those materials, and the high price of labour operates as an encouragement to mechanical improvements. In this way we daily make rapid advancements towards independence in resources as well as in empire. If we adopt the new system of government we shall, by one rash vote, lose the fruit of the toil and expense of thirteen years, at the time when the benefits of that toil and expense are rapidly increasing. Though the imposts of Congress on foreign trade may tend to encourage manufactures, the excise and dry tax will destroy all the beneficial effects of the impost, at the same time that they diminish our capital. Be careful then to give only a limited revenue, and the limited power of managing foreign concerns. Once surrender the rights of internal legislation and taxation, and instead of being respected abroad, foreigners will laugh at us, and posterity will lament our folly. Agkifpa.",
+      "uncertain": [
+        {
+          "end": 1933,
+          "readings": {
+            "primary": "Agkifpa."
+          },
+          "start": 1925
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 10, ¶ 1",
+      "pages": [
+        "82"
+      ],
+      "ref": "Agrippa.10.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          94
+        ]
+      },
+      "text": "It is a duty incumbent on every man, who has had opportunities for inquiry, to lay the result of his researches on any matter of publick importance before the publick eye. No further apology will be necessary with the generality of my readers, for having so often appeared before them on the subject of the lately proposed form of government. It has been treated with that freedom which is necessary for the investigation of truth, and with no greater freedom. On such a subject, extensive in its nature, and important in its consequences, the examination has necessarily been long, and the topicks treated of have been various. We have been obliged to take a cursory, but not inaccurate view of the circumstances of mankind under the different forms of government to support the different parts of our argument. Permit me now to bring into one view the principal propositions on which the reasoning depends."
+    },
+    {
+      "label": "Agrippa 10, ¶ 2",
+      "pages": [
+        "82"
+      ],
+      "ref": "Agrippa.10.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          94,
+          95
+        ]
+      },
+      "text": "It is shewn from the example of the most commercial republick of antiquity, which was never disturbed by a sedition for above seven hundred years, and at last yielded after a violent struggle to a foreign enemy, as well as from the experience of our own country for a century and an half, that the republican, more than any other form of government is made of durable materials. It is shewn from a variety of proof, that one consolidated government is inapplicable to a great extent of country; is unfriendly to the rights both of persons and property, which rights always adhere together; and that being contrary to the interest of the extreme of an empire, such a government can be supported only by power, and that commerce is the true bond of union for a free state. It is shewn from a comparison of the different parts of the proposed plan, that it is such a consolidated government."
+    },
+    {
+      "label": "Agrippa 10, ¶ 3",
+      "pages": [
+        "84"
+      ],
+      "ref": "Agrippa.10.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          95,
+          96
+        ]
+      },
+      "text": "By article 3, section 2, Congress are empowered to appoint courts with authority to try civil causes of every kind, and even offences against particular states. By the last clause of Article i, section 8, which defines their legislative powers, they are authorised to make laws for carrying into execution all the ,\" powers vested by this constitution in the government of the United States, or in any department or officer thereof;\" and by article 6, the judges in every state are to be bound by the laws of Congress. It is therefore a complete consolidation of all the states into one, however diverse the parts of it may be. It is also shewn that it will operate unequally in the different states, taking from some of them a greater share of wealth; that in this last respect it will operate more to the injury of this commonwealth than of any state in the union ; and that by reason of its inequality it is subversive of the principles of a free government, which requires every part to contribute an equal proportion. For all these reasons this system ought to be rejected, even if no better plan was proposed in the room of it. In case of a rejection we must remain as we are, with trade extending, resources opening, settlements enlarging, manufactures increasing, and publick debts diminishing by fair payment. These are mighty blessings, and not to be lost by the hasty adoption of a new system. But great as these benefits are, which we derive from our present system, it has been shewn, that they may be increased by giving Congress a limited power to regulate trade, and assigning to them those branches of the impost on our foreign trade only, which shall be equal to our proportion of their present annual demands. While the interest is thus provided for, the sale of our lands in a veryfew years will pay the principal, and the other resources of the state will pay our own debt. The present mode of assessing the continental tax is regulated by the extent of landed property in each state. By this rule the Massachusetts [sic] has to pay one eighth. If we adopt the new system, we shall surrender the whole of our impost and excise, which probably amount to a third of those duties of the whole continent, and must come in for about a sixth part of the remaining debt. By this means we shall be deprived of the benefit arising from the largeness of our loans to the continent, shall lose our ability to satisfy the just demands on the state. Under the limitations of revenue and commercial regulation contained in these papers, the balance will be largely in our favour ; the importance of the great states will be preserved, and the publick creditors both of the continent and state will be satisfied without burdening the people. For a more concise view of my proposal, I have thrown it into the form of a resolve, supposed to be passed by the convention which is shortly to set in this town."
+    },
+    {
+      "label": "Agrippa 10, ¶ 4",
+      "pages": [
+        "84"
+      ],
+      "ref": "Agrippa.10.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          96
+        ]
+      },
+      "text": "\" Commonwealth of Massachusetts. Resolved, That the form of government lately proposed by a federal convention, held in the city of Philadelphia, is so far injurious to the interests of this commonwealth, that we are constrained by fidelity to our constituents to reject it ; and we do hereby reject the said proposed form and every part thereof. But in order that the union of these states may, as far as possible, be promoted, and the federal business as little obstructed as may be, we do agree on the part of this commonwealth, that the following addition be made to the present articles of confederation :"
+    },
+    {
+      "label": "Agrippa 10, ¶ 5",
+      "pages": [
+        "84",
+        "85"
+      ],
+      "ref": "Agrippa.10.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          96,
+          97
+        ]
+      },
+      "text": "\" XIV. The United States shall have power to regulate the intercourse between these states and foreign dominions, under the following restrictions ; viz.: ist. No treaty, ordinance, or law shall alienate the whole or part of any state, without the consent of the legislature of such state. 2d. The United States shall not by treaty or otherwise give a preference to the ports of one state over those of another ; nor, 3d, create any monopolies or exclusive companies; nor, 4th, extend the privileges of citizenship to any foreigner. And for the more convenient exercise of the powers hereby and by the former articles given, the United States shall have authority to constitute judicatories, whether supreme or subordinate, with power to try all piracies and felonies done on the high seas, and also all civil causes in which a foreign state, or subject thereof, actually resident in a foreign country and not being British absentees, shall be one of the parties. They shall also have authority to try all causes in which ambassadors shall be concerned. All these trials shall be by jury and in some sea-port town. All imposts levied by Congress on trade shall be confined to foreign produce or foreign manufactures imported, and to foreign ships trading in our harbours, and all their absolute prohibitions shall be confined to the same articles. All imposts and confiscations shall be to the use of the state in which they shall accrue, excepting in such branches as shall be assigned by any state as a fund for defraying their proportion of the continental. And no powers shall be exercised by Congress but such as are expressly given by this and the former articles. And we hereby authorize our delegates in Congress to sign and ratify an article in the foregoing form and words, without any further act of this state for that purpose, provided the other states shall accede to this proposition on their part on or before the first day of January, which will be in the year of our Lord 1790. All matters of revenue being under the controul of the legislature, we recommend to the general court of this commonwealth, to devise, as early as may be, such funds arising from such branches of foreign commerce, as shall be equal to our part of the current charges of the continent, and to put Congress in possession of the revenue arising therefrom, with a right to collect it. during such term as shall appear to be necessary for the payment of the principal of their debt, by the sale of the western lands.\"*"
+    },
+    {
+      "label": "Agrippa 10, ¶ 6",
+      "pages": [
+        "85",
+        "86"
+      ],
+      "ref": "Agrippa.10.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          97,
+          98
+        ]
+      },
+      "text": "By such an explicit declaration of 'die powers given to Con gress, we shall provide for all federal purposes, and shall at the same time secure our rights. It is easier to amend the old confederation, defective as it has been represented, than it is to correct the new form. For with whatever view it was framed, truth constrains me to say, that it is insidious in its form, and ruinous in its tendency. Under the pretence of different branches of the legislature, the members will in fact be chosen from the same general description of citizens. The advantages of a check will be lost, while we shall be continually exposed to the cabals and corruption of a British election. There cannot be a more eligible mode than the present, for appointing members of Congress, nor more effectual checks provided than our separate state government's, nor any system so little expensive, in case of our adopting the resolve just stated, or even continuing as we are. We shall in that case avoid all the inconvenience of concurrent jurisdictions, we shall avoid the expensive and useless establishments of the Philadelphia proposition, we shall preserve our constitution and liberty, and we shall provide for all such institutions as will be useful. Surely then you cannot hesitate, whether you will chuse freedom or servitude. The object is now well defined. By adopting the form proposed by the convention, you will have the derision of foreigners, internal misery, and the anathemas of posterity. By amending the present confederation, and granting limited powers to Congress, you secure the admiration of strangers, internal happiness, and the blessings and prosperity of all succeeding generations. Be wise, then, and by preserving your freedom, prove, that Heaven bestowed it not in vain. Many will be the efforts to delude the convention. The mode of judging is itself suspicious, as being contrary to the antient and established usage of the commonwealth. But since the mode is adopted, we trust, that the members of that venerable assembly will not so much regard the greatness of their power, as the sense and interest of their constituents. And they will do well to remember that even a mistake in adopting it, will be destructive, while no evils can arise from a total, and much less, probably, from such a partial rejection as we have proposed.",
+      "uncertain": [
+        {
+          "end": 39,
+          "readings": {
+            "brittle": "the",
+            "google": "the",
+            "primary": "'die"
+          },
+          "start": 35
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 10, ¶ 7",
+      "pages": [
+        "86",
+        "87"
+      ],
+      "ref": "Agrippa.10.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          98,
+          99
+        ]
+      },
+      "text": "I have now gone through my reasonings on this momentous subject, and have stated the facts and deductions from them, which you will verify for yourselves. Personal interest was not my object, or I should have pursued a different line of conduct. Though I conceived that a man who owes allegiance to the state is bound, on all important occasions, to propose such inquiries as tend to promote the publick good; yet I did not imagine it to beany part of my duty to present myself to the fury of those who appear to have other ends in view. For this cause, and for this only, I have chosen a feigned signature. At present all the reports concerning the writer of these papers are merely conjectural. I should have been ashamed of my system if it had needed such feeble support as the character of individuals. It stands on the firm ground of the experience of mankind. I cannot conclude this long disquisition better than with a caution derived from the words of inspiration — Discern the things of your peace now in the days thereof, before they be hidden from your eyes."
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 10, note 1",
+      "pages": [
+        "85"
+      ],
+      "ref": "Agrippa.10.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          97
+        ]
+      },
+      "text": "* Probably an allusion to the Phelps and Gorham purchase. — Ed."
+    },
+    {
+      "label": "Agrippa 11, ¶ 1",
+      "pages": [
+        "88",
+        "89"
+      ],
+      "ref": "Agrippa.11.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          100,
+          101
+        ]
+      },
+      "text": "My last address contained the outlines of a system fully adequate to all the useful purposes of the union. Its object is to raise a sufficient revenue from the foreign trade, and the sale of our publick lands, to satisfy all the publick exigencies, and to encourage, at the same time, our internal industry and manufactures. It also secures each state in its own separate rights, while the continental concerns are thrown into the general department. The only deficiencies that I have been able to discover in the plan, and in the view of federalists they are very great ones, are, that it does not allow the interference of Congress in the domestick concerns of the state, and that it does not render our national \"councils so liable to foreign influence. The first of these articles tends to guard us from that infinite multiplication of officers which the report of the Convention of Philadelphia proposes. With regard to the second, it is evidently not of much importance to any foreign nation to purchase, at a very high price, a majority of votes in an assembly, whose members are continually exposed to a recall. But give those members a right to sit six, or even two years, with such extensive powers as the new system proposes, and their friendship will be well worth a purchase. This is the only sense in which the Philadelphia system will rendcr US more respectable in the eyes of foreigners. In every other view they lose their respect for us, as it will render us more like their own degraded models. It is a maxim with them, that every man has his price. If, therefore, we were to judge of what passes in the hearts of the federalists when they urge us, as they continually do, to be like other nations, and when they assign mercenary motives to the opposers of their plan, we should conclude very fairly they themselves wish to be provided for at the publick expense. However that may be, if we look upon the men we shall find some of their leaders to have formed pretty strong attachments to foreign nations. Whether those attachments arose from their being educated under a royal government, from a former unfortunate mistake in politicks, or from the agencies for foreigners, or any other cause, is not in my province to determine. But certain it is that some of the principal fomenters of this plan have never shown themselves capable of that generous system of policy which is founded in the affections of freemen. Power and high life are their idols, and national funds are necessary to support them.",
+      "uncertain": [
+        {
+          "end": 1356,
+          "readings": {
+            "primary": "rendcr"
+          },
+          "start": 1350
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 11, ¶ 2",
+      "pages": [
+        "89",
+        "90"
+      ],
+      "ref": "Agrippa.11.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          101,
+          102
+        ]
+      },
+      "text": "Some of the principal powers of Europe have already entered into treaties with us, and that some of the rest have not done it, is not owing, as is falsely pretended, to the want of power in Congress. Holland never found any difficulty of this kind from the multitude of sovereignties in that country, which must all be consulted on such an occasion. The resentment of Great Britain for our victories in the late war has induced that power to restrain our intercourse with their subjects. Probably an hope, the only solace of the wretched, that their affairs would take a more favourable turn on this continent, has had some influence on their proceedings. All their restrictions have answered the end of securing our independence, by driving us into many valuable manufactures. Their own colonies in the mean time have languished for want of an intercourse with these states. The new settlement in Nova Scotia has miserably decayed, and the West India Islands have suffered for want of our supplies, and by the loss of our market. This has affected the revenue; and, however contemptuously some men may affect to speak of our trade, the supply of six millions of people is an object worth the attention of any nation upon earth. Interest in such a nation as Britain will surmount their resentment. However their pride may be stung, they will pursue after wealth. Increase of revenue to a nation overwhelmed with a debt of near two hundred and ninety millions sterling is an object to which little piques must give way; and there is no doubt that their interest consists in securing as much of our trade as they can."
+    },
+    {
+      "label": "Agrippa 11, ¶ 3",
+      "pages": [
+        "90"
+      ],
+      "ref": "Agrippa.11.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          102
+        ]
+      },
+      "text": "These are the topicks from which are drawn some of the most plausible reasons that have been given by the federalists in favour of their plan, as derived from the sentiments of foreigners. We have weighed them and found them wanting. That they had not themselves full confidence in their own reasons at Philadelphia is evident from the method they took to bias the State Convention. Messrs. Wilson and M'Kean, two Scottish names, were repeatedly worsted in the argument. To make amends for their own incapacity, the gallery was filled with a rabble,* who shouted their applause, and these heroes of aristocracy were not ashamed, though modesty is their national virtue, to vindicate such a violation of decency. Means not less criminal, but not so flagrantly indecent, have been frequently mentioned among us to secure a majority. But those who vote for a price can never sanctify wrong, and treason will still retain its deformity."
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 11, note 1",
+      "pages": [
+        "90"
+      ],
+      "ref": "Agrippa.11.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          102
+        ]
+      },
+      "text": "* An allusion to the proceedings in the Convention of Pennsylvania. — Ed."
+    },
+    {
+      "label": "Agrippa 12, ¶ 1",
+      "pages": [
+        "91"
+      ],
+      "ref": "Agrippa.12.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          103
+        ]
+      },
+      "text": "Suffer an individual to lay before you his contemplations on the great subject that now engages your attention. To you it belongs, and may Heaven direct your judgment to decide on the happiness of all future generations, as well as the present."
+    },
+    {
+      "label": "Agrippa 12, ¶ 2",
+      "pages": [
+        "91",
+        "92"
+      ],
+      "ref": "Agrippa.12.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          103,
+          104
+        ]
+      },
+      "text": "It is universally agreed that the object of every just government is to render the people happy, by securing their persons and possessions from wrong. To this end it is necessary that there should be local laws and institutions; for a people inhabiting various climates will unavoidably have local habits and different modes of life, and these must be consulted in making the laws. It is much easier to adapt the laws to the manners of the people, than to make manners conform to laws. The idle and dissolute inhabitants of the south require a different regimen from the sober and active people of the north. Hence, among other reasons, is derived the necessity of local governments, who may enact, repeal, or alter regulations as the circumstances of each part of the empire may require. This would be the case, even if a very great state was to be settled at once. But it becomes still more needful when the local manners are formed, and usages sanctified, by the practice of a century and a half In such a case, to attempt to reduce all to one standard is absurd in itself and cannot be done but upon the principle of power, which debases the people and renders them unhappy till all dignity of character is put away. Many circumstances render us an essentially different people from the inhabitants of the southern states. The unequal distribution of property, the toleration of slavery, the ignorance and poverty of the lower classes, the softness of the climate and dissoluteness of manners, mark their character. Among us, the care that is taken of education, small and nearly equal estates, equality of rights, and the severity of the climate, renders the people active, industrious and sober. Attention to religion and good morals is a distinguishing trait in our character. It is plain, therefore, that we require for our regulation laws which will not suit the circumstances of our southern brethren, and that laws made for them would not apply to us. Unhappiness would be the uniform product of such laws; for no state can be happy when the laws contradict the general habits of the people, nor can any state retain its freedom while there is a power to make and enforce such laws. We may go further, and say, that it is impossible for any single legislature so fully to comprehend the circumstances of the different parts of a very extensive dominion as to make laws adapted to those circumstances."
+    },
+    {
+      "label": "Agrippa 12, ¶ 3",
+      "pages": [
+        "92"
+      ],
+      "ref": "Agrippa.12.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "Hence arises in most nations of extensive territory, the necessity of armies, to cure the defect of the laws. It is actually under the pressure of such an absurd government, that the Spanish provinces have groaned for near three centuries ; and such will be our misfortune and degradation, if we ever submit to have all the business of the empire done by one legislature. The contrary principle of local legislation by the representatives of the people, who alone are to be governed by the laws, has raised us to our present greatness ; and an attempt on the part of Great Britain to invade this right, brought on the revolution, which gave us a separate rank among the nations. We even declared, that we would not be represented in the national legislature, because one assembly was not adequate to the purposes of internal legislation and taxation."
+    },
+    {
+      "label": "Agrippa 13, ¶ 1",
+      "pages": [
+        "94"
+      ],
+      "ref": "Agrippa.13.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          105,
+          106
+        ]
+      },
+      "text": "The question then arises, what is the kind of government best adapted to the object of securing our persons and possessions from violence ? I answer, a Federal Republick. By this kind of government each state reserves to itself the right of making and altering its laws for internal regulation, and the right of executing those laws without any external restraint, while the general concerns of the empire are committed to an assembly of delegates, each accountable to his own constituents. This is the happy form under which we live, and which seems to mark us out as a people chosen of God. No instance can be produced of any other kind of government so stable and energetick as the republican. The objection drawn from the Greek and Roman states does not apply to the question. Republicanism appears there in its most disadvantageous form. Arts and domestic employments were generally committed to slaves, while war was almost the only business worthy of a citizen. Hence arose their internal dissensions. Still they exhibited proofs of legislative wisdom and judicial integrity hardly to be found among their monarchick neighbors. On the other hand we find Carthage cultivating commerce, and extending her dominions for the long space of seven centuries, during which term the internal tranquillity was never disturbed by her citizens. Her national power was so respectable, that for a long time it was doubtful whether Carthage or Rome should rule. In the form of their government they bore a strong resemblance to each other. Rome might be reckoned a free state for about four hundred and fifty years. We have then the true line of distinction between those two nations, and a strong proof of the hardy materials which compose a republican government. If there was no other proof, we might with impartial judges risk the issue upon this alone. But our proof rests not here. The present state of Europe, and the vigour and tranquillity of our own governments, after experiencing this form for a century and an half, are decided proofs in favour of those governments which encourage commerce. A comparison of our own country, first with Europe and then with the other parts of the world, will prove, beyond a doubt, that the greatest share of freedom is enjoyed by the citizens, so much more does commerce flourish. The reason is, that every citizen has an influence in making the laws, and thus they are conformed to the general interests of the state; but in every other kind of government they are frequently made in favour of a part of the community at the expense of the rest."
+    },
+    {
+      "label": "Agrippa 13, ¶ 2",
+      "pages": [
+        "94",
+        "95"
+      ],
+      "ref": "Agrippa.13.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          106,
+          107
+        ]
+      },
+      "text": "The argument against republicks, as it is derived from the Greek and Roman states, is unfair. It goes on the idea that no other government is subject to be disturbed. As well might we conclude, that a limited monarchy is unstable, because that under the feudal system the nobles frequently made war upon their king, and disturbed the publick peace. We find, however, in practice, that limited monarchy is more friendly to commerce, because more friendly to the rights of the subject, than an absolute government ; and that it is more liable to be disturbed than a republick, because less friendly to trade and the rights of individuals. There cannot, from the history of mankind, be produced an instance of rapid growth in extent, in numbers, in arts, and in trade, that will bear any comparison with our country. This is owing to what the friends of the new system, and the enemies of the revolution, for I take them to be nearly the same, would term our extreme liberty. Already, have our ships visited every part of the world, and brought us their commodities in greater perfection, and at a more moderate price, than we ever before experienced. The ships of other nations crowd to our ports, seeking an intercourse with us. All the estimates of every party make the balance of trade for the present year to be largely in our favour. Already have some very useful, and some elegant manufactures got established among us, so that our country every day is becoming independent in her resources. Two-thirds of the continental debt has been paid since the war, and we are in alliance with some of the most respectable powers of Europe. The western lands, won from Britain by the sword, are an ample fund for the principal of all our public debts; and every new sale excites that manly pride which is essential to national virtue. All this happiness arises from the freedom of our institutions and the limited nature of our government; a government that is respected from principles of affection, and obeyed with alacrity. The sovereigns of the old world are frequently, though surrounded with armies, treated with insult; and thedespotick monarchies of the east, are the most fluctuating, oppressive and uncertain governments of any form hitherto invented. These considerations are sufficient to establish the excellence of our own form, and the goodness of our prospects."
+    },
+    {
+      "label": "Agrippa 13, ¶ 3",
+      "pages": [
+        "95"
+      ],
+      "ref": "Agrippa.13.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          107,
+          108
+        ]
+      },
+      "text": "Let us now consider the probable effects of a consolidation of the separate states into one mass ; for the new system extends so far. Many ingenious explanations have been given of it ; but there is this defect, that they are drawn from maxims of the common law, while the system itself cannot be bound by any such maxims. A legislative assembly has an inherent right to alter the common law, and to abolish any of its principles, which are not particularly guarded in the constitution. Any system therefore which appoints a legislature, without any reservation of the rights of individuals, surrenders all power in every branch of legislation to the government. The universal practice of every government proves the justness of this remark ; for in every doubtful case it is an established rule to decide in favour of authority. The new system is, therefore, in one respect at least, essentially inferior to our state constitutions. There is no bill of rights, and consequently a continental law may controul any of those principles, which we consider at present as sacred ; while not one of those points, in which it is said that the separate governments misapply their power, is guarded. Tender acts and the coinage of money stand on the same footing of a consolidation of power. It is a mere fallacy, invented by the deceptive powers of Mr. Wilson, that what rights are not given are reserved. The contrary has already been shewn. But to put this matter of legislation out of all doubt, let us compare together some parts of the book ; for being an independent system, this is the only way to ascertain its meaning."
+    },
+    {
+      "label": "Agrippa 13, ¶ 4",
+      "pages": [
+        "97"
+      ],
+      "ref": "Agrippa.13.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          108,
+          109
+        ]
+      },
+      "text": "In article III, section 2, it is declared, that \"the judicial power shall extend to all cases in law and equity arising under this constitution, the laws of the United States, and treaties made or which shall be made under their authority.\" Among the cases arising under this new constitution are reckoned, \" all controversies between citizens of different states,\" which include all kinds of civil causes between those parties. The giving Congress a power to appoint courts for such a purpose is as much, there being no stipulation to the contrary, giving them power to legislate for such causes, as giving them a right to raise an army, is giving them a right to direct the operations of the army when raised. But it is not left to implication. The last clause of article I, section 8, expressly gives them power \" to make all laws which shall be needful and proper for carrying into execution the foregoing powers, and all other powers vested by this constitution in the government of the United States, or in any department or officer thereof\" It is, therefore, as plain as words can make it, that they have a right by this proposed form to legislate for all kinds of causes respecting property between citizens of different states. That this power extends to all cases between citizens of the same state, is evident from the sixth article, which declares all continental laws and treaties to be the supreme law of the land, and that all state judges are bound thereby, \"anything in the constitution or laws of any state to the contrary notwithstanding.\" If this is not binding the judges of the separate states in their own office, by continental rules, it is perfect nonsense. There is then a complete consolidation of the legislative powers in all cases respecting property. This power extends to all cases between a state and citizens of another state. Hence a citizen, possessed of the notes of another state, may bring his action, and there is no limitation that the execution shall be levied on the publick property of the state ; but the property of individuals is liable. This is a foundation for endless confusion and discord. This right to try causes between a state and citizens of another state, involves in it all criminal causes; and a man who has accidentally transgressed the laws of another state, must be transported, with all his witnesses, to a third state, to be tried. He must be ruined to prove his innocence. These are necessary parts of the new system, and it will never be complete till they are reduced to practice. They effectually prove a consolidation of the states, and we have before shewn the ruinous tendency of such a measure."
+    },
+    {
+      "label": "Agrippa 13, ¶ 5",
+      "pages": [
+        "97",
+        "98"
+      ],
+      "ref": "Agrippa.13.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          109,
+          110
+        ]
+      },
+      "text": "By sect. 8 of article i, Congress are to have the unlimited right to regulate commerce, external and internal, and may therefore create monopolies which have been universally injurious to all the subjects of the countries that have adopted them, excepting the monopolists themselves. They have also the unlimited right to imposts and all kinds of taxes, as well to levy as to collect them. They have indeed very nearly the same powers claimed formerly by the British parliament. Can we have so soon forgot our glorious struggle with that power, as to think a moment of surrendering it now? It makes no difference in principle whether the national assembly was elected for seven years or for six. In both cases we should vote to great disadvantage, and therefore ought never to agree to such an article. Let us make provision for the payment of the interest of our part of the debt, and we shall be fairly acquitted. Let the fund be an impost on our foreign trade, and we shall encourage our manufactures. But if we surrender the unlimited right to regulate trade, and levy taxes, imposts will oppress our foreign trade for the benefit of other states, while excises and taxes will discourage our internal industry'. The right to regulate trade, without any limitations, will, as certainly as it is granted, transfer the trade of this state to Pennsylvania. That will be the seat of business and of wealth, while the extremes of the empire will, like Ireland and Scotland, be drained to fatten an overgrown capital. Under our present equal advantages, the citizens of this state come in for their full share of commercial profits. Surrender the rights of taxation and commercial regulation, and the landed states at the southward will all be interested in draining our resources ; for whatever can be got by impost on our trade and excises on our manufactures, will be considered as so much saved to a state inhabited by planters. All savings of this sort ought surely to be made in favour of our own state; and we ought never to surrender the unlimited powers of revenue and trade to uncommercial people. If we do, the glory of the state from that moment departs, never to return.",
+      "uncertain": [
+        {
+          "end": 24,
+          "readings": {
+            "brittle": "J,",
+            "google": "r,",
+            "primary": "i,"
+          },
+          "start": 22
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 13, ¶ 6",
+      "pages": [
+        "98"
+      ],
+      "ref": "Agrippa.13.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          110
+        ]
+      },
+      "text": "The safety of our constitutional rights consists in having the business of governments lodged in different departments, and in having each part well defined. By this means each branch is kept within the constitutional limits. Never was a fairer line of distinction than what may be easily drawn between the continental and state governments. The latter provide for all cases, whether civil or criminal, that can happen ashore, because all such causes must arise within the limits of some state. Transactions between citizens may all be fairly included in this idea, even although they should arise in passing by water from one state to another. But the intercourse between us and foreign nations properly forms the department of Congress. They should have the power of regulating trade under such limitations as should render their laws equal. They should have the right of war and peace, saving the equality of rights, and the territory of each state. But the power of naturalization and internal regulation should not be given them. To give my scheme a more systematick appearance, I have thrown it into the form of a resolve, which is submitted to your wisdom for amendment, but not as being perfect."
+    },
+    {
+      "label": "Agrippa 13, ¶ 7",
+      "pages": [
+        "98",
+        "99"
+      ],
+      "ref": "Agrippa.13.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          110,
+          111
+        ]
+      },
+      "text": "\"Resolved, that the form of government proposed by the federal convention, lately held in Philadelphia, be rejected on the part of this commonwealth; and that our delegates in Congress are hereby authorised to propose on the part of this commonwealth, and, it\" the other states for themselves agree thereto, to sign an article of confederation, as an addition to the present articles, in the form following, provided such agreement be made on or before the first day of January, which will be in the year of our Lord 1790; the said article shall have the same force and effect as if it had been inserted in the original confederation, and is to be construed consistently with the clause in the former articles, which restrains the United States from exercising such powers as are not expressly given.",
+      "uncertain": [
+        {
+          "end": 260,
+          "readings": {
+            "brittle": "if",
+            "google": "if",
+            "primary": "it\""
+          },
+          "start": 257
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 13, ¶ 8",
+      "pages": [
+        "99"
+      ],
+      "ref": "Agrippa.13.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          111,
+          112
+        ]
+      },
+      "text": "\"XIV. The United States shall have power to regulate, whether by treaty, ordinance or law, the intercourse between these states and foreign dominions and countries, under the following restrictions. No treaty, ordinance, or law shall give a preference to the ports of one state over those of another; nor 2d. impair the territory or internal authority of any state ; nor 3d. create any monopolies or exclusive companies; nor 4th. naturalize any foreigners. All their imposts and prohibitions shall be confined to foreign produce and manufactures imported, and to foreign ships trading in our harbours. All imposts and confiscations shall be to the use of the state where they shall accrue, excepting only such branches of impost as shall be assigned by the separate states to Congress for a fund to defray the interest of their debt, and their current charges. In order the more effectually to execute this and the former articles, Congress shall have authority to appoint courts, supreme and subordinate, with power to try all crimes, not relating to state securities, between any foreign state, or subject of such state, actually residing in a foreign country, and not being an absentee or person who has alienated himself from these states on the one part, and any of the United States or citizens thereof on the other part; also all causes in which foreign ambassadours or other foreign ministers resident here shall be immediately concerned, respecting the jurisdiction or immunities only. And the Congress shall have authority to execute the judgment of such courts by their own affairs. Piracies and felonies committed on the high seas shall also belong to the department of Congress for them to define, try, and punish, in the same manner as the other causes shall be defined, tried, and determined. All the before-mentioned causes shall be tried by jury and in some sea-port town. And it is recommended to the general court at their next meeting to provide and put Congress in possession of funds arising from foreign imports and ships sufficient to defray our share of the present annual expenses of the continent.\"*"
+    },
+    {
+      "label": "Agrippa 13, ¶ 9",
+      "pages": [],
+      "ref": "Agrippa.13.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          112,
+          113
+        ]
+      },
+      "text": "Such a resolve, explicitly limiting the powers granted, is the farthest we can proceed with safety. The scheme of accepting the report of the Convention, and amending it afterwards, is merely delusive. There is no intention among those who make the proposition to amend it at all. Besides, if they have influence enough to get it accepted in its present form, there is no probability that they will consent to an alteration when possessed of an unlimited revenue. It is an excellence in our present confederation, that it is extremely difficult to alter it. An unanimous vote of the states is required. But this newly proposed form is founded in injustice, as it proposes that a fictitious consent of only nine states shall be sufficient to establish it. Nobody can suppose that the consent of a .state is any thing more than a fiction, in the view of the federalists, after the mobbish influence used over the Pennsylvania convention. The two great leaders of the plan, with a modesty of Scotsmen, placed a rabble in the gallery to applaud their speeches, and thus supplied their want of capacity in the argument. Repeatedly were Wilson and M'Kean worsted in the argument by the plain good sense of Findly and Smilie. But reasoning or knowledge had little to do with the federal party. Votes were all they wanted, by whatever means obtained. Means not less criminal have been mentioned among us. But votes that are bought can never justify a treasonable conspiracy. Better, far better, would it be to reject the whole, and remain in possession of present advantages. The authority of Congress to decide disputes between states is sufficient to prevent their recurring to hostility: and their different situation wants and produce is a sufficient foundation for the most friendly intercourse. All the arts of delusion and legal chicanery will be used to elude your vigilance, and obtain a majority. But keeping the constitution of the state and the publick interest in view, will be your safety."
+    },
+    {
+      "label": "Agrippa 13, ¶ 10",
+      "pages": [],
+      "ref": "Agrippa.13.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          113
+        ]
+      },
+      "text": "[We are obliged, contrary to our intention, to postpone the remainder of Agrippa till our next.]"
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 13, note 1",
+      "pages": [],
+      "ref": "Agrippa.13.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          112
+        ]
+      },
+      "text": "* Cf. with page 85. — Ed.",
+      "uncertain": [
+        {
+          "end": 19,
+          "readings": {
+            "primary": "85."
+          },
+          "start": 16
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 14, ¶ 1",
+      "pages": [
+        "102"
+      ],
+      "ref": "Agrippa.14.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          114,
+          115
+        ]
+      },
+      "text": "To tell us that we ought to look beyond local interests, and judge for the good of the empire, is sapping the foundation of a free state. The first principle of a just government is, that it shall operate equally. The report of the convention is extremely unequal. It takes a larger share of power from some, and from others, a larger share of wealth. The Massachusetts will be obliged to pay near three times their present proportion towards continental charges. The proportion is now ascertained by the quantity of landed property, then it will be by the number of persons. After taking the whole of our standing revenue, by impost and excise, we must still be held to pay a sixth part of the remaining debt. It is evidently a contrivance to help the other states at our expense. Let us then be upon our guard, and do no more than the present confederation obliges. While we make that our beacon we are safe. It was framed by men of extensive knowledge and enlarged ability, at a time when some of the framers of the new plan were hiding in the forests to secure their precious persons. It was framed by men who were always in favor of a limited government, and whose endeavours Heaven has crowned with success. It was framed by men whose idols were not power and high life, but industry and constitutional liberty, and who are now in opposition to this new scheme of oppression. Let us then cherish the old confederation like the apple of our eye. Let us confirm it by such limited powers to Congress, and such an enlarged intercourse, founded on commercial and mutual want, with the other states, that our union shall outlast time itself. It is easier to prevent an evil than to cure it. We ought therefore to be cautious of innovations. The intrigues of interested politicians will be used to seduce even the elect. If the vote passes in favour of the plan, the constitutional liberty of our country is gone forever. If the plan should be rejected, we always have it in our power, by a fair vote of the people at large, to extend the authority of Congress. This ought to have been the mode pursued. But our antagonists were afraid to risk it. They knew that the plan would not bear examining. Hence we have seen them insulting all who were in opposition to it, and answering arguments only with abuse. They have threatened and they have insulted the body of the people. But I may venture to appeal to any man of unbiassed judgment, whether his feelings tell him, that there is any danger at all in rejecting the plan. I ask not the palsied or the jaundiced, nor men troubled with bilious or nervous affections, for they can see danger in every thing. But I apply to men who have no personal expectations from a change, and to men in full health. The answer of all such men will be, that never was a better time for deliberation. Let us then, while we have it in our power, secure the happiness and freedom of the present and future ages. To accept of the report of the convention, under the idea that we can alter it when we please, will be sporting with fire-brands, arrows and death. It is a system which must have an army to support it. and there can be no redress but by a civil war. If, as the federalists say, there is a necessity of our receiving it, for heaven's sake let our liberties go without our making a formal surrender. Let us at least have the satisfaction of protesting against it, that our own hearts may not reproach us for the meanness of deserting our dearest interests."
+    },
+    {
+      "label": "Agrippa 14, ¶ 2",
+      "pages": [
+        "104"
+      ],
+      "ref": "Agrippa.14.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          115,
+          116
+        ]
+      },
+      "text": "Our present system is attended with the inestimable advantage of preventing unnecessary wars. Foreign influence is assuredly smaller in our publick councils, in proportion as the members are subject to be recalled. At present, their right to sit continues no longer than their endeavours to secure the publick interest. It is therefore not an object for any foreign power to give a large price for the friendship of a delegate in Congress. If we adopt the new system, every member will depend upon thirty thousand people, mostly scattered over a large extent of country, for his election. Their distance from the seat of government will make it extremely difficult for the electors to get information of his conduct. If he is faithful to his constituents, his conduct will be misrepresented, in order to defeat his influence at home. Of this we have a recent instance, in the treatment of the dissenting members of the late federal convention.* Their fidelity to their constituents was their whole fault. We may reasonably expect similar conduct to be adopted, when we shall have rendered the friendship of the members valuable to foreign powers, by giving them a secure seat in Congress. We shall too have all the intrigues, cabals and bribery practiced, which are usual at elections in Great Britain. We shall see and lament the want of publick virtue; and we shall see ourselves bought at a publick market, in order to be sold again to the highest bidder. We must be involved in all the quarrels of European powers, and oppressed with expense, merely for the sake of being like the nations round about us. Let us then, with the spirit of freemen, reject the offered system, and treat as it deserves the proposition of men who have departed from their commission ; and let us deliver to the rising generation the liberty purchased with our blood."
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 14, note 1",
+      "pages": [
+        "104"
+      ],
+      "ref": "Agrippa.14.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          116
+        ]
+      },
+      "text": "* Robert Yates, John Lansing, Jr., Luther Martin, James Francis Mercer, Edmund Randolph, George Mason, and Elbridge Gerry. — Ed."
+    },
+    {
+      "label": "Agrippa 15, ¶ 1",
+      "pages": [],
+      "ref": "Agrippa.15.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          117,
+          118
+        ]
+      },
+      "text": "Truly deplorable, in point of argument, must be that cause, in whose defence persons of acknowledged learning and abilitycan say nothing pertinent. When they undertake to prove that the person elected is the safest person in the world to control the exercise of the elective powers of his constituents, we know what dependence is to be had upon their reasonings. Yet we have seen attempts to shew, that the fourth section of the proposed constitution is an additional security to our rights. It may be such in the view of a Rhode Island family (I think that state is quoted) who have been of some time in the minority : but it is extraordinary that an enlightened character* in the Massachusetts [convention] should undertake to prove, that, from a single instance of abuse in one state, another state ought to resign its liberty. Can an [sic] man, in the free exercise of his reason, suppose, that he is perfectly represented in the legislature, when that legislature may at pleasure alter the time, manner and place of election ? By altering the time they may continue a representive during his whole life ; by altering the manner, they may fill up the vacancies by their own votes without the consent of the people ; and by altering the place, all the elections may be made at the seat of the federal government. Of all the powers of government perhaps this is the most improper to be surrendered. Such an article at once destroys the whole check which the constituents have upon their rulers. I should be less zealous upon this subject, if the power had not been often abused. The senate of Venice, the regencies of Holland, and the British Parliament have all abused it. The last have not yet perpetuated themselves ; but they have availed themselves repeatedly of popular commotions to continue in power. Even at this day we find attempts to vindicate the usurpation by which they continued themselves from three to seven years. All the attempts, and many have been made, to return to triennial elections, have proved abortive. These instances are abundantly sufficient to shew with what jealousy this right ought to be guarded. No sovereign on earth need be afraid to declare his crown elective, while the possessor has the right to regulate the time, manner, and place of election."
+    },
+    {
+      "label": "Agrippa 15, ¶ 2",
+      "pages": [],
+      "ref": "Agrippa.15.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          118,
+          119
+        ]
+      },
+      "text": "It is vain to tell us, that the proposed government guarantees to each state a republican form. Republicks are divided into democraticks, and aristocraticks. The establishment of an order of nobles, in whom should reside all the power of the state, would be an aristocratick republick. Such has been for five centuries the government of Venice, in which all the energies of government, as well as of individuals, have been cramped by a distressing jealousy that the rulers have of each other. There is nothing of that generous, manly confidence that we see in the democratick republicks of our own country. It is a government of force, attended with perpetual fear of that force. In Great Britain, since the lengthening of parliaments, all our accounts agree, that their elections are a continued scene of bribery, riot and tumult; often a scene of murder. These are the consequences of choosing seldom, and for extensive districts. When the term is short nobody will give an high price for a seat. It is an insufficient answer to these objections to say, that there is no power of government but may sometimes be applied to bad purposes. Such a power is of no value unless it is applied to a bad purpose. It ought always to remain with the people. The framers of our state constitution were so jealous of this right, that they fixed the days for election, meeting and dissolving of the legislature, and of the other officers of government. In the proposed constitution not one of these points is guarded, though more numerous and extensive powers are given them than to any state legislature upon the continent. For Congress is at present possessed of the direction of the national force, and most other national powers, and in addition to them are to be vested with all the powers of the individual states, unrestrained by any declarations of right. If these things are for the security of our constitutional liberty, I trust we shall soon see an attempt to prove that the government by an army will be more friendly to liberty than a system founded in consent, and that five states will make a majority of thirteen. The powers of controuling elections, of creating exclusive companies in trade, of internal legislation and taxations ought, upon no account, to be surrendered. I know it is a common complaint, that Congress want more power. But where is the limitted government that does not want it? Ambition is in a governour what money is to a misar [sic] — .... he can never accumulate enough. But it is as true in politicks as in morals, he that is unfaithful in little, will be unfaithful also in much. He who will not exercise the powers he has, will never properly use more extensive powers. The framing entirely new systems, is a work that requires vast attention ; and it is much easier to guard an old one. It is infinitely better to reject one that is unfriendly to liberty, and rest for a while satisfied with a system that is in some measure defective, than to set up a government unfriendly to the rights of states, and to the rights of individuals — one that is undefined in its powers and operations. Such is the government proposed by the federal convention, and such, we trust, you will have the wisdom and firmness to reject.",
+      "uncertain": [
+        {
+          "end": 911,
+          "readings": {
+            "brittle": "or",
+            "google": "or",
+            "primary": "for"
+          },
+          "start": 908
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 15, note 1",
+      "pages": [],
+      "ref": "Agrippa.15.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          117
+        ]
+      },
+      "text": "* The speech of Caleb Strong in the State Convention, Jan. l6, 1788. — EJ.",
+      "uncertain": [
+        {
+          "end": 53,
+          "readings": {
+            "google": "ConTention,",
+            "primary": "Convention,"
+          },
+          "start": 42
+        },
+        {
+          "end": 62,
+          "readings": {
+            "google": "i6,",
+            "primary": "l6,"
+          },
+          "start": 59
+        },
+        {
+          "end": 74,
+          "readings": {
+            "google": "Ed,",
+            "primary": "EJ."
+          },
+          "start": 71
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 15b, ¶ 1",
+      "pages": [
+        "108"
+      ],
+      "ref": "Agrippa.15b.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          120
+        ]
+      },
+      "text": "That the new system, proposed for your adoption, is not founded in argument, but in party spirit, is evident from the whole behaviour of that party, who favour it. The following is a short, but genuine specimen of their reasoning. The South Carolina legislature have established an unequal representation, and will not alter it: therefore Congress should be invested with an unrestrained power to alter the time, manner and place of electing members into that body. Directly the contrary position should have been inferred. An elected assembly made an improper use of their right to controul elections, therefore such a right ought not to be lodged with them. It will be abused in ten instances, for one in which it will serve any valuable purpose. It is said also that the Rhode Island assembly intend to abuse their power in this respect, therefore we should put Congress in a situation to abuse theirs. Surely this is not a kind of reasoning that, in the opinion of any indifferent person, can vindicate the fourth section. Yet we have heard it publickly advanced as being conclusive."
+    },
+    {
+      "label": "Agrippa 15b, ¶ 2",
+      "pages": [
+        "108"
+      ],
+      "ref": "Agrippa.15b.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          120,
+          121
+        ]
+      },
+      "text": "The unlimited power over trade, domestick as well as foreign, is another power that will more probably be applied to a bad than to a good purpose. That our trade was for the last year much in favour of the commonwealth is agreed by all parties. The freedom that every man, whether his capital is large or small, enjoys of entering into any branch that pleases him, rouses a spirit of industry and exertion, that is friendly to commerce. It prevents that stagnation of business which generally precedes publick commotions. Nothing ought to be done to restrain this spirit. The unlimited power over trade, however, is exceedingly apt to injure it."
+    },
+    {
+      "label": "Agrippa 15b, ¶ 3",
+      "pages": [],
+      "ref": "Agrippa.15b.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          121
+        ]
+      },
+      "text": "In most countries of Europe, trade has been more confined by exclusive charters. Exclusive companies are, in trade, pretty much like an aristocracy in government, and produce nearly as bad effects. An instance of it we have ourselves experienced. Before the Revolution, we carried on no direct trade to India. The goods imported from that country came to us through the medium of an exclusive company. Our trade in that quarter is now respectable, and we receive several kinds of their goods at about half the former price. But the evil of such companies does not terminate there. They always, by the greatness of their capital, have an undue influence on the government."
+    },
+    {
+      "label": "Agrippa 15b, ¶ 4",
+      "pages": [],
+      "ref": "Agrippa.15b.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          121
+        ]
+      },
+      "text": "In a republick, we ought to guard, as much as possible, against the predominance of any particular interest. It is the object of government to protect them all. When commerce is left to take its own course, the advantage of every class will be nearly equal. But when exclusive privileges are given to any class, it will operate to the weakening of some other class connected with them."
+    },
+    {
+      "label": "Agrippa 17, ¶ 1",
+      "pages": [],
+      "ref": "Agrippa.17.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          122
+        ]
+      },
+      "text": "As it is essentially necessary to the happiness of a free people, that the constitution of government should be established in principles of truth, I have endeavoured, in a series of papers, to discuss the proposed form with that degree of freedom which becomes a faithful citizen of the commonwealth. It must be obvious to the most careless observer that the friends of the new plan appear to have nothing more in view than to establish it by a popular current, without any regard to the truth of its principles. Propositions, novel, erroneous and dangerous, are boldly advanced to support a system, which does not appear to be founded in, but in every instance to contradict, the experience of mankind. We are told that a constitution is in itself a bill of rights ; that all power not expressly given, is reserved ; that no powers are given to the new government which are not already vested in the state governments, and that it is for the security of liberty that the persons elected should have the absolute controul over the time, manner and place of election. These, and an hundred other things of a like kind, though they have gained the hasty assent of men, respectable for learning and ability, are false in themselves and invented merely to serve a present purpose. This will, I trust, clearly appear from the following considerations :"
+    },
+    {
+      "label": "Agrippa 17, ¶ 2",
+      "pages": [
+        "112"
+      ],
+      "ref": "Agrippa.17.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          123,
+          124
+        ]
+      },
+      "text": "It is common to consider man at first as in a state of nature, separate from all society. The only historical evidence, that the human species ever actually existed in this state, is derived from the book of Gen. There it is said, that Adam remained a while alone. While the whole species was comprehended in his person was the only instance in which this supposed state of nature really existed. Ever since the completion of the first pair, mankind appear as natural to associate with their own species, as animals of any other kind herd together. Wherever we meet with their settlements, they are found in clans. We are therefore justified in saying, that a state of society is the natural state of man. Wherever we find a settlement of men, we find also some appearance of government. The state of government is therefore as natural to mankind as a state of society. Government and society appear to be coeval. The most rude and artless form of goverment is probably the most ancient. This we find to be practised among the Indian tribes in America. With them the whole authority of government is vested in the whole tribe. Individuals depend upon their reputation of valour and wisdom to give them influence. Their government is genuinely democratical. This was probably the first kind of government among mankind, as we meet with no mention of any other kind, till royalty was introduced in the person of Nimrod. Immediately after that time, the Asiatick nations seem to have departed from the simple democracy, which is still retained by their American brethren, and universally adopted the kingly form. We do indeed meet with some vague rumors of an aristocracy in India so late as the time of Alexander the Great. But such stories are altogether uncertain and improbable. For in the time of Abraham, who lived about sixteen hundred years before Alexander, all the little nations mentioned in the Mosaick history appear to be governed by kings. It does not appear from any accounts of the Asiatick kingdoms that they have practised at all upon the idea of a limited monarchy. The whole power of society has been delegated to the kings; and though they may be said to have constitutions of government, because the succession to the crown is limited by certain rules, yet the people are not benefitted by their constitutions, and enjoy no share of civil liberty. The first attempt to reduce republicanism to a system, appears to be made by Moses when he led the Israelites out of Egypt. This government stood a considerable time, about five centuries, till in a frenzy the people demanded a king, that they might resemble the nations about them. They were dissatisfied with their judges, and instead of changing the administration, they madly changed their constitution. However they might flatter themselves with the idea, that an high-spirited people could get the power back again when they pleased; they never did get it back, and they fared like the nations about them. Their kings tyrannized over them for some centuries, till they fell under a foreign yoke. This is the history of that nation. With a change of names, it describes the progress of political changes in other countries. The people are dazzled with the splendour of distant monarchies, and a desire to share their glory induces them to sacrifice their domestick happiness."
+    },
+    {
+      "label": "Agrippa 17, ¶ 3",
+      "pages": [
+        "112"
+      ],
+      "ref": "Agrippa.17.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          124,
+          125
+        ]
+      },
+      "text": "From this general view of the state of mankind it appears that all the powers of government originally reside in the body of the people; and that when they appoint certain persons to administer the government, they delegate all the powers of government not expressly reserved. Hence it appears that a constitution does not in itself imply any more than a declaration of the relation which the different parts of the government bear to each other, but does not in any degree imply security to the rights of individuals. This has been the uniform practice. In all doubtful cases the decision is in favour of the government. It is therefore impertinent to ask by what right government exercises powers not expressly delegated. Mr. Wilson, the great oracle of federalism, acknowledges, m his speech to the Philadelphians,* the truth of these remarks, as they respect the state governments, but attempts to set up a distinction between them and the continental government. To anybody who will be at the trouble to read the new system, it is evidently in the same situation as the state constitutions now possess. It is a compact among tho. people for the purposes of of government, and not a compact between states. It begins in the name of the people, and not of the states.",
+      "uncertain": [
+        {
+          "end": 783,
+          "readings": {
+            "brittle": "in",
+            "google": "in",
+            "primary": "m"
+          },
+          "start": 782
+        },
+        {
+          "end": 1134,
+          "readings": {
+            "brittle": "the",
+            "google": "\\iht",
+            "primary": "tho."
+          },
+          "start": 1130
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 17, ¶ 4",
+      "pages": [],
+      "ref": "Agrippa.17.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          125
+        ]
+      },
+      "text": "It has been shown in the course of this paper, that when people institute government, they of course delegate all rights not expressly reserved. In our state constitution the bill of rights consists of thirty articles. It is evident therefore that the new constitution proposes to delegate greater powers than are granted to our own government, sanguine as the person was who denied it. The complaints against the separate governments, even by the friends of the new plan, are not that they have not power enough, but that they are disposed to make a bad use of what power they have. Surely then they reason badly, when they purpose to set up a government possess'd of much more extensive powers than the present, and subject to much smaller checks."
+    },
+    {
+      "label": "Agrippa 17, ¶ 5",
+      "pages": [
+        "114"
+      ],
+      "ref": "Agrippa.17.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          125,
+          126
+        ]
+      },
+      "text": "Bills of rights, reserved by authority of the people, are, I believe, peculiar to America. A careful observance of the abuse practised in other countries has had its just effect by inducing our people to guard against them. We find the happiest consequences to flow from it. The separate governments know their powers, their objects, and operations. We are therefore not perpetually tormented with new experiments. F\"or a single instance of abuse among us there are thousands in other countries. On the other hand, the people know their rights, and feel happy in the possession of their freedom, both civil and political. Active industry is the consequence of their security, and within one year the circumstances of the state and of individuals have improved to a degree never before known in this commonwealth. Though our bill of rights does not, perhaps, contain all the cases in which power might be safely reserved, yet it affords a protection to the persons and possessions of individuals n it known in any foreign country. In some respects the power of government is a little too confined. In many other countries we find the people resisting their governours for exercising their power in an unaccus tomed mode. But for want of a bill of rights the resistance is always, by the principles of their government, a rebellion which nothing but success can justify. In our constitution we have aimed at delegating the necessary powers of government and confining their operation to beneficial purposes. At present we appear to have come very near the truth. Let us therefore have wisdom and virtue enough to preserve it inviolate. It is a stale contrivance, to get the people into a passion, in order to make them sacrifice their liberty. Repentance always comes, but it comes too late. Let us not flatter ourselves that we shall always have good men to govern us. If we endeavour to be like other nations we shall have more bad men than good ones to exercise extensive powers. That circumstance alone will corrupt them. While they fancy themselves the viceregents of God, they will resemble him only in power, but will always depart from his wisdom and goodness.",
+      "uncertain": [
+        {
+          "end": 999,
+          "readings": {
+            "brittle": "not",
+            "google": "not",
+            "primary": "n it"
+          },
+          "start": 995
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 17, note 1",
+      "pages": [
+        "112"
+      ],
+      "ref": "Agrippa.17.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          124
+        ]
+      },
+      "text": "* Delivered Oct. 6, 1787. Printed in Ford's Pamphlets on the Constitution, p. 155. —Ed."
+    },
+    {
+      "label": "Agrippa 18, ¶ 1",
+      "pages": [],
+      "ref": "Agrippa.18.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          127,
+          128
+        ]
+      },
+      "text": "In my last address I ascertained, from historical records, the following principles: that, in the original state of government, the whole power resides in the whole body of the nation, that when a people appoint certain persons to govern them, they delegate their whole power ; that a constitution is not in itself a bill of rights ; and that, whatever is the form of government, a bill of rights is essential to the security of the persons and property of the people. It is an idea favourable to the interest of mankind at large, that government is founded in compact. Several instances may be produced of it, but none is more remarkable than our own. In general, I have chosen to apply to such facts as are in the reach of my readers. For this purpose I have chiefly confined myself to examples drawn from the history of our own country, and to the Old Testament. It is in the power of every reader to verify examples thus substantiated. Even in the remarkable arguments on the fourth section, relative to the power over election I was far from stating the worst of it, as it respects the adverse party. A gentleman, respectable in many points, but more especially for his systematick and perspicuous reasoning in his profession, has repeatedly stated to the Convention, among his reasons in favour of that section, that the Rhode Island assembly have for a considerable time past liad a bill lying on their table for altering the manner of elections for representatives in that state.'* He has stated it with all the zeal of a person who believed his argument to be a good one. But surely a bill lying on a table can never be considered as any more than an intention to pass it, and nobody pretends that it ever actually did pass. It is in strictness only the intention of a part of the assembly, for nobody can aver that it ever will pass. I write not with an intention to deceive, but that the whole argument may be stated fairly. Much eloquence and ingenuity have been employed in shewing that side of the argument in favor of the proposed constitution, but it ought to be considered that if we accept it upon mere verbal explanations, we shall find ourselves deceived. I appeal to the knowledge of every one, if it does not frequently happen, that a law is interpreted in practice very differently from the intention of the legislature. Hence arises the necessity of acts to amend and explain former acts. This is not an inconvenience in the common and ordinary business of legislation, but is a great one in a constitution. A constitution is a legislative act of the whole people. It is an excellence that it should be permanent, otherwise we are exposed to perpetual insecurity from the fluctuation of government. We should be in the same situation as under absolute government, sometimes exposed to the pressure of greater, and sometimes unprotected by the weaker power in the sovereign."
+    },
+    {
+      "label": "Agrippa 18, ¶ 2",
+      "pages": [
+        "117"
+      ],
+      "ref": "Agrippa.18.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          128,
+          129
+        ]
+      },
+      "text": "It is now generally understood that it is for the security of the people that the powers of the government should be lodged in different branches. By this means publick business will go on when they all agree, and stop when they disagree. The advantage of checks in government is thus manifested where the concurrence of different branches is necessary to the same act, but the advantage of a division of business is advantageous in other respects. As in every extensive empire, local laws are necessary to suit the different interests, no single legislature is adequate to the businsss. All human capacities are limitted to a narrow space, and as no individval is capable of practising a great variety of trades, no single legislature is capable of managing all the variety of national and state concerns. Even if a legislature was capable of it, the business of the judicial department must, from the same cause, be slovenly done. Hence arises the necessity of a division of the business into national and local. Each department ought to have all the powers necessary for executing its own business, under such limitations as tend to secure us from any inequality in the operations of government. I know it is often asked against whom in a government by representation is a bill of rights to secure us ? I answer, that such a government is indeed a government by ourselves ; but as a just government protects all alike, it is necessary that the sober and industrious part of the community should be defended from the rapacity and violence of the vicious and idle. A bill of rights, therefore, ought to set forth the purposes for which the compact is made, and serves to secure the minority against the usurpation and tyranny of the majority. It is a just observation of his excellency, doctor Adams, in his learned defence of the American constitutions that unbridled passions produce the same effect, whether in a king, nobility, or a mob. The experience of all mankind has proved the prevalence of a disposition to use power wantonly. It is therefore as necessary to defend an individual against the majority in a republick as against the king in a monarchy. Our state constitution has wisely guarded this point. The present confederation has also done it."
+    },
+    {
+      "label": "Agrippa 18, ¶ 3",
+      "pages": [
+        "117",
+        "8"
+      ],
+      "ref": "Agrippa.18.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          129,
+          130
+        ]
+      },
+      "text": "I confess that I have yet seen no sufficient reason for not amending the confederation, though I have weighed the argument with candour; I think it would be much easier to amend it than the new constitution. But this is a point on which men of very respectable character differ. There is another point in which nearly all agree, and that is, that the new constitution would be better in many respects if it had been differently framed. Here the question is not so much what the amendments ought to be, as in what manner they shall be made; whether they shall be made as conditions of our accepting the constitution, or whether we shall first accept it, and then try to amend it. I can hardly conceive that it should seriously be made a question. If the first question, whether we will receive it as it stands, be negatived, as it undoubtedly ought to be, while the conviction remains that amendments are necessary ; the next question will be, what amendments shall be made? Here permit an individual, who glories in being a citizen of Massachusetts, and who is anxious that her character may remain undiminished, to propose such articles as appear to him necessary for preserving the rights of the state. He means not to retract anything with regard to the expediency of amending the old confederation, and rejecting the new one totally ; but only to make a proposition which he thinks comprehends the general idea of all parties. If the new constitution means no more than the friends of it acknowledge, they certainly can have no objection to affixing a declaration in favor of the rights of states and of citizens, especially as a majority of the states have not yet voted upon it."
+    },
+    {
+      "label": "Agrippa 18, ¶ 4",
+      "pages": [
+        "8"
+      ],
+      "ref": "Agrippa.18.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          130
+        ]
+      },
+      "text": "\" Resolved, that the constitution lately proposed for the United States be received only upon the following conditions :"
+    },
+    {
+      "label": "Agrippa 18, ¶ 5",
+      "pages": [
+        "8"
+      ],
+      "ref": "Agrippa.18.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          130
+        ]
+      },
+      "text": "\" I. Congress shall have no power to alter the time, place or manner of elections, nor any authority over elections, otherwise than by fining such state as shall neglect to send its representatives or senators, a sum not exceeding the expense of supporting its representatives or senators one year,"
+    },
+    {
+      "label": "Agrippa 18, ¶ 6",
+      "pages": [
+        "8"
+      ],
+      "ref": "Agrippa.18.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          130
+        ]
+      },
+      "text": "\" 2. Congress shall not have the power of regulating the intercourse between the states, nor to levy any direct tax on polls or estates, or any excise."
+    },
+    {
+      "label": "Agrippa 18, ¶ 7",
+      "pages": [
+        "8"
+      ],
+      "ref": "Agrippa.18.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          130
+        ]
+      },
+      "text": "\" 3. Congress shall not have power to try causes between a state and citizens of another state, nor between citizens of different states; nor to make any laws relative to the transfer of property between those parties, nor any other matter which shall originate in the body of any state."
+    },
+    {
+      "label": "Agrippa 18, ¶ 8",
+      "pages": [
+        "8"
+      ],
+      "ref": "Agrippa.18.8",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          130
+        ]
+      },
+      "text": "\" 4. It shall be left to every state to make and execute its own laws, except laws impairing contracts, which shall not be made at all."
+    },
+    {
+      "label": "Agrippa 18, ¶ 9",
+      "pages": [
+        "8"
+      ],
+      "ref": "Agrippa.18.9",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          130
+        ]
+      },
+      "text": "\" 5. Congress shall not incorporate any trading companies, nor alienate the territory of any state. And no treaty, ordinance or law of the United States shall be valid for these purposes."
+    },
+    {
+      "label": "Agrippa 18, ¶ 10",
+      "pages": [
+        "8"
+      ],
+      "ref": "Agrippa.18.10",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          130
+        ]
+      },
+      "text": "\"6. Each state shall have the command of its own militia."
+    },
+    {
+      "label": "Agrippa 18, ¶ 11",
+      "pages": [
+        "8",
+        "1"
+      ],
+      "ref": "Agrippa.18.11",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          130,
+          131
+        ]
+      },
+      "text": "\"7. No continental army shall come within the limits of any state, other than garrison to guard the publick stores, without the consent of such states in time of peace.",
+      "uncertain": [
+        {
+          "end": 3,
+          "readings": {
+            "brittle": "\"J.",
+            "google": "7.",
+            "primary": "\"7."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 18, ¶ 12",
+      "pages": [
+        "1"
+      ],
+      "ref": "Agrippa.18.12",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          131
+        ]
+      },
+      "text": "\"8. The president shall be chosen annually and shall serve but one year, and shall be chosen successively from the different states, changing every year."
+    },
+    {
+      "label": "Agrippa 18, ¶ 13",
+      "pages": [
+        "1"
+      ],
+      "ref": "Agrippa.18.13",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          131
+        ]
+      },
+      "text": "\" g. The judicial department shall be confined to cases in which ambassadours are concerned, to cases depending upon treaties, to offences committed upon the high seas, to the capture of prizes, and to cases in which a foreigner residing in some foreign country shall be a party, and an American state or citizen shall be the other party, provided no suit shall be brought upon a state note."
+    },
+    {
+      "label": "Agrippa 18, ¶ 14",
+      "pages": [
+        "1"
+      ],
+      "ref": "Agrippa.18.14",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          131
+        ]
+      },
+      "text": "\" lo. Every state may emit bills of credit without making them a tender, and may coin money, of silver, gold or copper, according to the continental standard.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "brittle": "10.",
+            "google": "10.",
+            "primary": "lo."
+          },
+          "start": 2
+        }
+      ]
+    },
+    {
+      "label": "Agrippa 18, ¶ 15",
+      "pages": [
+        "1"
+      ],
+      "ref": "Agrippa.18.15",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          131
+        ]
+      },
+      "text": "\"II. No powers shall be exercised by Congress or the president but such as are expressly given by this constitution and not excepted against by this declaration. And any officer of the United States offending against an individual state shall be held accountable to such state, as any other citizen would be."
+    },
+    {
+      "label": "Agrippa 18, ¶ 16",
+      "pages": [
+        "1"
+      ],
+      "ref": "Agrippa.18.16",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          131
+        ]
+      },
+      "text": "\" 12. No officer of Congress shall be free from arrest for debt [but] by authority of the state in which the debt shall be due."
+    },
+    {
+      "label": "Agrippa 18, ¶ 17",
+      "pages": [
+        "1"
+      ],
+      "ref": "Agrippa.18.17",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          131
+        ]
+      },
+      "text": "\" 13. Nothing in this constitution shall deprive a citizen of any state of the benefit of the bill of rights established by the constitution of the state in which he shall reside, and such bill of rights shall be considered as valid in any court of the United States where they shall be pleaded."
+    },
+    {
+      "label": "Agrippa 18, ¶ 18",
+      "pages": [
+        "1"
+      ],
+      "ref": "Agrippa.18.18",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          131
+        ]
+      },
+      "text": "\" 14. In all those causes which are triable before the continental courts, the trial by jury shall be held sacred.\""
+    },
+    {
+      "label": "Agrippa 18, ¶ 19",
+      "pages": [
+        "1",
+        "120"
+      ],
+      "ref": "Agrippa.18.19",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          131,
+          132
+        ]
+      },
+      "text": "These at present appear to me the most important points to be guarded. I have mentioned a reservation of excise to the separate states, because it is necessary, that they should have some way to discharge their own debts, and because it is placing them in an humiliating & disgraceful situation to depute them to transact the business of international government without the means to carry it on. It is necessary also, as a check on the national government, for it has hardly been known that any government having the powers of war, peace, and revenue, has failed to engage in needless and wanton expense. A reservation of this kind is therefore necessary to preserve the importance of the state governments: without this the extremes of the empire will in a very short time sink into the same degradation and contempt with respect to the middle state as Ireland, Scotland, & Wales, are in with regard to England. All the men of genius and wealth will resort to the seat of government, that will be center of revenue, and of business, which the extremes will be drained to supply."
+    },
+    {
+      "label": "Agrippa 18, ¶ 20",
+      "pages": [
+        "120"
+      ],
+      "ref": "Agrippa.18.20",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          132
+        ]
+      },
+      "text": "This is not mere vision, it is justified by the whole course of things. We shall, therefore, if we neglect the present opportunity to secure ourselves, only increase the number of proofs already too many, that mankind are incapable of enjoying their liberty. I have been the more particular in stating the amendments to be made, because many gentlemen think it would be preferable to receive the new system with corrections. I have by this means brought the corrections into one view, and shown several of the principal points in which it is unguarded. As it is agreed, at least professedly, on all sides, that those rights should be guarded, it is among the inferior questions in what manner it is done, provided it is absolutely and effectually done. For my own part, I am fully of opinion that it would be best to reject this plan, and pass an explicit resolve, defining the powers of Congress to regulate the intercourse between us and foreign nations, under such restrictions as shall render their regulations equal in all parts of the empire. The impost, if well collected, would be fully equal to the interest of the foreign debt, and the current charges of the national government. It is evidently for our interest that the charges should be as small as possible. It is also for our interest that the western lands should, as fast as possible, be applied to the purpose of paying the home debt. Internal taxation and that fund have already paid two- thirds of the whole debt, notwithstanding the embarrassments usual at the end of a war."
+    },
+    {
+      "label": "Agrippa 18, ¶ 21",
+      "pages": [
+        "120",
+        "121"
+      ],
+      "ref": "Agrippa.18.21",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          132,
+          133
+        ]
+      },
+      "text": "We are now rising fast above our difficulties ; everything at home has the appearance of improvement, government is well established, manufactures increasing rapidly, and trade expanding. Till since the peace we never sent a ship to India, and the present year, it is said, sends above a dozen vessels from this state only, to the countries round the Indian ocean. Vast quantities of our produce are exported to those countries. It has been so much the practice of European nations to farm out this branch of trade, that we ought to be exceedingly jealous of our right. The manufactures of the state probably exceed in value one million pounds for the last year. Most of the useful and some ornamental fabricks are established. There is great danger of these improvements being injured unless we practice extreme caution at setting out. It will always be for the interest of the southern states to raise a revenue from the more commercial ones. It is said that the consumer pays it. But does not a commercial state consume more foreign goods than a landed one ? The people are more crowded, and of consequence the land is less able to support them. We know it is to be a favourite system to raise the money where it is. But the money is to be expended at another place, and is therefore so much withdrawn annually from our stock. This is a single instance of the difference of interest ; it would be very easy to produce others. Innumerable as the differences of manners, and these produce differences in the laws. Uniformity in legislation is of no more importance than in religion. Yet the framers of this new constitution did not even think it necessary that the president should believe that there is a God, although they require an oath of him. It would be easy to shew the propriety of a general declaration upon that subject. But this paper is already extended to so far [sic]."
+    },
+    {
+      "label": "Agrippa 18, ¶ 22",
+      "pages": [
+        "121",
+        "122"
+      ],
+      "ref": "Agrippa.18.22",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          133,
+          134
+        ]
+      },
+      "text": "Another reason which I had in stating the amendments to be made, was to shew how nearly those who are for admitting the system with the necessary alterations, agree with those who are for rejecting this system and amending the confederation. In point of convenience, the confederation amended would be infinitely preferable to the proposed constitution. In amending the former, we know the powers granted, and are subject to no perplexity; but in reforming the latter, the business is excessively intricate, and great part of the checks on Congress are lost. It is to be remembered too, that if you are so far charmed with eloquence, and misled by fair representations and charitable constructions, as to adopt an undefined system, there will be no saying afterwards that you were mistaken, and wish to correct it. // will then be the constitution of our country, and entitled to defence. If Congress should chuse to avail themselves of a popular commotion to continue in being, as the fourth section justifies, and as the British parliament has repeatedly done, the only answer will be, that it is the constitution of our country, and the people chose it. It is therefore necessary to be exceedingly critical. Whatsoever way shall be chosen to secure our rights, the same resolve ought to contain the whole system of amendment. If it is rejected, the resolve should contain theamendations of the old system; and if accepted, it should contain the corrections of the new one. Agrippa."
+    },
+    {
+      "label": "Agrippa 18, ¶ 23",
+      "pages": [
+        "122"
+      ],
+      "ref": "Agrippa.18.23",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          134
+        ]
+      },
+      "text": "A writer in the Gazette of 2gth January under the signature of Captain M^ Daniel, having with civility and apparent candour, called for an explanation of what was said in one of my former papers, I have chosen to mention him with respect, as the only one of my reviewers who deserves an answer.",
+      "uncertain": [
+        {
+          "end": 31,
+          "readings": {
+            "brittle": "29th",
+            "google": "sgth",
+            "primary": "2gth"
+          },
+          "start": 27
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Agrippa 18, note 1",
+      "pages": [],
+      "ref": "Agrippa.18.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          128
+        ]
+      },
+      "text": "* No record of this is given in the Debates in the Massachusetts Convention. — Ed."
+    }
+  ],
+  "short": "Agrippa",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "The Letters of Agrippa"
+}

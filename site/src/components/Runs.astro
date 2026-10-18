@@ -1,0 +1,12 @@
+---
+import { uncertainTitle } from "../lib/data.js";
+
+// A line of runs from site data: plain text, italics, and words the scans
+// could not settle (dotted underline; the readings are in the title and in
+// the passage panel).
+const { runs = [] } = Astro.props;
+---
+{runs.map((r) => {
+  const body = r.em ? <em>{r.t}</em> : r.t;
+  return r.unc ? <span class="unc" title={uncertainTitle(r.unc)}>{body}</span> : body;
+})}

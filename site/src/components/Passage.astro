@@ -1,5 +1,5 @@
 ---
-import { localUrl } from "../lib/data.js";
+import { localUrl, safeUrl, uncertainTitle } from "../lib/data.js";
 
 // One passage. Its element id is its ref, so /page/#Ref links to it.
 const { block } = Astro.props;
@@ -22,7 +22,8 @@ const numeral = (label) => label.split(" ").at(-1);
           <Fragment>
             {i > 0 && <br />}
             {runs.map((r, k) => {
-              const body = r.em ? <em>{r.t}</em> : r.t;
+              const text = r.em ? <em>{r.t}</em> : r.t;
+              const body = r.unc ? <span class="unc" title={uncertainTitle(r.unc)}>{text}</span> : text;
               if (r.chg === undefined) return body;
               const c = block.changed[r.chg];
               const lastOfSpan = !runs.slice(k + 1).some((x) => x.chg === r.chg);
@@ -48,6 +49,19 @@ const numeral = (label) => label.split(" ").at(-1);
       {block.changed.map((c, i) => (
         <Fragment>{i > 0 && (i === block.changed.length - 1 ? " and " : ", ")}{localUrl(c.url) ? <a href={localUrl(c.url)}>{c.label}</a> : c.label}</Fragment>
       ))}.
+    </template>
+  )}
+  {block.scan && (
+    <template class="src-data" data-pagefind-ignore>
+      <p>
+        Read from OCR scans of the printed page{block.scan.pages.length ? ` (p. ${block.scan.pages.join("–")})` : ""}.{" "}
+        {safeUrl(block.scan.url) && <a href={safeUrl(block.scan.url)} rel="noopener" target="_blank">View the page image</a>}
+      </p>
+      {block.uncertain > 0 && (
+        <ul class="unc-list">
+          {block.paras.flat(2).filter((r) => r.unc).map((r) => <li><span class="unc">{r.t}</span> {uncertainTitle(r.unc).replace("Uncertain reading. ", "")}</li>)}
+        </ul>
+      )}
     </template>
   )}
   {conns.length > 0 && (

@@ -1,0 +1,222 @@
+{
+  "attribution": {
+    "byline": "Written by Charles Pinckney",
+    "kind": "single",
+    "names": [
+      "Charles Pinckney"
+    ],
+    "source": "Ford, Essays on the Constitution (1892), title page of the section"
+  },
+  "date": "1788-05-05",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Written by Charles Pinckney",
+        "kind": "single",
+        "names": [
+          "Charles Pinckney"
+        ],
+        "source": "Ford, Essays on the Constitution (1892), title page of the section"
+      },
+      "label": "A Steady and Open Republican",
+      "level": 1,
+      "publication": [
+        "THE STATE GAZETTE OF SOUTH CAROLINA.",
+        "(Number 3G10)",
+        "Monday, May 5, 1788.",
+        "Mrs. Timothy :"
+      ],
+      "ref": "SteadyAndOpenRepublican",
+      "signature": "A STEADY AND OPEN REPUBLICAN. Charleston, May 2 J, lySS.",
+      "uncertain": {
+        "publication.1": [
+          {
+            "end": 13,
+            "readings": {
+              "brittle": "3610)",
+              "google": "3610)",
+              "primary": "3G10)"
+            },
+            "start": 8
+          }
+        ],
+        "signature": [
+          {
+            "end": 47,
+            "readings": {
+              "brittle": "2d,",
+              "primary": "2"
+            },
+            "start": 46
+          },
+          {
+            "end": 56,
+            "readings": {
+              "primary": "lySS."
+            },
+            "start": 51
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 407–414. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "steady-and-open-republican",
+  "position": "federalist",
+  "ref_prefix": "SteadyAndOpenRepublican",
+  "segments": [
+    {
+      "label": "A Steady and Open Republican, ¶ 1",
+      "pages": [],
+      "ref": "SteadyAndOpenRepublican.1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          423
+        ]
+      },
+      "text": "The enclosed,* copied from a paper sent me by a friend, seems so peculiarly adapted to our present situation, that I cannot forbear selecting it from the crowd of publications since the appearance of the proposed Federal Constitution, and recommending it, thro' your paper, to the most serious attention of all our fellowcitizens ; but previously a few HINTS, by way of introduction, will not, I hope, be impertinent."
+    },
+    {
+      "label": "A Steady and Open Republican, ¶ 2",
+      "pages": [],
+      "ref": "SteadyAndOpenRepublican.2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          423
+        ]
+      },
+      "text": "New Hampshire and Georgia are the two extreme barriers of the United States, if the latter can with any propriety be called a barrier without this state in conjunction ; and both together, we know, are not, in point of force, ready for any sudden emergency, to be compared to New Hampshire."
+    },
+    {
+      "label": "A Steady and Open Republican, ¶ 3",
+      "pages": [
+        "412"
+      ],
+      "ref": "SteadyAndOpenRepublican.3",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          423,
+          424
+        ]
+      },
+      "text": "It cannot be doubted that Great Britain has her busy emissaries throughout the states, and not a few amongst us; and should the Constitution be rejected, how long can we flatter ourselves to be free from Indian cruelties and depredations, some time since begun in Georgia, and if at this moment warded off from us, 'tis principally owing to the dread of an efficacious union of the states by the adoption of the Federal Constitution, The three southern states particularly, we have had for several years past, good grounds to think Great Britain wishes to separate from the rest, and to have reverted to her if possible."
+    },
+    {
+      "label": "A Steady and Open Republican, ¶ 4",
+      "pages": [
+        "412"
+      ],
+      "ref": "SteadyAndOpenRepublican.4",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          424
+        ]
+      },
+      "text": "Mr. Martin's* long mischievous detail of the opinions and proceedings of the late general convention, (already occupying a large space in six of your Gazettes, and still unfinished,) with all his colourings and uncandid insinuations, in regard to General Washington and Doct. Franklin, may suit the short-sighted selfish wishes of an individual of a state situated almost in the centre of the rest, and much safer by that means from sudden alarms. But the generous, manly and truly federal sentiments of Maryland are well known, and 'tis not doubted will be unequivocally shewn at her convention very shortly to be held — and that New Hampshire, early in her first meeting on that important subject, has only by consent taken farther time to consider of it, and will at her next meeting adopt it, is the general opinion."
+    },
+    {
+      "label": "A Steady and Open Republican, ¶ 5",
+      "pages": [
+        "412"
+      ],
+      "ref": "SteadyAndOpenRepublican.5",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          424
+        ]
+      },
+      "text": "What pity the salutary caution of Doct. Franklin, just previous to his signing the constitution recommended by the convention, had not been strictly attended to! If we split, it will in all probability happen in running headlong on the dangerous rock he so prophetically (as it were) warned us from, \" That the opinions of the errors of the constitution born within the walls of the convention, should die there, and not a syllable be whispered abroad.\" This Hint is full of that foresight and penetration the Doctor has always been remarkable for."
+    },
+    {
+      "label": "A Steady and Open Republican, ¶ 6",
+      "pages": [
+        "412"
+      ],
+      "ref": "SteadyAndOpenRepublican.6",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          424
+        ]
+      },
+      "text": "When the general convention met, no citizen of the United States could expect less from it than I did, so many jarring interests and prejudices to reconcile ! The variety of pressing dangers at our doors, even during the war, were barely sufficient to force us to act in concert, and necessarily give way at times to each other. But when the great work was done and published, I was not only most agreeably disappointed, but struck with amazement. Nothing less than that superintending hand of Providence, that so miraculously carried us through the war (in my humble opinion), could have brought it about so complete, upon the whole."
+    },
+    {
+      "label": "A Steady and Open Republican, ¶ 7",
+      "pages": [
+        "41"
+      ],
+      "ref": "SteadyAndOpenRepublican.7",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          425
+        ]
+      },
+      "text": "The constitution recommended, in all respects, takes its rise where it ought, from the people; its President, Senate, and House of Representatives, are sufficient and wholesome checks on each other, and at proper periods are dissolved again into the common mass of the people : longer periods would probably have produced danger; shorter, tumult, instability and inefficacy. Every article of these and other essentials to a republican government, are, in my opinion, well secured; were it otherwise, not a citizen of the United States would have been more alarmed, or more early in opposition to it, than"
+    },
+    {
+      "kind": "footnote",
+      "label": "A Steady and Open Republican, note 1",
+      "pages": [],
+      "ref": "SteadyAndOpenRepublican.fn1",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          423
+        ]
+      },
+      "text": "* Following this article was an essay from a f^ew York paper. — Ed, (411)",
+      "uncertain": [
+        {
+          "end": 73,
+          "readings": {
+            "brittle": "412",
+            "google": "(411)",
+            "primary": "(411)"
+          },
+          "start": 68
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "A Steady and Open Republican, note 2",
+      "pages": [
+        "412"
+      ],
+      "ref": "SteadyAndOpenRepublican.fn2",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          424
+        ]
+      },
+      "text": "* See page 339. — Ed,",
+      "uncertain": [
+        {
+          "end": 15,
+          "readings": {
+            "primary": "339."
+          },
+          "start": 11
+        }
+      ]
+    }
+  ],
+  "short": "A Steady and Open Republican",
+  "source_ids": [
+    "ia-ford-essays-1892-toronto-xml",
+    "ia-ford-essays-1892-brittle-txt",
+    "ia-ford-essays-1892-google-txt"
+  ],
+  "title": "A Steady and Open Republican"
+}
