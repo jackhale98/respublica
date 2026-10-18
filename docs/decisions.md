@@ -298,3 +298,33 @@ transcription.
 - Brutus is not imported: no public-domain printing was found.
 - URLs: `/ratification/` lists the works; a series has one page per essay
   (`/cato/3/`), a single piece one page (`/caution/`).
+
+## 28. Graph view drawn with d3, and a clearer connection badge
+
+At the project owner's request (the graph "should be much more attractive",
+and a library may be used), the graph view now uses d3 modules in place of
+the hand-placed radial layout of decision 26 (which replaced decision 19's
+"no library"):
+
+- `d3-force` lays the graph out: the selected passage is fixed at the
+  center, direct connections are pulled toward an inner ring and passages two
+  steps away toward an outer one, with link, repulsion and collision forces
+  so labels don't overlap. `d3-zoom` and `d3-drag` add pan, zoom (buttons,
+  wheel, pinch) and dragging passages; double-click re-centers.
+- Passages are drawn as label chips with a dot in their work's color; the
+  center is larger, tinted and outlined in its color. Links are gentle arcs
+  with arrowheads at the passage cited or quoted; quotations are thicker and
+  tinted; suggested links are dashed. Hovering or selecting a passage lights
+  its links (with their type) and fades the rest.
+- The modules are npm packages pinned to exact versions
+  (`d3-force` 3.0.0, `d3-selection` 3.0.0, `d3-zoom` 3.0.0, `d3-drag` 3.0.0,
+  `d3-transition` 3.0.1) and bundled into the graph script, which loads only
+  when a reader opens the graph (72 KB, outside the per-page JavaScript
+  budget, which counts scripts loaded up front). Nothing loads from another
+  site; the CSP is unchanged.
+- With reduced motion, the layout is computed before it is shown and
+  nothing animates.
+
+The connection count beside a passage is now a pill with a link icon at the
+top right of its text, instead of a bare number under the paragraph number,
+which read as a second paragraph number.

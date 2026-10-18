@@ -97,14 +97,18 @@
   min-width: 1.5rem; text-align: right;
 }
 .passage .num:hover { color: var(--brand); }
+/* Connection count: a link-icon pill at the top right of the text (the text
+   wraps around it), so it never reads as a second paragraph number. */
 .passage .ccount {
-  grid-column: 1; grid-row: 1; align-self: start; justify-self: end;
-  margin-top: calc(var(--read-size) * 1.6);
-  display: inline-flex; align-items: center; justify-content: center;
-  min-width: 1.35rem; height: 1.35rem; padding: 0 .3rem; border-radius: 999px;
+  float: right;
+  margin: calc(var(--read-size) * .3) 0 .25rem .75rem;
+  display: inline-flex; align-items: center; gap: .25rem;
+  height: 1.45rem; padding: 0 .5rem 0 .42rem; border-radius: 999px;
   background: var(--brand-soft); color: var(--brand-strong);
-  font: 600 .68rem/1 var(--font-sans);
+  font: 600 .72rem/1 var(--font-sans); font-variant-numeric: tabular-nums;
+  user-select: none;
 }
+.passage .ccount svg { width: 12px; height: 12px; }
 .ptext {
   grid-column: 2;
   font: 400 var(--read-size)/1.72 var(--font-serif);

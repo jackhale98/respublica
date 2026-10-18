@@ -1,4 +1,5 @@
 ---
+import Icon from "./Icon.astro";
 import { localUrl, safeUrl, uncertainTitle } from "../lib/data.js";
 
 // One passage. Its element id is its ref, so /page/#Ref links to it.
@@ -14,8 +15,12 @@ const numeral = (label) => label.split(" ").at(-1);
   data-label={block.label}
 >
   <a class="num" href={`#${block.ref}`} aria-label={`${block.label} (${block.ref})`} data-pagefind-ignore>{block.gutter || "·"}</a>
-  {conns.length > 0 && <span class="ccount" aria-hidden="true" data-pagefind-ignore title={`${conns.length} connections`}>{conns.length}</span>}
   <div class="ptext">
+    {conns.length > 0 && (
+      <span class="ccount" aria-hidden="true" data-pagefind-ignore title={`${conns.length} connection${conns.length === 1 ? "" : "s"}`}>
+        <Icon name="link" />{conns.length}
+      </span>
+    )}
     {block.paras.map((lines) => (
       <p>
         {lines.map((runs, i) => (

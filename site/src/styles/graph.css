@@ -28,11 +28,21 @@
 
 .graph-body { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) 19rem; }
 @media (max-width: 47.99rem) { .graph-body { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) auto; } }
-.graph-canvas { min-height: 0; display: flex; align-items: center; justify-content: center; padding: .5rem; }
-.graph-canvas svg { width: 100%; height: 100%; max-height: 100%; overflow: visible; }
+.graph-canvas { position: relative; min-height: 0; overflow: hidden; background: var(--bg-subtle); }
+.graph-canvas svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+.graph-canvas svg:active { cursor: grabbing; }
+.graph-zoom {
+  position: absolute; right: .75rem; bottom: .75rem; display: flex; flex-direction: column; gap: .3rem;
+}
+.graph-zoom .icon-btn {
+  width: 2.1rem; height: 2.1rem; border: 1px solid var(--border); border-radius: 10px;
+  background: var(--bg-raised); color: var(--text); box-shadow: var(--shadow); font: 600 1rem/1 var(--font-sans);
+}
+.graph-zoom .icon-btn.fit { font-size: .68rem; }
+.graph-zoom .icon-btn:hover { border-color: var(--border-strong); }
 
 .graph-info { border-left: 1px solid var(--border); padding: 1rem 1.25rem; overflow-y: auto; font-size: .88rem; }
-@media (max-width: 47.99rem) { .graph-info { border-left: 0; border-top: 1px solid var(--border); max-height: 38dvh; } }
+@media (max-width: 47.99rem) { .graph-info { border-left: 0; border-top: 1px solid var(--border); max-height: 32dvh; } .gi-tip { display: none; } }
 .graph-info h3 { font: 650 1.05rem/1.3 var(--font-serif); margin: .4rem 0 .2rem; }
 .gi-work { display: inline-flex; align-items: center; gap: .35rem; font: 600 .72rem/1 var(--font-sans); letter-spacing: .06em; text-transform: uppercase; color: var(--text-faint); }
 .gi-work::before { content: ""; width: .6rem; height: .6rem; border-radius: 50%; background: var(--work-other); }
@@ -40,7 +50,12 @@
 .gi-work.w-amendments::before { background: var(--work-amendments); }
 .gi-work.w-federalist::before { background: var(--work-federalist); }
 .gi-ref { margin: 0; font: 500 .75rem/1.4 var(--font-mono); color: var(--text-faint); }
-.gi-links { list-style: none; margin: .8rem 0; padding: 0; display: grid; gap: .3rem; color: var(--text-muted); }
+.gi-links { list-style: none; margin: .8rem 0; padding: 0; display: grid; gap: .35rem; color: var(--text-muted); }
+.gi-links li { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem; }
+.gi-verb { color: var(--text-faint); }
+.gi-node { border: 0; background: none; padding: 0; font: 600 .88rem/1.3 var(--font-sans); color: var(--link); cursor: pointer; text-align: left; }
+.gi-node:hover { text-decoration: underline; }
+.gi-tip { color: var(--text-faint); font-size: .76rem; margin: .5rem 0 0; }
 .gi-links .badge { margin-left: .4rem; }
 .gi-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin: .5rem 0; }
 .gi-actions .btn { padding: .55rem .9rem; font-size: .85rem; }
@@ -53,26 +68,59 @@
 .graph-legend .w-amendments i { background: var(--work-amendments); }
 .graph-legend .w-federalist i { background: var(--work-federalist); }
 .graph-legend .dashed i { width: 1.4rem; height: 0; border-radius: 0; background: none; border-top: 2px dashed var(--text-faint); }
+.graph-legend .e-quotes i { width: 1.4rem; height: 3px; border-radius: 2px; background: color-mix(in srgb, var(--brand) 55%, var(--border-strong)); }
+.graph-legend .e-cites i { width: 1.4rem; height: 1.5px; border-radius: 1px; background: var(--border-strong); }
 
 /* SVG */
-.graph-canvas .ring { fill: none; stroke: var(--border); stroke-width: 1; }
-.graph-canvas .edge { stroke: var(--border-strong); stroke-width: 1.4; opacity: .55; }
-.graph-canvas .edge.t-quotes { stroke-width: 2.2; }
-.graph-canvas .edge.s-suggested { stroke-dasharray: 5 4; }
-.graph-canvas .edge.lit { stroke: var(--text); opacity: 1; }
-.graph-canvas .arrow { fill: var(--border-strong); }
-.graph-canvas .node { cursor: pointer; outline: none; }
-.graph-canvas .node circle { fill: var(--work-other); stroke: var(--bg-raised); stroke-width: 2.5; transition: r .15s ease; }
-.graph-canvas .node.w-constitution circle { fill: var(--work-constitution); }
-.graph-canvas .node.w-amendments circle { fill: var(--work-amendments); }
-.graph-canvas .node.w-federalist circle { fill: var(--work-federalist); }
-.graph-canvas .node.center circle { stroke: var(--brand-soft); stroke-width: 6; }
-.graph-canvas .node.selected circle, .graph-canvas .node:focus-visible circle { stroke: var(--text); stroke-width: 3; }
-.graph-canvas .node:hover circle { stroke: var(--text-muted); }
-.graph-canvas .label { font: 500 13px/1 var(--font-sans); fill: var(--text-muted); paint-order: stroke; stroke: var(--bg-raised); stroke-width: 4px; stroke-linejoin: round; pointer-events: none; }
-.graph-canvas .hop2-label { font-size: 11px; fill: var(--text-faint); }
-.graph-canvas .center-label { font: 650 16px/1 var(--font-serif); fill: var(--text); }
-.graph-canvas .node.selected .label { fill: var(--text); font-weight: 650; }
+.graph-canvas .dot { fill: var(--border-strong); opacity: .35; }
+.graph-canvas .ring { fill: none; stroke: var(--border-strong); stroke-width: 1; stroke-dasharray: 2 6; opacity: .5; }
+.graph-canvas .glow-in { stop-color: var(--brand); stop-opacity: .18; }
+.graph-canvas .glow-out { stop-color: var(--brand); stop-opacity: 0; }
+.graph-canvas .shadow { flood-color: #12131f; flood-opacity: .12; }
+:root[data-theme="dark"] .graph-canvas .shadow { flood-opacity: .5; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .graph-canvas .shadow { flood-opacity: .5; } }
+
+.graph-canvas .edge { fill: none; stroke: var(--border-strong); stroke-width: 1.4; opacity: .7; transition: opacity .2s ease, stroke .2s ease; }
+.graph-canvas .edge.t-quotes { stroke: color-mix(in srgb, var(--brand) 55%, var(--border-strong)); stroke-width: 2.4; }
+.graph-canvas .edge.s-suggested { stroke-dasharray: 6 5; }
+.graph-canvas .edge.lit { stroke: var(--brand); opacity: 1; stroke-width: 2; }
+.graph-canvas .edge.t-quotes.lit { stroke-width: 3; }
+.graph-canvas .edge.dim { opacity: .12; }
+.graph-canvas .arrow-base { fill: var(--border-strong); }
+.graph-canvas .arrow-quotes { fill: color-mix(in srgb, var(--brand) 55%, var(--border-strong)); }
+.graph-canvas .arrow-lit { fill: var(--brand); }
+.graph-canvas .edge-label {
+  font: 600 10.5px/1 var(--font-sans); letter-spacing: .02em; fill: var(--brand-strong);
+  paint-order: stroke; stroke: var(--bg-subtle); stroke-width: 5px; stroke-linejoin: round;
+  opacity: 0; transition: opacity .2s ease; pointer-events: none;
+}
+.graph-canvas .edge-label.show { opacity: 1; }
+
+.graph-canvas .node { cursor: pointer; outline: none; transition: opacity .2s ease; }
+.graph-canvas .node.dragging { cursor: grabbing; }
+.graph-canvas .node .chip { fill: var(--bg-raised); stroke: var(--border); stroke-width: 1.2; transition: stroke .15s ease, fill .15s ease; }
+.graph-canvas .node .chip-dot { fill: var(--work-other); }
+.graph-canvas .node.w-constitution .chip-dot { fill: var(--work-constitution); }
+.graph-canvas .node.w-amendments .chip-dot { fill: var(--work-amendments); }
+.graph-canvas .node.w-federalist .chip-dot { fill: var(--work-federalist); }
+.graph-canvas .node .chip-text { font: 550 13px/1 var(--font-sans); fill: var(--text); pointer-events: none; }
+.graph-canvas .node.hop2 .chip { fill: color-mix(in srgb, var(--bg-raised) 85%, var(--bg-subtle)); }
+.graph-canvas .node.hop2 .chip-text { font-size: 11.5px; fill: var(--text-muted); font-weight: 500; }
+/* The center passage: a larger chip tinted and outlined in its work's color
+   (text stays in the text color for contrast in both themes). */
+.graph-canvas .node.center { --wc: var(--work-other); }
+.graph-canvas .node.center.w-constitution { --wc: var(--work-constitution); }
+.graph-canvas .node.center.w-amendments { --wc: var(--work-amendments); }
+.graph-canvas .node.center.w-federalist { --wc: var(--work-federalist); }
+.graph-canvas .node.center .chip { fill: color-mix(in srgb, var(--wc) 14%, var(--bg-raised)); stroke: var(--wc); stroke-width: 2.25; }
+.graph-canvas .node.center .chip-text { font: 650 15px/1 var(--font-serif); fill: var(--text); }
+.graph-canvas .node:hover .chip { stroke: var(--border-strong); }
+.graph-canvas .node.selected:not(.center) .chip { stroke: var(--brand); stroke-width: 2; }
+.graph-canvas .node.selected:not(.center) .chip-text { fill: var(--text); font-weight: 650; }
+.graph-canvas .node.center:focus-visible .chip { stroke: var(--focus); stroke-width: 3; }
+.graph-canvas .node:focus-visible .chip { stroke: var(--focus); stroke-width: 2.5; }
+.graph-canvas .node.dim { opacity: .28; }
+@media (prefers-reduced-motion: reduce) { .graph-canvas .edge, .graph-canvas .node, .graph-canvas .edge-label { transition: none; } }
 
 /* Panel button */
 .conn-head { display: flex; align-items: center; justify-content: space-between; gap: .5rem; margin: 1.4rem 0 .7rem; }

@@ -41,7 +41,12 @@ const { title, description, section, progress = false, pageId } = Astro.props;
     <div class="graph-filters" role="group" aria-label="Filter the graph" data-graph-filters></div>
     <div class="graph-body">
       <div class="graph-canvas">
-        <svg viewBox="0 0 800 800" role="group" data-graph-svg></svg>
+        <svg role="group" data-graph-svg></svg>
+        <div class="graph-zoom" role="group" aria-label="Zoom" data-graph-controls>
+          <button type="button" class="icon-btn" data-zoom="in" aria-label="Zoom in">+</button>
+          <button type="button" class="icon-btn" data-zoom="out" aria-label="Zoom out">−</button>
+          <button type="button" class="icon-btn fit" data-zoom="fit" aria-label="Fit to view">Fit</button>
+        </div>
       </div>
       <aside class="graph-info" aria-live="polite" data-graph-info></aside>
     </div>
