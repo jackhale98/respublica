@@ -44,7 +44,11 @@ Suggested links become reviewed only by a person. Two ways:
 
 - **The review page** (`/review/`, linked in the site footer). Every
   suggested link, grouped by linker run, with both passages and the quoted
-  words marked. Approve or reject each one (with an optional note); the page
+  words marked, high-confidence links first in each batch. A filter shows
+  one confidence level at a time (each batch shows its count per level), so
+  the high-confidence links can be taken first; with a level chosen,
+  "Approve the undecided" approves only the links of that level. Approve or
+  reject each one (with an optional note); the page
   keeps your choices in this browser until you send them. **Send to GitHub**
   opens a new issue titled "Link review" whose body lists one decision per
   line (`approve lnk_…`, `reject lnk_… — note`), at most 150 per issue; submit

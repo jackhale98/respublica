@@ -682,6 +682,7 @@ REVIEW_GROUPS = [
     ("conan-", "Supreme Court cases", "Imported from the Constitution Annotated (2022): the provisions whose essays "
      "cite each case, and its table of overruled decisions. Check each against the source it names."),
 ]
+CONFIDENCE_ORDER = ("high", "medium", "low")
 IMPORTED_BATCHES = {"conan-interprets": "Cases → the provisions their essays cite them under",
                     "conan-overrules": "Cases → the cases they overrule"}
 
@@ -727,12 +728,18 @@ def build_review(corpus: Corpus, proposed: list[tuple[str, dict]], refs: dict[st
         if names:
             groups.append({"id": prefix.rstrip("-"), "label": label, "note": note, "batches": [
                 {"batch": b, "count": len(by_batch[b]), "ids": [i["id"] for i in by_batch[b]],
+                 "by_confidence": {c: [i["id"] for i in by_batch[b] if i["confidence"] == c] for c in CONFIDENCE_ORDER},
                  "label": batch_label(b, by_batch[b])} for b in names]})
-    batches = {b: {"batch": b, "label": batch_label(b, items), "links": items} for b, items in by_batch.items()}
+    # Within a batch, high-confidence links first, so a reviewer can take them first (stable within each level).
+    batches = {b: {"batch": b, "label": batch_label(b, items),
+                   "links": sorted(items, key=lambda i: CONFIDENCE_ORDER.index(i["confidence"]))}
+               for b, items in by_batch.items()}
     repo = read_json(ROOT / "site" / "site.config.json")["repo"]
     if not re.fullmatch(r"[A-Za-z0-9-]+/[A-Za-z0-9._-]+", repo):
         raise ValueError(f"site.config.json: repo must be owner/name, not {repo!r}")
-    index = {"groups": groups, "repo": repo, "total": sum(len(v) for v in by_batch.values())}
+    index = {"by_confidence": {c: sum(1 for items in by_batch.values() for i in items if i["confidence"] == c)
+                               for c in CONFIDENCE_ORDER},
+             "groups": groups, "repo": repo, "total": sum(len(v) for v in by_batch.values())}
     return index, batches
 
 

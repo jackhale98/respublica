@@ -82,3 +82,29 @@
 .rb-tally { margin: 0 auto 0 0; font-weight: 600; font-size: .92rem; }
 .review-bar .btn { padding: .6rem 1rem; }
 .review-bar .btn[hidden] { display: none; }
+
+/* Confidence: the filter above the batches, the counts on each batch, the label on each link. */
+.review-filter { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem; }
+.review-filter[hidden] { display: none; }
+.rf-label { font-size: .85rem; color: var(--text-muted); margin-right: .2rem; }
+.review-filter button {
+  display: inline-flex; align-items: center; gap: .4rem;
+  border: 1px solid var(--border); background: var(--bg-raised); color: var(--text);
+  border-radius: 999px; padding: .45rem .8rem; font: 500 .88rem/1 var(--font-sans); cursor: pointer;
+}
+.review-filter button > span:last-child { color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.review-filter button:hover { border-color: var(--border-strong); }
+.review-filter button[aria-pressed="true"] { background: var(--text); color: var(--bg-raised); border-color: var(--text); }
+.review-filter button[aria-pressed="true"] > span:last-child { color: inherit; opacity: .7; }
+.rf-note { flex-basis: 100%; margin: .2rem 0 0; font-size: .82rem; color: var(--text-muted); }
+.rf-dot { width: .55rem; height: .55rem; border-radius: 50%; display: inline-block; }
+.rf-dot.high, .rb-c.high { background: var(--ok); }
+.rf-dot.medium, .rb-c.medium { background: var(--group-cases); }
+.rf-dot.low, .rb-c.low { background: var(--text-faint); }
+.rb-conf { display: inline-flex; gap: .25rem; }
+.rb-c { color: #fff; font: 600 .7rem/1 var(--font-sans); padding: .2rem .4rem; border-radius: 999px; font-variant-numeric: tabular-nums; }
+.review-group[hidden], .review-batch[hidden], .rv-link[hidden] { display: none; }
+.rv-conf.high { color: var(--ok); background: color-mix(in srgb, var(--ok) 12%, transparent); }
+.rv-conf.medium { color: #8a6210; background: color-mix(in srgb, #b07d12 14%, transparent); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .rv-conf.medium { color: var(--group-cases); } }
+:root[data-theme="dark"] .rv-conf.medium { color: var(--group-cases); }

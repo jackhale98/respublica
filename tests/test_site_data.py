@@ -72,6 +72,23 @@ class SiteStructureTests(unittest.TestCase):
         self.assertIsNone(self.pages["federalist-85"]["next"])
 
 
+
+class ReviewTests(unittest.TestCase):
+    def test_batches_by_confidence(self):
+        from tools.corpus import load_corpus
+        from tools.site_data import build_review
+        corpus = load_corpus()
+        mk = lambda n, conf: {"id": f"lnk_t_{n}", "from": "Federalist.10.1", "to": "Constitution.1.8.3", "type": "cites",
+                              "confidence": conf, "status": "suggested", "rationale": "r"}
+        proposed = [("fed-const-10", mk(1, "low")), ("fed-const-10", mk(2, "high")), ("fed-const-10", mk(3, "medium")),
+                    ("fed-const-10", mk(4, "high"))]
+        index, batches = build_review(corpus, proposed, {})
+        self.assertEqual(index["by_confidence"], {"high": 2, "medium": 1, "low": 1})
+        b = index["groups"][0]["batches"][0]
+        self.assertEqual(b["by_confidence"], {"high": ["lnk_t_2", "lnk_t_4"], "medium": ["lnk_t_3"], "low": ["lnk_t_1"]})
+        self.assertEqual([l["id"] for l in batches["fed-const-10"]["links"]], ["lnk_t_2", "lnk_t_4", "lnk_t_3", "lnk_t_1"])
+
+
 if __name__ == "__main__":
     unittest.main()
 
