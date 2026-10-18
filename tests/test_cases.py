@@ -44,6 +44,25 @@ class CourtListenerTests(unittest.TestCase):
         m = match("No. 19-1392", "Dobbs, No. 19-1392 (U.S. June 24, 2022)", RESPONSES)
         self.assertEqual(m.cluster["id"], 6481357)
 
+    def test_several_clusters_by_name_year_and_citations(self):
+        lookup = [{"citation": "3 U.S. 386", "normalized_citations": ["3 U.S. 386"], "status": 300, "clusters": [
+            {**cluster(8403288, "1798", "Calder v. Wife"), "citation_count": 9},
+            {**cluster(84695, "1798", "Calder v. Bull"), "citation_count": 1861}]},
+                  {"citation": "109 U.S. 3", "normalized_citations": ["109 U.S. 3"], "status": 300, "clusters": [
+            {**cluster(7890904, "1883", "United States v. Stanley"), "citation_count": 42},
+            {**cluster(90897, "1883", "Civil Rights Cases"), "citation_count": 1001}]},
+                  {"citation": "17 U.S. 122", "normalized_citations": ["17 U.S. 122"], "status": 300, "clusters": [
+            {**cluster(6726666, "1819", "Sturges v. Crowninshield"), "citation_count": 65},
+            {**cluster(85267, "1819", "Bank of Columbia v. Okely"), "citation_count": 671}]}]
+        responses = [("courtlistener-citations-1", lookup)]
+        m = match("3 U.S. 386", "Calder v. Bull, 3 U.S. (3 Dall.) 386 (1798)", responses)
+        self.assertEqual(m.cluster["id"], 84695)
+        self.assertIn("8403288", m.note)
+        self.assertEqual(match("109 U.S. 3", "Civil Rights Cases, 109 U.S. 3 (1883)", responses).cluster["id"], 90897)
+        # The other case filed under the citation is cited more, but its name is not the case's.
+        self.assertEqual(match("17 U.S. 122", "Sturges v. Crowninshield, 17 U.S. (4 Wheat.) 122 (1819)",
+                               responses).cluster["id"], 6726666)
+
     def test_match_fails_loudly(self):
         for key, name in (("1 U.S. 1", "A v. B, 1 U.S. 1 (1790)"),      # none
                           ("2 U.S. 2", "C v. D, 2 U.S. 2 (1790)"),      # several

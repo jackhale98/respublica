@@ -187,9 +187,14 @@ citation lookup (several citations per request), or, for a decision the
 Constitution Annotated cites as a slip opinion, by its docket number in the
 Supreme Court. Every response is a raw source (`courtlistener-citations-{n}`,
 `courtlistener-scotus-{docket}`), with the request body; the API token is
-read from `COURTLISTENER_TOKEN` and never stored. A case with no cluster, or
-several, or one dated in another year than the Constitution Annotated
-prints, stops the import. The case's name is the Constitution Annotated's;
+read from `COURTLISTENER_TOKEN` and never stored. A case with no cluster,
+or one dated in another year than the Constitution Annotated prints, stops
+the import. Where CourtListener gives several clusters for a citation (the
+same decision imported twice from different sources, or another case filed
+under it by mistake), the import keeps those whose first party is the
+Constitution Annotated's and whose year is its year, then takes the one
+other opinions cite most; the case file says so (`courtlistener_match`), and
+a tie stops the import. The case's name is the Constitution Annotated's;
 CourtListener's is kept as `courtlistener_name`. CourtListener's data is
 offered free of known copyright restrictions.
 

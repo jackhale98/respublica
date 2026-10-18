@@ -103,7 +103,8 @@ per work `position` and `short`; see `docs/ocr.md`, "What the output records".
 `cases/{cluster_id}.json` has the same shape, with `ref_prefix`
 `Case.{cluster_id}` and no divisions, plus the case's `date`, `us_cite` (or
 `docket`), `courtlistener_url`, `loc_url` and `pdf_url`, `chosen_because`
-(the rules that chose it), `conan_citation` and, when no syllabus is shown,
+(the rules that chose it), `conan_citation`, `courtlistener_match` (when
+CourtListener gave several clusters) and, when no syllabus is shown,
 `syllabus_note`. Its segments are the syllabus paragraphs (`kind:
 "syllabus"`, with the printed `page`).
 

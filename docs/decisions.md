@@ -706,3 +706,10 @@ The project owner chose, when phase 7 resumed with a CourtListener token:
   and slip opinions by docket number: about a dozen requests for 213 cases.
   Each response is a raw source with its request body; the token is never
   stored, only the name of the variable that holds it (`auth_env`).
+- **When a citation has several clusters.** CourtListener holds some
+  decisions twice (imported from different sources) and files a few cases
+  under another's citation (*Bank of Columbia v. Okely* under *Sturges v.
+  Crowninshield*'s 17 U.S. 122). A fixed rule chooses, never a person's pick:
+  the clusters whose first party and year match the Constitution
+  Annotated's, then the one other opinions cite most. The case file records
+  the clusters passed over.

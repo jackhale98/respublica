@@ -75,6 +75,7 @@ class Match:
     name: str           # case as the Constitution Annotated prints it
     source_id: str      # the recorded response that gives the cluster
     cluster: dict       # the cluster, as CourtListener's API gives it
+    note: str | None = None  # how one cluster was chosen among several
 
 
 def printed_year(name: str) -> str | None:
@@ -104,20 +105,46 @@ def clusters_for(key: str, responses: list[tuple[str, object]]) -> tuple[str, li
     return None
 
 
+def first_party(name: str) -> str:
+    """A case's first party reduced to letters: "Calder v. Bull" -> "calder",
+    "Civil Rights Cases" -> "civil"."""
+    return re.sub(r"[^a-z]", "", re.split(r" v\. | ", name.lower().replace("’", "'"), maxsplit=1)[0])
+
+
 def match(key: str, name: str, responses: list[tuple[str, object]]) -> Match:
-    """The one cluster CourtListener gives for a case; fails loudly otherwise."""
+    """The cluster CourtListener gives for a case; fails loudly on none.
+
+    CourtListener sometimes gives several clusters for one citation: the
+    same decision imported twice from different sources, or another case
+    filed under the citation by mistake. Then, in order (decision 45):
+    keep the clusters whose first party is the Constitution Annotated's
+    and those dated in its year (each only when that leaves some), then
+    take the one other opinions cite most (`citation_count`). A tie fails."""
     found = clusters_for(key, responses)
     if found is None:
         raise CourtListenerError(f"{key} ({name}): not looked up yet")
     sid, clusters = found
-    if len(clusters) != 1:
-        listed = ", ".join(f"{c.get('id')} {c.get('case_name')!r}" for c in clusters) or "none"
-        raise CourtListenerError(f"{key} ({name}): expected one cluster, found {listed} ({sid})")
-    cluster = clusters[0]
+    if not clusters:
+        raise CourtListenerError(f"{key} ({name}): CourtListener has no cluster for it ({sid})")
     year = printed_year(name)
+    note = None
+    if len(clusters) > 1:
+        candidates = clusters
+        for keep in (lambda c: first_party(c.get("case_name", "")) == first_party(name),
+                     lambda c: bool(year) and str(c.get("date_filed", "")).startswith(year)):
+            candidates = [c for c in candidates if keep(c)] or candidates
+        ranked = sorted(candidates, key=lambda c: -(c.get("citation_count") or 0))
+        if len(ranked) > 1 and (ranked[0].get("citation_count") or 0) == (ranked[1].get("citation_count") or 0):
+            listed = ", ".join(f"{c.get('id')} {c.get('case_name')!r}" for c in ranked)
+            raise CourtListenerError(f"{key} ({name}): cannot choose between clusters {listed} ({sid})")
+        others = ", ".join(str(c.get("id")) for c in clusters if c is not ranked[0])
+        note = (f"CourtListener gives {len(clusters)} clusters for {key}; this one matches the case's name and "
+                f"year and is the most cited (the others: {others}).")
+        clusters = ranked[:1]
+    cluster = clusters[0]
     if year and not str(cluster.get("date_filed", "")).startswith(year):
         raise CourtListenerError(f"{key} ({name}): cluster {cluster.get('id')} is dated {cluster.get('date_filed')}")
-    return Match(key, name, sid, cluster)
+    return Match(key, name, sid, cluster, note)
 
 
 def landmarks() -> dict[str, str]:

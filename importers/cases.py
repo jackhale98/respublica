@@ -52,6 +52,7 @@ def import_case(match: courtlistener.Match, reasons: list[str]) -> dict:
         "courtlistener_url": courtlistener.SITE + c["absolute_url"],
         "chosen_because": reasons,
         "conan_citation": match.name,
+        **({"courtlistener_match": match.note} if match.note else {}),
         "source_ids": [match.source_id],
         "segments": [],
     }
