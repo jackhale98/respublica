@@ -391,9 +391,9 @@ def check_repo_budgets(corpus: Corpus) -> list[str]:
             if f.is_file():
                 size = f.stat().st_size
                 if any(f.match(p) for p in UNTRACKED_RAW):
-                    untracked += size
-                else:
-                    total += size
+                    untracked += size  # not in git: only the cache's total budget applies
+                    continue
+                total += size
                 if size > RAW_FILE_BUDGET:
                     errors.append(f"{f.relative_to(ROOT)} is {size // 2**20} MB; budget is "
                                   f"{RAW_FILE_BUDGET // 2**20} MB per raw file (prefer a text layer over scans)")

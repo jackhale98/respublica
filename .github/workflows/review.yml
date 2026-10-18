@@ -53,7 +53,9 @@ jobs:
       # Raw sources kept out of git (the U.S. Reports scans, decision 46): cached, then fetched if missing.
       - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          path: sources/raw/loc-usrep-*.pdf
+          path: |
+            sources/raw/loc-usrep-*.pdf
+            sources/raw/ia-annals-*.xml
           key: raw-${{ hashFiles('sources/manifest.json') }}
           restore-keys: raw-
       - run: make fetch
