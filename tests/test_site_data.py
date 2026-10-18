@@ -27,7 +27,7 @@ class SiteStructureTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.corpus = load_corpus()
-        cls.site, cls.pages, cls.refs = build(cls.corpus, [])
+        cls.site, cls.pages, cls.refs, cls.graphs = build(cls.corpus, [])
 
     def test_permanent_url_scheme(self):
         self.assertEqual(self.refs["Constitution.1.8.3"]["url"], "/constitution/#Constitution.1.8.3")
@@ -63,3 +63,32 @@ class SiteStructureTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class GraphTests(unittest.TestCase):
+    def test_short_labels(self):
+        from tools.site_data import short_label
+        self.assertEqual(short_label("Article I, Section 8, Clause 18"), "Art. I §8 cl. 18")
+        self.assertEqual(short_label("Article VI, Clause 2"), "Art. VI cl. 2")
+        self.assertEqual(short_label("Federalist No. 44, ¶ 4"), "Fed. 44 ¶4")
+        self.assertEqual(short_label("Federalist No. 59, note 1"), "Fed. 59 n.1")
+        self.assertEqual(short_label("Amendment XIV, Section 1"), "Amend. XIV §1")
+
+    def test_two_hop_neighborhood_and_rejected_links(self):
+        corpus = load_corpus()
+        def link(i, frm, to, status="suggested"):
+            return {"id": f"lnk_t_{i}", "from": frm, "to": to, "type": "cites", "status": status,
+                    "confidence": "high", "rationale": "r", "created_by": {"kind": "human"}}
+        links = [link(1, "Federalist.33.1", "Constitution.1.8.18"),
+                 link(2, "Federalist.44.4", "Constitution.1.8.18"),
+                 link(3, "Federalist.44.4", "Constitution.6.2"),
+                 link(4, "Federalist.10.1", "Constitution.1.8.3"),
+                 link(5, "Federalist.33.7", "Constitution.6.2", status="rejected")]
+        _, _, _, graphs = build(corpus, links)
+        g = graphs["federalist-33"]
+        # 33.1 -> 1.8.18 (hop 1) -> 44.4 (hop 2); 44.4 -> 6.2 would be a third hop, so it is left out.
+        self.assertEqual({e["id"] for e in g["edges"]}, {"lnk_t_1", "lnk_t_2"})
+        self.assertIn("Federalist.44.4", g["nodes"])
+        self.assertEqual(g["nodes"]["Constitution.1.8.18"]["work"], "constitution")
+        self.assertEqual(graphs["federalist-10"]["edges"][0]["id"], "lnk_t_4")
+        self.assertEqual(graphs["federalist-1"], {"edges": [], "nodes": {}})

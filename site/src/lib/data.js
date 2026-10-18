@@ -102,3 +102,8 @@ export function authorText(attr) {
   if (attr.kind === "joint") return attr.names.map((n) => n.split(" ").at(-1)).join(" and ");
   return attr.text;
 }
+
+export const loadGraph = (id) => {
+  const p = path.join(DATA, "graph", `${id}.json`);
+  return fs.existsSync(p) ? readJson(p) : { edges: [], nodes: {} };
+};

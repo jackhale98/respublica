@@ -10,10 +10,12 @@ Output:
   site/.data/site.json           works, pages, home-page stats
   site/.data/pages/{page}.json   one file per page: blocks to render
   site/.data/refs.json           ref -> {url, label} for every ref
+  site/.data/graph/{page}.json   two-hop link neighborhoods of a page's passages
 """
 
 from __future__ import annotations
 
+import re
 import shutil
 from collections import Counter
 
@@ -85,6 +87,55 @@ def build_link_index(links: list[dict], corpus: Corpus) -> dict:
                 entry["other_quote"] = l[other_q]
             by_ref.setdefault(here, []).append(entry)
     return {"by_ref": by_ref, "overruled": sorted(overruled)}
+
+
+def short_label(label: str) -> str:
+    """Compact caption for graph nodes: "Article I, Section 8, Clause 18" ->
+    "Art. I §8 cl. 18"; "Federalist No. 44, ¶ 4" -> "Fed. 44 ¶4"."""
+    s = re.sub(r"^Federalist No\. ", "Fed. ", label)
+    s = re.sub(r"^Article ", "Art. ", s)
+    s = re.sub(r"^Amendment ", "Amend. ", s)
+    s = s.replace(", Section ", " §").replace(", Clause ", " cl. ").replace(", ¶ ", " ¶").replace(", note ", " n.")
+    return s
+
+
+def work_key(corpus: Corpus, ref: str) -> str:
+    """Which work a ref belongs to (its node color in the graph)."""
+    for wid, doc in corpus.works.items():
+        prefix = doc.get("ref_prefix", "")
+        if ref == prefix or ref.startswith(prefix + "."):
+            return wid
+    return "other"
+
+
+def build_graph(links: list[dict], corpus: Corpus, url_for, page_refs: dict[str, list[str]]) -> dict[str, dict]:
+    """For each page, the links within two hops of its passages.
+
+    Returns page id -> {"nodes": {ref: {label, short, work, url}},
+    "edges": [{id, from, to, type, status, confidence}]}. The reader picks a
+    passage and walks this data to draw its one- and two-hop neighborhood.
+    """
+    live = sorted((l for l in links if l.get("status") != "rejected"), key=lambda l: l["id"])
+    adj: dict[str, list[dict]] = {}
+    for l in live:
+        adj.setdefault(l["from"], []).append(l)
+        adj.setdefault(l["to"], []).append(l)
+
+    def node(ref: str) -> dict:
+        label = label_for(corpus, ref)
+        return {"label": label, "short": short_label(label), "url": url_for(ref), "work": work_key(corpus, ref)}
+
+    out = {}
+    for pid, refs in page_refs.items():
+        hop0 = {r for r in refs if r in adj}
+        hop1 = {(l["to"] if l["from"] == r else l["from"]) for r in hop0 for l in adj[r]}
+        edges: dict[str, dict] = {}
+        for r in hop0 | hop1:
+            for l in adj.get(r, []):
+                edges[l["id"]] = {k: l[k] for k in ("id", "from", "to", "type", "status", "confidence")}
+        nodes = {r: node(r) for e in edges.values() for r in (e["from"], e["to"])}
+        out[pid] = {"edges": sorted(edges.values(), key=lambda e: e["id"]), "nodes": dict(sorted(nodes.items()))}
+    return out
 
 
 def label_for(corpus: Corpus, ref: str) -> str:
@@ -385,11 +436,16 @@ class SiteBuilder:
         return {"label": d["label"], "title": d.get("title"), "url": page["url"]}
 
 
-def build(corpus: Corpus, links: list[dict]) -> tuple[dict, dict[str, dict], dict[str, dict]]:
+def build(corpus: Corpus, links: list[dict]) -> tuple[dict, dict[str, dict], dict[str, dict], dict[str, dict]]:
     b = SiteBuilder(corpus, links)
     site, pages = b.build()
     refs = {ref: {"label": label_for(corpus, ref), "url": url} for ref, url in sorted(b.ref_urls.items())}
-    return site, pages, refs
+    page_refs = {
+        pid: [blk["ref"] for blk in p.get("blocks", []) + p.get("notes", []) if blk["type"] == "passage"]
+        for pid, p in pages.items() if p["kind"] in ("work", "part")
+    }
+    graphs = build_graph(links, corpus, b.url_for, page_refs)
+    return site, pages, refs, graphs
 
 
 def main() -> None:
@@ -397,13 +453,15 @@ def main() -> None:
 
     corpus = load_corpus()
     links = [rec for _, _, rec in load_links()]
-    site, pages, refs = build(corpus, links)
+    site, pages, refs, graphs = build(corpus, links)
     if OUT.exists():
         shutil.rmtree(OUT)
     write_json(OUT / "site.json", site)
     write_json(OUT / "refs.json", refs)
     for pid, page in pages.items():
         write_json(OUT / "pages" / f"{pid}.json", page)
+    for pid, graph in graphs.items():
+        write_json(OUT / "graph" / f"{pid}.json", graph)
     print(f"wrote {OUT.relative_to(ROOT)}: {len(pages)} pages, {len(refs)} refs")
 
 

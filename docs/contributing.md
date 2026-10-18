@@ -110,7 +110,8 @@ free-tier budgets of decision 15.
 ## The site
 
 - `tools/site_data.py` turns `texts/`, `cases/` and `links/` into
-  `site/.data/` (one JSON file per page). Page structure, URLs, text runs
+  `site/.data/` (one JSON file per page, plus each page's two-hop link
+  graph in `site/.data/graph/`). Page structure, URLs, text runs
   (italics, amendment marks) and how connections are shown are decided there
   and tested in `tests/test_site_data.py`. Astro only renders.
 - URLs are permanent (decision 17). Every passage's element id is its ref.

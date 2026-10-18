@@ -24,7 +24,10 @@ import Icon from "./Icon.astro";
         <button type="button" data-action="copy-quote"><Icon name="copy" />Copy text</button>
       </div>
       <div class="panel-changed" data-panel-changed hidden></div>
-      <h3>Connections</h3>
+      <div class="conn-head">
+        <h3>Connections</h3>
+        <button type="button" class="graph-btn" data-action="show-graph" hidden><Icon name="graph" />Graph</button>
+      </div>
       <div data-panel-conns></div>
       <p class="empty" data-panel-empty hidden>
         No connections yet. As passages are linked, what this passage cites, and what cites it, will appear here,

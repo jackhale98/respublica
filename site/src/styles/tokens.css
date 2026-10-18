@@ -117,3 +117,11 @@
   --author-madison: #199e70;
   --author-jay: #d95926;
 }
+
+/* Graph node colors by work (validated all-pairs for color-vision
+   deficiency in both modes; nodes always carry text labels too). */
+:root { --work-constitution: #5b4cf0; --work-amendments: #1a9fbf; --work-federalist: #eb6834; --work-other: #6e7290; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --work-constitution: #8b80ff; --work-amendments: #1f9cbf; --work-federalist: #d95926; --work-other: #8a8eab; }
+}
+:root[data-theme="dark"] { --work-constitution: #8b80ff; --work-amendments: #1f9cbf; --work-federalist: #d95926; --work-other: #8a8eab; }

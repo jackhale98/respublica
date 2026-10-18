@@ -16,7 +16,7 @@ the rules every contributor (human or agent) follows.
 | 1. Constitution | Done: Constitution and all 27 amendments imported from National Archives transcriptions; every clause renders with its ref. |
 | 2. Federalist | Done: all 85 papers from Project Gutenberg eBook #18, with paragraph refs, footnotes and attribution (disputed papers marked). |
 | 3. Explicit links | Linked: 289 suggested links from 51 Federalist papers to 73 clauses of the Constitution (81 quotations, 208 citations), awaiting human review. See [`docs/linking.md`](docs/linking.md). |
-| 4. Connections panel | Panel and phone bottom sheet show each passage's connections. Graph view not started. |
+| 4. Connections panel and graph | Done: the panel (a bottom sheet on phones) lists each passage's connections; "Graph" opens a two-hop graph of them, filterable by link type, work and review status. |
 | 8. Search | Pagefind full-text search plus "jump to" any ref. Source sheets not started. |
 | 5–7, 9–10 | Not started. |
 

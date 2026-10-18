@@ -256,3 +256,23 @@ choose. Now:
 - Connection-count badges are excluded from the index, and each paper's
   number is stored as Pagefind metadata so results read "Federalist No. 84: …".
 
+## 26. Graph view
+
+The passage panel's "Graph" button opens a dialog drawn by
+`site/src/scripts/graph.ts` in plain SVG (decision 19):
+
+- The selected passage is at the center; its direct connections sit on an
+  inner ring, and their connections on an outer ring, fanned out behind the
+  passage that leads to them. Up to 28 and 48 nodes are drawn; the count of
+  any left out is shown.
+- Nodes are colored by work (Constitution, Amendments, The Federalist; colors
+  validated for color-vision deficiency in both themes) and always labeled.
+  Edges point from the citing passage to the cited one; quotations are drawn
+  thicker; suggested links are dashed.
+- Filters: link type, work, and reviewed links only. Clicking or pressing
+  Enter on a node shows its links and offers "Open passage" and "Center here".
+- Data: `/data/graph/{page}.json`, built by `tools/site_data.py` with every
+  link within two hops of the page's passages (rejected links excluded). One
+  file per page, not per ref, keeps the file count low (decision 15). The
+  largest, the Constitution's, is 74 KB and loads only when a graph is opened.
+

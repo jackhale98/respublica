@@ -1,5 +1,6 @@
 ---
 import "../styles/reader.css";
+import "../styles/graph.css";
 import Base from "./Base.astro";
 import { href } from "../lib/data.js";
 import Icon from "../components/Icon.astro";
@@ -11,7 +12,7 @@ const { title, description, section, progress = false, pageId } = Astro.props;
 ---
 <Base title={title} description={description} section={section}>
   {progress && <div class="progress" aria-hidden="true"></div>}
-  <div class="container reader" data-reader data-conn-url={href(`/data/conn/${pageId}.json`)}>
+  <div class="container reader" data-reader data-conn-url={href(`/data/conn/${pageId}.json`)} data-graph-url={href(`/data/graph/${pageId}.json`)}>
     <nav class="toc" id="toc" aria-label="Contents" data-toc-nav>
       <button class="icon-btn toc-close" type="button" data-toc-close aria-label="Close contents"><Icon name="x" /></button>
       <slot name="toc" />
@@ -29,6 +30,23 @@ const { title, description, section, progress = false, pageId } = Astro.props;
     <Panel><slot name="panel" /></Panel>
   </div>
   <div class="scrim" data-scrim></div>
+  <dialog class="graph-dialog" aria-labelledby="graph-title" data-graph-dialog>
+    <header class="graph-head">
+      <div>
+        <span class="eyebrow">Connections graph</span>
+        <h2 id="graph-title" data-graph-title></h2>
+      </div>
+      <button class="icon-btn" type="button" data-graph-close aria-label="Close graph"><Icon name="x" /></button>
+    </header>
+    <div class="graph-filters" role="group" aria-label="Filter the graph" data-graph-filters></div>
+    <div class="graph-body">
+      <div class="graph-canvas">
+        <svg viewBox="0 0 800 800" role="group" data-graph-svg></svg>
+      </div>
+      <aside class="graph-info" aria-live="polite" data-graph-info></aside>
+    </div>
+    <div class="graph-legend" data-graph-legend></div>
+  </dialog>
   <script>
     import "../scripts/reader.ts";
   </script>

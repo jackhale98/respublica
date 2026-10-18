@@ -74,6 +74,7 @@ function fillPanel(p: HTMLElement) {
   const empty = q("[data-panel-empty]")!;
   const has = !!p.querySelector(".conns");
   empty.hidden = has;
+  q("[data-action=show-graph]")!.hidden = !has;
   conns.replaceChildren(...(has ? [el("p", "muted", "Loading connections…")] : []));
   if (has) {
     loadConns().then((data) => {
@@ -148,9 +149,28 @@ async function copy(text: string, done: string) {
   }
 }
 
+// ---------------------------------------------------------------- graph
+
+const graphDialog = document.querySelector<HTMLDialogElement>("[data-graph-dialog]");
+const graphUrl = document.querySelector<HTMLElement>("[data-reader]")?.dataset.graphUrl;
+graphDialog?.querySelector("[data-graph-close]")?.addEventListener("click", () => graphDialog.close());
+graphDialog?.addEventListener("click", (e) => {
+  if (e.target === graphDialog) graphDialog.close();
+});
+
+async function showGraph(ref: string) {
+  if (!graphDialog || !graphUrl) return;
+  const { openGraph } = await import("./graph");
+  await openGraph(graphDialog, graphUrl, ref, (target) => {
+    const p = document.getElementById(target);
+    if (p?.classList.contains("passage")) select(p, { scroll: true });
+  });
+}
+
 panel?.addEventListener("click", (e) => {
   const action = (e.target as HTMLElement).closest<HTMLElement>("[data-action]")?.dataset.action;
   if (!action || !selected) return;
+  if (action === "show-graph") showGraph(selected.id);
   const url = `${location.origin}${location.pathname}#${selected.id}`;
   if (action === "copy-link") copy(url, "Link copied");
   if (action === "copy-quote") {
