@@ -34,8 +34,8 @@ export function safeUrl(url) {
   }
 }
 
-// The path the site is served under: "" at a domain root, "/respublica" on
-// jackhale98.github.io. Set in site/site.config.json (docs/decisions.md 22).
+// The path the site is served under: "" at a domain root (respublicalibrary.org),
+// or a subpath such as "/respublica". Set in site/site.config.json (docs/decisions.md 22, 44).
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 // Site data and templates use root-relative paths ("/federalist/10/");

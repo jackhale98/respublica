@@ -9,7 +9,8 @@ where the work stands and what comes next.
 
 - **Deploys.** The owner has approved deploying after every finished task:
   run `make verify`, `make build` and a browser check of what changed, then
-  push to `main` (that deploys to GitHub Pages). Agents work on their
+  push to `main` (Cloudflare then builds and deploys it to
+  respublicalibrary.org). Agents work on their
   session's branch and push the same commits to `main`.
 - **Links.** Agents propose; only a person reviews (rule 4). The owner
   reviews on the site's review page (`/review/`), which records decisions

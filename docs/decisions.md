@@ -641,3 +641,32 @@ lead no topic (*Lochner v. New York*, *Plessy v. Ferguson*):
    (*Plessy*, *Palko v. Connecticut*, *Breedlove v. Suttles*, …).
 
 The set is now 213 cases, each listed with every rule that chose it.
+
+## 44. Hosting: respublicalibrary.org on Cloudflare
+
+The project owner bought `respublicalibrary.org` (on Cloudflare) rather than
+using a CommonHall subdomain: the library has its own name, and a domain it
+controls protects its permanent links from anything that happens to the
+other site. It is served by Cloudflare instead of GitHub Pages
+(supersedes decisions 15 and 22 on hosting; their budgets stand):
+
+- **How.** A Cloudflare Worker named `respublica` with static assets and no
+  code (`wrangler.jsonc`), connected to this repository: on every push to
+  `main` Cloudflare runs `make build` and `npx wrangler@4.147.0 deploy`
+  (both set in the Worker's build settings). The Node version is pinned in
+  `.node-version` (the same as `site/.nvmrc`), Python by `.python-version`.
+  No secret is stored in the repository. The review workflow no longer
+  starts a deploy; its push to `main` is enough.
+- **Why.** Real response headers (`site/public/_headers`): framing is
+  refused (`frame-ancestors 'none'`, which a meta tag cannot set), HTTPS is
+  enforced (HSTS), and content types are not sniffed. Each page keeps its
+  own script-hash Content-Security-Policy in a meta tag. Hashed build files
+  are cached for a year. Redirects are available when needed. No bandwidth
+  caps.
+- **Address.** `site/site.config.json`: `https://respublicalibrary.org`, no
+  base path. The GitHub Pages deploy workflow is removed; the old
+  github.io address should be unpublished in the repository's settings.
+- **Not a database.** Links and texts stay as files in the repository,
+  where every change is reviewed and verified; the site stays static
+  (decision recorded at the owner's question about D1).
+

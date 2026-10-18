@@ -145,7 +145,7 @@ Mobile-first layout; the connections panel becomes a bottom sheet on phones.
 
 **Security baseline (from the CommonHall review):**
 - Only `http:`/`https:` URLs, enforced at import and at render.
-- A strict Content Security Policy (meta tag on GitHub Pages).
+- A strict Content Security Policy (a meta tag per page, with the hashes of its scripts; framing and other headers from the host).
 - No third-party scripts loaded into pages.
 - Browser storage holds only source sheets and preferences, never anything sensitive.
 
@@ -155,7 +155,7 @@ Mobile-first layout; the connections panel becomes a bottom sheet on phones.
 
 The two sites stay separate codebases, joined by shared IDs.
 
-- **Hosting:** Res Publica gets its own repo, served at `library.commonhall.org` (GitHub Pages ties a custom domain to one repo, so a subdomain is simpler than a subfolder).
+- **Hosting:** Res Publica gets its own repo and its own domain, <https://respublicalibrary.org>, served by Cloudflare (docs/decisions.md 44).
 - **Shared keys:** Supreme Court cases are keyed by CourtListener cluster ID on both sites. Clauses use Res Publica refs (`Constitution.1.8.3`).
 - **Res Publica publishes a static index** at build time, e.g. `api/clauses.json` (clause ref → title, URL) and `api/cases.json` (cluster ID → clauses it interprets). No server needed.
 - **CommonHall reads that index** in its nightly build. A new Supreme Court decision page can then show "This case interprets: the Commerce Clause → read the founding debate", whenever Constitution Annotated or CourtListener citations connect it.

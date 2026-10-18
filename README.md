@@ -12,7 +12,7 @@ the rules every contributor (human or agent) follows.
 
 | Phase | State |
 |---|---|
-| 0. Setup | Done: Makefile, stdlib-only Python tools, `make verify`, Astro site with CSP, CI and GitHub Pages deploy with pinned actions, free-tier budgets, MIT + CC BY-SA 4.0. |
+| 0. Setup | Done: Makefile, stdlib-only Python tools, `make verify`, Astro site with CSP, CI with pinned actions, deploy to Cloudflare (respublicalibrary.org), free-tier budgets, MIT + CC BY-SA 4.0. |
 | 1. Constitution | Done: Constitution and all 27 amendments imported from National Archives transcriptions; every clause renders with its ref. The Declaration of Independence added the same way (each grievance its own passage). |
 | 2. Federalist | Done: all 85 papers from Project Gutenberg eBook #18, with paragraph refs, footnotes and attribution (disputed papers marked). |
 | 3. Explicit links | Linked: 289 suggested links from 51 Federalist papers to 73 clauses of the Constitution (81 quotations, 208 citations), awaiting human review. See [`docs/linking.md`](docs/linking.md). |
@@ -49,10 +49,11 @@ make dev        # local preview (search needs make build)
 `make import` regenerates `texts/` from them, and `make lock-refs` records
 new refs in `refs.lock`.
 
-Deployment: pushes to `main` publish to GitHub Pages, currently at
-<https://jackhale98.github.io/respublica/>. The address is set in
-`site/site.config.json`; moving to `library.commonhall.org` later means
-setting `"url"` to that domain and `"base"` to `""` (docs/decisions.md 22).
+Deployment: the site is served at <https://respublicalibrary.org> by
+Cloudflare, which builds this repository (`make build`) and deploys
+`site/dist` on every push to `main` (`wrangler.jsonc`; response headers in
+`site/public/_headers`). The address is set in `site/site.config.json`
+(docs/decisions.md 44).
 
 ## Layout
 

@@ -1,0 +1,15 @@
+// Cloudflare Worker that serves the built site (site/dist) as static
+// assets at respublicalibrary.org; there is no Worker code. Cloudflare
+// builds it from this repository on every push to main: build command
+// `make build`, deploy command `npx wrangler@4.147.0 deploy`
+// (docs/decisions.md 44). Headers and redirects: site/public/_headers.
+{
+  "name": "respublica",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./site/dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [{ "pattern": "respublicalibrary.org", "custom_domain": true }]
+}

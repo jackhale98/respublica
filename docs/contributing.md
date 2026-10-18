@@ -21,7 +21,9 @@ Read `CLAUDE.md` first; its rules apply to people and agents alike.
 | `make dev` | Runs the site locally (search needs `make build`; the dev server has no index). |
 
 CI runs `make verify` and `make build` on every pull request. Every push to
-`main` also deploys `site/dist/` to GitHub Pages (`.github/workflows/deploy.yml`).
+`main` is built and deployed by Cloudflare to <https://respublicalibrary.org>
+(`wrangler.jsonc`; build command `make build`, deploy command
+`npx wrangler@4.147.0 deploy`; decision 44).
 
 ## Adding a raw source
 
