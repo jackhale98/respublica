@@ -1,93 +1,27 @@
-// Build-time data access. Reads the repository's texts/, cases/ and
-// sources/manifest.json, plus the link index written by
-// `python -m tools.site_data` (site/.data/links.json).
+// Build-time data access. Everything here comes from `python -m tools.site_data`
+// (site/.data/), which owns URLs, page structure and text runs. This module
+// only loads it.
 
 import fs from "node:fs";
 import path from "node:path";
 
 // Astro bundles this module before running it, so import.meta.url is not
 // stable; the build always runs from site/ (see the Makefile).
-const SITE_DIR = process.cwd();
-const REPO = path.resolve(SITE_DIR, "..");
-if (!fs.existsSync(path.join(REPO, "texts"))) {
-  throw new Error(`run the site build from site/ (looked for texts/ in ${REPO})`);
+const DATA = path.resolve(process.cwd(), ".data");
+if (!fs.existsSync(path.join(DATA, "site.json"))) {
+  throw new Error(`site data missing in ${DATA}; run \`make site-data\` from the repository root`);
 }
 
 const readJson = (p) => JSON.parse(fs.readFileSync(p, "utf-8"));
+const cache = new Map();
+const cached = (key, fn) => (cache.has(key) ? cache.get(key) : cache.set(key, fn()).get(key));
 
-// Works are listed in this order in the library; any other work follows.
-const ORDER = ["constitution", "amendments", "federalist"];
+export const loadSite = () => cached("site", () => readJson(path.join(DATA, "site.json")));
+export const loadPage = (id) => cached(`page:${id}`, () => readJson(path.join(DATA, "pages", `${id}.json`)));
+export const loadRefs = () => cached("refs", () => readJson(path.join(DATA, "refs.json")));
+export const loadManifest = () => cached("manifest", () => readJson(path.resolve(process.cwd(), "..", "sources", "manifest.json")));
 
-// Works with more segments than this get one page per top-level division.
-const SPLIT_THRESHOLD = 300;
-
-let cache;
-
-export function loadWorks() {
-  if (cache) return cache;
-  const dirs = ["texts", "cases"].map((d) => path.join(REPO, d)).filter((d) => fs.existsSync(d));
-  const works = dirs.flatMap((dir) =>
-    fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort().map((f) => readJson(path.join(dir, f))),
-  );
-  works.sort((a, b) => rank(a.id) - rank(b.id) || a.id.localeCompare(b.id));
-  for (const w of works) {
-    w.split = w.segments.length > SPLIT_THRESHOLD;
-    w.groups = groupByTopDivision(w);
-  }
-  cache = works;
-  return works;
-}
-
-function rank(id) {
-  const i = ORDER.indexOf(id);
-  return i === -1 ? ORDER.length : i;
-}
-
-// Top-level divisions, each with the segments under it, in text order.
-function groupByTopDivision(work) {
-  const tops = (work.divisions || []).filter((d) => d.level === 1);
-  const groups = tops.map((d) => ({ division: d, slug: slugFor(work, d.ref), segments: [] }));
-  const orphan = { division: null, slug: "other", segments: [] };
-  for (const s of work.segments) {
-    const g = groups.find((x) => s.ref === x.division.ref || s.ref.startsWith(x.division.ref + "."));
-    (g || orphan).segments.push(s);
-  }
-  if (orphan.segments.length) groups.push(orphan);
-  return groups;
-}
-
-// "Federalist.10" -> "10"; "Constitution.Preamble" -> "preamble"
-function slugFor(work, ref) {
-  return ref.slice(work.ref_prefix.length + 1).toLowerCase().replace(/[^a-z0-9]+/g, "-") || "all";
-}
-
-export function workFor(ref) {
-  return loadWorks().find((w) => ref === w.ref_prefix || ref.startsWith(w.ref_prefix + "."));
-}
-
-// URL of the page (and anchor) where a ref is shown.
-export function refUrl(ref) {
-  const work = workFor(ref);
-  if (!work) return null;
-  const base = `/texts/${work.id}/`;
-  if (!work.split) return `${base}#${anchor(ref)}`;
-  const g = work.groups.find((x) => x.division && (ref === x.division.ref || ref.startsWith(x.division.ref + ".")));
-  if (!g) return base;
-  return ref === g.division.ref ? `${base}${g.slug}/` : `${base}${g.slug}/#${anchor(ref)}`;
-}
-
-export const anchor = (ref) => ref;
-
-export function loadManifest() {
-  return readJson(path.join(REPO, "sources", "manifest.json"));
-}
-
-export function loadLinkIndex() {
-  const p = path.join(SITE_DIR, ".data", "links.json");
-  return fs.existsSync(p) ? readJson(p) : { by_ref: {}, overruled: [] };
-}
-
-// Only http(s) URLs from data are ever rendered (see CLAUDE.md rule 8).
+// Only http(s) URLs from data are ever rendered (CLAUDE.md rule 8).
 export function safeUrl(url) {
   if (typeof url !== "string" || url !== url.trim()) return null;
   try {
@@ -98,39 +32,63 @@ export function safeUrl(url) {
   }
 }
 
-// Split segment text into paragraphs/lines/runs with emphasis applied.
-// Returns [[ [ {text, em} ] per line ] per paragraph].
-export function richText(segment) {
-  const text = segment.text;
-  const spans = segment.emphasis || [];
-  const runs = [];
-  let pos = 0;
-  for (const [a, b] of spans) {
-    if (a > pos) runs.push({ text: text.slice(pos, a), em: false });
-    runs.push({ text: text.slice(a, b), em: true });
-    pos = b;
-  }
-  if (pos < text.length) runs.push({ text: text.slice(pos), em: false });
-
-  const paras = [[[]]];
-  for (const run of runs) {
-    const pieces = run.text.split(/(\n\n|\n)/);
-    for (const piece of pieces) {
-      if (piece === "\n\n") paras.push([[]]);
-      else if (piece === "\n") paras.at(-1).push([]);
-      else if (piece) paras.at(-1).at(-1).push({ text: piece, em: run.em });
-    }
-  }
-  return paras;
+// Internal links come from site data and must be site-relative paths.
+export function localUrl(url) {
+  return typeof url === "string" && url.startsWith("/") && !url.startsWith("//") ? url : null;
 }
 
-export const LINK_TYPE_LABELS = {
-  quotes: "quotes",
-  cites: "cites",
-  responds_to: "responds to",
-  rebuts: "rebuts",
-  shared_theme: "shares a theme with",
-  interprets: "interprets",
-  overrules: "overrules",
-  implements: "implements",
+// Author identity for The Federalist, in the fixed order of the author
+// palette (see styles/tokens.css: --author-*).
+export const AUTHORS = [
+  { key: "hamilton", label: "Hamilton", match: (a) => a.kind === "single" && a.names[0] === "Alexander Hamilton" },
+  { key: "disputed", label: "Disputed", match: (a) => a.kind === "disputed" },
+  { key: "joint", label: "Joint", match: (a) => a.kind === "joint" },
+  { key: "madison", label: "Madison", match: (a) => a.kind === "single" && a.names[0] === "James Madison" },
+  { key: "jay", label: "Jay", match: (a) => a.kind === "single" && a.names[0] === "John Jay" },
+];
+
+export const authorKey = (attr) => (attr ? AUTHORS.find((a) => a.match(attr))?.key : undefined);
+
+export const formatNumber = (n) => n.toLocaleString("en-US");
+
+// "Article I, Section 8" -> "Section 8"
+export const shortLabel = (label) => label.split(", ").at(-1);
+
+// First date printed in a newspaper line, if any.
+export function printedDate(publication = []) {
+  for (const line of publication) {
+    const m = line.match(/([A-Z][a-z]+ \d{1,2}, \d{4})/);
+    if (m) return m[1];
+  }
+  return null;
+}
+
+export function newspaper(publication = []) {
+  const first = publication[0] || "";
+  return first.replace(/^(From|For) (the )?/, "").replace(/\.\s*([A-Z][a-z]+day.*)?$/, "").replace(/\.$/, "");
+}
+
+export const COLLECTIONS = {
+  founding: "Founding document",
+  federalist: "The ratification debate",
 };
+
+// "1787-09-17" -> "September 17, 1787"; "1791-12-15/1992-05-07" -> "1791–1992"
+export function formatDate(iso) {
+  if (!iso) return null;
+  if (iso.includes("/")) {
+    const [a, b] = iso.split("/");
+    return a.slice(0, 4) === b.slice(0, 4) ? a.slice(0, 4) : `${a.slice(0, 4)}–${b.slice(0, 4)}`;
+  }
+  const d = new Date(`${iso}T12:00:00Z`);
+  return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
+}
+
+export const readingMinutes = (words) => Math.max(1, Math.round(words / 230));
+
+export function authorText(attr) {
+  if (!attr) return "";
+  if (attr.kind === "disputed") return `${attr.names.map((n) => n.split(" ").at(-1)).join(" or ")} (disputed)`;
+  if (attr.kind === "joint") return attr.names.map((n) => n.split(" ").at(-1)).join(" and ");
+  return attr.text;
+}

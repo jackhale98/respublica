@@ -12,21 +12,37 @@ the rules every contributor (human or agent) follows.
 
 | Phase | State |
 |---|---|
-| 0. Setup | Done: Makefile, stdlib-only Python tools, `make verify`, Astro site with CSP, CI with pinned actions, licenses (provisional). |
+| 0. Setup | Done: Makefile, stdlib-only Python tools, `make verify`, Astro site with CSP, CI and GitHub Pages deploy with pinned actions, free-tier budgets, MIT + CC BY-SA 4.0. |
 | 1. Constitution | Done: Constitution and all 27 amendments imported from National Archives transcriptions; every clause renders with its ref. |
-| 2. Federalist | Imported: all 85 papers from Project Gutenberg eBook #18, with paragraph refs, footnotes and attribution (disputed papers marked). Base edition awaits human confirmation (`docs/decisions.md` #8). |
-| 3–10 | Not started. |
+| 2. Federalist | Done: all 85 papers from Project Gutenberg eBook #18, with paragraph refs, footnotes and attribution (disputed papers marked). |
+| 4. Connections panel | Panel and phone bottom sheet built; fills in as links arrive (phase 3). Graph view not started. |
+| 8. Search | Pagefind full-text search plus "jump to" any ref. Source sheets not started. |
+| 3, 5–7, 9–10 | Not started. |
+
+## The site
+
+A reader built around passages: pick any passage to see its permanent ref,
+copy a link or the text, and see its connections in a side panel (a bottom
+sheet on phones). Contents with scrollspy, `j`/`k` to move between passages,
+`/` or Ctrl/⌘+K to search or jump ("Fed 10", "1.8.3", "Amendment 14"), light
+and dark themes, adjustable text size, and The Federalist's papers filterable
+by author. Every page works without JavaScript.
 
 ## Quick start
 
 ```
 make verify     # unit tests + every data check (no installs needed; Python 3.13)
-make build      # site into site/dist (needs Node 22.22+), then checks it
-make dev        # local preview
+make build      # site + search index into site/dist (needs Node 22.22+), then checks it
+make dev        # local preview (search needs make build)
 ```
 
-`make fetch` restores raw sources from `sources/manifest.json`, and
-`make import` regenerates `texts/` from them.
+`make fetch` restores raw sources from `sources/manifest.json`,
+`make import` regenerates `texts/` from them, and `make lock-refs` records
+new refs in `refs.lock`.
+
+Deployment: pushes to `main` publish to GitHub Pages. One-time setup in the
+repository settings: Pages source "GitHub Actions" and custom domain
+`library.commonhall.org` (see `.github/workflows/deploy.yml`).
 
 ## Layout
 
@@ -35,11 +51,12 @@ sources/raw/        downloaded originals, never edited
 sources/manifest.json
 importers/          one module per source (nara.py, federalist.py)
 texts/              importer output: constitution, amendments, federalist
+refs.lock           every published ref (append-only)
 cases/              (phase 7)
 links/proposed/     machine-suggested links awaiting review
-tools/              shared helpers, fetch, verify, site data, site check
-tests/              unit tests for helpers and checks
-site/               Astro app
+tools/              shared helpers, fetch, verify, refs, site data, site check
+tests/              unit tests for helpers, checks and site data
+site/               Astro app (renders site/.data from tools/site_data.py)
 docs/               references, editions, contributing, decisions, errata
 ```
 

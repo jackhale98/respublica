@@ -1,0 +1,8 @@
+---
+import { authorKey, authorText } from "../lib/data.js";
+
+const { attribution, short = false } = Astro.props;
+const key = authorKey(attribution);
+const text = short && attribution?.kind === "single" ? attribution.names[0].split(" ").at(-1) : authorText(attribution);
+---
+{attribution && <span class="chip author"><span class:list={["dot", key]} aria-hidden="true"></span>{text}</span>}

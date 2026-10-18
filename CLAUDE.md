@@ -35,6 +35,8 @@ Edge cases (articles without sections, footnotes, signatures) are specified in `
 - One linker run covers one unit (for example, one Federalist paper) so work can run in parallel and be reviewed in small batches.
 - When unsure whether a connection is real, leave it out or mark it `low` confidence with a clear rationale.
 - Before writing a parser, check field names against a real downloaded response, not memory.
+- New refs go into `refs.lock` with `make lock-refs`. Never remove a ref from it.
+- The site renders only what `tools/site_data.py` produces; page structure, URLs and link display rules live there, not in Astro.
 - Share helpers (HTTP fetching, PDF text extraction, URL checks) in one module; don't copy them into each importer.
 - **Keep docs in step with code.** A change that alters behavior updates the README and docs in the same commit. Read the whole section you are editing before changing it, so you don't duplicate paragraphs or table rows. Append new entries to `docs/decisions.md` at the end, in number order.
 - Pin GitHub Actions to commit SHAs and tools to fixed versions. The site needs no secrets; don't add any without asking.

@@ -9,7 +9,8 @@ Enforces the security baseline and completeness:
     style attributes, and every absolute URL in a page is http(s);
   * every internal link points to a page that exists, and every #fragment
     to an id on that page;
-  * every segment ref in texts/ and cases/ is rendered as an element id.
+  * every segment ref in texts/ and cases/ is rendered as an element id;
+  * the build stays inside the free-tier budgets below.
 """
 
 from __future__ import annotations
@@ -24,6 +25,19 @@ from tools.corpus import load_corpus
 
 DIST = ROOT / "site" / "dist"
 URL_ATTRS = ("href", "src", "action", "formaction", "poster", "srcset", "data")
+# <link rel> values that load a resource (others, like canonical, only name a URL).
+RESOURCE_RELS = {"stylesheet", "preload", "modulepreload", "prefetch", "icon", "apple-touch-icon", "manifest"}
+# The only CSP source beyond 'self' and hashes: Pagefind compiles WebAssembly.
+ALLOWED_UNSAFE = {"'wasm-unsafe-eval'"}
+
+# Free-tier budgets (docs/decisions.md). GitHub Pages: 1 GB site, ~100 GB/month
+# bandwidth. Cloudflare Pages (the fallback host): 20,000 files, 25 MiB per file.
+# Budgets sit well inside both so growth is caught early.
+BUDGET_TOTAL_BYTES = 250 * 2**20
+BUDGET_FILES = 10_000
+BUDGET_FILE_BYTES = 5 * 2**20
+BUDGET_PAGE_HTML_BYTES = 400 * 2**10
+BUDGET_PAGE_JS_BYTES = 60 * 2**10     # scripts a page loads up front (search loads on demand)
 
 
 def page_url(path: Path) -> str:
@@ -51,7 +65,8 @@ def check() -> list[str]:
             errors.append(f"{url}: expected one CSP meta tag, found {len(metas)}")
         else:
             csp = metas[0].attrs.get("content", "")
-            if "unsafe-" in csp or re.search(r"(https?:|\*|data:|blob:)", csp):
+            unsafe = set(re.findall(r"'[a-z-]*unsafe-[a-z-]*'", csp)) - ALLOWED_UNSAFE
+            if unsafe or re.search(r"(https?:|\*|data:|blob:)", csp):
                 errors.append(f"{url}: CSP allows unsafe or third-party sources: {csp}")
             for directive in ("default-src 'self'", "object-src 'none'", "base-uri 'self'"):
                 if directive not in csp:
@@ -83,12 +98,55 @@ def check() -> list[str]:
         elif frag and urllib.parse.unquote(frag) not in ids[target]:
             errors.append(f"{src}: link to missing anchor {href}")
 
+    errors.extend(check_budgets(pages))
+
     all_ids = set().union(*ids.values()) if ids else set()
     corpus = load_corpus()
     for ref in corpus.segments:
         if ref not in all_ids:
             errors.append(f"segment {ref} is not rendered on any page")
     return errors
+
+
+def check_budgets(pages: list[Path]) -> list[str]:
+    errors = []
+    files = [f for f in DIST.rglob("*") if f.is_file()]
+    total = sum(f.stat().st_size for f in files)
+    if total > BUDGET_TOTAL_BYTES:
+        errors.append(f"budget: site is {total / 2**20:.1f} MB (budget {BUDGET_TOTAL_BYTES // 2**20} MB)")
+    if len(files) > BUDGET_FILES:
+        errors.append(f"budget: site has {len(files)} files (budget {BUDGET_FILES})")
+    for f in files:
+        if f.stat().st_size > BUDGET_FILE_BYTES:
+            errors.append(f"budget: {f.relative_to(DIST)} is {f.stat().st_size / 2**20:.1f} MB (budget {BUDGET_FILE_BYTES // 2**20} MB)")
+    for path in pages:
+        size = path.stat().st_size
+        if size > BUDGET_PAGE_HTML_BYTES:
+            errors.append(f"budget: {page_url(path)} HTML is {size // 1024} KB (budget {BUDGET_PAGE_HTML_BYTES // 1024} KB)")
+        root = parse_html(path.read_text(encoding="utf-8"))
+        js = 0
+        for n in root.find_all("script"):
+            src = n.attrs.get("src")
+            if src and src.startswith("/"):
+                f = DIST / src.lstrip("/")
+                if f.exists():
+                    js += f.stat().st_size + _imports_size(f)
+        if js > BUDGET_PAGE_JS_BYTES:
+            errors.append(f"budget: {page_url(path)} loads {js // 1024} KB of JavaScript (budget {BUDGET_PAGE_JS_BYTES // 1024} KB)")
+    return errors
+
+
+def _imports_size(path: Path, seen: set | None = None) -> int:
+    """Size of modules a script statically imports (dynamic imports load on demand)."""
+    seen = seen if seen is not None else set()
+    total = 0
+    text = path.read_text(encoding="utf-8", errors="replace")
+    for m in re.finditer(r"""(?:^|[;\n}])\s*import\s*(?:[^'"()]*?from\s*)?["']([^"']+)["']""", text):
+        target = (path.parent / m.group(1)).resolve() if m.group(1).startswith(".") else DIST / m.group(1).lstrip("/")
+        if target.exists() and target not in seen:
+            seen.add(target)
+            total += target.stat().st_size + _imports_size(target, seen)
+    return total
 
 
 def _check_url(page: str, node, attr: str, value: str, links: list) -> list[str]:
@@ -99,7 +157,8 @@ def _check_url(page: str, node, attr: str, value: str, links: list) -> list[str]
         if scheme or v.startswith("//"):
             if not is_safe_url(v):
                 errs.append(f"{page}: unsafe URL in <{node.tag} {attr}>: {v!r}")
-            elif node.tag in ("script", "link", "img", "iframe", "object", "embed", "source"):
+            elif node.tag in ("script", "img", "iframe", "object", "embed", "source") or (
+                    node.tag == "link" and set(node.attrs.get("rel", "").lower().split()) & RESOURCE_RELS):
                 errs.append(f"{page}: third-party resource in <{node.tag} {attr}>: {v}")
         elif node.tag == "a" and attr == "href":
             links.append((page, v))

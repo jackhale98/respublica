@@ -1,0 +1,35 @@
+---
+import Icon from "./Icon.astro";
+
+// Passage panel: a side column on wide screens, a bottom sheet on phones.
+// The default slot describes the page; reader.ts fills the passage view.
+---
+<aside class="panel" id="panel" aria-label="Passage details" data-panel>
+  <div class="panel-card">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <div class="panel-default">
+      <slot />
+      <p class="tip">
+        <span>Select any passage to see its reference and connections. Use <kbd>j</kbd> <kbd>k</kbd> to move between passages.</span>
+      </p>
+    </div>
+    <div class="panel-passage" hidden aria-live="polite">
+      <div class="panel-head">
+        <span class="panel-ref" data-panel-ref></span>
+        <button class="icon-btn" type="button" data-panel-close aria-label="Close passage details"><Icon name="x" /></button>
+      </div>
+      <h2 data-panel-label></h2>
+      <div class="panel-actions">
+        <button type="button" data-action="copy-link"><Icon name="link" />Copy link</button>
+        <button type="button" data-action="copy-quote"><Icon name="copy" />Copy text</button>
+      </div>
+      <div class="panel-changed" data-panel-changed hidden></div>
+      <h3>Connections</h3>
+      <div data-panel-conns></div>
+      <p class="empty" data-panel-empty hidden>
+        No connections yet. As passages are linked, what this passage cites, and what cites it, will appear here,
+        each marked as suggested or reviewed.
+      </p>
+    </div>
+  </div>
+</aside>

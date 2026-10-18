@@ -11,5 +11,4 @@ file in `sources/raw/` carries the Project Gutenberg License; the text Res
 Publica extracts from it is public domain in the United States and is published
 without Project Gutenberg's name or trademark.
 
-This licensing is provisional until the project owner confirms it (see
-`docs/decisions.md`, decision 1).
+The project owner confirmed this licensing (`docs/decisions.md`, decision 14).

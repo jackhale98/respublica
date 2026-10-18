@@ -1,0 +1,22 @@
+---
+import IndexView from "../components/views/IndexView.astro";
+import PaperView from "../components/views/PaperView.astro";
+import WorkView from "../components/views/WorkView.astro";
+import { loadPage, loadSite } from "../lib/data.js";
+
+// Every reader and index page comes from site/.data (tools/site_data.py),
+// which fixes the URL of each page.
+export function getStaticPaths() {
+  const site = loadSite();
+  const works = Object.fromEntries(site.works.map((w) => [w.id, w]));
+  return site.pages.map((p) => {
+    const page = loadPage(p.id);
+    return { params: { slug: p.url.replace(/^\/|\/$/g, "") }, props: { page, work: works[page.work.id] } };
+  });
+}
+
+const { page, work } = Astro.props;
+---
+{page.kind === "work" && <WorkView page={page} work={work} />}
+{page.kind === "part" && <PaperView page={page} work={work} />}
+{page.kind === "index" && <IndexView work={work} />}

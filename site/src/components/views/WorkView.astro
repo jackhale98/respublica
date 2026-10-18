@@ -1,0 +1,63 @@
+---
+import Reader from "../../layouts/Reader.astro";
+import Passage from "../Passage.astro";
+import ReaderHeading from "../ReaderHeading.astro";
+import { COLLECTIONS, formatDate, formatNumber } from "../../lib/data.js";
+
+// A work shown on one page (the Constitution, the Amendments).
+const { page, work } = Astro.props;
+const tops = page.toc.filter((t) => t.level === 1);
+const subsOf = (ref) => page.toc.filter((t) => t.level === 2 && t.ref.startsWith(ref + "."));
+const hasChanged = page.blocks.some((b) => b.type === "passage" && b.changed.length);
+const anchorOf = (t) => t.url.split("#")[1];
+---
+<Reader title={work.title} section={work.id} description={`Read ${work.title} with a permanent reference for every passage.`}>
+  <ol class="crumbs" slot="crumbs"><li><a href="/">Library</a></li><li aria-current="page">{work.short}</li></ol>
+
+  <Fragment slot="toc">
+    <h2>Contents</h2>
+    <ol>
+      {tops.map((t) => (
+        <li>
+          <a href={`#${anchorOf(t)}`} data-toc-ref={t.ref}><span class="t">{t.label}</span></a>
+          {subsOf(t.ref).length > 0 && (
+            <ol class="l2">
+              {subsOf(t.ref).map((s) => <li><a href={`#${anchorOf(s)}`} data-toc-ref={s.ref}>{s.label.split(", ").at(-1)}</a></li>)}
+            </ol>
+          )}
+        </li>
+      ))}
+    </ol>
+  </Fragment>
+
+  <header class="doc-head">
+    <span class="eyebrow">{COLLECTIONS[work.collection]}</span>
+    <h1 data-pagefind-meta="title" data-pagefind-filter={`work:${work.title}`}>{work.title}</h1>
+    <div class="doc-meta" data-pagefind-ignore>
+      {work.date && <span class="chip">{formatDate(work.date)}</span>}
+      <span class="chip">{formatNumber(work.passages)} passages</span>
+      <span class="chip">{work.edition.name}</span>
+    </div>
+    {hasChanged && (
+      <p class="doc-note" data-pagefind-ignore>
+        Spelling and punctuation follow the original. <mark class="chg">Highlighted text</mark> is marked by the
+        National Archives as changed by a later amendment; the small numeral after it links to that amendment.
+      </p>
+    )}
+  </header>
+
+  <div class="blocks">
+    {page.blocks.map((b) => (b.type === "heading" ? <ReaderHeading block={b} /> : <Passage block={b} />))}
+  </div>
+
+  <Fragment slot="panel">
+    <span class="eyebrow">About this text</span>
+    <h2>{work.title}</h2>
+    <dl>
+      {work.date && <Fragment><dt>Date</dt><dd>{formatDate(work.date)}</dd></Fragment>}
+      <dt>Passages</dt><dd>{formatNumber(work.passages)}</dd>
+      <dt>Edition</dt><dd>{work.edition.name}</dd>
+    </dl>
+    <p><a href="/about/#editions">How this text was imported</a></p>
+  </Fragment>
+</Reader>

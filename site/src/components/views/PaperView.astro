@@ -1,0 +1,97 @@
+---
+import Reader from "../../layouts/Reader.astro";
+import Passage from "../Passage.astro";
+import AuthorChip from "../AuthorChip.astro";
+import Icon from "../Icon.astro";
+import { authorKey, authorText, formatNumber, readingMinutes } from "../../lib/data.js";
+
+// One part of a paged work (a Federalist paper).
+const { page, work } = Astro.props;
+const d = page.division;
+const attr = d.attribution;
+const authorNames = attr ? attr.names : [];
+---
+<Reader title={page.title} section={work.id} progress description={`${d.label}${d.title ? `: ${d.title}` : ""}. ${authorText(attr)}.`}>
+  <ol class="crumbs" slot="crumbs">
+    <li><a href="/">Library</a></li>
+    <li><a href={work.url}>{work.title}</a></li>
+    <li aria-current="page">No. {d.label.split(" ").at(-1)}</li>
+  </ol>
+
+  <Fragment slot="toc">
+    <h2>{work.title}</h2>
+    <ol>
+      {work.parts.map((p) => (
+        <li>
+          <a href={p.url} aria-current={p.ref === d.ref ? "page" : undefined}>
+            <span class="n">{p.label.split(" ").at(-1)}</span>
+            <span class:list={["dot", authorKey(p.attribution)]} aria-hidden="true"></span>
+            <span class="t">{p.title}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </Fragment>
+
+  <header class="doc-head">
+    <span class="eyebrow">{d.label}</span>
+    <h1 data-pagefind-meta="title" data-pagefind-filter={`work:${work.title}`}>{d.title}</h1>
+    {authorNames.map((n) => <span data-pagefind-filter={`author:${n}`}></span>)}
+    <div class="doc-meta" data-pagefind-ignore>
+      <AuthorChip attribution={attr} />
+      {d.publication.length > 0 && <span class="chip">{d.publication.join(" ")}</span>}
+      <span class="chip">{readingMinutes(d.words)} min read</span>
+    </div>
+    {d.notes.length > 0 && <p class="doc-note" data-pagefind-ignore>{d.notes[0]}</p>}
+  </header>
+
+  {d.salutation && <p class="salutation">{d.salutation}</p>}
+  <div class="blocks">
+    {page.blocks.map((b) => <Passage block={b} />)}
+  </div>
+  {d.signature && <p class="signature">{d.signature}</p>}
+
+  {page.notes.length > 0 && (
+    <section class="notes-section" aria-labelledby="notes-h">
+      <h2 id="notes-h">Notes</h2>
+      {page.notes.map((b) => <Passage block={b} />)}
+    </section>
+  )}
+
+  {d.variants.map((v) => (
+    <details class="variant" data-pagefind-ignore>
+      <summary>Second version printed in this edition</summary>
+      <p class="muted">{v.note}</p>
+      <div class="ptext">{v.paragraphs.map((p) => <p>{p}</p>)}</div>
+    </details>
+  ))}
+
+  <nav class="pager" aria-label="Papers" data-pagefind-ignore>
+    {page.prev && (
+      <a class="card prev" rel="prev" href={page.prev.url}>
+        <small><Icon name="left" />Previous</small>
+        <strong>{page.prev.label}</strong>
+        <span class="t">{page.prev.title}</span>
+      </a>
+    )}
+    {page.next && (
+      <a class="card next" rel="next" href={page.next.url}>
+        <small>Next<Icon name="right" /></small>
+        <strong>{page.next.label}</strong>
+        <span class="t">{page.next.title}</span>
+      </a>
+    )}
+  </nav>
+
+  <Fragment slot="panel">
+    <span class="eyebrow">About this paper</span>
+    <h2>{d.label}</h2>
+    <dl>
+      <dt>Author</dt><dd>{authorText(attr)}</dd>
+      {attr?.byline && <Fragment><dt>Byline</dt><dd>“{attr.byline}” in this edition</dd></Fragment>}
+      {d.publication.length > 0 && <Fragment><dt>Printed</dt><dd>{d.publication.join(" ")}</dd></Fragment>}
+      <dt>Paragraphs</dt><dd>{formatNumber(d.passages)}</dd>
+    </dl>
+    <p><a href="/about/#editions">About this edition</a></p>
+  </Fragment>
+</Reader>

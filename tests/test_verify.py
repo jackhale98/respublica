@@ -95,5 +95,21 @@ class OverruledFlag(unittest.TestCase):
         self.assertEqual(idx["by_ref"], {})
 
 
+
+class RefsLockTests(unittest.TestCase):
+    def test_dropped_ref_is_reported(self):
+        import tempfile
+        from pathlib import Path
+        from unittest import mock
+
+        from tools import refs
+
+        with tempfile.TemporaryDirectory() as tmp:
+            lock = Path(tmp) / "refs.lock"
+            lock.write_text("# header\nConstitution.1.8.3\nConstitution.1.8.99\n", encoding="utf-8")
+            with mock.patch.object(refs, "LOCK_PATH", lock):
+                self.assertEqual(refs.missing_locked(corpus()), ["Constitution.1.8.99"])
+
+
 if __name__ == "__main__":
     unittest.main()

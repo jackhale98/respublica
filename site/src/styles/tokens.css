@@ -1,0 +1,119 @@
+/* Design tokens. Brand colors, type and radii match CommonHall
+   (commonhall.org) so the two sites read as one project. */
+
+:root {
+  color-scheme: light;
+  --bg: #f6f6fb;
+  --bg-raised: #fff;
+  --bg-subtle: #eeeef7;
+  --border: #e2e2ee;
+  --border-strong: #9a9cb3;
+  --text: #12131f;
+  --text-muted: #4f5370;
+  --text-faint: #6e7290;
+  --brand: #5b4cf0;
+  --brand-strong: #3f32c4;
+  --brand-soft: #ecebff;
+  --link: #4337d6;
+  --focus: #5b4cf0;
+  --highlight: #e8a00c;
+  --highlight-soft: #fdf3dc;
+  --danger: #b4231b;
+  --grad: linear-gradient(120deg, #5b4cf0 0%, #7b5cff 45%, #1fb5d3 100%);
+  --grad-soft: radial-gradient(60% 80% at 15% 10%, #7b5cff2e, transparent 70%),
+    radial-gradient(50% 70% at 90% 20%, #1fb5d329, transparent 70%);
+  --header-bg: #ffffffd1;
+  --shadow: 0 1px 2px #12131f0a, 0 6px 20px #12131f0d;
+  --shadow-hover: 0 2px 6px #12131f0f, 0 14px 34px #4337d61f;
+  --scrim: #12131f66;
+
+  /* Federalist authors, fixed order (validated: adjacent CVD and
+     normal-vision separation pass in both modes; always shown with labels). */
+  --author-hamilton: #5b4cf0;
+  --author-disputed: #e87ba4;
+  --author-joint: #eda100;
+  --author-madison: #1baf7a;
+  --author-jay: #eb6834;
+
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-heading: "Bricolage Grotesque Variable", "Inter Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Source Serif 4 Variable", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --radius: 12px;
+  --radius-lg: 18px;
+  --page: 76rem;
+  --measure: 40rem;
+  --read-size: 1.1875rem;
+  --header-h: 3.75rem;
+}
+
+:root[data-size="s"] { --read-size: 1.0625rem; }
+:root[data-size="l"] { --read-size: 1.3125rem; }
+:root[data-size="xl"] { --read-size: 1.4375rem; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0b0c14;
+    --bg-raised: #161a2b;
+    --bg-subtle: #151727;
+    --border: #262a41;
+    --border-strong: #5e6385;
+    --text: #e8e9f3;
+    --text-muted: #a7abc6;
+    --text-faint: #8a8eab;
+    --brand: #8b80ff;
+    --brand-strong: #b8b1ff;
+    --brand-soft: #1f1c46;
+    --link: #aaa3ff;
+    --focus: #9b91ff;
+    --highlight: #f4b83f;
+    --highlight-soft: #33270b;
+    --danger: #ff8a80;
+    --grad: linear-gradient(120deg, #6d5ff7 0%, #8b6cff 45%, #22b8d6 100%);
+    --grad-soft: radial-gradient(60% 80% at 15% 10%, #7b5cff3d, transparent 70%),
+      radial-gradient(50% 70% at 90% 20%, #1fb5d32e, transparent 70%);
+    --header-bg: #0b0c14c7;
+    --shadow: 0 1px 2px #00000059, 0 6px 20px #0000004d;
+    --shadow-hover: 0 2px 6px #0006, 0 14px 34px #00000073;
+    --scrim: #000000a0;
+    --author-hamilton: #8b80ff;
+    --author-disputed: #d55181;
+    --author-joint: #c98500;
+    --author-madison: #199e70;
+    --author-jay: #d95926;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0b0c14;
+  --bg-raised: #161a2b;
+  --bg-subtle: #151727;
+  --border: #262a41;
+  --border-strong: #5e6385;
+  --text: #e8e9f3;
+  --text-muted: #a7abc6;
+  --text-faint: #8a8eab;
+  --brand: #8b80ff;
+  --brand-strong: #b8b1ff;
+  --brand-soft: #1f1c46;
+  --link: #aaa3ff;
+  --focus: #9b91ff;
+  --highlight: #f4b83f;
+  --highlight-soft: #33270b;
+  --danger: #ff8a80;
+  --grad: linear-gradient(120deg, #6d5ff7 0%, #8b6cff 45%, #22b8d6 100%);
+  --grad-soft: radial-gradient(60% 80% at 15% 10%, #7b5cff3d, transparent 70%),
+    radial-gradient(50% 70% at 90% 20%, #1fb5d32e, transparent 70%);
+  --header-bg: #0b0c14c7;
+  --shadow: 0 1px 2px #00000059, 0 6px 20px #0000004d;
+  --shadow-hover: 0 2px 6px #0006, 0 14px 34px #00000073;
+  --scrim: #000000a0;
+  --author-hamilton: #8b80ff;
+  --author-disputed: #d55181;
+  --author-joint: #c98500;
+  --author-madison: #199e70;
+  --author-jay: #d95926;
+}

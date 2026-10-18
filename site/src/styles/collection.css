@@ -1,0 +1,47 @@
+/* Collection index (The Federalist). */
+
+.doc-stats { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin-top: 1.25rem; color: var(--text-muted); font-size: .95rem; }
+.doc-stats strong { font: 700 1.35rem/1 var(--font-heading); color: var(--text); margin-right: .3rem; }
+
+.authorship { padding: 1.25rem 1.25rem 1rem; margin-top: .5rem; }
+.authorship h2 { font: 600 .75rem/1 var(--font-sans); letter-spacing: .1em; text-transform: uppercase; color: var(--text-faint); margin-bottom: .9rem; }
+.author-bar { width: 100%; height: 14px; display: block; border-radius: 4px; }
+.seg-hamilton { fill: var(--author-hamilton); }
+.seg-disputed { fill: var(--author-disputed); }
+.seg-joint { fill: var(--author-joint); }
+.seg-madison { fill: var(--author-madison); }
+.seg-jay { fill: var(--author-jay); }
+.hatch-line { fill: var(--bg-raised); opacity: .45; }
+
+.filters { display: flex; flex-wrap: wrap; gap: .45rem; align-items: center; margin-top: 1rem; }
+.filters button {
+  display: inline-flex; align-items: center; gap: .45rem;
+  border: 1px solid var(--border); background: var(--bg-raised); color: var(--text);
+  border-radius: 999px; padding: .45rem .8rem; font: 500 .88rem/1 var(--font-sans); cursor: pointer;
+}
+.filters button span:last-child { color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.filters button:hover { border-color: var(--border-strong); }
+.filters button[aria-pressed="true"] { background: var(--text); color: var(--bg-raised); border-color: var(--text); }
+.filters button[aria-pressed="true"] span:last-child { color: inherit; opacity: .7; }
+.filter-search {
+  display: inline-flex; align-items: center; gap: .4rem; margin-left: auto;
+  border: 1px solid var(--border); border-radius: 999px; padding: 0 .8rem; background: var(--bg-raised);
+  flex: 1 1 14rem; max-width: 20rem;
+}
+.filter-search svg { width: 16px; height: 16px; color: var(--text-faint); }
+.filter-search input { border: 0; outline: 0; background: transparent; color: var(--text); font: 400 .9rem/1 var(--font-sans); padding: .55rem 0; width: 100%; }
+:root:not(.js) .filters { display: none; }
+.legend-note { margin: .9rem 0 0; font-size: .82rem; color: var(--text-muted); }
+
+.showing { margin: 1.75rem 0 .75rem; font-size: .85rem; color: var(--text-muted); }
+:root:not(.js) .showing { display: none; }
+
+.papers { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); }
+.papers li[hidden] { display: none; }
+.paper { display: flex; flex-direction: column; height: 100%; padding: 1rem 1.1rem; }
+.paper-top { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+.paper-no { font: 700 1.6rem/1 var(--font-heading); letter-spacing: -.02em; color: var(--text); font-variant-numeric: tabular-nums; }
+.paper h3 { font: 600 1.02rem/1.35 var(--font-serif); margin: .7rem 0 .9rem; flex: 1; }
+.paper-foot { display: flex; justify-content: space-between; gap: .75rem; font-size: .78rem; color: var(--text-faint); }
+.no-match { text-align: center; color: var(--text-muted); padding: 2rem; }
+.linkish { border: 0; background: none; color: var(--link); text-decoration: underline; cursor: pointer; padding: 0; }

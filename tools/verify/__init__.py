@@ -294,10 +294,50 @@ def check_overruled_flags(corpus: Corpus) -> list[str]:
     return errors
 
 
+def check_refs_locked(corpus: Corpus) -> list[str]:
+    """Published refs never disappear (CLAUDE.md rule 6)."""
+    from tools.refs import LOCK_PATH, missing_locked
+
+    if not LOCK_PATH.exists():
+        return ["refs.lock is missing (run python -m tools.refs lock)"]
+    return [f"locked ref {r} no longer exists; published refs are permanent (use docs/errata.md)"
+            for r in missing_locked(corpus)]
+
+
+# Free-tier budgets for the repository (see docs/decisions.md). GitHub warns
+# at 50 MB per file, rejects 100 MB, and recommends repositories under 1 GB.
+RAW_FILE_BUDGET = 40 * 1024 * 1024
+RAW_TOTAL_BUDGET = 300 * 1024 * 1024
+DATA_FILE_BUDGET = 20 * 1024 * 1024
+
+
+def check_repo_budgets(corpus: Corpus) -> list[str]:
+    errors = []
+    total = 0
+    if RAW_DIR.exists():
+        for f in RAW_DIR.rglob("*"):
+            if f.is_file():
+                size = f.stat().st_size
+                total += size
+                if size > RAW_FILE_BUDGET:
+                    errors.append(f"{f.relative_to(ROOT)} is {size // 2**20} MB; budget is "
+                                  f"{RAW_FILE_BUDGET // 2**20} MB per raw file (prefer a text layer over scans)")
+    if total > RAW_TOTAL_BUDGET:
+        errors.append(f"sources/raw totals {total // 2**20} MB; budget is {RAW_TOTAL_BUDGET // 2**20} MB")
+    for d in (TEXTS_DIR, CASES_DIR, LINKS_DIR):
+        if d.exists():
+            for f in d.rglob("*"):
+                if f.is_file() and f.stat().st_size > DATA_FILE_BUDGET:
+                    errors.append(f"{f.relative_to(ROOT)} exceeds {DATA_FILE_BUDGET // 2**20} MB; split it")
+    return errors
+
+
 CHECKS = [
     ("sources", lambda c: check_manifest()),
+    ("budgets", check_repo_budgets),
     ("texts", check_texts),
     ("reproducible", lambda c: check_reproducible()),
+    ("refs", check_refs_locked),
     ("links", check_links),
     ("overruled", check_overruled_flags),
 ]

@@ -1,0 +1,28 @@
+---
+// Small stroke icons (24px grid, 1.75 stroke), drawn for this site.
+const { name, label } = Astro.props;
+const paths = {
+  search: ["M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14Z", "m20 20-4-4"],
+  sun: ["M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z", "M12 2v2", "M12 20v2", "m4.9 4.9 1.4 1.4", "m17.7 17.7 1.4 1.4", "M2 12h2", "M20 12h2", "m4.9 19.1 1.4-1.4", "m17.7 6.3 1.4-1.4"],
+  moon: ["M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"],
+  system: ["M4 5h16v11H4z", "M8 20h8", "M12 16v4"],
+  link: ["M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1", "M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"],
+  copy: ["M9 9h11v11H9z", "M5 15H4V4h11v1"],
+  x: ["M6 6l12 12", "M18 6 6 18"],
+  left: ["M15 18l-6-6 6-6"],
+  right: ["m9 18 6-6-6-6"],
+  arrow: ["M5 12h14", "m13 6 6 6-6 6"],
+  list: ["M8 6h12", "M8 12h12", "M8 18h12", "M4 6h.01", "M4 12h.01", "M4 18h.01"],
+  text: ["M4 7V5h10v2", "M9 5v14", "M7 19h4", "M14 13v-1h6v1", "M17 12v7", "M15.5 19h3"],
+  book: ["M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15Z", "M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"],
+  scale: ["M12 3v18", "M7 21h10", "M5 7h14", "M5 7l-3 7a3 3 0 0 0 6 0Z", "M19 7l-3 7a3 3 0 0 0 6 0Z"],
+  feather: ["M20 4c-6 0-12 4-13 13l-3 3", "M7 17c5 0 9-3 10-8", "M11 13h5"],
+  scroll: ["M8 3h11a2 2 0 0 1 2 2v1h-4", "M17 6v13a2 2 0 0 1-4 0v-1H4V5a2 2 0 0 1 2-2h2", "M8 8h5", "M8 12h5"],
+  check: ["M5 12.5l4.5 4.5L19 7"],
+  graph: ["M6 6a2 2 0 1 0 0 .01", "M18 8a2 2 0 1 0 0 .01", "M12 18a2 2 0 1 0 0 .01", "M7.5 7.2 16.4 8", "M7 7.7l4 8.6", "m17 9.7-4 6.6"],
+};
+const d = paths[name] || [];
+---
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden={label ? undefined : "true"} role={label ? "img" : undefined} aria-label={label}>
+  {d.map((p) => <path d={p} />)}
+</svg>

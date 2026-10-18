@@ -55,7 +55,8 @@ and quote-mark style (curly vs straight). See `tools/common.py`,
 ## The Federalist
 
 - **Base:** Project Gutenberg eBook #18, *The Federalist Papers* (source
-  `gutenberg-federalist-18`). Chosen in decision 8 of `docs/decisions.md`.
+  `gutenberg-federalist-18`). Chosen in decision 8 of `docs/decisions.md` and
+  confirmed by the project owner in decision 14.
 - **What it gives:** all 85 papers, each with the edition's newspaper line
   (e.g. "From the New York Packet. Friday, November 23, 1787."), an
   attribution byline, footnotes, and italics.

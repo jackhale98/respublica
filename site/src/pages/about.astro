@@ -1,46 +1,97 @@
 ---
+import "../styles/about.css";
 import Base from "../layouts/Base.astro";
-import { loadManifest, loadWorks, safeUrl } from "../lib/data.js";
+import { formatDate, loadManifest, loadSite, safeUrl } from "../lib/data.js";
 
 const sources = loadManifest();
-const works = loadWorks();
+const site = loadSite();
+const sourceById = Object.fromEntries(sources.map((s) => [s.id, s]));
 ---
-<Base title="About & editions">
-  <article class="prose">
-    <h1>About &amp; editions</h1>
-    <p>
-      Res Publica is a static, open-source library. No text on this site was typed by hand or
-      written by a model: each work is produced by an importer script from a downloaded original,
-      and a check re-runs every importer to confirm the published text matches its source exactly.
-      Suspected transcription errors are listed in the project's errata log, not silently fixed.
-    </p>
-    <h2>Connections</h2>
-    <p>
-      Each connection between passages records its type, a short rationale, who or what proposed it,
-      and its review status. Connections proposed by a machine are labeled <em>suggested</em> until a
-      person reviews them. Quotations in connections are checked by code against the text.
-    </p>
-    <h2>Works and editions</h2>
-    <ul>
-      {works.map((w) => (
-        <li><strong>{w.title}</strong>: {w.edition.name}. {w.edition.notes}</li>
+<Base title="About & editions" section="about" description="How Res Publica's texts are imported, how passages are referenced, and how connections are reviewed.">
+  <section class="page-head">
+    <div class="container">
+      <p class="eyebrow">About</p>
+      <h1>How this library works</h1>
+      <p class="lede">
+        Res Publica is a free, nonpartisan, open-source library. It is built so that you can check every claim it
+        makes: where each text came from, how each passage is numbered, and who connected two passages and why.
+      </p>
+    </div>
+  </section>
+
+  <div class="container about">
+    <nav class="about-nav" aria-label="On this page">
+      <a href="#texts">Texts</a><a href="#refs">References</a><a href="#connections">Connections</a><a href="#editions">Editions</a><a href="#privacy">Privacy</a><a href="#open">Open source</a>
+    </nav>
+
+    <div class="prose">
+      <h2 id="texts">Where the texts come from</h2>
+      <ol class="steps">
+        <li><strong>Download.</strong> Each source is downloaded once from a public-domain original, and its address, date and checksum are recorded.</li>
+        <li><strong>Import.</strong> A program splits the original into passages. It may collapse spacing and remove markup, but never changes a word, a spelling or a mark of punctuation. Original spellings such as “chuse” and “defence” stay.</li>
+        <li><strong>Verify.</strong> Before anything is published, every import is run again and must reproduce the published text exactly, so no passage can be retyped or “corrected” by hand.</li>
+        <li><strong>Flag, don't fix.</strong> Suspected transcription errors are listed in a public errata log for a person to check against a page image.</li>
+      </ol>
+
+      <h2 id="refs">Every passage has a permanent address</h2>
+      <p>References are short names that never change once published. Link to one, cite one, or type one into search.</p>
+      <table class="ref-table">
+        <thead><tr><th scope="col">Reference</th><th scope="col">Means</th></tr></thead>
+        <tbody>
+          <tr><td><a class="ref-chip" href="/constitution/#Constitution.Preamble">Constitution.Preamble</a></td><td>The Preamble</td></tr>
+          <tr><td><a class="ref-chip" href="/constitution/#Constitution.1.8.3">Constitution.1.8.3</a></td><td>Article I, Section 8, Clause 3</td></tr>
+          <tr><td><a class="ref-chip" href="/constitution/#Constitution.6.2">Constitution.6.2</a></td><td>Article VI, Clause 2 (Articles V–VII have no sections)</td></tr>
+          <tr><td><a class="ref-chip" href="/amendments/#Amendment.14.1">Amendment.14.1</a></td><td>Amendment XIV, Section 1</td></tr>
+          <tr><td><a class="ref-chip" href="/federalist/10/#Federalist.10.1">Federalist.10.1</a></td><td>The Federalist No. 10, first paragraph</td></tr>
+        </tbody>
+      </table>
+
+      <h2 id="connections">Connections and review</h2>
+      <p>
+        A connection says how two passages relate: one <em>quotes</em>, <em>cites</em>, <em>responds to</em> or
+        <em>rebuts</em> another, a case <em>interprets</em> a clause, and so on. Each one records why it was made,
+        who or what made it, and whether a person has reviewed it.
+      </p>
+      <ul class="legend">
+        <li><span class="badge suggested">Suggested</span> Proposed by a machine and not yet reviewed by a person. Shown with a dashed border.</li>
+        <li><span class="badge reviewed">Reviewed</span> Checked by a person.</li>
+        <li><span class="badge overruled">Overruled</span> A case that a later decision overruled, recorded with a source for that fact.</li>
+      </ul>
+      <p>Any quotation shown in a connection is checked by code against the text, letter for letter.</p>
+
+      <h2 id="editions">Editions</h2>
+      {site.works.map((w) => (
+        <section class="edition card">
+          <h3>{w.title}</h3>
+          <p class="muted">{w.edition.name}{w.date && ` · ${formatDate(w.date)}`}</p>
+          <p>{w.edition.notes}</p>
+          <ul class="src-list">
+            {w.source_ids.map((id) => {
+              const s = sourceById[id];
+              const url = s && safeUrl(s.url);
+              return s && (
+                <li>
+                  {url ? <a href={url} rel="noopener noreferrer">{s.notes || s.id}</a> : (s.notes || s.id)}
+                  <span class="muted"> Retrieved {formatDate(s.retrieved_at)}. {s.license}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
       ))}
-    </ul>
-    <h2>Sources</h2>
-    <table class="sources">
-      <thead><tr><th scope="col">Source</th><th scope="col">Retrieved</th><th scope="col">License</th></tr></thead>
-      <tbody>
-        {sources.map((s) => {
-          const url = safeUrl(s.url);
-          return (
-            <tr>
-              <td>{url ? <a href={url} rel="noopener noreferrer">{s.id}</a> : s.id}<br /><span class="muted">{s.notes}</span></td>
-              <td>{s.retrieved_at}</td>
-              <td>{s.license}</td>
-            </tr>
-          );
-        })}
-      </tbody>
-    </table>
-  </article>
+
+      <h2 id="privacy">Privacy</h2>
+      <p>
+        No accounts, no cookies, no analytics, and no third-party scripts. Your color theme and text size are kept
+        only in your own browser.
+      </p>
+
+      <h2 id="open">Open source</h2>
+      <p>
+        The code is MIT-licensed; connections and editorial content are CC BY-SA 4.0; the source texts are in the
+        public domain. Everything, including the checks described here, is on
+        <a href="https://github.com/jackhale98/respublica" rel="noopener">GitHub</a>.
+      </p>
+    </div>
+  </div>
 </Base>

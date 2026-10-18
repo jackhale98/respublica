@@ -1,36 +1,123 @@
 ---
-import "../styles/site.css";
+import "@fontsource-variable/inter/wght.css";
+import "@fontsource-variable/bricolage-grotesque/wght.css";
+import "@fontsource-variable/source-serif-4/wght.css";
+import "@fontsource-variable/source-serif-4/wght-italic.css";
+import "../styles/tokens.css";
+import "../styles/base.css";
+import "../styles/search.css";
+import Icon from "../components/Icon.astro";
+import Logo from "../components/Logo.astro";
 
-const { title, description = "A library of America's founding texts, with verified links between passages." } = Astro.props;
-const pageTitle = title ? `${title} · Res Publica` : "Res Publica";
+const {
+  title,
+  description = "A free, open library of America's founding texts, with a permanent reference for every passage and verified links between them.",
+  section,
+} = Astro.props;
+const pageTitle = title ? `${title} · Res Publica` : "Res Publica: America's founding texts, connected";
+const nav = [
+  { href: "/constitution/", label: "Constitution", key: "constitution" },
+  { href: "/amendments/", label: "Amendments", key: "amendments" },
+  { href: "/federalist/", label: "The Federalist", short: "Federalist", key: "federalist" },
+  { href: "/about/", label: "About", key: "about" },
+];
+const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <meta name="description" content={description} />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f6f6fb" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0b0c14" media="(prefers-color-scheme: dark)" />
     <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script is:inline src="/theme.js"></script>
   </head>
   <body>
-    <a class="skip" href="#main">Skip to text</a>
+    <a class="skip" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="brand" href="/">Res Publica</a>
-      <nav aria-label="Site">
-        <a href="/">Library</a>
-        <a href="/about/">About &amp; editions</a>
+      <div class="container bar">
+        <a class="brand" href="/" aria-label="Res Publica home"><Logo /><span>Res Publica</span></a>
+        <nav class="primary-nav" aria-label="Primary">
+          {nav.map((n) => <a href={n.href} aria-current={section === n.key ? "page" : undefined}>{n.label}</a>)}
+        </nav>
+        <div class="header-actions">
+          <a class="icon-btn search-trigger" href="/search/" data-search-open aria-label="Search (press / )">
+            <Icon name="search" /><span class="label">Search or jump to…</span><kbd>/</kbd>
+          </a>
+          <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="Color theme: system">
+            <span data-icon="system"><Icon name="system" /></span>
+            <span data-icon="light"><Icon name="sun" /></span>
+            <span data-icon="dark"><Icon name="moon" /></span>
+          </button>
+        </div>
+      </div>
+      <nav class="mobile-nav" aria-label="Primary">
+        {nav.map((n) => <a href={n.href} aria-current={section === n.key ? "page" : undefined}>{n.short || n.label}</a>)}
       </nav>
     </header>
-    <main id="main">
+
+    <main id="main" tabindex="-1">
       <slot />
     </main>
+
     <footer class="site-footer">
-      <p>
-        Source texts are public domain and imported by code from the originals listed on
-        <a href="/about/">About &amp; editions</a>. Links marked <em>suggested</em> were proposed by a
-        machine and have not been reviewed by a person.
-      </p>
+      <div class="container">
+        <div>
+          <a class="brand" href="/"><Logo id="rp-grad-footer" /><span>Res Publica</span></a>
+          <p>
+            A free, nonpartisan, open-source library of America's founding texts. Every text is imported
+            by code from a public-domain original, and every connection shows who made it and whether a
+            person has reviewed it.
+          </p>
+        </div>
+        <div>
+          <h2>Read</h2>
+          <ul>
+            <li><a href="/constitution/">The Constitution</a></li>
+            <li><a href="/amendments/">Amendments</a></li>
+            <li><a href="/federalist/">The Federalist</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Project</h2>
+          <ul>
+            <li><a href="/about/">About &amp; editions</a></li>
+            <li><a href="/search/">Search</a></li>
+            <li><a href="https://commonhall.org/" rel="noopener">CommonHall</a></li>
+            <li><a href="https://github.com/jackhale98/respublica" rel="noopener">Source code</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
+
+    <dialog class="search-dialog" id="search-dialog" aria-label="Search">
+      <form class="search-box" method="dialog" role="search" data-search-form>
+        <Icon name="search" />
+        <input type="search" name="q" placeholder="Search texts, or jump to “Fed 10” or “1.8.3”" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="search-results" data-search-input />
+        <button type="button" class="icon-btn" data-search-close aria-label="Close search"><kbd>Esc</kbd></button>
+      </form>
+      <div class="search-filters" data-search-filters hidden></div>
+      <div class="search-results" id="search-results" role="listbox" aria-label="Results" data-search-results></div>
+      <div class="search-foot">
+        <span><kbd>↑</kbd> <kbd>↓</kbd> to move</span>
+        <span><kbd>Enter</kbd> to open</span>
+        <span class="hide-sm">Try “Federalist 51”, “Article I, Section 8”, “Amendment 14”</span>
+      </div>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+
+    <script>
+      import "../scripts/site.ts";
+    </script>
   </body>
 </html>

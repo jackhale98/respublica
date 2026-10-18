@@ -1,29 +1,147 @@
 ---
+import "../styles/home.css";
 import Base from "../layouts/Base.astro";
-import { loadWorks } from "../lib/data.js";
+import Icon from "../components/Icon.astro";
+import { AUTHORS, authorKey, formatDate, formatNumber, loadPage, loadRefs, loadSite } from "../lib/data.js";
 
-const works = loadWorks();
-const authorLine = (w) => w.attribution?.pseudonym
-  ? `${w.attribution.pseudonym} (${w.attribution.names.join(", ")})`
-  : (w.attribution?.names || []).join(", ");
+const site = loadSite();
+const refs = loadRefs();
+const works = Object.fromEntries(site.works.map((w) => [w.id, w]));
+const constitution = works.constitution;
+const amendments = works.amendments;
+const federalist = works.federalist;
+const articles = loadPage("constitution").toc.filter((t) => t.level === 1 && t.label.startsWith("Article")).length;
+const clauses = loadPage("constitution").blocks.filter((b) => b.type === "passage" && /^Constitution\.\d/.test(b.ref)).length;
+
+// Quick ways in, resolved through the ref index so they can't go stale.
+const jumps = ["Constitution.Preamble", "Constitution.1.8", "Amendment.1", "Amendment.14", "Federalist.10", "Federalist.51"]
+  .filter((r) => refs[r])
+  .map((r) => ({ ref: r, url: refs[r].url, label: refs[r].label.replace("Article I, ", "Art. I, ") }));
+
+const fedCounts = AUTHORS.map((a) => ({ ...a, n: federalist ? federalist.parts.filter((p) => authorKey(p.attribution) === a.key).length : 0 })).filter((a) => a.n);
+const fedTotal = federalist?.parts.length ?? 0;
+let acc = 0;
+const fedSegs = fedCounts.map((a) => {
+  const x = acc;
+  acc += a.n;
+  return { ...a, x: (x / fedTotal) * 100, w: (a.n / fedTotal) * 100 };
+});
+const featured = site.featured;
 ---
 <Base>
-  <section class="intro">
-    <h1>Res Publica</h1>
-    <p>
-      A library of America's founding texts. Every passage has a permanent reference, and every
-      connection between passages records who made it, why, and whether a person has reviewed it.
-    </p>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Free · Nonpartisan · Open source</p>
+        <h1>America's founding texts, <span class="grad">connected.</span></h1>
+        <p class="lede">
+          Read the Constitution, its amendments and The Federalist, with a permanent reference for every
+          passage and links you can check between them.
+        </p>
+        <a class="hero-search" href="/search/" data-search-open>
+          <Icon name="search" />
+          <span>Search, or jump to “Federalist 10” or “1.8.3”</span>
+          <kbd>/</kbd>
+        </a>
+        <ul class="jumps" aria-label="Popular passages">
+          {jumps.map((j) => <li><a href={j.url}>{j.label}</a></li>)}
+        </ul>
+      </div>
+      {featured && (
+        <figure class="featured card">
+          <div class="featured-top">
+            <span class="eyebrow">From the Constitution</span>
+            <a class="ref-chip" href={featured.url}>{featured.ref}</a>
+          </div>
+          <blockquote>{featured.text}</blockquote>
+          <figcaption>
+            <span>{constitution.title} · {formatDate(constitution.date)}</span>
+            <a href={constitution.url}>Read it <Icon name="arrow" /></a>
+          </figcaption>
+        </figure>
+      )}
+    </div>
   </section>
-  <section aria-labelledby="works-h">
-    <h2 id="works-h">Works</h2>
-    <ul class="works">
-      {works.map((w) => (
-        <li>
-          <a class="work-title" href={`/texts/${w.id}/`}>{w.title}</a>
-          <span class="work-meta">{authorLine(w)} · {w.segments.length} passages · {w.edition.name}</span>
-        </li>
-      ))}
-    </ul>
+
+  <section class="container section" aria-labelledby="library-h">
+    <div class="section-head">
+      <h2 id="library-h">The library</h2>
+      <p>{formatNumber(site.stats.passages)} passages, each with its own permanent address.</p>
+    </div>
+    <div class="works-grid">
+      <a class="card work-card w-constitution" href={constitution.url}>
+        <span class="work-icon"><Icon name="scroll" /></span>
+        <h3>The Constitution</h3>
+        <p>The text signed in Convention on {formatDate(constitution.date)}, in the National Archives transcription of the parchment, original spelling and all.</p>
+        <div class="work-meta"><span>{articles} articles</span><span>{clauses} clauses</span></div>
+      </a>
+      <a class="card work-card w-amendments" href={amendments.url}>
+        <span class="work-icon"><Icon name="book" /></span>
+        <h3>The Amendments</h3>
+        <p>All {amendments.top_divisions} amendments, from the Bill of Rights to the Twenty-seventh, in the National Archives transcriptions.</p>
+        <div class="work-meta"><span>{amendments.top_divisions} amendments</span><span>{formatDate(amendments.date)}</span></div>
+      </a>
+      {federalist && (
+        <a class="card work-card w-federalist" href={federalist.url}>
+          <span class="work-icon"><Icon name="feather" /></span>
+          <h3>The Federalist</h3>
+          <p>{fedTotal} essays by “Publius”, with each paper's author as given by its edition, including the papers whose authorship is disputed.</p>
+          <div class="mini-bar" role="img" aria-label={fedCounts.map((a) => `${a.label} ${a.n}`).join(", ")}>
+            <svg viewBox="0 0 100 6" preserveAspectRatio="none" aria-hidden="true">
+              {fedSegs.map((s) => <rect class={`seg-${s.key}`} x={s.x + 0.3} y="0" width={Math.max(s.w - 0.6, 0.5)} height="6" />)}
+            </svg>
+          </div>
+          <div class="work-meta">{fedCounts.map((a) => <span><span class:list={["dot", a.key]} aria-hidden="true"></span>{a.label} {a.n}</span>)}</div>
+        </a>
+      )}
+      <div class="card work-card soon">
+        <span class="work-icon"><Icon name="feather" /></span>
+        <h3>Anti-Federalist essays <span class="badge soon">Coming</span></h3>
+        <p>Brutus, the Federal Farmer, Centinel and others: the case against ratification, from public-domain printings.</p>
+      </div>
+      <div class="card work-card soon">
+        <span class="work-icon"><Icon name="scale" /></span>
+        <h3>Supreme Court <span class="badge soon">Coming</span></h3>
+        <p>Landmark cases linked to the clauses they interpret, keyed to CourtListener.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section" aria-labelledby="trust-h">
+    <div class="section-head">
+      <h2 id="trust-h">Built to be checked</h2>
+      <p>Nothing here asks for your trust without showing its work.</p>
+    </div>
+    <div class="trust-grid">
+      <div class="trust">
+        <span class="trust-icon"><Icon name="check" /></span>
+        <h3>Texts from the originals</h3>
+        <p>Every text is imported by code from a public-domain original. An automated check re-runs each import to prove no word was retyped or changed by hand.</p>
+      </div>
+      <div class="trust">
+        <span class="trust-icon"><Icon name="link" /></span>
+        <h3>A permanent address for every passage</h3>
+        <p>References never change, so citations and links keep working.</p>
+        <p class="refs-demo">
+          {["Constitution.1.8.3", "Amendment.14.1", "Federalist.10.1"].filter((r) => refs[r]).map((r) => <a class="ref-chip" href={refs[r].url}>{r}</a>)}
+        </p>
+      </div>
+      <div class="trust">
+        <span class="trust-icon"><Icon name="graph" /></span>
+        <h3>Connections with provenance</h3>
+        <p>Each link between passages records its type, the reason for it, who made it, and whether a person has reviewed it. Machine suggestions are always labeled.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section">
+    <a class="card commonhall" href="https://commonhall.org/" rel="noopener">
+      <div>
+        <span class="eyebrow">A CommonHall project</span>
+        <h2>From the founding to today</h2>
+        <p>CommonHall follows the bills, votes and people shaping government now. Res Publica is the library behind it.</p>
+      </div>
+      <span class="btn btn-primary">Visit CommonHall <Icon name="arrow" /></span>
+    </a>
   </section>
 </Base>

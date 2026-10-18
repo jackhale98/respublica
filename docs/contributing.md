@@ -16,10 +16,12 @@ Read `CLAUDE.md` first; its rules apply to people and agents alike.
 | `make fetch` | Restores any raw file listed in `sources/manifest.json` that is missing locally. Refuses a download whose checksum no longer matches. |
 | `make import` | Runs every importer (`python -m importers`), writing `texts/`. |
 | `make verify` | Runs the unit tests and every data check. Must pass before any task is finished. |
-| `make build` | Builds link data for the site, builds the site into `site/dist/`, and checks the output. |
-| `make dev` | Runs the site locally. |
+| `make lock-refs` | Adds any new refs to `refs.lock`. Run it when an importer adds passages. |
+| `make build` | Builds the site data (`tools/site_data.py`), the site and its Pagefind search index into `site/dist/`, then checks the output. |
+| `make dev` | Runs the site locally (search needs `make build`; the dev server has no index). |
 
-CI runs `make verify` and `make build` on every pull request.
+CI runs `make verify` and `make build` on every pull request. Every push to
+`main` also deploys `site/dist/` to GitHub Pages (`.github/workflows/deploy.yml`).
 
 ## Adding a raw source
 
@@ -83,15 +85,32 @@ One linker run covers one unit (for example, one Federalist paper).
 
 | Check | Rule |
 |---|---|
+| `budgets` | Raw files stay under 40 MB each and 300 MB in total; data files under 20 MB (decision 15). |
 | `sources` | Every manifest entry has id, url, retrieved_at, sha256, license, notes and path; every raw file matches its sha256; every file in `sources/raw/` is in the manifest; every URL is http(s). |
 | `texts` | Required fields; refs are unique and start with the work's `ref_prefix`; texts are non-empty and contain no markup; `source_ids` are in the manifest; emphasis spans are in range; every `changed_by` quote is in its text and names a real amendment; every division has segments; every URL field is http(s). |
 | `reproducible` | Re-runs every importer into a temporary directory and requires `texts/` to match byte for byte. Every file in `texts/` must come from an importer. |
+| `refs` | Every ref in `refs.lock` still exists. Published refs are never dropped or renumbered. |
 | `links` | Known keys and link types; ids match `lnk_…` and are unique across all files; both refs exist; quotes are exact substrings (whitespace and quote-mark style only); a rationale, or a source for imported links; `created_by` is complete; proposals are `suggested`; reviewed links name a reviewer; `overrules` links are case-to-case and cite a source; `interprets` links start from a case; URLs are http(s). |
 | `overruled` | Every link touching an overruled case is flagged in the site's link data. |
 
 Unit tests in `tests/` exercise these checks against bad records.
 
 `make build` also runs `tools/check_site.py` on the built site: one strict
-Content Security Policy per page, no third-party or inline scripts, no inline
+Content Security Policy per page (only `'self'`, hashes, and
+`'wasm-unsafe-eval'` for search), no third-party or inline scripts, no inline
 event handlers or style attributes, only http(s) absolute URLs, no broken
-internal links or anchors, and every segment ref rendered on some page.
+internal links or anchors, every segment ref rendered on some page, and the
+free-tier budgets of decision 15.
+
+## The site
+
+- `tools/site_data.py` turns `texts/`, `cases/` and `links/` into
+  `site/.data/` (one JSON file per page). Page structure, URLs, text runs
+  (italics, amendment marks) and how connections are shown are decided there
+  and tested in `tests/test_site_data.py`. Astro only renders.
+- URLs are permanent (decision 17). Every passage's element id is its ref.
+- Styles live in `site/src/styles/` (`tokens.css` holds the design tokens
+  shared with CommonHall). Scripts live in `site/src/scripts/`; each is a
+  progressive enhancement, and every page must work without JavaScript.
+- No third-party scripts or fonts are loaded from other sites. Fonts come
+  from pinned Fontsource packages. Ask before adding any dependency.

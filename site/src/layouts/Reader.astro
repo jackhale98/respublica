@@ -1,0 +1,34 @@
+---
+import "../styles/reader.css";
+import Base from "./Base.astro";
+import Icon from "../components/Icon.astro";
+import Panel from "../components/Panel.astro";
+
+// Reader shell: contents (slot "toc"), the text (default slot) and the
+// passage panel (slot "panel" holds its default content).
+const { title, description, section, progress = false } = Astro.props;
+---
+<Base title={title} description={description} section={section}>
+  {progress && <div class="progress" aria-hidden="true"></div>}
+  <div class="container reader" data-reader>
+    <nav class="toc" id="toc" aria-label="Contents" data-toc-nav>
+      <button class="icon-btn toc-close" type="button" data-toc-close aria-label="Close contents"><Icon name="x" /></button>
+      <slot name="toc" />
+    </nav>
+    <article class="sheet" data-pagefind-body>
+      <div class="sheet-inner">
+        <div class="reader-tools" data-pagefind-ignore>
+          <slot name="crumbs" />
+          <button class="icon-btn toc-open" type="button" data-toc-open aria-controls="toc" aria-label="Contents"><Icon name="list" /><span>Contents</span></button>
+          <button class="icon-btn size-toggle" type="button" data-size-toggle aria-label="Text size"><Icon name="text" /></button>
+        </div>
+        <slot />
+      </div>
+    </article>
+    <Panel><slot name="panel" /></Panel>
+  </div>
+  <div class="scrim" data-scrim></div>
+  <script>
+    import "../scripts/reader.ts";
+  </script>
+</Base>

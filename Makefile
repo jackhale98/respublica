@@ -4,13 +4,14 @@
 PYTHON ?= python3
 NPM ?= npm
 
-.PHONY: help fetch import verify test site-data build dev clean
+.PHONY: help fetch import verify test lock-refs site-data build dev clean
 
 help:
 	@echo "make fetch      restore raw sources listed in sources/manifest.json"
 	@echo "make import     run every importer (sources/raw -> texts/)"
 	@echo "make verify     run all data checks and unit tests (required before finishing any task)"
-	@echo "make build      build the static site into site/dist and check it"
+	@echo "make lock-refs  add new refs to refs.lock (published refs are permanent)"
+	@echo "make build      build the site and its search index into site/dist, then check it"
 	@echo "make dev        run the site locally"
 
 fetch:
@@ -24,6 +25,9 @@ test:
 
 verify: test
 	$(PYTHON) -m tools.verify
+
+lock-refs:
+	$(PYTHON) -m tools.refs lock
 
 site-data:
 	$(PYTHON) -m tools.site_data

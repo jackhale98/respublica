@@ -1,0 +1,62 @@
+---
+import { localUrl } from "../lib/data.js";
+import Connection from "./Connection.astro";
+
+// One passage. Its element id is its ref, so /page/#Ref links to it.
+const { block } = Astro.props;
+const conns = block.connections || [];
+const lines = block.paras.some((p) => p.length > 1);
+const numeral = (label) => label.split(" ").at(-1);
+---
+<div
+  class:list={["passage", { note: block.kind === "footnote", lines }]}
+  id={block.ref}
+  data-ref={block.ref}
+  data-label={block.label}
+>
+  <a class="num" href={`#${block.ref}`} aria-label={`${block.label} (${block.ref})`} data-pagefind-ignore>{block.gutter || "·"}</a>
+  {conns.length > 0 && <span class="ccount" aria-hidden="true" title={`${conns.length} connections`}>{conns.length}</span>}
+  <div class="ptext">
+    {block.paras.map((lines) => (
+      <p>
+        {lines.map((runs, i) => (
+          <Fragment>
+            {i > 0 && <br />}
+            {runs.map((r, k) => {
+              const body = r.em ? <em>{r.t}</em> : r.t;
+              if (r.chg === undefined) return body;
+              const c = block.changed[r.chg];
+              const lastOfSpan = !runs.slice(k + 1).some((x) => x.chg === r.chg);
+              return (
+                <Fragment>
+                  <mark class="chg">{body}</mark>
+                  {lastOfSpan && localUrl(c.url) && (
+                    <sup class="chg-ref" data-pagefind-ignore>
+                      <a href={c.url} title={`The National Archives marks this text as changed by ${c.label}`}>{numeral(c.label)}</a>
+                    </sup>
+                  )}
+                </Fragment>
+              );
+            })}
+          </Fragment>
+        ))}
+      </p>
+    ))}
+  </div>
+  {block.changed.length > 0 && (
+    <template class="chg-data" data-pagefind-ignore>
+      The National Archives marks part of this text as changed by{" "}
+      {block.changed.map((c, i) => (
+        <Fragment>{i > 0 && (i === block.changed.length - 1 ? " and " : ", ")}{localUrl(c.url) ? <a href={c.url}>{c.label}</a> : c.label}</Fragment>
+      ))}.
+    </template>
+  )}
+  {conns.length > 0 && (
+    <details class="conns" data-pagefind-ignore>
+      <summary>{conns.length} connection{conns.length === 1 ? "" : "s"}</summary>
+      <ul class="conn-list">
+        {conns.map((c) => <Connection conn={c} />)}
+      </ul>
+    </details>
+  )}
+</div>

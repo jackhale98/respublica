@@ -1,0 +1,26 @@
+---
+import Base from "../../layouts/Base.astro";
+import Icon from "../../components/Icon.astro";
+---
+<Base title="Search" description="Search the full text of the library, or jump straight to a passage by its reference.">
+  <section class="page-head">
+    <div class="container">
+      <h1>Search</h1>
+      <p class="lede">Search every passage, or jump to one: try “Federalist 51”, “1.8.3”, “Amendment 14” or “art 2 sec 1”.</p>
+    </div>
+  </section>
+  <div class="container search-page" data-search-page>
+    <form class="search-box" role="search" action="/search/" method="get">
+      <Icon name="search" />
+      <input type="search" name="q" placeholder="Search the library" autocomplete="off" aria-label="Search" data-search-input />
+    </form>
+    <div class="search-filters" data-search-filters hidden></div>
+    <noscript><p class="sr-empty">Search needs JavaScript. Browse the <a href="/">library</a> instead.</p></noscript>
+    <div class="search-results" data-search-results></div>
+  </div>
+  <script>
+    import { attach } from "../../scripts/search.ts";
+    const page = document.querySelector<HTMLElement>("[data-search-page]");
+    if (page) attach(page, { initial: new URLSearchParams(location.search).get("q") || "", syncUrl: true });
+  </script>
+</Base>
