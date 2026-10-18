@@ -102,7 +102,7 @@ and quote-mark style (curly vs straight). See `tools/common.py`,
 
 ## The ratification debate
 
-Imported by `importers/ratification.py` (phase 5) from three public-domain
+Imported by `importers/ratification.py` (phase 5) from four public-domain
 compilations, read from the Internet Archive's scans. Modern compilations
 (Storing, 1981; Borden, 1965) are not candidates because of copyright.
 
@@ -111,6 +111,7 @@ compilations, read from the Internet Archive's scans. Modern compilations
 | Paul Leicester Ford, ed., *Essays on the Constitution of the United States* (Brooklyn, 1892) | layout and words: `essaysonconstitu00forduoft` (DjVu XML); checked against the OCR text of `EssaysOnTheConstitutionOfTheUnitedStates` and `essaysonconstit00fordgoog` | every section: Cassius, Agrippa, Gerry's replies to A Landholder, A Landholder, William Williams's letter, A Countryman, A Citizen of New Haven, Cato, Caesar, Sydney, Cursory Remarks, Caution, A Friend to the Constitution, Luther Martin, A Plain Dealer, Hugh Williamson's Remarks, A Steady and Open Republican |
 | Paul Leicester Ford, ed., *Pamphlets on the Constitution of the United States* (Brooklyn, 1888) | `cu31924020874099` (DjVu XML); checked against `pamphletsoncons00fordgoog` | Letters from the Federal Farmer (I–V) so far |
 | John Bach McMaster and Frederick D. Stone, eds., *Pennsylvania and the Federal Constitution, 1787–1788* (Lancaster, 1888) | `cu31924030454387` (DjVu XML); checked against `pennsylvaniafede00hist` | Centinel I–XXIV (chapter VII) |
+| *Debates and Proceedings in the Convention of the Commonwealth of Massachusetts, held in the year 1788* (Boston, 1856) | `debatesproceedin00mass` (DjVu XML); checked against `debatesproceedin00massrich`, `debatesandproce03convgoog` and `cu31924032635546` | Brutus I–IV ("Spirit of the Press", pp. 366–398) |
 
 **Method.** The text is read from the scans by OCR consensus: one scan's
 layout and words, checked word by word against the OCR of other copies of
@@ -127,7 +128,11 @@ not imported; his footnotes are, as notes. Details in `docs/ocr.md`, step 4.
 **Attribution** follows each section's title page in the edition ("Written
 by George Clinton", "Accredited to James Winthrop"), or the place in the
 edition named in the work's `attribution.source` (Centinel: Ford's
-bibliography, *Essays*, p. 415). Several of these attributions are disputed
+bibliography, *Essays*, p. 415). The 1856 *Debates* print Brutus without
+an attribution; Ford's note to Webster's *The Weakness of Brutus Exposed*
+(*Pamphlets*, p. 117: "Brutus was the signature (of Thomas Treadwell, of
+Suffolk County, N. Y.?)") suggests Thomas Treadwell, with a query, and that
+is what is recorded ("Thomas Treadwell?"). Several of these attributions are disputed
 by later scholars (Cato, Caesar, the Federal Farmer among them); Res Publica
 records what the edition says and makes no claim of its own.
 
@@ -137,17 +142,15 @@ conduct but voted to ratify) is `other`.
 
 **Not yet imported:**
 
-- **Brutus** (sixteen essays in the *New-York Journal*, 1787–88). It is in
-  neither Ford volume nor McMaster and Stone; no 1787–88 issues of the
-  *New-York Journal* are on the Internet Archive; and the issues of the
-  *American Museum* checked do not reprint it. The original Greenleaf
-  printing is in the Library of Congress's Chronicling America (page images
-  and word-level OCR) for 13 essays (II, III and XI are not online). There is
-  only one scan of each page and its OCR is poor, so the consensus method
-  cannot be used; every line would need correcting against the image. The
-  *Debates … of the Commonwealth of Massachusetts* (1856, Internet Archive)
-  reprints I–IV from the Boston *Independent Chronicle* in clean type.
-  Adding either is a new upstream source and waits on the project owner.
+- **Brutus V–XVI.** The 1856 *Debates* reprint only I–IV, from the Boston
+  *Independent Chronicle*; that reprint's text (I–IV, with the 1856 editors'
+  modern spelling) is what is imported, under the *New-York Journal* dates
+  of first publication. The original Greenleaf printing of 13 essays is in
+  the Library of Congress's Chronicling America (II, III and XI are not
+  online), but there is only one scan of each page and its OCR is poor, so
+  the consensus method cannot be used; every line would need correcting
+  against the image. Adding it is a new upstream source and waits on the
+  project owner.
 - **The Federal Farmer's *Additional Letters* (1788).** The only copies found
   are 1962 facsimile reprints, lending-only.
 - The rest of Ford's *Pamphlets* (the Columbian Patriot, Jay, Webster, Coxe,

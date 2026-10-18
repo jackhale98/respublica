@@ -428,3 +428,29 @@ Refs: `docs/references.md`.
   "Show" filters use the same groups; each node still names its work.
 - **Single pieces.** A link to a whole single piece (`Caution`) points at
   its page.
+
+## 34. Brutus from the 1856 Massachusetts *Debates*
+
+At the project owner's choice, Brutus I–IV are imported from *Debates and
+Proceedings in the Convention of the Commonwealth of Massachusetts* (Boston,
+1856), which reprints them from the Boston *Independent Chronicle* in its
+"Spirit of the Press" section. It is a public-domain book on the Internet
+Archive with four scans of the same edition, so it is read by OCR consensus
+like the other debate texts (one primary, three references), with the same
+fidelity. The original *New-York Journal* printing, in the Library of
+Congress's Chronicling America, was not used: one scan per page, poor OCR,
+and three essays missing. Brutus V–XVI wait on a source of that quality.
+
+- **Text and dates.** The text is the 1856 reprint's (its editors
+  regularized spelling; it has no newspaper headings or salutations). The
+  work's dates are those of first publication in New York (October 18 to
+  November 29, 1787), as for the other series.
+- **Attribution.** The 1856 book gives none; Ford's note to Webster's reply
+  (*Pamphlets*, 1888, p. 117) suggests Thomas Treadwell with a query, recorded as
+  "Thomas Treadwell?".
+- **Layout rules.** This book's running heads are often read as two blocks
+  on one line, or run into the paragraph below; a per-book `split_heads`
+  rule sets them aside. It is not applied to the earlier books, where it
+  would join two published paragraphs of Cassius IV (erratum 17). A
+  capitalized word and a period alone at the foot of a page ("Brutus.") is
+  a signature, not a page number.

@@ -55,7 +55,7 @@ class LoadedBook:
 def load_book(book_id: str) -> LoadedBook:
     book = BOOKS[book_id]
     pages = parse_djvu_xml(raw_path(book["primary"]))
-    classify(pages)
+    classify(pages, book.get("split_heads", False))
     offsets = Counter(p.leaf - int(p.folio) for p in pages if p.folio and p.folio.isdigit())
     _expect(bool(offsets), f"{book_id}: no printed page numbers found")
     refs = [Reference(name, read_raw_text(sid)) for name, sid in book["references"].items()]
@@ -103,8 +103,8 @@ def number_of(numeral: str) -> int | None:
 
 def numeral_reads_as(printed: str, want: int) -> bool:
     """True when a printed numeral, as OCR read it, can be `want`: OCR reads
-    a final I as L ("VL", "XL" for XI) and II as H ("VH")."""
-    n = printed.strip().rstrip(".,;")
+    a final I as L ("VL", "XL" for XI), II as H ("VH") and V as Y ("lY")."""
+    n = printed.strip().rstrip(".,;").replace("Y", "V")
     readings = {n, n.replace("H", "II"), re.sub(r"(?<=[IVX])L$", "I", n), re.sub(r"(?<=[IVX])L$", "I", n.replace("H", "II"))}
     return want in {number_of(r) for r in readings}
 

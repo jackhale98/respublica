@@ -1,0 +1,1300 @@
+{
+  "attribution": {
+    "byline": "Brutus was the signature (of Thomas Treadwell, of Suffolk County, N. Y.?)",
+    "kind": "pseudonym",
+    "names": [
+      "Thomas Treadwell?"
+    ],
+    "pseudonym": "Brutus",
+    "source": "Ford, Pamphlets on the Constitution (1888), p. 117, editor's note to Webster's The Weakness of Brutus Exposed"
+  },
+  "date": "1787-10-18/1787-11-29",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Brutus was the signature (of Thomas Treadwell, of Suffolk County, N. Y.?)",
+        "kind": "pseudonym",
+        "names": [
+          "Thomas Treadwell?"
+        ],
+        "pseudonym": "Brutus",
+        "source": "Ford, Pamphlets on the Constitution (1888), p. 117, editor's note to Webster's The Weakness of Brutus Exposed"
+      },
+      "label": "Brutus 1",
+      "level": 1,
+      "publication": [],
+      "ref": "Brutus.1",
+      "signature": "Brutus."
+    },
+    {
+      "attribution": {
+        "byline": "Brutus was the signature (of Thomas Treadwell, of Suffolk County, N. Y.?)",
+        "kind": "pseudonym",
+        "names": [
+          "Thomas Treadwell?"
+        ],
+        "pseudonym": "Brutus",
+        "source": "Ford, Pamphlets on the Constitution (1888), p. 117, editor's note to Webster's The Weakness of Brutus Exposed"
+      },
+      "label": "Brutus 2",
+      "level": 1,
+      "publication": [],
+      "ref": "Brutus.2",
+      "signature": "Brutus. ■"
+    },
+    {
+      "attribution": {
+        "byline": "Brutus was the signature (of Thomas Treadwell, of Suffolk County, N. Y.?)",
+        "kind": "pseudonym",
+        "names": [
+          "Thomas Treadwell?"
+        ],
+        "pseudonym": "Brutus",
+        "source": "Ford, Pamphlets on the Constitution (1888), p. 117, editor's note to Webster's The Weakness of Brutus Exposed"
+      },
+      "label": "Brutus 3",
+      "level": 1,
+      "publication": [],
+      "ref": "Brutus.3",
+      "signature": "Brutus."
+    },
+    {
+      "attribution": {
+        "byline": "Brutus was the signature (of Thomas Treadwell, of Suffolk County, N. Y.?)",
+        "kind": "pseudonym",
+        "names": [
+          "Thomas Treadwell?"
+        ],
+        "pseudonym": "Brutus",
+        "source": "Ford, Pamphlets on the Constitution (1888), p. 117, editor's note to Webster's The Weakness of Brutus Exposed"
+      },
+      "label": "Brutus 4",
+      "level": 1,
+      "publication": [],
+      "ref": "Brutus.4",
+      "signature": "Brutus."
+    }
+  ],
+  "edition": {
+    "name": "Debates and Proceedings in the Convention of the Commonwealth of Massachusetts, held in the year 1788 (Boston, 1856)",
+    "notes": "Debates and Proceedings in the Convention of the Commonwealth of Massachusetts, held in the year 1788 (Boston, 1856), pp. 366–398. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "brutus",
+  "position": "anti",
+  "ref_prefix": "Brutus",
+  "segments": [
+    {
+      "label": "Brutus 1, ¶ 1",
+      "pages": [
+        "366"
+      ],
+      "ref": "Brutus.1.1",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          392
+        ]
+      },
+      "text": "When the public is called to investigate and decide upon a question in which not only the present members of the community are deeply interested, but upon which the happiness and misery of generations yet unborn is in great measure suspended, the benevolent mind cannot help feeling itself peculiarly interested in the result."
+    },
+    {
+      "label": "Brutus 1, ¶ 2",
+      "pages": [
+        "367"
+      ],
+      "ref": "Brutus.1.2",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          393
+        ]
+      },
+      "text": "In this situation, I trust the feeble efforts of an individual, to lead the minds of the people to a wise and prudent determination, cannot fail of being acceptable to the candid and dispassionate part of the community. Encouraged by this consideration, I have been induced to offer my thoughts upon the present important crisis of our public affairs."
+    },
+    {
+      "label": "Brutus 1, ¶ 3",
+      "pages": [
+        "367"
+      ],
+      "ref": "Brutus.1.3",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          393
+        ]
+      },
+      "text": "Perhaps this country never saw so critical a period in their political concerns. We have felt the feebleness of the ties by which these United States are held together, and the want of sufficient energy in our present Confederation, to manage, in some instances, our general concerns. Various expedients have been proposed to remedy these evils, but none have succeeded. At length a Convention of the States has been assembled, they have formed a Constitution which will now, probably, be submitted to the people to ratify or reject, who are the fountain of all power, to whom alone it of right belongs to make or unmake constitutions or forms of government, at their pleasure. The most important question that was ever proposed to the decision of any people under heaven, is before you, and you are to decide upon it by men of your own election, chosen specially for this purpose. If the Constitution, offered to your acceptance, be a wise one, calculated to preserve the invaluable blessings of liberty, to secure the inestimable rights of mankind, and promote human happiness, then, if you accept it, you will lay a lasting foundation of happiness for millions yet unborn ; generations to come will rise up and call you blessed. You may rejoice in the prospects of this vast extended continent becoming filled with freemen, who will assert the dignity of human nature. You may solace yourselves with the idea, that society, in this favored land, will fast advance to the highest point of perfection ; the human mind will expand in knowledge and virtue, and the golden age be, in some measure, realized. But if, on the other hand, this form of government contains principles that will lead to the subversion of liberty — if it tends to establish a despotism, or, what is worse, a tyrannic aristocracy ; then, if you adopt it, this only remaining asylum for liberty will be shut up, and posterity will execrate your memory."
+    },
+    {
+      "label": "Brutus 1, ¶ 4",
+      "pages": [
+        "367",
+        "368"
+      ],
+      "ref": "Brutus.1.4",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          393,
+          394
+        ]
+      },
+      "text": "Momentous then is the question you have to determine, and you are called upon by every motive which should influence a noble and virtuous mind, to examine it well, and to make up a wise judgment. It is insisted, indeed, that this Constitution must be received, be it ever so imperfect. If it has its defects, it is said, they can be best amended when they are experienced. But remember, when the people once part with power, they can seldom or never resume it again but by force. Many instances can be produced in which the people have voluntarily increased the powers of their rulers ; but few, if any, in which rulers have willingly abridged their authority. This is a sufficient reason to induce you to be careful, in the first instance, how you deposit the powers of government."
+    },
+    {
+      "label": "Brutus 1, ¶ 5",
+      "pages": [
+        "368"
+      ],
+      "ref": "Brutus.1.5",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          394
+        ]
+      },
+      "text": "With these few introductory remarks, I shall proceed to a consideration of this Constitution."
+    },
+    {
+      "label": "Brutus 1, ¶ 6",
+      "pages": [
+        "368"
+      ],
+      "ref": "Brutus.1.6",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          394
+        ]
+      },
+      "text": "The first question that presents itself on the subject is, whether a confederated government be the best for the United States or not ? Or in other words, whether the thirteen United States should be reduced to one great republic, governed by one legislature, and under the direction of one executive and judiciary ; or whether they should continue thirteen confederated republics, -under the direction and control of a supreme Federal head for certain defined, national purposes only ?"
+    },
+    {
+      "label": "Brutus 1, ¶ 7",
+      "pages": [
+        "368"
+      ],
+      "ref": "Brutus.1.7",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          394
+        ]
+      },
+      "text": "This inquiry is important, because, although the government reported by the Convention does not go to a perfect and entire consolidation, yet it approaches so near to it, that it must, if executed, certainly and infallibly terminate in it."
+    },
+    {
+      "label": "Brutus 1, ¶ 8",
+      "pages": [
+        "368",
+        "369",
+        "370"
+      ],
+      "ref": "Brutus.1.8",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          394,
+          395,
+          396
+        ]
+      },
+      "text": "This government is to possess absolute and uncontrollable powers, legislative, executive and judicial, with respect to every object to which it extends, for by the last clause of section eighth, article first, it is declared, that the Congress shall have power \" to make all laws which shall be necessary and proper for carrying into execution the foregoing powers, and all other powers vested by this Constitution in the government of the United States, or in any department or office thereof.\" And by the sixth article, it is declared, \" that this Constitution, and the laws of the United States, which shall be made in pursuance thereof, and the treaties made, or which shall be made, under the authority of the United States, shall be the supreme law of the land ; and the judges in every State shall be bound thereby, any thing in the Constitution or law of any State to the contrary notwithstanding.\" It appears from these articles, that there is no need of any intervention of the State governments, between the Congress and the people, to execute any one power vested in the general government, and that the Constitution and laws of every State are nullified and declared void, so far as they are or shall be inconsistent with this Constitution, or the laws made in pursuance of it, or with treaties made under the authority of the United States. The government, then, so far as it extends, is a complete one, and not a confederation. It is as much one complete government as that of New York or Massachusetts ; has as absolute and perfect powers to make and execute all laws, to appoint officers, institute courts, declare offences, and annex penalties, with respect to every object to which it extends, as any other in the world. So far, therefore, as its powers reach, all ideas of confederation are given up and lost. It is true this government is limited to certain objects, or to speak more properly, some small degree of power is still left to the States ; but a little attention to the powers vested in the general government, will convince every candid man, that if it is capable of being executed, all that is reserved for the individual States must very soon be annihilated, except so far as they are barely necessary to the organization of the general government. The powers of the general legislature extend to every case that is of the least importance — there is nothing valuable to human nature, nothing dear to freemen, but what is within its power. It has authority to make laws which will affect the lives, the liberty, and property of every man in the United States ; nor can the Constitution or laws of any State, in any way prevent or impede the full and complete execution of every power given. The legislative power is competent to lay taxes, duties, imposts, and excises ; — there is no limitation to this power, unless it be said that the clause which directs the use to which those taxes and duties shall be applied, may be said to be a limitation ; but this is no restriction of the power at all, for by this clause they, are to be applied to pay the debts and provide for the common defence and general welfare of the United States ; but the legislature have authority to contract debts at their discretion ; they are the sole judges of what is necessary to provide for the common defence, and they only are to determine what is for the general welfare: this power, therefore, is neither more nor less than a power to lay and collect taxes, imposts, and excises, at their pleasure ; not only the power to lay taxes unlimited, as to the amount they may require, but it is perfect and absolute to raise them in any mode they please. No State legislature,\" or any power in the State governments, have any more to do in carrying this into effect than the authority of one State has to do with that of another. In the business, therefore, of laying and collecting taxes, the idea of confederation is totally lost, and that of one entire republic is embraced. It is proper here to remark, that the authority to lay and collect taxes is the most important of any power that can be granted ; it connects with it almost all other powers, or at least will in process of time draw all others after it ; it is the great mean of protection, security, and defence, in a good government, and the great engine of oppression and tyranny in a bad one. This cannot fail of being the case, if we consider the contracted limits which are set by this Constitution, to the State governments, on this article of raising money. No State can emit paper money, lay any duties or imposts, on imports, or exports, but by consent of the Congress; and then the net produce shall be for the benefit of the United States : the only means, therefore, left for any State to support its government and discharge its debts, is by direct taxation ; and the United States have also power to lay and collect taxes, in any way they please. Every one who has thought on the subject, must be convinced that but small sums of money can be collected in any country, by direct tax ; when the Federal government begins to exercise the right of taxation in all its parts, the legislatures of the several States will find it impossible to raise moneys to support their governments. Without money they cannot be supported, and they must dwindle away, and, as before observed, their powers be absorbed in that of the general government."
+    },
+    {
+      "label": "Brutus 1, ¶ 9",
+      "pages": [
+        "370",
+        "371"
+      ],
+      "ref": "Brutus.1.9",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          396,
+          397
+        ]
+      },
+      "text": "It might be here shown, that the power in the Federal legislature, to raise and support armies at pleasure, as well in peace as in war, and their control over the militia, tend not only to a consolidation of the government, but the destruction of liberty. I shall not, however, dwell upon these, as a few observations upon the judicial power of this government, in addition to the preceding, will fully evince the truth of the position."
+    },
+    {
+      "label": "Brutus 1, ¶ 10",
+      "pages": [
+        "371"
+      ],
+      "ref": "Brutus.1.10",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          397
+        ]
+      },
+      "text": "The judicial power of the United )States is to be vested in a supreme court, and in such inferior courts as Congress may, from time to time, ordain and establish. The powers of these courts are very extensive ; their jurisdiction comprehends all civil causes, except such as arise between citizens of the same State ; and it extends to all cases in law and equity arising under the Constitution. One inferior court must be established, I presume, in each State, at least, with the necessary executive officers appendant thereto. It is easy to sec, that in the common course of things, these courts will eclipse the dignity, and take away from the respectability, of the State courts. These courts will be, in themselves, totally independent of the States, deriving their authority from the United States, and receiving from them fixed salaries ; and in the course of human events it is to be expected, that they will swallow up all the powers of the courts in the respective States.",
+      "uncertain": [
+        {
+          "end": 547,
+          "readings": {
+            "cornell": "see,",
+            "google": "see,",
+            "primary": "sec,",
+            "uc": "see,"
+          },
+          "start": 543
+        }
+      ]
+    },
+    {
+      "label": "Brutus 1, ¶ 11",
+      "pages": [
+        "371",
+        "372"
+      ],
+      "ref": "Brutus.1.11",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          397,
+          398
+        ]
+      },
+      "text": "How far the clause in the eighth section of the first article may operate to do away all idea of Confederated States, and to effect an entire consolidation of the whole into one general government, it is impossible to say. The powers given by this article are very general and comprehensive, and it may receive a construction to justify the passing almost any law. A power to make all laws, which shall be necessary and proper, for carrying into execution all powers vested by the Constitution in the government of the United States, or any department or officer thereof, is a power very comprehensive and definite, and may, for aught I know, be exercised in such manner as entirely to abolish the State legislatures. Suppose the legislature of a State should pass a law to raise money to support their government and pay the State debt ; may the Congress repeal this law, because it may prevent the collection of a tax which they may think proper and necessary to lay, to provide for the general welfare of the United States 1 For all laws made, in pursuance of this Constitution, are the supreme law of the land, and the judges in every State shall be bound thereby, any thing in the Constitution or laws of the different States to the contrary notwithstanding. By such a law, the government of a particular State might be overturned at one stroke, and thereby be deprived of every means of its support.",
+      "uncertain": [
+        {
+          "end": 1027,
+          "readings": {
+            "cornell": "?",
+            "google": "?",
+            "primary": "1",
+            "uc": "?"
+          },
+          "start": 1026
+        }
+      ]
+    },
+    {
+      "label": "Brutus 1, ¶ 12",
+      "pages": [
+        "372"
+      ],
+      "ref": "Brutus.1.12",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          398
+        ]
+      },
+      "text": "It is not meant, by stating this case, to insinuate that the Constitution would warrant a law of this kind ! or unnecessarily to alarm the fears of the people, by suggesting that the Federal legislature would be more likely to pass the limits assigned them by the Constitution, than that of an individual State, further than they are less responsible to the people. But what is meant is, that the legislature of the United States are vested with the great and uncontrollable powers of laying and collecting taxes, duties, imposts, and excises ; of regulating trade, raising and supporting armies, organizing, arming, and disciplining the militia, instituting courts, and other general powers ; and are by this clause invested with the power of making all laws, proper and necessary, for carrying all these into execution ; and they may so exercise this power as entirely to annihilate all the State governments, and reduce this country to one single government. And if they may do it, it is pretty certain they will ; for it will be found that the power retained by individual States, small as it is, will be a clog upon the wheels of the government of the United States ; the latter, therefore, will be naturally inclined to remove it out of the way. Besides, it is a truth confirmed by the unerring experience of ages, that every man, and every body of men, invested with power, are ever disposed to increase it, and to acquire a superiority over every thing that stands in their way. This disposition, which is implanted in human nature, will operate in the Federal legislature to lessen and ultimately to subvert the State authority, and having such advantages, will most certainly succeed, if the Federal government succeeds at all. It must be very evident, then, that what this Constitution wants of being a complete consolidation of the several parts of the Union into one complete government, possessed of perfect legislative, judicial, and executive powers, to all intents and purposes, it will necessarily acquire in its exercise in operation."
+    },
+    {
+      "label": "Brutus 1, ¶ 13",
+      "pages": [
+        "372",
+        "373"
+      ],
+      "ref": "Brutus.1.13",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          398,
+          399
+        ]
+      },
+      "text": "Let us now proceed to inquire, as I at first purposed, whether it be best the thirteen United States should be reduced to one great republic, or not ? It is here taken for granted, that all agree in this, that whatever government we adopt, it ought to be a free one ; that it should be so framed as to secure the liberty of the citizens of America, and such an one as to admit of a full, fair, and equal representation of the people. The question, then, will be, whether a government thus constituted, and founded on such principles, is practicable, and can be exercised over the whole United States, reduced into one State ?"
+    },
+    {
+      "label": "Brutus 1, ¶ 14",
+      "pages": [
+        "373"
+      ],
+      "ref": "Brutus.1.14",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          399
+        ]
+      },
+      "text": "If respect is to be paid to the opinion of the greatest and wisest men who have ever thought or wrote on the science of government, we shall be constrained to conclude, that a free republic cannot succeed over a country of such immense extent, containing such a number of inhabitants, and these increasing in such rapid progression, as that of the whole United States. Among the many illustrious authorities which might be produced to this point, I shall content myself with quoting only two. The one is the Baron De Montesquieu, Spirit of Laws, Chap, xvi.. Vol. 1. \"It is natural to a republic to have only a small territory, otherwise it cannot long subsist. In a large republic there are men of large fortunes, and consequently of less moderation ; there are trusts too great to be placed in any single subject ; he has interest of his own ; he soon begins to think that he may be happy, great and glorious, by oppressing his fellow-citizens ; and that he may raise himself to grandeur on the ruins of his country. In a large republic, the public good is sacrificed to a thousand views ; it is subordinate to exceptions, and depends on accidents. In a small one, the interest of the public is easier perceived, better understood, and more within the reach of every citizen ; abuses are of less extent, and of course are less protected.\" Of the same opinion is the Marquis Beccarari.",
+      "uncertain": [
+        {
+          "end": 557,
+          "readings": {
+            "cornell": "xvi..",
+            "google": "xvi..",
+            "primary": "xvi..",
+            "uc": "xvi.,"
+          },
+          "start": 552
+        }
+      ]
+    },
+    {
+      "label": "Brutus 1, ¶ 15",
+      "pages": [
+        "373"
+      ],
+      "ref": "Brutus.1.15",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          399
+        ]
+      },
+      "text": "History furnishes no example of a free republic, any thing like the extent of the United States. The Grecian republics were of small extent ; so also was that of the Romans. Both of these, it is true, in process of time, extended their conquests over large territories of country ; and the consequence was, that their governments were changed from that of free governments to those of the most tyrannical that ever existed in the world."
+    },
+    {
+      "label": "Brutus 1, ¶ 16",
+      "pages": [
+        "373",
+        "374"
+      ],
+      "ref": "Brutus.1.16",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          399,
+          400
+        ]
+      },
+      "text": "Not only the opinion of the greatest men, and the experience of mankind, are against the idea of an extensive republic, but a variety of reasons may be drawn from the reason and nature of things, againt it. In every government the will of the sovereign is the law. In despotic governments, \"the supreme authority being lodged in one, his will is law, and can be as easily expressed to a large, extensive territory as to a small one. In a pure democracy, the people are the sovereign, and their will is declared by themselves ; for this purpose they must all come together to deliberate and decide. This kind of government cannot be exercised, therefore, over a country of any considerable extent ; it must be confined to a single city, or at least limited to such bounds as that the people can conveniently assemble, be able to debate, understand the subject submitted to them, and declare their opinion concerning it."
+    },
+    {
+      "label": "Brutus 1, ¶ 17",
+      "pages": [
+        "374"
+      ],
+      "ref": "Brutus.1.17",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          400
+        ]
+      },
+      "text": "In a free republic, although all laws are derived from the consent of the people, yet the people do not declare their consent by themselves in person, but by representatives, chosen by them, who are supposed to know the minds of their constituents, and to be possessed of integrity to declare this mind."
+    },
+    {
+      "label": "Brutus 1, ¶ 18",
+      "pages": [
+        "374"
+      ],
+      "ref": "Brutus.1.18",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          400
+        ]
+      },
+      "text": "In every free government, the people must give their assent to the laws by which they are governed. This is the true criterion between a free government and an arbitrary one. The former are ruled by the will of the whole, expressed in any manner they may agree upon ; the latter by the will of one, or a few. If the people are to give their assent to the laws, by persons chosen and appointed by them, the manner of the choice and the number chosen must be such as to possess, be disposed, and consequently qualified to declare the sentiments of the people ; for if they do not know, or are not disposed to speak the sentiments of the people, the people do not govern, but the sovereignty is in a few. Now, in a large, extended country, it is impossible to have a representation possessing the sentiments, and of integrity to declare the minds of the people, without having it so numerous and unwieldy as to be subject, in great measure, to the inconveniency of a democratic government."
+    },
+    {
+      "label": "Brutus 1, ¶ 19",
+      "pages": [
+        "374",
+        "375"
+      ],
+      "ref": "Brutus.1.19",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          400,
+          401
+        ]
+      },
+      "text": "The territory of the United States is of vast extent ; it now contains near three millions of souls, and is capable of containing much more than ten times that number. Is it practicable for a country, so large and numerous as' they will soon become, to elect a representation that will speak their sentiments, without their becoming so numerous as to lie incapable of transacting public business ? It certainly is not.",
+      "uncertain": [
+        {
+          "end": 354,
+          "readings": {
+            "cornell": "be",
+            "google": "be",
+            "primary": "lie",
+            "uc": "be"
+          },
+          "start": 351
+        }
+      ]
+    },
+    {
+      "label": "Brutus 1, ¶ 20",
+      "pages": [
+        "375"
+      ],
+      "ref": "Brutus.1.20",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          401
+        ]
+      },
+      "text": "In a republic, the manners, sentiments and interests of the people should be similar. If this be not the case, there will be a constant clashing of opinions ; and the representatives of one part will be continually striving against those of the other. This will retard the operations of government, and prevent such conclusions as will promote the public good. If we apply this remark to the condition of the United States, we shall be convinced that it forbids that we should be one government. The United States includes a variety of climates. The productions of the different parts of the Union are very variant, and their interests, of consequence, diverse. Their manners and habits differ as much as their climates and productions ; and their sentiments are by no means coincident. The laws and* customs of the several States are, in many respects, very diverse, and in some opposite ; each would be in favor of its own interests and customs; and, of consequence, a legislature, formed of representatives from the respective parts, would not only be too numerous to act with any care or decision, but would be composed of such heterogeneous and discordant principles, as would constantly be contending with each other."
+    },
+    {
+      "label": "Brutus 1, ¶ 21",
+      "pages": [
+        "375"
+      ],
+      "ref": "Brutus.1.21",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          401
+        ]
+      },
+      "text": "The laws cannot be executed in a republic of an extent equal to that of the United States, with promptitude."
+    },
+    {
+      "label": "Brutus 1, ¶ 22",
+      "pages": [
+        "375"
+      ],
+      "ref": "Brutus.1.22",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          401
+        ]
+      },
+      "text": "The magistrates in every government must be supported in the execution of the laws, either by an armed force, maintained at the public expense for that purpose, or by the people turning out to aid the magistrate upon his command, in case of resistance."
+    },
+    {
+      "label": "Brutus 1, ¶ 23",
+      "pages": [
+        "375"
+      ],
+      "ref": "Brutus.1.23",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          401
+        ]
+      },
+      "text": "In despotic governments, as well as in all the monarchies of Europe, standing armies are kept up to execute the commands of the prince or the magistrate, and are employed for this purpose when occasion requires ; but they have always proved the destruction of liberty, and are abhorrent to the spirit of a free republic. In England, where they depend upon the parliament for their annual support, they have always been complained of as oppressive and unconstitutional, and are seldom employed in executing the laws ; never except on extraordinary occasions, and then under the direction of a civil magistrate."
+    },
+    {
+      "label": "Brutus 1, ¶ 24",
+      "pages": [
+        "376",
+        "377"
+      ],
+      "ref": "Brutus.1.24",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          402,
+          403
+        ]
+      },
+      "text": "A free republic will never keep a standing army to execute its laws. It must depend upon the support of its citizens. But when a government is to receive its support from the aid of the citizens, it must be so constructed as to have the confidence, respect, and affection of the people. Men who, upon the call of the magistrate, offer themselves to execute the laws, are influenced to do it either by affection to the government, or from fear ; where a standing army is at hand to punish offenders, every man is actuated by the latter principle, and therefore, when the magistrate calls, will obey ; but, where this is not the case, the government must rest for its support upon the confidence and respect which the people have for their government and laws. The body of the people being attached, the government will always be sufficient to support and execute its laws, and to operate upon the fears of any faction which may be opposed to it, not only to prevent any opposition to the execution of the laws themselves, but also to compel the most of them to aid the magistrate ; but the people will not be likely to have such confidence in their rulers, in a republic so extensive as the United States, as is necessary for these purposes. The confidence which the people have in their rulers, in a free republic, arises from their knowing them, from their being responsible to them for their conduct, and from the power they have of displacing them when they misbehave ; but in a republic of the extent of this continent, the people in general would be acquainted with very few of their rulers ; the people at large would know little of their proceedings, and it would be extremely difficult to change them. The people in Georgia and New Hampshire would not know one another's mind, and therefore could not act in concert to enable them to effect a general change of - representatives. The different parts of so extensive a country could not possibly be made acquainted with the conduct of their representatives, nor be informed of the reasons upon which measures were founded. The consequence will be, they will have no confidence in their legislature, suspect them of ambitious views, be jealous of every measure they adopt, and will not support the laws they pass. Hence the government will be nerveless and inefficient, and no way will be left to render it otherwise, but by establishing an armed force to execute the laws at the point of the bayonet — a government of all others the most to be dreaded."
+    },
+    {
+      "label": "Brutus 1, ¶ 25",
+      "pages": [
+        "377"
+      ],
+      "ref": "Brutus.1.25",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          403
+        ]
+      },
+      "text": "In a republic of such vast extent as the United States, the legislature cannot attend to the various concerns and wants oi its different parts. It cannot be sufficiently numerous to be acquainted with the local condition and wants of the different districts, and if it could, it is impossible it should have sufficient time to attend to and provide for all the variety of cases of this nature that would be continually arising.",
+      "uncertain": [
+        {
+          "end": 122,
+          "readings": {
+            "cornell": "of",
+            "google": "of",
+            "primary": "oi",
+            "uc": "of"
+          },
+          "start": 120
+        }
+      ]
+    },
+    {
+      "label": "Brutus 1, ¶ 26",
+      "pages": [
+        "377"
+      ],
+      "ref": "Brutus.1.26",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          403
+        ]
+      },
+      "text": "In so extensive a republic, the great officers of government would soon become above the control of the people, and abuse their powers to the purpose of aggrandizing themselves, and oppressing them. The trust committed to the executive offices, in a country of the extent of the United States, must be various and of magnitude. The command of all the troops and navy of the republic, the appointment of officers, the power of pardoning offences, the collecting of all the public revenues, and the power of expending them, with a number of other powers, must be lodged and exercised in every State, in the hands of a few. When these are attended with great honor and emolument, as they always will be in large States, so as greatly to interest men to pursue them, and to be proper objects for ambitious and designing men, such men will be ever restless in their pursuit after them. They will use the power, when they have acquired it, to the purposes of gratifying their own interest and ambition, and it is scarcely possible, in a very large republic, to call them to account for their misconduct, or to prevent their abuse of power."
+    },
+    {
+      "label": "Brutus 1, ¶ 27",
+      "pages": [
+        "377"
+      ],
+      "ref": "Brutus.1.27",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          403
+        ]
+      },
+      "text": "These are some of the reasons by which it appears, that a free republic cannot long subsist over a country of the great extent of these States. If then this new Constitution is calculated to consolidate the thirteen States into one, as it evidently is, it ought not to be adopted."
+    },
+    {
+      "label": "Brutus 1, ¶ 28",
+      "pages": [
+        "377",
+        "378"
+      ],
+      "ref": "Brutus.1.28",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          403,
+          404
+        ]
+      },
+      "text": "Though I am of opinion, that it is a sufficient objection to this government, to reject it, that it creates the wliole Union into one government under the form of a republic, yet if this objection was obviated, there are exceptions to it which are so material and fundamental, that they ought to determine every man, who is a friend to the liberty and happiness of mankind, not to adopt it. I beg the candid and dispassionate attention of my countrymen, while I state these objections — they are such as have obtruded themselves upon my mind upon a careful attention to the matter, and such as I sincerely believe are well founded. There are many objections, of small moment, of which I shall take no notice. Perfection is not to be expected in any thing that is the production of man, and if I did not in my conscience believe that this scheme was defective in the fundamental principles — in the foundation upon which a free and equal government must rest — I would hold my peace.",
+      "uncertain": [
+        {
+          "end": 118,
+          "readings": {
+            "cornell": "whole",
+            "google": "whole",
+            "primary": "wliole",
+            "uc": "whole"
+          },
+          "start": 112
+        }
+      ]
+    },
+    {
+      "label": "Brutus 2, ¶ 1",
+      "pages": [
+        "378"
+      ],
+      "ref": "Brutus.2.1",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          404
+        ]
+      },
+      "text": "1 flatter myself that my last address established this position, that to reduce the thirteen States into one government, would prove the destruction of our liberties."
+    },
+    {
+      "label": "Brutus 2, ¶ 2",
+      "pages": [
+        "378"
+      ],
+      "ref": "Brutus.2.2",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          404
+        ]
+      },
+      "text": "But lest this truth should be doubted by some, I will now proceed to consider its merits."
+    },
+    {
+      "label": "Brutus 2, ¶ 3",
+      "pages": [
+        "378"
+      ],
+      "ref": "Brutus.2.3",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          404
+        ]
+      },
+      "text": "Though it should be admitted, that the arguments against reducing all the States into one consolidated government, are not sufficient fully to establish this point, yet they will, at least, justify this conclusion, that in forming a Constitution for such a country, great care should be taken to limit and define its powers, adjust its parts, and guard against an abuse of authority. How far attention has been paid to these objects, shall be the subject of future inquiry. When a building is to be erected which is intended to stand for ages, the foundation should be firmly laid. The Constitution proposed to your acceptance is designed, not for yourselves alone, but for generations yet unborn. The principles, therefore, upon which the social compact is founded, ought to have been clearly and precisely stated, and the most express and full declaration of rights to have been made. But on this subject there is almost an entire silence."
+    },
+    {
+      "label": "Brutus 2, ¶ 4",
+      "pages": [
+        "378",
+        "379",
+        "380"
+      ],
+      "ref": "Brutus.2.4",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          404,
+          405,
+          406
+        ]
+      },
+      "text": "If we may collect the sentiments of the people of America, from their own most solemn declarations, they hold this truth as self-evident, that all men are by nature free. No one man, therefore, or any class of men, have a right, by the law of nature, or of God, to assume or exercise authority over their fellows. The origin of society, then, is to be sought, not in any natural right which one man has to exercise authority over another, but in the united consent of those who associate. The mutual wants of men at first dictated the propriety of forming societies ; and when they were established, protection and defence pointed out the necessity of instituting government. In a state of nature every individual pursues his own interest ; in this pursuit it frequently happened, that the possessions or enjoyments of one were sacrificed to the views and designs of another ; thus the weak were a prey to the strong, the simple and unwary were subject to impositions from those who were more crafty and designing. In this state of things, every individual was insecure ; common interest, therefore, directed that government should be established, in which the force of the wliole community should be collected, and under such directions, as to protect and defend every one who com posed it. The common good, therefore, is the end of civil government, and common consent, the foundation on which it is established. To effect this end, it was necessary that a certain portion of natural liberty should be surrendered, in order that what remained should be preserved. How great a proportion of natural freedom is necessary to be yielded by individuals, when they submit to government, I shall not inquire. So much, however, must be given, as will be sufficient to enable those to whom the administration of the government is committed, to establish laws for the promoting the happiness of the community, and to carry those laws into effect. But it is not necessary, for this purpose, that individuals should relinquish all their natural rights. Some are of such a nature that they cannot be surrendered. Of this kind are the rights of conscience, the right of enjoying and defending life, &c. Others are not necessary to be resigned in order to attain the end for which government is instituted, these therefore ought not to be given up. To surrender them, would counteract the very end of government, to wit, the common good. From these observations it appears, that in forming a government on its true principles, the foundation should be laid in the manner I before stated, by expressly reserving to the people such of their essential rights as are not necessary to be parted with. The same reasons which at first induced mankind to associate and institute government, will operate to influence them to observe this precaution. If they had been disposed to conform themselves to the rule of immutable righteousness, government would not have been requisite. It was because one part exercised fraud, oppression and violence on the other, that men came together, and agreed that certain rules should be formed to regulate the conduct of all, and the power of the whole community lodged in the hands of rulers to enforce an obedience to them. But rulers have the same propensities as other men ; they are as likely to use the power with which they are vested, for private purposes, and to the injury and oppression of those over whom they are placed, as individuals in a state of nature are to injure and oppress one another. It is therefore as proper that bounds should be set to their authority, as that government should have at first been instituted to restrain private injuries.",
+      "uncertain": [
+        {
+          "end": 1180,
+          "readings": {
+            "cornell": "whole",
+            "google": "wliole",
+            "primary": "wliole",
+            "uc": "whole"
+          },
+          "start": 1174
+        }
+      ]
+    },
+    {
+      "label": "Brutus 2, ¶ 5",
+      "pages": [
+        "380",
+        "381"
+      ],
+      "ref": "Brutus.2.5",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          406,
+          407
+        ]
+      },
+      "text": "This principle, which seems so evidently founded in the reason and nature of things, is confirmed by universal experience. Those who have governed, have been found in all ages ever active to enlarge their powers and abridge the public liberty. This has induced the people in all countries, where any sense of freedom remained, to fix barriers against the encroachments of their rulers. The country from which we have derived our origin, is an eminent example of this. Their magna chartaand bill of rights have long been the boast, as well as the security of that nation. I need say no more, I presume, to an American, than that this principle is a fundamental one, in all the Constitutions of our own States ; there is not one of them but what is either founded on a declaration or bill of rights, or has certain express reservation of rights interwoven in the body of them. From this it appears, that at a time when the pulse of liberty beat high, and when an appeal was made to the people to form Constitutions for the government of themselves, it was their universal sense, that such declarations should make a part of their frames of government. It is, therefore, the more astonishing, that this grand security to the rights of the people is not to be found in this Constitution."
+    },
+    {
+      "label": "Brutus 2, ¶ 6",
+      "pages": [
+        "381"
+      ],
+      "ref": "Brutus.2.6",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          407
+        ]
+      },
+      "text": "It has been said, in answer to this objection, that such declaration of rights, however requisite they might be in the Constitutions of the S,tates, are not necessary in the general Constitution, because, \" in the former case, every thing which is not reserved is given ; but in the latter, the reverse of the proposition prevails, and every thing which is not given is reserved.\" It requires but little attention to discover, that this mode of reasoning is rather specious than solid. The powers, rights and authority, granted to the general government by this Constitution, are as complete, with respect to every object to which they extend, as that of any State government — it reaches to every thing which concerns human happiness — life, liberty, and property are under its control. There is the same reason, therefore, that the exercise of power, in this case, should be restrained within proper limits, as in that of the State governments. To set this matter in a clear light, permit me to instance some of the articles of the bills of rights of the individual States, and apply them to the case in question."
+    },
+    {
+      "label": "Brutus 2, ¶ 7",
+      "pages": [
+        "381",
+        "382"
+      ],
+      "ref": "Brutus.2.7",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          407,
+          408
+        ]
+      },
+      "text": "For the security of life, in criminal prosecutions, the bills of rights of most of the States have declared, that no man shall be held to answer for a crime until he is made fully acquainted with the charge brought against him ; he shall not be compelled to accuse, or furnish evidence against himself — the witnesses against him shall be brought face to face, and he shall be fully heard by himself or counsel. That it is essential to the security of life and liberty, that trial of facts be in the vicinity where they happen. Are not provisions of this kind as necessary in the general government, as in that of a particular State ? The powers vested in the new Congress extend in many cases to life ; they are authorized to provide for the punishment of a variety of capital crimes, and no restraint is laid upon them in its exercise, save only, that \" the trial of all crimes, except in cases of impeachment, shall be by jury ; and such trial shall be in the State where the said crimes shall have been committed.\" No man is secure of a trial in the county where lie is charged to have committed a crime ; he may be brought from Niagara to New York, or carried from Kentucky to Richmond for trial for an offence supposed to be committed. What security is there, that a man shall be furnished with a full and plain description of the charges against him? That he shall be allowed to produce all proof he can in his favor ? That he shall see the witnesses against him face to face, or that he shall be fully heard in his own defence by himself or counsel ?",
+      "uncertain": [
+        {
+          "end": 1070,
+          "readings": {
+            "cornell": "lie",
+            "google": "he",
+            "primary": "lie",
+            "uc": "he"
+          },
+          "start": 1067
+        }
+      ]
+    },
+    {
+      "label": "Brutus 2, ¶ 8",
+      "pages": [
+        "382"
+      ],
+      "ref": "Brutus.2.8",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          408
+        ]
+      },
+      "text": "For the security of liberty it has been declared, \" that excessive bail should not be required, nor excessive fines imposed, nor cruel or unusual punishments inflicted. That all Avar rants, without oath or affirmation, to search suspected places, or seize any person, his papers or property, are grievous and oppressive.\"",
+      "uncertain": [
+        {
+          "end": 189,
+          "readings": {
+            "cornell": "warrants,",
+            "google": "warrants,",
+            "primary": "Avar rants,",
+            "uc": "warrants,"
+          },
+          "start": 178
+        }
+      ]
+    },
+    {
+      "label": "Brutus 2, ¶ 9",
+      "pages": [
+        "382"
+      ],
+      "ref": "Brutus.2.9",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          408
+        ]
+      },
+      "text": "These provisions are as necessary under the general government as under that of the individual States; for the power of the former is as complete to the purpose of requiring bail, imposing fines, inflicting punishments, granting search warrants, and seizing persons, papers, or property, in certain cases, as the other."
+    },
+    {
+      "label": "Brutus 2, ¶ 10",
+      "pages": [
+        "382"
+      ],
+      "ref": "Brutus.2.10",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          408
+        ]
+      },
+      "text": "For the purpose of securing the property of the citizens, it is declared by all the States, \" that in all controversies at law, respecting property, the ancient mode of trial by jury is one of the best securities of the rights of the people, and ought to remain sacred and inviolable.\""
+    },
+    {
+      "label": "Brutus 2, ¶ 11",
+      "pages": [
+        "382"
+      ],
+      "ref": "Brutus.2.11",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          408
+        ]
+      },
+      "text": "Does not the same necessity exist of reserving this right under their national compact, as in that of the States ? Yet nothing is said respecting it. In the bills of rights of the States it is declared, that a well regulated militia is the proper and natural defence of a free government ; that as standing armies m time of peace are dangerous, they are not to be kept up, and that the military should be kept under strict subordination to, and controlled by, the civil power.",
+      "uncertain": [
+        {
+          "end": 315,
+          "readings": {
+            "cornell": "in",
+            "google": "in",
+            "primary": "m",
+            "uc": "in"
+          },
+          "start": 314
+        }
+      ]
+    },
+    {
+      "label": "Brutus 2, ¶ 12",
+      "pages": [
+        "382"
+      ],
+      "ref": "Brutus.2.12",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          408
+        ]
+      },
+      "text": "The same security is as necessary in this Constitution, and much more so ; for the general government will have the sole power to raise and to pay armies, and are under no control in the exercise of it ; yet nothing of this is to be found in this new system."
+    },
+    {
+      "label": "Brutus 2, ¶ 13",
+      "pages": [
+        "382",
+        "383"
+      ],
+      "ref": "Brutus.2.13",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          408,
+          409
+        ]
+      },
+      "text": "I might proceed to instance a number of other rights, which were as necessary to be reserved, such as, that elections should be free, that the liberty of the press should be held sacred ; but the instances adduced are sufficient to prove that this argument is without foundation. Besides, it is evident that the reason here assigned was not the true one, why the framers of this Constitution omitted a bill of rights ; if it had been, they would not have made certain reservations, while they totally omitted others of more importance. We find they have, in the ninth section of the first article declared, that the writ of habeas corpus shall not be suspended, unless in cases of rebellion, — that no bill of attainder, or ex post facto law, shall be passed, — that no title of nobility shall be granted by the United States, &c. If every thing which is not given is reserved, what propriety is there in these exceptions ? Does this Constitution any where grant the power of suspending the habeas corpus, to make ex post facto laws, pass bills of attainder, or grant titles of nobility ? It certainly does not in express terms. The only answer that can be given is, that these are implied in the general powers granted. With equal truth it may be said, that all the powers which the bills of rights guard against the abuse of, are contained or implied in the general ones granted by this Constitution."
+    },
+    {
+      "label": "Brutus 2, ¶ 14",
+      "pages": [
+        "383"
+      ],
+      "ref": "Brutus.2.14",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          409
+        ]
+      },
+      "text": "So far is it from being true, that a bill of rights is less necessary in the general Constitution than in those of the States, the contrary is evidently the fact. This system, if it is possible for the people of America to accede to it, will be an original compact ; and being the last, will, in the nature of things, vacate every former agreement inconsistent with it. For it being a plan of government received and ratified by the whole people, all other forms which are in existence at the time of its adoption, must yield to it. This is expressed in positive and unequivocal terms in the sixth article: \"That this Constitution, and the laws of the United States which shall be made in pursuance thereof, and all treaties made, or which shall be made, under the authority of the United States, shall be the supreme law of the land ; and the judges in every State shall be bound thereby, any thing in the Constitution, or laws of any State, to the contrary notwithstanding.\""
+    },
+    {
+      "label": "Brutus 2, ¶ 15",
+      "pages": [
+        "383",
+        "384"
+      ],
+      "ref": "Brutus.2.15",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          409,
+          410
+        ]
+      },
+      "text": "\" The senators and representatives before-mentioned, and the members of the several State legislatures, and all executive and judicial officers, both of the United States, and of the several States, shall be bound, by oath or affirmation, to support this Constitution.\""
+    },
+    {
+      "label": "Brutus 2, ¶ 16",
+      "pages": [
+        "384"
+      ],
+      "ref": "Brutus.2.16",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          410
+        ]
+      },
+      "text": "It is therefore not only necessarily implied thereby, but positively expressed, that the different State Constitutions are repealed and entirely done away, so far as they are inconsistent with this, with the laws which shall be made in pursuance thereof, or with treaties made, or which shall be made, under the authority of the United States. Of what avail will the Constitutions of the respective States be to preserve the rights of its citizens ? Should they be plead, the answer would be, the Constitution of the United States, and the laws made in pursuance thereof, is the supreme law, and all legislatures and judicial officers, whether of the General or State governments, are bound by oath to support it. No privilege, reserved by the bills of rights, or secured by the State governments, can limit the power granted by this, or restrain any laws made in pursuance of it. It stands, therefore, on its own bottom, and must receive a construction by itself, without any reference to any other. And hence it was of the highest importance, that the most precise and express declarations and reservations of rights should have been made."
+    },
+    {
+      "label": "Brutus 2, ¶ 17",
+      "pages": [
+        "384"
+      ],
+      "ref": "Brutus.2.17",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          410
+        ]
+      },
+      "text": "This will appear the more necessary, when it is considered, that not only the Constitution and laws made in pursuance thereof, but all treaties made, under the authority of the United States, are the supreme law of the land, and supersede the Constitutions of all the States. The power to make treaties, is vested in the president, by and with the advice and consent of two-thirds of the senate. I do not find any limitation or restriction to the exercise of this power. The most important article in any Constitution may therefore be repealed, even without a legislative act. Ought not a government, vested with such extensive and indefinite authority, to have been restricted by a declaration of rights ? It certainly ought."
+    },
+    {
+      "label": "Brutus 2, ¶ 18",
+      "pages": [
+        "384"
+      ],
+      "ref": "Brutus.2.18",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          410
+        ]
+      },
+      "text": "So clear a point is this, that I cannot help suspecting that persons who attempt to persuade people that such reservations were less necessary under this Constitution than under those of the States, are wilfully endeavoring to deceive, and to lead you into an absolute state of vassalage."
+    },
+    {
+      "label": "Brutus 3, ¶ 1",
+      "pages": [
+        "385"
+      ],
+      "ref": "Brutus.3.1",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          411
+        ]
+      },
+      "text": "In the investigation of the Constitution, under your consideration, great care should be taken that you do not form your opinions respecting it from unimportant provisions, or fallacious appearances."
+    },
+    {
+      "label": "Brutus 3, ¶ 2",
+      "pages": [
+        "385"
+      ],
+      "ref": "Brutus.3.2",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          411
+        ]
+      },
+      "text": "On a careful examination, you will find that many of its parts, of little moment, are well formed ; in these it has a specious resemblance of a free government, but this is not sufficient to justify the adoption of it ; the gilded pill is often found to contain the most deadly poison."
+    },
+    {
+      "label": "Brutus 3, ¶ 3",
+      "pages": [
+        "385"
+      ],
+      "ref": "Brutus.3.3",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          411
+        ]
+      },
+      "text": "You are not, however, to expect a perfect form of government, any more than to meet with perfection in man ; your views, therefore, ought to be directed to the main pillars upon which a free government is to rest ; if these are well placed, on a foundation that will support the superstructure, you should be satisfied, although the building may want a number of ornaments, which, if your particular tastes were gratified, you would have added to it. On the other hand, if the foundation is insecurely laid, and the main supports are wanting, or not properly fixed, however the fabric may be decorated and adorned, you ought to reject it."
+    },
+    {
+      "label": "Brutus 3, ¶ 4",
+      "pages": [
+        "385"
+      ],
+      "ref": "Brutus.3.4",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          411
+        ]
+      },
+      "text": "Under these impressions, it has been my object to turn your attention to the principal defects in this system."
+    },
+    {
+      "label": "Brutus 3, ¶ 5",
+      "pages": [
+        "385"
+      ],
+      "ref": "Brutus.3.5",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          411
+        ]
+      },
+      "text": "I have attempted to show, that a consolidation of this extensive continent, under one government, for internal as well as external purposes, which is evidently the tendency of this Constitution, cannot succeed without a sacrifice of your liberties ; and therefore that the attempt is not only preposterous, but extremely dangerous ; and I have shown, independent of this, that the plan is radically defective in a fundamental principle, which ought to be found in every free government, to wit, a declaration of rights."
+    },
+    {
+      "label": "Brutus 3, ¶ 6",
+      "pages": [
+        "385"
+      ],
+      "ref": "Brutus.3.6",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          411
+        ]
+      },
+      "text": "I shall now proceed to take a nearer view of this system, to examine its parts more minutely, and show that the powers are not properly deposited for the security of public liberty."
+    },
+    {
+      "label": "Brutus 3, ¶ 7",
+      "pages": [
+        "385",
+        "386"
+      ],
+      "ref": "Brutus.3.7",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          411,
+          412
+        ]
+      },
+      "text": "The first important object that presents itself in the organization of this government, is the legislature. This is to be composed of two branches — the first to be called the general assembly, and is to be chosen by the people of the respective States, in proportion to the number of their inhabitants, and is to consist of sixty-five members, with powers in the legislature to increase the number, not to exceed one for every thirty thousand inhabitants. The second branch is to be called the senate, and is to consist of twenty-six members, two of which are to be chosen by the legislatures of each of the States."
+    },
+    {
+      "label": "Brutus 3, ¶ 8",
+      "pages": [
+        "386"
+      ],
+      "ref": "Brutus.3.8",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          412
+        ]
+      },
+      "text": "In the former of these there is an appearance of justice, in the appointment of its members ; but if the clause which provides for this branch be stripped of its ambiguity, it will be found that there is really no equality of representation, even in this house."
+    },
+    {
+      "label": "Brutus 3, ¶ 9",
+      "pages": [
+        "386"
+      ],
+      "ref": "Brutus.3.9",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          412
+        ]
+      },
+      "text": "The words are, \" representatives and direct taxes shall be apportioned among the several States, which may be included in this Union, according to their respective numbers, which shall be determined by adding to the whole number of free persons, including those bound to service for a term of years, and excluding Indians not taxed, three-fifths of all other persons.\" What a strange and unnecessary accumulation of words are here used to conceal from the public eye what might have been expressed in the following concise manner : Representatives are to be proportioned among the States respectively, according to the number of freemen and slaves inhabiting them, counting five slaves for three free men."
+    },
+    {
+      "label": "Brutus 3, ¶ 10",
+      "pages": [
+        "386",
+        "387",
+        "388"
+      ],
+      "ref": "Brutus.3.10",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          412,
+          413,
+          414
+        ]
+      },
+      "text": "\" In a free state,\" says the celebrated Montesquieu, \" every man, who is supposed to be a free agent, ought to be concerned in his own government, therefore the legislature should reside in the whole body of the people, or their representatives.\" But it has never been alleged that those who are not free agents can, upon any rational principle, have any thing to do in gov. ernment, either by themselves or others. If they have no share in government, why is the number of members in the assembly to be increased on their account ? Is it because in some of the States, a considerable part of the property of the inhabitants consists in a number of their fellow-men, who are held in bondage, in defiance of every idea of benevolence, justice and religion, and contrary to all the principles of liberty which have been publicly avowed in the late glorious Revolution ? If this be a just ground for representation, the horses in some of the States, and the oxen in others, ought to be represented — for a great share of property in some of them consists in these animals ; and they have as much control over their own actions as these poor unhappy creatures, who are intended to be described in the above recited clause, by the words, \" all other persons.\" By this mode of apportionment, the representatives of the different parts of the Union will be extremely unequal ; in some of the Southern States the slaves are nearly equal in number to the free men ; and for all these slaves they will be entitled to a proportionate share in the legislature ; this will give them an unreasonable weight in the government, which can derive no additional strength, protection, nor defence from the slaves, but the contrary. Why, then, should they be represented ? What adds to the evil is, that these States are to be permitted to continue the inhuman traffic of importing slaves until the year 1808 — and for every cargo of these unhappy people which unfeeling, unprincipled, barbarous and avaricious wretches may tear from their country, friends and tender connections, and bring into those States, they are to be rewarded by having an increase • of members in the general assembly. There appears, at the first view, a manifest inconsistency, in the apportionment of representatives in the senate, upon the plan of a consolidated government. On every principle of equity and propriety, representation in a government should be in exact proportion to the numbers, or the aids afforded by the persons represented. How unreasonable and unjust then is it, that Delaware should have a representation in the senate equal to Massachusetts or Virginia ? The latter of which contains ten times her numbers, and is to contribute to the aid of the general government in that proportion ? This article of the Constitution will appear the more objectionable, if it is considered, that the powers vested in this branch of the legislature are very extensive, and greatly surpass those lodged in the assembly, not only for general purposes, but, in many instances, for the internal police of the States. The other branch of the legislature, in which, if in either, a faint spark of democracy is to be found, should have been properly organized and established ; but upon examination you will find, that this branch does not possess the qualities of a just representation, and that there is no kind of security, imperfect as it is, for its remaining in the hands of the people."
+    },
+    {
+      "label": "Brutus 3, ¶ 11",
+      "pages": [
+        "388"
+      ],
+      "ref": "Brutus.3.11",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          414
+        ]
+      },
+      "text": "It has been observed, that the happiness of society is the end of government — that every free government is founded in compact ; and that, because it is impracticable for the whole community to assemble, or when assembled, to deliberate with wisdom and decide with dispatch, the mode of legislating by representation was devised."
+    },
+    {
+      "label": "Brutus 3, ¶ 12",
+      "pages": [
+        "388",
+        "389",
+        "390"
+      ],
+      "ref": "Brutus.3.12",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          414,
+          415,
+          416
+        ]
+      },
+      "text": "The very term, representative, implies that the person or body chosen for this purpose, should resemble those who appoint them. A representation of the people of America, if it be a true one, must be like the people. It ought to be so constituted, that a person who is a stranger to -the country, might be able to form a just idea of their character by knowing that of their representatives. They are the sign — the people are the thing signified. It is absurd to speak of one thing being the representative of another, upon any other principle. The ground and reason of representation, in a free government, implies the same thing. Society instituted government to promote the happiness of the whole, and this is the great end always in view in the delegation of powers. It must then, have been intended, that those who are placed instead of the people, should possess their sentiments and feelings, and be governed by their interests, or, in other words, should bear the strongest resemblance of those in whose room they are substituted. It is obvious, that for an assembly to be a true likeness of the people of any country, they must be considerably numerous. One man, or a few men, cannot possibly represent the feelings, opinions, and characters of a great multitude. In this respect, the new Constitution is radically defective. The house of assembly, which is intended as a representation of the people of America, will not, nor cannot, in the nature of things, be a proper one. Sixty-five men cannot be found in the United States who hold the sentiments, possess the feelings, or are acquainted with the wants and interests of this vast country. This extensive continent is made up of a number of different classes of people ; and to have a proper representation of them, each class ought to have an opportunity of choosing their best informed men for the purpose ; but this cannot possibly be the case in so small a number. The State of New York, on the present apportionment, will send six members to the assembly ; I will venture to affirm that number cannot be found in the State, who will bear a just resemblance to the several classes of people who compose it. In this assembly, the farmer, merchant, mechanic, and other various orders of people, ought to be represented according to their respective weight and numbers ; and the representatives ought to be intimately acquainted with the wants, understand the interests of the several orders in the society, and feel a proper sense and becoming zeal to promote their prosperity. I cannot conceive that any six men in this State can be found properly qualified in these respects to discharge such important duties ; but, supposing it possible to find them, is there the least degree of probability that the choice of the people will fall upon such men ? According to the common course of human affairs, the natural aristocracy of the country will be elected. Wealth always creates influence, and this is generally much increased in large family connections ; this class in society will for ever have a great number of dependents ; besides, they will always favor each other. It is their interest to combine — they will therefore constantly unite their efforts to procure men of their own rank to be elected ; they will concentre all their force in every part of the State into one point, and by acting together, will most generally carry their election. It is probable that but few of the merchants, and those of the most opulent and ambitious, will have a representation from their body — few of them are characters sufficiently conspicuous to attract the notice of the electors of the State in so limited a representation. The great body of the yeomen of the country cannot expect any of their order in this assembly — the station will be too elevated for them to aspire to — the distance between the people and their representatives will be so very great, that there is no probability that a farmer, however respectable, will be chosen. The mechanics, of every branch, must expect to be excluded from a seat in this body ; it will and must be esteemed a station too high and exalted to be filled by any but the first men in the State, in point of fortune ; so that in reality there will be no part of the people represented but the rich, even in that branch of the legislature which is called the democratic. The well-born, and highest orders in life, as they term themselves, will be ignorant of the sentiments of the middling class of citizens, strangers to their ability, wants and difficulties, and void of sympathy and fellow feeling. This branch of the legislature will not only be an imperfect representation, but there will be no security in so small a body against bribery and corruption. It will consist at first, of sixty-five, and can never exceed one for every thirty thousand inhabitants. A majority of these, that is, thirty-three, are a quorum, and a majority of which, or seventeen, may pass any law. A majority of the senate, or fourteen, are a quorum, and eight of them may pass any law ; so that twenty-five men will have the power to give away all the property of the citizens of these States. What security, therefore, can there be for the people, where their liberties and property are at the disposal of so few men ? It will literally be a government in the hands of the few, to oppress and plunder the many. You may conclude, with a great degree of certainty, that it, like all others of a similar nature, will be managed by influence and corruption, and that the period is not far distant when this will be the case, if it should be adopted ; for even now there are some among us whose characters stand high in the public estimation, and who have had a principal agency in framing this Constitution, who do not scruple to say, that this is the only practicable mode of governing a people who think with that degree of freedom which the Americans do. This government will have in their gift a vast number of offices of great honor and emolument. The members of the legislature are not excluded from appointments ; and twenty-five of them, as the case may be, being secured, any measure may be carried."
+    },
+    {
+      "label": "Brutus 3, ¶ 13",
+      "pages": [
+        "390"
+      ],
+      "ref": "Brutus.3.13",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          416
+        ]
+      },
+      "text": "The rulers of this country must be composed of very different materials from those of any other of which history gives us any account : if the majority of the legislature are not, before many years they will be entirely at the devotion of the executive, and these States will be soon under the absolute domination of one or a few, with the fallacious appearance of being governed by men of their own election."
+    },
+    {
+      "label": "Brutus 3, ¶ 14",
+      "pages": [
+        "390",
+        "391"
+      ],
+      "ref": "Brutus.3.14",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          416,
+          417
+        ]
+      },
+      "text": "The more I reflect on this subject, the more firmly am I persuaded, that the representation is merely nominal — a mere burlesque, and that no security is provided against corruption and undue influence. No free people on earth, who have elected persons to legislate for them, ever reposed that confidence in so small a number. The British House of Commons consists of five hundred and fifty-eight members ; the number of inhabitants in Great Britain is computed at eight millions — this gives one member for a little more than fourteen thousand, which exceeds double the proportion this country can ever have ; and yet we require a larger representation in proportion to our numbers, than Great Britain, because this country is much more extensive, and differs more in its productions, interests, manners and habits. The democratic branch of the legislatures of the several States in the Union consists, I believe, at present, of near two thousand ; and this number was not thought too large for the security of liberty by the framers of our State Constitutions. Some of the States may have erred in this respect, but the difference between two thousand and sixty-five is so very great that it will bear no comparison."
+    },
+    {
+      "label": "Brutus 3, ¶ 15",
+      "pages": [
+        "391"
+      ],
+      "ref": "Brutus.3.15",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          417
+        ]
+      },
+      "text": "Other objections offer themselves against this part of the Constitution — I shall reserve them for a future paper, when I shall show, defective as this representation is, no security is provided, that even this shadow of the right will remain with the people."
+    },
+    {
+      "label": "Brutus 4, ¶ 1",
+      "pages": [
+        "391"
+      ],
+      "ref": "Brutus.4.1",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          417
+        ]
+      },
+      "text": "There can be no free government where the people are not possessed of tho power of making the laws by which they are governed, either in their own persons, or by others substituted in their stead.",
+      "uncertain": [
+        {
+          "end": 73,
+          "readings": {
+            "cornell": "the",
+            "google": "the",
+            "primary": "tho",
+            "uc": "the"
+          },
+          "start": 70
+        }
+      ]
+    },
+    {
+      "label": "Brutus 4, ¶ 2",
+      "pages": [
+        "391",
+        "392"
+      ],
+      "ref": "Brutus.4.2",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          417,
+          418
+        ]
+      },
+      "text": "Experience has taught mankind, that legislation by representatives is the most eligible, and the only practicable mode in which the people of any country can exercise this right, either prudently or beneficially. But then it is a matter of the highest importance, in forming this representation, that it be so constituted as to be capable of understanding the true interest of the society for which it acts, and so disposed as to pursue the good and happiness of the people as its ultimate end. The object of every free government is the public good, and all lesser interests yield to it. That of every tyrannical government is the happiness and aggrandizement of one, or a few, and to this the public felicity and every other interest must submit. The reason of this difference in these governments is obvious. The first is so constituted as to collect the views and wishes of the whole people in that of their rulers, while the latter is so framed as to separate the interests of the governors from that of the governed. The principle of self-love, therefore, that will influence the one to promote the good of the whole, will prompt the other to follow its own private advantage. The great art, therefore, in forming a good Constitution, appears to be this, so to frame it as that those to whom the power is committed shall be subject to the same feelings, and aim at the same objects as the people do who transfer to them their authority. There is no possible way to effect this but by an equal, full and fair representation ; this, therefore, is the great desideratum in politics. However fair an appearance any government may make, though it may possess a thousand plausible articles, and be decorated with ever so many ornaments, yet if it is deficient in this essential principle of a full and just representation of the people, it will be only like a painted sepulchre, — for, without this, it cannot be a free government ; let the administration of it be good or ill, it still will be a government, not according to the will of the people, but according to the will of a few."
+    },
+    {
+      "label": "Brutus 4, ¶ 3",
+      "pages": [
+        "392",
+        "393"
+      ],
+      "ref": "Brutus.4.3",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          418,
+          419
+        ]
+      },
+      "text": "To test this new Constitution then, by this principle, is of the last importance. It is to bring it to the touch-stone of national liberty, and I hope I shall be excused, if, in this paper, I pursue the subject commenced in my last number, to wit, the necessity of an equal and full representation in the legislature. In that, I showed that it was not equal, because the smallest States are to send the same number of members to the senate as the largest, and because the slaves, who afford neither aid nor defence to the government, are to increase the proportion of members. To prove that it was not a just or adequate representation, it was urged, that so small a number could not resemble the people, or possess their sentiments and dispositions. That the choice of members would commonly fall upon the rich and great, while the middling class of the community would be excluded. That in so small a representation there was no security against bribery and corruption."
+    },
+    {
+      "label": "Brutus 4, ¶ 4",
+      "pages": [
+        "393",
+        "394"
+      ],
+      "ref": "Brutus.4.4",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          419,
+          420
+        ]
+      },
+      "text": "The small number which is to compose this legislature will not only expose it to the danger of that kind of corruption, and undue influence, which will arise from the gift of places of honor and emolument, or the more direct one of bribery, but it will also subject it to another kind of influence no less fatal to the liberties of the people, though it be not so flagrantly repugnant to the principles of rectitude. It is not to be expected that a legislature will be found in any country that will not have some of its members who will pursue their private ends, and for which they will sacrifice the public good. Men of this character are, generally, artful and designing, and frequently possess brilliant talents and abilities ; they commonly act in concert, and agree to share the spoils of their country among them ; they will keep their object ever in view, and follow it with constancy. To effect their purpose, they will assume any shape, and, Proteus like, mould themselves into any form. Where they find members proof against direct bribery or gifts of offices, they will endeavor to mislead their minds by specious and false reasoning, to impose upon their unsuspecting honesty by an affectation of zeal for the public good ; they will form juntos, and hold out-door meetings ; they will operate upon the good nature of their opponents by a thousand little attentions, and tease them into compliance by the earnestness of solicitation. Those who are acquainted with the manner of conducting business in public assemblies, know how prevalent art and address are in carrying a measure, even over men of the best intentions and of good understanding. The firmest security against this kind of improper and dangerous influence, as well as all other, is a strong and numerous representation ; in such a house of assembly, so great a number must be gained over, before the private views of individuals could be gratified, that there could be scarce a hope of success. But in the Federal assembly seventeen men are all that is necessary to pass a law. It is probable it will seldom happen that more than twenty-five will be requisite to form a majority. When it is considered what a number of places of honor and emolument will be in the gift of the executive, the powerful influence that great and designing men have over the fiO honest and unsuspecting, by their art and address, their soothing manners and civilities, and their cringing flattery, joined with their affected patriotism, — when these different species of influence are combined, it is scarcely to be hoped that a legislature, composed of so small a number as the one proposed by the new Constitution, will long resist their force. A farther objection against the feebleness of the representation is, that it will not possess the confidence of the people. The execution of the laws in a free government must rest on this confidence, and this must be founded on the good opinion they entertain of the framers of the laws. Every government must be supported, either by the people having such an attachment to it as to be ready, when called upon, to support it, or by a force at the command of the government, to compel obedience. The latter mode destroys every idea of a free government ; for the same force that may be employed to compel obedience to good laws, might, and probably would be used to wrest from the people their constitutional liberties. Whether it is practicable to have a representation for the whole Union sufficiently numerous to obtain that confidence which is necessary for the purpose of internal taxation, and other powers to which this proposed government extends, is an important question. I am clearly of opinion it is not, and therefore I have stated this in my first number, as one of the reasons against going into so entire a consolidation of the States. One of the most capital errors in the system is, that of extending the powers of the Federal government to objects to which it is not adequate, which it cannot exercise without endangering public liberty, and which it is not necessary they should possess, in order to preserve the Union and manage our national concerns ; of this, however, I shall treat more fully in some future paper. But, however this may be, certain it is, that the representation in the legislature is not so formed as to give reasonable ground for public trust.",
+      "uncertain": [
+        {
+          "end": 2335,
+          "readings": {
+            "primary": "fiO"
+          },
+          "start": 2332
+        }
+      ]
+    },
+    {
+      "label": "Brutus 4, ¶ 5",
+      "pages": [
+        "394",
+        "395",
+        "396"
+      ],
+      "ref": "Brutus.4.5",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          420,
+          421,
+          422
+        ]
+      },
+      "text": "In order for the people safely to repose themselves on their rulers, they should not only be of their own choice, but it is requisite they should be acquainted with their abilities to manage the public concerns with wisdom. They should be satisfied that those who represent them are men of integrity, who will pursue the good of the community with fidelity, and will not be turned aside from their duty by private interest, or corrupted by undue influence ; and that they will have such a zeal for the good of those whom they represent, as to excite them to be diligent in their service ; but it is impossible the people of the United States should have sufficient knowledge of their representatives, when the members are so few, to acquire any rational satisfaction on either of these points. The people of this State will have very little acquaintance with those who may be chosen to represent them ; a great part of them will, probably, not know the characters of their own members, much less that of a majority of those who will compose the Federal assembly ; they will consist of men whose names they have never heard, and of whose talents and regard for the public good they are total strangers to ; and they will have no persons so immediately of their choice so near them, of their neighbors and of their own rank in life, that they can feel themselves secure in trusting their interest in their hands. The representatives of the people cannot, as they now do, after they have passed laws, mix with the people, and explain to them the motives which induced the adoption of any measure, point out its utility, and remove objections, or silence unreasonable clamors against it. The number will be so small that but a very few of the most sensible and respectable yeomanry of the country can ever have any knowledge of them ; being so far removed from the people, their station will be elevated and important, and they will be considered as ambitious and designing. They will not be viewed by the people as part of themselves, but as a body distinct from them, and having separate interests to pursue ; the consequence will be, that a perpetual jealousy will exist in the minds of the people against them ; their conduct will be narrowly watched, their measures scrutinized, and their laws opposed, evaded, or reluctantly obeyed. This is natural, and exactly corresponds with the conduct of individuals towards those in whose hands they intrust important concerns. If the person confided in be a neighbor, with whom his employer is intimately acrji tainted, whose talents, he knows, are sufficient to manage the business with which he is charged, his honesty and fidelity unsuspected, and his friendship and zeal for the service of his principal unquestionable, he will commit his affairs into his hands with unreserved confidence, and feel himself secure ; all the transactions of the agent will meet with the most favorable construction, and the measures he takes will give satisfaction. But, if the person employed be a stranger, whom he has never seen, and whose character for ability or fidelity he cannot fully learn — if he is constrained to choose him. Because it was not in his power to procure one more agreeable to his wishes, he will trust him with caution, and be suspicious of all his conduct.",
+      "uncertain": [
+        {
+          "end": 2562,
+          "readings": {
+            "cornell": "acquainted,",
+            "google": "acquainted,",
+            "primary": "acrji tainted,",
+            "uc": "acquainted,"
+          },
+          "start": 2548
+        }
+      ]
+    },
+    {
+      "label": "Brutus 4, ¶ 6",
+      "pages": [
+        "396"
+      ],
+      "ref": "Brutus.4.6",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          422
+        ]
+      },
+      "text": "If, then, this government should not derive support from the will of the people, it must be executed by force, or not executed at all ; either case would lead to the total destruction of liberty. The Convention seemed aware of this, and have therefore provided for calling out the militia to execute the laws of the Union. If this system was so framed as to command that respect from the people which every good free government will obtain, this provision was unncessary — the people would support the civil magistrate. This power is a novel one in free governments ; these have depended for the execution of the laws on the posse comitatus, and never raised an idea that the people would refuse to aid the civil magistrate in executing those laws they themselves had made. I shall now dismiss the subject of the incompetency of the representation, and proceed, as I promised, to show, that impotent as it is, the people have no security that they will enjoy the exercise of the right of electing this assembly, which, at best, can be considered but as the shadow of representation."
+    },
+    {
+      "label": "Brutus 4, ¶ 7",
+      "pages": [
+        "396"
+      ],
+      "ref": "Brutus.4.7",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          422
+        ]
+      },
+      "text": "By section four, article one, the Congress are authorized, at any time, by law, to make, or alter, regulations respecting the time, place and manner of holding elections for senators and representatives, except as • to the places of choosing senators. By this clause the right of election itself is, in a great measure, transferred from the people to their rulers. One would think that if any thing was necessary to be made a fundamental article of the original compact, it would be that of fixing the branches of the legislature, so as to put it out of its power to alter itself by modifying the election of its own members at will and pleasure. When a people once resign the privilege of a fair election, they clearly have none left worth contending for."
+    },
+    {
+      "label": "Brutus 4, ¶ 8",
+      "pages": [
+        "396",
+        "397"
+      ],
+      "ref": "Brutus.4.8",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          422,
+          423
+        ]
+      },
+      "text": "It is clear that under this article, the Federal legislature may institute such rules respecting elections as to lead to the choice of one description of men. The weakness of the representation tends but too certainly to confer on the rich and well-born all honors ; but the power granted in this article may be so exercised as to secure it almost beyond a possibility of control. The proposed Congress may make the whole State one district, and direct that the capital (the city of New York, for instance) shall be the place for holding the election ; the consequence would be, that none but men of the most elevated rank in society would attend, and they would as certainly choose men of their own class, as it is true what the Apostle Paul saith, \" that no man ever yet hated his own flesh, but nourisheth and cherisheth it.\" They may declare that those members who have the greatest number of votes shall be considered as duly elected; the consequence would be that the people, who are dispersed in the interior parts of the State, would give their votes for a variety of candidates, while any order, or profession, residing in populous places, by uniting their interests, might procure whom they pleased to be chosen, — and by this means the representatives of the State may be elected by one-tenth part of the people' who actually vote. This may be effected constitutionally, and by one of those silent operations which frequently takes place without being noticed, but which often produces such changes as entirely to alter a government, subvert a free constitution, and rivet the chains on a free people before they perceive they are forged. Had the power of regulating elections been left under the direction of the State legislatures, where the people are not only nominally but substantially represented, it would have been secure ; but if it was taken out of their hands, it surely ought to have been fixed on such a basis as to have put it out of the power of the Federal legislature to deprive the people of it by law. Provision should have been made for marking out the States into districts, and for choosing, by a majority of votes, a person out of each of them, of permanent property and residence in the district which he was to represent."
+    },
+    {
+      "label": "Brutus 4, ¶ 9",
+      "pages": [
+        "397",
+        "398"
+      ],
+      "ref": "Brutus.4.9",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          423,
+          424
+        ]
+      },
+      "text": "If the people of America will submit to a Constitution that will vest in the hands of any body of men a right to deprive them by law of the privilege of a fair election, they will submit to almost any thing. Reasoning with them will be in vain, they must be left until they are brought to reflection by feeling oppression. They will then have to wrest from their oppressors, by a strong hand, that which they now possess, and which they may retain if they will exercise but a moderate share of prudence and firmness."
+    },
+    {
+      "label": "Brutus 4, ¶ 10",
+      "pages": [
+        "398"
+      ],
+      "ref": "Brutus.4.10",
+      "scan": {
+        "item": "debatesproceedin00mass",
+        "leaves": [
+          424
+        ]
+      },
+      "text": "I know it is said that the dangers apprehended from this clause are merely imaginary, that the proposed general legislature will be disposed to regulate elections upon proper principles, and to use their power with discretion, and to promote the public good. On this, I would observe, that constitutions are not so necessary to regulate the conduct of good rulers as to restrain that of bad ones. Wise and good men will exercise power so as to promote the public h'appiness under any form of government. If we are to take it for granted that those who administer the government under this system will always pay proper attention to the rights and interests of the people, nothing more was necessary than to say who should be invested with the powers of government, and leave them to exercise it at will and pleasure. 'Men are apt to be deceived, both with respect to their own dispositions and those of others. Though this truth is proved by almost every page of the history of nations, to wit, that power, lodged in the hands of rulers to be used at discretion, is almost always exercised to the oppression of the people, and the aggrandizement of themselves ; yet most men think if it was lodged in their hands they would not employ it in this manner. Thus when the prophet Elisha told Hazael, \" I know the evil that thou wilt do unto the children of Israel ; their strongholds wilt thou set on fire, and their young men wilt thou slay with the sword, and wilt dash their children, and rip up their women with child.\" Hazael had no idea that he ever should be guilty of such horrid cruelty, and said to the prophet, \" Is thy servant a dog that he should do this great thing.\" Elisha answered, \" The Lord hath showed me that thou shalt be king of Syria.\" The event proved, that Hazael only wanted an opportunity to perpetrate these enormities without restraint, and he had a disposition to do them, though he himself knew it not."
+    }
+  ],
+  "short": "Brutus",
+  "source_ids": [
+    "ia-mass-debates-1856-nypl-xml",
+    "ia-mass-debates-1856-uc-txt",
+    "ia-mass-debates-1856-google-txt",
+    "ia-mass-debates-1856-cornell-txt"
+  ],
+  "title": "The Letters of Brutus"
+}

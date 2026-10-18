@@ -110,9 +110,14 @@ NOTE_MARK = re.compile(r"^\s*(?:[*•♦†‡§\\]|[f■]\s|■?j-|■?\)-)")
 EDITOR_NOTE = re.compile(r"(?:^|[\s—.-])(?:Ed|EJ|LJ|£d|£i/|E,i|Ed,)[.,]?\s*$")
 
 
-def classify(pages: list[Page]) -> None:
+def classify(pages: list[Page], split_heads: bool = False) -> None:
     """Split paragraphs OCR ran together, then mark running heads, folios and
-    footnotes on each page (in place)."""
+    footnotes on each page (in place).
+
+    `split_heads` also finds a running head OCR read as two blocks, or ran
+    into the paragraph below it. It is off for the books imported before it
+    existed: on one Ford page it would join two published paragraphs, which
+    needs a decision under rule 6 (docs/errata.md, 17)."""
     notes_continue = False  # the page before ended in a note
     for page in pages:
         if page.paras:
@@ -137,18 +142,37 @@ def classify(pages: list[Page]) -> None:
         letters = [c for c in first_line if c.isalpha()]
         capitals = letters and sum(c.isupper() for c in letters) >= 0.6 * len(letters)
         at_top = page.height and top.lines[0].words[0].y0 < 0.16 * page.height
+        # OCR may run a head in capitals that begins or ends with the page
+        # number into the paragraph below it ("SPIRIT OF THE PRESS. 383 the
+        # instances adduced ..."): split it off.
+        if (split_heads and len(top.lines) > 1 and at_top and capitals and len(first_line.split()) <= 12
+                and re.search(r"^\S*\d{1,4}\S*\s|\s\S*\d{1,4}\S*$", first_line)):
+            page.paras.insert(0, Para([top.lines[0]], top.leaf))
+            top.lines = top.lines[1:]
+            top = page.paras[0]
         if (len(top.lines) == 1 and len(first_line.split()) <= 12 and len(page.paras) > 1
                 and (re.search(r"\b\d{1,4}\b", first_line) or (at_top and (capitals or repeats(page.leaf))))):
             top.kind = "head"
             m = re.search(r"(?:^|\s)(\d{1,4})(?:\s|$)", first_line)
             page.folio = m.group(1) if m else None
+            # The rest of a head OCR read as a separate block on the same
+            # line ("1788.]" | "SPIRIT OF THE PRESS. 383").
+            if split_heads and len(page.paras) > 2:
+                rest = page.paras[1]
+                y = top.lines[0].words[0].y0
+                if (len(rest.lines) == 1 and len(rest.text.split()) <= 12
+                        and abs(rest.lines[0].words[0].y0 - y) < 0.01 * page.height):
+                    rest.kind = "head"
+                    m = re.search(r"(?:^|\s)(\d{1,4})(?:\s|$)", rest.text)
+                    page.folio = page.folio or (m.group(1) if m else None)
         # Folio at the foot: "( 247 )" or "247", or a mark of a few
         # characters on its own line at the very bottom ("('56)", "(no)":
         # OCR misreads the small figures).
         for para in page.paras[-2:]:
             squeezed = para.text.replace(" ", "")
             low = page.height and para.lines[0].words[0].y0 > 0.85 * page.height
-            if len(para.lines) == 1 and (FOLIO.match(squeezed) or (low and len(squeezed) <= 7)):
+            signature = re.fullmatch(r"[A-Z][a-z]+\.", squeezed)  # "Brutus." closing the last page
+            if len(para.lines) == 1 and (FOLIO.match(squeezed) or (low and len(squeezed) <= 7 and not signature)):
                 para.kind = "folio"
                 m = FOLIO.match(squeezed)
                 page.folio = page.folio or (m.group(1) if m and m.group(1).isdigit() else None)

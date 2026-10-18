@@ -126,6 +126,7 @@ class StructureTests(unittest.TestCase):
         self.assertTrue(numeral_reads_as("VL", 6))
         self.assertTrue(numeral_reads_as("VHI", 8))
         self.assertTrue(numeral_reads_as("XL", 11))
+        self.assertTrue(numeral_reads_as("lY", 4))
         self.assertFalse(numeral_reads_as("IX", 8))
 
     def test_signature_run_into_the_last_paragraph(self):
@@ -162,7 +163,7 @@ class ReviewSheetTests(unittest.TestCase):
 
 class RatificationImportTests(unittest.TestCase):
     def test_series_essay_counts(self):
-        expect = {"cato": 7, "agrippa": 18, "centinel": 24, "landholder": 14, "federal-farmer": 5}
+        expect = {"cato": 7, "agrippa": 18, "centinel": 24, "landholder": 14, "federal-farmer": 5, "brutus": 4}
         for wid, n in expect.items():
             doc = json.loads((TEXTS_DIR / f"{wid}.json").read_text(encoding="utf-8"))
             self.assertEqual(len(doc["divisions"]), n, wid)

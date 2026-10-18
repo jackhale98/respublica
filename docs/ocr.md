@@ -41,6 +41,7 @@ For each book, in `sources/raw/` (downloaded by `tools/fetch.py`, listed in
 | Ford, *Essays on the Constitution* (1892) | `ia-ford-essays-1892-toronto-xml` | `-brittle-txt`, `-google-txt` (two) |
 | Ford, *Pamphlets on the Constitution* (1888) | `ia-ford-pamphlets-1888-cornell-xml` | `-google-txt` (one) |
 | McMaster and Stone, *Pennsylvania and the Federal Constitution* (1888) | `ia-mcmaster-stone-1888-cornell-xml` | `-pitt-txt` (one) |
+| *Debates and Proceedings in the Convention of Massachusetts* (1856) | `ia-mass-debates-1856-nypl-xml` | `-uc-txt`, `-google-txt`, `-cornell-txt` (three) |
 
 With two references a word can be outvoted 2 to 1; with one, disagreements
 are ties and depend on the tie rules below, so those books have
@@ -60,9 +61,14 @@ proportionally more uncertain words.
    - *Running heads*: a short single line at the top of the page that holds a
      page number, is set in capitals, or repeats (letters only) the top line
      of a nearby page. The page number in it, when read, becomes the page's
-     printed number.
+     printed number. For books marked `split_heads` (the 1856 *Debates*), a
+     head OCR read as two blocks on one line ("1788.]" | "SPIRIT OF THE
+     PRESS. 383") or ran into the paragraph below it is also set aside. The
+     books imported earlier do not use this: on one Ford page it would join
+     two published paragraphs (erratum 17), which needs a decision first.
    - *Folios*: a page number at the foot ("( 247 )"), or any line of a few
-     characters alone at the very bottom (OCR reads small figures as "('56)").
+     characters alone at the very bottom (OCR reads small figures as "('56)"),
+     unless it is a capitalized word and a period (a signature, "Brutus.").
    - *Plates*: a page with no running head, no page number and fewer than 25
      words (a portrait and its caption) is skipped.
 4. **Footnotes** are paragraphs at the foot of a page in smaller type than
@@ -202,7 +208,8 @@ shows each scan's reading and a link to the page image.
 
 ## How well it works
 
-At the October 2026 import: 19 works, about 177,000 words.
+At the October 2026 import: 19 works, about 177,000 words (Brutus, added
+later, is below).
 
 - **Corrections.** The vote changed 1,133 words from the main scan's
   reading. Random samples of these changes were read one by one, and each
@@ -216,6 +223,11 @@ At the October 2026 import: 19 works, about 177,000 words.
 - **Uncertain words.** 611 are marked, about 3.5 per thousand words (from
   1 to 11 per thousand by work; short pieces with display-type newspaper
   headings run highest). Run `python -m tools.uncertain` for current counts.
+- **Brutus I–IV** (the 1856 *Debates*, three reference scans, clean book
+  type, no newspaper headings): about 13,200 words with 13 marked, 1 per
+  thousand, most of them a misreading two scans share elsewhere in the book
+  ("wliole") against the others' "whole", which the rules leave for a
+  person.
 - **Paragraphs.** Spot checks of paragraph breaks against page images found
   them right on the pages checked, after the fixes in step 1.
 

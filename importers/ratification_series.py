@@ -31,10 +31,19 @@ BOOKS = {
         "primary": "ia-mcmaster-stone-1888-cornell-xml",
         "references": {"pitt": "ia-mcmaster-stone-1888-pitt-txt"},
     },
+    "mass-debates": {
+        "edition": "Debates and Proceedings in the Convention of the Commonwealth of Massachusetts, held in the year 1788 (Boston, 1856)",
+        "short": "Debates and Proceedings in the Convention of Massachusetts (1856)",
+        "item": "debatesproceedin00mass",
+        "primary": "ia-mass-debates-1856-nypl-xml",
+        "references": {"uc": "ia-mass-debates-1856-uc-txt", "google": "ia-mass-debates-1856-google-txt",
+                       "cornell": "ia-mass-debates-1856-cornell-txt"},
+        "split_heads": True,
+    },
 }
 
-# Roman numeral as OCR reads it (I as 1, l, | or !; II as H).
-NUM = r"(?P<n>[IVXLHl1|!vxi]{1,6})[.,;]?"
+# Roman numeral as OCR reads it (I as 1, l, | or !; II as H; V as Y).
+NUM = r"(?P<n>[IVXLHYl1|!vxi]{1,6})[.,;]?"
 
 SERIES = [
     # ---- Ford, Essays on the Constitution (1892). Pages are the printed
@@ -185,5 +194,17 @@ SERIES = [
         "attribution": {"byline": "Written by Richard Henry Lee", "kind": "single", "names": ["Richard Henry Lee"],
                         "source": "Ford, Pamphlets on the Constitution (1888), p. 277, editor's note"},
         "position": "anti", "date": "1787-10-08/1787-10-13",
+    },
+    # ---- Debates and Proceedings in the Convention of Massachusetts
+    # (1856), "Spirit of the Press": Brutus I-IV as reprinted in Boston's
+    # Independent Chronicle. The other twelve essays are not in it.
+    {
+        "slug": "Brutus", "work_id": "brutus", "title": "The Letters of Brutus", "short": "Brutus",
+        "book": "mass-debates", "pages": (366, 398), "essays": 4,
+        "heading": r"BRUTUS\.?\s*[—–-]*\s*No\.?\s*" + NUM, "signature": "Brutus.",
+        "attribution": {"byline": "Brutus was the signature (of Thomas Treadwell, of Suffolk County, N. Y.?)",
+                        "kind": "pseudonym", "names": ["Thomas Treadwell?"], "pseudonym": "Brutus",
+                        "source": "Ford, Pamphlets on the Constitution (1888), p. 117, editor's note to Webster's The Weakness of Brutus Exposed"},
+        "position": "anti", "date": "1787-10-18/1787-11-29",
     },
 ]
