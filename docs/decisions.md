@@ -386,3 +386,14 @@ CommonHall gradient from `tokens.css`.
   screens and scrolls to the division's heading on wide ones; a button goes
   back to the top. It is `inert` while hidden, absent without JavaScript,
   and does not animate for readers who prefer reduced motion.
+
+## 32. The Declaration of Independence is a founding document
+
+At the project owner's request, the Declaration is imported alongside the
+Constitution, though it is not law: the library holds the founding texts,
+and the Declaration is what The Federalist, the Anti-Federalists and the
+Supreme Court argue from and cite. It comes from the same upstream as the
+Constitution (the National Archives transcription), is listed first among
+the founding documents (1776), and is linked like any other text, but links
+to it are never `interprets`, which is for courts construing law.
+Refs: `docs/references.md`.

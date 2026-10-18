@@ -1,11 +1,12 @@
 """Import the Constitution and its amendments from National Archives transcriptions.
 
 Inputs (sources/manifest.json ids):
+  nara-declaration        https://www.archives.gov/founding-docs/declaration-transcript
   nara-constitution       https://www.archives.gov/founding-docs/constitution-transcript
   nara-bill-of-rights     https://www.archives.gov/founding-docs/bill-of-rights-transcript
   nara-amendments-11-27   https://www.archives.gov/founding-docs/amendments-11-27
 
-Outputs: texts/constitution.json, texts/amendments.json
+Outputs: texts/declaration.json, texts/constitution.json, texts/amendments.json
 
 Numbering follows docs/references.md. The importer only segments the
 transcription and collapses HTML whitespace; it never changes wording,
@@ -19,6 +20,7 @@ from pathlib import Path
 
 from tools.common import Node, TEXTS_DIR, collapse_ws, parse_html, read_raw_text, roman_to_int, write_json
 
+DECLARATION_SRC = "nara-declaration"
 CONSTITUTION_SRC = "nara-constitution"
 BOR_SRC = "nara-bill-of-rights"
 AMEND_SRC = "nara-amendments-11-27"
@@ -69,6 +71,86 @@ def _amendment_spans(p: Node) -> list[dict]:
                 "source_id": CONSTITUTION_SRC,
             })
     return spans
+
+
+STATES = {
+    "New Hampshire", "Massachusetts", "Rhode Island", "Connecticut", "New York", "New Jersey", "Pennsylvania",
+    "Delaware", "Maryland", "Virginia", "North Carolina", "South Carolina", "Georgia",
+}
+
+
+def import_declaration() -> dict:
+    """The Declaration of Independence, from the National Archives
+    transcription of the Stone Engraving. Refs (docs/references.md):
+    Declaration.Heading (the two lines above the text), Declaration.{n} for
+    each paragraph as the transcription sets it (each grievance is its own
+    paragraph there), and Declaration.Signers.{n} for each group of
+    signatures, in the transcription's order."""
+    root = parse_html(read_raw_text(DECLARATION_SRC))
+    blocks = _blocks_after_h1(root, "Declaration of Independence: A Transcription")
+    hr = next(i for i, b in enumerate(blocks) if b.tag == "hr")
+    blocks = [b for b in blocks[hr + 1:] if b.tag == "p"]
+    segments: list[dict] = []
+    divisions: list[dict] = []
+
+    _expect(blocks[0].text() == "In Congress, July 4, 1776", f"expected the date line, got {blocks[0].text()!r}")
+    # The title is set in bold at the head of the first paragraph.
+    first = blocks[1]
+    strong = first.find_all("strong")
+    _expect(bool(strong), "expected the title in bold at the head of the first paragraph")
+    title = strong[0].text()
+    full = first.text()
+    _expect(full.startswith(title + " "), f"title {title!r} does not open the first paragraph")
+    segments.append({"label": "Heading", "ref": "Declaration.Heading", "text": f"{blocks[0].text()}\n{title}"})
+    paras = [full[len(title) + 1:]]
+
+    i = 2
+    while i < len(blocks) and blocks[i].text() not in STATES:
+        t = blocks[i].text()
+        if t:
+            paras.append(t)
+        i += 1
+    for n, t in enumerate(paras, 1):
+        segments.append({"label": f"Declaration of Independence, ¶ {n}", "ref": f"Declaration.{n}", "text": t})
+
+    # Signatures: a state's name, then its signers, until the next state.
+    divisions.append({"label": "Signatures", "level": 1, "ref": "Declaration.Signers"})
+    groups: list[tuple[str, list[str]]] = []
+    for b in blocks[i:]:
+        t = b.text()
+        if t == "Back to Main Declaration Page":
+            break
+        if not t:
+            continue
+        if t in STATES:
+            groups.append((t, []))
+        else:
+            _expect(bool(groups), f"signer {t!r} before any state")
+            groups[-1][1].append(t)
+    for n, (state, names) in enumerate(groups, 1):
+        _expect(bool(names), f"no signers under {state}")
+        segments.append({"label": f"Signatures: {state}", "ref": f"Declaration.Signers.{n}", "state": state,
+                         "text": "\n".join(names)})
+
+    _expect(paras[1].startswith("We hold these truths to be self-evident"), "second paragraph should be 'We hold…'")
+    _expect(paras[-1].startswith("We, therefore, the Representatives"), "last paragraph should be the resolution")
+    _expect(sum(len(names) for _, names in groups) == 56, "expected 56 signers")
+    return {
+        "attribution": {"kind": "body", "names": ["Continental Congress"]},
+        "date": "1776-07-04",
+        "divisions": divisions,
+        "edition": {
+            "name": "National Archives transcription of the Stone Engraving of the parchment",
+            "notes": "Spelling and punctuation follow the National Archives transcription, which reflects the "
+                     "original. Paragraphs are as the transcription sets them: each grievance is its own "
+                     "paragraph. Signatures are grouped by state in the transcription's order.",
+        },
+        "id": "declaration",
+        "ref_prefix": "Declaration",
+        "segments": segments,
+        "source_ids": [DECLARATION_SRC],
+        "title": "The Declaration of Independence",
+    }
 
 
 def import_constitution() -> dict:
@@ -304,7 +386,8 @@ def import_amendments() -> dict:
 
 def run(out_dir: Path = TEXTS_DIR) -> list[Path]:
     paths = []
-    for name, doc in (("constitution", import_constitution()), ("amendments", import_amendments())):
+    for name, doc in (("declaration", import_declaration()), ("constitution", import_constitution()),
+                      ("amendments", import_amendments())):
         path = out_dir / f"{name}.json"
         write_json(path, doc)
         paths.append(path)

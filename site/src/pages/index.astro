@@ -7,6 +7,10 @@ import { href, AUTHORS, authorKey, formatDate, formatNumber, loadPage, loadRefs,
 const site = loadSite();
 const refs = loadRefs();
 const works = Object.fromEntries(site.works.map((w) => [w.id, w]));
+const declaration = works.declaration;
+const declBlocks = declaration ? loadPage("declaration").blocks.filter((b) => b.type === "passage") : [];
+const declParas = declBlocks.filter((b) => /^Declaration\.\d+$/.test(b.ref)).length;
+const declSigners = declBlocks.filter((b) => b.ref.startsWith("Declaration.Signers.")).reduce((n, b) => n + b.paras.flat().length, 0);
 const constitution = works.constitution;
 const amendments = works.amendments;
 const federalist = works.federalist;
@@ -14,9 +18,9 @@ const articles = loadPage("constitution").toc.filter((t) => t.level === 1 && t.l
 const clauses = loadPage("constitution").blocks.filter((b) => b.type === "passage" && /^Constitution\.\d/.test(b.ref)).length;
 
 // Quick ways in, resolved through the ref index so they can't go stale.
-const jumps = ["Constitution.Preamble", "Constitution.1.8", "Amendment.1", "Amendment.14", "Federalist.10", "Federalist.51"]
+const jumps = ["Declaration.2", "Constitution.Preamble", "Constitution.1.8", "Amendment.1", "Amendment.14", "Federalist.10", "Federalist.51"]
   .filter((r) => refs[r])
-  .map((r) => ({ ref: r, url: refs[r].url, label: refs[r].label.replace("Article I, ", "Art. I, ") }));
+  .map((r) => ({ ref: r, url: refs[r].url, label: refs[r].label.replace("Article I, ", "Art. I, ").replace("Declaration of Independence, ", "Declaration ") }));
 
 const fedCounts = AUTHORS.map((a) => ({ ...a, n: federalist ? federalist.parts.filter((p) => authorKey(p.attribution) === a.key).length : 0 })).filter((a) => a.n);
 const fedTotal = federalist?.parts.length ?? 0;
@@ -38,8 +42,9 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
         <p class="eyebrow">Free · Nonpartisan · Open source</p>
         <h1>America's founding texts, <span class="grad">connected.</span></h1>
         <p class="lede">
-          Read the Constitution, its amendments, The Federalist and the essays of the ratification debate,
-          with a permanent reference for every passage and links you can check between them.
+          Read the Declaration of Independence, the Constitution and its amendments, The Federalist and the
+          essays of the ratification debate, with a permanent reference for every passage and links you can
+          check between them.
         </p>
         <a class="hero-search" href={href("/search/")} data-search-open>
           <Icon name="search" />
@@ -72,6 +77,14 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
       <p>{formatNumber(site.stats.passages)} passages, each with its own permanent address.</p>
     </div>
     <div class="works-grid">
+      {declaration && (
+        <a class="card work-card w-declaration" href={href(declaration.url)}>
+          <span class="work-icon"><Icon name="flag" /></span>
+          <h3>The Declaration of Independence</h3>
+          <p>Adopted in Congress on {formatDate(declaration.date)}, in the National Archives transcription, with each grievance as its own passage.</p>
+          <div class="work-meta"><span>{declParas} paragraphs</span><span>{declSigners} signers</span></div>
+        </a>
+      )}
       <a class="card work-card w-constitution" href={href(constitution.url)}>
         <span class="work-icon"><Icon name="scroll" /></span>
         <h3>The Constitution</h3>

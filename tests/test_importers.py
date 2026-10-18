@@ -24,5 +24,27 @@ class FederalistImportTests(unittest.TestCase):
         self.assertEqual(len(disputed), 11)
 
 
+class DeclarationImportTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.doc = json.loads((TEXTS_DIR / "declaration.json").read_text(encoding="utf-8"))
+        cls.refs = {s["ref"]: s for s in cls.doc["segments"]}
+
+    def test_paragraphs(self):
+        self.assertTrue(self.refs["Declaration.1"]["text"].startswith("When in the Course of human events"))
+        self.assertTrue(self.refs["Declaration.2"]["text"].startswith("We hold these truths to be self-evident"))
+        self.assertTrue(self.refs["Declaration.32"]["text"].startswith("We, therefore, the Representatives"))
+        self.assertNotIn("Declaration.33", self.refs)
+
+    def test_title_is_in_the_heading_not_the_first_paragraph(self):
+        self.assertEqual(self.refs["Declaration.Heading"]["text"],
+                         "In Congress, July 4, 1776\nThe unanimous Declaration of the thirteen united States of America,")
+
+    def test_56_signers(self):
+        signers = [s for r, s in self.refs.items() if r.startswith("Declaration.Signers.")]
+        self.assertEqual(sum(len(s["text"].split("\n")) for s in signers), 56)
+        self.assertEqual(self.refs["Declaration.Signers.4"]["text"], "John Hancock")
+
+
 if __name__ == "__main__":
     unittest.main()

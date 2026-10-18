@@ -18,6 +18,7 @@ const {
 } = Astro.props;
 const pageTitle = title ? `${title} · Res Publica` : "Res Publica: America's founding texts, connected";
 const nav = [
+  { href: "/declaration/", label: "Declaration", key: "declaration" },
   { href: "/constitution/", label: "Constitution", key: "constitution" },
   { href: "/amendments/", label: "Amendments", key: "amendments" },
   { href: "/federalist/", label: "The Federalist", short: "Federalist", key: "federalist" },
@@ -89,6 +90,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         <div>
           <h2>Read</h2>
           <ul>
+            <li><a href={href("/declaration/")}>The Declaration of Independence</a></li>
             <li><a href={href("/constitution/")}>The Constitution</a></li>
             <li><a href={href("/amendments/")}>Amendments</a></li>
             <li><a href={href("/federalist/")}>The Federalist</a></li>

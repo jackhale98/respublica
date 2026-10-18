@@ -25,6 +25,16 @@ Quotes in links are matched against the text after normalizing only whitespace
 and quote-mark style (curly vs straight). See `tools/common.py`,
 `normalize_for_match`.
 
+## Declaration of Independence
+
+- Source: National Archives, "Declaration of Independence: A Transcription"
+  (`nara-declaration`), a transcription of the Stone Engraving of the
+  parchment; NARA notes that its spelling and punctuation reflect the
+  original ("Brittish", "compleat", "harrass").
+- The title, set in bold at the head of the first paragraph, is moved with
+  the date line into `Declaration.Heading`; nothing else is changed.
+- Importer: `importers/nara.py` (`import_declaration`).
+
 ## Constitution
 
 - **Base:** National Archives, "The Constitution of the United States: A

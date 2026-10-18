@@ -97,5 +97,14 @@
     "retrieved_at": "2026-10-18",
     "sha256": "0e6f9a43ab250885471fef1f7120dd1bc5894ff71cc5773d7fb01b801ee84d6a",
     "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+  },
+  {
+    "id": "nara-declaration",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105)",
+    "notes": "National Archives transcription of the Stone Engraving of the parchment Declaration of Independence; spelling and punctuation reflect the original.",
+    "path": "sources/raw/nara-declaration.html",
+    "retrieved_at": "2026-10-18",
+    "sha256": "21735d1896efdc206f8dc2defa822077aa09ca49d127a0259bc3ba291ff9ab89",
+    "url": "https://www.archives.gov/founding-docs/declaration-transcript"
   }
 ]

@@ -10,6 +10,24 @@ must appear in one of the segments under it.
 
 Numbers in refs are a convention of this project, not part of any text.
 
+## Declaration of Independence (`texts/declaration.json`)
+
+From the National Archives transcription of the Stone Engraving.
+
+- `Declaration.Heading`: the two lines above the text ("In Congress, July 4,
+  1776" and "The unanimous Declaration of the thirteen united States of
+  America,"), one per line.
+- `Declaration.{n}`: the paragraphs as the transcription sets them,
+  numbered from 1 ("When in the Course of human events…"). Each grievance is
+  its own paragraph there, so `Declaration.2` is "We hold these truths…",
+  `Declaration.3`–`Declaration.29` are the grievances ("He has…", "For…"),
+  and `Declaration.32` is the closing resolution ("We, therefore…").
+- `Declaration.Signers.{n}`: each group of signatures, numbered in the
+  transcription's order (Georgia first, Matthew Thornton of New Hampshire
+  last). Some states appear twice, as on the engraving (John Hancock's
+  signature is its own group), so groups are numbered rather than named; the
+  state is in each passage's `state` field and label.
+
 ## Constitution (`texts/constitution.json`)
 
 Source: National Archives transcription of the engrossed parchment.

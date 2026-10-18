@@ -49,6 +49,8 @@ def cmd_add(args: argparse.Namespace) -> int:
         return 2
     data = fetch_bytes(args.url)
     ext = args.ext or _guess_ext(args.url)
+    if ext and not ext.startswith("."):
+        ext = f".{ext}"  # "--ext html" means ".html"
     path = RAW_DIR / f"{args.id}{ext}"
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     path.write_bytes(data)

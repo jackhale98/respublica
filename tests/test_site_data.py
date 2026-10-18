@@ -69,6 +69,7 @@ class GraphTests(unittest.TestCase):
     def test_short_labels(self):
         from tools.site_data import short_label
         self.assertEqual(short_label("Article I, Section 8, Clause 18"), "Art. I §8 cl. 18")
+        self.assertEqual(short_label("Declaration of Independence, ¶ 2"), "Decl. ¶2")
         self.assertEqual(short_label("Article VI, Clause 2"), "Art. VI cl. 2")
         self.assertEqual(short_label("Federalist No. 44, ¶ 4"), "Fed. 44 ¶4")
         self.assertEqual(short_label("Federalist No. 59, note 1"), "Fed. 59 n.1")

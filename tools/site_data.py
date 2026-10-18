@@ -27,6 +27,7 @@ OUT = ROOT / "site" / ".data"
 # Site-level settings per work. URLs are permanent once published.
 # `paged`: one page per top-level division (otherwise one page for the work).
 WORKS = {
+    "declaration": {"collection": "founding", "order": 0, "paged": False, "short": "Declaration", "slug": "declaration"},
     "constitution": {"collection": "founding", "order": 1, "paged": False, "short": "Constitution", "slug": "constitution"},
     "amendments": {"collection": "founding", "order": 2, "paged": False, "short": "Amendments", "slug": "amendments"},
     "federalist": {"collection": "federalist", "order": 3, "paged": True, "short": "Federalist", "slug": "federalist"},
@@ -128,8 +129,10 @@ def build_link_index(links: list[dict], corpus: Corpus) -> dict:
 
 def short_label(label: str) -> str:
     """Compact caption for graph nodes: "Article I, Section 8, Clause 18" ->
-    "Art. I §8 cl. 18"; "Federalist No. 44, ¶ 4" -> "Fed. 44 ¶4"."""
+    "Art. I §8 cl. 18"; "Federalist No. 44, ¶ 4" -> "Fed. 44 ¶4";
+    "Declaration of Independence, ¶ 2" -> "Decl. ¶2"."""
     s = re.sub(r"^Federalist No\. ", "Fed. ", label)
+    s = re.sub(r"^Declaration of Independence, ¶ ", "Decl. ¶", s)
     s = re.sub(r"^Article ", "Art. ", s)
     s = re.sub(r"^Amendment ", "Amend. ", s)
     s = s.replace(", Section ", " §").replace(", Clause ", " cl. ").replace(", ¶ ", " ¶").replace(", note ", " n.")

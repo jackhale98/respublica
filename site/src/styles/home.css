@@ -71,6 +71,7 @@
   background: var(--brand-soft); color: var(--brand);
 }
 .work-icon svg { width: 22px; height: 22px; }
+.w-declaration .work-icon { background: color-mix(in srgb, var(--author-joint) 16%, transparent); color: color-mix(in srgb, var(--author-joint) 70%, var(--text)); }
 .w-amendments .work-icon { background: color-mix(in srgb, #1fb5d3 16%, transparent); color: #0f7f96; }
 .w-federalist .work-icon { background: color-mix(in srgb, var(--author-jay) 16%, transparent); color: var(--author-jay); }
 .w-debate .work-icon { background: color-mix(in srgb, var(--author-madison) 16%, transparent); color: var(--author-madison); }
