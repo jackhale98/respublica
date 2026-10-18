@@ -209,6 +209,27 @@ class RatificationImportTests(unittest.TestCase):
         doc = json.loads((TEXTS_DIR / "landholder.json").read_text(encoding="utf-8"))
         self.assertIn("Landholder.10b", [d["ref"] for d in doc["divisions"]])
 
+class SharedMisreadingTests(unittest.TestCase):
+    def test_attested_confusions_of_clean_words_are_not_known(self):
+        from importers.ocr import Vocabulary
+        v = Vocabulary({"effect", "whole", "of", "and"})
+        v.attest({"eflfect", "wliole", "oi", "smilie"})
+        self.assertNotIn("eflfect", v)
+        self.assertNotIn("wliole", v)
+        self.assertIn("oi", v)          # no common confusion gives a clean word
+        self.assertIn("smilie", v)      # a name the scans agree on
+
+    def test_a_clean_word_beats_one_only_the_scans_attest(self):
+        from importers.ocr import Vocabulary
+        v = Vocabulary({"of", "and", "the"})
+        v.attest({"oi", "aud", "r"})
+        self.assertEqual(vote({"primary": "of", "pitt": "oi"}, v), ("of", True))
+        self.assertEqual(vote({"primary": "aud", "pitt": "and"}, v), ("and", True))
+        # A single letter is too little to go on.
+        one = Vocabulary({"i"})
+        one.attest({"r"})
+        self.assertEqual(vote({"primary": "i,", "a": "r,"}, one), ("i,", False))
+
 
 if __name__ == "__main__":
     unittest.main()

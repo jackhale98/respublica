@@ -136,11 +136,19 @@ Readings are grouped by their letters and figures. A **known word** is one
 found in the clean texts already in the library (the Constitution, the
 amendments, The Federalist), or one that two scans read identically and
 cleanly at the same place ("attested"). Figures are never known words.
+Scans of different copies share some misreadings (the same OCR engine, the
+same type), so an attested word that undoes to a clean word by one common
+confusion is not known: "eflfect" (the ff ligature, for "effect"), "wliole"
+(for "whole"); the confusions are `SHARED_CONFUSIONS` in `importers/ocr.py`.
 
 1. **Majority.** The group most scans share wins: "tliis" / "this" / "this"
    gives "this".
 2. **Ties.** A known word wins over a non-word if it looks like the main
-   scan's reading ("tliis" against "this"). Otherwise the word is unsettled.
+   scan's reading ("tliis" against "this"). Between two known words, a word
+   from the clean texts wins over one only the scans attest, when the main
+   scan reads the clean word or both look like its reading, and the word
+   has more than one letter ("of" against "oi", "and" against "aud"; not
+   "i," against "r,"). Otherwise the word is unsettled.
 3. **Within the winning group** (same letters, different marks), a cleanly
    printed reading is used: no stray marks (`^ | ~ _ { } < > \ /`, a doubled
    stop, an asterisk inside a word), and no two different stops together

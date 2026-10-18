@@ -12,7 +12,7 @@ The syllabus is copied as the scan's text layer reads it (rule 7: no
 summaries of our own); where the reader cannot be sure it has the whole
 syllabus in order (`importers.usreports.problems`), the case has none and
 says why (`syllabus_note`). Opinion text is not imported: case pages link
-to CourtListener for it (decision 45).
+to CourtListener for it (decision 46).
 """
 
 from __future__ import annotations

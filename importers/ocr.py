@@ -760,7 +760,15 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
         top = pk
     elif len(ranked) > 1:
         a, b = ranked[0], ranked[1]
-        if len(groups[a]) == len(groups[b]) and ((a in known) == (b in known) or not alike(a, pk) or elided(a)):
+        clean = getattr(known, "clean", None)
+        if (clean is not None and len(pk) >= 2 and len(groups[a]) == len(groups[b]) and a in known and b in known
+                and (a in clean) != (b in clean) and (pk in clean or (alike(a, pk) and alike(b, pk)))):
+            # Both are known, but only one from the clean texts: the other is
+            # known only because two scans agree on it, and scans share
+            # misreadings ("eflfect" for "effect"), so the clean word wins.
+            # Not for a single letter ("i," for "1,"): too little to go on.
+            top = a if a in clean else b
+        elif len(groups[a]) == len(groups[b]) and ((a in known) == (b in known) or not alike(a, pk) or elided(a)):
             settled = False
             top = pk
         elif (any(c.isdigit() for c in top) or (top != pk and pk in known and top in known and plain(readings["primary"]))
@@ -789,6 +797,33 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
     if whole and " " in clean[0] and not pieces_are_words:
         return whole[0], settled
     return clean[0], settled
+
+
+# OCR confusions scans of different copies share (the same engine, the same
+# type): undoing one in a word the scans "agree" on that gives a clean word
+# shows the agreement is a shared misreading ("eflfect" for "effect", the ff
+# ligature; "wliole" for "whole").
+SHARED_CONFUSIONS = (("flf", "ff"), ("fif", "ff"), ("ffl", "ff"), ("li", "h"), ("tli", "th"), ("rn", "m"),
+                     ("vv", "w"), ("ii", "u"), ("cl", "d"))
+
+
+class Vocabulary(set):
+    """Known words: the clean texts' vocabulary (`clean`) and the words the
+    scans attest (two scans reading a word identically). A word the scans
+    attest that is a shared OCR confusion of a clean word is not added
+    (`attest`); on a tie, a clean word beats one only the scans attest (see
+    `vote`)."""
+
+    def __init__(self, clean: set[str]):
+        super().__init__(clean)
+        self.clean = frozenset(clean)
+
+    def misread(self, word: str) -> bool:
+        return word not in self.clean and any(
+            word.replace(a, b, 1) in self.clean for a, b in SHARED_CONFUSIONS if a in word)
+
+    def attest(self, words: set[str]) -> None:
+        self.update(w for w in words if not self.misread(w))
 
 
 def known_words(clean: list[str]) -> set[str]:

@@ -116,7 +116,7 @@ def match(key: str, name: str, responses: list[tuple[str, object]]) -> Match:
 
     CourtListener sometimes gives several clusters for one citation: the
     same decision imported twice from different sources, or another case
-    filed under the citation by mistake. Then, in order (decision 45):
+    filed under the citation by mistake. Then, in order (decision 46):
     keep the clusters whose first party is the Constitution Annotated's
     and those dated in its year (each only when that leaves some), then
     take the one other opinions cite most (`citation_count`). A tie fails."""

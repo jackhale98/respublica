@@ -6,7 +6,7 @@ Two kinds, written by code as `import` links that cite their source and
 proposed like any other link (status "suggested"; a person reviews them):
 
 - `interprets`, case -> clause: the Constitution Annotated's essays on the
-  clause cite the case on at least MIN_PAGES printed pages (decision 45).
+  clause cite the case on at least MIN_PAGES printed pages (decision 46).
   The source names the essays and pages. This records where the essays
   cite the case, never what the case held (rule 7).
 - `overrules`, case -> case: a row of the Constitution Annotated's Table of

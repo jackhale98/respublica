@@ -4,5 +4,5 @@ __pycache__/
 .DS_Store
 .wrangler/
 
-# Library of Congress scans of the U.S. Reports: too large for git; `make fetch` restores them (decision 45)
+# Library of Congress scans of the U.S. Reports: too large for git; `make fetch` restores them (decision 46)
 sources/raw/loc-usrep-*.pdf

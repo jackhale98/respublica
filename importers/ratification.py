@@ -26,7 +26,7 @@ from difflib import SequenceMatcher
 from functools import lru_cache
 from pathlib import Path
 
-from importers.ocr import (TOKEN, Block, Reference, align, attested, blocks, classify, consensus, key, known_words,
+from importers.ocr import (TOKEN, Block, Reference, Vocabulary, align, attested, blocks, classify, consensus, key, known_words,
                           parse_djvu_xml)
 from importers.ratification_series import BOOKS, SERIES
 from tools.common import TEXTS_DIR, raw_path, read_raw_text, roman_to_int, write_json
@@ -127,13 +127,20 @@ def split_essays(series: dict, bs: list) -> list[tuple[str, object, list]]:
     The printed number in each heading must agree with the essay's id,
     unless the series lists the id under `unread_numerals` (OCR misread the
     numeral, checked against the page image). A single piece starts at the
-    last match (its title page repeats the heading)."""
+    last match (its title page repeats the heading). Text before the first
+    heading (an editor's introduction) is left out."""
     heading = re.compile(r"(?:^|\s)(?:" + series["heading"] + r")\s*$", re.I if series.get("heading_ignore_case") else 0)
     ids = essay_ids(series)
     out: list[tuple[str, object, list]] = []
     for b in bs:
         text = b.text.strip()
-        m = heading.search(text) if b.kind == "text" and len(text.split()) <= 14 else None
+        m = heading.search(text) if b.kind == "text" else None
+        # Headings are short blocks; with `heading_ends_block`, OCR has run the
+        # heading's first line into the end of the paragraph above it (an
+        # editor's note), and only the matched words need be short.
+        if m and len(text.split()) > 14 and not (series.get("heading_ends_block")
+                                                 and len(text[m.start():].split()) <= 14):
+            m = None
         if not m:
             if out:
                 out[-1][2].append(b)
@@ -204,6 +211,9 @@ class Essay:
     inline_tokens: int = 0  # tokens of the inline signature at the end of the last paragraph
 
 
+NAME_LIST = re.compile(r"(?:[^,;:]{2,32},\s*)*[^,;:]{2,32}[,.]?")
+
+
 def title_case(text: str) -> bool:
     """Most longer words capitalized, as in a title."""
     words = [w for w in re.findall(r"[A-Za-z]+", text) if len(w) > 3]
@@ -254,6 +264,11 @@ def structure(series: dict, essay_id: str, essay_blocks: list) -> Essay:
     rest = essay_blocks[i:]
     e.notes = [b for b in rest if b.kind == "note"]
     body = [b for b in rest if b.kind == "text"]
+    # `signers`: the closing is a list of names, set in columns ("Nathaniel
+    # Breading, John Smilie, ..."): blocks of short comma-separated items.
+    if series.get("signers"):
+        while len(body) > 1 and NAME_LIST.fullmatch(body[-1].text.strip()):
+            e.closing.insert(0, body.pop())
     signature = series.get("signature")
     sig_words = len(signature.split()) + 1 if signature else 0
     while len(body) > 1:
@@ -300,6 +315,18 @@ class Prepared:
     readings: dict[int, list[dict]]  # id(block) -> per-token readings
 
 
+def end_at(series: dict, eb: list) -> list:
+    """`end_at`: where a piece ends, inside the block that starts what
+    follows it (the yeas and nays printed after the Dissent's signatures).
+    The text from there on is left out; notes stay."""
+    at = next((k for k, b in enumerate(eb) if b.kind == "text" and re.search(series["end_at"], b.text)), None)
+    _expect(at is not None, f"{series['slug']}: end_at {series['end_at']!r} not found")
+    b = eb[at]
+    before = b.text[:re.search(series["end_at"], b.text).start()].strip()
+    kept = [Block(before, b.leaves, b.folios, b.kind, b.first_indented)] if before else []
+    return eb[:at] + kept + [x for x in eb[at + 1:] if x.kind == "note"]
+
+
 def prepare(series: dict) -> Prepared:
     book = load_book(series["book"])
     first, last = leaf_range(book, *series["pages"])
@@ -310,6 +337,8 @@ def prepare(series: dict) -> Prepared:
     readings: dict[int, list[dict]] = {}
     for n, head, eb in raw:
         eb = split_greetings(eb)
+        if series.get("end_at"):
+            eb = end_at(series, eb)
         # The essay's heading and text are aligned as one run, so that short
         # lines (newspaper, date, salutation) are aligned in context. Notes
         # are aligned one by one: a paragraph rejoined across a page break
@@ -442,10 +471,10 @@ def build(prepared: Prepared, known: set[str]) -> dict:
 
 def run(out_dir: Path = TEXTS_DIR) -> list[Path]:
     prepared = [prepare(s) for s in SERIES]
-    known = clean_vocabulary()
+    known = Vocabulary(clean_vocabulary())
     for p in prepared:
         for r in p.readings.values():
-            known |= attested(r)
+            known.attest(attested(r))
     paths = []
     for p in prepared:
         path = out_dir / f"{p.series['work_id']}.json"
