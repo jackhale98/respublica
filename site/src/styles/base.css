@@ -127,10 +127,11 @@ kbd {
 }
 .icon-btn:hover { background: var(--bg-subtle); color: var(--text); }
 .icon-btn svg { width: 18px; height: 18px; }
-.search-trigger { background: var(--bg-subtle); color: var(--text-muted); padding: 0 .5rem 0 .8rem; }
+/* A circle around the icon on narrow screens; a search field shape on wide ones. */
+.search-trigger { background: var(--bg-subtle); color: var(--text-muted); width: 2.5rem; padding: 0; }
 .search-trigger .label { display: none; font-size: .9rem; }
 @media (min-width: 40rem) {
-  .search-trigger { min-width: 13rem; justify-content: flex-start; }
+  .search-trigger { width: auto; min-width: 13rem; padding: 0 .5rem 0 .8rem; justify-content: flex-start; }
   .search-trigger .label { display: inline; margin-right: auto; }
 }
 .search-trigger kbd { display: none; }
