@@ -32,7 +32,7 @@ const numeral = (label) => label.split(" ").at(-1);
                   <mark class="chg">{body}</mark>
                   {lastOfSpan && localUrl(c.url) && (
                     <sup class="chg-ref" data-pagefind-ignore>
-                      <a href={c.url} title={`The National Archives marks this text as changed by ${c.label}`}>{numeral(c.label)}</a>
+                      <a href={localUrl(c.url)} title={`The National Archives marks this text as changed by ${c.label}`}>{numeral(c.label)}</a>
                     </sup>
                   )}
                 </Fragment>
@@ -47,7 +47,7 @@ const numeral = (label) => label.split(" ").at(-1);
     <template class="chg-data" data-pagefind-ignore>
       The National Archives marks part of this text as changed by{" "}
       {block.changed.map((c, i) => (
-        <Fragment>{i > 0 && (i === block.changed.length - 1 ? " and " : ", ")}{localUrl(c.url) ? <a href={c.url}>{c.label}</a> : c.label}</Fragment>
+        <Fragment>{i > 0 && (i === block.changed.length - 1 ? " and " : ", ")}{localUrl(c.url) ? <a href={localUrl(c.url)}>{c.label}</a> : c.label}</Fragment>
       ))}.
     </template>
   )}

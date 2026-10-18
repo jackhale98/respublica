@@ -4,21 +4,25 @@
 // the CSP allows 'wasm-unsafe-eval' and nothing else beyond 'self'.
 
 type RefEntry = { label: string; url: string };
+
+// Paths in site data are root-relative; the site may be served under a base path.
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+const withBase = (p: string) => (p.startsWith("/") && !p.startsWith("//") ? BASE + p : BASE + "/");
 type Item = { url: string; title: string; ref?: string; excerpt?: string };
 
 let refsPromise: Promise<Record<string, RefEntry>> | null = null;
 let pagefindPromise: Promise<any> | null = null;
 
 function loadRefs() {
-  refsPromise ??= fetch("/data/refs.json").then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+  refsPromise ??= fetch(`${BASE}/data/refs.json`).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
   return refsPromise;
 }
 
 function loadPagefind() {
-  const path = "/pagefind/pagefind.js";
+  const path = `${BASE}/pagefind/pagefind.js`;
   pagefindPromise ??= import(/* @vite-ignore */ path)
     .then(async (pf) => {
-      await pf.options({ excerptLength: 26 });
+      await pf.options({ excerptLength: 26, baseUrl: `${BASE}/` });
       pf.init();
       return pf;
     })
@@ -86,7 +90,7 @@ async function jump(q: string): Promise<Item[]> {
     const key = lower.get(cand.toLowerCase());
     if (key && !seen.has(key)) {
       seen.add(key);
-      items.push({ url: refs[key].url, title: refs[key].label, ref: key });
+      items.push({ url: withBase(refs[key].url), title: refs[key].label, ref: key });
     }
   }
   return items;
@@ -136,7 +140,7 @@ async function fullText(q: string, filters: Record<string, string>): Promise<Ite
     if (seen.has(key)) return;
     seen.add(key);
     const hit = ref ? refs[ref] : undefined;
-    items.push({ url: hit ? hit.url : fallbackUrl, title: hit ? hit.label : fallbackTitle, ref: hit ? ref! : undefined, excerpt: safeExcerpt(excerpt) });
+    items.push({ url: hit ? withBase(hit.url) : fallbackUrl, title: hit ? hit.label : fallbackTitle, ref: hit ? ref! : undefined, excerpt: safeExcerpt(excerpt) });
   };
   for (const d of datas) {
     const anchors = d.anchors || [];
@@ -209,7 +213,7 @@ export function attach(container: HTMLElement, opts: { initial?: string; syncUrl
       for (const it of g.items) {
         const a = document.createElement("a");
         a.className = "sr-item";
-        a.href = it.url.startsWith("/") ? it.url : "/";
+        a.href = it.url.startsWith(`${BASE}/`) ? it.url : `${BASE}/`;
         a.setAttribute("role", "option");
         const t = document.createElement("div");
         t.className = "sr-title";

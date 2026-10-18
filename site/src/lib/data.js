@@ -32,9 +32,19 @@ export function safeUrl(url) {
   }
 }
 
-// Internal links come from site data and must be site-relative paths.
+// The path the site is served under: "" at a domain root, "/respublica" on
+// jackhale98.github.io. Set in site/site.config.json (docs/decisions.md 22).
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// Site data and templates use root-relative paths ("/federalist/10/");
+// every one goes through href() so the base path is applied in one place.
+export function href(path) {
+  return typeof path === "string" && path.startsWith("/") && !path.startsWith("//") ? BASE + path : path;
+}
+
+// Internal links from site data: site-relative paths only, with the base applied.
 export function localUrl(url) {
-  return typeof url === "string" && url.startsWith("/") && !url.startsWith("//") ? url : null;
+  return typeof url === "string" && url.startsWith("/") && !url.startsWith("//") ? BASE + url : null;
 }
 
 // Author identity for The Federalist, in the fixed order of the author

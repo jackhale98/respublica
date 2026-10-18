@@ -56,7 +56,7 @@ let searchModule: Promise<typeof import("./search")> | null = null;
 
 async function openSearch(initial = "") {
   if (!dialog) return;
-  if (location.pathname === "/search/") {
+  if (location.pathname === `${import.meta.env.BASE_URL.replace(/\/$/, "")}/search/`) {
     document.querySelector<HTMLInputElement>(".search-page [data-search-input]")?.focus();
     return;
   }

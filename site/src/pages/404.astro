@@ -1,4 +1,5 @@
 ---
+import { href } from "../lib/data.js";
 import Base from "../layouts/Base.astro";
 ---
 <Base title="Page not found">
@@ -6,8 +7,8 @@ import Base from "../layouts/Base.astro";
     <div class="container">
       <p class="eyebrow">404</p>
       <h1>This page isn't in the library.</h1>
-      <p class="lede">The address may be mistyped. Try searching, or start from the <a href="/">library</a>.</p>
-      <p><a class="btn btn-primary" href="/search/" data-search-open>Search the library</a></p>
+      <p class="lede">The address may be mistyped. Try searching, or start from the <a href={href("/")}>library</a>.</p>
+      <p><a class="btn btn-primary" href={href("/search/")} data-search-open>Search the library</a></p>
     </div>
   </section>
 </Base>

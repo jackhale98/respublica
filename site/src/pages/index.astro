@@ -2,7 +2,7 @@
 import "../styles/home.css";
 import Base from "../layouts/Base.astro";
 import Icon from "../components/Icon.astro";
-import { AUTHORS, authorKey, formatDate, formatNumber, loadPage, loadRefs, loadSite } from "../lib/data.js";
+import { href, AUTHORS, authorKey, formatDate, formatNumber, loadPage, loadRefs, loadSite } from "../lib/data.js";
 
 const site = loadSite();
 const refs = loadRefs();
@@ -38,25 +38,25 @@ const featured = site.featured;
           Read the Constitution, its amendments and The Federalist, with a permanent reference for every
           passage and links you can check between them.
         </p>
-        <a class="hero-search" href="/search/" data-search-open>
+        <a class="hero-search" href={href("/search/")} data-search-open>
           <Icon name="search" />
           <span>Search, or jump to “Federalist 10” or “1.8.3”</span>
           <kbd>/</kbd>
         </a>
         <ul class="jumps" aria-label="Popular passages">
-          {jumps.map((j) => <li><a href={j.url}>{j.label}</a></li>)}
+          {jumps.map((j) => <li><a href={href(j.url)}>{j.label}</a></li>)}
         </ul>
       </div>
       {featured && (
         <figure class="featured card">
           <div class="featured-top">
             <span class="eyebrow">From the Constitution</span>
-            <a class="ref-chip" href={featured.url}>{featured.ref}</a>
+            <a class="ref-chip" href={href(featured.url)}>{featured.ref}</a>
           </div>
           <blockquote>{featured.text}</blockquote>
           <figcaption>
             <span>{constitution.title} · {formatDate(constitution.date)}</span>
-            <a href={constitution.url}>Read it <Icon name="arrow" /></a>
+            <a href={href(constitution.url)}>Read it <Icon name="arrow" /></a>
           </figcaption>
         </figure>
       )}
@@ -69,20 +69,20 @@ const featured = site.featured;
       <p>{formatNumber(site.stats.passages)} passages, each with its own permanent address.</p>
     </div>
     <div class="works-grid">
-      <a class="card work-card w-constitution" href={constitution.url}>
+      <a class="card work-card w-constitution" href={href(constitution.url)}>
         <span class="work-icon"><Icon name="scroll" /></span>
         <h3>The Constitution</h3>
         <p>The text signed in Convention on {formatDate(constitution.date)}, in the National Archives transcription of the parchment, original spelling and all.</p>
         <div class="work-meta"><span>{articles} articles</span><span>{clauses} clauses</span></div>
       </a>
-      <a class="card work-card w-amendments" href={amendments.url}>
+      <a class="card work-card w-amendments" href={href(amendments.url)}>
         <span class="work-icon"><Icon name="book" /></span>
         <h3>The Amendments</h3>
         <p>All {amendments.top_divisions} amendments, from the Bill of Rights to the Twenty-seventh, in the National Archives transcriptions.</p>
         <div class="work-meta"><span>{amendments.top_divisions} amendments</span><span>{formatDate(amendments.date)}</span></div>
       </a>
       {federalist && (
-        <a class="card work-card w-federalist" href={federalist.url}>
+        <a class="card work-card w-federalist" href={href(federalist.url)}>
           <span class="work-icon"><Icon name="feather" /></span>
           <h3>The Federalist</h3>
           <p>{fedTotal} essays by “Publius”, with each paper's author as given by its edition, including the papers whose authorship is disputed.</p>
@@ -123,7 +123,7 @@ const featured = site.featured;
         <h3>A permanent address for every passage</h3>
         <p>References never change, so citations and links keep working.</p>
         <p class="refs-demo">
-          {["Constitution.1.8.3", "Amendment.14.1", "Federalist.10.1"].filter((r) => refs[r]).map((r) => <a class="ref-chip" href={refs[r].url}>{r}</a>)}
+          {["Constitution.1.8.3", "Amendment.14.1", "Federalist.10.1"].filter((r) => refs[r]).map((r) => <a class="ref-chip" href={href(refs[r].url)}>{r}</a>)}
         </p>
       </div>
       <div class="trust">

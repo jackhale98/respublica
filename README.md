@@ -40,9 +40,10 @@ make dev        # local preview (search needs make build)
 `make import` regenerates `texts/` from them, and `make lock-refs` records
 new refs in `refs.lock`.
 
-Deployment: pushes to `main` publish to GitHub Pages. One-time setup in the
-repository settings: Pages source "GitHub Actions" and custom domain
-`library.commonhall.org` (see `.github/workflows/deploy.yml`).
+Deployment: pushes to `main` publish to GitHub Pages, currently at
+<https://jackhale98.github.io/respublica/>. The address is set in
+`site/site.config.json`; moving to `library.commonhall.org` later means
+setting `"url"` to that domain and `"base"` to `""` (docs/decisions.md 22).
 
 ## Layout
 

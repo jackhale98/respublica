@@ -1,11 +1,10 @@
 name: Deploy
 
-# Publishes site/dist to GitHub Pages at library.commonhall.org.
-# One-time setup (repository settings, not code): Settings → Pages →
-# Source: "GitHub Actions"; Custom domain: library.commonhall.org (with a
-# DNS CNAME record pointing library.commonhall.org at jackhale98.github.io).
-# The site uses root-relative URLs, so it must be served from the custom
-# domain, not from the github.io/respublica/ subpath. No secrets are used.
+# Publishes site/dist to GitHub Pages. Where the site is served (for now
+# https://jackhale98.github.io/respublica/) is set in site/site.config.json.
+# One-time setup (repository settings, not code): Settings → Pages → Source:
+# "GitHub Actions", and the github-pages environment must allow deploys from
+# main (Settings → Environments → github-pages). No secrets are used.
 
 on:
   push:

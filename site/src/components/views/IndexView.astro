@@ -3,7 +3,7 @@ import "../../styles/collection.css";
 import Base from "../../layouts/Base.astro";
 import AuthorChip from "../AuthorChip.astro";
 import Icon from "../Icon.astro";
-import { AUTHORS, authorKey, formatDate, newspaper, printedDate, readingMinutes } from "../../lib/data.js";
+import { href, AUTHORS, authorKey, formatDate, newspaper, printedDate, readingMinutes } from "../../lib/data.js";
 
 // Index of a paged work: The Federalist's 85 papers, filterable by author.
 const { work } = Astro.props;
@@ -25,7 +25,7 @@ const words = parts.reduce((s, p) => s + p.words, 0);
 <Base title={work.title} section={work.id} description={`All ${total} papers of ${work.title}, with author, newspaper and date, and a permanent reference for every paragraph.`}>
   <section class="page-head">
     <div class="container">
-      <ol class="crumbs"><li><a href="/">Library</a></li><li aria-current="page">{work.short}</li></ol>
+      <ol class="crumbs"><li><a href={href("/")}>Library</a></li><li aria-current="page">{work.short}</li></ol>
       <h1>{work.title}</h1>
       <p class="lede">
         {total} essays by “Publius” in New York newspapers, {formatDate(work.date)}, written by Alexander Hamilton,
@@ -72,7 +72,7 @@ const words = parts.reduce((s, p) => s + p.words, 0);
       </div>
       <p class="legend-note">
         Bylines follow the base edition. “Disputed” papers are marked HAMILTON OR MADISON there; “joint” papers
-        HAMILTON AND MADISON. <a href="/about/#editions">About this edition</a>
+        HAMILTON AND MADISON. <a href={href("/about/#editions")}>About this edition</a>
       </p>
     </section>
 
@@ -83,7 +83,7 @@ const words = parts.reduce((s, p) => s + p.words, 0);
         const date = printedDate(p.publication);
         return (
           <li data-author={authorKey(p.attribution)} data-text={`${p.label.split(" ").at(-1)} ${p.title}`.toLowerCase()}>
-            <a class="card paper" href={p.url}>
+            <a class="card paper" href={href(p.url)}>
               <div class="paper-top">
                 <span class="paper-no">{p.label.split(" ").at(-1)}</span>
                 <AuthorChip attribution={p.attribution} short />

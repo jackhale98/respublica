@@ -1,7 +1,7 @@
 ---
 import "../styles/about.css";
 import Base from "../layouts/Base.astro";
-import { formatDate, loadManifest, loadSite, safeUrl } from "../lib/data.js";
+import { href, formatDate, loadManifest, loadSite, safeUrl } from "../lib/data.js";
 
 const sources = loadManifest();
 const site = loadSite();
@@ -38,11 +38,11 @@ const sourceById = Object.fromEntries(sources.map((s) => [s.id, s]));
       <table class="ref-table">
         <thead><tr><th scope="col">Reference</th><th scope="col">Means</th></tr></thead>
         <tbody>
-          <tr><td><a class="ref-chip" href="/constitution/#Constitution.Preamble">Constitution.Preamble</a></td><td>The Preamble</td></tr>
-          <tr><td><a class="ref-chip" href="/constitution/#Constitution.1.8.3">Constitution.1.8.3</a></td><td>Article I, Section 8, Clause 3</td></tr>
-          <tr><td><a class="ref-chip" href="/constitution/#Constitution.6.2">Constitution.6.2</a></td><td>Article VI, Clause 2 (Articles V–VII have no sections)</td></tr>
-          <tr><td><a class="ref-chip" href="/amendments/#Amendment.14.1">Amendment.14.1</a></td><td>Amendment XIV, Section 1</td></tr>
-          <tr><td><a class="ref-chip" href="/federalist/10/#Federalist.10.1">Federalist.10.1</a></td><td>The Federalist No. 10, first paragraph</td></tr>
+          <tr><td><a class="ref-chip" href={href("/constitution/#Constitution.Preamble")}>Constitution.Preamble</a></td><td>The Preamble</td></tr>
+          <tr><td><a class="ref-chip" href={href("/constitution/#Constitution.1.8.3")}>Constitution.1.8.3</a></td><td>Article I, Section 8, Clause 3</td></tr>
+          <tr><td><a class="ref-chip" href={href("/constitution/#Constitution.6.2")}>Constitution.6.2</a></td><td>Article VI, Clause 2 (Articles V–VII have no sections)</td></tr>
+          <tr><td><a class="ref-chip" href={href("/amendments/#Amendment.14.1")}>Amendment.14.1</a></td><td>Amendment XIV, Section 1</td></tr>
+          <tr><td><a class="ref-chip" href={href("/federalist/10/#Federalist.10.1")}>Federalist.10.1</a></td><td>The Federalist No. 10, first paragraph</td></tr>
         </tbody>
       </table>
 

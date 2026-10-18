@@ -15,6 +15,7 @@ Enforces the security baseline and completeness:
 
 from __future__ import annotations
 
+import json
 import re
 import sys
 import urllib.parse
@@ -24,6 +25,8 @@ from tools.common import ROOT, is_safe_url, parse_html
 from tools.corpus import load_corpus
 
 DIST = ROOT / "site" / "dist"
+# The path the site is served under ("" or e.g. "/respublica"); see site/site.config.json.
+BASE = json.loads((ROOT / "site" / "site.config.json").read_text(encoding="utf-8")).get("base", "").rstrip("/")
 URL_ATTRS = ("href", "src", "action", "formaction", "poster", "srcset", "data")
 # <link rel> values that load a resource (others, like canonical, only name a URL).
 RESOURCE_RELS = {"stylesheet", "preload", "modulepreload", "prefetch", "icon", "apple-touch-icon", "manifest"}
@@ -41,10 +44,18 @@ BUDGET_PAGE_JS_BYTES = 60 * 2**10     # scripts a page loads up front (search lo
 
 
 def page_url(path: Path) -> str:
+    """The URL a built file is served at, including the base path."""
     rel = path.relative_to(DIST).as_posix()
     if rel.endswith("index.html"):
         rel = rel[: -len("index.html")]
-    return "/" + rel
+    return f"{BASE}/{rel}"
+
+
+def to_file(url_path: str) -> Path | None:
+    """The built file behind a served path, or None if it is outside the base path."""
+    if not url_path.startswith(BASE + "/"):
+        return None
+    return DIST / url_path[len(BASE) + 1:]
 
 
 def check() -> list[str]:
@@ -87,11 +98,15 @@ def check() -> list[str]:
         target, _, frag = href.partition("#")
         target = urllib.parse.urljoin(src, target) if target else src
         target = urllib.parse.urlsplit(target).path
-        if target.startswith("/_astro/"):
-            if not (DIST / target.lstrip("/")).exists():
+        file = to_file(target)
+        if file is None:
+            errors.append(f"{src}: internal link {href} is outside the base path {BASE or '/'}")
+            continue
+        if target.startswith(f"{BASE}/_astro/"):
+            if not file.exists():
                 errors.append(f"{src}: missing asset {target}")
             continue
-        if not target.endswith("/") and not (DIST / target.lstrip("/")).exists():
+        if not target.endswith("/") and not file.exists():
             target += "/"
         if target not in ids:
             errors.append(f"{src}: link to missing page {href}")
@@ -127,8 +142,8 @@ def check_budgets(pages: list[Path]) -> list[str]:
         js = 0
         for n in root.find_all("script"):
             src = n.attrs.get("src")
-            if src and src.startswith("/"):
-                f = DIST / src.lstrip("/")
+            f = to_file(src) if src else None
+            if f is not None:
                 if f.exists():
                     js += f.stat().st_size + _imports_size(f)
         if js > BUDGET_PAGE_JS_BYTES:
@@ -142,8 +157,8 @@ def _imports_size(path: Path, seen: set | None = None) -> int:
     total = 0
     text = path.read_text(encoding="utf-8", errors="replace")
     for m in re.finditer(r"""(?:^|[;\n}])\s*import\s*(?:[^'"()]*?from\s*)?["']([^"']+)["']""", text):
-        target = (path.parent / m.group(1)).resolve() if m.group(1).startswith(".") else DIST / m.group(1).lstrip("/")
-        if target.exists() and target not in seen:
+        target = (path.parent / m.group(1)).resolve() if m.group(1).startswith(".") else to_file(m.group(1))
+        if target is not None and target.exists() and target not in seen:
             seen.add(target)
             total += target.stat().st_size + _imports_size(target, seen)
     return total

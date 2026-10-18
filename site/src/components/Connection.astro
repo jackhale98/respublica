@@ -3,7 +3,7 @@ import { localUrl } from "../lib/data.js";
 
 // One connection, seen from the current passage.
 const { conn: c } = Astro.props;
-const href = localUrl(c.other_url);
+const target = localUrl(c.other_url);
 ---
 <li class:list={["conn", c.status]}>
   <div class="conn-top">
@@ -12,7 +12,7 @@ const href = localUrl(c.other_url);
     {c.status === "reviewed" && <span class="badge reviewed">Reviewed</span>}
     {c.other_overruled && <span class="badge overruled">Overruled</span>}
   </div>
-  {href ? <a class="conn-target" href={href}>{c.other_label}</a> : <span class="conn-target">{c.other_label}</span>}
+  {target ? <a class="conn-target" href={target}>{c.other_label}</a> : <span class="conn-target">{c.other_label}</span>}
   {c.other_quote && <blockquote>{c.other_quote}</blockquote>}
   {c.rationale && <p class="why">{c.rationale}</p>}
   {c.source && <p class="src">Source: {c.source}</p>}

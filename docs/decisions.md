@@ -189,3 +189,17 @@ Hamilton, Disputed, Joint, Madison, Jay, in that fixed order:
 colorblind and normal-vision separation checks in both modes. Three light-mode
 colors are below 3:1 contrast, so author colors always appear with a text
 label, and the disputed segment of the authorship bar is also hatched.
+
+## 22. Served from github.io until the subdomain is ready
+
+Until DNS for `library.commonhall.org` is set up, the site is served at
+<https://jackhale98.github.io/respublica/>, under the base path `/respublica`.
+`site/site.config.json` holds the site's address and base path; Astro and
+`tools/check_site.py` both read it. Templates apply the base path through
+`href()`, scripts through `import.meta.env.BASE_URL`, and Pagefind through its
+`baseUrl` option. Site data (`tools/site_data.py`, `/data/refs.json`) keeps
+paths relative to the site root, so refs and their paths are unaffected by
+where the site is hosted. Moving to the subdomain: set `"url"` to
+`https://library.commonhall.org` and `"base"` to `""`, and add the custom
+domain in the repository's Pages settings. This supersedes the custom-domain
+requirement in decision 15.

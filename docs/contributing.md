@@ -109,6 +109,10 @@ free-tier budgets of decision 15.
   (italics, amendment marks) and how connections are shown are decided there
   and tested in `tests/test_site_data.py`. Astro only renders.
 - URLs are permanent (decision 17). Every passage's element id is its ref.
+- The site may be served under a base path (`site/site.config.json`). Never
+  write a root-relative URL directly in a template or script: pass it through
+  `href()` (templates) or the `BASE` constant (scripts). `tools/check_site.py`
+  fails on any internal link outside the base path.
 - Styles live in `site/src/styles/` (`tokens.css` holds the design tokens
   shared with CommonHall). Scripts live in `site/src/scripts/`; each is a
   progressive enhancement, and every page must work without JavaScript.

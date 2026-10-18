@@ -1,4 +1,5 @@
 ---
+import { href } from "../lib/data.js";
 import "@fontsource-variable/inter/wght.css";
 import "@fontsource-variable/bricolage-grotesque/wght.css";
 import "@fontsource-variable/source-serif-4/wght.css";
@@ -39,19 +40,19 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <script is:inline src="/theme.js"></script>
+    <link rel="icon" href={href("/favicon.svg")} type="image/svg+xml" />
+    <script is:inline src={href("/theme.js")}></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="container bar">
-        <a class="brand" href="/" aria-label="Res Publica home"><Logo /><span>Res Publica</span></a>
+        <a class="brand" href={href("/")} aria-label="Res Publica home"><Logo /><span>Res Publica</span></a>
         <nav class="primary-nav" aria-label="Primary">
-          {nav.map((n) => <a href={n.href} aria-current={section === n.key ? "page" : undefined}>{n.label}</a>)}
+          {nav.map((n) => <a href={href(n.href)} aria-current={section === n.key ? "page" : undefined}>{n.label}</a>)}
         </nav>
         <div class="header-actions">
-          <a class="icon-btn search-trigger" href="/search/" data-search-open aria-label="Search (press / )">
+          <a class="icon-btn search-trigger" href={href("/search/")} data-search-open aria-label="Search (press / )">
             <Icon name="search" /><span class="label">Search or jump to…</span><kbd>/</kbd>
           </a>
           <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="Color theme: system">
@@ -62,7 +63,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         </div>
       </div>
       <nav class="mobile-nav" aria-label="Primary">
-        {nav.map((n) => <a href={n.href} aria-current={section === n.key ? "page" : undefined}>{n.short || n.label}</a>)}
+        {nav.map((n) => <a href={href(n.href)} aria-current={section === n.key ? "page" : undefined}>{n.short || n.label}</a>)}
       </nav>
     </header>
 
@@ -73,7 +74,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <footer class="site-footer">
       <div class="container">
         <div>
-          <a class="brand" href="/"><Logo id="rp-grad-footer" /><span>Res Publica</span></a>
+          <a class="brand" href={href("/")}><Logo id="rp-grad-footer" /><span>Res Publica</span></a>
           <p>
             A free, nonpartisan, open-source library of America's founding texts. Every text is imported
             by code from a public-domain original, and every connection shows who made it and whether a
@@ -83,16 +84,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         <div>
           <h2>Read</h2>
           <ul>
-            <li><a href="/constitution/">The Constitution</a></li>
-            <li><a href="/amendments/">Amendments</a></li>
-            <li><a href="/federalist/">The Federalist</a></li>
+            <li><a href={href("/constitution/")}>The Constitution</a></li>
+            <li><a href={href("/amendments/")}>Amendments</a></li>
+            <li><a href={href("/federalist/")}>The Federalist</a></li>
           </ul>
         </div>
         <div>
           <h2>Project</h2>
           <ul>
-            <li><a href="/about/">About &amp; editions</a></li>
-            <li><a href="/search/">Search</a></li>
+            <li><a href={href("/about/")}>About &amp; editions</a></li>
+            <li><a href={href("/search/")}>Search</a></li>
             <li><a href="https://commonhall.org/" rel="noopener">CommonHall</a></li>
             <li><a href="https://github.com/jackhale98/respublica" rel="noopener">Source code</a></li>
           </ul>
