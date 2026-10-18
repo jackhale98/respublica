@@ -624,3 +624,20 @@ neither is *Plessy*. *Lochner v. New York* is cited on two pages and is
 not in the table, so it is out too. *Korematsu* is in, as a decision the
 table lists as overruled by *Trump v. Hawaii*.
 
+
+## 43. The first set of cases: titles and discussed overrulings
+
+At the project owner's request, two more rules, so that cases the
+Constitution Annotated plainly treats as landmarks are in even when they
+lead no topic (*Lochner v. New York*, *Plessy v. Ferguson*):
+
+4. every Supreme Court case named in the title of an essay ("Liberty of
+   Contract and *Lochner v. New York*", "*Marbury v. Madison* and Judicial
+   Review"), matched exactly against the Table of Cases. A title naming
+   *Brown v. Board of Education* names both decisions of that name, so
+   *Brown II* (1955) is in too;
+5. every decision the table of overruled decisions lists that is cited on
+   five or more pages: overruled decisions the essays still discuss
+   (*Plessy*, *Palko v. Connecticut*, *Breedlove v. Suttles*, …).
+
+The set is now 213 cases, each listed with every rule that chose it.

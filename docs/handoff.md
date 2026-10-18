@@ -34,7 +34,7 @@ connections panel and graph, search, and the review page.
   `importers/conan.py`, which reads the 2022 Constitution Annotated
   (`sources/raw/conan-2022-*.pdf`): the essays on each page and their
   clauses, the Table of Cases, and the table of overruled decisions.
-- Done: the first set of cases, 189, by the rules of decisions 41 and 42
+- Done: the first set of cases, 213, by the rules of decisions 41–43
   (`python -m importers.conan --landmarks` lists them with the reason each
   was chosen).
 - Waiting: CourtListener. Cases are keyed by CourtListener cluster ID
@@ -49,7 +49,7 @@ connections panel and graph, search, and the review page.
    CourtListener's API field names against a real response before writing
    a parser (CLAUDE.md). Record each fetched response as a raw source with
    `tools/fetch.py` (URL, date, sha256, license), never the token itself.
-2. **Find each case's cluster.** For each of the 189 cases, look up the
+2. **Find each case's cluster.** For each of the 213 cases, look up the
    cluster by its U.S. Reports citation (or docket number for slip
    opinions) with CourtListener's citation lookup; record the match and
    fail loudly on none or several.

@@ -35,6 +35,16 @@ class ConanTests(unittest.TestCase):
         self.assertEqual(chosen["1 U.S. 1"].reasons, ["most cited in essay topic Amdt1.7 (4 pages)"])
         self.assertTrue(chosen["5 U.S. 5"].reasons[0].startswith("overruled by G v. H"))
 
+    def test_titles_and_discussed_overrulings(self):
+        from importers.conan import Overruling
+        named = CaseEntry("Lochner v. New York", "198 U.S. 45 (1905)", [1])
+        old = CaseEntry("P v. F", "163 U.S. 537 (1896)", [1, 2, 3, 4, 5])
+        rows = [Overruling("Z v. Y, 461 U.S. 574 (1983)", "1983", [("P v. F, 163 U.S. 537 (1896)", "1896")])]
+        titles = {"Amdt14.S1.6.2.2": "Liberty of Contract and Lochner v. New York"}
+        chosen = landmark_cases([named, old], {}, rows, titles)
+        self.assertEqual(chosen["198 U.S. 45"].reasons, ["named in the title of essay Amdt14.S1.6.2.2"])
+        self.assertIn("cited on 5 pages", chosen["163 U.S. 537"].reasons[0])
+
     def test_case_keys(self):
         from importers.conan import case_keys
         self.assertEqual(case_keys("McCulloch v. Maryland, 17 U.S. (4 Wheat.) 316 (1819)"), ["17 U.S. 316"])
