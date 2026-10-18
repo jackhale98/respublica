@@ -148,7 +148,22 @@ def work_key(corpus: Corpus, ref: str) -> str:
     return "other"
 
 
-def build_graph(links: list[dict], corpus: Corpus, url_for, page_refs: dict[str, list[str]]) -> dict[str, dict]:
+FOUNDING = {"declaration", "constitution", "amendments"}
+
+
+def work_group(corpus: Corpus, wid: str) -> str:
+    """Graph color group: the founding documents, the Federalist side (The
+    Federalist and Federalist essays), the Anti-Federalists, or other."""
+    if wid in FOUNDING:
+        return "founding"
+    if wid == "federalist":
+        return "federalist"
+    doc = corpus.works.get(wid, {})
+    return {"anti": "anti", "federalist": "federalist"}.get(doc.get("position"), "other")
+
+
+def build_graph(links: list[dict], corpus: Corpus, url_for, page_refs: dict[str, list[str]],
+                shorts: dict[str, str] | None = None) -> dict[str, dict]:
     """For each page, the links within two hops of its passages.
 
     Returns page id -> {"nodes": {ref: {label, short, work, url}},
@@ -163,7 +178,9 @@ def build_graph(links: list[dict], corpus: Corpus, url_for, page_refs: dict[str,
 
     def node(ref: str) -> dict:
         label = label_for(corpus, ref)
-        return {"label": label, "short": short_label(label), "url": url_for(ref), "work": work_key(corpus, ref)}
+        wid = work_key(corpus, ref)
+        return {"group": work_group(corpus, wid), "label": label, "short": short_label(label), "url": url_for(ref),
+                "work": wid, "work_name": (shorts or {}).get(wid, wid)}
 
     out = {}
     for pid, refs in page_refs.items():
@@ -281,6 +298,8 @@ class SiteBuilder:
             self.ref_urls[work["ref_prefix"]] = base
             tops = [d for d in work.get("divisions", []) if d["level"] == 1]
             for d in work.get("divisions", []):
+                if d["ref"] == work["ref_prefix"]:
+                    continue  # a single piece's one division is the whole page
                 if self.settings[wid]["paged"]:
                     top = next(t for t in tops if d["ref"] == t["ref"] or d["ref"].startswith(t["ref"] + "."))
                     page = f"{base}{part_slug(work, top['ref'])}/"
@@ -533,7 +552,7 @@ def build(corpus: Corpus, links: list[dict]) -> tuple[dict, dict[str, dict], dic
         pid: [blk["ref"] for blk in p.get("blocks", []) + p.get("notes", []) if blk["type"] == "passage"]
         for pid, p in pages.items() if p["kind"] in ("work", "part")
     }
-    graphs = build_graph(links, corpus, b.url_for, page_refs)
+    graphs = build_graph(links, corpus, b.url_for, page_refs, {w: s["short"] for w, s in b.settings.items()})
     return site, pages, refs, graphs
 
 

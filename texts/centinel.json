@@ -136,7 +136,20 @@
       "level": 1,
       "publication": [],
       "ref": "Centinel.5",
-      "salutation": "To the People of Pennsylvania. Friends, Countrymen, and Fellow Citizens."
+      "salutation": "To the People of Pennsylvania. Friends, Countrymen, and Fellow Citizens.",
+      "signature": "CenTinei,. Philadelphia, Nov. 30, 1787.",
+      "uncertain": {
+        "signature": [
+          {
+            "end": 10,
+            "readings": {
+              "pitt": "Centinel.",
+              "primary": "CenTinei,."
+            },
+            "start": 0
+          }
+        ]
+      }
     },
     {
       "attribution": {
@@ -3196,17 +3209,7 @@
           669
         ]
       },
-      "text": "The advocates of the proposed government must be hard driven when they represent that because the legislatures of this and the other states have exceeded the due bounds of power, notwithstanding every guard provided by their constitutions; that because the lust of arbitrary sway is so powerful as sometimes to get the better of every obstacle; that therefore we should give full scope to it, for that all restriction to it would be useless and nugatory. And further, when they tell you that a good administration will atone for all the defects in the government, which, say they, you must necessarily have, for how can it be otherwise? your rulers are to be taken from among yourselves. My fellow citizens, these aspiring despots must indeed have a great contempt for your understandings when they hope to gull you out of your liberties by such reasoning; for what is the primary object of government, but to check and control the ambitious and designing? How then can moderation and virtue be expected from men who will be in possession of absolute sway, who will have the United States at their disposal? They would be more than men, who could resist such temptation! their being taken from among the people would be no security; tyrants are of native growth in all countries, the greatest bashaw in Turkey has been one of the people, as Mr. Wilson tells you the president-general will be. What consolation would this be when you shall be suffering under his oppression ? CenTinei,. Philadelphia, Nov. 30, 1787.",
-      "uncertain": [
-        {
-          "end": 1485,
-          "readings": {
-            "pitt": "Centinel.",
-            "primary": "CenTinei,."
-          },
-          "start": 1475
-        }
-      ]
+      "text": "The advocates of the proposed government must be hard driven when they represent that because the legislatures of this and the other states have exceeded the due bounds of power, notwithstanding every guard provided by their constitutions; that because the lust of arbitrary sway is so powerful as sometimes to get the better of every obstacle; that therefore we should give full scope to it, for that all restriction to it would be useless and nugatory. And further, when they tell you that a good administration will atone for all the defects in the government, which, say they, you must necessarily have, for how can it be otherwise? your rulers are to be taken from among yourselves. My fellow citizens, these aspiring despots must indeed have a great contempt for your understandings when they hope to gull you out of your liberties by such reasoning; for what is the primary object of government, but to check and control the ambitious and designing? How then can moderation and virtue be expected from men who will be in possession of absolute sway, who will have the United States at their disposal? They would be more than men, who could resist such temptation! their being taken from among the people would be no security; tyrants are of native growth in all countries, the greatest bashaw in Turkey has been one of the people, as Mr. Wilson tells you the president-general will be. What consolation would this be when you shall be suffering under his oppression ?"
     },
     {
       "kind": "footnote",

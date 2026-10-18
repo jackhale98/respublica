@@ -133,11 +133,32 @@ address and signature as well as its paragraphs) and
      each essay's heading (and `series_dates` in the candidates).
    - Writers or pieces not in the library (Gerry's objections, Wilson's
      speech, Mason's objections, Brutus if not imported) are not links.
+   - A writer's reference to an earlier number of the same series is a
+     `cites` (or `quotes`) link when it identifies one paper ("my last
+     paper", "the Gazette of the 23d instant", "In my seventeenth number").
+     General recaps ("in two former papers") are not links.
+   - A piece identified only by a description ("an anonymous writer") or by
+     words it quotes without naming its author is not a link.
+   - A bare mention of a writer in a list (Centinel naming "the patriotic
+     essays of … Cato" among papers kept from the post) is at most `cites`,
+     `medium`.
+   - A paragraph that both reproduces and refutes another writer's words
+     gets two links, `quotes` and `rebuts`.
+   - The same clause may be linked from several paragraphs of one essay
+     when each paragraph names it.
+   - A clause named inside a quotation from a writer not in the library
+     (Wilson's speech quoted by A Friend to the Constitution) may be linked
+     from the quoting paragraph at `medium`, saying so in the rationale.
 
 **Never link from an editor's note.** Notes ending "— Ed." (in any OCR form:
 "Ed.", "EJ.", "£d.") are Paul Leicester Ford's or McMaster and Stone's, not
-the essay's, even when they say what the essay answers. Notes by the essay's
-author (the Landholder's own notes, for example) can be linked from.
+the essay's, even when they say what the essay answers. So are notes without
+that mark that plainly speak for the editor: citations of modern editions
+("Printed in Ford's Pamphlets…", "Cf. Papers of James Madison"), corrections
+("This is an error"), identifications ("Luther Martin. See his Genuine
+Information…"), and notes ending in an OCR form of "Ed." such as "— IN".
+Notes by the essay's author (the Landholder's own notes, for example) can be
+linked from.
 
 **Uncertain words.** Texts read from scans mark words the scans disagree on
 (`uncertain`). A quote may include them (it is copied from the passage as

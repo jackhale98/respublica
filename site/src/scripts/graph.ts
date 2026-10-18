@@ -10,7 +10,7 @@ import { drag } from "d3-drag";
 import { zoom, zoomIdentity, type ZoomBehavior } from "d3-zoom";
 import "d3-transition";
 
-type Node = { label: string; short: string; url: string | null; work: string };
+type Node = { label: string; short: string; url: string | null; work: string; work_name?: string; group?: string };
 type Edge = { id: string; from: string; to: string; type: string; status: string; confidence: string };
 type Graph = { nodes: Record<string, Node>; edges: Edge[] };
 type Ring = "center" | "hop1" | "hop2";
@@ -24,10 +24,15 @@ const MAX_HOP2 = 48;
 const RING_R: Record<Ring, number> = { center: 0, hop1: 190, hop2: 360 };
 const reduceMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-const WORK_ORDER = ["constitution", "amendments", "federalist"];
-const WORK_NAMES: Record<string, string> = { constitution: "Constitution", amendments: "Amendments", federalist: "The Federalist" };
-const workName = (w: string) => WORK_NAMES[w] || w.replace(/-/g, " ").replace(/^\w/, (c) => c.toUpperCase());
-const workClass = (w: string | undefined) => `w-${w && WORK_ORDER.includes(w) ? w : "other"}`;
+// Nodes are colored by group (founding documents, the Federalist side, the
+// Anti-Federalists); each node's label names its work.
+const WORK_ORDER = ["declaration", "constitution", "amendments", "federalist"];
+const GROUP_ORDER = ["founding", "federalist", "anti", "other"];
+const GROUP_NAMES: Record<string, string> = {
+  founding: "Founding documents", federalist: "The Federalist and Federalist essays", anti: "Anti-Federalist essays", other: "Other",
+};
+const groupOf = (n: Node | undefined) => n?.group || "other";
+const groupClass = (grp: string) => `g-${GROUP_ORDER.includes(grp) ? grp : "other"}`;
 const TYPE_NAMES: Record<string, string> = {
   quotes: "quotes", cites: "cites", responds_to: "responds to", rebuts: "rebuts",
   shared_theme: "shared theme", interprets: "interprets", overrules: "overrules", implements: "implements",
@@ -63,7 +68,8 @@ function refOrder(a: string, b: string) {
 }
 function byWork(g: Graph) {
   return (a: string, b: string) => {
-    const wa = WORK_ORDER.indexOf(g.nodes[a]?.work), wb = WORK_ORDER.indexOf(g.nodes[b]?.work);
+    const rank = (r: string) => GROUP_ORDER.indexOf(groupOf(g.nodes[r])) * 10 + Math.max(0, WORK_ORDER.indexOf(g.nodes[r]?.work));
+    const wa = rank(a), wb = rank(b);
     return (wa === -1 ? 99 : wa) - (wb === -1 ? 99 : wb) || refOrder(a, b);
   };
 }
@@ -78,13 +84,13 @@ function chipExit(n: SimNode, fromX: number, fromY: number, pad: number) {
   return { x: cx + dx * t, y: cy + dy * t };
 }
 
-type State = { center: string; selected: string; types: Set<string>; works: Set<string>; reviewedOnly: boolean };
+type State = { center: string; selected: string; types: Set<string>; groups: Set<string>; reviewedOnly: boolean };
 
 export async function openGraph(dialog: HTMLDialogElement, dataUrl: string, center: string, onOpenPassage: (ref: string) => void) {
   const g = await load(dataUrl);
   const types = [...new Set(g.edges.map((e) => e.type))].sort();
-  const works = [...new Set(Object.values(g.nodes).map((n) => n.work))].sort((a, b) => WORK_ORDER.indexOf(a) - WORK_ORDER.indexOf(b));
-  const state: State = { center, selected: center, types: new Set(types), works: new Set(works), reviewedOnly: false };
+  const groups = [...new Set(Object.values(g.nodes).map(groupOf))].sort((a, b) => GROUP_ORDER.indexOf(a) - GROUP_ORDER.indexOf(b));
+  const state: State = { center, selected: center, types: new Set(types), groups: new Set(groups), reviewedOnly: false };
 
   const title = dialog.querySelector<HTMLElement>("[data-graph-title]")!;
   const canvas = dialog.querySelector<SVGSVGElement>("[data-graph-svg]")!;
@@ -108,7 +114,7 @@ export async function openGraph(dialog: HTMLDialogElement, dataUrl: string, cent
     return g.edges.filter((e) =>
       state.types.has(e.type) &&
       (!state.reviewedOnly || e.status === "reviewed") &&
-      state.works.has(g.nodes[e.from]?.work) && state.works.has(g.nodes[e.to]?.work));
+      state.groups.has(groupOf(g.nodes[e.from])) && state.groups.has(groupOf(g.nodes[e.to])));
   }
 
   function chip(label: string, pressed: boolean, onClick: () => void, cls = "") {
@@ -127,8 +133,8 @@ export async function openGraph(dialog: HTMLDialogElement, dataUrl: string, cent
     filters.replaceChildren(
       el("span", "gf-label", "Links"),
       ...types.map((t) => chip(TYPE_NAMES[t] || t, state.types.has(t), toggle(state.types, t), `t-${t}`)),
-      el("span", "gf-label", "Works"),
-      ...works.map((w) => chip(workName(w), state.works.has(w), toggle(state.works, w), workClass(w))),
+      el("span", "gf-label", "Show"),
+      ...groups.map((grp) => chip(GROUP_NAMES[grp], state.groups.has(grp), toggle(state.groups, grp), groupClass(grp))),
       chip("Reviewed only", state.reviewedOnly, () => { state.reviewedOnly = !state.reviewedOnly; render(); }, "reviewed"),
     );
   }
@@ -201,7 +207,7 @@ export async function openGraph(dialog: HTMLDialogElement, dataUrl: string, cent
       const n = g.nodes[ref];
       const ring = ringOf(ref);
       const grp = svg("g", {
-        class: `node ${workClass(n.work)} ${ring}`,
+        class: `node ${groupClass(groupOf(n))} ${ring}`,
         tabindex: 0, role: "button", "data-ref": ref,
         "aria-label": `${n.label}${ring === "center" ? " (center)" : ""}`,
       });
@@ -340,7 +346,7 @@ export async function openGraph(dialog: HTMLDialogElement, dataUrl: string, cent
     const ref = state.selected;
     const n = g.nodes[ref];
     const parts: HTMLElement[] = [];
-    parts.push(el("span", `gi-work ${workClass(n?.work)}`, workName(n?.work || "")));
+    parts.push(el("span", `gi-work ${groupClass(groupOf(n))}`, n?.work_name || n?.work || ""));
     parts.push(el("h3", undefined, n?.label || ref));
     parts.push(el("p", "gi-ref", ref));
     const mine = drawn.filter((e) => e.from === ref || e.to === ref);
@@ -390,7 +396,7 @@ export async function openGraph(dialog: HTMLDialogElement, dataUrl: string, cent
 
   const lg = (cls: string, label: string) => { const s = el("span", `lg ${cls}`); s.append(el("i"), document.createTextNode(label)); return s; };
   legend.replaceChildren(
-    ...works.map((w) => lg(workClass(w), workName(w))),
+    ...groups.map((grp) => lg(groupClass(grp), GROUP_NAMES[grp])),
     ...(types.includes("quotes") ? [lg("e-quotes", "quotes")] : []),
     ...(types.some((t) => t !== "quotes") ? [lg("e-cites", types.filter((t) => t !== "quotes").map((t) => TYPE_NAMES[t] || t).join(", "))] : []),
     lg("dashed", "suggested, not yet reviewed"),

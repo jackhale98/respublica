@@ -16,7 +16,7 @@ the rules every contributor (human or agent) follows.
 | 1. Constitution | Done: Constitution and all 27 amendments imported from National Archives transcriptions; every clause renders with its ref. The Declaration of Independence added the same way (each grievance its own passage). |
 | 2. Federalist | Done: all 85 papers from Project Gutenberg eBook #18, with paragraph refs, footnotes and attribution (disputed papers marked). |
 | 3. Explicit links | Linked: 289 suggested links from 51 Federalist papers to 73 clauses of the Constitution (81 quotations, 208 citations), awaiting human review. See [`docs/linking.md`](docs/linking.md). |
-| 4. Connections panel and graph | Done: the panel (a bottom sheet on phones) lists each passage's connections; "Graph" opens a two-hop graph of them (force layout with zoom, pan and drag; d3), filterable by link type, work and review status. |
+| 4. Connections panel and graph | Done: the panel (a bottom sheet on phones) lists each passage's connections; "Graph" opens a two-hop graph of them (force layout with zoom, pan and drag; d3), filterable by link type, side (founding documents, Federalist, Anti-Federalist) and review status. |
 | 5. Ratification debate | Imported: 19 works (174k words) from Ford's *Essays* (every section), Ford's *Pamphlets* (the Federal Farmer) and McMaster and Stone (Centinel I–XXIV), both sides, read from scans by OCR consensus with uncertain words marked (method: [`docs/ocr.md`](docs/ocr.md)). Brutus: no public-domain printing found. The rest of Ford's *Pamphlets* is next. See [`docs/editions.md`](docs/editions.md). |
 | 8. Search | Pagefind full-text search plus "jump to" any ref. Source sheets not started. |
 | 6–7, 9–10 | Not started. |

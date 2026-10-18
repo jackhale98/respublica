@@ -118,10 +118,11 @@
   --author-jay: #d95926;
 }
 
-/* Graph node colors by work (validated all-pairs for color-vision
-   deficiency in both modes; nodes always carry text labels too). */
-:root { --work-constitution: #5b4cf0; --work-amendments: #1a9fbf; --work-federalist: #eb6834; --work-other: #6e7290; }
+/* Graph node colors by group: founding documents, the Federalist side, the
+   Anti-Federalists (validated all-pairs for color-vision deficiency in both
+   modes; every node carries a text label too). */
+:root { --group-founding: #5b4cf0; --group-federalist: #eb6834; --group-anti: #1baf7a; --work-other: #6e7290; }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) { --work-constitution: #8b80ff; --work-amendments: #1f9cbf; --work-federalist: #d95926; --work-other: #8a8eab; }
+  :root:not([data-theme="light"]) { --group-founding: #8b80ff; --group-federalist: #d95926; --group-anti: #199e70; --work-other: #8a8eab; }
 }
-:root[data-theme="dark"] { --work-constitution: #8b80ff; --work-amendments: #1f9cbf; --work-federalist: #d95926; --work-other: #8a8eab; }
+:root[data-theme="dark"] { --group-founding: #8b80ff; --group-federalist: #d95926; --group-anti: #199e70; --work-other: #8a8eab; }

@@ -167,7 +167,9 @@ essay headings ("CATO, III."), its signature, attribution and side.
   (newspaper, number, date); a greeting printed on the date's line is split
   off. Short lines after the last paragraph (signature, place, date,
   "(To be continued.)", "Your's, &c.") are its signature, including a
-  signature run into the end of the last paragraph.
+  signature run into the end of the last paragraph, with any place and date
+  after it, when it starts a sentence ("… oppression ? CenTinei,.
+  Philadelphia, Nov. 30, 1787.").
 
 ## What the output records
 

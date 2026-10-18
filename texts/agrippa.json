@@ -372,6 +372,7 @@
       ],
       "ref": "Agrippa.9",
       "salutation": "To THE People.",
+      "signature": "Agkifpa.",
       "uncertain": {
         "publication.0": [
           {
@@ -402,6 +403,15 @@
               "primary": "305)"
             },
             "start": 11
+          }
+        ],
+        "signature": [
+          {
+            "end": 8,
+            "readings": {
+              "primary": "Agkifpa."
+            },
+            "start": 0
           }
         ]
       }
@@ -1704,16 +1714,7 @@
           93
         ]
       },
-      "text": "Our country is at present upon an average a thousand miles long from north to south, and eight hundred broad from the Mississippi to the Ocean. We have at least six millions of white inhabitants, and the annual increase is about two hundred and fifty thousand souls, exclusive of emigrants from Europe. The greater part of our increase is employed in settling the new lands, while the older settlements are entering largely into manufactures of various kinds. It is probable that the extraordinary exertions of this state in the way of industry for the present year only, exceed in value five hundred thousand pounds. The new settlements, if all made in the same tract of country, would form a large state annually; and the time seems to be literally accomplished when a nation shall be born in a day. Such an immense country is not only capable of yielding all the produce of Europe, but actually does produce by far the greater part of the raw materials. The restrictions on our trade in Europe, necessarily oblige us to make use of those materials, and the high price of labour operates as an encouragement to mechanical improvements. In this way we daily make rapid advancements towards independence in resources as well as in empire. If we adopt the new system of government we shall, by one rash vote, lose the fruit of the toil and expense of thirteen years, at the time when the benefits of that toil and expense are rapidly increasing. Though the imposts of Congress on foreign trade may tend to encourage manufactures, the excise and dry tax will destroy all the beneficial effects of the impost, at the same time that they diminish our capital. Be careful then to give only a limited revenue, and the limited power of managing foreign concerns. Once surrender the rights of internal legislation and taxation, and instead of being respected abroad, foreigners will laugh at us, and posterity will lament our folly. Agkifpa.",
-      "uncertain": [
-        {
-          "end": 1933,
-          "readings": {
-            "primary": "Agkifpa."
-          },
-          "start": 1925
-        }
-      ]
+      "text": "Our country is at present upon an average a thousand miles long from north to south, and eight hundred broad from the Mississippi to the Ocean. We have at least six millions of white inhabitants, and the annual increase is about two hundred and fifty thousand souls, exclusive of emigrants from Europe. The greater part of our increase is employed in settling the new lands, while the older settlements are entering largely into manufactures of various kinds. It is probable that the extraordinary exertions of this state in the way of industry for the present year only, exceed in value five hundred thousand pounds. The new settlements, if all made in the same tract of country, would form a large state annually; and the time seems to be literally accomplished when a nation shall be born in a day. Such an immense country is not only capable of yielding all the produce of Europe, but actually does produce by far the greater part of the raw materials. The restrictions on our trade in Europe, necessarily oblige us to make use of those materials, and the high price of labour operates as an encouragement to mechanical improvements. In this way we daily make rapid advancements towards independence in resources as well as in empire. If we adopt the new system of government we shall, by one rash vote, lose the fruit of the toil and expense of thirteen years, at the time when the benefits of that toil and expense are rapidly increasing. Though the imposts of Congress on foreign trade may tend to encourage manufactures, the excise and dry tax will destroy all the beneficial effects of the impost, at the same time that they diminish our capital. Be careful then to give only a limited revenue, and the limited power of managing foreign concerns. Once surrender the rights of internal legislation and taxation, and instead of being respected abroad, foreigners will laugh at us, and posterity will lament our folly."
     },
     {
       "label": "Agrippa 10, ¶ 1",

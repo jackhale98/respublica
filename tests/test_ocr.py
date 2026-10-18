@@ -128,6 +128,15 @@ class StructureTests(unittest.TestCase):
         self.assertTrue(numeral_reads_as("XL", 11))
         self.assertFalse(numeral_reads_as("IX", 8))
 
+    def test_signature_run_into_the_last_paragraph(self):
+        from importers.ratification import structure
+        series = {"signature": "Centinel."}
+        body = "A long first paragraph of the essay, which goes on for a while."
+        e = structure(series, "5", [Block(body, [1], []), Block("What would this be ? CenTinei,. Philadelphia, Nov. 30, 1787.", [2], [])])
+        self.assertEqual(e.inline_tokens, 5)
+        e = structure({"signature": "Caesar."}, "1", [Block(body, [1], []), Block("He will very probably be followed by Caesar. October 15, 1787.", [2], [])])
+        self.assertEqual(e.inline_tokens, 0)
+
     def test_greeting_on_the_date_line(self):
         out = split_greetings([Block("October 9, 1787. Dear Sir,", [1], [])])
         self.assertEqual([b.text for b in out], ["October 9, 1787.", "Dear Sir,"])

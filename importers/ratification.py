@@ -266,12 +266,26 @@ def structure(series: dict, essay_id: str, essay_blocks: list) -> Essay:
             e.closing.insert(0, body.pop())
             continue
         break
-    # A signature run into the end of the last paragraph ("... free. A Landholder.").
+    # A signature run into the end of the last paragraph ("... free. A Landholder."),
+    # perhaps followed by a place and date ("... ? CENTINEL. Philadelphia, Nov. 30, 1787.").
+    # When a place or date follows, the name must start a sentence, so a name
+    # ending a sentence ("... by Caesar. October 15.") stays in the text.
     if signature and body:
         n = len(TOKEN.findall(signature))
         tail = TOKEN.findall(body[-1].text)
-        if len(tail) > n + 3 and like(" ".join(tail[-n:]), signature, 0.75) and tail[-n][:1].isupper():
-            e.inline_tokens = n
+        for after in range(7):
+            k = len(tail) - after - n
+            if k < 4:
+                break
+            rest = " ".join(tail[k + n:])
+            if after and not (re.search(r"\d", rest) or MONTH.search(rest + " ")):
+                continue
+            name = " ".join(tail[k:k + n])
+            if tail[k][:1].isupper() and (
+                    (not after and like(name, signature, 0.75))
+                    or (like(name, signature, 0.7) and tail[k - 1].endswith((".", "?", "!")))):
+                e.inline_tokens = n + after
+                break
     e.body = body
     return e
 

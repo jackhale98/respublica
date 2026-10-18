@@ -35,6 +35,7 @@ class SiteStructureTests(unittest.TestCase):
         self.assertEqual(self.refs["Federalist.10"]["url"], "/federalist/10/")
         self.assertEqual(self.refs["Federalist.10.4"]["url"], "/federalist/10/#Federalist.10.4")
         self.assertEqual(self.refs["Federalist.6.fn1"]["url"], "/federalist/6/#Federalist.6.fn1")
+        self.assertEqual(self.refs["Caution"]["url"], "/caution/")  # a single piece is its own page
 
     def test_every_segment_has_a_url(self):
         for ref in self.corpus.segments:

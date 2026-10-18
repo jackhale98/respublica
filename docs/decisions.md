@@ -397,3 +397,32 @@ Constitution (the National Archives transcription), is listed first among
 the founding documents (1776), and is linked like any other text, but links
 to it are never `interprets`, which is for courts construing law.
 Refs: `docs/references.md`.
+
+## 33. Links in the ratification debate (run 2)
+
+- **One run per essay.** Code lists the candidates in each essay (clause
+  references, quotations of the Constitution and the Declaration, and the
+  names of other writers in the library: `tools.candidates --ref`); an agent
+  reads the essay and decides; `tools.links propose` writes the links. Every
+  link is `suggested` until a person reviews it. The rules agents followed,
+  including those settled during the run (references to a writer's own
+  earlier numbers, bare mentions, editor's notes without an "Ed." mark), are
+  in `docs/linking.md`, "Run 2".
+- **Independent check.** A second agent, which did not write the links,
+  checked every link between essays and a random sample of the links to the
+  Constitution against both texts; links it found wrong were removed or
+  corrected before publishing, and the rest are left for human review.
+- **Signatures run into the text.** Linking showed signatures the importer
+  had left at the end of an essay's last paragraph, sometimes with a place
+  and date after them ("… oppression ? CenTinei,. Philadelphia, Nov. 30,
+  1787."). The importer now moves such a signature (and the place and date
+  after it) to the essay's signature when it starts a sentence. No ref
+  changes; two passages lose their closing line. Other suspected errors the
+  linkers saw are in `docs/errata.md` (16–23).
+- **Graph colors by side.** With twenty works, one color per work cannot be
+  told apart, so graph nodes are colored by group: founding documents, The
+  Federalist and Federalist essays, Anti-Federalist essays, and other pieces
+  (validated for color-vision deficiency in light and dark). The graph's
+  "Show" filters use the same groups; each node still names its work.
+- **Single pieces.** A link to a whole single piece (`Caution`) points at
+  its page.
