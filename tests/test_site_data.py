@@ -73,6 +73,16 @@ class SiteStructureTests(unittest.TestCase):
 
 
 
+class AmendmentBacklinkTests(unittest.TestCase):
+    def test_amendments_link_back_to_the_text_they_change(self):
+        corpus = load_corpus()
+        site, pages, refs, graphs = build(corpus, [])
+        heads = {b["ref"]: b for b in pages["amendments"]["blocks"] if b["type"] == "heading"}
+        self.assertEqual([c["ref"] for c in heads["Amendment.17"]["changes"]], ["Constitution.1.3.1", "Constitution.1.3.2"])
+        self.assertEqual(heads["Amendment.11"]["changes"][0]["url"], "/constitution/#Constitution.3.2.1")
+        self.assertNotIn("changes", heads["Amendment.1"])
+
+
 class ReviewTests(unittest.TestCase):
     def test_batches_by_confidence(self):
         from tools.corpus import load_corpus

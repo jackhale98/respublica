@@ -292,6 +292,13 @@ class SiteBuilder:
             raise ValueError(f"works without site settings in tools/site_data.py: {sorted(missing)}")
         self.ref_urls: dict[str, str] = {}
         self._plan_urls()
+        # Amendment -> the passages whose text the National Archives marks as
+        # changed by it (`changed_by`), so the amendment can link back to them.
+        self.changes: dict[str, list[str]] = {}
+        for ref, seg in corpus.segments.items():
+            for c in seg.get("changed_by", []):
+                if ref not in self.changes.setdefault(c["amendment"], []):
+                    self.changes[c["amendment"]].append(ref)
 
     # Every segment and division gets a URL before any page is built, so
     # links between works resolve regardless of build order.
@@ -391,6 +398,9 @@ class SiteBuilder:
                     h["anchor"] = d["ref"]
                 if d.get("notes"):
                     h["notes"] = [n["text"] for n in d["notes"]]
+                if self.changes.get(d["ref"]):
+                    h["changes"] = [{"label": label_for(self.corpus, r), "ref": r, "url": self.url_for(r)}
+                                    for r in self.changes[d["ref"]]]
                 blocks.append(h)
             blocks.append(self._passage(work, s))
         return blocks
