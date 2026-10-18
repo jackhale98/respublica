@@ -1,5 +1,7 @@
 /* The /errata/ page (scripts/errata.ts); shares the review page's layout (review.css). */
 
+[data-errata] .review-batch > summary { flex-wrap: wrap; }
+[data-errata] .rb-label { flex: 1 1 16rem; }
 .er-edition { display: block; font-weight: 400; font-size: .82rem; color: var(--text-muted); margin-top: .15rem; }
 .er-passage[data-state="done"] { border-left-color: var(--ok); }
 .er-passage[data-state="sent"] { opacity: .6; }

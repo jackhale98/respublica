@@ -767,7 +767,11 @@ approved the University of North Texas Digital Library as a new source.
   space above and below) and printed in one case; lines of a bill or of verse
   printed in the debate start with a capital and are not headings.
 - **On the site** both works join "Debates in Congress" (`/congress/`), which
-  groups the debates by amendment.
+  groups the debates by amendment. A day longer than 90,000 bytes of text
+  (three of the Senate's) is shown on several pages, split at paragraphs
+  (`/senate-fourteenth-amendment-1866/jun8/2/`), so that each page stays
+  inside the HTML budget of decision 15. Refs do not change; each ref's URL
+  names the page it is on.
 
 ## 48. Correcting words read from scans: the errata page
 

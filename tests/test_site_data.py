@@ -156,3 +156,19 @@ class GraphTests(unittest.TestCase):
         self.assertEqual(g["nodes"]["Constitution.1.8.18"]["work"], "constitution")
         self.assertEqual(graphs["federalist-10"]["edges"][0]["id"], "lnk_t_4")
         self.assertEqual(graphs["federalist-1"], {"edges": [], "nodes": {}})
+
+
+class SheetTests(unittest.TestCase):
+    def test_a_long_part_is_split_at_paragraphs_into_near_equal_sheets(self):
+        from tools.site_data import SHEET_TEXT_BYTES, sheets
+        segs = [{"ref": f"X.1.{n}", "text": "w" * (SHEET_TEXT_BYTES // 10)} for n in range(1, 26)]
+        out = sheets(segs)
+        self.assertEqual(len(out), 3)
+        self.assertEqual([x["ref"] for sheet in out for x in sheet], [x["ref"] for x in segs])
+        self.assertTrue(all(7 <= len(sheet) <= 9 for sheet in out))
+
+    def test_a_short_part_or_one_with_notes_stays_whole(self):
+        from tools.site_data import SHEET_TEXT_BYTES, sheets
+        self.assertEqual(len(sheets([{"ref": "X.1.1", "text": "short"}])), 1)
+        long = [{"ref": f"X.1.{n}", "text": "w" * SHEET_TEXT_BYTES} for n in range(1, 4)]
+        self.assertEqual(len(sheets(long + [{"kind": "footnote", "ref": "X.1.fn1", "text": "n"}])), 1)

@@ -372,6 +372,33 @@ def part_slug(work: dict, division_ref: str) -> str:
     return division_ref[len(work["ref_prefix"]) + 1:].lower()
 
 
+# A part longer than this (bytes of text) is shown on several pages, split
+# at paragraphs into nearly equal sheets, so each page stays inside the HTML
+# budget (tools/check_site.py; decision 15): the longest days of the 1866
+# Senate debate. Refs do not change; their URLs name the page they are on.
+SHEET_TEXT_BYTES = 90_000
+
+
+def sheets(segments: list[dict]) -> list[list[dict]]:
+    """A part's passages, in sheets of nearly equal length."""
+    sizes = [len(x["text"].encode()) for x in segments]
+    total = sum(sizes)
+    n = -(-total // SHEET_TEXT_BYTES)
+    if n <= 1 or any(x.get("kind") == "footnote" for x in segments):
+        return [segments]
+    out, at = [[]], 0
+    for seg, size in zip(segments, sizes):
+        if out[-1] and at >= total * len(out) / n and len(out) < n:
+            out.append([])
+        out[-1].append(seg)
+        at += size
+    return out
+
+
+def sheet_url(page: str, k: int) -> str:
+    return page if k == 1 else f"{page}{k}/"
+
+
 def gutter(ref: str, work: dict, segment: dict) -> str:
     """Short number shown beside a passage (its last ref component)."""
     last = ref.rsplit(".", 1)[-1]
@@ -423,6 +450,12 @@ class SiteBuilder:
                     self.ref_urls[s["ref"]] = f"{base}{part_slug(work, top['ref'])}/#{s['ref']}"
                 else:
                     self.ref_urls[s["ref"]] = f"{base}#{s['ref']}"
+            if self.settings[wid]["paged"]:
+                for t in tops:
+                    page = f"{base}{part_slug(work, t['ref'])}/"
+                    for k, sheet in enumerate(sheets(self._part_segments(work, t)), 1):
+                        for x in sheet:
+                            self.ref_urls[x["ref"]] = f"{sheet_url(page, k)}#{x['ref']}"
         # A retired ref's URL is its own anchor, inside the passage it was merged into.
         for ref, into in self.corpus.retired.items():
             if into in self.ref_urls:
@@ -435,6 +468,10 @@ class SiteBuilder:
             return self.ref_urls[ref]
         first = next((r for r in self.corpus.segments if r.startswith(ref + ".")), None)
         return self.ref_urls.get(first) if first else None
+
+    @staticmethod
+    def _part_segments(work: dict, top: dict) -> list[dict]:
+        return [s for s in work["segments"] if s["ref"].startswith(top["ref"] + ".")]
 
     @staticmethod
     def _top_division(work: dict, ref: str) -> dict | None:
@@ -637,8 +674,9 @@ class SiteBuilder:
                     pages[pid]["notes"] = self._blocks(work, [s for s in work["segments"] if s.get("kind") == "footnote"], ())
             else:
                 parts = []
+                ids = []
                 for i, d in enumerate(tops):
-                    segs = [s for s in work["segments"] if s["ref"].startswith(d["ref"] + ".")]
+                    segs = self._part_segments(work, d)
                     body = [s for s in segs if s.get("kind") != "footnote"]
                     notes = [s for s in segs if s.get("kind") == "footnote"]
                     pid = f"{wid}-{part_slug(work, d['ref'])}"
@@ -649,7 +687,8 @@ class SiteBuilder:
                         cols = [c for s in body for c in s.get("columns", [])]
                         at = cols or [p for s in body for p in s.get("pages", [])]
                         span = at[0] if at[0] == at[-1] else f"{at[0]}–{at[-1]}"
-                        printed = f"{cfg['printed_in']}, {'col' if cols else 'p'}{'s' if at[0] != at[-1] else ''}. {span}"
+                        unit = ("cols." if at[0] != at[-1] else "col.") if cols else ("pp." if at[0] != at[-1] else "p.")
+                        printed = f"{cfg['printed_in']}, {unit} {span}"
                     part = {
                         "attribution": self._attribution(d.get("attribution")),
                         "printed": printed,
@@ -664,28 +703,38 @@ class SiteBuilder:
                         "words": sum(len(s["text"].split()) for s in body),
                     }
                     parts.append(part)
-                    pages[pid] = {
-                        "blocks": self._blocks(work, body, ()),
-                        "toc_passages": [self._toc_passage(x) for x in body],
-                        "division": {
-                            **part,
-                            "header": self._header(d),
-                            "notes": [n["text"] for n in d.get("notes", [])],
-                            "salutation": d.get("salutation"),
-                            "signature": d.get("signature"),
-                            "variants": d.get("variants", []),
-                        },
-                        "id": pid,
-                        "kind": "part",
-                        "notes": self._blocks(work, notes, ()),
-                        # A day of a debate in Congress is named by its date and house.
-                        "title": (f"{'The Senate' if work['ref_prefix'].startswith('Senate') else 'The House'}, {d['label']}"
-                                  if cfg["collection"] == "congress"
-                                  else f"{d['label']}" + (f": {d['title']}" if d.get("title") else "")),
-                        "url": part["url"],
-                        "work": self._work_ref(info),
-                    }
-                ids = [f"{wid}-{part_slug(work, d['ref'])}" for d in tops]
+                    split = sheets(segs)
+                    for k, sheet in enumerate(split, 1):
+                        spid = pid if k == 1 else f"{pid}-{k}"
+                        ids.append(spid)
+                        shown = [s for s in sheet if s.get("kind") != "footnote"]
+                        here = {**part, "passages": len(shown), "url": sheet_url(part["url"], k),
+                                "words": sum(len(s["text"].split()) for s in shown)}
+                        if len(split) > 1:
+                            here["sheet"] = {"n": k, "of": len(split),
+                                             "urls": [sheet_url(part["url"], n) for n in range(1, len(split) + 1)]}
+                        pages[spid] = {
+                            "blocks": self._blocks(work, shown, ()),
+                            "toc_passages": [self._toc_passage(x) for x in shown],
+                            "division": {
+                                **here,
+                                "header": self._header(d),
+                                "notes": [n["text"] for n in d.get("notes", [])],
+                                "salutation": d.get("salutation") if k == 1 else None,
+                                "signature": d.get("signature") if k == len(split) else None,
+                                "variants": d.get("variants", []) if k == len(split) else [],
+                            },
+                            "id": spid,
+                            "kind": "part",
+                            "notes": self._blocks(work, notes, ()),
+                            # A day of a debate in Congress is named by its date and house.
+                            "title": (f"{'The Senate' if work['ref_prefix'].startswith('Senate') else 'The House'}, {d['label']}"
+                                      if cfg["collection"] == "congress"
+                                      else f"{d['label']}" + (f": {d['title']}" if d.get("title") else ""))
+                            + (f" ({k} of {len(split)})" if len(split) > 1 else ""),
+                            "url": here["url"],
+                            "work": self._work_ref(info),
+                        }
                 for i, pid in enumerate(ids):
                     pages[pid]["prev"] = self._nav(pages[ids[i - 1]]) if i > 0 else None
                     pages[pid]["next"] = self._nav(pages[ids[i + 1]]) if i + 1 < len(ids) else None
@@ -779,7 +828,8 @@ class SiteBuilder:
     @staticmethod
     def _nav(page: dict) -> dict:
         d = page["division"]
-        return {"label": d["label"], "title": d.get("title"), "url": page["url"]}
+        sheet = f" ({d['sheet']['n']} of {d['sheet']['of']})" if d.get("sheet") else ""
+        return {"label": d["label"] + sheet, "title": d.get("title"), "url": page["url"]}
 
 
 def build(corpus: Corpus, links: list[dict]) -> tuple[dict, dict[str, dict], dict[str, dict], dict[str, dict]]:
