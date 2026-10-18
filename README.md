@@ -65,7 +65,7 @@ Cloudflare, which builds this repository (`make build`) and deploys
 sources/raw/        downloaded originals, never edited (the U.S. Reports scans are kept out of git; `make fetch`)
 sources/manifest.json
 sources/ocr/        OCR we ran ourselves on raw page images, with a record of how (decision 46)
-importers/          one module per source (nara.py, federalist.py, cases.py, …)
+importers/          one module per source (nara.py, federalist.py, annals.py, cases.py, …)
 texts/              importer output: constitution, amendments, federalist
 refs.lock           every published ref (append-only)
 cases/              importer output: one file per Supreme Court case
