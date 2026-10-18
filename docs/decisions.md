@@ -620,7 +620,7 @@ What the rules still leave out is the source's own view: the table
 credits *Plessy v. Ferguson*'s overruling to *Bob Jones University v.
 United States* (1983), not *Brown*, because it lists only explicit
 statements by a majority of the Court; *Bob Jones* is not in the set, so
-neither is *Plessy*. *Lochner* and *Korematsu*'s neighbours are discussed
-on only a page or two. *Korematsu* itself is in, as a decision overruled
-by *Trump v. Hawaii*.
+neither is *Plessy*. *Lochner v. New York* is cited on two pages and is
+not in the table, so it is out too. *Korematsu* is in, as a decision the
+table lists as overruled by *Trump v. Hawaii*.
 
