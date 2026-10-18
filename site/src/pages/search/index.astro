@@ -14,14 +14,17 @@ import Icon from "../../components/Icon.astro";
     <form class="search-box" role="search" action={href("/search/")} method="get">
       <Icon name="search" />
       <input type="search" name="q" placeholder="Search the library" autocomplete="off" aria-label="Search" data-search-input />
+      <button class="btn btn-primary" type="submit">Search</button>
     </form>
-    <div class="search-filters" data-search-filters hidden></div>
+    <div class="search-filters" role="group" aria-label="Filter by text" data-work-filters></div>
+    <div class="search-filters" role="group" aria-label="Filter by author" data-author-filters hidden></div>
     <noscript><p class="sr-empty">Search needs JavaScript. Browse the <a href={href("/")}>library</a> instead.</p></noscript>
-    <div class="search-results" data-search-results></div>
+    <div class="search-results" data-jumps></div>
+    <p class="srp-summary" aria-live="polite" data-summary></p>
+    <div class="srp-list" data-results></div>
+    <button class="btn btn-ghost srp-more" type="button" data-more hidden>Show more</button>
   </div>
   <script>
-    import { attach } from "../../scripts/search.ts";
-    const page = document.querySelector<HTMLElement>("[data-search-page]");
-    if (page) attach(page, { initial: new URLSearchParams(location.search).get("q") || "", syncUrl: true });
+    import "../../scripts/search-page.ts";
   </script>
 </Base>

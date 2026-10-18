@@ -63,7 +63,7 @@ async function openSearch(initial = "") {
   searchModule ??= import("./search");
   const mod = await searchModule;
   dialog.showModal();
-  mod.attach(dialog, { initial });
+  mod.attachPalette(dialog, initial);
 }
 
 for (const trigger of document.querySelectorAll<HTMLElement>("[data-search-open]")) {

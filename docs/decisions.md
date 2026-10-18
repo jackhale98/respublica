@@ -235,3 +235,24 @@ full details from `/data/conn/{page}.json` the first time a passage is
 selected. The Constitution page is 122 KB (21 KB gzipped); its connection file
 loads on demand. The graph view (phase 4) will use the same per-page files.
 
+## 25. Search shows passages, and Enter shows all results
+
+Readers reported that search jumped to the first hit instead of letting them
+choose. Now:
+
+- The search box shows the best matching passages as you type, each with its
+  own excerpt; Enter opens `/search/?q=…`, which lists every matching passage
+  grouped by text, with filters by text and (for The Federalist) by author.
+  Arrow keys then Enter still open a single result.
+- Pagefind ranks pages, so results are rebuilt per passage in the browser: a
+  page's matched word positions are grouped by passage (each passage's element
+  id is its ref) and each passage gets its own excerpt. A passage must contain
+  every significant query word; exact phrases rank first, then words close
+  together.
+- The Constitution and the Amendments are each one long page, which page-level
+  ranking underrates, so they are looked up directly for every query and
+  listed first when they match; on equal matches the constitutional text
+  ranks above writing about it.
+- Connection-count badges are excluded from the index, and each paper's
+  number is stored as Pagefind metadata so results read "Federalist No. 84: …".
+

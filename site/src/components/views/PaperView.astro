@@ -36,6 +36,7 @@ const authorNames = attr ? attr.names : [];
   <header class="doc-head">
     <span class="eyebrow">{d.label}</span>
     <h1 data-pagefind-meta="title" data-pagefind-filter={`work:${work.title}`}>{d.title}</h1>
+    <span data-pagefind-meta={`label:${d.label}`}></span>
     {authorNames.map((n) => <span data-pagefind-filter={`author:${n}`}></span>)}
     <div class="doc-meta" data-pagefind-ignore>
       <AuthorChip attribution={attr} />

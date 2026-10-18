@@ -14,7 +14,7 @@ const numeral = (label) => label.split(" ").at(-1);
   data-label={block.label}
 >
   <a class="num" href={`#${block.ref}`} aria-label={`${block.label} (${block.ref})`} data-pagefind-ignore>{block.gutter || "·"}</a>
-  {conns.length > 0 && <span class="ccount" aria-hidden="true" title={`${conns.length} connections`}>{conns.length}</span>}
+  {conns.length > 0 && <span class="ccount" aria-hidden="true" data-pagefind-ignore title={`${conns.length} connections`}>{conns.length}</span>}
   <div class="ptext">
     {block.paras.map((lines) => (
       <p>

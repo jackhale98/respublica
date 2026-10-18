@@ -25,7 +25,9 @@ the rules every contributor (human or agent) follows.
 A reader built around passages: pick any passage to see its permanent ref,
 copy a link or the text, and see its connections in a side panel (a bottom
 sheet on phones). Contents with scrollspy, `j`/`k` to move between passages,
-`/` or Ctrl/⌘+K to search or jump ("Fed 10", "1.8.3", "Amendment 14"), light
+`/` or Ctrl/⌘+K to search (matching passages appear as you type; Enter opens a
+full results page with every matching passage, filterable by text and author)
+or jump ("Fed 10", "1.8.3", "Amendment 14"), light
 and dark themes, adjustable text size, and The Federalist's papers filterable
 by author. Every page works without JavaScript.
 

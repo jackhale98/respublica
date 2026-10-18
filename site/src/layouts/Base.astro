@@ -107,11 +107,11 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         <input type="search" name="q" placeholder="Search texts, or jump to “Fed 10” or “1.8.3”" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="search-results" data-search-input />
         <button type="button" class="icon-btn" data-search-close aria-label="Close search"><kbd>Esc</kbd></button>
       </form>
-      <div class="search-filters" data-search-filters hidden></div>
       <div class="search-results" id="search-results" role="listbox" aria-label="Results" data-search-results></div>
+      <a class="sr-all" href={href("/search/")} data-search-all hidden>See all results for “<span data-q></span>” <kbd>Enter</kbd></a>
       <div class="search-foot">
-        <span><kbd>↑</kbd> <kbd>↓</kbd> to move</span>
-        <span><kbd>Enter</kbd> to open</span>
+        <span><kbd>Enter</kbd> all results</span>
+        <span><kbd>↑</kbd> <kbd>↓</kbd> then <kbd>Enter</kbd> to open one</span>
         <span class="hide-sm">Try “Federalist 51”, “Article I, Section 8”, “Amendment 14”</span>
       </div>
     </dialog>

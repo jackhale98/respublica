@@ -1,14 +1,23 @@
 // Search: "jump to" ref parsing plus Pagefind full-text search.
 // Loaded only when someone opens search. Pagefind's index lives at
-// /pagefind/ (built by `make build`); it compiles WebAssembly, which is why
-// the CSP allows 'wasm-unsafe-eval' and nothing else beyond 'self'.
+// {base}/pagefind/ (built by `make build`); it compiles WebAssembly, which is
+// why the CSP allows 'wasm-unsafe-eval' and nothing else beyond 'self'.
+//
+// Pagefind ranks pages. To show every matching passage, each page's matched
+// word positions are grouped by passage (Pagefind records every element with
+// an id, and a passage's id is its ref), and each passage gets its own excerpt.
 
 type RefEntry = { label: string; url: string };
+export type Passage = { ref: string | null; label: string; url: string; excerpt: string; score: number; phrase: boolean };
+export type PageHit = { url: string; title: string; work: string; passages: Passage[] };
 
 // Paths in site data are root-relative; the site may be served under a base path.
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 const withBase = (p: string) => (p.startsWith("/") && !p.startsWith("//") ? BASE + p : BASE + "/");
-type Item = { url: string; title: string; ref?: string; excerpt?: string };
+export const resultsUrl = (q: string, params: Record<string, string> = {}) => {
+  const u = new URLSearchParams({ q, ...Object.fromEntries(Object.entries(params).filter(([, v]) => v)) });
+  return `${BASE}/search/?${u}`;
+};
 
 let refsPromise: Promise<Record<string, RefEntry>> | null = null;
 let pagefindPromise: Promise<any> | null = null;
@@ -18,15 +27,18 @@ function loadRefs() {
   return refsPromise;
 }
 
-function loadPagefind() {
+export function loadPagefind() {
   const path = `${BASE}/pagefind/pagefind.js`;
   pagefindPromise ??= import(/* @vite-ignore */ path)
     .then(async (pf) => {
-      await pf.options({ excerptLength: 26, baseUrl: `${BASE}/` });
+      await pf.options({ excerptLength: 30, baseUrl: `${BASE}/` });
       pf.init();
       return pf;
     })
-    .catch(() => null);
+    .catch((err) => {
+      console.error("Search index failed to load", err);
+      return null;
+    });
   return pagefindPromise;
 }
 
@@ -68,24 +80,22 @@ export function jumpCandidates(raw: string): string[] {
   if ((m = q.match(new RegExp(`^(?:art(?:icle)?\\.?) ?${N}(?:[. ]+(?:sec(?:tion)?\\.? ?)?(\\d+))?(?:[. ]+(?:cl(?:ause)?\\.? ?)?(\\d+))?$`)))) {
     const a = num(m[1]);
     if (a) {
-      const parts = [a, m[2], m[3]].filter(Boolean).join(".");
-      out.push(`Constitution.${parts}`);
+      out.push(`Constitution.${[a, m[2], m[3]].filter(Boolean).join(".")}`);
       if (m[2] && !m[3]) out.push(`Constitution.${a}.${m[2]}`);
     }
   }
   if ((m = q.match(/^(\d+)\.(\d+)(?:\.(\d+))?$/))) out.push(`Constitution.${q}`);
   if (/^(the )?preamble$/.test(q)) out.push("Constitution.Preamble");
   if (/^(signers|signatures)$/.test(q)) out.push("Constitution.Signers");
-  // An exact ref, any case.
-  out.push(raw.trim());
+  out.push(raw.trim()); // an exact ref, any case
   return out;
 }
 
-async function jump(q: string): Promise<Item[]> {
+export async function jump(q: string): Promise<{ url: string; title: string; ref: string }[]> {
   const refs = await loadRefs();
   const lower = new Map(Object.keys(refs).map((k) => [k.toLowerCase(), k]));
   const seen = new Set<string>();
-  const items: Item[] = [];
+  const items = [];
   for (const cand of jumpCandidates(q)) {
     const key = lower.get(cand.toLowerCase());
     if (key && !seen.has(key)) {
@@ -96,175 +106,256 @@ async function jump(q: string): Promise<Item[]> {
   return items;
 }
 
-// ---------------------------------------------------------------- full text
+// ---------------------------------------------------------------- passages
 
-/** Pagefind excerpts are HTML with <mark>. Keep only the text and <mark>. */
-function safeExcerpt(html: string): string {
-  const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-  const doc = new DOMParser().parseFromString(`<div>${html}</div>`, "text/html");
-  let out = "";
-  const walk = (n: Node) => {
-    for (const c of Array.from(n.childNodes)) {
-      if (c.nodeType === Node.TEXT_NODE) out += esc(c.textContent || "");
-      else if (c.nodeName === "MARK") { out += "<mark>"; walk(c); out += "</mark>"; }
-      else walk(c);
-    }
-  };
-  walk(doc.body);
-  return out;
-}
+const STOP = new Set("a an and are as at be but by for from has have he his i in is it its of on or that the their them they this to was were which will with".split(" "));
+const norm = (w: string) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
+const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-/** The passage (an element whose id is a ref) holding the first match.
- *  Pagefind records every element with an id as an anchor with its word
- *  position, so the nearest anchor before the match is its passage. */
-function passageFor(anchors: any[], locations: number[]): string | null {
-  const first = locations[0];
-  if (first === undefined) return null;
-  let best: string | null = null;
-  for (const a of anchors) if (/\./.test(a.id || "") && a.location <= first) best = a.id;
+/** Index of the query term a matched word belongs to (Pagefind stems words,
+ *  so "ambitious" matches "ambition": compare by shared prefix). */
+function termOf(word: string, terms: string[]): number {
+  const w = norm(word);
+  let best = -1, bestLen = 0;
+  terms.forEach((t, i) => {
+    let k = 0;
+    while (k < t.length && k < w.length && t[k] === w[k]) k++;
+    if ((k === t.length || k >= 4) && k > bestLen) { best = i; bestLen = k; }
+  });
   return best;
 }
 
-async function fullText(q: string, filters: Record<string, string>): Promise<Item[] | null> {
-  const pf = await loadPagefind();
-  if (!pf) return null;
-  const search = await pf.debouncedSearch(q, { filters }, 120);
-  if (!search) return [];
-  const refs = await loadRefs();
-  const datas = await Promise.all(search.results.slice(0, 12).map((r: any) => r.data()));
-  const items: Item[] = [];
-  const seen = new Set<string>();
-  const add = (anchors: any[], locations: number[], excerpt: string, fallbackUrl: string, fallbackTitle: string) => {
-    const ref = passageFor(anchors, locations);
-    const key = ref || fallbackUrl;
-    if (seen.has(key)) return;
-    seen.add(key);
-    const hit = ref ? refs[ref] : undefined;
-    items.push({ url: hit ? withBase(hit.url) : fallbackUrl, title: hit ? hit.label : fallbackTitle, ref: hit ? ref! : undefined, excerpt: safeExcerpt(excerpt) });
-  };
-  for (const d of datas) {
-    const anchors = d.anchors || [];
-    // One-page works (the Constitution) split into sections; show the best few.
-    const subs = (d.sub_results || []).filter((s: any) => s.locations?.length)
-      .sort((a: any, b: any) => b.locations.length - a.locations.length).slice(0, 4);
-    if (subs.length > 1) for (const s of subs) add(anchors, s.locations, s.excerpt || "", s.url, s.title);
-    else add(anchors, d.locations || [], d.excerpt || "", d.url, d.meta?.title || d.url);
-    if (items.length >= 24) break;
+/** Excerpt of ~32 words around `center`, within [lo, hi), with matches marked.
+ *  Returns HTML built only from escaped text and <mark>. */
+function excerpt(words: string[], lo: number, hi: number, center: number, marks: Set<number>): string {
+  const start = Math.max(lo, center - 10);
+  const end = Math.min(hi, start + 32);
+  let out = start > lo ? "… " : "";
+  for (let i = start; i < end; i++) {
+    const w = esc(words[i]);
+    out += (marks.has(i) ? `<mark>${w}</mark>` : w) + " ";
   }
-  return items;
+  return out.trim() + (end < hi ? " …" : "");
 }
 
-// ---------------------------------------------------------------- UI
+/** Every passage on a result page that matches the query, best first. */
+export function passagesOf(data: any, query: string, refs: Record<string, RefEntry>): Passage[] {
+  const words: string[] = (data.content || "").split(/\s+/);
+  const terms = query.split(/\s+/).map(norm).filter(Boolean);
+  const significant = terms.map((t, i) => (!STOP.has(t) ? i : -1)).filter((i) => i >= 0);
+  const need = significant.length ? significant : terms.map((_, i) => i);
+  // Passage boundaries: elements with a ref id that are passages (divs), in order.
+  const anchors = (data.anchors || [])
+    .filter((a: any) => a.element === "div" && /\./.test(a.id || ""))
+    .sort((a: any, b: any) => a.location - b.location);
+  const bounds = [{ id: null as string | null, start: 0 }, ...anchors.map((a: any) => ({ id: a.id as string, start: a.location as number }))];
+  const groups = new Map<number, number[]>();
+  for (const loc of data.locations || []) {
+    let i = bounds.length - 1;
+    while (i > 0 && bounds[i].start > loc) i--;
+    if (!groups.has(i)) groups.set(i, []);
+    groups.get(i)!.push(loc);
+  }
+  const out: Passage[] = [];
+  for (const [i, locs] of groups) {
+    const lo = bounds[i].start;
+    const hi = i + 1 < bounds.length ? bounds[i + 1].start : words.length;
+    const byTerm = new Map<number, number[]>();
+    for (const l of locs) {
+      const t = termOf(words[l] || "", terms);
+      if (t >= 0) (byTerm.get(t) ?? byTerm.set(t, []).get(t)!).push(l);
+    }
+    const covered = need.filter((t) => byTerm.has(t)).length;
+    if (covered < need.length) continue; // every significant word must appear
+    const marked = new Set<number>(need.flatMap((t) => byTerm.get(t) || []));
+    // A phrase match: the query's words in order, consecutively.
+    const set = new Set(locs);
+    let phraseAt = -1;
+    if (terms.length > 1) {
+      for (const l of byTerm.get(0) || []) {
+        if (terms.every((_, k) => set.has(l + k) && termOf(words[l + k], terms) === k)) { phraseAt = l; break; }
+      }
+      if (phraseAt >= 0) terms.forEach((_, k) => marked.add(phraseAt + k));
+    }
+    // Otherwise, the tightest window holding every significant word.
+    let window = 0, windowAt = Math.min(...marked);
+    if (phraseAt < 0 && need.length > 1) {
+      window = Infinity;
+      for (const l of byTerm.get(need[0]) || []) {
+        let lo2 = l, hi2 = l;
+        for (const t of need.slice(1)) {
+          const near = (byTerm.get(t) || []).reduce((b, x) => (Math.abs(x - l) < Math.abs(b - l) ? x : b), Infinity);
+          lo2 = Math.min(lo2, near);
+          hi2 = Math.max(hi2, near);
+        }
+        if (hi2 - lo2 < window) { window = hi2 - lo2; windowAt = lo2; }
+      }
+    }
+    const center = phraseAt >= 0 ? phraseAt : windowAt;
+    const ref = bounds[i].id;
+    const hit = ref ? refs[ref] : undefined;
+    out.push({
+      ref: hit ? ref : null,
+      label: hit ? hit.label : data.meta?.label ? `${data.meta.label}: ${data.meta.title}` : data.meta?.title || "Title",
+      url: hit ? withBase(hit.url) : data.url,
+      excerpt: excerpt(words, lo, hi, center, marked),
+      // Phrase first, then words close together, then how often they occur.
+      score: (phraseAt >= 0 ? 1000 : 300 / (1 + window)) + Math.min(marked.size, 20),
+      phrase: phraseAt >= 0,
+    });
+  }
+  return out.sort((a, b) => b.score - a.score);
+}
 
-const WORK_FILTERS = ["The Constitution of the United States", "Amendments to the Constitution of the United States", "The Federalist"];
+// ---------------------------------------------------------------- search
+
+export type Search = { total: number; load: (from: number, to: number) => Promise<PageHit[]> };
+
+const SINGLE_PAGE_WORKS = ["The Constitution of the United States", "Amendments to the Constitution of the United States"];
+
+/** Run a full-text search. `total` is the number of matching pages; `load`
+ *  fetches and analyses a slice of them. Null if search cannot run here. */
+export async function search(q: string, filters: Record<string, string> = {}, debounce = 0): Promise<Search | null | "stale"> {
+  const pf = await loadPagefind();
+  if (!pf) return null;
+  const f = Object.fromEntries(Object.entries(filters).filter(([, v]) => v));
+  const res = debounce ? await pf.debouncedSearch(q, { filters: f }, debounce) : await pf.search(q, { filters: f });
+  if (!res) return "stale";
+  // Pagefind scores whole pages, and the Constitution and the Amendments are
+  // each one long page holding many passages, so they rank below short papers
+  // that repeat a phrase. Look them up directly and put them first.
+  const first: any[] = [];
+  for (const work of SINGLE_PAGE_WORKS) {
+    if (f.work && f.work !== work) continue;
+    const own = await pf.search(q, { filters: { ...f, work } });
+    first.push(...own.results);
+  }
+  const ids = new Set(first.map((r: any) => r.id));
+  const results = [...first, ...res.results.filter((r: any) => !ids.has(r.id))];
+  const refs = await loadRefs();
+  return {
+    total: results.length,
+    load: async (from, to) => {
+      const datas = await Promise.all(results.slice(from, to).map((r: any) => r.data()));
+      return datas
+        .map((d: any) => {
+          const work = d.filters?.work?.[0] || "";
+          const passages = passagesOf(d, q, refs);
+          // On equal matches, the constitutional text itself comes before writing about it.
+          if (SINGLE_PAGE_WORKS.includes(work)) passages.forEach((p) => (p.score += 25));
+          return {
+            url: d.url,
+            title: d.meta?.label ? `${d.meta.label}: ${d.meta.title}` : d.meta?.title || d.url,
+            work,
+            passages,
+          };
+        })
+        .filter((p: PageHit) => p.passages.length)
+        .sort((a: PageHit, b: PageHit) => b.passages[0].score - a.passages[0].score);
+    },
+  };
+}
+
+// ---------------------------------------------------------------- palette
+
 const SHORT: Record<string, string> = {
   "The Constitution of the United States": "Constitution",
   "Amendments to the Constitution of the United States": "Amendments",
   "The Federalist": "Federalist",
 };
+export const shortWork = (w: string) => SHORT[w] || w;
+
+export function row(href: string, title: string, meta: string, excerptHtml?: string): HTMLAnchorElement {
+  const a = document.createElement("a");
+  a.className = "sr-item";
+  a.href = href;
+  a.setAttribute("role", "option");
+  const t = document.createElement("div");
+  t.className = "sr-title";
+  t.append(document.createTextNode(title));
+  if (meta) {
+    const r = document.createElement("span");
+    r.className = "ref";
+    r.textContent = meta;
+    t.append(r);
+  }
+  a.append(t);
+  if (excerptHtml) {
+    const p = document.createElement("p");
+    p.className = "sr-excerpt";
+    p.innerHTML = excerptHtml; // escaped text and <mark> only (see excerpt())
+    a.append(p);
+  }
+  return a;
+}
+
+export function group(label: string) {
+  const h = document.createElement("div");
+  h.className = "sr-group";
+  h.textContent = label;
+  return h;
+}
+
+export function note(text: string, cls = "sr-empty") {
+  const p = document.createElement("p");
+  p.className = cls;
+  p.textContent = text;
+  return p;
+}
 
 const attached = new WeakSet<Element>();
 
-export function attach(container: HTMLElement, opts: { initial?: string; syncUrl?: boolean } = {}) {
-  const input = container.querySelector<HTMLInputElement>("[data-search-input]")!;
-  const results = container.querySelector<HTMLElement>("[data-search-results]")!;
-  const filterBar = container.querySelector<HTMLElement>("[data-search-filters]");
-  if (opts.initial !== undefined && opts.initial !== "") input.value = opts.initial;
+/** The search dialog: quick results while typing; Enter opens the full
+ *  results page unless a result has been picked with the arrow keys. */
+export function attachPalette(dialog: HTMLDialogElement, initial = "") {
+  const input = dialog.querySelector<HTMLInputElement>("[data-search-input]")!;
+  const results = dialog.querySelector<HTMLElement>("[data-search-results]")!;
+  const all = dialog.querySelector<HTMLAnchorElement>("[data-search-all]");
+  if (initial) input.value = initial;
   input.focus();
   input.select();
-  if (attached.has(container)) {
+  if (attached.has(dialog)) {
     run();
     return;
   }
-  attached.add(container);
-
-  let work = "";
+  attached.add(dialog);
   let active = -1;
   let token = 0;
-
-  if (filterBar) {
-    filterBar.hidden = false;
-    const mk = (label: string, value: string) => {
-      const b = document.createElement("button");
-      b.type = "button";
-      b.textContent = label;
-      b.setAttribute("aria-pressed", String(value === work));
-      b.addEventListener("click", () => {
-        work = value;
-        for (const x of filterBar.querySelectorAll("button")) x.setAttribute("aria-pressed", "false");
-        b.setAttribute("aria-pressed", "true");
-        run();
-        input.focus();
-      });
-      return b;
-    };
-    filterBar.replaceChildren(mk("All", ""), ...WORK_FILTERS.map((w) => mk(SHORT[w], w)));
-  }
-
-  function render(groups: { label: string; items: Item[] }[], message?: string) {
-    results.replaceChildren();
-    active = -1;
-    for (const g of groups) {
-      if (!g.items.length) continue;
-      const h = document.createElement("div");
-      h.className = "sr-group";
-      h.textContent = g.label;
-      results.append(h);
-      for (const it of g.items) {
-        const a = document.createElement("a");
-        a.className = "sr-item";
-        a.href = it.url.startsWith(`${BASE}/`) ? it.url : `${BASE}/`;
-        a.setAttribute("role", "option");
-        const t = document.createElement("div");
-        t.className = "sr-title";
-        t.append(document.createTextNode(it.title));
-        if (it.ref) {
-          const r = document.createElement("span");
-          r.className = "ref";
-          r.textContent = it.ref;
-          t.append(r);
-        }
-        a.append(t);
-        if (it.excerpt) {
-          const p = document.createElement("p");
-          p.className = "sr-excerpt";
-          p.innerHTML = it.excerpt; // sanitized by safeExcerpt: text + <mark> only
-          a.append(p);
-        }
-        a.addEventListener("click", () => (container as HTMLDialogElement).close?.());
-        results.append(a);
-      }
-    }
-    if (message && !results.children.length) {
-      const p = document.createElement("p");
-      p.className = "sr-empty";
-      p.textContent = message;
-      results.append(p);
-    }
-  }
 
   async function run() {
     const q = input.value.trim();
     const mine = ++token;
-    if (opts.syncUrl) {
-      const u = new URL(location.href);
-      if (q) u.searchParams.set("q", q); else u.searchParams.delete("q");
-      history.replaceState(null, "", u);
-    }
+    active = -1;
     if (!q) {
-      render([]);
+      results.replaceChildren();
+      if (all) all.hidden = true;
       return;
     }
     const jumps = await jump(q);
     if (mine !== token) return;
-    render([{ label: "Jump to", items: jumps }]);
-    const text = await fullText(q, work ? { work } : {});
-    if (mine !== token) return;
-    if (text === null) {
-      render([{ label: "Jump to", items: jumps }], "Full-text search is available on the published site.");
+    const head: Node[] = [];
+    if (jumps.length) head.push(group("Jump to"), ...jumps.map((j) => row(j.url, j.title, j.ref)));
+    if (all) {
+      all.hidden = false;
+      all.href = resultsUrl(q);
+      all.querySelector("[data-q]")!.textContent = q;
+    }
+    results.replaceChildren(...head, note("Searching…", "sr-loading"));
+    const s = await search(q, {}, 150);
+    if (mine !== token || s === "stale") return;
+    if (s === null) {
+      results.replaceChildren(...head, note("Full-text search could not load in this browser. Jump-to still works."));
       return;
     }
-    render([{ label: "Jump to", items: jumps }, { label: "Passages", items: text }], `No results for “${q}”.`);
+    const pages = await s.load(0, 8);
+    if (mine !== token) return;
+    // Best passages across texts, at most two from any one text.
+    const best = pages
+      .flatMap((p) => p.passages.slice(0, 2).map((ps) => ({ ps, work: p.work })))
+      .sort((a, b) => b.ps.score - a.ps.score)
+      .slice(0, 6);
+    const rows = best.map(({ ps, work }) => row(ps.url, ps.label, shortWork(work), ps.excerpt));
+    results.replaceChildren(...head, ...(rows.length ? [group("Passages"), ...rows] : [note(`No passages found for “${q}”.`)]));
   }
 
   function move(delta: number) {
@@ -281,15 +372,19 @@ export function attach(container: HTMLElement, opts: { initial?: string; syncUrl
     else if (e.key === "ArrowUp") { e.preventDefault(); move(-1); }
     else if (e.key === "Enter") {
       e.preventDefault();
+      const q = input.value.trim();
       const items = results.querySelectorAll<HTMLAnchorElement>(".sr-item");
-      const target = items[Math.max(active, 0)];
+      const target = active >= 0 ? items[active]?.href : q ? resultsUrl(q) : null;
       if (target) {
-        (container as HTMLDialogElement).close?.();
-        location.href = target.href;
+        dialog.close();
+        location.href = target;
       }
     }
   });
-  container.querySelector("form")?.addEventListener("submit", (e) => e.preventDefault());
+  results.addEventListener("click", (e) => {
+    if ((e.target as HTMLElement).closest("a")) dialog.close();
+  });
+  dialog.querySelector("form")?.addEventListener("submit", (e) => e.preventDefault());
   loadPagefind();
   run();
 }

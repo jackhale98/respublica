@@ -32,7 +32,7 @@ AUTHORS = {
     "HAMILTON AND MADISON": {"kind": "joint", "names": ["Alexander Hamilton", "James Madison"]},
     "HAMILTON OR MADISON": {"kind": "disputed", "names": ["Alexander Hamilton", "James Madison"]},
 }
-PUBLICATION = re.compile(r"^(From|For) (the |McLEAN)")
+PUBLICATION = re.compile(r"^(From|For) (the |McLEAN)", re.I)  # "McLEAN" and "MCLEAN" both occur
 DATE_LINE = re.compile(r"^(?:(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day,? )?[A-Z][a-z]+ \d{1,2}, \d{4}\.?$")
 FOOTNOTE = re.compile(r"^ ?\[(\d+)\] ?(.*)$")
 EDITOR_NOTE = re.compile(r"^\*?\(?There are two slightly different versions of No\. 70 included here\.\)?$")

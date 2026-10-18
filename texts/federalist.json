@@ -1595,11 +1595,13 @@
       "label": "Federalist No. 79",
       "level": 1,
       "numeral": "LXXIX",
-      "publication": [],
+      "publication": [
+        "From MCLEAN’s Edition, New York."
+      ],
       "ref": "Federalist.79",
       "salutation": "To the People of the State of New York:",
       "signature": "PUBLIUS.",
-      "title": "The Judiciary Continued From MCLEAN’s Edition, New York."
+      "title": "The Judiciary Continued"
     },
     {
       "attribution": {
@@ -1669,11 +1671,13 @@
       "label": "Federalist No. 83",
       "level": 1,
       "numeral": "LXXXIII",
-      "publication": [],
+      "publication": [
+        "From MCLEAN’s Edition, New York."
+      ],
       "ref": "Federalist.83",
       "salutation": "To the People of the State of New York:",
       "signature": "PUBLIUS.",
-      "title": "The Judiciary Continued in Relation to Trial by Jury From MCLEAN’s Edition, New York."
+      "title": "The Judiciary Continued in Relation to Trial by Jury"
     },
     {
       "attribution": {
@@ -1705,11 +1709,13 @@
       "label": "Federalist No. 85",
       "level": 1,
       "numeral": "LXXXV",
-      "publication": [],
+      "publication": [
+        "From MCLEAN’s Edition, New York."
+      ],
       "ref": "Federalist.85",
       "salutation": "To the People of the State of New York:",
       "signature": "PUBLIUS.",
-      "title": "Concluding Remarks From MCLEAN’s Edition, New York."
+      "title": "Concluding Remarks"
     }
   ],
   "edition": {
