@@ -1,20 +1,15 @@
 ---
-// Res Publica mark: a pediment on three columns.
+// Res Publica mark: a pen nib. The breather hole doubles as a node, for
+// passages joined by links. Pass a unique id when used twice on a page.
 const { id = "rp-grad" } = Astro.props;
 ---
-<svg viewBox="0 0 32 32" aria-hidden="true">
+<svg viewBox="0 0 64 64" aria-hidden="true">
   <defs>
-    <linearGradient id={id} x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id={id} gradientUnits="userSpaceOnUse" x1="10" y1="4" x2="54" y2="61">
       <stop offset="0" stop-color="#5b4cf0" />
       <stop offset=".55" stop-color="#7b5cff" />
       <stop offset="1" stop-color="#1fb5d3" />
     </linearGradient>
   </defs>
-  <g fill={`url(#${id})`}>
-    <path d="M16 3.5 29 10.5H3Z" />
-    <rect x="5.5" y="12.5" width="4" height="11.5" rx="1" />
-    <rect x="14" y="12.5" width="4" height="11.5" rx="1" />
-    <rect x="22.5" y="12.5" width="4" height="11.5" rx="1" />
-    <rect x="3" y="25.5" width="26" height="3" rx="1.5" />
-  </g>
+  <path fill={`url(#${id})`} fill-rule="evenodd" d="M22 8.5Q22 4 26.5 4H37.5Q42 4 42 8.5V14C51 21 54 29 50.5 37.5L32 61L13.5 37.5C10 29 13 21 22 14ZM27.4 29a4.6 4.6 0 1 0 9.2 0a4.6 4.6 0 1 0 -9.2 0ZM30.8 33.4H33.2V58.2H30.8Z" />
 </svg>

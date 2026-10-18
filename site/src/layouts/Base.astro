@@ -9,6 +9,7 @@ import "../styles/base.css";
 import "../styles/search.css";
 import Icon from "../components/Icon.astro";
 import Logo from "../components/Logo.astro";
+import LogoEgg from "../components/LogoEgg.astro";
 
 const {
   title,
@@ -40,7 +41,10 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
+    <link rel="icon" href={href("/favicon.ico")} sizes="16x16 32x32 48x48" />
     <link rel="icon" href={href("/favicon.svg")} type="image/svg+xml" />
+    <link rel="apple-touch-icon" href={href("/apple-touch-icon.png")} />
+    <link rel="manifest" href={href("/site.webmanifest")} />
     <script is:inline src={href("/theme.js")}></script>
   </head>
   <body>
@@ -74,7 +78,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <footer class="site-footer">
       <div class="container">
         <div>
-          <a class="brand" href={href("/")}><Logo id="rp-grad-footer" /><span>Res Publica</span></a>
+          <div class="brand"><LogoEgg /><a href={href("/")}>Res Publica</a></div>
           <p>
             A free, nonpartisan, open-source library of America's founding texts. Every text is imported
             by code from a public-domain original, and every connection shows who made it and whether a

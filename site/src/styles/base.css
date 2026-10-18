@@ -238,3 +238,17 @@ a.card:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); bor
 .prose h2 { font: 700 1.5rem/1.2 var(--font-heading); margin: 2.5rem 0 .75rem; letter-spacing: -.01em; }
 .prose p, .prose li { color: var(--text); line-height: 1.7; }
 .prose code { font-family: var(--font-mono); font-size: .88em; background: var(--bg-subtle); padding: .1rem .35rem; border-radius: 6px; }
+
+/* ---------------------------------------------------------- nib loader */
+
+.loading { display: flex; align-items: center; gap: .45rem; }
+.loading img { width: 40px; height: 40px; flex: none; margin: -.5rem -.15rem -.5rem -.6rem; }
+
+/* Footer mark: the static logo at rest; pressing it plays the loader once.
+   The art is drawn on the loader's 120-unit canvas, sized and offset so the
+   resting nib lines up with the 28px mark in the header. */
+.logo-egg { position: relative; width: 28px; height: 28px; flex: none; border-radius: 8px; }
+.brand .logo-egg-art { position: absolute; width: 46px; height: 46px; left: -9px; top: -9.3px; max-width: none; overflow: visible; }
+.logo-egg[role="button"] { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.logo-egg:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+.site-footer .brand { gap: .8rem; }

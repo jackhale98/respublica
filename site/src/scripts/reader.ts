@@ -3,6 +3,8 @@
 // copy link/text, text size. Without JavaScript the page is fully readable:
 // anchors still work and connections show inline under each passage.
 
+import { loading } from "./loader";
+
 const toast = (m: string) => (window as any).rpToast?.(m);
 const panel = document.querySelector<HTMLElement>("[data-panel]");
 const scrim = document.querySelector<HTMLElement>("[data-scrim]");
@@ -75,7 +77,7 @@ function fillPanel(p: HTMLElement) {
   const has = !!p.querySelector(".conns");
   empty.hidden = has;
   q("[data-action=show-graph]")!.hidden = !has;
-  conns.replaceChildren(...(has ? [el("p", "muted", "Loading connections…")] : []));
+  conns.replaceChildren(...(has ? [loading("Loading connections…", "muted")] : []));
   if (has) {
     loadConns().then((data) => {
       if (selected !== p) return;
