@@ -92,7 +92,40 @@ and quote-mark style (curly vs straight). See `tools/common.py`,
 
 ## Anti-Federalist essays
 
-Not yet sourced. Research task (phase 5): find public-domain printings, such
-as the original newspapers or Paul Leicester Ford's *Pamphlets on the
-Constitution* (1888) and *Essays on the Constitution* (1892). Record findings
-here before writing importers.
+Research (phase 5, October 2026). Nothing is imported yet; the choices below
+are waiting on the project owner. Modern compilations (Storing, 1981; Borden,
+1965) are not candidates because of copyright.
+
+**Reachable from the build environment:** the Internet Archive (scans with
+OCR text, marked not in copyright where noted). HathiTrust and the Library of
+Congress block automated requests, so they cannot be pipeline sources.
+
+**What the public-domain compilations contain** (checked against the OCR
+text of each scan, not from memory):
+
+| Source | Anti-Federalist contents | Internet Archive scans |
+|---|---|---|
+| Paul Leicester Ford, ed., *Essays on the Constitution of the United States* (Brooklyn, 1892) | Agrippa I–XVIII (attributed by Ford to James Winthrop); Cato I–VII (George Clinton); Sydney I–II (Robert Yates); letters of Luther Martin; A Plain Dealer (Spencer Roane); Elbridge Gerry's replies to "A Landholder"; William Williams's letter to "A Landholder"; Samuel Chase's letter of "Caution" | `essaysonconstitu00forduoft` (University of Toronto, marked not in copyright), `EssaysOnTheConstitutionOfTheUnitedStates`, `essaysonconstit00fordgoog` |
+| Paul Leicester Ford, ed., *Pamphlets on the Constitution of the United States* (Brooklyn, 1888) | Letters of a Federal Farmer, the 1787 *Observations* (five letters; Ford attributes them to Richard Henry Lee); A Plebeian (Melancton Smith); George Mason's *Objections*; the "Columbian Patriot" *Observations* (Ford attributes it to Elbridge Gerry; the attribution should be checked before publishing) | `cu31924020874099` (Cornell), `pamphletsoncons00fordgoog` |
+| John Bach McMaster and Frederick D. Stone, eds., *Pennsylvania and the Federal Constitution, 1787–1788* (1888) | Letters of Centinel I–XXIV (chapter VII, pp. 565–700); the editors say the author "cannot be known" | `cu31924030454387` (Cornell), `pennsylvaniafede00hist` |
+
+Both Ford volumes also contain Federalist-side pieces (A Landholder,
+A Countryman, Fabius, Noah Webster, Tench Coxe, James Wilson's speech, and
+others), which could be imported alongside.
+
+**Not found in any public-domain digitized source:**
+
+- **Brutus** (sixteen essays in the *New-York Journal*, 1787–88). It is in
+  neither Ford volume nor McMaster and Stone; no 1787–88 issues of the
+  *New-York Journal* are on the Internet Archive; and the issues of the
+  *American Museum* checked do not reprint it.
+- **The Federal Farmer's *Additional Letters* (1788).** The only copies found
+  are 1962 facsimile reprints, lending-only.
+
+**OCR quality.** The scans' OCR is usable but imperfect: misread "ff"
+ligatures ("eflFect"), broken words, and stray marks. Comparing the three
+independent OCR texts of Ford's *Essays* on Cato I (924 words), each pair
+disagrees in about 14 places. Where two of the three agree, the agreed
+reading was correct in every case checked (including original spellings
+such as "analize"); where all three differ, the word needs a human check
+against the page image.
