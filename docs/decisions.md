@@ -596,3 +596,31 @@ known: cases the essays discuss across many topics without leading any
 *Marbury v. Madison*) are not in it. More cases can be added later by a
 further rule, never by hand.
 
+## 42. The first set of cases, widened
+
+The topic rule of decision 41 left out cases the essays discuss across many
+topics without leading any one (*Brown*, *McCulloch*, *Marbury*). At the
+project owner's request the first set is now the union of three rules
+(`importers/conan.py`, `landmark_cases`), each applied to the 2022 edition
+as printed:
+
+1. the most-cited case in each essay topic (decision 41);
+2. every Supreme Court case cited on 10 or more pages;
+3. every decision that a case chosen by rule 1 or 2 overruled, according to
+   the Table of Supreme Court Decisions Overruled by Subsequent Decisions
+   (one step only, so the result does not depend on order).
+
+That gives 189 cases, each listed with the rules that chose it. A decision
+cited under two forms of citation (*McCulloch*: "17 U.S. (4 Wheat.) 316"
+and "17 U.S. 316") counts once, by volume and page. The overruled table
+and the Table of Cases print *Dobbs*'s docket number differently ("No.
+19-1391", "No. 19-1392"), so an overruling case is also matched by name.
+
+What the rules still leave out is the source's own view: the table
+credits *Plessy v. Ferguson*'s overruling to *Bob Jones University v.
+United States* (1983), not *Brown*, because it lists only explicit
+statements by a majority of the Court; *Bob Jones* is not in the set, so
+neither is *Plessy*. *Lochner* and *Korematsu*'s neighbours are discussed
+on only a page or two. *Korematsu* itself is in, as a decision overruled
+by *Trump v. Hawaii*.
+

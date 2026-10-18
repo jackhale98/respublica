@@ -22,12 +22,23 @@ class ConanTests(unittest.TestCase):
         self.assertEqual(topic_of("ArtI.S8.C3.2.1"), "ArtI.S8.C3.2")
         self.assertEqual(topic_of("Amdt1.7.2"), "Amdt1.7")
 
-    def test_most_cited_case_in_each_topic(self):
-        a = CaseEntry("A v. B", "1 U.S. 1 (1790)", [10, 11, 12, 13, 20])
+    def test_first_set_rules(self):
+        from importers.conan import Overruling, TOTAL_PAGES
+        a = CaseEntry("A v. B", "1 U.S. (1 Dall.) 1 (1790)", [10, 11, 12, 13, 20])
         b = CaseEntry("C v. D", "2 U.S. 2 (1791)", [10, 11, 20, 21])
+        wide = CaseEntry("G v. H", "4 U.S. 4 (1793)", list(range(100, 100 + TOTAL_PAGES)))
         lower = CaseEntry("E v. F", "3 F.2d 3 (2d Cir. 1925)", [10, 11, 12, 13, 14])
         pages = {p: ["Amdt1.7.1"] for p in (10, 11, 12, 13, 14)} | {20: ["Amdt4.3.1"], 21: ["Amdt4.3.2"]}
-        self.assertEqual(landmark_cases([a, b, lower], pages), {"A v. B, 1 U.S. 1 (1790)": [("Amdt1.7", 4)]})
+        rows = [Overruling("G v. H, 4 U.S. 4 (1793)", "1793", [("J v. K, 5 U.S. 5 (1780)", "1780")])]
+        chosen = landmark_cases([a, b, wide, lower], pages, rows)
+        self.assertEqual(set(chosen), {"1 U.S. 1", "4 U.S. 4", "5 U.S. 5"})
+        self.assertEqual(chosen["1 U.S. 1"].reasons, ["most cited in essay topic Amdt1.7 (4 pages)"])
+        self.assertTrue(chosen["5 U.S. 5"].reasons[0].startswith("overruled by G v. H"))
+
+    def test_case_keys(self):
+        from importers.conan import case_keys
+        self.assertEqual(case_keys("McCulloch v. Maryland, 17 U.S. (4 Wheat.) 316 (1819)"), ["17 U.S. 316"])
+        self.assertEqual(case_keys("Dobbs, No. 19-1392 (U.S. June 24, 2022)"), ["No. 19-1392"])
 
     def test_page_lists(self):
         self.assertEqual(_pages_list("163, 168, 173–174, 1280"), [163, 168, 173, 174, 1280])

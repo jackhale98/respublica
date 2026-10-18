@@ -170,7 +170,8 @@ def table_of_cases() -> list[CaseEntry]:
                 entries[-1].append(line.text)
     out = []
     for parts in entries:
-        text = " ".join(parts)
+        # A docket number broken at its hyphen ("No. 18-" / "1334") joins without a space.
+        text = re.sub(r"(\d-) (?=\d)", r"\1", " ".join(parts))
         m = ENTRY.match(text)
         _expect(bool(m), f"table of cases: no page list in {text!r}")
         c = SCOTUS_CITE.match(m.group("text")) or OTHER_CITE.match(m.group("text"))
@@ -251,11 +252,18 @@ def citations_by_clause(cases: list[CaseEntry], pages: dict[int, list[str]], ref
     return out
 
 
-# The first set of cases (decision 41): in each essay topic, the Supreme
-# Court case its essays cite on the most pages (all of them, if tied), when
-# that is at least MIN_PAGES pages.
-MIN_PAGES = 4
+# The first set of cases (decisions 41 and 42) is the union of three rules,
+# each applied to the Constitution Annotated as printed:
+#  1. in each essay topic, the Supreme Court case its essays cite on the
+#     most pages (every case, if tied), when that is at least TOPIC_PAGES;
+#  2. every Supreme Court case cited on at least TOTAL_PAGES pages;
+#  3. every decision that a case chosen by 1 or 2 overruled, per the Table
+#     of Supreme Court Decisions Overruled by Subsequent Decisions.
+TOPIC_PAGES = 4
+TOTAL_PAGES = 10
 TOPIC = re.compile(r"^((?:Pre|Art[IVX]+|Amdt\d+)(?:\.S\d+)?(?:\.C\d+)?)\.(\d+)")
+US_CITE = re.compile(r"(\d+) U\.S\. (?:\([^)]*\) )?(\d+)")
+SLIP = re.compile(r"No\. ([\w-]+)(?:, [\w-]+)* \(U\.S\.")
 
 
 def topic_of(essay_id: str) -> str | None:
@@ -265,22 +273,67 @@ def topic_of(essay_id: str) -> str | None:
     return f"{m.group(1)}.{m.group(2)}" if m else None
 
 
-def landmark_cases(cases: list[CaseEntry], pages: dict[int, list[str]]) -> dict[str, list[tuple[str, int]]]:
-    """Case ("Name, citation") -> the topics it was chosen for, with its page count."""
-    by_topic: dict[str, Counter] = defaultdict(Counter)
+def case_keys(text: str) -> list[str]:
+    """Supreme Court decisions cited in a text, as volume and page ("17 U.S.
+    316", whatever the nominative reporter) or docket number of a slip
+    opinion ("No. 19-1392"), in order."""
+    found = [(m.start(), f"{m.group(1)} U.S. {m.group(2)}") for m in US_CITE.finditer(text)]
+    found += [(m.start(), f"No. {m.group(1)}") for m in SLIP.finditer(text)]
+    return [k for _, k in sorted(found)]
+
+
+@dataclass
+class Chosen:
+    key: str
+    name: str             # as the Table of Cases (or the overruled table) prints it
+    reasons: list[str] = field(default_factory=list)
+
+
+def landmark_cases(cases: list[CaseEntry], pages: dict[int, list[str]],
+                   overrulings: list[Overruling] | None = None) -> dict[str, Chosen]:
+    """The first set of cases, keyed by citation, each with why it was chosen."""
+    cited: dict[str, set[int]] = defaultdict(set)
+    names: dict[str, str] = {}
     for c in cases:
         if c.supreme_court:
-            for p in set(c.pages):
-                for t in {topic_of(e) for e in pages.get(p, [])} - {None}:
-                    by_topic[t][f"{c.name}, {c.citation}"] += 1
-    chosen: dict[str, list[tuple[str, int]]] = defaultdict(list)
+            key = case_keys(c.citation)[0]
+            cited[key] |= set(c.pages)  # one decision, whatever form its citation takes
+            names.setdefault(key, f"{c.name}, {c.citation}")
+    by_topic: dict[str, Counter] = defaultdict(Counter)
+    for key, ps in cited.items():
+        for p in ps:
+            for t in {topic_of(e) for e in pages.get(p, [])} - {None}:
+                by_topic[t][key] += 1
+    chosen: dict[str, Chosen] = {}
+
+    def choose(key: str, reason: str, name: str | None = None) -> None:
+        chosen.setdefault(key, Chosen(key, names.get(key) or name or key)).reasons.append(reason)
+
     for t, counts in sorted(by_topic.items()):
         ranked = counts.most_common()
-        if ranked and ranked[0][1] >= MIN_PAGES:
-            for name, n in ranked:
+        if ranked and ranked[0][1] >= TOPIC_PAGES:
+            for key, n in ranked:
                 if n == ranked[0][1]:
-                    chosen[name].append((t, n))
-    return dict(chosen)
+                    choose(key, f"most cited in essay topic {t} ({n} pages)")
+    for key, ps in sorted(cited.items()):
+        if len(ps) >= TOTAL_PAGES:
+            choose(key, f"cited on {len(ps)} pages")
+    # The overruled table and the Table of Cases can print a citation
+    # differently (Dobbs: "No. 19-1391" in one, "No. 19-1392" in the other),
+    # so an overruling decision is also matched by its name.
+    def name_key(text: str) -> str:
+        return re.sub(r"[^a-z]", "", re.split(r", (?:No\.|\d+ U\.S\.)", text)[0].lower())
+
+    first = set(chosen)  # rule 3 follows only cases chosen by rules 1 and 2: one step, not a chain
+    by_name = {name_key(c.name): k for k, c in chosen.items()}
+    for row in overrulings or []:
+        by = [k for k in case_keys(row.overruling) if k in first] or (
+            [by_name[name_key(row.overruling)]] if name_key(row.overruling) in by_name else [])
+        if by:
+            for text, _ in row.overruled:
+                for key in case_keys(text):
+                    choose(key, f"overruled by {chosen[by[0]].name.split(',')[0]} (table of overruled decisions)", text)
+    return chosen
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -300,10 +353,10 @@ def main(argv: list[str] | None = None) -> int:
     print(f"table of cases: {len(cases)} entries, {len(scotus)} Supreme Court")
     print(f"overruled table: {len(rows)} rows, {sum(len(r.overruled) for r in rows)} overruled decisions")
     if args.landmarks:
-        chosen = landmark_cases(cases, pages)
+        chosen = landmark_cases(cases, pages, rows)
         print(f"first set: {len(chosen)} cases")
-        for name, topics in sorted(chosen.items(), key=lambda kv: kv[0]):
-            print(f"  {name}  [{', '.join(f'{t} {n}' for t, n in topics)}]")
+        for c in sorted(chosen.values(), key=lambda c: c.name):
+            print(f"  {c.name}  [{'; '.join(c.reasons)}]")
     if args.cases:
         by_clause = citations_by_clause(cases, pages, refs)
         total = Counter()
