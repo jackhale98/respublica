@@ -135,7 +135,9 @@ Essays and letters imported by `importers/ratification.py` (series listed in
   `PlainDealer`, `WilliamsonRemarks`, `SteadyAndOpenRepublican`,
   `WilliamsLetter`. `Brutus` is reserved for Brutus's essays.
 
-## Debates in Congress (`texts/house-amendments-1789.json`)
+## Debates in Congress
+
+### The Bill of Rights, 1789 (`texts/house-amendments-1789.json`)
 
 The House of Representatives' proceedings on amendments to the
 Constitution, 1789, imported by `importers/annals.py` from the Annals of
@@ -151,6 +153,20 @@ Congress (decision 46).
 - The printed heading of the item is the division's `title`; each passage
   records the printed columns it is on (`columns`), since the Annals number
   columns, not pages.
+
+### The Fourteenth Amendment, 1866 (`texts/house-fourteenth-amendment-1866.json`, `texts/senate-fourteenth-amendment-1866.json`)
+
+Each house's debate on the joint resolution (H. R. No. 127) proposing the
+Fourteenth Amendment, imported by `importers/globe.py` from the
+Congressional Globe (decision 47).
+
+- `House1866.{day}` and `Senate1866.{day}`: one division per item, named by
+  its date (`Senate1866.May23`). A second item of the same day takes a
+  letter: `House1866.May8b`, `House1866.May8c`.
+- `House1866.{day}.{paragraph}`: the item's paragraphs, numbered from 1 after
+  its heading. Each records the printed pages it is on (`pages`).
+- The item's printed heading ("RECONSTRUCTION AGAIN.") is the division's
+  `title`.
 
 ## Retired refs
 
@@ -185,7 +201,7 @@ refs that no longer exist are removed from `refs.lock` (decisions 36 and
   first line, or a line after a short one. Each records the printed page it
   starts on (`page`).
 - `Case.{cluster_id}.{paragraph}`: reserved for paragraphs of the majority
-  opinion, which are not imported (decision 47).
+  opinion, which are not imported (decision 48).
 
 A case whose syllabus could not be read reliably has no syllabus refs yet;
 when the syllabus is imported later, its refs are new, not renumbered.

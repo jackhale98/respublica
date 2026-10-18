@@ -37,8 +37,31 @@ WORKS = {
     "federalist": {"collection": "federalist", "order": 3, "paged": True, "short": "Federalist", "slug": "federalist"},
     # Debates in Congress (decision 46): one page per day.
     "house-amendments-1789": {"collection": "congress", "order": 4, "paged": True, "short": "House debates, 1789",
-                              "slug": "house-amendments-1789"},
+                              "slug": "house-amendments-1789", "group": "The Bill of Rights, 1789",
+                              "printed_in": "Annals of Congress",
+                              "summary": "The House of Representatives' proceedings on the amendments that became the "
+                                         "Bill of Rights: every item printed under the heading “Amendments to the "
+                                         "Constitution” in the Annals of Congress, from James Madison's speech of "
+                                         "June 8 to the House's last vote on the articles."},
+    "house-fourteenth-amendment-1866": {
+        "collection": "congress", "order": 5, "paged": True, "short": "House debates, 1866",
+        "slug": "house-fourteenth-amendment-1866", "group": "The Fourteenth Amendment, 1866",
+        "printed_in": "Congressional Globe",
+        "summary": "The House of Representatives' debate on the joint resolution (H. R. No. 127) proposing the "
+                   "Fourteenth Amendment: every item headed “Reconstruction” in which the House took it up, as "
+                   "printed in the Congressional Globe, from Thaddeus Stevens's opening of May 8 to the vote on the "
+                   "Senate's amendments on June 13."},
+    "senate-fourteenth-amendment-1866": {
+        "collection": "congress", "order": 6, "paged": True, "short": "Senate debates, 1866",
+        "slug": "senate-fourteenth-amendment-1866", "group": "The Fourteenth Amendment, 1866",
+        "printed_in": "Congressional Globe",
+        "summary": "The Senate's debate on the joint resolution (H. R. No. 127) proposing the Fourteenth "
+                   "Amendment: every item headed “Reconstruction” in which the Senate took it up, as printed in "
+                   "the Congressional Globe, from Jacob Howard's opening of May 23 to the vote of June 8."},
 }
+
+# Collections of works shown on one page each.
+CONGRESS_GROUPS = ("The Bill of Rights, 1789", "The Fourteenth Amendment, 1866")
 
 # Essays and letters of the ratification debate (texts with a `position`)
 # get their settings from the text: one page per essay for a series, one
@@ -68,7 +91,13 @@ def case_settings(corpus: Corpus) -> dict[str, dict]:
 SCAN_PAGE_URL = "https://archive.org/details/{item}/page/n{n}"
 
 
-def scan_url(item: str, leaf: int) -> str:
+# Page images in the UNT Digital Library (the Congressional Globe): "m1/{n}" counts from 1.
+UNT_PAGE_URL = "https://digital.library.unt.edu/ark:/67531/{item}/m1/{n}/"
+
+
+def scan_url(item: str, leaf: int, site: str = "archive.org") -> str:
+    if site == "unt":
+        return UNT_PAGE_URL.format(item=item, n=leaf)
     return SCAN_PAGE_URL.format(item=item, n=leaf - 1)
 
 
@@ -400,7 +429,7 @@ class SiteBuilder:
             # Congress) its columns.
             pages = s.get("pages") or s.get("columns", [])
             block["scan"] = {"pages": pages, "unit": "col." if s.get("columns") else "p.",
-                             "url": scan_url(s["scan"]["item"], leaves[0])}
+                             "url": scan_url(s["scan"]["item"], leaves[0], s["scan"].get("site", "archive.org"))}
             block["uncertain"] = len(s.get("uncertain", []))
         return block
 
@@ -530,6 +559,8 @@ class SiteBuilder:
                 "top_divisions": len(tops),
                 "url": work_url(wid, self.settings),
             }
+            if cfg.get("summary"):
+                info["summary"] = cfg["summary"]
             if work.get("position"):
                 info["position"] = work["position"]
             if work.get("position"):
@@ -559,10 +590,17 @@ class SiteBuilder:
                     body = [s for s in segs if s.get("kind") != "footnote"]
                     notes = [s for s in segs if s.get("kind") == "footnote"]
                     pid = f"{wid}-{part_slug(work, d['ref'])}"
-                    columns = [c for s in body for c in s.get("columns", [])]
+                    # Where a day of a debate in Congress is printed ("Annals of
+                    # Congress, cols. 440–468", "Congressional Globe, pp. 2458–2470").
+                    printed = None
+                    if cfg.get("printed_in") and body:
+                        cols = [c for s in body for c in s.get("columns", [])]
+                        at = cols or [p for s in body for p in s.get("pages", [])]
+                        span = at[0] if at[0] == at[-1] else f"{at[0]}–{at[-1]}"
+                        printed = f"{cfg['printed_in']}, {'col' if cols else 'p'}{'s' if at[0] != at[-1] else ''}. {span}"
                     part = {
                         "attribution": self._attribution(d.get("attribution")),
-                        "columns": [columns[0], columns[-1]] if columns else None,
+                        "printed": printed,
                         "date": d.get("date"),
                         "label": d["label"],
                         "numeral": d.get("numeral"),
@@ -589,7 +627,8 @@ class SiteBuilder:
                         "kind": "part",
                         "notes": self._blocks(work, notes, ()),
                         # A day of a debate in Congress is named by its date and house.
-                        "title": (f"The House, {d['label']}" if cfg["collection"] == "congress"
+                        "title": (f"{'The Senate' if work['ref_prefix'].startswith('Senate') else 'The House'}, {d['label']}"
+                                  if cfg["collection"] == "congress"
                                   else f"{d['label']}" + (f": {d['title']}" if d.get("title") else "")),
                         "url": part["url"],
                         "work": self._work_ref(info),
@@ -613,6 +652,14 @@ class SiteBuilder:
                            for k in POSITIONS if any(w.get("position") == k for w in debate)],
                 "id": "ratification", "kind": "collection", "title": "The Ratification Debate",
                 "url": "/ratification/",
+            }
+
+        congress = [w for w in works_out if w["collection"] == "congress"]
+        if congress:
+            pages["congress"] = {
+                "groups": [{"label": g, "works": [w["id"] for w in congress if self.settings[w["id"]].get("group") == g]}
+                           for g in CONGRESS_GROUPS],
+                "id": "congress", "kind": "congress", "title": "Debates in Congress", "url": "/congress/",
             }
 
         if cases_out:
@@ -702,6 +749,8 @@ REVIEW_GROUPS = [
     ("fed-const-", "The Federalist → the Constitution", "Run 1: each paper's citations and quotations of the Constitution."),
     ("fed-deb-", "The Federalist → the ratification debate", "Publius's notes naming debate writers."),
     ("deb-", "The ratification debate", "Run 2: each essay's links to the Constitution, the Declaration and other essays."),
+    ("cong-", "Debates in Congress", "Run 4: each day's quotations and citations of the Constitution, and the "
+     "words of the proposals under debate found in the amendments as ratified."),
     ("conan-", "Supreme Court cases", "Imported from the Constitution Annotated (2022): the provisions whose essays "
      "cite each case, and its table of overruled decisions. Check each against the source it names."),
 ]
@@ -742,6 +791,10 @@ def build_review(corpus: Corpus, proposed: list[tuple[str, dict]], refs: dict[st
         label = label_for(corpus, top) if top in corpus.divisions else items[0]["from"]["label"]
         if "-in-" in batch:  # a run for the passages that name one writer ("deb-brutus-in-cato-5")
             label += f", naming {items[0]['to']['label'].split(' ')[0]}"
+        if batch.startswith("cong-"):  # a day of a debate in Congress: say which ("House debates, 1866: May 8, 1866")
+            work = next((w for w in corpus.works.values() if first.startswith(w.get("ref_prefix", "?") + ".")), None)
+            if work:
+                label = f"{work.get('short', work['title'])}: {label}"
         return label
 
     groups = []

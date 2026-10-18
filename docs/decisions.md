@@ -736,7 +736,40 @@ Later debates (the Congressional Globe for the Fourteenth Amendment, and so
 on) would follow the same rule: the items printed under the amendment's
 heading in each house.
 
-## 47. Importing the first set of cases
+## 47. The Fourteenth Amendment debates, 1866; UNT as a source
+
+The project owner asked for the debates on the Fourteenth Amendment, and
+approved the University of North Texas Digital Library as a new source.
+
+- **What is imported** is fixed by the print: in the Congressional Globe,
+  39th Congress, 1st session, every item of either house's proceedings from
+  May 8 to June 13, 1866, headed "Reconstruction" or "Reconstruction again"
+  whose first paragraphs take up the joint resolution (H. R. No. 127)
+  proposing the amendment (by its number, as "the constitutional
+  amendment", or as the joint resolution reported by the committee); an item
+  headed "Reconstruction again" goes on with the day's item before it. Each
+  item runs from its heading to the next heading or the end of that house's
+  day. The days (fourteen) and their pages are listed in
+  `importers/globe.py` and checked against the print. Two works, one per
+  house: `House1866`, `Senate1866` (`docs/references.md`).
+- **Sources.** The Internet Archive has part 3 (to page 2880) in a clean
+  University of Michigan scan and on microfilm, and part 4 (the Senate's last
+  days, and the House's final vote) only on a microfilm whose OCR is badly
+  garbled at this size. UNT has both parts with its own OCR. Layout and words
+  come from UNT: its per-page word boxes (IIIF annotations, which drop
+  punctuation) and its OCR text page (with punctuation), matched word for
+  word. They are checked against the Michigan copy's OCR text (May) and the
+  microfilm (June). UNT's pages are kept in git, gzip-compressed as UNT sends
+  them (`encoding: gzip` in the manifest; the text pages carry a session
+  token, so they could not be fetched again byte for byte).
+- **Headings by layout and case.** UNT reads the Globe's small-capital
+  headings in either case, so a heading is a line set apart (centred, or with
+  space above and below) and printed in one case; lines of a bill or of verse
+  printed in the debate start with a capital and are not headings.
+- **On the site** both works join "Debates in Congress" (`/congress/`), which
+  groups the debates by amendment.
+
+## 48. Importing the first set of cases
 
 The project owner chose, when phase 7 resumed with a CourtListener token:
 

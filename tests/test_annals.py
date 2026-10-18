@@ -1,9 +1,8 @@
 import datetime as dt
 import unittest
 
-from importers.annals import (
-    Block, Spread, capitals, date_of, day_key, day_of, find_gutter, is_subject, settle_columns, sides,
-)
+from importers.annals import Block, Spread, capitals, date_of, day_key, day_of, is_subject, settle_columns
+from importers.columns import find_gutters, sides
 from importers.ocr import Line, Page, Word
 
 
@@ -19,21 +18,21 @@ def block(text):
 class LayoutTests(unittest.TestCase):
     def test_a_narrow_line_goes_to_its_column(self):
         line = Line(words(("Mr.", 1900, 1960), ("Ames.", 1980, 2100)))
-        self.assertEqual([s for s, _ in sides(line, gutter=1850, span=3000)], [1])
+        self.assertEqual([s for s, _ in sides(line, [1850], span=3000)], [1])
 
     def test_a_line_read_across_both_columns_is_split_at_the_gutter(self):
         line = Line(words(("the", 300, 400), ("previous", 420, 1820), ("|", 1845, 1850), ("Mr.", 1870, 1960),
                           ("Mapison", 1980, 3200)))
-        parts = sides(line, gutter=1850, span=3000)
+        parts = sides(line, [1850], span=3000)
         self.assertEqual([(s, [w.text for w in ws]) for s, ws in parts],
                          [(0, ["the", "previous"]), (1, ["Mr.", "Mapison"])])
 
     def test_the_gutter_from_lines_within_a_column(self):
         left = [Line(words(("a", 300, 1700 + k))) for k in range(10)]
         right = [Line(words(("b", 1900 + k, 3300))) for k in range(10)]
-        self.assertEqual(find_gutter(left + right, mid=1800, span=3000), (1709 + 1901) / 2)
+        self.assertEqual(find_gutters(left + right, left=300, span=3000), [(1709 + 1901) / 2])
         across = [Line(words(("a", 300, 1700), ("b", 1720, 3300))) for _ in range(40)]
-        self.assertIsNone(find_gutter(left + across, mid=1800, span=3000))  # one column, paragraph ends on the left
+        self.assertIsNone(find_gutters(left + across, left=300, span=3000))  # one column, paragraph ends on the left
 
     def test_column_numbers_follow_the_pages_around_a_misread(self):
         spreads = [Spread(leaf, "", [Page(leaf, 1, 1), Page(leaf, 1, 1)], n)

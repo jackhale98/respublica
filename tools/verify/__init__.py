@@ -90,6 +90,8 @@ def check_manifest() -> list[str]:
             errors.append(f"manifest {eid}: license is empty")
         if "auth_env" in e and not re.fullmatch(r"[A-Z][A-Z0-9_]*", str(e["auth_env"])):
             errors.append(f"manifest {eid}: auth_env must name an environment variable, not hold a token")
+        if e.get("encoding", "gzip") != "gzip":
+            errors.append(f"manifest {eid}: encoding must be gzip (the only one fetch asks for)")
         path = (ROOT / e["path"]).resolve()
         if RAW_DIR.resolve() not in path.parents:
             errors.append(f"manifest {eid}: path must be under sources/raw/")

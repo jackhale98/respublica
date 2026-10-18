@@ -41,7 +41,7 @@ new version as a new source.
 Importers add sources with `tools.fetch.add_source`. A source behind an API
 token records `auth_env`, the name of the environment variable holding the
 token (never the token); a source that answers a POST records its request
-body as `post`. `make fetch` sends both again when it restores a file.
+body as `post`; one fetched compressed records `encoding: gzip` and is kept as the server sent it (the UNT Digital Library's pages, decision 47). `make fetch` sends all three again when it restores a file.
 Rate limits (HTTP 429) are waited out. Raw files too large for git (the U.S.
 Reports scans and the Annals of Congress scans' DjVu XML,
 `tools.common.UNTRACKED_RAW`) are listed in `.gitignore` and
@@ -140,8 +140,8 @@ Linking criteria and tools are in [`linking.md`](linking.md). In short:
 
 | Check | Rule |
 |---|---|
-| `budgets` | Raw files stay under 40 MB each and 300 MB in total in git (files kept out of git: 1 GB in total, with no limit per file, and `.gitignore` must list them); data files under 20 MB (decisions 15, 46, 47). |
-| `sources` | Every manifest entry has id, url, retrieved_at, sha256, license, notes and path; every raw file matches its sha256; every file in `sources/raw/` is in the manifest; every URL is http(s); `auth_env` names an environment variable; every file in `sources/ocr/` is recorded, matches its sha256, and names the raw images it was read from as they are in the manifest. |
+| `budgets` | Raw files stay under 40 MB each and 300 MB in total in git (files kept out of git: 1 GB in total, with no limit per file, and `.gitignore` must list them); data files under 20 MB (decisions 15, 46, 48). |
+| `sources` | Every manifest entry has id, url, retrieved_at, sha256, license, notes and path; every raw file matches its sha256; every file in `sources/raw/` is in the manifest; every URL is http(s); `auth_env` names an environment variable; `encoding`, if any, is gzip; every file in `sources/ocr/` is recorded, matches its sha256, and names the raw images it was read from as they are in the manifest. |
 | `texts` | Required fields; refs are unique and start with the work's `ref_prefix`; texts are non-empty and contain no markup; `source_ids` are in the manifest; emphasis spans are in range; every `changed_by` quote is in its text and names a real amendment; every division has segments; every URL field is http(s). For texts read from scans: each `uncertain` span lies in order inside its text (or its division's heading line, salutation or signature) and the text there is one of the scans' readings; `scan` names a valid archive.org item and page numbers; `kind` and `position` take known values. |
 | `reproducible` | Re-runs every importer into a temporary directory and requires `texts/` and `cases/` to match byte for byte. Every file in them must come from an importer. |
 | `refs` | Every ref in `refs.lock` still exists. Published refs are never dropped or renumbered. |

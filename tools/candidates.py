@@ -33,6 +33,9 @@ from tools.corpus import Corpus, load_corpus
 
 WORD = re.compile(r"[A-Za-z0-9]+")
 CLAUSE_REF = re.compile(r"^(?:Constitution\.(\d+\.\d+(\.\d+)?|Preamble)|Declaration\.\d+)$")
+# With --amendments: the amendments' sections and the articles of the Joint
+# Resolution of 1789 (the debates in Congress, docs/linking.md run 4).
+AMENDMENT_REF = re.compile(r"^(?:Amendment\.\d+\.\d+|Resolution1789\.Article\.\d+)$")
 # Names that point at a writer or series in the library -> its ref prefix.
 # Ambiguous ones ("Caution", "Remarks") are left out; a linker reads the text.
 MENTIONS = [
@@ -73,8 +76,9 @@ def in_quotes(text: str, start: int) -> bool:
     return before.count("“") > before.count("”") or before.count('"') % 2 == 1
 
 
-def clause_segments(corpus: Corpus) -> dict[str, dict]:
-    return {r: s for r, s in corpus.segments.items() if CLAUSE_REF.match(r)}
+def clause_segments(corpus: Corpus, amendments: bool = False) -> dict[str, dict]:
+    return {r: s for r, s in corpus.segments.items()
+            if CLAUSE_REF.match(r) or (amendments and AMENDMENT_REF.match(r))}
 
 
 def ngram_index(clauses: dict[str, dict]) -> tuple[dict[tuple, set[str]], dict[str, list]]:
@@ -172,9 +176,10 @@ def candidates_for_paper(corpus: Corpus, paper: int) -> list[dict]:
     return candidates_for(corpus, f"Federalist.{paper}")
 
 
-def candidates_for(corpus: Corpus, ref: str) -> list[dict]:
-    """Candidates for every passage under `ref` (an essay, a work, a passage)."""
-    clauses = clause_segments(corpus)
+def candidates_for(corpus: Corpus, ref: str, amendments: bool = False) -> list[dict]:
+    """Candidates for every passage under `ref` (an essay, a work, a passage);
+    with `amendments`, overlaps with the amendments are looked for too."""
+    clauses = clause_segments(corpus, amendments)
     _clause_text.update({r: s["text"] for r, s in clauses.items()})
     index, ctoks = ngram_index(clauses)
     common = common_words(corpus)
@@ -202,9 +207,12 @@ def main(argv: list[str] | None = None) -> int:
     g = p.add_mutually_exclusive_group(required=True)
     g.add_argument("--paper", type=int, help="a Federalist paper number")
     g.add_argument("--ref", help="any essay, work or passage ref (Cato.3, Caution, Federalist.67)")
+    p.add_argument("--amendments", action="store_true",
+                   help="also look for overlaps with the amendments and the Joint Resolution of 1789")
     args = p.parse_args(argv)
     corpus = load_corpus()
-    found = candidates_for_paper(corpus, args.paper) if args.paper else candidates_for(corpus, args.ref)
+    found = (candidates_for_paper(corpus, args.paper) if args.paper
+             else candidates_for(corpus, args.ref, args.amendments))
     print(json.dumps(found, indent=2, ensure_ascii=False))
     return 0
 

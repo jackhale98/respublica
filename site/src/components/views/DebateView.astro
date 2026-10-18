@@ -3,28 +3,25 @@ import "../../styles/collection.css";
 import Base from "../../layouts/Base.astro";
 import { href, formatDate, readingMinutes } from "../../lib/data.js";
 
-// Index of a debate in Congress: one entry per day the House took up the
-// subject, as printed in the Annals of Congress.
+// Index of a debate in Congress: one entry per item, a day on which the house
+// took up the subject (two on one day are numbered).
 const { work } = Astro.props;
 const parts = work.parts;
 const words = parts.reduce((s, p) => s + p.words, 0);
 ---
-<Base title={work.title} section={work.id} description={`${work.title}: the House's proceedings on ${parts.length} days, ${formatDate(work.date)}, as printed in the Annals of Congress, with a permanent reference for every paragraph.`}>
+<Base title={work.title} section="congress" description={`${work.title}, ${formatDate(work.date)}: ${work.summary || ""} A permanent reference for every paragraph.`}>
   <section class="page-head">
     <div class="container">
       <ol class="crumbs">
         <li><a href={href("/")}>Library</a></li>
+        <li><a href={href("/congress/")}>Debates in Congress</a></li>
         <li aria-current="page">{work.short}</li>
       </ol>
       <span class="eyebrow">Debates in Congress</span>
       <h1>{work.title}</h1>
-      <p class="lede">
-        The House of Representatives' proceedings on the amendments that became the Bill of Rights, {formatDate(work.date)}:
-        every item of the House's proceedings printed under the heading “Amendments to the Constitution” in the Annals of
-        Congress, from James Madison's speech of June 8 to the House's last vote on the articles.
-      </p>
+      <p class="lede">{formatDate(work.date)}. {work.summary}</p>
       <div class="doc-stats">
-        <span><strong>{parts.length}</strong> days</span>
+        <span><strong>{parts.length}</strong> {parts.length === 1 ? "item" : "items"}</span>
         <span><strong>{work.passages.toLocaleString("en-US")}</strong> paragraphs</span>
         <span><strong>{words >= 1000 ? `${Math.round(words / 1000)}k` : words}</strong> words</span>
       </div>
@@ -49,8 +46,8 @@ const words = parts.reduce((s, p) => s + p.words, 0);
       ))}
     </ol>
     <p class="legend-note">
-      Text of {work.edition.name}, read from OCR scans; the Annals give the debates as reported, often in the third
-      person, not word for word. <a href={href("/about/#ocr")}>How this text was made</a>
+      Text of {work.edition.name}, read from OCR; the debates are given as reported, not always word for word.
+      <a href={href("/about/#ocr")}>How this text was made</a>
     </p>
   </div>
 </Base>

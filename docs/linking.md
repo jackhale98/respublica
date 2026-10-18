@@ -220,12 +220,50 @@ reworded. Run 2 now stands at 453 links (two identical links merged when
 Federal Farmer III's split paragraph was joined): 366 to 75 clauses, 2 to the
 Declaration, 85 between essays.
 
+## Run 4: the debates in Congress → the Constitution and the amendments
+
+One run per item (one day's item of a house's proceedings, `House1789.Jun8`,
+`Senate1866.May23`): batch `cong-{ref}` in lower case with the dot as a
+dash (`cong-house1789-jun8`), run id `cong-{ref}-{date}`. Two passes, in
+this order, each over every item:
+
+1. **Debate → the Constitution** (`quotes`, `cites`): exactly as in run 1.
+   Use `python3 -m tools.candidates --ref House1789.Jun8`. The target is the
+   Constitution as it stood when the debate took place: for 1789 the text as
+   signed; for 1866 also the amendments then in force (the Eleventh, Twelfth
+   and Thirteenth), which a speaker may quote or name ("the amendment
+   abolishing slavery" is `cites` `Amendment.13.1` at `medium`). References
+   to state constitutions, the Articles of Confederation, bills before
+   Congress or the rules of either house are not links.
+2. **Debate → the amendment under debate** (`quotes` only), with
+   `python3 -m tools.candidates --ref … --amendments`. A paragraph that gives
+   the words of the proposal being debated (Madison's proposals, the
+   committee's report, a motion to amend, the joint resolution's sections)
+   is linked to the clause of the ratified amendment, or of the 1789 Joint
+   Resolution's articles, only where at least eight consecutive words of it
+   appear there unchanged (spelling and capitals aside): `from_quote` the
+   words in the paragraph, `to_quote` the same words in the clause, both
+   copied by code. `high` when the run of words is the substance of the
+   clause (a guarantee, not a phrase like "the United States"); otherwise
+   leave it out. The rationale says that the paragraph gives the words of a
+   proposal and that they appear in the clause; never that the proposal
+   "became" the clause, or why the wording changed. Paraphrase, discussion
+   of a proposal by its number ("the fourth proposition"), and a speaker's
+   view of what a clause means are not links.
+
+**Do not link** a speaker's argument to the clause it is about; links
+record quotation and citation, not subject. **Never link from** the Globe's
+or the Annals' own notes or the record of votes ("yeas and nays").
+
+Confidence and rationale follow run 1. Every run is checked by a second
+agent against both texts before it is proposed, as in run 2.
+
 ## Imported links: Supreme Court cases (phase 7)
 
 Links between cases and the Constitution are not proposed by a linker but
 imported by code from the Constitution Annotated (2022 print edition), with
 `created_by.kind: "import"` and a `source` naming the pages they come from
-(`python -m importers.case_links`, decision 47):
+(`python -m importers.case_links`, decision 48):
 
 - `links/proposed/conan-interprets.jsonl`: a case `interprets` a provision
   when the Constitution Annotated's essays on that provision cite it on at

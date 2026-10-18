@@ -22,10 +22,11 @@ const num = (label) => label.split(" ").at(-1);
 const heading = congress ? d.label : d.title || d.label;
 const printed = d.publication.map((l) => l).join(" ");
 ---
-<Reader title={page.title} section={work.id} pageId={page.id} place={d.title && !congress ? `${d.label} · ${d.title}` : d.label} progress description={congress ? `${work.title}: the proceedings of ${d.label}, as printed in the Annals of Congress.` : `${d.label}${d.title ? `: ${d.title}` : ""}. ${authorText(attr)}.`}>
+<Reader title={page.title} section={work.id} pageId={page.id} place={d.title && !congress ? `${d.label} · ${d.title}` : d.label} progress description={congress ? `${work.title}: the proceedings of ${d.label}${d.printed ? `, as printed in the ${d.printed.split(",")[0]}` : ""}.` : `${d.label}${d.title ? `: ${d.title}` : ""}. ${authorText(attr)}.`}>
   <ol class="crumbs" slot="crumbs">
     <li><a href={href("/")}>Library</a></li>
     {debate && <li><a href={href("/ratification/")}>Ratification debate</a></li>}
+    {congress && <li><a href={href("/congress/")}>Debates in Congress</a></li>}
     <li><a href={href(work.url)}>{work.title}</a></li>
     <li aria-current="page">{congress ? d.label : `No. ${num(d.label)}`}</li>
   </ol>
@@ -104,7 +105,7 @@ const printed = d.publication.map((l) => l).join(" ");
     <h2>{d.label}</h2>
     <dl>
       {attr && <Fragment><dt>Author</dt><dd>{authorText(attr)}</dd></Fragment>}
-      {congress && d.columns && <Fragment><dt>Printed</dt><dd>Annals of Congress, cols. {d.columns.join("–")}</dd></Fragment>}
+      {congress && d.printed && <Fragment><dt>Printed</dt><dd>{d.printed}</dd></Fragment>}
       {attr?.byline && <Fragment><dt>Byline</dt><dd>“{attr.byline}” in {debate ? attr.source || "this edition" : "this edition"}</dd></Fragment>}
       {d.publication.length > 0 && <Fragment><dt>Printed</dt><dd>{debate ? d.header.publication.map((r) => runsText(r)).join(" · ") : printed}</dd></Fragment>}
       <dt>Paragraphs</dt><dd>{formatNumber(d.passages)}</dd>

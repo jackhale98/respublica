@@ -197,6 +197,28 @@ reading. Running heads, column numbers and specks are left out; a line OCR
 broke into pieces at the same height is joined again. The DjVu XML and page
 images are kept out of git (`make fetch` downloads them).
 
+**The Fourteenth Amendment debates, 1866**
+(`texts/house-fourteenth-amendment-1866.json`,
+`texts/senate-fourteenth-amendment-1866.json`, `importers/globe.py`,
+decision 47) are imported from *The Congressional Globe: Containing the
+Debates and Proceedings of the First Session of the Thirty-Ninth Congress*
+(Washington: F. & J. Rives, 1866), parts 3 and 4: in each house, every item
+headed "Reconstruction" (or "Reconstruction again") in which it took up the
+joint resolution (H. R. No. 127) proposing the amendment, from the House's
+debate of May 8 to its vote on the Senate's amendments on June 13. The Globe
+gives the debates as reported; some speeches it prints only in its Appendix
+("His remarks will be found in the Appendix"), which is not imported.
+
+The Globe prints three columns to a page in small type. Words and layout
+come from the University of North Texas Digital Library's OCR of its copy
+(`unt-globe-1866-p{page}-words` and `-text`, one pair per page), matched
+word for word and split into columns. They are checked against the
+Internet Archive's scans of two other copies: the University of Michigan's
+(part 3, to page 2880; OCR text) and a microfilm (part 4; DjVu XML, read
+column by column). Each word is in at least one reading; words the two
+could not settle are marked as uncertain. The microfilm's OCR is poor, so
+the Senate's June days are less corroborated than May's.
+
 ## Supreme Court cases
 
 **Which cases interpret which clause** come from the *Constitution of the
@@ -252,7 +274,7 @@ from volume 91 (1875) on: the earlier, nominative reports carry the
 reporters' own headnotes, often as marginal notes. Where a paragraph seems to
 stop mid-sentence (the text layer is out of order, or the end was missed),
 no syllabus is imported and the case says so (`syllabus_note`). The scans are
-kept out of git (decision 47): `make fetch` downloads them.
+kept out of git (decision 48): `make fetch` downloads them.
 
 **Opinions** are not imported; each case links to its opinion on
-CourtListener (decision 47).
+CourtListener (decision 48).
