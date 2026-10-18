@@ -48,6 +48,21 @@ new version as a new source.
 - Fail loudly (raise) on anything unexpected, rather than guessing.
 - Only the changes listed in `docs/editions.md` are allowed. Document the
   work's refs in `docs/references.md` and its edition in `docs/editions.md`.
+- For a book that exists only as scans, don't write a new importer: add it
+  to `importers/ratification_series.py`, which reads scans by OCR consensus
+  (`docs/ocr.md`, "Adding a book or series").
+
+## Reviewing texts read from scans
+
+Words the scans could not settle are marked `uncertain`. To check them:
+
+```sh
+python3 -m tools.uncertain              # counts per work
+python3 -m tools.uncertain cato --md    # checklist with page-image links
+```
+
+Record what the page shows in `docs/errata.md`; never edit `texts/`. See
+`docs/ocr.md`, "Reviewing and correcting".
 
 ## Text files
 
@@ -69,6 +84,10 @@ new version as a new source.
 
 `attribution.kind` is one of `single`, `joint`, `disputed` (with the candidate
 authors in `names`), `pseudonym` or `body`.
+
+Texts read from scans add, per passage, `pages` (printed page numbers),
+`scan` (`{item, leaves}`) and `uncertain` (`[{start, end, readings}]`), and
+per work `position` and `short`; see `docs/ocr.md`, "What the output records".
 
 ## Links
 

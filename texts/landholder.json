@@ -159,6 +159,14 @@
         ],
         "publication.3": [
           {
+            "end": 59,
+            "readings": {
+              "google": "^",
+              "primary": "^"
+            },
+            "start": 58
+          },
+          {
             "end": 71,
             "readings": {
               "google": "new",
@@ -181,15 +189,26 @@
       "label": "Landholder 5",
       "level": 1,
       "publication": [
-        "THE CONNECTICUT COURANT.",
+        "THE CONNIiCTICUT COURANT.",
         "CNTiiinber llf)3)",
         "Monday, December 3, 1787.",
-        "Continuation of Remarks on tlic Hon. Elbridge Gerry's Objections to the new Constitution."
+        "Continuation of Remarks on tlic Hon. Elbridge Gerry s Objections to the new Constitution."
       ],
       "ref": "Landholder.5",
       "salutation": "To THE Landholders and Farmers.",
       "signature": "A Landholder.",
       "uncertain": {
+        "publication.0": [
+          {
+            "end": 16,
+            "readings": {
+              "brittle": "CONNECTICUT",
+              "google": "CONNECTICUT",
+              "primary": "CONNIiCTICUT"
+            },
+            "start": 4
+          }
+        ],
         "publication.1": [
           {
             "end": 10,
@@ -407,7 +426,7 @@
         "Monday, March 3, 1788."
       ],
       "ref": "Landholder.10b",
-      "salutation": "To THE Citizens of New Hampshire.*}*",
+      "salutation": "To THE Citizens of New HAMPSHiRE.f",
       "signature": "A Landholder.",
       "uncertain": {
         "publication.1": [
@@ -419,6 +438,17 @@
               "primary": "1200)"
             },
             "start": 8
+          }
+        ],
+        "salutation": [
+          {
+            "end": 34,
+            "readings": {
+              "brittle": "Hampshire.*}*",
+              "google": "HAMPSHiRE.t",
+              "primary": "HAMPSHiRE.f"
+            },
+            "start": 23
           }
         ]
       }
@@ -983,7 +1013,7 @@
           165
         ]
       },
-      "text": "Your own assemblies are to regulate the formalities of this choice, and unless they betray you, you cannot be betrayed. But perhaps it may be said, Congress have a power to control this formality as to the time and places of electing;, and we allow they have: but this objection which at first looks frightful was designed as a guard to the privileges of the electors. Even state assemblies may have their fits of madness and passion, this tho' not probable is possible."
+      "text": "Your own assemblies are to regulate the formalities of this choice, and unless they betray you, you cannot be betrayed. But perhaps it may be said, Congress have a power to control this formality as to the time and places of electing, and we allow they have: but this objection which at first looks frightful was designed as a guard to the privileges of the electors. Even state assemblies may have their fits of madness and passion, this tho' not probable is possible."
     },
     {
       "label": "Landholder 4, ¶ 9",
@@ -1209,7 +1239,18 @@
           170
         ]
       },
-      "text": "We find another objection to be \" that the executive is blended with and will have an undue influence over the legislature.\" On examination you will find this objection unfounded. The supreme executive is vested in a President of the United States; every bill that hath passed the senate and representatives, must be presented to the president, and if he approve it becomes law. If he disapproves, but makes no return within ten days, it still becomes law. If he returns the bill with his objections, the senate and representatives consider it a second time, and if twothirds of them adhere to the first resolution it becomes law notwithstanding the president's dissent. We allow the president hath an influence, tho' strictly speaking he hath not a legislative voice; and think such an influence must be salutary. In the president all the executive departments meet, and he will be a channel of communication between those who make and those who execute the laws. Many things look fair in theory which in practice are impossible. If lawmakers, in every instance, before their final decree, had the opinion of those who are to execute them, it would prevent a thousand absurd ordinances, which are solemnly made, only to be repealed, and lessen the dignity of legi<=lation in the eyes of mankind."
+      "text": "We find another objection to be \" that the executive is blended with and will have an undue influence over the legislature.\" On examination you will find this objection unfounded. The supreme executive is vested in a President of the United States; every bill that hath passed the senate and representatives, must be presented to the president, and if he approve it becomes law. If he disapproves, but makes no return within ten days, it still becomes law. If he returns the bill with his objections, the senate and representatives consider it a second time, and if twothirds of them adhere to the first resolution it becomes law notwithstanding the president's dissent. We allow the president hath an influence, tho' strictly speaking he hath not a legislative voice; and think such an influence must be salutary. In the president all the executive departments meet, and he will be a channel of communication between those who make and those who execute the laws. Many things look fair in theory which in practice are impossible. If lawmakers, in every instance, before their final decree, had the opinion of those who are to execute them, it would prevent a thousand absurd ordinances, which are solemnly made, only to be repealed, and lessen the dignity of legi<=lation in the eyes of mankind.",
+      "uncertain": [
+        {
+          "end": 1272,
+          "readings": {
+            "brittle": "legislation",
+            "google": "legi<?lation",
+            "primary": "legi<=lation"
+          },
+          "start": 1260
+        }
+      ]
     },
     {
       "label": "Landholder 5, ¶ 14",
@@ -1538,7 +1579,18 @@
           174
         ]
       },
-      "text": "\\ Mason proposed in the convention that the President should have a privy council of six. — Ed."
+      "text": "\\ Mason proposed in the convention that the President should have a privy council of six. — Ed.",
+      "uncertain": [
+        {
+          "end": 1,
+          "readings": {
+            "brittle": "\\",
+            "google": "\\",
+            "primary": "\\"
+          },
+          "start": 0
+        }
+      ]
     },
     {
       "kind": "footnote",
@@ -1605,7 +1657,18 @@
           181
         ]
       },
-      "text": "But in other parts of the world, it has been, and still is, far different. Systems of religious error have been adopted, in times of ignorance. It has been the interest of tyrannical kings, popes, and prelates, to maintain these errors. When the clouds of ignorance began to vanish, and the people grew more enlightened, there was no other way to keep them in error, but to prohibit their altering their religious opinions by severe persecuting laws. In this way persecution became general throughout Europe. It was the universal opinion that one religion must be established by law; and that all who differed in their religious opinions, must suffer the vengeance of persecution. In pursuance of this opinion, when popery was abolished in England, and the Church of England was established in its stead, severe penalties were inflicted upon all who dissented from the established church. In the time of the civil wars, in the reign of Charles I., the presbyterians got the upper hand, and inflicted legal penalties upon all who differed from them in their sentiments respecting religious doctrines and discipline. When Charles II. was restored, the Church of England was likewise restored, and the presbyterians and other dissenters were laid under legal penalties and incapacities. It was in this reign, that a religious test was established as a qualification for office; that is, a law was made requiring all officers civil and military (among other things) to receive the Sacrament of the Lord's Supper, according to the usage of the Church of England, written [within ?] six months after their admission to office under the penalty of 500/^ and disability to hold the office. And by another statute of the same reign, no person was capable of being elected to any office relating to the government of any city or corporation, unless, within a twelvemonth before, he had received the sacrament according to the rites of the Church of England. The pretence for making these severe laws, by which all but churchmen were made incapable of any office civil or military, was to exclude the papists; but the real design was to exclude the protestant dissenters. From this account of test-laws, there arises an unfavorable presumption against them. But if we consider the nature of them and the effects which they are calculated to produce, we shall find that they are useless, tyrannical, and peculiarly unfit for the people of this country."
+      "text": "But in other parts of the world, it has been, and still is, far different. Systems of religious error have been adopted, in times of ignorance. It has been the interest of tyrannical kings, popes, and prelates, to maintain these errors. When the clouds of ignorance began to vanish, and the people grew more enlightened, there was no other way to keep them in error, but to prohibit their altering their religious opinions by severe persecuting laws. In this way persecution became general throughout Europe. It was the universal opinion that one religion must be established by law; and that all who differed in their religious opinions, must suffer the vengeance of persecution. In pursuance of this opinion, when popery was abolished in England, and the Church of England was established in its stead, severe penalties were inflicted upon all who dissented from the established church. In the time of the civil wars, in the reign of Charles I., the presbyterians got the upper hand, and inflicted legal penalties upon all who differed from them in their sentiments respecting religious doctrines and discipline. When Charles II. was restored, the Church of England was likewise restored, and the presbyterians and other dissenters were laid under legal penalties and incapacities. It was in this reign, that a religious test was established as a qualification for office; that is, a law was made requiring all officers civil and military (among other things) to receive the Sacrament of the Lord's Supper, according to the usage of the Church of England, written [within ?] six months after their admission to office under the penalty of 500/^ and disability to hold the office. And by another statute of the same reign, no person was capable of being elected to any office relating to the government of any city or corporation, unless, within a twelvemonth before, he had received the sacrament according to the rites of the Church of England. The pretence for making these severe laws, by which all but churchmen were made incapable of any office civil or military, was to exclude the papists; but the real design was to exclude the protestant dissenters. From this account of test-laws, there arises an unfavorable presumption against them. But if we consider the nature of them and the effects which they are calculated to produce, we shall find that they are useless, tyrannical, and peculiarly unfit for the people of this country.",
+      "uncertain": [
+        {
+          "end": 1646,
+          "readings": {
+            "brittle": "500^",
+            "google": "500;^",
+            "primary": "500/^"
+          },
+          "start": 1641
+        }
+      ]
     },
     {
       "label": "Landholder 7, ¶ 5",
@@ -1728,7 +1791,7 @@
           186
         ]
       },
-      "text": "It is evident that this mode of proceeding would have been well calculated for the security of Mr. Mason; he there might have vented his antient enmity against the independence of America, and his sore mortification for the loss of his favorite motion respecting the navigation act, and all under the mask of sentiments, which with a proper caution in expressing them, might have gained many adherents in his own state. But, although Mr. Mason's conduct might have been easily guarded in this particular, your character would not have been entirelysafe even with the precaution above mentioned. Your policy. Sir, ought to have led you one step farther back. You have been so precipitate and unwary in your proceedings, that it will be impossible to set you right, even in idea, without recurring to previous transactions and recalling to your view the whole history of your conduct in the convention, as well as the subsequent display of patriotism contained in your publication. I undertake this business, not that I think it possible to help you out of your present embarassments ; but, as those transactions have evidently slipt your memory, the recollection of the blunder into which your inexperience has betrayed you, may be of eminent service in forming future schemes of popularity, should the public ever give you another opportunity to traduce and deceive them."
+      "text": "It is evident that this mode of proceeding would have been well calculated for the security of Mr. Mason; he there might have vented his antient enmity against the independence of America, and his sore mortification for the loss of his favorite motion respecting the navigation act, and all under the mask of sentiments, which with a proper caution in expressing them, might have gained many adherents in his own state. But, although Mr. Mason's conduct might have been easily guarded in this particular, your character would not have been entirely safe even with the precaution above mentioned. Your policy. Sir, ought to have led you one step farther back. You have been so precipitate and unwary in your proceedings, that it will be impossible to set you right, even in idea, without recurring to previous transactions and recalling to your view the whole history of your conduct in the convention, as well as the subsequent display of patriotism contained in your publication. I undertake this business, not that I think it possible to help you out of your present embarassments ; but, as those transactions have evidently slipt your memory, the recollection of the blunder into which your inexperience has betrayed you, may be of eminent service in forming future schemes of popularity, should the public ever give you another opportunity to traduce and deceive them."
     },
     {
       "label": "Landholder 8, ¶ 4",
@@ -1744,7 +1807,18 @@
           187
         ]
       },
-      "text": "You will doubtless recollect the following state of facts — if you do not, every member of the convention will attest them — that almost the whole time during the setting of the convention, and until the constitution had received its present form, no man was more plausible and conciliating upon every subject than Mr. Gerry — he was willing to sacrifice every private feeling and opinion— to concede every state interest that should be in the least incompatible with the most substantial and permanent system of general government — that mutual concession and unanimity were the whole burden of his song ; and although he originated no idea himself, yet there was nothing in the system as it now stands to which he had the least objection — indeed, Mr. Gerry's conduct was agreeably surprising to all his acquaintance, and very unlike that turbulent obstinacy of spirit which they had formerly affixed to his character. Thus stood Mr. Gerry, till toward the close of the business, he introduced a motion respecting the redemption of the old Continental Money — that it should be placed upon a footing with other liquidated securities of the Uuited States.* As Mr. Gerry was supposed to be possessed of large quantities of this species of paper, his motion appeared to be founded in such barefaced selfishness and injustice, that it at once accounted for all his former plausibility and concession, while the rejection of it by the convention inspired its author with the utmost rage and intemperate opposition to the whole system he had formerly praised. His resentment could no more than embarrass and delay the completion of the business for a few days; when he refused signing the constitution and was called upon for his reasons. These reasons were committed to writing by one of his colleagues and likewise by the Secretary, as Mr, Gerry delivered them.f These reasons were totally different from those which he has published, neither was a single objection which is tained in his letter to the legislature of Massachusetts ever offered by him in convention."
+      "text": "You will doubtless recollect the following state of facts — if you do not, every member of the convention will attest them — that almost the whole time during the setting of the convention, and until the constitution had received its present form, no man was more plausible and conciliating upon every subject than Mr. Gerry — he was willing to sacrifice every private feeling and opinion— to concede every state interest that should be in the least incompatible with the most substantial and permanent system of general government — that mutual concession and unanimity were the whole burden of his song ; and although he originated no idea himself, yet there was nothing in the system as it now stands to which he had the least objection — indeed, Mr. Gerry's conduct was agreeably surprising to all his acquaintance, and very unlike that turbulent obstinacy of spirit which they had formerly affixed to his character. Thus stood Mr. Gerry, till toward the close of the business, he introduced a motion respecting the redemption of the old Continental Money — that it should be placed upon a footing with other liquidated securities of the Uuited States.* As Mr. Gerry was supposed to be possessed of large quantities of this species of paper, his motion appeared to be founded in such barefaced selfishness and injustice, that it at once accounted for all his former plausibility and concession, while the rejection of it by the convention inspired its author with the utmost rage and intemperate opposition to the whole system he had formerly praised. His resentment could no more than embarrass and delay the completion of the business for a few days; when he refused signing the constitution and was called upon for his reasons. These reasons were committed to writing by one of his colleagues and likewise by the Secretary, as Mr, Gerry delivered them.f These reasons were totally different from those which he has published, neither was a single objection which is containcd in his letter to the legislature of Massachusetts ever offered by him in convention.",
+      "uncertain": [
+        {
+          "end": 1982,
+          "readings": {
+            "brittle": "tained",
+            "google": "tained",
+            "primary": "containcd"
+          },
+          "start": 1973
+        }
+      ]
     },
     {
       "label": "Landholder 8, ¶ 5",
@@ -1862,7 +1936,18 @@
           185
         ]
       },
-      "text": "*John I^mb, Marinus Willetts, Melancthon Smith, George Clinton and Robert or Abraham Yates, the principal anti-federalists of New York. — Ed."
+      "text": "*John I^mb, Marinus Willetts, Melancthon Smith, George Clinton and Robert or Abraham Yates, the principal anti-federalists of New York. — Ed.",
+      "uncertain": [
+        {
+          "end": 11,
+          "readings": {
+            "brittle": "Lamb,",
+            "google": "I^mb,",
+            "primary": "I^mb,"
+          },
+          "start": 6
+        }
+      ]
     },
     {
       "kind": "footnote",
@@ -1892,7 +1977,18 @@
           186
         ]
       },
-      "text": "Cf. Papers of James Madison, III, 1595."
+      "text": "•j-Cf. Papers of James Madison, III, 1595.",
+      "uncertain": [
+        {
+          "end": 6,
+          "readings": {
+            "brittle": "fCf.",
+            "google": "Cf.",
+            "primary": "•j-Cf."
+          },
+          "start": 0
+        }
+      ]
     },
     {
       "label": "Landholder 9, ¶ 1",
@@ -1945,7 +2041,7 @@
           193
         ]
       },
-      "text": "Politics ought to be free from passion — we ought to have patience for a certain time with those who oppose a federal system. But have they not been indulged until the state is on the brink of ruin, and they appear stubborn in error ? Have they not been our scourge and the perplexers of our councils for many years? Is it not thro' their policy that the state of New York draws an annual tribute of forty thousand pounds from the citizens of Connecticut? Is it not by their means that our foreign trade is ruined, and the farmer unable to command a just price for his commodities ? The enlightened part of the people have long .seen their measures to be destructive, and it is only the ignorant and jealous who give them support. The men who oppose this constitution are the same who have been unfederal from the beginning. They were as unfriendly to the old confedation as to the system now proposed, but bore it with more patience because it was wholly inefficacious. They talk of amendments— of dangerous articles which must be corrected — that they will heartily join in a safe plan of federal government; ; but when we look on their past conduct can we think them sincere? Doubtless their design is to procrastinate, and by this carry their own measures ; but the artifice must not succeed. The people are now ripe for a government which will do justice to their interests, and if the honourable convention deny them, they will despair of help. They have shewn a noble spirit in appointing their first citizens for this business — when convened you will constitute the most august assembly that were ever collected in the State, and your duty is the greatest that can be expected from men, the salvation of your country. If coolness and magnanimity of mind attend your deliberations, all little objections will vanish, and the world will be more astonished by your political wisdom than they were by the victory of your arms."
+      "text": "Politics ought to be free from passion — we ought to have patience for a certain time with those who oppose a federal system. But have they not been indulged until the state is on the brink of ruin, and they appear stubborn in error ? Have they not been our scourge and the perplexers of our councils for many years? Is it not thro' their policy that the state of New York draws an annual tribute of forty thousand pounds from the citizens of Connecticut? Is it not by their means that our foreign trade is ruined, and the farmer unable to command a just price for his commodities ? The enlightened part of the people have long .seen their measures to be destructive, and it is only the ignorant and jealous who give them support. The men who oppose this constitution are the same who have been unfederal from the beginning. They were as unfriendly to the old confedation as to the system now proposed, but bore it with more patience because it was wholly inefficacious. They talk of amendments— of dangerous articles which must be corrected — that they will heartily join in a safe plan of federal government ; but when we look on their past conduct can we think them sincere? Doubtless their design is to procrastinate, and by this carry their own measures ; but the artifice must not succeed. The people are now ripe for a government which will do justice to their interests, and if the honourable convention deny them, they will despair of help. They have shewn a noble spirit in appointing their first citizens for this business — when convened you will constitute the most august assembly that were ever collected in the State, and your duty is the greatest that can be expected from men, the salvation of your country. If coolness and magnanimity of mind attend your deliberations, all little objections will vanish, and the world will be more astonished by your political wisdom than they were by the victory of your arms."
     },
     {
       "kind": "footnote",
@@ -1981,7 +2077,7 @@
           199
         ]
       },
-      "text": "I have just met with your performance in favour of the Honourable Mr. Gerry, published in the Maryland Journal of the i8th January, 1788. As the Public may be ignorant of the Sacrifice you have made of your resentments on this occasion, you will excuse me for communicating what your extreme modesty must have induced you to conceal. You, no doubt, remember that you and Mr. Gerry never voted alike in Convention, except in the instances I shall hereafter enumerate. He uniformly opposed your principles, and so far did you carry your abhorrence of his politics, as to inform certain members to be on their guard against his wiles, so that, he and Mr. Mason held private meetings, where plans were concerted \" to aggrandise, at the expence of the small States, Old Massachusetts and the Ancient Dominion.\" After having thus opposed him and accused him, to appear his Champion and intimate acquaintance, has placed you beyond the reach of ordinary panegyric. Having done this justice to your magnanimity, I cannot resist drawing the veil of the Convention a little farther aside ; not, I assure you, with any intention to give pain to your Constituents, but merely to induce them to pity you for the many piercing mortifications you met with in the discharge of your duty. The day you took your seat* must be long remembered by those who were present ; nor will it be possible for you to forget the astonishment your behaviour almost instantaneously produced. You had scarcely time to read the propositions which had been agreed to after the fullest investigation, when, without requesting information, or to be let into the reasons of the adoption of what you might not approve, you opened against them in a speech which held during two days, and which might have continued two months, but for those marks of fatigue and disgust you saw strongly expressed on whichever side of the house you turned your mortified eyes. There needed no other display to fix your character and the rank of your abilities, which the Convention would have confirmed by the most distinguished silence, had not a certain similarity in genius provoked a sarcastic reply from the pleasant Mr. Gerry; in which he admired the strength of your lungs and your profound knowledge in the first principles of government; mixing and illustrating his little remarks with a profusion of those hems, that never fail to lengthen out and enliven his oratory. This reply (from'your intimate acquaintance), the match being so equal and the contrast so comic, had the happy effect to put the house in good humor, and leave you a prey to the most humiliating reflections. But this did not teach you to bound your future speeches by the lines of moderation ; for the very next day you exhibited without a blush another specimen of eternal volubility. It was not, however, to the duration of your speeches you owed the perfection of your reputation. You, alone, advocated the political heresy, that the people ought not to be trusted with the election of representatives. f You held the jargon, that notwithstanding each state had an equal number of votes in the Senate, yet the states were unequally represented in the Senate. You espoused the tyrannic principle, that where a State refused to comply with a requisition of Congress for money, that an army should be marched into its bowels, to fall indiscriminately upon the property of the innocent and the guilty, instead of having it collected as the Constitution proposed, by the mild and equal operation of laws. One hour you sported the opinion that Congress, afraid of the militia resisting their measures, would neither arm nor organize them, and the next, as if men required no time to breathe between such contradictions, that they would harass them by long and unnecessary marches, till they wore down their spirit and rendered them fit subjects for despotism. You, too, contended that the powers and authorities of the new Constitution must destroy the liberties of the people ; but that the same powers and authorities might be safely trusted with the Old Congress. You cannot have forgotten, that by such ignorance in politics and contradictory opinions, you exhausted the politeness of the Convention, which at length prepared to slumber when you rose to speak ; nor can you have forgotten, you were only twice appointed a member of a Committee, or that these appointments were made merely to avoid your endless garrulity, and if possible, lead you to reason, by the easy road of familiar conversation. But lest you should say that I am a record only of the bad, I shall faithfully recognize whatever occurred to your advantage. You originated that clause in the Constitution which enacts, that \" This Constitution and the laws of the United States which shall be made in pursuance thereof, and all treaties made or which shall be made, under the authority of the United States, shall be the supreme law of the land, and the judges in every State shall be bound thereby, anything in the Constitution or the law of any State to the contrary notwithstanding.\" You voted that an appeal should lay to the Supreme Judiciary of the United States, for the correction of all errors, both in law and fact. You also agreed to the clause that declares nine States to be sufficient to put the government in motion.* These are among the greater positive virtues you exhibited in the Convention ; but it would be doing you injustice were I to omit those of a negative nature. Since the publication of the Constitution, every topic of vulgar declamation has been employed to persuade the people, that it will destroy the trial by jury, and is defective for being without a bill of rights. You, sir, had more candour in the Convention than we can allow to those declaimers out of it; there you never signified by any motion or expression whatever, that it stood in need of a bill of rights, or in any wise endangered the trial by jury. In these respects the Constitution met your entire approbation ; for had you believed it defective in these essentials, you ought to have mentioned it in Convention, or had you thought it wanted further guards, it was your indispensable duty to have proposed them. I hope to hear that the same candour that influenced you on this occasion, has induced you to obviate any improper impressions such publications may have excited in your constituents, when you had the honor to appear before the General Assembly.* From such high instances of your approbation (for every member, like you, had made objections to parts of the Constitution) the Convention were led to conclude that you would have honored it with your signature, had you not been called to Maryland upon some indispensable business ; nor ought it to be withheld from you, that your colleagues informed many Gentlemen of the House, that you told them you intended to return before its completion. Durst I proceed beyond these facts, to which the whole Convention can witness, I would ask you why you changed your opinion of the Constitution after leaving Philadelphia. I have it from good authority that you complained to an intimate acquaintance, that nothing grieved you so much as the apprehension of being detained in Maryland longer than you could wish ; for that you had rather lose one hundred guineas, than not have your name appear to the Constitution. But as this circumstance seems to have been overlooked when you composed your defence of Mr. Gerry, you may have your recollection of it revived by applying to Mr. Young, of Spruce street, Philadelphia, to whom you made your complaint. But leaving this curious piece of human vanity to such further investigation as you may think it deserves, let us come to those matters more particularly between us. You have said, that you \" never heard Mr. Gerry, or any other member, introduce a proposition for the redemption of Continental money according to its nominal or any other value ; nor did you ever hear that such a proposition had been offered to the Convention, or had been thought of\" That the Public may clearly comprehend what degree of credit ought to be given to this kind of evidence, they should know the time you were absent from the Convention, as well as the time you attended. If it should appear that you were only a few days absent, when unimportant business was the object, they will conclude in your favour, provided they entertain a good opinion of your veracity ; on the other hand, should it appear that you were absent nearly half the session, however your veracity may be esteemed, they must reject your evidence. As you have not stated this necessary information, I shall do it for you. The Session of Convention commenced the 14th of May, and ended the 17th of September, which makes 126 days. You took your seat the loth of June, * and left it the 4th of September, of which period you were absent at Baltimore ten days, and as many at New York, so that you attended only 66 days out of 126. Now, sir, is it to be presumed that you could have been minutely informed of all that happened in Convention, and committees of Convention, during the 60 days of your absence ? or does it follow by any rule of reasoning or logic, that because a thing did not happen in the 66 days you were present, that it did not happen in the 60 days which you did not attend ? Is it anywise likely that you could have heard what passed, especially during the last 13 days, within which period the Landholder has fixed the apostacy of Mr. Gerry ? or if it is likely that your particular intimacy with Mr. Gerry would stimulate to inquiries respecting his conduct, why is it that we do not see Mr. McHenry's verification of your assertion, who was of the Committee for considering a proposition for the debts of the union ? Your reply to my second charge against this gentleman may be soon dismissed. Compare his letter to the Legislature of his State with your defence, and you will find that you have put into his mouth objections different from anything it contains, so that if your representation be true, his must be false. But there is another circumstance which militates against your new friend. Though he was face to face with his colleagues at the State Convention of Massachusetts,* he has not ventured to call upon them to clear him either of this charge, or that respecting the Continental money. But as the Public seemed to require that something should be said on this occasion, an anonymous writer denies that he made such a motion, and endeavours to abate the force of my second allegation, merely by supposing that \" his colleagues were men of too much honor to assert that his reasons in Convention were totally different from those which he has published.\"",
+      "text": "I have just met with your performance in favour of the Honourable Mr. Gerry, published in the Maryland Journal of the i8th January, 1788. As the Public may be ignorant of the Sacrifice you have made of your resentments on this occasion, you will excuse me for communicating what your extreme modesty must have induced you to conceal. You, no doubt, remember that you and Mr. Gerry never voted alike in Convention, except in the instances I shall hereafter enumerate. He uniformly opposed your principles, and so far did you carry your abhorrence of his politics, as to inform certain members to be on their guard against his wiles, so that, he and Mr. Mason held private meetings, where plans were concerted \" to aggrandise, at the expence of the small States, Old Massachusetts and the Ancient Dominion.\" After having thus opposed him and accused him, to appear his Champion and intimate acquaintance, has placed you beyond the reach of ordinary panegyric. Having done this justice to your magnanimity, I cannot resist drawing the veil of the Convention a little farther aside ; not, I assure you, with any intention to give pain to your Constituents, but merely to induce them to pity you for the many piercing mortifications you met with in the discharge of your duty. The day you took your seat* must be long remembered by those who were present ; nor will it be possible for you to forget the astonishment your behaviour almost instantaneously produced. You had scarcely time to read the propositions which had been agreed to after the fullest investigation, when, without requesting information, or to be let into the reasons of the adoption of what you might not approve, you opened against them in a speech which held during two days, and which might have continued two months, but for those marks of fatigue and disgust you saw strongly expressed on whichever side of the house you turned your mortified eyes. There needed no other display to fix your character and the rank of your abilities, which the Convention would have confirmed by the most distinguished silence, had not a certain similarity in genius provoked a sarcastic reply from the pleasant Mr. Gerry; in which he admired the strength of your lungs and your profound knowledge in the first principles of government; mixing and illustrating his little remarks with a profusion of those hems, that never fail to lengthen out and enliven his oratory. This reply (from your intimate acquaintance), the match being so equal and the contrast so comic, had the happy effect to put the house in good humor, and leave you a prey to the most humiliating reflections. But this did not teach you to bound your future speeches by the lines of moderation ; for the very next day you exhibited without a blush another specimen of eternal volubility. It was not, however, to the duration of your speeches you owed the perfection of your reputation. You, alone, advocated the political heresy, that the people ought not to be trusted with the election of representatives. f You held the jargon, that notwithstanding each state had an equal number of votes in the Senate, yet the states were unequally represented in the Senate. You espoused the tyrannic principle, that where a State refused to comply with a requisition of Congress for money, that an army should be marched into its bowels, to fall indiscriminately upon the property of the innocent and the guilty, instead of having it collected as the Constitution proposed, by the mild and equal operation of laws. One hour you sported the opinion that Congress, afraid of the militia resisting their measures, would neither arm nor organize them, and the next, as if men required no time to breathe between such contradictions, that they would harass them by long and unnecessary marches, till they wore down their spirit and rendered them fit subjects for despotism. You, too, contended that the powers and authorities of the new Constitution must destroy the liberties of the people ; but that the same powers and authorities might be safely trusted with the Old Congress. You cannot have forgotten, that by such ignorance in politics and contradictory opinions, you exhausted the politeness of the Convention, which at length prepared to slumber when you rose to speak ; nor can you have forgotten, you were only twice appointed a member of a Committee, or that these appointments were made merely to avoid your endless garrulity, and if possible, lead you to reason, by the easy road of familiar conversation. But lest you should say that I am a record only of the bad, I shall faithfully recognize whatever occurred to your advantage. You originated that clause in the Constitution which enacts, that \" This Constitution and the laws of the United States which shall be made in pursuance thereof, and all treaties made or which shall be made, under the authority of the United States, shall be the supreme law of the land, and the judges in every State shall be bound thereby, anything in the Constitution or the law of any State to the contrary notwithstanding.\" You voted that an appeal should lay to the Supreme Judiciary of the United States, for the correction of all errors, both in law and fact. You also agreed to the clause that declares nine States to be sufficient to put the government in motion.* These are among the greater positive virtues you exhibited in the Convention ; but it would be doing you injustice were I to omit those of a negative nature. Since the publication of the Constitution, every topic of vulgar declamation has been employed to persuade the people, that it will destroy the trial by jury, and is defective for being without a bill of rights. You, sir, had more candour in the Convention than we can allow to those declaimers out of it; there you never signified by any motion or expression whatever, that it stood in need of a bill of rights, or in any wise endangered the trial by jury. In these respects the Constitution met your entire approbation ; for had you believed it defective in these essentials, you ought to have mentioned it in Convention, or had you thought it wanted further guards, it was your indispensable duty to have proposed them. I hope to hear that the same candour that influenced you on this occasion, has induced you to obviate any improper impressions such publications may have excited in your constituents, when you had the honor to appear before the General Assembly.* From such high instances of your approbation (for every member, like you, had made objections to parts of the Constitution) the Convention were led to conclude that you would have honored it with your signature, had you not been called to Maryland upon some indispensable business ; nor ought it to be withheld from you, that your colleagues informed many Gentlemen of the House, that you told them you intended to return before its completion. Durst I proceed beyond these facts, to which the whole Convention can witness, I would ask you why you changed your opinion of the Constitution after leaving Philadelphia. I have it from good authority that you complained to an intimate acquaintance, that nothing grieved you so much as the apprehension of being detained in Maryland longer than you could wish ; for that you had rather lose one hundred guineas, than not have your name appear to the Constitution. But as this circumstance seems to have been overlooked when you composed your defence of Mr. Gerry, you may have your recollection of it revived by applying to Mr. Young, of Spruce street, Philadelphia, to whom you made your complaint. But leaving this curious piece of human vanity to such further investigation as you may think it deserves, let us come to those matters more particularly between us. You have said, that you \" never heard Mr. Gerry, or any other member, introduce a proposition for the redemption of Continental money according to its nominal or any other value ; nor did you ever hear that such a proposition had been offered to the Convention, or had been thought of\" That the Public may clearly comprehend what degree of credit ought to be given to this kind of evidence, they should know the time you were absent from the Convention, as well as the time you attended. If it should appear that you were only a few days absent, when unimportant business was the object, they will conclude in your favour, provided they entertain a good opinion of your veracity ; on the other hand, should it appear that you were absent nearly half the session, however your veracity may be esteemed, they must reject your evidence. As you have not stated this necessary information, I shall do it for you. The Session of Convention commenced the 14th of May, and ended the 17th of September, which makes 126 days. You took your seat the loth of June, * and left it the 4th of September, of which period you were absent at Baltimore ten days, and as many at New York, so that you attended only 66 days out of 126. Now, sir, is it to be presumed that you could have been minutely informed of all that happened in Convention, and committees of Convention, during the 60 days of your absence ? or does it follow by any rule of reasoning or logic, that because a thing did not happen in the 66 days you were present, that it did not happen in the 60 days which you did not attend ? Is it anywise likely that you could have heard what passed, especially during the last 13 days, within which period the Landholder has fixed the apostacy of Mr. Gerry ? or if it is likely that your particular intimacy with Mr. Gerry would stimulate to inquiries respecting his conduct, why is it that we do not see Mr. McHenry's verification of your assertion, who was of the Committee for considering a proposition for the debts of the union ? Your reply to my second charge against this gentleman may be soon dismissed. Compare his letter to the Legislature of his State with your defence, and you will find that you have put into his mouth objections different from anything it contains, so that if your representation be true, his must be false. But there is another circumstance which militates against your new friend. Though he was face to face with his colleagues at the State Convention of Massachusetts,* he has not ventured to call upon them to clear him either of this charge, or that respecting the Continental money. But as the Public seemed to require that something should be said on this occasion, an anonymous writer denies that he made such a motion, and endeavours to abate the force of my second allegation, merely by supposing that \" his colleagues were men of too much honor to assert that his reasons in Convention were totally different from those which he has published.\"",
       "uncertain": [
         {
           "end": 122,
@@ -2016,7 +2112,7 @@
           200
         ]
       },
-      "text": "But alas, his colleagues would not acquit him in this way, and he was of too proud a spirit to ask them to do it in person.f Hence the charge remains on its original grounds, while you, for want of proper concert, have joined his accusers and reduced him to the humiliating necessity of endeavouring to stifle your justification. These points being dismissed, it remains only to reconcile the contradictory parts you have acted on the great political stage. You entered the convention without a sufficient knowledge in the science of government, where you committed a succession of memorable blunders, as the work advanced. Some rays of light penetrated your understanding, and enabled you (as has been shown) to assist in raising some of its pillars, when the desire of having your name enrolled with the other laborers drew from you that remarkable complaint so expressive of vanity and conviction. But self-interest soon gained the ascendant, you quickly comprehended the delicacy of your situation, and this restored your first impressions in all their original force. You thought the Deputy Attorney General of the United States for the state of Maryland, destined for a different character, and that inspired you with the hope that you might derive from a desperate opposition what you saw no prospect of gaining by a contrary conduct. But I will venture to predict, that though you were to double your efforts, you would fail in your object. I leave you now to your own reflections, under a promise, however, to give my name to the public, should you be able to procure any indifferent testimony to contradict a single fact I have stated."
+      "text": "But alas, his colleagues would not acquit him in this way, and he was of too proud a spirit to ask them to do it in person. f Hence the charge remains on its original grounds, while you, for want of proper concert, have joined his accusers and reduced him to the humiliating necessity of endeavouring to stifle your justification. These points being dismissed, it remains only to reconcile the contradictory parts you have acted on the great political stage. You entered the convention without a sufficient knowledge in the science of government, where you committed a succession of memorable blunders, as the work advanced. Some rays of light penetrated your understanding, and enabled you (as has been shown) to assist in raising some of its pillars, when the desire of having your name enrolled with the other laborers drew from you that remarkable complaint so expressive of vanity and conviction. But self-interest soon gained the ascendant, you quickly comprehended the delicacy of your situation, and this restored your first impressions in all their original force. You thought the Deputy Attorney General of the United States for the state of Maryland, destined for a different character, and that inspired you with the hope that you might derive from a desperate opposition what you saw no prospect of gaining by a contrary conduct. But I will venture to predict, that though you were to double your efforts, you would fail in your object. I leave you now to your own reflections, under a promise, however, to give my name to the public, should you be able to procure any indifferent testimony to contradict a single fact I have stated."
     },
     {
       "kind": "footnote",
@@ -2083,6 +2179,15 @@
       },
       "text": "\\ This is a misstatement. The motion to elect representatives as the state legislature should direct was made by C. C. Pinckney, was. second eil by Martin, and approved of by Sherman, and on being put to a vote was favored by Connecticut, New Jersey, Delaware and South Carolina. Cf. Papers of James Madison, n.,925. — EJ.",
       "uncertain": [
+        {
+          "end": 1,
+          "readings": {
+            "brittle": "\\",
+            "google": "\\",
+            "primary": "\\"
+          },
+          "start": 0
+        },
         {
           "end": 144,
           "readings": {
@@ -2257,7 +2362,7 @@
           203
         ]
       },
-      "text": "We believe those among you who are opposed to the system, as honest and brave as any part of the community, and cannot suspect them of any design against American Independence ; but such persons ought to consider what will be the probable consequence of their dissent ; and whether this is not the only hour in which this community can be saved from a condition, which is, on all hands, allowed to be dangerous and unhappy. There are certain critical periods in which nations, as well as individuals, who have fallen into perplexity, by a wise exertion may save themselves and be glorious. Such is the present era in American policy, but if we do not see the hour of our salvation, there is no reason to expect that heaven will repeat it. The unexpected harmony of the federal Convention — their mutual condescension in the reconcilement of jarring interests and opposing claims between the several States — the formation of a system so efficient in appearance, at the same time so well guarded against an oppression of the subject — the concurring sentiments of avast majority thro' the United States, of those persons who have been most experienced in policy, and most eminent in wisdom and virtue ; are events which must be attributed to the special influence of heaven."
+      "text": "We believe those among you who are opposed to the system, as honest and brave as any part of the community, and cannot suspect them of any design against American Independence ; but such persons ought to consider what will be the probable consequence of their dissent ; and whether this is not the only hour in which this community can be saved from a condition, which is, on all hands, allowed to be dangerous and unhappy. There are certain critical periods in which nations, as well as individuals, who have fallen into perplexity, by a wise exertion may save themselves and be glorious. Such is the present era in American policy, but if we do not see the hour of our salvation, there is no reason to expect that heaven will repeat it. The unexpected harmony of the federal Convention — their mutual condescension in the reconcilement of jarring interests and opposing claims between the several States — the formation of a system so efficient in appearance, at the same time so well guarded against an oppression of the subject — the concurring sentiments of a vast majority thro' the United States, of those persons who have been most experienced in policy, and most eminent in wisdom and virtue ; are events which must be attributed to the special influence of heaven."
     },
     {
       "label": "Landholder 10b, ¶ 5",
@@ -2320,7 +2425,7 @@
           201
         ]
       },
-      "text": "— The convention of New Hampshire had met on the 13 of June, and after a discussion of seven days, had adjourned without voting upon the constitution. — Ed."
+      "text": "— The convention of New Hampshire had met on the 1 3 of June, and after a discussion of seven days, had adjourned without voting upon the constitution. — Ed."
     },
     {
       "label": "Landholder 11, ¶ 1",

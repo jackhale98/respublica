@@ -365,7 +365,7 @@
       "label": "Agrippa 9",
       "level": 1,
       "publication": [
-        "THE MASSACHUSETTS GAZETTE.",
+        "THE MASSACHUSETTS GAZliTTE.",
         "(INTuinber 305)",
         "Friday, December 28, 1787.",
         "For the Massachusetts Gazette."
@@ -373,6 +373,17 @@
       "ref": "Agrippa.9",
       "salutation": "To THE People.",
       "uncertain": {
+        "publication.0": [
+          {
+            "end": 27,
+            "readings": {
+              "brittle": "GAZETTE.",
+              "google": "GAZETTE.",
+              "primary": "GAZliTTE."
+            },
+            "start": 18
+          }
+        ],
         "publication.1": [
           {
             "end": 10,
@@ -515,6 +526,17 @@
             },
             "start": 11
           }
+        ],
+        "signature": [
+          {
+            "end": 33,
+            "readings": {
+              "brittle": "Tuesday^",
+              "google": "Tuesday^",
+              "primary": "Tuesday^"
+            },
+            "start": 25
+          }
         ]
       }
     },
@@ -557,6 +579,17 @@
               "primary": "17S8."
             },
             "start": 21
+          }
+        ],
+        "publication.3": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "{Concluded",
+              "google": "{^Concluded",
+              "primary": "{^Concluded"
+            },
+            "start": 0
           }
         ]
       }
@@ -602,6 +635,17 @@
               "primary": "i8,"
             },
             "start": 16
+          }
+        ],
+        "publication.3": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "{Concluded",
+              "google": "{^Concluded",
+              "primary": "(^Concluded"
+            },
+            "start": 0
           }
         ]
       }
@@ -808,7 +852,7 @@
           66
         ]
       },
-      "text": "The idea.of promoting the happiness of the people by opposing all their habits of business, and by subverting the laws to which they are habituated, appears to me to be at least a mistaken proceeding. If to this we add the limitations of trade, restraints on its freedom, and the alteration of its course, and transfer of the market, all under the pretence of regulation iox federal purposes, we shall not find any additional reason to be pleased with the plan.",
+      "text": "The idea of promoting the happiness of the people by opposing all their habits of business, and by subverting the laws to which they are habituated, appears to me to be at least a mistaken proceeding. If to this we add the limitations of trade, restraints on its freedom, and the alteration of its course, and transfer of the market, all under the pretence of regulation iox federal purposes, we shall not find any additional reason to be pleased with the plan.",
       "uncertain": [
         {
           "end": 374,
@@ -1001,7 +1045,7 @@
           69
         ]
       },
-      "text": "During the last year,* we bad decisive evidences of the vigour of this kind of government. In Connecticut, the treason was restrained while it existed only in the form of.conspiracy. In Vermont, the conspirators assembled in arms, but were suppressed by the exertions of the militia, under the direction of their sheriffs. In New-Hampshire, the attack was made on the legislature, but the insurrection was in a very few hours suppressed, and has never been renewed. In Massachusetts, the danger was by delay suffered to increase. One judicial court after another was stopped, and even the capital trembled. Still, however, when the supreme executive gave the signal, a force of many thou.sands of active, resolute men, took the field, during the .severities of winter, and every difficulty vanished before them. Since that time we have been continually coalescing. The people have applied with diligence to their several occupations, and the whole country wears one face of improvement. Agriculture has been improved, manufactures multiplied, and trade prodigiously enlarged. These are the advantages of freedom in a growing country. While our resources have been thus rapidly increasing, the courts have set in every part of the commonwealth, without any guard to defend them; have tried causes of every kind, whether civil or criminal, and the sheriffs, have in no case been interrupted in the execution of their office. In those cases indeed, where the government was more particularly interested, mercy has been extended; but in civil causes, and in the case of moral offences, the law has been punctually executed. Damage done to individuals, during the tumults, has been repaired, by judgment of the courts of law, and the award has been carried into effect. This is the present state of affairs, when we are asked to relinquish that freedom which produces such happy effects.",
+      "text": "During the last year,* we bad decisive evidences of the vigour of this kind of government. In Connecticut, the treason was restrained while it existed only in the form of conspiracy. In Vermont, the conspirators assembled in arms, but were suppressed by the exertions of the militia, under the direction of their sheriffs. In New-Hampshire, the attack was made on the legislature, but the insurrection was in a very few hours suppressed, and has never been renewed. In Massachusetts, the danger was by delay suffered to increase. One judicial court after another was stopped, and even the capital trembled. Still, however, when the supreme executive gave the signal, a force of many thou.sands of active, resolute men, took the field, during the .severities of winter, and every difficulty vanished before them. Since that time we have been continually coalescing. The people have applied with diligence to their several occupations, and the whole country wears one face of improvement. Agriculture has been improved, manufactures multiplied, and trade prodigiously enlarged. These are the advantages of freedom in a growing country. While our resources have been thus rapidly increasing, the courts have set in every part of the commonwealth, without any guard to defend them; have tried causes of every kind, whether civil or criminal, and the sheriffs, have in no case been interrupted in the execution of their office. In those cases indeed, where the government was more particularly interested, mercy has been extended; but in civil causes, and in the case of moral offences, the law has been punctually executed. Damage done to individuals, during the tumults, has been repaired, by judgment of the courts of law, and the award has been carried into effect. This is the present state of affairs, when we are asked to relinquish that freedom which produces such happy effects.",
       "uncertain": [
         {
           "end": 29,
@@ -1042,7 +1086,7 @@
           70
         ]
       },
-      "text": "Whether they will trust persons, who have from their cradles been incapable of comprehending any other principles of government, than those of absolute power, and who have, in this very affair, tried to deprive them of their constitutional liberty, by a pitiful trick. They cannot avoid prefering those who have uniformly exerted themselves to establish a limited government, and to secure to individuals all the liberty that is consistent with justice, between man and man, and whose efforts, by the smiles of Providence, have hitherto been crowned with the most splendid success. After the treatment we have received, we have aright to be jealous, and to guard our present constitution with the strictest care. It is the right of the people to judge, and they will do wisely to give an explicit instruction to their delegates in the proposed convention, not to agree to any proposition that will in any degree militate with that happy system of government under which Heaven has placed them."
+      "text": "Whether they will trust persons, who have from their cradles been incapable of comprehending any other principles of government, than those of absolute power, and who have, in this very affair, tried to deprive them of their constitutional liberty, by a pitiful trick. They cannot avoid prefering those who have uniformly exerted themselves to establish a limited government, and to secure to individuals all the liberty that is consistent with justice, between man and man, and whose efforts, by the smiles of Providence, have hitherto been crowned with the most splendid success. After the treatment we have received, we have a right to be jealous, and to guard our present constitution with the strictest care. It is the right of the people to judge, and they will do wisely to give an explicit instruction to their delegates in the proposed convention, not to agree to any proposition that will in any degree militate with that happy system of government under which Heaven has placed them."
     },
     {
       "kind": "footnote",
@@ -1101,7 +1145,16 @@
           73
         ]
       },
-      "text": "Let us for a moment consider their situation and prospects. The embarrassments consequent upon a war, and the usual reduction of prices immediately after a war, necessarily occasioned a want of punctuality in publick payments. Still, however, the publick debt has been very considerably reduced, not by the dirty and delusive scheme of depreciation, but the nominal sum. Applications are continually making for purchases in our eastern and western lands. Great exertions are making for clearing off the arrears of outstanding taxes, so that the certificates* for interest on the state debt have considerably increased in value. This is a certain indication of returning credit. Congress this year disposed of a large tract of their lands towards paying the principal of their debt.f Pennsylvania has discharged the whole of their part of the continental debt. New York has nearly cleared its state debt, and has located a large part of their new lands towards paying the continental demands. | Other states have made considerable payments. Every day from these considerations the publick ability and inclination to satisfy their creditors increases. The exertions of last winter were as much to support public as private credit. The prospect therefore of the publick creditors is brightening under the present system. If the new system should take effect without amendments, which' however is hardly probable, the increase of expense will be death to the hopes of all creditors, both of the continental and of the state. With respect, however, to our publick delays of payment we have the precedent of the best established countries in Europe."
+      "text": "Let us for a moment consider their situation and prospects. The embarrassments consequent upon a war, and the usual reduction of prices immediately after a war, necessarily occasioned a want of punctuality in publick payments. Still, however, the publick debt has been very considerably reduced, not by the dirty and delusive scheme of depreciation, but the nominal sum. Applications are continually making for purchases in our eastern and western lands. Great exertions are making for clearing off the arrears of outstanding taxes, so that the certificates* for interest on the state debt have considerably increased in value. This is a certain indication of returning credit. Congress this year disposed of a large tract of their lands towards paying the principal of their debt.f Pennsylvania has discharged the whole of their part of the continental debt. New York has nearly cleared its state debt, and has located a large part of their new lands towards paying the continental demands. | Other states have made considerable payments. Every day from these considerations the publick ability and inclination to satisfy their creditors increases. The exertions of last winter were as much to support public as private credit. The prospect therefore of the publick creditors is brightening under the present system. If the new system should take effect without amendments, which' however is hardly probable, the increase of expense will be death to the hopes of all creditors, both of the continental and of the state. With respect, however, to our publick delays of payment we have the precedent of the best established countries in Europe.",
+      "uncertain": [
+        {
+          "end": 993,
+          "readings": {
+            "primary": "|"
+          },
+          "start": 992
+        }
+      ]
     },
     {
       "label": "Agrippa 3, ¶ 3",
@@ -1186,7 +1239,18 @@
           72
         ]
       },
-      "text": "*No attempt had been made by Massachusetts for several years to pay the interest on its debt, except by the State Treasurer's issuing \" consolidated notes \" or \" certificates \" of indebtedness, bearing 6 per cent, interest. Though these were by law receivable for taxes, they had sold as low as 4/ in the pound. — Ed."
+      "text": "*No attempt had been made by Massachusetts for several years to pay the interest on its debt, except by the State Treasurer's issuing \" consolidated notes \" or \" certificates \" of indebtedness, bearing 6 per cent, interest. Though these were by law receivable for taxes, they had sold as low as 4/ in the pound. — Ed.",
+      "uncertain": [
+        {
+          "end": 297,
+          "readings": {
+            "brittle": "4/",
+            "google": "4/",
+            "primary": "4/"
+          },
+          "start": 295
+        }
+      ]
     },
     {
       "kind": "footnote",
@@ -1224,7 +1288,18 @@
           75
         ]
       },
-      "text": "Having considered some of the principal advantages of the happy form of government under which it is our pecuh'ar good fortune to live, we find by experience, that it is the best calculated of any form hitherto invented, to secure to us the rights of our persons and of our property, and that the general circumstances of the people shew an advanced state of improvement never before known. We have found the shock given by the war, in a great measure obliterated, and the public debt contracted at that time to be considerably reduced in the nominal sum. The Congress lands are full adequate to the redemption of the principal of their debt, and are selling and populating ver> fast. The lands of this state, at the west, are, at the moderate price of eighteen pence an acre, worth near half a million pounds in our money. They ought, therefore, to be sold as quick as possible. An application was made lately for a large tract at that price, and continual applications are made for other lands in the eastern part of the state. Our resources are daily augmenting."
+      "text": "Having considered some of the principal advantages of the happy form of government under which it is our pecuh'ar good fortune to live, we find by experience, that it is the best calculated of any form hitherto invented, to secure to us the rights of our persons and of our property, and that the general circumstances of the people shew an advanced state of improvement never before known. We have found the shock given by the war, in a great measure obliterated, and the public debt contracted at that time to be considerably reduced in the nominal sum. The Congress lands are full adequate to the redemption of the principal of their debt, and are selling and populating ver> fast. The lands of this state, at the west, are, at the moderate price of eighteen pence an acre, worth near half a million pounds in our money. They ought, therefore, to be sold as quick as possible. An application was made lately for a large tract at that price, and continual applications are made for other lands in the eastern part of the state. Our resources are daily augmenting.",
+      "uncertain": [
+        {
+          "end": 678,
+          "readings": {
+            "brittle": "ver>",
+            "google": "ver>",
+            "primary": "ver>"
+          },
+          "start": 674
+        }
+      ]
     },
     {
       "label": "Agrippa 4, ¶ 2",
@@ -1250,7 +1325,7 @@
           76
         ]
       },
-      "text": "Let US now consider how far it is practicable consistent with the happiness of the people and their freedom. It is the opinion of the ablest writers on the subject, that no extensive empire can be governed upon republican principles, and that such a government will degenerate to a despotism, unless it be made up of a confederacy of smaller states, each having the full powers of internal regulation. This is precisely the principle which has hitherto preserved our freedom. No instance can be found of any free government of considerable extent which has been supported upon any other plan. Large and consolidated empires may indeed dazzle the eyes of a distant spectator with their splendour, but if examined more nearly are always found to be full of misery. The reason is obvious. In large states the same principles of legislation will not apply to all the parts. The inhabitants of warmer climates are more dissolute in their manners, and less industrious, than in colder countries. A degree of severity is, therefore, necessary with one which would cramp the spirit of the other. We accordingly find that the very great empires have always been despotick. They have indeed tried to remedy the inconveniences to which the people were exposed by local regulations; but these contrivances have never answered the end. The laws not being made by the people, who felt the inconveniences, did not suit their circumstances. It is under such tyranny that the Spanish provinces languish, and such would be our misfortune and degradation, if we should submit to have the concernsof the whole empire managed by one legislature. To promote the happiness of the people it is necessary that there should be local laws; and it is necessary that those laws should be made by the representatives of those who are immediately subject to the want of them. By endeavouring to suit both extremes, both are injured."
+      "text": "Let US now consider how far it is practicable consistent with the happiness of the people and their freedom. It is the opinion of the ablest writers on the subject, that no extensive empire can be governed upon republican principles, and that such a government will degenerate to a despotism, unless it be made up of a confederacy of smaller states, each having the full powers of internal regulation. This is precisely the principle which has hitherto preserved our freedom. No instance can be found of any free government of considerable extent which has been supported upon any other plan. Large and consolidated empires may indeed dazzle the eyes of a distant spectator with their splendour, but if examined more nearly are always found to be full of misery. The reason is obvious. In large states the same principles of legislation will not apply to all the parts. The inhabitants of warmer climates are more dissolute in their manners, and less industrious, than in colder countries. A degree of severity is, therefore, necessary with one which would cramp the spirit of the other. We accordingly find that the very great empires have always been despotick. They have indeed tried to remedy the inconveniences to which the people were exposed by local regulations; but these contrivances have never answered the end. The laws not being made by the people, who felt the inconveniences, did not suit their circumstances. It is under such tyranny that the Spanish provinces languish, and such would be our misfortune and degradation, if we should submit to have the concerns of the whole empire managed by one legislature. To promote the happiness of the people it is necessary that there should be local laws; and it is necessary that those laws should be made by the representatives of those who are immediately subject to the want of them. By endeavouring to suit both extremes, both are injured."
     },
     {
       "label": "Agrippa 4, ¶ 4",
@@ -1682,7 +1757,7 @@
           96
         ]
       },
-      "text": "By article 3, section 2, Congress are empowered to appoint courts with authority to try civil causes of every kind, and even offences against particular states. By the last clause of Article i, section 8, which defines their legislative powers, they are authorised to make laws for carrying into execution all the ,\" powers vested by this constitution in the government of the United States, or in any department or officer thereof;\" and by article 6, the judges in every state are to be bound by the laws of Congress. It is therefore a complete consolidation of all the states into one, however diverse the parts of it may be. It is also shewn that it will operate unequally in the different states, taking from some of them a greater share of wealth; that in this last respect it will operate more to the injury of this commonwealth than of any state in the union ; and that by reason of its inequality it is subversive of the principles of a free government, which requires every part to contribute an equal proportion. For all these reasons this system ought to be rejected, even if no better plan was proposed in the room of it. In case of a rejection we must remain as we are, with trade extending, resources opening, settlements enlarging, manufactures increasing, and publick debts diminishing by fair payment. These are mighty blessings, and not to be lost by the hasty adoption of a new system. But great as these benefits are, which we derive from our present system, it has been shewn, that they may be increased by giving Congress a limited power to regulate trade, and assigning to them those branches of the impost on our foreign trade only, which shall be equal to our proportion of their present annual demands. While the interest is thus provided for, the sale of our lands in a veryfew years will pay the principal, and the other resources of the state will pay our own debt. The present mode of assessing the continental tax is regulated by the extent of landed property in each state. By this rule the Massachusetts [sic] has to pay one eighth. If we adopt the new system, we shall surrender the whole of our impost and excise, which probably amount to a third of those duties of the whole continent, and must come in for about a sixth part of the remaining debt. By this means we shall be deprived of the benefit arising from the largeness of our loans to the continent, shall lose our ability to satisfy the just demands on the state. Under the limitations of revenue and commercial regulation contained in these papers, the balance will be largely in our favour ; the importance of the great states will be preserved, and the publick creditors both of the continent and state will be satisfied without burdening the people. For a more concise view of my proposal, I have thrown it into the form of a resolve, supposed to be passed by the convention which is shortly to set in this town."
+      "text": "By article 3, section 2, Congress are empowered to appoint courts with authority to try civil causes of every kind, and even offences against particular states. By the last clause of Article i, section 8, which defines their legislative powers, they are authorised to make laws for carrying into execution all the ,\" powers vested by this constitution in the government of the United States, or in any department or officer thereof;\" and by article 6, the judges in every state are to be bound by the laws of Congress. It is therefore a complete consolidation of all the states into one, however diverse the parts of it may be. It is also shewn that it will operate unequally in the different states, taking from some of them a greater share of wealth; that in this last respect it will operate more to the injury of this commonwealth than of any state in the union ; and that by reason of its inequality it is subversive of the principles of a free government, which requires every part to contribute an equal proportion. For all these reasons this system ought to be rejected, even if no better plan was proposed in the room of it. In case of a rejection we must remain as we are, with trade extending, resources opening, settlements enlarging, manufactures increasing, and publick debts diminishing by fair payment. These are mighty blessings, and not to be lost by the hasty adoption of a new system. But great as these benefits are, which we derive from our present system, it has been shewn, that they may be increased by giving Congress a limited power to regulate trade, and assigning to them those branches of the impost on our foreign trade only, which shall be equal to our proportion of their present annual demands. While the interest is thus provided for, the sale of our lands in a very few years will pay the principal, and the other resources of the state will pay our own debt. The present mode of assessing the continental tax is regulated by the extent of landed property in each state. By this rule the Massachusetts [sic] has to pay one eighth. If we adopt the new system, we shall surrender the whole of our impost and excise, which probably amount to a third of those duties of the whole continent, and must come in for about a sixth part of the remaining debt. By this means we shall be deprived of the benefit arising from the largeness of our loans to the continent, shall lose our ability to satisfy the just demands on the state. Under the limitations of revenue and commercial regulation contained in these papers, the balance will be largely in our favour ; the importance of the great states will be preserved, and the publick creditors both of the continent and state will be satisfied without burdening the people. For a more concise view of my proposal, I have thrown it into the form of a resolve, supposed to be passed by the convention which is shortly to set in this town."
     },
     {
       "label": "Agrippa 10, ¶ 4",
@@ -1945,7 +2020,18 @@
           109
         ]
       },
-      "text": "In article III, section 2, it is declared, that \"the judicial power shall extend to all cases in law and equity arising under this constitution, the laws of the United States, and treaties made or which shall be made under their authority.\" Among the cases arising under this new constitution are reckoned, \" all controversies between citizens of different states,\" which include all kinds of civil causes between those parties. The giving Congress a power to appoint courts for such a purpose is as much, there being no stipulation to the contrary, giving them power to legislate for such causes, as giving them a right to raise an army, is giving them a right to direct the operations of the army when raised. But it is not left to implication. The last clause of article I, section 8, expressly gives them power \" to make all laws which shall be needful and proper for carrying into execution the foregoing powers, and all other powers vested by this constitution in the government of the United States, or in any department or officer thereof\" It is, therefore, as plain as words can make it, that they have a right by this proposed form to legislate for all kinds of causes respecting property between citizens of different states. That this power extends to all cases between citizens of the same state, is evident from the sixth article, which declares all continental laws and treaties to be the supreme law of the land, and that all state judges are bound thereby, \"anything in the constitution or laws of any state to the contrary notwithstanding.\" If this is not binding the judges of the separate states in their own office, by continental rules, it is perfect nonsense. There is then a complete consolidation of the legislative powers in all cases respecting property. This power extends to all cases between a state and citizens of another state. Hence a citizen, possessed of the notes of another state, may bring his action, and there is no limitation that the execution shall be levied on the publick property of the state ; but the property of individuals is liable. This is a foundation for endless confusion and discord. This right to try causes between a state and citizens of another state, involves in it all criminal causes; and a man who has accidentally transgressed the laws of another state, must be transported, with all his witnesses, to a third state, to be tried. He must be ruined to prove his innocence. These are necessary parts of the new system, and it will never be complete till they are reduced to practice. They effectually prove a consolidation of the states, and we have before shewn the ruinous tendency of such a measure."
+      "text": "In article III, section 2, it is declared, that \"the judicial power shall extend to all cases in law and equity arising under this constitution, the laws of the United States, and treaties made or which shall be made under their authority.\" Among the cases arising under this new constitution are reckoned, \" all controversies between citizens of different states,\" which include all kinds of civil causes between those parties. The giving Congress a power to appoint courts for such a purpose is as much, there being no stipulation to the contrary, giving them power to legislate for such causes, as giving them a right to raise an army, is giving them a right to direct the operations of the army when raised. But it is not left to implication. The last clause of article I, section 8, expressly gives them power \" to make all laws which shall be needful and proper for carrying into execution the foregoing powers, and all other powers vested by this constitution in the government of the United States, or in any department or officer thereof\" It is, therefore, as plain as words can make it, that they have a right by this proposed form to legislate for all kinds of causes respecting property between citizens of different states. That this power extends to all cases between citizens of the same state, is evident from the sixth article, which declares all continental laws and treaties to be the supreme law of the land, and that all state judges are bound thereby, \"anything 171 the constitution or laws of any state to the contrary notwithstanding.\" If this is not binding the judges of the separate states in their own office, by continental rules, it is perfect nonsense. There is then a complete consolidation of the legislative powers in all cases respecting property. This power extends to all cases between a state and citizens of another state. Hence a citizen, possessed of the notes of another state, may bring his action, and there is no limitation that the execution shall be levied on the publick property of the state ; but the property of individuals is liable. This is a foundation for endless confusion and discord. This right to try causes between a state and citizens of another state, involves in it all criminal causes; and a man who has accidentally transgressed the laws of another state, must be transported, with all his witnesses, to a third state, to be tried. He must be ruined to prove his innocence. These are necessary parts of the new system, and it will never be complete till they are reduced to practice. They effectually prove a consolidation of the states, and we have before shewn the ruinous tendency of such a measure.",
+      "uncertain": [
+        {
+          "end": 1487,
+          "readings": {
+            "brittle": "in",
+            "google": "in",
+            "primary": "171"
+          },
+          "start": 1484
+        }
+      ]
     },
     {
       "label": "Agrippa 13, ¶ 5",
@@ -2156,6 +2242,15 @@
             "primary": "for"
           },
           "start": 908
+        },
+        {
+          "end": 2467,
+          "readings": {
+            "brittle": "....",
+            "google": "....",
+            "primary": "...."
+          },
+          "start": 2463
         }
       ]
     },
@@ -2688,7 +2783,18 @@
           133
         ]
       },
-      "text": "We are now rising fast above our difficulties ; everything at home has the appearance of improvement, government is well established, manufactures increasing rapidly, and trade expanding. Till since the peace we never sent a ship to India, and the present year, it is said, sends above a dozen vessels from this state only, to the countries round the Indian ocean. Vast quantities of our produce are exported to those countries. It has been so much the practice of European nations to farm out this branch of trade, that we ought to be exceedingly jealous of our right. The manufactures of the state probably exceed in value one million pounds for the last year. Most of the useful and some ornamental fabricks are established. There is great danger of these improvements being injured unless we practice extreme caution at setting out. It will always be for the interest of the southern states to raise a revenue from the more commercial ones. It is said that the consumer pays it. But does not a commercial state consume more foreign goods than a landed one ? The people are more crowded, and of consequence the land is less able to support them. We know it is to be a favourite system to raise the money where it is. But the money is to be expended at another place, and is therefore so much withdrawn annually from our stock. This is a single instance of the difference of interest ; it would be very easy to produce others. Innumerable as the differences of manners, and these produce differences in the laws. Uniformity in legislation is of no more importance than in religion. Yet the framers of this new constitution did not even think it necessary that the president should believe that there is a God, although they require an oath of him. It would be easy to shew the propriety of a general declaration upon that subject. But this paper is already extended to so far [sic]."
+      "text": "We are now rising fast above our difficulties ; everything at home has the appearance of improvement, government is well established, manufactures increasing rapidly, and trade expanding. Till since the peace we never sent a ship to India, and the present year, it is said, sends above a dozen vessels from this state only, to the countries round the Indian ocean. Vast quantities of our produce are exported to those countries. It has been so much the practice of European nations to farm out this branch of trade, that we ought to be exceedingly jealous of our right. The manufactures of the state probably exceed in value one million pounds for the last year. INIost of the useful and some ornamental fabricks are established. There is great danger of these improvements being injured unless we practice extreme caution at setting out. It will always be for the interest of the southern states to raise a revenue from the more commercial ones. It is said that the consumer pays it. But does not a commercial state consume more foreign goods than a landed one ? The people are more crowded, and of consequence the land is less able to support them. We know it is to be a favourite system to raise the money where it is. But the money is to be expended at another place, and is therefore so much withdrawn annually from our stock. This is a single instance of the difference of interest ; it would be very easy to produce others. Innumerable as the differences of manners, and these produce differences in the laws. Uniformity in legislation is of no more importance than in religion. Yet the framers of this new constitution did not even think it necessary that the president should believe that there is a God, although they require an oath of him. It would be easy to shew the propriety of a general declaration upon that subject. But this paper is already extended to so far [sic].",
+      "uncertain": [
+        {
+          "end": 669,
+          "readings": {
+            "brittle": "Most",
+            "google": "Most",
+            "primary": "INIost"
+          },
+          "start": 663
+        }
+      ]
     },
     {
       "label": "Agrippa 18, ¶ 22",
@@ -2704,7 +2810,18 @@
           134
         ]
       },
-      "text": "Another reason which I had in stating the amendments to be made, was to shew how nearly those who are for admitting the system with the necessary alterations, agree with those who are for rejecting this system and amending the confederation. In point of convenience, the confederation amended would be infinitely preferable to the proposed constitution. In amending the former, we know the powers granted, and are subject to no perplexity; but in reforming the latter, the business is excessively intricate, and great part of the checks on Congress are lost. It is to be remembered too, that if you are so far charmed with eloquence, and misled by fair representations and charitable constructions, as to adopt an undefined system, there will be no saying afterwards that you were mistaken, and wish to correct it. // will then be the constitution of our country, and entitled to defence. If Congress should chuse to avail themselves of a popular commotion to continue in being, as the fourth section justifies, and as the British parliament has repeatedly done, the only answer will be, that it is the constitution of our country, and the people chose it. It is therefore necessary to be exceedingly critical. Whatsoever way shall be chosen to secure our rights, the same resolve ought to contain the whole system of amendment. If it is rejected, the resolve should contain theamendations of the old system; and if accepted, it should contain the corrections of the new one. Agrippa."
+      "text": "Another reason which I had in stating the amendments to be made, was to shew how nearly those who are for admitting the system with the necessary alterations, agree with those who are for rejecting this system and amending the confederation. In point of convenience, the confederation amended would be infinitely preferable to the proposed constitution. In amending the former, we know the powers granted, and are subject to no perplexity; but in reforming the latter, the business is excessively intricate, and great part of the checks on Congress are lost. It is to be remembered too, that if you are so far charmed with eloquence, and misled by fair representations and charitable constructions, as to adopt an undefined system, there will be no saying afterwards that you were mistaken, and wish to correct it. // will then be the constitution of our country, and entitled to defence. If Congress should chuse to avail themselves of a popular commotion to continue in being, as the fourth section justifies, and as the British parliament has repeatedly done, the only answer will be, that it is the constitution of our country, and the people chose it. It is therefore necessary to be exceedingly critical. Whatsoever way shall be chosen to secure our rights, the same resolve ought to contain the whole system of amendment. If it is rejected, the resolve should contain theamendations of the old system; and if accepted, it should contain the corrections of the new one. Agrippa.",
+      "uncertain": [
+        {
+          "end": 817,
+          "readings": {
+            "brittle": "It",
+            "google": "//",
+            "primary": "//"
+          },
+          "start": 815
+        }
+      ]
     },
     {
       "label": "Agrippa 18, ¶ 23",
@@ -2718,7 +2835,7 @@
           134
         ]
       },
-      "text": "A writer in the Gazette of 2gth January under the signature of Captain M^ Daniel, having with civility and apparent candour, called for an explanation of what was said in one of my former papers, I have chosen to mention him with respect, as the only one of my reviewers who deserves an answer.",
+      "text": "A writer in the Gazette of 2gth January, under the signature of Captain M^ Daniel, having with civility and apparent candour, called for an explanation of what was said in one of fny former papers, I have chosen to mention him with respect, as the only one of my reviewers who deserves an answer.",
       "uncertain": [
         {
           "end": 31,
@@ -2728,6 +2845,23 @@
             "primary": "2gth"
           },
           "start": 27
+        },
+        {
+          "end": 74,
+          "readings": {
+            "brittle": "M>",
+            "primary": "M^"
+          },
+          "start": 72
+        },
+        {
+          "end": 182,
+          "readings": {
+            "brittle": "my",
+            "google": "my",
+            "primary": "fny"
+          },
+          "start": 179
         }
       ]
     },

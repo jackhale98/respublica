@@ -600,10 +600,15 @@ def plain(tok: str) -> bool:
     """A cleanly printed word: PLAIN, with brackets that open and close."""
     return bool(PLAIN.match(tok)) and tok.count("(") == tok.count(")") and tok.count("[") == tok.count("]")
 
-# Marks OCR leaves in a word that print does not: odd symbols, a doubled
+# Marks OCR leaves in a word that print does not: odd symbols (a slash is
+# OCR's reading of "!" in italics), a doubled
 # stop, and an asterisk inside a word (one before or after a word is a
 # footnote mark).
-STRAY = re.compile(r"[\\^|~_{}<>]|(?<=\w)\*(?=\w)|([,.;:!?'\"])\1")
+STRAY = re.compile(r"[\\/^|~_{}<>]|(?<=\w)\*(?=\w)|([,.;:!?'\"])\1")
+# Two different stops together ("naturally,.") are usually OCR noise, but
+# print has them after abbreviations ("art.,", "&c.,"): they count as stray
+# only when no other scan reads the word the same way.
+STOPS = re.compile(r"[,;:][,.;:]|\.[,;:]")
 
 
 def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
@@ -619,12 +624,17 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
 
     A known word cleanly printed in the primary (see PLAIN) is never
     replaced by a reading that is not a known word (two scans agreeing on
-    "CATO. serted" for "asserted" have picked up a running head). Three
-    cases stay unsettled whatever the count:
+    "CATO. serted" for "asserted" have picked up a running head). These
+    stay unsettled whatever the count:
       * the primary cleanly reads a known word and the others another known
         word ("friends" against "citizens"): a real word is never silently
         replaced by a different one (but ")our" is not clean, so "your"
         wins);
+      * the others read capitals where the main scan reads lower case
+        ("CASSIUS." for "Ciiuse", i.e. "Cause"): a signature or heading
+        lined up with the wrong word;
+      * the others read a much shorter word ("moters" for "prometers"): a
+        piece of a word broken at a line end, not a reading of it;
       * figures the scans read differently ("S181" against "2181"): the
         scans share confusions such as 2/S and 1/i, so a majority of them
         can be wrong about a number;
@@ -635,6 +645,15 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
         """A scan reads the word with an elision ("renown'd") that the known
         word ("renowned") spells out: OCR dictionaries regularize these."""
         return k.endswith("ed") and any(re.search(r"\w'\s?d\b", v) for v in readings.values())
+
+    def shouting(k: str) -> bool:
+        """The others read capitals ("CASSIUS.") where the main scan reads a
+        word in lower case ("Ciiuse"): a signature or heading misplaced."""
+        if k == pk:
+            return False
+        caps = [r for r in groups[k] if sum(c.isalpha() for c in r) >= 3 and r.upper() == r]
+        prim = readings["primary"]
+        return bool(caps) and len(caps) == len(groups[k]) and any(c.islower() for c in prim)
 
     def alike(x: str, y: str) -> bool:
         return x == y or SequenceMatcher(None, x, y, autojunk=False).ratio() >= 0.6
@@ -653,16 +672,32 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
         if len(groups[a]) == len(groups[b]) and ((a in known) == (b in known) or not alike(a, pk) or elided(a)):
             settled = False
             top = pk
-        elif any(c.isdigit() for c in top) or (top != pk and pk in known and top in known
-                                                and plain(readings["primary"])):
+        elif (any(c.isdigit() for c in top) or (top != pk and pk in known and top in known and plain(readings["primary"]))
+              or shouting(top) or len(top) < 0.75 * len(pk)):
             settled = False
             top = pk
     elif len(readings) == 1 and pk and pk not in known:
         settled = False
     candidates = groups[top]
-    # (a word read whole beats the same letters with a space in them)
-    clean = sorted((r for r in candidates if not STRAY.search(r)), key=lambda r: " " in r)
-    return (clean[0] if clean else candidates[0]), settled
+    clean = [r for r in candidates
+             if not STRAY.search(r) and (not STOPS.search(r) or list(readings.values()).count(r) >= 2)]
+    if not clean:
+        # Every reading of the winning letters has stray marks ("naturally^",
+        # "naturally,."): keep the main scan's, for a human.
+        return readings["primary"], False
+    # A word read whole beats the same letters with a space in them, if it
+    # is a known word and cleanly printed, and the pieces are not words
+    # themselves ("com munity" -> "community", but not "a vast" -> "avast",
+    # "us a" -> "usa" or "of conspiracy." -> "of.conspiracy.").
+    # Of readings with the same letters, prefer one that ends in the same
+    # marks as the main scan's ("January," not "January").
+    tail = re.search(r"\W*$", readings["primary"]).group()
+    clean.sort(key=lambda r: re.search(r"\W*$", r).group() != tail)
+    whole = [r for r in clean if " " not in r and plain(r) and key(r) in known]
+    pieces_are_words = all(key(t) in known for t in clean[0].split())
+    if whole and " " in clean[0] and not pieces_are_words:
+        return whole[0], settled
+    return clean[0], settled
 
 
 def known_words(clean: list[str]) -> set[str]:

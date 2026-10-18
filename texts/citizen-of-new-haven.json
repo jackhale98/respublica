@@ -22,7 +22,7 @@
       "level": 1,
       "publication": [
         "THE NEW HAVEN GAZETTE.",
-        "Thursday, December 4, 1788.",
+        "Thursday, December 4, 1 788.",
         "Observations on the Alterations Proposed as Amendments to the new Federal Constitution."
       ],
       "ref": "CitizenOfNewHaven.1",
@@ -92,7 +92,7 @@
           245
         ]
       },
-      "text": "1. It is proposed that the consent of two-thirds or three-fourths of the members present in this branch of the congress shall be required for passing certain acts."
+      "text": "1. It is proposed that the consent of two- thirds or three-fourths of the members present in this branch of the congress shall be required for passing certain acts."
     },
     {
       "label": "Citizen of New Haven 1, ¶ 3",
@@ -256,7 +256,18 @@
           247
         ]
       },
-      "text": "7. There is one amendment proposed by the convention of South Carolina respecting religious tests, by inserting the word other, between the words no and religious in that article, which is an ingenious thought, and had that word been inserted, it would probably have prevented any objection on that head. But it may be considered as a clerical omission and be inserted without calling a convention; as it now stands the effect will be the same."
+      "text": "7. There is one amendment proposed by the convention of South Carolina respecting religious tests, by inserting the word other, between the words 110 and religious in that article, which is an ingenious thought, and had that word been inserted, it would probably have prevented any objection on that head. But it may be considered as a clerical omission and be inserted without calling a convention; as it now stands the effect will be the same.",
+      "uncertain": [
+        {
+          "end": 149,
+          "readings": {
+            "brittle": "no",
+            "google": "no",
+            "primary": "110"
+          },
+          "start": 146
+        }
+      ]
     },
     {
       "label": "Citizen of New Haven 1, ¶ 15",
@@ -437,16 +448,25 @@
           251
         ]
       },
-      "text": "CITIZEN objects of expenditure will be the same under the new constitution, as under the old; nor need the administration of government be more expensive; the number of members of Congress will be the same, nor will it be necessary to increase the number of officers in the executive department or their salaries; the supreme executive will be in a single person, who must have an honourable support; which perhaps will not exceed the present allowance to the President of Congress, and the expence of su[)- porting a committee of the states in the recess of Congress.",
+      "text": "Tlie objects of expenditure will be the same under the new constitution, as under the old; nor need the administration of government be more expensive; the number of members of Congress will be the same, nor will it be necessary to increase the number of officers in the executive department or their salaries; the supreme executive will be in a single person, who must have an honourable support; which perhaps will not exceed the present allowance to the President of Congress, and the expence of su[)- porting a committee of the states in the recess of Congress.",
       "uncertain": [
         {
-          "end": 515,
+          "end": 4,
+          "readings": {
+            "brittle": "CITIZEN",
+            "google": "CITIZEN",
+            "primary": "Tlie"
+          },
+          "start": 0
+        },
+        {
+          "end": 512,
           "readings": {
             "brittle": "supporting",
             "google": "supporting",
             "primary": "su[)- porting"
           },
-          "start": 502
+          "start": 499
         }
       ]
     },
@@ -504,7 +524,7 @@
           251
         ]
       },
-      "text": "The principal sources of revenue : will he imposts on goods ii^i- ported, and sale of the western l.uuN. which will probably •»<■ sufficient to pay the debts and expences ol the United States while peace continues; but if there should be occasion to resort to dm ct taxation, each state's quota will \\)v a-itri Mined according to a ii;!t; which has been approved by the legislatures (^.fekvi n ol the states, and should any state neglect to furnish its quota, Congress may raise it in the same manner that tin; state ought to have done; and what remedy more easy ami equitable could be devised, Iw obtain the supplies from a delinquent state",
+      "text": "The principal sources of revenue : will he imposts on goods ii^i- ported, and sale of the western l.uuN. which will probably •»<■ sufficient to pay the debts and expences ol the United States while peace continues; but if there should be occasion to resort to dm ct taxation, each state's quota will \\)v a-itri Mined according to a ii;!t; which has been approved by the legislatures (^.fekvi n ol the states, and should any state neglect to furnish its quota. Congress may raise it in the same manner that tin; state ought to have done; and what remedy more easy ami equitable could be devised, Iw obtain the supplies from a delinquent state",
       "uncertain": [
         {
           "end": 42,
@@ -532,6 +552,13 @@
           "start": 98
         },
         {
+          "end": 129,
+          "readings": {
+            "primary": "•»<■"
+          },
+          "start": 125
+        },
+        {
           "end": 173,
           "readings": {
             "brittle": "of",
@@ -548,6 +575,13 @@
             "primary": "dm ct"
           },
           "start": 260
+        },
+        {
+          "end": 303,
+          "readings": {
+            "primary": "\\)v"
+          },
+          "start": 300
         },
         {
           "end": 316,

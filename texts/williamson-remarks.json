@@ -62,7 +62,18 @@
           410
         ]
       },
-      "text": "It seems to be generally admitted, that the system of government which has been proposed by the late convention, is well calculated to relieve us from many of the grievances under which we have been laboring. If I might express my particular sentiments on this subject, I should describe it as more free and more perfect than any form of government that has ever been adopted by any nation; but I would not say it has no faults. Imperfection is inseparable from every device. Several objections were made to this system by two or three very respectable characters in the convention, which have been the subject of much conversation; and other objections, by citizens of this state, have lately reached our ears. It is proper you should consider of these objections. They are of two kinds; they respect the things that are in the system, and the things that are not in it. We are told that there should have been a section for securing the trial by Jury in civil cases, and the liberty of the press: that there should also have been a declaration of rights. In the new system, it is provided, that the trial of all crimes, except in cases of impeachment, shall be by jury\" but this provision could not possibly be extended to all civil cases. For it is well known that the trial by jury is not general and uniform throughout the United States, either in cases of admiralty or of chancery; hence it becomes necessary to submit the question to the general Legislature, who might accommo- their laws on this occasion to the desires and habits of the nation. Surely there is no prohibition in a case that is untouched."
+      "text": "It seems to be generally admitted, that the system of government which has been proposed by the late convention, is well calculated to relieve us from many of the grievances under which we have been laboring. If I might express my particular sentiments on this subject, I should describe it as more free and more perfect than any form of government that has ever been adopted by any nation; but I would not say it has no faults. Imperfection is inseparable from every device. Several objections were made to this system by two or three very respectable characters in the convention, which have been the subject of much conversation; and other objections, by citizens of this state, have lately reached our ears. It is proper you should consider of these objections. They are of two kinds; they respect the things that are in the system, and the things that are not in it. We are told that there should have been a section for securing the trial by Jury in civil cases, and the liberty of the press: that there should also have been a declaration of rights. In the new system, it is provided, that the trial of all crimes, except in cases of impeachment, shall be by jury\" but this provision could not possibly be extended to all civil cases. For it is well known that the trial by jury is not general and uniform throughout the United States, either in cases of admiralty or of chancery; hence it becomes necessary to submit the question to the general Legislature, who might acconmiodate their laws on this occasion to the desires and habits of the nation. Surely there is no prohibition in a case that is untouched.",
+      "uncertain": [
+        {
+          "end": 1488,
+          "readings": {
+            "brittle": "accommo-",
+            "google": "accommo-",
+            "primary": "acconmiodate"
+          },
+          "start": 1476
+        }
+      ]
     },
     {
       "label": "Remarks on the New Plan, ¶ 3",

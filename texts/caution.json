@@ -106,15 +106,24 @@
           340
         ]
       },
-      "text": "The ostensible cause for offering you the petition to sign is, that you may express your sentiments to the legislature, that they ought to call a Convention to ratify the new form of government for the United States ; but the real design of the moters of the petition is to draw you into a declaration in favour of the whole system, and to bind you hereafter to support it, which you must do, or allege deception and surprise, if, on further reflection, you should discover that you rashly gave an opinion against your real interests. If the real intention of the promoters and carriers of this petition was only to obtain your opinion in favour of calling a Convention, it might have been expressed in 3. few lines ; and no one would oppose such a petition, although improper and unnecessary, because your Delegates will certainly move for, and exert themselves to procure, the calling a Convention ; and no member of the General Assembly will deny that, in so doing, your Delegates speak your sentiments.",
+      "text": "The ostensible cause for offering you the petition to sign is, that you may express your sentiments to the legislature, that they ought to call a Convention to ratify the new form of government for the United States ; but the real design of the prometers of the petition is to draw you into a declaration in favour of the whole system, and to bind you hereafter to support it, which you must do, or allege deception and surprise, if, on further reflection, you should discover that you rashly gave an opinion against your real interests. If the real intention of the promoters and carriers of this petition was only to obtain your opinion in favour of calling a Convention, it might have been expressed in 3. few lines ; and no one would oppose such a petition, although improper and unnecessary, because your Delegates will certainly move for, and exert themselves to procure, the calling a Convention ; and no member of the General Assembly will deny that, in so doing, your Delegates speak your sentiments.",
       "uncertain": [
         {
-          "end": 705,
+          "end": 254,
+          "readings": {
+            "brittle": "moters",
+            "google": "moters",
+            "primary": "prometers"
+          },
+          "start": 245
+        },
+        {
+          "end": 708,
           "readings": {
             "brittle": "a",
             "primary": "3."
           },
-          "start": 703
+          "start": 706
         }
       ]
     },
@@ -144,7 +153,18 @@
           340
         ]
       },
-      "text": "First — because the decision, /<?r or against the plan, is of the greatest consequence, as it involves no less than the happiness or misery of you and all your posterity forever; and therefore, I think, requires your dispassionate and most deliberate consideration. Secondly — because you want information, and have not had time yourselves to examine the proposed system, and to consider the consequences that may flow from rejecting or adopting it. Thirdly — because time is not given for your countrymen in this, and the other States, to consider the subject, and to lay their sentiments and reasons for or against the measure before you. Fourthly — because you ought to hear both sides, as the man who determines on hearing one part only, will almost always be mistaken in his judgment. He may be in the right, but it will be by chance and not by reason. Fifthly — because you are not pressed in point of time to determine on the subject; you have at least three months for deliberation; to decide, therefore, in a few days will be rashness and folly. Sixthly — when men urge you to determine in haste, on so momentuous a subject, it is not unreasonable to require their motives; and it is not uncharitable to suspect that they are improper; and no possible mischief or inconvenience can happen from delay,"
+      "text": "First — because the decision, /<?r or against the plan, is of the greatest consequence, as it involves no less than the happiness or misery of you and all your posterity forever; and therefore, I think, requires your dispassionate and most deliberate consideration. Secondly — because you want information, and have not had time yourselves to examine the proposed system, and to consider the consequences that may flow from rejecting or adopting it. Thirdly — because time is not given for your countrymen in this, and the other States, to consider the subject, and to lay their sentiments and reasons for or against the measure before you. Fourthly — because you ought to hear both sides, as the man who determines on hearing one part only, will almost always be mistaken in his judgment. He may be in the right, but it will be by chance and not by reason. Fifthly — because you are not pressed in point of time to determine on the subject; you have at least three months for deliberation; to decide, therefore, in a few days will be rashness and folly. Sixthly — when men urge you to determine in haste, on so momentuous a subject, it is not unreasonable to require their motives; and it is not uncharitable to suspect that they are improper; and no possible mischief or inconvenience can happen from delay,",
+      "uncertain": [
+        {
+          "end": 34,
+          "readings": {
+            "brittle": "decision, for",
+            "google": "decision,/<?r",
+            "primary": "decision, /<?r"
+          },
+          "start": 20
+        }
+      ]
     }
   ],
   "short": "Caution",

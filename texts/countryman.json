@@ -439,7 +439,7 @@
           234
         ]
       },
-      "text": "The same thing once more — I am a plain man, of few words ; for this reason perhaps it is, that when I have said a thing I love to repeat it. Last week I endeavored to evince, that the onlysurety you could have for your liberties must be in the nature of your government]; that you could derive no security from bills of rights, or stipulations, on the subject of a standing army, the liberty of the press, trial by jury, or on any other subject. Did you ever hear of an absolute monarchy, where those rights which are proposed by the pigmy politicians of this day, to be secured by stipulation, were ever preserved? Would it not be mere trifling to make any such stipulations, in any absolute monarchy?"
+      "text": "The same thing once more — I am a plain man, of few words ; for this reason perhaps it is, that when I have said a thing I love to repeat it. Last week I endeavored to evince, that the only surety you could have for your liberties must be in the nature of your government]; that you could derive no security from bills of rights, or stipulations, on the subject of a standing army, the liberty of the press, trial by jury, or on any other subject. Did you ever hear of an absolute monarchy, where those rights which are proposed by the pigmy politicians of this day, to be secured by stipulation, were ever preserved? Would it not be mere trifling to make any such stipulations, in any absolute monarchy?"
     },
     {
       "label": "Countryman 3, ¶ 2",
@@ -609,7 +609,18 @@
           239
         ]
       },
-      "text": "You do not hate to read Newspaper Essays on the new constitution, more than I hate to write them. Then we will be short - - - which I have often found the best expression in a dull sermon, except the last."
+      "text": "You do not hate to read Newspaper Essays on the new constitution, more than I hate to write them. Then tue will be short - - - which I have often found the best expression in a dull sermon, except the last.",
+      "uncertain": [
+        {
+          "end": 106,
+          "readings": {
+            "brittle": "we",
+            "google": "we",
+            "primary": "tue"
+          },
+          "start": 103
+        }
+      ]
     },
     {
       "label": "Countryman 5, ¶ 2",

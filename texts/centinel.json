@@ -38,7 +38,27 @@
       "publication": [],
       "ref": "Centinel.2",
       "salutation": "To the People of Pennsylvania. Friends.^ Countrymen^ and Fellow Citizens.",
-      "signature": "Centinel."
+      "signature": "Centinel.",
+      "uncertain": {
+        "salutation": [
+          {
+            "end": 40,
+            "readings": {
+              "pitt": "Friends^",
+              "primary": "Friends.^"
+            },
+            "start": 31
+          },
+          {
+            "end": 52,
+            "readings": {
+              "pitt": "Countrymen^",
+              "primary": "Countrymen^"
+            },
+            "start": 41
+          }
+        ]
+      }
     },
     {
       "attribution": {
@@ -54,7 +74,18 @@
       "publication": [],
       "ref": "Centinel.3",
       "salutation": "To the People of Pennsylvania.",
-      "signature": "Philadelphia, November 5th, 1787. Centinei.."
+      "signature": "Philadelphia, November 5th, 1787. Centinei..",
+      "uncertain": {
+        "signature": [
+          {
+            "end": 44,
+            "readings": {
+              "primary": "Centinei.."
+            },
+            "start": 34
+          }
+        ]
+      }
     },
     {
       "attribution": {
@@ -70,7 +101,27 @@
       "publication": [],
       "ref": "Centinel.4",
       "salutation": "To the People of Pennsylvania. Friends^ Countrymen and Fellow Citizens^",
-      "signature": "Centinel."
+      "signature": "Centinel.",
+      "uncertain": {
+        "salutation": [
+          {
+            "end": 39,
+            "readings": {
+              "pitt": "FiHends^",
+              "primary": "Friends^"
+            },
+            "start": 31
+          },
+          {
+            "end": 71,
+            "readings": {
+              "pitt": "Citizens^",
+              "primary": "Citizens^"
+            },
+            "start": 62
+          }
+        ]
+      }
     },
     {
       "attribution": {
@@ -172,9 +223,19 @@
       "level": 1,
       "publication": [],
       "ref": "Centinel.9",
-      "salutation": "To the People of Pennsylvania. 'Fellow Citizens.,",
+      "salutation": "To the People of Pennsylvania. 'Fellow Citizens^",
       "signature": "Philadelphia, January 5, 1788. Cetinel.",
       "uncertain": {
+        "salutation": [
+          {
+            "end": 48,
+            "readings": {
+              "pitt": "Citizens.,",
+              "primary": "Citizens^"
+            },
+            "start": 39
+          }
+        ],
         "signature": [
           {
             "end": 39,
@@ -384,7 +445,7 @@
       "publication": [],
       "ref": "Centinel.20",
       "salutation": "To the Citizens of Philadelphia.",
-      "signature": "Philadelphia, October 23d, 1788. Centinei.,",
+      "signature": "Philadelphia, October 23d, 1788. CenTinei..",
       "uncertain": {
         "signature": [
           {
@@ -394,6 +455,14 @@
               "primary": "23d,"
             },
             "start": 22
+          },
+          {
+            "end": 43,
+            "readings": {
+              "pitt": "Centinei.,",
+              "primary": "CenTinei.."
+            },
+            "start": 33
           }
         ]
       }
@@ -495,7 +564,17 @@
           615
         ]
       },
-      "text": "Mr. Oswald: As the Independent Gazetteer seems free for the discussion of all public matters^ I expect you will give the following a place in your next."
+      "text": "Mr. Oswald: As the Independent Gazetteer seems free for the discussion of all public matters^ I expect you will give the following a place in your next.",
+      "uncertain": [
+        {
+          "end": 93,
+          "readings": {
+            "pitt": "matters^",
+            "primary": "matters^"
+          },
+          "start": 85
+        }
+      ]
     },
     {
       "label": "Centinel 1, ¶ 2",
@@ -509,7 +588,17 @@
           615
         ]
       },
-      "text": "To the Freemen of Pennsylvania. Friends., Countrymen and Fellow Citizens."
+      "text": "To the Freemen of Pennsylvania. Friends., Countrymen and Fellow Citizens.",
+      "uncertain": [
+        {
+          "end": 41,
+          "readings": {
+            "pitt": "Friends^",
+            "primary": "Friends.,"
+          },
+          "start": 32
+        }
+      ]
     },
     {
       "label": "Centinel 1, ¶ 3",
@@ -526,6 +615,37 @@
       },
       "text": "Permit one of yourselves to put you in mind of certain liberties and privileges secured to you by the constitution of this commonwealth, and to beg your serious attention to his uninterested opinion upon the plan of federal government submitted to your consideration, before you surrender these great and valuable privileges up forever. Your present frame of government secures to you a right to hold yourselves, houses, papers and possessions free from search and seizure, and therefore warrants granted without oaths or affirmations first made, affording sufficient foundations for them, whereby any officer or messenger may be commanded or required to search your houses or seize your persons or property not particularly described in such warrant, shall not be granted. Your constitution further provides ' ' that in controversies respecting property, and in suits between man and man, the parties have a right to trial by jury., which ought to be held sacred. ' ' It also provides and declares, ' ' that the people have a right o/\" FREEDOM OF SPEECH, and of writing and PUBLISHING their sentiments., therefore THE FREEDOM OF THE PRESS OUGHT NOT TO BE RESTRAINED.\" The constitution of Pennsylvania is yet in existence, as yet you have the right to freedom of speech., and of publishing your sentiments. How long those rights will appertain to you, you yourselves are called upon to say; whether your houses shall continue to be your castles, whether your papers, yo\\xx persons and your property, are to be held sacred and free from general warrants, you are now to determine. Whether the trial by jury is to continue as your birth-right, the freemen of Pennsylvania, nay, of all America, are now called upon to declare.",
       "uncertain": [
+        {
+          "end": 933,
+          "readings": {
+            "pitt": "jtiry^",
+            "primary": "jury.,"
+          },
+          "start": 927
+        },
+        {
+          "end": 1036,
+          "readings": {
+            "primary": "o/\""
+          },
+          "start": 1033
+        },
+        {
+          "end": 1104,
+          "readings": {
+            "pitt": "sentiments^",
+            "primary": "sentiments.,"
+          },
+          "start": 1092
+        },
+        {
+          "end": 1271,
+          "readings": {
+            "pitt": "speech^",
+            "primary": "speech.,"
+          },
+          "start": 1263
+        },
         {
           "end": 1472,
           "readings": {
@@ -723,7 +843,7 @@
           625
         ]
       },
-      "text": "It will not be controverted that the legislative is the highest delegated power in government, and that all others are subordinate to it. The celebrated Montesquieu establishes it as a maxim, that legislation necessarily follows the power of taxation. By sect. 8, of the first article of the proposed plan of government, \"the Congress are to have power to lay and collect taxes, duties, imposts, and excises, to pay the debts and provide for the common defense and general welfare of the United States; but all duties, imposts and excises, shall be uniform throughout the United States. ' ' Now what can be more comprehensive than these words? Not content by other sections of this plan, to grant all the great executive powers of a confederation, and a standing army in Time of PEACE, that grand engine of oppression, and moreover the absolute control over the commerce of the United States and all external objects of revenue, such as unlimited imposts upon imports, etc. , they are to be vested with every species of internal taxation ; whatever taxes, duties and excises that they njay deem requisite for the general welfare., may be imposed on the citizens of these states, levied by the officers of Congress, distributed through every district in America; and the collection would be enforced by the standing army, however grievous or improper they may be. The Congress may construe every purpose for which the State legislatures now lay taxes, to be for the general welfare., and thereby seize upon every object of revenue.",
+      "text": "It will not be controverted that the legislative is the highest delegated power in government, and that all others are subordinate to it. The celebrated Montesquieu establishes it as a maxim, that legislation necessarily follows the power of taxation. By sect. 8, of the first article of the proposed plan of government, \"the Congress are to have power to lay and collect taxes, duties, imposts, and excises, to pay the debts and provide for the common defense and general welfare of the United States; but all duties, imposts and excises, shall be uniform throughout the United States. ' ' Now what can be more comprehensive than these words? Not content by other sections of this plan, to grant all the great executive powers of a confederation, and a standing army in Time of PEACE, that grand engine of oppression, and moreover the absolute control over the commerce of the United States and all external objects of revenue, such as unlimited imposts upon imports, etc. , they are to be vested with every species of internal taxation ; whatever taxes, duties and excises that they njay deem requisite for the general welfare^ may be imposed on the citizens of these states, levied by the officers of Congress, distributed through every district in America; and the collection would be enforced by the standing army, however grievous or improper they may be. The Congress may construe every purpose for which the State legislatures now lay taxes, to be for the general welfare^ and thereby seize upon every object of revenue.",
       "uncertain": [
         {
           "end": 1089,
@@ -732,6 +852,22 @@
             "primary": "njay"
           },
           "start": 1085
+        },
+        {
+          "end": 1129,
+          "readings": {
+            "pitt": "welfare.,",
+            "primary": "welfare^"
+          },
+          "start": 1121
+        },
+        {
+          "end": 1480,
+          "readings": {
+            "pitt": "welfare.,",
+            "primary": "welfare^"
+          },
+          "start": 1472
         }
       ]
     },
@@ -791,7 +927,17 @@
           626
         ]
       },
-      "text": "To put the omnipotency of Congress over the State government and judicatories out of all doubt, the 6th article ordains that ' ' this constitution and the laws of the United States which shall be made in pursuance thereof, and all treaties made, or which shall be made under the authority of the United States, shall be the supreme law of the land., and the judges in every State shall be bound thereby, anything in the constitution or laws of any State to the contrary notwithstanding.\""
+      "text": "To put the omnipotency of Congress over the State government and judicatories out of all doubt, the 6th article ordains that ' ' this constitution and the laws of the United States which shall be made in pursuance thereof, and all treaties made, or which shall be made under the authority of the United States, shall be the supreme law of the land^ and the judges in every State shall be bound thereby, anything in the constitution or laws of any State to the contrary notwithstanding.\"",
+      "uncertain": [
+        {
+          "end": 348,
+          "readings": {
+            "pitt": "land.,",
+            "primary": "land^"
+          },
+          "start": 343
+        }
+      ]
     },
     {
       "label": "Centinel 1, ¶ 19",
@@ -805,7 +951,17 @@
           626
         ]
       },
-      "text": "By these sections the all-prevailing power of taxation, and such extensive legislative and judicial powers are vested in the general government, as must in their operation necessarily absorb the State legislatures and judicatories; and that such was in the contemplation of the framers of it, will appear from the provision made for such event, in another part of it (but that, fearful of alarming the people by so great an innovation, they have suffered the forms of the separate governments to remain, as a blind). By Article ist sect. 4th, \"the times, places and manner of holding elections for senators and representatives, shall be prescribed in each State by the legislature thereof; but the Congress may at any time, by law, make or alter such regulations, except as to the place of choosing senators.'''' The plain construction of which is, that when the State legislatures drop out of sight, from the necessary operation of this government, then Congress are to provide for the election and appointment of representatives and senators."
+      "text": "By these sections the all-prevailing power of taxation, and such extensive legislative and judicial powers are vested in the general government, as must in their operation necessarily absorb the State legislatures and judicatories; and that such was in the contemplation of the framers of it, will appear from the provision made for such event, in another part of it (but that, fearful of alarming the people by so great an innovation, they have suffered the forms of the separate governments to remain, as a blind). By Article ist sect. 4th, \"the times, places and manner of holding elections for senators and representatives, shall be prescribed in each State by the legislature thereof; but the Congress may at any time, by law, make or alter such regulations, except as to the place of choosing senators.'''' The plain construction of which is, that when the State legislatures drop out of sight, from the necessary operation of this government, then Congress are to provide for the election and appointment of representatives and senators.",
+      "uncertain": [
+        {
+          "end": 812,
+          "readings": {
+            "pitt": "senators.''^",
+            "primary": "senators.''''"
+          },
+          "start": 799
+        }
+      ]
     },
     {
       "label": "Centinel 1, ¶ 20",
@@ -999,7 +1155,7 @@
           629
         ]
       },
-      "text": "The framers of it, actuated by the true spirit of such a government, which ever abominates and suppresses all free inquiry and discussion, have made no provision for the liberty of the press, that granA palladium of freedom, and scourge of tyrants; but observed a total silence on that head. It is the opinion of some great writers, that if the liberty of the press, by an institution of religion or otherwise, could be rendered sacred, even in Turkey, that despotism would fly before it. And it is worthy of remark that there is no declaration of personal rights, premised in most free constitutions; and that trial hy jury in civil cases is taken away; for what other construction can be put on the following, viz : Article 3d, sect. 2d, \"In all cases affecting ambassadors, other public ministers and consuls, and those in which a State shall be party, the Supreme Court shall have original jurisdiction. In all the other cases above mentioned, the Supreme Court shall have appellate jurisdiction, both as to law and fact/ It would be a novelty in jurisprudence, as well as evidently improper, to allow an appeal from the verdict of a jury, on the matter of fact; therefore it implies and allows of a dismission of the jury in civil cases, and especially when it is considered, that jury trial in criminal cases is expressly stipulated for, but not in civil cases.",
+      "text": "The framers of it, actuated by the true spirit of such a government, which ever abominates and suppresses all free inquiry and discussion, have made no provision for the liberty of the press, that granA palladium of freedom, and scourge of tyrants; but observed a total silence on that head. It is the opinion of some great writers, that if the liberty of the press, by an institution of religion or otherwise, could be rendered sacred, even in Turkey, that despotism would fly before it. And it is worthy of remark that there is no declaration of personal rights, premised in most free constitutions; and that trial hy jury in civil cases is taken away; for what other construction can be put on the following, viz : Article 3d, sect. 2d, \"In all cases affecting ambassadors, other public ministers and consuls, and those in which a State shall be party, the Supreme Court shall have original jurisdiction. In all the other cases above mentioned, the Supreme Court shall have appellate jurisdiction, both as to law and factP'' It would be a novelty in jurisprudence, as well as evidently improper, to allow an appeal from the verdict of a jury, on the matter of fact; therefore it implies and allows of a dismission of the jury in civil cases, and especially when it is considered, that jury trial in criminal cases is expressly stipulated for, but not in civil cases.",
       "uncertain": [
         {
           "end": 202,
@@ -1007,6 +1163,14 @@
             "primary": "granA"
           },
           "start": 197
+        },
+        {
+          "end": 1027,
+          "readings": {
+            "pitt": "fact/",
+            "primary": "factP''"
+          },
+          "start": 1020
         }
       ]
     },
@@ -1188,7 +1352,17 @@
           632
         ]
       },
-      "text": "The new plan was accordingly ushered to the public with such a splendor of names, as inspired the most unlimited confidence; the people were disposed to receive upon trust, without any examination on their part, what would have proved either a blessing or a curse to them and their posterity. What astonishing infatuation ! to stake their happiness on the wisdom and integrity of any set of men! In matters of infinitely smaller concern, the dictates of prudence are not disregarded! The celebrated Montesquieu, in his Spirit of Laws, says, that \"slavery is ever preceded by sleep.\" And again, in his account of the rise and fall of the Roman Em- 37 pire, page 97, ' ' That it may be advanced as a general rule, that in a free State, whenever a perfect calm is visible, the spirit of liberty no longer subsists. ' ' And Mr. Dickinson., in his Farmer's Letters, No. XI., lays it down as a maxim, that \"A perpetual jealousy respecting liberty is absolutely requisite in all free States. ' '"
+      "text": "The new plan was accordingly ushered to the public with such a splendor of names, as inspired the most unlimited confidence; the people were disposed to receive upon trust, without any examination on their part, what would have proved either a blessing or a curse to them and their posterity. What astonishing infatuation ! to stake their happiness on the wisdom and integrity of any set of men! In matters of infinitely smaller concern, the dictates of prudence are not disregarded! The celebrated Montesquieu, in his Spirit of Laws, says, that \"slavery is ever preceded by sleep.\" And again, in his account of the rise and fall of the Roman Em- 37 pire, page 97, ' ' That it may be advanced as a general rule, that in a free State, whenever a perfect calm is visible, the spirit of liberty no longer subsists. ' ' And Mr. Dickinson., in his Farmer's Letters, No. XI., lays it down as a maxim, that \"A perpetual jealousy respecting liberty is absolutely requisite in all free States. ' '",
+      "uncertain": [
+        {
+          "end": 835,
+          "readings": {
+            "pitt": "Dickinson^",
+            "primary": "Dickinson.,"
+          },
+          "start": 824
+        }
+      ]
     },
     {
       "label": "Centinel 2, ¶ 7",
@@ -1216,7 +1390,17 @@
           632
         ]
       },
-      "text": "A few citizens of Philadelphia (too few, for the honor of human nature) who had the wisdom to think consideration ought to precede approbation., and the fortitude to avow that they would take time to judge for themselves on so momentous an occasion, were stigmatized as enemies to their country; as monsters, whose existence ought not to be suffered, and the destruction of them and their houses recommended, as meritorious. The authors of the new plan, conscious that it would not stand the test of enlightened patriotism, tyrannically endeavored to preclude all investigation. If their views were laudable, if they were honest, the contrary would have been their conduct, they would have invited the freest discussion. Whatever specious reasons may be assigned for secrecy during the framing of the plan, no good one can exist for leading the people blindfolded into the implicit adoption of it. Such an attempt does not augur the public good — it carries on the face of it an intention to juggle the people out of their liberties."
+      "text": "A few citizens of Philadelphia (too few, for the honor of human nature) who had the wisdom to think consideration ought to precede approbation., and the fortitude to avow that they would take time to judge for themselves on so momentous an occasion, were stigmatized as enemies to their country; as monsters, whose existence ought not to be suffered, and the destruction of them and their houses recommended, as meritorious. The authors of the new plan, conscious that it would not stand the test of enlightened patriotism, tyrannically endeavored to preclude all investigation. If their views were laudable, if they were honest, the contrary would have been their conduct, they would have invited the freest discussion. Whatever specious reasons may be assigned for secrecy during the framing of the plan, no good one can exist for leading the people blindfolded into the implicit adoption of it. Such an attempt does not augur the public good — it carries on the face of it an intention to juggle the people out of their liberties.",
+      "uncertain": [
+        {
+          "end": 144,
+          "readings": {
+            "pitt": "approbation^",
+            "primary": "approbation.,"
+          },
+          "start": 131
+        }
+      ]
     },
     {
       "label": "Centinel 2, ¶ 9",
@@ -1289,6 +1473,22 @@
             "primary": "the"
           },
           "start": 135
+        },
+        {
+          "end": 163,
+          "readings": {
+            "pitt": "f''",
+            "primary": "f\"\""
+          },
+          "start": 160
+        },
+        {
+          "end": 964,
+          "readings": {
+            "pitt": "rights.^",
+            "primary": "rights^"
+          },
+          "start": 957
         }
       ]
     },
@@ -1308,6 +1508,14 @@
       },
       "text": "In the plan of Confederation of 1778, now existing, it was thought proper by Article the 2d, to declare that \"each State retains its sovereignty, freedom and independence, and every power, jurisdiction and right, which is not by this Confederation expressly delegated to the United States in Congress assembled. ' ' Positive grant was not then thought sufficiently descriptive and restraining upon Congress, and the omission of such a declaration now., when such great devolutions of power are proposed, manifests the design of reducing the several States to shadows. But Mr. Wilson tells you, that every right and power not specially granted to Congress is considered as withheld. How does this appear ? Is this principle established by the proper authority? Has the Convention made such astipulation? By no means. Quite the reverse; the laws of Congress are to be \"the supreme law of the land, any thing in the Constitutions or laws of any State to the contrary notwithstanding;\" and consequently, -WQ\\A^\\t^ paramount to all State authorities. The lust of power is so universal, that a speculative unascertained rule of construction would be a poor security for the liberties of the people.",
       "uncertain": [
+        {
+          "end": 452,
+          "readings": {
+            "pitt": "noiv.,",
+            "primary": "now.,"
+          },
+          "start": 447
+        },
         {
           "end": 1009,
           "readings": {
@@ -1352,6 +1560,22 @@
             "primary": "gth,"
           },
           "start": 212
+        },
+        {
+          "end": 344,
+          "readings": {
+            "pitt": "internally^",
+            "primary": "internally^"
+          },
+          "start": 333
+        },
+        {
+          "end": 367,
+          "readings": {
+            "pitt": "externally^",
+            "primary": "externally^"
+          },
+          "start": 356
         }
       ]
     },
@@ -1371,12 +1595,28 @@
       "text": "By the proposed plan, there are divers cases of judicial authority to be given to the courts of the United States, besides the two mentioned by Mr. Wilson. In maritime causes about property, jury trial has not been usual ; but in suits in equity^ with all due deference to Mr. Wilson's professional abilities, (which he calls to his aid) jury trial, as to facts, is in full exercise. Will this jurisperitus say that if the question in equity should be, did John Doe make a will, that the chancellor of England would decide upon it ? He well knows that in this case, there being no mode of jury trial before the chancellor, the question would be referred to the court of king's bench for discussion according to the common law, and when the judge in equity should receive the verdict, the fact so established could never be re-examined or controverted. Maritime causes and those appertaining to a court of equity, are, however, but two of the many and extensive subjects of federal cognizance mentioned in the plan. This jurisdiction will embrace all suits arising under' the laws of impost, excise and other revenue of the United States. In England if goods be seized, if a ship be prosecuted for non-compliance with, or breach of the laws of the customs, or those for regulating trade, in the courts of exchequer, the claimant is secured of the transcedent privilege of Englishmen, trial by a jury of his peers. Why not in the United States of America? This jurisdiction also goes to all cases under the laws of the United States, that is to say, under all statutes and ordinances of Congress. How far this may extend, it is easy to forsee; for upon the decay of the state powers of legislation, in consequence of the loss of Wi^ purse-strings^ it will be found necessary for the federal legislature to make laws upon every subject of legislation. Hence the state courts of justice, like the barony and hundred courts of England, will be eclipsed and gradually fall into disuse.",
       "uncertain": [
         {
+          "end": 246,
+          "readings": {
+            "pitt": "equity^",
+            "primary": "equity^"
+          },
+          "start": 239
+        },
+        {
           "end": 1730,
           "readings": {
             "pitt": "the",
             "primary": "Wi^"
           },
           "start": 1727
+        },
+        {
+          "end": 1745,
+          "readings": {
+            "pitt": "purse-strings^",
+            "primary": "purse-strings^"
+          },
+          "start": 1731
         }
       ]
     },
@@ -1451,7 +1691,17 @@
           638
         ]
       },
-      "text": "\"The policy of this right of juries, (says Judge Blackstone) to decide upon fact^ is founded on this: That if the power of judging were entirely trusted with the magistrates, or any select body of men, named by the executive authority, their decisions, in spite of their own natural integrity, would have a bias towards those of their own rank and dignity ; for it is not to be expected, that the few should be attentive to the rights of the many. This therefore preserves in the hands of the people, that share which they ought to have in the administration of justice, and prevents the encroachments of the more powerful and wealthy citizens.\""
+      "text": "\"The policy of this right of juries, (says Judge Blackstone) to decide upon fact^ is founded on this: That if the power of judging were entirely trusted with the magistrates, or any select body of men, named by the executive authority, their decisions, in spite of their own natural integrity, would have a bias towards those of their own rank and dignity ; for it is not to be expected, that the few should be attentive to the rights of the many. This therefore preserves in the hands of the people, that share which they ought to have in the administration of justice, and prevents the encroachments of the more powerful and wealthy citizens.\"",
+      "uncertain": [
+        {
+          "end": 81,
+          "readings": {
+            "pitt": "fact^",
+            "primary": "fact^"
+          },
+          "start": 76
+        }
+      ]
     },
     {
       "label": "Centinel 2, ¶ 21",
@@ -1539,7 +1789,25 @@
           639
         ]
       },
-      "text": "Mr. Wilson asserts, that never was charge made with less reason, that that which predicts the institution of a baneful aristocracy in the federal Senate. In my first number, I stated that this body would be a very unequal representation of the several States, that the members being appointed for the long term of six years, and there being no exclusion by rotation, they might be continued for life, which would follow of course from their extensive means of influence, and that possessing a considerable share in the executive as well as legislative^ it would become a permanent aristocracy^ and swallow up the other orders in the government."
+      "text": "Mr. Wilson asserts, that never was charge made with less reason, that that which predicts the institution of a baneful aristocracy in the federal Senate. In my first number, I stated that this body would be a very unequal representation of the several States, that the members being appointed for the long term of six years, and there being no exclusion by rotation, they might be continued for life, which would follow of course from their extensive means of influence, and that possessing a considerable share in the executive as well as legislative^ it would become a permanent aristocracy^ and swallow up the other orders in the government.",
+      "uncertain": [
+        {
+          "end": 552,
+          "readings": {
+            "pitt": "legislative^",
+            "primary": "legislative^"
+          },
+          "start": 540
+        },
+        {
+          "end": 593,
+          "readings": {
+            "pitt": "aristocracy^",
+            "primary": "aristocracy^"
+          },
+          "start": 581
+        }
+      ]
     },
     {
       "label": "Centinel 2, ¶ 25",
@@ -1553,7 +1821,33 @@
           640
         ]
       },
-      "text": "That these fears are not imaginary, a knowledge of the history of other nations, where the powers of government have been injudiciously placed, will fully demonstrate. Mr. Wilson says, \"the senate branches into two characters; the one legislative and the other executive. In its legislative character it can effect no purpose, without the co-operation of the house of representatives, and in its executive character it can accomplish no object without the concurrence of the president. Thus fettered, I do not know any act which the senate can of itself perform, and such dependence necessarily precludes every idea of influence and superiority.\" This I confess is very specious, but experience demonstrates that checks in government, unless accompanied with adequate power and independently placed, prove merely nominal^ and will be inoperative. Is it probable, that the President of the United States, limited as he is in power, and dependent on the will of the senate, in appointments to office, will either have the firmness or inclination to exercise his prerogative of a conditional control upon the proceedings of that body, however injurious they may be to the public welfare? It will be his interest to coincide with the views of the senate, and thus become the head of the aristocratic junto. The king of England is a constitutent part in the legislature, but although an hereditary monarch, in possession of the whole executive power, including the unrestrained appointment to offices, and an immense revenue, enjoys but in name the prerogative of a negative upon the parliament. Even the king of England, circumstanced as he is, has not dared to exercise it for near a century past. The check of the house of representatives upon the senate will likewise be rendered nugatory for want of due weight in the democratic branch, and from their constitution they may become so independent of the people as to be indifferent of its interests: nay, as Congress would have the control over the mode and place of their election, by ordering the representatives of a whole state to be elected at one place, and that too the most inconvenient^ the ruling powers may govern the choice^ and thus the house of representatives may be composed of the. creatures of the senate. Still the semblance of checks may remain, but without operation."
+      "text": "That these fears are not imaginary, a knowledge of the history of other nations, where the powers of government have been injudiciously placed, will fully demonstrate. Mr. Wilson says, \"the senate branches into two characters; the one legislative and the other executive. In its legislative character it can effect no purpose, without the co-operation of the house of representatives, and in its executive character it can accomplish no object without the concurrence of the president. Thus fettered, I do not know any act which the senate can of itself perform, and such dependence necessarily precludes every idea of influence and superiority.\" This I confess is very specious, but experience demonstrates that checks in government, unless accompanied with adequate power and independently placed, prove merely nominal^ and will be inoperative. Is it probable, that the President of the United States, limited as he is in power, and dependent on the will of the senate, in appointments to office, will either have the firmness or inclination to exercise his prerogative of a conditional control upon the proceedings of that body, however injurious they may be to the public welfare? It will be his interest to coincide with the views of the senate, and thus become the head of the aristocratic junto. The king of England is a constitutent part in the legislature, but although an hereditary monarch, in possession of the whole executive power, including the unrestrained appointment to offices, and an immense revenue, enjoys but in name the prerogative of a negative upon the parliament. Even the king of England, circumstanced as he is, has not dared to exercise it for near a century past. The check of the house of representatives upon the senate will likewise be rendered nugatory for want of due weight in the democratic branch, and from their constitution they may become so independent of the people as to be indifferent of its interests: nay, as Congress would have the control over the mode and place of their election, by ordering the representatives of a whole state to be elected at one place, and that too the most inconvenient^ the ruling powers may govern the choice^ and thus the house of representatives may be composed of the. creatures of the senate. Still the semblance of checks may remain, but without operation.",
+      "uncertain": [
+        {
+          "end": 821,
+          "readings": {
+            "pitt": "nominal^",
+            "primary": "nominal^"
+          },
+          "start": 813
+        },
+        {
+          "end": 2144,
+          "readings": {
+            "pitt": "inconvenient.^",
+            "primary": "inconvenient^"
+          },
+          "start": 2131
+        },
+        {
+          "end": 2185,
+          "readings": {
+            "pitt": "choice.^",
+            "primary": "choice^"
+          },
+          "start": 2178
+        }
+      ]
     },
     {
       "label": "Centinel 2, ¶ 26",
@@ -1651,7 +1945,17 @@
           643
         ]
       },
-      "text": "The new plan, it is true, does propose to secure the people of the benefit of personal liberty by the habeas corpus^ and trial by jury for all crimes, except in case of impeachment: but there is no declaration, that all men have a natural and unalienable right to worship Almighty God, according to the dictates of their own consciences and understanding; and that no man ought, or of right can be compelled to attend any religious worship, or erect or support any place of worship, or maintain any ministry, contrary to, or against his own free will and consent; and that no authority can or ought to be vested in, or assumed by any power whatever, that shall in any case interfere with, or in any manner control, the right of conscience in the free exercise of religious worship: that the trial by jury in civil causes as well as criminal, and the modes perscribed by the common law for safety of life in criminal prosecutions, shall be held sacred; that the requiring of excessive bail, imposing of excessive fines and cruel and unusual punishments be forbidden; that monoplies in trade or arts, other than to authors of books or inventors of useful arts for a reasonable time, ought not to be suffered; that the right of the people to assemble peaceably for the purpose of consulting about public matters, and petitioning or remonstrating to the federal legislature, ought not to be prevented; that the liberty of the press be held sacred; that the people have a right to hold themselves, their houses, papers and possessions free from search or seizure ; and that therefore warrants without oaths or affirmations first made affording a sufficient foundation for them, and whereby any officer or messenger may be commanded or required to search suspected places, or to seize any person or his property, not particularly described, are contrary to that right and ought not to be granted; and that standing armies in time of peace are dangerous to liberty, and ought not to be permitted but when absolutely necessary; all which is omitted to be done in the proposed government."
+      "text": "The new plan, it is true, does propose to secure the people of the benefit of personal liberty by the habeas corpus^ and trial by jury for all crimes, except in case of impeachment: but there is no declaration, that all men have a natural and unalienable right to worship Almighty God, according to the dictates of their own consciences and understanding; and that no man ought, or of right can be compelled to attend any religious worship, or erect or support any place of worship, or maintain any ministry, contrary to, or against his own free will and consent; and that no authority can or ought to be vested in, or assumed by any power whatever, that shall in any case interfere with, or in any manner control, the right of conscience in the free exercise of religious worship: that the trial by jury in civil causes as well as criminal, and the modes perscribed by the common law for safety of life in criminal prosecutions, shall be held sacred; that the requiring of excessive bail, imposing of excessive fines and cruel and unusual punishments be forbidden; that monoplies in trade or arts, other than to authors of books or inventors of useful arts for a reasonable time, ought not to be suffered; that the right of the people to assemble peaceably for the purpose of consulting about public matters, and petitioning or remonstrating to the federal legislature, ought not to be prevented; that the liberty of the press be held sacred; that the people have a right to hold themselves, their houses, papers and possessions free from search or seizure ; and that therefore warrants without oaths or affirmations first made affording a sufficient foundation for them, and whereby any officer or messenger may be commanded or required to search suspected places, or to seize any person or his property, not particularly described, are contrary to that right and ought not to be granted; and that standing armies in time of peace are dangerous to liberty, and ought not to be permitted but when absolutely necessary; all which is omitted to be done in the proposed government.",
+      "uncertain": [
+        {
+          "end": 116,
+          "readings": {
+            "pitt": "corpus^",
+            "primary": "corpus^"
+          },
+          "start": 109
+        }
+      ]
     },
     {
       "label": "Centinel 2, ¶ 32",
@@ -1679,7 +1983,17 @@
           644
         ]
       },
-      "text": "The opposition to the new plan (says Mr. Wilson) proceeds from interested men, viz., the officers of the state governments. He had before denied that the proposed transfer of powers to Congress would annihilate the state governments. But he here lays aside the masque, and avows the fact. For, the truth of the charge against them must entirely rest on such consequence of the new plan. For if the state establishments are to remain unimpaired, why should officers peculiarly connected with them, be interested to oppose, the adoption of the new plan? Except the collector of the impost, judge of the admiralty, and the collectors of excise, (none of whom have been reckoned of the opposition) they would otherwise have nothing to apprehend. But the charge is unworthy and may with more propriety be retorted on the expectants of office and emolument under the intended government."
+      "text": "The opposition to the new plan (says Mr. Wilson) proceeds from interested men, vis.^ the officers of the state governments. He had before denied that the proposed transfer of powers to Congress would annihilate the state governments. But he here lays aside the masque, and avows the fact. For, the truth of the charge against them must entirely rest on such consequence of the new plan. For if the state establishments are to remain unimpaired, why should officers peculiarly connected with them, be interested to oppose, the adoption of the new plan? Except the collector of the impost, judge of the admiralty, and the collectors of excise, (none of whom have been reckoned of the opposition) they would otherwise have nothing to apprehend. But the charge is unworthy and may with more propriety be retorted on the expectants of office and emolument under the intended government.",
+      "uncertain": [
+        {
+          "end": 84,
+          "readings": {
+            "pitt": "viz.,",
+            "primary": "vis.^"
+          },
+          "start": 79
+        }
+      ]
     },
     {
       "label": "Centinel 2, ¶ 34",
@@ -1858,7 +2172,17 @@
           646
         ]
       },
-      "text": "Friends, Countrymen.^ and Fellow Citizens I"
+      "text": "Friends, Countrymen.^ and Fellow Citizens I",
+      "uncertain": [
+        {
+          "end": 21,
+          "readings": {
+            "pitt": "Coinitrynien.^",
+            "primary": "Countrymen.^"
+          },
+          "start": 9
+        }
+      ]
     },
     {
       "label": "Centinel 3, ¶ 3",
@@ -1949,6 +2273,14 @@
       "text": "In many of the states, particularly in this and the northern states, there are aristocratic juntos of the well-born few^ who had been zealously endeavoring since the establishment of their constitutions, to humble that offensive upstart, equal liberty ; but all their efforts were unavailing, the ill-bred churl obstinately kept his assumed station.",
       "uncertain": [
         {
+          "end": 120,
+          "readings": {
+            "pitt": "fezv^",
+            "primary": "few^"
+          },
+          "start": 116
+        },
+        {
           "end": 237,
           "readings": {
             "pitt": "zipstai-t^",
@@ -1994,22 +2326,30 @@
           649
         ]
       },
-      "text": "A comparison of the authority under which the convention acted, and their form of government, will show that they have despised their delegated power, and assumed sovereignty ; that they have entirely annihilated the old confederation, and the particular governments of the several States, and instead thereof have established one general government that is to pervade the union; constituted on the most unequal principles, destitute of accountability to its constituents, and as despotic in its nature, as the Venetian aristocracy; a government that will give full scope to the magnificent designs of the well-born., a government where tyranny may glut its vengeance on the low-born.^ unchecked by an odious bill of rights .1 as has been fully illustrated in my two preceding numbers; and yet as a blind upon the understandings of the people, they have continued the forms of the particular governments, and termed the whole a confederation of the United States, pursuant to the sentiments of that profound, but corrupt politician Machiavel, who advises any one who would change the constitution of a State to keep as much as possible to the old forms; for then the people seeing the same officers, the same formalities, courts of justice and other outward appearances, are insensible of the alteration, and believe themselves in possession of their old government. Thus Caesar, when he seized the Roman liberties, caused himself to be chosen dictator (which was an ancient office) continued the senate, the consuls, the tribunes, the censors, and all other offices and forms of the commonwealth; and yet changed Rome from the most free, to the most tyrannical government in the world.",
+      "text": "A comparison of the authority under which the convention acted, and their form of government, will show that they have despised their delegated power, and assumed sovereignty ; that they have entirely annihilated the old confederation, and the particular governments of the several States, and instead thereof have established one general government that is to pervade the union; constituted on the most unequal principles, destitute of accountability to its constituents, and as despotic in its nature, as the Venetian aristocracy; a government that will give full scope to the magnificent designs of the well-born^ a government where tyranny may glut its vengeance on the low-born.^ unchecked by an odious bill of rights .1 as has been fully illustrated in my two preceding numbers; and yet as a blind upon the understandings of the people, they have continued the forms of the particular governments, and termed the whole a confederation of the United States, pursuant to the sentiments of that profound, but corrupt politician Machiavel, who advises any one who would change the constitution of a State to keep as much as possible to the old forms; for then the people seeing the same officers, the same formalities, courts of justice and other outward appearances, are insensible of the alteration, and believe themselves in possession of their old government. Thus Caesar, when he seized the Roman liberties, caused himself to be chosen dictator (which was an ancient office) continued the senate, the consuls, the tribunes, the censors, and all other offices and forms of the commonwealth; and yet changed Rome from the most free, to the most tyrannical government in the world.",
       "uncertain": [
         {
-          "end": 685,
+          "end": 616,
+          "readings": {
+            "pitt": "well-born.,",
+            "primary": "well-born^"
+          },
+          "start": 606
+        },
+        {
+          "end": 684,
           "readings": {
             "pitt": "lozv-bom^",
             "primary": "low-born.^"
           },
-          "start": 675
+          "start": 674
         },
         {
-          "end": 726,
+          "end": 725,
           "readings": {
             "primary": ".1"
           },
-          "start": 724
+          "start": 723
         }
       ]
     },
@@ -2057,7 +2397,7 @@
           650
         ]
       },
-      "text": "The late convention, in the majesty of its assumed omnipotence, have not even condescended to submit the plan of the new government to the confederation of the people, the true source of authority; but have called upon them by their several constitutions, to 'assent to and ratify'* in toto, what they have been pleased to decree; just as the grand monarque of France requires the parliament of Paris to register his edicts without revision or alteration, which is necessary previous to their execution."
+      "text": "The late convention, in the majesty of its assumed omnipotence, have not even condescended to submit the plan of the new government to the confederation of the people, the true source of authority; but have called upon them by their several constitutions, to 'assent to and ratify'* in to to, what they have been pleased to decree; just as the grand monarque of France requires the parliament of Paris to register his edicts without revision or alteration, which is necessary previous to their execution."
     },
     {
       "label": "Centinel 3, ¶ 13",
@@ -2333,6 +2673,14 @@
             "primary": "but"
           },
           "start": 392
+        },
+        {
+          "end": 436,
+          "readings": {
+            "pitt": "a^",
+            "primary": "a^"
+          },
+          "start": 434
         },
         {
           "end": 735,
@@ -2616,7 +2964,16 @@
           661
         ]
       },
-      "text": "How do the advocates of the proposed government combat the objections urged against it ? Not even by an attempt to disprove them, for that would the more fully confirm their truth ; but by a species of reasoning that is very congenial to that contempt of the understandings of the people that they so eminently possess, and which policy cannot even prevent frequent ebullitions of. They seem to think that the oratory and fascination of great names and mere sound will suffice to ensure success ; that the people may be diverted from a consideration of the merits of the plan by bold assertions and mere declamation. Some of their writers, for instance, paint the distresses of every class of citizens with all the glowing' language of eloquence, as if this was a demonstration of the excellence, or even the safety of the new plan, which, notwithstanding the reality ot this distress, may be a system of tyranny and oppression. Other writers tell you of the great men who composed the late convention, and give you a pompous display of their virtues instead of a justification of the plan of government; and others again urge the tyrant's plea, they endeavor to make it a case of necessity, now is the critical moment, they represent the adoption of this government as our only alternative, as the last opportunity we shall have of peaceably establishing a government; they assert it to be the best system that can be formed, and that if we reject it, we will have a worse one or none at all ; nay, that if we presume to propose alterations, we shall get into a labyrinth of difficulties from which we cannot be extricated, as no two states will agree in amendments; that therefore it would involve us in irreconcilable discord. But they all sedulously avoid the fair field of argument, a rational investigation into the origination of the proposed government. I hope the good sense of the people will detect the fallacy of such conduct, will discover the base juggle, and with becoming resolution resent the imposition. >"
+      "text": "How do the advocates of the proposed government combat the objections urged against it ? Not even by an attempt to disprove them, for that would the more fully confirm their truth ; but by a species of reasoning that is very congenial to that contempt of the understandings of the people that they so eminently possess, and which policy cannot even prevent frequent ebullitions of. They seem to think that the oratory and fascination of great names and mere sound will suffice to ensure success ; that the people may be diverted from a consideration of the merits of the plan by bold assertions and mere declamation. Some of their writers, for instance, paint the distresses of every class of citizens with all the glowing' language of eloquence, as if this was a demonstration of the excellence, or even the safety of the new plan, which, notwithstanding the reality ot this distress, may be a system of tyranny and oppression. Other writers tell you of the great men who composed the late convention, and give you a pompous display of their virtues instead of a justification of the plan of government; and others again urge the tyrant's plea, they endeavor to make it a case of necessity, now is the critical moment, they represent the adoption of this government as our only alternative, as the last opportunity we shall have of peaceably establishing a government; they assert it to be the best system that can be formed, and that if we reject it, we will have a worse one or none at all ; nay, that if we presume to propose alterations, we shall get into a labyrinth of difficulties from which we cannot be extricated, as no two states will agree in amendments; that therefore it would involve us in irreconcilable discord. But they all sedulously avoid the fair field of argument, a rational investigation into the origination of the proposed government. I hope the good sense of the people will detect the fallacy of such conduct, will discover the base juggle, and with becoming resolution resent the imposition. >",
+      "uncertain": [
+        {
+          "end": 2023,
+          "readings": {
+            "primary": ">"
+          },
+          "start": 2022
+        }
+      ]
     },
     {
       "label": "Centinel 4, ¶ 16",
@@ -2721,7 +3078,17 @@
           665
         ]
       },
-      "text": "The Legislature is the highest delegated power in government; all others are subordinate to it. The celebrated Montesquieu established it as a maxim, that legislation necessarily follows the power of taxation. By the 8th sect, of article the ist, of the proposed government, ' ' the Congress are to have power to lay and collect taxes, duties, imposts, and excises, to pay the debts and provide for the common defence and general welfare of the United States.\" Now what can be more comprehensive than these words? Every species of taxation, whether external or internal, is included. Whatever taxes, duties, and excises that the Congress may deem necessary to the general welfare may be imposed on the citizens of these states, and levied by their officers. The Congress are to be the absolute judges of the propriety of such taxes; in short, they may construe every purpose for which the state legislatures now lay taxes, to be for the general welfare; they may seize upon every source of taxation, and thus make it impracticable for the states to have the smallest revenue, and if a state should presume to impose a tax or excise that would interfere with a federal tax or excise. Congress may soon terminate the contention by repealing the state law, by virtue of the following section: \"To make all laws which shall be necessary and proper for carrying into execution the foregoing powers and all other powers vested by this constitution in the government of the United States, or in any department thereof.\" Indeed, every law of the states may be controlled by this power. The legislative power granted for these sections is so unlimited in its nature, may be so comprehensive and boundless in its exercise, that this alone would be amply sufficient to carry the coup de grace to the state governments, to swallow them up in the grand vortex of general empire. But the legislative has an able auxiliary in the judicial department, for a reference to my second number will show that this may be made greatly instrumental in effecting a consolidation; as the federal judiciary would absorb all others. Lest the foregoing powers should not suffice to consolidate the United States into one empire, the Convention, as if determined to prevent the possibility of a doubt, as if to prevent all clashing by the opposition of state powers, as if to preclude all struggle for state importance, as if to level all obstacles to the supremacy of universal sway, which in so extensive a territory would be an iron-handed despotism, have ordained by article the 6th, \"That this constitution, and the laws of the United States which shall be made in pursuance thereof, and all treaties made, or which shall be made, under the authority of the United States, shall be the supreme law of the land; and the judges in every state shall be bound thereby^ anything in the constitution or laws of any state to the contrary notwithstanding."
+      "text": "The Legislature is the highest delegated power in government; all others are subordinate to it. The celebrated Montesquieu established it as a maxim, that legislation necessarily follows the power of taxation. By the 8th sect, of article the ist, of the proposed government, ' ' the Congress are to have power to lay and collect taxes, duties, imposts, and excises, to pay the debts and provide for the common defence and general welfare of the United States.\" Now what can be more comprehensive than these words? Every species of taxation, whether external or internal, is included. Whatever taxes, duties, and excises that the Congress may deem necessary to the general welfare may be imposed on the citizens of these states, and levied by their officers. The Congress are to be the absolute judges of the propriety of such taxes; in short, they may construe every purpose for which the state legislatures now lay taxes, to be for the general welfare; they may seize upon every source of taxation, and thus make it impracticable for the states to have the smallest revenue, and if a state should presume to impose a tax or excise that would interfere with a federal tax or excise. Congress may soon terminate the contention by repealing the state law, by virtue of the following section: \"To make all laws which shall be necessary and proper for carrying into execution the foregoing powers and all other powers vested by this constitution in the government of the United States, or in any department thereof.\" Indeed, every law of the states may be controlled by this power. The legislative power granted for these sections is so unlimited in its nature, may be so comprehensive and boundless in its exercise, that this alone would be amply sufficient to carry the coup de grace to the state governments, to swallow them up in the grand vortex of general empire. But the legislative has an able auxiliary in the judicial department, for a reference to my second number will show that this may be made greatly instrumental in effecting a consolidation; as the federal judiciary would absorb all others. Lest the foregoing powers should not suffice to consolidate the United States into one empire, the Convention, as if determined to prevent the possibility of a doubt, as if to prevent all clashing by the opposition of state powers, as if to preclude all struggle for state importance, as if to level all obstacles to the supremacy of universal sway, which in so extensive a territory would be an iron-handed despotism, have ordained by article the 6th, \"That this constitution, and the laws of the United States which shall be made in pursuance thereof, and all treaties made, or which shall be made, under the authority of the United States, shall be the supreme law of the land; and the judges in every state shall be bound thereby^ anything in the constitution or laws of any state to the contrary notwithstanding.",
+      "uncertain": [
+        {
+          "end": 2839,
+          "readings": {
+            "pitt": "thereby.^",
+            "primary": "thereby^"
+          },
+          "start": 2831
+        }
+      ]
     },
     {
       "label": "Centinel 5, ¶ 5",
@@ -2734,7 +3101,7 @@
           666
         ]
       },
-      "text": "The words \"pursuant to the constitution\" will be no restriction to the authority of Congress; for the foregoing sections give them unlimited legislation; their unbounded power of taxation does alone include all others, as whoever has the purse-strings will have full dominion. But the convention has superadded another power, by which the Congress may stamp with the sanction of the constitution every possible law; it is contained in the following clause: \"To make all laws which shall be necessary and proper for carrying into execution the foregoing powers, and all other powers vested by this constitution in the government of the United States, or in any department or officer thereof.\" Whatever law Congress may deem necessary and proper for carrying into execution any of the powers vested in them may be enacted;, and by virtue of this clause, they may control and abrogate any and every of the laws of the State governments, on the allegation that they interfere with the execution of any of their powers, and yet these laws will \" be made in pursuance of the constitution,\" and of course will \"be the supreme law of the land, and the judges in every State shall be bound thereby, anything in the constitution or laws of any state to the contrary notwithstanding.\""
+      "text": "The words \"pursuant to the constitution\" will be no restriction to the authority of Congress; for the foregoing sections give them unlimited legislation; their unbounded power of taxation does alone include all others, as whoever has the purse-strings will have full dominion. But the convention has superadded another power, by which the Congress may stamp with the sanction of the constitution every possible law; it is contained in the following clause: \"To make all laws which shall be necessary and proper for carrying into execution the foregoing powers, and all other powers vested by this constitution in the government of the United States, or in any department or officer thereof.\" Whatever law Congress may deem necessary and proper for carrying into execution any of the powers vested in them may be enacted; and by virtue of this clause, they may control and abrogate any and every of the laws of the State governments, on the allegation that they interfere with the execution of any of their powers, and yet these laws will \" be made in pursuance of the constitution,\" and of course will \"be the supreme law of the land, and the judges in every State shall be bound thereby, anything in the constitution or laws of any state to the contrary notwithstanding.\""
     },
     {
       "label": "Centinel 5, ¶ 6",
@@ -2795,7 +3162,25 @@
           668
         ]
       },
-      "text": "As this necessary connection, as it has been termed, between the State governments and the general government, has been made a point of great magnitude by the advocates of the new plan, as it is the only obstacle alleged by them against a consolidation, it ought to be well considered. It is declared by the proposed plan, that the federal senators and the electors who choose the President of the United States, shall be appointed by the State legislatures for the long period of six and four years respectively; how will this connection prevent the State legislatures being divested of every important, every efficient power? may not they, will not they, dwindle into mere boards of appointment as has ever happened in other nations to public bodies, who, in similar circumstances, have been so weak as to part with the essentials of power? Does not history abound with such instances ? And this may be the mighty amount of this inseparable connection which is so much dwelt upon as the security of the State governments. Yet even this shadow of a limit against consolidation may be annihilated by the imperial fiat without any violation of even the forms of the constitution. Article ist, section 4th, has made a provision for this, when the people are sufficiently fatigued with the useless expense of maintaining ^^ forms of departed power and security, and when they shall pray to to be relieved from the imposition. This section cannot be too often repeated, as it gives such a latitude to the designing, as it revokes every other part of the constitution that may be tolerable, and as it may enable the administration under it, to complete the system of despotism; it is in the following words, viz: \"The times, places and manner of holding elections for senators and representatives shall be prescribed in each State by the legislature thereof; but the Congress may at any time by law make or alter such regulations, except as to the place of choosing senators.'''' The only apparent restriction in this clause is as to the place of appointing senators, but even this may be rendered of no avail, for as the Congress have the control over the time of appointment of both senators and representatives, they may, under the pretence of an apprehension of invasion, upon the pretence of the turbulence of what they may style a faction, and indeed pretences are never wanting to the designing, they may postpone the time of the election of the senators and the representatives from period to period to perpetuity; thus they may, and if they may, they certainly will, from the lust of dominion, so inherent in the mind of man, relieve the people from the trouble of attending elections by condescending to create themselves. Has not Mr. Wilson avowed it in fact? Has he not said in the convention that it was necessary that Congress should possess this power as the means of its own preservation? Otherwise, says he, an invasion, a civil war, a faction, or a secession of a minority of the assembly, might prevent the representation of a State in Congress."
+      "text": "As this necessary connection, as it has been termed, between the State governments and the general government, has been made a point of great magnitude by the advocates of the new plan, as it is the only obstacle alleged by them against a consolidation, it ought to be well considered. It is declared by the proposed plan, that the federal senators and the electors who choose the President of the United States, shall be appointed by the State legislatures for the long period of six and four years respectively; how will this connection prevent the State legislatures being divested of every important, every efficient power? may not they, will not they, dwindle into mere boards of appointment as has ever happened in other nations to public bodies, who, in similar circumstances, have been so weak as to part with the essentials of power? Does not history abound with such instances ? And this may be the mighty amount of this inseparable connection which is so much dwelt upon as the security of the State governments. Yet even this shadow of a limit against consolidation may be annihilated by the imperial fiat without any violation of even the forms of the constitution. Article ist, section 4th, has made a provision for this, when the people are sufficiently fatigued with the useless expense of maintaining ^^ forms of departed power and security, and when they shall pray to to be relieved from the imposition. This section cannot be too often repeated, as it gives such a latitude to the designing, as it revokes every other part of the constitution that may be tolerable, and as it may enable the administration under it, to complete the system of despotism; it is in the following words, viz: \"The times, places and manner of holding elections for senators and representatives shall be prescribed in each State by the legislature thereof; but the Congress may at any time by law make or alter such regulations, except as to the place of choosing senators.'''' The only apparent restriction in this clause is as to the place of appointing senators, but even this may be rendered of no avail, for as the Congress have the control over the time of appointment of both senators and representatives, they may, under the pretence of an apprehension of invasion, upon the pretence of the turbulence of what they may style a faction, and indeed pretences are never wanting to the designing, they may postpone the time of the election of the senators and the representatives from period to period to perpetuity; thus they may, and if they may, they certainly will, from the lust of dominion, so inherent in the mind of man, relieve the people from the trouble of attending elections by condescending to create themselves. Has not Mr. Wilson avowed it in fact? Has he not said in the convention that it was necessary that Congress should possess this power as the means of its own preservation? Otherwise, says he, an invasion, a civil war, a faction, or a secession of a minority of the assembly, might prevent the representation of a State in Congress.",
+      "uncertain": [
+        {
+          "end": 1320,
+          "readings": {
+            "pitt": "^^",
+            "primary": "^^"
+          },
+          "start": 1318
+        },
+        {
+          "end": 1974,
+          "readings": {
+            "pitt": "senators.''^",
+            "primary": "senators.''''"
+          },
+          "start": 1961
+        }
+      ]
     },
     {
       "label": "Centinel 5, ¶ 9",
@@ -3054,7 +3439,25 @@
           672
         ]
       },
-      "text": "I shall conclude this number with an extract from a speech delivered by Lord George Digby^ afterwards Earl of Bristol^ in the English Parliament, on the triennial bill in the year 1641, viz : \" It hath been a maxim among the wisest legislators that whoever means to settle good laws must proceed in them with a sinister opinion of all mankind ; and suppose that whoever is not wicked, it is for want only of the opportunity. It is that opportunity of being ill, Mr. Speaker, that we must take away, if ever we mean to be happy, which can never be done but by the frequency of parliaments."
+      "text": "I shall conclude this number with an extract from a speech delivered by Lord George Digby^ afterwards Earl of Bristol^ in the English Parliament, on the triennial bill in the year 1641, viz : \" It hath been a maxim among the wisest legislators that whoever means to settle good laws must proceed in them with a sinister opinion of all mankind ; and suppose that whoever is not wicked, it is for want only of the opportunity. It is that opportunity of being ill, Mr. Speaker, that we must take away, if ever we mean to be happy, which can never be done but by the frequency of parliaments.",
+      "uncertain": [
+        {
+          "end": 90,
+          "readings": {
+            "pitt": "Digby^",
+            "primary": "Digby^"
+          },
+          "start": 84
+        },
+        {
+          "end": 118,
+          "readings": {
+            "pitt": "Bristol^",
+            "primary": "Bristol^"
+          },
+          "start": 110
+        }
+      ]
     },
     {
       "label": "Centinel 6, ¶ 14",
@@ -3345,7 +3748,17 @@
           678
         ]
       },
-      "text": "So flagrant, so audacious a conspiracy against the liberties of a free people is without precedent. Mankind in the darkest ages have never been so insulted; even then, tyrants found it necessary to pay some respect to the habits and feelings of the people, and nothing but the name of a Washington could have occasioned a moment's hesitation about the nature of the new plan, or saved its authors from the execration and vengeance of the people, which eventually will prove an aggravation of their treason ; for America will resent the imposition practiced upon the unsuspicious zeal of her illustrious deliverer^ and vindicate her character from the aspersions of these enemies of her happiness and fame."
+      "text": "So flagrant, so audacious a conspiracy against the liberties of a free people is without precedent. Mankind in the darkest ages have never been so insulted; even then, tyrants found it necessary to pay some respect to the habits and feelings of the people, and nothing but the name of a Washington could have occasioned a moment's hesitation about the nature of the new plan, or saved its authors from the execration and vengeance of the people, which eventually will prove an aggravation of their treason ; for America will resent the imposition practiced upon the unsuspicious zeal of her illustrious deliverer^ and vindicate her character from the aspersions of these enemies of her happiness and fame.",
+      "uncertain": [
+        {
+          "end": 613,
+          "readings": {
+            "pitt": "deliverer^",
+            "primary": "deliverer^"
+          },
+          "start": 603
+        }
+      ]
     },
     {
       "label": "Centinel 8, ¶ 6",
@@ -3500,6 +3913,22 @@
       },
       "text": "These conspirators have come forward at a most favorable conjuncture, when the state of public affairs has lulled all jealousy of power: Emboldened by the sanction of the august name of a Washington^ that they have prostituted to their purpose, they have presumed to overleap the usual gradations to absolute power, and have attempted to seize at once upon the supremacy of dominion. The new instrument of government does indeed make a fallacious parade of some remaining privileges, and insults the understandings of the people with the semblance of liberty in some of its artful and deceptive clauses, which form but a flimsy veil over the reality of tyranny, so weakly endeavored to be concealed from the eye of freedom. For, of what avail are the few inadequate stipulations in favor of the rights of the people, when they may be effectually counteracted and destroyed by virtue of other clauses, when these enable the rulers to renounce all dependence on their constituents, and render the latter tenants at will of every concern? The new constitution is in fact a carte blanche^ a surrender at discretion to the \"vmUand pleasure of our rulers: as this has been demonstrated toDe*the case, by the investigation and discussion that have taken place, I trust the same good sense and spirit which have hitherto enabled the people to triumph over the wiles of ambition, will be again exerted for their salvation. The accounts from various parts of the country correspond with my warmest hopes, and justify my early predictions of the eventual defeat of this scheme of power and office making.",
       "uncertain": [
+        {
+          "end": 199,
+          "readings": {
+            "pitt": "Washington^",
+            "primary": "Washington^"
+          },
+          "start": 188
+        },
+        {
+          "end": 1084,
+          "readings": {
+            "pitt": "blanche^",
+            "primary": "blanche^"
+          },
+          "start": 1076
+        },
         {
           "end": 1125,
           "readings": {
@@ -3906,7 +4335,7 @@
           692
         ]
       },
-      "text": "In despair they are weakly endeavoring to screen their criminality by interposing the shield of the virtues of a Washington, in representing his concurrence in the proposed system of government as evidence of the purity of their intentions;, but this impotent attempt to degrade the brightest ornament of his country to a base level with themselves will be considered as an aggravation of their treason, and an insult on the good sense of the people, who have too much discernment not to make a just discrimination between the honest mistaken zeal of the patriot and the flagitious machinations of an ambitious junto, and will resent the imposition that Machiavelian arts and consummate cunning have practiced upon our illustrious chief."
+      "text": "In despair they are weakly endeavoring to screen their criminality by interposing the shield of the virtues of a Washington, in representing his concurrence in the proposed system of government as evidence of the purity of their intentions; but this impotent attempt to degrade the brightest ornament of his country to a base level with themselves will be considered as an aggravation of their treason, and an insult on the good sense of the people, who have too much discernment not to make a just discrimination between the honest mistaken zeal of the patriot and the flagitious machinations of an ambitious junto, and will resent the imposition that Machiavelian arts and consummate cunning have practiced upon our illustrious chief."
     },
     {
       "label": "Centinel 12, ¶ 3",
@@ -4082,6 +4511,14 @@
             "primary": "z^d"
           },
           "start": 50
+        },
+        {
+          "end": 66,
+          "readings": {
+            "pitt": "{the",
+            "primary": "{the"
+          },
+          "start": 62
         }
       ]
     },
@@ -4113,7 +4550,7 @@
           697
         ]
       },
-      "text": "The conspirators having been severely galled and checked in their career by the artillery of freedom, have made more vigorous and successful efforts to silence her batteries, while falsehood with all her delusions is making new and greater exertions in favor of ambition. On the one hand, every avenue to information is as far as possible cut off\"; the usual communication between the states, through the medium of the press, is in a great measure destroyed by a new arrangement at the Post OflBce — scarcely a newspaper is suffered to passt by this conveyance, and the arguments of a Findley, a Whitehill and a Smilie, that bright constellation of patriots, are suppressed, and a spurious publication substituted ; and on the other hand the select committee are assiduously employed in manufacturing deception in all its ensnaring colors, and having an adequate fund at their command, they are deluging the country with their productions. The only newspaper that circulates extensively out of the city is kept running over with deceptive inventions. Doctor Puff\", the paragi-aphist, has scarcely slept since his appointment, having received orders to work double tides; beneath his creative pen thousands of correspondents rise into view, who all harmonize in their sentiments and information about the new constitution; but the chief reliance is on James the Caledonian, who can to appearance destroy all distinction between liberty and despotism, and make the latter pass for the former, who can bewilder truth in all the mazes of sophistry, and render the plainest propositions problematical. He, chameleon-like, can vary his appearance at pleasure, and assume any character for the purposes of deception. In the guise of a Conciliator^ in the Independent Gazetteer, he professes great candor and moderation, admits some of the principal objections to the new constitution to be well founded and insidiously proposes a method to remove them, which is to consider the first Congress under the new constitution as a convention, competent to supply all defects in the system of government., This is really a discovery that does honor to his invention. What ! a legislative declaration or law a basis upon which to rest our dearest liberties ? Does he suppose the people have so little penetration as not to see through so flimsy a delusion, that such a security would amount to no more than the will and pleasure of their rulers, who might repeat this fundamental sanction whenever ambition stimulated ? In the feigned character of A Freeman., he combats the weighty arguments of the minority of the late convention, by a mere play upon words, carefully avoiding the real merits of the question; and we moreover trace him in a variety of miscellaneous productions in every shape and form ; he occasionally assists Doctor Puff in the fabrication of extracts of letters, paragraphs, correspondents, etc., etc.",
+      "text": "The conspirators having been severely galled and checked in their career by the artillery of freedom, have made more vigorous and successful efforts to silence her batteries, while falsehood with all her delusions is making new and greater exertions in favor of ambition. On the one hand, every avenue to information is as far as possible cut off\"; the usual communication between the states, through the medium of the press, is in a great measure destroyed by a new arrangement at the Post OflBce — scarcely a newspaper is suffered to passt by this conveyance, and the arguments of a Findley, a Whitehill and a Smilie, that bright constellation of patriots, are suppressed, and a spurious publication substituted ; and on the other hand the select committee are assiduously employed in manufacturing deception in all its ensnaring colors, and having an adequate fund at their command, they are deluging the country with their productions. The only newspaper that circulates extensively out of the city is kept running over with deceptive inventions. Doctor Puff\", the paragi-aphist, has scarcely slept since his appointment, having received orders to work double tides; beneath his creative pen thousands of correspondents rise into view, who all harmonize in their sentiments and information about the new constitution; but the chief reliance is on James the Caledonian, who can to appearance destroy all distinction between liberty and despotism, and make the latter pass for the former, who can bewilder truth in all the mazes of sophistry, and render the plainest propositions problematical. He, chameleon-like, can vary his appearance at pleasure, and assume any character for the purposes of deception. In the guise of a Conciliator^ in the Independent Gazetteer, he professes great candor and moderation, admits some of the principal objections to the new constitution to be well founded and insidiously proposes a method to remove them, which is to consider the first Congress under the new constitution as a convention, competent to supply all defects in the system of government. This is really a discovery that does honor to his invention. What ! a legislative declaration or law a basis upon which to rest our dearest liberties ? Does he suppose the people have so little penetration as not to see through so flimsy a delusion, that such a security would amount to no more than the will and pleasure of their rulers, who might repeat this fundamental sanction whenever ambition stimulated ? In the feigned character of A Freeman., he combats the weighty arguments of the minority of the late convention, by a mere play upon words, carefully avoiding the real merits of the question; and we moreover trace him in a variety of miscellaneous productions in every shape and form ; he occasionally assists Doctor Puff in the fabrication of extracts of letters, paragraphs, correspondents, etc., etc.",
       "uncertain": [
         {
           "end": 497,
@@ -4138,6 +4575,22 @@
             "primary": "paragi-aphist,"
           },
           "start": 1069
+        },
+        {
+          "end": 1740,
+          "readings": {
+            "pitt": "Conciliator^",
+            "primary": "Conciliator^"
+          },
+          "start": 1728
+        },
+        {
+          "end": 2543,
+          "readings": {
+            "pitt": "Free^nan^",
+            "primary": "Freeman.,"
+          },
+          "start": 2534
         }
       ]
     },
@@ -4218,7 +4671,17 @@
           703
         ]
       },
-      "text": "\" By the eighth section of this article, Congress is to have power to lay and collect taxes, duties, imposts, and excises. When we met in convention after our adjournment, to receive the report of the committee of detail, the members of that committee were requested to inform us what powers were meant to be vested in Congress by the word duties in this section, since the word imposts extended to duties on goods imported, and by another part of the system no duties on exports were to be laid. In answer to this inquiry we were informed, that it was meant to give the general government the power of laying stamp duties on paper, parchment and vellum. We then proposed to have the power inserted in express words, lest disputes hereafter might arise on the subject, and that the meaning might be understood by all who were to be affected by it; but to this it was objected, because it was said that the word stamp would probably sound odiously in the ears of many of the inhabitants, and be a cause of objection. By the power of imposing stamp duties the Congress will have a right to declare that no wills, deeds, or other instruments of writing, shall be good and valid, without being stamped — that without being reduced to writing and being stamped, no bargain, sale, transfer of property or contract of any kind or nature whatsoever shall be binding; and also that no exemplifications of records, depositions, or probates of any kind shall be received in evidence, unless they have the same solemnity. They may likewise oblige all proceedings of a judicial nature to be stamped to give them effect — those stamp duties may be imposed to any amount they please — and under the pretense of securing the collection of these duties, and to prevent the laws which imposed them from being evaded, the Congress may bring the decision of all questions relating to the conveyance, disposition and rights of property, and every question relating to contracts between man and man, into the courts of the general government— their inferior courts in the first instance and the superior court by appeal. By the power to lay and collect imposts, they may impose duties on any or every article of commerce imported into these states, to what amount they please. By the power to lay excises, a power very odious in its nature, since it authorizes officers to go into your houses, your kitchens, your cellars, and to examine into your private concerns, the Congress may impose duties on every article of use or consumption ; on the food that we eat — on the liquors we drink — on the clothes we wear the glass which enlightens our houses — on the hearths necessary for our warmth and comfort. By the power to lay and collect taxes, they may proceed to direct taxation on every individual, either by a capitation tax on their heads, or an assessment on their property. By this part of the section, therefore, the government has a power to lay what duties they please on goods imported— to lay what duties they please afterwards on whatever we use or consume — to impose stamp duties to what amount they please, and in whatever cases they please — afterwards to impose on the people direct taxes, by capitation tax, or by assessment, to what amount they choose, and thus to sluice them at every vein as long as they have a drop of blood, without any control, limitation or restraint — while all the officers for collecting these taxes, stamp duties, imposts and excises, are to be appointed by the general government, under its direction, not accountable to the states; nor is there even a security that they shall be citizens of the respective states, in which they are to exercise their offices ; at the same time the construction of every law imposing any and all these taxes and duties, and directing the collection of them, and every question arising thereon, and on the conduct of the officers appointed to execute these laws, and to collect these taxes and duties so various in their kinds, are taken away from the courts of justice of the different states, and confined to the courts of the general government, there to be heard and determined by judges holding their offices under the appointment, not of the states, but of the general government. \"Many of the members, and myself in the number, thought that the states were much better judges of the circumstances of their citizens, and what sum of money could be collected from them by direct taxation, and of the manner in which it could be raised with the greatest ease and convenience to their citizens, than the general government could be; and that the general government ought not in any case to have the power of laying direct taxes, but in that of the delinquency of a state. Agreeable to this sentiment, I brought in a proposition on which a vote of the convention was taken. The proposition was as follows: 'And whenever the legislature of the United States shall find it necessary that revenue should be raised by direct taxation, having appointed the same by the above rule, requisitions shall be made of the respective states to pay into the continental treasury their respective quotas within a time in the said requisition to be specified, and in case of any of the states failing to comply with such requisition, then and then only, to have power to devise and pass acts directing the mode and authorizing the collection of the same.' Had this proposition been acceded to, the dangerous and oppressive power in the general government of imposing direct taxes on the inhabitants, which it now enjoys in all cases, would have been only vested in it in ca,se of the non-compliance of a state, as a punishment for its delinquency, and would have ceased that moment that the state complied with the requisition. But the proposition was rejected by a majority, consistent wilh their aim and desire of increasing the power of the general government as far as possible, and destroying the powers and influence of the states. And though there is a provision that all duties, imposts and excises shall be uniform, that is, to be laid to the same amount on the same articles in each state, yet this will not prevent Congress from having it in their power to cause them to fall very unequal and much heavier on some states than on others, because these duties may be laid on articles but little or not at all used in some states, and of absolute necessity for the use and consumption of others, in which case the first would pay little or no part of the revenue arising therefrom, while the whole or nearly the whole of it would be paid by the last, to wit: The states which use and consume the articles on which the imposts and excises are laid. ' '"
+      "text": "\" By the eighth section of this article, Congress is to have power to lay and collect taxes, duties, imposts, and excises. When we met in convention after our adjournment, to receive the report of the committee of detail, the members of that committee were requested to inform us what powers were meant to be vested in Congress by the word duties in this section, since the word imposts extended to duties on goods imported, and by another part of the system no duties on exports were to be laid. In answer to this inquiry we were informed, that it was meant to give the general government the power of laying stamp duties on paper, parchment and vellum. We then proposed to have the power inserted in express words, lest disputes hereafter might arise on the subject, and that the meaning might be understood by all who were to be affected by it; but to this it was objected, because it was said that the word stamp would probably sound odiously in the ears of many of the inhabitants, and be a cause of objection. By the power of imposing stamp duties the Congress will have a right to declare that no wills, deeds, or other instruments of writing, shall be good and valid, without being stamped — that without being reduced to writing and being stamped, no bargain, sale, transfer of property or contract of any kind or nature whatsoever shall be binding; and also that no exemplifications of records, depositions, or probates of any kind shall be received in evidence, unless they have the same solemnity. They may likewise oblige all proceedings of a judicial nature to be stamped to give them effect — those stamp duties may be imposed to any amount they please — and under the pretense of securing the collection of these duties, and to prevent the laws which imposed them from being evaded, the Congress may bring the decision of all questions relating to the conveyance, disposition and rights of property, and every question relating to contracts between man and man, into the courts of the general government— their inferior courts in the first instance and the superior court by appeal. By the power to lay and collect imposts, they may impose duties on any or every article of commerce imported into these states, to what amount they please. By the power to lay excises, a power very odious in its nature, since it authorizes officers to go into your houses, your kitchens, your cellars, and to examine into your private concerns, the Congress may impose duties on every article of use or consumption ; on the food that we eat — on the liquors we drink — on the clothes we wear^-on the glass which enlightens our houses — on the hearths necessary for our warmth and comfort. By the power to lay and collect taxes, they may proceed to direct taxation on every individual, either by a capitation tax on their heads, or an assessment on their property. By this part of the section, therefore, the government has a power to lay what duties they please on goods imported— to lay what duties they please afterwards on whatever we use or consume — to impose stamp duties to what amount they please, and in whatever cases they please — afterwards to impose on the people direct taxes, by capitation tax, or by assessment, to what amount they choose, and thus to sluice them at every vein as long as they have a drop of blood, without any control, limitation or restraint — while all the officers for collecting these taxes, stamp duties, imposts and excises, are to be appointed by the general government, under its direction, not accountable to the states; nor is there even a security that they shall be citizens of the respective states, in which they are to exercise their offices ; at the same time the construction of every law imposing any and all these taxes and duties, and directing the collection of them, and every question arising thereon, and on the conduct of the officers appointed to execute these laws, and to collect these taxes and duties so various in their kinds, are taken away from the courts of justice of the different states, and confined to the courts of the general government, there to be heard and determined by judges holding their offices under the appointment, not of the states, but of the general government. \"Many of the members, and myself in the number, thought that the states were much better judges of the circumstances of their citizens, and what sum of money could be collected from them by direct taxation, and of the manner in which it could be raised with the greatest ease and convenience to their citizens, than the general government could be; and that the general government ought not in any case to have the power of laying direct taxes, but in that of the delinquency of a state. Agreeable to this sentiment, I brought in a proposition on which a vote of the convention was taken. The proposition was as follows: 'And whenever the legislature of the United States shall find it necessary that revenue should be raised by direct taxation, having appointed the same by the above rule, requisitions shall be made of the respective states to pay into the continental treasury their respective quotas within a time in the said requisition to be specified, and in case of any of the states failing to comply with such requisition, then and then only, to have power to devise and pass acts directing the mode and authorizing the collection of the same.' Had this proposition been acceded to, the dangerous and oppressive power in the general government of imposing direct taxes on the inhabitants, which it now enjoys in all cases, would have been only vested in it in ca,se of the non-compliance of a state, as a punishment for its delinquency, and would have ceased that moment that the state complied with the requisition. But the proposition was rejected by a majority, consistent wilh their aim and desire of increasing the power of the general government as far as possible, and destroying the powers and influence of the states. And though there is a provision that all duties, imposts and excises shall be uniform, that is, to be laid to the same amount on the same articles in each state, yet this will not prevent Congress from having it in their power to cause them to fall very unequal and much heavier on some states than on others, because these duties may be laid on articles but little or not at all used in some states, and of absolute necessity for the use and consumption of others, in which case the first would pay little or no part of the revenue arising therefrom, while the whole or nearly the whole of it would be paid by the last, to wit: The states which use and consume the articles on which the imposts and excises are laid. ' '",
+      "uncertain": [
+        {
+          "end": 2594,
+          "readings": {
+            "pitt": "wear",
+            "primary": "wear^-on"
+          },
+          "start": 2586
+        }
+      ]
     },
     {
       "label": "Centinel 14, ¶ 3",
@@ -4534,7 +4997,17 @@
           716
         ]
       },
-      "text": "In my last number I exposed the villainous intention of the framers of the new constitution, to defraud the public out of the millions lying in the hands of individuals by the construction of this system, which would, if established, cancel all debts now due to the United States. I also showed that thereby the delinquent states would be exonerated of all arrearages due by them on former requisitions of Congress; and to prove that the cancelling of all public dues was premeditated in regard to individuals, I stated that the general convention contained a number of the principal public defaulters, and that these were the most influential members, and chiefly instrumental in framing the new constitution: in answer to which, the conspirators have, by bold assertions, spurious vouchers, and insufficient certificates, endeavored to exculpate one member, and to alleviate the weight of the charge of delinquency against another. In the face of a resolution of Congress of the 20th June, 1785, declaring their intention of appointing three commissioners, to settle and adjust the receipts and expenditures of the late financier, the conspirators have asserted that his accounts were finally settled in November, 1784, for which they pretend to have vouchers, and by a pompous display of certain resolutions of Congress, respecting a particular charge of fraud against him, as commercial agent to the United States, they vainly hope to divert the public attention from his great delinquency, in never accounting for the millions of public money entrusted to him in that line. When we consider the immense sums of money taken up by Mr. M s* as commercial agent, to import military supplies, and even to trade in behalf of the United States, at a time when the risk was so great, that individuals would not venture their property; that all these transactions were conducted under the private firm of W g and M , which afforded unrestrained scope to peculation and embezzlement of the public property, by enabling Mr. M s to throw the loss of all captures by the enemy, at that hazardous period, on the public, and converting most of the safe arrivals (which were consequently very valuable) into his private property; and when we add to these considerations the principles of the man, his bankrupt situation at the commencement of the late war, and the immense wealth he has dazzled the world with since, can it be thought unreasonable to conclude, that the principal source of his affluence was the commercial agency of the United States, during the war? — not that I would derogate from his successful ingenuity in his numerous speculations in the paper moneys, Havannah monopoly and job, or in the sphere of financiering. *"
+      "text": "In my last number I exposed the villainous intention of the framers of the new constitution, to defraud the public out of the millions lying in the hands of individuals by the construction of this system, which would, if established, cancel all debts now due to the United States. I also showed that thereby the delinquent states would be exonerated of all arrearages due by them on former requisitions of Congress; and to prove that the cancelling of all public dues was premeditated in regard to individuals, I stated that the general convention contained a number of the principal public defaulters, and that these were the most influential members, and chiefly instrumental in framing the new constitution: in answer to which, the conspirators have, by bold assertions, spurious vouchers, and insufficient certificates, endeavored to exculpate one member, and to alleviate the weight of the charge of delinquency against another. In the face of a resolution of Congress of the 20th June, 1785, declaring their intention of appointing three commissioners, to settle and adjust the receipts and expenditures of the late financier, the conspirators have asserted that his accounts were finally settled in November, 1784, for which they pretend to have vouchers, and by a pompous display of certain resolutions of Congress, respecting a particular charge of fraud against him, as commercial agent to the United States, they vainly hope to divert the public attention from his great delinquency, in never accounting for the millions of public money entrusted to him in that line. When we consider the immense sums of money taken up by Mr. M sf as commercial agent, to import military supplies, and even to trade in behalf of the United States, at a time when the risk was so great, that individuals would not venture their property; that all these transactions were conducted under the private firm of W g and M , which afforded unrestrained scope to peculation and embezzlement of the public property, by enabling Mr. M s to throw the loss of all captures by the enemy, at that hazardous period, on the public, and converting most of the safe arrivals (which were consequently very valuable) into his private property; and when we add to these considerations the principles of the man, his bankrupt situation at the commencement of the late war, and the immense wealth he has dazzled the world with since, can it be thought unreasonable to conclude, that the principal source of his affluence was the commercial agency of the United States, during the war? — not that I would derogate from his successful ingenuity in his numerous speculations in the paper moneys, Havannah monopoly and job, or in the sphere of financiering. *",
+      "uncertain": [
+        {
+          "end": 1642,
+          "readings": {
+            "pitt": "s*",
+            "primary": "sf"
+          },
+          "start": 1640
+        }
+      ]
     },
     {
       "label": "Centinel 17, ¶ 2",
@@ -4562,7 +5035,17 @@
           716
         ]
       },
-      "text": "For the honor of human nature, I wish to draw a veil over the situation and conduct of another weighty character, whose name has given a false lustre to the new constitution, and been the occasion of sullying the laurels of a Washington^ by inducing him to acquiesce in a system of despotism and villainy, at which enlightened patriotism shudders."
+      "text": "For the honor of human nature, I wish to draw a veil over the situation and conduct of another weighty character, whose name has given a false lustre to the new constitution, and been the occasion of sullying the laurels of a Washington^ by inducing him to acquiesce in a system of despotism and villainy, at which enlightened patriotism shudders.",
+      "uncertain": [
+        {
+          "end": 237,
+          "readings": {
+            "pitt": "Washingtoi^",
+            "primary": "Washington^"
+          },
+          "start": 226
+        }
+      ]
     },
     {
       "label": "Centinel 17, ¶ 4",
@@ -4620,7 +5103,17 @@
           722
         ]
       },
-      "text": "The scurrilous attack of the little Fiddler upon Mr. Workman of the university, on a suspicion, perhaps unfounded, of his being the author of a series of essays under the signature of Philadelphiensis^ is characteristic of the man. He has ever been the base parasite and tool of the wealthy and great, at the expense of truth, honor, friendship, treachery to benefactors— nay, to the nearest relatives : all have been sacrificed by him at the shrine of the great. He ought, however, to have avoided a contrast with so worthy and highly respected a character as Mr. Workman, who had an equal right with himself to offer his sentiments on the new constitution; and if he viewed it as a system of despotism, and had talents to unfold its nature and tendency, he deserves the thanks of every patriotic American, if he has exerted them under the character of Philadelphiensis. His not being above four years in the country can be no objection. The celebrated Thomas Paine wrote his Common Sense before he had been two years in America, which was not the less useful or acceptable upon that account. The public have nothing to do with the author of a piece: it is the merits of the writing that are alone to be considered. Mr. Workman, prior to his coming to America, was a professor in an eminent academy in Dublin. Little Francis should have been cautious in giving provocation, for insignificance alone could have preserved him the smallest remnant of character. I hope he will take the hint, or such a scene will be laid open as will disgrace even his patrons; the suit of clothes, and the quarter cask of wine, will not be forgot."
+      "text": "The scurrilous attack of the little Fiddler upon Mr. Workman of the university, on a suspicion, perhaps unfounded, of his being the author of a series of essays under the signature of Philadelphiensis^ is characteristic of the man. He has ever been the base parasite and tool of the wealthy and great, at the expense of truth, honor, friendship, treachery to benefactors— nay, to the nearest relatives : all have been sacrificed by him at the shrine of the great. He ought, however, to have avoided a contrast with so worthy and highly respected a character as Mr. Workman, who had an equal right with himself to offer his sentiments on the new constitution; and if he viewed it as a system of despotism, and had talents to unfold its nature and tendency, he deserves the thanks of every patriotic American, if he has exerted them under the character of Philadelphiensis. His not being above four years in the country can be no objection. The celebrated Thomas Paine wrote his Common Sense before he had been two years in America, which was not the less useful or acceptable upon that account. The public have nothing to do with the author of a piece: it is the merits of the writing that are alone to be considered. Mr. Workman, prior to his coming to America, was a professor in an eminent academy in Dublin. Little Francis should have been cautious in giving provocation, for insignificance alone could have preserved him the smallest remnant of character. I hope he will take the hint, or such a scene will be laid open as will disgrace even his patrons; the suit of clothes, and the quarter cask of wine, will not be forgot.",
+      "uncertain": [
+        {
+          "end": 201,
+          "readings": {
+            "pitt": "Philadelphieiisis^",
+            "primary": "Philadelphiensis^"
+          },
+          "start": 184
+        }
+      ]
     },
     {
       "kind": "footnote",
@@ -4791,7 +5284,17 @@
           725
         ]
       },
-      "text": "Notwithstanding many thousand copies of the Reasons of Dissent of the minority of the late convention of this state were printed and forwarded in every direction, and by various conveyances, scarcely any of these got beyond the limits of this state, and most of them not until a long time after their publication. The printer of these Reasons, by particular desire, addressed a copy of them to every printer in the union, which he sent to the Post Office to be conveyed in the mail as usual, long before the new arrangement., as it is called, took place; and yet we since find that none of them reached the place of their destination. This is a full demonstration of the subserviency of the Post Office, and a striking evidence of the vigilance that has been exerted to suppress information. It is greatly to be regretted that the opposition in Massachusetts were denied the benefits of our discussion that the unanswerable dissent of our minority did not reach Boston in time to influence the decision of the great question by their convention as it would in all probability have enabled patriotism to triumph; not that I would derogate from the good sense and public spirit of that state, which I have no doubt would in common circumstances have shone with equal splendor, but this was far from being the case; the new constitution was viewed in Massachusetts through the medium of a Shays, the terrors of his insurrection had not subsided; a government that would have been execrated at another time was embraced by many as a refuge from anarchy, and thus liberty deformed by mad riot and dissention, lost her ablest advocates."
+      "text": "Notwithstanding many thousand copies of the Reasons of Dissent of the minority of the late convention of this state were printed and forwarded in every direction, and by various conveyances, scarcely any of these got beyond the limits of this state, and most of them not until a long time after their publication. The printer of these Reasons, by particular desire, addressed a copy of them to every printer in the union, which he sent to the Post Office to be conveyed in the mail as usual, long before the new arrangement., as it is called, took place; and yet we since find that none of them reached the place of their destination. This is a full demonstration of the subserviency of the Post Office, and a striking evidence of the vigilance that has been exerted to suppress information. It is greatly to be regretted that the opposition in Massachusetts were denied the benefits of our discussion that the unanswerable dissent of our minority did not reach Boston in time to influence the decision of the great question by their convention as it would in all probability have enabled patriotism to triumph; not that I would derogate from the good sense and public spirit of that state, which I have no doubt would in common circumstances have shone with equal splendor, but this was far from being the case; the new constitution was viewed in Massachusetts through the medium of a Shays, the terrors of his insurrection had not subsided; a government that would have been execrated at another time was embraced by many as a refuge from anarchy, and thus liberty deformed by mad riot and dissention, lost her ablest advocates.",
+      "uncertain": [
+        {
+          "end": 525,
+          "readings": {
+            "pitt": "ai'rangenient^",
+            "primary": "arrangement.,"
+          },
+          "start": 512
+        }
+      ]
     },
     {
       "label": "Centinel 18, ¶ 6",
@@ -4929,7 +5432,33 @@
           730
         ]
       },
-      "text": "My knowledge of the principles and conduct of these men for many years past left me no room to doubt of their insincerity on this occasion. I was persuaded that all their professions of moderation and assurance of future amendments, were founded in deception, that they were but the blind of the moment, the covered way to dominion and empire. Like a barrel thrown to the whale, the people were to be amused with fancied amendments until the harpoon of power should secure its prey and render resistance ineffectual. Already the masque of ambition begins to be removed and its latent features to appear in their genuine hue, disdaining any further veil from policy; the well-born^ inebriated with success, and despising the people for their easy credulity, think it unnecessary to dissemble any longer; almost every newspaper ridicules the idea of amendments and triumphs over the deluded people. Ye patriots of America, arouse from the dangerous infatuation in which ye are lulled, and while it is yet time, strain every nerve to rescue your country from the servile yoke of bondage and to preserve that liberty which has been so recently vindicated at the expense of so much blood and treasure. Upon the improvement of the present moment depends the fate of your country; you have now a constitutional opportunity afforded you to obtain a safe and a good government by making choice of such persons to represent you in the new congress, as have congenial sentiments with yourselves. Suffer not, ye freemen of America, the well-born^ or their servile minions^ to usurp the sacred trust — to impose themselves upon you as your guardians; for whatever professions they may make, or assurances they may give you, depend upon it they will deceive you: like the wolf in sheep's clothing, they will make you their prey. Treat with contempt the slanderous arts of the well-born to prejudice you against your true friends, and convince them on this great occasion, by your good sense, union and vigor, that you are not to be duped out of your liberties by all the refinements of Machiavellian policy. The future government of these United States will take its tone from the complexion of the first congress ; upon this will greatly depend whether despotic sway, or the salutary influence of a well-regulated government shall hereafter rule this once happy land. As the legislature of this state have appointed the last Wednesday in November next for the election of the eight representatives from this state in the new congress, you ought to be prepared for that all-important day; and as success is only to be ensured by unanimity among the friends of equal liberty, local and personal predilections and dislikes should give place to the general sentiment. Whatever ticket may be agreed to by the majority of the opposition to the new constitution in its present shape ought to be supported by all those who are sincere in wishing for amendments. I trust that all prejudices and antipathies arising from the late war, or from difference of religion, will be sacrificed to th'e great object of the public welfare, and that all good and well-meaning, men of whatever description will harmonize on this occasion. For among the various practices and stratagems of the well-born, the principal one, and upon which they will the most rely for success, will be the endeavor to divide you, and thus by scattering your suffrages between various candidates, to frustrate your object."
+      "text": "My knowledge of the principles and conduct of these men for many years past left me no room to doubt of their insincerity on this occasion. I was persuaded that all their professions of moderation and assurance of future amendments, were founded in deception, that they were but the blind of the moment, the covered way to dominion and empire. Like a barrel thrown to the whale, the people were to be amused with fancied amendments until the harpoon of power should secure its prey and render resistance ineffectual. Already the masque of ambition begins to be removed and its latent features to appear in their genuine hue, disdaining any further veil from policy; the well-born^ inebriated with success, and despising the people for their easy credulity, think it unnecessary to dissemble any longer; almost every newspaper ridicules the idea of amendments and triumphs over the deluded people. Ye patriots of America, arouse from the dangerous infatuation in which ye are lulled, and while it is yet time, strain every nerve to rescue your country from the servile yoke of bondage and to preserve that liberty which has been so recently vindicated at the expense of so much blood and treasure. Upon the improvement of the present moment depends the fate of your country; you have now a constitutional opportunity afforded you to obtain a safe and a good government by making choice of such persons to represent you in the new congress, as have congenial sentiments with yourselves. Suffer not, ye freemen of America, the well-born^ or their servile minions^ to usurp the sacred trust — to impose themselves upon you as your guardians; for whatever professions they may make, or assurances they may give you, depend upon it they will deceive you: like the wolf in sheep's clothing, they will make you their prey. Treat with contempt the slanderous arts of the well-born to prejudice you against your true friends, and convince them on this great occasion, by your good sense, union and vigor, that you are not to be duped out of your liberties by all the refinements of Machiavellian policy. The future government of these United States will take its tone from the complexion of the first congress ; upon this will greatly depend whether despotic sway, or the salutary influence of a well-regulated government shall hereafter rule this once happy land. As the legislature of this state have appointed the last Wednesday in November next for the election of the eight representatives from this state in the new congress, you ought to be prepared for that all-important day; and as success is only to be ensured by unanimity among the friends of equal liberty, local and personal predilections and dislikes should give place to the general sentiment. Whatever ticket may be agreed to by the majority of the opposition to the new constitution in its present shape ought to be supported by all those who are sincere in wishing for amendments. I trust that all prejudices and antipathies arising from the late war, or from difference of religion, will be sacrificed to th'e great object of the public welfare, and that all good and well-meaning, men of whatever description will harmonize on this occasion. For among the various practices and stratagems of the well-born, the principal one, and upon which they will the most rely for success, will be the endeavor to divide you, and thus by scattering your suffrages between various candidates, to frustrate your object.",
+      "uncertain": [
+        {
+          "end": 680,
+          "readings": {
+            "pitt": "well-born^",
+            "primary": "well-born^"
+          },
+          "start": 670
+        },
+        {
+          "end": 1534,
+          "readings": {
+            "pitt": "well-born^",
+            "primary": "well-born^"
+          },
+          "start": 1524
+        },
+        {
+          "end": 1560,
+          "readings": {
+            "pitt": "minions^",
+            "primary": "minions^"
+          },
+          "start": 1552
+        }
+      ]
     },
     {
       "label": "Centinel 19, ¶ 3",
@@ -4945,7 +5474,17 @@
           731
         ]
       },
-      "text": "From the mode of appointment, the Senate of the general government will be chiefly composed of the well-born^ or their minions, and when we consider the great and various powers which they will possess, and their permanency, it ought to operate as an additional stimulus with you to obtain faithful representatives in the other branch of legislature, to shield your privileges and property from the machinations of ambition and the rapacity of power. The Senate, besides their proper share in the Legislature, have great executive and judicial powers — their concurrence is made necessary to all the principal appointments in government. What a fruitful source of corruption does not this present! in the capacity of Legislators they will have the irresistible temptation to institute lucrative and needless offices, as they will in fact, have the appointment of the officers."
+      "text": "From the mode of appointment, the Senate of the general government will be chiefly composed of the well-born^ or their minions, and when we consider the great and various powers which they will possess, and their permanency, it ought to operate as an additional stimulus with you to obtain faithful representatives in the other branch of legislature, to shield your privileges and property from the machinations of ambition and the rapacity of power. The Senate, besides their proper share in the Legislature, have great executive and judicial powers — their concurrence is made necessary to all the principal appointments in government. What a fruitful source of corruption does not this present! in the capacity of Legislators they will have the irresistible temptation to institute lucrative and needless offices, as they will in fact, have the appointment of the officers.",
+      "uncertain": [
+        {
+          "end": 109,
+          "readings": {
+            "pitt": "well-born^",
+            "primary": "well-born^"
+          },
+          "start": 99
+        }
+      ]
     },
     {
       "label": "Centinel 19, ¶ 4",
@@ -5064,23 +5603,31 @@
           734
         ]
       },
-      "text": "The junto., considering that persons so situated and under the influence of such feelings, would make zealous adherents if they could be flattered with hopes of protection from what they deemed oppression and persecution, and still more so if they could be flattered with the pleasing prospect of a repeal of the test-law, and thereby having it in their power to assert their rights and vindicate their sufferings; the y««if<? accordingly made the most liberal offers of their services to the disaffected, and as their dislike and dread of the Whigs was the cement of union, the basis upon which the well-born meant to build their meditated schemes of profit and aggrandisement, Galen, and such minions were employed to aggravate the feelings and confirm the resentments of the disaffected by such misrepresentations of the principles and designs of the Whigs as to keep the former under continual apprehension of violence and rapine;* this persuasion had the desiied effect, it riveted the disaffected so closely to the interests of the junto that they zealously and implicitly supported all their measures without attending to their nature or consequences. At length the liberal Whigs seeing the imposition that was practicing on the disaffected, that they were made the dupes of a set of interested designing men, resolved to convince them that their apprehensions were groundless by repealing the test-law, which excluded so many of them from the right of suffrage, and thereby putting them in a situation to judge and act for themselves; the junto who had gained so much by the subordinate situation of the disaffected, were alarmed at the proposition and accordingly opposed it, which so incensed their allies that, at an election which took place soon after for a censer in the room of Col. Miles, resigned, not one of them could be persuaded to vote, and of course the constitutionalists carried the election; however the junto retrieved this faux pas afterwards, by the zeal they showed in procuring the repeal of the test-law.",
+      "text": "The junto^ considering that persons so situated and under the influence of such feelings, would make zealous adherents if they could be flattered with hopes of protection from what they deemed oppression and persecution, and still more so if they could be flattered with the pleasing prospect of a repeal of the test-law, and thereby having it in their power to assert their rights and vindicate their sufferings; the y««if<? accordingly made the most liberal offers of their services to the disaffected, and as their dislike and dread of the Whigs was the cement of union, the basis upon which the well-born meant to build their meditated schemes of profit and aggrandisement, Galen, and such minions were employed to aggravate the feelings and confirm the resentments of the disaffected by such misrepresentations of the principles and designs of the Whigs as to keep the former under continual apprehension of violence and rapine;* this persuasion had the desiied effect, it riveted the disaffected so closely to the interests of the junto that they zealously and implicitly supported all their measures without attending to their nature or consequences. At length the liberal Whigs seeing the imposition that was practicing on the disaffected, that they were made the dupes of a set of interested designing men, resolved to convince them that their apprehensions were groundless by repealing the test-law, which excluded so many of them from the right of suffrage, and thereby putting them in a situation to judge and act for themselves; the junto who had gained so much by the subordinate situation of the disaffected, were alarmed at the proposition and accordingly opposed it, which so incensed their allies that, at an election which took place soon after for a censer in the room of Col. Miles, resigned, not one of them could be persuaded to vote, and of course the constitutionalists carried the election; however the junto retrieved this faux pas afterwards, by the zeal they showed in procuring the repeal of the test-law.",
       "uncertain": [
         {
-          "end": 426,
+          "end": 10,
+          "readings": {
+            "pitt": "junto.,",
+            "primary": "junto^"
+          },
+          "start": 4
+        },
+        {
+          "end": 425,
           "readings": {
             "pitt": "jii7ito",
             "primary": "y««if<?"
           },
-          "start": 419
+          "start": 418
         },
         {
-          "end": 1955,
+          "end": 1954,
           "readings": {
             "pitt": "fatix",
             "primary": "faux"
           },
-          "start": 1951
+          "start": 1950
         }
       ]
     },
@@ -5112,7 +5659,17 @@
           735
         ]
       },
-      "text": "Another great engine of influence has been the Bank^ which having the power of controlling the credit of every person concerned in trade, of course governed the mercantile interest, and made it entirely subservient to the views of the wellborn junto."
+      "text": "Another great engine of influence has been the Bank^ which having the power of controlling the credit of every person concerned in trade, of course governed the mercantile interest, and made it entirely subservient to the views of the wellborn junto.",
+      "uncertain": [
+        {
+          "end": 52,
+          "readings": {
+            "pitt": "Bank^",
+            "primary": "Bank^"
+          },
+          "start": 47
+        }
+      ]
     },
     {
       "label": "Centinel 20, ¶ 8",
@@ -5142,7 +5699,17 @@
           736
         ]
       },
-      "text": "By such means have the well-born attained to their present power and importance, to a situation which has enabled them to dictate and procure the establishment of a form of government for the United States, which, if not amended, will put the finishing stroke to popular liberty and confirm the sway of the well-born. Whilst the fate of the new constitution was doubtful, great was the assumed moderation, specious were the promises of its advocate. The despotic principles and tendency of this system of government were so powerfully demonstrated as to strike conviction in almost every breast, but this was artfully obviated by urging the pressing necessity of having an energetic government and assurance of subsequent amendments. The people were moreover told, \"you will have the means in your own power to prevent the oppression of government, viz: the choice of your representatives to the federal legislature, who will be the guardians of your rights and property, your shield against the machinations of the well-born.^''"
+      "text": "By such means have the well-born attained to their present power and importance, to a situation which has enabled them to dictate and procure the establishment of a form of government for the United States, which, if not amended, will put the finishing stroke to popular liberty and confirm the sway of the well-born. Whilst the fate of the new constitution was doubtful, great was the assumed moderation, specious were the promises of its advocate. The despotic principles and tendency of this system of government were so powerfully demonstrated as to strike conviction in almost every breast, but this was artfully obviated by urging the pressing necessity of having an energetic government and assurance of subsequent amendments. The people were moreover told, \"you will have the means in your own power to prevent the oppression of government, viz: the choice of your representatives to the federal legislature, who will be the guardians of your rights and property, your shield against the machinations of the well-born.^''",
+      "uncertain": [
+        {
+          "end": 1029,
+          "readings": {
+            "pitt": "well-born.^''",
+            "primary": "well-born.^''"
+          },
+          "start": 1016
+        }
+      ]
     },
     {
       "label": "Centinel 20, ¶ 10",
@@ -5158,7 +5725,7 @@
           737
         ]
       },
-      "text": "But how changed the language, how different the conduct of these men since its establishment! — they are taking effectual measures as far as in their power to realize the worst predictions of the opponents to the new constitution. — Having secured the avenue to offices under the new congress by the appointment of the senators, they are now exerting all their influence to carry the election of the representatives in the federal legislature, and thereby get the absolute command of the purse-strings to confirm their domination; every artifice is practicing to delude the people on this great occasion, which in all probability will be the last opportunity they will have to preserve their liberties, as the new congress will have it in their power to establish despotism without violating the principles of the constitution. The proposed meeting at L/ancaster is a high game of deception; under the appearance of giving the people an opportunity to nominate their representatives, the minions of ambition are to be palmed upon them. Ostensible deputies are to be sent from every county for this purpose, who, if we may judge from those already appointed, will take especial care to prevent the nomination of men who have congenial feelings with the people, as such would prove troublesome obstacles in the way of ambition; the intention is to monopolize both branches of the legislature and make the government harmonize with the aggrandizement of the well-born and their minions."
+      "text": "But how changed the language, how different the conduct of these men since its establishment! — they are taking effectual measures as far as in their power to realize the worst predictions of the opponents to the new constitution. — Having secured the avenue to offices under the new congress by the appointment of the senators, they are now exerting all their influence to carry the election of the representatives in the federal legislature, and thereby get the absolute command of the purse-strings to confirm their domination; every artifice is practicing to delude the people on this great occasion, which in all probability will be the last opportunity they will have to preserve their liberties, as the new congress will have it in their power to establish despotism without violating the principles of the constitution. The proposed meeting at Lancaster is a high game of deception; under the appearance of giving the people an opportunity to nominate their representatives, the minions of ambition are to be palmed upon them. Ostensible deputies are to be sent from every county for this purpose, who, if we may judge from those already appointed, will take especial care to prevent the nomination of men who have congenial feelings with the people, as such would prove troublesome obstacles in the way of ambition; the intention is to monopolize both branches of the legislature and make the government harmonize with the aggrandizement of the well-born and their minions."
     },
     {
       "label": "Centinel 20, ¶ 11",
@@ -5289,7 +5856,24 @@
           739
         ]
       },
-      "text": "The French court, finding their projects of power and dominion frustrated by the patriotism of these local parliaments, who, from their vicinity and near connection with the people, were greatly influenced by the common feelings and interest, came to the bold resolution of annihilating them at one stroke, and substituting in lieu of them one general parliament, or court ^ pleniere^ under the specious pretence of reinstating the public finances and credit, deranged and prostrated by the late expensive war and the peculations of the ministers of state."
+      "text": "The French court, finding their projects of power and dominion frustrated by the patriotism of these local parliaments, who, from their vicinity and near connection with the people, were greatly influenced by the common feelings and interest, came to the bold resolution of annihilating them at one stroke, and substituting in lieu of them one general parliament, or court ^ pleniere^ under the specious pretence of reinstating the public finances and credit, deranged and prostrated by the late expensive war and the peculations of the ministers of state.",
+      "uncertain": [
+        {
+          "end": 374,
+          "readings": {
+            "primary": "^"
+          },
+          "start": 373
+        },
+        {
+          "end": 384,
+          "readings": {
+            "pitt": "pleniere^",
+            "primary": "pleniere^"
+          },
+          "start": 375
+        }
+      ]
     },
     {
       "label": "Centinel 21, ¶ 4",
@@ -5336,6 +5920,14 @@
             "primary": "aflFairs,"
           },
           "start": 386
+        },
+        {
+          "end": 530,
+          "readings": {
+            "pitt": "pleniere^",
+            "primary": "pleniere^"
+          },
+          "start": 521
         }
       ]
     },
@@ -5438,7 +6030,7 @@
           742
         ]
       },
-      "text": "It was my intention to appropriate this number to the consideration of the enormous sums of public money unaccounted for by individuals, now ascertained by a late investigation of Congress; but accidentally meeting with an address to the freemen of Pennsylvania, signed Lucullus, published in the Federal Gazette of November 6th, I thought no time should be lost in detecting the atrocious falsehoods, and counteracting the baneful poison contained in that address. In a former number I noticed the base policy practised by the Republicans., as they styled themselves, of imitating and prejudicing that part of the community who were disaffected to our cause in the late war against the constitutional Whigs, by the grossest calumny and misrepresentation of their conduct and principles, and thereby duping the disaffected into the support of measures, which their dispassionate judgment would have reprobated as highly injurious to the common welfare. That address is a continuation of the same policy, and from characteristic features, is known to be the production of Galen, who has done more to destroy the harmony of Pennsylvania, and forward the vassalage of her citizens to the rich and aspiring than all the other firebrands of party and instruments of ambition.",
+      "text": "It was my intention to appropriate this number to the consideration of the enormous sums of public money unaccounted for by individuals, now ascertained by a late investigation of Congress; but accidentally meeting with an address to the freemen of Pennsylvania, signed Lucullus, published in the Federal Gazette of November 6th, I thought no time should be lost in detecting the atrocious falsehoods, and counteracting the baneful poison contained in that address. In a former number I noticed the base policy practised by the Republicans^ as they styled themselves, of imitating and prejudicing that part of the community who were disaffected to our cause in the late war against the constitutional Whigs, by the grossest calumny and misrepresentation of their conduct and principles, and thereby duping the disaffected into the support of measures, which their dispassionate judgment would have reprobated as highly injurious to the common welfare. That address is a continuation of the same policy, and from characteristic features, is known to be the production of Galen, who has done more to destroy the harmony of Pennsylvania, and forward the vassalage of her citizens to the rich and aspiring than all the other firebrands of party and instruments of ambition.",
       "uncertain": [
         {
           "end": 279,
@@ -5447,6 +6039,14 @@
             "primary": "Lucullus,"
           },
           "start": 270
+        },
+        {
+          "end": 540,
+          "readings": {
+            "pitt": "Republicans.,",
+            "primary": "Republicans^"
+          },
+          "start": 528
         }
       ]
     },
@@ -5507,6 +6107,22 @@
       "text": "But why censure the Government of Pennsylvania for laws that were made ministerially, in compliance with the recommendation of Congress? May not every government in the union be stigmatized on the same principle, as they all passed similar laws? Moreover, with what consistency can the Republicans adduce the tender laws as a crime against the Constitutionalists^ when the former were the authors of the most oppressive of them, when they renewed these laws after they had been suspended by the Constitutionalists? A recurrents to the minutes of the assembly and the laws of the State will fully establish this fact. It will thereby appear that the assembly elected in October 1779, who were to a man Constitutionalists, suspended the operation of the laws making the continental money a legal tender for three months, by their act passed on the 31st May, 1780, which was further continued by their act of the 22d of September following; and by the succeeding assembly, which were Republicans^ it was continued without limitation. Thus the legal tender of the continental money was first suspended by the Constitutionalists; and this same assembly passed a law, on the 25th March, 1780, for emitting ;^ioo,ooo in bills of credit, founded on the City Lots and Province Island, without mading them a legal tender.",
       "uncertain": [
         {
+          "end": 363,
+          "readings": {
+            "pitt": "Constitutionalists^",
+            "primary": "Constitutionalists^"
+          },
+          "start": 344
+        },
+        {
+          "end": 993,
+          "readings": {
+            "pitt": "Republicans^",
+            "primary": "Republicans^"
+          },
+          "start": 981
+        },
+        {
           "end": 1209,
           "readings": {
             "pitt": "^100,000",
@@ -5554,7 +6170,17 @@
           745
         ]
       },
-      "text": "The Republicans moreover made the ;^ioo,ooo island money emitted by the Constitutionalists a legal tender, although the fund of redemption was so abundantly adequate, the consequence of which was a greater depreciation. And these tender laws were not made in pursuance of recommendations of Congress, but were the original acts of the Republicans."
+      "text": "The Republicans moreover made the ;^ioo,ooo island money emitted by the Constitutionalists a legal tender, although the fund of redemption was so abundantly adequate, the consequence of which was a greater depreciation. And these tender laws were not made in pursuance of recommendations of Congress, but were the original acts of the Republicans.",
+      "uncertain": [
+        {
+          "end": 43,
+          "readings": {
+            "pitt": ";^ioo,ooo",
+            "primary": ";^ioo,ooo"
+          },
+          "start": 34
+        }
+      ]
     },
     {
       "label": "Centinel 22, ¶ 7",
@@ -5657,6 +6283,30 @@
       "text": "\"Who by the number and weight of their taxes, have reduced landed property to one fourth of its former value, and thereby forced many ancient and respectable farmers and merchants, possessed of large visible estates, to submit to the operations of laws which have reduced them from wellearned affluence or independence to poverty and misery.'^ How lost to all sense of truth and decency must the Doctor be to ascribe the evils of the oppressive taxes to the Constitutionalists., when he knows his party were the authors of them ? Does he forget the enormous tax of 1782, imposed by his friend Mr. Morris^ which vastly exceeded the ability of the people to pay, amounting to ;^425,ooo in specie besides the paper money ? — a tax that has been productive of more distress and mischief than the aggregate of all the previous and subsequent taxes, and is the efficient cause of our present difficulties in taxation; and does the Doctor forget the other numerous taxes imposed by the same party, some of them to favor their speculations in the paper moneys?",
       "uncertain": [
         {
+          "end": 343,
+          "readings": {
+            "pitt": "misery.'^",
+            "primary": "misery.'^"
+          },
+          "start": 334
+        },
+        {
+          "end": 478,
+          "readings": {
+            "pitt": "Constitutionalists.^",
+            "primary": "Constitutionalists.,"
+          },
+          "start": 458
+        },
+        {
+          "end": 604,
+          "readings": {
+            "pitt": "Morris.^",
+            "primary": "Morris^"
+          },
+          "start": 597
+        },
+        {
           "end": 683,
           "readings": {
             "pitt": "^425,000",
@@ -5678,7 +6328,17 @@
           747
         ]
       },
-      "text": "' ' Who have opposed the adoption of the Federal government by the grossest falsehoods, by the abuse of the best characters in the United States, and by an attempt to excite a civil war. ' ' A review of the discussion of the new constitution will expose the fallacy of this charge; whilst sound reason and well-supported arguments were made use of by the opposition, scurrility and abuse of every person who dared to object to the new constitution, were lavished by the Federalists., and if there was any danger of a civil war, it arose from their violence and precipitance in forcing down the government without giving the people time or opportunity to examine or judge for themselves."
+      "text": "' ' Who have opposed the adoption of the Federal government by the grossest falsehoods, by the abuse of the best characters in the United States, and by an attempt to excite a civil war. ' ' A review of the discussion of the new constitution will expose the fallacy of this charge; whilst sound reason and well-supported arguments were made use of by the opposition, scurrility and abuse of every person who dared to object to the new constitution, were lavished by the Federalists., and if there was any danger of a civil war, it arose from their violence and precipitance in forcing down the government without giving the people time or opportunity to examine or judge for themselves.",
+      "uncertain": [
+        {
+          "end": 483,
+          "readings": {
+            "pitt": "Federalists.^",
+            "primary": "Federalists.,"
+          },
+          "start": 470
+        }
+      ]
     },
     {
       "label": "Centinel 22, ¶ 15",
@@ -5708,6 +6368,14 @@
       },
       "text": "\"Whose private characters are as profligate as their public conduct has been oppresive, dishonest, and selfish, and who, instead of aiming to share in the honors of the new government, should retire in silent gratitude for having escaped those punishments to which their numerous frauds, oppressions and other crimes, have justly exposed them.\" If I was disposed to recriminate — there is an ample field — I would begin with the cofferer., the head of the other party, and trace his character through the numerous speculations on the public, from his appointment to the c 1 a y of the United States, to his resignation as f r; I would delineate the corrupt principles and conduct of the rest of the party down to the herd of base parasites and minions, the Doctor included, who would make a conspicuous figure in the black picture. On the other hand, I challenge the Doctor or his associates to sully the integrity, the disinterested conduct of the leaders of the constitutional party, by any colorable charge of peculation or abuse of the public trusts so often confided to them, Like the virtuous Fabricius, they retired from offices of the highest eminence and opportunities of embezzling the public treasure, with unpolluted hands and native integrity; so far from growing rich in the public service, they have impaired their own fortunes by their zeal and contributions for the public welfare; and instead of receiving applause for their patriotism, they are loaded with obloquy, are vilified and stigmatized with that poverty which is their greatest glory, and by the very men too who charge them with peculating on the public. How ungenerous and inconsistent! At the same time I must confess, that there have been villains of the constitutional party, for perfection is not to be expected on this side eternity. But it has been the good fortune of this party, that the instances have been rare and of an inferior kind; they did not ascend to the principals of the party, to the great influential leading characters, who gave the complexion and tone to the measures of government.",
       "uncertain": [
+        {
+          "end": 439,
+          "readings": {
+            "pitt": "cofferer^",
+            "primary": "cofferer.,"
+          },
+          "start": 429
+        },
         {
           "end": 1109,
           "readings": {
@@ -5759,7 +6427,7 @@
           749
         ]
       },
-      "text": "I have promised a number on the subject of the enormous sums of public moneys unaccounted for by individuals, nowascertained by a late investigation of Congress, but find so extensive a field opened, as to require many numbers to treat of the several parts in a proper manner; I shall, therefore, confine my remarks at present to one paragraph of it. This investigation, after being long suppressed, has at length reached the public eye, and is of such magnitude and exhibits such immense peculations on the public treasure by men who now assume the lead in this and some other of the state governments, and are among the most distinguished patrons of the new constitution, as to demand the serious attention of the citizens of the United States at this peculiar crisis of public affairs."
+      "text": "I have promised a number on the subject of the enormous sums of public moneys unaccounted for by individuals, now ascertained by a late investigation of Congress, but find so extensive a field opened, as to require many numbers to treat of the several parts in a proper manner; I shall, therefore, confine my remarks at present to one paragraph of it. This investigation, after being long suppressed, has at length reached the public eye, and is of such magnitude and exhibits such immense peculations on the public treasure by men who now assume the lead in this and some other of the state governments, and are among the most distinguished patrons of the new constitution, as to demand the serious attention of the citizens of the United States at this peculiar crisis of public affairs."
     },
     {
       "label": "Centinel 23, ¶ 2",
@@ -5773,7 +6441,25 @@
           749
         ]
       },
-      "text": "Unawed by that power and influence, that false glare of reputation and by that clamor and partiality of party spirit, which for many years had rendered the characters of the great public defaulters sacred and impervious to public scrutiny, the Centinel., regardless of consequences in such a cause, impeached them at the bar of the public; he charged them with the receipt of millions of public money, for which they had not accounted ; and notwithstanding he produced sufficient documents to substantiate the charge — such was the shameless effrontery of these men and their minions on the one hand, and the confirmed prejudice and partiality of the public on the other hand, that the Centinel was deemed a libeller., a calumniator of some of the best and most illustrious characters in the United States. So immaculate was the Cofferer considered, that the epithets of rascal, villian etc., were lavished upon every person who dared to assert anything to his prejudice, and the cry of a cruel persecution was raised against the Centinel and others for endeavoring to compel him to disgorge the public treasure."
+      "text": "Unawed by that power and influence, that false glare of reputation and by that clamor and partiality of party spirit, which for many years had rendered the characters of the great public defaulters sacred and impervious to public scrutiny, the Centinel., regardless of consequences in such a cause, impeached them at the bar of the public; he charged them with the receipt of millions of public money, for which they had not accounted ; and notwithstanding he produced sufficient documents to substantiate the charge — such was the shameless effrontery of these men and their minions on the one hand, and the confirmed prejudice and partiality of the public on the other hand, that the Centinel was deemed a libeller., a calumniator of some of the best and most illustrious characters in the United States. So immaculate was the Cofferer considered, that the epithets of rascal, villian etc., were lavished upon every person who dared to assert anything to his prejudice, and the cry of a cruel persecution was raised against the Centinel and others for endeavoring to compel him to disgorge the public treasure.",
+      "uncertain": [
+        {
+          "end": 254,
+          "readings": {
+            "pitt": "Centinel^",
+            "primary": "Centinel.,"
+          },
+          "start": 244
+        },
+        {
+          "end": 718,
+          "readings": {
+            "pitt": "libeller^",
+            "primary": "libeller.,"
+          },
+          "start": 708
+        }
+      ]
     },
     {
       "label": "Centinel 23, ¶ 3",
@@ -5801,7 +6487,25 @@
           750
         ]
       },
-      "text": "In my seventeenth number, there is the following paragraph: \"When we consider the immense sums of public money taken up by Mr. Morris, as commercial agent, to import military supplies, and even to trade in behalf of the United States, at a time when the risk was so great that individuals would not venture their property; that all these transactions were conducted under the private firm of Willing and Morris^ which afforded unrestrained scope to peculation and embezzlement of the public property, by enabling Mr. Morris to throw the loss of all captures by the enemy at that hazardous period on the public, and converting most of the safe arrivals (which were consequently very valuable) into his private property; and when we add to these considerations, the principles of the man^ his bankrupt situation at the commencement or the war, and the immense wealth he has dazzled the world with since, can it be thought unreasonable to conclude that the principal source of his wealth was the commercial agency of the United States during the war? — not that I would derogate from his successful ingenuity in his numerous speculations in the paper moneys, Havannah monopoly and job, or in the sphere of financiering.\""
+      "text": "In my seventeenth number, there is the following paragraph: \"When we consider the immense sums of public money taken up by Mr. Morris, as commercial agent, to import military supplies, and even to trade in behalf of the United States, at a time when the risk was so great that individuals would not venture their property; that all these transactions were conducted under the private firm of Willing and Morris^ which afforded unrestrained scope to peculation and embezzlement of the public property, by enabling Mr. Morris to throw the loss of all captures by the enemy at that hazardous period on the public, and converting most of the safe arrivals (which were consequently very valuable) into his private property; and when we add to these considerations, the principles of the man^ his bankrupt situation at the commencement or the war, and the immense wealth he has dazzled the world with since, can it be thought unreasonable to conclude that the principal source of his wealth was the commercial agency of the United States during the war? — not that I would derogate from his successful ingenuity in his numerous speculations in the paper moneys, Havannah monopoly and job, or in the sphere of financiering.\"",
+      "uncertain": [
+        {
+          "end": 411,
+          "readings": {
+            "pitt": "Morris.^",
+            "primary": "Morris^"
+          },
+          "start": 404
+        },
+        {
+          "end": 786,
+          "readings": {
+            "pitt": "wa«,",
+            "primary": "man^"
+          },
+          "start": 782
+        }
+      ]
     },
     {
       "label": "Centinel 23, ¶ 5",
@@ -5824,6 +6528,14 @@
             "primary": "\"0«^"
           },
           "start": 52
+        },
+        {
+          "end": 75,
+          "readings": {
+            "pitt": "People^''''",
+            "primary": "People^''''"
+          },
+          "start": 64
         }
       ]
     },
@@ -5869,7 +6581,17 @@
           752
         ]
       },
-      "text": "Having stated the charge formerly made against Mr. Morris and the evidence that was then in my power to establish it, I will now add a quotation from the late investigation made by Congress, extracted from their journals of the 30th September last, viz. : ' ' Your committee turning their attention to an act of Congress on the 22d of May last, directing the board of treasury to call upon all such persons as had been entrusted with public money, and had neglected to account for the same, and such other persons as had made partial or vague settlements, without producing proper vouchers, were desirous to obtain a particular statement of the accounts which are in the above predicament; but they are sorry to find that such a detail is too lengthy to be here inserted. Some of those accounts are stated in the file of papers marked papers respecting unsettled accounts^ which is herewith submitted. From the general aspect of those accounts, your committee are constrained to observe, that there are many strong marks of the want of responsibility or attention in the former trasactions respecting the public treasures. No less a sum than 2,122,600 dollars has been advanced to the secret committee of Congress, before August 2d, 1777, and a considerable part of this money remains to be accounted for otherwise than by contracts made with individuals of their own body, while those individuals neglect to account.\""
+      "text": "Having stated the charge formerly made against Mr. Morris and the evidence that was then in my power to establish it, I will now add a quotation from the late investigation made by Congress, extracted from their journals of the 30th September last, viz. : ' ' Your committee turning their attention to an act of Congress on the 2 2d of May last, directing the board of treasury to call upon all such persons as had been entrusted with public money, and had neglected to account for the same, and such other persons as had made partial or vague settlements, without producing proper vouchers, were desirous to obtain a particular statement of the accounts which are in the above predicament; but they are sorry to find that such a detail is too lengthy to be here inserted. Some of those accounts are stated in the file of papers marked papers respecting unsettled accounts^ which is herewith submitted. From the general aspect of those accounts, your committee are constrained to observe, that there are many strong marks of the want of responsibility or attention in the former trasactions respecting the public treasures. No less a sum than 2,122,600 dollars has been advanced to the secret committee of Congress, before August 2d, 1777, and a considerable part of this money remains to be accounted for otherwise than by contracts made with individuals of their own body, while those individuals neglect to account.\"",
+      "uncertain": [
+        {
+          "end": 873,
+          "readings": {
+            "pitt": "acccitnts^",
+            "primary": "accounts^"
+          },
+          "start": 864
+        }
+      ]
     },
     {
       "label": "Centinel 23, ¶ 9",
@@ -6059,7 +6781,17 @@
           754
         ]
       },
-      "text": "This number was appropriated to the investigation of that article of the last report of a committee of Congress, which informs us of a deficiency of Nineteen Millions of livres Specie, in the moneys entrusted to our Commissioners in France^ the principal of whom was the Honorable Benjamin Franklin the sanction of whose name has given such weight and success to the new constitution; but I shall be obliged to postpone the discussion of this subject in order to notice Mr. Morris's answer published in the Independent Gazetteer of this morning to my last number."
+      "text": "This number was appropriated to the investigation of that article of the last report of a committee of Congress, which informs us of a deficiency of Nineteen Millions of livres Specie, in the moneys entrusted to our Commissioners in France^ the principal of whom was the Honorable Benjamin Franklin the sanction of whose name has given such weight and success to the new constitution; but I shall be obliged to postpone the discussion of this subject in order to notice Mr. Morris's answer published in the Independent Gazetteer of this morning to my last number.",
+      "uncertain": [
+        {
+          "end": 240,
+          "readings": {
+            "pitt": "France^",
+            "primary": "France^"
+          },
+          "start": 233
+        }
+      ]
     },
     {
       "label": "Centinel 24, ¶ 2",
@@ -6089,7 +6821,17 @@
           755
         ]
       },
-      "text": "Mr. Morris says, \"On the repeated slanders of my enemies, so far as they can affect myself, I look down with silent contempt; but as I have been lately honored with a high trust in the federal government, and as an attempt is made to wound the federal cause by attacks on my reputation and the conduct of those who appointed me to a seat in the senate, my attachment to that cause^ and my respect for my fellow citizens, lead me to inform them that I have lately been at New York for the purpose of bringing forward a settlement of my accounts with the United States, and they are now in a train of investigation, and that I shall do everything in my power to obtain a final settlement of them before the meeting of Congress under the new constitution. \""
+      "text": "Mr. Morris says, \"On the repeated slanders of my enemies, so far as they can affect myself, I look down with silent contempt; but as I have been lately honored with a high trust in the federal government, and as an attempt is made to wound the federal cause by attacks on my reputation and the conduct of those who appointed me to a seat in the senate, my attachment to that cause^ and my respect for my fellow citizens, lead me to inform them that I have lately been at New York for the purpose of bringing forward a settlement of my accounts with the United States, and they are now in a train of investigation, and that I shall do everything in my power to obtain a final settlement of them before the meeting of Congress under the new constitution. \"",
+      "uncertain": [
+        {
+          "end": 381,
+          "readings": {
+            "pitt": "catcse^",
+            "primary": "cause^"
+          },
+          "start": 375
+        }
+      ]
     },
     {
       "label": "Centinel 24, ¶ 4",
@@ -6103,7 +6845,17 @@
           755
         ]
       },
-      "text": "Is it slander to call upon a public officer to account for the disposition of millions of public money entrusted to him above eleven years ago? Or is it slander to denominate such a man a public defaulter? Can any reasonable or honest obstacle have so long delayed the settlement of his accounts, especially when we consider the abilities and accuracy of this man in accounts, and his persevering diligence and assiduity to business? Is it now probable that he really means to render his accounts, when we advert to the unsuccessful exertions of a series of the greatest characters in Congress to compel him to account, and who for more than eleven years have been baffled in all their virtuous and patriotic attempts by the predominant influence and the machinations of this man and his minions? What have become of the labors of Manheim^ where Mr. Morris retired at a gloomy and doubtful crisis of public affairs under the avowed pretence of preparing these very accounts for settlement? Where is the man besides Mr. Morris, who can thus act and preserve any character or confidence, or who with so serious and weighty a charge against him would continue to be preferred to the highest honors and trusts of his country, with the power of screening past delinquencies, and the opportunity of further speculations; or who would be supported and justified by so numerous and powerful a party?"
+      "text": "Is it slander to call upon a public officer to account for the disposition of millions of public money entrusted to him above eleven years ago? Or is it slander to denominate such a man a public defaulter? Can any reasonable or honest obstacle have so long delayed the settlement of his accounts, especially when we consider the abilities and accuracy of this man in accounts, and his persevering diligence and assiduity to business? Is it now probable that he really means to render his accounts, when we advert to the unsuccessful exertions of a series of the greatest characters in Congress to compel him to account, and who for more than eleven years have been baffled in all their virtuous and patriotic attempts by the predominant influence and the machinations of this man and his minions? What have become of the labors of Manhetm, where Mr. Morris retired at a gloomy and doubtful crisis of public affairs under the avowed pretence of preparing these very accounts for settlement? Where is the man besides Mr. Morris, who can thus act and preserve any character or confidence, or who with so serious and weighty a charge against him would continue to be preferred to the highest honors and trusts of his country, with the power of screening past delinquencies, and the opportunity of further speculations; or who would be supported and justified by so numerous and powerful a party?",
+      "uncertain": [
+        {
+          "end": 839,
+          "readings": {
+            "pitt": "Manheim^",
+            "primary": "Manhetm,"
+          },
+          "start": 831
+        }
+      ]
     },
     {
       "label": "Centinel 24, ¶ 5",

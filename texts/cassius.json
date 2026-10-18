@@ -430,6 +430,17 @@
             },
             "start": 22
           }
+        ],
+        "publication.4": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "{Continued",
+              "google": "(Centinutd",
+              "primary": "(^Continued"
+            },
+            "start": 0
+          }
         ]
       }
     },
@@ -485,6 +496,17 @@
             },
             "start": 21
           }
+        ],
+        "publication.4": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "{Co7itinued",
+              "google": "(^Continued",
+              "primary": "(^Continued"
+            },
+            "start": 0
+          }
         ]
       }
     },
@@ -504,7 +526,7 @@
         "(Nviinljer 304)",
         "Tuesday. December 25, 17S7.",
         "For the Massachusetts Gazette.",
-        "{Concluded from our last.)"
+        "(^ConcluJfd from our last.)"
       ],
       "ref": "Cassius.11",
       "salutation": "To THE Inhabitants of this State.",
@@ -539,6 +561,17 @@
               "primary": "17S7."
             },
             "start": 22
+          }
+        ],
+        "publication.4": [
+          {
+            "end": 11,
+            "readings": {
+              "brittle": "{Concluded",
+              "google": "{^Concluded",
+              "primary": "(^ConcluJfd"
+            },
+            "start": 0
           }
         ]
       }
@@ -578,7 +611,18 @@
           17
         ]
       },
-      "text": "The real well-wisher to peace and good government cannot but execrate many of the ideas which that would be- disturber of tranquillity has lately proclaimed to the publick, through the channels of the Hampshire Gazette, and Independent Chronicle.| The man of sense, the true lover of his country, would, if a change of officers was to take place in the government to which he was subject, and men be placed in power, whom he thought not so capable of the task as those who preceded them, endeavour, all in his power, to extenuate the evil, and none but the ruthless incendiary, or the disappointed tool, would, at such a period, conduct in a manner the reverse."
+      "text": "The real well-wisher to peace and good government cannot but execrate many of the ideas which that would be- disturber of tranquillity has lately proclaimed to the publick, through the channels of the Hampshire Gazette, and Independent Chronicle.t The man of sense, the true lover of his country, would, if a change of officers was to take place in the government to which he was subject, and men be placed in power, whom he thought not so capable of the task as those who preceded them, endeavour, all in his power, to extenuate the evil, and none but the ruthless incendiary, or the disappointed tool, would, at such a period, conduct in a manner the reverse.",
+      "uncertain": [
+        {
+          "end": 247,
+          "readings": {
+            "brittle": "Chronicle.J",
+            "google": "Chronicle.|",
+            "primary": "Chronicle.t"
+          },
+          "start": 236
+        }
+      ]
     },
     {
       "label": "Cassius 1, ¶ 3",
@@ -735,7 +779,16 @@
           17
         ]
       },
-      "text": "\\ Shay's Rebellion. Ed."
+      "text": "\\ Shay's Rebellion. Ed.",
+      "uncertain": [
+        {
+          "end": 1,
+          "readings": {
+            "primary": "\\"
+          },
+          "start": 0
+        }
+      ]
     },
     {
       "kind": "footnote",
@@ -750,7 +803,18 @@
           17
         ]
       },
-      "text": "\\ Massachusetts newspapers published in Northampton and Boston. Ed."
+      "text": "\\ Massachusetts newspapers published in Northampton and Boston. Ed.",
+      "uncertain": [
+        {
+          "end": 1,
+          "readings": {
+            "brittle": "\\",
+            "google": "\\",
+            "primary": "\\"
+          },
+          "start": 0
+        }
+      ]
     },
     {
       "kind": "footnote",
@@ -929,7 +993,7 @@
           22
         ]
       },
-      "text": "*The author of the productions under the signature of Numa,it is said, is a gentleman of the cloth, in one of the Western counties."
+      "text": "*The author of the productions under the signature of Numa, it is said, is a gentleman of the cloth, in one of the Western counties."
     },
     {
       "kind": "footnote",
@@ -981,7 +1045,7 @@
           24
         ]
       },
-      "text": "The opposers to the plan of federal government, are composed of such as are either deeply in debt and ;know:not how to extricate themselves, should a strict administration of law and justice take place, or those who are determined not to be contented under any form of government, or of such:as mean to \" owe their greatness to their country's ruin.\" — Are such fit men to point out objections to a government, proposed by the first characters in the universe, after a long and candid discussion of the subject ? — Are such fit characters to propose a government for ruling a free and enlightened people? — Can those who are known to be divested of honour, justice and integrity, expect to propagate sentiments that will outweigh those of men whose character as true republicans and wise statesmen, are known from pole to pole — men, whose wisdom and firmness have emancipated the United States from the yoke of bondage, and laid the foundation of an empire, which (if the people will still follow their precepts) will last till time shall be swallowed up in the \"wasteless ages of eternity?\" — Can scribblers whose fame is but of a day, think to influence the citizens of the United States so far as to cause them to respect a form of government calculated to diffuse the blessings of civil society far and wide? — If they can harbour ideas of such a nature, I pity their weakness and despise their villainy."
+      "text": "The opposers to the plan of federal government, are composed of such as are either deeply in debt and know not how to extricate themselves, should a strict administration of law and justice take place, or those who are determined not to be contented under any form of government, or of such as mean to \" owe their greatness to their country's ruin.\" — Are such fit men to point out objections to a government, proposed by the first characters in the universe, after a long and candid discussion of the subject ? — Are such fit characters to propose a government for ruling a free and enlightened people? — Can those who are known to be divested of honour, justice and integrity, expect to propagate sentiments that will outweigh those of men whose character as true republicans and wise statesmen, are known from pole to pole — men, whose wisdom and firmness have emancipated the United States from the yoke of bondage, and laid the foundation of an empire, which (if the people will still follow their precepts) will last till time shall be swallowed up in the \"wasteless ages of eternity?\" — Can scribblers whose fame is but of a day, think to influence the citizens of the United States so far as to cause them to respect a form of government calculated to diffuse the blessings of civil society far and wide? — If they can harbour ideas of such a nature, I pity their weakness and despise their villainy."
     },
     {
       "label": "Cassius 3, ¶ 4",
@@ -1306,7 +1370,18 @@
           31
         ]
       },
-      "text": "\" CASSIUS. treason, rapine, sacrilege and crimes, To blot the annals of these western climes,\""
+      "text": "\" Ciiuse treason, rapine, sacrilege and crimes, To blot the annals of these western climes,\"",
+      "uncertain": [
+        {
+          "end": 8,
+          "readings": {
+            "brittle": "CASSIUS.",
+            "google": "CASSIUS.",
+            "primary": "Ciiuse"
+          },
+          "start": 2
+        }
+      ]
     },
     {
       "label": "Cassius 4, ¶ 16",
@@ -1566,7 +1641,7 @@
           35
         ]
       },
-      "text": "Agrippa says, \" the attempt has been made to deprive us,\" &c., \"by exalting characters on the one side, and vilifying them on the other.\" And goes on, \"I wish to say nothing of the merits or demerits of individuals, such arguments always do hurt.\" Immediately after this he insinuates that the members of the late federal convention have, \" from their cradles, been incapable of comprehending any other principles of government than those of absolute power, and who have, in this instance (meaning the form of government proposed by them) attempted to deprive the people of their constitutional liberty by a pitiful trick.\" Thus the ignorant loggerhead blunders directly into the very same thing which he himself, just before, takes upon him to censure. Perhaps Agrippa thinks that excusable in anti-federalists, which in a federalist he beholds as criminal; justly thinking, without doubt, that as absurdity, knavery aiul falsehood, is tlic (general characteristick of anti-federalists, he might indulge himself in either of them, without meriting censure.",
+      "text": "Agrippa says, \" the attempt has been made to deprive us,\" &c., \"by exalting characters on the one side, and vilifying them on the other.\" And goes on, \"I wish to say nothing of the merits or demerits of individuals, such arguments always do hurt.\" Immediately after this he insinuates that the members of the late federal convention have, \" from their cradles, been incapable of comprehending any other principles of government than those of absolute power, and who have, in this instance (meaning the form of government proposed by them) attempted to deprive the people of their constitutional liberty by a pitiful trick.\" Thus the ignorant loggerhead blunders directly into the very same thing which he himself, just before, takes upon him to censure. Perhaps Agrippa thinks that excusable in anti-federalists, which in a federalist he beholds as criminal; justly thinking, without doubt, that as absurdity, knavery aiul falsehood, is tlic (general characteristick of anti-federalists, he niicjht indulge himself in either of them, without meriting censure.",
       "uncertain": [
         {
           "end": 922,
@@ -1581,6 +1656,15 @@
             "primary": "tlic"
           },
           "start": 937
+        },
+        {
+          "end": 998,
+          "readings": {
+            "brittle": "might",
+            "google": "might",
+            "primary": "niicjht"
+          },
+          "start": 991
         }
       ]
     },
@@ -1681,7 +1765,7 @@
           37
         ]
       },
-      "text": "\" Some are bewildei'il in the maze of schools, And some made criticks Nature meant but fools: In search of wit these lose their common sense, And then turn critics in their own defence.\"",
+      "text": "\" Some are bewildei'il in the maze of schools, And some niaile criticks Nature meant but fools: In search of wit these lose their common sense, And then turn critics in their own defence.\"",
       "uncertain": [
         {
           "end": 22,
@@ -1691,6 +1775,15 @@
             "primary": "bewildei'il"
           },
           "start": 11
+        },
+        {
+          "end": 62,
+          "readings": {
+            "brittle": "made",
+            "google": "made",
+            "primary": "niaile"
+          },
+          "start": 56
         }
       ]
     },
@@ -2119,7 +2212,18 @@
           45
         ]
       },
-      "text": "Section 5, of the new constitution, says, Each house shall be a judge of the elections, returns and qualifications of its own members— a majority shall constitute a quorum, and be authorized to compel the attendance of absent members, in such manner and under such penalties as the law may provide. Each house shall determine the rules of its proceedings — punish its members for disorderly behaviour — and with the consent of two-thirds, expel a member. Each house shall keep a journal of its proceedings, and from time to time publish the same, &c. No one, who professes to be governed by reason, will dispute the propriety of any assembly's being the judge of the qualifications requisite to constitute a member of their own body. That part of the fifth section which says a majority shall constitute a quorum, has been an object against which many anti- federal shafts have been levelled. It has been asserted by some, that this clause empowers a majority of members present, to transact any business relating to the affairs of the United States, and that eight or ten members of the house of representatives, and an equal number of the senate, might pass a law which would benefit themselves, and injure the community at large. The fallacy of such assertions is ciently conspicuous to render them ridiculous and contemptible in the eyes of every unprejudiced mind — for the section further expresses, That a smaller number than a quorum may adjourn from day to day, and be authorised to compel attendance of absent members. This is all the power that is vested in a smaller number than the majority. It is therefore evident, that when it says a majority shall constitute a quorum to do business, it means a majority of the whole number of members that belong to either house."
+      "text": "Section 5, of the new constitution, says, Each house shall be a judge of the elections, returns and qualifications of its own members— a majority shall constitute a quorum, and be authorized to compel the attendance of absent members, in such manner and under such penalties as the law may provide. Each house shall determine the rules of its proceedings — punish its members for disorderly behaviour — and with the consent of two-thirds, expel a member. Each house shall keep a journal of its proceedings, and from time to time publish the same, &c. No one, who professes to be governed by reason, will dispute the propriety of any assembly's being the judge of the qualifications requisite to constitute a member of their own body. That part of the fifth section which says a majority shall constitute a quorum, has been an object against which many anti- federal shafts have been levelled. It has been asserted by some, that this clause empowers a majority of members present, to transact any business relating to the affairs of the United States, and that eight or ten members of the house of representatives, and an equal number of the senate, might pass a law which would benefit themselves, and injure the community at large. The fallacy of such assertions is sufficieiitly conspicuous to render them ridiculous and contemptible in the eyes of every unprejudiced mind — for the section further expresses, That a smaller number than a quorum may adjourn from day to day, and be authorised to compel attendance of absent members. This is all the power that is vested in a smaller number than the majority. It is therefore evident, that when it says a majority shall constitute a quorum to do business, it means a majority of the whole number of members that belong to either house.",
+      "uncertain": [
+        {
+          "end": 1280,
+          "readings": {
+            "brittle": "ciently",
+            "google": "ciently",
+            "primary": "sufficieiitly"
+          },
+          "start": 1267
+        }
+      ]
     },
     {
       "label": "Cassius 9, ¶ 2",
@@ -2642,7 +2746,18 @@
           53
         ]
       },
-      "text": "I hope my readers will forgive this digression, when they sider that such .scandalous lies, absurdities, and misrepresentations as the productions of Agrippa, that political Quixote, abound with, may have a tendency to prejudice the minds of the misinformed against the new constitution, unless they are properly noticed."
+      "text": "I hope my readers will forgive this digression, when they considcr that such .scandalous lies, absurdities, and misrepresentations as the productions of Agrippa, that political Quixote, abound with, may have a tendency to prejudice the minds of the misinformed against the new constitution, unless they are properly noticed.",
+      "uncertain": [
+        {
+          "end": 66,
+          "readings": {
+            "brittle": "sider",
+            "google": "sider",
+            "primary": "considcr"
+          },
+          "start": 58
+        }
+      ]
     },
     {
       "label": "Cassius 10, ¶ 14",
@@ -3019,7 +3134,7 @@
           58
         ]
       },
-      "text": "Thus, my fellow-citizens, we see that our rulers are to be bound by the most sacred ties, to support our rights and liberties, to secure to us the full enjoyment of every privilege which we can wish for; they are bound by the constitution to guarantee to usa republican form of government in its fullest extent; and what is there more that we can wish for?"
+      "text": "Thus, my fellow-citizens, we see that our rulers are to be bound by the most sacred ties, to support our rights and liberties, to secure to us the full enjoyment of every privilege which we can wish for; they are bound by the constitution to guarantee to us a republican form of government in its fullest extent; and what is there more that we can wish for?"
     },
     {
       "label": "Cassius 11, ¶ 16",
@@ -3033,7 +3148,16 @@
           59
         ]
       },
-      "text": "Thus the people of the United States, \" in order to form a more perfect Union, establish justice, insure domestick tranquillity, provide for the common defence, promote the general welfare, and secure the blessings of liberty to ourselves and our posterity,\" have appointed a federal convention to \"ordain and establish,\" with the concurrence of the people, a constitution for the United States of America. That federal convention have assembled together, and after a full investigation of the different concerns of ^ the Union, have proposed a form of government, calculated to support, and transmit, inviolate, to the latest posterity, all the blessings of civil and religious liberty."
+      "text": "Thus the people of the United States, \" in order to form a more perfect Union, establish justice, insure domestick tranquillity, provide for the common defence, promote the general welfare, and secure the blessings of liberty to ourselves and our posterity,\" have appointed a federal convention to \"ordain and establish,\" with the concurrence of the people, a constitution for the United States of America. That federal convention have assembled together, and after a full investigation of the different concerns of ^ the Union, have proposed a form of government, calculated to support, and transmit, inviolate, to the latest posterity, all the blessings of civil and religious liberty.",
+      "uncertain": [
+        {
+          "end": 517,
+          "readings": {
+            "primary": "^"
+          },
+          "start": 516
+        }
+      ]
     },
     {
       "label": "Cassius 11, ¶ 17",
@@ -3102,7 +3226,23 @@
           60
         ]
       },
-      "text": "Think, O my countrymen! think, before it is too late! — Th.e important moment approaches, when these states must, by the most wise of all conduct, forever establish their glory and happiness, on the firmest basis, by adopting the constitution, >• ''^- the most foolish and inconsistent of all conduct, in rejecting it, entail on themselves and on their posterity, endless infamy."
+      "text": "Think, O my countrymen! think, before it is too late! — Th.e important moment approaches, when these states must, by the most wise of all conduct, forever establish their glory and happiness, on the firmest basis, by adopting the constitution, >• ''^- the most foolish and inconsistent of all conduct, in rejecting it, entail on themselves and on their posterity, endless infamy.",
+      "uncertain": [
+        {
+          "end": 246,
+          "readings": {
+            "primary": ">•"
+          },
+          "start": 244
+        },
+        {
+          "end": 251,
+          "readings": {
+            "primary": "''^-"
+          },
+          "start": 247
+        }
+      ]
     },
     {
       "label": "Cassius 11, ¶ 21",

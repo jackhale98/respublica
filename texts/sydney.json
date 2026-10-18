@@ -542,7 +542,7 @@
           317
         ]
       },
-      "text": "If this guarantee had remained, as it was first reported by the committee of the whole house, to wit,. . . \" that a republican constitution, and its existing laws, ought to be guaranteed to each state by the United States,\" it would have been substantial ; but the changing the word constitution into the word form bears no favorable appearance."
+      "text": "If this guarantee had remained, as it was first reported by the committee of the whole house, to wit, . . \" that a republican constitution, and its existing laws, ought to be guaranteed to each state by the United States,\" it would have been substantial ; but the changing the word constitution into the word form bears no favorable appearance."
     },
     {
       "label": "Sydney 1, ¶ 28",
@@ -682,7 +682,7 @@
           320
         ]
       },
-      "text": "While the convention, in 1776, was setting at Harlem, the outlines of a constitution were handed about, to try, it was supposed, the temper of the members, in which it was proposed to have a governor, lieutenant governor, senate, and assembly; the qualification of the governor, lieutenant governor, and senate, to be that each should possess real estate to the value,of io,ooo pounds, and to be elected by freeholders possessing freeholds to the value of 1,000 pounds. Although this was not attended with bad effects, yet the qualifications of the electors gave rise to various arguments, and, among others, that as taxation and representation ought to go together, so the right of electing shall be in proportion to the value of each man's estate. To exemplify this, a man of ;^ioo estate had one vote; a man of ;£'iooo should have ten, and a man of ten thousand pounds a hundred, and so on in the same ratio. Others on the contrary supposed that there ought to be no other criterion than the age of twenty-one, a citizen born and resident in this country; out of the two extremes was produced the present system of election and qualification, both admitted to be as secure and consistent rights as any that have been contrived.",
+      "text": "While the convention, in 1776, was setting at Harlem, the outlines of a constitution were handed about, to try, it was supposed, the temper of the members, in which it was proposed to have a governor, lieutenant governor, senate, and assembly; the qualification of the governor, lieutenant governor, and senate, to be that each should possess real estate to the value of io,ooo pounds, and to be elected by freeholders possessing freeholds to the value of 1,000 pounds. Although this was not attended with bad effects, yet the qualifications of the electors gave rise to various arguments, and, among others, that as taxation and representation ought to go together, so the right of electing shall be in proportion to the value of each man's estate. To exemplify this, a man of ;^ioo estate had one vote; a man of ;£'iooo should have ten, and a man of ten thousand pounds a hundred, and so on in the same ratio. Others on the contrary supposed that there ought to be no other criterion than the age of twenty-one, a citizen born and resident in this country; out of the two extremes was produced the present system of election and qualification, both admitted to be as secure and consistent rights as any that have been contrived.",
       "uncertain": [
         {
           "end": 377,
@@ -1110,7 +1110,7 @@
           323
         ]
       },
-      "text": "Twenty-five and 28, which offices are incompatible, and the tenure and duration of such officers."
+      "text": "Twenty- five and 28, which offices are incompatible, and the tenure and duration of such officers."
     },
     {
       "label": "Sydney 2, ¶ 30",
@@ -1364,7 +1364,7 @@
           324
         ]
       },
-      "text": "By the 3d art., 3d sec, it is defined what shall be treason, the proof required, the punishment, and how the judgment in attainder shall operate."
+      "text": "By the 3d art, 3d sec, it is defined what shall be treason, the proof required, the punishment, and how the judgment in attainder shall operate."
     },
     {
       "label": "Sydney 2, ¶ 48",
@@ -1376,7 +1376,18 @@
           325
         ]
       },
-      "text": "XXXIII, SEC. 32 ; xxxiv, sec. 32 ; xxxv, sec. 13 ; XXXVII, SEC. i; xxxviii, xxxix."
+      "text": "XXXIII, SEC. 32 ; xxxiv, sec. 32 ; xxxv, sec. 13 ; xxxvir, SEC. i; xxxviii, xxxix.",
+      "uncertain": [
+        {
+          "end": 58,
+          "readings": {
+            "brittle": "XXXVII,",
+            "google": "XXXVII,",
+            "primary": "xxxvir,"
+          },
+          "start": 51
+        }
+      ]
     },
     {
       "label": "Sydney 2, ¶ 49",

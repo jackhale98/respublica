@@ -174,8 +174,17 @@
           423
         ]
       },
-      "text": "* Following this article was an essay from a f^ew York paper. — Ed, (411)",
+      "text": "* Following this article was an essay from a ^vew York paper. — Ed, (411)",
       "uncertain": [
+        {
+          "end": 49,
+          "readings": {
+            "brittle": "^ew",
+            "google": "f^ew",
+            "primary": "^vew"
+          },
+          "start": 45
+        },
         {
           "end": 73,
           "readings": {

@@ -102,49 +102,17 @@ compilations, read from the Internet Archive's scans. Modern compilations
 | Paul Leicester Ford, ed., *Pamphlets on the Constitution of the United States* (Brooklyn, 1888) | `cu31924020874099` (DjVu XML); checked against `pamphletsoncons00fordgoog` | Letters from the Federal Farmer (I–V) so far |
 | John Bach McMaster and Frederick D. Stone, eds., *Pennsylvania and the Federal Constitution, 1787–1788* (Lancaster, 1888) | `cu31924030454387` (DjVu XML); checked against `pennsylvaniafede00hist` | Centinel I–XXIV (chapter VII) |
 
-**Method** (`importers/ocr.py`). No word is typed; every word in the output is
-a reading found in at least one scan.
+**Method.** The text is read from the scans by OCR consensus: one scan's
+layout and words, checked word by word against the OCR of other copies of
+the same edition, with a vote under strict rules, and words no rule settles
+marked uncertain with every scan's reading. No word is typed. The full
+method, its measured accuracy, its limits and the review process are in
+[`docs/ocr.md`](ocr.md).
 
-1. *Layout from one scan.* The DjVu XML gives each word's box. Running heads
-   (a short line at the top of the page holding a page number, in capitals,
-   or repeated from the pages around it), page numbers, plates and footnotes
-   (smaller type at the foot of a page, starting with a note mark or
-   continuing a note) are separated from the text. Paragraphs are rejoined
-   across a page break, or where OCR split one, when the line before runs to
-   the right margin and the next is not indented, or when a sentence plainly
-   continues (no closing punctuation, next line in lower case). A word
-   hyphenated at a line end is rejoined.
-2. *Alignment.* The plain-text OCR of each other scan is aligned word by word
-   (located by 4-word sequences, then matched). Words that differ are paired
-   only when their letters are mostly alike, or when one or two words differ
-   between runs of three that agree; a passage that does not mostly match is
-   not used. A word one scan reads as two is paired as a unit.
-3. *Vote* (`vote`). The reading most scans share wins; on a tie, a reading
-   that is a known word (in the clean texts of the Constitution and The
-   Federalist, or read identically by two scans) wins if it looks like the
-   main scan's reading. A cleanly printed known word is never replaced by a
-   different word or by a non-word; figures that differ, a word only the main
-   scan has that is not a known word, a word that scans split differently
-   ("deliver d" against "delivered"), and an elision a scan spells out
-   ("renown'd" against "renowned") all stay unsettled.
-4. *Unsettled words* keep the main scan's reading and are recorded under
-   `uncertain` with every scan's reading; the site underlines them with dots
-   and links each paragraph to its page image. A human checks them against
-   the image, and corrections go through `docs/errata.md`.
-
-Known limits: misreadings every scan shares cannot be caught (all scans read
-Cato II's date as "October ii"); the newspaper headings, set in display type,
-are read worst; OCR dictionaries can regularize old spellings where only one
-scan disagrees. Spot checks against page images (October 2026) found the
-paragraphing right on the pages checked after the fixes above.
-
-**Structure** (`importers/ratification.py`). Each section runs from its title
-page to the page before the next (`ratification_series.py`). Essays start at
-their heading ("CATO, III."); the printed numeral must match the essay's id.
-Short lines before the salutation are the essay's heading lines; short lines
-after the last paragraph (signature, place, date, "(To be continued.)") are
-its signature. Ford's own introductory notes before each series are not
-imported; his footnotes are, as notes.
+**Structure.** Each section runs from its title page to the page before the
+next; essays start at their printed headings, and the printed numeral must
+match the essay's id. Ford's own introductory notes before each series are
+not imported; his footnotes are, as notes. Details in `docs/ocr.md`, step 4.
 
 **Attribution** follows each section's title page in the edition ("Written
 by George Clinton", "Accredited to James Winthrop"), or the place in the

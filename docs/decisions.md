@@ -328,3 +328,21 @@ the hand-placed radial layout of decision 26 (which replaced decision 19's
 The connection count beside a passage is now a pill with a link icon at the
 top right of its text, instead of a bare number under the paragraph number,
 which read as a second paragraph number.
+
+## 29. OCR consensus documented, and its vote tightened by sampling
+
+`docs/ocr.md` is the reference for reading texts from scans: the method
+step by step, what the output records, measured accuracy, known limits, the
+review process (`python -m tools.uncertain`), and how to add a book.
+`docs/editions.md` keeps only the editions and points there.
+
+Reading random samples of the vote's corrections found wrong changes, and
+each led to a rule: capitals from a misplaced signature never replace a
+lower-case word; a much shorter reading (a line-end fragment) never replaces
+a longer one; a join is taken only when it is a known word and the pieces
+are not; two different stops together count as noise unless two scans agree;
+a slash is a stray mark; and of readings with the same letters, the one
+ending like the main scan's is preferred. With these, 116 of 120 sampled
+changes were clearly right and none replaced a real word with a different
+one; uncertain words rose from 459 to 611. The rules lean toward marking a
+word uncertain over guessing.

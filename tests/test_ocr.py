@@ -40,6 +40,31 @@ class VoteTests(unittest.TestCase):
         word, settled = vote({"primary": "renozvn'd", "a": "renown' d", "b": "renowned"}, KNOWN | {"renowned"})
         self.assertEqual((word, settled), ("renozvn'd", False))
 
+    def test_capitals_do_not_replace_a_lower_case_word(self):
+        self.assertEqual(vote({"primary": "Ciiuse", "a": "CASSIUS.", "b": "CASSIUS."}, KNOWN | {"cassius"}),
+                         ("Ciiuse", False))
+
+    def test_a_fragment_does_not_replace_a_longer_word(self):
+        self.assertEqual(vote({"primary": "prometers", "a": "moters", "b": "moters"}, KNOWN | {"moters"}),
+                         ("prometers", False))
+
+    def test_two_stops_stand_when_two_scans_agree(self):
+        self.assertEqual(vote({"primary": "art.,", "a": "art.,", "b": "art,"}, KNOWN | {"art"}), ("art.,", True))
+        self.assertEqual(vote({"primary": "junto^", "a": "junto.,"}, KNOWN), ("junto^", False))
+
+    def test_punctuation_follows_the_main_scan_when_a_scan_agrees(self):
+        self.assertEqual(vote({"primary": "fanuary,", "a": "January", "b": "January,"}, KNOWN | {"january"}),
+                         ("January,", True))
+
+    def test_a_join_needs_a_known_clean_word(self):
+        self.assertEqual(vote({"primary": "a vast", "a": "avast", "b": "a"}, KNOWN), ("a vast", True))
+        self.assertEqual(vote({"primary": "us a", "a": "usa"}, KNOWN | {"us", "a", "usa"}), ("us a", True))
+        self.assertEqual(vote({"primary": "of conspiracy.", "b": "of.conspiracy."}, KNOWN),
+                         ("of conspiracy.", True))
+
+    def test_only_stray_readings_stay_unsettled(self):
+        self.assertEqual(vote({"primary": "naturally^", "a": "naturally,."}, KNOWN), ("naturally^", False))
+
     def test_stray_marks_lose_to_a_clean_reading_of_the_same_letters(self):
         self.assertEqual(vote({"primary": "the^", "a": "the"}, KNOWN), ("the", True))
 
@@ -113,6 +138,17 @@ class UncertainCheckTests(unittest.TestCase):
         self.assertEqual(check_uncertain("x", "a tliis b", [{"start": 2, "end": 7, "readings": {"primary": "tliis"}}]), [])
         self.assertTrue(check_uncertain("x", "a this b", [{"start": 2, "end": 6, "readings": {"primary": "tliis"}}]))
         self.assertTrue(check_uncertain("x", "a b", [{"start": 2, "end": 9, "readings": {"primary": "b"}}]))
+
+
+class ReviewSheetTests(unittest.TestCase):
+    def test_every_uncertain_word_is_listed_with_a_page_image(self):
+        from tools.uncertain import entries
+        doc = json.loads((TEXTS_DIR / "cato.json").read_text(encoding="utf-8"))
+        listed = entries(doc)
+        expected = sum(len(s.get("uncertain", [])) for s in doc["segments"]) + sum(
+            len(v) for d in doc["divisions"] for v in d.get("uncertain", {}).values())
+        self.assertEqual(len(listed), expected)
+        self.assertTrue(all(e["url"].startswith("https://archive.org/details/") for e in listed))
 
 
 class RatificationImportTests(unittest.TestCase):

@@ -69,16 +69,34 @@
           331
         ]
       },
-      "text": "The first thing that strikes a diligent observer, is the want of precaution with regard to the sex of the president. Is it provided that he shall be of the male gender? The Salii, a tribe of the Burgundians, in the nth century, excluded females from the sovereignty. Without a similar exclusion, what shall we think, if, in progress of time, we should come to have an o/d woman at the head of our affairs? But what security have we that he shall be a white man? What would be the national disgrace if he should be elected from one of the southern states, and a vile negro should come to rule over us? Treaties would then be formed with the tribes of Congo and Loango, instead of the civilized nations of Europe. But is there any security that he shall be 2i freeman? Who knows but the electors at a future period, in days of corruption, may pick up a man-servant, a convict perhaps, and give him the dominion? Is any care taken that he shall be of perfect parts? Shall we, in affairs of a civil nature, leave a door open to lame men, bastards, eunuchs, and the devil knows what?",
+      "text": "The first thing that strikes a diligent observer, is the want of precaution with regard to the sex of the president. Is it provided that he shall be of the male gender? The Salii, a tribe of the Burgundians, in the nth century, excluded females from the sovereignty. Without a similar exclusion, what shall we think, if, in progress of time, we should come to have an o/d woman at the head of our affairs? But what security have we that he shall be a zvliitc man? What would be the national disgrace if he should be elected from one of the southern states, and a vile negro should come to rule over us? Treaties would then be formed with the tribes of Congo and Loango, instead of the civilized nations of Europe. But is there any security that he shall be 2i freeman? Who knows but the electors at a future period, in days of corruption, may pick up a man-servant, a convict perhaps, and give him the dominion? Is any care taken that he shall be of perfect parts? Shall we, in affairs of a civil nature, leave a door open to lame men, bastards, eunuchs, and the devil knows what?",
       "uncertain": [
         {
-          "end": 757,
+          "end": 371,
+          "readings": {
+            "brittle": "old",
+            "google": "o/d",
+            "primary": "o/d"
+          },
+          "start": 368
+        },
+        {
+          "end": 458,
+          "readings": {
+            "brittle": "white",
+            "google": "white",
+            "primary": "zvliitc"
+          },
+          "start": 451
+        },
+        {
+          "end": 759,
           "readings": {
             "brittle": "a",
             "google": "di",
             "primary": "2i"
           },
-          "start": 755
+          "start": 757
         }
       ]
     },
@@ -195,7 +213,7 @@
           333
         ]
       },
-      "text": "Were it not on this principle that we are able to account for it, it might be thought strange that old Livingston,f of the Jersies, could be so hoodwinked as to give his sanction to such a diabolical scheme of tyranny amongst men — a constitution which may well be called hell-born. For if all the devils in Pandemonium had been employed about it, they could not have made a worse."
+      "text": "Were it not on this principle that we are able to account for it, it might be thought strange that old Livingston, f of the Jersies, could be so hoodwinked as to give his sanction to such a diabolical scheme of tyranny amongst men — a constitution which may well be called hell-born. For if all the devils in Pandemonium had been employed about it, they could not have made a worse."
     },
     {
       "label": "Cursory Remarks, ¶ 11",
@@ -275,6 +293,13 @@
             "primary": "Livingston."
           },
           "start": 12
+        },
+        {
+          "end": 30,
+          "readings": {
+            "primary": "£(/."
+          },
+          "start": 26
         }
       ]
     }
