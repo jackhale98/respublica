@@ -467,7 +467,7 @@
       "label": "Cato 2, ¶ 2",
       "pages": [
         "250",
-        "2"
+        "251"
       ],
       "ref": "Cato.2.2",
       "scan": {
@@ -482,7 +482,7 @@
     {
       "label": "Cato 2, ¶ 3",
       "pages": [
-        "2",
+        "251",
         "252"
       ],
       "ref": "Cato.2.3",
@@ -778,7 +778,7 @@
       "label": "Cato 4, ¶ 2",
       "pages": [
         "260",
-        "26"
+        "261"
       ],
       "ref": "Cato.4.2",
       "scan": {
@@ -793,7 +793,7 @@
     {
       "label": "Cato 4, ¶ 3",
       "pages": [
-        "26"
+        "261"
       ],
       "ref": "Cato.4.3",
       "scan": {
@@ -807,7 +807,7 @@
     {
       "label": "Cato 4, ¶ 4",
       "pages": [
-        "26",
+        "261",
         "262"
       ],
       "ref": "Cato.4.4",
@@ -1062,7 +1062,7 @@
       "label": "Cato 6, ¶ 1",
       "pages": [
         "270",
-        "27",
+        "271",
         "272"
       ],
       "ref": "Cato.6.1",
@@ -1104,7 +1104,8 @@
     {
       "label": "Cato 6, ¶ 3",
       "pages": [
-        "272"
+        "272",
+        "273"
       ],
       "ref": "Cato.6.3",
       "scan": {
@@ -1118,7 +1119,10 @@
     },
     {
       "label": "Cato 6, ¶ 4",
-      "pages": [],
+      "pages": [
+        "273",
+        "274"
+      ],
       "ref": "Cato.6.4",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -1131,7 +1135,9 @@
     },
     {
       "label": "Cato 6, ¶ 5",
-      "pages": [],
+      "pages": [
+        "274"
+      ],
       "ref": "Cato.6.5",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -1144,7 +1150,8 @@
     {
       "label": "Cato 7, ¶ 1",
       "pages": [
-        "275"
+        "275",
+        "276"
       ],
       "ref": "Cato.7.1",
       "scan": {
@@ -1167,7 +1174,10 @@
     },
     {
       "label": "Cato 7, ¶ 2",
-      "pages": [],
+      "pages": [
+        "276",
+        "277"
+      ],
       "ref": "Cato.7.2",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -1191,7 +1201,10 @@
     },
     {
       "label": "Cato 7, ¶ 3",
-      "pages": [],
+      "pages": [
+        "277",
+        "278"
+      ],
       "ref": "Cato.7.3",
       "scan": {
         "item": "essaysonconstitu00forduoft",

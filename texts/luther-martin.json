@@ -359,12 +359,14 @@
     {
       "label": "Luther Martin 2, ¶ 1",
       "pages": [
+        "344",
         "345",
         "346",
+        "347",
         "348",
         "349",
         "350",
-        "35",
+        "351",
         "352"
       ],
       "ref": "LutherMartin.2.1",
@@ -407,7 +409,9 @@
     {
       "kind": "footnote",
       "label": "Luther Martin 2, note 1",
-      "pages": [],
+      "pages": [
+        "344"
+      ],
       "ref": "LutherMartin.2.fn1",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -415,7 +419,7 @@
           356
         ]
       },
-      "text": "* See Afite, pages 182 and \\^g. — Ed. (344)",
+      "text": "* See Afite, pages 182 and \\^g. — Ed.",
       "uncertain": [
         {
           "end": 12,
@@ -437,13 +441,6 @@
             "primary": "\\^g."
           },
           "start": 27
-        },
-        {
-          "end": 43,
-          "readings": {
-            "primary": "(344)"
-          },
-          "start": 38
         }
       ]
     },
@@ -451,7 +448,7 @@
       "kind": "footnote",
       "label": "Luther Martin 2, note 2",
       "pages": [
-        "35"
+        "351"
       ],
       "ref": "LutherMartin.2.fn2",
       "scan": {
@@ -480,7 +477,8 @@
         "354",
         "355",
         "356",
-        "357"
+        "357",
+        "358"
       ],
       "ref": "LutherMartin.3.1",
       "scan": {
@@ -517,6 +515,7 @@
     {
       "label": "Luther Martin 3, ¶ 2",
       "pages": [
+        "358",
         "359"
       ],
       "ref": "LutherMartin.3.2",
@@ -548,7 +547,9 @@
     {
       "kind": "footnote",
       "label": "Luther Martin 3, note 1",
-      "pages": [],
+      "pages": [
+        "358"
+      ],
       "ref": "LutherMartin.3.fn1",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -587,7 +588,7 @@
       "label": "Luther Martin 4, ¶ 2",
       "pages": [
         "361",
-        "62",
+        "362",
         "363",
         "364",
         "365",
@@ -627,6 +628,8 @@
       "label": "Luther Martin 4, ¶ 3",
       "pages": [
         "366",
+        "367",
+        "368",
         "369"
       ],
       "ref": "LutherMartin.4.3",
@@ -677,7 +680,8 @@
       "label": "Luther Martin 4, ¶ 4",
       "pages": [
         "369",
-        "370"
+        "370",
+        "371"
       ],
       "ref": "LutherMartin.4.4",
       "scan": {
@@ -723,6 +727,7 @@
         "373",
         "374",
         "375",
+        "376",
         "377"
       ],
       "ref": "LutherMartin.5.1",
@@ -769,9 +774,11 @@
       "label": "Luther Martin 6, ¶ 1",
       "pages": [
         "378",
+        "379",
         "380",
-        "38",
-        "382"
+        "381",
+        "382",
+        "383"
       ],
       "ref": "LutherMartin.6.1",
       "scan": {

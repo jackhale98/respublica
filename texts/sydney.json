@@ -273,7 +273,8 @@
     {
       "label": "Sydney 1, ¶ 11",
       "pages": [
-        "300"
+        "300",
+        "301"
       ],
       "ref": "Sydney.1.11",
       "scan": {
@@ -296,7 +297,9 @@
     },
     {
       "label": "Sydney 1, ¶ 12",
-      "pages": [],
+      "pages": [
+        "301"
+      ],
       "ref": "Sydney.1.12",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -319,7 +322,9 @@
     },
     {
       "label": "Sydney 1, ¶ 13",
-      "pages": [],
+      "pages": [
+        "301"
+      ],
       "ref": "Sydney.1.13",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -331,7 +336,9 @@
     },
     {
       "label": "Sydney 1, ¶ 14",
-      "pages": [],
+      "pages": [
+        "301"
+      ],
       "ref": "Sydney.1.14",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -344,6 +351,7 @@
     {
       "label": "Sydney 1, ¶ 15",
       "pages": [
+        "301",
         "302",
         "303"
       ],
@@ -534,7 +542,9 @@
     },
     {
       "label": "Sydney 1, ¶ 27",
-      "pages": [],
+      "pages": [
+        "305"
+      ],
       "ref": "Sydney.1.27",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -546,7 +556,9 @@
     },
     {
       "label": "Sydney 1, ¶ 28",
-      "pages": [],
+      "pages": [
+        "305"
+      ],
       "ref": "Sydney.1.28",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -558,7 +570,9 @@
     },
     {
       "label": "Sydney 1, ¶ 29",
-      "pages": [],
+      "pages": [
+        "305"
+      ],
       "ref": "Sydney.1.29",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -590,7 +604,9 @@
     },
     {
       "label": "Sydney 1, ¶ 30",
-      "pages": [],
+      "pages": [
+        "305"
+      ],
       "ref": "Sydney.1.30",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -602,7 +618,9 @@
     },
     {
       "label": "Sydney 1, ¶ 31",
-      "pages": [],
+      "pages": [
+        "305"
+      ],
       "ref": "Sydney.1.31",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -775,7 +793,8 @@
     {
       "label": "Sydney 2, ¶ 8",
       "pages": [
-        "308"
+        "308",
+        "309"
       ],
       "ref": "Sydney.2.8",
       "scan": {
@@ -789,7 +808,9 @@
     },
     {
       "label": "Sydney 2, ¶ 9",
-      "pages": [],
+      "pages": [
+        "309"
+      ],
       "ref": "Sydney.2.9",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -801,7 +822,9 @@
     },
     {
       "label": "Sydney 2, ¶ 10",
-      "pages": [],
+      "pages": [
+        "309"
+      ],
       "ref": "Sydney.2.10",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -824,7 +847,9 @@
     },
     {
       "label": "Sydney 2, ¶ 11",
-      "pages": [],
+      "pages": [
+        "309"
+      ],
       "ref": "Sydney.2.11",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -836,7 +861,9 @@
     },
     {
       "label": "Sydney 2, ¶ 12",
-      "pages": [],
+      "pages": [
+        "309"
+      ],
       "ref": "Sydney.2.12",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -848,7 +875,9 @@
     },
     {
       "label": "Sydney 2, ¶ 13",
-      "pages": [],
+      "pages": [
+        "309"
+      ],
       "ref": "Sydney.2.13",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -871,7 +900,9 @@
     },
     {
       "label": "Sydney 2, ¶ 14",
-      "pages": [],
+      "pages": [
+        "309"
+      ],
       "ref": "Sydney.2.14",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -883,7 +914,10 @@
     },
     {
       "label": "Sydney 2, ¶ 15",
-      "pages": [],
+      "pages": [
+        "309",
+        "310"
+      ],
       "ref": "Sydney.2.15",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -907,7 +941,9 @@
     },
     {
       "label": "Sydney 2, ¶ 16",
-      "pages": [],
+      "pages": [
+        "310"
+      ],
       "ref": "Sydney.2.16",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -919,7 +955,9 @@
     },
     {
       "label": "Sydney 2, ¶ 17",
-      "pages": [],
+      "pages": [
+        "310"
+      ],
       "ref": "Sydney.2.17",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -931,7 +969,9 @@
     },
     {
       "label": "Sydney 2, ¶ 18",
-      "pages": [],
+      "pages": [
+        "310"
+      ],
       "ref": "Sydney.2.18",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -943,7 +983,9 @@
     },
     {
       "label": "Sydney 2, ¶ 19",
-      "pages": [],
+      "pages": [
+        "310"
+      ],
       "ref": "Sydney.2.19",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -955,7 +997,9 @@
     },
     {
       "label": "Sydney 2, ¶ 20",
-      "pages": [],
+      "pages": [
+        "310"
+      ],
       "ref": "Sydney.2.20",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -967,7 +1011,9 @@
     },
     {
       "label": "Sydney 2, ¶ 21",
-      "pages": [],
+      "pages": [
+        "310"
+      ],
       "ref": "Sydney.2.21",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -990,7 +1036,9 @@
     },
     {
       "label": "Sydney 2, ¶ 22",
-      "pages": [],
+      "pages": [
+        "310"
+      ],
       "ref": "Sydney.2.22",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -1002,7 +1050,9 @@
     },
     {
       "label": "Sydney 2, ¶ 23",
-      "pages": [],
+      "pages": [
+        "310"
+      ],
       "ref": "Sydney.2.23",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -1014,7 +1064,9 @@
     },
     {
       "label": "Sydney 2, ¶ 24",
-      "pages": [],
+      "pages": [
+        "311"
+      ],
       "ref": "Sydney.2.24",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -1022,7 +1074,7 @@
           323
         ]
       },
-      "text": "xviii, SEC. 17 ; XIX. SIX. 17 ; xx. six. 17 ; xxi, six. 17 ; xxiii, sec.",
+      "text": "xviii, SEC. 17 ; XIX. SIX. 17 ; xx. six. 17 ; xxi, six. 17 ; xxiii, sec. 17 ; XXII TO XXX INCLUSIVE.",
       "uncertain": [
         {
           "end": 26,
@@ -1054,20 +1106,10 @@
     },
     {
       "label": "Sydney 2, ¶ 25",
-      "pages": [],
+      "pages": [
+        "311"
+      ],
       "ref": "Sydney.2.25",
-      "scan": {
-        "item": "essaysonconstitu00forduoft",
-        "leaves": [
-          323
-        ]
-      },
-      "text": "17 ; XXII TO XXX INCLUSIVE."
-    },
-    {
-      "label": "Sydney 2, ¶ 26",
-      "pages": [],
-      "ref": "Sydney.2.26",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1077,9 +1119,11 @@
       "text": "These paragraphs regulate the election, appointment, construction and duration of all the state, county and district officers, including the delegates to Congress, and how they severally are to be created and commissioned."
     },
     {
-      "label": "Sydney 2, ¶ 27",
-      "pages": [],
-      "ref": "Sydney.2.27",
+      "label": "Sydney 2, ¶ 26",
+      "pages": [
+        "311"
+      ],
+      "ref": "Sydney.2.26",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1089,9 +1133,11 @@
       "text": "The 22d directs that the treasurer shall be appointed by act of the legislature to originate with the assembly. The 23d establishes a council to appoint the officers."
     },
     {
-      "label": "Sydney 2, ¶ 28",
-      "pages": [],
-      "ref": "Sydney.2.28",
+      "label": "Sydney 2, ¶ 27",
+      "pages": [
+        "311"
+      ],
+      "ref": "Sydney.2.27",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1101,9 +1147,11 @@
       "text": "The 24th directs that the military officers shall be, during the pleasure of the council, the chancellor, judges of the supreme court, the first judge in every county until the age of 60."
     },
     {
-      "label": "Sydney 2, ¶ 29",
-      "pages": [],
-      "ref": "Sydney.2.29",
+      "label": "Sydney 2, ¶ 28",
+      "pages": [
+        "311"
+      ],
+      "ref": "Sydney.2.28",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1113,9 +1161,11 @@
       "text": "Twenty- five and 28, which offices are incompatible, and the tenure and duration of such officers."
     },
     {
-      "label": "Sydney 2, ¶ 30",
-      "pages": [],
-      "ref": "Sydney.2.30",
+      "label": "Sydney 2, ¶ 29",
+      "pages": [
+        "311"
+      ],
+      "ref": "Sydney.2.29",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1125,9 +1175,11 @@
       "text": "Twenty-six, that sheriffs and coroners be annually appointed, and shall not continue more than four years."
     },
     {
-      "label": "Sydney 2, ¶ 31",
-      "pages": [],
-      "ref": "Sydney.2.31",
+      "label": "Sydney 2, ¶ 30",
+      "pages": [
+        "311"
+      ],
+      "ref": "Sydney.2.30",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1137,9 +1189,11 @@
       "text": "Twenty-seven, that the officers of the court be appointed by the respective courts, except the attorneys, by the first judge of every court."
     },
     {
-      "label": "Sydney 2, ¶ 32",
-      "pages": [],
-      "ref": "Sydney.2.32",
+      "label": "Sydney 2, ¶ 31",
+      "pages": [
+        "311"
+      ],
+      "ref": "Sydney.2.31",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1149,9 +1203,11 @@
       "text": "Twenty-nine, provides that town clerks, supervisors, assessors, constables and collectors, and all other officers heretofore elegible by the people, shall always continue to be so elegible."
     },
     {
-      "label": "Sydney 2, ¶ 33",
-      "pages": [],
-      "ref": "Sydney.2.33",
+      "label": "Sydney 2, ¶ 32",
+      "pages": [
+        "311"
+      ],
+      "ref": "Sydney.2.32",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1161,9 +1217,11 @@
       "text": "Thirty, directs the mode how the delegates to represent this state in the general Congress of the United States shall be elected."
     },
     {
-      "label": "Sydney 2, ¶ 34",
-      "pages": [],
-      "ref": "Sydney.2.34",
+      "label": "Sydney 2, ¶ 33",
+      "pages": [
+        "311"
+      ],
+      "ref": "Sydney.2.33",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1173,11 +1231,12 @@
       "text": "I apprehend that the paragraphs aforesaid will be compleatly rendered unoperative by the following articles in the new constitution :"
     },
     {
-      "label": "Sydney 2, ¶ 35",
+      "label": "Sydney 2, ¶ 34",
       "pages": [
+        "311",
         "312"
       ],
-      "ref": "Sydney.2.35",
+      "ref": "Sydney.2.34",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1199,6 +1258,20 @@
       ]
     },
     {
+      "label": "Sydney 2, ¶ 35",
+      "pages": [
+        "312"
+      ],
+      "ref": "Sydney.2.35",
+      "scan": {
+        "item": "essaysonconstitu00forduoft",
+        "leaves": [
+          324
+        ]
+      },
+      "text": "By the third article, 2d section, there is an extensive federal power as above-mentioned."
+    },
+    {
       "label": "Sydney 2, ¶ 36",
       "pages": [
         "312"
@@ -1210,7 +1283,7 @@
           324
         ]
       },
-      "text": "By the third article, 2d section, there is an extensive federal power as above-mentioned."
+      "text": "By the 2d article, 2d section, the president \" shall take care that the laws be faithfully executed, and shall commission all the officers of the United States.\""
     },
     {
       "label": "Sydney 2, ¶ 37",
@@ -1224,7 +1297,7 @@
           324
         ]
       },
-      "text": "By the 2d article, 2d section, the president \" shall take care that the laws be faithfully executed, and shall commission all the officers of the United States.\""
+      "text": "From these powers lodged in Congress and the powers vested in the states, it is clear that there must be a government within a government, two legislative, executive and judicial powers. The power of raising an army in time of peace, and to command the militia, will give the president ample means to enforce the supreme laws of the land."
     },
     {
       "label": "Sydney 2, ¶ 38",
@@ -1238,7 +1311,7 @@
           324
         ]
       },
-      "text": "From these powers lodged in Congress and the powers vested in the states, it is clear that there must be a government within a government, two legislative, executive and judicial powers. The power of raising an army in time of peace, and to command the militia, will give the president ample means to enforce the supreme laws of the land."
+      "text": "XXIII, SEC. 21 ; XXIV, SEC. 21 ; XXV, SEC. 21 ; XXVI, SEC. 21 ; XXVII, SEC. 21 ; XXVIII, SEC. 21 ; XXIX, SEC. 21 ; XXX, SEC. 21 ; XXXI, SEC. 2 ; XXXII, XXXIII, XXXIV."
     },
     {
       "label": "Sydney 2, ¶ 39",
@@ -1252,7 +1325,7 @@
           324
         ]
       },
-      "text": "XXIII, SEC. 21 ; XXIV, SEC. 21 ; XXV, SEC. 21 ; XXVI, SEC. 21 ; XXVII,"
+      "text": "The 32d paragraph orders, \" That a court shall be instituted for the trial of impeachments and the correction of errors under the regulations which shall be established by the legislature, and to consist of the president of the senate for the time being, and the senators, chancellors and judges of the supreme court.\""
     },
     {
       "label": "Sydney 2, ¶ 40",
@@ -1266,7 +1339,7 @@
           324
         ]
       },
-      "text": "SEC. 21 ; XXVIII, SEC. 21 ; XXIX, SEC. 21 ; XXX, SEC. 21 ;"
+      "text": "The 33d vests the power of impeaching all officers of the state for mal and corrupt practice in the representatives of the people in assembly."
     },
     {
       "label": "Sydney 2, ¶ 41",
@@ -1280,7 +1353,7 @@
           324
         ]
       },
-      "text": "XXXI, SEC. 2 ; XXXII, XXXIII, XXXIV."
+      "text": "The 34th allows the parties impeached or indicted for crimes and misdemeanors to have counsel."
     },
     {
       "label": "Sydney 2, ¶ 42",
@@ -1294,7 +1367,7 @@
           324
         ]
       },
-      "text": "The 32d paragraph orders, \" That a court shall be instituted for the trial of impeachments and the correction of errors under the regulations which shall be established by the legislature, and to consist of the president of the senate for the time being, and the senators, chancellors and judges of the supreme court.\""
+      "text": "This system is undermined and rendered nugatory by 1st art., 6th and 7th clauses, where the senate in the new constitution, have the trial and judgment on all impeachments."
     },
     {
       "label": "Sydney 2, ¶ 43",
@@ -1308,7 +1381,7 @@
           324
         ]
       },
-      "text": "The 33d vests the power of impeaching all officers of the state for mal and corrupt practice in the representatives of the people in assembly."
+      "text": "By 3d art., 2d sec, 3d clause, the trial of all crimes is regulated."
     },
     {
       "label": "Sydney 2, ¶ 44",
@@ -1322,54 +1395,14 @@
           324
         ]
       },
-      "text": "The 34th allows the parties impeached or indicted for crimes and misdemeanors to have counsel."
+      "text": "By the 3d art, 3d sec, it is defined what shall be treason, the proof required, the punishment, and how the judgment in attainder shall operate."
     },
     {
       "label": "Sydney 2, ¶ 45",
       "pages": [
-        "312"
+        "313"
       ],
       "ref": "Sydney.2.45",
-      "scan": {
-        "item": "essaysonconstitu00forduoft",
-        "leaves": [
-          324
-        ]
-      },
-      "text": "This system is undermined and rendered nugatory by 1st art., 6th and 7th clauses, where the senate in the new constitution, have the trial and judgment on all impeachments."
-    },
-    {
-      "label": "Sydney 2, ¶ 46",
-      "pages": [
-        "312"
-      ],
-      "ref": "Sydney.2.46",
-      "scan": {
-        "item": "essaysonconstitu00forduoft",
-        "leaves": [
-          324
-        ]
-      },
-      "text": "By 3d art., 2d sec, 3d clause, the trial of all crimes is regulated."
-    },
-    {
-      "label": "Sydney 2, ¶ 47",
-      "pages": [
-        "312"
-      ],
-      "ref": "Sydney.2.47",
-      "scan": {
-        "item": "essaysonconstitu00forduoft",
-        "leaves": [
-          324
-        ]
-      },
-      "text": "By the 3d art, 3d sec, it is defined what shall be treason, the proof required, the punishment, and how the judgment in attainder shall operate."
-    },
-    {
-      "label": "Sydney 2, ¶ 48",
-      "pages": [],
-      "ref": "Sydney.2.48",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1390,9 +1423,11 @@
       ]
     },
     {
-      "label": "Sydney 2, ¶ 49",
-      "pages": [],
-      "ref": "Sydney.2.49",
+      "label": "Sydney 2, ¶ 46",
+      "pages": [
+        "313"
+      ],
+      "ref": "Sydney.2.46",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1402,9 +1437,11 @@
       "text": "The 38th paragraph provides \" that the free exercise and enjoyment of religious procession and worship, without discrimination or preference, shall forever hereafter be allowed within this State to all mankind, provided that the liberty of conscience hereby granted shall not excuse acts of licentiousness or justify practices inconsistent with the peace or safety of the State.\""
     },
     {
-      "label": "Sydney 2, ¶ 50",
-      "pages": [],
-      "ref": "Sydney.2.50",
+      "label": "Sydney 2, ¶ 47",
+      "pages": [
+        "313"
+      ],
+      "ref": "Sydney.2.47",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1414,9 +1451,11 @@
       "text": "The 39th provides that \" no minister of the gospel, or priest of any denomination whatsoever, shall at any time hereafter, under any pretence or description whatever, be eligible to or capable of holding any civil or military office or place within this state.\""
     },
     {
-      "label": "Sydney 2, ¶ 51",
-      "pages": [],
-      "ref": "Sydney.2.51",
+      "label": "Sydney 2, ¶ 48",
+      "pages": [
+        "313"
+      ],
+      "ref": "Sydney.2.48",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1426,9 +1465,11 @@
       "text": "The first of those articles protects us from persecution in religious matters. The other excludes the clergy from enjoying any office, civil or military. Two provisions pas.sed by in silence by the framers of the new constitution ; and although possibly the leaders in both have been equally averse to a democratic system, and have had the same object, the ruin of state government, in view."
     },
     {
-      "label": "Sydney 2, ¶ 52",
-      "pages": [],
-      "ref": "Sydney.2.52",
+      "label": "Sydney 2, ¶ 49",
+      "pages": [
+        "313"
+      ],
+      "ref": "Sydney.2.49",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1438,9 +1479,11 @@
       "text": "XLII."
     },
     {
-      "label": "Sydney 2, ¶ 53",
-      "pages": [],
-      "ref": "Sydney.2.53",
+      "label": "Sydney 2, ¶ 50",
+      "pages": [
+        "313"
+      ],
+      "ref": "Sydney.2.50",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1450,9 +1493,11 @@
       "text": "This paragraph provides \" that it shall be in the discretion of the legislature to naturalize all such persons and in such manner as they shall think proper.\""
     },
     {
-      "label": "Sydney 2, ¶ 54",
-      "pages": [],
-      "ref": "Sydney.2.54",
+      "label": "Sydney 2, ¶ 51",
+      "pages": [
+        "313"
+      ],
+      "ref": "Sydney.2.51",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1462,9 +1507,11 @@
       "text": "The 1st art, 8 sec, 4th clause, give to the new government power to establish a uniform rule of naturalization."
     },
     {
-      "label": "Sydney 2, ¶ 55",
-      "pages": [],
-      "ref": "Sydney.2.55",
+      "label": "Sydney 2, ¶ 52",
+      "pages": [
+        "313"
+      ],
+      "ref": "Sydney.2.52",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1474,11 +1521,12 @@
       "text": "And by the 4th art., 2d sec, \" the citizens of each state shall be entitled to all the privileges and immunities of citizens in the several states,\" whereby the clause is rendered entirely nugatory."
     },
     {
-      "label": "Sydney 2, ¶ 56",
+      "label": "Sydney 2, ¶ 53",
       "pages": [
+        "313",
         "314"
       ],
-      "ref": "Sydney.2.56",
+      "ref": "Sydney.2.53",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
@@ -1489,11 +1537,11 @@
       "text": "From this contrast it appears that the general government, when compleatly organized, will absorb all those powers of the state which the framers of its constitution had declared should be only exercised by the representatives of the people of the state ; that the burthens and expence of supporting a state establishment will be perpetuated; but its operations to ensure or contribute to any essential measures promotive of the happiness of the people may be totally prostrated, the general government arrogating to itself the right of interfering in the most minute objects of internal police, and the most trifling domestic concerns of every state, by possessing a power of passing laws \" to provide for the general welfare of the United States,\" which may affect life, liberty and property in every modification they may think expedient, unchecked by cautionary reservations, and unrestrained by a declaration of any of those rights which the wisdom and prudence of America in the year 1776 held ought to be at all events protected from violation."
     },
     {
-      "label": "Sydney 2, ¶ 57",
+      "label": "Sydney 2, ¶ 54",
       "pages": [
         "314"
       ],
-      "ref": "Sydney.2.57",
+      "ref": "Sydney.2.54",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [

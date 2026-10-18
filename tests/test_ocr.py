@@ -1,7 +1,7 @@
 import json
 import unittest
 
-from importers.ocr import Block, Reference, align, attested, consensus, fragment, join_tokens, pair_similar, plain, vote
+from importers.ocr import Block, Page, Reference, align, settle_folios, attested, consensus, fragment, join_tokens, pair_similar, plain, vote
 from importers.ratification import number_of, numeral_reads_as, split_greetings
 from tools.common import TEXTS_DIR
 from tools.verify import check_uncertain
@@ -143,6 +143,20 @@ class StructureTests(unittest.TestCase):
         self.assertEqual([b.text for b in out], ["October 9, 1787.", "Dear Sir,"])
 
 
+class PageNumberTests(unittest.TestCase):
+    def test_misread_and_missing_numbers_are_taken_from_the_pages_around(self):
+        read = ["10", "11", "1", "13", None, "15", "5", "17"]
+        pages = [Page(leaf, 0, 0, folio=f) for leaf, f in enumerate(read, 1)]
+        settle_folios(pages)
+        self.assertEqual([p.number for p in pages], [str(n) for n in range(10, 18)])
+
+    def test_two_pages_misread_alike_do_not_confirm_each_other(self):
+        read = ["150", "151", "52", "153", "54", "155", "156"]
+        pages = [Page(leaf, 0, 0, folio=f) for leaf, f in enumerate(read, 1)]
+        settle_folios(pages)
+        self.assertEqual([p.number for p in pages], [str(n) for n in range(150, 157)])
+
+
 class UncertainCheckTests(unittest.TestCase):
     def test_span_must_hold_a_reading(self):
         self.assertEqual(check_uncertain("x", "a tliis b", [{"start": 2, "end": 7, "readings": {"primary": "tliis"}}]), [])
@@ -173,6 +187,23 @@ class RatificationImportTests(unittest.TestCase):
         refs = {s["ref"]: s for s in doc["segments"]}
         self.assertIn("blinded them with respect to their best interests", refs["Cassius.4.4"]["text"])
         self.assertNotIn("Cassius.4.16", refs)
+
+    def test_paragraphs_split_by_page_furniture_are_whole(self):
+        def seg(work, ref):
+            doc = json.loads((TEXTS_DIR / f"{work}.json").read_text(encoding="utf-8"))
+            return {s["ref"]: s for s in doc["segments"]}[ref]["text"]
+        # A printer's signature mark ("40") at the foot of the page.
+        self.assertIn("grasp the commerce of America and meeting", seg("centinel", "Centinel.8.9"))
+        self.assertIn("Roman Empire, page 97", seg("centinel", "Centinel.2.6"))
+        # A line in lower case set flush left, and one after a dropped dash.
+        self.assertIn("several states, &c. same art. sect. 8", seg("federal-farmer", "FederalFarmer.4.2"))
+        self.assertIn("considered as chosen. -In this [17] case", seg("federal-farmer", "FederalFarmer.3.2"))
+        # An epigraph's author; a heading set over two lines; a note that goes on after a colon.
+        self.assertTrue(seg("centinel", "Centinel.6.1").endswith("world.\" Pope."))
+        self.assertTrue(seg("sydney", "Sydney.2.24").endswith("XXII TO XXX INCLUSIVE."))
+        self.assertIn("I will not say this writer", seg("landholder", "Landholder.10.fn8"))
+        # A short note at the foot of the page is not a page number.
+        self.assertEqual(seg("centinel", "Centinel.5.fn3"), "t Ibid.")
 
     def test_duplicate_printed_numbers_get_letters(self):
         doc = json.loads((TEXTS_DIR / "landholder.json").read_text(encoding="utf-8"))

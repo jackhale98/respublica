@@ -135,8 +135,8 @@ project owner.
   passage it was merged into.
 
 Before launch, the project owner may instead approve renumbering, and the
-refs that no longer exist are removed from `refs.lock` (decision 36:
-Cassius IV).
+refs that no longer exist are removed from `refs.lock` (decisions 36 and
+37).
 
 ## Cases (planned)
 

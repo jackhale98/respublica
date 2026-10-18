@@ -41,7 +41,9 @@
     {
       "label": "Letter to the Landholder, ¶ 1",
       "pages": [
-        "207"
+        "207",
+        "208",
+        "209"
       ],
       "ref": "WilliamsLetter.1",
       "scan": {
@@ -65,7 +67,9 @@
     },
     {
       "label": "Letter to the Landholder, ¶ 2",
-      "pages": [],
+      "pages": [
+        "209"
+      ],
       "ref": "WilliamsLetter.2",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -77,7 +81,9 @@
     },
     {
       "label": "Letter to the Landholder, ¶ 3",
-      "pages": [],
+      "pages": [
+        "209"
+      ],
       "ref": "WilliamsLetter.3",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -89,7 +95,9 @@
     },
     {
       "label": "Letter to the Landholder, ¶ 4",
-      "pages": [],
+      "pages": [
+        "209"
+      ],
       "ref": "WilliamsLetter.4",
       "scan": {
         "item": "essaysonconstitu00forduoft",

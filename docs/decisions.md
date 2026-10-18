@@ -481,3 +481,28 @@ IV rather than retire `Cassius.4.5` (decision 35): the joined paragraph is
 
 After launch, rule 6 applies without exception and such a correction uses
 retired refs (`docs/references.md`). The mechanism stays in place for that.
+
+## 37. Split paragraphs and page numbers, checked against the page images
+
+At the project owner's request (before launch), the paragraph splits in
+errata 16–21 were checked against the page images, and the importer's
+layout rules fixed where they went wrong (`docs/ocr.md`, step 1):
+
+- **Printer's signature marks** ("37" … "40" at the foot of McMaster and
+  Stone's pages) are page furniture, not words of the text.
+- **Paragraphs joined:** Centinel VIII (split at a signature mark), Federal
+  Farmer III and IV (OCR dropped a leading "——"), Centinel VI's epigraph
+  and its author, two of Sydney's numeral headings, and the Landholder's
+  note in No. X (split at a colon). Each work's later passages were
+  renumbered (Centinel VI and VIII, Federal Farmer III and IV, Sydney II,
+  Landholder X's notes), the refs that no longer exist were removed from
+  `refs.lock`, and the 59 suggested links on renumbered passages were
+  re-proposed from their decisions files with the new refs (no link was
+  lost; two identical links from the joined Federal Farmer paragraph became
+  one).
+- **Not errors:** Landholder IV and A Steady and Open Republican end
+  mid-sentence in print, the sentence running on into the signature.
+- **Page numbers** recorded on passages are now checked against the pages
+  around them, so a misread number ("1" for 16) or a missing one is taken
+  from its neighbours. 442 passages gained or corrected page numbers; no
+  text changed.

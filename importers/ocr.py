@@ -18,6 +18,7 @@ Steps, each documented in docs/editions.md:
 from __future__ import annotations
 
 import re
+from bisect import bisect_left
 import statistics
 import xml.etree.ElementTree as ET
 from collections import Counter
@@ -76,7 +77,8 @@ class Page:
     width: int
     height: int
     paras: list[Para] = field(default_factory=list)
-    folio: str | None = None  # printed page number, when found
+    folio: str | None = None  # printed page number, when read on the page
+    number: str | None = None  # printed page number, checked against nearby pages (settle_folios)
 
 
 def parse_djvu_xml(path: Path) -> list[Page]:
@@ -160,14 +162,26 @@ def classify(pages: list[Page]) -> None:
                     rest.kind = "head"
                     m = re.search(r"(?:^|\s)(\d{1,4})(?:\s|$)", rest.text)
                     page.folio = page.folio or (m.group(1) if m else None)
+        # A printer's signature mark ("40", the sheet number) at the foot of
+        # the page that OCR ran into the last paragraph as its last line.
+        last = page.paras[-1]
+        if last.kind == "text" and len(last.lines) > 1 and page.height:
+            mark = last.lines[-1]
+            if (len(mark.text.replace(" ", "")) <= 8 and re.search(r"\d", mark.text)
+                    and mark.words[0].y0 > 0.85 * page.height
+                    and max(w.x1 for w in mark.words) - mark.x0 < 0.12 * page.width):
+                last.lines = last.lines[:-1]
+                page.paras.append(Para([mark], last.leaf, "folio"))
         # Folio at the foot: "( 247 )" or "247", or a mark of a few
         # characters on its own line at the very bottom ("('56)", "(no)":
         # OCR misreads the small figures).
         for para in page.paras[-2:]:
             squeezed = para.text.replace(" ", "")
             low = page.height and para.lines[0].words[0].y0 > 0.85 * page.height
-            signature = re.fullmatch(r"[A-Z][a-z]+\.", squeezed)  # "Brutus." closing the last page
-            if len(para.lines) == 1 and (FOLIO.match(squeezed) or (low and len(squeezed) <= 7 and not signature)):
+            # A word and a period is text: a signature closing the last page
+            # ("Brutus."), a short note ("† Ibid.").
+            word = re.search(r"[A-Za-z]{3,}\.", squeezed)
+            if len(para.lines) == 1 and (FOLIO.match(squeezed) or (low and len(squeezed) <= 7 and not word)):
                 para.kind = "folio"
                 m = FOLIO.match(squeezed)
                 page.folio = page.folio or (m.group(1) if m and m.group(1).isdigit() else None)
@@ -204,6 +218,37 @@ def classify(pages: list[Page]) -> None:
             if (para.kind == "text" and para.lines[0].words[0].y0 > page.height * 0.3
                     and NOTE_MARK.match(para.text) and EDITOR_NOTE.search(para.text)):
                 para.kind = "note"
+    settle_folios(pages)
+
+
+def settle_folios(pages: list[Page]) -> None:
+    """Printed page numbers, checked against the pages around them (in place).
+
+    A number read on a page counts only when it fits the pages around it:
+    its offset from the scan's page count is the one most pages within ten
+    read (so two pages misread alike, "53" and "57" for 153 and 157, do not
+    confirm each other). Any other page, a misread number ("1" for "16",
+    "41" for "411") or none, takes its number from the nearest confirmed
+    page on each side; if those disagree (an unnumbered plate between them)
+    the nearer one wins, and with none near, the page has no number."""
+    read = {p.leaf: int(p.folio) for p in pages if p.folio and p.folio.isdigit()}
+    def agreed(leaf: int, n: int) -> bool:
+        # The scan-to-print offset most pages within ten read, and at least
+        # one other page shares it.
+        offsets = Counter(l - m for l, m in read.items() if abs(l - leaf) <= 10)
+        top, count = offsets.most_common(1)[0]
+        return leaf - n == top and count >= 2
+
+    confirmed = {leaf: n for leaf, n in read.items() if agreed(leaf, n)}
+    leaves = sorted(confirmed)
+    for page in pages:
+        if page.leaf in confirmed:
+            page.number = str(confirmed[page.leaf])
+            continue
+        i = bisect_left(leaves, page.leaf)
+        near = [leaf for leaf in leaves[max(0, i - 1):i + 1] if abs(leaf - page.leaf) <= 6]
+        guesses = sorted((abs(leaf - page.leaf), confirmed[leaf] + page.leaf - leaf) for leaf in near)
+        page.number = str(guesses[0][1]) if guesses and guesses[0][1] > 0 else None
 
 
 def body_margin(page: Page) -> int:
@@ -249,16 +294,17 @@ def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None)
                 continue
             if para.kind == "note":
                 # A note that runs on (no mark, and the last note stopped
-                # mid-sentence, on this page or the one before) is joined to it.
+                # mid-sentence or at a colon, on this page or the one before)
+                # is joined to it.
                 if (last_note is not None and not NOTE_MARK.match(text)
-                        and not re.search(r"[.?!:;\"')\]”’]$", last_note.text)):
+                        and (not re.search(r"[.?!:;\"')\]”’]$", last_note.text) or last_note.text.endswith(":"))):
                     last_note.text = join_across(last_note.text, text)
                     if last_note.leaves[-1] != page.leaf:
                         last_note.leaves.append(page.leaf)
-                        if page.folio:
-                            last_note.folios.append(page.folio)
+                        if page.number:
+                            last_note.folios.append(page.number)
                 else:
-                    last_note = Block(text, [page.leaf], [page.folio] if page.folio else [], "note")
+                    last_note = Block(text, [page.leaf], [page.number] if page.number else [], "note")
                     out.append(last_note)
                 continue
             indented = para.lines[0].x0 > margin + max(20, page.width * 0.012)
@@ -267,15 +313,36 @@ def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None)
             # line then looks indented).
             mid_sentence = (last_text is not None and not re.search(r"[.?!:;\"')\]”’]$", last_text.text)
                             and re.match(r"[a-z]", text))
-            if last_text is not None and not _is_heading(para, margin, page, body_h) and (
-                    (open_end and not indented) or mid_sentence):
+            # A line set flush left that begins in lower case never starts a
+            # paragraph ("&c.—— / same art. sect. 8", where OCR dropped the
+            # dash and the line before looks short).
+            # Not after a quotation in verse, which stands apart from the
+            # prose around it, nor before roman numerals OCR read in lower
+            # case ("xviii, SEC. 17").
+            flush_lower = (not indented and re.match(r"[a-z]", text) and not re.match(r"[ivxlc]+[.,]", text)
+                           and last_text is not None and not re.search(r"[\"”]$", last_text.text))
+            # A line beginning with a dash after a full line goes on with the
+            # paragraph: OCR drops the first of the two dashes ("——In this
+            # case"), and the line then looks indented.
+            dash_on = open_end and re.match(r"[-—–]", text)
+            # A heading of paragraph numbers set over several lines ("XXIII,
+            # SEC. 21 ; … XXVII, / SEC. 21 ; …"), as Sydney cites the state
+            # constitution.
+            numerals = (last_text is not None and NUMERAL_HEAD.match(last_text.text) and NUMERAL_HEAD.match(text)
+                        and not last_text.text.endswith("INCLUSIVE."))
+            # The author's name set to the right under a quotation ("Pope."
+            # under an epigraph) belongs to the quotation.
+            attribution = (last_text is not None and len(para.lines) == 1 and len(text.split()) <= 3
+                           and para.lines[0].x0 > page.width * 0.5 and re.search(r"[\"”]$", last_text.text))
+            if last_text is not None and (attribution or numerals or not _is_heading(para, margin, page, body_h) and (
+                    (open_end and not indented) or mid_sentence or flush_lower or dash_on)):
                 last_text.text = join_across(last_text.text, text)
                 if last_text.leaves[-1] != page.leaf:
                     last_text.leaves.append(page.leaf)
-                    if page.folio:
-                        last_text.folios.append(page.folio)
+                    if page.number:
+                        last_text.folios.append(page.number)
             else:
-                last_text = Block(text, [page.leaf], [page.folio] if page.folio else [], "text", indented)
+                last_text = Block(text, [page.leaf], [page.number] if page.number else [], "text", indented)
                 out.append(last_text)
             open_end = max(w.x1 for w in para.lines[-1].words) >= right - page.width * 0.05
     return out
@@ -290,6 +357,11 @@ def right_margin(page: Page) -> int:
 def body_height(page: Page) -> float:
     hs = [w.height for para in page.paras if para.kind == "text" for w in para.words if w.height > 0]
     return statistics.median(hs) if hs else 0
+
+
+# A line of roman numerals, figures and "SEC." (OCR reads small capitals in
+# lower case, and "SEC." as "SIX.").
+NUMERAL_HEAD = re.compile(r"(?i)^(?:(?:[ivxlc]+|\d+|sec|six|to|and|inclusive)[.,;]*\s*|;\s*)+$")
 
 
 def split_paragraphs(page: Page, margin: int) -> list[Para]:

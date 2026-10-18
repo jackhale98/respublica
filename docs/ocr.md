@@ -66,23 +66,39 @@ proportionally more uncertain words.
      also set aside.
    - *Folios*: a page number at the foot ("( 247 )"), or any line of a few
      characters alone at the very bottom (OCR reads small figures as "('56)"),
-     unless it is a capitalized word and a period (a signature, "Brutus.").
+     unless it holds a word and a period (a signature, "Brutus."; a short
+     note, "† Ibid.").
+   - *Signature marks*: the printer's sheet number ("40") at the foot of a
+     page, even where OCR made it the last line of the paragraph above.
    - *Plates*: a page with no running head, no page number and fewer than 25
      words (a portrait and its caption) is skipped.
+   - *Page numbers* (`settle_folios`): a number read on a page counts only
+     if it fits the pages around it (its offset from the scan's page count
+     is the one most pages within ten read). Any other page, misread ("1"
+     for 16, "41" for 413, two pages read "53" and "57" for 153 and 157) or
+     unnumbered, takes its number from the nearest confirmed page. These are
+     the page numbers a passage records.
 4. **Footnotes** are paragraphs at the foot of a page in smaller type than
    the page's text (type size is a line's tallest word; the page's text size
    is taken high in its range, since a long note can outnumber the text), or
    marked and signed by the editor ("* … — Ed."). A note must begin with a
    mark (`*`, `†`, and their OCR forms) unless it continues a note that
-   stopped mid-sentence; small type without a mark (a signature in small
-   capitals, a quotation) stays text. A note that runs on to the next page
-   is joined to its start.
+   stopped mid-sentence or at a colon; small type without a mark (a
+   signature in small capitals, a quotation) stays text. A note that runs on
+   to the next page is joined to its start.
 5. **Paragraphs are rejoined** across a page break, or where OCR split one,
    when the line before runs to the right margin and the next line is not
    indented, or when a sentence plainly continues (the text so far has no
    closing punctuation and the next line starts in lower case: OCR drops a
-   leading dash, "——a convention", and the line then looks indented). Large
-   or centered lines (headings) never continue a paragraph.
+   leading dash, "——a convention", and the line then looks indented). Also
+   joined: a line set flush left that starts in lower case ("&c.—— / same
+   art. sect. 8"), unless it follows a quotation in verse or is a roman
+   numeral; a line starting with a dash after a full line (OCR drops the
+   first of two dashes, "——In this case", so the line looks indented); an
+   author's name set to the right under a quotation ("Pope." under an
+   epigraph); and a heading of paragraph numbers set over several lines
+   ("XXIII, SEC. 21 ; … / SEC. 21 ; …"). Otherwise large or centered lines
+   (headings) never continue a paragraph.
 6. **Words hyphenated at a line end** are rejoined ("consti-" + "tution").
 
 ## Step 2: alignment (`Reference`, `align`, `pair_similar`)

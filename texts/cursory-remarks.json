@@ -49,7 +49,9 @@
   "segments": [
     {
       "label": "Cursory Remarks, ¶ 1",
-      "pages": [],
+      "pages": [
+        "319"
+      ],
       "ref": "CursoryRemarks.1",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -61,7 +63,9 @@
     },
     {
       "label": "Cursory Remarks, ¶ 2",
-      "pages": [],
+      "pages": [
+        "319"
+      ],
       "ref": "CursoryRemarks.2",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -103,6 +107,7 @@
     {
       "label": "Cursory Remarks, ¶ 3",
       "pages": [
+        "319",
         "320"
       ],
       "ref": "CursoryRemarks.3",

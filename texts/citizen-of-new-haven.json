@@ -72,7 +72,9 @@
   "segments": [
     {
       "label": "Citizen of New Haven 1, ¶ 1",
-      "pages": [],
+      "pages": [
+        "233"
+      ],
       "ref": "CitizenOfNewHaven.1.1",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -84,7 +86,9 @@
     },
     {
       "label": "Citizen of New Haven 1, ¶ 2",
-      "pages": [],
+      "pages": [
+        "233"
+      ],
       "ref": "CitizenOfNewHaven.1.2",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -96,7 +100,9 @@
     },
     {
       "label": "Citizen of New Haven 1, ¶ 3",
-      "pages": [],
+      "pages": [
+        "233"
+      ],
       "ref": "CitizenOfNewHaven.1.3",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -108,7 +114,9 @@
     },
     {
       "label": "Citizen of New Haven 1, ¶ 4",
-      "pages": [],
+      "pages": [
+        "233"
+      ],
       "ref": "CitizenOfNewHaven.1.4",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -642,7 +650,9 @@
     },
     {
       "label": "Citizen of New Haven 2, ¶ 12",
-      "pages": [],
+      "pages": [
+        "240"
+      ],
       "ref": "CitizenOfNewHaven.2.12",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -654,7 +664,9 @@
     },
     {
       "label": "Citizen of New Haven 2, ¶ 13",
-      "pages": [],
+      "pages": [
+        "240"
+      ],
       "ref": "CitizenOfNewHaven.2.13",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -666,7 +678,9 @@
     },
     {
       "label": "Citizen of New Haven 2, ¶ 14",
-      "pages": [],
+      "pages": [
+        "240"
+      ],
       "ref": "CitizenOfNewHaven.2.14",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -678,7 +692,9 @@
     },
     {
       "label": "Citizen of New Haven 2, ¶ 15",
-      "pages": [],
+      "pages": [
+        "240"
+      ],
       "ref": "CitizenOfNewHaven.2.15",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -690,7 +706,10 @@
     },
     {
       "label": "Citizen of New Haven 2, ¶ 16",
-      "pages": [],
+      "pages": [
+        "240",
+        "241"
+      ],
       "ref": "CitizenOfNewHaven.2.16",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -703,7 +722,9 @@
     },
     {
       "label": "Citizen of New Haven 2, ¶ 17",
-      "pages": [],
+      "pages": [
+        "241"
+      ],
       "ref": "CitizenOfNewHaven.2.17",
       "scan": {
         "item": "essaysonconstitu00forduoft",

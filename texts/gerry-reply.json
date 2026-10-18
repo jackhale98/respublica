@@ -87,6 +87,7 @@
     {
       "label": "Reply to a Landholder 1, ¶ 1",
       "pages": [
+        "127",
         "128"
       ],
       "ref": "GerryReply.1.1",
@@ -197,7 +198,8 @@
     {
       "label": "Reply to a Landholder 2, ¶ 7",
       "pages": [
-        "130"
+        "130",
+        "131"
       ],
       "ref": "GerryReply.2.7",
       "scan": {
@@ -211,7 +213,9 @@
     },
     {
       "label": "Reply to a Landholder 2, ¶ 8",
-      "pages": [],
+      "pages": [
+        "131"
+      ],
       "ref": "GerryReply.2.8",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -253,7 +257,7 @@
       "label": "Reply to a Landholder 2, ¶ 11",
       "pages": [
         "132",
-        "1"
+        "133"
       ],
       "ref": "GerryReply.2.11",
       "scan": {

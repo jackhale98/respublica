@@ -122,6 +122,7 @@
     {
       "label": "Federal Farmer 1, ¶ 1",
       "pages": [
+        "279",
         "280"
       ],
       "ref": "FederalFarmer.1.1",
@@ -148,7 +149,7 @@
       "label": "Federal Farmer 1, ¶ 2",
       "pages": [
         "280",
-        "28"
+        "281"
       ],
       "ref": "FederalFarmer.1.2",
       "scan": {
@@ -163,7 +164,7 @@
     {
       "label": "Federal Farmer 1, ¶ 3",
       "pages": [
-        "28",
+        "281",
         "282"
       ],
       "ref": "FederalFarmer.1.3",
@@ -235,7 +236,8 @@
     {
       "label": "Federal Farmer 1, ¶ 7",
       "pages": [
-        "284"
+        "284",
+        "285"
       ],
       "ref": "FederalFarmer.1.7",
       "scan": {
@@ -259,7 +261,9 @@
     },
     {
       "label": "Federal Farmer 1, ¶ 8",
-      "pages": [],
+      "pages": [
+        "285"
+      ],
       "ref": "FederalFarmer.1.8",
       "scan": {
         "item": "cu31924020874099",
@@ -272,6 +276,7 @@
     {
       "label": "Federal Farmer 1, ¶ 9",
       "pages": [
+        "285",
         "286"
       ],
       "ref": "FederalFarmer.1.9",
@@ -508,7 +513,8 @@
     {
       "label": "Federal Farmer 2, ¶ 5",
       "pages": [
-        "290"
+        "290",
+        "291"
       ],
       "ref": "FederalFarmer.2.5",
       "scan": {
@@ -522,7 +528,9 @@
     },
     {
       "label": "Federal Farmer 2, ¶ 6",
-      "pages": [],
+      "pages": [
+        "291"
+      ],
       "ref": "FederalFarmer.2.6",
       "scan": {
         "item": "cu31924020874099",
@@ -598,7 +606,8 @@
     {
       "label": "Federal Farmer 3, ¶ 1",
       "pages": [
-        "294"
+        "294",
+        "295"
       ],
       "ref": "FederalFarmer.3.1",
       "scan": {
@@ -612,37 +621,27 @@
     },
     {
       "label": "Federal Farmer 3, ¶ 2",
-      "pages": [],
+      "pages": [
+        "295",
+        "296"
+      ],
       "ref": "FederalFarmer.3.2",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
-          311
+          311,
+          312
         ]
       },
-      "text": "First. As to the organization the house of representatives, the democrative branch, as it is called, is to consist of 65 members : that is, about one representative for fifty thousand inhabitants, to be chosen biennially the federal legislature may increase this number to one for each thirty thousand inhabitants, abating fractional numbers in each state. Thirtythree representatives will make a quorum for doing business, and a majority of those present determine the sense of the house. 1 have no idea that the interests, feelings, and opinions of three or four millions of people, especially touching internal taxation, can be collected in such a house. In the nature of things, nine times in ten, men of the elevated classes in the community only can be chosen Connecticut, for instance, will have five representatives not one man in a hundred of those who form the democrative branch in the state legislature, will, on a fair computation, be one of the five. — The people of this country, in one sense, may all be democratic ; but if we make the proper distinction between the few men of wealth and abilities, and consider them, as we ought, as the natural aristocracy of the country, and the great body of the people, the middle and lower classes, as the democracy, this federal representative branch will have but very little democracy in it, even this small representation is not secured on proper principles. The branches of the legislature are essential parts of the fundamental compact, and ought to be so fixed by the people, that the legislature cannot alter itself by modifying the elections of its own members. This, by a part of Art. i, Sect. 4, the general legislature may do, it may evidently so regulate elections as to secure the choice of any particular description of men. It may make the whole state one district — make the capital, or any places in the state, the place or places of election — it may declare that the five men (or whatever the number may be the state may chuse) who shall have the most votes shall be considered as chosen."
+      "text": "First. As to the organization the house of representatives, the democrative branch, as it is called, is to consist of 65 members : that is, about one representative for fifty thousand inhabitants, to be chosen biennially the federal legislature may increase this number to one for each thirty thousand inhabitants, abating fractional numbers in each state. Thirtythree representatives will make a quorum for doing business, and a majority of those present determine the sense of the house. 1 have no idea that the interests, feelings, and opinions of three or four millions of people, especially touching internal taxation, can be collected in such a house. In the nature of things, nine times in ten, men of the elevated classes in the community only can be chosen Connecticut, for instance, will have five representatives not one man in a hundred of those who form the democrative branch in the state legislature, will, on a fair computation, be one of the five. — The people of this country, in one sense, may all be democratic ; but if we make the proper distinction between the few men of wealth and abilities, and consider them, as we ought, as the natural aristocracy of the country, and the great body of the people, the middle and lower classes, as the democracy, this federal representative branch will have but very little democracy in it, even this small representation is not secured on proper principles. The branches of the legislature are essential parts of the fundamental compact, and ought to be so fixed by the people, that the legislature cannot alter itself by modifying the elections of its own members. This, by a part of Art. i, Sect. 4, the general legislature may do, it may evidently so regulate elections as to secure the choice of any particular description of men. It may make the whole state one district — make the capital, or any places in the state, the place or places of election — it may declare that the five men (or whatever the number may be the state may chuse) who shall have the most votes shall be considered as chosen. -In this [17] case it is easy to perceive how the people who live scattered in the inland towns will bestow their votes on different men— and how a few men in a city, in any order or profession, may unite and place any five men they please highest among those that may be voted for and all this may be done constitutionally, and by those silent operations, which are not immediately perceived by the people in general. 1 know it is urged, that the general legislature will be disposed to regulate elections on fair and just principles : This may be true — good men will generally govern well with almost any constitution : but why in laying the foundation of the social system, need we unnecessarily leave a door open to improper regulations? — This is a very general and unguarded clause, and many evils may flow from that part which authorises the congress to regulate elections. Were it omitted, the regulations of elections would be solely in the respective states, where the people are substantially represented ; and where the elections ought to be regulated, otherwise to secure a representation from all parts of the community, in making the constitutions, we ought to provide for dividing each state into a proper number of districts, and for confining the electors in each district to the choice of some men, who shall have a permanent interest and residence in it ; and also for this essential object, that the representative elected shall have a majority of the votes of those electors who shall attend and give their votes."
     },
     {
       "label": "Federal Farmer 3, ¶ 3",
       "pages": [
-        "296"
-      ],
-      "ref": "FederalFarmer.3.3",
-      "scan": {
-        "item": "cu31924020874099",
-        "leaves": [
-          312
-        ]
-      },
-      "text": "-In this [17] case it is easy to perceive how the people who live scattered in the inland towns will bestow their votes on different men— and how a few men in a city, in any order or profession, may unite and place any five men they please highest among those that may be voted for and all this may be done constitutionally, and by those silent operations, which are not immediately perceived by the people in general. 1 know it is urged, that the general legislature will be disposed to regulate elections on fair and just principles : This may be true — good men will generally govern well with almost any constitution : but why in laying the foundation of the social system, need we unnecessarily leave a door open to improper regulations? — This is a very general and unguarded clause, and many evils may flow from that part which authorises the congress to regulate elections. Were it omitted, the regulations of elections would be solely in the respective states, where the people are substantially represented ; and where the elections ought to be regulated, otherwise to secure a representation from all parts of the community, in making the constitutions, we ought to provide for dividing each state into a proper number of districts, and for confining the electors in each district to the choice of some men, who shall have a permanent interest and residence in it ; and also for this essential object, that the representative elected shall have a majority of the votes of those electors who shall attend and give their votes."
-    },
-    {
-      "label": "Federal Farmer 3, ¶ 4",
-      "pages": [
         "296",
         "297"
       ],
-      "ref": "FederalFarmer.3.4",
+      "ref": "FederalFarmer.3.3",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -653,11 +652,11 @@
       "text": "In considering the practicability of having a full and equal representation of the people from all parts of the union, not only distances and different opinions, customs and views, common in extensive tracts of country, are to be taken into view but many differences peculiar to Eastern, Middle, and Southern States. These differences are not so perceivable among the members of congress, and men of general information in the states, as among the men who would properly form the democratic branch. The Eastern states are very democratic, and composed chiefly of moderate freeholders ; they have but few rich men and no slaves; the Southern states are composed chiefly of rich planters and slaves ; they have but few moderate freeholders, and the prevailing influence, in them is generally a dissipated aristocracy: The Middle states partake partly of the Eastern and partly of the Southern character."
     },
     {
-      "label": "Federal Farmer 3, ¶ 5",
+      "label": "Federal Farmer 3, ¶ 4",
       "pages": [
         "297"
       ],
-      "ref": "FederalFarmer.3.5",
+      "ref": "FederalFarmer.3.4",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -667,12 +666,12 @@
       "text": "Perhaps, nothing could be more disjointed, unweildly and incompetent to doing business with harmony and dispatch, than a federal house of representatives properly numerous for the great objects of taxation, &c. collected from the federal states ; whether such men would ever act in concert ; whether they would not worry along a few years, and then be the means of [18] separating the parts of the union, is very problematical? View this system in whatever form we can, propriety brings us. still to this point, a federal government possessed of general and complete powers, as to those national objects which cannot well come under the cognizance of the internal laws of the respective states, and this federal government, accordingly, consisting of branches not very numerous."
     },
     {
-      "label": "Federal Farmer 3, ¶ 6",
+      "label": "Federal Farmer 3, ¶ 5",
       "pages": [
         "297",
         "298"
       ],
-      "ref": "FederalFarmer.3.6",
+      "ref": "FederalFarmer.3.5",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -683,11 +682,11 @@
       "text": "The house of representatives is on the plan of consolidation, but the senate is entirely on the federal plan ; and Delaware will have as much constitutional influence in the senate, as the largest state in the union : and in this senate are lodged legislative, executive and judicial powers : Ten states in this union urge that they are small states, nine of which were present in the convention. — They were interested in collecting large powers into the hands of the senate, in which each state still will have its equal share of power. I suppose it was impracticable for the three large states, as they were called, to get the senate formed on any other principles : But this only proves, that we cannot form one general government on equal and just principles — and proves, that we ought not to lodge in it such extensive powers before we are convinced of the practicability of organizing it on just and equal principles. The senate will consist of two members from each state, chosen by the state legislatures, every sixth year. The clause referred to, respecting the elections of representatives, empowers the general legislature to regulate the elections of senators also, \" except as to the places of chusing senators.\" — There is, therefore, but little more security in the elections than in those of representatives : Fourteen senators make a quorum for business, and a majority of the senators present give the vote of the senate, except in giving judgment upon an impeachment, or in making treaties, or in expelling a member, when two-thirds of the senators present must agree — The members of the legislature are not excluded from being elected to any military offices, or any civil offices, except those created, or the emoluments of which shall be increased by themselves : two-thirds of the members present, of either house, may expel a member at pleasure. The senate is an independant branch of the legislature, a court for trying impeachments, and also a part of the executive, having a negative in the making of all treaties, and in appointing almost all officers."
     },
     {
-      "label": "Federal Farmer 3, ¶ 7",
+      "label": "Federal Farmer 3, ¶ 6",
       "pages": [
         "298"
       ],
-      "ref": "FederalFarmer.3.7",
+      "ref": "FederalFarmer.3.6",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -697,12 +696,12 @@
       "text": "The vice president is not a very important, if not an unnecessary part of the system — he may be a part of the senate at one period, and act as the supreme executive magistrate at another The election of this officer, as well as of the president of the United States seems to be properly secured ; but [19] when we examine the powers of the president, and the forms of the executive, we shall perceive that the general government, in this part, will have a strong tendency to aristocracy, or the government of the few. The executive is, in fact, the president and senate in all transactions of any importance ; the president is connected with, or tied to the senate ; he may always act with the senate, but never can effectually counteract its views : The president can appoint no officer, civil or military, who shall not be agreeable to the senate; and the presumption is, that the will of so important a body will not be very easily controuled, and that it will exercise its powers with great address."
     },
     {
-      "label": "Federal Farmer 3, ¶ 8",
+      "label": "Federal Farmer 3, ¶ 7",
       "pages": [
         "298",
         "299"
       ],
-      "ref": "FederalFarmer.3.8",
+      "ref": "FederalFarmer.3.7",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -713,12 +712,12 @@
       "text": "In the judicial department, powers ever kept distinct in well balanced governments, are no less improperly blended in the hands of the same men — in the judges of the supreme court is lodged the law, the equity and the fact. It is not necessary to pursue the minute organical parts of the general government proposed. — There were various interests in the convention, to be reconciled, especially of large and small states ; of carrying and non-carrying states ; and of states more and states less democratic — vast labour and attention were by the convention bestowed on the organization of the parts of the constitution offered ; still it is acknowledged there are manythings radically wrong in the essential parts of this constitution — but it is said that these are the result of our situation : On a full examination of the subject, I believe it ; but what do the laborious inquiries and determination of the convention prove ? If they prove any thing, they prove that we cannot consolidate the states on proper principles : The organization of ,the government presented proves, that we cannot form a general government in which all power can be safely lodged ; and a little attention to the parts of the one proposed will make it appear very evident, that all the powers proposed to be lodged in it, will not be then well deposited, either for the purposes of government, or the preservation of liberty. I will suppose no abuse of power in those cases, in which the abuse of it is not well guarded against — I will suppose the words authorizing the general government to regulate the elections of its own members struck out of the plan, or free district elections, in each state, amply secured. — That the small representation provided for shall be as fair and equal as it is capable of being made — I will suppose the judicial department regulated on pure principles, by future laws, as far as it can be by the constitution, and consist with the situation of the country — still there will be an unreasonable accumulation of powers in the general government if all be granted, enumerated in the plan proposed. The plan does not present a well balanced government : The senatorial [20] branch of the legislative and the executive are substantially united, and the president, or the state executive magistrate, may aid the senatorial interest when weakest, but never can effectually support the democratic, however it may be opposed ; — the excellency, in my mind, of a well-balanced government is that it consists of distinct branches, each sufficiently strong and independant to keep its own station, and to aid either of the other branches which may occasionally want aid."
     },
     {
-      "label": "Federal Farmer 3, ¶ 9",
+      "label": "Federal Farmer 3, ¶ 8",
       "pages": [
         "299",
         "300"
       ],
-      "ref": "FederalFarmer.3.9",
+      "ref": "FederalFarmer.3.8",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -727,6 +726,20 @@
         ]
       },
       "text": "The convention found that any but a small house of representatives would be expensive, and that it would be impracticable to assemble a large number of representatives. Not only the determination of the convention in this case, but the situation of the states, proves the impracticability of collecting, in any one point, a proper representation."
+    },
+    {
+      "label": "Federal Farmer 3, ¶ 9",
+      "pages": [
+        "300"
+      ],
+      "ref": "FederalFarmer.3.9",
+      "scan": {
+        "item": "cu31924020874099",
+        "leaves": [
+          316
+        ]
+      },
+      "text": "The formation of the senate, and the smallness of the house, being, therefore, the result of our situation, and the actual state of things, the evils which may attend the exercise of many powers in this national government may be considered as without a remedy."
     },
     {
       "label": "Federal Farmer 3, ¶ 10",
@@ -740,7 +753,7 @@
           316
         ]
       },
-      "text": "The formation of the senate, and the smallness of the house, being, therefore, the result of our situation, and the actual state of things, the evils which may attend the exercise of many powers in this national government may be considered as without a remedy."
+      "text": "All officers are impeachable before the senate only — before the men by whom they are appointed, or who are consenting to the appointment of these officers. No judgment of conviction, on an impeachment, can be given unless two thirds of the senators agree. Under these circumstances the right of impeachment, in the house, can be of but little importance ; the house cannot expect often to convict the offender ; and, therefore, probably, will but seldom or never exercise the right. In addition to the insecurity and inconveniences attending this organization beforementioned, it may be observed, that it is extremely difficult to secure the people against the fatal effects of corruption and influence. The power of making any law will be in the president, eight senators, and seventeen representatives, relative to the important objects enumerated in the constitution. Where there is a small representation a sufficient number to carry any measure, may, with ease, be influenced by bribes, offices and civilities ; they easily form private juntoes, and out-door meetings, agree on measures, and carry them by silent votes."
     },
     {
       "label": "Federal Farmer 3, ¶ 11",
@@ -754,28 +767,15 @@
           316
         ]
       },
-      "text": "All officers are impeachable before the senate only — before the men by whom they are appointed, or who are consenting to the appointment of these officers. No judgment of conviction, on an impeachment, can be given unless two thirds of the senators agree. Under these circumstances the right of impeachment, in the house, can be of but little importance ; the house cannot expect often to convict the offender ; and, therefore, probably, will but seldom or never exercise the right. In addition to the insecurity and inconveniences attending this organization beforementioned, it may be observed, that it is extremely difficult to secure the people against the fatal effects of corruption and influence. The power of making any law will be in the president, eight senators, and seventeen representatives, relative to the important objects enumerated in the constitution. Where there is a small representation a sufficient number to carry any measure, may, with ease, be influenced by bribes, offices and civilities ; they easily form private juntoes, and out-door meetings, agree on measures, and carry them by silent votes."
+      "text": "Impressed, as I am, with a sense of the difficulties there are in the way of forming the parts of a federal government on proper principles, and seeing a government so unsubstantially organized, after so arduous an attempt has been made, I am led to believe, that powers ought to be given to it with great care and caution."
     },
     {
       "label": "Federal Farmer 3, ¶ 12",
       "pages": [
-        "300"
+        "300",
+        "301"
       ],
       "ref": "FederalFarmer.3.12",
-      "scan": {
-        "item": "cu31924020874099",
-        "leaves": [
-          316
-        ]
-      },
-      "text": "Impressed, as I am, with a sense of the difficulties there are in the way of forming the parts of a federal government on proper principles, and seeing a government so unsubstantially organized, after so arduous an attempt has been made, I am led to believe, that powers ought to be given to it with great care and caution."
-    },
-    {
-      "label": "Federal Farmer 3, ¶ 13",
-      "pages": [
-        "300"
-      ],
-      "ref": "FederalFarmer.3.13",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -786,11 +786,12 @@
       "text": "In the second place it is necessary, therefore, to examine the extent, and the probable operations of some of those ex- [21] tensive powers proposed to be vested in this government. These powers, legislative, executive, and judicial, respect internal as well as external objects. Those respecting external objects, as all foreign concerns, commerce, impost's, all causes arising on the seas, peace and war, and Indian affairs, can be lodged no where else, with any propriety, but in this government. Many powers that respect internal objects ought clearly to be lodged in it ; as those to regulate trade between the states, weights and measures, the coin or current monies, post-offices, naturalization, &c. These powers may be exercised without essentially effecting the internal police of the respective states : But powers to lay and collect internal taxes, to form the militia, to make bankrupt laws, and to decide on appeals, questions arising on the internal laws of the respective states, are of a very serious nature, and carry with them almost all other powers. These taken in connection with the others, and powers to raise armies and build navies, proposed to be lodged in this government, appear to me to comprehend all the essential powers in this community, and those which will be left to the states will be of no great importance."
     },
     {
-      "label": "Federal Farmer 3, ¶ 14",
+      "label": "Federal Farmer 3, ¶ 13",
       "pages": [
+        "301",
         "302"
       ],
-      "ref": "FederalFarmer.3.14",
+      "ref": "FederalFarmer.3.13",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -801,12 +802,12 @@
       "text": "A power to lay and collect taxes at discretion, is, in itself, of very great importance. By means of taxes, the government may command, the whole or any part of the subject's property. Taxes may be of various kinds ; but there is a strong distinction between external and internal taxes. External taxes are import duties, which are laid on imported goods ; they may usually be collected in a few seaport towns, and of a few individuals, though ultimately paid by the consumer; a few officers can collect them, and they can be carried no higher than trade will bear, or smuggling permit — that in the very nature of commerce, bounds are set to them. But internal taxes, as poll and land taxes, excises, duties on all written instruments, &c. may fix themselves on every person and species of property in the community ; they may be carried to any lengths, and in proportion as they are extended, numerous officers must be employed to assess them, and to enforce the collection of them. In the United Netherlands the general government has compleat powers, as to external taxation ; but as to internal taxes, it makes requisitions on the provinces. Internal taxation in this country is more important, as the country is so very extensive. As many assessors and collectors of federal taxes will be above three hundred miles from the seat of the federal government as will be less. Besides, to lay and collect taxes, in this extensive country, must require a great number of congressional ordinances, immediately operating upon the body of the people ; these must continually interfere with the state laws, [22] and thereby produce disorder and general dissatisfaction, till the one system of laws or the other, operating on the same subjects, shall be abolished. These ordinances alone, to say nothing of those respecting the milita, coin, commerce, federal judiciary, &c. &c. will probably soon defeat the operations of the state laws and governments."
     },
     {
-      "label": "Federal Farmer 3, ¶ 15",
+      "label": "Federal Farmer 3, ¶ 14",
       "pages": [
         "302",
         "303"
       ],
-      "ref": "FederalFarmer.3.15",
+      "ref": "FederalFarmer.3.14",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -817,11 +818,11 @@
       "text": "Should the general government think it politic, as some administration (if not all) probably will, to look for a support in a system of influence, the government will take every occasion to multiply laws, and ofhcers to execute them, considering these as so many necessary props for its own support. Should this system of policy be adopted, taxes more productive than the impost duties will, probably, be wanted to support the government, and to discharge foreign demands, without leaving any thing for the domestic creditors. The internal sources of taxation then must be called into operation, and internal tax laws and federal assessors and collectors spread over this immense country. All these circumstances considered, is it wise, prudent, or safe, to vest the powers of laying and collecting internal taxes in the general government, while imperfectly organized and inadequate ; and to trust to amending it hereafter, and making it adequate to this purpose? It is not only unsafe but absurd to lodge power in a government before it is fitted to receive it ? It is confessed that this power and representation ought to go together. Why give the power first ? Why give the power to the few, who, when possessed of it, may have address enough to prevent the increase of representation ? Why not keep the power, and, when necessary, amend the constitution, and add to its other parts this power, and a proper increase of representation at the same time ? Then men who may want the power will be under strong inducements to let in the people, by their representatives, into the government, to hold their due proportion of this power. If a proper representation be impracticable, then we shall see this power resting in the states, where it at present ought to be, and not inconsiderately given up."
     },
     {
-      "label": "Federal Farmer 3, ¶ 16",
+      "label": "Federal Farmer 3, ¶ 15",
       "pages": [
         "303"
       ],
-      "ref": "FederalFarmer.3.16",
+      "ref": "FederalFarmer.3.15",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -831,12 +832,12 @@
       "text": "When I recollect how lately congress, conventions, legislatures, and people contended in the cause of liberty, and carefully weighed the importance of taxation, I can scarcely believe we are serious in proposing to vest the powers of laying and collecting internal taxes in a government so imperfectly organized for such purposes. Should the United States be taxed by a house of representatives of two hundred members, which would be about fifteen members for Connecticut, twenty-five for Massachusetts, &c. still the middle and lower classes of people could have no great share, in fact, in taxation. I am aware it is said, that the representation proposed by the new [23] constitution is sufficiently numerous ; it may be for many purposes ; but to suppose that this branch is sufficiently numerous to guard the rights of the people in the administration of the government, in which the' purse and sword is placed, seems to argue that we have forgot what the true meaning of representation is. I am sensible also, that it is said that congress will not attempt to lay and collect internal taxes ; that it is necessary for them to have the power, though it cannot probably be exercised. 1 admit that it is not probable that any prudent congress will attempt to lay and collect internal taxes, especially direct taxes : but this only proves, that the power would be improperly lodged in congress, and that it might be abused by imprudent and designing men."
     },
     {
-      "label": "Federal Farmer 3, ¶ 17",
+      "label": "Federal Farmer 3, ¶ 16",
       "pages": [
         "303",
         "304"
       ],
-      "ref": "FederalFarmer.3.17",
+      "ref": "FederalFarmer.3.16",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -847,13 +848,13 @@
       "text": "I have heard several gentlemen, to get rid of objections to this part of the constitution, attempt to construe the powers \" relative to direct taxes, as those who object to it would have them ; as to these, it is said, that congress will only have power to make requisitions, leaving it to the states to lay aud collect them. I see but very little colour for this construction, and the attempt only proves that this part of the plan cannot be defended. By this plan there can be no doubt, but that the powers of congress will be complete as to all kinds of taxes whatever — Further, as to internal taxes, the state governments will have concurrent powers with the general government, and both may tax the same objects in the same year ; and the objection that the general government may suspend a state tax, as a necessary measure for the promoting the collection of a federal tax, is not without foundation."
     },
     {
-      "label": "Federal Farmer 3, ¶ 18",
+      "label": "Federal Farmer 3, ¶ 17",
       "pages": [
         "304",
         "305",
         "306"
       ],
-      "ref": "FederalFarmer.3.18",
+      "ref": "FederalFarmer.3.17",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -865,11 +866,11 @@
       "text": "As the states owe large debts, and have large demands upon them individually, there clearly will be a propriety in leaving in their possession exclusively, some of the internal sources of taxation, at least until the federal representation shall be properly encreased : The power in the general government to lay and collect internal taxes, will render its powers respecting armies, navies and the militia, the more exceptionable. By the constitution it is proposed that congress shall have power \" to raise and support armies, but no appropriation of money to that use shall be for a longer term than two years ; to provide and maintain a navy ; to provide for calling forth the militia to execute the laws of the union ; suppress insurrections, and repel invasions : to provide for organizing, arming, and disciplining the militia ; \" reserving to the states the right to appoint the officers, and to train the militia according to the discipline prescribed by congress ; congress will have unlimited power to raise armies, and to engage officers and men for any number of years ; but a legislative act applying money for their support can have operation for no longer term than two years, and if a subsequent congress do [24] not within the two years renew the appropriation, or further appropriate monies for the use of the army, the army will be left to take care of itself. When an army shall once be raised for a number of years, it is not probable that it will find much difficulty in getting congress to pass laws for applying monies to its support. I see so many men in America fond of a standing army, and especially among those who probably will have a large share in administering the federal system; it is very evident to me, that we shall have a large standing army as soon as the monies to support them can be possibly found. An army is not a very agreeable place of employment for the young gentlemen of many families. A power to raise armies must be lodged some where ; still this will not justify the lodging this power in a bare majority of so few men without any checks ; or in the government in which the great body of the people, in the nature of things, will be only nominally represented. In the state governments the great body of the people, the yeomanry, &c. of the country, are represented : It is true they will chuse the members of congress, and may now and then chuse a man of their own way of thinking ; but it is not impossible for forty, or thirty thousand people in this country, one time in ten to find a man who can possess similar feelings, views, and interests with themselves : Powers to lay and collect taxes and to raise armies are of the greatest moment ; for carrying them into effect, laws need not be frequently made, and the yeomanry, &c. of the country ought substantially to have a check upon the passing of these laws ; this check ought to be placed in the legislatures, or at least, in the few men the common people of the country, will, probably, have in congress, in the true sense of the word, \" from among themselves.\" It is true, the yeomanry of the country possess the lands, the weight of property, possess arms, and are too strong a body of men to be openly offended — and, therefore, it is urged, they will take care of themselves, that men who shall govern will not dare pay any disrespect to their opinions. It is easily perceived, that if they have not their proper negative upon passing laws in congress, or on the passage of laws relative to taxes and armies, they may in twenty or thirty years be by means imperceptible to them, totally deprived of that boasted weight and strength : This may be done in a great measure by congress, if disposed to do it, by modelling the militia. Should one fifth or one eighth part of the men capable of bearing arms, be made a select militia, as has been proposed, and those the young and ardent part of the community, possessed of but little or no property, and all the others put upon a plan that will render them of no importance, the former will answer all the purposes of an [25] army, while the latter will be defenceless. The state must train the militia in such form and according to such systems and rules as congress shall prescribe : and the only actual influence the respective states will have respecting the militia will be in appointing the officers. I see no provision made for calling out theposse comitatus for executing the laws of the union, but provision is made for congress to call forth the militia for the execution of them — and the militia in general, or anyselect part of it, may be called out under military officers, instead of the sheriff to enforce an execution of federal laws, in the first instance, and thereby introduce an entire military execution of the laws. I know that powers to raise taxes, to regulate the military strength of the community on some uniform plan, to provide for its defence and internal order, and for duly executing the laws, must be lodged somewhere ; but still we ought not so to lodge them, as evidently to give one order of men in the community, undue advantages over others; or commit the many to the mercy, prudence, and moderation of the few. And so far as it may be necessary to lodge any of the peculiar powers in the general government, a more safe exercise of them ought to be secured, by requiring the consent of two-thirds or three-fourths of congress thereto — until the federal representation can be increased, so that the democratic members in congress may stand some tolerable chance of a reasonable negative, in behalf of the numerous, important, and democratic part of the community."
     },
     {
-      "label": "Federal Farmer 3, ¶ 19",
+      "label": "Federal Farmer 3, ¶ 18",
       "pages": [
         "306"
       ],
-      "ref": "FederalFarmer.3.19",
+      "ref": "FederalFarmer.3.18",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -879,12 +880,13 @@
       "text": "I am not sufficiently acquainted with the laws and internal police of all the states to discern fully, how general bankrupt laws, made by the union, would effect them, or promote the public good. I believe the property of debtors, in the several states, is held responsible for their debts in modes and forms very different. If uniform bankrupt laws can be made without producing real and substantial inconveniences, I wish them to be made by congress."
     },
     {
-      "label": "Federal Farmer 3, ¶ 20",
+      "label": "Federal Farmer 3, ¶ 19",
       "pages": [
         "306",
+        "307",
         "308"
       ],
-      "ref": "FederalFarmer.3.20",
+      "ref": "FederalFarmer.3.19",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -913,12 +915,12 @@
       ]
     },
     {
-      "label": "Federal Farmer 3, ¶ 21",
+      "label": "Federal Farmer 3, ¶ 20",
       "pages": [
         "308",
         "309"
       ],
-      "ref": "FederalFarmer.3.21",
+      "ref": "FederalFarmer.3.20",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -929,11 +931,11 @@
       "text": "There can be but one supreme court in which the final jurisdiction will centre in all federal causes — except in cases where appeals by law shall not be allowed : The judicial powers of the federal courts extend in law and equity to certain cases : and, therefore, the powers to determine on the law, in equity, and as to the fact, all will concentrate in the supreme court: — These powers, which by this constitution are blended in the same hands, the same judges, are in Great-Britain deposited in different hands — to wit, the decision of the law in the law judges, the decision in equity in the chancellor, and the trial of the fact in the jury. It is a very dangerous thing to vest in the same judge power to decide on the law, and also general powers in equity ; for if the law restrain him, he is only to step into his shoes of equity, and give what judgment his reason or opinion may dictate ; we have no precedents in this country, as yet, to regulate the divisions in equity as in Great Britain ; equity, therefore, in the supreme court for many years will be mere discretion. I confess in the constitution of this supreme court, as left by the constitution, I do not see a spark of freedom or a shadow of our own or the British common law."
     },
     {
-      "label": "Federal Farmer 3, ¶ 22",
+      "label": "Federal Farmer 3, ¶ 21",
       "pages": [
         "309"
       ],
-      "ref": "FederalFarmer.3.22",
+      "ref": "FederalFarmer.3.21",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -944,7 +946,9 @@
     },
     {
       "label": "Federal Farmer 4, ¶ 1",
-      "pages": [],
+      "pages": [
+        "310"
+      ],
       "ref": "FederalFarmer.4.1",
       "scan": {
         "item": "cu31924020874099",
@@ -956,7 +960,9 @@
     },
     {
       "label": "Federal Farmer 4, ¶ 2",
-      "pages": [],
+      "pages": [
+        "310"
+      ],
       "ref": "FederalFarmer.4.2",
       "scan": {
         "item": "cu31924020874099",
@@ -964,7 +970,7 @@
           326
         ]
       },
-      "text": "Third, there appears to me to be not only a premature deposit of some important powers in the general government — but many of those deposited there are undefined, and may be used to good or bad purposes as honest or designing men shall prevail. By Art. i, Sec. 2, representatives and direct taxes shall be apportioned among the several states, &c.",
+      "text": "Third, there appears to me to be not only a premature deposit of some important powers in the general government — but many of those deposited there are undefined, and may be used to good or bad purposes as honest or designing men shall prevail. By Art. i, Sec. 2, representatives and direct taxes shall be apportioned among the several states, &c. same art. sect. 8, the congress shall have powers to lay and collect taxes, duties, &c. for the common defence and general welfare, but all duties, imposts and excises, shall be uniform throughout the United States : By the first recited clause, direct taxes shall be apportioned on the states. This seems to favour the idea suggested by some sensible men and writers that congress, as to direct taxes, will only have power to make requisitions ; but the latter clause, power to lay and collect taxes, &c. seems clearly to favour the contrary opinion, and, in my mind, the true one, the congress shall have power to tax immediately individuals, without the intervention of the state legislatures, in fact the first clause appears to me only to provide that each state shall pay a certain portion of the tax, and the latter to provide that congress shall have power to lay and collect taxes, that is to assess upon, and to collect of the individuals in the state, the states quota ; but these still I consider as undefined powers, because judicious men understand them differently.",
       "uncertain": [
         {
           "end": 280,
@@ -978,20 +984,11 @@
     },
     {
       "label": "Federal Farmer 4, ¶ 3",
-      "pages": [],
+      "pages": [
+        "310",
+        "311"
+      ],
       "ref": "FederalFarmer.4.3",
-      "scan": {
-        "item": "cu31924020874099",
-        "leaves": [
-          326
-        ]
-      },
-      "text": "same art. sect. 8, the congress shall have powers to lay and collect taxes, duties, &c. for the common defence and general welfare, but all duties, imposts and excises, shall be uniform throughout the United States : By the first recited clause, direct taxes shall be apportioned on the states. This seems to favour the idea suggested by some sensible men and writers that congress, as to direct taxes, will only have power to make requisitions ; but the latter clause, power to lay and collect taxes, &c. seems clearly to favour the contrary opinion, and, in my mind, the true one, the congress shall have power to tax immediately individuals, without the intervention of the state legislatures, in fact the first clause appears to me only to provide that each state shall pay a certain portion of the tax, and the latter to provide that congress shall have power to lay and collect taxes, that is to assess upon, and to collect of the individuals in the state, the states quota ; but these still I consider as undefined powers, because judicious men understand them differently."
-    },
-    {
-      "label": "Federal Farmer 4, ¶ 4",
-      "pages": [],
-      "ref": "FederalFarmer.4.4",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1002,9 +999,11 @@
       "text": "It is doubtful whether the vice-president is to have any qualifications ; none are mentioned ; but he may serve as president, and it may be inferred, he ought to be qualified therefore as the president ; but the qualifications of the president are required only of the person to be elected president. By art. 2, sect. 2, \" But the congress may by law vest the appointment of such inferior officers as they think proper in the president alone, in the courts of law, or in the heads of the departments:\" Who are inferior officers? May not a congress disposed to vest the appointment of all officers in the president, [29] under this clause, vest the appointment of almost every officer in the president alone, and destroy the check mentioned in the first part of the clause, and lodged in the senate. It is true, this check is badly lodged, but then some check upon the first magistrate in appointing officers, ought it appears by the opinion of the convention, and by the general opinion, to be established in the constitution. By art. 3, sect. 2, the supreme court shall have appellate jurisdiction as to law and facts with such exceptions, &c. to what extent is it intended the exceptions shall be carried Congress may carry them so far as to annihilate substantially the appellate jurisdiction, and the clause be rendered of very little importance."
     },
     {
-      "label": "Federal Farmer 4, ¶ 5",
-      "pages": [],
-      "ref": "FederalFarmer.4.5",
+      "label": "Federal Farmer 4, ¶ 4",
+      "pages": [
+        "311"
+      ],
+      "ref": "FederalFarmer.4.4",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1014,9 +1013,11 @@
       "text": "4th. There are certain rights which we have always held sacred in the United States, and recognized in all our constitutions, and which, by the adoption of the new constitution in its present form, will be left unsecured. By article 6, the proposed constitution, and the laws of the United States, which shall be made in pursuance thereof; and all treaties made, or which shall be made under the authority of the United States, shall be the supreme law of the land ; and the judges in every state shall be bound thereby ; anything in the constitution or laws of any state to the contrary notwithstanding."
     },
     {
-      "label": "Federal Farmer 4, ¶ 6",
-      "pages": [],
-      "ref": "FederalFarmer.4.6",
+      "label": "Federal Farmer 4, ¶ 5",
+      "pages": [
+        "311"
+      ],
+      "ref": "FederalFarmer.4.5",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1026,11 +1027,11 @@
       "text": "It is to be observed that when the people shall adopt the proposed constitution it will be their last and supreme act ; it will be adopted not by the people of New Hampshire, Massachusetts, &c., but by the people of the United States ; and wherever this constitution, or any part of it, shall be incompatible with the ancient customs, rights, the laws or the constitutions heretofore established in the United States, it will entirely abolish them and do them away : And not only this, but the laws of the United States which shall be ; made in pursuance of the federal constitution will be also supreme laws, and wherever they shall be incompatible with those customs, rights, laws or constitutions heretofore established, they will also entirely abolish them and do them away."
     },
     {
-      "label": "Federal Farmer 4, ¶ 7",
+      "label": "Federal Farmer 4, ¶ 6",
       "pages": [
         "312"
       ],
-      "ref": "FederalFarmer.4.7",
+      "ref": "FederalFarmer.4.6",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1040,12 +1041,12 @@
       "text": "By the article before recited, treaties also made under the authority of the United States, shall be the supreme law : It is not said that these treaties shall be made in pursuance of the constitution — nor are there any constitutional bounds set to those who shall make them : The president and two-thirds of the senate will be empowered to make treaties indefinitely, and when these treaties shall be made, they will also abolish all laws and state constitutions incompatible with them. This power in the president and senate is absolute, and the judges will be bound to allow full force to whatever rule, article or thing the president and senate shall establish by treaty, whether it be [30] practicable to set any bounds to those who make treaties, I am not able to say ; if not,it proves that this power ought to be more safely lodged."
     },
     {
-      "label": "Federal Farmer 4, ¶ 8",
+      "label": "Federal Farmer 4, ¶ 7",
       "pages": [
         "312",
         "313"
       ],
-      "ref": "FederalFarmer.4.8",
+      "ref": "FederalFarmer.4.7",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1056,11 +1057,11 @@
       "text": "The federal constitution, the laws of congress made in pursuance of the constitution, and all treaties must have full force and effect in all parts of the United States ; and all other laws, rights and constitutions which stand in their way must yield : It is proper the national laws should be supreme, and superior to state or district laws ; but then the national laws ought to yield to unalienable or fundamental rights and national laws, made by a, few men, should extend only to a few national objects. This will not be the case with the laws of congress: To have any proper idea of their extent, we must carefully examine the legislative, executive and judicial powers proposed to be lodged in the general government, and consider them in connection with a general clause in art. i, sect. 8, in these words (after enumerating a number of powers) \" To make all laws which shall be necessary and proper for carrying into execution the foregoing powers, and all other powers vested by this constitution in the government of the United States, or in any department or officer thereof.\" The powers of this government as has been observed, extend to internal as well as external objects, and to those objects to which all others are subordinate ; it is almost impossible to have a just conception of their powers, or of the extent and number of the laws which may be deemed necessary and proper to carry them into effect, till we shall come to exercise those powers and make the laws. In making laws to carry those powers into effect, it is to be expected, that a wise and prudent congress will payrespect to the opinions of a free people, and bottom their laws on those principles which have been considered as essential and fundament.al in the British, and in our government : But a congress of a different character will not be bound by the constitution to pay respect to those principles."
     },
     {
-      "label": "Federal Farmer 4, ¶ 9",
+      "label": "Federal Farmer 4, ¶ 8",
       "pages": [
         "313"
       ],
-      "ref": "FederalFarmer.4.9",
+      "ref": "FederalFarmer.4.8",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1070,12 +1071,12 @@
       "text": "It is said that when people make a constitution, and delegate powers, that all powers are not delegated by them to those who govern, is reserved in the people ; and that the people, in the present case, have reserved in themselves, and in their state governments, every right and power not expressly given by the federal constitution to those who shall administer the national government. It is said, on the other hand, that the people, when they make a constitution, yield all power not expressly reserved to themselves. The truth is, in either case, it is mere matter of opinion, and men usually take either side of the argument, as will best answer their purposes : But the general [31] presumption being, that men who govern, will in doubtful cases, construe laws and constitutions most favourably for increasing their own powers ; all wise and prudent people, in forming constitutions, have drawn the line, and carefully described the powers parted with and the powers reserved. By the state constitutions, certain rights have been reserved in ;the people ; or rather, they have been recognized and established in such a manner, that state legislatures are bound to respect them, and to make no laws infringing upon them. The state legislatures are obliged to take notice of the bills of rights of their respective states. The bills of rights, and the state constitutions, are fundamental compacts only between those who govern, and the people of the same state."
     },
     {
-      "label": "Federal Farmer 4, ¶ 10",
+      "label": "Federal Farmer 4, ¶ 9",
       "pages": [
         "313",
-        "3"
+        "314"
       ],
-      "ref": "FederalFarmer.4.10",
+      "ref": "FederalFarmer.4.9",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1086,11 +1087,11 @@
       "text": "In the year 1788 the people of the United States made a federal constitution, which is a fundamental compact between them and their federal rulers ; these rulers, in the nature of things, cannot be bound to take notice of any other compact. It would be absurd for them, in making laws, to look over thirteen, fifteen, or twenty state constitutions, to see what rights are established as fundamental, and must not be infringed upon, in making laws in the society. It is true, they would be bound to do it if the people, in their federal compact, should refer to the state constitutions, recognize all parts not inconsistent with the federal constitution, and direct their federal rulers to take notice of them accordingly ; but this is not the case, as the plan stands proposed at present ; and it is absurd, to suppose so unnatural an idea is intended or implied. I think my opinion is not only founded in reason, but I think it is supported by the report of the convention itself. If there are a number of rights established by the state constitutions, and which will remain sacred, and the general government is bound to take notice of them — it must take notice of one as well as another ; and if unnecessary to recognize or establish one by the federal constitution, it would be unnecessary to recognize or establish another by it. If the federal constitution is to be construed so far in connection with the state constitution, as to leave the trial by jury in civil causes, for instance, secured ; on the same principles it would have left the trial by jury in criminal causes, the benefits of the writ of habeas corpus, &c. secured ; they all stand on the same footing ; they are the common rights of Americans, and have been recognized by the state constitutions : But the convention found it necessary to recognize or re-establish the benefits of that writ, and the jury trial in criminal cases. As to expost facto laws, the convention has done the same in one case, and gone further in another, It is a part of the com- [32] pact between the people of each state and their rulers, that no expost facto laws shall be made. But the convention, by Art. I, Sect. 10, have put a sanction upon this part even of the state compacts. In fact, the 9th and loth Sections in Art. i, in the proposed constitution, are no more nor less, than a partial bill of rights ; they establish certain principles as part of the compact upon which the federal legislators and officers can never infringe. It is here wisely stipulated, that the federal legislature shall never pass a bill of attainder, or expost facto law ; that no tax shall be laid on articles exported, &c. The establishing of one right implies the necessity of establishing another and similar one."
     },
     {
-      "label": "Federal Farmer 4, ¶ 11",
+      "label": "Federal Farmer 4, ¶ 10",
       "pages": [
         "315"
       ],
-      "ref": "FederalFarmer.4.11",
+      "ref": "FederalFarmer.4.10",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1100,11 +1101,11 @@
       "text": "On the whole, the position appears to me to be undeniable, that this bill of rights ought to be carried farther, and some other principles established, as a part of this fundamental compact between the people of the United States and their federal rulers."
     },
     {
-      "label": "Federal Farmer 4, ¶ 12",
+      "label": "Federal Farmer 4, ¶ 11",
       "pages": [
         "315"
       ],
-      "ref": "FederalFarmer.4.12",
+      "ref": "FederalFarmer.4.11",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1124,11 +1125,12 @@
       ]
     },
     {
-      "label": "Federal Farmer 4, ¶ 13",
+      "label": "Federal Farmer 4, ¶ 12",
       "pages": [
-        "315"
+        "315",
+        "316"
       ],
-      "ref": "FederalFarmer.4.13",
+      "ref": "FederalFarmer.4.12",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1139,9 +1141,11 @@
       "text": "The trial by jury is very important in another point of view. It is essential in every free country, that common. people should have a part and share of influence, in the judicial as well as in the legislative department. To hold open to them the offices of senators, judges, and offices to fill which an expensive education is required, cannot answer any valuable purposes for them ; they are not in a situation to be brought forward and to fill those offices ; these, and most other offices of any considerable importance, will be occupied by the few. The few, the well born, &c. as Mr. Adams calls them, in judicial decisions as well as in legislation, are generally disposed, and very- naturally too, to favour those of their own description."
     },
     {
-      "label": "Federal Farmer 4, ¶ 14",
-      "pages": [],
-      "ref": "FederalFarmer.4.14",
+      "label": "Federal Farmer 4, ¶ 13",
+      "pages": [
+        "316"
+      ],
+      "ref": "FederalFarmer.4.13",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1161,11 +1165,12 @@
       ]
     },
     {
-      "label": "Federal Farmer 4, ¶ 15",
+      "label": "Federal Farmer 4, ¶ 14",
       "pages": [
+        "316",
         "317"
       ],
-      "ref": "FederalFarmer.4.15",
+      "ref": "FederalFarmer.4.14",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1174,6 +1179,20 @@
         ]
       },
       "text": "I confess I do not see in what cases the congress can, with any pretence of right, make a law to suppress the freedom of the press ; though I am not clear, that congress is restrained from laying any duties whatever on printing, and from laying duties particularly heavy on certain pieces printed, and perhaps congress may require large bonds for the payment of these duties. Should the printer say, the freedom of the press was secured by the constitution of the state in which he lived, congress might, and perhaps, with great propriety, answer, that the federal constitution is the only compact existing between them and the people ; in this compact the people have named no others, and therefore congress, in exercising the powers assigned them, and in making laws to carry them into execution, are restrained by nothing beside the federal constitution, any more than a state legislature is restrained by a compact between the magistrates and people of a county, city, or town of which the people, in forming the state constitution, have taken no notice."
+    },
+    {
+      "label": "Federal Farmer 4, ¶ 15",
+      "pages": [
+        "317"
+      ],
+      "ref": "FederalFarmer.4.15",
+      "scan": {
+        "item": "cu31924020874099",
+        "leaves": [
+          333
+        ]
+      },
+      "text": "It is not my object to enumerate rights of inconsiderable [34] importance ; but there are others, no doubt, which ought to be established as a fundamental part of the national system."
     },
     {
       "label": "Federal Farmer 4, ¶ 16",
@@ -1187,28 +1206,15 @@
           333
         ]
       },
-      "text": "It is not my object to enumerate rights of inconsiderable [34] importance ; but there are others, no doubt, which ought to be established as a fundamental part of the national system."
+      "text": "It is worthy of observation, that all treaties are made by foreign nations with a confederacy of thirteen states — that the western country is attached to thirteen states — thirteen states have jointly and severally engaged to pay the public debts. — Should a new government be formed of nine, ten, eleven, or twelve states, those treaties could not be considered as binding on the foreign nations who made them. However, I believe the probability to be, that if nine states adopt the constitution, the others will."
     },
     {
       "label": "Federal Farmer 4, ¶ 17",
       "pages": [
-        "317"
+        "317",
+        "318"
       ],
       "ref": "FederalFarmer.4.17",
-      "scan": {
-        "item": "cu31924020874099",
-        "leaves": [
-          333
-        ]
-      },
-      "text": "It is worthy of observation, that all treaties are made by foreign nations with a confederacy of thirteen states — that the western country is attached to thirteen states — thirteen states have jointly and severally engaged to pay the public debts. — Should a new government be formed of nine, ten, eleven, or twelve states, those treaties could not be considered as binding on the foreign nations who made them. However, I believe the probability to be, that if nine states adopt the constitution, the others will."
-    },
-    {
-      "label": "Federal Farmer 4, ¶ 18",
-      "pages": [
-        "317"
-      ],
-      "ref": "FederalFarmer.4.18",
       "scan": {
         "item": "cu31924020874099",
         "leaves": [
@@ -1239,6 +1245,7 @@
     {
       "label": "Federal Farmer 5, ¶ 1",
       "pages": [
+        "318",
         "319"
       ],
       "ref": "FederalFarmer.5.1",

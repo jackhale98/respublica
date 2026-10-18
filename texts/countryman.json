@@ -150,7 +150,9 @@
   "segments": [
     {
       "label": "Countryman 1, ¶ 1",
-      "pages": [],
+      "pages": [
+        "215"
+      ],
       "ref": "Countryman.1.1",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -162,7 +164,9 @@
     },
     {
       "label": "Countryman 1, ¶ 2",
-      "pages": [],
+      "pages": [
+        "215"
+      ],
       "ref": "Countryman.1.2",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -174,7 +178,9 @@
     },
     {
       "label": "Countryman 1, ¶ 3",
-      "pages": [],
+      "pages": [
+        "215"
+      ],
       "ref": "Countryman.1.3",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -186,7 +192,10 @@
     },
     {
       "label": "Countryman 1, ¶ 4",
-      "pages": [],
+      "pages": [
+        "215",
+        "216"
+      ],
       "ref": "Countryman.1.4",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -208,7 +217,9 @@
     },
     {
       "label": "Countryman 1, ¶ 5",
-      "pages": [],
+      "pages": [
+        "216"
+      ],
       "ref": "Countryman.1.5",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -220,7 +231,9 @@
     },
     {
       "label": "Countryman 1, ¶ 6",
-      "pages": [],
+      "pages": [
+        "216"
+      ],
       "ref": "Countryman.1.6",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -232,7 +245,9 @@
     },
     {
       "label": "Countryman 1, ¶ 7",
-      "pages": [],
+      "pages": [
+        "216"
+      ],
       "ref": "Countryman.1.7",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -245,6 +260,7 @@
     {
       "label": "Countryman 1, ¶ 8",
       "pages": [
+        "216",
         "217"
       ],
       "ref": "Countryman.1.8",
@@ -400,7 +416,7 @@
       "label": "Countryman 2, ¶ 10",
       "pages": [
         "220",
-        "22"
+        "221"
       ],
       "ref": "Countryman.2.10",
       "scan": {
@@ -516,7 +532,7 @@
     {
       "label": "Countryman 4, ¶ 4",
       "pages": [
-        "22"
+        "225"
       ],
       "ref": "Countryman.4.4",
       "scan": {
@@ -530,7 +546,7 @@
     {
       "label": "Countryman 4, ¶ 5",
       "pages": [
-        "22"
+        "225"
       ],
       "ref": "Countryman.4.5",
       "scan": {
@@ -544,7 +560,7 @@
     {
       "label": "Countryman 4, ¶ 6",
       "pages": [
-        "22"
+        "225"
       ],
       "ref": "Countryman.4.6",
       "scan": {
@@ -558,7 +574,7 @@
     {
       "label": "Countryman 4, ¶ 7",
       "pages": [
-        "22"
+        "225"
       ],
       "ref": "Countryman.4.7",
       "scan": {

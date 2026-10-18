@@ -70,7 +70,9 @@
   "segments": [
     {
       "label": "A Steady and Open Republican, ¶ 1",
-      "pages": [],
+      "pages": [
+        "411"
+      ],
       "ref": "SteadyAndOpenRepublican.1",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -82,7 +84,9 @@
     },
     {
       "label": "A Steady and Open Republican, ¶ 2",
-      "pages": [],
+      "pages": [
+        "411"
+      ],
       "ref": "SteadyAndOpenRepublican.2",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -95,6 +99,7 @@
     {
       "label": "A Steady and Open Republican, ¶ 3",
       "pages": [
+        "411",
         "412"
       ],
       "ref": "SteadyAndOpenRepublican.3",
@@ -152,7 +157,7 @@
     {
       "label": "A Steady and Open Republican, ¶ 7",
       "pages": [
-        "41"
+        "413"
       ],
       "ref": "SteadyAndOpenRepublican.7",
       "scan": {
@@ -166,7 +171,9 @@
     {
       "kind": "footnote",
       "label": "A Steady and Open Republican, note 1",
-      "pages": [],
+      "pages": [
+        "411"
+      ],
       "ref": "SteadyAndOpenRepublican.fn1",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -174,7 +181,7 @@
           423
         ]
       },
-      "text": "* Following this article was an essay from a ^vew York paper. — Ed, (411)",
+      "text": "* Following this article was an essay from a ^vew York paper. — Ed,",
       "uncertain": [
         {
           "end": 49,
@@ -184,15 +191,6 @@
             "primary": "^vew"
           },
           "start": 45
-        },
-        {
-          "end": 73,
-          "readings": {
-            "brittle": "412",
-            "google": "(411)",
-            "primary": "(411)"
-          },
-          "start": 68
         }
       ]
     },
