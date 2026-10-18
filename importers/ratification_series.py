@@ -184,6 +184,24 @@ SERIES = [
                         "source": "Ford, Essays on the Constitution (1892), Bibliography, p. 415"},
         "position": "anti", "date": "1787-10-05/1788-11-24",
     },
+    # The Address and Reasons of Dissent of the Minority of the Convention of
+    # Pennsylvania (chapter VI, "After the Convention Rose"), signed by
+    # twenty-one members.
+    {
+        "slug": "PennsylvaniaMinority", "work_id": "pennsylvania-minority",
+        "title": "The Address and Reasons of Dissent of the Minority of the Convention of Pennsylvania",
+        "short": "Dissent of the Pennsylvania Minority", "book": "mcmaster-stone", "pages": (454, 482), "essays": 1,
+        # OCR runs the title's first line into the editor's note above it.
+        "heading": r"THE\s+ADDRESS\s+AND\s+REASONS\s+OF\s+DISSENT\s+OF\s+THE\s+MINORITY",
+        "heading_ignore_case": True, "heading_ends_block": True,
+        # The book prints the yeas and nays of the final vote after the
+        # signatures, in columns OCR reads out of order; the piece ends there.
+        "end_at": r"The\s+yeas\s+and\s+nays\s+upon\s+the\s+final\s+vote", "signers": True,
+        "attribution": {"byline": "the Minority of the Convention of the State of Pennsylvania", "kind": "body",
+                        "names": ["Minority of the Pennsylvania ratifying convention"],
+                        "source": "McMaster and Stone, Pennsylvania and the Federal Constitution (1888), p. 454, the title"},
+        "position": "anti", "date": "1787-12-18",
+    },
     # ---- Ford, Pamphlets on the Constitution (1888).
     {
         "slug": "FederalFarmer", "work_id": "federal-farmer", "title": "Letters from the Federal Farmer to the Republican",

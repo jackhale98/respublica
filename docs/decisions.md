@@ -670,3 +670,27 @@ other site. It is served by Cloudflare instead of GitHub Pages
   where every change is reviewed and verified; the site stays static
   (decision recorded at the owner's question about D1).
 
+## 45. The Dissent of the Pennsylvania Minority; shared misreadings
+
+The project owner asked for sources that frame the Bill of Rights. The
+Address and Reasons of Dissent of the Minority of the Convention of
+Pennsylvania (December 18, 1787), with its fourteen proposed amendments, is
+printed in McMaster and Stone, the book Centinel comes from, so it is read
+from the same scans by OCR consensus (`importers/ratification_series.py`).
+Its title runs into the editors' note above it in the OCR
+(`heading_ends_block`), it ends at its twenty-one signatures (`end_at`,
+`signers`), and the yeas and nays printed after them are left out: a table
+in columns, which OCR reads out of order.
+
+Adding it changed words in other essays: the vote's vocabulary counts any
+word two scans read identically, and the Dissent's two scans share
+misreadings ("eflfect" for "effect", the ff ligature), which then tied with
+the right word elsewhere (Brutus I). Two rules fix the cause (docs/ocr.md,
+step 3): an attested word that one common OCR confusion turns into a clean
+word is not counted as known, and on a tie a word from the clean texts beats
+one only the scans attest. Re-importing every text with them changed only:
+four misreadings corrected ("tho." "the", "wliole" "whole" twice, "liad"
+"had"), Caesar II's signature read as "Caesar.", and ten words in
+Centinel, the Landholder and Brutus no longer marked uncertain, each where
+the other scan's reading was plainly garbled ("oi", "aud", "tight"). Every
+change was checked word by word.

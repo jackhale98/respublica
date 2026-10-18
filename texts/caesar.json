@@ -57,7 +57,7 @@
         "For the Daily Advertiser."
       ],
       "ref": "Caesar.2",
-      "signature": "C/ESAR. October 15.",
+      "signature": "Caesar. October 15.",
       "uncertain": {
         "publication.1": [
           {
@@ -77,17 +77,6 @@
               "primary": "826)"
             },
             "start": 10
-          }
-        ],
-        "signature": [
-          {
-            "end": 7,
-            "readings": {
-              "brittle": "Caesar.",
-              "google": "CiESAR.",
-              "primary": "C/ESAR."
-            },
-            "start": 0
           }
         ]
       }
