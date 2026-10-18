@@ -1,0 +1,121 @@
+:root {
+  --bg: #fbfaf7;
+  --fg: #1d1c1a;
+  --muted: #625e57;
+  --rule: #ddd8cf;
+  --accent: #1f4e79;
+  --accent-soft: #e8eef5;
+  --warn: #8a1c1c;
+  --measure: 40rem;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161514;
+    --fg: #ebe7df;
+    --muted: #a8a196;
+    --rule: #3a3733;
+    --accent: #8fb8e0;
+    --accent-soft: #1f2a36;
+    --warn: #f08b8b;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 1.0625rem/1.6 var(--serif);
+}
+
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: 1rem; background: var(--bg); padding: .5rem; z-index: 10; }
+
+.site-header, .site-footer, main { padding: 0 1rem; }
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.5rem;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--rule);
+  padding-block: .75rem;
+  font-family: var(--sans);
+}
+.brand { font: 600 1.15rem var(--serif); color: var(--fg); text-decoration: none; letter-spacing: .02em; }
+.site-header nav { display: flex; gap: 1rem; font-size: .95rem; }
+
+main { max-width: var(--measure); margin: 0 auto; padding-block: 1.5rem 3rem; }
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font: .85rem/1.5 var(--sans);
+  padding-block: 1rem 2rem;
+}
+.site-footer p { max-width: var(--measure); margin: 0 auto; }
+
+h1, h2, h3 { line-height: 1.25; font-weight: 600; }
+h1 { font-size: 1.9rem; margin: .5rem 0 1rem; }
+h2 { font-size: 1.35rem; margin: 2.25rem 0 .75rem; }
+h3 { font-size: 1.1rem; margin: 1.75rem 0 .5rem; color: var(--muted); }
+
+.muted, .edition, .work-meta, .crumbs, .part-meta, .byline { color: var(--muted); font-family: var(--sans); font-size: .9rem; }
+
+.works { list-style: none; padding: 0; }
+.works li { padding: .75rem 0; border-bottom: 1px solid var(--rule); }
+.work-title { font-size: 1.2rem; display: block; }
+
+.toc ol { padding-left: 1.25rem; }
+.toc ol ol { display: flex; flex-wrap: wrap; gap: 0 .75rem; list-style: none; padding: 0; font-size: .9rem; }
+.toc-title { color: var(--muted); }
+
+.segment { position: relative; margin: 0 0 1.25rem; scroll-margin-top: 1rem; }
+.segment:target { background: var(--accent-soft); outline: .5rem solid var(--accent-soft); }
+.seg-head { display: flex; flex-wrap: wrap; gap: .5rem; align-items: baseline; font: .75rem/1.4 var(--sans); }
+.ref { color: var(--muted); text-decoration: none; font-variant-numeric: tabular-nums; }
+.ref:hover { text-decoration: underline; }
+.seg-label { color: var(--muted); }
+.seg-text p { margin: .2rem 0 .6rem; }
+.segment.note { font-size: .92rem; }
+
+.changed, .div-notes { font: .85rem/1.5 var(--sans); color: var(--muted); }
+.div-notes { padding-left: 1.1rem; }
+
+.part-title { font-size: 1.2rem; font-style: italic; margin-top: -.5rem; }
+.part-meta { display: grid; grid-template-columns: max-content 1fr; gap: .15rem 1rem; }
+.part-meta dt { font-weight: 600; }
+.part-meta dd { margin: 0; }
+.salutation, .signature { font-style: italic; }
+.signature { text-align: right; }
+
+.connections { font: .9rem/1.5 var(--sans); margin-top: .25rem; }
+.connections summary { cursor: pointer; color: var(--accent); }
+.connections ul { list-style: none; padding: 0; margin: .5rem 0; border-left: 3px solid var(--rule); padding-left: .75rem; }
+.conn { margin-bottom: .6rem; }
+.conn-type { font-weight: 600; }
+.conn.status-suggested { border-left: 2px dashed var(--rule); padding-left: .5rem; }
+.badge { font-size: .75rem; border: 1px dashed var(--muted); border-radius: 3px; padding: 0 .3rem; margin-left: .35rem; color: var(--muted); }
+.overruled { color: var(--warn); }
+.conn blockquote { margin: .25rem 0; font-family: var(--serif); font-style: italic; }
+.rationale, .source { margin: .15rem 0; color: var(--muted); }
+
+.pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2.5rem; font-family: var(--sans); }
+
+.prose table { width: 100%; border-collapse: collapse; font: .85rem/1.45 var(--sans); }
+.prose th, .prose td { text-align: left; vertical-align: top; padding: .5rem .4rem; border-bottom: 1px solid var(--rule); }
+.prose td { overflow-wrap: anywhere; }
+
+@media (min-width: 60rem) {
+  body { font-size: 1.125rem; }
+  .site-header { padding-inline: 2rem; }
+}

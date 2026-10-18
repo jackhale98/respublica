@@ -1,0 +1,29 @@
+---
+import Base from "../layouts/Base.astro";
+import { loadWorks } from "../lib/data.js";
+
+const works = loadWorks();
+const authorLine = (w) => w.attribution?.pseudonym
+  ? `${w.attribution.pseudonym} (${w.attribution.names.join(", ")})`
+  : (w.attribution?.names || []).join(", ");
+---
+<Base>
+  <section class="intro">
+    <h1>Res Publica</h1>
+    <p>
+      A library of America's founding texts. Every passage has a permanent reference, and every
+      connection between passages records who made it, why, and whether a person has reviewed it.
+    </p>
+  </section>
+  <section aria-labelledby="works-h">
+    <h2 id="works-h">Works</h2>
+    <ul class="works">
+      {works.map((w) => (
+        <li>
+          <a class="work-title" href={`/texts/${w.id}/`}>{w.title}</a>
+          <span class="work-meta">{authorLine(w)} · {w.segments.length} passages · {w.edition.name}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>

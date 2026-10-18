@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gutenberg-federalist-18",
+    "license": "Text is public domain in the USA. The file itself carries the Project Gutenberg License; Res Publica reproduces only the public-domain text and none of the Project Gutenberg trademark or license material.",
+    "notes": "Project Gutenberg eBook #18, The Federalist Papers, plain-text UTF-8.",
+    "path": "sources/raw/gutenberg-federalist-18.txt",
+    "retrieved_at": "2026-10-18",
+    "sha256": "a6c9d1135a04d10955fe11d210b7f642e1c2341d4f2c8369b9a832cc97839d94",
+    "url": "https://www.gutenberg.org/cache/epub/18/pg18.txt"
+  },
+  {
+    "id": "nara-amendments-11-27",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105)",
+    "notes": "National Archives transcription of Amendments XI-XXVII.",
+    "path": "sources/raw/nara-amendments-11-27.html",
+    "retrieved_at": "2026-10-18",
+    "sha256": "8ee2b9a9dd4f4c0c0b27c0732b70c19cf5fd7d280759ec31ccd219aa653725fc",
+    "url": "https://www.archives.gov/founding-docs/amendments-11-27"
+  },
+  {
+    "id": "nara-bill-of-rights",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105)",
+    "notes": "National Archives transcription of the 1789 Joint Resolution and of Amendments I-X.",
+    "path": "sources/raw/nara-bill-of-rights.html",
+    "retrieved_at": "2026-10-18",
+    "sha256": "9fdc33bb700f07a916a09046cfbd0792a7755adf2e3913b994e7909f5f7e7b10",
+    "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript"
+  },
+  {
+    "id": "nara-constitution",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105)",
+    "notes": "National Archives transcription of the Constitution as engrossed on parchment; spelling and punctuation reflect the original.",
+    "path": "sources/raw/nara-constitution.html",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0e6f9a43ab250885471fef1f7120dd1bc5894ff71cc5773d7fb01b801ee84d6a",
+    "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+  }
+]

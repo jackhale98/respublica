@@ -1,0 +1,54 @@
+---
+import Base from "../../../layouts/Base.astro";
+import Segment from "../../../components/Segment.astro";
+import { loadLinkIndex, loadWorks } from "../../../lib/data.js";
+
+export function getStaticPaths() {
+  return loadWorks().filter((w) => w.split).flatMap((work) =>
+    work.groups.map((group, i) => ({
+      params: { work: work.id, part: group.slug },
+      props: { work, group, prev: work.groups[i - 1], next: work.groups[i + 1] },
+    })),
+  );
+}
+
+const { work, group, prev, next } = Astro.props;
+const d = group.division;
+const links = loadLinkIndex().by_ref;
+const body = group.segments.filter((s) => s.kind !== "footnote");
+const notes = group.segments.filter((s) => s.kind === "footnote");
+const attr = d?.attribution;
+---
+<Base title={d ? `${d.label}${d.title ? ": " + d.title : ""}` : work.title}>
+  <article class="work part">
+    <p class="crumbs"><a href={`/texts/${work.id}/`}>{work.title}</a></p>
+    <h1 id={d?.ref}>{d?.label}</h1>
+    {d?.title && <p class="part-title">{d.title}</p>}
+    <dl class="part-meta">
+      {d?.publication?.length > 0 && (<><dt>First printed</dt><dd>{d.publication.join(" ")}</dd></>)}
+      {attr && (
+        <>
+          <dt>Attribution</dt>
+          <dd>
+            {attr.kind === "disputed" ? `Disputed: ${attr.names.join(" or ")}` : attr.names.join(" and ")}
+            <span class="byline"> (edition byline: “{attr.byline}”)</span>
+          </dd>
+        </>
+      )}
+    </dl>
+    {d?.notes && <ul class="div-notes">{d.notes.map((n) => <li>{n.text}</li>)}</ul>}
+    {d?.salutation && <p class="salutation">{d.salutation}</p>}
+    {body.map((s) => <Segment segment={s} links={links[s.ref] || []} />)}
+    {d?.signature && <p class="signature">{d.signature}</p>}
+    {notes.length > 0 && (
+      <section class="notes" aria-label="Notes">
+        <h2>Notes</h2>
+        {notes.map((s) => <Segment segment={s} links={links[s.ref] || []} />)}
+      </section>
+    )}
+    <nav class="pager" aria-label="Pages">
+      {prev ? <a rel="prev" href={`../${prev.slug}/`}>← {prev.division?.label}</a> : <span />}
+      {next ? <a rel="next" href={`../${next.slug}/`}>{next.division?.label} →</a> : <span />}
+    </nav>
+  </article>
+</Base>

@@ -1,0 +1,36 @@
+---
+import "../styles/site.css";
+
+const { title, description = "A library of America's founding texts, with verified links between passages." } = Astro.props;
+const pageTitle = title ? `${title} · Res Publica` : "Res Publica";
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="description" content={description} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to text</a>
+    <header class="site-header">
+      <a class="brand" href="/">Res Publica</a>
+      <nav aria-label="Site">
+        <a href="/">Library</a>
+        <a href="/about/">About &amp; editions</a>
+      </nav>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>
+        Source texts are public domain and imported by code from the originals listed on
+        <a href="/about/">About &amp; editions</a>. Links marked <em>suggested</em> were proposed by a
+        machine and have not been reviewed by a person.
+      </p>
+    </footer>
+  </body>
+</html>

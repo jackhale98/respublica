@@ -1,0 +1,46 @@
+---
+import Base from "../layouts/Base.astro";
+import { loadManifest, loadWorks, safeUrl } from "../lib/data.js";
+
+const sources = loadManifest();
+const works = loadWorks();
+---
+<Base title="About & editions">
+  <article class="prose">
+    <h1>About &amp; editions</h1>
+    <p>
+      Res Publica is a static, open-source library. No text on this site was typed by hand or
+      written by a model: each work is produced by an importer script from a downloaded original,
+      and a check re-runs every importer to confirm the published text matches its source exactly.
+      Suspected transcription errors are listed in the project's errata log, not silently fixed.
+    </p>
+    <h2>Connections</h2>
+    <p>
+      Each connection between passages records its type, a short rationale, who or what proposed it,
+      and its review status. Connections proposed by a machine are labeled <em>suggested</em> until a
+      person reviews them. Quotations in connections are checked by code against the text.
+    </p>
+    <h2>Works and editions</h2>
+    <ul>
+      {works.map((w) => (
+        <li><strong>{w.title}</strong>: {w.edition.name}. {w.edition.notes}</li>
+      ))}
+    </ul>
+    <h2>Sources</h2>
+    <table class="sources">
+      <thead><tr><th scope="col">Source</th><th scope="col">Retrieved</th><th scope="col">License</th></tr></thead>
+      <tbody>
+        {sources.map((s) => {
+          const url = safeUrl(s.url);
+          return (
+            <tr>
+              <td>{url ? <a href={url} rel="noopener noreferrer">{s.id}</a> : s.id}<br /><span class="muted">{s.notes}</span></td>
+              <td>{s.retrieved_at}</td>
+              <td>{s.license}</td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </article>
+</Base>

@@ -1,0 +1,35 @@
+---
+import { anchor, refUrl, richText } from "../lib/data.js";
+import Connections from "./Connections.astro";
+
+const { segment, links = [] } = Astro.props;
+const paras = richText(segment);
+const isNote = segment.kind === "footnote";
+---
+<section class:list={["segment", { note: isNote }]} id={anchor(segment.ref)} data-ref={segment.ref}>
+  <header class="seg-head">
+    <a class="ref" href={`#${anchor(segment.ref)}`} title="Link to this passage">{segment.ref}</a>
+    {segment.label && <span class="seg-label">{segment.label}</span>}
+  </header>
+  <div class="seg-text">
+    {paras.map((lines) => (
+      <p>
+        {lines.map((runs, i) => (
+          <>
+            {i > 0 && <br />}
+            {runs.map((r) => (r.em ? <em>{r.text}</em> : r.text))}
+          </>
+        ))}
+      </p>
+    ))}
+  </div>
+  {segment.changed_by && (
+    <p class="changed">
+      The National Archives marks part of this text as changed by
+      {segment.changed_by.map((c, i) => (
+        <>{i > 0 && ", "} <a href={refUrl(c.amendment)}>{c.amendment.replace("Amendment.", "Amendment ")}</a></>
+      ))}.
+    </p>
+  )}
+  <Connections links={links} />
+</section>
