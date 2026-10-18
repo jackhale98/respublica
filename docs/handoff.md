@@ -29,15 +29,15 @@ founding documents, The Federalist, twenty works of the ratification
 debate read from scans, about 740 suggested links awaiting review, the
 connections panel and graph, search, and the review page.
 
-**Debates in Congress** (decision 46): the House's 1789 debate on the
-amendments, from the Annals of Congress (`importers/annals.py`), at
-`/house-amendments-1789/`. About 1% of its words are marked uncertain
-(small type, two columns, only two scans plus our own Tesseract reading).
-Next in this line: the Senate has no recorded debate in 1789; the
-Congressional Globe for the Thirteenth to Fifteenth Amendments (two
-Internet Archive copies of the 39th Congress were found), by the same rule.
-Links from the debate (to the Constitution, the Joint Resolution, the
-amendments) are not proposed yet.
+**Debates in Congress** (`/congress/`): the House's 1789 debate on the
+amendments, from the Annals of Congress (`importers/annals.py`, decision
+46), and both houses' 1866 debates on the Fourteenth Amendment, from the
+Congressional Globe (`importers/globe.py`, decision 47). About 1% (1789),
+1.3% (House, 1866) and 2.2% (Senate, 1866) of words are marked uncertain;
+the Senate's June days have only a poor microfilm to check UNT's OCR
+against. Run 4 of the linking guide (`docs/linking.md`) proposes their
+links to the Constitution and to the amendments. Next in this line: the
+Thirteenth and Fifteenth Amendments in the Globe, by the same rule.
 
 **Phase 7, Supreme Court cases, is in progress:**
 
@@ -56,6 +56,9 @@ amendments) are not proposed yet.
 
 ## Next: phase 7, step by step
 
+0. **Read uncertain words off the scans** on `/errata/` (decision 48):
+   about 5,700 words, most in the 1866 debates. Corrections come back
+   through the errata workflow; agents never record them.
 1. **Check the token** is available (`COURTLISTENER_TOKEN`), and check
    CourtListener's API field names against a real response before writing
    a parser (CLAUDE.md). Record each fetched response as a raw source with

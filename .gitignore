@@ -6,3 +6,5 @@ __pycache__/
 
 # Internet Archive scans of the Annals of Congress (DjVu XML and page images, over the 40 MB per-file budget): `make fetch` restores them (decision 46)
 sources/raw/ia-annals-*
+# Internet Archive scans of the Congressional Globe (the microfilm's DjVu XML, 201 MB; the Michigan copy's OCR text): `make fetch` restores them (decision 47)
+sources/raw/ia-globe-*

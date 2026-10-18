@@ -177,7 +177,7 @@ Each phase ends with `make verify` passing.
 6. **Thematic links and review.** Agents propose `responds_to` / `rebuts` / `shared_theme` links. A simple review tool (CLI or dev-only page) marks them reviewed or rejected.
 7. **Landmark cases.** Import Constitution Annotated's case-to-clause citations for the landmark set; fetch case data from CourtListener; record overrulings with sources; build clause pages.
 8. **Source sheets and search.**
-9. **Launch.** About page, accessibility pass, deploy at `library.commonhall.org`.
+9. **Launch.** About page, accessibility pass, and announce the site at <https://respublicalibrary.org> (served there since decision 44).
 10. **CommonHall bridge.** Publish the static index; add "interprets" links on CommonHall's Supreme Court pages.
 
 ---

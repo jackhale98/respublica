@@ -244,8 +244,13 @@ In `texts/{work}.json` (validated by `make verify`, see
 - `pages` are the printed page numbers read on the passage's pages (some are
   missing where OCR misread them); `scan.leaves` are always present.
 
+- `corrected` lists the words a maintainer read off the page image
+  (`start`, `end` in the corrected text, the scans' word `was`, and `by` and
+  `at`); see "Reviewing and correcting".
+
 On the site, uncertain words are underlined with dots; selecting a paragraph
-shows each scan's reading and a link to the page image.
+shows each scan's reading and a link to the page image. Corrected words are
+underlined with a plain line.
 
 ## How well it works
 
@@ -295,23 +300,32 @@ underline.
 
 ## Reviewing and correcting
 
-1. List what needs checking:
+1. Open the errata page (`/errata/`, for maintainers). It lists every word
+   the scans could not settle, by work, with the words around it, each
+   scan's reading and the page images (select an image to zoom). From the
+   command line:
 
    ```
    python -m tools.uncertain                 # counts per work
    python -m tools.uncertain cato --md       # a checklist with page-image links
    ```
 
-2. Check each word against the page image. Most uncertain words are clear on
-   the page.
-3. Record what the page shows in `docs/errata.md`: the ref, the text as
-   imported, what the page prints, the page, and who checked it. Also record
-   errors that are *not* marked uncertain (shared misreadings) when you see
-   them.
-4. Corrections are never typed into `texts/`. A confirmed correction is
-   applied by the importer, from a list that names each erratum, and is
-   logged on the passage. That list does not exist yet; it will be added with
-   the first confirmed correction (rule 3 in `CLAUDE.md`).
+2. Check each word against the page image. Pick the reading the page shows,
+   or type what is printed (old spelling and punctuation, as printed). Leave
+   a word you cannot read.
+3. Choose **Send to GitHub** and submit the issue. The errata workflow
+   (`.github/workflows/errata.yml`, people with write access only) records
+   each correction in `corrections/{work}.jsonl` under your GitHub login
+   (`python -m tools.errata apply`), updates link quotes that contain the
+   word, re-runs the importers and `make verify`, and commits.
+4. Corrections are never typed into `texts/`. The importers apply them
+   (`importers/corrections.py`): the word is replaced, its uncertain mark
+   dropped, and the change logged in the passage's `corrected` list (who,
+   when, and what the scans read). On the site a corrected word is
+   underlined. A correction that no longer matches its passage stops the
+   import (decision 48).
+5. Errors that are *not* marked uncertain (shared misreadings), wrong
+   paragraph breaks and attributions go in `docs/errata.md`.
 
 Refs are locked once published (`refs.lock`). A correction to a word never
 changes refs; a wrong paragraph break found later is recorded as an erratum

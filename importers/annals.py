@@ -14,7 +14,8 @@ next heading, the next day's date, or "Adjourned." Each item is a division
 (`House1789.{Mon}{day}`, `docs/references.md`) and its paragraphs are
 passages.
 
-Layout comes from one scan's DjVu XML, split into its two columns; words are
+Layout comes from one scan's DjVu XML, split into its two columns
+(`importers/columns.py`); words are
 checked against a second scan of the same printing read column by column
 (see `importers/ocr.py`). Nothing is typed or corrected by hand.
 """
@@ -23,16 +24,16 @@ from __future__ import annotations
 
 import datetime as dt
 import re
-import statistics
 from collections import Counter
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
 
+from importers import corrections
+from importers.columns import body_span, is_speck, mark_notes, rows, split_columns
 from importers.ocr import (
-    NOTE_MARK, TOKEN, Block, Line, Page, Para, Reference, Word, Vocabulary, _line_height, align, attested, blocks,
-    OCR_DIR, OCR_MANIFEST, TESSERACT_ARGS, body_margin, parse_djvu_xml, parse_tesseract_tsv, run_tesseract,
-    split_paragraphs, tesseract_versions,
+    TOKEN, Block, Page, Reference, Vocabulary, align, attested, blocks, OCR_DIR, OCR_MANIFEST, TESSERACT_ARGS,
+    body_margin, parse_djvu_xml, parse_tesseract_tsv, run_tesseract, split_paragraphs, tesseract_versions,
 )
 from importers.ratification import clean_vocabulary, text_of_readings
 from tools.common import ROOT, TEXTS_DIR, load_manifest, raw_path, read_json, sha256_file, write_json
@@ -54,58 +55,6 @@ class Spread:
     numbers: list[int | None]  # the column numbers read in the head
 
 
-def body_span(page: Page) -> tuple[float, float]:
-    """Where the text of the page begins and ends across (ignoring specks
-    at the edges): the middle between them is the gutter's, roughly."""
-    x0s = sorted(w.x0 for para in page.paras for w in para.words)
-    x1s = sorted(w.x1 for para in page.paras for w in para.words)
-    return x0s[len(x0s) // 50], x1s[-1 - len(x1s) // 50]
-
-
-def narrow(line: Line, span: float) -> bool:
-    """A line within one column (most of a column's width or less)."""
-    return max(w.x1 for w in line.words) - min(w.x0 for w in line.words) < 0.6 * span
-
-
-def find_gutter(lines: list[Line], mid: float, span: float) -> float | None:
-    """Where the left column ends and the right begins, from the lines that
-    sit in one column: the middle between the left column's right edge and
-    the right column's left edge. None for a page set in one column (where
-    the only short lines are the ends of paragraphs, on the left)."""
-    inside = [l for l in lines if narrow(l, span)]
-    ends = sorted(max(w.x1 for w in l.words) for l in inside if (l.x0 + max(w.x1 for w in l.words)) / 2 < mid)
-    starts = sorted(l.x0 for l in inside if (l.x0 + max(w.x1 for w in l.words)) / 2 >= mid)
-    if len(ends) < 5 or len(starts) < 5:
-        return None
-    return (ends[int(len(ends) * 0.9)] + starts[len(starts) // 10]) / 2
-
-
-def sides(line: Line, gutter: float, span: float) -> list[tuple[int, list]]:
-    """A line's words by column (0 left, 1 right): a line within one column
-    goes to the side of the gutter its middle is on; a wider one (a scan
-    whose OCR read across both columns) is split word by word. Specks in the
-    gutter ("|", "}") are not print and are left out."""
-    ws = sorted(line.words, key=lambda w: w.x0)
-    if narrow(line, span):
-        return [(0 if (ws[0].x0 + ws[-1].x1) / 2 < gutter else 1, ws)]
-    ws = [w for w in ws if re.search(r"\w", w.text) or abs((w.x0 + w.x1) / 2 - gutter) > 0.03 * span]
-    out = [(0, [w for w in ws if (w.x0 + w.x1) / 2 < gutter]), (1, [w for w in ws if (w.x0 + w.x1) / 2 >= gutter])]
-    return [(side, words) for side, words in out if words]
-
-
-def _rows(lines: list[Line]) -> list[list[Line]]:
-    """Lines grouped into rows across the page (by the middle of their words)."""
-    rows: list[list[Line]] = []
-    for line in sorted(lines, key=lambda l: l.words[0].y0):
-        mid = statistics.median((w.y0 + w.y1) / 2 for w in line.words)
-        h = statistics.median(w.height for w in line.words) or 1
-        if rows and abs(rows[-1][0].words[0].y0 + rows[-1][0].words[0].height / 2 - mid) < 0.6 * h:
-            rows[-1].append(line)
-        else:
-            rows.append([line])
-    return rows
-
-
 # The head's two rows: the column numbers and the title ("441 GALES & SEATON'S
 # HISTORY 442"), then the house, subject and date ("H. OF R.] Amendments to
 # the Constitution. [June 8, 1789.").
@@ -121,11 +70,10 @@ def split_spread(page: Page, reference: bool = False) -> Spread | None:
     if not page.width or sum(len(para.words) for para in page.paras) < 50:
         return None
     left, right = body_span(page)
-    mid, span = (left + right) / 2, right - left
+    mid = (left + right) / 2
     lines = [l for para in page.paras for l in para.lines]
-    rows = [r for r in _rows(lines) if len(re.sub(r"\W", "", " ".join(l.text for l in r))) > 2]  # not specks
     head_rows = []
-    for row, pattern in zip(rows[:2], (HEAD_FIRST, HEAD_SECOND)):
+    for row, pattern in zip([r for r in rows(lines) if not is_speck(r)][:2], (HEAD_FIRST, HEAD_SECOND)):
         text = " ".join(l.text for l in row)
         if row[0].words[0].y0 < 0.13 * page.height and pattern.search(text) and len(text.split()) <= 16:
             head_rows.append(row)
@@ -134,7 +82,7 @@ def split_spread(page: Page, reference: bool = False) -> Spread | None:
     number_row = head_rows[0] if head_rows else []
     # Specks above or between the rows of the head go with it.
     top = max((l.words[0].y0 for row in head_rows for l in row), default=-1)
-    head_rows = [r for r in _rows(lines) if r[0].words[0].y0 <= top]
+    head_rows = [r for r in rows(lines) if r[0].words[0].y0 <= top]
     head_ids = {id(l) for row in head_rows for l in row}
     head = " | ".join(" ".join(l.text for l in row) for row in head_rows)
     numbers: list[int | None] = [None, None]
@@ -144,77 +92,10 @@ def split_spread(page: Page, reference: bool = False) -> Spread | None:
             side = 0 if (w.x0 + w.x1) / 2 < mid else 1
             if numbers[side] is None or side == 1:
                 numbers[side] = int(m.group(1))
-    body = [l for l in lines if id(l) not in head_ids]
-    g = find_gutter(body, mid, span)
-    if g is None and reference:
-        g = mid
-    if g is None:
+    columns = split_columns(page, head_ids, 2, reference)
+    if columns is None:
         return None  # set in one column
-    split = {id(l): sides(l, g, span) for l in body}
-    columns = []
-    for side in (0, 1):
-        ws = [w for parts in split.values() for s, words in parts if s == side for w in words]
-        if not ws:
-            columns.append(Page(page.leaf, 0, page.height))
-            continue
-        # The column's edges from most of its words (a speck in the gutter
-        # would widen it, and its short lines would then look centred).
-        x0s, x1s = sorted(w.x0 for w in ws), sorted(w.x1 for w in ws)
-        x0, x1 = x0s[len(x0s) // 50], x1s[-1 - len(x1s) // 50]
-        col = Page(page.leaf, x1 - x0, page.height)
-        for para in page.paras:
-            plines = []
-            for l in para.lines:
-                for s, words in split.get(id(l), []):
-                    if s == side:
-                        plines.append(Line([Word(w.text, w.x0 - x0, w.y0, w.x1 - x0, w.y1, w.conf) for w in words]))
-            if plines:
-                col.paras.append(Para(plines, page.leaf))
-        join_rows(col)
-        # A speck read as a paragraph of its own ("sss", "J"): the Annals
-        # print no paragraph of three letters or fewer.
-        col.paras = [p for p in col.paras if len(p.lines) > 1 or len(re.sub(r"\W", "", p.text)) > 3]
-        col.paras.sort(key=lambda p: p.lines[0].words[0].y0)
-        columns.append(col)
     return Spread(page.leaf, head, columns, numbers)
-
-
-def join_rows(col: Page) -> None:
-    """Pieces of one printed line that OCR read as separate lines, at the same
-    height, are joined into the first piece's line (in place): otherwise a
-    piece set in a paragraph of its own is read after the paragraph it
-    belongs to ("The question on Mr. Burke' put was negatived." … "'s motion
-    being")."""
-    def band(line: Line) -> tuple[float, float]:
-        # Where most of the line's words sit (a tall quotation mark or a
-        # speck may reach into the line above or below).
-        return statistics.median(w.y0 for w in line.words), statistics.median(w.y1 for w in line.words)
-
-    lines = [(para, l) for para in col.paras for l in para.lines]
-    for i, (pa, a) in enumerate(lines):
-        if not a.words:
-            continue
-        for pb, b in lines[i + 1:]:
-            if not b.words or pb is pa:
-                continue
-            (a0, a1), (b0, b1) = band(a), band(b)
-            if min(a1, b1) - max(a0, b0) > 0.5 * (min(a1 - a0, b1 - b0) or 1):
-                a.words = sorted(a.words + b.words, key=lambda w: w.x0)
-                b.words = []
-    for para in col.paras:
-        para.lines = [l for l in para.lines if l.words]
-    col.paras = [p for p in col.paras if p.lines]
-    # A line or two OCR set apart (a speck at its start puts it outside the
-    # column) that lies between the lines of another paragraph belongs there.
-    for pb in list(col.paras):
-        if len(pb.lines) > 2:
-            continue
-        y = band(pb.lines[0])[0]
-        host = next((pa for pa in col.paras if pa is not pb and len(pa.lines) > 1
-                     and band(pa.lines[0])[0] < y < band(pa.lines[-1])[0]), None)
-        if host is not None:
-            host.lines = sorted(host.lines + pb.lines, key=lambda l: band(l)[0])
-            col.paras.remove(pb)
 
 
 def settle_columns(spreads: list[Spread]) -> None:
@@ -236,22 +117,6 @@ def settle_columns(spreads: list[Spread]) -> None:
             continue
         left = 2 * s.leaf + off
         s.numbers = [left, left + 1]
-
-
-def mark_notes(col: Page) -> None:
-    """Footnotes: paragraphs at the foot of a column in smaller type that
-    begin with a mark (* or †)."""
-    sizes = sorted(_line_height(l) for para in col.paras for l in para.lines)
-    if not sizes:
-        return
-    body = sizes[int(len(sizes) * 0.8)]
-    for para in reversed(col.paras):
-        small = statistics.median(_line_height(l) for l in para.lines) < 0.85 * body
-        if small and para.lines[0].words[0].y0 > 0.4 * col.height:
-            if NOTE_MARK.match(para.text):
-                para.kind = "note"
-                continue
-        break
 
 
 TESSERACT = "ia-annals-1834-v1-google-tesseract"  # sources/ocr/{TESSERACT}.tsv, from IMAGES
@@ -477,13 +342,15 @@ def build(its: list[Item], readings: dict[int, list[dict]], known: set[str]) -> 
                 (None, body, lambda n: f"{base}.{n}", lambda n: f"House, {label}, ¶ {n}"),
                 ("footnote", notes, lambda n: f"{base}.fn{n}", lambda n: f"House, {label}, note {n}")):
             for n, b in enumerate(bs, 1):
-                text, spans = text_of_readings(readings[id(b)], known)
+                text, spans, fixed = corrections.apply(ref_of(n), *text_of_readings(readings[id(b)], known))
                 seg = {"columns": b.folios, "label": label_of(n), "ref": ref_of(n),
                        "scan": {"item": SCAN_ITEM, "leaves": b.leaves}, "text": text}
                 if kind:
                     seg["kind"] = kind
                 if spans:
                     seg["uncertain"] = spans
+                if fixed:
+                    seg["corrected"] = fixed
                 segments.append(seg)
     first, last = its[0].date.isoformat(), its[-1].date.isoformat()
     return {

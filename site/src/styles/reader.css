@@ -48,6 +48,9 @@
 }
 .doc-head .subtitle { font: italic 400 1.2rem/1.45 var(--font-serif); color: var(--text-muted); margin: .7rem 0 0; }
 .doc-meta { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1.1rem; }
+.sheet-nav { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; margin-top: .8rem; font-size: .9rem; color: var(--text-muted); }
+.sheet-nav a, .sheet-nav [aria-current] { min-width: 1.9rem; text-align: center; padding: .2rem .5rem; border-radius: 999px; border: 1px solid var(--border); }
+.sheet-nav [aria-current] { background: var(--text); color: var(--bg-raised); border-color: var(--text); }
 .doc-meta .chip { background: var(--bg-subtle); white-space: normal; line-height: 1.35; }
 .doc-note {
   margin: 1.25rem 0 0; padding: .8rem 1rem; border-radius: var(--radius);
@@ -284,6 +287,7 @@
 .conn-verb { font: 600 .72rem/1 var(--font-sans); letter-spacing: .05em; text-transform: uppercase; color: var(--text-faint); }
 .conn-target { display: block; margin-top: .3rem; font-weight: 600; }
 .conn blockquote { margin: .45rem 0 0; padding-left: .7rem; border-left: 2px solid var(--border-strong); font: italic 400 .92rem/1.5 var(--font-serif); color: var(--text-muted); }
+.conn blockquote mark { color: var(--text); font-style: normal; background: var(--highlight-soft); border-radius: 2px; padding: 0 .1em; }
 .conn .why { margin: .45rem 0 0; color: var(--text-muted); }
 .conn .src { margin: .3rem 0 0; color: var(--text-faint); font-size: .8rem; }
 
@@ -357,3 +361,13 @@
   .placebar-here:not(:empty)::before { content: none; }
 }
 @media (prefers-reduced-motion: reduce) { .placebar, .placebar.show { transition: none; } }
+
+/* A case page (CaseView): its sections and the links that cite a source. */
+.case-sec { margin-top: 2.25rem; }
+.case-sec h2 { font: 600 1.25rem/1.3 var(--font-heading); margin-bottom: .6rem; }
+.case-overruled { border-left: 3px solid var(--danger); padding-left: 1rem; }
+.case-links { list-style: none; margin: .6rem 0 0; padding: 0; display: grid; gap: .8rem; }
+.case-links li { line-height: 1.45; }
+.case-links .badge { margin-left: .45rem; }
+.case-links .src { margin: .2rem 0 0; font-size: .8rem; color: var(--text-faint); overflow-wrap: anywhere; }
+.case-ext { margin-top: .9rem; font-size: .92rem; }

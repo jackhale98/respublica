@@ -1,0 +1,50 @@
+---
+import "../../styles/collection.css";
+import Base from "../../layouts/Base.astro";
+import { href, formatDate, formatNumber, loadSite } from "../../lib/data.js";
+
+// Debates in Congress: the debates on amendments, grouped by amendment.
+const { page } = Astro.props;
+const works = Object.fromEntries(loadSite().works.map((w) => [w.id, w]));
+const all = page.groups.flatMap((g) => g.works.map((id) => works[id]));
+const words = all.reduce((s, w) => s + w.words, 0);
+---
+<Base title={page.title} section="congress" description="The debates in Congress on amendments to the Constitution, as printed in the Annals of Congress and the Congressional Globe, with a permanent reference for every paragraph.">
+  <section class="page-head">
+    <div class="container">
+      <ol class="crumbs"><li><a href={href("/")}>Library</a></li><li aria-current="page">Debates in Congress</li></ol>
+      <h1>Debates in Congress</h1>
+      <p class="lede">
+        The House's and the Senate's debates on amendments to the Constitution, as the Annals of Congress and the
+        Congressional Globe print them: given as reported, not always word for word.
+      </p>
+      <div class="doc-stats">
+        <span><strong>{all.length}</strong> works</span>
+        <span><strong>{formatNumber(all.reduce((s, w) => s + w.passages, 0))}</strong> paragraphs</span>
+        <span><strong>{Math.round(words / 1000)}k</strong> words</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    {page.groups.filter((g) => g.works.length).map((g, i) => (
+      <section class="debate-group" aria-labelledby={`g-${i}`}>
+        <h2 id={`g-${i}`}>{g.label}</h2>
+        <ol class="debate-works">
+          {g.works.map((id) => works[id]).map((w) => (
+            <li>
+              <a class="card debate-work" href={href(w.url)}>
+                <h3>{w.title}</h3>
+                <p class="by">{w.summary}</p>
+                <div class="paper-foot">
+                  <span>{w.top_divisions} {w.top_divisions === 1 ? "item" : "items"}</span>
+                  <span>{formatDate(w.date)}</span>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+  </div>
+</Base>

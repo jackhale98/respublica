@@ -1,6 +1,6 @@
 ---
 import Icon from "./Icon.astro";
-import { localUrl, safeUrl, uncertainTitle } from "../lib/data.js";
+import { fixTitle, localUrl, safeUrl, uncertainTitle } from "../lib/data.js";
 
 // One passage. Its element id is its ref, so /page/#Ref links to it.
 const { block } = Astro.props;
@@ -29,7 +29,8 @@ const numeral = (label) => label.split(" ").at(-1);
             {i > 0 && <br />}
             {runs.map((r, k) => {
               const text = r.em ? <em>{r.t}</em> : r.t;
-              const body = r.unc ? <span class="unc" title={uncertainTitle(r.unc)}>{text}</span> : text;
+              const body = r.fix ? <span class="fix" title={fixTitle(r.fix)}>{text}</span>
+                : r.unc ? <span class="unc" title={uncertainTitle(r.unc)}>{text}</span> : text;
               if (r.chg === undefined) return body;
               const c = block.changed[r.chg];
               const lastOfSpan = !runs.slice(k + 1).some((x) => x.chg === r.chg);
@@ -68,6 +69,15 @@ const numeral = (label) => label.split(" ").at(-1);
           {block.paras.flat(2).filter((r) => r.unc).map((r) => <li><span class="unc">{r.t}</span> {uncertainTitle(r.unc).replace("Uncertain reading. ", "")}</li>)}
         </ul>
       )}
+    </template>
+  )}
+  {block.printed && (
+    <template class="src-data" data-pagefind-ignore>
+      <p>
+        Printed on p. {block.printed.page} of the United States Reports, read from the text layer of the Library of
+        Congress scan.{" "}
+        {safeUrl(block.printed.url) && <a href={safeUrl(block.printed.url)} rel="noopener" target="_blank">View the page image</a>}
+      </p>
     </template>
   )}
   {conns.length > 0 && (

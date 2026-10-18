@@ -1,0 +1,56 @@
+---
+import "../../styles/collection.css";
+import Base from "../../layouts/Base.astro";
+import { href, formatNumber } from "../../lib/data.js";
+
+// The Supreme Court cases in the library, in date order, each with the
+// provisions the Constitution Annotated's essays cite it under.
+const { page } = Astro.props;
+const cases = page.cases;
+const withSyllabus = cases.filter((c) => c.syllabus > 0).length;
+const overruled = cases.filter((c) => c.overruled).length;
+const cite = (c) => c.us_cite || (c.docket ? `No. ${c.docket}` : "");
+---
+<Base title={page.title} section="cases" description="Landmark Supreme Court cases, chosen by fixed rules from the Constitution Annotated, linked to the clauses of the Constitution they are cited under.">
+  <section class="page-head">
+    <div class="container">
+      <ol class="crumbs"><li><a href={href("/")}>Library</a></li><li aria-current="page">Cases</li></ol>
+      <h1>Supreme Court Cases</h1>
+      <p class="lede">
+        A first set of decisions, chosen by fixed rules from the Constitution Annotated (2022): in each topic of its
+        essays, the case they cite most; every case they cite on ten or more pages or name in an essay's title; the
+        decisions those cases overruled; and overruled decisions the essays still discuss. Each is linked to the
+        provisions whose essays cite it.
+      </p>
+      <div class="doc-stats">
+        <span><strong>{formatNumber(cases.length)}</strong> cases</span>
+        <span><strong>{withSyllabus}</strong> with the syllabus as printed</span>
+        <span><strong>{overruled}</strong> overruled</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <ol class="cases-list">
+      {cases.map((c) => (
+        <li>
+          <a class="card case-card" href={href(c.url)}>
+            <span class="case-year">{c.date.slice(0, 4)}</span>
+            <span class="case-main">
+              <strong>{c.title}</strong>
+              <span class="case-cite">{cite(c)}{c.overruled && <span class="badge overruled">Overruled</span>}</span>
+              {c.interprets.length > 0 && (
+                <span class="case-prov">{c.interprets.slice(0, 3).map((x) => x.label).join(" · ")}{c.interprets.length > 3 ? ` · ${c.interprets.length - 3} more` : ""}</span>
+              )}
+            </span>
+          </a>
+        </li>
+      ))}
+    </ol>
+    <p class="legend-note">
+      Links between cases and clauses are imported from the Constitution Annotated and await a person's review; an
+      overruling is shown only where its Table of Decisions Overruled by Subsequent Decisions records one.
+      <a href={href("/about/#cases")}>About the cases</a>
+    </p>
+  </div>
+</Base>

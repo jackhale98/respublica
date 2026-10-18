@@ -735,3 +735,74 @@ volume 1 (Gales and Seaton, 1834), read from the Internet Archive's scans
 Later debates (the Congressional Globe for the Fourteenth Amendment, and so
 on) would follow the same rule: the items printed under the amendment's
 heading in each house.
+
+## 47. The Fourteenth Amendment debates, 1866; UNT as a source
+
+The project owner asked for the debates on the Fourteenth Amendment, and
+approved the University of North Texas Digital Library as a new source.
+
+- **What is imported** is fixed by the print: in the Congressional Globe,
+  39th Congress, 1st session, every item of either house's proceedings from
+  May 8 to June 13, 1866, headed "Reconstruction" or "Reconstruction again"
+  whose first paragraphs take up the joint resolution (H. R. No. 127)
+  proposing the amendment (by its number, as "the constitutional
+  amendment", or as the joint resolution reported by the committee); an item
+  headed "Reconstruction again" goes on with the day's item before it. Each
+  item runs from its heading to the next heading or the end of that house's
+  day. The days (fourteen) and their pages are listed in
+  `importers/globe.py` and checked against the print. Two works, one per
+  house: `House1866`, `Senate1866` (`docs/references.md`).
+- **Sources.** The Internet Archive has part 3 (to page 2880) in a clean
+  University of Michigan scan and on microfilm, and part 4 (the Senate's last
+  days, and the House's final vote) only on a microfilm whose OCR is badly
+  garbled at this size. UNT has both parts with its own OCR. Layout and words
+  come from UNT: its per-page word boxes (IIIF annotations, which drop
+  punctuation) and its OCR text page (with punctuation), matched word for
+  word. They are checked against the Michigan copy's OCR text (May) and the
+  microfilm (June). UNT's pages are kept in git, gzip-compressed as UNT sends
+  them (`encoding: gzip` in the manifest; the text pages carry a session
+  token, so they could not be fetched again byte for byte).
+- **Headings by layout and case.** UNT reads the Globe's small-capital
+  headings in either case, so a heading is a line set apart (centred, or with
+  space above and below) and printed in one case; lines of a bill or of verse
+  printed in the debate start with a capital and are not headings.
+- **On the site** both works join "Debates in Congress" (`/congress/`), which
+  groups the debates by amendment. A day longer than 90,000 bytes of text
+  (three of the Senate's) is shown on several pages, split at paragraphs
+  (`/senate-fourteenth-amendment-1866/jun8/2/`), so that each page stays
+  inside the HTML budget of decision 15. Refs do not change; each ref's URL
+  names the page it is on.
+
+## 48. Correcting words read from scans: the errata page
+
+The project owner asked for a page, like the link review page, on which to
+read uncertain words off the scans and record what is printed.
+
+- **What is reviewed.** Every word the scans could not settle (`uncertain`
+  in its passage), shown with the twelve words on either side, each scan's
+  reading and the page images (`/errata/`). The maintainer picks a reading
+  or types what the page prints. A reading picked as it stands confirms it.
+- **Images from the libraries that hold the scans.** The errata page alone
+  loads page images from the Internet Archive and the UNT Digital Library
+  (its Content Security Policy allows those hosts for images only, and
+  `tools/check_site.py` allows that on no other page). It is a page for
+  maintainers; readers' pages still load nothing from elsewhere.
+- **Recorded as link reviews are.** The page opens a GitHub issue titled
+  "Errata review", one correction per line. A workflow
+  (`.github/workflows/errata.yml`) runs only for an issue opened by someone
+  with write access: `python -m tools.errata apply` appends each correction
+  to `corrections/{work}.jsonl` under their GitHub login and date, updates
+  any link quote that contains the old word (quotes must stay exact), re-runs
+  the importers and `make verify`, and commits to main. Agents never record
+  a correction (rule 3).
+- **Applied by the importers.** A correction names the passage, the word as
+  imported and its place among the passage's uncertain words. The importers
+  (`importers/corrections.py`) replace the word, drop its uncertain mark and
+  log the change in the passage's `corrected` list (who, when, the scans'
+  word), so `texts/` stays exactly what the importers produce. A correction
+  that no longer matches its passage (the scans were read again) stops the
+  import for a person to look at again.
+- **On the site** a corrected word is underlined, and its title says who
+  corrected it and what the scans read. A correction never changes refs.
+- **`docs/errata.md` stays** for what the page cannot show: misreadings the
+  scans share, paragraph breaks and attributions.

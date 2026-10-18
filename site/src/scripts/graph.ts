@@ -25,11 +25,11 @@ const RING_R: Record<Ring, number> = { center: 0, hop1: 190, hop2: 360 };
 const reduceMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 // Nodes are colored by group (founding documents, the Federalist side, the
-// Anti-Federalists); each node's label names its work.
+// Anti-Federalists, Supreme Court cases); each node's label names its work.
 const WORK_ORDER = ["declaration", "constitution", "amendments", "federalist"];
-const GROUP_ORDER = ["founding", "federalist", "anti", "other"];
+const GROUP_ORDER = ["founding", "federalist", "anti", "cases", "other"];
 const GROUP_NAMES: Record<string, string> = {
-  founding: "Founding documents", federalist: "The Federalist and Federalist essays", anti: "Anti-Federalist essays", other: "Other",
+  founding: "Founding documents", federalist: "The Federalist and Federalist essays", anti: "Anti-Federalist essays", cases: "Supreme Court cases", other: "Other",
 };
 const groupOf = (n: Node | undefined) => n?.group || "other";
 const groupClass = (grp: string) => `g-${GROUP_ORDER.includes(grp) ? grp : "other"}`;

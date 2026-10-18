@@ -42,17 +42,26 @@ def _guess_ext(url: str) -> str:
     return suffix if suffix in (".txt", ".html", ".htm", ".json", ".xml", ".pdf", ".zip") else ".html"
 
 
+def _headers(auth_env: str | None, encoding: str | None) -> dict[str, str] | None:
+    headers = {**(auth_headers(auth_env) if auth_env else {}), **({"Accept-Encoding": encoding} if encoding else {})}
+    return headers or None
+
+
 def add_source(source_id: str, url: str, license: str, notes: str = "", ext: str | None = None,
-               auth_env: str | None = None, post: str | None = None) -> dict:
+               auth_env: str | None = None, post: str | None = None, encoding: str | None = None) -> dict:
     """Download a new original once, save it under sources/raw/ and record
-    it in the manifest. Returns the manifest entry."""
+    it in the manifest. Returns the manifest entry. With `encoding` ("gzip"),
+    the server is asked to send the file compressed, and the bytes are kept
+    as sent (the file is the original once decompressed)."""
     if not ID_RE.match(source_id):
         raise ValueError(f"source id must match {ID_RE.pattern}: {source_id!r}")
     check_url(url)
     entries = load_manifest()
     if any(e["id"] == source_id for e in entries):
         raise ValueError(f"{source_id} is already in the manifest")
-    data = fetch_bytes(url, headers=auth_headers(auth_env) if auth_env else None, post=post)
+    data = fetch_bytes(url, headers=_headers(auth_env, encoding), post=post)
+    if encoding == "gzip" and data[:2] != b"\x1f\x8b":
+        raise ValueError(f"{url} was not sent gzip-compressed")
     ext = ext or _guess_ext(url)
     if ext and not ext.startswith("."):
         ext = f".{ext}"  # "--ext html" means ".html"
@@ -72,6 +81,8 @@ def add_source(source_id: str, url: str, license: str, notes: str = "", ext: str
         entry["auth_env"] = auth_env
     if post is not None:
         entry["post"] = post
+    if encoding:
+        entry["encoding"] = encoding
     # Read the manifest again: a download can wait hours on a rate limit,
     # and other sources may have been recorded meanwhile.
     entries = load_manifest()
@@ -98,8 +109,7 @@ def cmd_restore(_: argparse.Namespace) -> int:
         path = ROOT / e["path"]
         if path.exists():
             continue
-        data = fetch_bytes(e["url"], headers=auth_headers(e["auth_env"]) if e.get("auth_env") else None,
-                           post=e.get("post"))
+        data = fetch_bytes(e["url"], headers=_headers(e.get("auth_env"), e.get("encoding")), post=e.get("post"))
         if sha256_bytes(data) != e["sha256"]:
             print(f"error: {e['id']}: upstream content changed since {e['retrieved_at']}; "
                   "not saved. Record it as a new source if it should be used.", file=sys.stderr)

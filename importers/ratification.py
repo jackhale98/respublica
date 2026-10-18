@@ -26,6 +26,7 @@ from difflib import SequenceMatcher
 from functools import lru_cache
 from pathlib import Path
 
+from importers import corrections
 from importers.ocr import (TOKEN, Block, Reference, Vocabulary, align, attested, blocks, classify, consensus, key, known_words,
                           parse_djvu_xml)
 from importers.ratification_series import BOOKS, SERIES
@@ -391,13 +392,15 @@ def build(prepared: Prepared, known: set[str]) -> dict:
         return " ".join(parts), spans
 
     def segment(ref: str, label: str, block, kind: str | None = None) -> dict:
-        text, spans = text_of(block, prepared, known)
+        text, spans, fixed = corrections.apply(ref, *text_of(block, prepared, known))
         seg = {"label": label, "pages": block.folios, "ref": ref,
                "scan": {"item": bookdef["item"], "leaves": block.leaves}, "text": text}
         if kind:
             seg["kind"] = kind
         if spans:
             seg["uncertain"] = spans
+        if fixed:
+            seg["corrected"] = fixed
         return seg
 
     single = len(prepared.essays) == 1

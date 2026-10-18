@@ -61,6 +61,8 @@ class Para:
     lines: list[Line]
     leaf: int
     kind: str = "text"  # text | head | folio | note
+    heading: bool = False  # known to be a heading from its layout (the Globe: `globe.paragraphs`)
+    starts: bool = False  # known to begin a paragraph (indented, or a speaker's words: `globe.paragraphs`)
 
     @property
     def words(self) -> list[Word]:
@@ -266,6 +268,7 @@ class Block:
     folios: list[str]
     kind: str = "text"  # text | note
     first_indented: bool = True
+    heading: bool = False  # set in type or placed as a heading is (see `_is_heading`)
 
 
 def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None) -> list[Block]:
@@ -334,7 +337,7 @@ def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None)
             # under an epigraph) belongs to the quotation.
             attribution = (last_text is not None and len(para.lines) == 1 and len(text.split()) <= 3
                            and para.lines[0].x0 > page.width * 0.5 and re.search(r"[\"”]$", last_text.text))
-            if last_text is not None and (attribution or numerals or not _is_heading(para, margin, page, body_h) and (
+            if last_text is not None and not para.starts and (attribution or numerals or not _is_heading(para, margin, page, body_h) and (
                     (open_end and not indented) or mid_sentence or flush_lower or dash_on)):
                 last_text.text = join_across(last_text.text, text)
                 if last_text.leaves[-1] != page.leaf:
@@ -342,7 +345,8 @@ def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None)
                     if page.number:
                         last_text.folios.append(page.number)
             else:
-                last_text = Block(text, [page.leaf], [page.number] if page.number else [], "text", indented)
+                last_text = Block(text, [page.leaf], [page.number] if page.number else [], "text", indented,
+                                  _is_heading(para, margin, page, body_h))
                 out.append(last_text)
             open_end = max(w.x1 for w in para.lines[-1].words) >= right - page.width * 0.05
     return out
@@ -400,6 +404,8 @@ def _line_height(line: Line) -> float:
 def _is_heading(para: Para, margin: int, page: Page, body_h: float = 0) -> bool:
     """Centered short lines and lines in large type (titles, essay headings)
     never continue a paragraph."""
+    if para.heading:
+        return True
     if len(para.lines) > 2:
         return False
     hs = [w.height for w in para.words if w.height > 0]

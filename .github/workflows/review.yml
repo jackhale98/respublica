@@ -50,10 +50,12 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version-file: .python-version
-      # Raw sources kept out of git (the Annals of Congress scans, decision 46): cached, then fetched if missing.
+      # Raw sources kept out of git (the Annals of Congress and Congressional Globe scans, decisions 46, 47): cached, then fetched if missing.
       - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          path: sources/raw/ia-annals-*
+          path: |
+            sources/raw/ia-annals-*
+            sources/raw/ia-globe-*
           key: raw-${{ hashFiles('sources/manifest.json') }}
           restore-keys: raw-
       - run: make fetch

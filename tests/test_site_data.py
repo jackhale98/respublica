@@ -112,6 +112,31 @@ class GraphTests(unittest.TestCase):
         self.assertEqual(short_label("Federalist No. 44, ¶ 4"), "Fed. 44 ¶4")
         self.assertEqual(short_label("Federalist No. 59, note 1"), "Fed. 59 n.1")
         self.assertEqual(short_label("Amendment XIV, Section 1"), "Amend. XIV §1")
+        self.assertEqual(short_label("Brown v. Board of Education (1954)"), "Brown (1954)")
+        self.assertEqual(short_label("Brown v. Board of Education, syllabus ¶ 2"), "Brown syl. ¶2")
+
+    def test_case_pages(self):
+        from tools.corpus import Corpus
+        from tools.site_data import SiteBuilder, label_for
+        c = Corpus()
+        doc = {"id": "105221", "title": "Brown v. Board of Education", "ref_prefix": "Case.105221", "date": "1954-05-17",
+               "us_cite": "347 U.S. 483", "pdf_url": "https://example.org/b.pdf", "chosen_because": ["cited on 11 pages"],
+               "edition": {"name": "e", "notes": "n"}, "source_ids": [],
+               "segments": [{"kind": "syllabus", "label": "Brown v. Board of Education, syllabus ¶ 1", "page": 484,
+                             "ref": "Case.105221.syllabus.1", "text": "Segregation."}]}
+        c.works["105221"], c.segments["Case.105221.syllabus.1"] = doc, doc["segments"][0]
+        c.prefixes |= {"Case", "Case.105221"}
+        self.assertEqual(label_for(c, "Case.105221"), "Brown v. Board of Education (1954)")
+        link = {"id": "lnk_x", "from": "Case.2", "to": "Case.105221", "type": "overrules", "status": "suggested",
+                "confidence": "high", "created_by": {"kind": "import"}, "source": "Table, p. 1."}
+        site, pages = SiteBuilder(c, [link]).build()
+        page = pages["case-105221"]
+        self.assertEqual(page["url"], "/cases/105221/")
+        self.assertTrue(page["case"]["overruled"])
+        self.assertEqual(len(page["overruled_by"]), 1)
+        self.assertEqual(page["blocks"][0]["printed"], {"page": 484, "url": "https://example.org/b.pdf#page=2"})
+        self.assertEqual(site["stats"]["cases"], 1)
+        self.assertEqual(pages["cases"]["cases"][0]["id"], "105221")
 
     def test_two_hop_neighborhood_and_rejected_links(self):
         corpus = load_corpus()
@@ -131,3 +156,19 @@ class GraphTests(unittest.TestCase):
         self.assertEqual(g["nodes"]["Constitution.1.8.18"]["work"], "constitution")
         self.assertEqual(graphs["federalist-10"]["edges"][0]["id"], "lnk_t_4")
         self.assertEqual(graphs["federalist-1"], {"edges": [], "nodes": {}})
+
+
+class SheetTests(unittest.TestCase):
+    def test_a_long_part_is_split_at_paragraphs_into_near_equal_sheets(self):
+        from tools.site_data import SHEET_TEXT_BYTES, sheets
+        segs = [{"ref": f"X.1.{n}", "text": "w" * (SHEET_TEXT_BYTES // 10)} for n in range(1, 26)]
+        out = sheets(segs)
+        self.assertEqual(len(out), 3)
+        self.assertEqual([x["ref"] for sheet in out for x in sheet], [x["ref"] for x in segs])
+        self.assertTrue(all(7 <= len(sheet) <= 9 for sheet in out))
+
+    def test_a_short_part_or_one_with_notes_stays_whole(self):
+        from tools.site_data import SHEET_TEXT_BYTES, sheets
+        self.assertEqual(len(sheets([{"ref": "X.1.1", "text": "short"}])), 1)
+        long = [{"ref": f"X.1.{n}", "text": "w" * SHEET_TEXT_BYTES} for n in range(1, 4)]
+        self.assertEqual(len(sheets(long + [{"kind": "footnote", "ref": "X.1.fn1", "text": "n"}])), 1)
