@@ -324,6 +324,17 @@
     "url": "https://www.govinfo.gov/content/pkg/GPO-CONAN-2022/pdf/GPO-CONAN-2022-9.pdf"
   },
   {
+    "auth_env": "COURTLISTENER_TOKEN",
+    "id": "courtlistener-citations-1",
+    "license": "Free of known copyright restrictions (Public Domain Mark), per CourtListener's bulk data terms; U.S. court opinions are public domain. Free Law Project.",
+    "notes": "CourtListener citation lookup: the clusters for 50 U.S. Reports citations of the first set of cases (decisions 41 to 43).",
+    "path": "sources/raw/courtlistener-citations-1.json",
+    "post": "text=10+U.S.+87%3B+109+U.S.+3%3B+110+U.S.+651%3B+118+U.S.+356%3B+14+U.S.+304%3B+142+U.S.+651%3B+143+U.S.+649%3B+148+U.S.+503%3B+156+U.S.+1%3B+157+U.S.+429%3B+163+U.S.+537%3B+17+U.S.+122%3B+17+U.S.+316%3B+176+U.S.+581%3B+186+U.S.+181%3B+19+U.S.+264%3B+198+U.S.+45%3B+203+U.S.+1%3B+211+U.S.+78%3B+22+U.S.+1%3B+22+U.S.+738%3B+232+U.S.+383%3B+247+U.S.+251%3B+255+U.S.+298%3B+262+U.S.+447%3B+272+U.S.+52%3B+277+U.S.+438%3B+285+U.S.+393%3B+287+U.S.+45%3B+290+U.S.+398%3B+294+U.S.+532%3B+295+U.S.+495%3B+296+U.S.+287%3B+297+U.S.+288%3B+298+U.S.+238%3B+299+U.S.+304%3B+299+U.S.+401%3B+3+U.S.+386%3B+301+U.S.+1%3B+302+U.S.+277%3B+302+U.S.+319%3B+304+U.S.+64%3B+306+U.S.+466%3B+307+U.S.+433%3B+307+U.S.+496%3B+310+U.S.+296%3B+310+U.S.+586%3B+312+U.S.+100%3B+313+U.S.+299%3B+316+U.S.+129",
+    "retrieved_at": "2026-10-18",
+    "sha256": "55d5b680359e3c60f8b820b32db3208413bc609b4e55b380b250c60b467da220",
+    "url": "https://www.courtlistener.com/api/rest/v4/citation-lookup/"
+  },
+  {
     "id": "gutenberg-federalist-18",
     "license": "Text is public domain in the USA. The file itself carries the Project Gutenberg License; Res Publica reproduces only the public-domain text and none of the Project Gutenberg trademark or license material.",
     "notes": "Project Gutenberg eBook #18, The Federalist Papers, plain-text UTF-8.",
