@@ -71,8 +71,21 @@ written).
 - references to "the Constitution" or "the plan" as a whole;
 - thematic resemblance. Thematic links are a later, separate run.
 
-When unsure whether a reference is real, leave it out, or propose it with
-`low` confidence and say exactly what is uncertain.
+**Confidence, consistently:**
+
+- `high`: a verbatim quotation of the clause, or a reference by number.
+- `medium`: the paragraph describes or names the provision so specifically
+  that only one clause fits, even though it neither quotes nor numbers it
+  (for example, the Senate "chosen by the State legislatures" for
+  `Constitution.1.3.1`).
+- `low`: only when there is a real doubt that the paragraph refers to the
+  clause at all, and the rationale must say what the doubt is. "It does not
+  name or quote the clause" is not a doubt; that is what `medium` covers.
+
+When a reference is doubtful, prefer leaving it out. Two shapes in
+particular are usually not links: a phrase that merely matches a clause's
+wording ("the supreme law of the land" used in a general argument), and a
+recap of a conclusion reached in an earlier paper.
 
 **Rationale:** one or two plain sentences saying how the paragraph points at
 the clause: the words it quotes, or the number or name it uses. Do not explain
