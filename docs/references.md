@@ -138,7 +138,19 @@ Before launch, the project owner may instead approve renumbering, and the
 refs that no longer exist are removed from `refs.lock` (decisions 36 and
 37).
 
-## Cases (planned)
+## Cases (`cases/{cluster_id}.json`)
 
-`Case.{courtlistener_cluster_id}` for a whole case and
-`Case.{cluster_id}.{paragraph}` for a paragraph of the majority opinion.
+- `Case.{courtlistener_cluster_id}`: a whole case (`Case.105221`, *Brown v.
+  Board of Education*). The cluster ID is CourtListener's, the key CommonHall
+  also uses. Links to a case as a whole (`interprets`, `overrules`) use this
+  ref; it exists even when the case has no passages.
+- `Case.{cluster_id}.syllabus.{n}`: the *n*th paragraph of the syllabus as
+  printed in the United States Reports, counting from 1 (`Case.105221.syllabus.1`).
+  A paragraph is what the printed page sets as one: an indented or outdented
+  first line, or a line after a short one. Each records the printed page it
+  starts on (`page`).
+- `Case.{cluster_id}.{paragraph}`: reserved for paragraphs of the majority
+  opinion, which are not imported (decision 43).
+
+A case whose syllabus could not be read reliably has no syllabus refs yet;
+when the syllabus is imported later, its refs are new, not renumbered.

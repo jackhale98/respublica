@@ -50,6 +50,15 @@ def debate_settings(corpus: Corpus) -> dict[str, dict]:
                       "short": d.get("short", d["title"]), "slug": d["id"]} for i, d in enumerate(docs)}
 
 
+def case_settings(corpus: Corpus) -> dict[str, dict]:
+    """Supreme Court cases (cases/): one page each, at /cases/{cluster_id}/,
+    in date order."""
+    docs = [d for d in corpus.works.values() if d.get("ref_prefix", "").startswith("Case.")]
+    docs.sort(key=lambda d: (d.get("date") or "", d["id"]))
+    return {d["id"]: {"collection": "cases", "order": 1000 + i, "paged": False, "short": d["title"],
+                      "slug": f"cases/{d['id']}"} for i, d in enumerate(docs)}
+
+
 # Page images of a scan: archive.org "page/n{index}" counts from 0.
 SCAN_PAGE_URL = "https://archive.org/details/{item}/page/n{n}"
 
@@ -138,7 +147,8 @@ def short_label(label: str) -> str:
     s = re.sub(r"^Article ", "Art. ", s)
     s = re.sub(r"^Amendment ", "Amend. ", s)
     s = s.replace(", Section ", " §").replace(", Clause ", " cl. ").replace(", ¶ ", " ¶").replace(", note ", " n.")
-    return s
+    s = re.sub(r"^(.+?) v\. .+?(?=, syllabus| \(\d{4}\)$)", r"\1", s)  # a case: its first party
+    return s.replace(", syllabus ¶ ", " syl. ¶")
 
 
 def work_key(corpus: Corpus, ref: str) -> str:
@@ -161,6 +171,8 @@ def work_group(corpus: Corpus, wid: str) -> str:
     if wid == "federalist":
         return "federalist"
     doc = corpus.works.get(wid, {})
+    if doc.get("ref_prefix", "").startswith("Case."):
+        return "cases"
     return {"anti": "anti", "federalist": "federalist"}.get(doc.get("position"), "other")
 
 
@@ -202,6 +214,10 @@ def label_for(corpus: Corpus, ref: str) -> str:
         return corpus.segments[ref].get("label", ref)
     if ref in corpus.divisions:
         return corpus.divisions[ref].get("label", ref)
+    if ref.startswith("Case."):  # a whole case: its name and year
+        doc = corpus.works.get(ref.split(".")[1], {})
+        if doc.get("ref_prefix") == ref:
+            return f"{doc['title']} ({doc.get('date', '')[:4]})"
     return ref
 
 
@@ -282,7 +298,7 @@ class SiteBuilder:
     def __init__(self, corpus: Corpus, links: list[dict]):
         self.corpus = corpus
         self.link_index = build_link_index(links, corpus)
-        self.settings = {**WORKS, **debate_settings(corpus)}
+        self.settings = {**WORKS, **debate_settings(corpus), **case_settings(corpus)}
         self.works = [corpus.works[w] for w in sorted(self.settings, key=lambda k: self.settings[k]["order"])
                       if w in corpus.works]
         missing = set(corpus.works) - set(self.settings)
@@ -350,6 +366,8 @@ class SiteBuilder:
         conns = []
         for e in self.link_index["by_ref"].get(s["ref"], []):
             conns.append({**e, "other_url": self.url_for(e["other"])})
+        # The cases that interpret a clause come last, in date order (their labels end with the year).
+        conns.sort(key=lambda e: (e["type"] == "interprets", e["other_label"][-5:-1] if e["type"] == "interprets" else ""))
         block = {
             "changed": changed,
             "connections": conns,
@@ -470,9 +488,15 @@ class SiteBuilder:
     def build(self) -> tuple[dict, dict[str, dict]]:
         pages: dict[str, dict] = {}
         works_out = []
+        cases_out = []
         for work in self.works:
             wid = work["id"]
             cfg = self.settings[wid]
+            if cfg["collection"] == "cases":
+                page = self._case_page(work)
+                pages[page["id"]] = page
+                cases_out.append(page["case"])
+                continue
             tops = [d for d in work.get("divisions", []) if d["level"] == 1]
             info = {
                 "attribution": self._attribution(work.get("attribution")),
@@ -568,10 +592,15 @@ class SiteBuilder:
                 "url": "/ratification/",
             }
 
+        if cases_out:
+            pages["cases"] = {"cases": cases_out, "id": "cases", "kind": "cases", "title": "Supreme Court Cases",
+                              "url": "/cases/"}
+
         site = {
             "pages": [{"id": p["id"], "kind": p["kind"], "url": p["url"]} for p in pages.values()],
             "stats": {
                 "connections": sum(len(v) for v in self.link_index["by_ref"].values()) // 2,
+                "cases": len(cases_out),
                 "passages": sum(w["passages"] for w in works_out),
                 "works": len(works_out),
             },
@@ -582,6 +611,44 @@ class SiteBuilder:
             site["featured"] = {"label": preamble["label"], "ref": preamble["ref"], "text": preamble["text"],
                                 "url": self.url_for(preamble["ref"])}
         return site, pages
+
+    # Fields of a case file (cases/) that its page shows as they are.
+    CASE_FIELDS = ("chosen_because", "conan_citation", "courtlistener_name", "courtlistener_url", "date", "docket",
+                   "loc_url", "pdf_url", "syllabus_note", "us_cite")
+
+    def _case_page(self, work: dict) -> dict:
+        """A case's page: its details, the syllabus as printed (one passage
+        per paragraph, each linked to its page of the scan), and the links
+        that start or end at the case as a whole: the provisions the
+        Constitution Annotated's essays cite it under, and overrulings."""
+        wid, ref = work["id"], work["ref_prefix"]
+        url = work_url(wid, self.settings)
+        conns = [{**e, "other_url": self.url_for(e["other"])} for e in self.link_index["by_ref"].get(ref, [])]
+        overruled = ref in self.link_index["overruled"]
+        case = {k: work[k] for k in self.CASE_FIELDS if work.get(k)}
+        case |= {"id": wid, "ref": ref, "title": work["title"], "url": url, "overruled": overruled,
+                 "interprets": [{"label": c["other_label"], "ref": c["other"], "url": c["other_url"]}
+                                for c in conns if c["type"] == "interprets" and c["direction"] == "out"],
+                 "syllabus": sum(1 for s in work["segments"] if s.get("kind") == "syllabus")}
+        blocks = []
+        for s in work["segments"]:
+            block = self._passage(work, s)
+            if s.get("kind") == "syllabus" and work.get("pdf_url"):
+                first = int(case.get("us_cite", "0 U.S. 0").split()[-1])
+                block["printed"] = {"page": s["page"], "url": f"{work['pdf_url']}#page={s['page'] - first + 1}"}
+            blocks.append(block)
+        return {
+            "blocks": blocks,
+            "case": case,
+            "connections": conns,
+            "edition": work["edition"],
+            "id": f"case-{wid}",
+            "kind": "case",
+            "overruled_by": [c for c in conns if c["type"] == "overrules" and c["direction"] == "in"],
+            "overrules": [c for c in conns if c["type"] == "overrules" and c["direction"] == "out"],
+            "title": work["title"],
+            "url": url,
+        }
 
     @staticmethod
     def _work_ref(info: dict) -> dict:
@@ -599,7 +666,8 @@ def build(corpus: Corpus, links: list[dict]) -> tuple[dict, dict[str, dict], dic
     refs = {ref: {"label": label_for(corpus, ref), "url": url} for ref, url in sorted(b.ref_urls.items())}
     page_refs = {
         pid: [blk["ref"] for blk in p.get("blocks", []) + p.get("notes", []) if blk["type"] == "passage"]
-        for pid, p in pages.items() if p["kind"] in ("work", "part")
+        + ([p["case"]["ref"]] if p["kind"] == "case" else [])  # a case's own links are to the whole case
+        for pid, p in pages.items() if p["kind"] in ("work", "part", "case")
     }
     graphs = build_graph(links, corpus, b.url_for, page_refs, {w: s["short"] for w, s in b.settings.items()})
     return site, pages, refs, graphs
@@ -611,7 +679,11 @@ REVIEW_GROUPS = [
     ("fed-const-", "The Federalist → the Constitution", "Run 1: each paper's citations and quotations of the Constitution."),
     ("fed-deb-", "The Federalist → the ratification debate", "Publius's notes naming debate writers."),
     ("deb-", "The ratification debate", "Run 2: each essay's links to the Constitution, the Declaration and other essays."),
+    ("conan-", "Supreme Court cases", "Imported from the Constitution Annotated (2022): the provisions whose essays "
+     "cite each case, and its table of overruled decisions. Check each against the source it names."),
 ]
+IMPORTED_BATCHES = {"conan-interprets": "Cases → the provisions their essays cite them under",
+                    "conan-overrules": "Cases → the cases they overrule"}
 
 
 def build_review(corpus: Corpus, proposed: list[tuple[str, dict]], refs: dict[str, dict]) -> tuple[dict, dict[str, dict]]:
@@ -639,6 +711,8 @@ def build_review(corpus: Corpus, proposed: list[tuple[str, dict]], refs: dict[st
         by_batch.setdefault(batch, []).append(item)
 
     def batch_label(batch: str, items: list[dict]) -> str:
+        if batch in IMPORTED_BATCHES:
+            return IMPORTED_BATCHES[batch]
         first = items[0]["from"]["ref"]
         top = next((d for d in corpus.divisions if first == d or first.startswith(d + ".")), first)
         label = label_for(corpus, top) if top in corpus.divisions else items[0]["from"]["label"]

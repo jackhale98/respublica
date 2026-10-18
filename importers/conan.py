@@ -189,6 +189,7 @@ class Overruling:
     overruling: str
     year: str
     overruled: list[tuple[str, str]] = field(default_factory=list)  # (case as printed, year)
+    page: int | None = None  # the printed page of the table the row starts on
 
 
 def overruled() -> list[Overruling]:
@@ -218,7 +219,8 @@ def overruled() -> list[Overruling]:
             if not mid:
                 continue
             if left:
-                rows.append(Overruling(" ".join(l.text for l in left), " ".join(l.text for l in year)))
+                rows.append(Overruling(" ".join(l.text for l in left), " ".join(l.text for l in year),
+                                       page=printed_number(page)))
             _expect(bool(rows), "overruled table: a row with no overruling decision")
             # Each overruled case starts on the line of its year.
             starts = sorted(l.y for l in years) or [mid[0].y]
@@ -282,6 +284,19 @@ def case_keys(text: str) -> list[str]:
     return [k for _, k in sorted(found)]
 
 
+def name_key(text: str) -> str:
+    """A case's name reduced to letters, for matching the same decision
+    printed with different citations."""
+    return re.sub(r"[^a-z]", "", re.split(r", (?:No\.|\d+ U\.S\.)", text)[0].lower())
+
+
+def overruling_key(row: Overruling, keys: set[str], names: dict[str, str]) -> str | None:
+    """The key of a row's overruling decision among `keys`, by citation or,
+    failing that, by name (`names`: name_key -> key)."""
+    by = [k for k in case_keys(row.overruling) if k in keys]
+    return by[0] if by else names.get(name_key(row.overruling))
+
+
 @dataclass
 class Chosen:
     key: str
@@ -321,18 +336,14 @@ def landmark_cases(cases: list[CaseEntry], pages: dict[int, list[str]],
     # The overruled table and the Table of Cases can print a citation
     # differently (Dobbs: "No. 19-1391" in one, "No. 19-1392" in the other),
     # so an overruling decision is also matched by its name.
-    def name_key(text: str) -> str:
-        return re.sub(r"[^a-z]", "", re.split(r", (?:No\.|\d+ U\.S\.)", text)[0].lower())
-
     first = set(chosen)  # rule 3 follows only cases chosen by rules 1 and 2: one step, not a chain
     by_name = {name_key(c.name): k for k, c in chosen.items()}
     for row in overrulings or []:
-        by = [k for k in case_keys(row.overruling) if k in first] or (
-            [by_name[name_key(row.overruling)]] if name_key(row.overruling) in by_name else [])
+        by = overruling_key(row, first, by_name)
         if by:
             for text, _ in row.overruled:
                 for key in case_keys(text):
-                    choose(key, f"overruled by {chosen[by[0]].name.split(',')[0]} (table of overruled decisions)", text)
+                    choose(key, f"overruled by {chosen[by].name.split(',')[0]} (table of overruled decisions)", text)
     return chosen
 
 

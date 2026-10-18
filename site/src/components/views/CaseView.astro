@@ -1,0 +1,130 @@
+---
+import Reader from "../../layouts/Reader.astro";
+import Passage from "../Passage.astro";
+import { href, formatDate, localUrl, safeUrl } from "../../lib/data.js";
+
+// One Supreme Court case (tools/site_data.py `_case_page`): its details, the
+// syllabus as printed, the provisions whose Constitution Annotated essays
+// cite it, and overrulings. Nothing here characterizes what the case held
+// (CLAUDE.md rule 7): the syllabus is the Reporter's, and every link names
+// its source.
+const { page } = Astro.props;
+const c = page.case;
+const cl = safeUrl(c.courtlistener_url);
+const loc = safeUrl(c.loc_url);
+const interprets = page.connections.filter((x) => x.type === "interprets" && x.direction === "out");
+const cite = c.us_cite || (c.docket ? `No. ${c.docket}` : "");
+---
+<Reader title={`${c.title} (${c.date.slice(0, 4)})`} section="cases" pageId={page.id} place={c.title} description={`${c.title}, ${cite} (${c.date.slice(0, 4)}): the syllabus as printed and the clauses of the Constitution it is cited under.`}>
+  <ol class="crumbs" slot="crumbs">
+    <li><a href={href("/")}>Library</a></li>
+    <li><a href={href("/cases/")}>Cases</a></li>
+    <li aria-current="page">{c.title.split(" v. ")[0]}</li>
+  </ol>
+
+  <Fragment slot="toc">
+    <h2>On this page</h2>
+    <ol>
+      {page.overruled_by.length > 0 && <li><a href="#overruled"><span class="t">Overruled</span></a></li>}
+      <li><a href="#syllabus"><span class="t">Syllabus</span></a></li>
+      {interprets.length > 0 && <li><a href="#provisions"><span class="t">Provisions</span></a></li>}
+      {page.overrules.length > 0 && <li><a href="#overrules"><span class="t">Overrules</span></a></li>}
+      <li><a href="#why"><span class="t">Why it is here</span></a></li>
+    </ol>
+  </Fragment>
+
+  <header class="doc-head">
+    <span class="eyebrow">Supreme Court of the United States</span>
+    <h1 data-pagefind-meta="title" data-pagefind-filter="work:Supreme Court cases">{c.title}</h1>
+    <div class="doc-meta" data-pagefind-ignore>
+      {cite && <span class="chip">{cite}</span>}
+      <span class="chip">Decided {formatDate(c.date)}</span>
+      {c.overruled && <span class="badge overruled">Overruled</span>}
+    </div>
+    <p class="case-ext" data-pagefind-ignore>
+      {cl && <a href={cl} rel="noopener" target="_blank">Read the full opinion on CourtListener</a>}
+      {loc && <Fragment>{cl && " · "}<a href={loc} rel="noopener" target="_blank">The case as printed (Library of Congress)</a></Fragment>}
+    </p>
+  </header>
+
+  {page.overruled_by.length > 0 && (
+    <section class="case-sec case-overruled" id="overruled" aria-labelledby="overruled-h">
+      <h2 id="overruled-h">Overruled</h2>
+      <ul class="case-links">
+        {page.overruled_by.map((x) => (
+          <li>
+            Overruled by {localUrl(x.other_url) ? <a href={localUrl(x.other_url)}>{x.other_label}</a> : x.other_label}{x.status === "suggested" && <span class="badge suggested">suggested link</span>}
+            <p class="src">Source: {x.source}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="case-sec" id="syllabus" aria-labelledby="syllabus-h">
+    <h2 id="syllabus-h">Syllabus</h2>
+    {page.blocks.length > 0 ? (
+      <Fragment>
+        <p class="doc-note" data-pagefind-ignore>
+          The syllabus is prepared by the Reporter of Decisions and is not part of the opinion of the Court. It is
+          shown as printed in the United States Reports, read from the text layer of the Library of Congress scan
+          (optical character recognition in older volumes, not yet checked word by word against the page).
+        </p>
+        <div class="blocks">{page.blocks.map((b) => <Passage block={b} />)}</div>
+      </Fragment>
+    ) : (
+      <p class="muted" data-pagefind-ignore>No syllabus is shown. {c.syllabus_note}</p>
+    )}
+  </section>
+
+  {interprets.length > 0 && (
+    <section class="case-sec" id="provisions" aria-labelledby="provisions-h" data-pagefind-ignore>
+      <h2 id="provisions-h">Provisions</h2>
+      <p class="muted">The Constitution Annotated's essays on these provisions cite this case.</p>
+      <ul class="case-links">
+        {interprets.map((x) => (
+          <li>
+            {localUrl(x.other_url) ? <a href={localUrl(x.other_url)}>{x.other_label}</a> : x.other_label}{x.status === "suggested" && <span class="badge suggested">suggested link</span>}
+            <p class="src">Source: {x.source}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {page.overrules.length > 0 && (
+    <section class="case-sec" id="overrules" aria-labelledby="overrules-h" data-pagefind-ignore>
+      <h2 id="overrules-h">Overrules</h2>
+      <ul class="case-links">
+        {page.overrules.map((x) => (
+          <li>
+            {localUrl(x.other_url) ? <a href={localUrl(x.other_url)}>{x.other_label}</a> : x.other_label}{x.status === "suggested" && <span class="badge suggested">suggested link</span>}
+            <p class="src">Source: {x.source}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="case-sec" id="why" aria-labelledby="why-h" data-pagefind-ignore>
+    <h2 id="why-h">Why it is here</h2>
+    <p class="muted">
+      The library's first set of cases is chosen by fixed rules from the Constitution Annotated (2022), which cites
+      this case as “{c.conan_citation}”:
+    </p>
+    <ul>{c.chosen_because.map((r) => <li>{r}</li>)}</ul>
+    <p><a href={href("/about/#cases")}>How cases are chosen and imported</a></p>
+  </section>
+
+  <Fragment slot="panel">
+    <span class="eyebrow">About this case</span>
+    <h2>{c.title}</h2>
+    <dl>
+      {cite && <Fragment><dt>Citation</dt><dd>{cite}</dd></Fragment>}
+      <dt>Decided</dt><dd>{formatDate(c.date)}</dd>
+      <dt>Reference</dt><dd>{c.ref}</dd>
+      <dt>Sources</dt><dd>{page.edition.notes}</dd>
+    </dl>
+    <p><a href={href("/about/#cases")}>How cases are imported</a></p>
+  </Fragment>
+</Reader>

@@ -19,7 +19,7 @@ the rules every contributor (human or agent) follows.
 | 4. Connections panel and graph | Done: the panel (a bottom sheet on phones) lists each passage's connections; "Graph" opens a two-hop graph of them (force layout with zoom, pan and drag; d3), filterable by link type, side (founding documents, Federalist, Anti-Federalist) and review status. |
 | 5. Ratification debate | Imported: 20 works (187k words) from Ford's *Essays* (every section), Ford's *Pamphlets* (the Federal Farmer), McMaster and Stone (Centinel I–XXIV) and the Massachusetts convention's *Debates* (1856; Brutus I–IV), both sides, read from scans by OCR consensus with uncertain words marked (method: [`docs/ocr.md`](docs/ocr.md)). Brutus V–XVI: only in the original newspaper (Library of Congress, poor OCR from a single scan), not yet imported. The rest of Ford's *Pamphlets* is next. See [`docs/editions.md`](docs/editions.md). |
 | 6. Debate links and review | Linked: 453 suggested links from 18 debate works and The Federalist: 366 to 75 clauses of the Constitution, 2 to the Declaration and 85 between essays (responses, rebuttals, quotations and citations, such as Cato and Caesar's exchange, Luther Martin and the Landholder's, and the essays that point readers to Brutus), checked by a second agent and awaiting human review. A review page (`/review/`) lets a maintainer approve or reject links in batches and records the decisions through a GitHub issue. See [`docs/linking.md`](docs/linking.md), "Run 2" and "Reviewing links". |
-| 7. Landmark cases | In progress: the 2022 Constitution Annotated is read from its PDFs (`importers/conan.py`): which clauses' essays cite each case, and the official table of overruled decisions. The first set is 189 cases (decisions 41, 42). Importing them waits on a CourtListener API token. See [`docs/handoff.md`](docs/handoff.md). |
+| 7. Landmark cases | Imported: 189 Supreme Court cases chosen by fixed rules from the 2022 Constitution Annotated (decisions 41, 42), each keyed by its CourtListener cluster, with a page of its own (`/cases/`): the syllabus as printed in the United States Reports for 126 of them, read from the Library of Congress scans, and a link to the full opinion on CourtListener. 308 suggested `interprets` links (a case to the provisions whose essays cite it on two or more pages) and 39 `overrules` links from the official table of overruled decisions, awaiting review; clauses list the cases that interpret them, in date order, with overruled cases marked. See [`docs/editions.md`](docs/editions.md) and decision 43. |
 | 8. Search | Pagefind full-text search plus "jump to" any ref. Source sheets not started. |
 | 9–10 | Not started. |
 
@@ -34,8 +34,9 @@ between passages,
 full results page with every matching passage, filterable by text and author)
 or jump ("Fed 10", "1.8.3", "Amendment 14"), light
 and dark themes, adjustable text size (remembered in the browser), The
-Federalist's papers filterable by author, and a review page for maintainers
-(`/review/`). Every page works without JavaScript except the review page.
+Federalist's papers filterable by author, a page for each Supreme Court case
+(`/cases/`) with its syllabus as printed, the provisions it is cited under and
+any overruling, and a review page for maintainers (`/review/`). Every page works without JavaScript except the review page.
 
 ## Quick start
 
@@ -45,9 +46,12 @@ make build      # site + search index into site/dist (needs Node 22.22+), then c
 make dev        # local preview (search needs make build)
 ```
 
-`make fetch` restores raw sources from `sources/manifest.json`,
-`make import` regenerates `texts/` from them, and `make lock-refs` records
-new refs in `refs.lock`.
+`make fetch` restores raw sources from `sources/manifest.json` (run it
+first in a fresh clone: the U.S. Reports scans, about 320 MB, are not in
+git), `make import` regenerates `texts/` and `cases/` from them, and
+`make lock-refs` records new refs in `refs.lock`. Looking up new cases on
+CourtListener (`python -m importers.courtlistener lookup`) needs an API
+token in `COURTLISTENER_TOKEN`.
 
 Deployment: pushes to `main` publish to GitHub Pages, currently at
 <https://jackhale98.github.io/respublica/>. The address is set in
@@ -57,12 +61,12 @@ setting `"url"` to that domain and `"base"` to `""` (docs/decisions.md 22).
 ## Layout
 
 ```
-sources/raw/        downloaded originals, never edited
+sources/raw/        downloaded originals, never edited (the U.S. Reports scans are kept out of git; `make fetch`)
 sources/manifest.json
-importers/          one module per source (nara.py, federalist.py)
+importers/          one module per source (nara.py, federalist.py, cases.py, …)
 texts/              importer output: constitution, amendments, federalist
 refs.lock           every published ref (append-only)
-cases/              (phase 7)
+cases/              importer output: one file per Supreme Court case
 links/proposed/     machine-suggested links awaiting review
 tools/              shared helpers, fetch, verify, refs, site data, site check
 tests/              unit tests for helpers, checks and site data

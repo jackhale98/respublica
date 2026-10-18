@@ -3,7 +3,7 @@
 import { loadGraph, loadSite } from "../../../lib/data.js";
 
 export function getStaticPaths() {
-  return loadSite().pages.filter((p) => p.kind === "work" || p.kind === "part").map((p) => ({ params: { page: p.id } }));
+  return loadSite().pages.filter((p) => p.kind === "work" || p.kind === "part" || p.kind === "case").map((p) => ({ params: { page: p.id } }));
 }
 
 export function GET({ params }) {

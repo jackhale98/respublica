@@ -126,6 +126,23 @@ const sourceById = Object.fromEntries(sources.map((s) => [s.id, s]));
         );
       })}
 
+      <h2 id="cases">Supreme Court cases</h2>
+      <p>
+        Which cases are here, and which clauses they are linked to, come from the Constitution Annotated, the
+        Library of Congress's analysis of the Constitution (2022 print edition), never from anyone's judgment of a
+        case's importance. The first set is the case its essays cite most in each topic, every case they cite on ten or
+        more pages, and every decision one of those cases overruled according to its Table of Supreme Court Decisions
+        Overruled by Subsequent Decisions.
+      </p>
+      <ol class="steps">
+        <li><strong>The case.</strong> Each case is identified by its CourtListener cluster (Free Law Project), found by its U.S. Reports citation. The full opinion is a link away, on CourtListener.</li>
+        <li><strong>The syllabus.</strong> The Reporter of Decisions' syllabus is copied as printed in the United States Reports, from the text layer of the Library of Congress's scan of each case. Older volumes were read by OCR and have not been checked word by word; each paragraph links to its page image. Where the syllabus could not be read reliably, or the volume predates the official syllabus, none is shown and the page says why.</li>
+        <li><strong>The links.</strong> A case “interprets” a provision where the Constitution Annotated's essays on that provision cite it on at least two pages; an “overrules” link comes only from the table of overruled decisions. Each link names its source and page, and awaits a person's review like every other link.</li>
+      </ol>
+      <p>
+        Res Publica never says in its own words what a case held, or whether it is still good law.
+      </p>
+
       <h2 id="privacy">Privacy</h2>
       <p>
         No accounts, no cookies, no analytics, and no third-party scripts. Your color theme and text size are kept

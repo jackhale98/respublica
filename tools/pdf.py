@@ -681,14 +681,16 @@ def _lines(runs: list[Glyphs], column_gap: float | None = None) -> list[Line]:
     return out
 
 
-def pdf_lines(path: Path | str, column_gap: float | None = None) -> list[list[Line]]:
+def pdf_lines(path: Path | str, column_gap: float | None = None,
+              max_pages: int | None = None) -> list[list[Line]]:
     """Every page's text as lines, top to bottom (y grows downwards). With
     `column_gap` (in points), text separated by a wider gap on the same
-    line comes out as separate lines (table cells), ordered by y, then x."""
+    line comes out as separate lines (table cells), ordered by y, then x.
+    With `max_pages`, only the first pages are read."""
     doc = Document(Path(path).read_bytes())
     fonts: dict = {}
     pages = []
-    for page in doc.pages():
+    for page in doc.pages()[:max_pages]:
         runs, _ = page_text(doc, page, fonts)
         pages.append(_lines(runs, column_gap))
     return pages

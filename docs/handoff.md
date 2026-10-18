@@ -28,48 +28,51 @@ founding documents, The Federalist, twenty works of the ratification
 debate read from scans, about 740 suggested links awaiting review, the
 connections panel and graph, search, and the review page.
 
-**Phase 7, Supreme Court cases, is in progress:**
+**Phase 7, Supreme Court cases: the first set is imported** (decision 43):
 
-- Done: `tools/pdf.py` (PDF text with the standard library) and
-  `importers/conan.py`, which reads the 2022 Constitution Annotated
-  (`sources/raw/conan-2022-*.pdf`): the essays on each page and their
-  clauses, the Table of Cases, and the table of overruled decisions.
-- Done: the first set of cases, 189, by the rules of decisions 41 and 42
-  (`python -m importers.conan --landmarks` lists them with the reason each
-  was chosen).
-- Waiting: CourtListener. Cases are keyed by CourtListener cluster ID
-  (`Case.{cluster_id}`, CLAUDE.md). Its API needs a token, which the owner
-  adds in the cloud environment's settings (Network secrets, or an
-  environment variable `COURTLISTENER_TOKEN`); a new session picks it up.
-  The token is used only by import scripts, never by the site.
+- 189 cases (`cases/`), chosen by the rules of decisions 41 and 42, each
+  keyed by its CourtListener cluster (`importers/courtlistener.py`; the
+  recorded lookups are raw sources), with a page at `/cases/{id}/` and an
+  index at `/cases/`.
+- The syllabus as printed in the U.S. Reports for 126 of them, read from the
+  Library of Congress scans (`importers/usreports.py`, `importers/cases.py`).
+  The scans are kept out of git: run `make fetch` first in a fresh clone.
+- 308 `interprets` and 39 `overrules` links, imported from the Constitution
+  Annotated as suggestions (`importers/case_links.py`), on the review page
+  under "Supreme Court cases".
+- CourtListener allows the token 125 requests a day; the lookups use about a
+  dozen. The token is read from `COURTLISTENER_TOKEN` and never stored.
 
-## Next: phase 7, step by step
+## Next
 
-1. **Check the token** is available (`COURTLISTENER_TOKEN`), and check
-   CourtListener's API field names against a real response before writing
-   a parser (CLAUDE.md). Record each fetched response as a raw source with
-   `tools/fetch.py` (URL, date, sha256, license), never the token itself.
-2. **Find each case's cluster.** For each of the 189 cases, look up the
-   cluster by its U.S. Reports citation (or docket number for slip
-   opinions) with CourtListener's citation lookup; record the match and
-   fail loudly on none or several.
-3. **Import the cases** (`importers/courtlistener.py`, writing `cases/`):
-   name, date, U.S. Reports citation, the official syllabus verbatim where
-   one exists (rule 7: no characterizations), and the opinion's paragraphs
-   as `Case.{id}.{n}` only if the owner wants opinion text on the site
-   (PLAN.md: show linked passages and the syllabus, link to CourtListener
-   for the rest). Document the refs in `docs/references.md` and the edition
-   in `docs/editions.md`.
-4. **Links**, written by code as `import` links with a `source`, proposed
-   like any other:
-   - `interprets`, case to clause: where the Constitution Annotated's
-     essays on a clause cite the case (`citations_by_clause`), citing the
-     essays and pages. Decide with the owner whether one page is enough.
-   - `overrules`, case to case: from the table of overruled decisions,
-     where both cases are in the library, citing the table.
-5. **Site:** case pages, the "overruled" flag on links (the verify check
-   already exists), and clause pages listing the cases that interpret a
-   clause (PLAN.md, phase 7).
+1. **Review the case links** on `/review/` ("Supreme Court cases"), checking
+   a sample against the Constitution Annotated pages each link names.
+2. **Syllabi not yet shown** (each case says why in `syllabus_note`):
+   - 36 scans whose text layer the reader could not follow
+     (`python -m importers.usreports syllabus VOL PAGE` prints what it reads
+     and the problem). Most are hanging-indent headnotes of 1880–1940 or
+     pages whose OCR lines are out of order; improve the reader, never type
+     text.
+   - 7 recent decisions (Dobbs, Kennedy v. Bremerton, …) not yet in the
+     Library of Congress collection: the owner approved taking their
+     syllabus from CourtListener's text of the slip opinion (an opinion
+     request per case), but that text drops the hyphen where a word breaks
+     at a line end ("electioneer ing", "corpora tion"), so it cannot be
+     rejoined without guessing. Reading the Court's slip-opinion PDF itself
+     (supremecourt.gov) would need the owner's approval as a new source.
+   - 20 decisions before volume 91 and 3 summary decisions have no syllabus
+     by design.
+3. **OCR in syllabi**: misreadings are copied, not fixed (rule 3); record
+   suspected ones in `docs/errata.md` (entry 25 lists the first) for a
+   person to check against the page image the case page links to.
+4. **Links to whole provisions**: some `interprets` links point at an
+   article or a whole amendment (`Amendment.14`, `Constitution.3`); they
+   show on the case page but on no clause, since only passages list
+   connections. Decide with the owner whether to show them on the heading.
+5. **Clause pages** (PLAN.md, phase 7): today each clause's connections list
+   the cases that interpret it, in date order, with overruled cases marked.
+   A page per clause bringing together the founding debate and the cases is
+   still to build.
 
 ## Starting a new session
 
@@ -77,6 +80,6 @@ Open a new session on this repository with the environment that holds the
 token, and give it this prompt:
 
 > Read docs/handoff.md, CLAUDE.md and PLAN.md, then continue phase 7
-> (Supreme Court cases) from "Next: phase 7, step by step". The
+> (Supreme Court cases) from "Next". Run `make fetch` first. The
 > CourtListener token is in the environment as COURTLISTENER_TOKEN. Deploy
 > as before when each step is verified.

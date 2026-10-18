@@ -624,3 +624,40 @@ neither is *Plessy*. *Lochner v. New York* is cited on two pages and is
 not in the table, so it is out too. *Korematsu* is in, as a decision the
 table lists as overruled by *Trump v. Hawaii*.
 
+
+## 43. Importing the first set of cases
+
+The project owner chose, when phase 7 resumed with a CourtListener token:
+
+- **No opinion text.** A case page shows the case's details, the syllabus as
+  printed, the provisions its Constitution Annotated essays cite it under,
+  and overrulings, and links to CourtListener for the opinion (PLAN.md).
+  `Case.{id}.{n}` stays reserved for opinion paragraphs.
+- **The syllabus from the United States Reports.** CourtListener has the
+  official syllabus only in the text of recent slip opinions; its texts of
+  older cases (from the Caselaw Access Project) leave it out. So the syllabus
+  comes from a new source, the Library of Congress's public-domain scans of
+  the U.S. Reports, one PDF per case, read from their text layer
+  (`importers/usreports.py`). From volume 91 (1875) only: the nominative
+  reports before it carry the reporters' own headnotes, often as marginal
+  notes. The text layer is OCR in older volumes; it is copied, not
+  corrected (rule 3), and each paragraph links to its page image. Where the
+  reader cannot be sure it has the whole syllabus in order (a paragraph that
+  stops mid-sentence), the case gets no syllabus and says why: 36 of the 162
+  scans from volume 91 on, at first. They can be read later with new refs.
+- **The scans stay out of git.** The 179 PDFs total about 320 MB, more than
+  the repository's raw budget (decision 15). They are recorded in the
+  manifest like any source, listed in `.gitignore`, restored by `make fetch`
+  and cached in CI (`actions/cache`, pinned); the budget check counts them
+  separately (1 GB).
+- **`interprets` from two pages.** A case `interprets` a provision when the
+  Constitution Annotated's essays on it cite the case on at least two
+  printed pages (308 links for the 189 cases; one page would give 591, many
+  of them passing mentions). `overrules` links come only from the table of
+  overruled decisions, where both cases are in the library. Both are
+  imported by code as suggestions for a person to review.
+- **Few API requests.** CourtListener allows the token 125 requests a day.
+  Cases are found through its citation lookup, many citations per request,
+  and slip opinions by docket number: about a dozen requests for 189 cases.
+  Each response is a raw source with its request body; the token is never
+  stored, only the name of the variable that holds it (`auth_env`).

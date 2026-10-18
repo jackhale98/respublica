@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+
+# Library of Congress scans of the U.S. Reports: too large for git; `make fetch` restores them (decision 43)
+sources/raw/loc-usrep-*.pdf

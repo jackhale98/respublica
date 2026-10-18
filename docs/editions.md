@@ -158,7 +158,7 @@ conduct but voted to ratify) is `other`.
   Civis, A Plebeian): planned. That scan has missing pages and bracketed
   original page numbers that need handling first.
 
-## Supreme Court cases (phase 7, in progress)
+## Supreme Court cases
 
 **Which cases interpret which clause** come from the *Constitution of the
 United States of America: Analysis and Interpretation* (the Constitution
@@ -176,7 +176,39 @@ Government work in the public domain. `importers/conan.py` reads it with
 - the Table of Supreme Court Decisions Overruled by Subsequent Decisions
   (235 rows), the only source for `overrules` links.
 
-**Case texts and identifiers** will come from CourtListener (Free Law
-Project), keyed by cluster ID as CommonHall does. Its API needs a free
-token; nothing is imported from it yet. The first set is 189 cases chosen
-from the Constitution Annotated by the rules of decisions 41 and 42.
+**Which cases.** The first set is 189 cases chosen from the Constitution
+Annotated by the rules of decisions 41 and 42 (`python -m importers.conan
+--landmarks`).
+
+**Identifiers and details** come from CourtListener (Free Law Project),
+keyed by cluster ID as CommonHall does (`importers/courtlistener.py`). Each
+case is looked up once by its U.S. Reports citation, through CourtListener's
+citation lookup (several citations per request), or, for a decision the
+Constitution Annotated cites as a slip opinion, by its docket number in the
+Supreme Court. Every response is a raw source (`courtlistener-citations-{n}`,
+`courtlistener-scotus-{docket}`), with the request body; the API token is
+read from `COURTLISTENER_TOKEN` and never stored. A case with no cluster, or
+several, or one dated in another year than the Constitution Annotated
+prints, stops the import. The case's name is the Constitution Annotated's;
+CourtListener's is kept as `courtlistener_name`. CourtListener's data is
+offered free of known copyright restrictions.
+
+**The syllabus** is copied as printed in the United States Reports, from the
+Library of Congress's scan of each case (`loc-usrep-{volume}-{page}`, one PDF
+per case, public domain; `importers/usreports.py`). It is the text layer of
+the scan: optical character recognition for older volumes, so misreadings
+("Amendfnent", "deteilnined" in *Brown*) are possible and are not corrected
+(rule 3); recent volumes have born-digital text that drops the "fi" and "fl"
+ligatures ("affrmed", and "fled" for "filed"). The reader takes the
+paragraphs in smaller type after the line with the case's dates, up to the
+counsel, the statement of the case or the opinion, and leaves out running
+heads, footnotes ("*Together with No. 2 …") and printer's marks; words broken
+at a line end are rejoined. Only these changes are made. A syllabus is read
+from volume 91 (1875) on: the earlier, nominative reports carry the
+reporters' own headnotes, often as marginal notes. Where a paragraph seems to
+stop mid-sentence (the text layer is out of order, or the end was missed),
+no syllabus is imported and the case says so (`syllabus_note`). The scans are
+kept out of git (decision 43): `make fetch` downloads them.
+
+**Opinions** are not imported; each case links to its opinion on
+CourtListener (decision 43).

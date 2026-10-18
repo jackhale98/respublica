@@ -70,6 +70,15 @@ const numeral = (label) => label.split(" ").at(-1);
       )}
     </template>
   )}
+  {block.printed && (
+    <template class="src-data" data-pagefind-ignore>
+      <p>
+        Printed on p. {block.printed.page} of the United States Reports, read from the text layer of the Library of
+        Congress scan.{" "}
+        {safeUrl(block.printed.url) && <a href={safeUrl(block.printed.url)} rel="noopener" target="_blank">View the page image</a>}
+      </p>
+    </template>
+  )}
   {conns.length > 0 && (
     <details class="conns" data-pagefind-ignore>
       <summary>{conns.length} connection{conns.length === 1 ? "" : "s"}</summary>

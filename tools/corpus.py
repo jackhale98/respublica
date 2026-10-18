@@ -40,6 +40,8 @@ def load_corpus(texts_dir: Path = TEXTS_DIR, cases_dir: Path = CASES_DIR) -> Cor
         wid = doc.get("id", path.stem)
         c.works[wid] = doc
         c.files[wid] = path
+        if doc.get("ref_prefix"):
+            c.prefixes.add(doc["ref_prefix"])  # a work's own ref, even with no passages (a case without a syllabus)
         for d in doc.get("divisions", []):
             c.divisions[d["ref"]] = d
         for r in doc.get("retired", []):

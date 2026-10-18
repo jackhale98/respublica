@@ -214,3 +214,26 @@ declarations" may mean the state declarations of rights) and one rationale
 reworded. Run 2 now stands at 453 links (two identical links merged when
 Federal Farmer III's split paragraph was joined): 366 to 75 clauses, 2 to the
 Declaration, 85 between essays.
+
+## Imported links: Supreme Court cases (phase 7)
+
+Links between cases and the Constitution are not proposed by a linker but
+imported by code from the Constitution Annotated (2022 print edition), with
+`created_by.kind: "import"` and a `source` naming the pages they come from
+(`python -m importers.case_links`, decision 43):
+
+- `links/proposed/conan-interprets.jsonl`: a case `interprets` a provision
+  when the Constitution Annotated's essays on that provision cite it on at
+  least two printed pages. The source lists the essays and pages; confidence
+  is high from four pages, medium below. The link records where the essays
+  cite the case, not what the case held.
+- `links/proposed/conan-overrules.jsonl`: one `overrules` link per row of the
+  Table of Supreme Court Decisions Overruled by Subsequent Decisions where
+  both decisions are in the library, citing the table's page.
+
+They are suggested like any other link and appear on the review page under
+"Supreme Court cases". To review one, open the source it names: the essays'
+pages in the Constitution Annotated (govinfo `GPO-CONAN-2022`). Running the
+import again keeps each link's id and date and never proposes again a link a
+person has decided.
+

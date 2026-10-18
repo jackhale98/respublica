@@ -432,6 +432,1617 @@
     "url": "https://archive.org/download/pennsylvaniafede00hist/pennsylvaniafede00hist_djvu.txt"
   },
   {
+    "id": "loc-usrep-10-87",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 10 U.S. 87: Fletcher v. Peck, 10 U.S. (6 Cranch) 87 (1810), as printed (Library of Congress scan, https://www.loc.gov/item/usrep010087/).",
+    "path": "sources/raw/loc-usrep-10-87.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "297b03ff5b0ffd1719a968fe725db060daaee166d4fdad3a3067a56e68686606",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep010/usrep010087/usrep010087.pdf"
+  },
+  {
+    "id": "loc-usrep-109-3",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 109 U.S. 3: The Civil Rights Cases, 109 U.S. 3 (1883), as printed (Library of Congress scan, https://www.loc.gov/item/usrep109003/).",
+    "path": "sources/raw/loc-usrep-109-3.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "1487fd484637e3f8fd5bd0f3236ef9915db865a1903438f732d4a36cf10a50d4",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep109/usrep109003/usrep109003.pdf"
+  },
+  {
+    "id": "loc-usrep-110-651",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 110 U.S. 651: Ex parte Yarbrough, 110 U.S. 651 (1884), as printed (Library of Congress scan, https://www.loc.gov/item/usrep110651/).",
+    "path": "sources/raw/loc-usrep-110-651.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0beababf117b1e50f2dcd5e27a8550890d1c18123681d06bb40815f837a21981",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep110/usrep110651/usrep110651.pdf"
+  },
+  {
+    "id": "loc-usrep-118-356",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 118 U.S. 356: Yick Wo v. Hopkins, 118 U.S. 356 (1886), as printed (Library of Congress scan, https://www.loc.gov/item/usrep118356/).",
+    "path": "sources/raw/loc-usrep-118-356.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "de104631ba35da32ae8e743b330c5d36ae1eff336410ee3db4dd10d325811043",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep118/usrep118356/usrep118356.pdf"
+  },
+  {
+    "id": "loc-usrep-14-304",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 14 U.S. 304: Martin v. Hunter’s Lessee, 14 U.S. (1 Wheat.) 304 (1816), as printed (Library of Congress scan, https://www.loc.gov/item/usrep014304/).",
+    "path": "sources/raw/loc-usrep-14-304.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "9d0abf3b451320f3c57047d2c32872705bd70f92d60fae482f6f19c53fe7fd44",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep014/usrep014304/usrep014304.pdf"
+  },
+  {
+    "id": "loc-usrep-142-651",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 142 U.S. 651: Nishimura Ekiu v. United States, 142 U.S. 651 (1892), as printed (Library of Congress scan, https://www.loc.gov/item/usrep142651/).",
+    "path": "sources/raw/loc-usrep-142-651.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "25eb99f876edbf1ac7864f415c231dfb6d22d50442c37092bc73462c3aba0f54",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep142/usrep142651/usrep142651.pdf"
+  },
+  {
+    "id": "loc-usrep-143-649",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 143 U.S. 649: Marshall Field & Co. v. Clark, 143 U.S. 649 (1892), as printed (Library of Congress scan, https://www.loc.gov/item/usrep143649/).",
+    "path": "sources/raw/loc-usrep-143-649.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "3469524f58078bfb88e67c576d9c7eb12e42d04ad71e4565bceb462a4a2fe65a",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep143/usrep143649/usrep143649.pdf"
+  },
+  {
+    "id": "loc-usrep-148-503",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 148 U.S. 503: Virginia v. Tennessee, 148 U.S. 503 (1893), as printed (Library of Congress scan, https://www.loc.gov/item/usrep148503/).",
+    "path": "sources/raw/loc-usrep-148-503.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0fdf4046e28f8ba829400fa17c04c56ca3342c6fa213a2f7e6af1ae30c05ecb1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep148/usrep148503/usrep148503.pdf"
+  },
+  {
+    "id": "loc-usrep-156-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 156 U.S. 1: United States v. E.C. Knight, 156 U.S. 1 (1895), as printed (Library of Congress scan, https://www.loc.gov/item/usrep156001/).",
+    "path": "sources/raw/loc-usrep-156-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "1a9d0e9a6d141d02b2528b63dd1be54c214f9ec034fb41c4992a574934ea12e2",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep156/usrep156001/usrep156001.pdf"
+  },
+  {
+    "id": "loc-usrep-157-429",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 157 U.S. 429: Pollock v. Farmers’ Loan & Trust Co., 157 U.S. 429 (1895), as printed (Library of Congress scan, https://www.loc.gov/item/usrep157429/).",
+    "path": "sources/raw/loc-usrep-157-429.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "2d4175df3b279d1a9e6bcb3329c9aeff026c75f5d08f52b336384545afb8ea29",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep157/usrep157429/usrep157429.pdf"
+  },
+  {
+    "id": "loc-usrep-17-122",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 17 U.S. 122: Sturges v. Crowninshield, 17 U.S. (4 Wheat.) 122 (1819), as printed (Library of Congress scan, https://www.loc.gov/item/usrep017122/).",
+    "path": "sources/raw/loc-usrep-17-122.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "904bbf3deef97fdb7540fcf244dc7d629101c2cfc2561383d72fce723bcc473f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep017/usrep017122/usrep017122.pdf"
+  },
+  {
+    "id": "loc-usrep-17-316",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 17 U.S. 316: McCulloch v. Maryland, 17 U.S. (4 Wheat.) 316 (1819), as printed (Library of Congress scan, https://www.loc.gov/item/usrep017316/).",
+    "path": "sources/raw/loc-usrep-17-316.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "b0496fefea52c7d4b8999f10b2ef99d05be9a64f61f7938bd18c69dabb5fcd70",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep017/usrep017316/usrep017316.pdf"
+  },
+  {
+    "id": "loc-usrep-176-581",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 176 U.S. 581: Maxwell v. Dow, 176 U.S. 581 (1900), as printed (Library of Congress scan, https://www.loc.gov/item/usrep176581/).",
+    "path": "sources/raw/loc-usrep-176-581.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "582f415ccb6121d0b13c485c24eb83bb8eff7b2fa9df5f2fed0b72376fe3023b",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep176/usrep176581/usrep176581.pdf"
+  },
+  {
+    "id": "loc-usrep-186-181",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 186 U.S. 181: Hanover National Bank v. Moyses, 186 U.S. 181 (1902), as printed (Library of Congress scan, https://www.loc.gov/item/usrep186181/).",
+    "path": "sources/raw/loc-usrep-186-181.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "00cb8ca98cd892660c82ccb9e4da40197d5af002dccf9e1a1850edced303c98d",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep186/usrep186181/usrep186181.pdf"
+  },
+  {
+    "id": "loc-usrep-19-264",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 19 U.S. 264: Cohens v. Virginia, 19 U.S. (6 Wheat.) 264 (1821), as printed (Library of Congress scan, https://www.loc.gov/item/usrep019264/).",
+    "path": "sources/raw/loc-usrep-19-264.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "16fee5626123dbe4fd0d59343902728b9ec506fe9393ecbc34ccadd276760f65",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep019/usrep019264/usrep019264.pdf"
+  },
+  {
+    "id": "loc-usrep-203-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 203 U.S. 1: Hodges v. United States, 203 U.S. 1 (1906), as printed (Library of Congress scan, https://www.loc.gov/item/usrep203001/).",
+    "path": "sources/raw/loc-usrep-203-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "cd8be2f6992ebd3b2d510ec45c3eb4ae9431c69b7f748366df190be18cc0c221",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep203/usrep203001/usrep203001.pdf"
+  },
+  {
+    "id": "loc-usrep-211-78",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 211 U.S. 78: Twining v. New Jersey, 211 U.S. 78 (1908), as printed (Library of Congress scan, https://www.loc.gov/item/usrep211078/).",
+    "path": "sources/raw/loc-usrep-211-78.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0d8cb05c23cccb0abec0da53570fc874530b497ff47966e4e37655aab7865399",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep211/usrep211078/usrep211078.pdf"
+  },
+  {
+    "id": "loc-usrep-22-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 22 U.S. 1: Gibbons v. Ogden, 22 U.S. (9 Wheat.) 1 (1824), as printed (Library of Congress scan, https://www.loc.gov/item/usrep022001/).",
+    "path": "sources/raw/loc-usrep-22-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "59b99d503c94011628516ba7931b436b6bd78bed602ffefc6637edc9e8ec2456",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep022/usrep022001/usrep022001.pdf"
+  },
+  {
+    "id": "loc-usrep-22-738",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 22 U.S. 738: Osborn v. Bank of the United States, 22 U.S. (9 Wheat.) 738 (1824), as printed (Library of Congress scan, https://www.loc.gov/item/usrep022738/).",
+    "path": "sources/raw/loc-usrep-22-738.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "ead282c8119956c634c75c133c198b86ed3da0fecd71475926fe77fba923d4da",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep022/usrep022738/usrep022738.pdf"
+  },
+  {
+    "id": "loc-usrep-232-383",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 232 U.S. 383: Weeks v. United States, 232 U.S. 383 (1914), as printed (Library of Congress scan, https://www.loc.gov/item/usrep232383/).",
+    "path": "sources/raw/loc-usrep-232-383.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "b61a68f858c9a1b4c3fe502ad97b925a07c140dbb1f5e0621e4fcaa0e458b4e0",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep232/usrep232383/usrep232383.pdf"
+  },
+  {
+    "id": "loc-usrep-247-251",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 247 U.S. 251: Hammer v. Dagenhart, 247 U.S. 251 (1918), as printed (Library of Congress scan, https://www.loc.gov/item/usrep247251/).",
+    "path": "sources/raw/loc-usrep-247-251.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "d6b1a1f6751faac51f31fb488c519b6333da938b630722990542cf96aaa998a3",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep247/usrep247251/usrep247251.pdf"
+  },
+  {
+    "id": "loc-usrep-255-298",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 255 U.S. 298: Gouled v. United States, 255 U.S. 298 (1921), as printed (Library of Congress scan, https://www.loc.gov/item/usrep255298/).",
+    "path": "sources/raw/loc-usrep-255-298.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "4c4230d29c20e50393d92f7492b21d62050fe4511340140f0a32722ad35dd562",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep255/usrep255298/usrep255298.pdf"
+  },
+  {
+    "id": "loc-usrep-262-447",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 262 U.S. 447: Massachusetts v. Mellon, 262 U.S. 447 (1923), as printed (Library of Congress scan, https://www.loc.gov/item/usrep262447/).",
+    "path": "sources/raw/loc-usrep-262-447.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "6b1a874beb40d69e914d4cb873a058cf9e5394aabba2f3c0b6f8a91146dc0843",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep262/usrep262447/usrep262447.pdf"
+  },
+  {
+    "id": "loc-usrep-272-52",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 272 U.S. 52: Myers v. United States, 272 U.S. 52 (1926), as printed (Library of Congress scan, https://www.loc.gov/item/usrep272052/).",
+    "path": "sources/raw/loc-usrep-272-52.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "f86cf1e116cf3071b43bbf4bf5277a5c713c93d30837de1268ee82d4099e924f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep272/usrep272052/usrep272052.pdf"
+  },
+  {
+    "id": "loc-usrep-277-438",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 277 U.S. 438: Olmstead v. United States, 277 U.S. 438 (1928), as printed (Library of Congress scan, https://www.loc.gov/item/usrep277438/).",
+    "path": "sources/raw/loc-usrep-277-438.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "430877e105da337390008704daf654b5b458e3c426ee66167ee11e099cee9cbe",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep277/usrep277438/usrep277438.pdf"
+  },
+  {
+    "id": "loc-usrep-287-45",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 287 U.S. 45: Powell v. Alabama, 287 U.S. 45 (1932), as printed (Library of Congress scan, https://www.loc.gov/item/usrep287045/).",
+    "path": "sources/raw/loc-usrep-287-45.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "dc8bc65760f606061430ebcc135b6e4b4c3899e95bd48dc6e208db6365718cad",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep287/usrep287045/usrep287045.pdf"
+  },
+  {
+    "id": "loc-usrep-290-398",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 290 U.S. 398: Home Building & Loan Ass’n v. Blaisdell, 290 U.S. 398 (1934), as printed (Library of Congress scan, https://www.loc.gov/item/usrep290398/).",
+    "path": "sources/raw/loc-usrep-290-398.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "41656d4e8c446b8f5f7e18856d38ec903c45d648a2fcb4230e3a8d8794db3a35",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep290/usrep290398/usrep290398.pdf"
+  },
+  {
+    "id": "loc-usrep-294-532",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 294 U.S. 532: Alaska Packers Ass’n v. Industrial Accident Comm’n, 294 U.S. 532 (1935), as printed (Library of Congress scan, https://www.loc.gov/item/usrep294532/).",
+    "path": "sources/raw/loc-usrep-294-532.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "f9a504d932b18d58b42940bbe2e868cf83b26e71f8ad7a480dd75f7994fd0627",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep294/usrep294532/usrep294532.pdf"
+  },
+  {
+    "id": "loc-usrep-295-495",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 295 U.S. 495: A. L. A. Schechter Poultry Corp. v. United States, 295 U.S. 495 (1935), as printed (Library of Congress scan, https://www.loc.gov/item/usrep295495/).",
+    "path": "sources/raw/loc-usrep-295-495.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "61a5a819b660a296e7cee7b381eddc893a5233a4ff5f93fedc732c6a8b69c56f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep295/usrep295495/usrep295495.pdf"
+  },
+  {
+    "id": "loc-usrep-296-287",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 296 U.S. 287: United States v. Constantine, 296 U.S. 287 (1935), as printed (Library of Congress scan, https://www.loc.gov/item/usrep296287/).",
+    "path": "sources/raw/loc-usrep-296-287.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0ac225a6f3cf9ffd0e13806e6684f7b04ea6aea8b6bc0df7ca22867e7b0eae45",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep296/usrep296287/usrep296287.pdf"
+  },
+  {
+    "id": "loc-usrep-297-288",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 297 U.S. 288: Ashwander v. Tennessee Valley Authority, 297 U.S. 288 (1936), as printed (Library of Congress scan, https://www.loc.gov/item/usrep297288/).",
+    "path": "sources/raw/loc-usrep-297-288.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "d6e60b63dd2c71933830aa9d85ce0c94118df9083f7863a4733275d200f8d88b",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep297/usrep297288/usrep297288.pdf"
+  },
+  {
+    "id": "loc-usrep-298-238",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 298 U.S. 238: Carter v. Carter Coal Co., 298 U.S. 238 (1936), as printed (Library of Congress scan, https://www.loc.gov/item/usrep298238/).",
+    "path": "sources/raw/loc-usrep-298-238.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "c71e347ff3831ac0f31c41f55c321fa62b506cf69f7ff6863daac1f5535a9b36",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep298/usrep298238/usrep298238.pdf"
+  },
+  {
+    "id": "loc-usrep-299-304",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 299 U.S. 304: United States v. Curtiss-Wright Export Corp., 299 U.S. 304 (1936), as printed (Library of Congress scan, https://www.loc.gov/item/usrep299304/).",
+    "path": "sources/raw/loc-usrep-299-304.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "9d89aab426c8301eec6a17552082ece1431c3fef24b6c59d69867170241c6276",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep299/usrep299304/usrep299304.pdf"
+  },
+  {
+    "id": "loc-usrep-299-401",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 299 U.S. 401: New York ex rel. Rogers v. Graves, 299 U.S. 401 (1937);, as printed (Library of Congress scan, https://www.loc.gov/item/usrep299401/).",
+    "path": "sources/raw/loc-usrep-299-401.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "77580d4f2c411a81a400f09a0350a6ac20240238e15c7a21f396efa8d7fe0300",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep299/usrep299401/usrep299401.pdf"
+  },
+  {
+    "id": "loc-usrep-3-386",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 3 U.S. 386: Calder v. Bull, 3 U.S. (3 Dall.) 386 (1798), as printed (Library of Congress scan, https://www.loc.gov/item/usrep003386/).",
+    "path": "sources/raw/loc-usrep-3-386.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "58a3c371ab6a511854cd4b6a769bbc33cb7ae7e40a3da930e43396e45e38cf80",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep003/usrep003386/usrep003386.pdf"
+  },
+  {
+    "id": "loc-usrep-301-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 301 U.S. 1: National Labor Relations Board v. Jones & Laughlin Steel Corp., 301 U.S. 1 (1937), as printed (Library of Congress scan, https://www.loc.gov/item/usrep301001/).",
+    "path": "sources/raw/loc-usrep-301-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "11c7af16fd86fba5a353951147060e923c97fb3b3dc610e57d4c5950568faac3",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep301/usrep301001/usrep301001.pdf"
+  },
+  {
+    "id": "loc-usrep-304-64",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 304 U.S. 64: Erie Railroad v. Tompkins, 304 U.S. 64 (1938), as printed (Library of Congress scan, https://www.loc.gov/item/usrep304064/).",
+    "path": "sources/raw/loc-usrep-304-64.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "549be287d572507f635c0fb56a61301700c245fe8992556b65287040dc3dc185",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep304/usrep304064/usrep304064.pdf"
+  },
+  {
+    "id": "loc-usrep-306-466",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 306 U.S. 466: Graves v. New York ex rel. O’Keefe, 306 U.S. 466 (1939), as printed (Library of Congress scan, https://www.loc.gov/item/usrep306466/).",
+    "path": "sources/raw/loc-usrep-306-466.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "7ea06cd640b0d2e8120c75a077df303b7a4dbfc1fa5f4cf55feb7f25700a18a9",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep306/usrep306466/usrep306466.pdf"
+  },
+  {
+    "id": "loc-usrep-307-433",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 307 U.S. 433: Coleman v. Miller, 307 U.S. 433 (1939), as printed (Library of Congress scan, https://www.loc.gov/item/usrep307433/).",
+    "path": "sources/raw/loc-usrep-307-433.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "a1a83cd4eef287e0060a2c240af228471fa68b223e4b1e96d2fd86f92c4226c4",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep307/usrep307433/usrep307433.pdf"
+  },
+  {
+    "id": "loc-usrep-307-496",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 307 U.S. 496: Hague v. Committee for Industrial Organization, 307 U.S. 496 (1939), as printed (Library of Congress scan, https://www.loc.gov/item/usrep307496/).",
+    "path": "sources/raw/loc-usrep-307-496.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "f6b58c736c26423870c82256a05b894caa9eaf2dd59d4ba1c888afa3f7283a0f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep307/usrep307496/usrep307496.pdf"
+  },
+  {
+    "id": "loc-usrep-310-296",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 310 U.S. 296: Cantwell v. Connecticut, 310 U.S. 296 (1940), as printed (Library of Congress scan, https://www.loc.gov/item/usrep310296/).",
+    "path": "sources/raw/loc-usrep-310-296.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "e950e11aac6dd1c3227f75780e463bc553c635f21fcd2c4be5b1e9f66c0a9df6",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep310/usrep310296/usrep310296.pdf"
+  },
+  {
+    "id": "loc-usrep-310-586",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 310 U.S. 586: Minersville School District v. Gobitis, 310 U.S. 586 (1940), as printed (Library of Congress scan, https://www.loc.gov/item/usrep310586/).",
+    "path": "sources/raw/loc-usrep-310-586.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "35a87d27f561996bd127f14483cf1eec2f48f8e766b13f8277e089c638738b27",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep310/usrep310586/usrep310586.pdf"
+  },
+  {
+    "id": "loc-usrep-312-100",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 312 U.S. 100: United States v. Darby, 312 U.S. 100 (1941), as printed (Library of Congress scan, https://www.loc.gov/item/usrep312100/).",
+    "path": "sources/raw/loc-usrep-312-100.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "c8a257c4e98132fc5fee55e9e96fb6840ba4ad2b1bab1b3fef87ff6d4b472ab9",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep312/usrep312100/usrep312100.pdf"
+  },
+  {
+    "id": "loc-usrep-313-299",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 313 U.S. 299: United States v. Classic, 313 U.S. 299 (1941), as printed (Library of Congress scan, https://www.loc.gov/item/usrep313299/).",
+    "path": "sources/raw/loc-usrep-313-299.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "9d51bb7a90a4f86622c896f736a47f2e76e4c38f576f54263db8c9a0cb57e854",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep313/usrep313299/usrep313299.pdf"
+  },
+  {
+    "id": "loc-usrep-316-129",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 316 U.S. 129: Goldman v. United States, 316 U.S. 129 (1942), as printed (Library of Congress scan, https://www.loc.gov/item/usrep316129/).",
+    "path": "sources/raw/loc-usrep-316-129.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "43c4a6dec0b48eb5d23c132273552387f674fd3982bb0ff4d26e060b71ad1105",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep316/usrep316129/usrep316129.pdf"
+  },
+  {
+    "id": "loc-usrep-319-624",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 319 U.S. 624: West Virginia State Board of Education v. Barnette, 319 U.S. 624 (1943), as printed (Library of Congress scan, https://www.loc.gov/item/usrep319624/).",
+    "path": "sources/raw/loc-usrep-319-624.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "9001353c5363f960b8838c5ae8ae3b5cad19e55235f8bcf4df334b541d8a3a51",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep319/usrep319624/usrep319624.pdf"
+  },
+  {
+    "id": "loc-usrep-323-214",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 323 U.S. 214: Korematsu v. United States, 323 U.S. 214 (1944), as printed (Library of Congress scan, https://www.loc.gov/item/usrep323214/).",
+    "path": "sources/raw/loc-usrep-323-214.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "2fdaef6d2e55184b529317fee573deb0fc9475c5d3e3d88f5db270f387408c1e",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep323/usrep323214/usrep323214.pdf"
+  },
+  {
+    "id": "loc-usrep-330-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 330 U.S. 1: Everson v. Board of Education, 330 U.S. 1 (1947), as printed (Library of Congress scan, https://www.loc.gov/item/usrep330001/).",
+    "path": "sources/raw/loc-usrep-330-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "a306156095908c879498b1c3609967b0a849f6ed369ce7744fdb5f5ddfcc8bfb",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep330/usrep330001/usrep330001.pdf"
+  },
+  {
+    "id": "loc-usrep-332-46",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 332 U.S. 46: Adamson v. California, 332 U.S. 46 (1947), as printed (Library of Congress scan, https://www.loc.gov/item/usrep332046/).",
+    "path": "sources/raw/loc-usrep-332-46.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "03f43e7b44b6f4042a1e36f33438f0bf3b5acfa49b5e20dd356c69ca655c396c",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep332/usrep332046/usrep332046.pdf"
+  },
+  {
+    "id": "loc-usrep-333-10",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 333 U.S. 10: Johnson v. United States, 333 U.S. 10 (1948), as printed (Library of Congress scan, https://www.loc.gov/item/usrep333010/).",
+    "path": "sources/raw/loc-usrep-333-10.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "1adcfb62fabac7f12d65e4f0930a43df8fdf433ca1f4f3f52bf0822e757355f0",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep333/usrep333010/usrep333010.pdf"
+  },
+  {
+    "id": "loc-usrep-333-257",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 333 U.S. 257: In re Oliver, 333 U.S. 257 (1948), as printed (Library of Congress scan, https://www.loc.gov/item/usrep333257/).",
+    "path": "sources/raw/loc-usrep-333-257.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0207b1d845000670799e89a64cf2151f7a06a3fc4f7d32b7b2eac0059db79932",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep333/usrep333257/usrep333257.pdf"
+  },
+  {
+    "id": "loc-usrep-338-25",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 338 U.S. 25: Wolf v. Colorado, 338 U.S. 25 (1949), as printed (Library of Congress scan, https://www.loc.gov/item/usrep338025/).",
+    "path": "sources/raw/loc-usrep-338-25.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "60b7d613771359171c3c3d4f9e633d19c23407ad317dbb04a2601080c2931227",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep338/usrep338025/usrep338025.pdf"
+  },
+  {
+    "id": "loc-usrep-338-537",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 338 U.S. 537: United States ex rel. Knauff v. Shaughnessy, 338 U.S. 537 (1950), as printed (Library of Congress scan, https://www.loc.gov/item/usrep338537/).",
+    "path": "sources/raw/loc-usrep-338-537.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "8fe3d3fc141560e46d6f6dd3b9a67e7f40c46102233ffd62983457965428338f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep338/usrep338537/usrep338537.pdf"
+  },
+  {
+    "id": "loc-usrep-339-200",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 339 U.S. 200: Darr v. Burford, 339 U.S. 200 (1950) (in part);, as printed (Library of Congress scan, https://www.loc.gov/item/usrep339200/).",
+    "path": "sources/raw/loc-usrep-339-200.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "72db14faabfa1eaa2e82af2b4ffef18f9713c984158c1158494f2666c2f4d266",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep339/usrep339200/usrep339200.pdf"
+  },
+  {
+    "id": "loc-usrep-339-763",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 339 U.S. 763: Johnson v. Eisentrager, 339 U.S. 763 (1950), as printed (Library of Congress scan, https://www.loc.gov/item/usrep339763/).",
+    "path": "sources/raw/loc-usrep-339-763.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "c1f4abe28f85586eca5c3b64a2d4e120592d07909dcd848fe5ddde316d50be1a",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep339/usrep339763/usrep339763.pdf"
+  },
+  {
+    "id": "loc-usrep-340-268",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 340 U.S. 268: Niemotko v. Maryland, 340 U.S. 268 (1951), as printed (Library of Congress scan, https://www.loc.gov/item/usrep340268/).",
+    "path": "sources/raw/loc-usrep-340-268.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "c4f5ba4b1469efe19215cb88b0502469816a8f8a8d1a1e5d7f9fd13231f76cf3",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep340/usrep340268/usrep340268.pdf"
+  },
+  {
+    "id": "loc-usrep-343-579",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 343 U.S. 579: Youngstown Sheet & Tube Co. v. Sawyer, 343 U.S. 579 (1952), as printed (Library of Congress scan, https://www.loc.gov/item/usrep343579/).",
+    "path": "sources/raw/loc-usrep-343-579.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "351d4aab852a0cc278e75437cccd0ed19825704a209de09e1cc77e739da18126",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep343/usrep343579/usrep343579.pdf"
+  },
+  {
+    "id": "loc-usrep-344-443",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 344 U.S. 443: Brown v. Allen, 344 U.S. 443 (1953), as printed (Library of Congress scan, https://www.loc.gov/item/usrep344443/).",
+    "path": "sources/raw/loc-usrep-344-443.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "3fb5b525c54510c98f1264d06628db015e80e5153426242fcbf672d23b3bd3a3",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep344/usrep344443/usrep344443.pdf"
+  },
+  {
+    "id": "loc-usrep-345-206",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 345 U.S. 206: Shaughnessy v. United States ex rel. Mezei, 345 U.S. 206 (1953), as printed (Library of Congress scan, https://www.loc.gov/item/usrep345206/).",
+    "path": "sources/raw/loc-usrep-345-206.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "a9cb2d3856afbad6ec51cc501712a7bc60f7f153e3efc29eb52df74b04da8965",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep345/usrep345206/usrep345206.pdf"
+  },
+  {
+    "id": "loc-usrep-347-483",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 347 U.S. 483: Brown v. Board of Education, 347 U.S. 483 (1954), as printed (Library of Congress scan, https://www.loc.gov/item/usrep347483/).",
+    "path": "sources/raw/loc-usrep-347-483.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "7021074961cffdafdddac07c25c6b21c6a689d1ff118966f5b53bb3a48163ec1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf"
+  },
+  {
+    "id": "loc-usrep-354-178",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 354 U.S. 178: Watkins v. United States, 354 U.S. 178 (1957), as printed (Library of Congress scan, https://www.loc.gov/item/usrep354178/).",
+    "path": "sources/raw/loc-usrep-354-178.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "6a096b05a03ecc51325d84b3174a08cc5735d63072a948f4b6dc361dd3b4f3d1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep354/usrep354178/usrep354178.pdf"
+  },
+  {
+    "id": "loc-usrep-356-44",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 356 U.S. 44: Perez v. Brownell, 356 U.S. 44 (1958), as printed (Library of Congress scan, https://www.loc.gov/item/usrep356044/).",
+    "path": "sources/raw/loc-usrep-356-44.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "5d2eb1f098e4c167d54ec9183ec96ed1b69530abab55b829d561f268665cb7ca",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep356/usrep356044/usrep356044.pdf"
+  },
+  {
+    "id": "loc-usrep-356-86",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 356 U.S. 86: Trop v. Dulles, 356 U.S. 86 (1958), as printed (Library of Congress scan, https://www.loc.gov/item/usrep356086/).",
+    "path": "sources/raw/loc-usrep-356-86.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0038210671e726f2bb1e8cb69935a987b5b6865e76c62df1070e6c4cd9e185ce",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep356/usrep356086/usrep356086.pdf"
+  },
+  {
+    "id": "loc-usrep-357-433",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 357 U.S. 433: Crooker v. California, 357 U.S. 433 (1958), as printed (Library of Congress scan, https://www.loc.gov/item/usrep357433/).",
+    "path": "sources/raw/loc-usrep-357-433.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "16bfa34448e7062a50d782ab553b8bde82ecd9e5cec20f5115e08df6381fa095",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep357/usrep357433/usrep357433.pdf"
+  },
+  {
+    "id": "loc-usrep-357-504",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 357 U.S. 504: Cicenia v. Lagay, 357 U.S. 504 (1958), as printed (Library of Congress scan, https://www.loc.gov/item/usrep357504/).",
+    "path": "sources/raw/loc-usrep-357-504.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "79c3f13fc18c0606032f74f7781c1f030b28ffacf54cf3ff164ecd2c234275d3",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep357/usrep357504/usrep357504.pdf"
+  },
+  {
+    "id": "loc-usrep-358-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 358 U.S. 1: Cooper v. Aaron, 358 U.S. 1 (1958), as printed (Library of Congress scan, https://www.loc.gov/item/usrep358001/).",
+    "path": "sources/raw/loc-usrep-358-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "7acc5c760e0a37847d922b6b02fd28238dc8eb759e410a15f4057eb280a7cb86",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep358/usrep358001/usrep358001.pdf"
+  },
+  {
+    "id": "loc-usrep-358-354",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 358 U.S. 354: Romero v. International Terminal Operating Co., 358 U.S. 354 (1959), as printed (Library of Congress scan, https://www.loc.gov/item/usrep358354/).",
+    "path": "sources/raw/loc-usrep-358-354.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "71b4db28d82f6e8aa094999a50e20c8caac50c34882986d5e7e5f106c078d070",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep358/usrep358354/usrep358354.pdf"
+  },
+  {
+    "id": "loc-usrep-360-109",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 360 U.S. 109: Barenblatt v. United States, 360 U.S. 109 (1959), as printed (Library of Congress scan, https://www.loc.gov/item/usrep360109/).",
+    "path": "sources/raw/loc-usrep-360-109.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "9692b8305b213fb8807ff6d6c730a70535209fcfacbe691c985f6b76004eef52",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep360/usrep360109/usrep360109.pdf"
+  },
+  {
+    "id": "loc-usrep-367-488",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 367 U.S. 488: Torcaso v. Watkins, 367 U.S. 488 (1961), as printed (Library of Congress scan, https://www.loc.gov/item/usrep367488/).",
+    "path": "sources/raw/loc-usrep-367-488.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "df6b6b3915c9ab2c5694e89b4fe77b2d0f8750df1570d8447d5127d9e24d86fa",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep367/usrep367488/usrep367488.pdf"
+  },
+  {
+    "id": "loc-usrep-367-643",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 367 U.S. 643: Mapp v. Ohio, 367 U.S. 643 (1961), as printed (Library of Congress scan, https://www.loc.gov/item/usrep367643/).",
+    "path": "sources/raw/loc-usrep-367-643.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "c6770815d86f891f2d5b0946512779e4ab44fd7fcaea3ca1308fe733f211ef0f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep367/usrep367643/usrep367643.pdf"
+  },
+  {
+    "id": "loc-usrep-369-186",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 369 U.S. 186: Baker v. Carr, 369 U.S. 186 (1962), as printed (Library of Congress scan, https://www.loc.gov/item/usrep369186/).",
+    "path": "sources/raw/loc-usrep-369-186.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "f5a655263a9a76f7dd01b8aa3292076e66437a5ef9833b8a3d6196dc3516203a",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep369/usrep369186/usrep369186.pdf"
+  },
+  {
+    "id": "loc-usrep-372-391",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 372 U.S. 391: Fay v. Noia, 372 U.S. 391 (1963), as printed (Library of Congress scan, https://www.loc.gov/item/usrep372391/).",
+    "path": "sources/raw/loc-usrep-372-391.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "19a7b8948091826fd6ae7b0825ff7e07ecb53238ee5cb1b1796d784ad90551b6",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/usrep372391/usrep372391.pdf"
+  },
+  {
+    "id": "loc-usrep-378-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 378 U.S. 1: Malloy v. Hogan, 378 U.S. 1 (1964), as printed (Library of Congress scan, https://www.loc.gov/item/usrep378001/).",
+    "path": "sources/raw/loc-usrep-378-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "b859e3884c7c3d16867fcc92f3fad5a1c32fe17fbac147181e8cff83f08225dc",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378001/usrep378001.pdf"
+  },
+  {
+    "id": "loc-usrep-380-39",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 380 U.S. 39: Crider v. Zurich Insurance Co., 380 U.S. 39 (1965), as printed (Library of Congress scan, https://www.loc.gov/item/usrep380039/).",
+    "path": "sources/raw/loc-usrep-380-39.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "e490d9a4fd219fcb8d215b3b7af864036c6def54325135a653e1a1226bb3255c",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep380/usrep380039/usrep380039.pdf"
+  },
+  {
+    "id": "loc-usrep-381-479",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 381 U.S. 479: Griswold v. Connecticut, 381 U.S. 479 (1965), as printed (Library of Congress scan, https://www.loc.gov/item/usrep381479/).",
+    "path": "sources/raw/loc-usrep-381-479.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "c54f76b2a8e8a2c9c61ae832d9375769533a09d6ae6488abdefdb20786939e3d",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep381/usrep381479/usrep381479.pdf"
+  },
+  {
+    "id": "loc-usrep-384-436",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 384 U.S. 436: Miranda v. Arizona, 384 U.S. 436 (1966), as printed (Library of Congress scan, https://www.loc.gov/item/usrep384436/).",
+    "path": "sources/raw/loc-usrep-384-436.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "31e7666853b8b72f2793da506814552fcaee91fbdb4ad162f8669a0e2419e193",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep384/usrep384436/usrep384436.pdf"
+  },
+  {
+    "id": "loc-usrep-387-253",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 387 U.S. 253: Afroyim v. Rusk, 387 U.S. 253 (1967), as printed (Library of Congress scan, https://www.loc.gov/item/usrep387253/).",
+    "path": "sources/raw/loc-usrep-387-253.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "afe790c8a4e496dfb32ea263c65a6bde99365b0c60f5f744d4bf4876fae0d27f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep387/usrep387253/usrep387253.pdf"
+  },
+  {
+    "id": "loc-usrep-387-294",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 387 U.S. 294: Warden v. Hayden, 387 U.S. 294 (1967), as printed (Library of Congress scan, https://www.loc.gov/item/usrep387294/).",
+    "path": "sources/raw/loc-usrep-387-294.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "37a6ec43f0fd54fdb161ffd84550a3a29852e086f3f15d4043016fce5972ab49",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep387/usrep387294/usrep387294.pdf"
+  },
+  {
+    "id": "loc-usrep-389-347",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 389 U.S. 347: Katz v. United States, 389 U.S. 347 (1967), as printed (Library of Congress scan, https://www.loc.gov/item/usrep389347/).",
+    "path": "sources/raw/loc-usrep-389-347.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "b9d88be02aa4f1d1a9a0cac5e3ea4bb2349e3f17f5498c2a148f078ffd94659d",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep389/usrep389347/usrep389347.pdf"
+  },
+  {
+    "id": "loc-usrep-391-145",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 391 U.S. 145: Duncan v. Louisiana, 391 U.S. 145 (1968), as printed (Library of Congress scan, https://www.loc.gov/item/usrep391145/).",
+    "path": "sources/raw/loc-usrep-391-145.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "87450a9b94390794aa603a426b90199d46ac03bd2b3d1c6b964c35640b5b6423",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep391/usrep391145/usrep391145.pdf"
+  },
+  {
+    "id": "loc-usrep-392-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 392 U.S. 1: Terry v. Ohio, 392 U.S. 1 (1968), as printed (Library of Congress scan, https://www.loc.gov/item/usrep392001/).",
+    "path": "sources/raw/loc-usrep-392-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "dda7b8f8fb2650cd50e5d0365c2c145f27f9aade692ef2e213d028e13f062af0",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep392/usrep392001/usrep392001.pdf"
+  },
+  {
+    "id": "loc-usrep-392-409",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 392 U.S. 409: Jones v. Alfred H. Mayer Co., 392 U.S. 409 (1968), as printed (Library of Congress scan, https://www.loc.gov/item/usrep392409/).",
+    "path": "sources/raw/loc-usrep-392-409.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "cb3b652f4567ba89c3bff633aea55b371fad4701c51b0b5bfba65dd7d31c2d7f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep392/usrep392409/usrep392409.pdf"
+  },
+  {
+    "id": "loc-usrep-392-83",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 392 U.S. 83: Flast v. Cohen, 392 U.S. 83 (1968), as printed (Library of Congress scan, https://www.loc.gov/item/usrep392083/).",
+    "path": "sources/raw/loc-usrep-392-83.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "e24bc58f9b4c036dde64f9ceb3b42c68260e7c667a50bfefefeb87ca5acec760",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep392/usrep392083/usrep392083.pdf"
+  },
+  {
+    "id": "loc-usrep-394-618",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 394 U.S. 618: Shapiro v. Thompson, 394 U.S. 618 (1969), as printed (Library of Congress scan, https://www.loc.gov/item/usrep394618/).",
+    "path": "sources/raw/loc-usrep-394-618.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "6677368649b8258f18f0a81feed5f818e91cfd2df7294e0f6091b16bffc20e4a",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep394/usrep394618/usrep394618.pdf"
+  },
+  {
+    "id": "loc-usrep-395-486",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 395 U.S. 486: Powell v. McCormack, 395 U.S. 486 (1969), as printed (Library of Congress scan, https://www.loc.gov/item/usrep395486/).",
+    "path": "sources/raw/loc-usrep-395-486.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "3e36591328a44f9d63d20f04d6cac442a229273c27ed112273aa3f4950928a73",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep395/usrep395486/usrep395486.pdf"
+  },
+  {
+    "id": "loc-usrep-397-49",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 397 U.S. 49: Wyman v. Bowens, 397 U.S. 49 (1970), as printed (Library of Congress scan, https://www.loc.gov/item/usrep397049/).",
+    "path": "sources/raw/loc-usrep-397-49.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "6ab65a160179a46fb347be462c9887426aa1a04c99b4012703e405b305243da5",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep397/usrep397049/usrep397049.pdf"
+  },
+  {
+    "id": "loc-usrep-397-664",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 397 U.S. 664: Walz v. Tax Comm’n, 397 U.S. 664 (1970), as printed (Library of Congress scan, https://www.loc.gov/item/usrep397664/).",
+    "path": "sources/raw/loc-usrep-397-664.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "c85945e5415bcf2df2af6893733b54f338b67d55b914b23a620bffb7fddb69c1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep397/usrep397664/usrep397664.pdf"
+  },
+  {
+    "id": "loc-usrep-400-112",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 400 U.S. 112: Oregon v. Mitchell, 400 U.S. 112 (1970), as printed (Library of Congress scan, https://www.loc.gov/item/usrep400112/).",
+    "path": "sources/raw/loc-usrep-400-112.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0f8feb1be2167ec3ca65ef99ad0168d910f2163188bbb67b3bf38d7c03a4ec13",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep400/usrep400112/usrep400112.pdf"
+  },
+  {
+    "id": "loc-usrep-402-183",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 402 U.S. 183: McGautha v. California, 402 U.S. 183 (1971), as printed (Library of Congress scan, https://www.loc.gov/item/usrep402183/).",
+    "path": "sources/raw/loc-usrep-402-183.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "7cf3d9ff6d15a42267f2065cbfec53ec864be2c254b095e2dddafd3fd92c48bd",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep402/usrep402183/usrep402183.pdf"
+  },
+  {
+    "id": "loc-usrep-403-443",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 403 U.S. 443: Coolidge v. New Hampshire, 403 U.S. 443 (1971), as printed (Library of Congress scan, https://www.loc.gov/item/usrep403443/).",
+    "path": "sources/raw/loc-usrep-403-443.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "e7d3dba36b8feb1bbab87f9a53b1218ba263b4666ea9ab0cb9bd5fa05954d5d4",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep403/usrep403443/usrep403443.pdf"
+  },
+  {
+    "id": "loc-usrep-403-602",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 403 U.S. 602: Lemon v. Kurtzman, 403 U.S. 602 (1971), as printed (Library of Congress scan, https://www.loc.gov/item/usrep403602/).",
+    "path": "sources/raw/loc-usrep-403-602.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "065f6df74d1c368972ca625c9af29800c267e5a72158ca4b755e0022dae12b07",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep403/usrep403602/usrep403602.pdf"
+  },
+  {
+    "id": "loc-usrep-405-330",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 405 U.S. 330: Dunn v. Blumstein, 405 U.S. 330 (1972), as printed (Library of Congress scan, https://www.loc.gov/item/usrep405330/).",
+    "path": "sources/raw/loc-usrep-405-330.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "4ef1fa2cc51cd4f6e32fd4d21c086ec3bb088dbe43c9de31ed904645dd3ae214",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep405/usrep405330/usrep405330.pdf"
+  },
+  {
+    "id": "loc-usrep-407-514",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 407 U.S. 514: Barker v. Wingo, 407 U.S. 514 (1972), as printed (Library of Congress scan, https://www.loc.gov/item/usrep407514/).",
+    "path": "sources/raw/loc-usrep-407-514.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "eb74c9aa7a86bc08c662da07c3d02a1bc601a04b3bb37473c6a9cd786f6771c6",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep407/usrep407514/usrep407514.pdf"
+  },
+  {
+    "id": "loc-usrep-408-564",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 408 U.S. 564: Board of Regents v. Roth, 408 U.S. 564 (1972), as printed (Library of Congress scan, https://www.loc.gov/item/usrep408564/).",
+    "path": "sources/raw/loc-usrep-408-564.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "3fb4bf808307a1c95e8a400b7d8a45f1acc4e163771d6216045060608af8496b",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep408/usrep408564/usrep408564.pdf"
+  },
+  {
+    "id": "loc-usrep-408-606",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 408 U.S. 606: Gravel v. United States, 408 U.S. 606 (1972), as printed (Library of Congress scan, https://www.loc.gov/item/usrep408606/).",
+    "path": "sources/raw/loc-usrep-408-606.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "34beab4371d58d9b17cb563f7395a375ee09a87f125830f150f4fa2b2c0bb89a",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep408/usrep408606/usrep408606.pdf"
+  },
+  {
+    "id": "loc-usrep-41-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 41 U.S. 1: Swift v. Tyson, 41 U.S. (16 Pet.) 1 (1842), as printed (Library of Congress scan, https://www.loc.gov/item/usrep041001/).",
+    "path": "sources/raw/loc-usrep-41-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "f8465b60284d905f4032804cbc29d08de4836c6f2191c6ac73a5d3cd6fe31a2c",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep041/usrep041001/usrep041001.pdf"
+  },
+  {
+    "id": "loc-usrep-410-113",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 410 U.S. 113: Roe v. Wade, 410 U.S. 113 (1973), as printed (Library of Congress scan, https://www.loc.gov/item/usrep410113/).",
+    "path": "sources/raw/loc-usrep-410-113.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "7d2f9269c16ab3484c4e69cd9128fa285cbfbac7c2d8c3c75966292a1f3f919c",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep410/usrep410113/usrep410113.pdf"
+  },
+  {
+    "id": "loc-usrep-415-651",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 415 U.S. 651: Edelman v. Jordan, 415 U.S. 651 (1974), as printed (Library of Congress scan, https://www.loc.gov/item/usrep415651/).",
+    "path": "sources/raw/loc-usrep-415-651.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "64e448fb5e5f98871f103d3725a102a3c2a0b07f569c2f307965116f976c7872",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep415/usrep415651/usrep415651.pdf"
+  },
+  {
+    "id": "loc-usrep-418-208",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 418 U.S. 208: Schlesinger v. Reservists Committee to Stop the War, 418 U.S. 208 (1974), as printed (Library of Congress scan, https://www.loc.gov/item/usrep418208/).",
+    "path": "sources/raw/loc-usrep-418-208.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "573b4224882eb4271662bda8fccbd72331107c585b585dc42f74d8dd0350e403",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep418/usrep418208/usrep418208.pdf"
+  },
+  {
+    "id": "loc-usrep-418-683",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 418 U.S. 683: United States v. Nixon, 418 U.S. 683 (1974), as printed (Library of Congress scan, https://www.loc.gov/item/usrep418683/).",
+    "path": "sources/raw/loc-usrep-418-683.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "04f87a19ea6714f1dcb6047845811a2889df60add0400ae1b43ab35dc3e62ca1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep418/usrep418683/usrep418683.pdf"
+  },
+  {
+    "id": "loc-usrep-419-256",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 419 U.S. 256: Schick v. Reed, 419 U.S. 256 (1974), as printed (Library of Congress scan, https://www.loc.gov/item/usrep419256/).",
+    "path": "sources/raw/loc-usrep-419-256.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "7d622a88e70ed60e194307fc642a0e7d8d3c6b89f184b93c383bd1d0a1d0aec5",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep419/usrep419256/usrep419256.pdf"
+  },
+  {
+    "id": "loc-usrep-419-345",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 419 U.S. 345: Jackson v. Metropolitan Edison Co., 419 U.S. 345 (1974), as printed (Library of Congress scan, https://www.loc.gov/item/usrep419345/).",
+    "path": "sources/raw/loc-usrep-419-345.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "46086464965c836d6f26c80b2b71a4b1e084c21f00029146d999487eb235a8d7",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep419/usrep419345/usrep419345.pdf"
+  },
+  {
+    "id": "loc-usrep-420-332",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 420 U.S. 332: United States v. Wilson, 420 U.S. 332 (1975), as printed (Library of Congress scan, https://www.loc.gov/item/usrep420332/).",
+    "path": "sources/raw/loc-usrep-420-332.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "26a3dc896feb7fd5aa483febdf78ca1f5896c596bfc5aa8c7726c3f85330eb29",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep420/usrep420332/usrep420332.pdf"
+  },
+  {
+    "id": "loc-usrep-420-358",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 420 U.S. 358: United States v. Jenkins, 420 U.S. 358 (1975), as printed (Library of Congress scan, https://www.loc.gov/item/usrep420358/).",
+    "path": "sources/raw/loc-usrep-420-358.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "11800b5eff779e39549faa9000f40fc9b6889da10c59c633222e902fbc6a92b6",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep420/usrep420358/usrep420358.pdf"
+  },
+  {
+    "id": "loc-usrep-421-349",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 421 U.S. 349: Meek v. Pittenger, 421 U.S. 349 (1975), as printed (Library of Congress scan, https://www.loc.gov/item/usrep421349/).",
+    "path": "sources/raw/loc-usrep-421-349.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "ccb01c336d27c549316b65af6b056bcf43be9485384cadb5728c21568f423134",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep421/usrep421349/usrep421349.pdf"
+  },
+  {
+    "id": "loc-usrep-422-490",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 422 U.S. 490: Warth v. Seldin, 422 U.S. 490 (1975), as printed (Library of Congress scan, https://www.loc.gov/item/usrep422490/).",
+    "path": "sources/raw/loc-usrep-422-490.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "32983adaa09596d928c1f1024a8eb804dadf0b6407ab998ecf9199b0d03dbaaa",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep422/usrep422490/usrep422490.pdf"
+  },
+  {
+    "id": "loc-usrep-424-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 424 U.S. 1: Buckley v. Valeo, 424 U.S. 1 (1976), as printed (Library of Congress scan, https://www.loc.gov/item/usrep424001/).",
+    "path": "sources/raw/loc-usrep-424-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0791d0935e803d2bd838ae3269c4dc91d981761d95396bfc78b1e9be8744b74e",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep424/usrep424001/usrep424001.pdf"
+  },
+  {
+    "id": "loc-usrep-426-833",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 426 U.S. 833: National League of Cities v. Usery, 426 U.S. 833 (1976), as printed (Library of Congress scan, https://www.loc.gov/item/usrep426833/).",
+    "path": "sources/raw/loc-usrep-426-833.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "1d6042c96db4ce6617b934f822b696b270af7159baa824f4535cce0455e91d8b",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep426/usrep426833/usrep426833.pdf"
+  },
+  {
+    "id": "loc-usrep-428-153",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 428 U.S. 153: Gregg v. Georgia, 428 U.S. 153 (1976), as printed (Library of Congress scan, https://www.loc.gov/item/usrep428153/).",
+    "path": "sources/raw/loc-usrep-428-153.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "3d1425b00e0e1bc9644c922dce4d73189a479a60de0146ef82c497feb73162db",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep428/usrep428153/usrep428153.pdf"
+  },
+  {
+    "id": "loc-usrep-430-787",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 430 U.S. 787: Fiallo v. Bell, 430 U.S. 787 (1977), as printed (Library of Congress scan, https://www.loc.gov/item/usrep430787/).",
+    "path": "sources/raw/loc-usrep-430-787.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "6cf0a6084918e40f5cb35d64b485c101acbfd881fbb243dc92c3e2c0b288e262",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep430/usrep430787/usrep430787.pdf"
+  },
+  {
+    "id": "loc-usrep-433-186",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 433 U.S. 186: Shaffer v. Heitner, 433 U.S. 186 (1977), as printed (Library of Congress scan, https://www.loc.gov/item/usrep433186/).",
+    "path": "sources/raw/loc-usrep-433-186.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "4781f6b4c46d20d227444f70b8ffe8116aa7723f65440d1c43fce8eb3e9efe42",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep433/usrep433186/usrep433186.pdf"
+  },
+  {
+    "id": "loc-usrep-433-229",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 433 U.S. 229: Wolman v. Walter, 433 U.S. 229 (1977), as printed (Library of Congress scan, https://www.loc.gov/item/usrep433229/).",
+    "path": "sources/raw/loc-usrep-433-229.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "da35d0183b8df5b53794855ea3442681637ffd37ad8e279048b3b5544acd937c",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep433/usrep433229/usrep433229.pdf"
+  },
+  {
+    "id": "loc-usrep-433-425",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 433 U.S. 425: Nixon v. Administrator of General Services, 433 U.S. 425 (1977), as printed (Library of Congress scan, https://www.loc.gov/item/usrep433425/).",
+    "path": "sources/raw/loc-usrep-433-425.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "9aa635e39adc5c62424ca72ed79d281d6faa4921879693f520096f06e8e27f14",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep433/usrep433425/usrep433425.pdf"
+  },
+  {
+    "id": "loc-usrep-437-82",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 437 U.S. 82: United States v. Scott, 437 U.S. 82 (1978), as printed (Library of Congress scan, https://www.loc.gov/item/usrep437082/).",
+    "path": "sources/raw/loc-usrep-437-82.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "026aa937d6289818de9f58453bf2cdc4724ca19debd7553c3004519a89801956",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep437/usrep437082/usrep437082.pdf"
+  },
+  {
+    "id": "loc-usrep-438-104",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 438 U.S. 104: Penn Central Transportation Co. v. City of New York, 438 U.S. 104 (1978), as printed (Library of Congress scan, https://www.loc.gov/item/usrep438104/).",
+    "path": "sources/raw/loc-usrep-438-104.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "832ef623c28664e6ed864b930e5eae522e78e28c95210bcd15bd69a8e082176a",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep438/usrep438104/usrep438104.pdf"
+  },
+  {
+    "id": "loc-usrep-448-136",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 448 U.S. 136: White Mountain Apache Tribe v. Bracker, 448 U.S. 136 (1980), as printed (Library of Congress scan, https://www.loc.gov/item/usrep448136/).",
+    "path": "sources/raw/loc-usrep-448-136.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0180c94bcce26599bb9b69a48807f4702fe1dcb697955dac51a29df8fcc9c4d1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep448/usrep448136/usrep448136.pdf"
+  },
+  {
+    "id": "loc-usrep-448-56",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 448 U.S. 56: Ohio v. Roberts, 448 U.S. 56 (1980), as printed (Library of Congress scan, https://www.loc.gov/item/usrep448056/).",
+    "path": "sources/raw/loc-usrep-448-56.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "8d071e222399db3ba1c5a019c890650f72d3b1c7664a900638e2d73d332d094a",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep448/usrep448056/usrep448056.pdf"
+  },
+  {
+    "id": "loc-usrep-455-422",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 455 U.S. 422: Logan v. Zimmerman Brush Co., 455 U.S. 422 (1982), as printed (Library of Congress scan, https://www.loc.gov/item/usrep455422/).",
+    "path": "sources/raw/loc-usrep-455-422.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "31bba2a33f828fe80d9e21aafd2e6af8b4c9541a9af177b7a3f84718547c35bb",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep455/usrep455422/usrep455422.pdf"
+  },
+  {
+    "id": "loc-usrep-457-991",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 457 U.S. 991: Blum v. Yaretsky, 457 U.S. 991 (1982), as printed (Library of Congress scan, https://www.loc.gov/item/usrep457991/).",
+    "path": "sources/raw/loc-usrep-457-991.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "157b316ee7a31c6fd9ff2e970d5f094884d369dd8399e4cbac41e43cf3209d96",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep457/usrep457991/usrep457991.pdf"
+  },
+  {
+    "id": "loc-usrep-458-50",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 458 U.S. 50: Northern Pipeline Construction Co. v. Marathon Pipe Line Co., 458 U.S. 50 (1982), as printed (Library of Congress scan, https://www.loc.gov/item/usrep458050/).",
+    "path": "sources/raw/loc-usrep-458-50.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "5710e40dd751aff175be7b443652db33c8bf6791bc67dfcad5ea9e13640c8235",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep458/usrep458050/usrep458050.pdf"
+  },
+  {
+    "id": "loc-usrep-458-832",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 458 U.S. 832: Ramah Navajo School Board v. Bureau of Revenue of New Mexico, 458 U.S. 832 (1982), as printed (Library of Congress scan, https://www.loc.gov/item/usrep458832/).",
+    "path": "sources/raw/loc-usrep-458-832.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "4cc58ce7a0a396ef2c95fe78ff9b04227d1c7548d57b85a78840bea26c6949c0",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep458/usrep458832/usrep458832.pdf"
+  },
+  {
+    "id": "loc-usrep-458-886",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 458 U.S. 886: National Association for the Advancement of Colored People v. Claiborne Hardware Co., 458 U.S. 886 (1982), as printed (Library of Congress scan, https://www.loc.gov/item/usrep458886/).",
+    "path": "sources/raw/loc-usrep-458-886.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "ba97add2783c7de2a88df2ecd0483ca5f50d3ff0ccf5d38af69a6b08fb2deb3b",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep458/usrep458886/usrep458886.pdf"
+  },
+  {
+    "id": "loc-usrep-459-21",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 459 U.S. 21: Landon v. Plasencia, 459 U.S. 21 (1982), as printed (Library of Congress scan, https://www.loc.gov/item/usrep459021/).",
+    "path": "sources/raw/loc-usrep-459-21.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "7e62304cd4b12813f5bfa9dfe3f5e6ed22b1aec5b487b6367d2444cfbeac1415",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep459/usrep459021/usrep459021.pdf"
+  },
+  {
+    "id": "loc-usrep-46-441",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 46 U.S. 441: Waring v. Clarke, 46 U.S. (5 How.) 441 (1847), as printed (Library of Congress scan, https://www.loc.gov/item/usrep046441/).",
+    "path": "sources/raw/loc-usrep-46-441.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "724af3b6ae7eca9ba27d41424d241a32bb412d4a17785d25da8bd6256401be8f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep046/usrep046441/usrep046441.pdf"
+  },
+  {
+    "id": "loc-usrep-462-919",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 462 U.S. 919: Immigration & Naturalization Service v. Chadha, 462 U.S. 919 (1983), as printed (Library of Congress scan, https://www.loc.gov/item/usrep462919/).",
+    "path": "sources/raw/loc-usrep-462-919.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "4586bb56368f4af10bc0338ac77ec277ffe3dd3d38aed994188d400b1683a1aa",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep462/usrep462919/usrep462919.pdf"
+  },
+  {
+    "id": "loc-usrep-463-783",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 463 U.S. 783: Marsh v. Chambers, 463 U.S. 783 (1983), as printed (Library of Congress scan, https://www.loc.gov/item/usrep463783/).",
+    "path": "sources/raw/loc-usrep-463-783.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "cb02130735a33d3d01a7f95c054d98776d1adafa67ff9f8721332c5d759890f4",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep463/usrep463783/usrep463783.pdf"
+  },
+  {
+    "id": "loc-usrep-466-668",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 466 U.S. 668: Strickland v. Washington, 466 U.S. 668 (1984), as printed (Library of Congress scan, https://www.loc.gov/item/usrep466668/).",
+    "path": "sources/raw/loc-usrep-466-668.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "d0346bfb44f164f4205a5800272493a4f418f4ae6a1863ba15b54de1023599f7",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep466/usrep466668/usrep466668.pdf"
+  },
+  {
+    "id": "loc-usrep-468-737",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 468 U.S. 737: Allen v. Wright, 468 U.S. 737 (1984), as printed (Library of Congress scan, https://www.loc.gov/item/usrep468737/).",
+    "path": "sources/raw/loc-usrep-468-737.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "66245710451ea41b43a21ff1260e9feae19bdcfaa2d11e33eb1ed13e0d8c97cd",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep468/usrep468737/usrep468737.pdf"
+  },
+  {
+    "id": "loc-usrep-469-528",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 469 U.S. 528: Garcia v. San Antonio Metropolitan Transit Authority, 469 U.S. 528 (1985), as printed (Library of Congress scan, https://www.loc.gov/item/usrep469528/).",
+    "path": "sources/raw/loc-usrep-469-528.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "ee196c8f95c73d451549670cf43d03e1544059911de021f8aad0a08ee9065aa0",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep469/usrep469528/usrep469528.pdf"
+  },
+  {
+    "id": "loc-usrep-478-109",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 478 U.S. 109: Davis v. Bandemer, 478 U.S. 109 (1986), as printed (Library of Congress scan, https://www.loc.gov/item/usrep478109/).",
+    "path": "sources/raw/loc-usrep-478-109.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "bc517a0f8362b39f8f18c6a425770016486a538b9dc87513d393236046ecaf91",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep478/usrep478109/usrep478109.pdf"
+  },
+  {
+    "id": "loc-usrep-478-186",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 478 U.S. 186: Bowers v. Hardwick, 478 U.S. 186 (1986), as printed (Library of Congress scan, https://www.loc.gov/item/usrep478186/).",
+    "path": "sources/raw/loc-usrep-478-186.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "ff777dfe5b108acc06d603f78700d68e0c0a194dd9ab972120f4485ed9082198",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep478/usrep478186/usrep478186.pdf"
+  },
+  {
+    "id": "loc-usrep-478-714",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 478 U.S. 714: Bowsher v. Synar, 478 U.S. 714 (1986), as printed (Library of Congress scan, https://www.loc.gov/item/usrep478714/).",
+    "path": "sources/raw/loc-usrep-478-714.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "b8082535d9bdb4088cf498fd0bc8196ba76c47b8c65ee82def3e0bd3d16113ea",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep478/usrep478714/usrep478714.pdf"
+  },
+  {
+    "id": "loc-usrep-485-505",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 485 U.S. 505: South Carolina v. Baker, 485 U.S. 505 (1988), as printed (Library of Congress scan, https://www.loc.gov/item/usrep485505/).",
+    "path": "sources/raw/loc-usrep-485-505.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "8cc0140bea3bc7f3533c2236d45a841500d56c766f46ff6e57968025a6262583",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep485/usrep485505/usrep485505.pdf"
+  },
+  {
+    "id": "loc-usrep-486-153",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 486 U.S. 153: Wheat v. United States, 486 U.S. 153 (1988), as printed (Library of Congress scan, https://www.loc.gov/item/usrep486153/).",
+    "path": "sources/raw/loc-usrep-486-153.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "ff24cf4eef3394a6895d98c56fd0dfecb90dd1ee5544e87e47c41ad98aa9c0ad",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep486/usrep486153/usrep486153.pdf"
+  },
+  {
+    "id": "loc-usrep-487-654",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 487 U.S. 654: Morrison v. Olson, 487 U.S. 654 (1988), as printed (Library of Congress scan, https://www.loc.gov/item/usrep487654/).",
+    "path": "sources/raw/loc-usrep-487-654.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0e6ab49f8f5e18c226d4f1e33f0b71286dcbb68a8f93b2ab625e877f94b54417",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep487/usrep487654/usrep487654.pdf"
+  },
+  {
+    "id": "loc-usrep-488-361",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 488 U.S. 361: Mistretta v. United States, 488 U.S. 361 (1989), as printed (Library of Congress scan, https://www.loc.gov/item/usrep488361/).",
+    "path": "sources/raw/loc-usrep-488-361.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "6227f53167b0bb0908ace8b164a7aabb569566d31dc2a3b05695afeb4e2742da",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep488/usrep488361/usrep488361.pdf"
+  },
+  {
+    "id": "loc-usrep-494-872",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 494 U.S. 872: Employment Division v. Smith, 494 U.S. 872 (1990), as printed (Library of Congress scan, https://www.loc.gov/item/usrep494872/).",
+    "path": "sources/raw/loc-usrep-494-872.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "99e84beff5337175ed860bcc967eb5e3a3828296ce89ea132301c93ffeaf045f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep494/usrep494872/usrep494872.pdf"
+  },
+  {
+    "id": "loc-usrep-5-137",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 5 U.S. 137: Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803), as printed (Library of Congress scan, https://www.loc.gov/item/usrep005137/).",
+    "path": "sources/raw/loc-usrep-5-137.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "dc46074ce2db6f2250de60f8a72eaee961f9dd09d7d5daf8a40db404200a4608",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep005/usrep005137/usrep005137.pdf"
+  },
+  {
+    "id": "loc-usrep-500-160",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 500 U.S. 160: Touby v. United States, 500 U.S. 160 (1991), as printed (Library of Congress scan, https://www.loc.gov/item/usrep500160/).",
+    "path": "sources/raw/loc-usrep-500-160.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "791df09f24b882303bceb2e6ca0204e1445775ffe5102f0815a2a31b8b09ee29",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep500/usrep500160/usrep500160.pdf"
+  },
+  {
+    "id": "loc-usrep-501-32",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 501 U.S. 32: Chambers v. NASCO, Inc., 501 U.S. 32 (1991), as printed (Library of Congress scan, https://www.loc.gov/item/usrep501032/).",
+    "path": "sources/raw/loc-usrep-501-32.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "f7b8aec3ef74b737d10cee7167634dff91b996ce2f39ce6fde849e0211e314c9",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep501/usrep501032/usrep501032.pdf"
+  },
+  {
+    "id": "loc-usrep-504-555",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 504 U.S. 555: Lujan v. Defenders of Wildlife, 504 U.S. 555 (1992), as printed (Library of Congress scan, https://www.loc.gov/item/usrep504555/).",
+    "path": "sources/raw/loc-usrep-504-555.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "62aa8d35d0abca02e2f2cdac5ee5b4984a419b6d8907a7559e599d4f391ffb20",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep504/usrep504555/usrep504555.pdf"
+  },
+  {
+    "id": "loc-usrep-505-144",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 505 U.S. 144: New York v. United States, 505 U.S. 144 (1992), as printed (Library of Congress scan, https://www.loc.gov/item/usrep505144/).",
+    "path": "sources/raw/loc-usrep-505-144.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "f8dcfde35aad3a0b762d965772718f299d84b65e19077c0dfe19e0d50bcfa1a0",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep505/usrep505144/usrep505144.pdf"
+  },
+  {
+    "id": "loc-usrep-505-377",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 505 U.S. 377: R.A.V. v. City of St. Paul, 505 U.S. 377 (1992), as printed (Library of Congress scan, https://www.loc.gov/item/usrep505377/).",
+    "path": "sources/raw/loc-usrep-505-377.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "580fb326639990bab7c59e6efd81322293e27eb2f82e373be81638b9e45ddc1f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep505/usrep505377/usrep505377.pdf"
+  },
+  {
+    "id": "loc-usrep-505-833",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 505 U.S. 833: Planned Parenthood of Southeastern Pennsylvania v. Casey, 505 U.S. 833 (1992), as printed (Library of Congress scan, https://www.loc.gov/item/usrep505833/).",
+    "path": "sources/raw/loc-usrep-505-833.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "7398a92ea9595b4e2633ec035d6e62418f362f3f49dc60a90aeae13494360374",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep505/usrep505833/usrep505833.pdf"
+  },
+  {
+    "id": "loc-usrep-512-622",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 512 U.S. 622: Turner Broadcasting System, Inc. v. Federal Communications Comm’n, 512 U.S. 622 (1994), as printed (Library of Congress scan, https://www.loc.gov/item/usrep512622/).",
+    "path": "sources/raw/loc-usrep-512-622.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "4cff83bcd618448ba07a97ef8355e0f9b623420931d4c2481e8d7896855ab07e",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep512/usrep512622/usrep512622.pdf"
+  },
+  {
+    "id": "loc-usrep-514-549",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 514 U.S. 549: United States v. Lopez, 514 U.S. 549 (1995), as printed (Library of Congress scan, https://www.loc.gov/item/usrep514549/).",
+    "path": "sources/raw/loc-usrep-514-549.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "4bd8c017a14815f73da60c5285f7177484d047f8a3238c7e7fd85987eda5841f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep514/usrep514549/usrep514549.pdf"
+  },
+  {
+    "id": "loc-usrep-514-779",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 514 U.S. 779: U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), as printed (Library of Congress scan, https://www.loc.gov/item/usrep514779/).",
+    "path": "sources/raw/loc-usrep-514-779.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "75c46c93e84fe2c799b1013f8ccc94ef392afa59c27a5ccf47a79b340149ffb6",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep514/usrep514779/usrep514779.pdf"
+  },
+  {
+    "id": "loc-usrep-515-819",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 515 U.S. 819: Rosenberger v. Rector & Visitors of the University of Virginia, 515 U.S. 819 (1995), as printed (Library of Congress scan, https://www.loc.gov/item/usrep515819/).",
+    "path": "sources/raw/loc-usrep-515-819.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "7ea2429985fddbb7a8c896f9b6d3c4f6919ee79c131a4e90ccb4bba3c78523b1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep515/usrep515819/usrep515819.pdf"
+  },
+  {
+    "id": "loc-usrep-517-748",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 517 U.S. 748: Loving v. United States, 517 U.S. 748 (1996), as printed (Library of Congress scan, https://www.loc.gov/item/usrep517748/).",
+    "path": "sources/raw/loc-usrep-517-748.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "e5e791f16f49d1db2ffd35dd8308eacd8656ed2b75382c29e03e45690acee43e",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep517/usrep517748/usrep517748.pdf"
+  },
+  {
+    "id": "loc-usrep-521-898",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 521 U.S. 898: Printz v. United States, 521 U.S. 898 (1997), as printed (Library of Congress scan, https://www.loc.gov/item/usrep521898/).",
+    "path": "sources/raw/loc-usrep-521-898.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "c63c6ab8036a0dde8ebb0563a3ccbcd3184d54fc5e4aa4d560a02db71a8ddd19",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep521/usrep521898/usrep521898.pdf"
+  },
+  {
+    "id": "loc-usrep-523-726",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 523 U.S. 726: Ohio Forestry Ass’n, Inc. v. Sierra Club, 523 U.S. 726 (1998), as printed (Library of Congress scan, https://www.loc.gov/item/usrep523726/).",
+    "path": "sources/raw/loc-usrep-523-726.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0e6362ed737dc2f08db4da3523ca21966d06107f1c1e1d413286378924fe1a06",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep523/usrep523726/usrep523726.pdf"
+  },
+  {
+    "id": "loc-usrep-529-598",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 529 U.S. 598: United States v. Morrison, 529 U.S. 598 (2000), as printed (Library of Congress scan, https://www.loc.gov/item/usrep529598/).",
+    "path": "sources/raw/loc-usrep-529-598.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "03587acc62adc97915b0052e12dde57ed6587c71abd2543658256bd06d6f3401",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep529/usrep529598/usrep529598.pdf"
+  },
+  {
+    "id": "loc-usrep-530-793",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 530 U.S. 793: Mitchell v. Helms, 530 U.S. 793 (2000), as printed (Library of Congress scan, https://www.loc.gov/item/usrep530793/).",
+    "path": "sources/raw/loc-usrep-530-793.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "85040ccc28cf60148677fbcf4775fa7c4c01e3eee6aed303260fc744a9b75f3b",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep530/usrep530793/usrep530793.pdf"
+  },
+  {
+    "id": "loc-usrep-533-678",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 533 U.S. 678: Zadvydas v. Davis, 533 U.S. 678 (2001), as printed (Library of Congress scan, https://www.loc.gov/item/usrep533678/).",
+    "path": "sources/raw/loc-usrep-533-678.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "9c63c92250412a2777db25415fedcbfd3a147e155625c8407dd37dd4d3f94d37",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep533/usrep533678/usrep533678.pdf"
+  },
+  {
+    "id": "loc-usrep-539-558",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 539 U.S. 558: Lawrence v. Texas, 539 U.S. 558 (2003), as printed (Library of Congress scan, https://www.loc.gov/item/usrep539558/).",
+    "path": "sources/raw/loc-usrep-539-558.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "05e52a2960bd0f6fbcdf72bdbb4850eb702a9106ec573569c315a453ed6aaa2b",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep539/usrep539558/usrep539558.pdf"
+  },
+  {
+    "id": "loc-usrep-540-93",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 540 U.S. 93: McConnell v. Federal Elections Comm’n, 540 U.S. 93 (2003), as printed (Library of Congress scan, https://www.loc.gov/item/usrep540093/).",
+    "path": "sources/raw/loc-usrep-540-93.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "abace53492130e50bb877f46576338c23b60c5c1854522bbfda712a54c66cf51",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep540/usrep540093/usrep540093.pdf"
+  },
+  {
+    "id": "loc-usrep-541-36",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 541 U.S. 36: Crawford v. Washington, 541 U.S. 36 (2004), as printed (Library of Congress scan, https://www.loc.gov/item/usrep541036/).",
+    "path": "sources/raw/loc-usrep-541-36.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "83f8b0edef446d2039b34e993dc0ab8ef5fe9d05f90bd9ea934c5b9eb52b0df4",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep541/usrep541036/usrep541036.pdf"
+  },
+  {
+    "id": "loc-usrep-550-192",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 550 U.S. 192: James v. United States, 550 U.S. 192 (2007), as printed (Library of Congress scan, https://www.loc.gov/item/usrep550192/).",
+    "path": "sources/raw/loc-usrep-550-192.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "878a83e7ff704f656f6a3c6b7eda6f8f0f34b4ce2a0f3a60b85345b573b0da6f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep550/usrep550192/usrep550192.pdf"
+  },
+  {
+    "id": "loc-usrep-552-491",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 552 U.S. 491: Medellin v. Texas, 552 U.S. 491 (2008), as printed (Library of Congress scan, https://www.loc.gov/item/usrep552491/).",
+    "path": "sources/raw/loc-usrep-552-491.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "5921eaf900541db3f88355a00b0f6989f8c30e893346559c381c93dc23a98bf0",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep552/usrep552491/usrep552491.pdf"
+  },
+  {
+    "id": "loc-usrep-554-570",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 554 U.S. 570: District of Columbia v. Heller, 554 U.S. 570 (2008), as printed (Library of Congress scan, https://www.loc.gov/item/usrep554570/).",
+    "path": "sources/raw/loc-usrep-554-570.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "8ea329fdac7403a11981eee4eadbf4e2f9f858551baa5e7ba9e095c413d2bd01",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep554/usrep554570/usrep554570.pdf"
+  },
+  {
+    "id": "loc-usrep-558-209",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 558 U.S. 209: Presley v. Georgia, 558 U.S. 209 (2010), as printed (Library of Congress scan, https://www.loc.gov/item/usrep558209/).",
+    "path": "sources/raw/loc-usrep-558-209.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "3611ceb8818c2e6e532750adce6750faa7905b53c9cc4550e41031f2e54d8496",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep558/usrep558209/usrep558209.pdf"
+  },
+  {
+    "id": "loc-usrep-558-310",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 558 U.S. 310: Citizens United v. Federal Election Comm’n, 558 U.S. 310 (2010), as printed (Library of Congress scan, https://www.loc.gov/item/usrep558310/).",
+    "path": "sources/raw/loc-usrep-558-310.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "47426f1f570eaa9c112ee0591d278484788a56353c32112ac2a2cb970875a0c8",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep558/usrep558310/usrep558310.pdf"
+  },
+  {
+    "id": "loc-usrep-561-742",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 561 U.S. 742: McDonald v. City of Chicago, 561 U.S. 742 (2010), as printed (Library of Congress scan, https://www.loc.gov/item/usrep561742/).",
+    "path": "sources/raw/loc-usrep-561-742.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "bc7a27d070af3cff1c264a5b3062e7dfc1e19a770bef7b60879423466aa7daec",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep561/usrep561742/usrep561742.pdf"
+  },
+  {
+    "id": "loc-usrep-564-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 564 U.S. 1: Sykes v. United States, 564 U.S. 1 (2011), as printed (Library of Congress scan, https://www.loc.gov/item/usrep564001/).",
+    "path": "sources/raw/loc-usrep-564-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "b381ba6c98d621bbb79cacbb05f87af70a09e8ec2f632b1e8dc8d71b2bffd7d7",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep564/usrep564001/usrep564001.pdf"
+  },
+  {
+    "id": "loc-usrep-567-519",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 567 U.S. 519: National Federation of Independent Business v. Sebelius, 567 U.S. 519 (2012), as printed (Library of Congress scan, https://www.loc.gov/item/usrep567519/).",
+    "path": "sources/raw/loc-usrep-567-519.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "436cbdd6b8f634d07d3d8d75cf756298c1ebe4ca53a4079b9290395db08e0757",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep567/usrep567519/usrep567519.pdf"
+  },
+  {
+    "id": "loc-usrep-570-744",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 570 U.S. 744: United States v. Windsor, 570 U.S. 744 (2013), as printed (Library of Congress scan, https://www.loc.gov/item/usrep570744/).",
+    "path": "sources/raw/loc-usrep-570-744.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "1228e764bcf1fead9f15bf026e4414327bbe646f2110115c207e52dfda32ffb5",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep570/usrep570744/usrep570744.pdf"
+  },
+  {
+    "id": "loc-usrep-572-844",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 572 U.S. 844: Bond v. United States, 572 U.S. 844 (2014), as printed (Library of Congress scan, https://www.loc.gov/item/usrep572844/).",
+    "path": "sources/raw/loc-usrep-572-844.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "a8eee231ee772faa520c7539dc9b28788eb10e46d1ffd902c6d6c6664d054db0",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep572/usrep572844/usrep572844.pdf"
+  },
+  {
+    "id": "loc-usrep-575-542",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 575 U.S. 542: Comptroller of the Treasury of Maryland v. Wynne, 575 U.S. 542 (2015), as printed (Library of Congress scan, https://www.loc.gov/item/usrep575542/).",
+    "path": "sources/raw/loc-usrep-575-542.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "81241f3686c20905f50ecf29691c06df9668156e0e540de627dfe37a79765a45",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep575/usrep575542/usrep575542.pdf"
+  },
+  {
+    "id": "loc-usrep-576-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 576 U.S. 1: Zivotofsky v. Kerry, 576 U.S. 1 (2015), as printed (Library of Congress scan, https://www.loc.gov/item/usrep576001/).",
+    "path": "sources/raw/loc-usrep-576-1.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "02695d3128d1ef829dab6e31fd2a183c1d45f9c0f9d333a3dcc22f085772eea1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep576/usrep576001/usrep576001.pdf"
+  },
+  {
+    "id": "loc-usrep-576-644",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 576 U.S. 644: Obergefell v. Hodges, 576 U.S. 644 (2015), as printed (Library of Congress scan, https://www.loc.gov/item/usrep576644/).",
+    "path": "sources/raw/loc-usrep-576-644.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "c22875b84f618083b83677b961d52b242bf61f01282d9f0fdd4099876d754447",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep576/usrep576644/usrep576644.pdf"
+  },
+  {
+    "id": "loc-usrep-60-393",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 60 U.S. 393: Dred Scott v. Sandford, 60 U.S. (19 How.) 393 (1857), as printed (Library of Congress scan, https://www.loc.gov/item/usrep060393/).",
+    "path": "sources/raw/loc-usrep-60-393.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "8ea4b6d47cf34ad007ba1ebfaa415ebb906800a54bec3ce96529c189302252cd",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep060/usrep060393/usrep060393.pdf"
+  },
+  {
+    "id": "loc-usrep-71-2",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 71 U.S. 2: Ex parte Milligan, 71 U.S. (4 Wall.) 2 (1866), as printed (Library of Congress scan, https://www.loc.gov/item/usrep071002/).",
+    "path": "sources/raw/loc-usrep-71-2.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0169a552747d80c21dda7ca8f28be42b64c1a03966825efce987806dbb337da2",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep071/usrep071002/usrep071002.pdf"
+  },
+  {
+    "id": "loc-usrep-71-277",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 71 U.S. 277: Cummings v. Missouri, 71 U.S. (4 Wall.) 277 (1867), as printed (Library of Congress scan, https://www.loc.gov/item/usrep071277/).",
+    "path": "sources/raw/loc-usrep-71-277.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "0e1faf68535eee58d4b34942d925cdc38208c77aa7c70572508b9767639fff80",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep071/usrep071277/usrep071277.pdf"
+  },
+  {
+    "id": "loc-usrep-71-333",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 71 U.S. 333: Ex parte Garland, 71 U.S. (4 Wall.) 333 (1866), as printed (Library of Congress scan, https://www.loc.gov/item/usrep071333/).",
+    "path": "sources/raw/loc-usrep-71-333.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "62790979ba0d378af06e2c5bb069bd62139f289eca80460c34b7a297103d1ec8",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep071/usrep071333/usrep071333.pdf"
+  },
+  {
+    "id": "loc-usrep-78-113",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 78 U.S. 113: Collector v. Day, 78 U.S. (11 Wall.) 113 (1871), as printed (Library of Congress scan, https://www.loc.gov/item/usrep078113/).",
+    "path": "sources/raw/loc-usrep-78-113.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "3e1e6daf61b807b7ae889d73e44bfd15854b5e52e9504f90c38f3d768ec36938",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep078/usrep078113/usrep078113.pdf"
+  },
+  {
+    "id": "loc-usrep-83-36",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 83 U.S. 36: Slaughter-House Cases, 83 U.S. (16 Wall.) 36 (1873), as printed (Library of Congress scan, https://www.loc.gov/item/usrep083036/).",
+    "path": "sources/raw/loc-usrep-83-36.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "78c9aa5cc04501f56c91477f3238e0808ca3a856317d7ae0ef55fd1cba21cb40",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep083/usrep083036/usrep083036.pdf"
+  },
+  {
+    "id": "loc-usrep-92-542",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 92 U.S. 542: United States v. Cruikshank, 92 U.S. 542 (1876), as printed (Library of Congress scan, https://www.loc.gov/item/usrep092542/).",
+    "path": "sources/raw/loc-usrep-92-542.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "3cc25a1c0c25db0f1e34d3b89524b28b444437c72a579fe1c83c0e778fc4ffb1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep092/usrep092542/usrep092542.pdf"
+  },
+  {
+    "id": "loc-usrep-95-714",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 95 U.S. 714: Pennoyer v. Neff, 95 U.S. 714 (1878), as printed (Library of Congress scan, https://www.loc.gov/item/usrep095714/).",
+    "path": "sources/raw/loc-usrep-95-714.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "11cafa209b25eaa47ab5c4050d5dfe21394ae5f920c4c771e2d84a6ec7e1a2c6",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep095/usrep095714/usrep095714.pdf"
+  },
+  {
+    "id": "loc-usrep-98-145",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 98 U.S. 145: Reynolds v. United States, 98 U.S. (8 Otto) 145 (1879), as printed (Library of Congress scan, https://www.loc.gov/item/usrep098145/).",
+    "path": "sources/raw/loc-usrep-98-145.pdf",
+    "retrieved_at": "2026-10-18",
+    "sha256": "c91ea22594b42772ca0a2d7c6465e4ce28acbc84ecfff04301525c12c8e2f0a8",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep098/usrep098145/usrep098145.pdf"
+  },
+  {
     "id": "nara-amendments-11-27",
     "license": "Public domain (U.S. Government work, 17 U.S.C. 105)",
     "notes": "National Archives transcription of Amendments XI-XXVII.",

@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 from tools.common import (
-    LINKS_DIR, MANIFEST_PATH, RAW_DIR, ROOT, TEXTS_DIR, CASES_DIR, is_safe_url, load_manifest,
+    LINKS_DIR, MANIFEST_PATH, RAW_DIR, ROOT, TEXTS_DIR, CASES_DIR, UNTRACKED_RAW, is_safe_url, load_manifest,
     normalize_for_match, read_json, read_jsonl, sha256_file,
 )
 from tools.corpus import Corpus, load_corpus
@@ -88,6 +88,8 @@ def check_manifest() -> list[str]:
             errors.append(f"manifest {eid}: retrieved_at is not an ISO date")
         if not e["license"].strip():
             errors.append(f"manifest {eid}: license is empty")
+        if "auth_env" in e and not re.fullmatch(r"[A-Z][A-Z0-9_]*", str(e["auth_env"])):
+            errors.append(f"manifest {eid}: auth_env must name an environment variable, not hold a token")
         path = (ROOT / e["path"]).resolve()
         if RAW_DIR.resolve() not in path.parents:
             errors.append(f"manifest {eid}: path must be under sources/raw/")
@@ -109,7 +111,7 @@ def check_manifest() -> list[str]:
 # ------------------------------------------------------------ texts
 
 
-SEGMENT_KINDS = {"footnote"}
+SEGMENT_KINDS = {"footnote", "syllabus"}
 POSITIONS = {"anti", "federalist", "other"}
 SCAN_ITEM = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{2,99}$")
 
@@ -212,30 +214,36 @@ def check_texts(corpus: Corpus) -> list[str]:
 
 
 def check_reproducible() -> list[str]:
-    """Every file in texts/ must be exactly what the importers produce from
-    sources/raw/. This is what keeps hand-typed text out of the corpus."""
+    """Every file in texts/ and cases/ must be exactly what the importers
+    produce from sources/raw/. This is what keeps hand-typed text out of the
+    corpus."""
     from importers import IMPORTERS
 
     errors: list[str] = []
+    produced: dict[Path, set[str]] = {TEXTS_DIR: set(), CASES_DIR: set()}
     with tempfile.TemporaryDirectory() as tmp:
-        out = Path(tmp)
-        produced: set[str] = set()
         for module in IMPORTERS:
+            final = getattr(module, "OUT_DIR", TEXTS_DIR)
+            out = Path(tmp) / final.name
+            out.mkdir(exist_ok=True)
             try:
                 paths = module.run(out)
             except Exception as exc:  # report, don't crash the whole run
                 errors.append(f"importer {module.__name__} failed: {exc}")
+                produced.pop(final, None)  # nothing to compare its directory against
                 continue
             for p in paths:
-                produced.add(p.name)
-                committed = TEXTS_DIR / p.name
+                produced.setdefault(final, set()).add(p.name)
+                committed = final / p.name
+                where = f"{final.name}/{p.name}"
                 if not committed.exists():
-                    errors.append(f"texts/{p.name} is missing (run make import)")
+                    errors.append(f"{where} is missing (run make import)")
                 elif committed.read_bytes() != p.read_bytes():
-                    errors.append(f"texts/{p.name} differs from importer output (run make import; never edit texts by hand)")
-        for f in sorted(TEXTS_DIR.glob("*.json")):
-            if f.name not in produced:
-                errors.append(f"texts/{f.name} is not produced by any importer")
+                    errors.append(f"{where} differs from importer output (run make import; never edit it by hand)")
+    for final, names in produced.items():
+        for f in sorted(final.glob("*.json")):
+            if f.name not in names:
+                errors.append(f"{final.name}/{f.name} is not produced by any importer")
     return errors
 
 
@@ -366,21 +374,34 @@ def check_refs_locked(corpus: Corpus) -> list[str]:
 RAW_FILE_BUDGET = 40 * 1024 * 1024
 RAW_TOTAL_BUDGET = 300 * 1024 * 1024
 DATA_FILE_BUDGET = 20 * 1024 * 1024
+# Raw files kept out of git (UNTRACKED_RAW) live in the CI cache, which GitHub
+# limits to 10 GB per repository.
+UNTRACKED_TOTAL_BUDGET = 1024 * 1024 * 1024
 
 
 def check_repo_budgets(corpus: Corpus) -> list[str]:
     errors = []
-    total = 0
+    total = untracked = 0
+    gitignore = (ROOT / ".gitignore").read_text(encoding="utf-8").splitlines() if (ROOT / ".gitignore").exists() else []
+    for pattern in UNTRACKED_RAW:
+        if f"sources/raw/{pattern}" not in gitignore:
+            errors.append(f".gitignore must list sources/raw/{pattern} (raw files kept out of git)")
     if RAW_DIR.exists():
         for f in RAW_DIR.rglob("*"):
             if f.is_file():
                 size = f.stat().st_size
-                total += size
+                if any(f.match(p) for p in UNTRACKED_RAW):
+                    untracked += size
+                else:
+                    total += size
                 if size > RAW_FILE_BUDGET:
                     errors.append(f"{f.relative_to(ROOT)} is {size // 2**20} MB; budget is "
                                   f"{RAW_FILE_BUDGET // 2**20} MB per raw file (prefer a text layer over scans)")
     if total > RAW_TOTAL_BUDGET:
-        errors.append(f"sources/raw totals {total // 2**20} MB; budget is {RAW_TOTAL_BUDGET // 2**20} MB")
+        errors.append(f"sources/raw totals {total // 2**20} MB in git; budget is {RAW_TOTAL_BUDGET // 2**20} MB")
+    if untracked > UNTRACKED_TOTAL_BUDGET:
+        errors.append(f"raw files kept out of git total {untracked // 2**20} MB; budget is "
+                      f"{UNTRACKED_TOTAL_BUDGET // 2**20} MB")
     for d in (TEXTS_DIR, CASES_DIR, LINKS_DIR):
         if d.exists():
             for f in d.rglob("*"):

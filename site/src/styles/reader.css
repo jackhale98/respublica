@@ -355,3 +355,13 @@
   .placebar-here:not(:empty)::before { content: none; }
 }
 @media (prefers-reduced-motion: reduce) { .placebar, .placebar.show { transition: none; } }
+
+/* A case page (CaseView): its sections and the links that cite a source. */
+.case-sec { margin-top: 2.25rem; }
+.case-sec h2 { font: 600 1.25rem/1.3 var(--font-heading); margin-bottom: .6rem; }
+.case-overruled { border-left: 3px solid var(--danger); padding-left: 1rem; }
+.case-links { list-style: none; margin: .6rem 0 0; padding: 0; display: grid; gap: .8rem; }
+.case-links li { line-height: 1.45; }
+.case-links .badge { margin-left: .45rem; }
+.case-links .src { margin: .2rem 0 0; font-size: .8rem; color: var(--text-faint); overflow-wrap: anywhere; }
+.case-ext { margin-top: .9rem; font-size: .92rem; }

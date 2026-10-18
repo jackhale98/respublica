@@ -4,6 +4,8 @@ import IndexView from "../components/views/IndexView.astro";
 import SeriesView from "../components/views/SeriesView.astro";
 import PaperView from "../components/views/PaperView.astro";
 import WorkView from "../components/views/WorkView.astro";
+import CaseView from "../components/views/CaseView.astro";
+import CasesView from "../components/views/CasesView.astro";
 import { loadPage, loadSite } from "../lib/data.js";
 
 // Every reader and index page comes from site/.data (tools/site_data.py),
@@ -23,3 +25,5 @@ const { page, work } = Astro.props;
 {page.kind === "part" && <PaperView page={page} work={work} />}
 {page.kind === "index" && (work.collection === "ratification" ? <SeriesView work={work} /> : <IndexView work={work} />)}
 {page.kind === "collection" && <CollectionView page={page} />}
+{page.kind === "case" && <CaseView page={page} />}
+{page.kind === "cases" && <CasesView page={page} />}
