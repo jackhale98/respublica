@@ -835,3 +835,75 @@ def known_words(clean: list[str]) -> set[str]:
     texts count; a rare word missing from them is flagged rather than guessed.
     """
     return {k for text in clean for t in TOKEN.findall(text) if is_word(k := key(t))}
+
+
+# ------------------------------------------------------------ Tesseract
+#
+# A third reading where only two scans of a printing can be had (decision
+# 47): Tesseract is run once on a scan's page images (a raw source) and its
+# word boxes are kept in sources/ocr/, with a record of the tool, the
+# language data, the command and the image file read (sources/ocr/manifest.json).
+# Importers read the kept output; `make verify` checks the record but never
+# runs Tesseract.
+
+OCR_DIR = Path(__file__).resolve().parent.parent / "sources" / "ocr"
+OCR_MANIFEST = OCR_DIR / "manifest.json"
+TESSERACT_ARGS = ["-l", "eng", "--psm", "3", "tsv"]
+
+
+def tesseract_versions() -> dict[str, str]:
+    """The Tesseract and English data packages installed (Debian/Ubuntu)."""
+    import subprocess
+    out = {}
+    for pkg in ("tesseract-ocr", "tesseract-ocr-eng"):
+        out[pkg] = subprocess.run(["dpkg-query", "-W", "-f=${Version}", pkg], capture_output=True, text=True,
+                                  check=True).stdout
+    return out
+
+
+def run_tesseract(images: list[tuple[int, bytes]], out_path: Path) -> None:
+    """OCR page images (leaf, image bytes) into one TSV: Tesseract's own
+    columns, prefixed with the leaf. Single-threaded, so that a rerun gives
+    the same words."""
+    import os
+    import subprocess
+    import tempfile
+    env = {**os.environ, "OMP_THREAD_LIMIT": "1"}
+    rows = []
+    with tempfile.TemporaryDirectory() as tmp:
+        for leaf, data in images:
+            img = Path(tmp) / f"{leaf:04d}.tif"
+            img.write_bytes(data)
+            tsv = subprocess.run(["tesseract", str(img), "stdout", *TESSERACT_ARGS], capture_output=True,
+                                 text=True, check=True, env=env).stdout.splitlines()
+            if not rows:
+                rows.append("leaf\t" + tsv[0])
+            rows.extend(f"{leaf}\t{r}" for r in tsv[1:])
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text("\n".join(rows) + "\n", encoding="utf-8")
+
+
+def parse_tesseract_tsv(path: Path) -> list[Page]:
+    """Pages from a TSV written by `run_tesseract`, in leaf order: a
+    paragraph per Tesseract paragraph, a line per line."""
+    import csv
+    pages: dict[int, Page] = {}
+    paras: dict[tuple, Para] = {}
+    lines: dict[tuple, Line] = {}
+    with path.open(encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE):
+            leaf, level = int(r["leaf"]), int(r["level"])
+            x, y, w, h = (int(r[k]) for k in ("left", "top", "width", "height"))
+            if level == 1:
+                pages[leaf] = Page(leaf, w, h)
+            elif level == 5 and (r["text"] or "").strip():
+                pk = (leaf, r["block_num"], r["par_num"])
+                lk = (*pk, r["line_num"])
+                if pk not in paras:
+                    paras[pk] = Para([], leaf)
+                    pages[leaf].paras.append(paras[pk])
+                if lk not in lines:
+                    lines[lk] = Line([])
+                    paras[pk].lines.append(lines[lk])
+                lines[lk].words.append(Word(r["text"], x, y, x + w, y + h, int(float(r["conf"]))))
+    return [pages[k] for k in sorted(pages)]

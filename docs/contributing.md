@@ -38,6 +38,23 @@ python3 -m tools.fetch add --id my-source --url https://example.org/file.html \
 Never edit files in `sources/raw/`. If an upstream file changes, record the
 new version as a new source.
 
+Importers add sources with `tools.fetch.add_source`. A source behind an API
+token records `auth_env`, the name of the environment variable holding the
+token (never the token); a source that answers a POST records its request
+body as `post`. `make fetch` sends both again when it restores a file.
+Rate limits (HTTP 429) are waited out. Raw files too large for git (the
+Annals of Congress scans' DjVu XML and page images,
+`tools.common.UNTRACKED_RAW`) are listed in `.gitignore` and
+the manifest; `make fetch` downloads them and CI caches them.
+
+**OCR we run ourselves** (decision 46) is not a raw source: it is kept in
+`sources/ocr/`, each file recorded in `sources/ocr/manifest.json` with the
+Tesseract and language-data package versions, the command, and the raw
+images (source id and sha256) it read. It is written by a command
+(`python -m importers.annals ocr`), never by hand; importers read the kept
+file, and CI never runs Tesseract. Install `tesseract-ocr` 5.3.4 (Ubuntu
+24.04) only to rerun it.
+
 ## Writing an importer
 
 - One module per source in `importers/`, exposing `run(out_dir) -> [paths]`,
@@ -114,8 +131,8 @@ Linking criteria and tools are in [`linking.md`](linking.md). In short:
 
 | Check | Rule |
 |---|---|
-| `budgets` | Raw files stay under 40 MB each and 300 MB in total; data files under 20 MB (decision 15). |
-| `sources` | Every manifest entry has id, url, retrieved_at, sha256, license, notes and path; every raw file matches its sha256; every file in `sources/raw/` is in the manifest; every URL is http(s). |
+| `budgets` | Raw files stay under 40 MB each and 300 MB in total in git (files kept out of git: 1 GB in total, with no limit per file, and `.gitignore` must list them); data files under 20 MB (decisions 15, 46). |
+| `sources` | Every manifest entry has id, url, retrieved_at, sha256, license, notes and path; every raw file matches its sha256; every file in `sources/raw/` is in the manifest; every URL is http(s); `auth_env` names an environment variable; every file in `sources/ocr/` is recorded, matches its sha256, and names the raw images it was read from as they are in the manifest. |
 | `texts` | Required fields; refs are unique and start with the work's `ref_prefix`; texts are non-empty and contain no markup; `source_ids` are in the manifest; emphasis spans are in range; every `changed_by` quote is in its text and names a real amendment; every division has segments; every URL field is http(s). For texts read from scans: each `uncertain` span lies in order inside its text (or its division's heading line, salutation or signature) and the text there is one of the scans' readings; `scan` names a valid archive.org item and page numbers; `kind` and `position` take known values. |
 | `reproducible` | Re-runs every importer into a temporary directory and requires `texts/` to match byte for byte. Every file in `texts/` must come from an importer. |
 | `refs` | Every ref in `refs.lock` still exists. Published refs are never dropped or renumbered. |

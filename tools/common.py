@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import time
 import urllib.error
@@ -28,7 +29,13 @@ TEXTS_DIR = ROOT / "texts"
 CASES_DIR = ROOT / "cases"
 LINKS_DIR = ROOT / "links"
 
-USER_AGENT = "ResPublicaFetcher/0.1 (+https://library.commonhall.org)"
+# Raw files too large for git (the Annals of Congress scans' DjVu XML and page
+# images, decision 46): recorded
+# in the manifest like any other, listed in .gitignore, restored by `make fetch`
+# and cached in CI.
+UNTRACKED_RAW = ("ia-annals-*",)
+
+USER_AGENT = "ResPublicaFetcher/0.1 (+https://respublicalibrary.org)"
 ALLOWED_SCHEMES = ("http", "https")
 
 
@@ -57,25 +64,59 @@ def check_url(url: str) -> str:
 # ---------------------------------------------------------------- HTTP
 
 
-def fetch_bytes(url: str, timeout: int = 60, attempts: int = 4) -> bytes:
-    """GET a URL, retrying transient network errors with backoff.
-    Redirects to a non-http(s) URL are refused."""
+def fetch_bytes(url: str, timeout: int = 60, attempts: int = 4,
+                headers: dict[str, str] | None = None, post: str | None = None) -> bytes:
+    """GET a URL (or POST it the form-encoded body `post`), retrying
+    transient network errors with backoff and waiting out rate limits (HTTP
+    429: up to RATE_LIMIT_WAITS waits of what Retry-After asks, at most ten
+    minutes each). Redirects to a non-http(s) URL are refused. `headers`
+    (an API token, say) are sent but never stored anywhere."""
     check_url(url)
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    for attempt in range(attempts):
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **(headers or {})},
+                                 data=post.encode() if post is not None else None)
+    attempt = waits = 0
+    while True:
         try:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 check_url(resp.geturl())
                 return resp.read()
         except urllib.error.HTTPError as e:
-            if e.code < 500 or attempt + 1 == attempts:
+            if e.code == 429 and waits < RATE_LIMIT_WAITS:
+                waits += 1
+                time.sleep(_retry_after(e))
+                continue
+            attempt += 1
+            if e.code < 500 or attempt == attempts:
                 raise
-            time.sleep(2 ** (attempt + 1))
+            time.sleep(2 ** attempt)
         except (urllib.error.URLError, TimeoutError, ConnectionError):
-            if attempt + 1 == attempts:
+            attempt += 1
+            if attempt == attempts:
                 raise
-            time.sleep(2 ** (attempt + 1))
-    raise AssertionError("unreachable")
+            time.sleep(2 ** attempt)
+
+
+RATE_LIMIT_WAITS = 30
+
+
+def _retry_after(e: urllib.error.HTTPError) -> float:
+    """Seconds a 429 response asks the client to wait (at least 1, at most 600)."""
+    value = e.headers.get("Retry-After", "") if e.headers else ""
+    if not value.strip().isdigit():
+        # Django REST framework also says it in the body: "Expected available in 39 seconds."
+        m = re.search(rb"available in (\d+) second", e.read() or b"")
+        value = m.group(1).decode() if m else "60"
+    return min(max(int(value), 1), 600) + 1
+
+
+def auth_headers(env_var: str) -> dict[str, str]:
+    """An Authorization header for an API that takes a token ("Token <key>",
+    as CourtListener does), read from an environment variable. The token is
+    only ever sent; nothing stores it."""
+    token = os.environ.get(env_var, "").strip()
+    if not token:
+        raise KeyError(f"set {env_var} to fetch this source")
+    return {"Authorization": f"Token {token}"}
 
 
 # ---------------------------------------------------------------- files

@@ -35,6 +35,9 @@ WORKS = {
     "joint-resolution-1789": {"collection": "founding", "order": 2.5, "paged": False, "short": "Resolution of 1789",
                               "slug": "joint-resolution-1789"},
     "federalist": {"collection": "federalist", "order": 3, "paged": True, "short": "Federalist", "slug": "federalist"},
+    # Debates in Congress (decision 46): one page per day.
+    "house-amendments-1789": {"collection": "congress", "order": 4, "paged": True, "short": "House debates, 1789",
+                              "slug": "house-amendments-1789"},
 }
 
 # Essays and letters of the ratification debate (texts with a `position`)
@@ -375,8 +378,11 @@ class SiteBuilder:
             block["aliases"] = aliases  # retired refs merged into this passage keep an anchor here
         if s.get("scan"):
             leaves = s["scan"]["leaves"]
-            pages = s.get("pages", [])
-            block["scan"] = {"pages": pages, "url": scan_url(s["scan"]["item"], leaves[0])}
+            # Pages, or for a book printed in numbered columns (the Annals of
+            # Congress) its columns.
+            pages = s.get("pages") or s.get("columns", [])
+            block["scan"] = {"pages": pages, "unit": "col." if s.get("columns") else "p.",
+                             "url": scan_url(s["scan"]["item"], leaves[0])}
             block["uncertain"] = len(s.get("uncertain", []))
         return block
 
@@ -474,8 +480,8 @@ class SiteBuilder:
         the words the scans could not settle marked."""
         unc = d.get("uncertain", {})
         out = {"publication": [marked_runs(t, unc.get(f"publication.{i}", [])) for i, t in enumerate(d.get("publication", []))]}
-        for key in ("salutation", "signature"):
-            if d.get(key):
+        for key in ("salutation", "signature", "title"):
+            if d.get(key) and (key != "title" or key in unc):
                 out[key] = marked_runs(d[key], unc.get(key, []))
         return out
 
@@ -529,8 +535,11 @@ class SiteBuilder:
                     body = [s for s in segs if s.get("kind") != "footnote"]
                     notes = [s for s in segs if s.get("kind") == "footnote"]
                     pid = f"{wid}-{part_slug(work, d['ref'])}"
+                    columns = [c for s in body for c in s.get("columns", [])]
                     part = {
                         "attribution": self._attribution(d.get("attribution")),
+                        "columns": [columns[0], columns[-1]] if columns else None,
+                        "date": d.get("date"),
                         "label": d["label"],
                         "numeral": d.get("numeral"),
                         "passages": len(body),
@@ -555,7 +564,9 @@ class SiteBuilder:
                         "id": pid,
                         "kind": "part",
                         "notes": self._blocks(work, notes, ()),
-                        "title": f"{d['label']}" + (f": {d['title']}" if d.get("title") else ""),
+                        # A day of a debate in Congress is named by its date and house.
+                        "title": (f"The House, {d['label']}" if cfg["collection"] == "congress"
+                                  else f"{d['label']}" + (f": {d['title']}" if d.get("title") else "")),
                         "url": part["url"],
                         "work": self._work_ref(info),
                     }

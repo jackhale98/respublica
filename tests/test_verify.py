@@ -2,7 +2,7 @@ import unittest
 
 from tools.corpus import Corpus
 from tools.site_data import build_link_index
-from tools.verify import check_link
+from tools.verify import check_link, looks_like_markup
 
 
 def corpus() -> Corpus:
@@ -94,6 +94,17 @@ class OverruledFlag(unittest.TestCase):
         idx = build_link_index([link(status="rejected")], corpus())
         self.assertEqual(idx["by_ref"], {})
 
+
+
+class MarkupTests(unittest.TestCase):
+    def test_markup_is_caught_unless_inside_an_uncertain_word(self):
+        self.assertTrue(looks_like_markup("the <p class=x> text", []))
+        self.assertTrue(looks_like_markup("one </i> two", []))
+        text = "will not be a<l opted; but"
+        self.assertTrue(looks_like_markup(text, []))
+        self.assertFalse(looks_like_markup(text, [{"start": 12, "end": 22, "readings": {}}]))
+        # An uncertain word elsewhere in the passage does not excuse it.
+        self.assertTrue(looks_like_markup(text, [{"start": 0, "end": 4, "readings": {}}]))
 
 
 class RefsLockTests(unittest.TestCase):

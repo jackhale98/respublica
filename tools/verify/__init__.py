@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 from tools.common import (
-    LINKS_DIR, MANIFEST_PATH, RAW_DIR, ROOT, TEXTS_DIR, CASES_DIR, is_safe_url, load_manifest,
+    LINKS_DIR, MANIFEST_PATH, RAW_DIR, ROOT, TEXTS_DIR, CASES_DIR, UNTRACKED_RAW, is_safe_url, load_manifest,
     normalize_for_match, read_json, read_jsonl, sha256_file,
 )
 from tools.corpus import Corpus, load_corpus
@@ -88,6 +88,8 @@ def check_manifest() -> list[str]:
             errors.append(f"manifest {eid}: retrieved_at is not an ISO date")
         if not e["license"].strip():
             errors.append(f"manifest {eid}: license is empty")
+        if "auth_env" in e and not re.fullmatch(r"[A-Z][A-Z0-9_]*", str(e["auth_env"])):
+            errors.append(f"manifest {eid}: auth_env must name an environment variable, not hold a token")
         path = (ROOT / e["path"]).resolve()
         if RAW_DIR.resolve() not in path.parents:
             errors.append(f"manifest {eid}: path must be under sources/raw/")
@@ -103,13 +105,51 @@ def check_manifest() -> list[str]:
         for f in sorted(RAW_DIR.rglob("*")):
             if f.is_file() and f.name != ".gitkeep" and f.resolve() not in listed:
                 errors.append(f"sources/raw/{f.relative_to(RAW_DIR)} is not recorded in the manifest")
+    return errors + check_ocr_records({e["id"]: e for e in entries if "id" in e})
+
+
+OCR_RECORD_KEYS = {"command", "id", "images", "notes", "path", "sha256", "tools"}
+
+
+def check_ocr_records(raw: dict[str, dict]) -> list[str]:
+    """OCR we ran ourselves (sources/ocr/, decision 46): each output is
+    recorded with the tool and the raw page images it read, and matches
+    its sha256. Tesseract is never run here."""
+    from importers.ocr import OCR_DIR, OCR_MANIFEST
+    errors: list[str] = []
+    records = read_json(OCR_MANIFEST) if OCR_MANIFEST.exists() else []
+    listed = set()
+    for r in records:
+        rid = r.get("id", "?")
+        missing = OCR_RECORD_KEYS - r.keys()
+        if missing:
+            errors.append(f"sources/ocr {rid}: missing {sorted(missing)}")
+            continue
+        path = (ROOT / r["path"]).resolve()
+        listed.add(path)
+        if OCR_DIR.resolve() not in path.parents:
+            errors.append(f"sources/ocr {rid}: path must be under sources/ocr/")
+        elif not path.exists() or sha256_file(path) != r["sha256"]:
+            errors.append(f"sources/ocr {rid}: {r['path']} is missing or does not match its sha256 (rerun its OCR)")
+        images = r["images"]
+        src = raw.get(images.get("source"))
+        if src is None:
+            errors.append(f"sources/ocr {rid}: images come from {images.get('source')!r}, which is not in the manifest")
+        elif src["sha256"] != images.get("sha256"):
+            errors.append(f"sources/ocr {rid}: was read from a different file than {src['id']} (rerun its OCR)")
+        if not r["tools"] or not all(isinstance(v, str) and v for v in r["tools"].values()):
+            errors.append(f"sources/ocr {rid}: tools must name each package and its version")
+    if OCR_DIR.exists():
+        for f in sorted(OCR_DIR.iterdir()):
+            if f.is_file() and f != OCR_MANIFEST and f.resolve() not in listed:
+                errors.append(f"sources/ocr/{f.name} is not recorded in sources/ocr/manifest.json")
     return errors
 
 
 # ------------------------------------------------------------ texts
 
 
-SEGMENT_KINDS = {"footnote"}
+SEGMENT_KINDS = {"footnote", "syllabus"}
 POSITIONS = {"anti", "federalist", "other"}
 SCAN_ITEM = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{2,99}$")
 
@@ -133,6 +173,14 @@ def check_uncertain(where: str, text: str, spans: Any) -> list[str]:
         elif text[start:stop] not in readings.values():
             errors.append(f"{where}: {text[start:stop]!r} at {start} is not one of the scans' readings")
     return errors
+
+
+def looks_like_markup(text: str, uncertain: list[dict]) -> bool:
+    """A tag-like run ("<p ", "</i>") anywhere but inside a word marked
+    uncertain: there the text is a scan's reading kept for a person to check
+    ("a<l opted" for "adopted"), with the other scans' readings beside it."""
+    unsettled = [(u.get("start", 0), u.get("end", 0)) for u in uncertain]
+    return any(not any(a <= m.start() < b for a, b in unsettled) for m in re.finditer(r"</?[a-z]+[ >/]", text))
 
 
 def check_texts(corpus: Corpus) -> list[str]:
@@ -171,7 +219,7 @@ def check_texts(corpus: Corpus) -> list[str]:
                 continue
             if text != text.strip():
                 errors.append(f"{ref}: text has leading/trailing whitespace")
-            if re.search(r"</?[a-z]+[ >/]", text):
+            if looks_like_markup(text, s.get("uncertain", [])):
                 errors.append(f"{ref}: text looks like markup")
             if s.get("source_id") and s["source_id"] not in doc.get("source_ids", []):
                 errors.append(f"{ref}: source_id {s['source_id']} not listed in the work's source_ids")
@@ -201,7 +249,7 @@ def check_texts(corpus: Corpus) -> list[str]:
                 value = d.get(head)
                 if head == "publication" and isinstance(value, list) and idx.isdigit() and int(idx) < len(value):
                     value = value[int(idx)]
-                if head not in ("publication", "salutation", "signature") or not isinstance(value, str):
+                if head not in ("publication", "salutation", "signature", "title") or not isinstance(value, str):
                     errors.append(f"{d.get('ref')}: uncertain names an unknown field {field!r}")
                     continue
                 errors += check_uncertain(f"{d.get('ref')} {field}", value, spans)
@@ -212,30 +260,36 @@ def check_texts(corpus: Corpus) -> list[str]:
 
 
 def check_reproducible() -> list[str]:
-    """Every file in texts/ must be exactly what the importers produce from
-    sources/raw/. This is what keeps hand-typed text out of the corpus."""
+    """Every file in texts/ and cases/ must be exactly what the importers
+    produce from sources/raw/. This is what keeps hand-typed text out of the
+    corpus."""
     from importers import IMPORTERS
 
     errors: list[str] = []
+    produced: dict[Path, set[str]] = {TEXTS_DIR: set(), CASES_DIR: set()}
     with tempfile.TemporaryDirectory() as tmp:
-        out = Path(tmp)
-        produced: set[str] = set()
         for module in IMPORTERS:
+            final = getattr(module, "OUT_DIR", TEXTS_DIR)
+            out = Path(tmp) / final.name
+            out.mkdir(exist_ok=True)
             try:
                 paths = module.run(out)
             except Exception as exc:  # report, don't crash the whole run
                 errors.append(f"importer {module.__name__} failed: {exc}")
+                produced.pop(final, None)  # nothing to compare its directory against
                 continue
             for p in paths:
-                produced.add(p.name)
-                committed = TEXTS_DIR / p.name
+                produced.setdefault(final, set()).add(p.name)
+                committed = final / p.name
+                where = f"{final.name}/{p.name}"
                 if not committed.exists():
-                    errors.append(f"texts/{p.name} is missing (run make import)")
+                    errors.append(f"{where} is missing (run make import)")
                 elif committed.read_bytes() != p.read_bytes():
-                    errors.append(f"texts/{p.name} differs from importer output (run make import; never edit texts by hand)")
-        for f in sorted(TEXTS_DIR.glob("*.json")):
-            if f.name not in produced:
-                errors.append(f"texts/{f.name} is not produced by any importer")
+                    errors.append(f"{where} differs from importer output (run make import; never edit it by hand)")
+    for final, names in produced.items():
+        for f in sorted(final.glob("*.json")):
+            if f.name not in names:
+                errors.append(f"{final.name}/{f.name} is not produced by any importer")
     return errors
 
 
@@ -366,21 +420,34 @@ def check_refs_locked(corpus: Corpus) -> list[str]:
 RAW_FILE_BUDGET = 40 * 1024 * 1024
 RAW_TOTAL_BUDGET = 300 * 1024 * 1024
 DATA_FILE_BUDGET = 20 * 1024 * 1024
+# Raw files kept out of git (UNTRACKED_RAW) live in the CI cache, which GitHub
+# limits to 10 GB per repository.
+UNTRACKED_TOTAL_BUDGET = 1024 * 1024 * 1024
 
 
 def check_repo_budgets(corpus: Corpus) -> list[str]:
     errors = []
-    total = 0
+    total = untracked = 0
+    gitignore = (ROOT / ".gitignore").read_text(encoding="utf-8").splitlines() if (ROOT / ".gitignore").exists() else []
+    for pattern in UNTRACKED_RAW:
+        if f"sources/raw/{pattern}" not in gitignore:
+            errors.append(f".gitignore must list sources/raw/{pattern} (raw files kept out of git)")
     if RAW_DIR.exists():
         for f in RAW_DIR.rglob("*"):
             if f.is_file():
                 size = f.stat().st_size
+                if any(f.match(p) for p in UNTRACKED_RAW):
+                    untracked += size  # not in git: only the cache's total budget applies
+                    continue
                 total += size
                 if size > RAW_FILE_BUDGET:
                     errors.append(f"{f.relative_to(ROOT)} is {size // 2**20} MB; budget is "
                                   f"{RAW_FILE_BUDGET // 2**20} MB per raw file (prefer a text layer over scans)")
     if total > RAW_TOTAL_BUDGET:
-        errors.append(f"sources/raw totals {total // 2**20} MB; budget is {RAW_TOTAL_BUDGET // 2**20} MB")
+        errors.append(f"sources/raw totals {total // 2**20} MB in git; budget is {RAW_TOTAL_BUDGET // 2**20} MB")
+    if untracked > UNTRACKED_TOTAL_BUDGET:
+        errors.append(f"raw files kept out of git total {untracked // 2**20} MB; budget is "
+                      f"{UNTRACKED_TOTAL_BUDGET // 2**20} MB")
     for d in (TEXTS_DIR, CASES_DIR, LINKS_DIR):
         if d.exists():
             for f in d.rglob("*"):

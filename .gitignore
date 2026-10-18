@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 .DS_Store
 .wrangler/
+
+# Internet Archive scans of the Annals of Congress (DjVu XML and page images, over the 40 MB per-file budget): `make fetch` restores them (decision 46)
+sources/raw/ia-annals-*
