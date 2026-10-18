@@ -110,14 +110,9 @@ NOTE_MARK = re.compile(r"^\s*(?:[*•♦†‡§\\]|[f■]\s|■?j-|■?\)-)")
 EDITOR_NOTE = re.compile(r"(?:^|[\s—.-])(?:Ed|EJ|LJ|£d|£i/|E,i|Ed,)[.,]?\s*$")
 
 
-def classify(pages: list[Page], split_heads: bool = False) -> None:
+def classify(pages: list[Page]) -> None:
     """Split paragraphs OCR ran together, then mark running heads, folios and
-    footnotes on each page (in place).
-
-    `split_heads` also finds a running head OCR read as two blocks, or ran
-    into the paragraph below it. It is off for the books imported before it
-    existed: on one Ford page it would join two published paragraphs, which
-    needs a decision under rule 6 (docs/errata.md, 17)."""
+    footnotes on each page (in place)."""
     notes_continue = False  # the page before ended in a note
     for page in pages:
         if page.paras:
@@ -145,7 +140,7 @@ def classify(pages: list[Page], split_heads: bool = False) -> None:
         # OCR may run a head in capitals that begins or ends with the page
         # number into the paragraph below it ("SPIRIT OF THE PRESS. 383 the
         # instances adduced ..."): split it off.
-        if (split_heads and len(top.lines) > 1 and at_top and capitals and len(first_line.split()) <= 12
+        if (len(top.lines) > 1 and at_top and capitals and len(first_line.split()) <= 12
                 and re.search(r"^\S*\d{1,4}\S*\s|\s\S*\d{1,4}\S*$", first_line)):
             page.paras.insert(0, Para([top.lines[0]], top.leaf))
             top.lines = top.lines[1:]
@@ -157,7 +152,7 @@ def classify(pages: list[Page], split_heads: bool = False) -> None:
             page.folio = m.group(1) if m else None
             # The rest of a head OCR read as a separate block on the same
             # line ("1788.]" | "SPIRIT OF THE PRESS. 383").
-            if split_heads and len(page.paras) > 2:
+            if len(page.paras) > 2:
                 rest = page.paras[1]
                 y = top.lines[0].words[0].y0
                 if (len(rest.lines) == 1 and len(rest.text.split()) <= 12

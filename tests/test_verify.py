@@ -110,6 +110,23 @@ class RefsLockTests(unittest.TestCase):
             with mock.patch.object(refs, "LOCK_PATH", lock):
                 self.assertEqual(refs.missing_locked(corpus()), ["Constitution.1.8.99"])
 
+    def test_a_retired_ref_counts_only_while_its_passage_exists(self):
+        import tempfile
+        from pathlib import Path
+        from unittest import mock
+
+        from tools import refs
+
+        with tempfile.TemporaryDirectory() as tmp:
+            lock = Path(tmp) / "refs.lock"
+            lock.write_text("# header\nConstitution.1.8.99\n", encoding="utf-8")
+            c = corpus()
+            with mock.patch.object(refs, "LOCK_PATH", lock):
+                c.retired = {"Constitution.1.8.99": "Constitution.1.8.3"}
+                self.assertEqual(refs.missing_locked(c), [])
+                c.retired = {"Constitution.1.8.99": "Constitution.1.8.98"}
+                self.assertEqual(refs.missing_locked(c), ["Constitution.1.8.99"])
+
 
 if __name__ == "__main__":
     unittest.main()

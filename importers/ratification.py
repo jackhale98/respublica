@@ -55,7 +55,7 @@ class LoadedBook:
 def load_book(book_id: str) -> LoadedBook:
     book = BOOKS[book_id]
     pages = parse_djvu_xml(raw_path(book["primary"]))
-    classify(pages, book.get("split_heads", False))
+    classify(pages)
     offsets = Counter(p.leaf - int(p.folio) for p in pages if p.folio and p.folio.isdigit())
     _expect(bool(offsets), f"{book_id}: no printed page numbers found")
     refs = [Reference(name, read_raw_text(sid)) for name, sid in book["references"].items()]
@@ -372,6 +372,10 @@ def build(prepared: Prepared, known: set[str]) -> dict:
         return seg
 
     single = len(prepared.essays) == 1
+    retired = series.get("retired", {})
+    for ref, into in retired.items():
+        head, _, n = ref.rpartition(".")
+        _expect(into == f"{head}.{int(n) - 1}", f"{ref}: a retired paragraph merges into the one before it")
     for e in prepared.essays:
         # A single piece has refs {Slug}.{paragraph}; a series {Slug}.{essay}.{paragraph}.
         base = prefix if single else f"{prefix}.{e.id}"
@@ -403,14 +407,18 @@ def build(prepared: Prepared, known: set[str]) -> dict:
         if unsettled:
             div["uncertain"] = unsettled
         divisions.append(div)
-        for p, b in enumerate(e.body, 1):
+        # A paragraph number retired by a merge (docs/references.md, "Retired
+        # refs") is never reused: the paragraphs after it keep their numbers.
+        skip = {int(r.rsplit(".", 1)[1]) for r in retired if r.startswith(base + ".")}
+        numbers = (n for n in range(1, len(e.body) + len(skip) + 1) if n not in skip)
+        for p, b in zip(numbers, e.body):
             segments.append(segment(f"{base}.{p}", f"{label}, ¶ {p}", b))
         for k, b in enumerate(e.notes, 1):
             segments.append(segment(f"{base}.fn{k}", f"{label}, note {k}", b, "footnote"))
     attribution = {"source": f"{bookdef['short']}, title page of the section", **series["attribution"]}
     for d in divisions:
         d["attribution"] = attribution
-    return {
+    doc = {
         "attribution": attribution,
         "date": series.get("date"),
         "divisions": divisions,
@@ -426,6 +434,10 @@ def build(prepared: Prepared, known: set[str]) -> dict:
         "source_ids": [bookdef["primary"], *bookdef["references"].values()],
         "title": series["title"],
     }
+    if retired:
+        doc["retired"] = [{"merged_into": into, "reason": series["retired_reason"], "ref": ref}
+                          for ref, into in sorted(retired.items())]
+    return doc
 
 
 def run(out_dir: Path = TEXTS_DIR) -> list[Path]:

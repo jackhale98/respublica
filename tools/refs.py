@@ -5,8 +5,10 @@
 The lock is append-only: this tool never removes a ref. `make verify`
 fails if any locked ref no longer exists in texts/ or cases/, because
 published refs are never renumbered or dropped (CLAUDE.md rule 6). A
-ref that must be retired goes through docs/errata.md and a decision in
-docs/decisions.md, and a human edits the lock.
+ref retired by a correction (two passages that were one, joined after a
+decision in docs/decisions.md) stays in the lock: its work lists it under
+`retired` with the passage it was merged into, which must exist, and the
+site keeps its URL pointing there. Its number is never reused.
 """
 
 from __future__ import annotations
@@ -36,6 +38,7 @@ def current_refs(corpus: Corpus) -> set[str]:
 
 def missing_locked(corpus: Corpus) -> list[str]:
     have = current_refs(corpus)
+    have |= {r for r, into in corpus.retired.items() if into in have and r not in have}
     return sorted(r for r in read_lock() if r not in have)
 
 

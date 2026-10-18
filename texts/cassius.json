@@ -584,6 +584,13 @@
   "id": "cassius",
   "position": "federalist",
   "ref_prefix": "Cassius",
+  "retired": [
+    {
+      "merged_into": "Cassius.4.4",
+      "reason": "One paragraph imported as two, split at the page's running head; joined, at the project owner's decision (docs/errata.md 17, docs/decisions.md 35).",
+      "ref": "Cassius.4.5"
+    }
+  ],
   "segments": [
     {
       "label": "Cassius 1, ¶ 1",
@@ -1216,32 +1223,24 @@
     {
       "label": "Cassius 4, ¶ 4",
       "pages": [
-        "1"
+        "1",
+        "17"
       ],
       "ref": "Cassius.4.4",
       "scan": {
         "item": "essaysonconstitu00forduoft",
         "leaves": [
-          28
-        ]
-      },
-      "text": "Vox Populi requests the inhabitants of Massachusetts \" to pay that attention to the federal constitution which the importance of its nature demands;\" and informs them, that they \" have hazarded their lives and fortunes (by the way, a wonderful piece of news) to establish a government founded on the principles of genuine civil liberty,\" &c. I join with him in his request. And am confident if that attention which is requisite is paid to the proposed plan of federal government, that it will meet with the hearty approbation of every well wisher to the freedom and happiness of his country. It is true, that the inhabitants of America have hazarded their lives and fortunes to establish a free and efficient government ; but will Vox Populi, that moon-light prophet, pretend to say that such a government is at present established? Vox Populi goes on to inform us, that, by adopting the new plan of government, we shall make inroads on the constitution of this State, which he seems to think will be sacrilegious. His narrow and contracted ideas, his weak, absurd, and contemptible arguments, discover him to be possessed of a mind clouded with the gloom of ignorance, and thick with the grossest absurdity. Strange it is, that that babbler should suppose it unjustifiable for the people to alter or amend, or even entirely abolish, what they themselves have established. But says Vox Populi, perhaps the new plan will not have the same number to approbate it, that the constitution of this State had. Perhaps Vox Populi will be hung for high treason. There is, in my opinion, as much probability in the latter perhaps, as in the former. Pray, Mr. Vox Populi, if I may be so bold, what reason have you to judge that there will not be so many for adopting the constitution proposed by the convention, as there were for adopting the constitution of this State some years ago? Do you suppose the inhabitants of Massachusetts have depreciated in their understanding? or do you suppose that the sublimity of your jargon has blinded them with"
-    },
-    {
-      "label": "Cassius 4, ¶ 5",
-      "pages": [],
-      "ref": "Cassius.4.5",
-      "scan": {
-        "item": "essaysonconstitu00forduoft",
-        "leaves": [
+          28,
           29
         ]
       },
-      "text": "17 respect to their best interests? If you suppose the former, I think you have not been much conversant with them of late, or that your intellects are something defective. If you suppose the latter, in my opinion, you are no better than a downright Fool,"
+      "text": "Vox Populi requests the inhabitants of Massachusetts \" to pay that attention to the federal constitution which the importance of its nature demands;\" and informs them, that they \" have hazarded their lives and fortunes (by the way, a wonderful piece of news) to establish a government founded on the principles of genuine civil liberty,\" &c. I join with him in his request. And am confident if that attention which is requisite is paid to the proposed plan of federal government, that it will meet with the hearty approbation of every well wisher to the freedom and happiness of his country. It is true, that the inhabitants of America have hazarded their lives and fortunes to establish a free and efficient government ; but will Vox Populi, that moon-light prophet, pretend to say that such a government is at present established? Vox Populi goes on to inform us, that, by adopting the new plan of government, we shall make inroads on the constitution of this State, which he seems to think will be sacrilegious. His narrow and contracted ideas, his weak, absurd, and contemptible arguments, discover him to be possessed of a mind clouded with the gloom of ignorance, and thick with the grossest absurdity. Strange it is, that that babbler should suppose it unjustifiable for the people to alter or amend, or even entirely abolish, what they themselves have established. But says Vox Populi, perhaps the new plan will not have the same number to approbate it, that the constitution of this State had. Perhaps Vox Populi will be hung for high treason. There is, in my opinion, as much probability in the latter perhaps, as in the former. Pray, Mr. Vox Populi, if I may be so bold, what reason have you to judge that there will not be so many for adopting the constitution proposed by the convention, as there were for adopting the constitution of this State some years ago? Do you suppose the inhabitants of Massachusetts have depreciated in their understanding? or do you suppose that the sublimity of your jargon has blinded them with respect to their best interests? If you suppose the former, I think you have not been much conversant with them of late, or that your intellects are something defective. If you suppose the latter, in my opinion, you are no better than a downright Fool,"
     },
     {
       "label": "Cassius 4, ¶ 6",
-      "pages": [],
+      "pages": [
+        "17"
+      ],
       "ref": "Cassius.4.6",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -1253,7 +1252,9 @@
     },
     {
       "label": "Cassius 4, ¶ 7",
-      "pages": [],
+      "pages": [
+        "17"
+      ],
       "ref": "Cassius.4.7",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -1265,7 +1266,9 @@
     },
     {
       "label": "Cassius 4, ¶ 8",
-      "pages": [],
+      "pages": [
+        "17"
+      ],
       "ref": "Cassius.4.8",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -1277,7 +1280,9 @@
     },
     {
       "label": "Cassius 4, ¶ 9",
-      "pages": [],
+      "pages": [
+        "17"
+      ],
       "ref": "Cassius.4.9",
       "scan": {
         "item": "essaysonconstitu00forduoft",
@@ -1290,6 +1295,7 @@
     {
       "label": "Cassius 4, ¶ 10",
       "pages": [
+        "17",
         "1"
       ],
       "ref": "Cassius.4.10",
@@ -1400,7 +1406,9 @@
     {
       "kind": "footnote",
       "label": "Cassius 4, note 1",
-      "pages": [],
+      "pages": [
+        "17"
+      ],
       "ref": "Cassius.4.fn1",
       "scan": {
         "item": "essaysonconstitu00forduoft",

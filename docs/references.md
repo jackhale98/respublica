@@ -117,6 +117,23 @@ Essays and letters imported by `importers/ratification.py` (series listed in
   `PlainDealer`, `WilliamsonRemarks`, `SteadyAndOpenRepublican`,
   `WilliamsLetter`. `Brutus` is reserved for Brutus's essays.
 
+## Retired refs
+
+When a correction joins two passages that were wrongly imported as one
+(a paragraph split at a page break, for example), the second ref is
+**retired**, never reused, and the passages after it keep their numbers:
+`Cassius.4.5` was merged into `Cassius.4.4`, and Cassius IV goes on from
+`Cassius.4.6`. A correction like this needs an erratum and a decision by the
+project owner (`docs/decisions.md` 35).
+
+- The work's file lists it: `"retired": [{"ref", "merged_into", "reason"}]`,
+  written by the importer from its configuration.
+- It stays in `refs.lock`. `make verify` accepts it there only while the
+  passage it was merged into exists, and fails if the ref is used again.
+- Links may not point at it.
+- Its URL still works: the site keeps an anchor with its id inside the
+  passage it was merged into (`/cassius/4/#Cassius.4.5`).
+
 ## Cases (planned)
 
 `Case.{courtlistener_cluster_id}` for a whole case and

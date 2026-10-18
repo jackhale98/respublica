@@ -454,3 +454,19 @@ and three essays missing. Brutus V–XVI wait on a source of that quality.
   would join two published paragraphs of Cassius IV (erratum 17). A
   capitalized word and a period alone at the foot of a page ("Brutus.") is
   a signature, not a page number.
+
+## 35. Joining a split paragraph: retired refs
+
+The layout rule for running heads read as two blocks (decision 34) also
+finds one in Ford's *Essays*, p. 17, where Cassius IV's fourth paragraph had
+been imported as two (`Cassius.4.4` ending "blinded them with", `Cassius.4.5`
+beginning "17 respect …"). At the project owner's decision the rule now
+applies to every book, and the paragraph is whole again.
+
+Rule 6 still holds: no ref is renumbered. `Cassius.4.5` is **retired**: the
+work lists it with the passage it was merged into and why, the number is
+never reused, the paragraphs after it keep their refs (`Cassius.4.6` …),
+it stays in `refs.lock`, and its URL leads to an anchor inside
+`Cassius.4.4`. Nothing linked to it. The mechanism is general
+(`docs/references.md`, "Retired refs"), but each use needs an erratum and a
+decision like this one.

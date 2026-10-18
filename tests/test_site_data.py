@@ -36,6 +36,8 @@ class SiteStructureTests(unittest.TestCase):
         self.assertEqual(self.refs["Federalist.10.4"]["url"], "/federalist/10/#Federalist.10.4")
         self.assertEqual(self.refs["Federalist.6.fn1"]["url"], "/federalist/6/#Federalist.6.fn1")
         self.assertEqual(self.refs["Caution"]["url"], "/caution/")  # a single piece is its own page
+        # A retired ref keeps a URL, an anchor inside the passage it was merged into.
+        self.assertEqual(self.refs["Cassius.4.5"]["url"], "/cassius/4/#Cassius.4.5")
 
     def test_every_segment_has_a_url(self):
         for ref in self.corpus.segments:

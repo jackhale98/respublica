@@ -312,6 +312,10 @@ class SiteBuilder:
                     self.ref_urls[s["ref"]] = f"{base}{part_slug(work, top['ref'])}/#{s['ref']}"
                 else:
                     self.ref_urls[s["ref"]] = f"{base}#{s['ref']}"
+        # A retired ref's URL is its own anchor, inside the passage it was merged into.
+        for ref, into in self.corpus.retired.items():
+            if into in self.ref_urls:
+                self.ref_urls[ref] = self.ref_urls[into].rsplit("#", 1)[0] + f"#{ref}"
 
     def url_for(self, ref: str) -> str | None:
         """URL of any ref. A parent ref with no division of its own (rare)
@@ -355,6 +359,9 @@ class SiteBuilder:
         }
         if s.get("kind"):
             block["kind"] = s["kind"]
+        aliases = sorted(r for r, into in self.corpus.retired.items() if into == s["ref"])
+        if aliases:
+            block["aliases"] = aliases  # retired refs merged into this passage keep an anchor here
         if s.get("scan"):
             leaves = s["scan"]["leaves"]
             pages = s.get("pages", [])

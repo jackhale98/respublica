@@ -362,10 +362,11 @@ document.querySelector("[data-size-toggle]")?.addEventListener("click", () => {
 
 // ---------------------------------------------------------------- initial
 
-const fromHash = decodeURIComponent(location.hash.slice(1));
-const initial = fromHash ? document.getElementById(fromHash) : null;
-if (initial?.classList.contains("passage")) select(initial, { hash: false });
+// A retired ref's anchor sits inside the passage it was merged into.
+const passageFor = (id: string) => (id ? document.getElementById(id)?.closest<HTMLElement>(".passage") : null) ?? null;
+const initial = passageFor(decodeURIComponent(location.hash.slice(1)));
+if (initial) select(initial, { hash: false });
 window.addEventListener("hashchange", () => {
-  const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
-  if (el?.classList.contains("passage") && el !== selected) select(el, { hash: false });
+  const el = passageFor(decodeURIComponent(location.hash.slice(1)));
+  if (el && el !== selected) select(el, { hash: false });
 });

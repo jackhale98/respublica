@@ -180,3 +180,12 @@ mention at `high`) and 4 doubtful (a section number without its article, a
 quotation describing a Convention draft rather than the signed text, a
 rationale explaining a clause, and a response named only in the paper's
 note); all eight were removed or corrected before publishing.
+
+**Brutus.** After Brutus I–IV were imported (decision 34), nine more runs
+linked them (`deb-brutus-1` … `-4`) and the essays that name Brutus
+(`deb-brutus-in-{source}`: Cato V, Centinel III, IX and XIV, A Countryman
+II), proposing 45 links. The same check covered all 45: one was removed (a
+low-confidence link to the Declaration from Brutus II, whose "most solemn
+declarations" may mean the state declarations of rights) and one rationale
+reworded. Run 2 now stands at 454 links: 367 to 75 clauses, 2 to the
+Declaration, 85 between essays.

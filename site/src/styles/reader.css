@@ -86,6 +86,8 @@
   scroll-margin-top: calc(var(--header-h) + 1.5rem);
   transition: background-color .15s ease, box-shadow .15s ease;
 }
+/* Anchor of a retired ref merged into this passage (docs/references.md). */
+.passage .alias { position: absolute; top: 0; left: 0; width: 0; height: 0; scroll-margin-top: calc(var(--header-h) + 1.5rem); }
 .passage .num {
   grid-column: 1; grid-row: 1;
   justify-self: end;

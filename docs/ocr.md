@@ -61,11 +61,9 @@ proportionally more uncertain words.
    - *Running heads*: a short single line at the top of the page that holds a
      page number, is set in capitals, or repeats (letters only) the top line
      of a nearby page. The page number in it, when read, becomes the page's
-     printed number. For books marked `split_heads` (the 1856 *Debates*), a
-     head OCR read as two blocks on one line ("1788.]" | "SPIRIT OF THE
-     PRESS. 383") or ran into the paragraph below it is also set aside. The
-     books imported earlier do not use this: on one Ford page it would join
-     two published paragraphs (erratum 17), which needs a decision first.
+     printed number. A head OCR read as two blocks on one line ("1788.]" |
+     "SPIRIT OF THE PRESS. 383"), or ran into the paragraph below it, is
+     also set aside.
    - *Folios*: a page number at the foot ("( 247 )"), or any line of a few
      characters alone at the very bottom (OCR reads small figures as "('56)"),
      unless it is a capitalized word and a period (a signature, "Brutus.").

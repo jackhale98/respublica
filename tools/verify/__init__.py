@@ -151,6 +151,16 @@ def check_texts(corpus: Corpus) -> list[str]:
             if sid not in source_ids:
                 errors.append(f"{name}: source_id {sid} is not in the manifest")
         prefix = doc.get("ref_prefix", "") + "."
+        own = {s.get("ref") for s in doc.get("segments", [])}
+        for r in doc.get("retired", []):
+            # A retired ref is never reused, and points at a passage of the same work.
+            if r.get("ref") in corpus.segments or r.get("ref") in corpus.divisions:
+                errors.append(f"{name}: retired ref {r.get('ref')} is in use")
+            if r.get("merged_into") not in own:
+                errors.append(f"{name}: retired ref {r.get('ref')} merged into {r.get('merged_into')!r}, "
+                              "which is not a passage of this work")
+            if not str(r.get("ref", "")).startswith(prefix) or not str(r.get("reason", "")).strip():
+                errors.append(f"{name}: retired ref {r.get('ref')!r} needs this work's prefix and a reason")
         for s in doc.get("segments", []):
             ref = s.get("ref", "")
             if not REF.match(ref) or not ref.startswith(prefix):

@@ -16,6 +16,7 @@ class Corpus:
     segment_work: dict[str, str] = field(default_factory=dict)  # ref -> work id
     divisions: dict[str, dict] = field(default_factory=dict)   # ref -> division
     duplicate_refs: list[str] = field(default_factory=list)
+    retired: dict[str, str] = field(default_factory=dict)       # retired ref -> the ref it was merged into
     prefixes: set[str] = field(default_factory=set)            # every dot-boundary prefix of a segment ref
 
     def exists(self, ref: str) -> bool:
@@ -41,6 +42,8 @@ def load_corpus(texts_dir: Path = TEXTS_DIR, cases_dir: Path = CASES_DIR) -> Cor
         c.files[wid] = path
         for d in doc.get("divisions", []):
             c.divisions[d["ref"]] = d
+        for r in doc.get("retired", []):
+            c.retired[r["ref"]] = r["merged_into"]
         for s in doc.get("segments", []):
             ref = s.get("ref")
             if ref in c.segments:
