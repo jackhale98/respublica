@@ -1,14 +1,20 @@
-"""Find candidate Federalist -> Constitution citations, for a linker to judge.
+"""Find candidate links for a linker to judge (docs/linking.md).
 
-    python -m tools.candidates --paper 10        # JSON candidates for one paper
+    python -m tools.candidates --paper 10        # one Federalist paper
+    python -m tools.candidates --ref Cato.3      # any essay, work or passage
 
-Two signals, both from code:
-  * overlap: a run of words a Federalist paragraph shares with a clause of the
-    Constitution (case-insensitive) that contains enough distinctive words
-    (outside the 300 most common in The Federalist) to suggest a quotation;
+Three signals, all from code:
+  * overlap: a run of words a passage shares with a clause of the
+    Constitution or a paragraph of the Declaration of Independence
+    (case-insensitive) that contains enough distinctive words (outside the
+    300 most common in The Federalist) to suggest a quotation;
   * structural: wording such as "the second section of the first article",
     which a linker must resolve by reading the paragraph (it may refer to the
-    Articles of Confederation, not the Constitution).
+    Articles of Confederation, not the Constitution);
+  * mention: the name of another writer or series in the library ("Cato",
+    "the Federal Farmer", "Publius", "Mr. Martin"), with the series it may
+    point to and its dates, for possible `responds_to`, `cites` or `quotes`
+    links between essays.
 
 Candidates are hints. Only a linker's judgment, recorded with a rationale
 through `python -m tools.links propose`, makes a suggested link.
@@ -26,7 +32,28 @@ from difflib import SequenceMatcher
 from tools.corpus import Corpus, load_corpus
 
 WORD = re.compile(r"[A-Za-z0-9]+")
-CLAUSE_REF = re.compile(r"^Constitution\.(\d+\.\d+(\.\d+)?|Preamble)$")
+CLAUSE_REF = re.compile(r"^(?:Constitution\.(\d+\.\d+(\.\d+)?|Preamble)|Declaration\.\d+)$")
+# Names that point at a writer or series in the library -> its ref prefix.
+# Ambiguous ones ("Caution", "Remarks") are left out; a linker reads the text.
+MENTIONS = [
+    (re.compile(r"\b(?:Cato|CATO)\b"), "Cato"),
+    (re.compile(r"\bC(?:ae|æ|Æ|AE)sar\b", re.I), "Caesar"),
+    (re.compile(r"\bCentinel\b", re.I), "Centinel"),
+    (re.compile(r"\bAgrippa\b", re.I), "Agrippa"),
+    (re.compile(r"\b(?:Brutus|BRUTUS)\b"), "Brutus"),
+    (re.compile(r"\bFederal\s+Farmer\b", re.I), "FederalFarmer"),
+    (re.compile(r"\bLand-?holder\b", re.I), "Landholder"),
+    (re.compile(r"\b(?:Cassius|CASSIUS)\b"), "Cassius"),
+    (re.compile(r"\b(?:Sydney|SYDNEY)\b"), "Sydney"),
+    (re.compile(r"\b(?:Countryman|COUNTRYMAN)\b"), "Countryman"),
+    (re.compile(r"\bCitizen of New[- ]Haven\b", re.I), "CitizenOfNewHaven"),
+    (re.compile(r"\bPlain\s+Dealer\b", re.I), "PlainDealer"),
+    (re.compile(r"\bFriend to the Constitution\b", re.I), "FriendToTheConstitution"),
+    (re.compile(r"\b(?:Luther\s+)?Martin\b"), "LutherMartin"),
+    (re.compile(r"\bGerry\b"), "GerryReply"),
+    (re.compile(r"\b(?:Publius|PUBLIUS|Federalist|FEDERALIST)\b"), "Federalist"),
+    (re.compile(r"\bDeclaration of Independence\b", re.I), "Declaration"),
+]
 ORDINAL = r"(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|last|\d+(?:st|nd|rd|th)?)"
 STRUCTURAL = re.compile(
     rf"\b(?:{ORDINAL}(?:\s+and\s+{ORDINAL})?\s+(?:clauses?|sections?|articles?|paragraphs?)\b"
@@ -117,17 +144,46 @@ def structural(seg: dict) -> list[dict]:
     return out
 
 
+def mentions(corpus: Corpus, seg: dict) -> list[dict]:
+    """Names of other writers or series in the passage, with where they are."""
+    own = seg["ref"].split(".")[0]
+    out = []
+    for pattern, prefix in MENTIONS:
+        if prefix == own:
+            continue
+        found = list(pattern.finditer(seg["text"]))
+        if found:  # one candidate per series per passage, with the first mention
+            m = found[0]
+            work = next((d for d in corpus.works.values() if d.get("ref_prefix") == prefix), None)
+            out.append({
+                "count": len(found),
+                "context": seg["text"][max(0, m.start() - 120):m.end() + 160],
+                "from": seg["ref"],
+                "in_library": work is not None,
+                "kind": "mention",
+                "mention": m.group(0),
+                "series": prefix,
+                "series_dates": work.get("date") if work else None,
+            })
+    return out
+
+
 def candidates_for_paper(corpus: Corpus, paper: int) -> list[dict]:
+    return candidates_for(corpus, f"Federalist.{paper}")
+
+
+def candidates_for(corpus: Corpus, ref: str) -> list[dict]:
+    """Candidates for every passage under `ref` (an essay, a work, a passage)."""
     clauses = clause_segments(corpus)
     _clause_text.update({r: s["text"] for r, s in clauses.items()})
     index, ctoks = ngram_index(clauses)
     common = common_words(corpus)
-    prefix = f"Federalist.{paper}."
     out: list[dict] = []
-    for ref, seg in corpus.segments.items():
-        if ref.startswith(prefix):
+    for r, seg in corpus.segments.items():
+        if r == ref or r.startswith(ref + "."):
             out.extend(overlaps(seg, index, ctoks, common))
             out.extend(structural(seg))
+            out.extend(mentions(corpus, seg))
     # Keep the longest overlap per (paragraph, clause).
     best: dict[tuple, dict] = {}
     rest = []
@@ -143,9 +199,13 @@ def candidates_for_paper(corpus: Corpus, paper: int) -> list[dict]:
 
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="python -m tools.candidates")
-    p.add_argument("--paper", type=int, required=True)
+    g = p.add_mutually_exclusive_group(required=True)
+    g.add_argument("--paper", type=int, help="a Federalist paper number")
+    g.add_argument("--ref", help="any essay, work or passage ref (Cato.3, Caution, Federalist.67)")
     args = p.parse_args(argv)
-    print(json.dumps(candidates_for_paper(load_corpus(), args.paper), indent=2, ensure_ascii=False))
+    corpus = load_corpus()
+    found = candidates_for_paper(corpus, args.paper) if args.paper else candidates_for(corpus, args.ref)
+    print(json.dumps(found, indent=2, ensure_ascii=False))
     return 0
 
 

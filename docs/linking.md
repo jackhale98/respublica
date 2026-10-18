@@ -91,3 +91,59 @@ recap of a conclusion reached in an earlier paper.
 the clause: the words it quotes, or the number or name it uses. Do not explain
 what the clause means, whether the paper's reading of it is right, or how
 courts have read it.
+
+## Run 2: the ratification debate (phase 6)
+
+One run per essay (or per single piece): batch `deb-{work}-{essay}` (for
+example `deb-cato-3`, `deb-landholder-10b`, `deb-caution`), run id
+`deb-{work}-{essay}-{date}`. A second set of runs covers The Federalist's
+references to debate writers: batch `fed-deb-{n}`.
+
+Use `python3 -m tools.show Cato.3` (it prints the essay's newspaper, date,
+address and signature as well as its paragraphs) and
+`python3 -m tools.candidates --ref Cato.3`.
+
+**Three kinds of link, all from the essay's own text:**
+
+1. **Essay → the Constitution** (`quotes`, `cites`): exactly as in run 1.
+   The essays were written about the Constitution as signed in 1787, so never
+   link to an amendment. The essays also discuss the Articles of
+   Confederation, state constitutions and the plans of the Convention; none of
+   those is a link.
+2. **Essay → the Declaration of Independence** (`quotes`, `cites`): when the
+   paragraph quotes the Declaration's words ("unalienable rights", "consent
+   of the governed" used as a quotation, not as a common phrase) or names it.
+   Target the paragraph quoted (`Declaration.2`). Never `interprets`.
+3. **Essay → another essay or The Federalist** (`responds_to`, `rebuts`,
+   `cites`, `quotes`): when the text itself names the other writer or piece.
+   - `responds_to`: the essay answers a named writer or piece ("a writer
+     under the signature of CAESAR, in Mr. Child's paper", a letter addressed
+     "To the Honourable Luther Martin").
+   - `rebuts`: only when the paragraph explicitly sets out to refute a
+     specific argument of the other writer, which it states.
+   - `cites`: the paragraph refers the reader to the other piece ("See
+     CATO, No. V.").
+   - `quotes`: the paragraph reproduces the other writer's words, and they are
+     in the library: `to_quote` must be found in the target passage, so find
+     the passage with `tools.show` first.
+   - Target the most specific ref the text supports: a paragraph if it quotes
+     one, an essay (`Caesar.1`) if it names or dates one, the series
+     (`Caesar`) if it names only the writer.
+   - A response must come after what it answers: check the dates printed in
+     each essay's heading (and `series_dates` in the candidates).
+   - Writers or pieces not in the library (Gerry's objections, Wilson's
+     speech, Mason's objections, Brutus if not imported) are not links.
+
+**Never link from an editor's note.** Notes ending "— Ed." (in any OCR form:
+"Ed.", "EJ.", "£d.") are Paul Leicester Ford's or McMaster and Stone's, not
+the essay's, even when they say what the essay answers. Notes by the essay's
+author (the Landholder's own notes, for example) can be linked from.
+
+**Uncertain words.** Texts read from scans mark words the scans disagree on
+(`uncertain`). A quote may include them (it is copied from the passage as
+it stands), but say so in the rationale if the link depends on one.
+
+Confidence and rationale follow run 1. For links between essays: `high` when
+the text names the writer or piece and the target is unambiguous; `medium`
+when it names the writer but the essay meant has to be worked out from dates
+or subject; `low` only with a stated doubt.

@@ -1,6 +1,6 @@
 import unittest
 
-from tools.candidates import STRUCTURAL, candidates_for_paper
+from tools.candidates import STRUCTURAL, candidates_for, candidates_for_paper
 from tools.corpus import load_corpus
 
 
@@ -25,6 +25,13 @@ class CandidateTests(unittest.TestCase):
                      "the second clause of the sixth article",
                      "1st clause, 4th section, of the 1st article"):
             self.assertTrue(STRUCTURAL.search(text), text)
+
+    def test_mentions_of_other_writers(self):
+        found = {(c["from"], c["series"]) for c in candidates_for(self.corpus, "Federalist.67") if c["kind"] == "mention"}
+        self.assertIn(("Federalist.67.fn1", "Cato"), found)
+        cato = [c for c in candidates_for(self.corpus, "Cato.2") if c["kind"] == "mention"]
+        self.assertTrue(any(c["series"] == "Caesar" for c in cato))
+        self.assertFalse(any(c["series"] == "Cato" for c in cato))  # not its own series
 
 
 if __name__ == "__main__":

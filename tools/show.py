@@ -18,6 +18,11 @@ def main(refs: list[str]) -> int:
         if ref in corpus.divisions:
             d = corpus.divisions[ref]
             print(f"# {d.get('label', ref)}" + (f": {d['title']}" if d.get("title") else ""))
+            # Essays of the debate: their printed heading lines, address and signature.
+            for key in ("publication", "salutation", "signature"):
+                v = d.get(key)
+                if v:
+                    print(f"  {key}: {' / '.join(v) if isinstance(v, list) else v}")
         passages = corpus.passages(ref)
         if not passages:
             print(f"(no passages for {ref})")
