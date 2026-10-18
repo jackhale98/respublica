@@ -29,11 +29,11 @@ TEXTS_DIR = ROOT / "texts"
 CASES_DIR = ROOT / "cases"
 LINKS_DIR = ROOT / "links"
 
-# Raw files too large for git (the U.S. Reports scans, decision 46; the Annals
-# of Congress scans' DjVu XML, decision 47): recorded
+# Raw files too large for git (the U.S. Reports scans, decision 47; the Annals
+# of Congress scans' DjVu XML, decision 46): recorded
 # in the manifest like any other, listed in .gitignore, restored by `make fetch`
 # and cached in CI.
-UNTRACKED_RAW = ("loc-usrep-*.pdf", "ia-annals-*.xml")
+UNTRACKED_RAW = ("loc-usrep-*.pdf", "ia-annals-*")
 
 USER_AGENT = "ResPublicaFetcher/0.1 (+https://respublicalibrary.org)"
 ALLOWED_SCHEMES = ("http", "https")

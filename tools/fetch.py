@@ -39,7 +39,7 @@ def _save_manifest(entries: list[dict]) -> None:
 
 def _guess_ext(url: str) -> str:
     suffix = Path(urllib.parse.urlsplit(url).path).suffix.lower()
-    return suffix if suffix in (".txt", ".html", ".htm", ".json", ".xml", ".pdf") else ".html"
+    return suffix if suffix in (".txt", ".html", ".htm", ".json", ".xml", ".pdf", ".zip") else ".html"
 
 
 def add_source(source_id: str, url: str, license: str, notes: str = "", ext: str | None = None,
@@ -72,6 +72,11 @@ def add_source(source_id: str, url: str, license: str, notes: str = "", ext: str
         entry["auth_env"] = auth_env
     if post is not None:
         entry["post"] = post
+    # Read the manifest again: a download can wait hours on a rate limit,
+    # and other sources may have been recorded meanwhile.
+    entries = load_manifest()
+    if any(e["id"] == source_id for e in entries):
+        raise ValueError(f"{source_id} is already in the manifest")
     entries.append(entry)
     _save_manifest(entries)
     return entry

@@ -105,6 +105,44 @@ def check_manifest() -> list[str]:
         for f in sorted(RAW_DIR.rglob("*")):
             if f.is_file() and f.name != ".gitkeep" and f.resolve() not in listed:
                 errors.append(f"sources/raw/{f.relative_to(RAW_DIR)} is not recorded in the manifest")
+    return errors + check_ocr_records({e["id"]: e for e in entries if "id" in e})
+
+
+OCR_RECORD_KEYS = {"command", "id", "images", "notes", "path", "sha256", "tools"}
+
+
+def check_ocr_records(raw: dict[str, dict]) -> list[str]:
+    """OCR we ran ourselves (sources/ocr/, decision 46): each output is
+    recorded with the tool and the raw page images it read, and matches
+    its sha256. Tesseract is never run here."""
+    from importers.ocr import OCR_DIR, OCR_MANIFEST
+    errors: list[str] = []
+    records = read_json(OCR_MANIFEST) if OCR_MANIFEST.exists() else []
+    listed = set()
+    for r in records:
+        rid = r.get("id", "?")
+        missing = OCR_RECORD_KEYS - r.keys()
+        if missing:
+            errors.append(f"sources/ocr {rid}: missing {sorted(missing)}")
+            continue
+        path = (ROOT / r["path"]).resolve()
+        listed.add(path)
+        if OCR_DIR.resolve() not in path.parents:
+            errors.append(f"sources/ocr {rid}: path must be under sources/ocr/")
+        elif not path.exists() or sha256_file(path) != r["sha256"]:
+            errors.append(f"sources/ocr {rid}: {r['path']} is missing or does not match its sha256 (rerun its OCR)")
+        images = r["images"]
+        src = raw.get(images.get("source"))
+        if src is None:
+            errors.append(f"sources/ocr {rid}: images come from {images.get('source')!r}, which is not in the manifest")
+        elif src["sha256"] != images.get("sha256"):
+            errors.append(f"sources/ocr {rid}: was read from a different file than {src['id']} (rerun its OCR)")
+        if not r["tools"] or not all(isinstance(v, str) and v for v in r["tools"].values()):
+            errors.append(f"sources/ocr {rid}: tools must name each package and its version")
+    if OCR_DIR.exists():
+        for f in sorted(OCR_DIR.iterdir()):
+            if f.is_file() and f != OCR_MANIFEST and f.resolve() not in listed:
+                errors.append(f"sources/ocr/{f.name} is not recorded in sources/ocr/manifest.json")
     return errors
 
 
@@ -135,6 +173,14 @@ def check_uncertain(where: str, text: str, spans: Any) -> list[str]:
         elif text[start:stop] not in readings.values():
             errors.append(f"{where}: {text[start:stop]!r} at {start} is not one of the scans' readings")
     return errors
+
+
+def looks_like_markup(text: str, uncertain: list[dict]) -> bool:
+    """A tag-like run ("<p ", "</i>") anywhere but inside a word marked
+    uncertain: there the text is a scan's reading kept for a person to check
+    ("a<l opted" for "adopted"), with the other scans' readings beside it."""
+    unsettled = [(u.get("start", 0), u.get("end", 0)) for u in uncertain]
+    return any(not any(a <= m.start() < b for a, b in unsettled) for m in re.finditer(r"</?[a-z]+[ >/]", text))
 
 
 def check_texts(corpus: Corpus) -> list[str]:
@@ -173,7 +219,7 @@ def check_texts(corpus: Corpus) -> list[str]:
                 continue
             if text != text.strip():
                 errors.append(f"{ref}: text has leading/trailing whitespace")
-            if re.search(r"</?[a-z]+[ >/]", text):
+            if looks_like_markup(text, s.get("uncertain", [])):
                 errors.append(f"{ref}: text looks like markup")
             if s.get("source_id") and s["source_id"] not in doc.get("source_ids", []):
                 errors.append(f"{ref}: source_id {s['source_id']} not listed in the work's source_ids")
@@ -203,7 +249,7 @@ def check_texts(corpus: Corpus) -> list[str]:
                 value = d.get(head)
                 if head == "publication" and isinstance(value, list) and idx.isdigit() and int(idx) < len(value):
                     value = value[int(idx)]
-                if head not in ("publication", "salutation", "signature") or not isinstance(value, str):
+                if head not in ("publication", "salutation", "signature", "title") or not isinstance(value, str):
                     errors.append(f"{d.get('ref')}: uncertain names an unknown field {field!r}")
                     continue
                 errors += check_uncertain(f"{d.get('ref')} {field}", value, spans)

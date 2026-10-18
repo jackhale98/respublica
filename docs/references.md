@@ -135,6 +135,23 @@ Essays and letters imported by `importers/ratification.py` (series listed in
   `PlainDealer`, `WilliamsonRemarks`, `SteadyAndOpenRepublican`,
   `WilliamsLetter`. `Brutus` is reserved for Brutus's essays.
 
+## Debates in Congress (`texts/house-amendments-1789.json`)
+
+The House of Representatives' proceedings on amendments to the
+Constitution, 1789, imported by `importers/annals.py` from the Annals of
+Congress (decision 46).
+
+- `House1789.{day}`: one division per day, named by its date as month and
+  day: `House1789.Jun8`, `House1789.Aug13`, `House1789.Sep24`. The date is
+  the day's heading as printed, checked against the 1789 calendar.
+- `House1789.{day}.{paragraph}`: the paragraphs of the day's item headed
+  "Amendments to the Constitution", numbered from 1 after the heading
+  (`House1789.Jun8.1` is "Mr. Madison rose, and reminded the House…").
+- Footnotes, if any: `House1789.{day}.fn{k}`.
+- The printed heading of the item is the division's `title`; each passage
+  records the printed columns it is on (`columns`), since the Annals number
+  columns, not pages.
+
 ## Retired refs
 
 Once the site has launched, a correction that joins two passages wrongly
@@ -168,7 +185,7 @@ refs that no longer exist are removed from `refs.lock` (decisions 36 and
   first line, or a line after a short one. Each records the printed page it
   starts on (`page`).
 - `Case.{cluster_id}.{paragraph}`: reserved for paragraphs of the majority
-  opinion, which are not imported (decision 46).
+  opinion, which are not imported (decision 47).
 
 A case whose syllabus could not be read reliably has no syllabus refs yet;
 when the syllabus is imported later, its refs are new, not renumbered.

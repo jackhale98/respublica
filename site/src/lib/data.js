@@ -84,12 +84,13 @@ export const COLLECTIONS = {
   founding: "Founding document",
   federalist: "The ratification debate",
   ratification: "The ratification debate",
+  congress: "Debates in Congress",
 };
 
 export const POSITION_LABELS = { anti: "Anti-Federalist", federalist: "Federalist", other: "Other" };
 
 // Scan names in readings ("primary", "brittle", "google", "pitt") -> words.
-const SCANS = { primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan" };
+const SCANS = { primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan", microfilm: "microfilm scan", tesseract: "second OCR of the main scan" };
 
 // "Uncertain reading. The scans read: “Delibeiatc,” (main scan), …"
 export function uncertainTitle(readings = {}) {

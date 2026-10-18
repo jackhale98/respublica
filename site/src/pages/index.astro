@@ -33,6 +33,7 @@ const fedSegs = fedCounts.map((a) => {
 });
 const featured = site.featured;
 const debate = site.works.filter((w) => w.collection === "ratification");
+const house = site.works.find((w) => w.id === "house-amendments-1789");
 const debateEssays = debate.reduce((s, w) => s + w.top_divisions, 0);
 const sideCount = (k) => debate.filter((w) => w.position === k).length;
 ---
@@ -125,6 +126,14 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
           <h3>The ratification debate</h3>
           <p>Cato, Centinel, the Federal Farmer, Agrippa, the Landholder and more: {debateEssays} essays and letters for and against the Constitution, from public-domain printings.</p>
           <div class="work-meta"><span>{sideCount("anti")} Anti-Federalist works</span><span>{sideCount("federalist")} Federalist</span></div>
+        </a>
+      )}
+      {house && (
+        <a class="card work-card w-debate" href={href(house.url)}>
+          <span class="work-icon"><Icon name="feather" /></span>
+          <h3>The House debates the Bill of Rights</h3>
+          <p>Madison's speech of June 8, 1789, and the House's debate on the amendments, day by day, as printed in the Annals of Congress.</p>
+          <div class="work-meta"><span>{house.top_divisions} days</span><span>{formatDate(house.date)}</span></div>
         </a>
       )}
       <div class="card work-card soon">

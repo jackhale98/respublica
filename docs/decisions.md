@@ -695,7 +695,48 @@ Centinel, the Landholder and Brutus no longer marked uncertain, each where
 the other scan's reading was plainly garbled ("oi", "aud", "tight"). Every
 change was checked word by word.
 
-## 46. Importing the first set of cases
+## 46. The House debates the amendments, 1789; our own OCR as a reading
+
+The project owner asked for the debates in Congress on the amendments,
+starting with the First Congress. The record is the Annals of Congress,
+volume 1 (Gales and Seaton, 1834), read from the Internet Archive's scans
+(`importers/annals.py`).
+
+- **What is imported** is fixed by the print, not chosen: every item of the
+  House's proceedings headed "Amendments to the Constitution", from that
+  heading to the next heading, the next day or "Adjourned." (twelve days,
+  June 8 to September 24, 1789). Refs are `House1789.{Mon}{day}.{paragraph}`
+  (`docs/references.md`).
+- **Two columns.** Pages are split into their numbered columns; passages
+  record columns (`columns`), not pages, and the site cites "col.".
+- **A third reading from our own OCR.** Only two scans of this printing
+  could be found (HathiTrust and the Library of Congress refuse scripted
+  access), and with two, 2.2% of words stayed uncertain, ten times the
+  ratification texts. The owner chose to read the primary scan's page images
+  with Tesseract 5.3.4 (Ubuntu's package, pinned) as a third reading. It is
+  run once and kept in `sources/ocr/` with a record of the tool versions,
+  the command and the raw images it read; `make verify` checks the record
+  and never runs Tesseract, so CI needs no OCR. A rerun gives byte-identical
+  output (single-threaded). It is not a raw source (rule 2 covers
+  downloaded originals): it is derived, reproducible, and only votes.
+- **Same engine, one vote for vocabulary.** The microfilm scan's own OCR is
+  Tesseract too, and the two share confusions ("Mapison" for "Madison").
+  Their agreement alone never makes a word known to the vote; where they
+  outvote the main scan with a different real word ("finally" for "final"),
+  the word stays uncertain for a person.
+- Result: about 53,000 words, 1.06% uncertain, each marked with every
+  reading.
+- **Raw files kept out of git** (the scans' DjVu XML, 53 MB each, and the
+  page images, 142 MB) count toward the 1 GB budget for such files only; the
+  40 MB per-file budget is for files in git.
+- **On the site** the debate is its own collection, "Debates in Congress":
+  an index of the days (`/house-amendments-1789/`) and a page per day.
+
+Later debates (the Congressional Globe for the Fourteenth Amendment, and so
+on) would follow the same rule: the items printed under the amendment's
+heading in each house.
+
+## 47. Importing the first set of cases
 
 The project owner chose, when phase 7 resumed with a CourtListener token:
 

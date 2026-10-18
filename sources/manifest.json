@@ -357,6 +357,17 @@
     "url": "https://www.courtlistener.com/api/rest/v4/citation-lookup/"
   },
   {
+    "auth_env": "COURTLISTENER_TOKEN",
+    "id": "courtlistener-citations-4",
+    "license": "Free of known copyright restrictions (Public Domain Mark), per CourtListener's bulk data terms; U.S. court opinions are public domain. Free Law Project.",
+    "notes": "CourtListener citation lookup: the clusters for 56 U.S. Reports citations of the first set of cases (decisions 41 to 43).",
+    "path": "sources/raw/courtlistener-citations-4.json",
+    "post": "text=478+U.S.+714%3B+48+U.S.+1%3B+485+U.S.+505%3B+486+U.S.+153%3B+487+U.S.+654%3B+488+U.S.+361%3B+492+U.S.+302%3B+494+U.S.+872%3B+497+U.S.+639%3B+5+U.S.+137%3B+500+U.S.+160%3B+501+U.S.+32%3B+504+U.S.+555%3B+505+U.S.+144%3B+505+U.S.+377%3B+505+U.S.+833%3B+512+U.S.+622%3B+514+U.S.+549%3B+514+U.S.+779%3B+515+U.S.+819%3B+517+U.S.+748%3B+521+U.S.+898%3B+523+U.S.+726%3B+529+U.S.+598%3B+530+U.S.+793%3B+533+U.S.+678%3B+539+U.S.+558%3B+540+U.S.+93%3B+541+U.S.+36%3B+550+U.S.+192%3B+552+U.S.+491%3B+554+U.S.+570%3B+558+U.S.+209%3B+558+U.S.+310%3B+561+U.S.+742%3B+564+U.S.+1%3B+567+U.S.+519%3B+570+U.S.+744%3B+572+U.S.+844%3B+575+U.S.+542%3B+576+U.S.+1%3B+576+U.S.+644%3B+576+U.S.+86%3B+582+U.S.+47%3B+60+U.S.+393%3B+65+U.S.+66%3B+67+U.S.+635%3B+71+U.S.+2%3B+71+U.S.+277%3B+71+U.S.+333%3B+75+U.S.+168%3B+78+U.S.+113%3B+83+U.S.+36%3B+92+U.S.+542%3B+95+U.S.+714%3B+98+U.S.+145",
+    "retrieved_at": "2026-10-18",
+    "sha256": "54e2c09573967f4dd8b1f606a386e2315d129bfafb3b8e237f54bdf28d29c922",
+    "url": "https://www.courtlistener.com/api/rest/v4/citation-lookup/"
+  },
+  {
     "id": "gutenberg-federalist-18",
     "license": "Text is public domain in the USA. The file itself carries the Project Gutenberg License; Res Publica reproduces only the public-domain text and none of the Project Gutenberg trademark or license material.",
     "notes": "Project Gutenberg eBook #18, The Federalist Papers, plain-text UTF-8.",
@@ -364,6 +375,15 @@
     "retrieved_at": "2026-10-18",
     "sha256": "a6c9d1135a04d10955fe11d210b7f642e1c2341d4f2c8369b9a832cc97839d94",
     "url": "https://www.gutenberg.org/cache/epub/18/pg18.txt"
+  },
+  {
+    "id": "ia-annals-1834-v1-google-tif",
+    "license": "Public domain in the USA (published 1834). Page images scanned by Google, as served by the Internet Archive.",
+    "notes": "Annals of Congress, vol. 1 (Gales and Seaton, 1834): page images (TIFF, one per leaf) of Internet Archive item debatesandproce00galegoog, the primary scan. Read with Tesseract for a third reading (decision 46).",
+    "path": "sources/raw/ia-annals-1834-v1-google-tif.zip",
+    "retrieved_at": "2026-10-18",
+    "sha256": "78a9df379cbe34de12b47f2b88b1e9c7311d8901c99c4f9e8822e97fa4c466eb",
+    "url": "https://archive.org/download/debatesandproce00galegoog/debatesandproce00galegoog_tif.zip"
   },
   {
     "id": "ia-annals-1834-v1-google-xml",

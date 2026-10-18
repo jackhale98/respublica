@@ -160,6 +160,43 @@ conduct but voted to ratify) is `other`.
   Civis, A Plebeian): planned. That scan has missing pages and bracketed
   original page numbers that need handling first.
 
+## Debates in Congress
+
+**The House's debate on amendments, 1789** (`texts/house-amendments-1789.json`,
+`importers/annals.py`, decision 46) is imported from Joseph Gales, Sr.,
+comp., *The Debates and Proceedings in the Congress of the United States*
+(the Annals of Congress), volume 1 (Washington: Gales and Seaton, 1834), in
+the printing whose running head reads "Gales & Seaton's History of Debates
+in Congress". The Annals give the House's debates as reported (largely from
+Thomas Lloyd's *Congressional Register*), often in the third person, not
+word for word.
+
+**What is imported** is fixed by the print: every item of the House's
+proceedings in volume 1 headed "Amendments to the Constitution", from its
+heading to the next item's heading, the next day's date, or "Adjourned."
+That is twelve days, June 8 (Madison's speech proposing amendments) to
+September 24, 1789, columns 440–948. Business of the same days under other
+headings, and the Senate's proceedings, are not imported. The day's date is
+its heading as printed, checked against the 1789 calendar (OCR misreads the
+figures: "Satl RDAY, August 23" is Saturday the 22d).
+
+**Scans.** The volume is printed in two numbered columns a page. Layout and
+words come from the Google scan in the Internet Archive
+(`debatesandproce00galegoog`, DjVu XML), split into its columns. Only one
+other scan of this printing was found (`sim_united-states-congress-debates-and-proceedings_march-3-1789-march-3-1791_1`,
+a microfilm, whose OCR reads each line across both columns; it is split at
+the gutter word by word). With two scans, 2.2% of words stayed uncertain,
+so the Google scan's page images were also read with Tesseract, as a third
+reading (`sources/ocr/`, decision 46). The microfilm's OCR is Tesseract too,
+so the two share its confusions ("Mapison" for "Madison" in small capitals):
+their agreement alone never makes a word known to the vote. About 1.1% of
+words stay uncertain, more than in the ratification debate's texts (0.05–
+0.6%), mostly where all three readings differ or where only the two
+Tesseract readings agree against the main scan; each is marked with every
+reading. Running heads, column numbers and specks are left out; a line OCR
+broke into pieces at the same height is joined again. The DjVu XML and page
+images are kept out of git (`make fetch` downloads them).
+
 ## Supreme Court cases
 
 **Which cases interpret which clause** come from the *Constitution of the
@@ -215,7 +252,7 @@ from volume 91 (1875) on: the earlier, nominative reports carry the
 reporters' own headnotes, often as marginal notes. Where a paragraph seems to
 stop mid-sentence (the text layer is out of order, or the end was missed),
 no syllabus is imported and the case says so (`syllabus_note`). The scans are
-kept out of git (decision 46): `make fetch` downloads them.
+kept out of git (decision 47): `make fetch` downloads them.
 
 **Opinions** are not imported; each case links to its opinion on
-CourtListener (decision 46).
+CourtListener (decision 47).

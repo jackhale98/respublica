@@ -42,10 +42,29 @@ For each book, in `sources/raw/` (downloaded by `tools/fetch.py`, listed in
 | Ford, *Pamphlets on the Constitution* (1888) | `ia-ford-pamphlets-1888-cornell-xml` | `-google-txt` (one) |
 | McMaster and Stone, *Pennsylvania and the Federal Constitution* (1888) | `ia-mcmaster-stone-1888-cornell-xml` | `-pitt-txt` (one) |
 | *Debates and Proceedings in the Convention of Massachusetts* (1856) | `ia-mass-debates-1856-nypl-xml` | `-uc-txt`, `-google-txt`, `-cornell-txt` (three) |
+| Annals of Congress, vol. 1 (1834) | `ia-annals-1834-v1-google-xml` | `-microfilm-xml`, and Tesseract's reading of the primary's page images (two) |
 
 With two references a word can be outvoted 2 to 1; with one, disagreements
 are ties and depend on the tie rules below, so those books have
 proportionally more uncertain words.
+
+**Our own OCR as a reading** (decision 46). Where only two scans of a
+printing can be found, the primary scan's page images (a raw source) can be
+read with Tesseract for a third reading. It is run once
+(`python -m importers.annals ocr`, single-threaded so a rerun gives the same
+words), and its word boxes are kept in `sources/ocr/` with a record in
+`sources/ocr/manifest.json`: the Tesseract and language-data package
+versions, the command, and the raw images (id and sha256) it read. Importers
+read the kept file; `make verify` checks the record but never runs
+Tesseract. The Internet Archive's own OCR of newer scans is also Tesseract,
+so a Tesseract reading and such a scan share confusions: in the Annals,
+their agreement alone never makes a word known (`annals.independent`).
+
+**Two-column books** (the Annals, `importers/annals.py`): each page is split
+into its columns before the steps below. The gutter is found from the lines
+that sit in one column; a line OCR read across both columns is split word
+by word at it; the running head gives the column numbers, which are checked
+against the pages around them as page numbers are.
 
 ## Step 1: layout (`parse_djvu_xml`, `classify`, `blocks`)
 
@@ -252,6 +271,9 @@ later, is below).
   person.
 - **Paragraphs.** Spot checks of paragraph breaks against page images found
   them right on the pages checked, after the fixes in step 1.
+- **The Annals of Congress** (1834, small type in two columns; one other
+  scan and a Tesseract reading): about 53,000 words with 562 marked, 11 per
+  thousand. With the two scans alone it was 22 per thousand.
 
 The rules lean toward marking a word uncertain rather than guessing: a
 wrong word that looks settled is worse than a right word with a dotted

@@ -60,7 +60,7 @@ const numeral = (label) => label.split(" ").at(-1);
   {block.scan && (
     <template class="src-data" data-pagefind-ignore>
       <p>
-        Read from OCR scans of the printed page{block.scan.pages.length ? ` (p. ${block.scan.pages.join("–")})` : ""}.{" "}
+        Read from OCR scans of the printed page{block.scan.pages.length ? ` (${block.scan.unit || "p."} ${block.scan.pages.join("–")})` : ""}.{" "}
         {safeUrl(block.scan.url) && <a href={safeUrl(block.scan.url)} rel="noopener" target="_blank">View the page image</a>}
       </p>
       {block.uncertain > 0 && (

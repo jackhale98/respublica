@@ -15,16 +15,19 @@ const d = page.division;
 const attr = d.attribution;
 const authorNames = attr ? attr.names : [];
 const debate = work.collection === "ratification";
+// A day of a debate in Congress: the date is the heading, and the item's
+// printed heading ("AMENDMENTS TO THE CONSTITUTION.") is shown as printed.
+const congress = work.collection === "congress";
 const num = (label) => label.split(" ").at(-1);
-const heading = d.title || d.label;
+const heading = congress ? d.label : d.title || d.label;
 const printed = d.publication.map((l) => l).join(" ");
 ---
-<Reader title={page.title} section={work.id} pageId={page.id} place={d.title ? `${d.label} · ${d.title}` : d.label} progress description={`${d.label}${d.title ? `: ${d.title}` : ""}. ${authorText(attr)}.`}>
+<Reader title={page.title} section={work.id} pageId={page.id} place={d.title && !congress ? `${d.label} · ${d.title}` : d.label} progress description={congress ? `${work.title}: the proceedings of ${d.label}, as printed in the Annals of Congress.` : `${d.label}${d.title ? `: ${d.title}` : ""}. ${authorText(attr)}.`}>
   <ol class="crumbs" slot="crumbs">
     <li><a href={href("/")}>Library</a></li>
     {debate && <li><a href={href("/ratification/")}>Ratification debate</a></li>}
     <li><a href={href(work.url)}>{work.title}</a></li>
-    <li aria-current="page">No. {num(d.label)}</li>
+    <li aria-current="page">{congress ? d.label : `No. ${num(d.label)}`}</li>
   </ol>
 
   <Fragment slot="toc">
@@ -33,9 +36,9 @@ const printed = d.publication.map((l) => l).join(" ");
       {work.parts.map((p) => (
         <li>
           <a href={href(p.url)} aria-current={p.ref === d.ref ? "page" : undefined}>
-            <span class="n">{num(p.label)}</span>
-            {!debate && <span class:list={["dot", authorKey(p.attribution)]} aria-hidden="true"></span>}
-            <span class="t">{p.title || printedDate(p.publication) || p.label}</span>
+            {!congress && <span class="n">{num(p.label)}</span>}
+            {!debate && !congress && <span class:list={["dot", authorKey(p.attribution)]} aria-hidden="true"></span>}
+            <span class="t">{congress ? p.label : p.title || printedDate(p.publication) || p.label}</span>
           </a>
           {p.ref === d.ref && page.toc_passages.length > 1 && <PassageLinks list={page.toc_passages} anchorOf={(x) => x.ref} />}
         </li>
@@ -44,13 +47,14 @@ const printed = d.publication.map((l) => l).join(" ");
   </Fragment>
 
   <header class="doc-head">
-    <span class="eyebrow">{debate ? work.title : d.label}</span>
+    <span class="eyebrow">{debate || congress ? work.title : d.label}</span>
     <h1 data-pagefind-meta="title" data-pagefind-filter={`work:${work.title}`}>{heading}</h1>
     <span data-pagefind-meta={`label:${d.label}`}></span>
     {authorNames.map((n) => <span data-pagefind-filter={`author:${n}`}></span>)}
     <div class="doc-meta" data-pagefind-ignore>
       <AuthorChip attribution={attr} />
       {!debate && d.publication.length > 0 && <span class="chip">{printed}</span>}
+      {congress && d.title && <span class="chip">{d.header?.title ? <Runs runs={d.header.title} /> : d.title}</span>}
       <span class="chip">{readingMinutes(d.words)} min read</span>
     </div>
     {debate && <DocLines header={d.header} />}
@@ -96,14 +100,15 @@ const printed = d.publication.map((l) => l).join(" ");
   </nav>
 
   <Fragment slot="panel">
-    <span class="eyebrow">{debate ? "About this essay" : "About this paper"}</span>
+    <span class="eyebrow">{congress ? "About this day" : debate ? "About this essay" : "About this paper"}</span>
     <h2>{d.label}</h2>
     <dl>
-      <dt>Author</dt><dd>{authorText(attr)}</dd>
+      {attr && <Fragment><dt>Author</dt><dd>{authorText(attr)}</dd></Fragment>}
+      {congress && d.columns && <Fragment><dt>Printed</dt><dd>Annals of Congress, cols. {d.columns.join("–")}</dd></Fragment>}
       {attr?.byline && <Fragment><dt>Byline</dt><dd>“{attr.byline}” in {debate ? attr.source || "this edition" : "this edition"}</dd></Fragment>}
       {d.publication.length > 0 && <Fragment><dt>Printed</dt><dd>{debate ? d.header.publication.map((r) => runsText(r)).join(" · ") : printed}</dd></Fragment>}
       <dt>Paragraphs</dt><dd>{formatNumber(d.passages)}</dd>
     </dl>
-    <p><a href={href(debate ? "/about/#ocr" : "/about/#editions")}>About this edition</a></p>
+    <p><a href={href(debate || congress ? "/about/#ocr" : "/about/#editions")}>About this edition</a></p>
   </Fragment>
 </Reader>

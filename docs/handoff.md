@@ -29,7 +29,17 @@ founding documents, The Federalist, twenty works of the ratification
 debate read from scans, about 740 suggested links awaiting review, the
 connections panel and graph, search, and the review page.
 
-**Phase 7, Supreme Court cases: the first set is imported** (decision 46):
+**Debates in Congress** (decision 46): the House's 1789 debate on the
+amendments, from the Annals of Congress (`importers/annals.py`), at
+`/house-amendments-1789/`. About 1% of its words are marked uncertain
+(small type, two columns, only two scans plus our own Tesseract reading).
+Next in this line: the Senate has no recorded debate in 1789; the
+Congressional Globe for the Thirteenth to Fifteenth Amendments (two
+Internet Archive copies of the 39th Congress were found), by the same rule.
+Links from the debate (to the Constitution, the Joint Resolution, the
+amendments) are not proposed yet.
+
+**Phase 7, Supreme Court cases: the first set is imported** (decision 47):
 
 - 213 cases (`cases/`), chosen by the rules of decisions 41 to 43, each
   keyed by its CourtListener cluster (`importers/courtlistener.py`; the
