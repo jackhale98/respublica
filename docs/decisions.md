@@ -203,3 +203,35 @@ where the site is hosted. Moving to the subdomain: set `"url"` to
 `https://library.commonhall.org` and `"base"` to `""`, and add the custom
 domain in the repository's Pages settings. This supersedes the custom-domain
 requirement in decision 15.
+
+## 23. Phase 3 method: code finds candidates, agents judge, humans review
+
+Federalist → Constitution links were made in one run per paper
+(`fed-const-{n}`), following [`linking.md`](linking.md):
+
+1. `tools/candidates.py` lists hints: word sequences a paragraph shares with a
+   clause that contain at least two or three words outside the 300 most common
+   in The Federalist, and "clause … section … article" wording.
+2. An agent reads the whole paper, judges each possible reference against the
+   guide (quotation or unambiguous citation of a specific 1787 clause; never
+   the Articles of Confederation, amendments, or general discussion), and
+   writes a decisions file.
+3. `tools/links.py propose` copies every quote from the passage text, assigns
+   ids, refuses duplicates and writes only `suggested` links.
+4. A separate agent checks a random sample plus every low-confidence link and
+   reports to the human reviewer; it changes nothing.
+5. Only a person marks links reviewed or rejected (`tools/links.py review`).
+
+`created_by.model` records "Claude" without a version. Linkers also reported
+suspected transcription errors in the base edition; each was confirmed in the
+raw file and logged in `docs/errata.md` (errata 3–13).
+
+## 24. Connection details load per page
+
+With 289 links the Constitution page grew from 77 KB to 277 KB, because every
+connection's rationale and quote was inlined. Pages now carry only a compact
+list of connected passages (enough without JavaScript), and the panel loads
+full details from `/data/conn/{page}.json` the first time a passage is
+selected. The Constitution page is 122 KB (21 KB gzipped); its connection file
+loads on demand. The graph view (phase 4) will use the same per-page files.
+

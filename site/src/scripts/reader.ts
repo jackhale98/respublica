@@ -13,6 +13,49 @@ const tocDrawer = window.matchMedia("(max-width: 79.99rem)");
 
 let selected: HTMLElement | null = null;
 
+// ---------------------------------------------------------------- connections
+
+type Conn = {
+  verb: string; status: string; other_label: string; other_url: string | null;
+  other_overruled?: boolean; other_quote?: string; rationale?: string; source?: string;
+};
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+const connUrl = document.querySelector<HTMLElement>("[data-reader]")?.dataset.connUrl;
+let connData: Promise<Record<string, Conn[]>> | null = null;
+const loadConns = () =>
+  (connData ??= connUrl ? fetch(connUrl).then((r) => (r.ok ? r.json() : {})).catch(() => ({})) : Promise.resolve({}));
+
+function el<K extends keyof HTMLElementTagNameMap>(tag: K, cls?: string, text?: string) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text) e.textContent = text;
+  return e;
+}
+
+function renderConn(c: Conn): HTMLLIElement {
+  const li = el("li", `conn ${c.status}`);
+  const top = el("div", "conn-top");
+  top.append(el("span", "conn-verb", c.verb));
+  if (c.status === "suggested") {
+    const b = el("span", "badge suggested", "Suggested");
+    b.title = "Proposed by a machine; not yet reviewed by a person";
+    top.append(b);
+  }
+  if (c.status === "reviewed") top.append(el("span", "badge reviewed", "Reviewed"));
+  if (c.other_overruled) top.append(el("span", "badge overruled", "Overruled"));
+  li.append(top);
+  const url = c.other_url;
+  if (url && url.startsWith("/") && !url.startsWith("//")) {
+    const a = el("a", "conn-target", c.other_label);
+    a.href = BASE + url;
+    li.append(a);
+  } else li.append(el("span", "conn-target", c.other_label));
+  if (c.other_quote) li.append(el("blockquote", undefined, c.other_quote));
+  if (c.rationale) li.append(el("p", "why", c.rationale));
+  if (c.source) li.append(el("p", "src", `Source: ${c.source}`));
+  return li;
+}
+
 // ---------------------------------------------------------------- panel
 
 function q<T extends Element = HTMLElement>(sel: string) {
@@ -28,9 +71,18 @@ function fillPanel(p: HTMLElement) {
   changed.replaceChildren(...(chg ? [chg.content.cloneNode(true)] : []));
   changed.hidden = !chg;
   const conns = q("[data-panel-conns]")!;
-  const list = p.querySelector(".conns .conn-list");
-  conns.replaceChildren(...(list ? [list.cloneNode(true)] : []));
-  q("[data-panel-empty]")!.hidden = !!list;
+  const empty = q("[data-panel-empty]")!;
+  const has = !!p.querySelector(".conns");
+  empty.hidden = has;
+  conns.replaceChildren(...(has ? [el("p", "muted", "Loading connections…")] : []));
+  if (has) {
+    loadConns().then((data) => {
+      if (selected !== p) return;
+      const list = el("ul", "conn-list");
+      list.append(...(data[p.id] || []).map(renderConn));
+      conns.replaceChildren(list);
+    });
+  }
   q(".panel-default")!.hidden = true;
   q(".panel-passage")!.hidden = false;
 }

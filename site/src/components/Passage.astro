@@ -1,6 +1,5 @@
 ---
 import { localUrl } from "../lib/data.js";
-import Connection from "./Connection.astro";
 
 // One passage. Its element id is its ref, so /page/#Ref links to it.
 const { block } = Astro.props;
@@ -54,8 +53,15 @@ const numeral = (label) => label.split(" ").at(-1);
   {conns.length > 0 && (
     <details class="conns" data-pagefind-ignore>
       <summary>{conns.length} connection{conns.length === 1 ? "" : "s"}</summary>
-      <ul class="conn-list">
-        {conns.map((c) => <Connection conn={c} />)}
+      <ul class="conn-mini">
+        {conns.map((c) => (
+          <li>
+            {c.verb}{" "}
+            {localUrl(c.other_url) ? <a href={localUrl(c.other_url)}>{c.other_label}</a> : c.other_label}
+            {c.status === "suggested" && " (suggested)"}
+            {c.other_overruled && " (overruled)"}
+          </li>
+        ))}
       </ul>
     </details>
   )}
