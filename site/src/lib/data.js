@@ -19,6 +19,8 @@ const cached = (key, fn) => (cache.has(key) ? cache.get(key) : cache.set(key, fn
 export const loadSite = () => cached("site", () => readJson(path.join(DATA, "site.json")));
 export const loadPage = (id) => cached(`page:${id}`, () => readJson(path.join(DATA, "pages", `${id}.json`)));
 export const loadRefs = () => cached("refs", () => readJson(path.join(DATA, "refs.json")));
+export const loadReview = () => cached("review", () => readJson(path.join(DATA, "review", "index.json")));
+export const loadReviewBatch = (b) => readJson(path.join(DATA, "review", `${b}.json`));
 export const loadManifest = () => cached("manifest", () => readJson(path.resolve(process.cwd(), "..", "sources", "manifest.json")));
 
 // Only http(s) URLs from data are ever rendered (CLAUDE.md rule 8).

@@ -1,0 +1,70 @@
+---
+// Link review: every suggested link, by linker run, for a maintainer to
+// approve or reject. Decisions are sent as a GitHub issue that the review
+// workflow records under the reviewer's GitHub login (docs/linking.md,
+// "Reviewing links"). The data comes from tools/site_data.py.
+import { href, loadReview, formatNumber } from "../../lib/data.js";
+import Base from "../../layouts/Base.astro";
+import "../../styles/review.css";
+
+const review = loadReview();
+---
+<Base title="Review links" description="Approve or reject the suggested links between passages. For maintainers of Res Publica.">
+  <section class="page-head">
+    <div class="container">
+      <span class="eyebrow">For maintainers</span>
+      <h1>Review links</h1>
+      <p class="lede">
+        {formatNumber(review.total)} suggested links are waiting for a person to check them. Open a batch,
+        read each link against both passages, and approve or reject it. When you are done, send your decisions
+        as a GitHub issue: the review workflow records them under your GitHub name and redeploys the site.
+      </p>
+    </div>
+  </section>
+
+  <div class="container review" data-review data-repo={review.repo} data-base={href("/")}>
+    <aside class="review-help card">
+      <h2>How it works</h2>
+      <ol>
+        <li>Approve a link when the passage really quotes, cites or answers its target as the type says, and the rationale is accurate.</li>
+        <li>Reject it otherwise; a short note helps the next run.</li>
+        <li>Choose <strong>Send to GitHub</strong>. GitHub opens a new issue listing your decisions; submit it. Only people with write access to the repository are counted.</li>
+      </ol>
+      <p>Decisions are kept in this browser until you send them. The criteria are in <a href={`https://github.com/${review.repo}/blob/main/docs/linking.md`} rel="noopener">the linking guide</a>.</p>
+    </aside>
+
+    <noscript><p class="review-empty">Reviewing needs JavaScript. You can also review from the command line: <code>python3 -m tools.links review --reviewer NAME</code>.</p></noscript>
+
+    {review.groups.map((g) => (
+      <section class="review-group" aria-labelledby={`rg-${g.id}`}>
+        <div class="review-group-head">
+          <h2 id={`rg-${g.id}`}>{g.label}</h2>
+          <p>{g.note} {formatNumber(g.batches.reduce((n, b) => n + b.count, 0))} links in {g.batches.length} {g.batches.length === 1 ? "batch" : "batches"}.</p>
+        </div>
+        <div class="review-batches">
+          {g.batches.map((b) => (
+            <details class="review-batch card" data-batch={b.batch} data-ids={b.ids.join(" ")}>
+              <summary>
+                <span class="rb-label">{b.label}</span>
+                <span class="rb-count" data-batch-count>{b.count} {b.count === 1 ? "link" : "links"}</span>
+              </summary>
+              <div class="rb-body" data-batch-body><p class="review-empty">Loading…</p></div>
+            </details>
+          ))}
+        </div>
+      </section>
+    ))}
+    {review.total === 0 && <p class="review-empty">Nothing to review: every link has been reviewed.</p>}
+  </div>
+
+  <div class="review-bar" data-review-bar hidden>
+    <div class="container review-bar-inner">
+      <p class="rb-tally" aria-live="polite" data-tally></p>
+      <button class="btn btn-ghost" type="button" data-clear>Clear</button>
+      <a class="btn btn-primary" data-send href="#" target="_blank" rel="noopener">Send to GitHub</a>
+    </div>
+  </div>
+  <script>
+    import "../../scripts/review.ts";
+  </script>
+</Base>

@@ -1,6 +1,6 @@
 import unittest
 
-from tools.links import LinkError, build_records, locate
+from tools.links import LinkError, build_records, locate, parse_decisions
 from tests.test_verify import corpus
 
 
@@ -49,6 +49,42 @@ class BuildRecordsTests(unittest.TestCase):
                 self.build([bad])
         with self.assertRaises(LinkError):
             build_records(corpus(), "Bad Batch!", [decision()], "r", "m", "2026-10-18", [])
+
+
+class ApplyTests(unittest.TestCase):
+    def test_only_decision_lines_count(self):
+        text = ("Link review\n\napprove lnk_fed_const_10_001\nreject lnk_deb_cato_2_003 — wrong clause\n"
+                "Please also approve lnk_x_1\napprove lnk_BAD\nreject lnk_deb_cato_2_003 - second thoughts\x07\n")
+        self.assertEqual(parse_decisions(text), [("lnk_fed_const_10_001", True, ""),
+                                                 ("lnk_deb_cato_2_003", False, "second thoughts")])
+
+    def test_decisions_move_links_and_record_the_reviewer(self):
+        import json
+        import tempfile
+        from pathlib import Path
+        from unittest import mock
+
+        from tools import links
+
+        rec = {"id": "lnk_t_1", "status": "suggested", "reviewed_by": None}
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "proposed").mkdir()
+            (root / "proposed" / "t.jsonl").write_text(
+                json.dumps(rec) + "\n" + json.dumps({**rec, "id": "lnk_t_2"}) + "\n", encoding="utf-8")
+            with mock.patch.object(links, "LINKS_DIR", root), \
+                    mock.patch.object(links, "PROPOSED_DIR", root / "proposed"), \
+                    mock.patch.object(links, "REJECTED_DIR", root / "rejected"):
+                out = links.apply_decisions([("lnk_t_1", True, ""), ("lnk_t_2", False, "no"), ("lnk_t_9", True, "")],
+                                            "octocat", "2026-10-18")
+                with self.assertRaises(LinkError):
+                    links.apply_decisions([], "not a login!", "2026-10-18")
+            self.assertEqual(out, {"approved": 1, "rejected": 1, "not_found": ["lnk_t_9"]})
+            self.assertFalse((root / "proposed" / "t.jsonl").exists())
+            kept = json.loads((root / "t.jsonl").read_text(encoding="utf-8"))
+            self.assertEqual((kept["status"], kept["reviewed_by"]), ("reviewed", "octocat"))
+            gone = json.loads((root / "rejected" / "t.jsonl").read_text(encoding="utf-8"))
+            self.assertEqual((gone["status"], gone["review_note"]), ("rejected", "no"))
 
 
 if __name__ == "__main__":

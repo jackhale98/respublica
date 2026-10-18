@@ -11,6 +11,8 @@ Output:
   site/.data/pages/{page}.json   one file per page: blocks to render
   site/.data/refs.json           ref -> {url, label} for every ref
   site/.data/graph/{page}.json   two-hop link neighborhoods of a page's passages
+  site/.data/review/index.json   suggested links awaiting review, by batch
+  site/.data/review/{batch}.json one batch's suggested links, with both passages
 """
 
 from __future__ import annotations
@@ -19,7 +21,7 @@ import re
 import shutil
 from collections import Counter
 
-from tools.common import ROOT, write_json
+from tools.common import ROOT, read_json, write_json
 from tools.corpus import Corpus, load_corpus
 
 OUT = ROOT / "site" / ".data"
@@ -563,6 +565,63 @@ def build(corpus: Corpus, links: list[dict]) -> tuple[dict, dict[str, dict], dic
     return site, pages, refs, graphs
 
 
+# ------------------------------------------------------------ review page
+
+REVIEW_GROUPS = [
+    ("fed-const-", "The Federalist → the Constitution", "Run 1: each paper's citations and quotations of the Constitution."),
+    ("fed-deb-", "The Federalist → the ratification debate", "Publius's notes naming debate writers."),
+    ("deb-", "The ratification debate", "Run 2: each essay's links to the Constitution, the Declaration and other essays."),
+]
+
+
+def build_review(corpus: Corpus, proposed: list[tuple[str, dict]], refs: dict[str, dict]) -> tuple[dict, dict[str, dict]]:
+    """The review page's data: every suggested link, grouped by batch (one
+    linker run), with both passages' text so a reviewer can judge it.
+    Decisions are recorded through a GitHub issue (tools/links.py apply)."""
+    def end(ref: str) -> dict:
+        info = refs.get(ref, {"label": label_for(corpus, ref), "url": None})
+        out = {"label": info["label"], "ref": ref, "url": info["url"]}
+        if ref in corpus.segments:
+            out["text"] = corpus.segments[ref]["text"]
+        else:
+            out["parts"] = len(corpus.passages(ref))  # a whole essay or series: the reviewer opens it
+        return out
+
+    by_batch: dict[str, list[dict]] = {}
+    for batch, rec in proposed:
+        if rec.get("status") != "suggested":
+            continue
+        item = {k: rec[k] for k in ("id", "type", "confidence", "rationale") if rec.get(k)}
+        for k in ("from_quote", "to_quote"):
+            if rec.get(k):
+                item[k] = rec[k]
+        item["from"], item["to"] = end(rec["from"]), end(rec["to"])
+        by_batch.setdefault(batch, []).append(item)
+
+    def batch_label(batch: str, items: list[dict]) -> str:
+        first = items[0]["from"]["ref"]
+        top = next((d for d in corpus.divisions if first == d or first.startswith(d + ".")), first)
+        label = label_for(corpus, top) if top in corpus.divisions else items[0]["from"]["label"]
+        if "-in-" in batch:  # a run for the passages that name one writer ("deb-brutus-in-cato-5")
+            label += f", naming {items[0]['to']['label'].split(' ')[0]}"
+        return label
+
+    groups = []
+    for prefix, label, note in REVIEW_GROUPS:
+        names = [b for b in by_batch if b.startswith(prefix)]
+        names.sort(key=lambda b: [int(x) if x.isdigit() else x for x in re.split(r"(\d+)", b)])
+        if names:
+            groups.append({"id": prefix.rstrip("-"), "label": label, "note": note, "batches": [
+                {"batch": b, "count": len(by_batch[b]), "ids": [i["id"] for i in by_batch[b]],
+                 "label": batch_label(b, by_batch[b])} for b in names]})
+    batches = {b: {"batch": b, "label": batch_label(b, items), "links": items} for b, items in by_batch.items()}
+    repo = read_json(ROOT / "site" / "site.config.json")["repo"]
+    if not re.fullmatch(r"[A-Za-z0-9-]+/[A-Za-z0-9._-]+", repo):
+        raise ValueError(f"site.config.json: repo must be owner/name, not {repo!r}")
+    index = {"groups": groups, "repo": repo, "total": sum(len(v) for v in by_batch.values())}
+    return index, batches
+
+
 def main() -> None:
     from tools.verify import load_links
 
@@ -577,6 +636,11 @@ def main() -> None:
         write_json(OUT / "pages" / f"{pid}.json", page)
     for pid, graph in graphs.items():
         write_json(OUT / "graph" / f"{pid}.json", graph)
+    proposed = [(path.stem, rec) for path, _, rec in load_links() if path.parent.name == "proposed"]
+    review, batches = build_review(corpus, proposed, refs)
+    write_json(OUT / "review" / "index.json", review)
+    for name, batch in batches.items():
+        write_json(OUT / "review" / f"{name}.json", batch)
     print(f"wrote {OUT.relative_to(ROOT)}: {len(pages)} pages, {len(refs)} refs")
 
 

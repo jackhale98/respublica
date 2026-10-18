@@ -24,7 +24,7 @@ CONFIDENCE = {"high", "medium", "low"}
 CREATOR_KINDS = {"agent", "human", "import"}
 LINK_KEYS = {
     "id", "from", "to", "type", "from_quote", "to_quote", "rationale", "source", "created_by",
-    "created_at", "confidence", "status", "reviewed_by", "reviewed_at",
+    "created_at", "confidence", "status", "reviewed_by", "reviewed_at", "review_note",
 }
 REQUIRED_LINK_KEYS = {"id", "from", "to", "type", "created_by", "created_at", "confidence", "status"}
 LINK_ID = re.compile(r"^lnk_[a-z0-9_]+$")
@@ -286,8 +286,10 @@ def check_link(rec: dict, corpus: Corpus, proposed: bool) -> list[str]:
         errors.append("needs a rationale (or a source, for imported links)")
     if rec["status"] == "reviewed" and not rec.get("reviewed_by"):
         errors.append("reviewed links need reviewed_by")
-    if rec["status"] == "suggested" and rec.get("reviewed_by"):
-        errors.append("suggested links must not have reviewed_by")
+    if rec["status"] == "suggested" and (rec.get("reviewed_by") or rec.get("review_note")):
+        errors.append("suggested links must not have reviewed_by or review_note")
+    if "review_note" in rec and not (isinstance(rec["review_note"], str) and len(rec["review_note"]) <= 500):
+        errors.append("review_note must be text of at most 500 characters")
     if rec["from"] == rec["to"]:
         errors.append("a link cannot point to itself")
     for end in ("from", "to"):

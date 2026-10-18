@@ -18,7 +18,7 @@ the rules every contributor (human or agent) follows.
 | 3. Explicit links | Linked: 289 suggested links from 51 Federalist papers to 73 clauses of the Constitution (81 quotations, 208 citations), awaiting human review. See [`docs/linking.md`](docs/linking.md). |
 | 4. Connections panel and graph | Done: the panel (a bottom sheet on phones) lists each passage's connections; "Graph" opens a two-hop graph of them (force layout with zoom, pan and drag; d3), filterable by link type, side (founding documents, Federalist, Anti-Federalist) and review status. |
 | 5. Ratification debate | Imported: 20 works (187k words) from Ford's *Essays* (every section), Ford's *Pamphlets* (the Federal Farmer), McMaster and Stone (Centinel I–XXIV) and the Massachusetts convention's *Debates* (1856; Brutus I–IV), both sides, read from scans by OCR consensus with uncertain words marked (method: [`docs/ocr.md`](docs/ocr.md)). Brutus V–XVI: only in the original newspaper (Library of Congress, poor OCR from a single scan), not yet imported. The rest of Ford's *Pamphlets* is next. See [`docs/editions.md`](docs/editions.md). |
-| 6. Debate links | Linked: 454 suggested links from 18 debate works and The Federalist: 367 to 75 clauses of the Constitution, 2 to the Declaration and 85 between essays (responses, rebuttals, quotations and citations, such as Cato and Caesar's exchange, Luther Martin and the Landholder's, and the essays that point readers to Brutus), checked by a second agent and awaiting human review. See [`docs/linking.md`](docs/linking.md), "Run 2". |
+| 6. Debate links and review | Linked: 453 suggested links from 18 debate works and The Federalist: 366 to 75 clauses of the Constitution, 2 to the Declaration and 85 between essays (responses, rebuttals, quotations and citations, such as Cato and Caesar's exchange, Luther Martin and the Landholder's, and the essays that point readers to Brutus), checked by a second agent and awaiting human review. A review page (`/review/`) lets a maintainer approve or reject links in batches and records the decisions through a GitHub issue. See [`docs/linking.md`](docs/linking.md), "Run 2" and "Reviewing links". |
 | 8. Search | Pagefind full-text search plus "jump to" any ref. Source sheets not started. |
 | 7, 9–10 | Not started. |
 
@@ -30,8 +30,9 @@ sheet on phones). Contents with scrollspy, `j`/`k` to move between passages,
 `/` or Ctrl/⌘+K to search (matching passages appear as you type; Enter opens a
 full results page with every matching passage, filterable by text and author)
 or jump ("Fed 10", "1.8.3", "Amendment 14"), light
-and dark themes, adjustable text size, and The Federalist's papers filterable
-by author. Every page works without JavaScript.
+and dark themes, adjustable text size (remembered in the browser), The
+Federalist's papers filterable by author, and a review page for maintainers
+(`/review/`). Every page works without JavaScript except the review page.
 
 ## Quick start
 

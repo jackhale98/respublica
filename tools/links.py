@@ -2,6 +2,7 @@
 
     python -m tools.links propose  --batch fed-const-10 --decisions decisions.json --run RUN [--model NAME]
     python -m tools.links review   [--batch BATCH] --reviewer NAME        # a human, interactively
+    python -m tools.links apply    --reviewer LOGIN --text FILE           # a human's decisions, from a review issue
     python -m tools.links sample   [--n 20] [--seed 1]                    # spot-check sheet (Markdown)
 
 `propose` is how agents (and people) add links. It never trusts typed
@@ -13,6 +14,13 @@ and writes only `status: "suggested"` records to links/proposed/{batch}.jsonl.
 `review` is for a human. Reviewed links move to links/{batch}.jsonl and
 rejected ones to links/rejected/{batch}.jsonl, so they are not proposed
 again. Agents must never run it (CLAUDE.md rule 4).
+
+`apply` records decisions a human made on the site's review page, which
+opens a GitHub issue listing them ("approve lnk_…" / "reject lnk_… — note").
+The review workflow runs it only for issues opened by someone with write
+access to the repository, under their GitHub login
+(.github/workflows/review.yml, docs/linking.md "Reviewing links"). Agents
+must never run it either.
 """
 
 from __future__ import annotations
@@ -206,6 +214,18 @@ def _show(corpus: Corpus, rec: dict) -> None:
     print(f"\n--- {rec['from']}\n{passage(rec['from'])}\n\n--- {rec['to']}\n{passage(rec['to'])}\n")
 
 
+def record_decision(rec: dict, path: Path, approve: bool, reviewer: str, today: str, note: str = "") -> None:
+    """Move one suggested link to links/{batch}.jsonl (reviewed) or
+    links/rejected/{batch}.jsonl, recording who decided and when."""
+    rec = {**rec, "reviewed_at": today, "reviewed_by": reviewer, "status": "reviewed" if approve else "rejected"}
+    if note:
+        rec["review_note"] = note
+    dest = (LINKS_DIR if approve else REJECTED_DIR) / path.name
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    with dest.open("a", encoding="utf-8") as fh:
+        fh.write(dumps_line(rec))
+
+
 def cmd_review(args) -> int:
     corpus = load_corpus()
     files = [PROPOSED_DIR / f"{args.batch}.jsonl"] if args.batch else sorted(PROPOSED_DIR.glob("*.jsonl"))
@@ -222,12 +242,7 @@ def cmd_review(args) -> int:
                 keep.extend(recs[i:])
                 break
             if ans in ("a", "r"):
-                rec = {**rec, "reviewed_at": today, "reviewed_by": args.reviewer,
-                       "status": "reviewed" if ans == "a" else "rejected"}
-                dest = (LINKS_DIR if ans == "a" else REJECTED_DIR) / path.name
-                dest.parent.mkdir(parents=True, exist_ok=True)
-                with dest.open("a", encoding="utf-8") as fh:
-                    fh.write(dumps_line(rec))
+                record_decision(rec, path, ans == "a", args.reviewer, today)
             else:
                 keep.append(rec)
         if keep:
@@ -237,6 +252,58 @@ def cmd_review(args) -> int:
         if ans == "q":
             break
     print("done; run make verify")
+    return 0
+
+
+# ------------------------------------------------------------ apply (a human's decisions)
+
+# One decision per line, as the review page writes them. Anything else in
+# the issue (the heading, a person's own words) is ignored.
+DECISION_LINE = re.compile(r"^\s*(approve|reject)\s+(lnk_[a-z0-9_]{1,80})(?:\s+[—–-]+\s+(.*))?\s*$")
+LOGIN = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$")
+
+
+def parse_decisions(text: str) -> list[tuple[str, bool, str]]:
+    """(id, approve, note) for each decision line; the last line for an id wins."""
+    out: dict[str, tuple[str, bool, str]] = {}
+    for line in text.splitlines():
+        m = DECISION_LINE.match(line)
+        if m:
+            note = re.sub(r"[\x00-\x1f\x7f]", "", m.group(3) or "").strip()[:500]
+            out[m.group(2)] = (m.group(2), m.group(1) == "approve", note)
+    return list(out.values())
+
+
+def apply_decisions(decisions: list[tuple[str, bool, str]], reviewer: str, today: str) -> dict:
+    """Record each decision on a link still in links/proposed/. Returns
+    counts and the ids that were not found (already decided, or mistyped)."""
+    if not LOGIN.match(reviewer):
+        raise LinkError(f"not a GitHub login: {reviewer!r}")
+    wanted = {i: (a, n) for i, a, n in decisions}
+    done = {"approved": 0, "rejected": 0, "not_found": []}
+    for path in sorted(PROPOSED_DIR.glob("*.jsonl")):
+        recs = [r for _, r in read_jsonl(path)]
+        keep = []
+        for rec in recs:
+            if rec["id"] in wanted:
+                approve, note = wanted.pop(rec["id"])
+                record_decision(rec, path, approve, reviewer, today, note)
+                done["approved" if approve else "rejected"] += 1
+            else:
+                keep.append(rec)
+        if len(keep) != len(recs):
+            if keep:
+                path.write_text("".join(dumps_line(r) for r in keep), encoding="utf-8")
+            else:
+                path.unlink()
+    done["not_found"] = sorted(wanted)
+    return done
+
+
+def cmd_apply(args) -> int:
+    decisions = parse_decisions(Path(args.text).read_text(encoding="utf-8"))
+    result = apply_decisions(decisions, args.reviewer, dt.date.today().isoformat())
+    print(json.dumps(result, indent=2))
     return 0
 
 
@@ -280,8 +347,11 @@ def main(argv: list[str] | None = None) -> int:
     s = sub.add_parser("sample", help="print a spot-check sheet of suggested links")
     s.add_argument("--n", type=int, default=20)
     s.add_argument("--seed", type=int, default=1)
+    ap_ = sub.add_parser("apply", help="(a human's decisions) record approvals and rejections listed in a file")
+    ap_.add_argument("--reviewer", required=True, help="the GitHub login of the person who decided")
+    ap_.add_argument("--text", required=True, help="text with one 'approve lnk_…' or 'reject lnk_… — note' per line")
     args = p.parse_args(argv)
-    return {"propose": cmd_propose, "review": cmd_review, "sample": cmd_sample}[args.cmd](args)
+    return {"propose": cmd_propose, "review": cmd_review, "sample": cmd_sample, "apply": cmd_apply}[args.cmd](args)
 
 
 if __name__ == "__main__":

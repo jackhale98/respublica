@@ -99,10 +99,13 @@ Linking criteria and tools are in [`linking.md`](linking.md). In short:
   Never write link files by hand.
 - One linker run covers one unit (for example, one Federalist paper), with
   its own batch file.
-- Only a human reviews: `python3 -m tools.links review --reviewer NAME` moves
-  each link to `links/{batch}.jsonl` (reviewed) or `links/rejected/{batch}.jsonl`
-  (rejected, kept so it is not proposed again). `python3 -m tools.links sample`
-  prints a spot-check sheet.
+- Only a human reviews: on the site's review page (`/review/`), which sends
+  decisions as a GitHub issue that the review workflow records under the
+  author's GitHub login, or with `python3 -m tools.links review --reviewer
+  NAME`. Each link moves to `links/{batch}.jsonl` (reviewed) or
+  `links/rejected/{batch}.jsonl` (rejected, kept so it is not proposed again).
+  See `linking.md`, "Reviewing links". `python3 -m tools.links sample` prints
+  a spot-check sheet.
 - Suggested links appear on the site, labeled "Suggested" with a dashed border.
 
 ## What `make verify` checks

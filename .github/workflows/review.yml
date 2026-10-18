@@ -1,0 +1,79 @@
+name: Apply link review
+
+# Records link-review decisions made on the site's review page (/review/).
+# The page opens a GitHub issue titled "Link review" whose body lists one
+# decision per line ("approve lnk_…" / "reject lnk_… — note"). This job runs
+# only for issues opened by someone with write access to this repository: it
+# records each decision under that person's GitHub login with
+# `python -m tools.links apply`, runs `make verify`, commits to main, starts
+# the Deploy workflow, and comments on and closes the issue. It uses only the
+# workflow's own GITHUB_TOKEN; no secrets. See docs/linking.md, "Reviewing
+# links".
+
+on:
+  issues:
+    types: [opened]
+
+permissions: {}
+
+concurrency:
+  group: link-review
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: >-
+      startsWith(github.event.issue.title, 'Link review') &&
+      contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.issue.author_association)
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      issues: write
+      actions: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      ISSUE: ${{ github.event.issue.number }}
+      REVIEWER: ${{ github.event.issue.user.login }}
+    steps:
+      - name: Check that the author can write to the repository
+        run: |
+          perm=$(gh api "repos/$REPO/collaborators/$REVIEWER/permission" --jq .permission)
+          case "$perm" in
+            admin|maintain|write) echo "$REVIEWER has $perm access" ;;
+            *) gh issue comment "$ISSUE" --repo "$REPO" --body "Only people with write access to this repository can record link reviews; nothing was changed."
+               gh issue close "$ISSUE" --repo "$REPO" --reason "not planned"
+               exit 1 ;;
+          esac
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version-file: .python-version
+      - name: Record the decisions
+        env:
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          printf '%s\n' "$BODY" > "$RUNNER_TEMP/review.txt"
+          python -m tools.links apply --reviewer "$REVIEWER" --text "$RUNNER_TEMP/review.txt" > "$RUNNER_TEMP/result.json"
+          cat "$RUNNER_TEMP/result.json"
+      - run: make verify
+      - name: Commit, deploy and report
+        run: |
+          read -r approved rejected missing < <(python -c 'import json,sys; r=json.load(open(sys.argv[1])); print(r["approved"], r["rejected"], len(r["not_found"]))' "$RUNNER_TEMP/result.json")
+          if git diff --quiet -- links; then
+            gh issue comment "$ISSUE" --repo "$REPO" --body "No suggested links matched this review ($missing not found: already decided, or not copied in full); nothing was changed."
+            gh issue close "$ISSUE" --repo "$REPO"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add links
+          git commit -q -m "Link review by $REVIEWER: $approved approved, $rejected rejected (#$ISSUE)"
+          for i in 1 2 3; do git push origin HEAD:main && break; git pull --rebase -q origin main; done
+          gh workflow run deploy.yml --repo "$REPO" --ref main
+          note=""
+          if [ "$missing" != "0" ]; then note=" $missing listed link(s) were not found (already decided, or not copied in full)."; fi
+          gh issue comment "$ISSUE" --repo "$REPO" --body "Recorded $approved approved and $rejected rejected link(s) as reviewed by @$REVIEWER.$note The site is being redeployed."
+          gh issue close "$ISSUE" --repo "$REPO"

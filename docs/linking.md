@@ -15,6 +15,7 @@ what a clause or case means.
 | `python3 -m tools.links propose --batch B --decisions FILE --run R` | Turn a decisions file into `suggested` links in `links/proposed/B.jsonl`. |
 | `python3 -m tools.links sample --n 20` | Print a spot-check sheet for a human. |
 | `python3 -m tools.links review --reviewer NAME` | **Humans only.** Mark links reviewed or rejected. |
+| `python3 -m tools.links apply --reviewer LOGIN --text FILE` | **A human's decisions** from a review issue; run by the review workflow, never by an agent. |
 
 A decisions file is a JSON list:
 
@@ -36,6 +37,29 @@ A decisions file is a JSON list:
 whitespace and curly/straight quote marks), stores the passage's own text, and
 fails if a quote is not there. Copy quotes from `tools.show` output exactly,
 including capitals; never reconstruct them from memory.
+
+## Reviewing links
+
+Suggested links become reviewed only by a person. Two ways:
+
+- **The review page** (`/review/`, linked in the site footer). Every
+  suggested link, grouped by linker run, with both passages and the quoted
+  words marked. Approve or reject each one (with an optional note); the page
+  keeps your choices in this browser until you send them. **Send to GitHub**
+  opens a new issue titled "Link review" whose body lists one decision per
+  line (`approve lnk_…`, `reject lnk_… — note`), at most 150 per issue; submit
+  it. The review workflow (`.github/workflows/review.yml`) then checks that
+  the issue's author has write access to the repository, records each
+  decision with `tools.links apply` under that GitHub login (`reviewed_by`,
+  `reviewed_at`, and `review_note` if given), runs `make verify`, commits to
+  `main`, starts the Deploy workflow, and comments on and closes the issue.
+  Issues from anyone else change nothing. It uses only the workflow's own
+  token; no secrets.
+- **The command line**: `python3 -m tools.links review --reviewer NAME`.
+
+Approved links move to `links/{batch}.jsonl` and show as reviewed on the
+site; rejected ones move to `links/rejected/{batch}.jsonl`, so they are not
+proposed again.
 
 ## Run 1: The Federalist → the Constitution (phase 3)
 
@@ -187,5 +211,6 @@ linked them (`deb-brutus-1` … `-4`) and the essays that name Brutus
 II), proposing 45 links. The same check covered all 45: one was removed (a
 low-confidence link to the Declaration from Brutus II, whose "most solemn
 declarations" may mean the state declarations of rights) and one rationale
-reworded. Run 2 now stands at 454 links: 367 to 75 clauses, 2 to the
+reworded. Run 2 now stands at 453 links (two identical links merged when
+Federal Farmer III's split paragraph was joined): 366 to 75 clauses, 2 to the
 Declaration, 85 between essays.

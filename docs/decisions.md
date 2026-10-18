@@ -506,3 +506,32 @@ layout rules fixed where they went wrong (`docs/ocr.md`, step 1):
   around them, so a misread number ("1" for 16) or a missing one is taken
   from its neighbours. 442 passages gained or corrected page numbers; no
   text changed.
+
+## 38. Reviewing links through GitHub issues
+
+Links need a person's review (CLAUDE.md rule 4), and reviewing hundreds one
+at a time on the command line is slow. The site gets a review page
+(`/review/`) that lists every suggested link by linker run, with both
+passages, and sends the reviewer's decisions as a pre-filled GitHub issue.
+A workflow records them.
+
+- **Who counts.** Only an issue opened by someone with write access to the
+  repository is applied (checked by the issue's author association and
+  again through the API); anyone else's changes nothing and is closed with
+  a note. The reviewer recorded is the issue author's GitHub login, so a
+  review always names a real, accountable person.
+- **No secrets, no server.** The site stays static; the workflow uses only
+  its own `GITHUB_TOKEN`. Because a push made with that token does not start
+  other workflows, it starts Deploy explicitly.
+- **Untrusted input.** The issue body is read only for lines of the form
+  `approve lnk_…` / `reject lnk_… — note`; it is passed to the tool through
+  a file, never into a shell command; notes are stripped of control
+  characters and limited to 500 characters; ids not still suggested are
+  reported and skipped. Verify runs before anything is committed.
+- **Page.** Decisions stay in the browser (localStorage) until sent; at most
+  150 go in one issue (GitHub limits the length of a new-issue link). The
+  page builds every element from data as text, never as HTML. It is the
+  one page that needs JavaScript; the command line remains for anyone
+  without it.
+- Links may carry a `review_note`.
+
