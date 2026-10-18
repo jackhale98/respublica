@@ -14,7 +14,7 @@ const declSigners = declBlocks.filter((b) => b.ref.startsWith("Declaration.Signe
 const constitution = works.constitution;
 const amendments = works.amendments;
 const federalist = works.federalist;
-const articles = loadPage("constitution").toc.filter((t) => t.level === 1 && t.label.startsWith("Article")).length;
+const articles = loadPage("constitution").toc.filter((t) => t.kind === "division" && t.level === 1 && t.label.startsWith("Article")).length;
 const clauses = loadPage("constitution").blocks.filter((b) => b.type === "passage" && /^Constitution\.\d/.test(b.ref)).length;
 
 // Quick ways in, resolved through the ref index so they can't go stale.

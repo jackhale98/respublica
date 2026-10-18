@@ -198,6 +198,16 @@
 .toc a .dot { align-self: center; }
 .toc .t { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
 .toc .toc-close { display: none; }
+/* A division's clauses or sections, and stand-alone passages. */
+.toc .toc-chips { display: flex; flex-wrap: wrap; gap: .25rem; padding: .1rem .6rem .45rem 1.4rem; }
+.toc .l2 .toc-chips { padding-left: 2.2rem; }
+.toc .toc-chips a {
+  display: inline-flex; justify-content: center; min-width: 1.75rem; padding: .18rem .45rem;
+  border: 1px solid var(--border); border-radius: 999px; font-size: .76rem; line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+.toc .toc-chips a.active { border-color: var(--brand); }
+.toc a.toc-p .t { font-size: .84rem; }
 
 /* Without JavaScript, contents follow the text on small screens. */
 @media (max-width: 79.99rem) {

@@ -241,30 +241,35 @@ function centerInToc(a: HTMLElement | null | undefined) {
 }
 centerInToc(toc?.querySelector<HTMLElement>("a[aria-current]"));
 
-// Scrollspy: highlight the contents entry for the division being read.
+// Scrollspy: highlight the contents entries for the division and the
+// passage being read (a passage is in the contents when it is a clause or
+// section of a division, or stands outside any division).
 const tocLinks = new Map<string, HTMLAnchorElement>();
 for (const a of toc?.querySelectorAll<HTMLAnchorElement>("a[data-toc-ref]") ?? []) tocLinks.set(a.dataset.tocRef!, a);
 const headings = Array.from(document.querySelectorAll<HTMLElement>("[data-toc]")).filter((h) => tocLinks.has(h.dataset.toc!));
-if (headings.length && "IntersectionObserver" in window) {
-  let current: HTMLAnchorElement | undefined;
-  const visible = new Set<HTMLElement>();
-  const update = () => {
-    const header = (document.querySelector(".site-header") as HTMLElement)?.offsetHeight ?? 0;
-    let best: HTMLElement | undefined;
-    for (const h of headings) if (h.getBoundingClientRect().top <= header + 120) best = h;
-    best ??= headings[0];
-    const link = tocLinks.get(best.dataset.toc!);
-    if (link !== current) {
-      current?.classList.remove("active");
-      link?.classList.add("active");
-      current = link;
-    }
+const spied = Array.from(document.querySelectorAll<HTMLElement>(".passage[data-ref]")).filter((p) => tocLinks.has(p.dataset.ref!));
+if ((headings.length || spied.length) && "IntersectionObserver" in window) {
+  const current: (HTMLAnchorElement | undefined)[] = [undefined, undefined];
+  const mark = (i: number, link: HTMLAnchorElement | undefined) => {
+    if (link === current[i]) return;
+    current[i]?.classList.remove("active");
+    link?.classList.add("active");
+    current[i] = link;
   };
-  const io = new IntersectionObserver((entries) => {
-    for (const en of entries) en.isIntersecting ? visible.add(en.target as HTMLElement) : visible.delete(en.target as HTMLElement);
-    update();
-  }, { rootMargin: "0px 0px -60% 0px" });
-  headings.forEach((h) => io.observe(h));
+  const above = (els: HTMLElement[], line: number) => {
+    let best: HTMLElement | undefined;
+    for (const el of els) if (el.getBoundingClientRect().top <= line) best = el;
+    return best;
+  };
+  const update = () => {
+    const line = ((document.querySelector(".site-header") as HTMLElement)?.offsetHeight ?? 0) + 120;
+    const h = above(headings, line) ?? (spied.length ? undefined : headings[0]);
+    mark(0, h && tocLinks.get(h.dataset.toc!));
+    const p = above(spied, line) ?? (headings.length ? undefined : spied[0]);
+    mark(1, p && tocLinks.get(p.dataset.ref!));
+  };
+  const io = new IntersectionObserver(update, { rootMargin: "0px 0px -60% 0px" });
+  [...headings, ...spied].forEach((el) => io.observe(el));
   window.addEventListener("scroll", () => requestAnimationFrame(update), { passive: true });
   update();
 }

@@ -1,0 +1,11 @@
+---
+// Links to each clause or section of a division, in the contents: a row
+// of numbers ("1 2 3"), or names (the signers' states). The opening words
+// are the link's title and accessible name.
+const { list, anchorOf } = Astro.props;
+---
+<ol class="toc-chips">
+  {list.map((p) => (
+    <li><a href={`#${anchorOf(p)}`} data-toc-ref={p.ref} data-toc-passage title={p.snippet} aria-label={`${p.n}: ${p.snippet}`}>{p.n}</a></li>
+  ))}
+</ol>

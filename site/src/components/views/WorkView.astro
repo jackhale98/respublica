@@ -5,6 +5,7 @@ import ReaderHeading from "../ReaderHeading.astro";
 import AuthorChip from "../AuthorChip.astro";
 import DocLines from "../DocLines.astro";
 import Runs from "../Runs.astro";
+import PassageLinks from "../PassageLinks.astro";
 import { href, COLLECTIONS, authorText, formatDate, formatNumber } from "../../lib/data.js";
 
 // A work shown on one page (the Constitution, the Amendments, a single
@@ -13,8 +14,12 @@ const { page, work } = Astro.props;
 const debate = work.collection === "ratification";
 const d = page.division;
 const attr = work.attribution;
+// Contents (tools/site_data.py `_toc`): top-level divisions and stand-alone
+// passages in reading order, sections under their article, and links to
+// each clause or section of a division that has several.
 const tops = page.toc.filter((t) => t.level === 1);
-const subsOf = (ref) => page.toc.filter((t) => t.level === 2 && t.ref.startsWith(ref + "."));
+const subsOf = (ref) => page.toc.filter((t) => t.kind === "division" && t.level === 2 && t.ref.startsWith(ref + "."));
+const numbered = (n) => /^\d+$/.test(n);
 const hasChanged = page.blocks.some((b) => b.type === "passage" && b.changed.length);
 const anchorOf = (t) => t.url.split("#")[1];
 ---
@@ -28,12 +33,24 @@ const anchorOf = (t) => t.url.split("#")[1];
   <Fragment slot="toc">
     <h2>Contents</h2>
     <ol>
-      {tops.map((t) => (
+      {tops.map((t) => t.kind === "passage" ? (
+        <li>
+          <a href={`#${anchorOf(t)}`} data-toc-ref={t.ref} class="toc-p">
+            {numbered(t.n) ? <Fragment><span class="n">{t.n}</span><span class="t">{t.snippet}</span></Fragment> : <span class="t">{t.n}</span>}
+          </a>
+        </li>
+      ) : (
         <li>
           <a href={`#${anchorOf(t)}`} data-toc-ref={t.ref}><span class="t">{t.label}</span></a>
+          {t.passages && <PassageLinks list={t.passages} anchorOf={anchorOf} />}
           {subsOf(t.ref).length > 0 && (
             <ol class="l2">
-              {subsOf(t.ref).map((s) => <li><a href={`#${anchorOf(s)}`} data-toc-ref={s.ref}>{s.label.split(", ").at(-1)}</a></li>)}
+              {subsOf(t.ref).map((s) => (
+                <li>
+                  <a href={`#${anchorOf(s)}`} data-toc-ref={s.ref}>{s.label.split(", ").at(-1)}</a>
+                  {s.passages && <PassageLinks list={s.passages} anchorOf={anchorOf} />}
+                </li>
+              ))}
             </ol>
           )}
         </li>

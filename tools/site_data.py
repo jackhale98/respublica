@@ -394,11 +394,50 @@ class SiteBuilder:
         return blocks
 
     def _toc(self, work: dict, levels: tuple[int, ...]) -> list[dict]:
-        out = []
-        for d in work.get("divisions", []):
-            if d["level"] in levels:
-                out.append({"label": d["label"], "level": d["level"], "ref": d["ref"], "url": self.url_for(d["ref"])})
+        """Contents in reading order: the divisions at `levels`, each with
+        links to its own passages when it has several (an article's
+        clauses, a state's signers), and the passages that stand outside
+        any division (the Preamble, the Declaration's paragraphs)."""
+        divs = [d for d in work.get("divisions", []) if d["level"] in levels]
+        segs = [s for s in work["segments"] if s.get("kind") != "footnote"]
+
+        def owner(ref: str) -> str | None:
+            # The deepest listed division the passage belongs to.
+            best = None
+            for d in divs:
+                if ref.startswith(d["ref"] + ".") and (best is None or len(d["ref"]) > len(best)):
+                    best = d["ref"]
+            return best
+
+        owned: dict[str, list[dict]] = {}
+        for s in segs:
+            owned.setdefault(owner(s["ref"]), []).append(s)
+        out: list[dict] = []
+        placed: set[str] = set()
+        for s in segs:
+            o = owner(s["ref"])
+            if o is None:
+                out.append({"kind": "passage", "level": 1, **self._toc_passage(s)})
+            elif o not in placed:
+                # Every division above the passage's own, then its own, in order.
+                for d in divs:
+                    if d["ref"] not in placed and (o == d["ref"] or o.startswith(d["ref"] + ".")):
+                        placed.add(d["ref"])
+                        entry = {"kind": "division", "label": d["label"], "level": d["level"], "ref": d["ref"],
+                                 "url": self.url_for(d["ref"])}
+                        mine = owned.get(d["ref"], [])
+                        if len(mine) > 1:
+                            entry["passages"] = [self._toc_passage(x) for x in mine]
+                        out.append(entry)
         return out
+
+    def _toc_passage(self, s: dict) -> dict:
+        """A passage in the contents: its number or name, and its opening words."""
+        last = s.get("label", s["ref"]).split(", ")[-1].split(": ")[-1]
+        n = re.sub(r"^(?:Clause|Section|¶)\s*", "", last)
+        words = s["text"].split()
+        snippet = " ".join(words[:10]) + ("…" if len(words) > 10 else "")
+        return {"n": n, "ref": s["ref"], "snippet": snippet, "url": self.url_for(s["ref"])}
 
     def _attribution(self, attr: dict | None) -> dict | None:
         if not attr:
@@ -463,7 +502,7 @@ class SiteBuilder:
                     "id": pid,
                     "kind": "work",
                     "title": work["title"],
-                    "toc": [] if single else self._toc(work, (1, 2)),
+                    "toc": self._toc(work, () if single else (1, 2)),
                     "url": info["url"],
                     "work": self._work_ref(info),
                 }
@@ -492,6 +531,7 @@ class SiteBuilder:
                     parts.append(part)
                     pages[pid] = {
                         "blocks": self._blocks(work, body, ()),
+                        "toc_passages": [self._toc_passage(x) for x in body],
                         "division": {
                             **part,
                             "header": self._header(d),

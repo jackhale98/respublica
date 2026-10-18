@@ -5,6 +5,7 @@ import AuthorChip from "../AuthorChip.astro";
 import DocLines from "../DocLines.astro";
 import Runs from "../Runs.astro";
 import Icon from "../Icon.astro";
+import PassageLinks from "../PassageLinks.astro";
 import { href, authorKey, authorText, formatNumber, printedDate, readingMinutes, runsText } from "../../lib/data.js";
 
 // One part of a paged work: a Federalist paper, or one essay or letter of
@@ -36,6 +37,7 @@ const printed = d.publication.map((l) => l).join(" ");
             {!debate && <span class:list={["dot", authorKey(p.attribution)]} aria-hidden="true"></span>}
             <span class="t">{p.title || printedDate(p.publication) || p.label}</span>
           </a>
+          {p.ref === d.ref && page.toc_passages.length > 1 && <PassageLinks list={page.toc_passages} anchorOf={(x) => x.ref} />}
         </li>
       ))}
     </ol>

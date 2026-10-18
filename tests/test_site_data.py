@@ -37,6 +37,16 @@ class SiteStructureTests(unittest.TestCase):
         self.assertEqual(self.refs["Federalist.6.fn1"]["url"], "/federalist/6/#Federalist.6.fn1")
         self.assertEqual(self.refs["Caution"]["url"], "/caution/")  # a single piece is its own page
 
+    def test_contents_reach_every_clause_and_paragraph(self):
+        decl = {t["ref"]: t for t in self.pages["declaration"]["toc"]}
+        self.assertEqual(decl["Declaration.2"]["kind"], "passage")
+        self.assertTrue(decl["Declaration.2"]["snippet"].startswith("We hold these truths"))
+        self.assertEqual(len(decl["Declaration.Signers"]["passages"]), 15)
+        const = {t["ref"]: t for t in self.pages["constitution"]["toc"]}
+        self.assertEqual([p["n"] for p in const["Constitution.1.8"]["passages"]][-1], "18")
+        self.assertEqual(const["Constitution.Preamble"]["kind"], "passage")
+        self.assertEqual(self.pages["federalist-10"]["toc_passages"][0]["ref"], "Federalist.10.1")
+
     def test_every_segment_has_a_url(self):
         for ref in self.corpus.segments:
             self.assertIn(ref, self.refs)

@@ -560,3 +560,22 @@ A workflow records them.
   neutral but has edges. For example, cases cited on 10 or more pages give
   97 cases, including *Brown v. Board of Education* (11) but not *Roe v.
   Wade* (9) or *Gideon v. Wainwright* (8). The project owner chooses the rule.
+
+## 40. Contents down to the clause
+
+The contents listed only divisions, so the Declaration (whose paragraphs
+are not in any division) showed only "Signatures", and a clause could not
+be reached from them. They now reach every passage, in reading order
+(`tools/site_data.py`, `_toc`):
+
+- Passages outside any division (the Preamble, the Declaration's
+  paragraphs, a single essay's paragraphs) are entries of their own, with
+  their number and opening words.
+- A division with several passages of its own (an article's section, a
+  state's signers) lists them as a row of small numbered links (the state's
+  name for signers), whose opening words are the link's title and
+  accessible name.
+- On a Federalist paper or debate essay, the paper being read lists its
+  paragraphs the same way.
+- The highlight follows both the division and the passage being read.
+
