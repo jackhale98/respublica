@@ -22,3 +22,4 @@ source, and its status.
 | 10 | `Federalist.81.10` | "AUTHORUZE" is probably a transcription error for "AUTHORIZE". | Line 18339 (No. LXXXI). | Open: needs a check against a page image |
 | 11 | `Federalist.84.5`, `Federalist.85.15` | "Usays he,e" and "Usays hee" look like a mangled "[says he]" inside quotations (Blackstone in No. 84, Hume in No. 85). | Lines 19371 and 19940. | Open: needs a check against a page image |
 | 12 | `Federalist.80.14` | "the word “equity What equitable" seems to have lost a closing quotation mark and a question mark after "equity". | Line 18104 (No. LXXX). | Open: needs a check against a page image |
+| 13 | `Federalist.67.8` | "fill up ?? VACANCIES": the "??" (the only one in the e-text) looks like a lost word or character; the clause quoted (`Constitution.2.2.3`) reads "fill up all Vacancies". | Line 14899 (No. LXVII). | Open: needs a check against a page image |
