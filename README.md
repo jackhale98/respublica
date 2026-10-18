@@ -3,7 +3,7 @@
 A free, open-source library of America's founding texts, where every passage
 has a permanent reference and every connection between passages records who
 made it, why, and whether a person has reviewed it. Static site, no server,
-no accounts. Planned home: `library.commonhall.org`.
+no accounts. Live at <https://respublicalibrary.org>.
 
 See [`PLAN.md`](PLAN.md) for the full plan and [`CLAUDE.md`](CLAUDE.md) for
 the rules every contributor (human or agent) follows.
@@ -19,7 +19,7 @@ the rules every contributor (human or agent) follows.
 | 4. Connections panel and graph | Done: the panel (a bottom sheet on phones) lists each passage's connections; "Graph" opens a two-hop graph of them (force layout with zoom, pan and drag; d3), filterable by link type, side (founding documents, Federalist, Anti-Federalist) and review status. |
 | 5. Ratification debate | Imported: 20 works (187k words) from Ford's *Essays* (every section), Ford's *Pamphlets* (the Federal Farmer), McMaster and Stone (Centinel I–XXIV) and the Massachusetts convention's *Debates* (1856; Brutus I–IV), both sides, read from scans by OCR consensus with uncertain words marked (method: [`docs/ocr.md`](docs/ocr.md)). Brutus V–XVI: only in the original newspaper (Library of Congress, poor OCR from a single scan), not yet imported. The rest of Ford's *Pamphlets* is next. See [`docs/editions.md`](docs/editions.md). |
 | 6. Debate links and review | Linked: 453 suggested links from 18 debate works and The Federalist: 366 to 75 clauses of the Constitution, 2 to the Declaration and 85 between essays (responses, rebuttals, quotations and citations, such as Cato and Caesar's exchange, Luther Martin and the Landholder's, and the essays that point readers to Brutus), checked by a second agent and awaiting human review. A review page (`/review/`) lets a maintainer approve or reject links in batches and records the decisions through a GitHub issue. See [`docs/linking.md`](docs/linking.md), "Run 2" and "Reviewing links". |
-| 7. Landmark cases | Imported: 189 Supreme Court cases chosen by fixed rules from the 2022 Constitution Annotated (decisions 41, 42), each keyed by its CourtListener cluster, with a page of its own (`/cases/`): the syllabus as printed in the United States Reports for 126 of them, read from the Library of Congress scans, and a link to the full opinion on CourtListener. 308 suggested `interprets` links (a case to the provisions whose essays cite it on two or more pages) and 39 `overrules` links from the official table of overruled decisions, awaiting review; clauses list the cases that interpret them, in date order, with overruled cases marked. See [`docs/editions.md`](docs/editions.md) and decision 45. |
+| 7. Landmark cases | Imported: 213 Supreme Court cases chosen by fixed rules from the 2022 Constitution Annotated (decisions 41–43), each keyed by its CourtListener cluster, with a page of its own (`/cases/`): the syllabus as printed in the United States Reports for 156 of them, read from the Library of Congress scans, and a link to the full opinion on CourtListener. 338 suggested `interprets` links (a case to the provisions whose essays cite it on two or more pages) and 39 `overrules` links from the official table of overruled decisions, awaiting review; clauses list the cases that interpret them, in date order, with overruled cases marked. See [`docs/editions.md`](docs/editions.md) and decision 45. Still to do: syllabi for the rest, and a page per clause. |
 | 8. Search | Pagefind full-text search plus "jump to" any ref. Source sheets not started. |
 | 9–10 | Not started. |
 
@@ -47,7 +47,7 @@ make dev        # local preview (search needs make build)
 ```
 
 `make fetch` restores raw sources from `sources/manifest.json` (run it
-first in a fresh clone: the U.S. Reports scans, about 320 MB, are not in
+first in a fresh clone: the U.S. Reports scans, about 330 MB, are not in
 git), `make import` regenerates `texts/` and `cases/` from them, and
 `make lock-refs` records new refs in `refs.lock`. Looking up new cases on
 CourtListener (`python -m importers.courtlistener lookup`) needs an API

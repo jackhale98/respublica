@@ -52,7 +52,8 @@ Suggested links become reviewed only by a person. Two ways:
   the issue's author has write access to the repository, records each
   decision with `tools.links apply` under that GitHub login (`reviewed_by`,
   `reviewed_at`, and `review_note` if given), runs `make verify`, commits to
-  `main`, starts the Deploy workflow, and comments on and closes the issue.
+  `main` (Cloudflare then rebuilds and redeploys the site), and comments on and
+  closes the issue.
   Issues from anyone else change nothing. It uses only the workflow's own
   token; no secrets.
 - **The command line**: `python3 -m tools.links review --reviewer NAME`.

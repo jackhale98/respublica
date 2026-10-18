@@ -688,21 +688,21 @@ The project owner chose, when phase 7 resumed with a CourtListener token:
   notes. The text layer is OCR in older volumes; it is copied, not
   corrected (rule 3), and each paragraph links to its page image. Where the
   reader cannot be sure it has the whole syllabus in order (a paragraph that
-  stops mid-sentence), the case gets no syllabus and says why: 36 of the 162
+  stops mid-sentence), the case gets no syllabus and says why: 25 of the 181
   scans from volume 91 on, at first. They can be read later with new refs.
-- **The scans stay out of git.** The 179 PDFs total about 320 MB, more than
+- **The scans stay out of git.** The 202 PDFs total about 330 MB, more than
   the repository's raw budget (decision 15). They are recorded in the
   manifest like any source, listed in `.gitignore`, restored by `make fetch`
   and cached in CI (`actions/cache`, pinned); the budget check counts them
   separately (1 GB).
 - **`interprets` from two pages.** A case `interprets` a provision when the
   Constitution Annotated's essays on it cite the case on at least two
-  printed pages (308 links for the 189 cases; one page would give 591, many
-  of them passing mentions). `overrules` links come only from the table of
+  printed pages (338 links for the 213 cases; one page would give about
+  twice as many, many of them passing mentions). `overrules` links come only from the table of
   overruled decisions, where both cases are in the library. Both are
   imported by code as suggestions for a person to review.
 - **Few API requests.** CourtListener allows the token 125 requests a day.
   Cases are found through its citation lookup, many citations per request,
-  and slip opinions by docket number: about a dozen requests for 189 cases.
+  and slip opinions by docket number: about a dozen requests for 213 cases.
   Each response is a raw source with its request body; the token is never
   stored, only the name of the variable that holds it (`auth_env`).

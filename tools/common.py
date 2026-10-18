@@ -34,7 +34,7 @@ LINKS_DIR = ROOT / "links"
 # and cached in CI.
 UNTRACKED_RAW = ("loc-usrep-*.pdf",)
 
-USER_AGENT = "ResPublicaFetcher/0.1 (+https://library.commonhall.org)"
+USER_AGENT = "ResPublicaFetcher/0.1 (+https://respublicalibrary.org)"
 ALLOWED_SCHEMES = ("http", "https")
 
 

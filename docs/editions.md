@@ -176,7 +176,7 @@ Government work in the public domain. `importers/conan.py` reads it with
 - the Table of Supreme Court Decisions Overruled by Subsequent Decisions
   (235 rows), the only source for `overrules` links.
 
-**Which cases.** The first set is 189 cases chosen from the Constitution
+**Which cases.** The first set is 213 cases chosen from the Constitution
 Annotated by the rules of decisions 41 to 43 (`python -m importers.conan
 --landmarks`).
 

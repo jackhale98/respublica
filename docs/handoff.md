@@ -31,14 +31,14 @@ connections panel and graph, search, and the review page.
 
 **Phase 7, Supreme Court cases: the first set is imported** (decision 45):
 
-- 189 cases (`cases/`), chosen by the rules of decisions 41 to 43, each
+- 213 cases (`cases/`), chosen by the rules of decisions 41 to 43, each
   keyed by its CourtListener cluster (`importers/courtlistener.py`; the
   recorded lookups are raw sources), with a page at `/cases/{id}/` and an
   index at `/cases/`.
-- The syllabus as printed in the U.S. Reports for 126 of them, read from the
+- The syllabus as printed in the U.S. Reports for 156 of them, read from the
   Library of Congress scans (`importers/usreports.py`, `importers/cases.py`).
   The scans are kept out of git: run `make fetch` first in a fresh clone.
-- 308 `interprets` and 39 `overrules` links, imported from the Constitution
+- 338 `interprets` and 39 `overrules` links, imported from the Constitution
   Annotated as suggestions (`importers/case_links.py`), on the review page
   under "Supreme Court cases".
 - CourtListener allows the token 125 requests a day; the lookups use about a
@@ -49,7 +49,7 @@ connections panel and graph, search, and the review page.
 1. **Review the case links** on `/review/` ("Supreme Court cases"), checking
    a sample against the Constitution Annotated pages each link names.
 2. **Syllabi not yet shown** (each case says why in `syllabus_note`):
-   - 36 scans whose text layer the reader could not follow
+   - 25 scans whose text layer the reader could not follow
      (`python -m importers.usreports syllabus VOL PAGE` prints what it reads
      and the problem). Most are hanging-indent headnotes of 1880–1940 or
      pages whose OCR lines are out of order; improve the reader, never type
@@ -61,8 +61,9 @@ connections panel and graph, search, and the review page.
      at a line end ("electioneer ing", "corpora tion"), so it cannot be
      rejoined without guessing. Reading the Court's slip-opinion PDF itself
      (supremecourt.gov) would need the owner's approval as a new source.
-   - 20 decisions before volume 91 and 3 summary decisions have no syllabus
-     by design.
+   - 21 decisions before volume 91 and 3 summary decisions have no syllabus
+     by design; *Sessions v. Morales-Santana* (582 U.S. 47) is not yet in the
+     Library of Congress collection.
 3. **OCR in syllabi**: misreadings are copied, not fixed (rule 3); record
    suspected ones in `docs/errata.md` (entry 25 lists the first) for a
    person to check against the page image the case page links to.
