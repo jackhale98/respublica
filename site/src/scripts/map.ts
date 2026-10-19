@@ -2,13 +2,13 @@
 // passage; above each, a stacked bar of the links that reach it from the
 // debates, by side; below it, a dot for each case whose Constitution
 // Annotated essays cite it, oldest nearest the spine. Then an arc diagram of
-// the debate's works answering one another. Drawn with d3 (selection, zoom,
-// transition); data is /data/map.json from tools/site_data.py (build_map).
+// the debate's works answering one another. Drawn with d3 (selection and
+// transition; zoom loads when the pointer reaches the map); data is /data/map.json from tools/site_data.py (build_map).
 // Wide screens read along a horizontal spine that pans and zooms; phones
 // read down a vertical one. Decision 51.
 
 import { select, type Selection } from "d3-selection";
-import { zoom, zoomIdentity, type D3ZoomEvent } from "d3-zoom";
+import type { D3ZoomEvent } from "d3-zoom";
 import "d3-transition";
 
 type Item = { group: string; label: string; ref: string; short: string; url: string | null; totals: Record<string, number> };
@@ -33,6 +33,36 @@ const chartBox = root.querySelector<HTMLElement>("[data-map-chart]")!;
 const arcBox = root.querySelector<HTMLElement>("[data-map-arcs]")!;
 const tip = root.querySelector<HTMLElement>("[data-map-tip]")!;
 const filterBox = root.querySelector<HTMLElement>("[data-map-filters]")!;
+const sheet = root.querySelector<HTMLElement>("[data-map-sheet]")!;
+
+// On touch, a tap selects: the card at the foot of the screen shows the
+// passage, its counts and cases, and the way to open it.
+function showSheet(lines: HTMLElement[], url: string | null, label: string) {
+  const close = document.createElement("button");
+  close.type = "button";
+  close.className = "map-sheet-close";
+  close.setAttribute("aria-label", "Close");
+  close.textContent = "×";
+  close.addEventListener("click", () => hideSheet());
+  const body = document.createElement("div");
+  body.className = "map-sheet-body";
+  body.append(...lines);
+  const kids: HTMLElement[] = [close, body];
+  if (url) {
+    const a = document.createElement("a");
+    a.className = "btn btn-primary map-sheet-open";
+    a.href = url;
+    a.textContent = `Open ${label}`;
+    kids.push(a);
+  }
+  sheet.replaceChildren(...kids);
+  sheet.hidden = false;
+}
+let onSheetClose: (() => void) | null = null;
+function hideSheet() {
+  sheet.hidden = true;
+  onSheetClose?.();
+}
 
 const shown = new Set([...SIDES, "cases"]);
 let reviewedOnly = false;
@@ -69,7 +99,7 @@ function drawChart(data: MapData) {
 
   // Along the spine: a slot per passage, a gap between groups.
   const width = chartBox.clientWidth;
-  const alongLen = vertical ? n * 9 + groups * GAP + 40 : width;
+  const alongLen = vertical ? n * 16 + groups * GAP + 40 : width; // rows tall enough to tap
   const PAD = 12;
   const slot = (alongLen - 2 * PAD - (groups - 1) * GAP) / n;
   const pos0 = new Array<number>(n);
@@ -211,7 +241,6 @@ function drawChart(data: MapData) {
       const names = cs.slice(0, 6).map((d) => `${d.c.label} (${d.c.year})${d.c.overruled ? ", overruled" : ""}`);
       out.push(text("span", "", `${cs.length} ${cs.length === 1 ? "case" : "cases"}: ${names.join("; ")}${cs.length > 6 ? "; …" : ""}`));
     }
-    out.push(text("em", "", "Select to open"));
     return out;
   }
   function focus(i: number, at?: [number, number]) {
@@ -220,17 +249,33 @@ function drawChart(data: MapData) {
     if (i < 0) return hideTip();
     const node = hits.selectAll<SVGRectElement, Item>("rect").nodes()[i];
     const b = node.getBoundingClientRect();
-    showTip(describe(i), at ? at[0] : b.left + b.width / 2, at ? at[1] : b.top + (vertical ? b.height / 2 : 20));
+    showTip([...describe(i), text("em", "", "Select to open")], at ? at[0] : b.left + b.width / 2, at ? at[1] : b.top + (vertical ? b.height / 2 : 20));
   }
+  // A tap: mark the passage and show it in the card.
+  function pick(i: number) {
+    active = i;
+    hits.selectAll<SVGRectElement, Item>("rect").classed("on", (_, k) => k === i);
+    hideTip();
+    const it = data.spine[i];
+    showSheet(describe(i), local(it.url), it.short);
+  }
+  onSheetClose = () => hits.selectAll<SVGRectElement, Item>("rect").classed("on", false);
   const open = (i: number) => { const u = local(data.spine[i].url); if (u) location.href = u; };
 
-  hits.on("pointermove", (e: PointerEvent) => {
-    const i = hits.selectAll("rect").nodes().indexOf(e.target as Element);
-    if (i >= 0) focus(i, [e.clientX, e.clientY]);
-  }).on("pointerleave", () => focus(-1))
+  // A mouse hovers to see a passage and clicks to open it; a finger taps to see it, then opens it from the card.
+  let lastPointer = "mouse";
+  hits.on("pointerdown", (e: PointerEvent) => { lastPointer = e.pointerType; })
+    .on("pointermove", (e: PointerEvent) => {
+      if (e.pointerType !== "mouse") return;
+      const i = hits.selectAll("rect").nodes().indexOf(e.target as Element);
+      if (i >= 0) focus(i, [e.clientX, e.clientY]);
+    })
+    .on("pointerleave", (e: PointerEvent) => { if (e.pointerType === "mouse") focus(-1); })
     .on("click", (e: MouseEvent) => {
       const i = hits.selectAll("rect").nodes().indexOf(e.target as Element);
-      if (i >= 0) open(i);
+      if (i < 0) return;
+      if (lastPointer === "mouse") open(i);
+      else pick(i);
     });
   svg.on("keydown", (e: KeyboardEvent) => {
     const step = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[e.key];
@@ -244,20 +289,26 @@ function drawChart(data: MapData) {
   }).on("blur", () => focus(-1));
 
   // ---- pan and zoom along the spine (wide screens)
+  // Pan and zoom (wide screens): d3-zoom loads when the pointer first
+  // reaches the map, so the page loads only what it draws with.
   if (!vertical) {
-    const z = zoom<SVGSVGElement, unknown>()
-      .scaleExtent([1, 8])
-      .translateExtent([[0, 0], [width, acrossLen]])
-      .filter((e: any) => (e.type === "wheel" ? e.ctrlKey || e.shiftKey || Math.abs(e.deltaX) > Math.abs(e.deltaY) : !e.button))
-      .on("zoom", (e: D3ZoomEvent<SVGSVGElement, unknown>) => {
-        const k = e.transform.k;
-        pos = pos0.map((p) => e.transform.applyX(p));
-        w = slot * k;
-        hideTip();
-        layout(false);
+    svg.on("pointerenter.load focus.load", () => {
+      svg.on("pointerenter.load focus.load", null);
+      import("d3-zoom").then(({ zoom, zoomIdentity }) => {
+        const z = zoom<SVGSVGElement, unknown>()
+          .scaleExtent([1, 8])
+          .translateExtent([[0, 0], [width, acrossLen]])
+          .filter((e: any) => (e.type === "wheel" ? e.ctrlKey || e.shiftKey || Math.abs(e.deltaX) > Math.abs(e.deltaY) : !e.button))
+          .on("zoom", (e: D3ZoomEvent<SVGSVGElement, unknown>) => {
+            pos = pos0.map((p) => e.transform.applyX(p));
+            w = slot * e.transform.k;
+            hideTip();
+            layout(false);
+          });
+        svg.call(z as any).on("dblclick.zoom", null);
+        svg.call(z.transform as any, zoomIdentity);
       });
-    svg.call(z as any).on("dblclick.zoom", null);
-    svg.call(z.transform as any, zoomIdentity);
+    });
   }
   layout(false);
   return { update: () => { recount(); hideTip(); layout(true); } };
@@ -276,36 +327,74 @@ function drawArcs(data: MapData) {
     arcBox.append(text("p", "muted", "No links between works match the filters."));
     return;
   }
-  const width = Math.max(arcBox.clientWidth, order.length * 46);
-  const step = (width - 150) / Math.max(1, order.length - 1); // room on the right for the last slanted label
-  const x = Object.fromEntries(order.map((w, i) => [w, 30 + i * step]));
-  const maxSpan = Math.max(...arcs.map((a) => Math.abs(x[a.to] - x[a.from])));
-  const base = Math.min(maxSpan / 2, 220) + 16;
-  const height = base + 120;
+  const vertical = arcBox.clientWidth < 640;
+  let width: number, height: number;
+  const at: Record<string, [number, number]> = {};
+  let path: (a: Arc) => string;
+  if (vertical) {
+    // Phones: the works down the page, named on the left; arcs bulge to the right.
+    const LABELS = Math.min(150, arcBox.clientWidth * 0.42);
+    const ROW = 34;
+    width = arcBox.clientWidth;
+    height = order.length * ROW + 20;
+    order.forEach((w, i) => { at[w] = [LABELS + 10, 16 + i * ROW]; });
+    const room = width - LABELS - 20;
+    path = (a) => {
+      const [x, y1] = at[a.from], [, y2] = at[a.to];
+      const h = Math.min(Math.abs(y2 - y1) / 2 + 8, room);
+      return `M${x},${y1} C${x + h * 1.33},${y1} ${x + h * 1.33},${y2} ${x},${y2}`;
+    };
+  } else {
+    width = Math.max(arcBox.clientWidth, order.length * 46);
+    const step = (width - 150) / Math.max(1, order.length - 1); // room on the right for the last slanted label
+    order.forEach((w, i) => { at[w] = [30 + i * step, 0]; });
+    const maxSpan = Math.max(...arcs.map((a) => Math.abs(at[a.to][0] - at[a.from][0])));
+    const base = Math.min(maxSpan / 2, 220) + 16;
+    order.forEach((w) => { at[w][1] = base; });
+    height = base + 120;
+    path = (a) => {
+      const [x1] = at[a.from], [x2] = at[a.to];
+      const h = Math.min(Math.abs(x2 - x1) / 2, base - 10);
+      return `M${x1},${base} C${x1},${base - h * 1.33} ${x2},${base - h * 1.33} ${x2},${base}`;
+    };
+  }
 
-  const svg = select(arcBox).append("svg").attr("class", "arc-svg").attr("width", width).attr("height", height)
+  const svg = select(arcBox).append("svg").attr("class", vertical ? "arc-svg vertical" : "arc-svg").attr("width", width).attr("height", height)
     .attr("role", "img").attr("aria-label", `${arcs.length} groups of links between ${order.length} works of the debate`);
   const paths = svg.append("g").selectAll("path").data(arcs).enter().append("path")
     .attr("class", (a) => `arc s-${data.works[a.from]?.side ?? "other"}`)
-    .attr("d", (a) => {
-      const x1 = x[a.from], x2 = x[a.to], r = Math.abs(x2 - x1) / 2;
-      const h = Math.min(r, base - 10);
-      return `M${x1},${base} C${x1},${base - h * 1.33} ${x2},${base - h * 1.33} ${x2},${base}`;
-    })
+    .attr("d", path)
     .attr("stroke-width", (a) => 1 + Math.sqrt(a.n) * 1.4);
-  paths.on("pointermove", (e: PointerEvent, a: Arc) => {
+  const arcInfo = (a: Arc) => {
     const kind = { answer: "answers or rebuttals", cite: "quotations or citations", theme: "shared themes", case: "case links" }[a.kind] || a.kind;
-    showTip([text("strong", "", `${data.works[a.from].short} → ${data.works[a.to].short}`), text("span", "", `${a.n} ${kind}${a.reviewed ? `, ${a.reviewed} reviewed` : ""}`)], e.clientX, e.clientY);
-  }).on("pointerleave", hideTip);
+    return [text("strong", "", `${data.works[a.from].short} → ${data.works[a.to].short}`), text("span", "", `${a.n} ${kind}${a.reviewed ? `, ${a.reviewed} reviewed` : ""}`)];
+  };
+  paths.on("pointermove", (e: PointerEvent, a: Arc) => { if (e.pointerType === "mouse") showTip(arcInfo(a), e.clientX, e.clientY); })
+    .on("pointerleave", hideTip)
+    .on("click", (e: PointerEvent, a: Arc) => { if (e.pointerType !== "mouse") showSheet(arcInfo(a), null, ""); });
 
   const nodes = svg.append("g").selectAll("g").data(order).enter().append("g")
     .attr("class", "arc-node")
-    .attr("transform", (w) => `translate(${x[w]},${base})`)
+    .attr("transform", (w) => `translate(${at[w][0]},${at[w][1]})`)
     .attr("tabindex", 0)
     .attr("role", "link")
     .attr("aria-label", (w) => `${data.works[w].title}: open`);
+  nodes.append("title").text((w) => data.works[w].title);
   nodes.append("circle").attr("r", 5).attr("class", (w) => `s-${data.works[w].side}`);
-  nodes.append("text").attr("class", "arc-label").attr("transform", "rotate(40) translate(9,4)").text((w) => data.works[w].short);
+  nodes.append("text").attr("class", "arc-label")
+    .attr("transform", vertical ? "translate(-10,4)" : "rotate(40) translate(9,4)")
+    .attr("text-anchor", vertical ? "end" : "start")
+    .text((w) => data.works[w].short)
+    .each(function () {
+      // On phones a name fits its column, shortened with an ellipsis if need be.
+      if (!vertical) return;
+      const room = at[order[0]][0] - 16;
+      let t = this.textContent || "";
+      while (t.length > 4 && this.getComputedTextLength() > room) {
+        t = t.slice(0, -1);
+        this.textContent = `${t.trimEnd()}…`;
+      }
+    });
   const go = (w: string) => { const u = local(data.works[w].url); if (u) location.href = u; };
   nodes.on("click", (_: MouseEvent, w: string) => go(w))
     .on("keydown", (e: KeyboardEvent, w: string) => { if (e.key === "Enter") go(w); })

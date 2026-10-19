@@ -904,12 +904,17 @@ founding documents with every link coming off their clauses.
   overruled case. A link to a whole article or amendment counts at its
   first passage. An arc diagram below joins the debate's works that answer,
   rebut, quote or cite each other.
-- **Drawn with d3,** the modules the graph already uses (selection, zoom,
-  transition): the spine pans and zooms on wide screens, naming each
-  passage when zoomed in; on phones it runs down the page. Filters by side,
-  cases and reviewed links move the bars rather than redraw them. Hovering
-  or focusing a passage shows its counts and cases; selecting it opens it.
-  Arrow keys move along the spine.
+- **Drawn with d3,** the modules the graph already uses (selection,
+  transition, and zoom, which loads when the pointer first reaches the map
+  so the page stays inside its JavaScript budget): the spine pans and
+  zooms on wide screens, naming each passage when zoomed in. Filters by
+  side, cases and reviewed links move the bars rather than redraw them.
+  With a mouse, hovering a passage shows its counts and cases and clicking
+  opens it; arrow keys move along the spine.
+- **On phones** the spine runs down the page in rows tall enough to tap,
+  and the arcs run down the page too, the works named on the left. A tap
+  shows the passage (or arc) in a card at the foot of the screen, with a
+  button to open it, so nothing opens by accident while scrolling.
 - **Data from Python.** `tools/site_data.py` (`build_map`) writes one file,
   `/data/map.json` (about 190 KB), with the totals per passage that the
   page also shows as a table, for readers without JavaScript and for

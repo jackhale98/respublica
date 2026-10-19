@@ -57,7 +57,6 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
         </a>
         <ul class="jumps" aria-label="Popular passages">
           {jumps.map((j) => <li><a href={href(j.url)}>{j.label}</a></li>)}
-          <li><a href={href("/map/")}>Map of connections</a></li>
         </ul>
       </div>
       {featured && (
@@ -139,6 +138,12 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
           <div class="work-meta"><span>{congress.length} works</span><span>{congress.reduce((s, w) => s + w.top_divisions, 0)} days of debate</span></div>
         </a>
       )}
+      <a class="card work-card w-map" href={href("/map/")}>
+        <span class="work-icon"><Icon name="graph" /></span>
+        <h3>Map of connections</h3>
+        <p>The whole library at a glance: every clause of the Constitution and its amendments, with the links that reach it from the debates and the cases that interpret it.</p>
+        <div class="work-meta"><span>{formatNumber(site.stats.connections)} connections</span><span>{site.stats.cases} cases</span></div>
+      </a>
       {cases.length > 0 && (
         <a class="card work-card w-cases" href={href("/cases/")}>
           <span class="work-icon"><Icon name="scale" /></span>

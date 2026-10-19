@@ -63,7 +63,8 @@ const reviewed = map.debate.filter((m) => m[3]).length + map.interprets.filter((
         <noscript><p class="muted">The map needs JavaScript; the table below has the same counts.</p></noscript>
       </div>
       <div class="map-tip" data-map-tip role="status" hidden></div>
-      <figcaption class="muted">Bars: links from the debates, by side. Dots: cases, oldest nearest the spine; a ring marks an overruled case. Drag or scroll sideways to move along; pinch or Ctrl+scroll to zoom. With the map focused, the arrow keys move between passages and Enter opens one.</figcaption>
+      <div class="map-sheet card" data-map-sheet role="dialog" aria-label="Selected passage" hidden></div>
+      <figcaption class="muted">Bars: links from the debates, by side. Dots: cases, oldest nearest the spine; a ring marks an overruled case. On a wide screen, drag or scroll sideways to move along, and Ctrl+scroll to zoom; on a phone, tap a passage to see it. With the map focused, the arrow keys move between passages and Enter opens one.</figcaption>
     </figure>
 
     <section class="map-arcs-section" aria-labelledby="arcs-h">
