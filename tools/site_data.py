@@ -151,12 +151,203 @@ WORKS = {
                    "Fifteenth Amendment: every item headed “Suffrage Constitutional Amendment” in which the Senate "
                    "took them up, and its sitting of January 30, as printed in the Congressional Globe, from "
                    "January 21 to the conference report of February 26, 1869."},
+    # The Sixteenth to Nineteenth Amendments, from the Congressional Record (decision 61).
+    "senate-sixteenth-amendment-1909": {
+        "collection": "congress", "order": 6.31, "paged": True, "short": "Senate debates, 1909",
+        "slug": "senate-sixteenth-amendment-1909", "group": "The Sixteenth Amendment, 1909",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's debate on the joint resolution (S. J. Res. 40) proposing the Sixteenth Amendment: every"
+                   " item headed with its subject (“Tax on Incomes”, “Taxes on Incomes”) in which the Senate took it up,"
+                   " as printed in the Congressional Record, July 3 and 5, 1909, with the vote of July 5.")},
+    "house-sixteenth-amendment-1909": {
+        "collection": "congress", "order": 6.32, "paged": True, "short": "House debates, 1909",
+        "slug": "house-sixteenth-amendment-1909", "group": "The Sixteenth Amendment, 1909",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' debate on the Senate's joint resolution (S. J. Res. 40) proposing the "
+                   "Sixteenth Amendment: the item headed “Income Tax—Constitutional Amendment” of July 12, 1909, as "
+                   "printed in the Congressional Record, with the vote.")},
+    "house-seventeenth-amendment-1911": {
+        "collection": "congress", "order": 6.41, "paged": True, "short": "House debates, 1911",
+        "slug": "house-seventeenth-amendment-1911", "group": "The Seventeenth Amendment, 1911–12",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' debates on the joint resolution (H. J. Res. 39) proposing the "
+                   "Seventeenth Amendment in the first session of the Sixty-second Congress: every item headed with its "
+                   "subject (“Election of Senators”, “Election of Senators by the People”) in which the House took it "
+                   "up, as printed in the Congressional Record, from the vote of April 13 to July 15, 1911.")},
+    "senate-seventeenth-amendment-1911": {
+        "collection": "congress", "order": 6.42, "paged": True, "short": "Senate debates, 1911",
+        "slug": "senate-seventeenth-amendment-1911", "group": "The Seventeenth Amendment, 1911–12",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's debates on the House's joint resolution (H. J. Res. 39) proposing the Seventeenth "
+                   "Amendment: every item headed “Election of Senators by Direct Vote” or “Election of Senators by the People” in which the Senate took it up, "
+                   "and the few under other headings the Record's index lists, as printed in the Congressional Record, "
+                   "from April 17 to July 14, 1911, with the vote of June 12.")},
+    "senate-seventeenth-amendment-1912": {
+        "collection": "congress", "order": 6.43, "paged": True, "short": "Senate debates, 1912",
+        "slug": "senate-seventeenth-amendment-1912", "group": "The Seventeenth Amendment, 1911–12",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's proceedings on the joint resolution (H. J. Res. 39) proposing the Seventeenth Amendment"
+                   " in the second session of the Sixty-second Congress: the items headed “Election of Senators by "
+                   "Direct Vote” of April 17 and 23, 1912, as printed in the Congressional Record.")},
+    "house-seventeenth-amendment-1912": {
+        "collection": "congress", "order": 6.44, "paged": True, "short": "House debates, 1912",
+        "slug": "house-seventeenth-amendment-1912", "group": "The Seventeenth Amendment, 1911–12",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' proceedings on the Senate's amendment to the joint resolution (H. J. "
+                   "Res. 39) proposing the Seventeenth Amendment: the items headed with its subject of April 26 and May "
+                   "13, 1912, as printed in the Congressional Record, with the vote of May 13.")},
+    "senate-eighteenth-amendment-1917": {
+        "collection": "congress", "order": 6.51, "paged": True, "short": "Senate debates, 1917",
+        "slug": "senate-eighteenth-amendment-1917", "group": "The Eighteenth Amendment, 1917",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's debate on the joint resolution (S. J. Res. 17) proposing the Eighteenth Amendment: "
+                   "every item headed “National Prohibition” or “Nation-wide Prohibition” in which the Senate took it "
+                   "up, as printed in the Congressional Record, from July 9 to the vote of August 1, 1917.")},
+    "house-eighteenth-amendment-1917b": {
+        "collection": "congress", "order": 6.52, "paged": True, "short": "House debates, 1917 (2d session)",
+        "slug": "house-eighteenth-amendment-1917b", "group": "The Eighteenth Amendment, 1917",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' debate on the Senate's joint resolution (S. J. Res. 17) proposing the "
+                   "Eighteenth Amendment: the items headed “Vote on the Prohibition Amendment” (December 15) and "
+                   "“National Prohibition” (December 17, 1917, with the vote), as printed in the Congressional Record.")},
+    "senate-eighteenth-amendment-1917b": {
+        "collection": "congress", "order": 6.53, "paged": True, "short": "Senate debates, 1917 (2d session)",
+        "slug": "senate-eighteenth-amendment-1917b", "group": "The Eighteenth Amendment, 1917",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's proceedings of December 18, 1917, on the House's amendments to the joint resolution (S."
+                   " J. Res. 17) proposing the Eighteenth Amendment: the item headed “National Prohibition”, as printed "
+                   "in the Congressional Record, with the vote.")},
+    "house-nineteenth-amendment-1919": {
+        "collection": "congress", "order": 6.61, "paged": True, "short": "House debates, 1919",
+        "slug": "house-nineteenth-amendment-1919", "group": "The Nineteenth Amendment, 1919",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' debate on the joint resolution (H. J. Res. 1) proposing the Nineteenth"
+                   " Amendment: the item headed “Woman Suffrage” of May 21, 1919, as printed in the Congressional "
+                   "Record, with the vote.")},
+    "senate-nineteenth-amendment-1919": {
+        "collection": "congress", "order": 6.62, "paged": True, "short": "Senate debates, 1919",
+        "slug": "senate-nineteenth-amendment-1919", "group": "The Nineteenth Amendment, 1919",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's debate on the House's joint resolution (H. J. Res. 1) proposing the Nineteenth "
+                   "Amendment: every item headed “Woman Suffrage” in which the Senate took it up, and the motion of June"
+                   " 3 to take it up, as printed in the Congressional Record, from May 23 to the vote of June 4, 1919.")},
+    # The Twentieth to Twenty-sixth Amendments, from the Congressional Record (decision 62).
+    "senate-twentieth-amendment-1932": {
+        "collection": "congress", "order": 7.01, "paged": True, "short": "Senate debates, 1932",
+        "slug": "senate-twentieth-amendment-1932", "group": "The Twentieth Amendment, 1932",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's proceedings on the joint resolution (S. J. Res. 14) proposing the Twentieth Amendment: "
+                   "every item headed with its subject (“Fixing Terms of President, Vice President, and Congress”) in which "
+                   "the Senate took it up, as printed in the Congressional Record, from January 6 to the conference report "
+                   "of March 2, 1932.")},
+    "house-twentieth-amendment-1932": {
+        "collection": "congress", "order": 7.02, "paged": True, "short": "House debates, 1932",
+        "slug": "house-twentieth-amendment-1932", "group": "The Twentieth Amendment, 1932",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' proceedings on the Senate's joint resolution (S. J. Res. 14) proposing the "
+                   "Twentieth Amendment: every item headed with its subject (“Commencement of Terms of President, Vice "
+                   "President, Members of Congress, etc.”) in which the House took it up, as printed in the Congressional "
+                   "Record, from February 12 to the conference report of March 1, 1932.")},
+    "senate-twenty-first-amendment-1933": {
+        "collection": "congress", "order": 7.11, "paged": True, "short": "Senate debates, 1933",
+        "slug": "senate-twenty-first-amendment-1933", "group": "The Twenty-first Amendment, 1933",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's debate on the joint resolution (S. J. Res. 211) proposing the Twenty-first Amendment: every "
+                   "item headed “Amendment of the Constitution—Repeal of Prohibition” in which the Senate took it up, as "
+                   "printed in the Congressional Record, February 13 to 16, 1933.")},
+    "house-twenty-first-amendment-1933": {
+        "collection": "congress", "order": 7.12, "paged": True, "short": "House debates, 1933",
+        "slug": "house-twenty-first-amendment-1933", "group": "The Twenty-first Amendment, 1933",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' proceedings on the Senate's joint resolution (S. J. Res. 211) proposing "
+                   "the Twenty-first Amendment: the items headed “Repeal of the Eighteenth Amendment” of February 20, 1933, "
+                   "as printed in the Congressional Record.")},
+    "house-twenty-second-amendment-1947": {
+        "collection": "congress", "order": 7.21, "paged": True, "short": "House debates, 1947",
+        "slug": "house-twenty-second-amendment-1947", "group": "The Twenty-second Amendment, 1947",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' proceedings on the joint resolution (H. J. Res. 27) proposing the "
+                   "Twenty-second Amendment: the items in which the House took it up, February 6 and March 21, 1947, as "
+                   "printed in the Congressional Record.")},
+    "senate-twenty-second-amendment-1947": {
+        "collection": "congress", "order": 7.22, "paged": True, "short": "Senate debates, 1947",
+        "slug": "senate-twenty-second-amendment-1947", "group": "The Twenty-second Amendment, 1947",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's debate on the House's joint resolution (H. J. Res. 27) proposing the Twenty-second "
+                   "Amendment: every item headed “The Presidential Term” in which the Senate took it up, as printed in the "
+                   "Congressional Record, March 3 to 12, 1947.")},
+    "senate-twenty-third-amendment-1960": {
+        "collection": "congress", "order": 7.31, "paged": True, "short": "Senate debates, 1960",
+        "slug": "senate-twenty-third-amendment-1960", "group": "The Twenty-third Amendment, 1960",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's proceedings on the joint resolution (S. J. Res. 39) that became the Twenty-third Amendment: "
+                   "every item headed “Filling of Temporary Vacancies in the House of Representatives” in which the Senate "
+                   "took it up, from January 26 to February 2, 1960, and the House's amendment taken up on June 16, 1960, as "
+                   "printed in the Congressional Record.")},
+    "house-twenty-third-amendment-1960": {
+        "collection": "congress", "order": 7.32, "paged": True, "short": "House debates, 1960",
+        "slug": "house-twenty-third-amendment-1960", "group": "The Twenty-third Amendment, 1960",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' proceedings of June 14, 1960, on the Senate's joint resolution (S. J. Res. "
+                   "39) that became the Twenty-third Amendment: the item headed “Granting Representation in the Electoral "
+                   "College to the District of Columbia”, as printed in the Congressional Record.")},
+    "senate-twenty-fourth-amendment-1962": {
+        "collection": "congress", "order": 7.41, "paged": True, "short": "Senate debates, 1962",
+        "slug": "senate-twenty-fourth-amendment-1962", "group": "The Twenty-fourth Amendment, 1962",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's debate on the joint resolution (S. J. Res. 29) that became the Twenty-fourth Amendment: "
+                   "every item headed “The Alexander Hamilton National Monument—Amendment to the Constitution Dealing with "
+                   "Poll Taxes” in which the Senate took it up, as printed in the Congressional Record, March 14 to 27, "
+                   "1962.")},
+    "house-twenty-fourth-amendment-1962": {
+        "collection": "congress", "order": 7.42, "paged": True, "short": "House debates, 1962",
+        "slug": "house-twenty-fourth-amendment-1962", "group": "The Twenty-fourth Amendment, 1962",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' proceedings of August 27, 1962, on the Senate's joint resolution (S. J. "
+                   "Res. 29) that became the Twenty-fourth Amendment: the item headed “Qualifications of Electors”, as "
+                   "printed in the Congressional Record.")},
+    "senate-twenty-fifth-amendment-1965": {
+        "collection": "congress", "order": 7.51, "paged": True, "short": "Senate debates, 1965",
+        "slug": "senate-twenty-fifth-amendment-1965", "group": "The Twenty-fifth Amendment, 1965",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's proceedings on the joint resolution (S. J. Res. 1) proposing the Twenty-fifth Amendment: "
+                   "every item headed with its subject (“Presidential and Vice Presidential Succession—Presidential "
+                   "Disability”, “Presidential Inability and Vacancies in the Office of the Vice President”) in which the "
+                   "Senate took it up, as printed in the Congressional Record, from February 18 to the conference report of "
+                   "July 6, 1965.")},
+    "house-twenty-fifth-amendment-1965": {
+        "collection": "congress", "order": 7.52, "paged": True, "short": "House debates, 1965",
+        "slug": "house-twenty-fifth-amendment-1965", "group": "The Twenty-fifth Amendment, 1965",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' proceedings on the Senate's joint resolution (S. J. Res. 1) proposing the "
+                   "Twenty-fifth Amendment: every item headed with its subject (“Presidential Inability and Vacancies in the "
+                   "Office of the Vice President”) in which the House took it up, as printed in the Congressional Record, "
+                   "from April 13 to the conference report of June 30, 1965.")},
+    "senate-twenty-sixth-amendment-1971": {
+        "collection": "congress", "order": 7.61, "paged": True, "short": "Senate debates, 1971",
+        "slug": "senate-twenty-sixth-amendment-1971", "group": "The Twenty-sixth Amendment, 1971",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The Senate's debate on the joint resolution (S. J. Res. 7) proposing the Twenty-sixth Amendment: every "
+                   "item headed “Extension of Right to Vote” in which the Senate took it up, as printed in the Congressional "
+                   "Record, March 9 and 10, 1971.")},
+    "house-twenty-sixth-amendment-1971": {
+        "collection": "congress", "order": 7.62, "paged": True, "short": "House debates, 1971",
+        "slug": "house-twenty-sixth-amendment-1971", "group": "The Twenty-sixth Amendment, 1971",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
+        "summary": ("The House of Representatives' proceedings of March 23, 1971, on the Senate's joint resolution (S. J. "
+                   "Res. 7) proposing the Twenty-sixth Amendment: the item headed “Lowering the Voting Age to 18”, as "
+                   "printed in the Congressional Record.")},
 }
 
 # Collections of works shown on one page each.
 CONGRESS_GROUPS = ("The Bill of Rights, 1789", "The Eleventh Amendment, 1794", "The Twelfth Amendment, 1802–03",
                    "The Thirteenth Amendment, 1864–65", "The Fourteenth Amendment, 1866",
-                   "The Fifteenth Amendment, 1869")
+                   "The Fifteenth Amendment, 1869", "The Sixteenth Amendment, 1909", "The Seventeenth Amendment, 1911–12",
+                   "The Eighteenth Amendment, 1917", "The Nineteenth Amendment, 1919",
+                   "The Twentieth Amendment, 1932", "The Twenty-first Amendment, 1933",
+                   "The Twenty-second Amendment, 1947", "The Twenty-third Amendment, 1960",
+                   "The Twenty-fourth Amendment, 1962", "The Twenty-fifth Amendment, 1965",
+                   "The Twenty-sixth Amendment, 1971")
 
 # Essays and letters of the ratification debate (texts with a `position`)
 # get their settings from the text: one page per essay for a series, one
@@ -174,12 +365,40 @@ PARTS = {"patrick-henry": "speeches"}
 # files a page, hundreds of pages) as one line per session, so the page
 # stays inside its HTML budget.
 UNT_PAGE_SOURCE = re.compile(r"^unt-globe-(\d{4})-p(\d+)-(?:words|text)$")
+# So are govinfo's PDFs of the Congressional Record (one a house a day): one
+# line per volume and house, each day a link.
+GOVINFO_DAY_SOURCE = re.compile(r"^govinfo-crecb-.+-\d+-\d+$")
+GOVINFO_DAY_NOTE = re.compile(r"^Congressional Record \(bound edition\), vol\. (\d+), (Senate|House), (.+?) \(govinfo granule")
+
+
+def govinfo_days(ids: list[str], manifest: dict[str, dict]) -> list[dict]:
+    """govinfo's day PDFs among a work's sources as one line per volume and
+    house, in the order first listed."""
+    lines: dict[tuple[str, str], dict] = {}
+    for sid in ids:
+        e = manifest[sid]
+        m = GOVINFO_DAY_NOTE.match(e.get("notes", ""))
+        if not m:
+            raise ValueError(f"{sid}: manifest notes do not name the volume, house and day")
+        vol, house, day = m.groups()
+        line = lines.setdefault((vol, house), {
+            "text": f"govinfo.gov's scans of the Congressional Record (bound edition), vol. {vol}, with their OCR "
+                    f"text layer: the {house}'s proceedings of",
+            "links": [], "retrieved_at": e["retrieved_at"], "license": e["license"]})
+        line["links"].append({"label": day, "url": e["url"]})
+        line["retrieved_at"] = max(line["retrieved_at"], e["retrieved_at"])
+    return list(lines.values())
 
 
 def source_list(ids: list[str], manifest: dict[str, dict]) -> list[dict]:
     out: list[dict] = []
     groups: dict[str, dict] = {}
+    days = [sid for sid in ids if GOVINFO_DAY_SOURCE.match(sid)]
     for sid in ids:
+        if GOVINFO_DAY_SOURCE.match(sid):
+            if sid == days[0]:
+                out.append({"govinfo": True})
+            continue
         m = UNT_PAGE_SOURCE.match(sid)
         if not m:
             out.append({"id": sid})
@@ -203,6 +422,9 @@ def source_list(ids: list[str], manifest: dict[str, dict]) -> list[dict]:
             "retrieved_at": max(e["retrieved_at"] for e in entries),
             "license": entries[0]["license"],
         })
+    at = next((k for k, item in enumerate(out) if item.get("govinfo")), None)
+    if at is not None:
+        out[at:at + 1] = govinfo_days(days, manifest)
     return out
 
 
@@ -239,9 +461,20 @@ LOC_PAGE_URL = "https://www.loc.gov/resource/{item}/{issue}/ed-1/?sp={n}"
 LOC_IMAGE_URL = "https://tile.loc.gov/image-services/iiif/{image}/pct:{x},{y},{w},{h}/pct:100/0/default.jpg"
 LOC_IMAGE_ID = re.compile(r"^service(?::[A-Za-z0-9_-]+)+$")
 LOC_ISSUE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+# The bound Congressional Record (decision 61): a page of govinfo's PDF of a
+# house's day (a granule of its part's package), and on the errata page the
+# same printed page in the Internet Archive's microfilm (govinfo serves no
+# page images).
+GOVINFO_PAGE_URL = "https://www.govinfo.gov/content/pkg/{package}/pdf/{granule}.pdf#page={n}"
+GOVINFO_GRANULE = re.compile(r"^(GPO-CRECB-\d{4}-pt\d+[A-Z]?(?:-v\d+)?)-\d+-\d+$")
 
 
 def scan_url(item: str, leaf: int, site: str = "archive.org", scan: dict | None = None) -> str:
+    if site == "govinfo":
+        m = GOVINFO_GRANULE.match(item)
+        if not m:
+            raise ValueError(f"unexpected govinfo granule {item!r}")
+        return GOVINFO_PAGE_URL.format(package=m.group(1), granule=item, n=leaf)
     if site == "unt":
         return UNT_PAGE_URL.format(item=item, n=leaf)
     if site == "loc":
@@ -252,6 +485,10 @@ def scan_url(item: str, leaf: int, site: str = "archive.org", scan: dict | None 
 
 
 def scan_image(item: str, leaf: int, site: str = "archive.org", scan: dict | None = None) -> str:
+    if site == "govinfo":
+        film = scan["microfilm"]
+        k = min(scan["leaves"].index(leaf), len(film["leaves"]) - 1)
+        return SCAN_IMAGE_URL.format(item=film["item"], n=film["leaves"][k] - 1)
     if site == "unt":
         return UNT_IMAGE_URL.format(item=item, n=leaf)
     if site == "loc":
@@ -548,20 +785,43 @@ def _weight(x: dict) -> int:
     return len(x["text"].encode()) + sum(len(str(u["readings"])) + 80 for u in x.get("uncertain", []))
 
 
-def sheets(segments: list[dict]) -> list[list[dict]]:
-    """A part's passages, in sheets of nearly equal length."""
+# The Congressional Record's works (decision 61) are split by an estimate of
+# the HTML each passage makes, fitted to the built pages (within 9 KB): many
+# short passages (a speaker's word or two) and words marked with two
+# readings make their pages heavier than their text. A sheet is kept to
+# SHEET_HTML_BYTES, well inside the 400 KB budget. Other works keep the
+# sheets (and URLs) they have.
+SHEET_HTML_BYTES = 330_000
+PAGE_HTML_BYTES = 23_000  # the page around the passages
+
+
+def _html_weight(x: dict) -> float:
+    spans = x.get("uncertain", [])
+    return (1.03 * len(x["text"].encode()) + 165 * len(spans) + 1.85 * sum(len(str(u["readings"])) for u in spans)
+            + 830)
+
+
+def sheets(segments: list[dict], by_html: bool = False) -> list[list[dict]]:
+    """A part's passages, in sheets of nearly equal length (`by_html`: of
+    nearly equal HTML, see SHEET_HTML_BYTES)."""
     sizes = [len(x["text"].encode()) for x in segments]
     total = sum(sizes)
     n = -(-total // SHEET_TEXT_BYTES)
     weights = [_weight(x) for x in segments]
-    if -(-sum(weights) // SHEET_WEIGHT_BYTES) > n:
+    if by_html:
+        sizes = [_html_weight(x) for x in segments]
+        total = sum(sizes)
+        n = int(-(-total // (SHEET_HTML_BYTES - PAGE_HTML_BYTES)))
+    elif -(-sum(weights) // SHEET_WEIGHT_BYTES) > n:
         sizes, total = weights, sum(weights)
         n = -(-total // SHEET_WEIGHT_BYTES)
-    if n <= 1 or any(x.get("kind") == "footnote" for x in segments):
+    # (A part with footnotes stays whole, except by HTML, where a footnote
+    # stays on the sheet of the passage before it.)
+    if n <= 1 or (not by_html and any(x.get("kind") == "footnote" for x in segments)):
         return [segments]
     out, at = [[]], 0
     for seg, size in zip(segments, sizes):
-        if out[-1] and at >= total * len(out) / n and len(out) < n:
+        if out[-1] and at >= total * len(out) / n and len(out) < n and seg.get("kind") != "footnote":
             out.append([])
         out[-1].append(seg)
         at += size
@@ -628,7 +888,8 @@ class SiteBuilder:
             if self.settings[wid]["paged"]:
                 for t in tops:
                     page = f"{base}{part_slug(work, t['ref'])}/"
-                    for k, sheet in enumerate(sheets(self._part_segments(work, t)), 1):
+                    for k, sheet in enumerate(sheets(self._part_segments(work, t),
+                                                     self.settings[wid].get("sheet_by_html", False)), 1):
                         for x in sheet:
                             self.ref_urls[x["ref"]] = f"{sheet_url(page, k)}#{x['ref']}"
         # A retired ref's URL is its own anchor, inside the passage it was merged into.
@@ -887,7 +1148,7 @@ class SiteBuilder:
                         "words": sum(len(s["text"].split()) for s in body),
                     }
                     parts.append(part)
-                    split = sheets(segs)
+                    split = sheets(segs, cfg.get("sheet_by_html", False))
                     for k, sheet in enumerate(split, 1):
                         spid = pid if k == 1 else f"{pid}-{k}"
                         ids.append(spid)
@@ -910,7 +1171,9 @@ class SiteBuilder:
                             },
                             "id": spid,
                             "kind": "part",
-                            "notes": self._blocks(work, notes, ()),
+                            # (On the sheet that holds them, where a part is split by HTML.)
+                            "notes": self._blocks(work, notes if len(split) == 1 else
+                                                  [s for s in sheet if s.get("kind") == "footnote"], ()),
                             # A day of a debate in Congress is named by its date and house.
                             "title": (f"{'The Senate' if work['ref_prefix'].startswith('Senate') else 'The House'}, {d['label']}"
                                       if cfg["collection"] == "congress"

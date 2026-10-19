@@ -464,8 +464,11 @@ def body_height(page: Page) -> float:
 
 
 # A line of roman numerals, figures and "SEC." (OCR reads small capitals in
-# lower case, and "SEC." as "SIX.").
-NUMERAL_HEAD = re.compile(r"(?i)^(?:(?:[ivxlc]+|\d+|sec|six|to|and|inclusive)[.,;]*\s*|;\s*)+$")
+# lower case, and "SEC." as "SIX."). The runs of figures, stops and spaces are
+# possessive: taking a run whole never keeps a line from matching, and a
+# table of figures that does not match ("17,377,000 … s 1 , 758,000", the
+# Congressional Record) would otherwise take exponential time.
+NUMERAL_HEAD = re.compile(r"(?i)^(?:(?:[ivxlc]+|\d++|sec|six|to|and|inclusive)[.,;]*+\s*+|;\s*+)+$")
 
 
 def split_paragraphs(page: Page, margin: int) -> list[Para]:

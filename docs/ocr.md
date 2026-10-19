@@ -47,6 +47,7 @@ For each book, in `sources/raw/` (downloaded by `tools/fetch.py`, listed in
 | *Debates and Proceedings in the Convention of Massachusetts* (1856) | `ia-mass-debates-1856-nypl-xml` | `-uc-txt`, `-google-txt`, `-cornell-txt` (three) |
 | Annals of Congress, vol. 1 (1834) | `ia-annals-1834-v1-google-xml` | `-microfilm-xml`, and Tesseract's reading of the primary's page images (two) |
 | Annals of Congress, vols. 4, 11 and 13 (1849–52) | the pages needed of the microfilm (vol. 4) or a Google scan (vols. 11, 13): `ia-part-annals-v{n}-{scan}-…` | the other scans' pages (vol. 4: the Google scan and Tesseract's reading of its page images; vols. 11 and 13: a second Google scan and the microfilm) (two) |
+| *Congressional Record*, bound edition, vols. 44, 47, 48, 55, 56 and 58 (1909–19), and 75, 76, 93, 106, 108, 111 and 117 (1932–71) | govinfo's text layer of its scans, one PDF per house per day (`govinfo-crecb-{granule}`) | the Internet Archive's page-indexed OCR of a microfilm of the same part (`ia-record-{part}-text`) (one) |
 | Elliot's *Debates*, vol. 3 (standard pagination; 1907 printing) | `ia-elliot-v3-1907-toronto-xml` | `ia-elliot-v3-1876-cornell-txt`, `-1861-google-txt`, `-1836-google-txt` (three) |
 | *The New-York Journal* (1787–88), Brutus V–XVI | the Library of Congress's ALTO XML (`loc-nyjournal-{date}-p{n}-alto`) | none: one scan (see "One scan" below) |
 
@@ -71,6 +72,18 @@ into its columns before the steps below. The gutter is found from the lines
 that sit in one column; a line OCR read across both columns is split word
 by word at it; the running head gives the column numbers, which are checked
 against the pages around them as page numbers are.
+
+**A text layer as the main scan** (the Congressional Record,
+`importers/record.py`, decision 61). govinfo serves the bound Record as
+scans whose OCR is an invisible text layer in the PDF, one word drawn at a
+time. `tools/pdf.py` (`pdf_words`) reads each word and where it is drawn;
+the words are put into lines by their baselines (a gap as wide as a gutter
+ends a line) and measured in pixels at 300 dpi, so the steps below apply
+unchanged; pages are split into two columns as the Globe's are into three.
+The reference is the Internet Archive's OCR of a microfilm of the same
+part, cut into the same printed pages with its page index and the page
+numbers it read (`importers/record.py`, `microfilm`); with one reference,
+every disagreement is a tie (see the rules below).
 
 ## Step 1: layout (`parse_djvu_xml`, `classify`, `blocks`)
 
@@ -384,6 +397,18 @@ later, is below).
   31 per thousand (after decision 59's vote), where both Google scans are small and share their OCR
   engine's misreadings ("ihe", "lo", "Slates"), so their agreement does not
   make a word known.
+
+- **The Congressional Record, 1909–19** (decision 61; govinfo's text layer,
+  checked against a microfilm's OCR): about 834,000 words with 36,600
+  marked, 44 per thousand; from 29 per thousand (the Senate, 1909) to 70
+  (the House, December 1917, whose volume the OCR reads worst). About 90–95%
+  of words have a reading from the microfilm; the rest (names in roll
+  calls, lines the two OCRs read in different orders) keep govinfo's
+  reading alone.
+- **The Congressional Record, 1932–71** (decision 62; the same method):
+  about 1,371,000 words with 18,700 marked, 14 per thousand; from 4.5 (the
+  Senate, 1965) to 23 (1947) and 47 (the Senate, 1971, whose debate prints
+  long tables). About 7,500 of the marked words are figures.
 
 The rules lean toward marking a word uncertain rather than guessing: a
 wrong word that looks settled is worse than a right word with a dotted

@@ -31,10 +31,19 @@ CASES_DIR = ROOT / "cases"
 LINKS_DIR = ROOT / "links"
 
 # Raw files too large for git (the U.S. Reports scans, decision 49; the Annals
-# of Congress scans' DjVu XML, decision 46; the Congressional Globe's, decision 47): recorded
-# in the manifest like any other, listed in .gitignore, restored by `make fetch`
-# and cached in CI.
-UNTRACKED_RAW = ("loc-usrep-*.pdf", "ia-annals-*", "ia-globe-*")
+# of Congress scans' DjVu XML, decision 46; the Congressional Globe's, decision 47;
+# the Congressional Record's govinfo PDFs and the Internet Archive's microfilm
+# OCR, decision 61): recorded in the manifest like any other, listed in
+# .gitignore, restored by `make fetch` and cached in CI, each family under a
+# cache key of its own (`python -m tools.fetch cache-keys`).
+UNTRACKED_FAMILIES = {
+    "usrep": "loc-usrep-*.pdf",
+    "annals": "ia-annals-*",
+    "globe": "ia-globe-*",
+    "govinfo": "govinfo-crecb-*",
+    "iarecord": "ia-record-*",
+}
+UNTRACKED_RAW = tuple(UNTRACKED_FAMILIES.values())
 
 USER_AGENT = "ResPublicaFetcher/0.1 (+https://respublicalibrary.org)"
 ALLOWED_SCHEMES = ("http", "https")

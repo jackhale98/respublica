@@ -73,6 +73,28 @@ January 30, 1869, is imported only up to the next heading ("Committee
 Service"); whether its later debate that day on S. R. No. 8, printed
 without a heading of its own, belongs too needs a look at pp. 733–741.
 
+**The Congressional Record** (`importers/record.py`, decisions 61 and 62):
+both houses' proceedings on the Sixteenth to Twenty-sixth Amendments
+(1909–71, twenty-five works, `Senate1909` … `House1971`), from the text layer of
+govinfo.gov's scans of the bound Record, one PDF per house per day, checked
+against the Internet Archive's microfilm (whose page images the errata page
+shows). The days are those the Record's own index lists; the importer
+checks that every page it gives is in an item imported. About 4% of words
+are marked uncertain in 1909–19 (7% in the House's December 1917 debate,
+whose volume the OCR reads worst; errata 100–103), about 1.4% in 1932–71
+(errata 104–105). The volumes from 1932 are read by rules of their own
+(`Session.later`), and from 1947, where the index gives only the page a
+day's debate begins on, each day lists the page it runs to (`RUNS_TO`):
+check the page before adding one. The govinfo PDFs, about 2.1 GB, are
+kept out of git (the budget for such files is 4 GiB since decision 61; CI
+caches each family under its own key). To add a day or an amendment: find
+the joint resolution in the volume's History of Bills and Resolutions,
+the day's granule in the part's MODS record (`printPageRange`), add it to
+`DAYS` (and the part's microfilm to `SESSIONS`), `python -m importers.record
+fetch`, then run the importer and read what it stops on. The Twenty-seventh
+Amendment is left out (its proposing debate is `House1789`). Links have not
+been proposed for these works yet.
+
 **Phase 7, Supreme Court cases: the first set is imported** (decision 49):
 
 - 232 cases (`cases/`), chosen by the rules of decisions 41 to 43 and 53, each
@@ -92,8 +114,14 @@ without a heading of its own, belongs too needs a look at pp. 733–741.
 
 ## Next
 
+- **Decide how to keep `/data/refs.json` inside its 5 MB budget** (decision
+  62): with the debates of 1932–71 it is 7.5 MB and `make build` fails on
+  it. The options (split it by work, or leave the debates' paragraph refs
+  out and resolve them from their day) change a lookup other sites use;
+  the owner decides.
+
 0. **Read uncertain words off the scans** on `/errata/` (decision 48):
-   about 30,700 words in all (`python -m tools.uncertain`), 2,953 of them
+   about 91,100 words in all (`python -m tools.uncertain`), 2,953 of them
    in the 1866 debates. Corrections come back
    through the errata workflow; agents never record them.
 1. **Review the case links** on `/review/` ("Supreme Court cases"), checking

@@ -368,6 +368,145 @@ microfilm (OCR text). Speeches the Globe prints only in its Appendix (Davis
 and Howe in the Senate, 1864; Rollins of Missouri and Harding in the House)
 are not imported.
 
+**The Sixteenth to Nineteenth Amendments, 1909–1919**
+(`importers/record.py`, decision 61) are imported from the bound edition of
+the *Congressional Record: Containing the Proceedings and Debates* of each
+Congress (Washington: Government Printing Office): volume 44 (61st
+Congress, 1st session, 1909), 47 and 48 (62nd Congress, 1st and 2d
+sessions, 1911–12), 55 and 56 (65th Congress, 1st and 2d sessions,
+1917–18) and 58 (66th Congress, 1st session, 1919). Eleven works, one per
+house and session:
+
+| Amendment | Joint resolution | Works (`texts/…`) | Days |
+|---|---|---|---|
+| Sixteenth | S. J. Res. 40 | `senate-sixteenth-amendment-1909`, `house-sixteenth-amendment-1909` | Senate July 3, 5; House July 12, 1909 |
+| Seventeenth | H. J. Res. 39 | `house-seventeenth-amendment-1911`, `senate-seventeenth-amendment-1911`, `senate-seventeenth-amendment-1912`, `house-seventeenth-amendment-1912` | House April 13 – July 15, 1911 (5 days); Senate April 17 – July 14, 1911 (26 days); Senate April 17, 23, 1912; House April 26, May 13, 1912 |
+| Eighteenth | S. J. Res. 17 | `senate-eighteenth-amendment-1917`, `house-eighteenth-amendment-1917b`, `senate-eighteenth-amendment-1917b` | Senate July 9 – August 1, 1917 (8 days); House December 15, 17; Senate December 18, 1917 |
+| Nineteenth | H. J. Res. 1 | `house-nineteenth-amendment-1919`, `senate-nineteenth-amendment-1919` | House May 21; Senate May 23 – June 4, 1919 (6 days) |
+
+**What is imported** is fixed by the print and by the Record's own index.
+The days are those the volume's History of Bills and Resolutions lists for
+the joint resolution, with the pages it gives (`DAYS`). On each, every item
+of the house's proceedings headed with the resolution's subject ("Taxes on
+Incomes", "Election of Senators by Direct Vote", "National Prohibition",
+"Woman Suffrage", and their variants, `Amendment.headings`) whose heading
+or first paragraphs name the joint resolution, from its heading to the next
+item's heading or the end of the house's day, procedural items included (a
+report, a motion to take it up, a request to fix the time of a vote). Where
+the index lists a page on which the house took the resolution up under
+another heading, that item is included too (`EXTRA_HEADINGS`: the referral
+and the debate on which committee should have it, April 17, 1911; the
+minority's views presented, May 22, 1911; the debate on the Journal's record
+of the Vice President's vote, June 13, 1911; and others), and where it was
+laid before the Senate inside an item on other business and laid aside at
+once, those paragraphs are an item of their own, without a heading
+(`INSIDE`: May 22, 25 and 26, 1911; Watson's motion of June 3, 1919, under a
+heading OCR did not read). The importer stops if a page the index gives is
+in no item imported, and if an item runs on more than a page past the last
+page the index gives for the day; the few exceptions are listed with the
+reason (`ELSEWHERE`: the index's range runs over other business on June
+13, 1911, and July 30, 1917; `RUNS_TO`: Newlands spoke on the trusts while
+the joint resolution was before the Senate, May 16, 1911). Speeches printed
+in the Appendix by leave are not imported. The Twenty-seventh Amendment is
+not imported from the Record: it was proposed in 1789 (the House's debate is
+`House1789`), and the concurrent resolutions of May 1992 that declared it
+ratified are not debates on proposing an amendment.
+
+**Scans.** govinfo.gov (the Government Publishing Office) serves the bound
+edition as 150 ppi scans with an OCR text layer, one PDF per house per day
+(`govinfo-crecb-{granule}`), and each part's MODS record
+(`govinfo-crecb-{part}-mods`), which gives each day's printed pages. Words
+and layout come from the text layer (`tools/pdf.py`, `pdf_words`), read in
+two columns as the Globe is read in three (running heads, sheet signatures
+"XLIV—277" and specks left out; a page set in one column read as one). They
+are checked against the Internet Archive's OCR of a microfilm of the same
+bound part (`sim_congressional-record…`; its page-indexed OCR text, its
+page index and the printed page number it read on each page:
+`ia-record-{part}-text`, `-pageindex`, `-pages`), in runs of about 200
+words. Each passage links to its page in govinfo's PDF; the errata page
+shows the microfilm's page image, since govinfo serves none. All of these
+files are kept out of git (`make fetch` restores them).
+
+**Reading the page.** An item heading is a line set as a heading in
+capitals before an item's opening (a speaker's name in capitals, a message,
+the business taken up, a routine formula), as OCR reads them ("Tbe
+VICE-PRESIDENT.", "1\Ir. CULLOM."). Not item headings: a speaker's words
+("Mr. UNDERWOOD. I do."), the end of a paragraph set apart ("[Mr. /
+CLAYTON]."), "By Mr. SMOOT:" in a list of bills, a roll call's lists, the
+article of a joint resolution read to the house, the title of a document
+printed in the debate (after its source in brackets, after a paragraph
+ending in a colon, before a letter's place and date), a letter's signature,
+and the headings of the sections a speech is printed in (when no item opens
+after them; a few are listed, `SPEECH_HEADINGS`). The day begins at the
+house's name and dateline (or the dateline alone, July 31, 1917), read
+however OCR garbled them ("Fnmu, Ap1·il ~6, 1912.").
+
+**Quality.** The text layer reads the 1909–1912 volumes about as well as
+UNT reads the Globe; the 1917 volumes much worse. About 3–5% of words are
+marked uncertain (2.9% in the Senate's 1909 debate, 3.5–5.3% for the
+Seventeenth Amendment, 4.8% in the Senate's 1917 debate and 7.0% in the
+House's, 3.7–4.2% in 1919); each is marked with both readings. Where the
+OCR ran lines of two columns into each other, words of one paragraph can
+stand in another (errata 100–102). Run `python -m tools.uncertain` for the
+current counts.
+
+**The Twentieth to Twenty-sixth Amendments, 1932–1971**
+(`importers/record.py`, decision 62) are imported from the same bound
+edition in the same way: volumes 75 and 76 (72nd Congress, 1932–33), 93
+(80th, 1947), 106 (86th, 1960), 108 (87th, 1962), 111 (89th, 1965) and 117
+(92nd, 1971). Fourteen works, one per house and session:
+
+| Amendment | Joint resolution | Works (`texts/…`) | Days |
+|---|---|---|---|
+| Twentieth | S. J. Res. 14 | `senate-twentieth-amendment-1932`, `house-twentieth-amendment-1932` | Senate January 6, February 17, March 2; House February 12 – March 1, 1932 (6 days) |
+| Twenty-first | S. J. Res. 211 | `senate-twenty-first-amendment-1933`, `house-twenty-first-amendment-1933` | Senate February 13–16; House February 20, 1933 |
+| Twenty-second | H. J. Res. 27 | `house-twenty-second-amendment-1947`, `senate-twenty-second-amendment-1947` | House February 6, March 21; Senate March 3–12, 1947 (5 days) |
+| Twenty-third | S. J. Res. 39 | `senate-twenty-third-amendment-1960`, `house-twenty-third-amendment-1960` | Senate January 26 – February 2 (5 days), June 16; House June 14, 1960 |
+| Twenty-fourth | S. J. Res. 29 | `senate-twenty-fourth-amendment-1962`, `house-twenty-fourth-amendment-1962` | Senate March 14–27 (11 days); House August 27, 1962 |
+| Twenty-fifth | S. J. Res. 1 | `senate-twenty-fifth-amendment-1965`, `house-twenty-fifth-amendment-1965` | Senate February 18 – July 6 (5 days); House April 13 – June 30, 1965 (4 days) |
+| Twenty-sixth | S. J. Res. 7 | `senate-twenty-sixth-amendment-1971`, `house-twenty-sixth-amendment-1971` | Senate March 9–10; House March 23, 1971 |
+
+Some resolutions were taken up under headings that do not name their
+subject: S. J. Res. 29 was a bill to make Alexander Hamilton's house a
+national monument, whose text the Senate replaced with the amendment ("The
+Alexander Hamilton National Monument—Amendment to the Constitution Dealing
+with Poll Taxes"); S. J. Res. 39 was first an amendment on filling
+vacancies in the House. Where a house debated its own resolution and then
+passed the other house's in its place (House, June 14, 1960, and March 23,
+1971), the whole item is imported.
+
+**What differs from 1909–19.** The later volumes set item headings in
+capitals without a full stop, over one to three lines, often filling the
+column; they print the sections of long speeches, inserted statements,
+"QUORUM CALL", "AMENDMENT OFFERED BY MR. …" and similar headings inside a
+debate; and from 1947 they are set in three columns with narrow gutters.
+The importer therefore, for these volumes only (`Session.later`): splits a
+text-layer line at a gutter where the baselines differ; takes a line in
+capitals after a sentence's end for a heading, joins a heading's lines
+(not a signature, a date or a speaker's line); lets a heading end in a year
+("… BILL, 1948"); treats quorum calls, amendments offered, parliamentary
+inquiries and conference reports as headings inside an item
+(`LATER_INNER`); ends an item at a routine opening whose heading OCR lost
+("By unanimous consent, the following routine business was transacted";
+`LATER_ROUTINE`); begins the day where the house met ("The Senate met at
+…"), since the masthead in display type is often not read; and splits a
+page whose text layer runs lines across the gutters where equal columns
+would be. Speeches printed in sections are listed by their pages
+(`SPEECH_PAGES`), headings that begin another item without an opening read
+after them by name (`OTHER_HEADINGS`). From 1947 the index gives the page
+each day's debate begins on rather than its range, so `RUNS_TO` lists, for
+each such day, the page the debate runs to (read off the page: the next
+item's heading or the recess).
+
+**Quality.** About 1,371,000 words, 18,700 (14 per thousand) marked uncertain:
+the text layer of these volumes is much better than that of 1909–19. From
+4.5 per thousand (the Senate, 1965) to 23 (both houses, 1947) and 47 (the
+Senate, 1971, whose debate prints long tables: four in five of its marked
+words are figures and leader dots). About 7,500 of the marked words are
+figures, and about 11,000 have no microfilm reading (tables, roll calls,
+and lines the two OCRs read in different orders). Lines of a heading can be
+read apart from it (errata 104–105).
+
 ## Supreme Court cases
 
 **Which cases interpret which clause** come from the *Constitution of the

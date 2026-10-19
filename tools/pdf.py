@@ -465,7 +465,20 @@ class Font:
         return out
 
 
+_CMAPS: dict[bytes, dict[int, str]] = {}
+
+
 def _parse_cmap(data: bytes) -> dict[int, str]:
+    """A ToUnicode map. Parsed once per content: a scan's text layer (govinfo)
+    gives every page its own copy of one map of 65,536 codes. The map
+    returned is shared; callers must not change it."""
+    key = hashlib.sha256(data).digest()
+    if key not in _CMAPS:
+        _CMAPS[key] = _read_cmap(data)
+    return _CMAPS[key]
+
+
+def _read_cmap(data: bytes) -> dict[int, str]:
     out: dict[int, str] = {}
 
     def text(h: bytes) -> str:
@@ -542,7 +555,11 @@ def load_font(doc: Document, fd) -> Font:
                     code += 1
     tu = doc.get(fd.get("ToUnicode"))
     if isinstance(tu, Stream):
-        f.to_unicode.update(_parse_cmap(tu.data()))
+        cmap = _parse_cmap(tu.data())
+        if f.to_unicode:
+            f.to_unicode.update(cmap)
+        else:
+            f.to_unicode = cmap  # shared, never changed
     return f
 
 
@@ -740,6 +757,44 @@ def _lines(runs: list[Glyphs], column_gap: float | None = None) -> list[Line]:
         if text:
             out.append(Line(ln[0].y, ln[0].x, ln[-1].x1, max(r.size for r in ln), text))
     out.sort(key=lambda l: (l.y, l.x0))
+    return out
+
+
+@dataclass
+class PageWords:
+    width: float
+    height: float
+    words: list[Glyphs]  # one per word: x, x1 across; y the baseline from the top
+
+
+def pdf_words(path: Path | str) -> list[PageWords]:
+    """Every page's words with their positions, in the order the page draws
+    them, for a scan's text layer (govinfo's bound Congressional Record),
+    where each word is drawn on its own and the layout is read from where
+    the words sit. A run of several words is split at its spaces, each word
+    taking its share of the run's width by its number of characters; a
+    word's right edge stops short of the next word on its line (the text
+    layer's invisible font is wider than the print)."""
+    doc = Document(Path(path).read_bytes())
+    fonts: dict = {}
+    out = []
+    for page in doc.pages():
+        runs, height = page_text(doc, page, fonts)
+        box = [doc.get(v) for v in doc.get(page.get("MediaBox") or [0, 0, 612, 792])]
+        words: list[Glyphs] = []
+        for r in runs:
+            text = r.text.replace("\x00", " ")
+            if not text.strip():
+                continue
+            per = (r.x1 - r.x) / max(len(text), 1)
+            for m in re.finditer(r"\S+", text):
+                x0 = r.x + per * m.start()
+                words.append(Glyphs(x0, r.y, r.size, m.group(), r.x + per * m.end()))
+        for k, w in enumerate(words):
+            nxt = words[k + 1] if k + 1 < len(words) else None
+            if nxt is not None and abs(nxt.y - w.y) <= max(1.0, 0.3 * w.size) and w.x < nxt.x < w.x1:
+                w.x1 = max(w.x + 0.5, nxt.x - 0.5)
+        out.append(PageWords(box[2] - box[0], height, words))
     return out
 
 

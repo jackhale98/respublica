@@ -318,6 +318,14 @@ def check_texts(corpus: Corpus) -> list[str]:
                 if not (isinstance(scan, dict) and isinstance(scan.get("item"), str) and SCAN_ITEM.match(scan["item"])
                         and scan.get("leaves") and all(isinstance(n, int) and n > 0 for n in scan["leaves"])):
                     errors.append(f"{ref}: bad scan {scan!r}")
+                elif scan.get("site") == "govinfo":
+                    # The bound Congressional Record: its page images are the
+                    # microfilm's (decision 61), one for each of the passage's pages.
+                    film = scan.get("microfilm")
+                    if not (isinstance(film, dict) and isinstance(film.get("item"), str) and SCAN_ITEM.match(film["item"])
+                            and isinstance(film.get("leaves"), list) and len(film["leaves"]) == len(scan["leaves"])
+                            and all(isinstance(n, int) and n > 0 for n in film["leaves"])):
+                        errors.append(f"{ref}: a govinfo scan needs the microfilm's leaves for its pages: {scan!r}")
             if "kind" in s and s["kind"] not in SEGMENT_KINDS:
                 errors.append(f"{ref}: unknown kind {s['kind']!r}")
             for cb in s.get("changed_by", []):
@@ -507,8 +515,9 @@ RAW_FILE_BUDGET = 40 * 1024 * 1024
 RAW_TOTAL_BUDGET = 300 * 1024 * 1024
 DATA_FILE_BUDGET = 20 * 1024 * 1024
 # Raw files kept out of git (UNTRACKED_RAW) live in the CI cache, which GitHub
-# limits to 10 GB per repository.
-UNTRACKED_TOTAL_BUDGET = 1024 * 1024 * 1024
+# limits to 10 GB per repository: 1 GiB at first (decision 49), 4 GiB for the
+# Congressional Record (decision 61), each family cached under its own key.
+UNTRACKED_TOTAL_BUDGET = 4 * 1024 * 1024 * 1024
 
 
 def check_repo_budgets(corpus: Corpus) -> list[str]:

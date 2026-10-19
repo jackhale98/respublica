@@ -2,6 +2,7 @@
 
     python -m tools.fetch              # restore any raw file that is missing
     python -m tools.fetch add --id ID --url URL --license TEXT [--notes TEXT] [--ext .html]
+    python -m tools.fetch cache-keys   # name=key per family of raw files kept out of git (CI)
 
 `add` downloads a new original once and records its URL, retrieval date,
 sha256 and license. A source behind an API token (CourtListener) records
@@ -28,7 +29,7 @@ import urllib.parse
 from pathlib import Path
 
 from tools.common import (
-    MANIFEST_PATH, RAW_DIR, ROOT, auth_headers, check_url, fetch_bytes, load_manifest,
+    MANIFEST_PATH, RAW_DIR, ROOT, UNTRACKED_FAMILIES, auth_headers, check_url, fetch_bytes, load_manifest,
     sha256_bytes, write_json,
 )
 
@@ -147,6 +148,28 @@ def cmd_restore(_: argparse.Namespace) -> int:
     return 1 if failed else 0
 
 
+def cache_keys() -> dict[str, str]:
+    """For each family of raw files kept out of git, a key that changes only
+    when that family's manifest entries do (CI caches each family under its
+    own key, so adding one family's files does not save the others again)."""
+    import fnmatch
+    import hashlib
+    out = {}
+    for name, pattern in UNTRACKED_FAMILIES.items():
+        h = hashlib.sha256()
+        for e in load_manifest():
+            if fnmatch.fnmatch(Path(e["path"]).name, pattern):
+                h.update(f"{e['id']} {e['sha256']}\n".encode())
+        out[name] = h.hexdigest()[:32]
+    return out
+
+
+def cmd_cache_keys(_: argparse.Namespace) -> int:
+    for name, key in cache_keys().items():
+        print(f"{name}={key}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="python -m tools.fetch")
     sub = p.add_subparsers(dest="cmd")
@@ -156,8 +179,13 @@ def main(argv: list[str] | None = None) -> int:
     a.add_argument("--license", required=True)
     a.add_argument("--notes")
     a.add_argument("--ext")
+    sub.add_parser("cache-keys", help="print a CI cache key for each family of raw files kept out of git")
     args = p.parse_args(argv)
-    return cmd_add(args) if args.cmd == "add" else cmd_restore(args)
+    if args.cmd == "add":
+        return cmd_add(args)
+    if args.cmd == "cache-keys":
+        return cmd_cache_keys(args)
+    return cmd_restore(args)
 
 
 if __name__ == "__main__":

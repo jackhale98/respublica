@@ -10,3 +10,6 @@ sources/raw/loc-usrep-*.pdf
 sources/raw/ia-annals-*
 # Internet Archive scans of the Congressional Globe (the microfilm's DjVu XML, 201 MB; the Michigan copy's OCR text): `make fetch` restores them (decision 47)
 sources/raw/ia-globe-*
+# The bound Congressional Record's govinfo PDFs (one per house per day) and the Internet Archive's microfilm OCR of its parts: `make fetch` restores them (decision 61)
+sources/raw/govinfo-crecb-*
+sources/raw/ia-record-*
