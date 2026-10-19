@@ -753,12 +753,13 @@ approved the University of North Texas Digital Library as a new source.
   `importers/globe.py` and checked against the print. Two works, one per
   house: `House1866`, `Senate1866` (`docs/references.md`).
 - **Sources.** The Internet Archive has part 3 (to page 2880) in a clean
-  University of Michigan scan and on microfilm, and part 4 (the Senate's last
+  Lincoln Financial Foundation Collection scan (first recorded, wrongly, as
+  the University of Michigan's; the source id keeps that name) and on microfilm, and part 4 (the Senate's last
   days, and the House's final vote) only on a microfilm whose OCR is badly
   garbled at this size. UNT has both parts with its own OCR. Layout and words
   come from UNT: its per-page word boxes (IIIF annotations, which drop
   punctuation) and its OCR text page (with punctuation), matched word for
-  word. They are checked against the Michigan copy's OCR text (May) and the
+  word. They are checked against the Lincoln Financial Foundation copy's OCR text (May) and the
   microfilm (June). UNT's pages are kept in git, gzip-compressed as UNT sends
   them (`encoding: gzip` in the manifest; the text pages carry a session
   token, so they could not be fetched again byte for byte).
