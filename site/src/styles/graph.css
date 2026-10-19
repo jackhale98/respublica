@@ -27,7 +27,7 @@
 .graph-filters button[aria-pressed="true"] { background: var(--brand-soft); color: var(--brand-strong); border-color: transparent; }
 
 .graph-body { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) 19rem; }
-@media (max-width: 47.99rem) { .graph-body { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) auto; } }
+@media (max-width: 47.99rem) { .graph-body { grid-template-columns: 1fr; grid-template-rows: minmax(16rem, 1fr) auto; } }
 .graph-canvas { position: relative; min-height: 0; overflow: hidden; background: var(--bg-subtle); }
 .graph-canvas svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
 .graph-canvas svg:active { cursor: grabbing; }
@@ -42,7 +42,7 @@
 .graph-zoom .icon-btn:hover { border-color: var(--border-strong); }
 
 .graph-info { border-left: 1px solid var(--border); padding: 1rem 1.25rem; overflow-y: auto; font-size: .88rem; }
-@media (max-width: 47.99rem) { .graph-info { border-left: 0; border-top: 1px solid var(--border); max-height: 32dvh; } .gi-tip { display: none; } }
+@media (max-width: 47.99rem) { .graph-info { border-left: 0; border-top: 1px solid var(--border); max-height: 26dvh; } .gi-tip { display: none; } }
 .graph-info h3 { font: 650 1.05rem/1.3 var(--font-serif); margin: .4rem 0 .2rem; }
 .gi-work { display: inline-flex; align-items: center; gap: .35rem; font: 600 .72rem/1 var(--font-sans); letter-spacing: .06em; text-transform: uppercase; color: var(--text-faint); }
 .gi-work::before { content: ""; width: .6rem; height: .6rem; border-radius: 50%; background: var(--work-other); }
@@ -137,3 +137,18 @@
 .graph-btn:hover { border-color: var(--border-strong); }
 .graph-btn svg { width: 14px; height: 14px; }
 .graph-btn[hidden] { display: none; }
+
+/* Phones: the filters and the legend each keep to one row that scrolls
+   sideways, so the graph itself keeps most of the screen. */
+@media (max-width: 47.99rem) {
+  .graph-head { padding: .75rem 1rem .4rem; }
+  .graph-head h2 { font-size: 1.05rem; }
+  .graph-filters, .graph-legend {
+    flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-left: 1rem; padding-right: 1rem;
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 1.5rem), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 1.5rem), transparent);
+  }
+  .graph-filters::-webkit-scrollbar, .graph-legend::-webkit-scrollbar { display: none; }
+  .graph-filters button, .graph-filters .gf-label, .graph-legend .lg { flex: none; white-space: nowrap; }
+  .graph-legend { padding-top: .45rem; padding-bottom: .55rem; }
+}

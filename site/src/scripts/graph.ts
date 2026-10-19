@@ -146,8 +146,10 @@ export async function openGraph(dialog: HTMLDialogElement, dataUrl: string, cent
     if (!layer || !rect.width) return;
     const box = layer.getBBox();
     if (!box.width) return;
-    const pad = 40;
-    const k = Math.min(1.35, (rect.width - pad * 2) / box.width, (rect.height - pad * 2) / box.height);
+    // Less margin on a small canvas, and never a scale at or below zero (a canvas
+    // shorter than the margins once drew nothing at all).
+    const pad = Math.min(40, rect.width / 10, rect.height / 10);
+    const k = Math.max(0.1, Math.min(1.35, (rect.width - pad * 2) / box.width, (rect.height - pad * 2) / box.height));
     const t = zoomIdentity.translate(rect.width / 2, rect.height / 2).scale(k)
       .translate(-(box.x + box.width / 2), -(box.y + box.height / 2));
     const s = select(canvas);
