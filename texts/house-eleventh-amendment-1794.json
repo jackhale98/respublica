@@ -1,0 +1,455 @@
+{
+  "date": "1794-01-15/1794-03-12",
+  "divisions": [
+    {
+      "date": "1794-01-15",
+      "label": "January 15, 1794",
+      "level": 1,
+      "ref": "House1794.Jan15"
+    },
+    {
+      "date": "1794-01-16",
+      "label": "January 16, 1794",
+      "level": 1,
+      "ref": "House1794.Jan16"
+    },
+    {
+      "date": "1794-03-04",
+      "label": "March 4, 1794",
+      "level": 1,
+      "ref": "House1794.Mar4",
+      "title": "AMENDMENT TO THE CONSTITUTION."
+    },
+    {
+      "date": "1794-03-12",
+      "label": "March 12, 1794",
+      "level": 1,
+      "ref": "House1794.Mar12"
+    }
+  ],
+  "edition": {
+    "name": "Joseph Gales, Sr., comp., The Debates and Proceedings in the Congress of the United States (Annals of Congress), vol. 4 (Washington: Gales and Seaton, 1849)",
+    "notes": "Joseph Gales, Sr., comp., The Debates and Proceedings in the Congress of the United States (Annals of Congress), vol. 4 (Washington: Gales and Seaton, 1849): each day's proceedings of the House on the resolution proposing the Eleventh Amendment (the judicial power of the United States in suits against a State): the item headed \"Amendment to the Constitution\", and the paragraphs in which the House received and read the resolution, columns 225–499. Read from a scan of a microfilm (Serials in Microfilm collection) (its OCR with page layout) and checked word by word against the Google scan of the New York Public Library's copy and our Tesseract reading of the page images of the Google scan of the New York Public Library's copy; words they could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "house-eleventh-amendment-1794",
+  "ref_prefix": "House1794",
+  "segments": [
+    {
+      "columns": [
+        "225"
+      ],
+      "label": "House, January 15, 1794, ¶ 1",
+      "ref": "House1794.Jan15.1",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          113
+        ]
+      },
+      "text": "A message from the Senate informed the House that the Senate have passed a resolution proposing tothe several States the following article of amendment to the Constitution of the United States, to wit: “ The Judicial power of the United States shall “not be construed to extend to any suit in law or “equity, commenced or prosecuted against one of “the United States by citizens of another State, “or by citizens or subjects of any foreign State ;” to which resolution they desire the concurrence of this House, in the mode prescribed by the Constitution of the United States."
+    },
+    {
+      "columns": [
+        "225"
+      ],
+      "label": "House, January 15, 1794, ¶ 2",
+      "ref": "House1794.Jan15.2",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          113
+        ]
+      },
+      "text": "The said resolution was read the first time."
+    },
+    {
+      "columns": [
+        "235"
+      ],
+      "label": "House, January 16, 1794, ¶ 1",
+      "ref": "House1794.Jan16.1",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          118
+        ]
+      },
+      "text": "The resolution sent from the Senate, “proposing to the several States an article of amendment to the Constitution of the United States respecting the Judicial power,” was read the second time, and ordered to be committed to a Committee of the Whole House on Monday next."
+    },
+    {
+      "columns": [
+        "476"
+      ],
+      "label": "House, March 4, 1794, ¶ 1",
+      "ref": "House1794.Mar4.1",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          238
+        ]
+      },
+      "text": "The House resolved itself into a Committee of the Whole House on the resolution sent from the Senate, “proposing an article of amendment to the Constitution of the United States, respecting the Judicial power ;” and, after some time spent therein, the Chairman reported, that the Committee had had the said resolution under consideration, and made no amendment thereto."
+    },
+    {
+      "columns": [
+        "476"
+      ],
+      "label": "House, March 4, 1794, ¶ 2",
+      "ref": "House1794.Mar4.2",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          238
+        ]
+      },
+      "text": "A motion was then made, and seconded, to amend the said proposed article of amendment, at the Clerk’s table, by adding to the end thereof, the words following, to wit: “ Where such State shall have previously made provision in their own Courts, whereby such suit may be prosecuted to effect ;” and, on the question thereupon, it passed in the negative—yeas 8, nays 77, as follows:"
+    },
+    {
+      "columns": [
+        "476"
+      ],
+      "label": "House, March 4, 1794, ¶ 3",
+      "ref": "House1794.Mar4.3",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          238
+        ]
+      },
+      "text": "Yzeas.—John Beatty, Elias Boudinot, Daniel Heister’ William Hindman, Henry Latimer, Andrew Pickens Thomas Scott, and Silas Talbot.",
+      "uncertain": [
+        {
+          "end": 11,
+          "readings": {
+            "nypl": "YaAS^ohn",
+            "nypl-ocr": "Yras—John",
+            "primary": "Yzeas.—John"
+          },
+          "start": 0
+        },
+        {
+          "end": 51,
+          "readings": {
+            "nypl-ocr": "Heist”",
+            "primary": "Heister’"
+          },
+          "start": 43
+        }
+      ]
+    },
+    {
+      "columns": [
+        "476",
+        "477"
+      ],
+      "label": "House, March 4, 1794, ¶ 4",
+      "ref": "House1794.Mar4.4",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          238,
+          239
+        ]
+      },
+      "text": "Nars.—Fisher Ames, Theodorus Bailey, Abraham Baldwin, Thomas Blount, Shearjashub Bourne, Ben jamin Bourne, Thomas P. Carnes, Gabriel Christie Thomas Claiborne, David Cobb, Peleg Coffin, Joshu, Coit, Isaac Coles, William J. Dawson, Henry Dear born, George Dent, William Findley, Thomas Fitzsi. mons, Dwight Foster, Ezekiel Gilbert, William B. Giles, James Gillespie, Nicholas Gilman, Henry Glenn, Benjamin Goodhue, James Gordon, William Barry Grove, George Hancock, Carter B. Harrison, John Heath, James Hillhouse, Samuel Holten, John Hunter, William Irvine, Amasa Learned, Richard Bland Lee, Mathew Locke, William Lyman, Nathaniel Macon, Francis Malbone, Joseph McDowell, Alexander Mebane, William Montgomery, Andrew Moore, Peter Muhlenberg, William Vans Murray, Joseph Neville, Anthony New, John Nicholas, Nathaniel Niles, John Page, Josiah Parker, Francis Preston, Robert Rutherford, Theodore Sedgwick, John S. Sherburne, John Smilie, Jeremiah Smith, Israel Smith, Samuel Smith, Thomas Sprigg, Zephaniah Swift, George Thatcher, Uriah Tracy, Thomas Tredwell, Jonathan Trumbull, John E. Van Allen, Philip Van Cortlandt, Peter Van Gaasbeck, Abraham Venable, Peleg Wadsworth, Francis Walker, John Watts, Benjamin Williams, Paine Wingate, Richard Winn, and Joseph Winston.",
+      "uncertain": [
+        {
+          "end": 192,
+          "readings": {
+            "nypl": "Jo«^",
+            "nypl-ocr": "Josbu,",
+            "primary": "Joshu,"
+          },
+          "start": 186
+        },
+        {
+          "end": 292,
+          "readings": {
+            "nypl-ocr": "Thomss",
+            "primary": "Thomas Fitzsi."
+          },
+          "start": 278
+        },
+        {
+          "end": 637,
+          "readings": {
+            "nypl": "Maoon,",
+            "nypl-ocr": "Mecon,",
+            "primary": "Macon,"
+          },
+          "start": 631
+        }
+      ]
+    },
+    {
+      "columns": [
+        "477"
+      ],
+      "label": "House, March 4, 1794, ¶ 5",
+      "ref": "House1794.Mar4.5",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          239
+        ]
+      },
+      "text": "The resolution of the Senate, containing the said proposed article of amendment, was then read the third time, as follows:",
+      "uncertain": [
+        {
+          "end": 58,
+          "readings": {
+            "nypl": "mvpoaed",
+            "nypl-ocr": "pro",
+            "primary": "proposed"
+          },
+          "start": 50
+        }
+      ]
+    },
+    {
+      "columns": [
+        "477"
+      ],
+      "label": "House, March 4, 1794, ¶ 6",
+      "ref": "House1794.Mar4.6",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          239
+        ]
+      },
+      "text": "“ Resolved, by the Senate and House of Representatives of the United States of America, in ess assembled, two-thirds of both Houses concurring, That the following article be proposed to the Legislatures of the several States, as an amendment to the Constitution of the United States, which, when ratified by threefourths of the said Legislatures, shall be valid as part of the said Constitution, viz :",
+      "uncertain": [
+        {
+          "end": 94,
+          "readings": {
+            "primary": "ess"
+          },
+          "start": 91
+        },
+        {
+          "end": 189,
+          "readings": {
+            "nypl-ocr": "thé",
+            "primary": "the"
+          },
+          "start": 186
+        }
+      ]
+    },
+    {
+      "columns": [
+        "477"
+      ],
+      "label": "House, March 4, 1794, ¶ 7",
+      "ref": "House1794.Mar4.7",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          239
+        ]
+      },
+      "text": "“The Judicial power of the United States shall not be construed to extend to any suit in law or equity commenced or prosecuted against one of the United States by citizens of another State, or by citizens or subjects of any foreign State :”"
+    },
+    {
+      "columns": [
+        "477"
+      ],
+      "label": "House, March 4, 1794, ¶ 8",
+      "ref": "House1794.Mar4.8",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          239
+        ]
+      },
+      "text": "And on the question, that this House doth concur with the Senate in the said proposed article of amendment to the Constitution of the United States, it was resolved in the affirmative—yeas 81, nays 9, as follows:"
+    },
+    {
+      "columns": [
+        "477"
+      ],
+      "label": "House, March 4, 1794, ¶ 9",
+      "ref": "House1794.Mar4.9",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          239
+        ]
+      },
+      "text": "Yeras.—Fisher Ames, Theodorus Bailey, Abraham Baldwin, Thomas Blount, Shearjashub Bourne, Benjamin Bourne, Lambert Cadwalader, Thomas P. Carnes, Gabriel Christie, Thomas Claiborne, David Cobb, Peleg Coffin, Joshua Coit, Isaac Coles, William J. Dawson, Henry Dearborn, George Dent, Samuel Dexter, William Findley, Dwight Foster, Ezekiel Gilbert, William B. Giles, James Gillespie, Nicholas Gilman, Henry Glenn, Benjamin Goodhue, James Gordon, William Barry Grove, Carter B. Harrison, John Heath, Daniel Heister, James Hillhouse, Samuel Holten, John Hunter, William Irvine, Henry Latimer, Amasa Learned, Richard Bland Lee, Matthew Locke, William Lyman, Nathaniel Macon, James Madison, Francis Malbone, Joseph McDowell, Alexander Mebane, William Mont- ‘gomery, Andrew Moore, Peter Muhlenberg, William Vans Murray, Joseph Neville, Anthony New, John Nicholas, Nathaniel Niles, John Page, Josiah Parker, Francis Preston, Robert Rutherford, Theodore Sedgwick, John S. Sherburne, John Smilie, Jeremiah Smith, Israel Smith, Samuel Smith, William Smith, Thomas Sprigg, Zephaniah Swift, George Thatcher, Uriah T'racy, Thomas Tredwell, Jonathan Trumbull, John E. Van Allen, Philip Van Cortlandt, Peter Van Gaasbeck, Abraham Venable, Peleg Wadsworth, Francis Walker, John Watts, Benjamin Williams, Paine Wingate, Richard Winn, and Joseph Winston.",
+      "uncertain": [
+        {
+          "end": 13,
+          "readings": {
+            "nypl-ocr": "Yuas—Fisher",
+            "primary": "Yeras.—Fisher"
+          },
+          "start": 0
+        },
+        {
+          "end": 312,
+          "readings": {
+            "nypl-ocr": "ey,",
+            "primary": "Findley,"
+          },
+          "start": 304
+        },
+        {
+          "end": 427,
+          "readings": {
+            "nypl": "Goo&ue,",
+            "nypl-ocr": "G ue,",
+            "primary": "Goodhue,"
+          },
+          "start": 419
+        },
+        {
+          "end": 802,
+          "readings": {
+            "nypl": "Tana",
+            "nypl-ocr": "‘ans",
+            "primary": "Vans"
+          },
+          "start": 798
+        },
+        {
+          "end": 1058,
+          "readings": {
+            "nypl": "Bprin,",
+            "nypl-ocr": "igg,",
+            "primary": "Sprigg,"
+          },
+          "start": 1051
+        },
+        {
+          "end": 1220,
+          "readings": {
+            "nypl-ocr": "V. le,",
+            "primary": "Venable,"
+          },
+          "start": 1212
+        },
+        {
+          "end": 1284,
+          "readings": {
+            "nypl": "WSliama,",
+            "nypl-ocr": "Wittiams,",
+            "primary": "Williams,"
+          },
+          "start": 1275
+        }
+      ]
+    },
+    {
+      "columns": [
+        "478"
+      ],
+      "label": "House, March 4, 1794, ¶ 10",
+      "ref": "House1794.Mar4.10",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          239
+        ]
+      },
+      "text": "Nays.—John Beatty, Elias Boudinot, Thomas Fitzsimons, George Hancock, William Hindman, Andrew Pickens, Thomas Scott, Silas Talbot, and Artemas Ward.",
+      "uncertain": [
+        {
+          "end": 10,
+          "readings": {
+            "nypl": "NAXs^ohtt",
+            "nypl-ocr": "Naxs-—John",
+            "primary": "Nays.—John"
+          },
+          "start": 0
+        },
+        {
+          "end": 53,
+          "readings": {
+            "nypl": "Filisimotts,",
+            "nypl-ocr": "Fitssimons,",
+            "primary": "Fitzsimons,"
+          },
+          "start": 42
+        }
+      ]
+    },
+    {
+      "columns": [
+        "499"
+      ],
+      "label": "House, March 12, 1794, ¶ 1",
+      "ref": "House1794.Mar12.1",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          250
+        ]
+      },
+      "text": "A message from the Senate informed the House, that the Senate have come to a resolution, “That the Presippent oF THE United Srares be requested to transmit to the Executives of the several States, copies of the article of amendment : proposed by Congress to be added to the Constitution of the United States, respecting the Judicial power ;” to which they desire the concurrence of this House.",
+      "uncertain": [
+        {
+          "end": 109,
+          "readings": {
+            "nypl": "Pbbsidbnt",
+            "nypl-ocr": "Paesipgnt",
+            "primary": "Presippent"
+          },
+          "start": 99
+        }
+      ]
+    },
+    {
+      "columns": [
+        "499"
+      ],
+      "label": "House, March 12, 1794, ¶ 2",
+      "ref": "House1794.Mar12.2",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          250
+        ]
+      },
+      "text": "The House proceeded to consider the said resolution, and, the same being read, was agreed to."
+    }
+  ],
+  "short": "House proceedings, 1794",
+  "source_ids": [
+    "ia-part-annals-v4-microfilm-0012-0017",
+    "ia-part-annals-v4-microfilm-0032-0034",
+    "ia-part-annals-v4-microfilm-0112-0114",
+    "ia-part-annals-v4-microfilm-0117-0119",
+    "ia-part-annals-v4-microfilm-0237-0240",
+    "ia-part-annals-v4-microfilm-0249-0251",
+    "ia-part-annals-v4-nypl-0018-0025",
+    "ia-part-annals-v4-nypl-0038-0042",
+    "ia-part-annals-v4-nypl-0130-0139",
+    "ia-part-annals-v4-nypl-0255-0260",
+    "ia-part-annals-v4-nypl-0267-0271",
+    "ia-page-annals-v4-nypl-0019",
+    "ia-page-annals-v4-nypl-0020",
+    "ia-page-annals-v4-nypl-0021",
+    "ia-page-annals-v4-nypl-0022",
+    "ia-page-annals-v4-nypl-0023",
+    "ia-page-annals-v4-nypl-0024",
+    "ia-page-annals-v4-nypl-0039",
+    "ia-page-annals-v4-nypl-0040",
+    "ia-page-annals-v4-nypl-0041",
+    "ia-page-annals-v4-nypl-0131",
+    "ia-page-annals-v4-nypl-0132",
+    "ia-page-annals-v4-nypl-0133",
+    "ia-page-annals-v4-nypl-0136",
+    "ia-page-annals-v4-nypl-0137",
+    "ia-page-annals-v4-nypl-0138",
+    "ia-page-annals-v4-nypl-0256",
+    "ia-page-annals-v4-nypl-0257",
+    "ia-page-annals-v4-nypl-0258",
+    "ia-page-annals-v4-nypl-0259",
+    "ia-page-annals-v4-nypl-0268",
+    "ia-page-annals-v4-nypl-0269",
+    "ia-page-annals-v4-nypl-0270"
+  ],
+  "title": "Proceedings in the House of Representatives on the Eleventh Amendment, 1794"
+}

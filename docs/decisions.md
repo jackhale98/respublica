@@ -1151,3 +1151,146 @@ report filed).
   (`SHEET_WEIGHT_BYTES`; only the Senate's March 28, 1864, so far; no 1866
   sheet changes). The about page lists the Globe's page-by-page UNT sources
   as one line per session instead of two lines per page.
+
+## 58. The Lincoln copy's part 4 as a reading of the 1866 debates
+
+The project owner approved adding the Internet Archive item
+`congressionalglo00unit` as a reading of the 1866 debates on the pages of
+part 4, where the only other copy was a microfilm whose OCR is poor.
+
+- **What the item is**, checked against the downloaded files: its metadata
+  names it "The congressional globe", volume "39th Congress, 1st session,
+  pt. 4", contributed by the Lincoln Financial Foundation Collection
+  (scanned at Indiana in 2011, the same set as part 3,
+  `congressionalglo7393unit`). Its OCR text opens with the title page of
+  the first session of the Thirty-Ninth Congress (F. & J. Rives) and the
+  session's index, then runs from page 2881 to page 3840 (the page numbers
+  in its scan data cover 2881–3840 without a gap), with the datelines of
+  the days imported (May 30 to June 13, 1866). The metadata's date (1833)
+  is the series'. It records no rights or licence statement; the volume
+  was published in 1866 and is in the public domain in the USA, recorded
+  as the other Globe copies are. Source `ia-globe-1866-pt4-lincoln-txt`,
+  kept out of git like them and restored by `make fetch`.
+- **Read as the Lincoln copy.** It is the same copy as part 3, so its
+  readings go on the same key, `lincoln` ("Lincoln Foundation scan" on the
+  site, already labelled in both `SCANS`); the two volumes are read as one
+  stream in page order. No new key or label was needed.
+- **The microfilm is kept as a third reading** on part 4's pages. With
+  both, 1,249 (House) and 1,704 (Senate) words are marked uncertain; with
+  the Lincoln copy alone, 1,324 and 1,792; before, 1,404 and 3,271. Where
+  UNT's OCR and the Lincoln copy disagree, the microfilm sided with the
+  Lincoln copy about 1,500 times and with UNT's about 1,050, settling words neither
+  could alone ("fact^" against "facts", "Held" against "field",
+  "Bingbam," against "Bingham,"). The cost: where the Lincoln copy and the
+  microfilm agree against UNT's OCR on two words it knows ("the" against
+  "tho"), the vote leaves UNT's reading, marked (408 words, erratum 65),
+  where with the Lincoln copy alone the tie would go to the clean word.
+  Those words are marked, each with both copies' reading, so a third vote
+  costs fewer wrong-looking words overall than it saves.
+- **Tallies.** The copies' OCR text sets a vote's tally apart from the
+  last name ("and Wright— 37."), and the vote then dropped the count from
+  UNT's "Wright—37."; in 1866 the importer joins them first
+  (`Session.tallies`). That also restored eight tallies on part 3's pages
+  dropped before. Not applied to 1864–65 and 1869, whose texts would
+  change.
+- **What changed.** Refs and paragraphs did not change. About 1,300 runs
+  of words changed, most a misreading put right; the vocabulary the
+  copies attest grew, so a few words on part 3's pages changed too
+  ("ballot box" to "ballot-box", "o clock" to "o'clock"). Words made worse
+  are in erratum 64; thirteen link quotes were brought in step with the
+  new text by `tools.errata.update_quotes`. No correction applied to these
+  works.
+- **Open for the owner**: whether the vote should take two copies'
+  clean word over the main scan's attested one (erratum 65). It would
+  change every work read by consensus, so it is not done here.
+
+## 59. Two scans can overrule the main scan
+
+Decision 58 left 408 words in the 1866 debates showing the main scan's
+misreading ("tho", "bo", "arc", "lo") although both other copies read the
+right word: the vote never replaced a word it knew with another known word,
+and words two scans read alike count as known. The project owner decided
+that two scans can overrule a main scan (`importers/ocr.py`, `vote`):
+
+- **The rule.** Where two scans or more agree on another word and it is a
+  word of the clean texts, their reading replaces the main scan's, settled.
+  Not when their word is known only because scans read it so: scans share
+  misreadings, and the first trial took "aflirmative", "wich", "andif" and
+  "tr" over the main scan's right words that way.
+- **Real word against real word stays visible.** Where the main scan's word
+  is a clean-text word too ("minority" against "majority", "be" against
+  "he"), the majority's word is taken but stays marked uncertain, for a
+  person to check against the page image.
+- **The other safeguards hold:** figures, capitals read where the main
+  scan has lower case, and much shorter readings still keep the main scan's
+  word, unsettled.
+- **What changed.** Re-importing every work read by consensus changed about 310
+  places in ten works, no refs or paragraphs: 207 now settled (nearly all
+  "tho", "bo", "arc", "lo", "ot", "m" become "the", "be", "are", "to",
+  "of", "in"; "white" becomes "while" and "oar" "our" in the House's 1789
+  debate) and 107 marked. Uncertain words fell from 1,703 to 1,569 in the
+  Senate's 1866 debate and from 1,246 to 1,195 in the House's. Six link
+  quotes that contained a changed word were carried over to the new text
+  by code ("tho United States" now "the United States"; Cassius X "daring
+  the life" now "during the life").
+
+## 60. The Eleventh and Twelfth Amendments in the Annals of Congress
+
+The project owner asked for the congressional proceedings on the Eleventh
+Amendment (1794) and the Twelfth (1803, and the attempt of 1802), read as
+the House's 1789 debate is (decision 46), from volumes 4, 11 and 13 of the
+Annals of Congress.
+
+- **What is imported.** In each house, every item printed under the
+  amendment's heading ("Amendment(s) to the Constitution"), and, as for the
+  Globe (decision 57), the paragraphs in which a house took the resolution
+  up without that heading: offered it, read it, referred or postponed it,
+  voted, and asked the President to send it to the States. The Senate's
+  proceedings of 1794 and 1802 are printed as a journal, without headings,
+  so all of them are of this kind. Messages that only tell one house what
+  the other did, a State legislature's resolutions laid before a house,
+  and other amendments taken up beside these (the bank officers' amendment
+  of 1794, Bradley's motion for districts of April 16, 1802, the committee's
+  resolution on re-eligibility of December 1803) are not imported. The
+  items are listed in `importers/annals.py` (`ENTRIES`): the day, the
+  printed columns, and, for an item without a heading, the first words of
+  its first paragraph and of the one after it. Six works, one per house and
+  Congress: `Senate1794`, `House1794`, `Senate1802`, `House1802`,
+  `Senate1803`, `House1803` (`docs/references.md`).
+- **Scans.** Volume 4: the Internet Archive's microfilm scan (whose OCR is
+  far the better: about 88% of its words are dictionary words against 63%
+  for the Google scan of the New York Public Library's copy) gives layout
+  and words; it is checked against that Google scan's OCR and against our
+  Tesseract reading of its page images (22 pages, as in decision 46), since
+  with the two alone 4–10% of words stayed uncertain (`python -m
+  importers.annals ocr later`). Volume 11: the Google
+  scan of the University of Michigan's copy, checked against the New York
+  Public Library's and the microfilm. Volume 13: the Google scan of
+  Harvard's copy, checked against Michigan's and the microfilm. The
+  microfilm of volume 13 repeats and overlaps frames, so it is never the
+  main scan there. No other usable scan was found (the Internet Archive's
+  1970s microfilm of volumes 1–4, `annalsofcongress01unit`, has unreadable
+  OCR).
+- **One engine.** The two Google scans' OCR shares its misreadings ("ihe",
+  "lo", "Slates") as the Tesseract readings do; their agreement alone never
+  makes a word known to the vote (`Volume.same_engine`).
+- **Only the pages needed are kept**, each run of them a byte range of the
+  scan's DjVu XML (`python -m importers.annals fetch`; `tools/fetch.py`
+  records the `range` and `make fetch` asks for the same bytes and checks
+  their sha256), and the page images one file a page. The whole files
+  (about 55–65 MB each, eight of them) would have taken the raw files kept
+  out of git past their 1 GB budget; the ranges, 61 MB of XML and 13 MB of
+  images, are kept in git (the 300 MB budget). The other scans' pages are
+  found by locating the main scan's paragraphs in them, not by their column
+  numbers, which their OCR misreads too often.
+- **Reading the page.** The running head is recognised by its letters
+  ("HISXORT OF CONaRBSS", "H. OP R. Aiitendment to the CorutUtUion"),
+  never a day's heading; Google's mark is left out; a heading OCR ran into
+  a paragraph is set apart; column numbers are settled as runs over the
+  whole scan (`settle_runs`), since OCR reads 5 as 6 in long stretches of
+  volume 13; and a paragraph that runs onto the second column of a page
+  records it (`blocks(by_number=True)`; not for 1789, whose published
+  passages stay as they are).
+- **Quality.** 2.0% of words are marked uncertain in 1794, 0.4–0.8% in
+  1802, and 3.0–3.1% in 1803 (with decision 59's vote), where both Google scans are small and their
+  OCR poor. Each is marked with every reading.

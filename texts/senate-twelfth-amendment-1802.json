@@ -1,0 +1,361 @@
+{
+  "date": "1802-04-12/1802-05-03",
+  "divisions": [
+    {
+      "date": "1802-04-12",
+      "label": "April 12, 1802",
+      "level": 1,
+      "ref": "Senate1802.Apr12"
+    },
+    {
+      "date": "1802-04-13",
+      "label": "April 13, 1802",
+      "level": 1,
+      "ref": "Senate1802.Apr13"
+    },
+    {
+      "date": "1802-04-14",
+      "label": "April 14, 1802",
+      "level": 1,
+      "ref": "Senate1802.Apr14"
+    },
+    {
+      "date": "1802-04-15",
+      "label": "April 15, 1802",
+      "level": 1,
+      "ref": "Senate1802.Apr15"
+    },
+    {
+      "date": "1802-05-03",
+      "label": "May 3, 1802",
+      "level": 1,
+      "ref": "Senate1802.May3"
+    },
+    {
+      "date": "1802-05-03",
+      "label": "May 3, 1802",
+      "level": 1,
+      "ref": "Senate1802.May3b"
+    }
+  ],
+  "edition": {
+    "name": "Joseph Gales, Sr., comp., The Debates and Proceedings in the Congress of the United States (Annals of Congress), vol. 11 (Washington: Gales and Seaton, 1851)",
+    "notes": "Joseph Gales, Sr., comp., The Debates and Proceedings in the Congress of the United States (Annals of Congress), vol. 11 (Washington: Gales and Seaton, 1851): each day's proceedings of the Senate on the resolutions proposing the Twelfth Amendment (the designation of the persons voted for as President and Vice President), from the paragraph that takes them up to the one that turns to other business (the Senate's proceedings are printed without headings), columns 259–304. Read from the Google scan of the University of Michigan's copy (its OCR with page layout) and checked word by word against the Google scan of the New York Public Library's copy and a scan of a microfilm (Serials in Microfilm collection); words they could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "senate-twelfth-amendment-1802",
+  "ref_prefix": "Senate1802",
+  "segments": [
+    {
+      "columns": [
+        "259"
+      ],
+      "label": "Senate, April 12, 1802, ¶ 1",
+      "ref": "Senate1802.Apr12.1",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          137
+        ]
+      },
+      "text": "The following motion was made by Mr. Clinton, and seconded, and ordered to lie for consideration."
+    },
+    {
+      "columns": [
+        "259"
+      ],
+      "label": "Senate, April 12, 1802, ¶ 2",
+      "ref": "Senate1802.Apr12.2",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          137
+        ]
+      },
+      "text": "Resolved, by the Senate and House of Representatives of the United States of America in Congress assembled, two-thirds of both Houses concurring, That the following article be proposed to the Legislatures of the several States, as an amendment to the Constitution of the United States, which, when ratified by three-fourths of the said Legislatures, shall be valid as parts of the Constitution, to wit :"
+    },
+    {
+      "columns": [
+        "259"
+      ],
+      "label": "Senate, April 12, 1802, ¶ 3",
+      "ref": "Senate1802.Apr12.3",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          137
+        ]
+      },
+      "text": "That in all elections of President and Vice President, the persons voted for shall be particularly designated, by declaring which is voted for as President, and which as Vice President."
+    },
+    {
+      "columns": [
+        "260"
+      ],
+      "label": "Senate, April 13, 1802, ¶ 1",
+      "ref": "Senate1802.Apr13.1",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          137
+        ]
+      },
+      "text": "The Senate took into consideration the motion, made yesterday, for an amendment to the Constitution of the United States."
+    },
+    {
+      "columns": [
+        "260"
+      ],
+      "label": "Senate, April 13, 1802, ¶ 2",
+      "ref": "Senate1802.Apr13.2",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          137
+        ]
+      },
+      "text": "Ordered, That the further consideration of the subject be postponed until to-morrow."
+    },
+    {
+      "columns": [
+        "261"
+      ],
+      "label": "Senate, April 14, 1802, ¶ 1",
+      "ref": "Senate1802.Apr14.1",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          138
+        ]
+      },
+      "text": "The Senate resumed the consideration of the motion made on the 12th instant for an amendment to the Constitution of the United States.",
+      "uncertain": [
+        {
+          "end": 67,
+          "readings": {
+            "microfilm": "12th",
+            "nypl": "12ih",
+            "primary": "12th"
+          },
+          "start": 63
+        }
+      ]
+    },
+    {
+      "columns": [
+        "261"
+      ],
+      "label": "Senate, April 14, 1802, ¶ 2",
+      "ref": "Senate1802.Apr14.2",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          138
+        ]
+      },
+      "text": "Ordered, That the further consideration Ihere- 'of be postponed until to-morrow.",
+      "uncertain": [
+        {
+          "end": 50,
+          "readings": {
+            "microfilm": "thereof",
+            "nypl": "thereof",
+            "primary": "Ihere- 'of"
+          },
+          "start": 40
+        }
+      ]
+    },
+    {
+      "columns": [
+        "263"
+      ],
+      "label": "Senate, April 15, 1802, ¶ 1",
+      "ref": "Senate1802.Apr15.1",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          139
+        ]
+      },
+      "text": "Ordered, That the consideration of the motion made on the 12ih instant, relative to an amendment of the Constitution of the United States, be postponed until Monday next.",
+      "uncertain": [
+        {
+          "end": 62,
+          "readings": {
+            "microfilm": "12th",
+            "nypl": "12ih",
+            "primary": "12ih"
+          },
+          "start": 58
+        }
+      ]
+    },
+    {
+      "columns": [
+        "303"
+      ],
+      "label": "Senate, May 3, 1802, ¶ 1",
+      "ref": "Senate1802.May3.1",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "A message from the House of Representatives informed the Senate that the House agree to the report of the committee of conference on the bill, entitled “ An act further to alter and establish certain post roads.\" They have passed a resolution to amend the Constitution of the United States; in which they desire the concurrence of the Senate."
+    },
+    {
+      "columns": [
+        "303"
+      ],
+      "label": "Senate, May 3, 1802, ¶ 2",
+      "ref": "Senate1802.May3.2",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "The resolution was read as follows :"
+    },
+    {
+      "columns": [
+        "303"
+      ],
+      "label": "Senate, May 3, 1802, ¶ 3",
+      "ref": "Senate1802.May3.3",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "Resolved, by the Senate and House of Representatives of the United States of America in Congress assembled, two-thirds of both Houses concurring , That the following article be proposed to the Legislatures of the several States as *an amendment to the Constitution of the United States, which, when ratified by three-fourths of the said Legislatures, shall be valid to all intents and purposes as part of the said Constitution, to wit :"
+    },
+    {
+      "columns": [
+        "303"
+      ],
+      "label": "Senate, May 3, 1802, ¶ 4",
+      "ref": "Senate1802.May3.4",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "•* That in all future elections of President and Vice President the persons voted for shall be particularly designated, by declaring which is voted for as President and which as Vice President.\""
+    },
+    {
+      "columns": [
+        "303"
+      ],
+      "label": "Senate, May 3, 1802, ¶ 5",
+      "ref": "Senate1802.May3.5",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "Ordered, That it lie for consideration."
+    },
+    {
+      "columns": [
+        "304"
+      ],
+      "label": "Senate, May 3, 1802, ¶ 1",
+      "ref": "Senate1802.May3b.1",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "The Senate took into consideration the resolution of the House of Representatives of the 1st of May, for an amendment to the Constitution of the United States."
+    },
+    {
+      "columns": [
+        "304"
+      ],
+      "label": "Senate, May 3, 1802, ¶ 2",
+      "ref": "Senate1802.May3b.2",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "And, on the question. Will the Senate concur therein? it passed in the negative — yeas 15, nays 8, as follows :"
+    },
+    {
+      "columns": [
+        "304"
+      ],
+      "label": "Senate, May 3, 1802, ¶ 3",
+      "ref": "Senate1802.May3b.3",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "YxAs — Messrs. Anderson, Baldwin, Breckenridge. Brown, Clinton, Cocke, Ellery, T. Foster, Franklin, Jackson, Logan, S. T. Mason, Nicholas, Sumter, and Wright."
+    },
+    {
+      "columns": [
+        "304"
+      ],
+      "label": "Senate, May 3, 1802, ¶ 4",
+      "ref": "Senate1802.May3b.4",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "Nats — Messrs. Dwight Foster, Howard, Morris, 01- cott, Ogden, Stone, Tracy, and Wells.",
+      "uncertain": [
+        {
+          "end": 49,
+          "readings": {
+            "microfilm": "O!-",
+            "primary": "01-"
+          },
+          "start": 46
+        }
+      ]
+    },
+    {
+      "columns": [
+        "304"
+      ],
+      "label": "Senate, May 3, 1802, ¶ 5",
+      "ref": "Senate1802.May3b.5",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          159
+        ]
+      },
+      "text": "So the question was lost, two-thirds of the Senators present not concurring therein."
+    }
+  ],
+  "short": "Senate proceedings, 1802",
+  "source_ids": [
+    "ia-part-annals-v11-michigan-0135-0140",
+    "ia-part-annals-v11-michigan-0158-0160",
+    "ia-part-annals-v11-michigan-0307-0310",
+    "ia-part-annals-v11-michigan-0636-0638",
+    "ia-part-annals-v11-michigan-0651-0658",
+    "ia-part-annals-v11-nypl-0135-0141",
+    "ia-part-annals-v11-nypl-0157-0161",
+    "ia-part-annals-v11-nypl-0306-0311",
+    "ia-part-annals-v11-nypl-0648-0656",
+    "ia-part-annals-v11-microfilm-0128-0134",
+    "ia-part-annals-v11-microfilm-0150-0154",
+    "ia-part-annals-v11-microfilm-0299-0304",
+    "ia-part-annals-v11-microfilm-0641-0649"
+  ],
+  "title": "Proceedings in the Senate on the designation of President and Vice President, 1802"
+}

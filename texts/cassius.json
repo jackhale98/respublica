@@ -1550,18 +1550,7 @@
           33
         ]
       },
-      "text": "Let us take a short view of the characters who composed the late federal convention. Are they not men who, from their infancy, have been nurtured in the principles of liberty, and taught to pay a sacred regard to the rights of human nature? Are they not men who, when the poisonous breath of tyranny would have blasted the flower of Independence in its bud, and veiled every ray of freedom in the clouds of lawless despotism, nobly stepped forth in defence of their injured country's rights, and through the influence of whose exertions, favoured by the protection of an over-ruling Power, the thick fog of despotism vanished hke the early dew before the powerful rays of the resplendent luminary of the universe? Are they not honest, upright and just men, who fear God and eschew evil ?",
-      "uncertain": [
-        {
-          "end": 629,
-          "readings": {
-            "brittle": "like",
-            "google": "like",
-            "primary": "hke"
-          },
-          "start": 626
-        }
-      ]
+      "text": "Let us take a short view of the characters who composed the late federal convention. Are they not men who, from their infancy, have been nurtured in the principles of liberty, and taught to pay a sacred regard to the rights of human nature? Are they not men who, when the poisonous breath of tyranny would have blasted the flower of Independence in its bud, and veiled every ray of freedom in the clouds of lawless despotism, nobly stepped forth in defence of their injured country's rights, and through the influence of whose exertions, favoured by the protection of an over-ruling Power, the thick fog of despotism vanished like the early dew before the powerful rays of the resplendent luminary of the universe? Are they not honest, upright and just men, who fear God and eschew evil ?"
     },
     {
       "label": "Cassius 5, ¶ 6",
@@ -1819,10 +1808,10 @@
           37
         ]
       },
-      "text": "There is not, in the extensive circle of human nature, objects more completely despicable than those who take upon them to censure and condemn a work, without being able to substitute any things preferable in lieu of it.",
+      "text": "There is not, in the extensive circle of human nature, objects more completely despicable than those who take upon them to censure and condemn a work, without being able to substitute any thing preferable in lieu of it.",
       "uncertain": [
         {
-          "end": 194,
+          "end": 193,
           "readings": {
             "brittle": "thing",
             "google": "thing",
@@ -2417,7 +2406,7 @@
           47
         ]
       },
-      "text": "The propriety of all duties and imposts being uniform throughout the states, cannot be disputed. It is also highly requisite that Congress should be enabled to establish a coin which shall circulate the same throughout all the states. The necessity of such arrangements is certainly very obvious. For other particulars contained in the 8di section, I must refer my readers to tho Constitution, and am confident they will find it replete with nothing more than what is absolutely necessary should be vested in the guardians of a free country.",
+      "text": "The propriety of all duties and imposts being uniform throughout the states, cannot be disputed. It is also highly requisite that Congress should be enabled to establish a coin which shall circulate the same throughout all the states. The necessity of such arrangements is certainly very obvious. For other particulars contained in the 8di section, I must refer my readers to the Constitution, and am confident they will find it replete with nothing more than what is absolutely necessary should be vested in the guardians of a free country.",
       "uncertain": [
         {
           "end": 339,
@@ -2427,15 +2416,6 @@
             "primary": "8di"
           },
           "start": 336
-        },
-        {
-          "end": 379,
-          "readings": {
-            "brittle": "the",
-            "google": "the",
-            "primary": "tho"
-          },
-          "start": 376
         }
       ]
     },
@@ -2821,7 +2801,7 @@
           54
         ]
       },
-      "text": "Section 3, of article III. provides, that Congress shall have power to declare the punishment of treason, but no attainder of treason shall work corruption of blood, or forfeiture, except daring the life of the person attainted. — This section is truly republican in every sense of the expression, and is of itself fully adequate to proving that the members of the federal convention were actuated by principles the most liberal and free — this single section alone is sufficient to enroll their proceedings on the records of immortal fame.",
+      "text": "Section 3, of article III. provides, that Congress shall have power to declare the punishment of treason, but no attainder of treason shall work corruption of blood, or forfeiture, except during the life of the person attainted. — This section is truly republican in every sense of the expression, and is of itself fully adequate to proving that the members of the federal convention were actuated by principles the most liberal and free — this single section alone is sufficient to enroll their proceedings on the records of immortal fame.",
       "uncertain": [
         {
           "end": 194,
@@ -2860,7 +2840,7 @@
           54
         ]
       },
-      "text": "Section l, of article IV. says, full faith and credit shall be given in each state, to the publick acts, records and judicial proceedings of every other state. The benefit to be derived from such a regulation must be great, especially to those who are sometimes obliged to have recourse to law, for the settlement of their affairs.",
+      "text": "Section I, of article IV. says, full faith and credit shall be given in each state, to the publick acts, records and judicial proceedings of every other state. The benefit to be derived from such a regulation must be great, especially to those who are sometimes obliged to have recourse to law, for the settlement of their affairs.",
       "uncertain": [
         {
           "end": 10,
@@ -3233,7 +3213,7 @@
           59
         ]
       },
-      "text": "If they can effect this, they will laugh at your calamity, and mock your misfortunes — the language of each brother in iniquity, when they meet, will be, \"hail damn'd associates,\" sec our high success !",
+      "text": "If they can effect this, they will laugh at your calamity, and mock your misfortunes — the language of each brother in iniquity, when they meet, will be, \"hail damn'd associates,\" see our high success !",
       "uncertain": [
         {
           "end": 183,

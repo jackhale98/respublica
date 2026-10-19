@@ -74,5 +74,132 @@
       "tesseract-ocr": "5.3.4-1build5",
       "tesseract-ocr-eng": "1:4.1.0-2"
     }
+  },
+  {
+    "command": "tesseract IMAGE stdout -l eng --psm 3 tsv (OMP_THREAD_LIMIT=1)",
+    "id": "ia-annals-v4-nypl-tesseract",
+    "images": {
+      "leaves": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        39,
+        40,
+        41,
+        131,
+        132,
+        133,
+        136,
+        137,
+        138,
+        256,
+        257,
+        258,
+        259,
+        268,
+        269,
+        270
+      ],
+      "sources": [
+        {
+          "sha256": "c10aa5f5997a4429e840e040bd0f2201b93a07a0f18f003d4e27ae9b430e45b4",
+          "source": "ia-page-annals-v4-nypl-0019"
+        },
+        {
+          "sha256": "af432a2c1b6f8f03f572a2696967157eef0d5a47cb2701c186ef317c2d81c6c5",
+          "source": "ia-page-annals-v4-nypl-0020"
+        },
+        {
+          "sha256": "15bc7595eeb1c12b58259886421ededf6b6b44d86b7614253fdf542348355fbb",
+          "source": "ia-page-annals-v4-nypl-0021"
+        },
+        {
+          "sha256": "db5da18db01e874b5dbdc585985ecf40bb7c4d951650ce8345782e704395b14a",
+          "source": "ia-page-annals-v4-nypl-0022"
+        },
+        {
+          "sha256": "920302453d59db9880bef1f81bfe0c34daae6216b775c4db678392c605be0c39",
+          "source": "ia-page-annals-v4-nypl-0023"
+        },
+        {
+          "sha256": "d5557255b82e50c2418b82a7490335bda98c3f6155aa1c45ca6b208261904df0",
+          "source": "ia-page-annals-v4-nypl-0024"
+        },
+        {
+          "sha256": "e946814f79e544f4d12a7f4d73c1ddd91f557d4ca30f7b84df15f00a6baa2556",
+          "source": "ia-page-annals-v4-nypl-0039"
+        },
+        {
+          "sha256": "3fd1ab785d817be735b14b4e84ad80dd9b0048a1168802a9cdd9d3ae3c1ee049",
+          "source": "ia-page-annals-v4-nypl-0040"
+        },
+        {
+          "sha256": "03b7430d67d8b7f8d840b3fffcaad2dc0671526f616e38ee33fca7622b14c723",
+          "source": "ia-page-annals-v4-nypl-0041"
+        },
+        {
+          "sha256": "c6c5fa9bea07af754d81f381e08e0e6d078f9b0a52b7c0ac48db52d9ff84a9c1",
+          "source": "ia-page-annals-v4-nypl-0131"
+        },
+        {
+          "sha256": "b7e17b9a3444a996266a8827af214826da08624046d400a0cdcd8a516a8bf6a9",
+          "source": "ia-page-annals-v4-nypl-0132"
+        },
+        {
+          "sha256": "f0704c34603f2fbb35d46a6ed2b0b3f74ccf84a1996f03d6c4272d04f8c0dad2",
+          "source": "ia-page-annals-v4-nypl-0133"
+        },
+        {
+          "sha256": "27eba14a0e562a8435138fa7f880da288f6dff76e49f2aeae60d0e3013f5b51a",
+          "source": "ia-page-annals-v4-nypl-0136"
+        },
+        {
+          "sha256": "cc7c31ae6e2df4c9cc6130c6bdae13c1dbcb0a15ebc7f3c3fb12275f21d9d4ee",
+          "source": "ia-page-annals-v4-nypl-0137"
+        },
+        {
+          "sha256": "8fdd87fbddd82072a04c0da863fe155f28a743f0e936117f901a5edd38041df6",
+          "source": "ia-page-annals-v4-nypl-0138"
+        },
+        {
+          "sha256": "b0a84c95e9ed1aeab1796203ebb2d062912e8537c557b5bda62f414bb6c90bc2",
+          "source": "ia-page-annals-v4-nypl-0256"
+        },
+        {
+          "sha256": "3d6c4ca436ef0733be6a1d6e7aae77112bb88447ee3c527662f59ad6f272b4a8",
+          "source": "ia-page-annals-v4-nypl-0257"
+        },
+        {
+          "sha256": "177e8d27b94154f68a7def39fccc7714d3d493acead7d9b1a415d6f9323c8890",
+          "source": "ia-page-annals-v4-nypl-0258"
+        },
+        {
+          "sha256": "50944fa607c4ec704f86ca3fff9485651ffcb46eba94619198d8d6121f592fc2",
+          "source": "ia-page-annals-v4-nypl-0259"
+        },
+        {
+          "sha256": "c782c5593196374a2d2ca721a4758312fd2a83c96bbf0ebfa8ba08d10c8e6dde",
+          "source": "ia-page-annals-v4-nypl-0268"
+        },
+        {
+          "sha256": "f4c8cf82cf8b483e6fec54b2c694233a5bf97e3bc2f73647724d150be66cb15b",
+          "source": "ia-page-annals-v4-nypl-0269"
+        },
+        {
+          "sha256": "127005d5aaf32e70bc908d0879d4d684dfa46931cdcd438e0791a1f0c1c9edd9",
+          "source": "ia-page-annals-v4-nypl-0270"
+        }
+      ]
+    },
+    "notes": "Annals of Congress, vol. 4 (1849), the pages of the items imported by importers/annals.py in the Google scan of the New York Public Library's copy, read with Tesseract as one more reading for the vote (decision 60). Written by python -m importers.annals ocr later.",
+    "path": "sources/ocr/ia-annals-v4-nypl-tesseract.tsv",
+    "sha256": "97d738997422e360260f9f3c357153f935854e7de8d6fc9b9fba5c2e649c1614",
+    "tools": {
+      "tesseract-ocr": "5.3.4-1build5",
+      "tesseract-ocr-eng": "1:4.1.0-2"
+    }
   }
 ]

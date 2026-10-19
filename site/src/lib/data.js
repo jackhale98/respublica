@@ -95,7 +95,7 @@ export const COLLECTIONS = {
 export const POSITION_LABELS = { anti: "Anti-Federalist", federalist: "Federalist", other: "Other" };
 
 // Scan names in readings ("primary", "brittle", "google", "pitt") -> words.
-const SCANS = { primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan", microfilm: "microfilm scan", tesseract: "second OCR of the main scan", lincoln: "Lincoln Foundation scan" };
+const SCANS = { primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan", microfilm: "microfilm scan", tesseract: "second OCR of the main scan", lincoln: "Lincoln Foundation scan", nypl: "NYPL scan", harvard: "Harvard scan", michigan: "Michigan scan", "nypl-ocr": "second OCR of the NYPL scan" };
 
 // "Uncertain reading. The scans read: “Delibeiatc,” (main scan), …"
 export function uncertainTitle(readings = {}, lib = false) {

@@ -46,6 +46,7 @@ For each book, in `sources/raw/` (downloaded by `tools/fetch.py`, listed in
 | McMaster and Stone, *Pennsylvania and the Federal Constitution* (1888) | `ia-mcmaster-stone-1888-cornell-xml` | `-pitt-txt` (one) |
 | *Debates and Proceedings in the Convention of Massachusetts* (1856) | `ia-mass-debates-1856-nypl-xml` | `-uc-txt`, `-google-txt`, `-cornell-txt` (three) |
 | Annals of Congress, vol. 1 (1834) | `ia-annals-1834-v1-google-xml` | `-microfilm-xml`, and Tesseract's reading of the primary's page images (two) |
+| Annals of Congress, vols. 4, 11 and 13 (1849–52) | the pages needed of the microfilm (vol. 4) or a Google scan (vols. 11, 13): `ia-part-annals-v{n}-{scan}-…` | the other scans' pages (vol. 4: the Google scan and Tesseract's reading of its page images; vols. 11 and 13: a second Google scan and the microfilm) (two) |
 | Elliot's *Debates*, vol. 3 (standard pagination; 1907 printing) | `ia-elliot-v3-1907-toronto-xml` | `ia-elliot-v3-1876-cornell-txt`, `-1861-google-txt`, `-1836-google-txt` (three) |
 | *The New-York Journal* (1787–88), Brutus V–XVI | the Library of Congress's ALTO XML (`loc-nyjournal-{date}-p{n}-alto`) | none: one scan (see "One scan" below) |
 
@@ -190,7 +191,7 @@ vote's changes; see "How well it works"):
 
 | Case | Example | Why |
 |---|---|---|
-| A cleanly printed known word against a different known word | "friends" vs "citizens" | a real word is never silently swapped for another |
+| A cleanly printed known word against a different known word, which fewer than two other scans read, or which is not in the clean texts | "friends" vs "citizens" | a real word is not swapped for another on one scan's say, nor for a misreading the scans share ("aflirmative") |
 | A cleanly printed known word against a non-word | "asserted" vs "CATO. serted" | the primary is kept, settled (the others picked up a running head) |
 | Capitals where the main scan reads lower case | "Ciiuse" (the page: "Cause") vs "CASSIUS.", "CASSIUS." | a signature or heading lined up with the wrong word |
 | A much shorter reading (under three quarters the length) | "prometers" vs "moters", "moters" | a piece of a word broken at a line end |
@@ -198,6 +199,13 @@ vote's changes; see "How well it works"):
 | A word only the main scan has, not a known word | "legislatlve" | nothing corroborates it |
 | Scans split the word differently | "deliver d" vs "delivered" | the page has "deliver'd"; OCR dictionaries regularize |
 | A scan spells out an elision | "renown'd" vs "renowned" | the same regularization |
+
+Two scans or more that agree on a word of the clean texts **overrule the
+main scan** when it reads another known word (decision 59): "tho", "bo",
+"arc", "lo" become "the", "be", "are", "to" where the other copies read
+them so. If the main scan's word is a clean-text word too ("minority"
+against "majority"), the majority's word is taken but stays marked
+uncertain, for a person to check against the page.
 
 An unsettled word keeps the main scan's reading. Words a scan read as one
 are voted on together; if that vote fails, the scans that read them word by
@@ -360,6 +368,22 @@ later, is below).
 - **The Annals of Congress** (1834, small type in two columns; one other
   scan and a Tesseract reading): about 53,000 words with 562 marked, 11 per
   thousand. With the two scans alone it was 22 per thousand.
+- **The Congressional Globe, 1866** (UNT's OCR, checked against the Lincoln
+  Financial Foundation copy and, for part 4, a microfilm; decision 58):
+  about 106,000 words in the House's debate with 1,249 marked (12 per
+  thousand) and 146,000 in the Senate's with 1,704 (12 per thousand).
+  Before the Lincoln copy's part 4 was added the June days had only the
+  microfilm, and it was 1,404 (13 per thousand) and 3,271 (22 per
+  thousand). The new vote changed about 1,300 runs of words, most a
+  misreading put right ("tho" to "the" 124 times, "Slates" to "States",
+  "aud" to "and"); errata 64 and 65 list the words it made worse or
+  left marked against two agreeing copies.
+- **The Annals of Congress, volumes 4, 11 and 13** (decision 60): about
+  1,760 words (1794) with 35 marked, 20 per thousand; about 5,230 (1802)
+  with 24 marked, 5 per thousand; about 171,300 (1803) with 5,278 marked,
+  31 per thousand (after decision 59's vote), where both Google scans are small and share their OCR
+  engine's misreadings ("ihe", "lo", "Slates"), so their agreement does not
+  make a word known.
 
 The rules lean toward marking a word uncertain rather than guessing: a
 wrong word that looks settled is worse than a right word with a dotted

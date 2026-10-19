@@ -249,6 +249,50 @@ reading. Running heads, column numbers and specks are left out; a line OCR
 broke into pieces at the same height is joined again. The DjVu XML and page
 images are kept out of git (`make fetch` downloads them).
 
+**The Eleventh and Twelfth Amendments, 1794 and 1802–03**
+(`texts/senate-eleventh-amendment-1794.json`,
+`texts/house-eleventh-amendment-1794.json`,
+`texts/senate-twelfth-amendment-1802.json`,
+`texts/house-twelfth-amendment-1802.json`,
+`texts/senate-twelfth-amendment-1803.json`,
+`texts/house-twelfth-amendment-1803.json`, `importers/annals.py`, decision
+60) are imported from the same series: volume 4 (Third Congress; Gales and
+Seaton, 1849), volume 11 (Seventh Congress; 1851) and volume 13 (Eighth
+Congress, first session; 1852, as the microfilm's title page reads). In
+each house: every item headed "Amendment(s) to the Constitution", and the
+paragraphs, printed without that heading, in which the house offered,
+read, referred, postponed or voted on the resolution, or asked the
+President to send the amendment to the States. The Senate's proceedings of
+1794 and 1802 are printed as a journal, without headings. The items are
+listed in the importer (`ENTRIES`). In 1794: the Senate, January 2, 13, 14
+and March 12; the House, January 15, 16, March 4 (headed) and March 12. In
+1802: the Senate, April 12–15 and May 3 (two items); the House, February 19
+and May 1 (headed). In 1803: the Senate, 17 days from October 21 (Mr.
+Clinton's motion) to December 16, with the long debate of November 23 to
+December 2; the House, 14 days from October 17 (Mr. Dawson's resolution) to
+December 12. Not imported: messages that only report the other house's
+action, a State legislature's resolutions laid before a house, and the
+other amendments taken up on the same days (the bank officers' amendment,
+1794; districts for Electors, 1802; re-eligibility to the presidency, 1803).
+
+**Scans.** Volume 4: the Internet Archive's microfilm scan
+(`sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2`)
+gives layout and words; it is read against the Google scan of the New York
+Public Library's copy (`debatesandproce18galegoog`, whose own OCR is poor)
+and our Tesseract reading of that scan's page images. Volume 11: the Google
+scan of the University of Michigan's copy (`debatesandproce09galegoog`),
+read against the New York Public Library's (`debatesandproce24galegoog`)
+and the microfilm. Volume 13: the Google scan of Harvard's copy
+(`debatesandproce01unkngoog`), read against Michigan's
+(`debatesandproce34galegoog`) and the microfilm (whose frames repeat and
+overlap). Only the pages needed are kept, as byte ranges of each scan's
+DjVu XML (`ia-part-annals-v{volume}-{scan}-{first}-{last}`, in git), and
+the page images read with Tesseract one file a page
+(`ia-page-annals-v4-nypl-{leaf}`); `python -m importers.annals fetch`
+finds them. The two Google scans' OCR shares its misreadings, so their
+agreement alone never makes a word known. About 2% of words are marked
+uncertain in 1794, under 1% in 1802, and about 3% in 1803.
+
 **The Fourteenth Amendment debates, 1866**
 (`texts/house-fourteenth-amendment-1866.json`,
 `texts/senate-fourteenth-amendment-1866.json`, `importers/globe.py`,
@@ -266,10 +310,15 @@ come from the University of North Texas Digital Library's OCR of its copy
 (`unt-globe-1866-p{page}-words` and `-text`, one pair per page), matched
 word for word and split into columns. They are checked against the
 Internet Archive's scans of two other copies: the Lincoln Financial Foundation Collection's
-(part 3, to page 2880; OCR text) and a microfilm (part 4; DjVu XML, read
-column by column). Each word is in at least one reading; words the two
-could not settle are marked as uncertain. The microfilm's OCR is poor, so
-the Senate's June days are less corroborated than May's.
+(parts 3 and 4, OCR text: `congressionalglo7393unit` to page 2880 and
+`congressionalglo00unit` from page 2881, read as one copy) and, for part 4
+only, a microfilm (DjVu XML, read column by column). Each word is in at
+least one reading; words they could not settle are marked as uncertain. The
+microfilm's OCR is poor; on the pages of part 4 it is a third reading
+beside the Lincoln copy's (decision 58), so the Senate's June days and the
+House's vote of June 13 are corroborated about as well as May's. In the
+copies' text a vote's tally set apart from the last name ("and Wright—
+37.") is joined to it, as UNT's OCR reads it.
 
 **The Thirteenth Amendment debates, 1864–65**
 (`texts/senate-thirteenth-amendment-1864.json`,

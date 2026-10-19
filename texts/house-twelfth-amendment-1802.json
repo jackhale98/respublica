@@ -1,0 +1,1246 @@
+{
+  "date": "1802-02-19/1802-05-01",
+  "divisions": [
+    {
+      "date": "1802-02-19",
+      "label": "February 19, 1802",
+      "level": 1,
+      "ref": "House1802.Feb19"
+    },
+    {
+      "date": "1802-05-01",
+      "label": "May 1, 1802",
+      "level": 1,
+      "ref": "House1802.May1",
+      "title": "AMENDMENTS TO THE CONSTITUTION."
+    }
+  ],
+  "edition": {
+    "name": "Joseph Gales, Sr., comp., The Debates and Proceedings in the Congress of the United States (Annals of Congress), vol. 11 (Washington: Gales and Seaton, 1851)",
+    "notes": "Joseph Gales, Sr., comp., The Debates and Proceedings in the Congress of the United States (Annals of Congress), vol. 11 (Washington: Gales and Seaton, 1851): each day's proceedings of the House on the resolutions proposing the Twelfth Amendment (the designation of the persons voted for as President and Vice President): the item headed \"Amendments to the Constitution\", and the paragraphs in which a member offered the resolutions, columns 602–1294. Read from the Google scan of the University of Michigan's copy (its OCR with page layout) and checked word by word against the Google scan of the New York Public Library's copy and a scan of a microfilm (Serials in Microfilm collection); words they could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "house-twelfth-amendment-1802",
+  "ref_prefix": "House1802",
+  "segments": [
+    {
+      "columns": [
+        "602"
+      ],
+      "label": "House, February 19, 1802, ¶ 1",
+      "ref": "House1802.Feb19.1",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          308
+        ]
+      },
+      "text": "On motion made and seconded that the House do come to the following resolutions:"
+    },
+    {
+      "columns": [
+        "602",
+        "603"
+      ],
+      "label": "House, February 19, 1802, ¶ 2",
+      "ref": "House1802.Feb19.2",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          308,
+          309
+        ]
+      },
+      "text": "Resolved, by the Senate and House of Repreaenta' tivee of the United States of America in Congress assembled, two-thirds of both Houses concurring, That the following articles be proposed to the Legislatures of the several States, as amendments to the Constitution of the United States, which, when ratified by three-fourths of the said Legislatures, shall be valid as part of the Constitution, to wit :",
+      "uncertain": [
+        {
+          "end": 54,
+          "readings": {
+            "microfilm": "Representatives",
+            "nypl": "Representatives",
+            "primary": "Repreaenta' tivee"
+          },
+          "start": 37
+        }
+      ]
+    },
+    {
+      "columns": [
+        "603"
+      ],
+      "label": "House, February 19, 1802, ¶ 3",
+      "ref": "House1802.Feb19.3",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          309
+        ]
+      },
+      "text": "1st. That the State Legislatures shall, from time to time, divide each State into districts, equal to the whole number of Senators and Representatives from such State in the Congress of the United States ; and shall direct the mode of choosing an Elector of President and Vice President in each of the said districts, who shall be chosen by citizens having the qualifications requisite for Electors of the most numerous branch of the State Legislature ; and that the districts, so to be constituted shall consist, as nearly as may be, of contiguous territory, and of equal proportion of population, except where there may be any detached portion of territory, not of itself sufficient to form a district, which then shall be annexed to some other portion nearest thereto; which districts, when so divided, shall remain unalterable until a new census of the United States shall be taken.",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "microfilm": "Ist.",
+            "nypl": "1st.",
+            "primary": "1st."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "columns": [
+        "603"
+      ],
+      "label": "House, February 19, 1802, ¶ 4",
+      "ref": "House1802.Feb19.4",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          309
+        ]
+      },
+      "text": "2d. That, in all future elections of President and Vice President, the persons voted for shall be particularly designated, by declaring which is voted for as President, and which as Vice President"
+    },
+    {
+      "columns": [
+        "603"
+      ],
+      "label": "House, February 19, 1802, ¶ 5",
+      "ref": "House1802.Feb19.5",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          309
+        ]
+      },
+      "text": "Ordered, That the said motion, together with the resolutions of the Legislature of the State of New York, proposing amendments to the Constitution of the United States, respecting the choice of a President and Vice President, which were read and ordered to lie on the table on the fifteenth instant, be referred to the Committee of the Whole House on the state of the Union."
+    },
+    {
+      "columns": [
+        "1285"
+      ],
+      "label": "House, May 1, 1802, ¶ 1",
+      "ref": "House1802.May1.1",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          652
+        ]
+      },
+      "text": "Mr. Van Cortlandt moved that the House do now, according to the standing order of the day, resolve itself mto a Committee of the whole House on the state of the Union, to take into consideration a motion' referred to them on the nineteenth of February last, in the form of a concurrent resolution of the two Houses, proposing two articles of amendment to the Constitution of the United States respecting the election of President and Vice President; to which committee Were also referred certain resolutions of the Legislature of the State of New York, to the same effect."
+    },
+    {
+      "columns": [
+        "1285",
+        "1286"
+      ],
+      "label": "House, May 1, 1802, ¶ 2",
+      "ref": "House1802.May1.2",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          652
+        ]
+      },
+      "text": "Mr. HcGER thought the gentleman from New York could not be serious. He held it a bad precedent at that late period of the session to attempt to alter the Constitution. It mattered not, whether he was for or against the proposed amendment, he should be opposed to agreeing to it at this late day. He believed the Constitution to be the rock of the Union ; and he doubted whether as good a one could be formed, were the present one lost. .He believed it had been formed by our most distinguished statesmen with the greatest care. Whenever, therefore, it was contemplated to alter a part of this Constitution, it ought to be done with the greatest circumspection. He confessed that he trembled at the idea of altering it, though he was attached to that part of it which gave the right of altering it. As to this particular provision, he was far from having made up his mind on it. It does appear, on first blush, that the people should designate tne persons voted for as President and Vice President ; but, on second thoughts, there were many reasons against it. Congress having agreed to adjourn on Monday, it was improper now to discuss the subject, as it was impossible to give it a full investigation. The more important we deem the amendment, the greater is the regard which should be paid to the mode of adopting it ; and at this moment, when there is scarcely a quorum of members present, if you take it up, you in- some measure prevent a discussion of it.",
+      "uncertain": [
+        {
+          "end": 9,
+          "readings": {
+            "microfilm": "Hucer",
+            "nypl": "HuGBR",
+            "primary": "HcGER"
+          },
+          "start": 4
+        },
+        {
+          "end": 1259,
+          "readings": {
+            "microfilm": "is",
+            "nypl": "is",
+            "primary": "b"
+          },
+          "start": 1257
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1286"
+      ],
+      "label": "House, May 1, 1802, ¶ 3",
+      "ref": "House1802.May1.3",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          652
+        ]
+      },
+      "text": "Mr. H. concluded by calling for the yeas and nays on taking up the amendment."
+    },
+    {
+      "columns": [
+        "1286"
+      ],
+      "label": "House, May 1, 1802, ¶ 4",
+      "ref": "House1802.May1.4",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          652
+        ]
+      },
+      "text": "Mr. Foster said he hoped the amendment would not be taken up at this late hour. It would be recollected that at an antecedent session he had laid a similar resolution on the table, when it had been refused by the House to take it up from the late day of the session, though this amendment had been offered at the recommendation of New Hampshire. As this treatment was thought respectful to New Hampshire, Mr. F. did not think that it would be disrespectful to New York."
+    },
+    {
+      "columns": [
+        "1286"
+      ],
+      "label": "House, May 1, 1802, ¶ 5",
+      "ref": "House1802.May1.5",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          652
+        ]
+      },
+      "text": "Mr. Bayard wished to know whether it was in order to move the postponement of the question till November."
+    },
+    {
+      "columns": [
+        "1286"
+      ],
+      "label": "House, May 1, 1802, ¶ 6",
+      "ref": "House1802.May1.6",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          652
+        ]
+      },
+      "text": "The Speaker said such a motion was not in order, as the resolutions had been referred to the Committee of the Whole on the state of the Union."
+    },
+    {
+      "columns": [
+        "1286"
+      ],
+      "label": "House, May 1, 1802, ¶ 7",
+      "ref": "House1802.May1.7",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          652
+        ]
+      },
+      "text": "Mr. Davis was sorry the gentleman from New York (Mr. Van Cortlandt) had thought proper to place the House in so delicate a situation. After suffering these resolutions to lav for some months, they are now brought up on the last day, when the House is not prepared to investigate them, though there may oe weighty considerations in favor of them. He was. therefore, against taking them up at present. Ir taken up, he should be almost compelled to vote against them ; not, however, because he was really against them, but from the manner in which they are urged. Are gentlemen prepared to say that the House is in a fit state to investigate them? If there is a determination to carry them whether reasonable or not, it is certain a majority may carry them. Had they been called up a month ago, he should have been pleased ; but he thought it the height of imprudence to push them now.",
+      "uncertain": [
+        {
+          "end": 139,
+          "readings": {
+            "microfilm": "After",
+            "nypl": "After",
+            "primary": "Alter"
+          },
+          "start": 134
+        },
+        {
+          "end": 402,
+          "readings": {
+            "microfilm": "If",
+            "nypl": "It",
+            "primary": "Ir"
+          },
+          "start": 400
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1286",
+        "1287"
+      ],
+      "label": "House, May 1, 1802, ¶ 8",
+      "ref": "House1802.May1.8",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          652,
+          653
+        ]
+      },
+      "text": "Mr. Van Cortlandt said he was sorry the gentleman from South Carolina (Mr. Huger) was uneasy at the disorder of the House. For his part, he had never seen the House more orderly. As to its being a late hour, that, he conceived, had nothing to do with the business, as the resolutions had lain on the table for a long time, and he presumed every gentleman, expecting to be called on to vote on them, had made up his mind. As to the remarks of the gentleman irom New Hampshire, (Mr. Foster,) it cannot surely be a reason with him to vole now against these resolutions, because the House had formerly been against his resolutions."
+    },
+    {
+      "columns": [
+        "1287"
+      ],
+      "label": "House, May 1, 1802, ¶ 9",
+      "ref": "House1802.May1.9",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "Mr. MoTT was sorry these resolutions were taken up at this late hour. He did not hesitate to say that he w;as in favor of them ; but he was against taking them up at so late a day of the session."
+    },
+    {
+      "columns": [
+        "1287"
+      ],
+      "label": "House, May 1, 1802, ¶ 10",
+      "ref": "House1802.May1.10",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "Mr. Elmendorf said, if the subject required any particular investigation, he should be opposed to taking it up to-day. But it was so exceedmgly plain that he was persuaded it ought not to take up much of the time of the House. He certainly wished it had been taken up when there was a fuller House ; but he thought it so important, that it would at no time be improper to adopt it by the vote of a Constitutional majority. If it were important that the people should elect the man of tneir choice, it ought to be adopted. It must be evident to every gentleman, that in the Convention there must have been great contrariety of opinion on this point; and in practising under the Constitution a great variety of evils had been discovered. As, therefore, there had been a practical demonstration of the evils of the present plan, he believed the public mind was prepared to receive the amendment. This being a self-evident truth, he should vote in favor of adopting the amendment at this time.",
+      "uncertain": [
+        {
+          "end": 104,
+          "readings": {
+            "microfilm": "taking",
+            "nypl": "taking",
+            "primary": "taxing"
+          },
+          "start": 98
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1287",
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 11",
+      "ref": "House1802.May1.11",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "Mr. Bayard felt strongly impressed by the reasons which had been assigned in point of time. The subject was not totally novel to him ; but though he had heard it spoken of, expecting that it would be regularly brought up, he nad not examined it in proportion to its magnitude. He believed we ought to be extremely cautious in amending the Constitution, as he believed that no instrument had been better weighed in all its parts. He confessed he was puzzled to account for the regulations pres:cribed in the election of a President and Vice President ; yet he was perfectly satisfied there must have been very strong reasons for it, from his reliance on the talents of those who formed the Constitution. He had, however, no hesitation in saying, from all his reflections on the subject, that he was inclined to be in favor of a discrimination of the individuals voted for as President and Vice President, as well as in favor of districts. But he believed it very improper at this late hour to agitate the subject, and he considered it a bad precedent at the end of a session to make any innovation in the Constitution. However immaterial any amendment might appear to be, it ought to be very circumspectly examined; for often our first impressions are erroneous, and we are induced, on mature reflection, to change them. He was, therefore, in point of time, against taking up the resolutions; he thought it improper, when tne members were occupied in preparing to depart, in packing up their clothes, with which they had packed up many of their ideas; when we are here, barely to go through the formalities attending the final passage of bills. He concluded by observing, that he r^ peated it. that he was friendly to the amendment, but hostile to taking it up at that time.",
+      "uncertain": [
+        {
+          "end": 390,
+          "readings": {
+            "microfilm": "had",
+            "nypl": "had",
+            "primary": "bad"
+          },
+          "start": 387
+        },
+        {
+          "end": 1678,
+          "readings": {
+            "microfilm": "he",
+            "nypl": "he",
+            "primary": "be"
+          },
+          "start": 1676
+        },
+        {
+          "end": 1688,
+          "readings": {
+            "microfilm": "repeated",
+            "nypl": "repeated",
+            "primary": "r^ peated"
+          },
+          "start": 1679
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 12",
+      "ref": "House1802.May1.12",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "The question on taking up the resolutions was then taken by yeas and nays, and carried— yeas 38, nays 30, as follows :"
+    },
+    {
+      "columns": [
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 13",
+      "ref": "House1802.May1.13",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "Yeas — Willis Alston, John Archer, John Bacon, Theodorus Bailey, Phanuel Bishop, Robert Brown, Matthew Clay, John Clopton, Richard Cutts, John Dawson, William Dickson, Lucas Elmendorf, Edwin Gray, John A. Hanna, Daniel Heister, Joseph Heister, James Holland, David Holmes, Michael Leib, John Milledge, Samuel L. Mitchill, Thomas Moore, Thomas Morris, Thomas Newton, jr., John Randolph, jr., John Smilie, John Smith, of New York, John Smith, of Virginia, Samuel Smith, Richard Stanford, Joseph Stanton, jr., John Taliaferro, jr., Philip R. Thompson, Abram Trigg, John Trigg, Philip Van Cortlandt, Joseph B. Vamum, and Robert Williams."
+    },
+    {
+      "columns": [
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 14",
+      "ref": "House1802.May1.14",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "Nats — James A. Bayard, Thomas Boude, John Campbell, Manasseh Cutler, Samuel W. Dana, John Davenport, Thomas T. Davis, William Eustis, Abiel Foster, Calvin Goddard, Roger Griswold, Seth Hastings, William Helms, Archibald Henderson, Benjamin Huger, Thomas Lowndes, Lewis R. Morris, James Mott, Thomas Plater, Nathan Read, William Shepard, Henry Southard, John Stanley, John Stewart, Benjamin Tallmadge, Samuel Tenney, Thomas Tillinghast, George B. Upham, Peleg Wadsworth, and Lemuel Williams."
+    },
+    {
+      "columns": [
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 15",
+      "ref": "House1802.May1.15",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "Mr. Griswold wished to know, whether, on a preparatory question, the concurrence of twothirds were required, as this would form a precedent."
+    },
+    {
+      "columns": [
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 16",
+      "ref": "House1802.May1.16",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "The Speaker decided that two-thirds were not necessary."
+    },
+    {
+      "columns": [
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 17",
+      "ref": "House1802.May1.17",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "The House resolved itself into a Committee of the Whole— Mr. S. Smith in the Chair."
+    },
+    {
+      "columns": [
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 18",
+      "ref": "House1802.May1.18",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "As soon as the Chairman had taken the Chair, Mr. BAYARn rose, and observed. that he believed the question to be determined was on going into Committee on the state of the Union.",
+      "uncertain": [
+        {
+          "end": 55,
+          "readings": {
+            "microfilm": "Bayarp",
+            "nypl": "Bayaru",
+            "primary": "BAYARn"
+          },
+          "start": 49
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 19",
+      "ref": "House1802.May1.19",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "The Chairman said, the decision was for going into a Committee for the purpose of taking into consideration an amendment to the Constitution, \" That in all future elections of President and * Vice President, the persons voted for shall be par- ' ticularly designated by declaring which is voted * for as President,and which as Vice President.\""
+    },
+    {
+      "columns": [
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 20",
+      "ref": "House1802.May1.20",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "The Speaker said that question had not been stated from the Chair. The only question was on going into Committee on the state of the Union j and It was now competent to any member to offer any resolution on the state of the Union, or the House may consider the subject notified as continued.",
+      "uncertain": [
+        {
+          "end": 140,
+          "readings": {
+            "primary": "j"
+          },
+          "start": 139
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 21",
+      "ref": "House1802.May1.21",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "Mr. Batard moved for that proposition of amendment that related to a division of each State into districts.",
+      "uncertain": [
+        {
+          "end": 10,
+          "readings": {
+            "microfilm": "Bayarp",
+            "nypl": "Bayaro",
+            "primary": "Batard"
+          },
+          "start": 4
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1288"
+      ],
+      "label": "House, May 1, 1802, ¶ 22",
+      "ref": "House1802.May1.22",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653
+        ]
+      },
+      "text": "The Chairman, having read it, said he had always considered it as the practice, that the Committee must take up that resolution on which it had been moved to go into committee. He, therefore, considered the other resolutions as before the Committee."
+    },
+    {
+      "columns": [
+        "1288",
+        "1289"
+      ],
+      "label": "House, May 1, 1802, ¶ 23",
+      "ref": "House1802.May1.23",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          653,
+          654
+        ]
+      },
+      "text": "Mr. Huger.— I ask if the Committee has not right to take up which resolution it pleases? If they have, I hope the motion of the gentleman from Delaware (Mr. Bayard) will prevail."
+    },
+    {
+      "columns": [
+        "1289"
+      ],
+      "label": "House, May 1, 1802, ¶ 24",
+      "ref": "House1802.May1.24",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          654
+        ]
+      },
+      "text": "The Chairman. — The question is already decided."
+    },
+    {
+      "columns": [
+        "1289"
+      ],
+      "label": "House, May 1, 1802, ¶ 25",
+      "ref": "House1802.May1.25",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          654
+        ]
+      },
+      "text": "Mr. Bayard thought there was great justness in the argument of the gentleman from Kentucky, (Mr. Davis,) that the House was not in a state to make an amendment to the Constitution. He could hardly believe that, had it been proposed to amend the Constitution on an earlier day, it would have been done without a word of explanation being uttered. He believed this was doing too much, and without the defect of the former system being pointed out. He believed there was not a more important opinion than that the instrument from which we derive our power, and the nation its liberty, should be touched with a cautious hand. He believed gentlemen would see that this was not the time to touch it, and they will say, we will not agree to this amendment until the other, for districting the States, is first agreed to ; he, therefore, moved that the Committee should rise."
+    },
+    {
+      "columns": [
+        "1289"
+      ],
+      "label": "House, May 1, 1802, ¶ 26",
+      "ref": "House1802.May1.26",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          654
+        ]
+      },
+      "text": "Mr. Bacon hoped the Committee would not rise until other reasons were assigned than he had heard. The House had just agreed to take up the resolutions, and it is now moved to recede from the determination of the House without any reason being assigned for the change. The question was important, but not novel. He believed that every citizen called upon to give his vote had paid particular attention to, and had made up his mind upon it. This was the case with himself. He had long been of opinion that such an amendment was very important, and even necessary, and he should continue to think so until he had heard satisfactory reasons in opposition assigned. He was disposed to listen with tne greatest attention and candor to the arguments of gentlemen. The gentleman from Delaware urged as a reason against taking up this amendment its great importance ; and now he is for taking up another amendment infinitely more important."
+    },
+    {
+      "columns": [
+        "1289"
+      ],
+      "label": "House, May 1, 1802, ¶ 27",
+      "ref": "House1802.May1.27",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          654
+        ]
+      },
+      "text": "Mr. B. concluded by saying that as this was a subject on which the welfare of the United States depended, in his opinion the House could not excuse itself from taking it up."
+    },
+    {
+      "columns": [
+        "1289",
+        "1290"
+      ],
+      "label": "House, May 1, 1802, ¶ 28",
+      "ref": "House1802.May1.28",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          654
+        ]
+      },
+      "text": "Mr. MiTCHiLL said ne had almost despaired of this subject being acted upon after the late decision of the House. He was, however, very glad to find the House now disposed to take it up. He was much surprised that tne gentleman from Delaware wanted information, not only from his usual attention to Constitutional questions, but from the part he took in the Presidential election. He believed the question to be very plain, and one which had been well considered by every citizen in the United States. Under the Constitution electors are to vote for two persons, one of whom does not reside in the State of the electors; but it does not require a designation of the persons voted for. Wise and virtuous as were the members of the Convention, experience has shown that the mode therein adopted cannot be carried into operation ; for the people do not elect a person for an elector who, they know, does not intend to vote for a particular person as President. Therefore, practically, the very thing is adopted, intended by this amendment. If this proposition is now adopted by us, it will still have to be sanctioned by the other branch of the Legislature, and afterwards by three-fourths of the States. For these reasons, Mr. M. thought this amendment ou^ht to be adopted. It ought to be adopted, because it had been maturely considered ; because it had been recommended by several States, and because serious inconveniences had been, ana still more serious inconveniences might be experienced under the present mode.",
+      "uncertain": [
+        {
+          "end": 1255,
+          "readings": {
+            "microfilm": "ought",
+            "nypl": "ou^ht",
+            "primary": "ou^ht"
+          },
+          "start": 1250
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1290"
+      ],
+      "label": "House, May 1, 1802, ¶ 29",
+      "ref": "House1802.May1.29",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          654
+        ]
+      },
+      "text": "Mr. Dana said he was for the Committee rising, as this was not a proper time to act on so important a subject. He knew that the gentleman from Massachusetts (Mr. Bacon) had said his mind was made up, though he was ready to hear any arguments against the amendment. He has told us that he guessed every member was ready to act ; but as this was only a guess, others may guess as well as he. He also thought his friend from Delaware (Mr. Bayard) inconsistent; but the very remark of the gentleman from Massachusetts fortified the correctness of the Observation made by his friend from Delaware, who had said one of the proposed amendments is important, the other is still more important, and thence the necessity of more time for deliberation."
+    },
+    {
+      "columns": [
+        "1290"
+      ],
+      "label": "House, May 1, 1802, ¶ 30",
+      "ref": "House1802.May1.30",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          654
+        ]
+      },
+      "text": "If the subject of amending the Constitution be taken up, a second question may arise, whether a Vice President is wanted at all; whether that office was not created solely to influence the purposes of the present mode. He believed the journals of the Convention would show that the office of Vice President was not introduced till this mode was laid down. Other amendments may be found necessary. He was willing to consider that part of the Constitution which related to the apportionment of representatives, and to determine whether the representatives should be in proportion to the whites, or in proportion to the whites compounded witn slaves. He believed, also, when an amendment was proposed, it was proper to view all its parts, and see whether an amendment apparently necessarv would not materially differ from other parts of the Constitution equally necessary. For this examination there was not time."
+    },
+    {
+      "columns": [
+        "1290"
+      ],
+      "label": "House, May 1, 1802, ¶ 31",
+      "ref": "House1802.May1.31",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          654
+        ]
+      },
+      "text": "Mr. HuGER said he was willing to acknowledge that his bias was in favor of the amendment; but he did not like to be obliged at this late moment to vote on it. without having time to consider it himself, ana without giving time to others to investigate it. Besides, it was evident, that if the amendment for a discrimination was first adopted, the other amendment for districts may not be adopted; and in the opinion of some gentlemen it was important to adopt both. This measure is now forced upon us. In this sitting we are obliged to vote in the negative, though rather in favor of the amendment. But when thus improperly forced upon us, we think it 'the ' safest course to vote against it."
+    },
+    {
+      "columns": [
+        "1290",
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 32",
+      "ref": "House1802.May1.32",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          654,
+          655
+        ]
+      },
+      "text": "Where is the necessity of this precipitation ? There cannot be party motives in. the measure; for the same Legislature will meet the next session. In these circumstances, he thought it an act of cruelty to force those to vote who are not prepared. He said his mind was not made up, nor did he believe the minds of the community . were. He could not say from his own personal knowledge what was the wishes of his constituents; though he was rather inclined to think they were for the amendment. He believed the design of the Constitution in originating this business in these two Houses of Congress, was to have it investigated in a body whose members came from every part of the Union, and by having the debate published in every part of the Union to prepare the people correctly to judge. He, therefore, conceived it of immense importance that every amendment should be maturely investigated. He said, he looked round and scarcely saw a quorum. Are gentlemen prepared to offer arguments? He did not like to allude to party; but do not gentlemen know that those who agree with him have more than a third in this House when it is full? He did not know that that was now the case. In the last count we had only sixty-eight Votes, and yet with these numbers we are called upon to decide, at the end of the session, a Constitutional question."
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 33",
+      "ref": "House1802.May1.33",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "The question was taken on the Committee rising, and lost — ayes 25."
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 34",
+      "ref": "House1802.May1.34",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "The question was then taken on the resolution of amendment, on which there were — ayes 42, noes 22."
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 35",
+      "ref": "House1802.May1.35",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "The Chairman. — The question is lost."
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 36",
+      "ref": "House1802.May1.36",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "Mr. Varnum said he apprehended the Committee were to vote by simple majorities; this is a preparatory step, and the House will decide by a vote of two-thirds."
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 37",
+      "ref": "House1802.May1.37",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "Mr. Nicholson was clearly of this opinion, that the Committee ought to decide in the usual way."
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 38",
+      "ref": "House1802.May1.38",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "Mr. Qribwold said he did not know how the gentleman could find the mode of deciding in Committee but by that practised in the House.",
+      "uncertain": [
+        {
+          "end": 12,
+          "readings": {
+            "microfilm": "Griswo",
+            "nypl": "Qriswolu",
+            "primary": "Qribwold"
+          },
+          "start": 4
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 39",
+      "ref": "House1802.May1.39",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "Mr. Elmendorf thought no more than a simple majority was required. He, therefore, appealed from the decision of the Chair. After some explanation, Mr. E. observed that as the House would have to decide upon the same point, he would withdraw his motion of appeal."
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 40",
+      "ref": "House1802.May1.40",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "The Committee rose, and reported their disagreement to the amendment — two-thirds of the members, the Constitutional number, not concurring in it."
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 41",
+      "ref": "House1802.May1.41",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "The question was carried — ayes 42 — for taking up the report."
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 42",
+      "ref": "House1802.May1.42",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "The House immediately took up the report; when"
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 43",
+      "ref": "House1802.May1.43",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "The Speaker put the question on concurring with the report or the Committee of the Whole in their disagreement to the amendment.",
+      "uncertain": [
+        {
+          "end": 61,
+          "readings": {
+            "microfilm": "of",
+            "nypl": "ot",
+            "primary": "or"
+          },
+          "start": 59
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1291"
+      ],
+      "label": "House, May 1, 1802, ¶ 44",
+      "ref": "House1802.May1.44",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "Mr. HuGER moved to postpone the further consideration of the amendment to the third Monday in November."
+    },
+    {
+      "columns": [
+        "1291",
+        "1292"
+      ],
+      "label": "House, May 1, 1802, ¶ 45",
+      "ref": "House1802.May1.45",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "Mr. H. said he would not repeat the arguments he had before used. Of those against taking up the amendment at this time, there were, at least the gentleman from Delaware and himself who were likely to be in favor of it, if taken up at a proper time. He should, therefore, regret if, by voting in the negative, it should be lost. He wished it to be understood, and particularly by his constituents, that he voted against it, not because he was really against the amendment, bat from the consideration of the improper time at which it was urged. He concluded by calling for the yeas and nays."
+    },
+    {
+      "columns": [
+        "1292"
+      ],
+      "label": "House, May 1, 1802, ¶ 46",
+      "ref": "House1802.May1.46",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "Mr. Van Cortlanut said he was very sorry he could not oblige the gentleman (Mr. Hcger) with the delay he solicited, and he was also very sorry that that gentleman could not oblige himself and his constituents at the same time. He regretted that it was so late in the session ; but had not the subject been before the House for months, and before the people for years ? The gentleman says he wants time — to repeat a hundred and a hundred times what the House had heard before. At this endless repetition Mr. Van C. was surprised. He said, he should in many cases have taken a part in debate, if other gentlemen had not expressed the same ideas which he entertained himself. He did not wish to say that other gentlemen had made long speeches for the purpose of appearing in the newspapers; though he must say the conduct of the gentleman from South Carolina looked like it. Mr. Van C. concluded by observing that it was their duty to do good, and if the adoption of this amendment would have that effect, it could never be too late to adopt it.",
+      "uncertain": [
+        {
+          "end": 86,
+          "readings": {
+            "microfilm": "Huaer)",
+            "nypl": "Hdobr)",
+            "primary": "Hcger)"
+          },
+          "start": 80
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1292"
+      ],
+      "label": "House, May 1, 1802, ¶ 47",
+      "ref": "House1802.May1.47",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "Mr. HuGER said however favorable that gentleman may be to dumb legislation, he confessed he was inimical to it."
+    },
+    {
+      "columns": [
+        "1292"
+      ],
+      "label": "House, May 1, 1802, ¶ 48",
+      "ref": "House1802.May1.48",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "The question of postponement was then taken by yeas and nays, and lost — yeas 28. nays 44, as follows:"
+    },
+    {
+      "columns": [
+        "1292"
+      ],
+      "label": "House, May 1, 1802, ¶ 49",
+      "ref": "House1802.May1.49",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "Yeas — James A. Bayard, Thomas Boude, John Campbell, John Condit, Manasseh Cutler, Samuel W. Dana, John Davenport, Abiel Foster, Calvin Goddard, Roger Griswold, Seth Hastings, William Helms, Archibald Henderson, Benjamin Huger, Thomas Lowndes, Lewis R. Morris, James Mott, Thomas Plater, Nathan Read, William Shepard, Henry Southard, John Stanley, Benjamin Tallmadge, Samuel Tcnney, Thomas Tillinghast, George B. Upham, Peleg Wadsworth, and Lemuel Williams."
+    },
+    {
+      "columns": [
+        "1292"
+      ],
+      "label": "House, May 1, 1802, ¶ 50",
+      "ref": "House1802.May1.50",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655
+        ]
+      },
+      "text": "Nats — Willis Alston, John Archer, John Bacon, Theodorus Bailey, Phanuel Bishop, Robert Brown, Matthew Clay, John Clopton, Richard Cutts, Thomas T. Davis, John Dawson, William Dickson, Lucas H- EImendorf, William Eustis, John Fowler, Edwin Gray, John A. Hanna, Daniel Heister, Joseph Heister, James Holland, David Holmes, Michael Leib, John Milledge, Samuel L. Mitchill, Thomas Moore, Thomas Morris Thomas Newton, jr., Joseph H. Nicholson, John Randolph, jr., John Smilie, John Smith, of New York, John Smith, of Virginia, Samuel Smith, Richard Stanford, Joseph Stanton, jr., John Taliaferro, jr., David Thomas, Philip R. Thompson, Abram Trigg, John Trigg, Philip Van Cortlandt, John P. Van Ness, Joseph B. Varnum, and Robert Williams."
+    },
+    {
+      "columns": [
+        "1292",
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 51",
+      "ref": "House1802.May1.51",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          655,
+          656
+        ]
+      },
+      "text": "The question recurred, on concurring in the report of the Committee in their disagreement to the amendment."
+    },
+    {
+      "columns": [
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 52",
+      "ref": "House1802.May1.52",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "Mr. Bayard said he was sorry the subject was pressed upon them. It had not undergone in his mind a mature consideration. He considered his giving a vote of concurrence as operating simply a postponement till November. He had voted for the postponement, and he would vote for a concurrence. Next session the subject may be taken up, and maturely considered."
+    },
+    {
+      "columns": [
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 53",
+      "ref": "House1802.May1.53",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "Mr. Nicholson inquired whether the question of concurrence required two-thirds."
+    },
+    {
+      "columns": [
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 54",
+      "ref": "House1802.May1.54",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "The Speaker. — This is the final question, and therefore requires two-thirds. All preparatory questions only require a majority."
+    },
+    {
+      "columns": [
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 55",
+      "ref": "House1802.May1.55",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "Mr. Varnum asked whether the question would be final. It appeared to him that after this is decided, there will be another question on agreeing to the resolution itself."
+    },
+    {
+      "columns": [
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 56",
+      "ref": "House1802.May1.56",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "The question was taken, by yeas and nays, on agreeing to the report, and lost — yeas 24, nays 48 — two-thirds voting against concurrence, as follows:",
+      "uncertain": [
+        {
+          "end": 96,
+          "readings": {
+            "nypl": "46",
+            "primary": "48"
+          },
+          "start": 94
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 57",
+      "ref": "House1802.May1.57",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "Yeas — James A. Bayard, Thomas Boude, John Campbell, Manasseh Cutler, Samuel W. Dana, John Davenport, Abiel Foster, Calvin Goddard, Roger Griswold, Seth Hastings, Archibald Henderson, Benjamin Huger, Thomas Lowndes, Lewis R. Morris, Thomas Plater, Nathan Read, William Shepard, John Stanley, Benjamin Tallmadge, Samuel Tenney, Thomas Tillinghast, George B. Upham, Peleg Wadsworth, and Lemuel Williams."
+    },
+    {
+      "columns": [
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 58",
+      "ref": "House1802.May1.58",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "Nats — Willis Alston, John Archer, John Bacon, Theodorus Bailey, Phanuel Bishop, Robert Brown, Matthew Clay, John Clopton, John Condit, Richard Cutts, Thomas T. Davis, John Dawson, William Dickson, Lucas Elmendorf, William Eustis, John Fowler, Edwin Gray, John A. Hanna, Daniel Heister, Joseph Heister, Wm. Helms, James Holland, David Holmes, Michael Leib, John Milledge, Samuel L. Mitchill, Thomas Moore, Thomas Morris, James Mott, Thomas Newton, jr., Joseph H. Nicholson, John Randolph, jr., John Smilie, John Smith, of New York, John Smith, of Virginia, Samuel Smith, Henry Southard, Richard Stanford, Joseph Stanton, jr., John Taliaferro, jr., David Thomas, Philip R. Thompson, Abram Trigg, John Trigg, Philip Van Cortlandt, John P. Van Ness, Joseph B. Varnum, and Robert Williams."
+    },
+    {
+      "columns": [
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 59",
+      "ref": "House1802.May1.59",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "Mr. Huoer said he would repeat what he had said before, viz : that he did not vote against the amendment because he was opposed to it, but because he was decidedly opposed to the time in which it was proposed.",
+      "uncertain": [
+        {
+          "end": 9,
+          "readings": {
+            "microfilm": "Hucer",
+            "nypl": "HoGER",
+            "primary": "Huoer"
+          },
+          "start": 4
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 60",
+      "ref": "House1802.May1.60",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "Mr. Huger moved the postponement of the third reading of the resolution till Monday, lost — ayes 25."
+    },
+    {
+      "columns": [
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 61",
+      "ref": "House1802.May1.61",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "Resolved, That the said resolution be read a third time to-day."
+    },
+    {
+      "columns": [
+        "1293"
+      ],
+      "label": "House, May 1, 1802, ¶ 62",
+      "ref": "House1802.May1.62",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "The engrossed resolution was afterwards brought in, and read a third time, when the question was taken on it by yeas and nays, and carried — yeas 47, nays 14, as follows:"
+    },
+    {
+      "columns": [
+        "1293",
+        "1294"
+      ],
+      "label": "House, May 1, 1802, ¶ 63",
+      "ref": "House1802.May1.63",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "YxAs — John Archer, John Bacon, Theodorus Bailey, Phanuel Bishop, Richard Brent, Robert Brown, Matthew Clay, John Clopton, John Condit, Richard Cutts, Thomas T. Davis, John Dawson, William Dickson, Lucas Elmendorf, William Eustis, John Fowler, Edwin Gray, John A. Hanna, Daniel Heister, Joseph Heister, James Holland, David Holmes, Michael Leib, John Milledge, Samuel L. Mitchill, Thomas Moore» James Mott, Anthony New, Thomas Newton, jr., Joseph H. Nicholson, John Randolph, jr., John Smilie, John Smith, of New York, John Smith, of Virginia, Samuel Smith, Henry Southard, Richard Stanford, Joseph Stanton, jr., John Taliaferro, jr., David Thomas, Philip R. Thompson, Abram Trigg, John Trigg, Philip Van Cortlandt, John P. Van Ness, Joseph B. Varnum, and Robert Williams.",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "nypl": "Ykas",
+            "primary": "YxAs"
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "columns": [
+        "1294"
+      ],
+      "label": "House, May 1, 1802, ¶ 64",
+      "ref": "House1802.May1.64",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "Nats — James A. Bayard, Thomas Boude, Manasseh Cutler, John Davenport, Roger Griswold, Archibald Henderson, Benjamin Huger, Lewis R. Morris, Nathan Read, John Stanley, Benjamin Tallmadge, Samuel Tenney, George B. Upham, and Lemuel Williams."
+    },
+    {
+      "columns": [
+        "1294"
+      ],
+      "label": "House, May 1, 1802, ¶ 65",
+      "ref": "House1802.May1.65",
+      "scan": {
+        "item": "debatesandproce09galegoog",
+        "leaves": [
+          656
+        ]
+      },
+      "text": "Ordered, That the Clerk of the House do carry the said resolution to the Senate, and desire their concurrence."
+    }
+  ],
+  "short": "House debates, 1802",
+  "source_ids": [
+    "ia-part-annals-v11-michigan-0135-0140",
+    "ia-part-annals-v11-michigan-0158-0160",
+    "ia-part-annals-v11-michigan-0307-0310",
+    "ia-part-annals-v11-michigan-0636-0638",
+    "ia-part-annals-v11-michigan-0651-0658",
+    "ia-part-annals-v11-nypl-0135-0141",
+    "ia-part-annals-v11-nypl-0157-0161",
+    "ia-part-annals-v11-nypl-0306-0311",
+    "ia-part-annals-v11-nypl-0648-0656",
+    "ia-part-annals-v11-microfilm-0128-0134",
+    "ia-part-annals-v11-microfilm-0150-0154",
+    "ia-part-annals-v11-microfilm-0299-0304",
+    "ia-part-annals-v11-microfilm-0641-0649"
+  ],
+  "title": "Debates in the House of Representatives on the designation of President and Vice President, 1802"
+}

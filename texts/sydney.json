@@ -367,17 +367,8 @@
           315
         ]
       },
-      "text": "It is therefore evident that this state, by adopting the new [government, will enervate their legislative rights, and totally surrender into the hands of Congress the management and regulation ot the Indian trade to an improper government, and the traders to be fleeced by iniquitous impositions, operating at one and the same time as a monopoly and a poll-tax. The deputy by the above ordinance, has a right to exact yearly fifty dollars from every trader, which Congress may increase to any amount, and give it all the operation of a monopoly ; fifty dollars on a cargo of 10,000 dollars' value will be inconsiderable, on a cargo of lOOO dollars burthensome, but on a cargo of lOO dollars will be intolerable, and amount to a total prohibition, as to small adventurers,",
+      "text": "It is therefore evident that this state, by adopting the new [government, will enervate their legislative rights, and totally surrender into the hands of Congress the management and regulation of the Indian trade to an improper government, and the traders to be fleeced by iniquitous impositions, operating at one and the same time as a monopoly and a poll-tax. The deputy by the above ordinance, has a right to exact yearly fifty dollars from every trader, which Congress may increase to any amount, and give it all the operation of a monopoly ; fifty dollars on a cargo of 10,000 dollars' value will be inconsiderable, on a cargo of lOOO dollars burthensome, but on a cargo of lOO dollars will be intolerable, and amount to a total prohibition, as to small adventurers,",
       "uncertain": [
-        {
-          "end": 195,
-          "readings": {
-            "brittle": "of",
-            "google": "of",
-            "primary": "ot"
-          },
-          "start": 193
-        },
         {
           "end": 581,
           "readings": {
@@ -569,25 +560,16 @@
           317
         ]
       },
-      "text": "The fourth provides, \"that the assembly o'i the state of New York shall consist of at least seventy members, to be annually chosen in the several counties in certain proportions.\" The 5th, 1 2th and i6lh, declare that a census shall be taken every seven years, to regulate the augmentation of the number seventy, so as not to exceed three hundred. Here seventy members are divided among the several counties, and consequently into at least as many poles and sets of members to be annually chosen. If this is contrasted with the constitution for the federal government — the constitutional assembly or house of representatives will be found to consist of sixty-five members divided among thirteen states, to be chosen every second year. Six for the state of New York ; not distributed among the counties, but by all the counties. And, although \" the times, places and manner of holding elections for senators and representatives shall be prescribed in each state by the legislature thereof,\" yet, as it provides that \" Congress may at any time by law, make or alter those regulations, except as to places of chusing senators\" — the power in the state government to prescribe rules in those cases will be superseded by the executive of the general government, perhaps to the great inconvenience of the people.",
+      "text": "The fourth provides, \"that the assembly of the state of New York shall consist of at least seventy members, to be annually chosen in the several counties in certain proportions.\" The 5th, 1 2th and i6lh, declare that a census shall be taken every seven years, to regulate the augmentation of the number seventy, so as not to exceed three hundred. Here seventy members are divided among the several counties, and consequently into at least as many poles and sets of members to be annually chosen. If this is contrasted with the constitution for the federal government — the constitutional assembly or house of representatives will be found to consist of sixty-five members divided among thirteen states, to be chosen every second year. Six for the state of New York ; not distributed among the counties, but by all the counties. And, although \" the times, places and manner of holding elections for senators and representatives shall be prescribed in each state by the legislature thereof,\" yet, as it provides that \" Congress may at any time by law, make or alter those regulations, except as to places of chusing senators\" — the power in the state government to prescribe rules in those cases will be superseded by the executive of the general government, perhaps to the great inconvenience of the people.",
       "uncertain": [
         {
-          "end": 43,
-          "readings": {
-            "brittle": "of",
-            "google": "of",
-            "primary": "o'i"
-          },
-          "start": 40
-        },
-        {
-          "end": 204,
+          "end": 203,
           "readings": {
             "brittle": "6th,",
             "google": "i6lh,",
             "primary": "i6lh,"
           },
-          "start": 199
+          "start": 198
         }
       ]
     },
@@ -1063,7 +1045,7 @@
           323
         ]
       },
-      "text": "xviii, SEC. 17 ; XIX. SIX. 17 ; xx. six. 17 ; xxi, six. 17 ; xxiii, sec. 17 ; XXII TO XXX INCLUSIVE.",
+      "text": "xviii, SEC. 17 ; XIX. sec. 17 ; xx. sec. 17 ; xxi, six. 17 ; xxiii, sec. 17 ; XXII TO XXX INCLUSIVE.",
       "uncertain": [
         {
           "end": 26,

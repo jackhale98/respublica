@@ -45,11 +45,23 @@ DeWitt, Philadelphiensis, Melancton Smith.
 
 **Debates in Congress** (`/congress/`): the House's 1789 debate on the
 amendments, from the Annals of Congress (`importers/annals.py`, decision
-46), and both houses' 1866 debates on the Fourteenth Amendment, from the
-Congressional Globe (`importers/globe.py`, decision 47). About 1% (1789),
-1.3% (House, 1866) and 2.2% (Senate, 1866) of words are marked uncertain;
-the Senate's June days have only a poor microfilm to check UNT's OCR
-against. The Thirteenth (1864–65: `Senate1864`, `House1864`, `House1865`)
+46); both houses' proceedings on the Eleventh Amendment (1794) and the
+Twelfth (1802 and 1803), from volumes 4, 11 and 13 of the Annals (decision
+60; about 2%, under 1% and about 3% of words marked uncertain; the 1803
+Google scans are small and their OCR poor, so `/errata/` has about 5,300
+words from them; `python -m importers.annals fetch` keeps only the pages
+needed, as byte ranges); and both houses' 1866 debates on the Fourteenth Amendment, from the
+Congressional Globe (`importers/globe.py`, decision 47). About 1% (1789)
+and 1.2% (House and Senate, 1866) of words are marked uncertain; since
+decision 58 the June days of 1866 are checked against the Lincoln
+Financial Foundation copy's part 4 (`congressionalglo00unit`), with the
+microfilm as a third reading. Since decision 59 two copies that agree on a
+clean-text word overrule UNT's OCR ("tho" -> "the"; erratum 65), which
+settled about 200 words across the library and marked about 100 more
+where one real word replaced another, for a person to check. Joining a
+vote's tally to the last name in the copies' text (`Session.tallies`) is
+applied only to 1866; the 1864–65 and 1869 copies split tallies the same
+way and would gain from it, which changes those texts. The Thirteenth (1864–65: `Senate1864`, `House1864`, `House1865`)
 and Fifteenth Amendments (1869: `House1869`, `Senate1869`) are imported the
 same way (decision 57), with page reading refined for those volumes (never
 for 1866, whose refs are published); 1.9–4.6% of their words are marked
@@ -81,7 +93,8 @@ without a heading of its own, belongs too needs a look at pp. 733–741.
 ## Next
 
 0. **Read uncertain words off the scans** on `/errata/` (decision 48):
-   about 5,700 words, most in the 1866 debates. Corrections come back
+   about 30,700 words in all (`python -m tools.uncertain`), 2,953 of them
+   in the 1866 debates. Corrections come back
    through the errata workflow; agents never record them.
 1. **Review the case links** on `/review/` ("Supreme Court cases"), checking
    a sample against the Constitution Annotated pages each link names.

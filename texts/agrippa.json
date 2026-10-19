@@ -2096,10 +2096,10 @@
           111
         ]
       },
-      "text": "\"Resolved, that the form of government proposed by the federal convention, lately held in Philadelphia, be rejected on the part of this commonwealth; and that our delegates in Congress are hereby authorised to propose on the part of this commonwealth, and, it\" the other states for themselves agree thereto, to sign an article of confederation, as an addition to the present articles, in the form following, provided such agreement be made on or before the first day of January, which will be in the year of our Lord 1790; the said article shall have the same force and effect as if it had been inserted in the original confederation, and is to be construed consistently with the clause in the former articles, which restrains the United States from exercising such powers as are not expressly given.",
+      "text": "\"Resolved, that the form of government proposed by the federal convention, lately held in Philadelphia, be rejected on the part of this commonwealth; and that our delegates in Congress are hereby authorised to propose on the part of this commonwealth, and, if the other states for themselves agree thereto, to sign an article of confederation, as an addition to the present articles, in the form following, provided such agreement be made on or before the first day of January, which will be in the year of our Lord 1790; the said article shall have the same force and effect as if it had been inserted in the original confederation, and is to be construed consistently with the clause in the former articles, which restrains the United States from exercising such powers as are not expressly given.",
       "uncertain": [
         {
-          "end": 260,
+          "end": 259,
           "readings": {
             "brittle": "if",
             "google": "if",
@@ -2421,18 +2421,7 @@
           125
         ]
       },
-      "text": "From this general view of the state of mankind it appears that all the powers of government originally reside in the body of the people; and that when they appoint certain persons to administer the government, they delegate all the powers of government not expressly reserved. Hence it appears that a constitution does not in itself imply any more than a declaration of the relation which the different parts of the government bear to each other, but does not in any degree imply security to the rights of individuals. This has been the uniform practice. In all doubtful cases the decision is in favour of the government. It is therefore impertinent to ask by what right government exercises powers not expressly delegated. Mr. Wilson, the great oracle of federalism, acknowledges, m his speech to the Philadelphians,* the truth of these remarks, as they respect the state governments, but attempts to set up a distinction between them and the continental government. To anybody who will be at the trouble to read the new system, it is evidently in the same situation as the state constitutions now possess. It is a compact among the people for the purposes of of government, and not a compact between states. It begins in the name of the people, and not of the states.",
-      "uncertain": [
-        {
-          "end": 783,
-          "readings": {
-            "brittle": "in",
-            "google": "in",
-            "primary": "m"
-          },
-          "start": 782
-        }
-      ]
+      "text": "From this general view of the state of mankind it appears that all the powers of government originally reside in the body of the people; and that when they appoint certain persons to administer the government, they delegate all the powers of government not expressly reserved. Hence it appears that a constitution does not in itself imply any more than a declaration of the relation which the different parts of the government bear to each other, but does not in any degree imply security to the rights of individuals. This has been the uniform practice. In all doubtful cases the decision is in favour of the government. It is therefore impertinent to ask by what right government exercises powers not expressly delegated. Mr. Wilson, the great oracle of federalism, acknowledges, in his speech to the Philadelphians,* the truth of these remarks, as they respect the state governments, but attempts to set up a distinction between them and the continental government. To anybody who will be at the trouble to read the new system, it is evidently in the same situation as the state constitutions now possess. It is a compact among the people for the purposes of of government, and not a compact between states. It begins in the name of the people, and not of the states."
     },
     {
       "label": "Agrippa 17, ¶ 4",
