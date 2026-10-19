@@ -37,7 +37,7 @@ or jump ("Fed 10", "1.8.3", "Amendment 14"), light
 and dark themes, adjustable text size (remembered in the browser), The
 Federalist's papers filterable by author, a page for each Supreme Court case
 (`/cases/`) with its syllabus as printed, the provisions it is cited under and
-any overruling, a review page for maintainers (`/review/`), and an errata page (`/errata/`) on which they read uncertain words off the page images. Every page works without JavaScript except those two.
+any overruling, a map of every link and case along the founding documents (`/map/`), a review page for maintainers (`/review/`), and an errata page (`/errata/`) on which they read uncertain words off the page images. Every page works without JavaScript except those two; the map shows its counts as a table.
 
 ## Quick start
 

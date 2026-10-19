@@ -84,12 +84,7 @@ Thirteenth and Fifteenth Amendments in the Globe, by the same rule.
    article or a whole amendment (`Amendment.14`, `Constitution.3`); they
    show on the case page but on no clause, since only passages list
    connections. Decide with the owner whether to show them on the heading.
-5. **Overview map** (approved by the owner): a page at `/map/` with the
-   Constitution as a spine, the debate's links above each clause and the
-   cases below, arcs between essays, filters; data precomputed in
-   `tools/site_data.py`, a table without JavaScript (see decision 50 for the
-   preview it builds on).
-6. **Run 3: the debate and the Bill of Rights** (approved by the owner):
+5. **Run 3: the debate and the Bill of Rights** (approved by the owner):
    `shared_theme` links from essays of the ratification debate to the
    amendment clauses that cover a guarantee the essay names (a free press,
    civil juries, searches, reserved powers; Federalist No. 84 on a bill of
@@ -97,12 +92,12 @@ Thirteenth and Fifteenth Amendments in the Globe, by the same rule.
    subject only, never that the essay caused the amendment. One run per
    essay, checked by a second agent, suggested for review. Write the
    criteria into `docs/linking.md` and a decision entry first.
-7. **CourtListener quota**: the token's account also serves CommonHall,
+6. **CourtListener quota**: the token's account also serves CommonHall,
    which uses about 110 of its 125 requests a day (CourtListener's Usage
    API: `/api/rest/v4/api-usage/`, which costs nothing). A second account
    is against CourtListener's terms; a Free Law Project membership raises
    the limit. Res Publica needs about a dozen requests per new set of cases.
-8. **Clause pages** (PLAN.md, phase 7): today each clause's connections list
+7. **Clause pages** (PLAN.md, phase 7): today each clause's connections list
    the cases that interpret it, in date order, with overruled cases marked.
    A page per clause bringing together the founding debate and the cases is
    still to build.

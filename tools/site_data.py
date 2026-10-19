@@ -1035,6 +1035,14 @@ def build_map(corpus: Corpus, links: list[dict], refs: dict[str, dict], shorts: 
                     touched.setdefault(wid, set()).add(top)
     for wid, tops in touched.items():
         works[wid]["linked_parts"] = len(tops)
+    # Totals per passage, for the table shown without JavaScript and for screen readers.
+    for item in spine:
+        item["totals"] = {side: 0 for side in ("federalist", "anti", "congress", "other", "cases")}
+    for m in debate:
+        if m[1] in spine[m[0]]["totals"]:
+            spine[m[0]]["totals"][m[1]] += 1
+    for m in by_case:
+        spine[m[0]]["totals"]["cases"] += 1
     return {
         "arcs": sorted(arcs.values(), key=lambda x: (x["from"], x["to"], x["kind"])),
         "cases": dict(sorted(cases.items())),

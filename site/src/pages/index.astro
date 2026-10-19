@@ -57,6 +57,7 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
         </a>
         <ul class="jumps" aria-label="Popular passages">
           {jumps.map((j) => <li><a href={href(j.url)}>{j.label}</a></li>)}
+          <li><a href={href("/map/")}>Map of connections</a></li>
         </ul>
       </div>
       {featured && (

@@ -1,0 +1,101 @@
+---
+// The overview map: the founding documents as a spine, passage by passage,
+// with the debate's links above each passage and the cases that interpret it
+// below, and the debate's works answering one another as arcs. Drawn with d3
+// (scripts/map.ts); without JavaScript, the same counts as a table. The data
+// comes from tools/site_data.py (build_map). Decision 51.
+import { href, loadMap, formatNumber } from "../lib/data.js";
+import Base from "../layouts/Base.astro";
+import "../styles/map.css";
+
+const map = loadMap();
+const SIDES = [
+  { key: "federalist", label: "The Federalist and Federalist essays" },
+  { key: "anti", label: "Anti-Federalist essays" },
+  { key: "congress", label: "Debates in Congress" },
+  { key: "other", label: "Other" },
+];
+const groups = [];
+for (const item of map.spine) {
+  if (!groups.length || groups.at(-1).name !== item.group) groups.push({ name: item.group, items: [] });
+  groups.at(-1).items.push(item);
+}
+const works = Object.values(map.works).filter((w) => w.parts > 0);
+const unlinked = works.filter((w) => w.linked_parts === 0).map((w) => w.title);
+const partial = works.filter((w) => w.linked_parts > 0 && w.linked_parts < w.parts);
+const debateLinks = map.debate.length;
+const caseLinks = map.interprets.length;
+const reviewed = map.debate.filter((m) => m[3]).length + map.interprets.filter((m) => m[3]).length;
+---
+<Base title="Map of connections" section="map" description="The founding documents passage by passage, with every link from the ratification debate and Congress above each clause and the Supreme Court cases that interpret it below.">
+  <section class="page-head">
+    <div class="container">
+      <span class="eyebrow">Overview</span>
+      <h1>Map of connections</h1>
+      <p class="lede">
+        The Declaration, the Constitution and its amendments, passage by passage. Above each one, the links that reach it
+        from the debates ({formatNumber(debateLinks)}); below it, the Supreme Court cases whose Constitution Annotated
+        essays cite it ({formatNumber(caseLinks)}), oldest first. Select a passage to open it.
+      </p>
+    </div>
+  </section>
+
+  <div class="container map-page" data-map data-base={href("/")}>
+    <div class="map-note card">
+      <p>
+        <strong>What the map shows is where links have been made, not where the founders argued most.</strong>{" "}
+        {reviewed === 0 ? "Every link is still a suggestion awaiting review. " : `${formatNumber(reviewed)} links have been reviewed by a person. `}
+        Works only partly linked so far: {partial.map((w, i) => <Fragment>{i > 0 && ", "}{w.title} ({w.linked_parts} of {w.parts})</Fragment>)}.
+        {unlinked.length > 0 && ` Not linked yet: ${unlinked.join(", ")}.`}
+      </p>
+    </div>
+
+    <div class="map-filters" role="group" aria-label="Show" data-map-filters hidden>
+      {SIDES.map((s) => (
+        <button type="button" data-side={s.key} aria-pressed="true"><i class={`sw s-${s.key}`} aria-hidden="true"></i>{s.label}</button>
+      ))}
+      <button type="button" data-side="cases" aria-pressed="true"><i class="sw s-cases" aria-hidden="true"></i>Supreme Court cases</button>
+      <button type="button" data-reviewed aria-pressed="false">Reviewed only</button>
+    </div>
+
+    <figure class="map-figure">
+      <div class="map-chart" data-map-chart>
+        <noscript><p class="muted">The map needs JavaScript; the table below has the same counts.</p></noscript>
+      </div>
+      <div class="map-tip" data-map-tip role="status" hidden></div>
+      <figcaption class="muted">Bars: links from the debates, by side. Dots: cases, oldest nearest the spine; a ring marks an overruled case. Drag or scroll sideways to move along; pinch or Ctrl+scroll to zoom. With the map focused, the arrow keys move between passages and Enter opens one.</figcaption>
+    </figure>
+
+    <section class="map-arcs-section" aria-labelledby="arcs-h">
+      <h2 id="arcs-h">Essays answering essays</h2>
+      <p class="muted">Each arc joins two works of the debate that answer, rebut, quote or cite each other; the thicker the arc, the more links. Select a work to open it.</p>
+      <div class="map-arcs" data-map-arcs></div>
+    </section>
+
+    <details class="map-table">
+      <summary>The map as a table</summary>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th scope="col">Passage</th>{SIDES.map((s) => <th scope="col">{s.label}</th>)}<th scope="col">Cases</th></tr>
+          </thead>
+          {groups.map((g) => (
+            <tbody>
+              <tr><th scope="rowgroup" colspan={SIDES.length + 2}>{g.name}</th></tr>
+              {g.items.map((it) => (
+                <tr>
+                  <th scope="row">{it.url ? <a href={href(it.url)}>{it.label}</a> : it.label}</th>
+                  {SIDES.map((s) => <td>{it.totals[s.key] || ""}</td>)}
+                  <td>{it.totals.cases || ""}</td>
+                </tr>
+              ))}
+            </tbody>
+          ))}
+        </table>
+      </div>
+    </details>
+  </div>
+  <script>
+    import "../scripts/map.ts";
+  </script>
+</Base>

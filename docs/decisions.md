@@ -886,3 +886,34 @@ with a button to go to it.
   preview; 898 files, 65 KB at most), fetched the first time a preview is
   opened there. A file per page would have been almost 1 MB for the
   Constitution.
+
+## 51. The overview map
+
+The project owner asked for a high-level view of the whole library: the
+founding documents with every link coming off their clauses.
+
+- **An aggregated map, not a force graph of every passage.** At `/map/`
+  the Declaration, the Constitution and the amendments form a spine,
+  passage by passage in reading order, grouped by article and amendment.
+  Above each passage a stacked bar counts the links that reach it from the
+  debates, by side (the Federalist side, the Anti-Federalists, the debates
+  in Congress, other); below it, a dot for each case whose Constitution
+  Annotated essays cite it, oldest nearest the spine, a ring for an
+  overruled case. A link to a whole article or amendment counts at its
+  first passage. An arc diagram below joins the debate's works that answer,
+  rebut, quote or cite each other.
+- **Drawn with d3,** the modules the graph already uses (selection, zoom,
+  transition): the spine pans and zooms on wide screens, naming each
+  passage when zoomed in; on phones it runs down the page. Filters by side,
+  cases and reviewed links move the bars rather than redraw them. Hovering
+  or focusing a passage shows its counts and cases; selecting it opens it.
+  Arrow keys move along the spine.
+- **Data from Python.** `tools/site_data.py` (`build_map`) writes one file,
+  `/data/map.json` (about 190 KB), with the totals per passage that the
+  page also shows as a table, for readers without JavaScript and for
+  screen readers.
+- **It says what it does not show.** Links mark where linkers have looked,
+  not where the founders argued most, and most are still suggestions. The
+  page says how much of each work has been linked and which works have no
+  links yet, and how many links a person has reviewed.
+
