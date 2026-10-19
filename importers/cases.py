@@ -137,9 +137,11 @@ def import_case(match: courtlistener.Match, reasons: list[str]) -> dict:
             trouble = usreports.problems(paras)
             if trouble:
                 where = re.search(r"\(p\. (\d+)\)", trouble[0])
+                what = ("the judgment seems to run into what follows it" if "runs the judgment" in trouble[0]
+                        else "a paragraph seems to stop mid-sentence")
                 doc["syllabus_note"] = ("No syllabus was found in the text layer of the scan." if not paras else
                                         "The text layer of the scan could not be read reliably: on p. "
-                                        f"{where.group(1)} a paragraph seems to stop mid-sentence.")
+                                        f"{where.group(1)} {what}.")
             else:
                 for n, para in enumerate(paras, 1):
                     doc["segments"].append({
