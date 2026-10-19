@@ -266,10 +266,15 @@ come from the University of North Texas Digital Library's OCR of its copy
 (`unt-globe-1866-p{page}-words` and `-text`, one pair per page), matched
 word for word and split into columns. They are checked against the
 Internet Archive's scans of two other copies: the Lincoln Financial Foundation Collection's
-(part 3, to page 2880; OCR text) and a microfilm (part 4; DjVu XML, read
-column by column). Each word is in at least one reading; words the two
-could not settle are marked as uncertain. The microfilm's OCR is poor, so
-the Senate's June days are less corroborated than May's.
+(parts 3 and 4, OCR text: `congressionalglo7393unit` to page 2880 and
+`congressionalglo00unit` from page 2881, read as one copy) and, for part 4
+only, a microfilm (DjVu XML, read column by column). Each word is in at
+least one reading; words they could not settle are marked as uncertain. The
+microfilm's OCR is poor; on the pages of part 4 it is a third reading
+beside the Lincoln copy's (decision 58), so the Senate's June days and the
+House's vote of June 13 are corroborated about as well as May's. In the
+copies' text a vote's tally set apart from the last name ("and Wright—
+37.") is joined to it, as UNT's OCR reads it.
 
 **The Thirteenth Amendment debates, 1864–65**
 (`texts/senate-thirteenth-amendment-1864.json`,

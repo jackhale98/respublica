@@ -360,6 +360,16 @@ later, is below).
 - **The Annals of Congress** (1834, small type in two columns; one other
   scan and a Tesseract reading): about 53,000 words with 562 marked, 11 per
   thousand. With the two scans alone it was 22 per thousand.
+- **The Congressional Globe, 1866** (UNT's OCR, checked against the Lincoln
+  Financial Foundation copy and, for part 4, a microfilm; decision 58):
+  about 106,000 words in the House's debate with 1,249 marked (12 per
+  thousand) and 146,000 in the Senate's with 1,704 (12 per thousand).
+  Before the Lincoln copy's part 4 was added the June days had only the
+  microfilm, and it was 1,404 (13 per thousand) and 3,271 (22 per
+  thousand). The new vote changed about 1,300 runs of words, most a
+  misreading put right ("tho" to "the" 124 times, "Slates" to "States",
+  "aud" to "and"); errata 64 and 65 list the words it made worse or
+  left marked against two agreeing copies.
 
 The rules lean toward marking a word uncertain rather than guessing: a
 wrong word that looks settled is worse than a right word with a dotted

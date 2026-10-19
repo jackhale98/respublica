@@ -4,7 +4,7 @@ import datetime as dt
 
 from importers.globe import (
     DAYS, GARBLED_HEAD, ITEM_START, MASTHEAD, SESSIONS, SIGNATURE, SPEAKER, SUBJECT, Block, WORKS, house_of, is_again,
-    is_heading, is_subject, is_subject_heading, one_case, page_number, subject_of, unt_record,
+    is_heading, is_subject, is_subject_heading, join_tallies, one_case, page_number, subject_of, unt_record,
 )
 
 
@@ -156,6 +156,24 @@ class TablesTests(unittest.TestCase):
             dates = [d for _, d, first, _ in DAYS if d.year == year]
             self.assertEqual(dates, sorted(dates))
         self.assertIn(("Senate", dt.date(1869, 1, 30)), keys)
+
+
+class CopiesTests(unittest.TestCase):
+    def test_1866_part_4_read_as_the_lincoln_copy_and_the_microfilm(self):
+        copies = [(c.name, c.item, c.first, c.last) for c in SESSIONS[1866].copies]
+        self.assertEqual(copies, [("lincoln", "congressionalglo7393unit", 1921, 2880),
+                                  ("lincoln", "congressionalglo00unit", 2881, 3840),
+                                  ("microfilm", "sim_united-states-congress-congressional-globe_1866_index_2", 2881, 3840)])
+        self.assertTrue(SESSIONS[1866].tallies)
+        self.assertFalse(SESSIONS[1869].tallies)
+
+    def test_tallies_joined_to_the_last_name(self):
+        self.assertEqual(join_tallies("and Wright— 37.\n"), "and Wright—37.\n")
+        self.assertEqual(join_tallies("and Yates — 7. So"), "and Yates—7. So")
+        self.assertEqual(join_tallies("and Williams.— 14.\n"), "and Williams.—14.\n")
+        # Not a figure in a sentence, nor a tally OCR read as letters.
+        self.assertEqual(join_tallies("from 700 to — 770, and"), "from 700 to — 770, and")
+        self.assertEqual(join_tallies("Van Winkle — il.\n"), "Van Winkle — il.\n")
 
 
 if __name__ == "__main__":
