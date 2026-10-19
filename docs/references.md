@@ -168,6 +168,30 @@ Congressional Globe (decision 47).
 - The item's printed heading ("RECONSTRUCTION AGAIN.") is the division's
   `title`.
 
+### The Thirteenth and Fifteenth Amendments, 1864–65 and 1869
+
+Each house's debate on the joint resolutions proposing the Thirteenth
+Amendment (S. No. 16) and the Fifteenth (H. R. No. 402, S. R. No. 8),
+imported by `importers/globe.py` from the Congressional Globe (decision 56),
+one work per house and session, with refs as for 1866:
+
+| Work | Prefix | Days |
+|---|---|---|
+| `texts/senate-thirteenth-amendment-1864.json` | `Senate1864` | February 17 – April 8, 1864 |
+| `texts/house-thirteenth-amendment-1864.json` | `House1864` | May 31 – June 28, 1864 |
+| `texts/house-thirteenth-amendment-1865.json` | `House1865` | January 6 – 31, 1865 |
+| `texts/house-fifteenth-amendment-1869.json` | `House1869` | January 11 – February 25, 1869 |
+| `texts/senate-fifteenth-amendment-1869.json` | `Senate1869` | January 21 – February 26, 1869 |
+
+- `House1864.May31`, `House1864.May31b`, …: one division per item, named by
+  its date; `House1864.May31.{paragraph}` its paragraphs.
+- An item printed without a heading of its own (the Senate's sitting of
+  January 30, 1869, where the joint resolution is taken up inside an item on
+  other business) has no `title`; it begins at the paragraph that takes the
+  joint resolution up.
+- Headings inside a speech ("LOYALTY.", in Yeaman's speech of January 9,
+  1865) are paragraphs of the item, numbered with the rest.
+
 ## Retired refs
 
 Once the site has launched, a correction that joins two passages wrongly

@@ -47,6 +47,30 @@ WORKS = {
                                          "Bill of Rights: every item printed under the heading “Amendments to the "
                                          "Constitution” in the Annals of Congress, from James Madison's speech of "
                                          "June 8 to the House's last vote on the articles."},
+    # The Thirteenth Amendment (decision 56).
+    "senate-thirteenth-amendment-1864": {
+        "collection": "congress", "order": 4.1, "paged": True, "short": "Senate debates, 1864",
+        "slug": "senate-thirteenth-amendment-1864", "group": "The Thirteenth Amendment, 1864–65",
+        "printed_in": "Congressional Globe",
+        "summary": "The Senate's debate on the joint resolution (S. No. 16) proposing the Thirteenth Amendment: "
+                   "every item headed with its subject (“Amendment of the Constitution”) in which the Senate took it "
+                   "up, as printed in the Congressional Globe, from February 17 to the vote of April 8, 1864."},
+    "house-thirteenth-amendment-1864": {
+        "collection": "congress", "order": 4.2, "paged": True, "short": "House debates, 1864",
+        "slug": "house-thirteenth-amendment-1864", "group": "The Thirteenth Amendment, 1864–65",
+        "printed_in": "Congressional Globe",
+        "summary": "The House of Representatives' debate on the Senate's joint resolution (S. No. 16) proposing "
+                   "the Thirteenth Amendment: every item headed “Abolition of Slavery” in which the House took it "
+                   "up, and its evening session of May 31, as printed in the Congressional Globe, from May 31 to "
+                   "June 28, 1864, with the vote of June 15."},
+    "house-thirteenth-amendment-1865": {
+        "collection": "congress", "order": 4.3, "paged": True, "short": "House debates, 1865",
+        "slug": "house-thirteenth-amendment-1865", "group": "The Thirteenth Amendment, 1864–65",
+        "printed_in": "Congressional Globe",
+        "summary": "The House of Representatives' debate on the motion to reconsider its vote of June 15, 1864, "
+                   "on the joint resolution (S. No. 16) proposing the Thirteenth Amendment: every item headed "
+                   "“Abolition of Slavery” in which the House took it up, as printed in the Congressional Globe, "
+                   "from James Ashley's motion of January 6 to the vote of January 31, 1865."},
     "house-fourteenth-amendment-1866": {
         "collection": "congress", "order": 5, "paged": True, "short": "House debates, 1866",
         "slug": "house-fourteenth-amendment-1866", "group": "The Fourteenth Amendment, 1866",
@@ -62,10 +86,28 @@ WORKS = {
         "summary": "The Senate's debate on the joint resolution (H. R. No. 127) proposing the Fourteenth "
                    "Amendment: every item headed “Reconstruction” in which the Senate took it up, as printed in "
                    "the Congressional Globe, from Jacob Howard's opening of May 23 to the vote of June 8."},
+    # The Fifteenth Amendment (decision 56).
+    "house-fifteenth-amendment-1869": {
+        "collection": "congress", "order": 6.1, "paged": True, "short": "House debates, 1869",
+        "slug": "house-fifteenth-amendment-1869", "group": "The Fifteenth Amendment, 1869",
+        "printed_in": "Congressional Globe",
+        "summary": "The House of Representatives' debate on the joint resolutions (H. R. No. 402, S. R. No. 8) "
+                   "proposing the Fifteenth Amendment: every item headed “Suffrage” or “Rights of Citizens” in "
+                   "which the House took them up, as printed in the Congressional Globe, from January 11 to the "
+                   "conference report of February 25, 1869."},
+    "senate-fifteenth-amendment-1869": {
+        "collection": "congress", "order": 6.2, "paged": True, "short": "Senate debates, 1869",
+        "slug": "senate-fifteenth-amendment-1869", "group": "The Fifteenth Amendment, 1869",
+        "printed_in": "Congressional Globe",
+        "summary": "The Senate's debate on the joint resolutions (S. R. No. 8, H. R. No. 402) proposing the "
+                   "Fifteenth Amendment: every item headed “Suffrage Constitutional Amendment” in which the Senate "
+                   "took them up, and its sitting of January 30, as printed in the Congressional Globe, from "
+                   "January 21 to the conference report of February 26, 1869."},
 }
 
 # Collections of works shown on one page each.
-CONGRESS_GROUPS = ("The Bill of Rights, 1789", "The Fourteenth Amendment, 1866")
+CONGRESS_GROUPS = ("The Bill of Rights, 1789", "The Thirteenth Amendment, 1864–65", "The Fourteenth Amendment, 1866",
+                   "The Fifteenth Amendment, 1869")
 
 # Essays and letters of the ratification debate (texts with a `position`)
 # get their settings from the text: one page per essay for a series, one

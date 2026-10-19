@@ -230,9 +230,10 @@ this order, each over every item:
 1. **Debate → the Constitution** (`quotes`, `cites`): exactly as in run 1.
    Use `python3 -m tools.candidates --ref House1789.Jun8`. The target is the
    Constitution as it stood when the debate took place: for 1789 the text as
-   signed; for 1866 also the amendments then in force (the Eleventh, Twelfth
-   and Thirteenth), which a speaker may quote or name ("the amendment
-   abolishing slavery" is `cites` `Amendment.13.1` at `medium`). References
+   signed; for 1864–65, 1866 and 1869 also the amendments then in force (the
+   Eleventh and Twelfth; from 1866 the Thirteenth; in 1869 the Fourteenth),
+   which a speaker may quote or name ("the amendment abolishing slavery" is
+   `cites` `Amendment.13.1` at `medium`). References
    to state constitutions, the Articles of Confederation, bills before
    Congress or the rules of either house are not links.
 2. **Debate → the amendment under debate** (`quotes` only), with

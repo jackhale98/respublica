@@ -219,6 +219,54 @@ column by column). Each word is in at least one reading; words the two
 could not settle are marked as uncertain. The microfilm's OCR is poor, so
 the Senate's June days are less corroborated than May's.
 
+**The Thirteenth Amendment debates, 1864–65**
+(`texts/senate-thirteenth-amendment-1864.json`,
+`texts/house-thirteenth-amendment-1864.json`,
+`texts/house-thirteenth-amendment-1865.json`, `importers/globe.py`,
+decision 56) are imported from *The Congressional Globe: Containing the
+Debates and Proceedings of the First Session of the Thirty-Eighth Congress*
+(Washington: John C. Rives, 1864), parts 1, 2, 3 and 4, and *… of the
+Second Session of the Thirty-Eighth Congress* (Washington: F. & J. Rives,
+1865), part 1: in each house, every item headed with the subject of the
+joint resolution (S. No. 16) proposing the amendment ("Amendment of the
+Constitution", "Amendments to the Constitution", "Abolition of Slavery")
+in which it took the joint resolution up, procedural items included (a
+motion to fix a day, to postpone, to reconsider). The Senate's days run
+from February 17 to its vote of April 8, 1864; the House's from May 31 to
+June 28, 1864 (its vote of June 15 fell short of two thirds), and, on
+James Ashley's motion to reconsider that vote, from January 6 to the vote of
+January 31, 1865. The House's evening session of May 31, 1864, printed
+under the heading "Evening Session", is included: the House sat that
+evening to debate the joint resolution.
+
+**The Fifteenth Amendment debates, 1869**
+(`texts/house-fifteenth-amendment-1869.json`,
+`texts/senate-fifteenth-amendment-1869.json`, decision 56) are imported
+from *… of the Third Session of the Fortieth Congress* (Washington: F. & J.
+Rives & Geo. A. Bailey, 1869), parts 1, 2 and 3: every item headed
+"Suffrage", "Suffrage Constitutional Amendment" or "Rights of Citizens" in
+which a house took up the joint resolutions proposing the amendment (H. R.
+No. 402 and S. R. No. 8), from January 11 to the conference reports of
+February 25 and 26, 1869, procedural items included. On January 30 the
+Senate took up S. R. No. 8 inside an item on other business (the use of
+the Capitol for the inaugural ball), without a heading of its own; that
+sitting is included from the paragraph that takes it up.
+
+Both are read as the 1866 debates are, from UNT's OCR (`unt-globe-1864-…`,
+`unt-globe-1865-…`, `unt-globe-1869-…`). In 1864–65 the first page of each
+number of the Globe (one page in sixteen) carries the number's masthead in
+place of the running head, and UNT's catalogue leaves those pages
+unlabelled; they are found between their neighbours and their masthead is
+left out of the text, as is the number's signature at the foot of its first
+page in 1869 ("40th Cong. 3d Sess.—No. 8."). A few speeches are printed in
+sections with headings of their own (Yeaman's of January 9, 1865); those
+headings stay in the item as paragraphs. The cross-check copies are the
+Lincoln Financial Foundation Collection's scans of the 1864 and 1865
+volumes (OCR text) and, for 1869, the only scan the Internet Archive has, a
+microfilm (OCR text). Speeches the Globe prints only in its Appendix (Davis
+and Howe in the Senate, 1864; Rollins of Missouri and Harding in the House)
+are not imported.
+
 ## Supreme Court cases
 
 **Which cases interpret which clause** come from the *Constitution of the
