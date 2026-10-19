@@ -1,0 +1,13 @@
+---
+import Icon from "./Icon.astro";
+
+// The count of links to a division as a whole, in its heading: selecting it
+// opens them in the passage panel (reader.ts).
+const { block } = Astro.props;
+const n = block.whole?.length || 0;
+---
+{n > 0 && (
+  <button type="button" class="rh-count" data-heading-count data-pagefind-ignore aria-label={`${n} ${n === 1 ? "link" : "links"} to ${block.label} as a whole`} hidden>
+    <Icon name="link" />{n}
+  </button>
+)}
