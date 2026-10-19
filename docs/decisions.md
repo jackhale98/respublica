@@ -1204,6 +1204,36 @@ part 4, where the only other copy was a microfilm whose OCR is poor.
   clean word over the main scan's attested one (erratum 65). It would
   change every work read by consensus, so it is not done here.
 
+## 59. Two scans can overrule the main scan
+
+Decision 58 left 408 words in the 1866 debates showing the main scan's
+misreading ("tho", "bo", "arc", "lo") although both other copies read the
+right word: the vote never replaced a word it knew with another known word,
+and words two scans read alike count as known. The project owner decided
+that two scans can overrule a main scan (`importers/ocr.py`, `vote`):
+
+- **The rule.** Where two scans or more agree on another word and it is a
+  word of the clean texts, their reading replaces the main scan's, settled.
+  Not when their word is known only because scans read it so: scans share
+  misreadings, and the first trial took "aflirmative", "wich", "andif" and
+  "tr" over the main scan's right words that way.
+- **Real word against real word stays visible.** Where the main scan's word
+  is a clean-text word too ("minority" against "majority", "be" against
+  "he"), the majority's word is taken but stays marked uncertain, for a
+  person to check against the page image.
+- **The other safeguards hold:** figures, capitals read where the main
+  scan has lower case, and much shorter readings still keep the main scan's
+  word, unsettled.
+- **What changed.** Re-importing every work read by consensus changed about 310
+  places in ten works, no refs or paragraphs: 207 now settled (nearly all
+  "tho", "bo", "arc", "lo", "ot", "m" become "the", "be", "are", "to",
+  "of", "in"; "white" becomes "while" and "oar" "our" in the House's 1789
+  debate) and 107 marked. Uncertain words fell from 1,703 to 1,569 in the
+  Senate's 1866 debate and from 1,246 to 1,195 in the House's. Six link
+  quotes that contained a changed word were carried over to the new text
+  by code ("tho United States" now "the United States"; Cassius X "daring
+  the life" now "during the life").
+
 ## 60. The Eleventh and Twelfth Amendments in the Annals of Congress
 
 The project owner asked for the congressional proceedings on the Eleventh

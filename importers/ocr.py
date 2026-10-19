@@ -906,9 +906,11 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
     "CATO. serted" for "asserted" have picked up a running head). These
     stay unsettled whatever the count:
       * the primary cleanly reads a known word and the others another known
-        word ("friends" against "citizens"): a real word is never silently
-        replaced by a different one (but ")our" is not clean, so "your"
-        wins);
+        word ("friends" against "citizens"), unless two scans or more agree
+        on theirs and it is a clean-text word: then they overrule the main
+        scan ("tho" -> "the"), and if the main scan's word is a clean-text
+        word too the change stays marked (decision 59; ")our" is not clean,
+        so "your" wins anyway);
       * the others read capitals where the main scan reads lower case
         ("CASSIUS." for "Ciiuse", i.e. "Cause"): a signature or heading
         lined up with the wrong word;
@@ -959,10 +961,20 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
         elif len(groups[a]) == len(groups[b]) and ((a in known) == (b in known) or not alike(a, pk) or elided(a)):
             settled = False
             top = pk
-        elif (any(c.isdigit() for c in top) or (top != pk and pk in known and top in known and plain(readings["primary"]))
-              or shouting(top) or len(top) < 0.75 * len(pk)):
+        elif any(c.isdigit() for c in top) or shouting(top) or len(top) < 0.75 * len(pk):
             settled = False
             top = pk
+        elif top != pk and pk in known and top in known and plain(readings["primary"]):
+            if len(groups[top]) >= 2 and len(groups[top]) > len(groups[pk]) and (clean is None or top in clean):
+                # Two scans or more agree on another word, one of the clean
+                # texts' (not one known only because scans share a misreading,
+                # "aflirmative"): they overrule the main scan (decision 59).
+                # Where the main scan's word is a clean-text word too, the
+                # change stays marked for a person.
+                settled = not (clean is not None and pk in clean)
+            else:
+                settled = False
+                top = pk
     elif len(readings) == 1 and pk and pk not in known:
         settled = False
     candidates = groups[top]

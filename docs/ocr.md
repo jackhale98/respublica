@@ -191,7 +191,7 @@ vote's changes; see "How well it works"):
 
 | Case | Example | Why |
 |---|---|---|
-| A cleanly printed known word against a different known word | "friends" vs "citizens" | a real word is never silently swapped for another |
+| A cleanly printed known word against a different known word, which fewer than two other scans read, or which is not in the clean texts | "friends" vs "citizens" | a real word is not swapped for another on one scan's say, nor for a misreading the scans share ("aflirmative") |
 | A cleanly printed known word against a non-word | "asserted" vs "CATO. serted" | the primary is kept, settled (the others picked up a running head) |
 | Capitals where the main scan reads lower case | "Ciiuse" (the page: "Cause") vs "CASSIUS.", "CASSIUS." | a signature or heading lined up with the wrong word |
 | A much shorter reading (under three quarters the length) | "prometers" vs "moters", "moters" | a piece of a word broken at a line end |
@@ -199,6 +199,13 @@ vote's changes; see "How well it works"):
 | A word only the main scan has, not a known word | "legislatlve" | nothing corroborates it |
 | Scans split the word differently | "deliver d" vs "delivered" | the page has "deliver'd"; OCR dictionaries regularize |
 | A scan spells out an elision | "renown'd" vs "renowned" | the same regularization |
+
+Two scans or more that agree on a word of the clean texts **overrule the
+main scan** when it reads another known word (decision 59): "tho", "bo",
+"arc", "lo" become "the", "be", "are", "to" where the other copies read
+them so. If the main scan's word is a clean-text word too ("minority"
+against "majority"), the majority's word is taken but stays marked
+uncertain, for a person to check against the page.
 
 An unsettled word keeps the main scan's reading. Words a scan read as one
 are voted on together; if that vote fails, the scans that read them word by
