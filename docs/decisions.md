@@ -1292,5 +1292,5 @@ Annals of Congress.
   records it (`blocks(by_number=True)`; not for 1789, whose published
   passages stay as they are).
 - **Quality.** 2.0% of words are marked uncertain in 1794, 0.4–0.8% in
-  1802, and 3.1–3.2% in 1803, where both Google scans are small and their
+  1802, and 3.0–3.1% in 1803 (with decision 59's vote), where both Google scans are small and their
   OCR poor. Each is marked with every reading.

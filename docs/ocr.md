@@ -380,8 +380,8 @@ later, is below).
   left marked against two agreeing copies.
 - **The Annals of Congress, volumes 4, 11 and 13** (decision 60): about
   1,760 words (1794) with 35 marked, 20 per thousand; about 5,230 (1802)
-  with 25 marked, 5 per thousand; about 171,400 (1803) with 5,392 marked,
-  31 per thousand, where both Google scans are small and share their OCR
+  with 24 marked, 5 per thousand; about 171,300 (1803) with 5,278 marked,
+  31 per thousand (after decision 59's vote), where both Google scans are small and share their OCR
   engine's misreadings ("ihe", "lo", "Slates"), so their agreement does not
   make a word known.
 
