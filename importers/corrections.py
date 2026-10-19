@@ -15,6 +15,14 @@ and its place among the passage's uncertain words (`index`), and what the
 page shows (`now`; the same as `was` confirms the reading). One that no
 longer matches its passage (the scans were read again, say) stops the
 import: a person must look at it again.
+
+A correction with `"source": "library"` is the Anti-Federalist Library's
+reading, accepted by the project owner in bulk without a check against the
+page image (`python -m tools.errata accept-library`; decision 56). Its word
+replaces the scans' word in the text, but the word stays among the
+passage's uncertain words, marked `accepted`, so that it is still shown
+as unchecked and a person can confirm or overrule it on the errata page;
+their decision (on the word as it then reads) replaces the Library's.
 """
 
 from __future__ import annotations
@@ -53,31 +61,50 @@ def for_ref(ref: str) -> list[dict]:
 def apply(ref: str, text: str, spans: list[dict]) -> tuple[str, list[dict], list[dict]]:
     """A passage's text and uncertain spans with its corrections applied;
     returns (text, spans left uncertain, corrections as applied with their
-    place in the new text). The latest decision on a word wins."""
-    decisions: dict[int, dict] = {}
-    for c in for_ref(ref):
+    place in the new text). The latest decision on a word wins; a person's
+    decision always wins over the Library's."""
+    def place(c: dict, words: list[str]) -> int:
         k = c["index"]
-        if not (0 <= k < len(spans)) or text[spans[k]["start"]:spans[k]["end"]] != c["was"]:
+        if not (0 <= k < len(words)) or words[k] != c["was"]:
             # The word may have moved among the uncertain words; it must still be there, once.
-            found = [i for i, s in enumerate(spans) if text[s["start"]:s["end"]] == c["was"]]
+            found = [i for i, w in enumerate(words) if w == c["was"]]
             if len(found) != 1:
                 raise CorrectionError(f"{ref}: the correction of {c['was']!r} (by {c['by']}, {c['at']}) "
                                       "no longer matches an uncertain word of the passage")
             k = found[0]
-        decisions[k] = c
-    if not decisions:
+        return k
+
+    lines = for_ref(ref)
+    if not lines:
         return text, spans, []
+    words = [text[s["start"]:s["end"]] for s in spans]
+    accepted: dict[int, dict] = {}
+    for c in lines:
+        if c.get("source") == "library":
+            accepted[place(c, words)] = c
+    # A person's decision names the word as the reader then shows it.
+    current = [accepted[i]["now"] if i in accepted else w for i, w in enumerate(words)]
+    decisions: dict[int, dict] = {}
+    for c in lines:
+        if c.get("source") != "library":
+            decisions[place(c, current)] = c
     out, kept, applied, at, shift = [], [], [], 0, 0
     for i, s in enumerate(spans):
-        c = decisions.get(i)
-        if c is None:
+        c, lib = decisions.get(i), accepted.get(i)
+        if c is None and lib is None:
             kept.append({**s, "end": s["end"] + shift, "start": s["start"] + shift})
             continue
+        now = (c or lib)["now"]
         out.append(text[at:s["start"]])
         start = s["start"] + shift
-        out.append(c["now"])
-        applied.append({"at": c["at"], "by": c["by"], "end": start + len(c["now"]), "start": start, "was": c["was"]})
-        shift += len(c["now"]) - (s["end"] - s["start"])
+        out.append(now)
+        if c is None:
+            span = {k: v for k, v in s.items() if k != "suggestion"}
+            kept.append({**span, "accepted": {"at": lib["at"], "by": lib["by"], "source": "library"},
+                         "end": start + len(now), "start": start})
+        else:
+            applied.append({"at": c["at"], "by": c["by"], "end": start + len(now), "start": start, "was": words[i]})
+        shift += len(now) - (s["end"] - s["start"])
         at = s["end"]
     out.append(text[at:])
     return "".join(out), kept, applied
