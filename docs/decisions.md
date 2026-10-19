@@ -1151,3 +1151,55 @@ report filed).
   (`SHEET_WEIGHT_BYTES`; only the Senate's March 28, 1864, so far; no 1866
   sheet changes). The about page lists the Globe's page-by-page UNT sources
   as one line per session instead of two lines per page.
+
+## 58. The Lincoln copy's part 4 as a reading of the 1866 debates
+
+The project owner approved adding the Internet Archive item
+`congressionalglo00unit` as a reading of the 1866 debates on the pages of
+part 4, where the only other copy was a microfilm whose OCR is poor.
+
+- **What the item is**, checked against the downloaded files: its metadata
+  names it "The congressional globe", volume "39th Congress, 1st session,
+  pt. 4", contributed by the Lincoln Financial Foundation Collection
+  (scanned at Indiana in 2011, the same set as part 3,
+  `congressionalglo7393unit`). Its OCR text opens with the title page of
+  the first session of the Thirty-Ninth Congress (F. & J. Rives) and the
+  session's index, then runs from page 2881 to page 3840 (the page numbers
+  in its scan data cover 2881–3840 without a gap), with the datelines of
+  the days imported (May 30 to June 13, 1866). The metadata's date (1833)
+  is the series'. It records no rights or licence statement; the volume
+  was published in 1866 and is in the public domain in the USA, recorded
+  as the other Globe copies are. Source `ia-globe-1866-pt4-lincoln-txt`,
+  kept out of git like them and restored by `make fetch`.
+- **Read as the Lincoln copy.** It is the same copy as part 3, so its
+  readings go on the same key, `lincoln` ("Lincoln Foundation scan" on the
+  site, already labelled in both `SCANS`); the two volumes are read as one
+  stream in page order. No new key or label was needed.
+- **The microfilm is kept as a third reading** on part 4's pages. With
+  both, 1,249 (House) and 1,704 (Senate) words are marked uncertain; with
+  the Lincoln copy alone, 1,324 and 1,792; before, 1,404 and 3,271. Where
+  UNT's OCR and the Lincoln copy disagree, the microfilm sided with the
+  Lincoln copy about 1,500 times and with UNT's about 1,050, settling words neither
+  could alone ("fact^" against "facts", "Held" against "field",
+  "Bingbam," against "Bingham,"). The cost: where the Lincoln copy and the
+  microfilm agree against UNT's OCR on two words it knows ("the" against
+  "tho"), the vote leaves UNT's reading, marked (408 words, erratum 65),
+  where with the Lincoln copy alone the tie would go to the clean word.
+  Those words are marked, each with both copies' reading, so a third vote
+  costs fewer wrong-looking words overall than it saves.
+- **Tallies.** The copies' OCR text sets a vote's tally apart from the
+  last name ("and Wright— 37."), and the vote then dropped the count from
+  UNT's "Wright—37."; in 1866 the importer joins them first
+  (`Session.tallies`). That also restored eight tallies on part 3's pages
+  dropped before. Not applied to 1864–65 and 1869, whose texts would
+  change.
+- **What changed.** Refs and paragraphs did not change. About 1,300 runs
+  of words changed, most a misreading put right; the vocabulary the
+  copies attest grew, so a few words on part 3's pages changed too
+  ("ballot box" to "ballot-box", "o clock" to "o'clock"). Words made worse
+  are in erratum 64; thirteen link quotes were brought in step with the
+  new text by `tools.errata.update_quotes`. No correction applied to these
+  works.
+- **Open for the owner**: whether the vote should take two copies'
+  clean word over the main scan's attested one (erratum 65). It would
+  change every work read by consensus, so it is not done here.
