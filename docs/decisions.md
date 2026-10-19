@@ -870,14 +870,17 @@ The project owner chose, when phase 7 resumed with a CourtListener token:
 The project owner asked to read a linked passage without leaving the page,
 with a button to go to it.
 
-- **In the panel, not a hover card.** Each connection quotes the linked
-  passage: the sentence around the quoted words, or its opening words.
-  Where that is not the whole passage, a **Preview** button opens it under
-  the connection (one at a time), up to 1,500 characters ended at a word,
-  with **Read it all** or **Go to passage**. A case shows its citation,
-  date and the first paragraph of its syllabus (or why it has none) and
-  **Open the case**. Buttons, not hover, so it works by keyboard, by touch
-  and on the phone's bottom sheet.
+- **In the panel, not a hover card, and only when asked.** The list of a
+  passage's connections stays short: each is its kind, its review status
+  and the linked passage's name. **Preview** opens it under the connection
+  (one at a time): the linked passage, up to 1,500 characters ended at a
+  word, with the quoted words marked (shown first if they fall past that),
+  the reason the link was proposed, and **Read it all** or **Go to
+  passage**. A case shows its citation, date and the first paragraph of its
+  syllabus (or why it has none) and **Open the case**. A preview shows the
+  linked passage only, not its own connections; the graph shows those.
+  Buttons, not hover, so it works by keyboard, by touch and on the phone's
+  bottom sheet.
 - **One small file per passage.** `tools/site_data.py` writes
   `/data/preview/{ref}.json` for each passage with connections (898 files,
   65 KB at most), fetched the first time a preview is opened there. A file

@@ -34,6 +34,8 @@ const fedSegs = fedCounts.map((a) => {
 const featured = site.featured;
 const debate = site.works.filter((w) => w.collection === "ratification");
 const congress = site.works.filter((w) => w.collection === "congress");
+const cases = site.stats.cases ? loadPage("cases").cases : [];
+const withSyllabus = cases.filter((c) => c.syllabus > 0).length;
 const debateEssays = debate.reduce((s, w) => s + w.top_divisions, 0);
 const sideCount = (k) => debate.filter((w) => w.position === k).length;
 ---
@@ -136,11 +138,14 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
           <div class="work-meta"><span>{congress.length} works</span><span>{congress.reduce((s, w) => s + w.top_divisions, 0)} days of debate</span></div>
         </a>
       )}
-      <div class="card work-card soon">
-        <span class="work-icon"><Icon name="scale" /></span>
-        <h3>Supreme Court <span class="badge soon">Coming</span></h3>
-        <p>Landmark cases linked to the clauses they interpret, keyed to CourtListener.</p>
-      </div>
+      {cases.length > 0 && (
+        <a class="card work-card w-cases" href={href("/cases/")}>
+          <span class="work-icon"><Icon name="scale" /></span>
+          <h3>Supreme Court cases</h3>
+          <p>Landmark decisions chosen by fixed rules from the Constitution Annotated, each with its syllabus as printed in the United States Reports and the clauses it is cited under.</p>
+          <div class="work-meta"><span>{cases.length} cases</span><span>{withSyllabus} with syllabus</span></div>
+        </a>
+      )}
     </div>
   </section>
 

@@ -20,7 +20,7 @@ let selected: HTMLElement | null = null;
 type Conn = {
   verb: string; status: string; other: string; other_label: string; other_url: string | null;
   other_overruled?: boolean; other_quote?: string; rationale?: string; source?: string;
-  other_excerpt?: { before: string; quote: string; after: string }; other_whole?: boolean;
+  other_excerpt?: { before: string; quote: string; after: string };
 };
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 const connUrl = document.querySelector<HTMLElement>("[data-reader]")?.dataset.connUrl;
@@ -89,6 +89,27 @@ function renderPreview(pv: Preview, quote?: string): HTMLElement {
   return box;
 }
 
+// What a link adds to its preview: why it was proposed, and the source of an imported one.
+function linkNotes(c: Conn): HTMLElement[] {
+  const out: HTMLElement[] = [];
+  if (c.rationale) out.push(el("p", "why", c.rationale));
+  if (c.source) out.push(el("p", "src", `Source: ${c.source}`));
+  return out;
+}
+
+// Without a preview (a far end with no text of its own), the linked words alone.
+function excerptOf(c: Conn): HTMLElement | null {
+  const ex = c.other_excerpt;
+  if (ex && (ex.before || ex.quote || ex.after)) {
+    const bq = el("blockquote");
+    if (ex.before) bq.append(ex.before);
+    if (ex.quote) bq.append(el("mark", undefined, ex.quote));
+    if (ex.after) bq.append(ex.after);
+    return bq;
+  }
+  return c.other_quote ? el("blockquote", undefined, c.other_quote) : null;
+}
+
 function previewToggle(c: Conn, here: string, li: HTMLLIElement): HTMLButtonElement {
   const b = el("button", "conn-pv", "Preview");
   b.type = "button";
@@ -101,17 +122,25 @@ function previewToggle(c: Conn, here: string, li: HTMLLIElement): HTMLButtonElem
     panel?.querySelectorAll<HTMLButtonElement>(".conn-pv[aria-expanded=true]").forEach((x) => {
       x.setAttribute("aria-expanded", "false");
       x.textContent = "Preview";
-      x.closest(".conn")?.querySelector(".conn-preview")?.remove();
+      x.closest(".conn")?.querySelector(".conn-open")?.remove();
     });
     if (open) return;
     b.setAttribute("aria-expanded", "true");
     b.textContent = "Close";
-    const wait = loading("Loading…", "muted");
-    li.append(wait);
+    const box = el("div", "conn-open");
+    box.append(loading("Loading…", "muted"));
+    li.append(box);
     const pv = (await loadPreviews(here))[c.other];
-    wait.remove();
     if (b.getAttribute("aria-expanded") !== "true") return;
-    li.append(pv ? renderPreview(pv, c.other_quote) : el("p", "pv-note", "No preview for this connection."));
+    const parts: HTMLElement[] = [];
+    // A long passage is previewed from its start; if the quoted words fall past that, show them first.
+    const shown = !c.other_quote || (pv?.text || "").split("\n\n").some((p) => p.includes(c.other_quote!));
+    const ex = !pv || !shown ? excerptOf(c) : null;
+    if (ex) parts.push(ex);
+    if (pv) parts.push(renderPreview(pv, c.other_quote));
+    box.replaceChildren(...parts, ...linkNotes(c));
+    const go = box.querySelector(".pv-go");
+    if (go) box.append(go); // the way to the passage comes last
   });
   return b;
 }
@@ -127,25 +156,16 @@ function renderConn(c: Conn, here: string): HTMLLIElement {
   }
   if (c.status === "reviewed") top.append(el("span", "badge reviewed", "Reviewed"));
   if (c.other_overruled) top.append(el("span", "badge overruled", "Overruled"));
-  if (!c.other_whole) top.append(previewToggle(c, here, li));
+  top.append(previewToggle(c, here, li));
   li.append(top);
+  // The list stays short: each connection is its kind and target; the
+  // linked passage, the quoted words and the reason open with Preview.
   const url = c.other_url;
   if (url && url.startsWith("/") && !url.startsWith("//")) {
     const a = el("a", "conn-target", c.other_label);
     a.href = BASE + url;
     li.append(a);
   } else li.append(el("span", "conn-target", c.other_label));
-  // The linked passage's own words around the quote, the quoted words marked.
-  const ex = c.other_excerpt;
-  if (ex && (ex.before || ex.quote || ex.after)) {
-    const bq = el("blockquote");
-    if (ex.before) bq.append(ex.before);
-    if (ex.quote) bq.append(el("mark", undefined, ex.quote));
-    if (ex.after) bq.append(ex.after);
-    li.append(bq);
-  } else if (c.other_quote) li.append(el("blockquote", undefined, c.other_quote));
-  if (c.rationale) li.append(el("p", "why", c.rationale));
-  if (c.source) li.append(el("p", "src", `Source: ${c.source}`));
   return li;
 }
 

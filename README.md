@@ -27,8 +27,8 @@ the rules every contributor (human or agent) follows.
 
 A reader built around passages: pick any passage to see its permanent ref,
 copy a link or the text, and see its connections in a side panel (a bottom
-sheet on phones), each quoting the linked passage, with a preview to read it
-in place. Contents that reach every clause and paragraph (a slide-out
+sheet on phones), with a preview of each linked passage to read it in
+place. Contents that reach every clause and paragraph (a slide-out
 drawer on narrow screens; it follows the passage being read), `j`/`k` to move
 between passages,
 `/` or Ctrl/⌘+K to search (matching passages appear as you type; Enter opens a

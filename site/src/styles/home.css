@@ -74,6 +74,7 @@
 .w-declaration .work-icon { background: color-mix(in srgb, var(--author-joint) 16%, transparent); color: color-mix(in srgb, var(--author-joint) 70%, var(--text)); }
 .w-amendments .work-icon { background: color-mix(in srgb, #1fb5d3 16%, transparent); color: #0f7f96; }
 .w-federalist .work-icon { background: color-mix(in srgb, var(--author-jay) 16%, transparent); color: var(--author-jay); }
+.w-cases .work-icon { background: color-mix(in srgb, var(--group-cases) 16%, transparent); color: var(--group-cases); }
 .w-debate .work-icon { background: color-mix(in srgb, var(--author-madison) 16%, transparent); color: var(--author-madison); }
 .work-meta { display: flex; flex-wrap: wrap; gap: .35rem .9rem; font-size: .8rem; color: var(--text-faint); }
 .work-meta > span { display: inline-flex; align-items: center; gap: .35rem; }

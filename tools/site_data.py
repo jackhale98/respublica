@@ -12,6 +12,7 @@ Output:
   site/.data/refs.json           ref -> {url, label} for every ref
   site/.data/graph/{page}.json   two-hop link neighborhoods of a page's passages
   site/.data/preview/{ref}.json  the far ends of a passage's connections, to read in the panel
+  site/.data/map.json            the overview map: links and cases along the founding documents
   site/.data/review/index.json   suggested links awaiting review, by batch
   site/.data/review/{batch}.json one batch's suggested links, with both passages
   site/.data/errata/index.json   words the scans could not settle, by work
@@ -212,9 +213,7 @@ def build_link_index(links: list[dict], corpus: Corpus) -> dict:
                 # The far passage's own words around the quote, so that a
                 # reader on a clause sees what the Federalist wrote, not only
                 # its quotation of the clause.
-                entry["other_excerpt"] = ex = excerpt(far["text"], l.get(other_q))
-                if " ".join((ex["before"] + ex["quote"] + ex["after"]).split()) == " ".join(far["text"].split()):
-                    entry["other_whole"] = True  # the excerpt is the whole passage: nothing more to preview
+                entry["other_excerpt"] = excerpt(far["text"], l.get(other_q))
             by_ref.setdefault(here, []).append(entry)
     return {"by_ref": by_ref, "overruled": sorted(overruled)}
 
@@ -906,6 +905,128 @@ def build_previews(corpus: Corpus, pages: dict[str, dict], refs: dict[str, dict]
     return out
 
 
+# ------------------------------------------------------------ overview map
+
+# Which side of the debate a linked work is on, as the map colors it.
+MAP_SIDES = ("federalist", "anti", "other", "congress", "founding")
+MAP_KINDS = {"quotes": "cite", "cites": "cite", "implements": "cite", "responds_to": "answer", "rebuts": "answer",
+             "shared_theme": "theme", "interprets": "case", "overrules": "case"}
+
+
+def map_side(corpus: Corpus, wid: str) -> str:
+    doc = corpus.works.get(wid, {})
+    if wid in FOUNDING:
+        return "founding"
+    if wid == "federalist" or doc.get("position") == "federalist":
+        return "federalist"
+    if doc.get("position") == "anti":
+        return "anti"
+    if doc.get("ref_prefix", "").startswith(("House1", "Senate1")):
+        return "congress"
+    return "other"
+
+
+def build_map(corpus: Corpus, links: list[dict], refs: dict[str, dict], shorts: dict[str, str]) -> dict:
+    """The overview map (/map/): the founding documents as a spine, passage
+    by passage in reading order, with the links that reach each passage from
+    the debate (by side, kind and review status) and the cases that
+    interpret it (by year); links between the debate's works, as arcs; and
+    how much of each work has been linked, so the map does not overclaim."""
+    spine, at = [], {}
+    for wid in ("declaration", "constitution", "amendments"):
+        work = corpus.works.get(wid)
+        if not work:
+            continue
+        for seg in work["segments"]:
+            ref = seg["ref"]
+            parts = ref.split(".")
+            # The text itself: not the heading, the signers or the notes after Article VII.
+            if wid == "declaration" and not parts[1].isdigit():
+                continue
+            if wid == "constitution" and not (parts[1].isdigit() or parts[1] == "Preamble"):
+                continue
+            group = ("Declaration" if wid == "declaration" else "Preamble" if parts[1] == "Preamble"
+                     else f"Amendment {parts[1]}" if wid == "amendments" else f"Article {roman(int(parts[1]))}")
+            at[ref] = len(spine)
+            spine.append({"group": group, "label": refs.get(ref, {}).get("label", ref), "ref": ref,
+                          "short": short_label(refs.get(ref, {}).get("label", ref)), "url": refs.get(ref, {}).get("url")})
+
+    def spot(ref: str) -> int | None:
+        """The spine passage a link end reaches: itself, or the first passage of a whole article or amendment."""
+        if ref in at:
+            return at[ref]
+        return next((at[r["ref"]] for r in corpus.passages(ref) if r["ref"] in at), None)
+
+    live = [l for l in links if l.get("status") != "rejected"]
+    overruled = {case_root(l["to"]) for l in live if l.get("type") == "overrules"}
+    cases: dict[str, dict] = {}
+    marks, arcs = [], {}
+    for l in sorted(live, key=lambda x: x["id"]):
+        a, b = spot(l["from"]), spot(l["to"])
+        reviewed = 1 if l["status"] == "reviewed" else 0
+        kind = MAP_KINDS.get(l["type"], "cite")
+        if (a is None) == (b is None):
+            if a is None:  # between two works of the debate: an arc
+                wa, wb = work_key(corpus, l["from"]), work_key(corpus, l["to"])
+                if wa != wb and not wa.isdigit() and not wb.isdigit():
+                    arc = arcs.setdefault((wa, wb, kind), {"from": wa, "kind": kind, "n": 0, "reviewed": 0, "to": wb})
+                    arc["n"] += 1
+                    arc["reviewed"] += reviewed
+            continue
+        i, far = (a, l["to"]) if a is not None else (b, l["from"])
+        wid = work_key(corpus, far)
+        if far.startswith("Case."):
+            root = case_root(far)
+            doc = corpus.works.get(root.split(".")[1], {})
+            cases.setdefault(root, {"label": doc.get("title", root), "overruled": root in overruled,
+                                    "url": refs.get(root, {}).get("url"), "year": str(doc.get("date", ""))[:4]})
+            marks.append([i, "case", kind, reviewed, root])
+        else:
+            marks.append([i, map_side(corpus, wid), kind, reviewed, wid])
+    # Each case once per passage, in date order.
+    seen, debate, by_case = set(), [], []
+    for m in marks:
+        if m[1] == "case":
+            if (m[0], m[4]) not in seen:
+                seen.add((m[0], m[4]))
+                by_case.append(m)
+        else:
+            debate.append(m)
+    by_case.sort(key=lambda m: (m[0], cases[m[4]]["year"], m[4]))
+
+    works = {}
+    for wid, doc in corpus.works.items():
+        if wid in FOUNDING or doc.get("ref_prefix", "").startswith("Case."):
+            continue
+        tops = [d for d in doc.get("divisions", []) if d.get("level") == 1] or [doc]
+        works[wid] = {"short": shorts.get(wid, wid), "side": map_side(corpus, wid), "title": doc["title"],
+                      "parts": len(tops), "linked_parts": 0, "url": refs.get(doc.get("ref_prefix", ""), {}).get("url")}
+    touched: dict[str, set] = {}
+    for l in live:
+        for end in (l["from"], l["to"]):
+            wid = work_key(corpus, end)
+            if wid in works:
+                doc = corpus.works[wid]
+                tops = [d["ref"] for d in doc.get("divisions", []) if d.get("level") == 1]
+                top = next((t for t in tops if end == t or end.startswith(t + ".")), None if tops else wid)
+                if top:  # a link to a whole series names no one part of it
+                    touched.setdefault(wid, set()).add(top)
+    for wid, tops in touched.items():
+        works[wid]["linked_parts"] = len(tops)
+    return {
+        "arcs": sorted(arcs.values(), key=lambda x: (x["from"], x["to"], x["kind"])),
+        "cases": dict(sorted(cases.items())),
+        "debate": debate,        # [spine index, side, kind, reviewed, work]
+        "interprets": by_case,   # [spine index, "case", kind, reviewed, case ref]
+        "spine": spine,
+        "works": dict(sorted(works.items())),
+    }
+
+
+def roman(n: int) -> str:
+    return ["", "I", "II", "III", "IV", "V", "VI", "VII"][n] if n < 8 else str(n)
+
+
 # ------------------------------------------------------------ review page
 
 REVIEW_GROUPS = [
@@ -1055,6 +1176,7 @@ def main() -> None:
     write_json(OUT / "review" / "index.json", review)
     for name, batch in batches.items():
         write_json(OUT / "review" / f"{name}.json", batch)
+    write_json(OUT / "map.json", build_map(corpus, links, refs, {w: s["short"] for w, s in SiteBuilder(corpus, links).settings.items()}))
     errata, errata_works = build_errata(corpus, refs)
     write_json(OUT / "errata" / "index.json", errata)
     for wid, data in errata_works.items():
