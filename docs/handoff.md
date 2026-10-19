@@ -45,7 +45,12 @@ DeWitt, Philadelphiensis, Melancton Smith.
 
 **Debates in Congress** (`/congress/`): the House's 1789 debate on the
 amendments, from the Annals of Congress (`importers/annals.py`, decision
-46), and both houses' 1866 debates on the Fourteenth Amendment, from the
+46); both houses' proceedings on the Eleventh Amendment (1794) and the
+Twelfth (1802 and 1803), from volumes 4, 11 and 13 of the Annals (decision
+60; about 2%, under 1% and about 3% of words marked uncertain; the 1803
+Google scans are small and their OCR poor, so `/errata/` has about 5,400
+words from them; `python -m importers.annals fetch` keeps only the pages
+needed, as byte ranges); and both houses' 1866 debates on the Fourteenth Amendment, from the
 Congressional Globe (`importers/globe.py`, decision 47). About 1% (1789)
 and 1.2% (House and Senate, 1866) of words are marked uncertain; since
 decision 58 the June days of 1866 are checked against the Lincoln

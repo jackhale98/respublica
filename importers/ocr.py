@@ -372,7 +372,7 @@ def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None,
     runs to the right margin and its own first line is not indented (and is
     not a heading). With `by_number`, a block records each printed number it
     runs onto, also where two of them are on one scan page (the columns of
-    the Annals, decision 59); otherwise each scan page's first."""
+    the Annals, decision 60); otherwise each scan page's first."""
     out: list[Block] = []
     last_text: Block | None = None
     last_note: Block | None = None

@@ -46,6 +46,7 @@ For each book, in `sources/raw/` (downloaded by `tools/fetch.py`, listed in
 | McMaster and Stone, *Pennsylvania and the Federal Constitution* (1888) | `ia-mcmaster-stone-1888-cornell-xml` | `-pitt-txt` (one) |
 | *Debates and Proceedings in the Convention of Massachusetts* (1856) | `ia-mass-debates-1856-nypl-xml` | `-uc-txt`, `-google-txt`, `-cornell-txt` (three) |
 | Annals of Congress, vol. 1 (1834) | `ia-annals-1834-v1-google-xml` | `-microfilm-xml`, and Tesseract's reading of the primary's page images (two) |
+| Annals of Congress, vols. 4, 11 and 13 (1849–52) | the pages needed of the microfilm (vol. 4) or a Google scan (vols. 11, 13): `ia-part-annals-v{n}-{scan}-…` | the other scans' pages (vol. 4: the Google scan and Tesseract's reading of its page images; vols. 11 and 13: a second Google scan and the microfilm) (two) |
 | Elliot's *Debates*, vol. 3 (standard pagination; 1907 printing) | `ia-elliot-v3-1907-toronto-xml` | `ia-elliot-v3-1876-cornell-txt`, `-1861-google-txt`, `-1836-google-txt` (three) |
 | *The New-York Journal* (1787–88), Brutus V–XVI | the Library of Congress's ALTO XML (`loc-nyjournal-{date}-p{n}-alto`) | none: one scan (see "One scan" below) |
 
@@ -370,6 +371,12 @@ later, is below).
   misreading put right ("tho" to "the" 124 times, "Slates" to "States",
   "aud" to "and"); errata 64 and 65 list the words it made worse or
   left marked against two agreeing copies.
+- **The Annals of Congress, volumes 4, 11 and 13** (decision 60): about
+  1,760 words (1794) with 35 marked, 20 per thousand; about 5,230 (1802)
+  with 25 marked, 5 per thousand; about 171,400 (1803) with 5,392 marked,
+  31 per thousand, where both Google scans are small and share their OCR
+  engine's misreadings ("ihe", "lo", "Slates"), so their agreement does not
+  make a word known.
 
 The rules lean toward marking a word uncertain rather than guessing: a
 wrong word that looks settled is worse than a right word with a dotted

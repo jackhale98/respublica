@@ -47,7 +47,7 @@ WORKS = {
                                          "Bill of Rights: every item printed under the heading “Amendments to the "
                                          "Constitution” in the Annals of Congress, from James Madison's speech of "
                                          "June 8 to the House's last vote on the articles."},
-    # The Eleventh and Twelfth Amendments (decision 59).
+    # The Eleventh and Twelfth Amendments (decision 60).
     "senate-eleventh-amendment-1794": {
         "collection": "congress", "order": 4.01, "paged": True, "short": "Senate proceedings, 1794",
         "slug": "senate-eleventh-amendment-1794", "group": "The Eleventh Amendment, 1794",

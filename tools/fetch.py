@@ -8,7 +8,7 @@ sha256 and license. A source behind an API token (CourtListener) records
 `auth_env`, the name of the environment variable that holds the token,
 never the token itself, and a source that answers a POST (an API lookup)
 records the form-encoded body it was sent as `post`. A source that is part
-of a larger file (some pages of a book's OCR, decision 59) records the
+of a larger file (some pages of a book's OCR, decision 60) records the
 bytes it was sent as `range` ("first-last", as HTTP counts them).
 Importers add such sources with `add_source`. The plain form re-downloads only files that are
 missing locally and refuses to keep them if the checksum no longer

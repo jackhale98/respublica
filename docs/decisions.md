@@ -1203,3 +1203,64 @@ part 4, where the only other copy was a microfilm whose OCR is poor.
 - **Open for the owner**: whether the vote should take two copies'
   clean word over the main scan's attested one (erratum 65). It would
   change every work read by consensus, so it is not done here.
+
+## 60. The Eleventh and Twelfth Amendments in the Annals of Congress
+
+The project owner asked for the congressional proceedings on the Eleventh
+Amendment (1794) and the Twelfth (1803, and the attempt of 1802), read as
+the House's 1789 debate is (decision 46), from volumes 4, 11 and 13 of the
+Annals of Congress.
+
+- **What is imported.** In each house, every item printed under the
+  amendment's heading ("Amendment(s) to the Constitution"), and, as for the
+  Globe (decision 57), the paragraphs in which a house took the resolution
+  up without that heading: offered it, read it, referred or postponed it,
+  voted, and asked the President to send it to the States. The Senate's
+  proceedings of 1794 and 1802 are printed as a journal, without headings,
+  so all of them are of this kind. Messages that only tell one house what
+  the other did, a State legislature's resolutions laid before a house,
+  and other amendments taken up beside these (the bank officers' amendment
+  of 1794, Bradley's motion for districts of April 16, 1802, the committee's
+  resolution on re-eligibility of December 1803) are not imported. The
+  items are listed in `importers/annals.py` (`ENTRIES`): the day, the
+  printed columns, and, for an item without a heading, the first words of
+  its first paragraph and of the one after it. Six works, one per house and
+  Congress: `Senate1794`, `House1794`, `Senate1802`, `House1802`,
+  `Senate1803`, `House1803` (`docs/references.md`).
+- **Scans.** Volume 4: the Internet Archive's microfilm scan (whose OCR is
+  far the better: about 88% of its words are dictionary words against 63%
+  for the Google scan of the New York Public Library's copy) gives layout
+  and words; it is checked against that Google scan's OCR and against our
+  Tesseract reading of its page images (22 pages, as in decision 46), since
+  with the two alone 4–10% of words stayed uncertain (`python -m
+  importers.annals ocr later`). Volume 11: the Google
+  scan of the University of Michigan's copy, checked against the New York
+  Public Library's and the microfilm. Volume 13: the Google scan of
+  Harvard's copy, checked against Michigan's and the microfilm. The
+  microfilm of volume 13 repeats and overlaps frames, so it is never the
+  main scan there. No other usable scan was found (the Internet Archive's
+  1970s microfilm of volumes 1–4, `annalsofcongress01unit`, has unreadable
+  OCR).
+- **One engine.** The two Google scans' OCR shares its misreadings ("ihe",
+  "lo", "Slates") as the Tesseract readings do; their agreement alone never
+  makes a word known to the vote (`Volume.same_engine`).
+- **Only the pages needed are kept**, each run of them a byte range of the
+  scan's DjVu XML (`python -m importers.annals fetch`; `tools/fetch.py`
+  records the `range` and `make fetch` asks for the same bytes and checks
+  their sha256), and the page images one file a page. The whole files
+  (about 55–65 MB each, eight of them) would have taken the raw files kept
+  out of git past their 1 GB budget; the ranges, 61 MB of XML and 13 MB of
+  images, are kept in git (the 300 MB budget). The other scans' pages are
+  found by locating the main scan's paragraphs in them, not by their column
+  numbers, which their OCR misreads too often.
+- **Reading the page.** The running head is recognised by its letters
+  ("HISXORT OF CONaRBSS", "H. OP R. Aiitendment to the CorutUtUion"),
+  never a day's heading; Google's mark is left out; a heading OCR ran into
+  a paragraph is set apart; column numbers are settled as runs over the
+  whole scan (`settle_runs`), since OCR reads 5 as 6 in long stretches of
+  volume 13; and a paragraph that runs onto the second column of a page
+  records it (`blocks(by_number=True)`; not for 1789, whose published
+  passages stay as they are).
+- **Quality.** 2.0% of words are marked uncertain in 1794, 0.4–0.8% in
+  1802, and 3.1–3.2% in 1803, where both Google scans are small and their
+  OCR poor. Each is marked with every reading.

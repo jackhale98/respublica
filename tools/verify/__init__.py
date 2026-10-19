@@ -142,7 +142,7 @@ def check_ocr_records(raw: dict[str, dict]) -> list[str]:
             errors.append(f"sources/ocr {rid}: {r['path']} is missing or does not match its sha256 (rerun its OCR)")
         images = r["images"]
         # One file of page images ("source", "sha256"), or one file a page
-        # ("sources": [{"source", "sha256"}, …]; decision 59).
+        # ("sources": [{"source", "sha256"}, …]; decision 60).
         for img in images.get("sources") or [images]:
             src = raw.get(img.get("source"))
             if src is None:

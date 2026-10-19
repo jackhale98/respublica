@@ -432,7 +432,7 @@ def cmd_ocr() -> None:
     print(f"read {len(leaves)} pages -> {out.relative_to(ROOT)}")
 
 
-# ============================================================ later debates (decision 59)
+# ============================================================ later debates (decision 60)
 #
 # The Eleventh Amendment (3d Congress, 1794) and the Twelfth (7th Congress,
 # 1802, and 8th, 1803), from volumes 4, 11 and 13 of the same series, read
@@ -475,7 +475,8 @@ class Volume:
     # Readings made by one OCR engine (`independent`): "primary" is the first scan.
     same_engine: tuple[str, ...] = ()
     # A scan whose page images we read with Tesseract for one more reading
-    # ("tesseract"; decision 46), where the others are too few or too poor.
+    # (the reading "{scan}-ocr"; decision 46), where the others are too few
+    # or too poor.
     images: str | None = None
 
     @property
@@ -495,7 +496,7 @@ VOLUMES = {
     4: Volume(4, 1849, (
         Scan("microfilm", SIM + "december-2-1793-march-3-1795_2", 0, MICROFILM),
         Scan("nypl", "debatesandproce18galegoog", 0, "the Google scan of the New York Public Library's copy")),
-        same_engine=("primary", "tesseract"), images="nypl"),
+        same_engine=("primary", "nypl-ocr"), images="nypl"),
     11: Volume(11, 1851, (
         Scan("michigan", "debatesandproce09galegoog", 1, "the Google scan of the University of Michigan's copy"),
         Scan("nypl", "debatesandproce24galegoog", 0, "the Google scan of the New York Public Library's copy"),
@@ -1125,7 +1126,7 @@ def later_prepare(volume: int) -> tuple[tuple[tuple[str, Item], ...], dict[int, 
     refs = [Reference(s.name, later_reference(volume, s)) for s in vol.scans[1:]]
     tess = tesseract_reference(volume)
     if tess is not None:
-        refs.append(Reference("tesseract", tess))
+        refs.append(Reference(f"{vol.images}-ocr", tess))
     hints: dict[str, int] = {}
     readings: dict[int, list[dict]] = {}
     for _, it in its:
@@ -1280,7 +1281,7 @@ def reference_leaves(pages: list[Page], volume: int, margin: int = 2) -> set[int
 def cmd_fetch() -> None:
     """Keep the pages of each later volume's scans that the entries need,
     each run of them as a byte range of the scan's DjVu XML (`tools.fetch`,
-    decision 59). Each file is downloaded whole into a temporary file to
+    decision 60). Each file is downloaded whole into a temporary file to
     find them. The primary scan's pages are those that hold the entries'
     columns; the other scans' pages, those that share the items' text."""
     import tempfile
@@ -1319,7 +1320,7 @@ def cmd_fetch() -> None:
                 add_source(sid, url, LICENSE.format(year=vol.year),
                            f"Annals of Congress, vol. {volume} (Gales and Seaton, {vol.year}): scan pages {a}-{b} of "
                            f"Internet Archive item {scan.item} ({scan.about}), {role}. Part of its OCR with page "
-                           f"layout (DjVu XML): the pages' OBJECT elements, bytes {byte_range} (decision 59). "
+                           f"layout (DjVu XML): the pages' OBJECT elements, bytes {byte_range} (decision 60). "
                            "Written by python -m importers.annals fetch.",
                            ext=".xml", byte_range=byte_range)
                 print(f"added {sid}")
@@ -1338,7 +1339,7 @@ def image_leaves(volume: int) -> list[int]:
 def cmd_ocr_later() -> None:
     """Read the item pages of a later volume's chosen scan with Tesseract:
     each page image (JPEG 2000, from the item's jp2.zip, one file a page) is
-    kept as a raw source and the words in sources/ocr/ (decision 59)."""
+    kept as a raw source and the words in sources/ocr/ (decision 60)."""
     from tools.fetch import add_source
     for volume, vol in sorted(VOLUMES.items()):
         if not vol.images or not entries_of(volume):
@@ -1355,7 +1356,7 @@ def cmd_ocr_later() -> None:
                            "by the Internet Archive.",
                            f"Annals of Congress, vol. {volume} (Gales and Seaton, {vol.year}): the image of scan page "
                            f"{leaf} of Internet Archive item {scan.item} ({scan.about}), {member} in its jp2.zip. "
-                           "Read with Tesseract for one more reading (decision 59). Written by python -m "
+                           "Read with Tesseract for one more reading (decision 60). Written by python -m "
                            "importers.annals ocr later.", ext=".jp2")
         entries = {e["id"]: e for e in load_manifest()}
         images = [(leaf, raw_path(image_id(volume, leaf)).read_bytes()) for leaf in leaves]
@@ -1371,7 +1372,7 @@ def cmd_ocr_later() -> None:
                 for leaf in leaves]},
             "notes": f"Annals of Congress, vol. {volume} ({vol.year}), the pages of the items imported by "
                      f"importers/annals.py in {scan.about}, read with Tesseract as one more reading for the vote "
-                     "(decision 59). Written by python -m importers.annals ocr later.",
+                     "(decision 60). Written by python -m importers.annals ocr later.",
             "path": str(out.relative_to(ROOT)),
             "sha256": sha256_file(out),
             "tools": tesseract_versions(),

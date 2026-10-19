@@ -194,7 +194,7 @@
         }
       ]
     },
-    "notes": "Annals of Congress, vol. 4 (1849), the pages of the items imported by importers/annals.py in the Google scan of the New York Public Library's copy, read with Tesseract as one more reading for the vote (decision 59). Written by python -m importers.annals ocr later.",
+    "notes": "Annals of Congress, vol. 4 (1849), the pages of the items imported by importers/annals.py in the Google scan of the New York Public Library's copy, read with Tesseract as one more reading for the vote (decision 60). Written by python -m importers.annals ocr later.",
     "path": "sources/ocr/ia-annals-v4-nypl-tesseract.tsv",
     "sha256": "97d738997422e360260f9f3c357153f935854e7de8d6fc9b9fba5c2e649c1614",
     "tools": {

@@ -219,7 +219,7 @@ one work per house and session, with refs as for 1866:
 Each house's proceedings on the resolutions proposing the Eleventh
 Amendment (1794) and the Twelfth (1802, and 1803), imported by
 `importers/annals.py` from the Annals of Congress, volumes 4, 11 and 13
-(decision 59), one work per house and Congress, with refs as for 1789:
+(decision 60), one work per house and Congress, with refs as for 1789:
 
 | Work | Prefix | Days |
 |---|---|---|

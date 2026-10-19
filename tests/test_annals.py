@@ -69,7 +69,7 @@ class ItemTests(unittest.TestCase):
 
 
 class LaterVolumeTests(unittest.TestCase):
-    """The Eleventh and Twelfth Amendments (decision 59)."""
+    """The Eleventh and Twelfth Amendments (decision 60)."""
 
     def test_running_heads_as_ocr_reads_them(self):
         from importers.annals import is_subject_row, is_title_row

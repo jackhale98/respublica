@@ -1,0 +1,636 @@
+{
+  "date": "1794-01-02/1794-03-12",
+  "divisions": [
+    {
+      "date": "1794-01-02",
+      "label": "January 2, 1794",
+      "level": 1,
+      "ref": "Senate1794.Jan2"
+    },
+    {
+      "date": "1794-01-13",
+      "label": "January 13, 1794",
+      "level": 1,
+      "ref": "Senate1794.Jan13"
+    },
+    {
+      "date": "1794-01-14",
+      "label": "January 14, 1794",
+      "level": 1,
+      "ref": "Senate1794.Jan14"
+    },
+    {
+      "date": "1794-03-12",
+      "label": "March 12, 1794",
+      "level": 1,
+      "ref": "Senate1794.Mar12"
+    }
+  ],
+  "edition": {
+    "name": "Joseph Gales, Sr., comp., The Debates and Proceedings in the Congress of the United States (Annals of Congress), vol. 4 (Washington: Gales and Seaton, 1849)",
+    "notes": "Joseph Gales, Sr., comp., The Debates and Proceedings in the Congress of the United States (Annals of Congress), vol. 4 (Washington: Gales and Seaton, 1849): each day's proceedings of the Senate on the resolution proposing the Eleventh Amendment (the judicial power of the United States in suits against a State), from the paragraph that takes it up to the one that turns to other business (the Senate's proceedings are printed without headings), columns 25–66. Read from a scan of a microfilm (Serials in Microfilm collection) (its OCR with page layout) and checked word by word against the Google scan of the New York Public Library's copy and our Tesseract reading of the page images of the Google scan of the New York Public Library's copy; words they could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "senate-eleventh-amendment-1794",
+  "ref_prefix": "Senate1794",
+  "segments": [
+    {
+      "columns": [
+        "25"
+      ],
+      "label": "Senate, January 2, 1794, ¶ 1",
+      "ref": "Senate1794.Jan2.1",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "A motion was made that it be—"
+    },
+    {
+      "columns": [
+        "25"
+      ],
+      "label": "Senate, January 2, 1794, ¶ 2",
+      "ref": "Senate1794.Jan2.2",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "“Resolved, by the Senate and House of Representatives of the United States of America in Congress assembled, two-thirds of both Houses concurring, That the following article be proposed to the Legislatures of the several States, as an amendment to the Constitution of the United States; which, when ratified by three-fourths of the said Legislatures, shall be valid as part of the said Constitution, to wit:"
+    },
+    {
+      "columns": [
+        "25"
+      ],
+      "label": "Senate, January 2, 1794, ¶ 3",
+      "ref": "Senate1794.Jan2.3",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "“ The Judicial power of the United States shall not be construed to extend to any suit in law or equity, commenced or prosecuted against one of the United States by citizens of another State, or by citizens or subjects of any foreign State.”"
+    },
+    {
+      "columns": [
+        "25"
+      ],
+      "label": "Senate, January 2, 1794, ¶ 4",
+      "ref": "Senate1794.Jan2.4",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "On which a motion was made as follows:"
+    },
+    {
+      "columns": [
+        "25"
+      ],
+      "label": "Senate, January 2, 1794, ¶ 5",
+      "ref": "Senate1794.Jan2.5",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "“ Resolved, That the consideration of this motion be postponed, and that the Senate will, on the 10th instant, take into consideration the subject of amendments to the Constitution.”",
+      "uncertain": [
+        {
+          "end": 101,
+          "readings": {
+            "nypl": "lOdi",
+            "primary": "10th"
+          },
+          "start": 97
+        }
+      ]
+    },
+    {
+      "columns": [
+        "25"
+      ],
+      "label": "Senate, January 2, 1794, ¶ 6",
+      "ref": "Senate1794.Jan2.6",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "Whereupon, it was agreed to divide the motion for amendment, and the first clause was adopted, to wit:"
+    },
+    {
+      "columns": [
+        "25"
+      ],
+      "label": "Senate, January 2, 1794, ¶ 7",
+      "ref": "Senate1794.Jan2.7",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "“That the consideration of the original motion be postponed ;”"
+    },
+    {
+      "columns": [
+        "25"
+      ],
+      "label": "Senate, January 2, 1794, ¶ 8",
+      "ref": "Senate1794.Jan2.8",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "And, the latter clause of the motion for postponement being amended, it was"
+    },
+    {
+      "columns": [
+        "25"
+      ],
+      "label": "Senate, January 2, 1794, ¶ 9",
+      "ref": "Senate1794.Jan2.9",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "Resolved, That the Senate will, on the 13th instant, take into consideration the subject of amendments to the Constitution.",
+      "uncertain": [
+        {
+          "end": 43,
+          "readings": {
+            "nypl": "18th",
+            "primary": "13th"
+          },
+          "start": 39
+        },
+        {
+          "end": 102,
+          "readings": {
+            "nypl": "statement",
+            "primary": "amendments"
+          },
+          "start": 92
+        }
+      ]
+    },
+    {
+      "columns": [
+        "29"
+      ],
+      "label": "Senate, January 13, 1794, ¶ 1",
+      "ref": "Senate1794.Jan13.1",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "Agreeably to the order of the day, the Senate took into consideration the subject of amendments to the Constitution of the United States; and it was agreed to consider at this time the following motion :"
+    },
+    {
+      "columns": [
+        "29"
+      ],
+      "label": "Senate, January 13, 1794, ¶ 2",
+      "ref": "Senate1794.Jan13.2",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "“ Resolved by the Senate and House of Representatives of the United States of America in Congress assembled, two-thirds of both Houses concurring, That the following article be proposed to the Legislatures of the several States, as an amendment to the Constitution of the United States; which, when ratified by threefourths of the said Legislatures, shall be valid as part of the said Constitution, to wit:"
+    },
+    {
+      "columns": [
+        "29"
+      ],
+      "label": "Senate, January 13, 1794, ¶ 3",
+      "ref": "Senate1794.Jan13.3",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "“The Judicial power of the United States shall not be construed to extend to any suit in law or equity, commenced or prosecuted against one of the United States by citizens of another State, or by citizens or subjects of any foreign State.”"
+    },
+    {
+      "columns": [
+        "29"
+      ],
+      "label": "Senate, January 13, 1794, ¶ 4",
+      "ref": "Senate1794.Jan13.4",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "And, after debate, the further consideration thereof was postponed until to-morrow."
+    },
+    {
+      "columns": [
+        "29"
+      ],
+      "label": "Senate, January 13, 1794, ¶ 5",
+      "ref": "Senate1794.Jan13.5",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "Ordered, That the further consideration of the motions of the 24th of December last, and the 9th of January instant, on the subject of amendments to the Constitution of the United States, be postponed until to-morrow, and that the several motions on this subject be printed for the use of the Senate.",
+      "uncertain": [
+        {
+          "end": 96,
+          "readings": {
+            "nypl-ocr": "Sth",
+            "primary": "9th"
+          },
+          "start": 93
+        }
+      ]
+    },
+    {
+      "columns": [
+        "30"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 1",
+      "ref": "Senate1794.Jan14.1",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "Agreeably to the order of the day, the Senate took into consideration the motion made yesterday for an amendment to the Constitution of the United States, respecting the Judicial power thereof."
+    },
+    {
+      "columns": [
+        "30"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 2",
+      "ref": "Senate1794.Jan14.2",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "On motion by Mr. Gatuartin. that the motion be amended to read as follows:",
+      "uncertain": [
+        {
+          "end": 27,
+          "readings": {
+            "nypl": "Qallatin.",
+            "nypl-ocr": "Gantatin.",
+            "primary": "Gatuartin."
+          },
+          "start": 17
+        }
+      ]
+    },
+    {
+      "columns": [
+        "30"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 3",
+      "ref": "Senate1794.Jan14.3",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "“The Judicial power of the United States, except in cases arising under treaties made under the authority of the United States, shall not be construed to extend to any suit in law or equity, commenced or prosecuted against one of the United States, by citizens of another State, or by citizens or subjects of any foreign State.”"
+    },
+    {
+      "columns": [
+        "30"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 4",
+      "ref": "Senate1794.Jan14.4",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "It passed in the negative."
+    },
+    {
+      "columns": [
+        "30"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 5",
+      "ref": "Senate1794.Jan14.5",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "On motion, that the motion be amended to read as follows :"
+    },
+    {
+      "columns": [
+        "30"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 6",
+      "ref": "Senate1794.Jan14.6",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "“The Judicial power of the United States extends to all cases in law and equity in which one of the United States is a party ; but no suit shall be prosecuted against one of the United States by citizens of another State, or by citizens or subjects of a foreign State, where the annette cause of action shall have arisen before the ratification of this amendment.”",
+      "uncertain": [
+        {
+          "end": 286,
+          "readings": {
+            "primary": "annette"
+          },
+          "start": 279
+        }
+      ]
+    },
+    {
+      "columns": [
+        "30"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 7",
+      "ref": "Senate1794.Jan14.7",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "It passed in the negative. re nr ae mee And, on the question to agree to the resolution, as follows: ae",
+      "uncertain": [
+        {
+          "end": 29,
+          "readings": {
+            "primary": "re"
+          },
+          "start": 27
+        },
+        {
+          "end": 32,
+          "readings": {
+            "primary": "nr"
+          },
+          "start": 30
+        },
+        {
+          "end": 35,
+          "readings": {
+            "primary": "ae"
+          },
+          "start": 33
+        },
+        {
+          "end": 39,
+          "readings": {
+            "primary": "mee"
+          },
+          "start": 36
+        },
+        {
+          "end": 103,
+          "readings": {
+            "nypl": "ioUowat",
+            "nypl-ocr": "Ws t",
+            "primary": "follows: ae"
+          },
+          "start": 92
+        }
+      ]
+    },
+    {
+      "columns": [
+        "30"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 8",
+      "ref": "Senate1794.Jan14.8",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "“ Resolved by the Senate and House of Representatives of the United States of America in Congress assembled, two-thirds of both Houses concurring, That the following article be proposed to the Legislatures of the several States, as an amendment to the Constitution of the United States; which, when ratified by threefourths of the said Legislatures, shall be valid as part of the said Constitution, to wit;"
+    },
+    {
+      "columns": [
+        "30"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 9",
+      "ref": "Senate1794.Jan14.9",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "“The Judicial power of the United States shall not be construed to extend to any suit in law or equity, commenced or prosecuted against one of the United States, by citizens of another State, or by citizens or subjects of any foreign State :”"
+    },
+    {
+      "columns": [
+        "30"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 10",
+      "ref": "Senate1794.Jan14.10",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15
+        ]
+      },
+      "text": "It passed in the affirmative—yeas 23, nays 2, as follows:"
+    },
+    {
+      "columns": [
+        "30",
+        "31"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 11",
+      "ref": "Senate1794.Jan14.11",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          15,
+          16
+        ]
+      },
+      "text": "Yxras.—Messrs. Bradford, Bradley, Brown, Burr, Butler, Cabot, Edwards, Ellsworth, Foster, Frelinghuysen, Hawkins, Jackson, Izard, King, Langdon, Livermore, Martin, Mitchell, Monroe, Robinson, Strong, Taylor, and Vining.",
+      "uncertain": [
+        {
+          "end": 14,
+          "readings": {
+            "nypl": "TiAs^— Msssrsi",
+            "nypl-ocr": "Yas —Meesre.",
+            "primary": "Yxras.—Messrs."
+          },
+          "start": 0
+        },
+        {
+          "end": 104,
+          "readings": {
+            "nypl-ocr": "Freltinghuyeen,",
+            "primary": "Frelinghuysen,"
+          },
+          "start": 90
+        }
+      ]
+    },
+    {
+      "columns": [
+        "31"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 12",
+      "ref": "Senate1794.Jan14.12",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          16
+        ]
+      },
+      "text": "Nays.—Messrs. Gallatin and Rutherfurd.",
+      "uncertain": [
+        {
+          "end": 13,
+          "readings": {
+            "nypl-ocr": "Nare—Meesrs.",
+            "primary": "Nays.—Messrs."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "columns": [
+        "31"
+      ],
+      "label": "Senate, January 14, 1794, ¶ 13",
+      "ref": "Senate1794.Jan14.13",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          16
+        ]
+      },
+      "text": "Ordered, That the Secretary desire the concurrence of the House of Representatives in this resolution."
+    },
+    {
+      "columns": [
+        "65"
+      ],
+      "label": "Senate, March 12, 1794, ¶ 1",
+      "ref": "Senate1794.Mar12.1",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          33
+        ]
+      },
+      "text": "Resolved, That the Presipent or THE Unirep States be requested to transmit, to the Executives of the several States, copies of the amendment proposed by Congress to be. added to the Constitution of the United States, respecting the Judicial power.",
+      "uncertain": [
+        {
+          "end": 28,
+          "readings": {
+            "nypl-ocr": "Paesipgnt",
+            "primary": "Presipent"
+          },
+          "start": 19
+        },
+        {
+          "end": 42,
+          "readings": {
+            "nypl": "UnmiD",
+            "nypl-ocr": "Unrrep",
+            "primary": "Unirep"
+          },
+          "start": 36
+        },
+        {
+          "end": 201,
+          "readings": {
+            "nypl": "me",
+            "primary": "the"
+          },
+          "start": 198
+        }
+      ]
+    },
+    {
+      "columns": [
+        "65",
+        "66"
+      ],
+      "label": "Senate, March 12, 1794, ¶ 2",
+      "ref": "Senate1794.Mar12.2",
+      "scan": {
+        "item": "sim_united-states-congress-debates-and-proceedings_december-2-1793-march-3-1795_2",
+        "leaves": [
+          33
+        ]
+      },
+      "text": "Ordered, That the Secretary desire the concurrence of the House of Representatives in this resolution."
+    }
+  ],
+  "short": "Senate proceedings, 1794",
+  "source_ids": [
+    "ia-part-annals-v4-microfilm-0012-0017",
+    "ia-part-annals-v4-microfilm-0032-0034",
+    "ia-part-annals-v4-microfilm-0112-0114",
+    "ia-part-annals-v4-microfilm-0117-0119",
+    "ia-part-annals-v4-microfilm-0237-0240",
+    "ia-part-annals-v4-microfilm-0249-0251",
+    "ia-part-annals-v4-nypl-0018-0025",
+    "ia-part-annals-v4-nypl-0038-0042",
+    "ia-part-annals-v4-nypl-0130-0139",
+    "ia-part-annals-v4-nypl-0255-0260",
+    "ia-part-annals-v4-nypl-0267-0271",
+    "ia-page-annals-v4-nypl-0019",
+    "ia-page-annals-v4-nypl-0020",
+    "ia-page-annals-v4-nypl-0021",
+    "ia-page-annals-v4-nypl-0022",
+    "ia-page-annals-v4-nypl-0023",
+    "ia-page-annals-v4-nypl-0024",
+    "ia-page-annals-v4-nypl-0039",
+    "ia-page-annals-v4-nypl-0040",
+    "ia-page-annals-v4-nypl-0041",
+    "ia-page-annals-v4-nypl-0131",
+    "ia-page-annals-v4-nypl-0132",
+    "ia-page-annals-v4-nypl-0133",
+    "ia-page-annals-v4-nypl-0136",
+    "ia-page-annals-v4-nypl-0137",
+    "ia-page-annals-v4-nypl-0138",
+    "ia-page-annals-v4-nypl-0256",
+    "ia-page-annals-v4-nypl-0257",
+    "ia-page-annals-v4-nypl-0258",
+    "ia-page-annals-v4-nypl-0259",
+    "ia-page-annals-v4-nypl-0268",
+    "ia-page-annals-v4-nypl-0269",
+    "ia-page-annals-v4-nypl-0270"
+  ],
+  "title": "Proceedings in the Senate on the Eleventh Amendment, 1794"
+}
