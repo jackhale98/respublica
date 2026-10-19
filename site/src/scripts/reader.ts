@@ -18,7 +18,7 @@ let selected: HTMLElement | null = null;
 // ---------------------------------------------------------------- connections
 
 type Conn = {
-  verb: string; status: string; other: string; other_label: string; other_url: string | null;
+  id: string; verb: string; status: string; other: string; other_label: string; other_url: string | null;
   other_overruled?: boolean; other_quote?: string; rationale?: string; source?: string;
   other_excerpt?: { before: string; quote: string; after: string };
 };
@@ -36,11 +36,13 @@ function el<K extends keyof HTMLElementTagNameMap>(tag: K, cls?: string, text?: 
 }
 
 // ---------------------------------------------------------------- previews
-// A connection's far end, read in the panel: one small file per passage
-// (/data/preview/{ref}.json), fetched the first time a preview is opened.
+// A connection's far end, read in the panel: the linked passage around the
+// quoted words, wider than the excerpt in the list. One small file per
+// passage (/data/preview/{ref}.json, link id -> preview), fetched the first
+// time a preview is opened.
 
 type Preview = {
-  label: string; url: string | null; text?: string; clipped?: boolean; more?: number; note?: string;
+  label: string; url: string | null; text?: string; cut_before?: boolean; cut_after?: boolean; more?: number; note?: string;
   case?: { date?: string; us_cite?: string; docket?: string };
 };
 const previewData = new Map<string, Promise<Record<string, Preview>>>();
@@ -68,7 +70,10 @@ function renderPreview(pv: Preview, quote?: string): HTMLElement {
   if (pv.case) box.append(el("p", "pv-meta", caseLine(pv.case)));
   if (pv.text) {
     const text = el("div", "pv-text");
-    for (const para of pv.text.split("\n\n")) {
+    const paras = pv.text.split("\n\n");
+    if (pv.cut_before) paras[0] = `… ${paras[0]}`;
+    if (pv.cut_after) paras[paras.length - 1] += " …";
+    for (const para of paras) {
       const p = el("p");
       const at = quote ? para.indexOf(quote) : -1;
       if (at >= 0) p.append(para.slice(0, at), el("mark", undefined, quote), para.slice(at + quote!.length));
@@ -81,7 +86,7 @@ function renderPreview(pv: Preview, quote?: string): HTMLElement {
   if (notes.length) box.append(el("p", "pv-note", notes.join(" · ")));
   const go = localHref(pv.url);
   if (go) {
-    const a = el("a", "pv-go", pv.case ? "Open the case" : pv.clipped || pv.more ? "Read it all" : "Go to passage");
+    const a = el("a", "pv-go", pv.case ? "Open the case" : pv.cut_before || pv.cut_after || pv.more ? "Read it all" : "Go to passage");
     a.href = go;
     a.append(el("span", undefined, " →"));
     box.append(a);
@@ -97,7 +102,7 @@ function linkNotes(c: Conn): HTMLElement[] {
   return out;
 }
 
-// Without a preview (a far end with no text of its own), the linked words alone.
+// The linked words in their sentence, shown in the list.
 function excerptOf(c: Conn): HTMLElement | null {
   const ex = c.other_excerpt;
   if (ex && (ex.before || ex.quote || ex.after)) {
@@ -122,7 +127,9 @@ function previewToggle(c: Conn, here: string, li: HTMLLIElement): HTMLButtonElem
     panel?.querySelectorAll<HTMLButtonElement>(".conn-pv[aria-expanded=true]").forEach((x) => {
       x.setAttribute("aria-expanded", "false");
       x.textContent = "Preview";
-      x.closest(".conn")?.querySelector(".conn-open")?.remove();
+      const li = x.closest(".conn");
+      li?.querySelector(".conn-open")?.remove();
+      li?.querySelector<HTMLElement>(".conn-excerpt")?.removeAttribute("hidden");
     });
     if (open) return;
     b.setAttribute("aria-expanded", "true");
@@ -130,17 +137,21 @@ function previewToggle(c: Conn, here: string, li: HTMLLIElement): HTMLButtonElem
     const box = el("div", "conn-open");
     box.append(loading("Loading…", "muted"));
     li.append(box);
-    const pv = (await loadPreviews(here))[c.other];
+    const pv = (await loadPreviews(here))[c.id];
     if (b.getAttribute("aria-expanded") !== "true") return;
     const parts: HTMLElement[] = [];
-    // A long passage is previewed from its start; if the quoted words fall past that, show them first.
-    const shown = !c.other_quote || (pv?.text || "").split("\n\n").some((p) => p.includes(c.other_quote!));
-    const ex = !pv || !shown ? excerptOf(c) : null;
-    if (ex) parts.push(ex);
-    if (pv) parts.push(renderPreview(pv, c.other_quote));
+    const short = li.querySelector<HTMLElement>(".conn-excerpt");
+    if (pv) {
+      if (short) short.hidden = true; // the preview shows the same words, with more around them
+      parts.push(renderPreview(pv, c.other_quote));
+    }
     box.replaceChildren(...parts, ...linkNotes(c));
     const go = box.querySelector(".pv-go");
     if (go) box.append(go); // the way to the passage comes last
+    // Open on the quoted words.
+    const scroller = box.querySelector<HTMLElement>(".pv-text");
+    const mark = scroller?.querySelector<HTMLElement>("mark");
+    if (scroller && mark) scroller.scrollTop = Math.max(0, mark.offsetTop - 24);
   });
   return b;
 }
@@ -158,14 +169,19 @@ function renderConn(c: Conn, here: string): HTMLLIElement {
   if (c.other_overruled) top.append(el("span", "badge overruled", "Overruled"));
   top.append(previewToggle(c, here, li));
   li.append(top);
-  // The list stays short: each connection is its kind and target; the
-  // linked passage, the quoted words and the reason open with Preview.
+  // Each connection is its kind, target and the linked words in their
+  // sentence; Preview opens more of the passage around them, and the reason.
   const url = c.other_url;
   if (url && url.startsWith("/") && !url.startsWith("//")) {
     const a = el("a", "conn-target", c.other_label);
     a.href = BASE + url;
     li.append(a);
   } else li.append(el("span", "conn-target", c.other_label));
+  const ex = excerptOf(c);
+  if (ex) {
+    ex.classList.add("conn-excerpt");
+    li.append(ex);
+  }
   return li;
 }
 

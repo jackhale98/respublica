@@ -297,7 +297,7 @@
 .conn-open > :first-child { margin-top: .55rem; }
 .conn-preview { margin-top: .6rem; padding: .7rem .8rem; border-radius: var(--radius); background: var(--bg-subtle); }
 .pv-meta { margin: 0 0 .4rem; font-size: .8rem; color: var(--text-muted); }
-.pv-text { max-height: 18rem; overflow: auto; font: 400 .95rem/1.55 var(--font-serif); color: var(--text); overflow-wrap: anywhere; }
+.pv-text { position: relative; max-height: 18rem; overflow: auto; font: 400 .95rem/1.55 var(--font-serif); color: var(--text); overflow-wrap: anywhere; }
 .pv-text p { margin: 0 0 .55rem; }
 .pv-text p:last-child { margin-bottom: 0; }
 .pv-text mark { background: var(--highlight-soft); color: inherit; border-radius: 2px; padding: 0 .1em; }

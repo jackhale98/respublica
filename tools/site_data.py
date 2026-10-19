@@ -849,44 +849,67 @@ def build(corpus: Corpus, links: list[dict]) -> tuple[dict, dict[str, dict], dic
 
 # ------------------------------------------------------------ connection previews
 
-PREVIEW_CHARS = 1500  # longer passages are previewed to here (at a word) and read in full on their page
+PREVIEW_CHARS = 1500  # a preview's stretch of a longer passage; the rest is read on its page
+PREVIEW_SNAP = 250    # how far a preview's ends move to begin or end at a sentence
 
 
-def clip(text: str) -> dict:
+def window(text: str, quote: str | None = None) -> dict:
+    """The stretch of a passage a preview shows: all of it if short, else
+    about PREVIEW_CHARS centred on the quoted words (from the start when
+    there are none), beginning and ending at a sentence where one is near,
+    else at a word. {"text", "cut_before", "cut_after"}."""
     if len(text) <= PREVIEW_CHARS:
         return {"text": text}
-    cut = text.rfind(" ", 0, PREVIEW_CHARS)
-    return {"text": text[:cut if cut > 0 else PREVIEW_CHARS].rstrip() + " …", "clipped": True}
+    at = text.find(quote) if quote else -1
+    middle = at + len(quote) // 2 if at >= 0 else 0
+    lo = max(0, min(middle - PREVIEW_CHARS // 2, len(text) - PREVIEW_CHARS))
+    hi = min(len(text), lo + PREVIEW_CHARS)
+    if at >= 0:  # never cut through the quoted words
+        lo, hi = min(lo, at), max(hi, at + len(quote))
+    if lo > 0:
+        starts = [m.end() for m in re.finditer(r"[.?!:;]\s+|\n+", text[lo:lo + PREVIEW_SNAP])]
+        lo = lo + starts[0] if starts and (at < 0 or lo + starts[0] <= at) else text.find(" ", lo) + 1 or lo
+    if hi < len(text):
+        stops = [m.end() for m in re.finditer(r"[.?!](?=\s)", text[max(lo, hi - PREVIEW_SNAP):hi])]
+        base = max(lo, hi - PREVIEW_SNAP)
+        hi = base + stops[-1] if stops and (at < 0 or base + stops[-1] >= at + len(quote)) else (text.rfind(" ", lo, hi) if text.rfind(" ", lo, hi) > lo else hi)
+    out = {"text": text[lo:hi].strip()}
+    if lo > 0:
+        out["cut_before"] = True
+    if hi < len(text):
+        out["cut_after"] = True
+    return out
 
 
-def preview_of(corpus: Corpus, ref: str, refs: dict[str, dict]) -> dict | None:
+def preview_of(corpus: Corpus, ref: str, refs: dict[str, dict], quote: str | None = None) -> dict | None:
     """What the panel shows when a reader previews a connection: the linked
-    passage's text; for a whole case, its name, date, citation and first
-    paragraph of syllabus; for a whole essay or article, its first passage."""
+    passage around the quoted words (`window`); for a whole case, its date,
+    citation and first paragraph of syllabus; for a whole essay or article,
+    its first passage."""
     info = refs.get(ref, {"label": label_for(corpus, ref), "url": None})
     out = {"label": info["label"], "url": info["url"]}
     if ref in corpus.segments:
-        return out | clip(corpus.segments[ref]["text"])
+        return out | window(corpus.segments[ref]["text"], quote)
     case = next((w for w in corpus.works.values() if w.get("ref_prefix") == ref and ref.startswith("Case.")), None)
     if case:
         first = next((x for x in case.get("segments", []) if x.get("kind") == "syllabus"), None)
         out |= {"case": {k: case[k] for k in ("date", "us_cite", "docket") if case.get(k)}}
         if first:
-            out |= clip(first["text"]) | {"more": len(case["segments"]) - 1, "note": "From the syllabus as printed"}
+            out |= window(first["text"]) | {"more": len(case["segments"]) - 1, "note": "From the syllabus as printed"}
         else:
             out["note"] = case.get("syllabus_note", "")
         return out
     under = corpus.passages(ref)
     if not under:
         return None
-    return out | clip(under[0]["text"]) | {"more": len(under) - 1, "note": "The first passage"}
+    return out | window(under[0]["text"]) | {"more": len(under) - 1, "note": "The first passage"}
 
 
 def build_previews(corpus: Corpus, pages: dict[str, dict], refs: dict[str, dict]) -> dict[str, dict]:
-    """Preview files, one per passage with connections: far end ref ->
-    preview. The reader fetches a passage's file the first time a preview
-    of one of its connections is opened, so even the busiest clause costs
-    one small request."""
+    """Preview files, one per passage with connections: link id -> the
+    linked passage around that link's quote. The reader fetches a passage's
+    file the first time a preview of one of its connections is opened, so
+    even the busiest clause costs one small request."""
     out: dict[str, dict] = {}
     for page in pages.values():
         if page["kind"] not in ("work", "part", "case"):
@@ -896,10 +919,9 @@ def build_previews(corpus: Corpus, pages: dict[str, dict], refs: dict[str, dict]
                 continue
             previews = {}
             for c in b["connections"]:
-                if c["other"] not in previews:
-                    pv = preview_of(corpus, c["other"], refs)
-                    if pv:
-                        previews[c["other"]] = pv
+                pv = preview_of(corpus, c["other"], refs, c.get("other_quote"))
+                if pv:
+                    previews[c["id"]] = pv
             if previews:
                 out[b["ref"]] = previews
     return out

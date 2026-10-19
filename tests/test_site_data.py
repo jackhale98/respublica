@@ -175,10 +175,18 @@ class SheetTests(unittest.TestCase):
 
 
 class PreviewTests(unittest.TestCase):
-    def test_a_long_passage_is_clipped_at_a_word(self):
-        from tools.site_data import PREVIEW_CHARS, clip
-        self.assertEqual(clip("Short."), {"text": "Short."})
-        long = clip("word " * PREVIEW_CHARS)
-        self.assertTrue(long["clipped"])
-        self.assertTrue(long["text"].endswith("word …"))
-        self.assertLessEqual(len(long["text"]), PREVIEW_CHARS + 2)
+    def test_a_short_passage_is_shown_whole(self):
+        from tools.site_data import window
+        self.assertEqual(window("Short."), {"text": "Short."})
+
+    def test_a_long_passage_is_shown_around_the_quote_from_a_sentence(self):
+        from tools.site_data import PREVIEW_CHARS, window
+        text = " ".join(f"Sentence number {n} says little." for n in range(400))
+        quote = "Sentence number 200 says little."
+        w = window(text, quote)
+        self.assertIn(quote, w["text"])
+        self.assertTrue(w["cut_before"] and w["cut_after"])
+        self.assertTrue(w["text"].startswith("Sentence number"))
+        self.assertTrue(w["text"].endswith("little."))
+        self.assertLessEqual(len(w["text"]), PREVIEW_CHARS + 10)
+        self.assertNotIn("cut_before", window(text))  # no quote: from the start

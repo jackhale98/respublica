@@ -870,19 +870,19 @@ The project owner chose, when phase 7 resumed with a CourtListener token:
 The project owner asked to read a linked passage without leaving the page,
 with a button to go to it.
 
-- **In the panel, not a hover card, and only when asked.** The list of a
-  passage's connections stays short: each is its kind, its review status
-  and the linked passage's name. **Preview** opens it under the connection
-  (one at a time): the linked passage, up to 1,500 characters ended at a
-  word, with the quoted words marked (shown first if they fall past that),
-  the reason the link was proposed, and **Read it all** or **Go to
-  passage**. A case shows its citation, date and the first paragraph of its
-  syllabus (or why it has none) and **Open the case**. A preview shows the
-  linked passage only, not its own connections; the graph shows those.
-  Buttons, not hover, so it works by keyboard, by touch and on the phone's
-  bottom sheet.
+- **In the panel, not a hover card, and only when asked.** Each connection
+  in the panel is its kind, review status, the linked passage's name and
+  the linked words in their sentence. **Preview** widens that to about
+  1,500 characters of the linked passage centred on the quoted words
+  (beginning and ending at a sentence where one is near), opened at them,
+  with the reason the link was proposed and **Read it all** or **Go to
+  passage**. One preview is open at a time. A case shows its citation, date
+  and the first paragraph of its syllabus (or why it has none) and **Open
+  the case**. A preview shows the linked passage only, not its own
+  connections; the graph shows those. Buttons, not hover, so it works by
+  keyboard, by touch and on the phone's bottom sheet.
 - **One small file per passage.** `tools/site_data.py` writes
-  `/data/preview/{ref}.json` for each passage with connections (898 files,
-  65 KB at most), fetched the first time a preview is opened there. A file
-  per page would have been almost 1 MB for the Constitution.
-
+  `/data/preview/{ref}.json` for each passage with connections (link id ->
+  preview; 898 files, 65 KB at most), fetched the first time a preview is
+  opened there. A file per page would have been almost 1 MB for the
+  Constitution.
