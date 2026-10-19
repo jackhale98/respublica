@@ -515,9 +515,28 @@ document.querySelector("[data-size-toggle]")?.addEventListener("click", () => {
 
 // A retired ref's anchor sits inside the passage it was merged into.
 const passageFor = (id: string) => (id ? document.getElementById(id)?.closest<HTMLElement>(".passage") : null) ?? null;
+// Bring a linked passage into view ourselves rather than trust the browser's
+// jump to the anchor: Safari jumps before fonts and layout settle, and the
+// passage then drifts away. Again once the page has settled, unless the
+// reader has scrolled meanwhile.
+function reveal(el: HTMLElement) {
+  el.scrollIntoView({ block: "start" });
+  const at = scrollY;
+  const again = () => {
+    if (Math.abs(scrollY - at) < 2 && Math.abs(el.getBoundingClientRect().top) > 8) el.scrollIntoView({ block: "start" });
+  };
+  requestAnimationFrame(again);
+  document.fonts?.ready.then(again);
+  if (document.readyState !== "complete") window.addEventListener("load", again, { once: true });
+}
 const initial = passageFor(decodeURIComponent(location.hash.slice(1)));
-if (initial) select(initial, { hash: false });
+if (initial) {
+  select(initial, { hash: false });
+  reveal(initial);
+}
 window.addEventListener("hashchange", () => {
   const el = passageFor(decodeURIComponent(location.hash.slice(1)));
-  if (el && el !== selected) select(el, { hash: false });
+  if (!el) return;
+  if (el !== selected) select(el, { hash: false });
+  reveal(el);
 });
