@@ -173,6 +173,13 @@ def check_uncertain(where: str, text: str, spans: Any) -> list[str]:
         if not (isinstance(readings, dict) and "primary" in readings
                 and all(isinstance(v, str) for v in readings.values())):
             errors.append(f"{where}: uncertain span {start}-{stop} needs the primary scan's reading")
+        elif "accepted" in u:
+            # The Anti-Federalist Library's reading, accepted by the owner
+            # without a check against the page (decision 56): still marked.
+            acc = u["accepted"]
+            if not (isinstance(acc, dict) and acc.get("source") == "library" and isinstance(acc.get("by"), str)
+                    and LOGIN.match(acc["by"]) and _is_date(acc.get("at")) and "suggestion" not in u):
+                errors.append(f"{where}: uncertain span {start}-{stop} has a bad accepted reading {acc!r}")
         elif text[start:stop] not in readings.values():
             errors.append(f"{where}: {text[start:stop]!r} at {start} is not one of the scans' readings")
         # The Anti-Federalist Library's reading, for a person to check (never
@@ -229,8 +236,10 @@ def check_corrections(corpus: Corpus) -> list[str]:
             except ValueError:
                 errors.append(f"corrections/{f.name}:{n}: not JSON")
                 continue
-            if sorted(c) != ["at", "by", "index", "now", "ref", "was"]:
-                errors.append(f"corrections/{f.name}:{n}: needs exactly at, by, index, now, ref, was")
+            if sorted(k for k in c if k != "source") != ["at", "by", "index", "now", "ref", "was"] \
+                    or c.get("source", "library") != "library":
+                errors.append(f"corrections/{f.name}:{n}: needs exactly at, by, index, now, ref, was "
+                              "(and source \"library\" for an accepted Library reading)")
                 continue
             if not str(c["ref"]).startswith(prefix) or c["ref"] not in corpus.segments:
                 errors.append(f"corrections/{f.name}:{n}: {c['ref']!r} is not a passage of {f.stem}")

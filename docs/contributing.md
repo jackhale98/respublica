@@ -87,7 +87,10 @@ edit `texts/` or `corrections/` by hand. Some words also carry a
 `suggestion`: the Anti-Federalist Library's reading, where no scan reads the
 word so (decision 55). The page offers it as a choice marked "Anti-Federalist
 Library: check the page"; choose it only if the page image shows it (it is
-recorded like any typed correction). Shared misreadings go in
+recorded like any typed correction). On the owner's decision, every such
+suggestion was accepted unchecked (decision 56): the text has the Library's
+reading and the word stays marked, with a choice "Anti-Federalist Library, in
+the text now: check the page" that confirms it. Shared misreadings go in
 `docs/errata.md`. See `docs/ocr.md`, "Reviewing and correcting".
 
 ## Text files
@@ -115,7 +118,9 @@ Texts read from scans add, per passage, `pages` (printed page numbers),
 `scan` (`{item, leaves}`; for a newspaper page in Chronicling America also
 `site: "loc"`, `issue`, `image` and `regions`), `uncertain` (`[{start, end,
 readings}]`, with `suggestion` where the Anti-Federalist Library reads the
-word differently from every scan) and,
+word differently from every scan, or `accepted` (`{source: "library", by,
+at}`) where the text has the Library's reading, accepted by the owner
+unchecked, decision 56) and,
 once a maintainer has corrected a word, `corrected` (`[{start, end, was, by,
 at}]`, decision 48), and per work `position` and `short`; see `docs/ocr.md`, "What the output records".
 
@@ -154,7 +159,7 @@ Linking criteria and tools are in [`linking.md`](linking.md). In short:
 |---|---|
 | `budgets` | Raw files stay under 40 MB each and 300 MB in total in git (files kept out of git: 1 GB in total, with no limit per file, and `.gitignore` must list them); data files under 20 MB (decisions 15, 46, 49). |
 | `sources` | Every manifest entry has id, url, retrieved_at, sha256, license, notes and path; every raw file matches its sha256; every file in `sources/raw/` is in the manifest; every URL is http(s); `auth_env` names an environment variable; `encoding`, if any, is gzip; every file in `sources/ocr/` is recorded, matches its sha256, and names the raw images it was read from as they are in the manifest. |
-| `texts` | Required fields; refs are unique and start with the work's `ref_prefix`; texts are non-empty and contain no markup; `source_ids` are in the manifest; emphasis spans are in range; every `changed_by` quote is in its text and names a real amendment; every division has segments; every URL field is http(s). For texts read from scans: each `uncertain` span lies in order inside its text (or its division's heading line, salutation or signature) and the text there is one of the scans' readings, and a `suggestion` is one line that differs from it; `scan` names a valid archive.org item and page numbers; `kind` and `position` take known values; each `corrected` span lies in order inside its text, apart from the uncertain words, and names who corrected it and when. |
+| `texts` | Required fields; refs are unique and start with the work's `ref_prefix`; texts are non-empty and contain no markup; `source_ids` are in the manifest; emphasis spans are in range; every `changed_by` quote is in its text and names a real amendment; every division has segments; every URL field is http(s). For texts read from scans: each `uncertain` span lies in order inside its text (or its division's heading line, salutation or signature) and the text there is one of the scans' readings (or, for an `accepted` Library reading, the span names the owner's login and date), and a `suggestion` is one line that differs from it; `scan` names a valid archive.org item and page numbers; `kind` and `position` take known values; each `corrected` span lies in order inside its text, apart from the uncertain words, and names who corrected it and when. |
 | `corrections` | Each file in `corrections/` is named after a work; each line has exactly at, by, index, now, ref, was, names a passage of that work, a GitHub login and a date, and gives one line of text. |
 | `reproducible` | Re-runs every importer into a temporary directory and requires `texts/` and `cases/` to match byte for byte. Every file in them must come from an importer. |
 | `refs` | Every ref in `refs.lock` still exists. Published refs are never dropped or renumbered. |

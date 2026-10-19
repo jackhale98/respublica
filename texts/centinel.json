@@ -627,7 +627,7 @@
           616
         ]
       },
-      "text": "Permit one of yourselves to put you in mind of certain liberties and privileges secured to you by the constitution of this commonwealth, and to beg your serious attention to his uninterested opinion upon the plan of federal government submitted to your consideration, before you surrender these great and valuable privileges up forever. Your present frame of government secures to you a right to hold yourselves, houses, papers and possessions free from search and seizure, and therefore warrants granted without oaths or affirmations first made, affording sufficient foundations for them, whereby any officer or messenger may be commanded or required to search your houses or seize your persons or property not particularly described in such warrant, shall not be granted. Your constitution further provides ' ' that in controversies respecting property, and in suits between man and man, the parties have a right to trial by jury., which ought to be held sacred. ' ' It also provides and declares, ' ' that the people have a right o/\" FREEDOM OF SPEECH, and of writing and PUBLISHING their sentiments., therefore THE FREEDOM OF THE PRESS OUGHT NOT TO BE RESTRAINED.\" The constitution of Pennsylvania is yet in existence, as yet you have the right to freedom of speech., and of publishing your sentiments. How long those rights will appertain to you, you yourselves are called upon to say; whether your houses shall continue to be your castles, whether your papers, yo\\xx persons and your property, are to be held sacred and free from general warrants, you are now to determine. Whether the trial by jury is to continue as your birth-right, the freemen of Pennsylvania, nay, of all America, are now called upon to declare.",
+      "text": "Permit one of yourselves to put you in mind of certain liberties and privileges secured to you by the constitution of this commonwealth, and to beg your serious attention to his uninterested opinion upon the plan of federal government submitted to your consideration, before you surrender these great and valuable privileges up forever. Your present frame of government secures to you a right to hold yourselves, houses, papers and possessions free from search and seizure, and therefore warrants granted without oaths or affirmations first made, affording sufficient foundations for them, whereby any officer or messenger may be commanded or required to search your houses or seize your persons or property not particularly described in such warrant, shall not be granted. Your constitution further provides ' ' that in controversies respecting property, and in suits between man and man, the parties have a right to trial by jury., which ought to be held sacred. ' ' It also provides and declares, ' ' that the people have a right of FREEDOM OF SPEECH, and of writing and PUBLISHING their sentiments., therefore THE FREEDOM OF THE PRESS OUGHT NOT TO BE RESTRAINED.\" The constitution of Pennsylvania is yet in existence, as yet you have the right to freedom of speech., and of publishing your sentiments. How long those rights will appertain to you, you yourselves are called upon to say; whether your houses shall continue to be your castles, whether your papers, your persons and your property, are to be held sacred and free from general warrants, you are now to determine. Whether the trial by jury is to continue as your birth-right, the freemen of Pennsylvania, nay, of all America, are now called upon to declare.",
       "uncertain": [
         {
           "end": 933,
@@ -638,37 +638,45 @@
           "start": 927
         },
         {
-          "end": 1036,
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
+          "end": 1035,
           "readings": {
             "primary": "o/\""
           },
-          "start": 1033,
-          "suggestion": "of"
+          "start": 1033
         },
         {
-          "end": 1104,
+          "end": 1103,
           "readings": {
             "pitt": "sentiments^",
             "primary": "sentiments.,"
           },
-          "start": 1092
+          "start": 1091
         },
         {
-          "end": 1271,
+          "end": 1270,
           "readings": {
             "pitt": "speech^",
             "primary": "speech.,"
           },
-          "start": 1263
+          "start": 1262
         },
         {
-          "end": 1472,
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
+          "end": 1470,
           "readings": {
             "pitt": "yoViX",
             "primary": "yo\\xx"
           },
-          "start": 1467,
-          "suggestion": "your"
+          "start": 1466
         }
       ]
     },
@@ -760,16 +768,20 @@
           623
         ]
       },
-      "text": "I have been anxiously expecting that some enlightened patriot would, ere this, have taken up the pen to expose the futility, and counteract the baneful tendency of such principles. Mr. Adams' sine qua nan of a good government is three balancing powers; whose repelling qualities are to produce an equilibrium of interests, and thereby promote the happiness of the whole community. He asserts that the administrators of every government, will ever be actuated by views of private interest and ambition, to the prejudice of the public good ; that therefore the only effectual method to secure the rights of the people and promote their welfare, is to create an opposition of interests between the members of two distinct bodies, in the exercise of the powers of government, and balanced by those of a third. This hypothesis supposes human wisdom competent to the task of instituting three co-equal orders in government, and a corresponding weight in the community to enable them respectively to exercise their several parts, and whose views and interests should be so distinct as to prevent a coalition of any two of them for the destruction of the third. Mr. Adams, although he has traced the constitution of every form of government that ever existed, as far as history affords materials, has not been able to adduce a single instance of such a government; he indeed says that the British constitution is such in theory, but this is rather a confirmation that his principles are chimerical and not to be reduced to practice. If such an organization of power were practicable, how long would it continue? Not a day — for there is so great a disparity in the talents, wisdom and industry of mankind, that the scale would presently preponderate to one or the other body, and with every accession of power the means of further increase would be greatly extended. The state of society in England is much more favorable to such a scheme of government than that of America. There they have a powerful hereditary nobility, and real distinctions of rank and interests; but even there, for want of that perfect equality of power and distinction of interests in the three orders of government, they exist but in name; the only operative and efficient check upon the conduct of administration, is the sense of the people at large.",
+      "text": "I have been anxiously expecting that some enlightened patriot would, ere this, have taken up the pen to expose the futility, and counteract the baneful tendency of such principles. Mr. Adams' sine qua non of a good government is three balancing powers; whose repelling qualities are to produce an equilibrium of interests, and thereby promote the happiness of the whole community. He asserts that the administrators of every government, will ever be actuated by views of private interest and ambition, to the prejudice of the public good ; that therefore the only effectual method to secure the rights of the people and promote their welfare, is to create an opposition of interests between the members of two distinct bodies, in the exercise of the powers of government, and balanced by those of a third. This hypothesis supposes human wisdom competent to the task of instituting three co-equal orders in government, and a corresponding weight in the community to enable them respectively to exercise their several parts, and whose views and interests should be so distinct as to prevent a coalition of any two of them for the destruction of the third. Mr. Adams, although he has traced the constitution of every form of government that ever existed, as far as history affords materials, has not been able to adduce a single instance of such a government; he indeed says that the British constitution is such in theory, but this is rather a confirmation that his principles are chimerical and not to be reduced to practice. If such an organization of power were practicable, how long would it continue? Not a day — for there is so great a disparity in the talents, wisdom and industry of mankind, that the scale would presently preponderate to one or the other body, and with every accession of power the means of further increase would be greatly extended. The state of society in England is much more favorable to such a scheme of government than that of America. There they have a powerful hereditary nobility, and real distinctions of rank and interests; but even there, for want of that perfect equality of power and distinction of interests in the three orders of government, they exist but in name; the only operative and efficient check upon the conduct of administration, is the sense of the people at large.",
       "uncertain": [
         {
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
           "end": 204,
           "readings": {
             "pitt": "no7i",
             "primary": "nan"
           },
-          "start": 201,
-          "suggestion": "non"
+          "start": 201
         }
       ]
     },
@@ -1139,15 +1151,19 @@
           629
         ]
       },
-      "text": "The framers of it, actuated by the true spirit of such a government, which ever abominates and suppresses all free inquiry and discussion, have made no provision for the liberty of the press, that granA palladium of freedom, and scourge of tyrants; but observed a total silence on that head. It is the opinion of some great writers, that if the liberty of the press, by an institution of religion or otherwise, could be rendered sacred, even in Turkey, that despotism would fly before it. And it is worthy of remark that there is no declaration of personal rights, premised in most free constitutions; and that trial hy jury in civil cases is taken away; for what other construction can be put on the following, viz : Article 3d, sect. 2d, \"In all cases affecting ambassadors, other public ministers and consuls, and those in which a State shall be party, the Supreme Court shall have original jurisdiction. In all the other cases above mentioned, the Supreme Court shall have appellate jurisdiction, both as to law and factP'' It would be a novelty in jurisprudence, as well as evidently improper, to allow an appeal from the verdict of a jury, on the matter of fact; therefore it implies and allows of a dismission of the jury in civil cases, and especially when it is considered, that jury trial in criminal cases is expressly stipulated for, but not in civil cases.",
+      "text": "The framers of it, actuated by the true spirit of such a government, which ever abominates and suppresses all free inquiry and discussion, have made no provision for the liberty of the press, that grand palladium of freedom, and scourge of tyrants; but observed a total silence on that head. It is the opinion of some great writers, that if the liberty of the press, by an institution of religion or otherwise, could be rendered sacred, even in Turkey, that despotism would fly before it. And it is worthy of remark that there is no declaration of personal rights, premised in most free constitutions; and that trial hy jury in civil cases is taken away; for what other construction can be put on the following, viz : Article 3d, sect. 2d, \"In all cases affecting ambassadors, other public ministers and consuls, and those in which a State shall be party, the Supreme Court shall have original jurisdiction. In all the other cases above mentioned, the Supreme Court shall have appellate jurisdiction, both as to law and factP'' It would be a novelty in jurisprudence, as well as evidently improper, to allow an appeal from the verdict of a jury, on the matter of fact; therefore it implies and allows of a dismission of the jury in civil cases, and especially when it is considered, that jury trial in criminal cases is expressly stipulated for, but not in civil cases.",
       "uncertain": [
         {
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
           "end": 202,
           "readings": {
             "primary": "granA"
           },
-          "start": 197,
-          "suggestion": "grand"
+          "start": 197
         },
         {
           "end": 1027,
@@ -1208,25 +1224,33 @@
           630
         ]
       },
-      "text": "\" Who's here so base, that would a bondman be? If any, speak; for him have i offended. Who's here so vii,e, that wii,i, not i,ove his country? If any, speak ; for him have i offended . \"",
+      "text": "\" Who's here so base, that would a bondman be? If any, speak; for him have i offended. Who's here so vii,e, that will not love his country? If any, speak ; for him have i offended . \"",
       "uncertain": [
         {
-          "end": 119,
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
+          "end": 117,
           "readings": {
             "pitt": "wile",
             "primary": "wii,i,"
           },
-          "start": 113,
-          "suggestion": "will"
+          "start": 113
         },
         {
-          "end": 129,
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
+          "end": 126,
           "readings": {
             "pitt": "eove",
             "primary": "i,ove"
           },
-          "start": 124,
-          "suggestion": "love"
+          "start": 122
         }
       ]
     },
@@ -3097,15 +3121,19 @@
           666
         ]
       },
-      "text": "There is no reservation made in the whole of this plan in favor of the rights of the separate States. In the present plan of confederation, made in the year 1778, it was thought necessary by article the 2d to declare that ' ' each State retains its sovereignty, freedom and independence, and every power, jurisdiction and right, which is not by this confederation expressly delegated to the United States in Congress assembled.\" Positive ^sx\\X. was not then thought sufficiently descriptive and restrictive upon Congress, and the omission of such a declaration now, when such great devolutions of power are proposed, manifests the design of consolidating the States.",
+      "text": "There is no reservation made in the whole of this plan in favor of the rights of the separate States. In the present plan of confederation, made in the year 1778, it was thought necessary by article the 2d to declare that ' ' each State retains its sovereignty, freedom and independence, and every power, jurisdiction and right, which is not by this confederation expressly delegated to the United States in Congress assembled.\" Positive grant was not then thought sufficiently descriptive and restrictive upon Congress, and the omission of such a declaration now, when such great devolutions of power are proposed, manifests the design of consolidating the States.",
       "uncertain": [
         {
-          "end": 444,
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
+          "end": 443,
           "readings": {
             "primary": "^sx\\X."
           },
-          "start": 438,
-          "suggestion": "grant"
+          "start": 438
         }
       ]
     },
@@ -3123,15 +3151,19 @@
           667
         ]
       },
-      "text": "What restriction does Mr. Wilson pretend there is in the new constitution to the supremacy of despotic sway over the United States ? What barrier does he assign for the security of the State governments ? Why truly, a mere cobweb of a limit! by interposing the shield of what will become mere form, to check the reality of power. He says, that the existence of the State governments is essential to the organization of Congress, that the former is made the necessary basis of the latter, for the federal senators and President are to be appointed by the State legislatures; and that hence all fears of a consolidation are groundless and imaginary. It must be confessed as reason and argument would have been foreign to the defence of the proposed plan of government, Mr. Wilson has displayed much ingenuity on this occasion; he has involved the subject in all the mazes of sophistry, and by subtil distinctions, he has established principles and positions, that exist only in his own fertile imagination. It is a solecism in politics for two co-ordinate sovereignties to exist together; you must separate the sphere of their jurisdiction or after running the race of dominion for some time, one would neeessarily triumph over the other, but in the meantime the subject of it -would be harassed with double impositions to support the contention; however, the strife between Congress and the States could not be of long continuance, for the former has a decisive superiority in the outset, and has moreover the power by the very constitution itself to terminate it when expedient.",
+      "text": "What restriction does Mr. Wilson pretend there is in the new constitution to the supremacy of despotic sway over the United States ? What barrier does he assign for the security of the State governments ? Why truly, a mere cobweb of a limit! by interposing the shield of what will become mere form, to check the reality of power. He says, that the existence of the State governments is essential to the organization of Congress, that the former is made the necessary basis of the latter, for the federal senators and President are to be appointed by the State legislatures; and that hence all fears of a consolidation are groundless and imaginary. It must be confessed as reason and argument would have been foreign to the defence of the proposed plan of government, Mr. Wilson has displayed much ingenuity on this occasion; he has involved the subject in all the mazes of sophistry, and by subtil distinctions, he has established principles and positions, that exist only in his own fertile imagination. It is a solecism in politics for two co-ordinate sovereignties to exist together; you must separate the sphere of their jurisdiction or after running the race of dominion for some time, one would necessarily triumph over the other, but in the meantime the subject of it -would be harassed with double impositions to support the contention; however, the strife between Congress and the States could not be of long continuance, for the former has a decisive superiority in the outset, and has moreover the power by the very constitution itself to terminate it when expedient.",
       "uncertain": [
         {
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
           "end": 1212,
           "readings": {
             "primary": "neeessarily"
           },
-          "start": 1201,
-          "suggestion": "necessarily"
+          "start": 1201
         }
       ]
     },
@@ -3454,15 +3486,19 @@
           673
         ]
       },
-      "text": "\"Let me appeal to all those that were present in this house at the agitation of the petition of right. And let them tell themselves truly of whose promotion to the management of public affairs do they think the generality would, at that time, have had better hopes than of Mr. Nay and Sir Thomas Wentworth; both having been at that time and in that business, as I have heard, most keen and active patriots, and the latter of them, to the eternal aggravation of his infamous treachery to the commonwealth be it spoken, the first mover and insister to have this clause added to ih& petition of right, viz:",
+      "text": "\"Let me appeal to all those that were present in this house at the agitation of the petition of right. And let them tell themselves truly of whose promotion to the management of public affairs do they think the generality would, at that time, have had better hopes than of Mr. Nay and Sir Thomas Wentworth; both having been at that time and in that business, as I have heard, most keen and active patriots, and the latter of them, to the eternal aggravation of his infamous treachery to the commonwealth be it spoken, the first mover and insister to have this clause added to the petition of right, viz:",
       "uncertain": [
         {
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
           "end": 579,
           "readings": {
             "primary": "ih&"
           },
-          "start": 576,
-          "suggestion": "the"
+          "start": 576
         }
       ]
     },
@@ -3750,16 +3786,20 @@
           679
         ]
       },
-      "text": "But such policy indicates great ignorance of the good sense and spirit of the people, for if the sanction of every convention throughout the union was obtained by the means these men are practising; yet their triumph would be momentary, the favorite object would still elude their grasp; ior a good government founded on fraud and deception could not be maintained without an army sufficiently powerful to compel submission, which the well-born of America could not speedily accomplish. However the complexion of several of the more considerable States does not promise even this point of success. The Carolinas, Virginia, Maryland, New York and New Hampshire have by their wisdom in taking a longer time to deliberate, in all probability saved themselves from the disgrace of becoming the 'dupes of this gilded bait, as experience will evince that it need only be properly examined to be execrated and repulsed.",
+      "text": "But such policy indicates great ignorance of the good sense and spirit of the people, for if the sanction of every convention throughout the union was obtained by the means these men are practising; yet their triumph would be momentary, the favorite object would still elude their grasp; for a good government founded on fraud and deception could not be maintained without an army sufficiently powerful to compel submission, which the well-born of America could not speedily accomplish. However the complexion of several of the more considerable States does not promise even this point of success. The Carolinas, Virginia, Maryland, New York and New Hampshire have by their wisdom in taking a longer time to deliberate, in all probability saved themselves from the disgrace of becoming the 'dupes of this gilded bait, as experience will evince that it need only be properly examined to be execrated and repulsed.",
       "uncertain": [
         {
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
           "end": 291,
           "readings": {
             "pitt": "tor",
             "primary": "ior"
           },
-          "start": 288,
-          "suggestion": "for"
+          "start": 288
         }
       ]
     },
@@ -3945,16 +3985,20 @@
           684
         ]
       },
-      "text": "The more I consider the manoeuvres that are practicing, the more am I alarmed — foreseeing that the juggle cannot long be concealed, and that the spirit of the people will not brook the imposition, they have guarded as they suppose against any danger arising from the opposition of the people and rendered their struggles for liberty impotent and ridiculous. What otherwise is the meaning of disarming the militia, for the purpose as it is said of repairing their muskets at such a particular period? Does not the timing of the measure determine the intention? I was ever jealous of the select militia, consisting of infantry and troops of horse, instituted in this city and in some of the counties, without the sanction of law, and officered principally by the devoted instruments of the well bom^ although the illustrious patriotism of one of them has not corresponded with the intention of appointing him. Are not these corps provided to suppress the first efforts of freedom, and to check the spirit of the people until a regular and sufficiently powerful military force shall be embodied to rivet the chains of slavery on a deluded nation? What confirms these apprehensions is the declaration of a certain major, an active instrument in this business, and the echo of the principal conspirators, who has said he should deem the cutting off of five thousand men, as a small sacrifice, a cheap purchase for the establishment of the new Constitution.",
+      "text": "The more I consider the manoeuvres that are practicing, the more am I alarmed — foreseeing that the juggle cannot long be concealed, and that the spirit of the people will not brook the imposition, they have guarded as they suppose against any danger arising from the opposition of the people and rendered their struggles for liberty impotent and ridiculous. What otherwise is the meaning of disarming the militia, for the purpose as it is said of repairing their muskets at such a particular period? Does not the timing of the measure determine the intention? I was ever jealous of the select militia, consisting of infantry and troops of horse, instituted in this city and in some of the counties, without the sanction of law, and officered principally by the devoted instruments of the well born, although the illustrious patriotism of one of them has not corresponded with the intention of appointing him. Are not these corps provided to suppress the first efforts of freedom, and to check the spirit of the people until a regular and sufficiently powerful military force shall be embodied to rivet the chains of slavery on a deluded nation? What confirms these apprehensions is the declaration of a certain major, an active instrument in this business, and the echo of the principal conspirators, who has said he should deem the cutting off of five thousand men, as a small sacrifice, a cheap purchase for the establishment of the new Constitution.",
       "uncertain": [
         {
-          "end": 798,
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
+          "end": 799,
           "readings": {
             "pitt": "boi'U^",
             "primary": "bom^"
           },
-          "start": 794,
-          "suggestion": "born,"
+          "start": 794
         }
       ]
     },
@@ -4115,16 +4159,20 @@
           690
         ]
       },
-      "text": "The other specter that has been raised to terrify and alarm the people out of the exercise of their judgment on this great occasion, is the dread of our splitting into separate confederacies or republics, that might become rival powers and consequently liable to mutual wars from the usual motives of contention. This is an event still more improbable than the foregoing; it is a presumption unwarranted, either by the situation of affairs, or the sentiments of the people; no disposition leading to it exists; the advocates of the new constitution seem to view such a separation with horror, and its opponents are strenuously contending for a confederation that shall embrace all America under its comprehensive and salutary protection. This hobgoblin appears to have sprung from the deranged brain of Publius*z. New York writer, who, mistaking sound for argument, has with Herculean labor accumulated myriads of unmeaning sentences, and mechanically endeavored to force conviction by a torrent of misplaced words; he might have spared his readers the fatigue of wading through his long-winded disquisitions on the direful effects of the contentions of inimical states, as totally inapplicable to the subject he was professedly treating; this writer has devoted much time, and wasted more paper in combating chimeras of his own creation. However, for the sake of argument, I will admit that the necessary consequence of rejecting or delaying the establishment of the new constitution, would be the dissolution of the union, and the institution of even rival and inimical republics; yet ought such an apprehension, if well founded, to drive us into the fangs of despotism? Infinitely preferable would be occasional wars to such an event; the former, although a severe scourge, is transient in its continuance, and in its operation partial, but a small proportion of the community are exposed to its greatest horrors, and yet fewer experience its greatest evils; the latter is permanent and universal misery, without remission or exemption : as passing clouds obscure for a time the splendor of the sun, so do wars interrupt the welfare of mankind; but despotism is a settled gloom that totally extinguishes happiness, not a ray of comfort can penetrate to cheer the dejected mind; the goad of power with unabating rigor insists upon the utmost exaction, like a merciless taskmaster, is continually inflicting the lash, and is never satiated with the feast of unfeeling domination, or the most abject servility.",
+      "text": "The other specter that has been raised to terrify and alarm the people out of the exercise of their judgment on this great occasion, is the dread of our splitting into separate confederacies or republics, that might become rival powers and consequently liable to mutual wars from the usual motives of contention. This is an event still more improbable than the foregoing; it is a presumption unwarranted, either by the situation of affairs, or the sentiments of the people; no disposition leading to it exists; the advocates of the new constitution seem to view such a separation with horror, and its opponents are strenuously contending for a confederation that shall embrace all America under its comprehensive and salutary protection. This hobgoblin appears to have sprung from the deranged brain of Publius, New York writer, who, mistaking sound for argument, has with Herculean labor accumulated myriads of unmeaning sentences, and mechanically endeavored to force conviction by a torrent of misplaced words; he might have spared his readers the fatigue of wading through his long-winded disquisitions on the direful effects of the contentions of inimical states, as totally inapplicable to the subject he was professedly treating; this writer has devoted much time, and wasted more paper in combating chimeras of his own creation. However, for the sake of argument, I will admit that the necessary consequence of rejecting or delaying the establishment of the new constitution, would be the dissolution of the union, and the institution of even rival and inimical republics; yet ought such an apprehension, if well founded, to drive us into the fangs of despotism? Infinitely preferable would be occasional wars to such an event; the former, although a severe scourge, is transient in its continuance, and in its operation partial, but a small proportion of the community are exposed to its greatest horrors, and yet fewer experience its greatest evils; the latter is permanent and universal misery, without remission or exemption : as passing clouds obscure for a time the splendor of the sun, so do wars interrupt the welfare of mankind; but despotism is a settled gloom that totally extinguishes happiness, not a ray of comfort can penetrate to cheer the dejected mind; the goad of power with unabating rigor insists upon the utmost exaction, like a merciless taskmaster, is continually inflicting the lash, and is never satiated with the feast of unfeeling domination, or the most abject servility.",
       "uncertain": [
         {
-          "end": 813,
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
+          "end": 811,
           "readings": {
             "pitt": "Piibliiis^",
             "primary": "Publius*z."
           },
-          "start": 803,
-          "suggestion": "Publius,"
+          "start": 803
         }
       ]
     },
@@ -4471,7 +4519,7 @@
           697
         ]
       },
-      "text": "The conspirators having been severely galled and checked in their career by the artillery of freedom, have made more vigorous and successful efforts to silence her batteries, while falsehood with all her delusions is making new and greater exertions in favor of ambition. On the one hand, every avenue to information is as far as possible cut off\"; the usual communication between the states, through the medium of the press, is in a great measure destroyed by a new arrangement at the Post OflBce — scarcely a newspaper is suffered to passt by this conveyance, and the arguments of a Findley, a Whitehill and a Smilie, that bright constellation of patriots, are suppressed, and a spurious publication substituted ; and on the other hand the select committee are assiduously employed in manufacturing deception in all its ensnaring colors, and having an adequate fund at their command, they are deluging the country with their productions. The only newspaper that circulates extensively out of the city is kept running over with deceptive inventions. Doctor Puff\", the paragraphist, has scarcely slept since his appointment, having received orders to work double tides; beneath his creative pen thousands of correspondents rise into view, who all harmonize in their sentiments and information about the new constitution; but the chief reliance is on James the Caledonian, who can to appearance destroy all distinction between liberty and despotism, and make the latter pass for the former, who can bewilder truth in all the mazes of sophistry, and render the plainest propositions problematical. He, chameleon-like, can vary his appearance at pleasure, and assume any character for the purposes of deception. In the guise of a Conciliator^ in the Independent Gazetteer, he professes great candor and moderation, admits some of the principal objections to the new constitution to be well founded and insidiously proposes a method to remove them, which is to consider the first Congress under the new constitution as a convention, competent to supply all defects in the system of government. This is really a discovery that does honor to his invention. What ! a legislative declaration or law a basis upon which to rest our dearest liberties ? Does he suppose the people have so little penetration as not to see through so flimsy a delusion, that such a security would amount to no more than the will and pleasure of their rulers, who might repeat this fundamental sanction whenever ambition stimulated ? In the feigned character of A Freeman., he combats the weighty arguments of the minority of the late convention, by a mere play upon words, carefully avoiding the real merits of the question; and we moreover trace him in a variety of miscellaneous productions in every shape and form ; he occasionally assists Doctor Puff in the fabrication of extracts of letters, paragraphs, correspondents, etc., etc.",
+      "text": "The conspirators having been severely galled and checked in their career by the artillery of freedom, have made more vigorous and successful efforts to silence her batteries, while falsehood with all her delusions is making new and greater exertions in favor of ambition. On the one hand, every avenue to information is as far as possible cut off\"; the usual communication between the states, through the medium of the press, is in a great measure destroyed by a new arrangement at the Post OflBce — scarcely a newspaper is suffered to pass by this conveyance, and the arguments of a Findley, a Whitehill and a Smilie, that bright constellation of patriots, are suppressed, and a spurious publication substituted ; and on the other hand the select committee are assiduously employed in manufacturing deception in all its ensnaring colors, and having an adequate fund at their command, they are deluging the country with their productions. The only newspaper that circulates extensively out of the city is kept running over with deceptive inventions. Doctor Puff\", the paragraphist, has scarcely slept since his appointment, having received orders to work double tides; beneath his creative pen thousands of correspondents rise into view, who all harmonize in their sentiments and information about the new constitution; but the chief reliance is on James the Caledonian, who can to appearance destroy all distinction between liberty and despotism, and make the latter pass for the former, who can bewilder truth in all the mazes of sophistry, and render the plainest propositions problematical. He, chameleon-like, can vary his appearance at pleasure, and assume any character for the purposes of deception. In the guise of a Conciliator^ in the Independent Gazetteer, he professes great candor and moderation, admits some of the principal objections to the new constitution to be well founded and insidiously proposes a method to remove them, which is to consider the first Congress under the new constitution as a convention, competent to supply all defects in the system of government. This is really a discovery that does honor to his invention. What ! a legislative declaration or law a basis upon which to rest our dearest liberties ? Does he suppose the people have so little penetration as not to see through so flimsy a delusion, that such a security would amount to no more than the will and pleasure of their rulers, who might repeat this fundamental sanction whenever ambition stimulated ? In the feigned character of A Freeman., he combats the weighty arguments of the minority of the late convention, by a mere play upon words, carefully avoiding the real merits of the question; and we moreover trace him in a variety of miscellaneous productions in every shape and form ; he occasionally assists Doctor Puff in the fabrication of extracts of letters, paragraphs, correspondents, etc., etc.",
       "uncertain": [
         {
           "end": 497,
@@ -4482,29 +4530,33 @@
           "start": 491
         },
         {
-          "end": 541,
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
+          "end": 540,
           "readings": {
             "pitt": "passf",
             "primary": "passt"
           },
-          "start": 536,
-          "suggestion": "pass"
+          "start": 536
         },
         {
-          "end": 1739,
+          "end": 1738,
           "readings": {
             "pitt": "Conciliator^",
             "primary": "Conciliator^"
           },
-          "start": 1727
+          "start": 1726
         },
         {
-          "end": 2542,
+          "end": 2541,
           "readings": {
             "pitt": "Free^nan^",
             "primary": "Freeman.,"
           },
-          "start": 2533
+          "start": 2532
         }
       ]
     },
@@ -4626,15 +4678,19 @@
           704
         ]
       },
-      "text": "\"But even this provision, apparently for the security .jaf the State governments, inadequate as it is, is entirely left at the mercy of the general government, for by the fourth section of the first article, it is expressly provided, that the Congress shall have a power to make and alter all regulations concerning the time and manner of holding elections for senators— a provision expressly looking forward to, and I have no doubt designed for the utter extinction and abolition of all State governments. Nor will this, I believe, be doubted by any person, when I inform you that some of the warm advocates and patrons of the system in convention, strenuously opposed the choice of the senators by the State legislatures, insisting that the State governments ought not to be introduced in any manner so as to be component parts of, or instruments for, carrying into execution the general government. Nay, so far were the friends of the system from pretending that they meant it or considered it as a federal system, that on the question being proposed, 'that a union of the States merely federal ought to be the sole object of the exercise of the powers vested in the convention,' it was negatived by a majority of the members, and it was resolved 'that a national government ought to be formed.' Afterwards the word 'national ' was struck out by them, because they thought the word might tend to alarm; and although now they who advocate the system pretend to call themselves federalists, in convention the distinction was just the reverse: those who opposed the system, were there considered and styled the federal party; those who advocated it, the anti-federal.",
+      "text": "\"But even this provision, apparently for the security of the State governments, inadequate as it is, is entirely left at the mercy of the general government, for by the fourth section of the first article, it is expressly provided, that the Congress shall have a power to make and alter all regulations concerning the time and manner of holding elections for senators— a provision expressly looking forward to, and I have no doubt designed for the utter extinction and abolition of all State governments. Nor will this, I believe, be doubted by any person, when I inform you that some of the warm advocates and patrons of the system in convention, strenuously opposed the choice of the senators by the State legislatures, insisting that the State governments ought not to be introduced in any manner so as to be component parts of, or instruments for, carrying into execution the general government. Nay, so far were the friends of the system from pretending that they meant it or considered it as a federal system, that on the question being proposed, 'that a union of the States merely federal ought to be the sole object of the exercise of the powers vested in the convention,' it was negatived by a majority of the members, and it was resolved 'that a national government ought to be formed.' Afterwards the word 'national ' was struck out by them, because they thought the word might tend to alarm; and although now they who advocate the system pretend to call themselves federalists, in convention the distinction was just the reverse: those who opposed the system, were there considered and styled the federal party; those who advocated it, the anti-federal.",
       "uncertain": [
         {
-          "end": 58,
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
+          "end": 56,
           "readings": {
             "primary": ".jaf"
           },
-          "start": 54,
-          "suggestion": "of"
+          "start": 54
         }
       ]
     },
@@ -5104,24 +5160,32 @@
           723
         ]
       },
-      "text": "The measures that are pursuing to effect the establishment of the new constitution, are so repugnant to truth, honor, and the well-being of society, as would ' disgrace any cause. If the nature and tendency of this system were to be judged of by the conduct of its framers and patrons, what a picture of ambition and villainy would present itself to our view! From the specimens they have already given, anticipation may easily realize the consequences that would flow from the new constitution, if established; we may bid adieu to all the blessings of liberty, to all the fruits of the late glorious assertion of the rights of human nature, made at the expense of so much blood and treasure. Yet such is the infatuation of many well meaning persons, that they view with indifference the atrocious villainy which characterizes the proceedings of the advocates of the new system. The daring, and in most parts of the United States, the successful methods practised to shackle the press, and destroy the freedom of discussion, the silencing the Pennsylvania Herald, to prevent the publication of the invaluable debates of the late convention of this state; the total suppression of real intelligence, and of the illuminations of patriotism, through the medium of the post-office; the systematic fraud and deception that pervade the union; the stigmatizing, and by every art which ambition and malice can suggest, laboring to villify, intimidate and trample under foot every disinterested patriot who, perferring his country's good to every other consideration, has the courage to stand forth the champion of liberty and the people; and the intercepting of private confidential letters passing from man to man, violating the sacredness of a seal, and thus infringing one of the first privileges of freemen — that of communicating with each other: I say all these are overlooked by the infatuated admirers of the new system, who, deluded by \\h^ phantom of wealth and prosperity, profit not by the admonitory lesson which such proceedings afford, are deaf to the calls of patriotism, and would rush blindly into the noose of ambition.",
+      "text": "The measures that are pursuing to effect the establishment of the new constitution, are so repugnant to truth, honor, and the well-being of society, as would ' disgrace any cause. If the nature and tendency of this system were to be judged of by the conduct of its framers and patrons, what a picture of ambition and villainy would present itself to our view! From the specimens they have already given, anticipation may easily realize the consequences that would flow from the new constitution, if established; we may bid adieu to all the blessings of liberty, to all the fruits of the late glorious assertion of the rights of human nature, made at the expense of so much blood and treasure. Yet such is the infatuation of many well meaning persons, that they view with indifference the atrocious villainy which characterizes the proceedings of the advocates of the new system. The daring, and in most parts of the United States, the successful methods practised to shackle the press, and destroy the freedom of discussion, the silencing the Pennsylvania Herald, to prevent the publication of the invaluable debates of the late convention of this state; the total suppression of real intelligence, and of the illuminations of patriotism, through the medium of the post-office; the systematic fraud and deception that pervade the union; the stigmatizing, and by every art which ambition and malice can suggest, laboring to villify, intimidate and trample under foot every disinterested patriot who, preferring his country's good to every other consideration, has the courage to stand forth the champion of liberty and the people; and the intercepting of private confidential letters passing from man to man, violating the sacredness of a seal, and thus infringing one of the first privileges of freemen — that of communicating with each other: I say all these are overlooked by the infatuated admirers of the new system, who, deluded by the phantom of wealth and prosperity, profit not by the admonitory lesson which such proceedings afford, are deaf to the calls of patriotism, and would rush blindly into the noose of ambition.",
       "uncertain": [
         {
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
           "end": 1509,
           "readings": {
             "primary": "perferring"
           },
-          "start": 1499,
-          "suggestion": "preferring"
+          "start": 1499
         },
         {
+          "accepted": {
+            "at": "2026-10-19",
+            "by": "jackhale98",
+            "source": "library"
+          },
           "end": 1940,
           "readings": {
             "pitt": "tho:",
             "primary": "\\h^"
           },
-          "start": 1937,
-          "suggestion": "the"
+          "start": 1937
         }
       ]
     },
