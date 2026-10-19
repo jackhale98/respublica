@@ -1061,7 +1061,7 @@ Library (antifederalists.org) and the original printings:
   Philadelphiensis and Melancton Smith, for which no scan of the first
   printing was found to check the Library against.
 
-## 56. The Thirteenth and Fifteenth Amendments in the Congressional Globe
+## 57. The Thirteenth and Fifteenth Amendments in the Congressional Globe
 
 The project owner asked for the debates on the Thirteenth and Fifteenth
 Amendments, read as the Fourteenth's are (decision 47), and decided two
@@ -1118,3 +1118,9 @@ report filed).
   1864), 2.4% (House, 1865), 2.6% (House, 1869) and 1.9% (Senate, 1869).
   Misread headings and a dropped line are in `docs/errata.md` (40–45).
   Speeches the Globe prints only in its Appendix are not imported.
+- **On the site**, a day is split into sheets by its text as before, or,
+  where its uncertain words (each marked with every reading) would push the
+  page past the HTML budget, by text and readings together
+  (`SHEET_WEIGHT_BYTES`; only the Senate's March 28, 1864, so far; no 1866
+  sheet changes). The about page lists the Globe's page-by-page UNT sources
+  as one line per session instead of two lines per page.

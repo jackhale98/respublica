@@ -51,7 +51,7 @@ Congressional Globe (`importers/globe.py`, decision 47). About 1% (1789),
 the Senate's June days have only a poor microfilm to check UNT's OCR
 against. The Thirteenth (1864–65: `Senate1864`, `House1864`, `House1865`)
 and Fifteenth Amendments (1869: `House1869`, `Senate1869`) are imported the
-same way (decision 56), with page reading refined for those volumes (never
+same way (decision 57), with page reading refined for those volumes (never
 for 1866, whose refs are published); 1.9–4.6% of their words are marked
 uncertain, worst on pp. 1318–1319 of 1864 (errata 40). Run 4 of the linking
 guide (`docs/linking.md`) proposes links for these debates to the

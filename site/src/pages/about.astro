@@ -69,8 +69,20 @@ const sourceById = Object.fromEntries(sources.map((s) => [s.id, s]));
           <p class="muted">{w.edition.name}{w.date && ` · ${formatDate(w.date)}`}</p>
           <p>{w.edition.notes}</p>
           <ul class="src-list">
-            {w.source_ids.map((id) => {
-              const s = sourceById[id];
+            {w.sources.map((item) => {
+              if (item.text) {
+                return (
+                  <li>
+                    {item.text}{" "}
+                    {item.links.map((l, i) => {
+                      const url = safeUrl(l.url);
+                      return <>{i > 0 && ", "}{url ? <a href={url} rel="noopener noreferrer">{l.label}</a> : l.label}</>;
+                    })}.
+                    <span class="muted"> Retrieved {formatDate(item.retrieved_at)}. {item.license}</span>
+                  </li>
+                );
+              }
+              const s = sourceById[item.id];
               const url = s && safeUrl(s.url);
               return s && (
                 <li>

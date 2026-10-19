@@ -63,7 +63,7 @@ class LayoutTests(unittest.TestCase):
 
 
 class OtherAmendmentsTests(unittest.TestCase):
-    """The Thirteenth (1864-65) and Fifteenth (1869) Amendments (decision 56)."""
+    """The Thirteenth (1864-65) and Fifteenth (1869) Amendments (decision 57)."""
 
     def test_subject_headings_as_ocr_reads_them(self):
         cases = {

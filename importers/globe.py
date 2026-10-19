@@ -1,5 +1,5 @@
 """The debates in Congress on the Thirteenth, Fourteenth and Fifteenth
-Amendments, from the Congressional Globe (decisions 47 and 56).
+Amendments, from the Congressional Globe (decisions 47 and 57).
 
 The Congressional Globe prints three columns to a page under a running head
 (the page number, "THE CONGRESSIONAL GLOBE." and the date). Each house's
@@ -88,7 +88,7 @@ class Session:
     copies: tuple[Copy, ...]
     headings: tuple[str, ...]  # the subject headings, in letters ("reconstruction")
     subject: re.Pattern  # the joint resolution, as an item's first paragraphs name it
-    # How the page is read, refined for 1864-65 and 1869 (decision 56): a
+    # How the page is read, refined for 1864-65 and 1869 (decision 57): a
     # subject heading OCR ends with a comma, a speck or nothing is still a
     # heading (`is_subject_heading`); a heading may run over two lines
     # (`paragraphs`); the number's signature at the foot of its first page

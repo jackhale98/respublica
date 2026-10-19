@@ -275,7 +275,7 @@ the Senate's June days are less corroborated than May's.
 (`texts/senate-thirteenth-amendment-1864.json`,
 `texts/house-thirteenth-amendment-1864.json`,
 `texts/house-thirteenth-amendment-1865.json`, `importers/globe.py`,
-decision 56) are imported from *The Congressional Globe: Containing the
+decision 57) are imported from *The Congressional Globe: Containing the
 Debates and Proceedings of the First Session of the Thirty-Eighth Congress*
 (Washington: John C. Rives, 1864), parts 1, 2, 3 and 4, and *… of the
 Second Session of the Thirty-Eighth Congress* (Washington: F. & J. Rives,
@@ -293,7 +293,7 @@ evening to debate the joint resolution.
 
 **The Fifteenth Amendment debates, 1869**
 (`texts/house-fifteenth-amendment-1869.json`,
-`texts/senate-fifteenth-amendment-1869.json`, decision 56) are imported
+`texts/senate-fifteenth-amendment-1869.json`, decision 57) are imported
 from *… of the Third Session of the Fortieth Congress* (Washington: F. & J.
 Rives & Geo. A. Bailey, 1869), parts 1, 2 and 3: every item headed
 "Suffrage", "Suffrage Constitutional Amendment" or "Rights of Citizens" in

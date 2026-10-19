@@ -194,7 +194,7 @@ Congressional Globe (decision 47).
 
 Each house's debate on the joint resolutions proposing the Thirteenth
 Amendment (S. No. 16) and the Fifteenth (H. R. No. 402, S. R. No. 8),
-imported by `importers/globe.py` from the Congressional Globe (decision 56),
+imported by `importers/globe.py` from the Congressional Globe (decision 57),
 one work per house and session, with refs as for 1866:
 
 | Work | Prefix | Days |
