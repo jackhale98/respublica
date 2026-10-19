@@ -75,5 +75,8 @@ export function open(dialog: HTMLDialogElement, store: S) {
   }
   render(dialog, store);
   dialog.showModal();
-  dialog.querySelector<HTMLElement>(".history-list .current a, [data-history-close]")?.focus({ preventScroll: true });
+  // Focus the list (no ring), with the current place scrolled into view.
+  const list = dialog.querySelector<HTMLElement>("[data-history-list]");
+  list?.focus({ preventScroll: true });
+  list?.querySelector(".current")?.scrollIntoView({ block: "nearest" });
 }

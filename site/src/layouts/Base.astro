@@ -177,7 +177,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         <button type="button" class="btn btn-ghost" data-history-step="1">Forward<Icon name="right" /></button>
         <button type="button" class="btn btn-ghost history-clear" data-history-clear>Clear</button>
       </div>
-      <ol class="history-list" data-history-list></ol>
+      <ol class="history-list" data-history-list tabindex="-1" aria-label="Places"></ol>
       <p class="history-note">The places you have read, newest first, kept in this browser only. Nothing is sent anywhere.</p>
     </dialog>
 

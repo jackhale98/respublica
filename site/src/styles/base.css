@@ -329,7 +329,18 @@ a.card:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); bor
 .history-actions .btn svg { width: 15px; height: 15px; }
 .history-actions .btn:disabled { opacity: .45; cursor: default; }
 .history-clear { margin-left: auto; }
-.history-list { list-style: none; margin: 0; padding: .4rem .6rem; overflow: auto; flex: 1; }
+/* The list sizes to its places and scrolls inside the dialog: a flex basis of
+   0 would leave it no height in Safari, where the dialog has only a maximum. */
+.history-list { list-style: none; margin: 0; padding: .4rem .6rem; overflow: auto; flex: 1 1 auto; min-height: 6rem; }
+.history-list:focus { outline: none; }
+/* On a phone: a sheet from the bottom, three quarters of the screen high. */
+@media (max-width: 40rem) {
+  .history-dialog {
+    width: 100%; max-width: none; height: 75vh; height: 75dvh; max-height: none;
+    margin: auto 0 0; border-radius: var(--radius-lg) var(--radius-lg) 0 0; border-bottom: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
 .history-list li a { display: grid; grid-template-columns: 1fr auto; gap: .1rem .8rem; padding: .55rem .6rem; border-radius: var(--radius); color: var(--text); text-decoration: none; }
 .history-list li a:hover { background: var(--bg-subtle); }
 .history-list li.current a { background: var(--brand-soft); }
