@@ -90,18 +90,19 @@ for (const b of document.querySelectorAll<HTMLButtonElement>("[data-theme-set]")
 
 const prefs = document.querySelector<HTMLElement>("[data-prefs]");
 const prefsButtons = document.querySelectorAll<HTMLButtonElement>("[data-prefs-open]");
-function showPrefs(open: boolean) {
+function showPrefs(open: boolean, keyboard = false) {
   if (!prefs) return;
   prefs.hidden = !open;
   for (const b of prefsButtons) b.setAttribute("aria-expanded", String(open));
   if (open) {
     paintPrefs();
-    prefs.querySelector<HTMLButtonElement>("button:not(:disabled)")?.focus({ preventScroll: true });
+    // From the keyboard, focus moves into the panel; a tap or click leaves it.
+    if (keyboard) prefs.querySelector<HTMLButtonElement>("button:not(:disabled)")?.focus({ preventScroll: true });
   }
 }
 for (const b of prefsButtons) b.addEventListener("click", (e) => {
   e.stopPropagation();
-  showPrefs(!!prefs?.hidden);
+  showPrefs(!!prefs?.hidden, (e as MouseEvent).detail === 0);
 });
 document.addEventListener("click", (e) => {
   if (prefs && !prefs.hidden && !prefs.contains(e.target as Node)) showPrefs(false);

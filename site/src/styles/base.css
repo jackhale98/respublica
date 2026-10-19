@@ -290,7 +290,9 @@ a.card:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); bor
 .prefs-seg > * + * { border-left: 1px solid var(--border); }
 .prefs-seg output { flex: 1.4; cursor: default; color: var(--text); font-weight: 600; }
 .prefs-seg button:hover { background: var(--bg-subtle); color: var(--text); }
-.prefs-seg button:focus-visible { outline: 2px solid var(--brand); outline-offset: -3px; }
+/* Keyboard focus shades the option, like hover, rather than a ring the rounded ends would clip. */
+.prefs-seg button:focus-visible { outline: none; background: var(--bg-subtle); color: var(--text); }
+.prefs-seg button[aria-pressed="true"]:focus-visible { background: color-mix(in srgb, var(--brand-soft) 70%, var(--brand) 12%); }
 .prefs-seg button[aria-pressed="true"] { background: var(--brand-soft); color: var(--brand-strong); font-weight: 600; }
 .prefs-seg button:disabled { opacity: .4; cursor: default; }
 .prefs-seg svg { width: 15px; height: 15px; }
