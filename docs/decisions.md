@@ -924,3 +924,30 @@ founding documents with every link coming off their clauses.
   page says how much of each work has been linked and which works have no
   links yet, and how many links a person has reviewed.
 
+## 52. Clause pages
+
+The project owner asked for the clause pages planned for phase 7.
+
+- **A page per clause of the Constitution and per section of an
+  amendment** (153), at a URL that mirrors its ref:
+  `/constitution/1/8/18/` for `Constitution.1.8.18`,
+  `/amendments/14/1/`, `/constitution/preamble/`. Refs still resolve to the
+  passage in the reader; the clause page is a second place to read it.
+- **What reaches the clause, grouped by where it comes from:** the
+  Federalist side, the Anti-Federalists, other writings, the debates in
+  Congress, the Supreme Court, and the founding documents. Each link shows
+  its kind, whether a person has reviewed it, the linked words in their
+  sentence and the reason it was proposed; each case its citation and date
+  of decision, oldest first, with the source of the link. Nothing
+  characterizes a holding (rule 7). Links to the article, section or
+  amendment as a whole follow, then the clauses either side.
+- **Links to a whole article or amendment** (a case the Constitution
+  Annotated cites under all of Amendment XIV) also show under that
+  heading in the reader, as the owner decided; links to a whole section
+  under the section's heading.
+- **Ways in:** a "Clause page" button in the passage panel, the map, and
+  each case's list of provisions, which now opens clause pages.
+- **Built in Python** like every page (`tools/site_data.py`,
+  `_clause_pages`), rendered by `ClauseView.astro`. Clause pages are not in
+  the search index, so a search does not find each clause twice.
+

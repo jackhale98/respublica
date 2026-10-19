@@ -421,6 +421,7 @@ class SiteBuilder:
             raise ValueError(f"works without site settings in tools/site_data.py: {sorted(missing)}")
         self.ref_urls: dict[str, str] = {}
         self._plan_urls()
+        self.clause_refs = {s["ref"] for s in founding_passages(corpus, ("constitution", "amendments"))}
         # Amendment -> the passages whose text the National Archives marks as
         # changed by it (`changed_by`), so the amendment can link back to them.
         self.changes: dict[str, list[str]] = {}
@@ -502,6 +503,7 @@ class SiteBuilder:
         conns.sort(key=lambda e: (e["type"] == "interprets", e["other_label"][-5:-1] if e["type"] == "interprets" else ""))
         block = {
             "changed": changed,
+            "clause_url": clause_url(s["ref"]) if s["ref"] in self.clause_refs else None,
             "connections": conns,
             "gutter": gutter(s["ref"], work, s),
             "label": s.get("label", s["ref"]),
@@ -545,6 +547,11 @@ class SiteBuilder:
                 if self.changes.get(d["ref"]):
                     h["changes"] = [{"label": label_for(self.corpus, r), "ref": r, "url": self.url_for(r)}
                                     for r in self.changes[d["ref"]]]
+                # Links to the article or amendment as a whole (a case the
+                # Constitution Annotated cites under all of Amendment XIV).
+                whole = self._conns(d["ref"])
+                if whole:
+                    h["whole"] = whole
                 blocks.append(h)
             blocks.append(self._passage(work, s))
         return blocks
@@ -765,6 +772,8 @@ class SiteBuilder:
                 "id": "congress", "kind": "congress", "title": "Debates in Congress", "url": "/congress/",
             }
 
+        pages.update(self._clause_pages())
+
         if cases_out:
             pages["cases"] = {"cases": cases_out, "id": "cases", "kind": "cases", "title": "Supreme Court Cases",
                               "url": "/cases/"}
@@ -785,6 +794,71 @@ class SiteBuilder:
                                 "url": self.url_for(preamble["ref"])}
         return site, pages
 
+    def _conns(self, ref: str) -> list[dict]:
+        """The connections of a ref, each with its far end's URL, and for a
+        case its date and citation; cases in date order after the rest."""
+        out = []
+        for e in self.link_index["by_ref"].get(ref, []):
+            c = {**e, "other_url": self.url_for(e["other"])}
+            if e["other"].startswith("Case."):
+                doc = self.corpus.works.get(case_root(e["other"]).split(".")[1], {})
+                c["case"] = {k: doc[k] for k in ("date", "us_cite", "docket") if doc.get(k)}
+            out.append(c)
+        out.sort(key=lambda c: ("case" in c, c.get("case", {}).get("date", "")))
+        return out
+
+    # A clause page's groups of connections, by where the far end is.
+    CLAUSE_GROUPS = (
+        ("federalist", "The Federalist and Federalist essays"),
+        ("anti", "Anti-Federalist essays"),
+        ("other", "Other writings"),
+        ("congress", "Debates in Congress"),
+        ("cases", "The Supreme Court"),
+        ("founding", "The founding documents"),
+    )
+
+    def _clause_pages(self) -> dict[str, dict]:
+        """A page per clause of the Constitution and section of an amendment
+        (decision 52): its text, then what reaches it, grouped: the founding
+        debate by side, the debates in Congress, and the cases whose
+        Constitution Annotated essays cite it, oldest first. Links to the
+        article or amendment as a whole follow, then the clauses either side."""
+        segs = founding_passages(self.corpus, ("constitution", "amendments"))
+        pages = {}
+        for i, seg in enumerate(segs):
+            ref = seg["ref"]
+            work = self.corpus.works[self.corpus.segment_work[ref]]
+            groups = []
+            conns = self._conns(ref)
+            for key, label in self.CLAUSE_GROUPS:
+                items = [c for c in conns if ("cases" if "case" in c else map_side(self.corpus, work_key(self.corpus, c["other"]))) == key]
+                if items:
+                    groups.append({"id": key, "items": items, "label": label})
+            parts = ref.split(".")
+            # The article or amendment, and section, this clause is under (for crumbs and links to the whole).
+            above = [".".join(parts[:k]) for k in range(2, len(parts)) if ".".join(parts[:k]) in self.corpus.divisions]
+            whole = [{"label": label_for(self.corpus, a), "ref": a, "url": self.url_for(a), "items": self._conns(a)}
+                     for a in above if self._conns(a)]
+            near = lambda s: {"label": s["label"], "url": clause_url(s["ref"])}  # noqa: E731
+            block = self._passage(work, seg)
+            pages[f"clause-{ref}"] = {
+                "clause": {"changed": block["changed"], "label": seg["label"], "paras": block["paras"],
+                           "ref": ref, "url": self.url_for(ref)},
+                "counts": {g["id"]: len(g["items"]) for g in groups},
+                "crumbs": [{"label": work["title"], "url": work_url(work["id"], self.settings)}]
+                + [{"label": label_for(self.corpus, a), "url": self.url_for(a)} for a in above],
+                "groups": groups,
+                "id": f"clause-{ref}",
+                "kind": "clause",
+                "next": near(segs[i + 1]) if i + 1 < len(segs) else None,
+                "prev": near(segs[i - 1]) if i > 0 else None,
+                "title": seg["label"],
+                "url": clause_url(ref),
+                "whole": whole,
+                "work": {"id": work["id"], "title": work["title"], "url": work_url(work["id"], self.settings)},
+            }
+        return pages
+
     # Fields of a case file (cases/) that its page shows as they are.
     CASE_FIELDS = ("chosen_because", "conan_citation", "courtlistener_name", "courtlistener_url", "date", "docket",
                    "loc_url", "pdf_url", "syllabus_note", "us_cite")
@@ -796,7 +870,9 @@ class SiteBuilder:
         Constitution Annotated's essays cite it under, and overrulings."""
         wid, ref = work["id"], work["ref_prefix"]
         url = work_url(wid, self.settings)
-        conns = [{**e, "other_url": self.url_for(e["other"])} for e in self.link_index["by_ref"].get(ref, [])]
+        # A provision the case is cited under opens on its clause page.
+        conns = [{**e, "other_url": clause_url(e["other"]) if e["other"] in self.clause_refs else self.url_for(e["other"])}
+                 for e in self.link_index["by_ref"].get(ref, [])]
         overruled = ref in self.link_index["overruled"]
         case = {k: work[k] for k in self.CASE_FIELDS if work.get(k)}
         case |= {"id": wid, "ref": ref, "title": work["title"], "url": url, "overruled": overruled,
@@ -948,6 +1024,29 @@ def map_side(corpus: Corpus, wid: str) -> str:
     return "other"
 
 
+def founding_passages(corpus: Corpus, works: tuple[str, ...] = ("declaration", "constitution", "amendments")) -> list[dict]:
+    """The founding documents' own text, passage by passage in reading order:
+    not the Declaration's heading, the signers, or the notes after Article VII."""
+    out = []
+    for wid in works:
+        for seg in corpus.works.get(wid, {}).get("segments", []):
+            parts = seg["ref"].split(".")
+            if wid == "declaration" and not parts[1].isdigit():
+                continue
+            if wid == "constitution" and not (parts[1].isdigit() or parts[1] == "Preamble"):
+                continue
+            out.append(seg)
+    return out
+
+
+def clause_url(ref: str) -> str | None:
+    """A clause page's URL, which mirrors its ref: Constitution.1.8.18 ->
+    /constitution/1/8/18/, Amendment.14.1 -> /amendments/14/1/."""
+    head, _, rest = ref.partition(".")
+    base = {"Constitution": "/constitution/", "Amendment": "/amendments/"}.get(head)
+    return f"{base}{rest.lower().replace('.', '/')}/" if base and rest else None
+
+
 def build_map(corpus: Corpus, links: list[dict], refs: dict[str, dict], shorts: dict[str, str]) -> dict:
     """The overview map (/map/): the founding documents as a spine, passage
     by passage in reading order, with the links that reach each passage from
@@ -955,23 +1054,16 @@ def build_map(corpus: Corpus, links: list[dict], refs: dict[str, dict], shorts: 
     interpret it (by year); links between the debate's works, as arcs; and
     how much of each work has been linked, so the map does not overclaim."""
     spine, at = [], {}
-    for wid in ("declaration", "constitution", "amendments"):
-        work = corpus.works.get(wid)
-        if not work:
-            continue
-        for seg in work["segments"]:
-            ref = seg["ref"]
-            parts = ref.split(".")
-            # The text itself: not the heading, the signers or the notes after Article VII.
-            if wid == "declaration" and not parts[1].isdigit():
-                continue
-            if wid == "constitution" and not (parts[1].isdigit() or parts[1] == "Preamble"):
-                continue
-            group = ("Declaration" if wid == "declaration" else "Preamble" if parts[1] == "Preamble"
-                     else f"Amendment {parts[1]}" if wid == "amendments" else f"Article {roman(int(parts[1]))}")
-            at[ref] = len(spine)
-            spine.append({"group": group, "label": refs.get(ref, {}).get("label", ref), "ref": ref,
-                          "short": short_label(refs.get(ref, {}).get("label", ref)), "url": refs.get(ref, {}).get("url")})
+    for seg in founding_passages(corpus):
+        ref = seg["ref"]
+        parts = ref.split(".")
+        group = ("Declaration" if parts[0] == "Declaration" else "Preamble" if parts[1] == "Preamble"
+                 else f"Amendment {parts[1]}" if parts[0] == "Amendment" else f"Article {roman(int(parts[1]))}")
+        at[ref] = len(spine)
+        # A clause opens its own page; the Declaration's paragraphs open in the reader.
+        spine.append({"group": group, "label": refs.get(ref, {}).get("label", ref), "ref": ref,
+                      "short": short_label(refs.get(ref, {}).get("label", ref)),
+                      "url": clause_url(ref) or refs.get(ref, {}).get("url")})
 
     def spot(ref: str) -> int | None:
         """The spine passage a link end reaches: itself, or the first passage of a whole article or amendment."""

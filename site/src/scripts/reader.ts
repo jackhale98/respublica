@@ -194,6 +194,12 @@ function q<T extends Element = HTMLElement>(sel: string) {
 function fillPanel(p: HTMLElement) {
   if (!panel) return;
   q("[data-panel-ref]")!.textContent = p.dataset.ref || "";
+  // A clause of the Constitution or an amendment has a page of its own.
+  const clauseLink = q<HTMLAnchorElement>("[data-panel-clause]");
+  if (clauseLink) {
+    clauseLink.hidden = !p.dataset.clause;
+    if (p.dataset.clause) clauseLink.href = p.dataset.clause;
+  }
   q("[data-panel-label]")!.textContent = p.dataset.label || "";
   const changed = q("[data-panel-changed]")!;
   const chg = p.querySelector<HTMLTemplateElement>("template.chg-data");

@@ -13,6 +13,7 @@ const numeral = (label) => label.split(" ").at(-1);
   id={block.ref}
   data-ref={block.ref}
   data-label={block.label}
+  data-clause={block.clause_url ? localUrl(block.clause_url) : undefined}
 >
   {(block.aliases || []).map((a) => <span class="alias" id={a} aria-hidden="true"></span>)}
   <a class="num" href={`#${block.ref}`} data-pagefind-ignore>{block.gutter || "·"}<span class="sr-only">{block.gutter ? ": " : ""}{block.label} ({block.ref})</span></a>

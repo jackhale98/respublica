@@ -8,6 +8,7 @@ import PaperView from "../components/views/PaperView.astro";
 import WorkView from "../components/views/WorkView.astro";
 import CaseView from "../components/views/CaseView.astro";
 import CasesView from "../components/views/CasesView.astro";
+import ClauseView from "../components/views/ClauseView.astro";
 import { loadPage, loadSite } from "../lib/data.js";
 
 // Every reader and index page comes from site/.data (tools/site_data.py),
@@ -30,3 +31,4 @@ const { page, work } = Astro.props;
 {page.kind === "congress" && <CongressView page={page} />}
 {page.kind === "case" && <CaseView page={page} />}
 {page.kind === "cases" && <CasesView page={page} />}
+{page.kind === "clause" && <ClauseView page={page} />}

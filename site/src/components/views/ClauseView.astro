@@ -1,0 +1,124 @@
+---
+import "../../styles/clause.css";
+import Base from "../../layouts/Base.astro";
+import Runs from "../Runs.astro";
+import { href, formatDate, localUrl } from "../../lib/data.js";
+
+// One clause of the Constitution, or one section of an amendment
+// (tools/site_data.py `_clause_pages`, decision 52): its text, then every
+// link that reaches it, grouped: the founding debate by side, the debates in
+// Congress, the Supreme Court cases whose Constitution Annotated essays cite
+// it (oldest first), and links to the article or amendment as a whole.
+// Nothing here says what a case held (CLAUDE.md rule 7): each case link
+// names its source.
+const { page } = Astro.props;
+const c = page.clause;
+const total = page.groups.reduce((n, g) => n + g.items.length, 0);
+const COUNT_NAMES = { federalist: "Federalist side", anti: "Anti-Federalists", other: "other writings", congress: "Congress", cases: "cases", founding: "founding documents" };
+const counts = page.groups.map((g) => `${g.items.length} ${g.id === "cases" ? (g.items.length === 1 ? "case" : "cases") : COUNT_NAMES[g.id]}`);
+const kicker = c.ref.startsWith("Amendment.") ? "Amendments to the Constitution" : "The Constitution";
+---
+<Base title={c.label} section={page.work.id} description={`${c.label}: its text, the founding debate and debates in Congress that quote or cite it, and the Supreme Court cases that interpret it.`}>
+  <section class="page-head clause-head">
+    <div class="container">
+      <ol class="crumbs">
+        <li><a href={href("/")}>Library</a></li>
+        {page.crumbs.map((x) => <li>{localUrl(x.url) ? <a href={localUrl(x.url)}>{x.label}</a> : x.label}</li>)}
+        <li aria-current="page">{c.label.split(", ").at(-1)}</li>
+      </ol>
+      <span class="eyebrow">{kicker}</span>
+      <h1>{c.label}</h1>
+      <blockquote class="clause-text">
+        {c.paras.map((lines) => <p>{lines.map((runs, i) => <Fragment>{i > 0 && <br />}<Runs runs={runs} /></Fragment>)}</p>)}
+      </blockquote>
+      {c.changed.length > 0 && (
+        <p class="clause-changed">
+          The National Archives marks part of this text as changed by{" "}
+          {c.changed.map((x, i) => <Fragment>{i > 0 && ", "}{localUrl(x.url) ? <a href={localUrl(x.url)}>{x.label}</a> : x.label}</Fragment>)}.
+        </p>
+      )}
+      <div class="clause-meta">
+        <a class="btn btn-ghost" href={localUrl(c.url)}>Read it in context</a>
+        <code class="ref-chip">{c.ref}</code>
+        <span class="muted">{total ? counts.join(" · ") : "No links yet"}</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="container clause-body">
+    {page.groups.length > 0 && (
+      <nav class="clause-toc" aria-label="On this page">
+        {page.groups.map((g) => <a href={`#${g.id}`}>{g.label} <span>{g.items.length}</span></a>)}
+        {page.whole.length > 0 && <a href="#whole">On {page.whole.map((w) => w.label).join(", ")} as a whole</a>}
+      </nav>
+    )}
+
+    {page.groups.map((g) => (
+      <section class="clause-group" id={g.id} aria-labelledby={`${g.id}-h`}>
+        <h2 id={`${g.id}-h`}><i class={`sw s-${g.id}`} aria-hidden="true"></i>{g.label}</h2>
+        {g.id === "cases" && <p class="muted">Cases whose essays in the Constitution Annotated cite them under this clause, oldest first. Each link names the pages it comes from.</p>}
+        <ul class="clause-links">
+          {g.items.map((x) => (
+            <li class:list={["cl-item", x.status]}>
+              <div class="cl-top">
+                <span class="cl-verb">{x.verb}</span>
+                {x.status === "suggested" ? <span class="badge suggested" title="Proposed by a machine; not yet reviewed by a person">Suggested</span> : <span class="badge reviewed">Reviewed</span>}
+                {x.other_overruled && <span class="badge overruled">Overruled</span>}
+              </div>
+              {localUrl(x.other_url) ? <a class="cl-target" href={localUrl(x.other_url)}>{x.other_label}</a> : <span class="cl-target">{x.other_label}</span>}
+              {x.case && <span class="cl-case">{[x.case.us_cite || (x.case.docket && `No. ${x.case.docket}`), x.case.date && `decided ${formatDate(x.case.date)}`].filter(Boolean).join(", ")}</span>}
+              {x.other_excerpt && (x.other_excerpt.before || x.other_excerpt.quote || x.other_excerpt.after) && (
+                <blockquote>{x.other_excerpt.before}{x.other_excerpt.quote && <mark>{x.other_excerpt.quote}</mark>}{x.other_excerpt.after}</blockquote>
+              )}
+              {x.rationale && <p class="cl-why">{x.rationale}</p>}
+              {x.source && <p class="cl-src">Source: {x.source}</p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    {page.whole.map((w, k) => (
+      <section class="clause-group" id={k === 0 ? "whole" : undefined}>
+        <h2>On {localUrl(w.url) ? <a href={localUrl(w.url)}>{w.label}</a> : w.label} as a whole</h2>
+        <ul class="clause-links">
+          {w.items.map((x) => (
+            <li class:list={["cl-item", x.status]}>
+              <div class="cl-top">
+                <span class="cl-verb">{x.verb}</span>
+                {x.status === "suggested" && <span class="badge suggested">Suggested</span>}
+                {x.other_overruled && <span class="badge overruled">Overruled</span>}
+              </div>
+              {localUrl(x.other_url) ? <a class="cl-target" href={localUrl(x.other_url)}>{x.other_label}</a> : <span class="cl-target">{x.other_label}</span>}
+              {x.case && <span class="cl-case">{[x.case.us_cite, x.case.date && `decided ${formatDate(x.case.date)}`].filter(Boolean).join(", ")}</span>}
+              {x.source && <p class="cl-src">Source: {x.source}</p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    {total === 0 && page.whole.length === 0 && (
+      <p class="muted clause-empty">No links reach this clause yet. As the debates are linked and the links reviewed, they will appear here.</p>
+    )}
+
+    <p class="muted clause-note">
+      Links marked “Suggested” were proposed by a machine and await review by a person. <a href={href("/about/")}>How links are made</a> · <a href={href("/map/")}>Map of connections</a>
+    </p>
+
+    <nav class="pager" aria-label="Clauses">
+      {page.prev && (
+        <a class="card prev" rel="prev" href={href(page.prev.url)}>
+          <small>Previous</small>
+          <strong>{page.prev.label}</strong>
+        </a>
+      )}
+      {page.next && (
+        <a class="card next" rel="next" href={href(page.next.url)}>
+          <small>Next</small>
+          <strong>{page.next.label}</strong>
+        </a>
+      )}
+    </nav>
+  </div>
+</Base>

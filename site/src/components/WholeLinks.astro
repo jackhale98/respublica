@@ -1,0 +1,22 @@
+---
+import { localUrl } from "../lib/data.js";
+
+// Links to a division as a whole, under its heading in the reader: a case
+// cited under all of Amendment XIV, an essay on "the eighth section".
+const { block } = Astro.props;
+---
+{block.whole && (
+  <div class="rh-whole" data-pagefind-ignore>
+    <span>On {block.label} as a whole:</span>
+    <ul>
+      {block.whole.map((c) => (
+        <li>
+          {c.verb}{" "}
+          {localUrl(c.other_url) ? <a href={localUrl(c.other_url)}>{c.other_label}</a> : c.other_label}
+          {c.status === "suggested" && <span class="badge suggested">suggested</span>}
+          {c.other_overruled && <span class="badge overruled">overruled</span>}
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
