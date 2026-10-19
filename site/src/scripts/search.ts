@@ -384,7 +384,21 @@ export function attachPalette(dialog: HTMLDialogElement, initial = "") {
     }
   });
   results.addEventListener("click", (e) => {
-    if ((e.target as HTMLElement).closest("a")) dialog.close();
+    const a = (e.target as HTMLElement).closest<HTMLAnchorElement>("a");
+    if (!a) return;
+    // A passage on this page: close the search first, then go to the passage,
+    // so closing the dialog (which returns focus to the search button) does
+    // not leave the page scrolled elsewhere.
+    if (a.pathname === location.pathname && a.hash) {
+      e.preventDefault();
+      dialog.close();
+      requestAnimationFrame(() => {
+        if (location.hash === a.hash) window.dispatchEvent(new HashChangeEvent("hashchange"));
+        else location.hash = a.hash;
+      });
+      return;
+    }
+    dialog.close();
   });
   dialog.querySelector("form")?.addEventListener("submit", (e) => e.preventDefault());
   loadPagefind();
