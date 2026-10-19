@@ -360,6 +360,8 @@ def _finish(paras: list[tuple[int, list[Line]]]) -> list[Paragraph]:
         # The judgment line ("108 F. 2d 683, reversed.") closes the syllabus;
         # only another judgment line may follow it (one per case decided).
         if AFTER.search(text) or (out and JUDGMENT.search(out[-1].text) and not JUDGMENT.search(text)):
+            if RUN_IN.search(text):
+                out.append(Paragraph(text, n))  # paragraphs run together: left for problems() to refuse
             break
         out.append(Paragraph(text, n))
     return out
@@ -380,6 +382,13 @@ LEADS_IN = re.compile(r"[A-Za-z][-—–]$")
 FIRST_PART = re.compile(r"^\((a|1|i)\) ")
 
 
+# A judgment with the lineup of opinions or the counsel after it in one
+# paragraph: the breaks between the last paragraphs were missed, and what
+# came before the judgment may have run together too.
+RUN_IN = re.compile(r"\d.{0,120}?\b(af+[ﬁi]?r?m?ed|reversed|remanded|vacated|dismissed|modified)( in part)?\.\s"
+                    r".*(\bpost, pp?\. ?\d|\bJJ?\., (joined|filed|took)|argued the cause)")
+
+
 def problems(paras: list[Paragraph]) -> list[str]:
     """Why a syllabus as read looks incomplete or out of order: a paragraph
     that stops mid-sentence (the text layer lost its order, or the end of
@@ -391,7 +400,9 @@ def problems(paras: list[Paragraph]) -> list[str]:
     if not paras:
         return ["no syllabus found"]
     for k, p in enumerate(paras, 1):
-        if not (SENTENCE_END.search(p.text) or (k == len(paras) and DISPOSITION.search(p.text))
+        if RUN_IN.search(p.text):
+            out.append(f"paragraph {k} (p. {p.page}) runs the judgment into what follows it")
+        elif not (SENTENCE_END.search(p.text) or (k == len(paras) and DISPOSITION.search(p.text))
                 or (k < len(paras) and LEADS_IN.search(p.text) and FIRST_PART.match(paras[k].text))):
             out.append(f"paragraph {k} (p. {p.page}) stops mid-sentence: …{p.text[-50:]!r}")
     return out
