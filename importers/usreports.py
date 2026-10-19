@@ -49,7 +49,7 @@ END = re.compile(r"delivered the opinion|announced the judgment|^PER CURIAM|^Per
                  r"|^T(HE|he) (case|facts) (is|are) stated\b")   # "THE case is stated in the opinion."
 # A paragraph that matches any of these, and all after it, are not syllabus:
 # counsel, the lineup of the Justices' opinions, notes of separate opinions.
-AFTER = re.compile(r"argued(?: the| for|$)|submitted (on )?(the|a|his|their) briefs?|\bon (the|his|their) briefs?\b"
+AFTER = re.compile(r"argued(?: the cause| for|$)|submitted (on )?(the|a|his|their) briefs?|\bon (the|his|their) briefs?\b"
                    r"|\bamic(i|us) curiae,? (urging|filed|in support)|^Mr\. [A-Z]|^Messrs\.|\bpost, p\. ?\d+"
                    r"|\bfiled (a |an )?(\w+ )*opinions?\b|^For (the )?(\w+ )*opinions? of"
                    r"|\bfor (appellants?|appellees?|petitioners?|respondents?|plaintiffs? in error|defendants? in error)( in [^.]*)?\.$|\bpost,$")
@@ -68,6 +68,14 @@ RUNNING_HEAD = re.compile(r"^(\d+ )?Syllabus\.?( \d+ U\. ?S\.)?$|^Cite as: \d+ U
 DATE_MORE = re.compile(r"\b(Argued|Reargued|Decided|Submitted|reargument|Opinion announced)\b"
                        r"|^[A-Z][a-z]+\.? \d{1,2}(-\d+)?, \d{4}\.?\*?$|^(?=[a-z\d]).*(\d{1,2}, \d{4}\.|\d{4}\.-)"
                        r"|^\d{4}\.?\*?$")
+# Where no opinion has a majority throughout, the syllabus goes on after the
+# judgment line with what each opinion concluded, a part to each: "JUSTICE
+# WHITE delivered the opinion of the Court with respect to Part II,
+# concluding that ...". The Justice's title comes before the name, unlike the
+# lineup that follows the syllabus ("WHITE, J., delivered the opinion ...").
+PART_HEAD = re.compile(r"^(\d+\. )?(THE CHIEF JUSTICE|(CHIEF )?JUSTICE [A-Z][A-Z'’]+|(Chief )?Justice [A-Z][a-z'’]+\w*)"
+                       r"( and (JUSTICE|Justice) [A-Z][\w'’]+)?,? (delivered|announced)\b")
+CONCLUDING = re.compile(r"\bconclud(ing|ed)\b")
 HEAD_GAP = 30                   # running heads: within this of the page's top line
 # In the volumes that print no dates (to 1882) the running head is one line,
 # with no subhead under it, and the small type of a syllabus can follow it
@@ -81,7 +89,7 @@ class Paragraph:
     page: int           # the printed page it starts on
 
 
-SYLLABUS_PAGES = 12  # the syllabus, with the counsel after it, fits in the first pages
+SYLLABUS_PAGES = 24  # the syllabus, with the counsel after it, fits in the first pages (McConnell: 19)
 
 
 @lru_cache(maxsize=None)
@@ -198,6 +206,12 @@ def _carries_on(take: list[Line], line: Line) -> bool:
     return line.y - take[-1].y <= 1.5 * gaps[len(gaps) // 2] and take[-1].x1 >= right - 25
 
 
+def _part_head(lines: list[Line], k: int) -> bool:
+    """Whether line k begins a part of the syllabus for one opinion (PART_HEAD),
+    which says within its first lines what the opinion concluded."""
+    return bool(PART_HEAD.match(lines[k].text)) and bool(CONCLUDING.search(" ".join(l.text for l in lines[k:k + 4])))
+
+
 def _next_item(lines: list[Line], line: Line) -> bool:
     """Whether a line on the margin starts the next numbered paragraph:
     "5. ..." after a paragraph numbered "4." that ends a sentence (the
@@ -251,7 +265,7 @@ def syllabus(volume: int, page: int) -> list[Paragraph]:
         take, ended = [], False
         big = [l.size >= size + 1.5 for l in lines]
         for k, line in enumerate(lines):
-            if END.search(line.text) and (take or paras):
+            if END.search(line.text) and (take or paras) and not _part_head(lines, k):
                 ended = True
                 break
             # Larger type, for two lines running (OCR misjudges a single line's size now and then),
@@ -276,7 +290,7 @@ def syllabus(volume: int, page: int) -> list[Paragraph]:
             margin = max(xs, key=lambda x: sum(abs(y - x) <= 3 for y in xs))
             right = sorted(l.x1 for l in body)[len(body) // 2]
             prev = None  # the line before, on this page
-            for line in body:
+            for j, line in enumerate(body):
                 # A paragraph starts on a line indented (or, for a hanging
                 # indent, outdented) from the margin, or after a short line;
                 # unless the line plainly carries on the one before it.
@@ -287,7 +301,7 @@ def syllabus(volume: int, page: int) -> list[Paragraph]:
                 elif not new and paras and _next_item(paras[-1][1], line):
                     new = True
                 if new:
-                    if END.search(line.text):
+                    if END.search(line.text) and not _part_head(body, j):
                         ended = True
                         break
                     paras.append((page + i, [line]))
@@ -352,6 +366,7 @@ def printed_dates(volume: int, page: int) -> PrintedDates:
 
 def _finish(paras: list[tuple[int, list[Line]]]) -> list[Paragraph]:
     out = []
+    parts = False  # past the judgment, in the parts for each opinion
     for n, lines in paras:
         text = ""
         for line in lines:
@@ -359,7 +374,11 @@ def _finish(paras: list[tuple[int, list[Line]]]) -> list[Paragraph]:
             text = join_across(text, t) if text else t
         # The judgment line ("108 F. 2d 683, reversed.") closes the syllabus;
         # only another judgment line may follow it (one per case decided).
-        if AFTER.search(text) or (out and JUDGMENT.search(out[-1].text) and not JUDGMENT.search(text)):
+        # After it may come the parts for each opinion, up to the lineup.
+        if out and JUDGMENT.search(out[-1].text) and PART_HEAD.match(text) and CONCLUDING.search(text):
+            parts = True
+        elif AFTER.search(text) or (not parts and out and JUDGMENT.search(out[-1].text)
+                                    and not JUDGMENT.search(text)):
             if RUN_IN.search(text):
                 out.append(Paragraph(text, n))  # paragraphs run together: left for problems() to refuse
             break
