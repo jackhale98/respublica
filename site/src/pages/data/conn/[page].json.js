@@ -12,6 +12,7 @@ export function GET({ params }) {
   const out = {};
   for (const b of [...(page.blocks || []), ...(page.notes || [])]) {
     if (b.type === "passage" && b.connections?.length) out[b.ref] = b.connections;
+    if (b.type === "heading" && b.whole?.length) out[b.ref] = b.whole; // links to the article or section as a whole
   }
   return new Response(JSON.stringify(out), { headers: { "Content-Type": "application/json" } });
 }

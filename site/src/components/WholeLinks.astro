@@ -1,22 +1,24 @@
 ---
 import { localUrl } from "../lib/data.js";
 
-// Links to a division as a whole, under its heading in the reader: a case
-// cited under all of Amendment XIV, an essay on "the eighth section".
+// Links to a division as a whole (a case cited under all of Amendment XIV,
+// an essay on "the eighth section"). With JavaScript they open in the
+// passage panel from the count in the heading (reader.ts), like a clause's;
+// without it, this list, closed, under the heading.
 const { block } = Astro.props;
 ---
 {block.whole && (
-  <div class="rh-whole" data-pagefind-ignore>
-    <span>On {block.label} as a whole:</span>
-    <ul>
+  <details class="conns rh-whole" data-pagefind-ignore>
+    <summary>{block.whole.length} {block.whole.length === 1 ? "link" : "links"} to {block.label} as a whole</summary>
+    <ul class="conn-mini">
       {block.whole.map((c) => (
         <li>
           {c.verb}{" "}
           {localUrl(c.other_url) ? <a href={localUrl(c.other_url)}>{c.other_label}</a> : c.other_label}
-          {c.status === "suggested" && <span class="badge suggested">suggested</span>}
-          {c.other_overruled && <span class="badge overruled">overruled</span>}
+          {c.status === "suggested" && " (suggested)"}
+          {c.other_overruled && " (overruled)"}
         </li>
       ))}
     </ul>
-  </div>
+  </details>
 )}

@@ -942,9 +942,12 @@ The project owner asked for the clause pages planned for phase 7.
   characterizes a holding (rule 7). Links to the article, section or
   amendment as a whole follow, then the clauses either side.
 - **Links to a whole article or amendment** (a case the Constitution
-  Annotated cites under all of Amendment XIV) also show under that
-  heading in the reader, as the owner decided; links to a whole section
-  under the section's heading.
+  Annotated cites under all of Amendment XIV) also show at that heading in
+  the reader, as the owner decided; links to a whole section at the
+  section's heading. In the heading they are a count, like a passage's;
+  selecting it opens them in the passage panel, with previews (without
+  JavaScript, a closed list under the heading). A heading that is itself
+  a passage (the Preamble) has no links of its own.
 - **Ways in:** a "Clause page" button in the passage panel, the map, and
   each case's list of provisions, which now opens clause pages.
 - **Built in Python** like every page (`tools/site_data.py`,

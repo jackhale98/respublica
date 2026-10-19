@@ -213,15 +213,19 @@ function fillPanel(p: HTMLElement) {
   }
   const conns = q("[data-panel-conns]")!;
   const empty = q("[data-panel-empty]")!;
-  const has = !!p.querySelector(".conns");
+  // A heading has links to its article or section as a whole; a passage, its own.
+  const heading = !p.classList.contains("passage");
+  const has = heading ? !!p.querySelector("[data-heading-count]") : !!p.querySelector(".conns");
   empty.hidden = has;
-  q("[data-action=show-graph]")!.hidden = !has;
+  q("[data-action=show-graph]")!.hidden = !has || heading;
+  q("[data-action=copy-quote]")!.hidden = heading;
   conns.replaceChildren(...(has ? [loading("Loading connections…", "muted")] : []));
   if (has) {
     loadConns().then((data) => {
       if (selected !== p) return;
       const list = el("ul", "conn-list");
-      list.append(...(data[p.id] || []).map((c) => renderConn(c, p.id)));
+      const ref = p.dataset.ref || p.id;
+      list.append(...(data[ref] || []).map((c) => renderConn(c, ref)));
       conns.replaceChildren(list);
     });
   }
@@ -263,6 +267,15 @@ function deselect() {
   if (q(".panel-passage")) q(".panel-passage")!.hidden = true;
   history.replaceState(null, "", location.pathname + location.search);
 }
+
+// The link count in an article's or section's heading opens its links to the whole.
+document.querySelectorAll<HTMLButtonElement>("[data-heading-count]").forEach((b) => {
+  b.hidden = false;
+  b.addEventListener("click", () => {
+    const h = b.closest<HTMLElement>("h2, h3");
+    if (h) select(h, { sheet: true });
+  });
+});
 
 for (const p of passages) {
   p.addEventListener("click", (e) => {

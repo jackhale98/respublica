@@ -549,7 +549,7 @@ class SiteBuilder:
                                     for r in self.changes[d["ref"]]]
                 # Links to the article or amendment as a whole (a case the
                 # Constitution Annotated cites under all of Amendment XIV).
-                whole = self._conns(d["ref"])
+                whole = self._conns(d["ref"]) if d["ref"] not in self.corpus.segments else []
                 if whole:
                     h["whole"] = whole
                 blocks.append(h)
@@ -991,10 +991,11 @@ def build_previews(corpus: Corpus, pages: dict[str, dict], refs: dict[str, dict]
         if page["kind"] not in ("work", "part", "case"):
             continue
         for b in page.get("blocks", []) + page.get("notes", []):
-            if b["type"] != "passage" or not b.get("connections"):
+            conns = b.get("connections") if b["type"] == "passage" else b.get("whole")  # a heading: links to the whole
+            if not conns:
                 continue
             previews = {}
-            for c in b["connections"]:
+            for c in conns:
                 pv = preview_of(corpus, c["other"], refs, c.get("other_quote"))
                 if pv:
                     previews[c["id"]] = pv
