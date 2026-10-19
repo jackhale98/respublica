@@ -1,0 +1,68 @@
+{
+  "chosen_because": [
+    "overrules Penry v. Lynaugh (table of overruled decisions)"
+  ],
+  "conan_citation": "Atkins v. Virginia, 536 U.S. 304 (2002)",
+  "courtlistener_name": "Atkins v. Virginia",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/121158/atkins-v-virginia/",
+  "date": "2002-06-20",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 121158. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 536, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "121158",
+  "loc_url": "https://www.loc.gov/item/usrep536304/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep536/usrep536304/usrep536304.pdf",
+  "ref_prefix": "Case.121158",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Atkins v. Virginia, syllabus ¶ 1",
+      "page": 304,
+      "ref": "Case.121158.syllabus.1",
+      "text": "Petitioner Atkins was convicted of capital murder and related crimes by a Virginia jury and sentenced to death. Affirming, the Virginia Supreme Court relied on Penry v. Lynaugh, 492 U. S. 302, in rejecting Atkins' contention that he could not be sentenced to death because he is mentally retarded."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Atkins v. Virginia, syllabus ¶ 2",
+      "page": 304,
+      "ref": "Case.121158.syllabus.2",
+      "text": "Held: Executions of mentally retarded criminals are \"cruel and unusual punishments\" prohibited by the Eighth Amendment. Pp. 311-321."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Atkins v. Virginia, syllabus ¶ 3",
+      "page": 304,
+      "ref": "Case.121158.syllabus.3",
+      "text": "(a) A punishment is \"excessive,\" and therefore prohibited by the Amendment, if it is not graduated and proportioned to the offense. E. g., Weems v. United States, 217 U. S. 349, 367. An excessiveness claim is judged by currently prevailing standards of decency. Trop v. Dulles, 356 U. S. 86, 100-101. Proportionality review under such evolving standards should be informed by objective factors to the maximum possible extent, see, e. g., Harmelin v. Michigan, 501 U. S. 957, 1000, the clearest and most reliable of which is the legislation enacted by the country's legislatures, Penry, 492 U. S., at 331. In addition to objective evidence, the Constitution contemplates that this Court will bring its own judgment to bear by asking whether there is reason to agree or disagree with the judgment reached by the citizenry and its legislators, e. g., Coker v. Georgia, 433 U. S. 584, 597. Pp. 311-313."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Atkins v. Virginia, syllabus ¶ 4",
+      "page": 304,
+      "ref": "Case.121158.syllabus.4",
+      "text": "(b) Much has changed since Penry's conclusion that the two state statutes then existing that prohibited such executions, even when added to the 14 States that had rejected capital punishment completely, did not provide sufficient evidence of a consensus. 492 U. S., at 334. Subsequently, a significant number of States have concluded that death is not a suitable punishment for a mentally retarded criminal, and similar bills have passed at least one house in other States. It is not so much the number of these States that is significant, but the consistency of the direction of change. Given that anticrime legislation is far more popular than legislation protecting violent criminals, the large number of States prohibiting the execution of mentally retarded persons (and the complete absence of legislation reinstating such executions) provides powerful evidence that today society views mentally retarded offenders as categorically less culpable than the average criminal. The evidence carries even greater force when it is noted that the legislatures addressing the issue have voted overwhelmingly in favor of the prohibition. Moreover, even in States allowing the execution of mentally retarded offenders, the practice is uncommon. Pp. 313-317."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Atkins v. Virginia, syllabus ¶ 5",
+      "page": 305,
+      "ref": "Case.121158.syllabus.5",
+      "text": "(c) An independent evaluation of the issue reveals no reason for the Court to disagree with the legislative consensus. Clinical definitions of mental retardation require not only subaverage intellectual functioning, but also significant limitations in adaptive skills. Mentally retarded persons frequently know the difference between right and wrong and are competent to stand trial, but, by definition, they have diminished capacities to understand and process information, to communicate, to abstract from mistakes and learn from experience, to engage in logical reasoning, to control impulses, and to understand others' reactions. Their deficiencies do not warrant an exemption from criminal sanctions, but diminish their personal culpability. In light of these deficiencies, the Court's death penalty jurisprudence provides two reasons to agree with the legislative consensus. First, there is a serious question whether either justification underpinning the death penalty-retribution and deterrence of capital crimes-applies to mentally retarded offenders. As to retribution, the severity of the appropriate punishment necessarily depends on the offender's culpability. If the culpability of the average murderer is insufficient to justify imposition of death, see Godfrey v. Georgia, 446 U. S. 420, 433, the lesser culpability of the mentally retarded offender surely does not merit that form of retribution. As to deterrence, the same cognitive and behavioral impairments that make mentally retarded defendants less morally culpable also make it less likely that they can process the information of the possibility of execution as a penalty and, as a result, control their conduct based upon that information. Nor will exempting the mentally retarded from execution lessen the death penalty's deterrent effect with respect to offenders who are not mentally retarded. Second, mentally retarded defendants in the aggregate face a special risk of wrongful execution because of the possibility that they will unwittingly confess to crimes they did not commit, their lesser ability to give their counsel meaningful assistance, and the facts that they are typically poor witnesses and that their demeanor may create an unwarranted impression of lack of remorse for their crimes. Pp. 317-l21."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Atkins v. Virginia, syllabus ¶ 6",
+      "page": 305,
+      "ref": "Case.121158.syllabus.6",
+      "text": "260 Va. 375, 534 S. E. 2d 312, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-536-304"
+  ],
+  "title": "Atkins v. Virginia",
+  "us_cite": "536 U.S. 304"
+}

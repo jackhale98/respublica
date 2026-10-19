@@ -25,9 +25,23 @@ where the work stands and what comes next.
 ## Where things stand
 
 Phases 0–6 are done (the README's status table has the counts): the
-founding documents, The Federalist, twenty works of the ratification
+founding documents, The Federalist, twenty-two works of the ratification
 debate read from scans, about 740 suggested links awaiting review, the
 connections panel and graph, search, and the review page.
+
+**More of the debate** (decision 55): Brutus V–XVI (not XI, which has no
+scan) from the *New-York Journal*'s single Library of Congress scan
+(`importers/nyjournal.py`; about 14% of words marked uncertain, most with a
+suggestion), and Patrick Henry's twenty-four speeches in the Virginia
+convention from Elliot's *Debates* (`importers/elliot.py`, four scans,
+under 0.1% uncertain). The Anti-Federalist Library is a tie-breaker only
+(`importers/library.py`): it chose among scans' readings in Brutus I–IV,
+Agrippa I–XI, the Federal Farmer I–V and Centinel I and V–XVIII (28 words),
+and its readings appear on `/errata/` as suggestions. No links have been
+proposed for the new texts yet; check the newspaper essays' paragraph
+breaks first (erratum 63). Not imported, for want of a scan to check the
+Library against: Old Whig, Maryland Farmer, Impartial Examiner, John
+DeWitt, Philadelphiensis, Melancton Smith.
 
 **Debates in Congress** (`/congress/`): the House's 1789 debate on the
 amendments, from the Annals of Congress (`importers/annals.py`, decision
@@ -49,14 +63,16 @@ without a heading of its own, belongs too needs a look at pp. 733–741.
 
 **Phase 7, Supreme Court cases: the first set is imported** (decision 49):
 
-- 213 cases (`cases/`), chosen by the rules of decisions 41 to 43, each
+- 232 cases (`cases/`), chosen by the rules of decisions 41 to 43 and 53, each
   keyed by its CourtListener cluster (`importers/courtlistener.py`; the
   recorded lookups are raw sources), with a page at `/cases/{id}/` and an
   index at `/cases/`.
-- The syllabus as printed in the U.S. Reports for 156 of them, read from the
-  Library of Congress scans (`importers/usreports.py`, `importers/cases.py`).
+- The syllabus as printed in the U.S. Reports for 202 of them, read from the
+  Library of Congress scans (`importers/usreports.py`, `importers/cases.py`),
+  or for nine recent cases from the Supreme Court's PDFs (`importers/scotus.py`,
+  decision 54; in git).
   The scans are kept out of git: run `make fetch` first in a fresh clone.
-- 338 `interprets` and 39 `overrules` links, imported from the Constitution
+- 356 `interprets` and 60 `overrules` links, imported from the Constitution
   Annotated as suggestions (`importers/case_links.py`), on the review page
   under "Supreme Court cases".
 - CourtListener allows the token 125 requests a day; the lookups use about a
@@ -70,21 +86,17 @@ without a heading of its own, belongs too needs a look at pp. 733–741.
 1. **Review the case links** on `/review/` ("Supreme Court cases"), checking
    a sample against the Constitution Annotated pages each link names.
 2. **Syllabi not yet shown** (each case says why in `syllabus_note`):
-   - 25 scans whose text layer the reader could not follow
+   - 5 scans whose text layer the reader cannot yet follow: 294 U.S. 532 and
+     362 U.S. 257 (a comma read where a full stop is printed), 392 U.S. 1 (an
+     OCR speck), 307 U.S. 496 (an outdented line after a wider gap) and
+     424 U.S. 1 (the judgment run into the list of opinions)
      (`python -m importers.usreports syllabus VOL PAGE` prints what it reads
-     and the problem). Most are hanging-indent headnotes of 1880–1940 or
-     pages whose OCR lines are out of order; improve the reader, never type
-     text.
-   - 7 recent decisions (Dobbs, Kennedy v. Bremerton, …) not yet in the
-     Library of Congress collection: the owner approved taking their
-     syllabus from CourtListener's text of the slip opinion (an opinion
-     request per case), but that text drops the hyphen where a word breaks
-     at a line end ("electioneer ing", "corpora tion"), so it cannot be
-     rejoined without guessing. Reading the Court's slip-opinion PDF itself
-     (supremecourt.gov) would need the owner's approval as a new source.
+     and the problem). Improve the reader, never type text.
+   - *Townsend v. Sain* (372 U.S. 293): no syllabus found in the scan's text
+     layer; look at why.
    - 21 decisions before volume 91 and 3 summary decisions have no syllabus
-     by design; *Sessions v. Morales-Santana* (582 U.S. 47) is not yet in the
-     Library of Congress collection.
+     by design. Later cases not yet scanned by the Library of Congress need
+     their Court PDF added to `importers/scotus.py` (`PRINTS`).
 3. **OCR in syllabi**: misreadings are copied, not fixed (rule 3); record
    suspected ones in `docs/errata.md` for a person to check against the
    page image the case page links to.

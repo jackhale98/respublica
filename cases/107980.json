@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "overrules Palko v. Connecticut (table of overruled decisions)"
+  ],
+  "conan_citation": "Benton v. Maryland, 395 U.S. 784 (1969)",
+  "courtlistener_name": "Benton v. Maryland",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107980/benton-v-maryland/",
+  "date": "1969-06-23",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107980. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 395, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107980",
+  "loc_url": "https://www.loc.gov/item/usrep395784/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep395/usrep395784/usrep395784.pdf",
+  "ref_prefix": "Case.107980",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Benton v. Maryland, syllabus ¶ 1",
+      "page": 784,
+      "ref": "Case.107980.syllabus.1",
+      "text": "Petitioner was tried in a Maryland state court for burglary and larceny. He was acquitted of larceny but convicted of burglary and sentenced to 10 years in prison. Because the grand and petit juries in petitioner's case had been selected under an invalid constitutional provision, the case was remanded to the trial court and petitioner was given, and exercised, the option of demanding re-indictment and retrial. Re-indicted for larceny and burglary, petitioner filed, on the ground of double jeopardy, a motion to dismiss the larceny count which the trial court denied. On retrial he was found guilty of both offenses, and concurrently sentenced to 15 years for burglary and 5 years for larceny. The appellate court ruled against petitioner on the double jeopardy issue and affirmed. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Benton v. Maryland, syllabus ¶ 2",
+      "page": 784,
+      "ref": "Case.107980.syllabus.2",
+      "text": "1. The concurrent sentence doctrine enunciated in Hirabayashi v. United States, 320 U. S. 81, 105, does not constitute a jurisdictional bar to this Court's deciding petitioner's challenge to his larceny conviction, since the possibilities of adverse collateral effects to him from that conviction give the case an adversary cast and make it justiciable. Pp. 787-791."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Benton v. Maryland, syllabus ¶ 3",
+      "page": 784,
+      "ref": "Case.107980.syllabus.3",
+      "text": "2. Regardless of whether the concurrent sentence doctrine survives as a rule of judicial convenience, the doctrine is inapplicable here since the Maryland appellate court decided not to apply the doctrine and upheld the larceny conviction despite petitioner's double jeopardy contention, and since the status of petitioner's burglary conviction is still in some doubt. Pp. 791-793."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Benton v. Maryland, syllabus ¶ 4",
+      "page": 784,
+      "ref": "Case.107980.syllabus.4",
+      "text": "3. The double jeopardy prohibition of the Fifth Amendment, a fundamental ideal in our constitutional heritage, is enforceable against the States through the Fourteenth Amendment. Palko v. Connecticut, 302 U. S. 319, overruled. Pp. 793-796."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Benton v. Maryland, syllabus ¶ 5",
+      "page": 784,
+      "ref": "Case.107980.syllabus.5",
+      "text": "4. Petitioner's larceny conviction cannot stand, since \"[cjonditioning an appeal on one offense on a coerced surrender of a valid plea of former jeopardy on another offense exacts a forfeiture in plain conflict with the constitutional bar against doub!e jeopardy.\" Green v. United States, 355 U. S. 184; 193-194. Pp. 796-797."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Benton v. Maryland, syllabus ¶ 6",
+      "page": 785,
+      "ref": "Case.107980.syllabus.6",
+      "text": "5. The question raised by petitioner that prejudicial error resulted from the admission at his trial for both burglary and larceny of some evidence that state law made inadmissible in a trial for burglary alone was not decided by the Maryland appellate court and should how be considered by that court.. Pp. 797-798."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Benton v. Maryland, syllabus ¶ 7",
+      "page": 785,
+      "ref": "Case.107980.syllabus.7",
+      "text": "1 Md. App. 647, 232 A. 2d 541, vacated and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-395-784"
+  ],
+  "title": "Benton v. Maryland",
+  "us_cite": "395 U.S. 784"
+}

@@ -16,12 +16,166 @@
   "loc_url": "https://www.loc.gov/item/usrep552491/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep552/usrep552491/usrep552491.pdf",
   "ref_prefix": "Case.145822",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 1",
+      "page": 491,
+      "ref": "Case.145822.syllabus.1",
+      "text": "In the Case Concerning Avena and Other Mexican Nationals (Mex. v. U. S.), 2004 I. C. J. 12 (Avena), the International Court of Justice (ICJ) held that the United States had violated Article 36(1)(b) of the Vienna Convention on Consular Relations (Vienna Convention or Convention) by failing to inform 51 named Mexican nationals, including petitioner Medellı´n, of their Vienna Convention rights. The ICJ found that those named individuals were entitled to review and reconsideration of their U. S. state-court convictions and sentences regardless of their failure to comply with generally applicable state rules governing challenges to criminal convictions. In Sanchez-Llamas v. Oregon, 548 U. S. 331— issued after Avena but involving individuals who were not named in the Avena judgment—this Court held, contrary to the ICJ’s determination, that the Convention did not preclude the application of state default rules. The President then issued a memorandum (President’s Memorandum or Memorandum) stating that the United States would “discharge its international obligations” under Avena “by having State courts give effect to the decision.”"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 2",
+      "page": 491,
+      "ref": "Case.145822.syllabus.2",
+      "text": "Relying on Avena and the President’s Memorandum, Medellı´n ﬁled a second Texas state-court habeas application challenging his state capital murder conviction and death sentence on the ground that he had not been informed of his Vienna Convention rights. The Texas Court of Criminal Appeals dismissed Medellı´n’s application as an abuse of the writ, concluding that neither Avena nor the President’s Memorandum was binding federal law that could displace the State’s limitations on ﬁling successive habeas applications."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 3",
+      "page": 491,
+      "ref": "Case.145822.syllabus.3",
+      "text": "Held: Neither Avena nor the President’s Memorandum constitutes directly enforceable federal law that pre-empts state limitations on the ﬁling of successive habeas petitions. Pp. 504–532."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 4",
+      "page": 491,
+      "ref": "Case.145822.syllabus.4",
+      "text": "1. The Avena judgment is not directly enforceable as domestic law in state court. Pp. 504–523."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 5",
+      "page": 491,
+      "ref": "Case.145822.syllabus.5",
+      "text": "(a) While a treaty may constitute an international commitment, it is not binding domestic law unless Congress has enacted statutes implementing it or the treaty itself conveys an intention that it be “selfexecuting” and is ratiﬁed on that basis. See, e. g., Foster v. Neilson, 2 Pet. 253, 314. The Avena judgment creates an international law obligation on the part of the United States, but it is not automatically binding domestic law because none of the relevant treaty sources—the Optional Protocol, the United Nations Charter, or the ICJ Statute—creates binding federal law in the absence of implementing legislation, and no such legislation has been enacted."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 6",
+      "page": 492,
+      "ref": "Case.145822.syllabus.6",
+      "text": "The most natural reading of the Optional Protocol is that it is a bare grant of jurisdiction. The Protocol says nothing about the effect of an ICJ decision, does not commit signatories to comply therewith, and is silent as to any enforcement mechanism. The obligation to comply with ICJ judgments is derived from Article 94 of the U. N. Charter, which provides that “[e]ach . . . Member . . . undertakes to comply with the [ICJ’s] decision . . . in any case to which it is a party.” The phrase “undertakes to comply” is simply a commitment by member states to take future action through their political branches. That language does not indicate that the Senate, in ratifying the Optional Protocol, intended to vest ICJ decisions with immediate legal effect in domestic courts."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 7",
+      "page": 492,
+      "ref": "Case.145822.syllabus.7",
+      "text": "This reading is conﬁrmed by Article 94(2)—the enforcement provision—which provides the sole remedy for noncompliance: referral to the U. N. Security Council by an aggrieved state. The provision of an express diplomatic rather than judicial remedy is itself evidence that ICJ judgments were not meant to be enforceable in domestic courts. See Sanchez-Llamas, 548 U. S., at 347. Even this “quintessentially international remed[y],” id., at 355, is not absolute. It requires a Security Council resolution, and the President and Senate were undoubtedly aware that the United States retained the unqualiﬁed right to exercise its veto of any such resolution. Medellı´n’s construction would eliminate the option of noncompliance contemplated by Article 94(2), undermining the ability of the political branches to determine whether and how to comply with an ICJ judgment."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 8",
+      "page": 492,
+      "ref": "Case.145822.syllabus.8",
+      "text": "The ICJ Statute, by limiting disputes to those involving nations, not individuals, and by specifying that ICJ decisions have no binding force except between those nations, provides further evidence that the Avena judgment does not automatically constitute federal law enforceable in U. S. courts. Medellı´n, an individual, cannot be considered a party to the Avena decision. Finally, the United States’ interpretation of a treaty “is entitled to great weight,” Sumitomo Shoji America, Inc. v. Avagliano, 457 U. S. 176, 184–185, and the Executive Branch has unfailingly adhered to its view that the relevant treaties do not create domestically enforceable federal law. Pp. 504–514."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 9",
+      "page": 492,
+      "ref": "Case.145822.syllabus.9",
+      "text": "(b) The foregoing interpretive approach—parsing a treaty’s text to determine if it is self-executing—is hardly novel. This Court has long looked to the language of a treaty to determine whether the President who negotiated it and the Senate that ratiﬁed it intended that the treaty automatically create domestically enforceable federal law. See, e. g., Foster, supra. Pp. 514–516."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 10",
+      "page": 493,
+      "ref": "Case.145822.syllabus.10",
+      "text": "(c) The Court’s conclusion that Avena does not by itself constitute binding federal law is conﬁrmed by the “postratiﬁcation understanding” of signatory countries. See Zicherman v. Korean Air Lines Co., 516 U. S. 217, 226. There are currently 47 nations that are parties to the Optional Protocol and 171 nations that are parties to the Vienna Convention. Yet neither Medellı´n nor his amici have identiﬁed a single nation that treats ICJ judgments as binding in domestic courts. The lack of any basis for supposing that any other country would treat ICJ judgments as directly enforceable as a matter of its domestic law strongly suggests that the treaty should not be so viewed in our courts. See Sanchez-Llamas, 548 U. S., at 343–344, and n. 3."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 11",
+      "page": 493,
+      "ref": "Case.145822.syllabus.11",
+      "text": "The Court’s conclusion is further supported by general principles of interpretation. Given that the forum state’s procedural rules govern a treaty’s implementation absent a clear and express statement to the contrary, see, e. g., id., at 351, one would expect the ratifying parties to the relevant treaties to have clearly stated any intent to give ICJ judgments such effect. There is no statement in the Optional Protocol, the U. N. Charter, or the ICJ Statute that supports this notion. Moreover, the consequences of Medellı´n’s argument give pause: neither Texas nor this Court may look behind an ICJ decision and quarrel with its reasoning or result, despite this Court’s holding in Sanchez-Llamas that “[n]othing in the [ICJ’s] structure or purpose . . . suggests that its interpretations were intended to be conclusive on our courts,” id., at 354. Pp. 516–519."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 12",
+      "page": 493,
+      "ref": "Case.145822.syllabus.12",
+      "text": "(d) The Court’s holding does not call into question the ordinary enforcement of foreign judgments. An agreement to abide by the result of an international adjudication can be a treaty obligation like any other, so long as the agreement is consistent with the Constitution. In addition, Congress is up to the task of implementing non-self-executing treaties, even those involving complex commercial disputes. Medellı´n contends that domestic courts generally give effect to foreign judgments, but the judgment Medellı´n asks us to enforce is hardly typical: It would enjoin the operation of state law and force the State to take action to “review and reconside[r]” his case. Foreign judgments awarding injunctive relief against private parties, let alone sovereign States, “are not generally entitled to enforcement.” 1 Restatement (Third) of Foreign Relations Law of the United States § 481, Comment b, p. 595 (1986). Pp. 519–523."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 13",
+      "page": 493,
+      "ref": "Case.145822.syllabus.13",
+      "text": "2. The President’s Memorandum does not independently require the States to provide review and reconsideration of the claims of the 51 Mexican nationals named in Avena without regard to state procedural default rules. Pp. 523–532."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 14",
+      "page": 494,
+      "ref": "Case.145822.syllabus.14",
+      "text": "(a) The President seeks to vindicate plainly compelling interests in ensuring the reciprocal observance of the Vienna Convention, protecting relations with foreign governments, and demonstrating commitment to the role of international law. But those interests do not allow the Court to set aside ﬁrst principles. The President’s authority to act, as with the exercise of any governmental power, “must stem either from an act of Congress or from the Constitution itself.” Youngstown Sheet & Tube Co. v. Sawyer, 343 U. S. 579, 585."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 15",
+      "page": 494,
+      "ref": "Case.145822.syllabus.15",
+      "text": "Justice Jackson’s familiar tripartite scheme provides the accepted framework for evaluating executive action in this area. First, “[w]hen the President acts pursuant to an express or implied authorization of Congress, his authority is at its maximum, for it includes all that he possesses in his own right plus all that Congress can delegate.” Id., at 635 (Jackson, J., concurring). Second, “[w]hen the President acts in absence of either a congressional grant or denial of authority, he can only rely upon his own independent powers, but there is a zone of twilight in which he and Congress may have concurrent authority, or in which its distribution is uncertain.” Id., at 637. In such a circumstance, Presidential authority can derive support from “congressional inertia, indifference or quiescence.” Ibid. Finally, “[w]hen the President takes measures incompatible with the expressed or implied will of Congress, his power is at its lowest ebb,” and the Court can sustain his actions “only by disabling the Congress from acting upon the subject.” Id., at 637–638. Pp. 523–525."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 16",
+      "page": 494,
+      "ref": "Case.145822.syllabus.16",
+      "text": "(b) The United States marshals two principal arguments in favor of the President’s authority to establish binding rules of decision that pre-empt contrary state law. The United States argues that the relevant treaties give the President the authority to implement the Avena judgment and that Congress has acquiesced in the exercise of such authority. The United States also relies upon an “independent” international dispute-resolution power. We ﬁnd these arguments, as well as Medellı´n’s additional argument that the President’s Memorandum is a valid exercise of his “Take Care” power, unpersuasive. Pp. 525–532."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 17",
+      "page": 494,
+      "ref": "Case.145822.syllabus.17",
+      "text": "(i) The United States maintains that the President’s Memorandum is implicitly authorized by the Optional Protocol and the U. N. Charter. But the responsibility for transforming an international obligation arising from a non-self-executing treaty into domestic law falls to Congress, not the Executive. Foster, 2 Pet., at 315. It is a fundamental constitutional principle that “ ‘[t]he power to make the necessary laws is in Congress; the power to execute in the President.’ ” Hamdan v. Rumsfeld, 548 U. S. 557, 591. A non-self-executing treaty, by deﬁnition, is one that was ratiﬁed with the understanding that it is not to have domestic effect of its own force. That understanding precludes the assertion that Congress has implicitly authorized the President— acting on his own—to achieve precisely the same result. Accordingly, the President’s Memorandum does not fall within the ﬁrst category of the Youngstown framework. Indeed, because the non-self-executing character of the relevant treaties not only refutes the notion that the ratifying parties vested the President with the authority to unilaterally make treaty obligations binding on domestic courts, but also implicitly prohibits him from doing so, the President’s assertion of authority is within Youngstown’s third category, not the ﬁrst or even the second."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 18",
+      "page": 495,
+      "ref": "Case.145822.syllabus.18",
+      "text": "The United States maintains that congressional acquiescence requires that the President’s Memorandum be given effect as domestic law. But such acquiescence is pertinent when the President’s action falls within the second Youngstown category, not the third. In any event, congressional acquiescence does not exist here. Congress’ failure to act following the President’s resolution of prior ICJ controversies does not demonstrate acquiescence because in none of those prior controversies did the President assert the authority to transform an international obligation into domestic law and thereby displace state law. The United States’ reliance on the President’s “related” statutory responsibilities and on his “established role” in litigating foreign policy concerns is also misplaced. The President’s statutory authorization to represent the United States before the United Nations, the ICJ, and the U. N. Security Council speaks to his international responsibilities, not to any unilateral authority to create domestic law."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 19",
+      "page": 495,
+      "ref": "Case.145822.syllabus.19",
+      "text": "The combination of a non-self-executing treaty and the lack of implementing legislation does not preclude the President from acting to comply with an international treaty obligation by other means, so long as those means are consistent with the Constitution. But the President may not rely upon a non-self-executing treaty to establish binding rules of decision that pre-empt contrary state law. Pp. 525–530."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 20",
+      "page": 495,
+      "ref": "Case.145822.syllabus.20",
+      "text": "(ii) The United States also claims that—independent of the United States’ treaty obligations—the Memorandum is a valid exercise of the President’s foreign affairs authority to resolve claims disputes. See, e. g., American Ins. Assn. v. Garamendi, 539 U. S. 396, 415. This Court’s claims-settlement cases involve a narrow set of circumstances: the making of executive agreements to settle civil claims between American citizens and foreign governments or foreign nationals. They are based on the view that “a systematic, unbroken, executive practice, long pursued to the knowledge of the Congress and never before questioned,” can “raise a presumption that the [action] had been [taken] in pursuance of its consent.” Dames & Moore v. Regan, 453 U. S. 654, 686. But “[p]ast practice does not, by itself, create power.” Ibid. The President’s Memorandum—a directive issued to state courts that would compel those courts to reopen ﬁnal criminal judgments and set aside neutrally applicable state laws—is not supported by a “particularly longstanding practice.” The Executive’s limited authority to settle international claims disputes pursuant to an executive agreement cannot stretch so far. Pp. 530–532."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 21",
+      "page": 496,
+      "ref": "Case.145822.syllabus.21",
+      "text": "(iii) Medellı´n’s argument that the President’s Memorandum is a valid exercise of his power to “Take Care” that the laws be faithfully executed, U. S. Const., Art. II, §3, fails because the ICJ’s decision in Avena is not domestic law. P. 532."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Medellin v. Texas, syllabus ¶ 22",
+      "page": 496,
+      "ref": "Case.145822.syllabus.22",
+      "text": "223 S. W. 3d 315, afﬁrmed."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-4",
     "loc-usrep-552-491"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 491 a paragraph seems to stop mid-sentence.",
   "title": "Medellin v. Texas",
   "us_cite": "552 U.S. 491"
 }

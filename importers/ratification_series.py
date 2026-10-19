@@ -9,6 +9,10 @@ federalist or other) is Res Publica's classification, not the edition's;
 see docs/editions.md.
 """
 
+# A speaker's name opening a paragraph of debates, in capitals ("Mr.
+# MADISON.", "Gov. RANDOLPH observed", "Mr. GEORGE NICHOLAS"), as OCR reads it.
+SPEAKER = r"^(?:Mr|Gov|Judge|Col|Gen)\W{0,2}\s+[A-Z][A-Z]{2,}\b"
+
 BOOKS = {
     "ford-essays": {
         "edition": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
@@ -38,6 +42,27 @@ BOOKS = {
         "primary": "ia-mass-debates-1856-nypl-xml",
         "references": {"uc": "ia-mass-debates-1856-uc-txt", "google": "ia-mass-debates-1856-google-txt",
                        "cornell": "ia-mass-debates-1856-cornell-txt"},
+    },
+    # Elliot's Debates, vol. 3 (Virginia), in the standard (Lippincott)
+    # pagination: Patrick Henry's speeches (importers/elliot.py). Not the
+    # separate setting "printed on the Pennsylvania Avenue" (UNC's scans),
+    # whose pages differ.
+    "elliot-3": {
+        "edition": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 3 (2nd ed., Philadelphia: J. B. Lippincott, 1907 printing)",
+        "short": "Elliot, Debates, vol. 3",
+        "item": "debatesinseveral03elliuoft",
+        "primary": "ia-elliot-v3-1907-toronto-xml",
+        "references": {"cornell": "ia-elliot-v3-1876-cornell-txt", "harvard": "ia-elliot-v3-1861-google-txt",
+                       "google": "ia-elliot-v3-1836-google-txt"},
+        # Specks hide some running heads, and the printer's signature marks
+        # ("VOL. III. 7") stand at the foot of every eighth page. A speaker's
+        # words begin a paragraph with the name in capitals ("Mr. MADISON.",
+        # "Gov. RANDOLPH observed").
+        # (OCR reads "III." as "HI." or "in.", and the sheet's number badly.)
+        "set_aside": True, "signature_marks": r"(?i)^VO[LT]\.?(?:\s+\S{1,4}){1,3}\s*$",
+        "speaker_lines": SPEAKER,
+        # "580 DEBATES. [Nicholas." on the left, "Henry.] VIRGINIA. 579" on the right.
+        "running_head": r"\bDEBATES\.?\s*\[\s*\S+$|^\S*\]?\s*VIRGINIA\b",
     },
 }
 
@@ -222,6 +247,10 @@ SERIES = [
         "attribution": {"byline": "Brutus was the signature (of Thomas Treadwell, of Suffolk County, N. Y.?)",
                         "kind": "pseudonym", "names": ["Thomas Treadwell?"], "pseudonym": "Brutus",
                         "source": "Ford, Pamphlets on the Constitution (1888), p. 117, editor's note to Webster's The Weakness of Brutus Exposed"},
-        "position": "anti", "date": "1787-10-18/1787-11-29",
+        "position": "anti", "date": "1787-10-18/1788-04-10",
+        # V-XVI (not XI) from the New-York Journal's own pages (importers/nyjournal.py).
+        "continued_in": "nyjournal",
+        # The newspaper's signature letter-spaced, as OCR reads it ("B R U T U 3.").
+        "closing_lines": [r"^B\s?R\s?U\s?\S?\s?T\s?U\s?[S38$]\W*$"],
     },
 ]

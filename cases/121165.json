@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "overrules Walton v. Arizona (table of overruled decisions)"
+  ],
+  "conan_citation": "Ring v. Arizona, 536 U.S. 584 (2002)",
+  "courtlistener_name": "Ring v. Arizona",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/121165/ring-v-arizona/",
+  "date": "2002-06-24",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 121165. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 536, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "121165",
+  "loc_url": "https://www.loc.gov/item/usrep536584/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep536/usrep536584/usrep536584.pdf",
+  "ref_prefix": "Case.121165",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Ring v. Arizona, syllabus ¶ 1",
+      "page": 584,
+      "ref": "Case.121165.syllabus.1",
+      "text": "At petitioner Ring's Arizona trial for murder and related offenses, the jury deadlocked on premeditated murder, but found Ring guilty of felony murder occurring in the course of armed robbery. Under Arizona law, Ring could not be sentenced to death, the statutory maximum penalty for first-degree murder, unless further findings were made by a judge conducting a separate sentencing hearing. The judge at that stage must determine the existence or nonexistence of statutorily enumerated \"aggravating circumstances\" and any \"mitigating circumstances.\" The death sentence may be imposed only if the judge finds at least one aggravating circumstance and no mitigating circumstances sufficiently substantial to call for leniency. Following such a hearing, Ring's trial judge sentenced him to death. Because the jury had convicted Ring of felony murder, not premeditated murder, Ring would be eligible for the death penalty only if he was, inter alia, the victim's actual killer. See Enmund v. Florida, 458 U. S. 782. Citing accomplice testimony at the sentencing hearing, the judge found that Ring was the killer. The judge then found two aggravating factors, one of them, that the offense was committed for pecuniary gain, as well as one mitigating factor, Ring's minimal criminal record, and ruled that the latter did not call for leniency."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ring v. Arizona, syllabus ¶ 2",
+      "page": 584,
+      "ref": "Case.121165.syllabus.2",
+      "text": "On appeal, Ring argued that Arizona's capital sentencing scheme violates the Sixth Amendment's jury trial guarantee by entrusting to a judge the finding of a fact raising the defendant's maximum penalty. See Jones v. United States, 526 U. S. 227; Apprendi v. New Jersey, 530 U. S. 466. The State responded that this Court had upheld Arizona's system in Walton v. Arizona, 497 U. S. 639, 649, and had stated in Apprendi that Walton remained good law. The Arizona Supreme Court observed that Apprendi and Jones cast doubt on Walton's continued viability and found that the Apprendi majority's interpretation of Arizona law, 530 U. S., at 496-497, was wanting. JUSTICE O'CONNOR'S Apprendi dissent, id., at 538, the Arizona court noted, correctly described how capital sentencing works in that State: A defendant cannot receive a death sentence unless the judge makes the factual determination that a statutory aggravating factor exists. Nevertheless, recognizing that it was bound by the Supremacy Clause to apply Walton, a decision this Court had not overruled, the Arizona court rejected Ring's constitutional attack. It then upheld the trial court's finding on the pecuniary gain aggravating factor, reweighed that factor against Ring's lack of a serious criminal record, and affirmed the death sentence."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ring v. Arizona, syllabus ¶ 3",
+      "page": 585,
+      "ref": "Case.121165.syllabus.3",
+      "text": "Held: Walton and Apprendi are irreconcilable; this Court's Sixth Amendment jurisprudence cannot be home to both. Accordingly, Walton is overruled to the extent that it allows a sentencing judge, sitting without a jury, to find an aggravating circumstance necessary for imposition of the death penalty. See 497 U. S., at 647-649. Because Arizona's enumerated aggravating factors operate as \"the functional equivalent of an element of a greater offense,\" Apprendi, 530 U. S., at 494, n. 19, the Sixth Amendment requires that they be found by a jury. Pp. 597-609."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ring v. Arizona, syllabus ¶ 4",
+      "page": 585,
+      "ref": "Case.121165.syllabus.4",
+      "text": "(a) In upholding Arizona's capital sentencing scheme against a charge that it violated the Sixth Amendment, the Walton Court ruled that aggravating factors were not \"elements of the offense\"; they were \"sentencing considerations\" guiding the choice between life and death. 497 U. S., at 648. Walton drew support from Cabana v. Bullock, 474 U. S. 376, in which the Court held there was no constitutional bar to an appellate court's finding that a defendant killed, attempted to kill, or intended to kill, as Enmund, supra, required for imposition of the death penalty in felony-murder cases. If the Constitution does not require that the Enmund finding be proved as an element of the capital murder offense or that a jury make that finding, Walton stated, it could not be concluded that a State must denominate aggravating circumstances \"elements\" of the offense or commit to a jury only, and not to a judge, determination of the existence of such circumstances. 497 U. S., at 649. Subsequently, the Court suggested in Jones that any fact (other than prior conviction) that increases the maximum penalty for a crime must be submitted to a jury, 526 U. S., at 243, n. 6, and distinguished Walton as having characterized the finding of aggravating facts in the context of capital sentencing as a choice between a greater and a lesser penalty, not as a process of raising the sentencing range's ceiling, 526 U. S., at 251. Pp. 597-601."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ring v. Arizona, syllabus ¶ 5",
+      "page": 585,
+      "ref": "Case.121165.syllabus.5",
+      "text": "(b) In Apprendi, the sentencing judge's finding that racial animus motivated the petitioner's weapons offense triggered application of a state \"hate crime enhancement\" that doubled the maximum authorized sentence. This Court held that the sentence enhancement violated Apprendi's right to a jury determination whether he was guilty of every element of the crime with which he was charged, beyond a reasonable doubt. 530 U. S., at 477. That right attached not only to Apprendi's weapons offense but also to the \"hate crime\" aggravating circumstance. Id., at 476. The dispositive question, the Court said, is one not of form, but of effect. Id., at 494. If a State makes an increase in a defendant's authorized punishment contingent on the finding of a fact, that fact-no matter how the State labels it-must be found by a jury beyond a reasonable doubt. See id., at 482-483. A defendant may not be exposed to a penalty exceeding the maximum he would receive if punished according to the facts reflected in the jury verdict alone. Id., at 483. Walton could be reconciled with Apprendi, the Court asserted: The key distinction was that an Arizona first-degree murder conviction carried a maximum sentence of death; once a jury has found the defendant guilty of all the elements of an offense which carries death as its maximum penalty, it may be left to the judge to decide whether that maximum penalty, rather than a lesser one, ought to be imposed. 530 U. S., at 497. In dissent in Apprendi, JUSTICE O'CONNOR described as \"demonstrably untrue\" the majority's assertion that the jury makes all the findings necessary to expose the defendant to a death sentence. Such a defendant, she emphasized, cannot receive a death sentence unless a judge makes the critical factual determination that a statutory aggravating factor exists. Id., at 538. Walton, JUSTICE O'CONNOR's dissent insisted, if followed, would have required the Court to uphold Apprendi's sentence. 530 U. S., at 537. Pp. 601-603."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ring v. Arizona, syllabus ¶ 6",
+      "page": 586,
+      "ref": "Case.121165.syllabus.6",
+      "text": "(c) Given the Arizona Supreme Court's finding that the Apprendi dissent's portrayal of Arizona's capital sentencing law was precisely right, and recognizing that the Arizona court's construction of the State's own law is authoritative, see Mullaney v. Wilbur, 421 U. S. 684, 691, this Court is persuaded that Walton, in relevant part, cannot survive Apprendi's reasoning. In an effort to reconcile its capital sentencing system with the Sixth Amendment as interpreted by Apprendi, Arizona first restates the Apprendi majority's ruling that, because Arizona law specifies death or life imprisonment as the only sentencing options for the first-degree murder of which Ring was convicted, he was sentenced within the range of punishment authorized by the jury verdict. This argument overlooks Apprendi's instruction that the relevant inquiry is one of effect, not form. 530 U. S., at 494. In effect, the required finding of an aggravated circumstance exposed Ring to a greater punishment than that authorized by the guilty verdict. Ibid. The Arizona first-degree murder statute authorizes a maximum penalty of death only in a formal sense, id., at 541 (O'CONNOR, J., dissenting), for it explicitly cross-references the statutory provision requiring the finding of an aggravating circumstance before imposition of the death penalty. If Arizona prevailed on its opening argument, Apprendi would be reduced to a \"meaningless and formalistic\" rule of statutory drafting. See ibid. Arizona's argument based on the Walton distinction between an offense's elements and sentencing factors is rendered untenable by Apprendi's repeated instruction that the characterization of a fact or circumstance as an element or a sentencing factor is not determinative of the question \"who decides,\" judge or jury. See, e. g., 530 U. S., at 492. Arizona further urges that aggravating circumstances necessary to trigger a death sentence may nonetheless be reserved for judicial determination because death is different: States have constructed elaborate sentencing procedures in death cases because of constraints this Court has said the Eighth Amendment places on capital sentencing, see, e. g., id., at 522-523 (THOMAS, J., concurring). Apart from the Eighth Amendment provenance of aggravating factors, however, Arizona presents no specific reason for excepting capital defendants from the constitutional protections extended to defendants generally, and none is readily apparent. Id., at 539 (O'CONNOR, J., dissenting). In various settings, the Court has interpreted the Constitution to require the addition of an element or elements to the definition of a crime in order to narrow its scope. See, e. g., United States v. Lopez, 514 U. S. 549, 561-562. If a legislature responded to such a decision by adding the element the Court held constitutionally required, surely the Sixth Amendment guarantee would apply to that element. There is no reason to differentiate capital crimes from all others in this regard. Arizona's suggestion that judicial authority over the finding of aggravating factors may be a better way to guarantee against the arbitrary imposition of the death penalty is unpersuasive. The Sixth Amendment jury trial right does not turn on the relative rationality, fairness, or efficiency of potential factfinders. Apprendi, 530 U. S., at 498 (SCALIA, J., concurring). In any event, the superiority of judicial factfinding in capital cases is far from evident, given that the great majority of States responded to this Court's Eighth Amendment decisions requiring the presence of aggravating circumstances in capital cases by entrusting those determinations to the jury. Although stare decisis is of fundamental importance to the rule of law, this Court has overruled prior decisions where, as here, the necessity and propriety of doing so has been established. Patterson v. McLean Credit Union, 491 U. S. 164, 172. Pp. 603-609."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ring v. Arizona, syllabus ¶ 7",
+      "page": 587,
+      "ref": "Case.121165.syllabus.7",
+      "text": "200 Ariz. 267, 25 P. 3d 1139, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-536-584"
+  ],
+  "title": "Ring v. Arizona",
+  "us_cite": "536 U.S. 584"
+}

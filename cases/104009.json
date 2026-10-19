@@ -1,0 +1,54 @@
+{
+  "chosen_because": [
+    "overrules Paul v. Virginia (table of overruled decisions)"
+  ],
+  "conan_citation": "United States v. South-Eastern Underwriters Ass’n, 322 U.S. 533 (1944)",
+  "courtlistener_name": "United States v. South-Eastern Underwriters Assn.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104009/united-states-v-south-eastern-underwriters-assn/",
+  "date": "1944-06-05",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104009. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 322, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104009",
+  "loc_url": "https://www.loc.gov/item/usrep322533/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep322/usrep322533/usrep322533.pdf",
+  "ref_prefix": "Case.104009",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. South-Eastern Underwriters Ass’n, syllabus ¶ 1",
+      "page": 533,
+      "ref": "Case.104009.syllabus.1",
+      "text": "1. A fire insurance company which conducts a substantial part of its business transactions across state lines is engaged in \"commerce among the several States\" and subject to regulation by Congress under the Commerce Clause. P. 539."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. South-Eastern Underwriters Ass’n, syllabus ¶ 2",
+      "page": 533,
+      "ref": "Case.104009.syllabus.2",
+      "text": "2. A conspiracy to restrain interstate trade and commerce by fixing and maintaining arbitrary and noncompetitive premium rates on fire and allied lines of insurance, and a conspiracy to monopolize interstate trade and commerce in such lines of insurance, held violations of the Sherman Antitrust Act. P. 553."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. South-Eastern Underwriters Ass’n, syllabus ¶ 3",
+      "page": 533,
+      "ref": "Case.104009.syllabus.3",
+      "text": "3. Congress did not intend that the business of insurance should be exempt from the operation of the Sherman Act. Pp. 553, 560."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. South-Eastern Underwriters Ass’n, syllabus ¶ 4",
+      "page": 533,
+      "ref": "Case.104009.syllabus.4",
+      "text": "51 F. Supp. 712, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-322-533"
+  ],
+  "title": "United States v. South-Eastern Underwriters Ass’n",
+  "us_cite": "322 U.S. 533"
+}

@@ -11,7 +11,7 @@ const parts = work.parts;
 const words = parts.reduce((s, p) => s + p.words, 0);
 const attr = work.attribution;
 ---
-<Base title={work.title} section="ratification" description={`${work.title}: ${parts.length} essays from the ratification debate, ${formatDate(work.date)}, with a permanent reference for every paragraph.`}>
+<Base title={work.title} section="ratification" description={`${work.title}: ${parts.length} ${work.part_name ?? "essays"} from the ratification debate, ${formatDate(work.date)}, with a permanent reference for every paragraph.`}>
   <section class="page-head">
     <div class="container">
       <ol class="crumbs">
@@ -22,10 +22,10 @@ const attr = work.attribution;
       <span class={`eyebrow pos pos-${work.position}`}>{POSITION_LABELS[work.position]}</span>
       <h1>{work.title}</h1>
       <p class="lede">
-        {parts.length} essays, {formatDate(work.date)}. {attr?.byline && <Fragment>{attr.byline} <span class="muted">(as given in {attr.source})</span>.</Fragment>}
+        {parts.length} {work.part_name ?? "essays"}, {formatDate(work.date)}. {attr?.byline && <Fragment>{attr.byline}{" "}<span class="muted">(as given in {attr.source})</span>.</Fragment>}
       </p>
       <div class="doc-stats">
-        <span><strong>{parts.length}</strong> essays</span>
+        <span><strong>{parts.length}</strong> {work.part_name ?? "essays"}</span>
         <span><strong>{work.passages.toLocaleString("en-US")}</strong> paragraphs</span>
         <span><strong>{words >= 1000 ? `${Math.round(words / 1000)}k` : words}</strong> words</span>
       </div>
@@ -40,7 +40,7 @@ const attr = work.attribution;
           <li>
             <a class="card paper" href={href(p.url)}>
               <div class="paper-top">
-                <span class="paper-no">{p.label.split(" ").at(-1)}</span>
+                {work.part_name !== "speeches" && <span class="paper-no">{p.label.split(" ").at(-1)}</span>}
                 <AuthorChip attribution={p.attribution} short />
               </div>
               <h3>{p.label}</h3>

@@ -15,12 +15,54 @@
   "loc_url": "https://www.loc.gov/item/usrep378001/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378001/usrep378001.pdf",
   "ref_prefix": "Case.106862",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Malloy v. Hogan, syllabus ¶ 1",
+      "page": 1,
+      "ref": "Case.106862.syllabus.1",
+      "text": "Petitioner, who was on probation after pleading guilty to a gambling misdemeanor, was ordered to testify before a referee appointed by a state court to investigate gambling and other criminal activities. He refused to answer questions about the circumstances of his arrest and conviction on the ground that the answers might incriminate him. Adjudged in contempt and committed to prison until he answered, he filed an application for writ of habeas corpus, which the highest state court denied. It ruled that petitioner was protected against prosecution growing out of his replies to all but one question, and that as to that question his failure to explain how his answer would incriminate him negated his claim to the protection of the privilege under state law. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Malloy v. Hogan, syllabus ¶ 2",
+      "page": 1,
+      "ref": "Case.106862.syllabus.2",
+      "text": "1. The Fourteenth Amendment prohibits state infringement of the privilege against self-incrimination just as the Fifth Amendment prevents the Federal Government from denying the privilege. P. 8."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Malloy v. Hogan, syllabus ¶ 3",
+      "page": 1,
+      "ref": "Case.106862.syllabus.3",
+      "text": "2. In applying the privilege against self-incrimination, the same standards determine whether an accused's silence is justified regardless of whether it is a federal or state proceeding at which he is called to testify. P. 11."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Malloy v. Hogan, syllabus ¶ 4",
+      "page": 1,
+      "ref": "Case.106862.syllabus.4",
+      "text": "3. The privilege is available to a witness in a statutory inquiry as well as to a defendant in a criminal prosecution. P. 11."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Malloy v. Hogan, syllabus ¶ 5",
+      "page": 2,
+      "ref": "Case.106862.syllabus.5",
+      "text": "4. Petitioner's claim of privilege as to all the questions should have been upheld, since it was evident from the implication of each question in the setting in which it was asked, that a response or an explanation why it could not be answered might be dangerous because injurious disclosure would result. Hoffman v. United States, 341 U. S. 479, followed. Pp. 11-14."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Malloy v. Hogan, syllabus ¶ 6",
+      "page": 2,
+      "ref": "Case.106862.syllabus.6",
+      "text": "150 Conn. 220, 187 A. 2d 744, reversed."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-2",
     "loc-usrep-378-1"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 2 a paragraph seems to stop mid-sentence.",
   "title": "Malloy v. Hogan",
   "us_cite": "378 U.S. 1"
 }

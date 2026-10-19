@@ -117,6 +117,10 @@ POSITIONS = ("anti", "federalist", "other")
 POSITION_LABELS = {"anti": "Anti-Federalist", "federalist": "Federalist", "other": "Other"}
 
 
+# What a ratification-debate work's parts are called, where not essays.
+PARTS = {"patrick-henry": "speeches"}
+
+
 def debate_settings(corpus: Corpus) -> dict[str, dict]:
     docs = [d for d in corpus.works.values() if d.get("position")]
     docs.sort(key=lambda d: (POSITIONS.index(d["position"]), d.get("date") or "", d["id"]))
@@ -142,17 +146,38 @@ UNT_PAGE_URL = "https://digital.library.unt.edu/ark:/67531/{item}/m1/{n}/"
 # Page images shown on the errata page (its Content Security Policy allows these hosts).
 SCAN_IMAGE_URL = "https://archive.org/download/{item}/page/n{n}_w1200.jpg"
 UNT_IMAGE_URL = "https://digital.library.unt.edu/ark:/67531/{item}/m1/{n}/med_res/"
+# Newspaper pages in the Library of Congress's Chronicling America (the
+# New-York Journal): the issue's page, and on the errata page the region of
+# the page the paragraph fills (IIIF, cropped), since a whole newspaper page
+# is too large to read at screen size.
+LOC_PAGE_URL = "https://www.loc.gov/resource/{item}/{issue}/ed-1/?sp={n}"
+LOC_IMAGE_URL = "https://tile.loc.gov/image-services/iiif/{image}/pct:{x},{y},{w},{h}/pct:100/0/default.jpg"
+LOC_IMAGE_ID = re.compile(r"^service(?::[A-Za-z0-9_-]+)+$")
+LOC_ISSUE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
-def scan_url(item: str, leaf: int, site: str = "archive.org") -> str:
+def scan_url(item: str, leaf: int, site: str = "archive.org", scan: dict | None = None) -> str:
     if site == "unt":
         return UNT_PAGE_URL.format(item=item, n=leaf)
+    if site == "loc":
+        if not LOC_ISSUE.match(scan["issue"]):
+            raise ValueError(f"unexpected issue {scan['issue']!r}")
+        return LOC_PAGE_URL.format(item=item, issue=scan["issue"], n=leaf)
     return SCAN_PAGE_URL.format(item=item, n=leaf - 1)
 
 
-def scan_image(item: str, leaf: int, site: str = "archive.org") -> str:
+def scan_image(item: str, leaf: int, site: str = "archive.org", scan: dict | None = None) -> str:
     if site == "unt":
         return UNT_IMAGE_URL.format(item=item, n=leaf)
+    if site == "loc":
+        k = scan["leaves"].index(leaf)
+        image = scan["image"][k]
+        if not LOC_IMAGE_ID.match(image):
+            raise ValueError(f"unexpected image id {image!r}")
+        x, y, w, h = scan["regions"][k]  # hundredths of a percent; a margin round the paragraph
+        x0, y0 = max(0, x - 150), max(0, y - 100)
+        x1, y1 = min(10000, x + w + 150), min(10000, y + h + 100)
+        return LOC_IMAGE_URL.format(image=image, x=x0 / 100, y=y0 / 100, w=(x1 - x0) / 100, h=(y1 - y0) / 100)
     return SCAN_IMAGE_URL.format(item=item, n=leaf - 1)
 
 
@@ -564,7 +589,8 @@ class SiteBuilder:
             # Congress) its columns.
             pages = s.get("pages") or s.get("columns", [])
             block["scan"] = {"pages": pages, "unit": "col." if s.get("columns") else "p.",
-                             "url": scan_url(s["scan"]["item"], leaves[0], s["scan"].get("site", "archive.org"))}
+                             "url": scan_url(s["scan"]["item"], leaves[0], s["scan"].get("site", "archive.org"),
+                                             s["scan"])}
             block["uncertain"] = len(s.get("uncertain", []))
         return block
 
@@ -697,6 +723,7 @@ class SiteBuilder:
                 "source_ids": work["source_ids"],
                 "title": work["title"],
                 "top_divisions": len(tops),
+                "part_name": PARTS.get(wid, "essays"),
                 "url": work_url(wid, self.settings),
             }
             if cfg.get("summary"):
@@ -903,7 +930,7 @@ class SiteBuilder:
 
     # Fields of a case file (cases/) that its page shows as they are.
     CASE_FIELDS = ("chosen_because", "conan_citation", "courtlistener_name", "courtlistener_url", "date", "docket",
-                   "loc_url", "pdf_url", "syllabus_note", "us_cite")
+                   "court_print", "loc_url", "pdf_first_page", "pdf_url", "syllabus_note", "us_cite")
 
     def _case_page(self, work: dict) -> dict:
         """A case's page: its details, the syllabus as printed (one passage
@@ -926,7 +953,10 @@ class SiteBuilder:
             block = self._passage(work, s)
             if s.get("kind") == "syllabus" and work.get("pdf_url"):
                 first = int(case.get("us_cite", "0 U.S. 0").split()[-1])
-                block["printed"] = {"page": s["page"], "url": f"{work['pdf_url']}#page={s['page'] - first + 1}"}
+                index = s["page"] - first + work.get("pdf_first_page", 1)
+                block["printed"] = {"page": s["page"], "url": f"{work['pdf_url']}#page={index}",
+                                    "from": "the Supreme Court's PDF" if work.get("court_print")
+                                    else "the Library of Congress scan"}
             blocks.append(block)
         return {
             "blocks": blocks,
@@ -1295,14 +1325,15 @@ def build_errata(corpus: Corpus, refs: dict[str, dict]) -> tuple[dict, dict[str,
             if not spans or not scan:
                 continue
             site = scan.get("site", "archive.org")
-            pages = [{"image": scan_image(scan["item"], leaf, site), "url": scan_url(scan["item"], leaf, site)}
+            pages = [{"image": scan_image(scan["item"], leaf, site, scan), "url": scan_url(scan["item"], leaf, site, scan)}
                      for leaf in scan["leaves"]]
             info = refs.get(seg["ref"], {"label": seg.get("label", seg["ref"]), "url": None})
             text = seg["text"]
             items.append({"label": info["label"], "pages": pages, "ref": seg["ref"], "url": info["url"], "words": [
                 {"after": words_after(text[u["end"]:].replace("\n", " ")),
                  "before": words_before(text[:u["start"]].replace("\n", " ")),
-                 "index": i, "readings": u["readings"], "was": text[u["start"]:u["end"]]}
+                 "index": i, "readings": u["readings"], "was": text[u["start"]:u["end"]],
+                 **({"suggestion": u["suggestion"]} if u.get("suggestion") else {})}
                 for i, u in enumerate(spans)]})
         if not items and not corrected:
             continue

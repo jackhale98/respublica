@@ -16,12 +16,47 @@
   "loc_url": "https://www.loc.gov/item/usrep316129/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep316/usrep316129/usrep316129.pdf",
   "ref_prefix": "Case.103664",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Goldman v. United States, syllabus ¶ 1",
+      "page": 129,
+      "ref": "Case.103664.syllabus.1",
+      "text": "1. Refusal of the judge in the trial of a criminal case in the federal court, to allow the defendant to inspect the memoranda of Government witnesses-where the memoranda were not used by the witnesses in court, but only to refresh their recollection prior to testifying, and were also part of the Government's files-held not an abuse of discretion. P. 132."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Goldman v. United States, syllabus ¶ 2",
+      "page": 129,
+      "ref": "Case.103664.syllabus.2",
+      "text": "2. Divulgence of a person's telephone conversation, overheard as it was spoken into the telephone receiver, does not violate § 605 of the Federal Communications Act, as in such case there is neither a \"communication\" nor an \"interception\" within the meaning of the Act. P. 133."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Goldman v. United States, syllabus ¶ 3",
+      "page": 129,
+      "ref": "Case.103664.syllabus.3",
+      "text": "3. Evidence obtained by federal agents by use of a detectaphone, applied to the wall of a room adjoining the office of the defendant, held not unlawfully obtained as a consequence of a prior trespass committed by the agents in the defendant's office, where such trespass, as found by the courts below, did not aid materially in the use of the detectaphone. P. 134."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Goldman v. United States, syllabus ¶ 4",
+      "page": 129,
+      "ref": "Case.103664.syllabus.4",
+      "text": "4. The use by federal agents of a detectaphone, whereby conversations in the office of a defendant were overheard through contact on the wal! of an adjoining room, did not violate the Fourth Amendment, and evidence thus obtained was admissible in a federal court. P. 135."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Goldman v. United States, syllabus ¶ 5",
+      "page": 130,
+      "ref": "Case.103664.syllabus.5",
+      "text": "118 F. 2d 310, affirmed."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-1",
     "loc-usrep-316-129"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 129 a paragraph seems to stop mid-sentence.",
   "title": "Goldman v. United States",
   "us_cite": "316 U.S. 129"
 }

@@ -12,7 +12,7 @@ const { header, notes = 0 } = Astro.props;
   </div>
 )}
 <p class="doc-note" data-pagefind-ignore>
-  Read from OCR scans of a nineteenth-century printing and checked word by word against a second scan.{" "}
-  <span class="unc">Dotted words</span> are ones the scans disagree on; select a paragraph to see their readings
-  and the page image.{" "}<a href={href("/about/#ocr")}>How this text was made</a>
+  Read from OCR scans of the printed page and, where there is more than one scan, checked word by word against
+  the others.{" "}<span class="unc">Dotted words</span> are ones the scans disagree on or read poorly; select a
+  paragraph to see their readings and the page image.{" "}<a href={href("/about/#ocr")}>How this text was made</a>
 </p>

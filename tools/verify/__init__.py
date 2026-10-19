@@ -175,6 +175,12 @@ def check_uncertain(where: str, text: str, spans: Any) -> list[str]:
             errors.append(f"{where}: uncertain span {start}-{stop} needs the primary scan's reading")
         elif text[start:stop] not in readings.values():
             errors.append(f"{where}: {text[start:stop]!r} at {start} is not one of the scans' readings")
+        # The Anti-Federalist Library's reading, for a person to check (never
+        # in the text): one line, and not what the text already has.
+        sug = u.get("suggestion")
+        if "suggestion" in u and not (isinstance(sug, str) and sug.strip() and "\n" not in sug and len(sug) <= 200
+                                      and sug != text[start:stop]):
+            errors.append(f"{where}: uncertain span {start}-{stop} has a bad suggestion {sug!r}")
     return errors
 
 

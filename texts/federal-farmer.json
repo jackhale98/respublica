@@ -113,7 +113,7 @@
   ],
   "edition": {
     "name": "Paul Leicester Ford, ed., Pamphlets on the Constitution of the United States (Brooklyn, 1888)",
-    "notes": "Paul Leicester Ford, ed., Pamphlets on the Constitution of the United States (Brooklyn, 1888), pp. 277–326. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+    "notes": "Paul Leicester Ford, ed., Pamphlets on the Constitution of the United States (Brooklyn, 1888), pp. 277–326. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. Where the scans disagreed, the Anti-Federalist Library's text was used to choose among their readings, never to add one. See docs/editions.md."
   },
   "id": "federal-farmer",
   "position": "anti",
@@ -301,17 +301,7 @@
           302
         ]
       },
-      "text": "The plan proposed appears to be partly federal, but principally however, calculated ultimately to make the states one consolidated government.",
-      "uncertain": [
-        {
-          "end": 3,
-          "readings": {
-            "google": "Th^",
-            "primary": "The"
-          },
-          "start": 0
-        }
-      ]
+      "text": "The plan proposed appears to be partly federal, but principally however, calculated ultimately to make the states one consolidated government."
     },
     {
       "label": "Federal Farmer 1, ¶ 11",
@@ -359,7 +349,8 @@
             "google": "r.",
             "primary": "I."
           },
-          "start": 185
+          "start": 185,
+          "suggestion": "1."
         },
         {
           "end": 364,
@@ -367,14 +358,16 @@
             "google": "r*gulatc",
             "primary": "r:gulate"
           },
-          "start": 356
+          "start": 356,
+          "suggestion": "regulate"
         },
         {
           "end": 1204,
           "readings": {
             "primary": "consoldate"
           },
-          "start": 1194
+          "start": 1194,
+          "suggestion": "consolidate"
         }
       ]
     },
@@ -538,17 +531,7 @@
           307
         ]
       },
-      "text": "But I do not pay much regard to the reasons given for not bottoming the new constitution on a better bill of rights. I still believe a complete federal bill of rights to be very practicable. Nevertheless I acknowledge the proceedings of the convention furnish my mind with many new and strong reasons, against a complete consolidation of the states. They tend to convince me, that it cannot be carried with propriety very far — that the convention have gone much farther in one respect than they found it practicable to go in another ; that is, they propose to lodge in the general government very extensive powers — powers nearly, if not altogether, complete and unlimited, over the purseVand the sword. But, in its organization, they furnish the strongest proof that the proper limbs, or parts of a government, to support and execute those powers on proper principles (or in which they can be safely lodged) cannot be formed. These powers must be lodged somewhere in every society ; but then they should be lodged where the strength and guardians of the people are collected. They can be wielded, or safely used, in a free country only by an able executive and judiciary, a respectable senate, and a secure, full, and equal representation of the people. I think the principles I have premised or brought into view, are well founded — I think they will not be denied by any fair reasoner. It is in connection with these, and other solid principles, we are to examine the constitution. It is not a few democratic phrases, or a few well formed features, that will prove its merits ; or a few small omissions that will produce its rejection among men of sense ; they will enquire what are the essential powers in a community, and what are nominal ones ; where and how the essential powers shall be lodged to secure government, and to secure true liberty.",
-      "uncertain": [
-        {
-          "end": 693,
-          "readings": {
-            "google": "purse and",
-            "primary": "purseVand"
-          },
-          "start": 684
-        }
-      ]
+      "text": "But I do not pay much regard to the reasons given for not bottoming the new constitution on a better bill of rights. I still believe a complete federal bill of rights to be very practicable. Nevertheless I acknowledge the proceedings of the convention furnish my mind with many new and strong reasons, against a complete consolidation of the states. They tend to convince me, that it cannot be carried with propriety very far — that the convention have gone much farther in one respect than they found it practicable to go in another ; that is, they propose to lodge in the general government very extensive powers — powers nearly, if not altogether, complete and unlimited, over the purse and the sword. But, in its organization, they furnish the strongest proof that the proper limbs, or parts of a government, to support and execute those powers on proper principles (or in which they can be safely lodged) cannot be formed. These powers must be lodged somewhere in every society ; but then they should be lodged where the strength and guardians of the people are collected. They can be wielded, or safely used, in a free country only by an able executive and judiciary, a respectable senate, and a secure, full, and equal representation of the people. I think the principles I have premised or brought into view, are well founded — I think they will not be denied by any fair reasoner. It is in connection with these, and other solid principles, we are to examine the constitution. It is not a few democratic phrases, or a few well formed features, that will prove its merits ; or a few small omissions that will produce its rejection among men of sense ; they will enquire what are the essential powers in a community, and what are nominal ones ; where and how the essential powers shall be lodged to secure government, and to secure true liberty."
     },
     {
       "label": "Federal Farmer 2, ¶ 7",
@@ -599,7 +582,8 @@
           "readings": {
             "primary": "oftenerthan"
           },
-          "start": 1610
+          "start": 1610,
+          "suggestion": "oftener than"
         }
       ]
     },
@@ -970,17 +954,7 @@
           326
         ]
       },
-      "text": "Third, there appears to me to be not only a premature deposit of some important powers in the general government — but many of those deposited there are undefined, and may be used to good or bad purposes as honest or designing men shall prevail. By Art. i, Sec. 2, representatives and direct taxes shall be apportioned among the several states, &c. same art. sect. 8, the congress shall have powers to lay and collect taxes, duties, &c. for the common defence and general welfare, but all duties, imposts and excises, shall be uniform throughout the United States : By the first recited clause, direct taxes shall be apportioned on the states. This seems to favour the idea suggested by some sensible men and writers that congress, as to direct taxes, will only have power to make requisitions ; but the latter clause, power to lay and collect taxes, &c. seems clearly to favour the contrary opinion, and, in my mind, the true one, the congress shall have power to tax immediately individuals, without the intervention of the state legislatures, in fact the first clause appears to me only to provide that each state shall pay a certain portion of the tax, and the latter to provide that congress shall have power to lay and collect taxes, that is to assess upon, and to collect of the individuals in the state, the states quota ; but these still I consider as undefined powers, because judicious men understand them differently.",
-      "uncertain": [
-        {
-          "end": 280,
-          "readings": {
-            "google": "representative^",
-            "primary": "representatives"
-          },
-          "start": 265
-        }
-      ]
+      "text": "Third, there appears to me to be not only a premature deposit of some important powers in the general government — but many of those deposited there are undefined, and may be used to good or bad purposes as honest or designing men shall prevail. By Art. i, Sec. 2, representatives and direct taxes shall be apportioned among the several states, &c. same art. sect. 8, the congress shall have powers to lay and collect taxes, duties, &c. for the common defence and general welfare, but all duties, imposts and excises, shall be uniform throughout the United States : By the first recited clause, direct taxes shall be apportioned on the states. This seems to favour the idea suggested by some sensible men and writers that congress, as to direct taxes, will only have power to make requisitions ; but the latter clause, power to lay and collect taxes, &c. seems clearly to favour the contrary opinion, and, in my mind, the true one, the congress shall have power to tax immediately individuals, without the intervention of the state legislatures, in fact the first clause appears to me only to provide that each state shall pay a certain portion of the tax, and the latter to provide that congress shall have power to lay and collect taxes, that is to assess upon, and to collect of the individuals in the state, the states quota ; but these still I consider as undefined powers, because judicious men understand them differently."
     },
     {
       "label": "Federal Farmer 4, ¶ 3",
@@ -1160,7 +1134,8 @@
             "google": "Bnd",
             "primary": "Hnd"
           },
-          "start": 399
+          "start": 399,
+          "suggestion": "and"
         }
       ]
     },
@@ -1222,7 +1197,7 @@
           334
         ]
       },
-      "text": "It may also be worthy our examination, how far the provision for amending this plan, when it shall be adopted, is of any importance. No measures can be taken towards amendments, unless two-thirds of the congress, or two-thirds of the legislature of the several states shall agree. — While power is in the hands of the people, or democratic part of the community, more especially as at present, it is easy, according to the general course of human affairs, for the few influential men in the community, to obtain conventions, alterations in government, and to persuade the common people that they may change for the better, and to get from them a part of the power : But when power is once transferred from the many to the few, all changes become extremely difficult ; the government, is this case, being beneficial to the few, they will be exceedingly artful and adroit in preventing any measures which may lead to a change; and nothing will produce it, but great exertions and severe struggles on the part of the common people. Every man of reflection must see, that the change now proposed, is a transfer of power from the many to the few, and the probability is, the artful and ever active aristocracy, will prevent all peaceful measures for changes, unless when they shall discover some favorable moment to increase their own influence. I am sensible, thousands of men in the United States, are disposed to adopt the proposed constitution,, though they perceive it to be essentially defective, under an idea that amendments of it, may be obtained when necessary. This is a pernicious idea, it argues a servility of character totally unfit for the support of free government ; it is very repugnant to that perpetual jealousy respecting liberty, so absolutely necessary in all free states, spoken of by Mr. Dickinson. — However, if our countrymen are so soon changed, and the language of 1774, is become odious to them, it will be in vain, to use the language of freedom, or to attempt to rouse them to free enquiries : But 1 shall never believe this \\s the case with them, whatever present appearances may be, till I shall have very strong evidence indeed of it. Your's, &c.",
+      "text": "It may also be worthy our examination, how far the provision for amending this plan, when it shall be adopted, is of any importance. No measures can be taken towards amendments, unless two-thirds of the congress, or two-thirds of the legislature of the several states shall agree. — While power is in the hands of the people, or democratic part of the community, more especially as at present, it is easy, according to the general course of human affairs, for the few influential men in the community, to obtain conventions, alterations in government, and to persuade the common people that they may change for the better, and to get from them a part of the power : But when power is once transferred from the many to the few, all changes become extremely difficult ; the government, is this case, being beneficial to the few, they will be exceedingly artful and adroit in preventing any measures which may lead to a change; and nothing will produce it, but great exertions and severe struggles on the part of the common people. Every man of reflection must see, that the change now proposed, is a transfer of power from the many to the few, and the probability is, the artful and ever active aristocracy, will prevent all peaceful measures for changes, unless when they shall discover some favorable moment to increase their own influence. I am sensible, thousands of men in the United States, are disposed to adopt the proposed constitution,, though they perceive it to be essentially defective, under an idea that amendments of it, may be obtained when necessary. This is a pernicious idea, it argues a servility of character totally unfit for the support of free government ; it is very repugnant to that perpetual jealousy respecting liberty, so absolutely necessary in all free states, spoken of by Mr. Dickinson. — However, if our countrymen are so soon changed, and the language of 1774, is become odious to them, it will be in vain, to use the language of freedom, or to attempt to rouse them to free enquiries : But 1 shall never believe this is the case with them, whatever present appearances may be, till I shall have very strong evidence indeed of it. Your's, &c.",
       "uncertain": [
         {
           "end": 1444,
@@ -1231,14 +1206,6 @@
             "primary": "constitution,,"
           },
           "start": 1430
-        },
-        {
-          "end": 2055,
-          "readings": {
-            "google": "is",
-            "primary": "\\s"
-          },
-          "start": 2053
         }
       ]
     },
@@ -1332,14 +1299,6 @@
           "start": 2545
         },
         {
-          "end": 3049,
-          "readings": {
-            "google": "I786»",
-            "primary": "1786,"
-          },
-          "start": 3044
-        },
-        {
           "end": 3378,
           "readings": {
             "primary": "en-"
@@ -1414,7 +1373,12 @@
   "short": "Federal Farmer",
   "source_ids": [
     "ia-ford-pamphlets-1888-cornell-xml",
-    "ia-ford-pamphlets-1888-google-txt"
+    "ia-ford-pamphlets-1888-google-txt",
+    "afl-farmer1",
+    "afl-farmer2",
+    "afl-farmer3",
+    "afl-farmer4",
+    "afl-farmer5"
   ],
   "title": "Letters from the Federal Farmer to the Republican"
 }

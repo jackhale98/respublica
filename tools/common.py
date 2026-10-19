@@ -9,6 +9,7 @@ into individual importers.
 from __future__ import annotations
 
 import hashlib
+import http.client
 import json
 import os
 import re
@@ -89,7 +90,7 @@ def fetch_bytes(url: str, timeout: int = 60, attempts: int = 4,
             if e.code < 500 or attempt == attempts:
                 raise
             time.sleep(2 ** attempt)
-        except (urllib.error.URLError, TimeoutError, ConnectionError):
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.IncompleteRead):
             attempt += 1
             if attempt == attempts:
                 raise

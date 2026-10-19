@@ -21,7 +21,7 @@ import re
 from pathlib import Path
 from typing import TYPE_CHECKING
 
-from tools.common import CASES_DIR, write_json
+from tools.common import CASES_DIR, load_manifest, write_json
 
 if TYPE_CHECKING:
     from importers import courtlistener
@@ -75,7 +75,7 @@ DATE_NOTES = {
 
 
 def import_case(match: courtlistener.Match, reasons: list[str]) -> dict:
-    from importers import courtlistener, usreports  # here, so `python -m importers.usreports` runs cleanly
+    from importers import courtlistener, scotus, usreports  # here, so `python -m importers.usreports` runs cleanly
     c = match.cluster
     cid = str(c["id"])
     prefix = f"Case.{cid}"
@@ -95,18 +95,25 @@ def import_case(match: courtlistener.Match, reasons: list[str]) -> dict:
     }
     cites = [f"{x['volume']} U.S. {x['page']}" for x in c.get("citations", []) if x.get("reporter") == "U.S."]
     m = usreports.US.fullmatch(match.key) or (usreports.US.fullmatch(cites[0]) if len(cites) == 1 else None)
+    # The Court's own PDF of a case the Library of Congress has not scanned (decision 54).
+    court = scotus.print_for(match.key, m.group(0) if m else None)
+    if court and not m:
+        m = usreports.US.fullmatch(scotus.CITES[match.key])
     if m:
         doc["us_cite"] = m.group(0)
     if not usreports.US.fullmatch(match.key):
         doc["docket"] = match.key.removeprefix("No. ")
     edition = [f"Case details: CourtListener (Free Law Project), cluster {cid}."]
     printed = None
+    source = (court[0], scotus.locate(*court)) if court else None
     if m:
         try:
             usreports.raw_path(usreports.source_id(int(m.group(1)), int(m.group(2))))
+            source = None  # the Library of Congress scan comes first
             printed = usreports.printed_dates(int(m.group(1)), int(m.group(2)))
         except KeyError:
-            pass
+            if source:
+                printed = usreports.printed_dates(int(m.group(1)), int(m.group(2)), source=source)
     doc["date"], doc["date_source"] = case_date(c, courtlistener.printed_year(match.name), printed)
     if doc["date"] != c["date_filed"]:
         doc["courtlistener_date"] = c["date_filed"]
@@ -123,7 +130,7 @@ def import_case(match: courtlistener.Match, reasons: list[str]) -> dict:
         if v < usreports.FIRST_SYLLABUS_VOLUME:
             doc["syllabus_note"] = (f"Volume {v} is one of the early reports (before volume "
                                     f"{usreports.FIRST_SYLLABUS_VOLUME}), whose headnotes are the reporter's own.")
-        elif sid is None:
+        elif sid is None and source is None:
             doc["syllabus_note"] = ("The Library of Congress has no scan of this decision on its own (summary "
                                     "decisions are printed in lists, and the latest volumes are not yet scanned).")
         if sid:
@@ -132,14 +139,25 @@ def import_case(match: courtlistener.Match, reasons: list[str]) -> dict:
             doc["pdf_url"] = usreports.PDF_URL.format(v=v, p=p)
             edition.append(f"Syllabus: United States Reports, volume {v}, as printed, read from the text layer "
                            "of the Library of Congress scan (OCR in older volumes; not checked word by word).")
-        if sid and v >= usreports.FIRST_SYLLABUS_VOLUME:
-            paras = usreports.syllabus(v, p)
+        if source:
+            entry = next(e for e in load_manifest() if e["id"] == source[0])
+            doc["source_ids"].append(source[0])
+            doc["pdf_url"] = entry["url"]
+            what = next(w for sid_, _, w in scotus.PRINTS.values() if sid_ == source[0])
+            doc["court_print"] = what
+            doc["pdf_first_page"] = source[1] + 1  # the PDF page (from 1) the case starts on
+            edition.append(f"Syllabus: {what}, as the Supreme Court publishes it, read from the text layer "
+                           "of the Court's PDF.")
+        if (sid or source) and v >= usreports.FIRST_SYLLABUS_VOLUME:
+            paras = usreports.syllabus(v, p, source=source)
             trouble = usreports.problems(paras)
             if trouble:
                 where = re.search(r"\(p\. (\d+)\)", trouble[0])
+                what = ("the judgment seems to run into what follows it" if "runs the judgment" in trouble[0]
+                        else "a paragraph seems to stop mid-sentence")
                 doc["syllabus_note"] = ("No syllabus was found in the text layer of the scan." if not paras else
                                         "The text layer of the scan could not be read reliably: on p. "
-                                        f"{where.group(1)} a paragraph seems to stop mid-sentence.")
+                                        f"{where.group(1)} {what}.")
             else:
                 for n, para in enumerate(paras, 1):
                     doc["segments"].append({

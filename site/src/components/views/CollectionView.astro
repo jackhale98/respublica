@@ -49,7 +49,7 @@ const words = all.reduce((s, w) => s + w.words, 0);
                 <h3>{w.title}</h3>
                 <p class="by">{authorText(w.attribution)}{w.attribution?.byline?.startsWith("Attributed") || w.attribution?.byline?.startsWith("Accredited") ? " (attributed)" : ""}</p>
                 <div class="paper-foot">
-                  <span>{w.top_divisions > 1 ? `${w.top_divisions} essays` : `${readingMinutes(w.words)} min read`}</span>
+                  <span>{w.top_divisions > 1 ? `${w.top_divisions} ${w.part_name ?? "essays"}` : `${readingMinutes(w.words)} min read`}</span>
                   <span>{formatDate(w.date)}</span>
                 </div>
               </a>

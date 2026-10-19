@@ -134,6 +134,28 @@ Essays and letters imported by `importers/ratification.py` (series listed in
   `CitizenOfNewHaven`, `CursoryRemarks`, `Caution`, `FriendToTheConstitution`,
   `PlainDealer`, `WilliamsonRemarks`, `SteadyAndOpenRepublican`,
   `WilliamsLetter`. `Brutus` is reserved for Brutus's essays.
+- **Brutus** is one work from two printings: I–IV from the 1856 *Debates*,
+  V–XVI from the *New-York Journal*, numbered by the printed numbers.
+  `Brutus.11` is not used: Brutus XI has no scan (it stays free for that
+  essay if one is found). XII and XIV were printed in two instalments; each
+  is one essay, its paragraphs numbered through both (`Brutus.12.1` …), and
+  each passage records the issue it is in (`scan.issue`).
+
+### Patrick Henry in the Virginia convention (`texts/patrick-henry.json`)
+
+Imported by `importers/elliot.py` from Elliot's *Debates*, vol. 3.
+
+- `Henry.{day}`: one division per speech, named by the day as month and
+  day (`Henry.Jun5`); a second or later speech that day takes a letter
+  (`Henry.Jun14b`, `Henry.Jun14c`), as the debates in Congress do. The day
+  is the speech's date; where Elliot's day heading is misprinted the date
+  follows the 1836 printing (erratum 60, `Henry.Jun19`).
+- `Henry.{day}.{paragraph}`: the paragraphs as Elliot prints them, from 1.
+  The speaker's name ("Mr. HENRY.") stays in the first paragraph, as
+  printed. Where a speech takes in another member's remarks (`Henry.Jun17`,
+  `Henry.Jun23`, `Henry.Jun23b`), their paragraphs are numbered with
+  Henry's, each opening with its speaker's name.
+- Notes, if any: `Henry.{day}.fn{k}`.
 
 ## Debates in Congress
 

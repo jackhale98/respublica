@@ -16,12 +16,82 @@
   "loc_url": "https://www.loc.gov/item/usrep211078/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep211/usrep211078/usrep211078.pdf",
   "ref_prefix": "Case.96885",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Twining v. New Jersey, syllabus ¶ 1",
+      "page": 78,
+      "ref": "Case.96885.syllabus.1",
+      "text": "The judicial act of the highest court of a State in authoritatively construing and enforcing its laws is the act of the State."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Twining v. New Jersey, syllabus ¶ 2",
+      "page": 78,
+      "ref": "Case.96885.syllabus.2",
+      "text": "Exemption from compulsory self-incrimination in the state courts is : not secured by any part of the Federal Constitution."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Twining v. New Jersey, syllabus ¶ 3",
+      "page": 78,
+      "ref": "Case.96885.syllabus.3",
+      "text": "There is' a citizenship of the United States and a citizenship of the State which are distinct from each other, Slaughter House Cases, 16 Wall. 36; and privileges and immunities, although fundamental, which do not arise out of the nature and character of the National Government, or are not specifically protected by the Federal Constitution, are attributes of state, and not of National, citizenship."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Twining v. New Jersey, syllabus ¶ 4",
+      "page": 78,
+      "ref": "Case.96885.syllabus.4",
+      "text": "The first eight Amendments are restrictive only of National action, and while the Fourteenth Amendment restrained and limited state action it did not take up and protect citizens of the States from action by the States as to all matters enumerated in the first eight Amendments."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Twining v. New Jersey, syllabus ¶ 5",
+      "page": 78,
+      "ref": "Case.96885.syllabus.5",
+      "text": "The words \"due process of law\" as used in the Fourteenth Amendment are intended to secure the individual from the arbitrary exercise of powers of government unrestrained by, the established principles of private right and distributive' justice, Bank v. Okely, 4 Wheat. 235, but that does not require that he be exempted from compulsory selfincrimination in the courts of a State that has not adopted the policy of such exemption."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Twining v. New Jersey, syllabus ¶ 6",
+      "page": 78,
+      "ref": "Case.96885.syllabus.6",
+      "text": "Exemption from compulsory, self-incrimination did not form part of the \"law of the land \"prior to the separation of the colonies from the mother-country, nor is it one pf the fundamental rights, immunities and privileges of citizens of the United States, or an element of due process of law, within the meaning of the Federal Constitution or the Fourteenth Amendment thereto."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Twining v. New Jersey, syllabus ¶ 7",
+      "page": 79,
+      "ref": "Case.96885.syllabus.7",
+      "text": "The fact that exemption from compulsory self-incrimination is specifically enumerated in the guarantees of the Fifth Amendment tends to show that. it was, and is to be, regarded as a separate right and not as an element of due prbcess of law."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Twining v. New Jersey, syllabus ¶ 8",
+      "page": 79,
+      "ref": "Case.96885.syllabus.8",
+      "text": "When a question is no longer open in this court, adverse arguments, although weighty, will not be considered; and, under the doctrine of stare decisis, Slaughter-House Cases, 16 Wall. 36, and Maxwell v. Dow, 176 U. S. 581, approved and followed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Twining v. New Jersey, syllabus ¶ 9",
+      "page": 79,
+      "ref": "Case.96885.syllabus.9",
+      "text": "Quwre and not decided whether an instruction that the jury may draw an unfavorable inference from the failure of the accused to testify in denial of evidence tending to criminate him amounts to a violation of the privilege of immunity from self-incrimination."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Twining v. New Jersey, syllabus ¶ 10",
+      "page": 79,
+      "ref": "Case.96885.syllabus.10",
+      "text": "74 N. J. L. 683, affirmed."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-1",
     "loc-usrep-211-78"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 78 a paragraph seems to stop mid-sentence.",
   "title": "Twining v. New Jersey",
   "us_cite": "211 U.S. 78"
 }

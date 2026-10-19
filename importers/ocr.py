@@ -223,6 +223,74 @@ def classify(pages: list[Page]) -> None:
     settle_folios(pages)
 
 
+def set_aside(pages: list[Page], signature: str | None = None, speaker: str | None = None,
+              head: str | None = None) -> None:
+    """Before `classify`, for books that need it: specks the OCR read as a
+    word of a letter or two, alone in a block (they hide a running head
+    beneath them), are dropped; the top line of a page matching `head` (the
+    book's running head, "580 DEBATES. [Nicholas.", however OCR misread its
+    page number) and a printer's signature mark at the foot of a page
+    matching `signature` ("VOL. III. 7") are page furniture; and a line that
+    opens with a speaker's name (`speaker`: "Mr. MADISON.") always begins a
+    paragraph, even where the OCR misread the stop ending the line before
+    ("on this subject-") and ran the two together (in place)."""
+    sig = re.compile(signature) if signature else None
+    who = re.compile(speaker) if speaker else None
+    top = re.compile(head) if head else None
+    for page in pages:
+        page.paras = [p for p in page.paras
+                      if not (len(p.words) == 1 and len(p.text.strip()) <= 2 and not any(c.isdigit() for c in p.text))]
+        if top and page.paras and page.height:
+            first = page.paras[0]
+            line = first.lines[0]
+            y = line.words[0].y0
+            # The head as OCR read it: one line, or blocks side by side on
+            # the top line ("Henry.]" | "VIRGINIA." | "355").
+            row = [p for p in page.paras if len(p.lines) == 1 and abs(p.lines[0].words[0].y0 - y) < 0.012 * page.height]
+            text = " ".join(p.text for p in sorted(row, key=lambda p: p.lines[0].x0))
+            if y < 0.16 * page.height and len(row) > 1 and len(text.split()) <= 6 and top.search(text):
+                for p in row:
+                    p.kind = "head"
+            elif y < 0.16 * page.height and len(line.words) <= 6 and top.search(line.text):
+                if len(first.lines) == 1:
+                    first.kind = "head"
+                else:
+                    first.lines = first.lines[1:]
+                    page.paras.insert(0, Para([line], first.leaf, "head"))
+        if who:
+            # (Also a line indented as a paragraph's first line is, between
+            # lines set flush: the line before may be full, "… is
+            # dreadful. / We are threatened …".)
+            margin = body_margin(page)
+            lo, hi = 0.02 * page.width, 0.06 * page.width
+
+            def first_line(k: int, lines: list[Line]) -> bool:
+                ends = re.search(r"[.?!:\"”]$", lines[k - 1].text)
+                return (lo < lines[k].x0 - margin < hi and abs(lines[k - 1].x0 - margin) < lo
+                        and (ends or (k + 1 < len(lines) and abs(lines[k + 1].x0 - margin) < lo)))
+
+            paras = []
+            for para in page.paras:
+                cur = Para([para.lines[0]], para.leaf, para.kind, para.heading, para.starts or bool(who.match(para.lines[0].text)))
+                for k, line in enumerate(para.lines[1:], 1):
+                    if para.kind == "text" and (who.match(line.text) or first_line(k, para.lines)):
+                        paras.append(cur)
+                        cur = Para([], para.leaf, para.kind, False, True)
+                    cur.lines.append(line)
+                paras.append(cur)
+            page.paras = paras
+        if not (sig and page.paras and page.height):
+            continue
+        for last in list(page.paras):
+            mark = last.lines[-1]
+            if mark.words[0].y0 > 0.8 * page.height and sig.match(mark.text):
+                if len(last.lines) == 1:
+                    last.kind = "folio"
+                else:
+                    last.lines = last.lines[:-1]
+                    page.paras.append(Para([mark], last.leaf, "folio"))
+
+
 def settle_folios(pages: list[Page]) -> None:
     """Printed page numbers, checked against the pages around them (in place).
 
@@ -502,6 +570,7 @@ class Uncertain:
     start: int  # token index in the paragraph
     end: int
     readings: dict[str, str]
+    suggestion: str | None = None  # the Anti-Federalist Library's reading, where no scan's agrees with it
 
 
 def align(tokens: list[str], refs: list[Reference], hints: dict[str, int]) -> list[dict[str, str]]:
@@ -651,12 +720,18 @@ def attested(readings: list[dict[str, str]]) -> set[str]:
     return out
 
 
-def consensus(readings: list[dict[str, str]], known: set[str]) -> tuple[list[str], list[Uncertain]]:
+def consensus(readings: list[dict[str, str]], known: set[str], library: list[str | None] | None = None,
+              strict: bool = False, doubtful: list[bool] | None = None) -> tuple[list[str], list[Uncertain]]:
     """Vote on each word (see `vote`); return the words and the unsettled ones.
 
     Where a scan read two of the primary's tokens as one word (a reading of
     "" on the second), the tokens are voted on together, as one reading per
-    scan, so the choice between "coinni unity" and "community" is made once."""
+    scan, so the choice between "coinni unity" and "community" is made once.
+
+    `library`: the Anti-Federalist Library's reading of each token, a
+    tie-breaker only (see `tie_break`; `strict` as there). `doubtful`: tokens
+    the primary scan's OCR read with little confidence, which count as
+    unsettled unless another scan or the Library agrees."""
     out: list[str] = []
     uncertain: list[Uncertain] = []
     i = 0
@@ -681,11 +756,86 @@ def consensus(readings: list[dict[str, str]], known: set[str]) -> tuple[list[str
             votes = [vote(r, known) for r in split]
             if all(ok for _, ok in votes):
                 word, settled = " ".join(w for w, _ in votes), True
+        if doubtful and settled and len(joint) == 1 and any(doubtful[i:end]):
+            settled = False  # one scan, read with little confidence: nothing corroborates it
+        suggestion = None
+        # The Library's reading of the same words: none where it has no word
+        # there, or reads them together with a word outside them.
+        if (library and all(x is not None for x in library[i:end]) and library[i]
+                and not (end < len(library) and library[end] == "")):
+            lib = " ".join(x for x in library[i:end] if x)
+            word, settled, suggestion = tie_break(joint, word, settled, lib, strict, known)
         out.append(word)
         if not settled:
-            uncertain.append(Uncertain(len(out) - 1, len(out), joint))
+            uncertain.append(Uncertain(len(out) - 1, len(out), joint, suggestion))
         i = end
     return out, uncertain
+
+
+def edge_marks(v: str) -> tuple[str, str]:
+    """The stops, quotation marks and brackets before and after a word
+    (curly and straight quotation marks alike)."""
+    v = v.translate(str.maketrans("‘’“”", "''\"\""))
+    return re.match(r"\W*", v).group(), re.search(r"\W*$", v).group()
+
+
+def tie_break(joint: dict[str, str], word: str, settled: bool, lib: str, strict: bool = False,
+              known: set[str] = frozenset()) -> tuple[str, bool, str | None]:
+    """The Anti-Federalist Library as a tie-breaker (importers/library.py;
+    decision 55). Returns (word, settled, suggestion).
+
+    The Library never adds a word: the text is always one of the scans'
+    readings. A word the vote left unsettled is settled when the Library
+    reads it with the same letters as one of the scans (that scan's
+    reading is taken, its own spelling and marks, preferring the one whose
+    marks around the word match the Library's). Where no scan's reading
+    agrees, the word stays unsettled and the Library's reading is returned
+    as a suggestion for a person to check against the page image. With
+    `strict` (the scans are of the printing the Library follows), a settled
+    word the Library reads differently is unsettled too, unless two scans
+    read it so and it is a known word (four scans' "right" against the
+    Library's "fight": the Library has misreadings of its own)."""
+    lk = key(lib)
+    pk = key(joint["primary"])
+    if not lk:
+        return word, settled, None
+    if (not all(key(t) in known for t in lib.split())
+            and any(v and confused(key(v), lk) for v in joint.values())):
+        # The Library's word, not a known word, is a common misreading of a
+        # scan's ("discemable" for "discernable"): its text has OCR errors of
+        # its own.
+        return word, settled, None
+
+    def whole(v: str) -> bool:
+        """Not a reading of more or less than the main scan's word, as the
+        vote also requires: a scan's reading paired with part of it
+        ("that zest" for "thatzestof"), or with a piece of a word broken at
+        a line end ("property" for "prop-", before "erty")."""
+        k = key(v)
+        return (len(k) >= 0.75 * len(pk) or len(pk) < 5) and not (
+            abs(len(k) - len(pk)) >= 2 and (k.startswith(pk) or pk.startswith(k) or k.endswith(pk) or pk.endswith(k)))
+
+    def same(v: str) -> bool:
+        """The Library's word: the same letters and figures, read as as many words."""
+        return bool(v) and key(v) == lk and len(v.split()) == len(lib.split())
+
+    def clean(v: str) -> bool:
+        return not STRAY.search(v) and not (STOPS.search(v) and list(joint.values()).count(v) < 2)
+
+    if same(word):
+        if not settled and clean(word):
+            return word, True, None  # the Library corroborates the reading kept
+        return word, settled, None
+    matches = [v for v in joint.values() if same(v) and clean(v) and whole(v)]
+    if not settled:
+        if matches:
+            matches.sort(key=lambda v: edge_marks(v) != edge_marks(lib))
+            return matches[0], True, None
+        return word, False, None if any(same(v) for v in joint.values()) or not whole(lib) else lib
+    support = sum(1 for v in joint.values() if key(v) == key(word))
+    if strict and (support < 2 or key(word) not in known):
+        return word, False, None if any(same(v) for v in joint.values()) or not whole(lib) else lib
+    return word, settled, None
 
 
 # A word as printed: letters, with an inner apostrophe or hyphen, and
@@ -811,6 +961,13 @@ def vote(readings: dict[str, str], known: set[str]) -> tuple[str, bool]:
 # ligature; "wliole" for "whole").
 SHARED_CONFUSIONS = (("flf", "ff"), ("fif", "ff"), ("ffl", "ff"), ("li", "h"), ("tli", "th"), ("rn", "m"),
                      ("vv", "w"), ("ii", "u"), ("cl", "d"))
+
+
+def confused(right: str, read: str) -> bool:
+    """True when `read` is `right` with one of the shared OCR confusions,
+    either way ("discemable" for "discernable", "wliole" for "whole")."""
+    return read != right and any(right.replace(x, y, 1) == read for a, b in SHARED_CONFUSIONS
+                                 for x, y in ((a, b), (b, a)) if x in right)
 
 
 class Vocabulary(set):

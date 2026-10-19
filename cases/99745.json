@@ -15,12 +15,68 @@
   "loc_url": "https://www.loc.gov/item/usrep255298/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep255/usrep255298/usrep255298.pdf",
   "ref_prefix": "Case.99745",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Gouled v. United States, syllabus ¶ 1",
+      "page": 298,
+      "ref": "Case.99745.syllabus.1",
+      "text": "1. The Fourth and Fifth Amendments are to be liberally construed. P. 303."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gouled v. United States, syllabus ¶ 2",
+      "page": 298,
+      "ref": "Case.99745.syllabus.2",
+      "text": "2. When a defendant in a criminal case first learns of the Government's possession of his document when it is offered against him on the trial, his objection that it was obtained by an unreasonable search and seizure should not be overruled as coining too late. P. 305."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gouled v. United States, syllabus ¶ 3",
+      "page": 298,
+      "ref": "Case.99745.syllabus.3",
+      "text": "3. An unreasonable search and seizure, in the sense of the Fourth Amqndment, does not necessarily involve the employment of force or coercion, but is committed when a representative of any branch or subdivision of the Government, by stealth, through social acquaintance, or in the guise of a business call, gains entrnce to the house or office of a person suspected of crime, whether in the presence or absence of the owner, and, in the owner's 'absence, searches for and abstracts his papers without his kniwledge or consent. P. 305."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gouled v. United States, syllabus ¶ 4",
+      "page": 298,
+      "ref": "Case.99745.syllabus.4",
+      "text": "4. The admission of a paper so obtained in evidence against and over the objection of the owner when indicted for crime, compels him to be a witness against himself, in violation of the Fifth Amendment. P. 306."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gouled v. United States, syllabus ¶ 5",
+      "page": 298,
+      "ref": "Case.99745.syllabus.5",
+      "text": "5. The Fourth Amendment permits of searches and seizures under valid search warrants, when justified by an interest of the public, or of the complainant, in the property to be seized, or in its possession, or when a lawful exercise of police power renders its possession by the accused unlawful and provides for its seizure; and papers as such are not immune from such search and seizure. P. 308."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gouled v. United States, syllabus ¶ 6",
+      "page": 299,
+      "ref": "Case.99745.syllabus.6",
+      "text": "6. But papers of no pecuniary value in themselves, which are evidence of criminal fraud against their owner, and are of interest to and are sought by the Government for use as evidence merely and not because they have been or may be used to defraud it, as an executed contract might be, cannot constitutionally be searched for and seized in their owner's house or office by resort to a search warrant. P. 310."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gouled v. United States, syllabus ¶ 7",
+      "page": 299,
+      "ref": "Case.99745.syllabus.7",
+      "text": "7. Papers lawfully obtained under a valid search warrant may be used as evidence by the Government in prosecuting a person for a different offense than that charged against him in the affidavit upon which the search warrant was issued. P. 311."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gouled v. United States, syllabus ¶ 8",
+      "page": 299,
+      "ref": "Case.99745.syllabus.8",
+      "text": "8. Where, in the progress of a criminal trial, it becomes probable that there has been an unconstitutional seizure of papers of the accused, it is the duty of the trial court to entertain an objection to their admission in evidence against-him or a motion for their exclusion, and to decide the question as then presented, even where a motion to return the papers has been denied before trial and by another judge. P. 312."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-1",
     "loc-usrep-255-298"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 298 a paragraph seems to stop mid-sentence.",
   "title": "Gouled v. United States",
   "us_cite": "255 U.S. 298"
 }

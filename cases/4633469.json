@@ -3,23 +3,125 @@
     "cited on 10 pages"
   ],
   "conan_citation": "Rucho v. Common Cause, No. 18-422 (U.S. June 27, 2019)",
+  "court_print": "United States Reports, volume 588, part 2 (preliminary print)",
   "courtlistener_match": "CourtListener files this decision under several docket numbers; of the 4 opinions and orders under No. 18-422, this is the one dated as the Constitution Annotated prints.",
   "courtlistener_name": "Rucho v. Common Cause",
   "courtlistener_url": "https://www.courtlistener.com/opinion/4633469/rucho-v-common-cause/",
   "date": "2019-06-27",
-  "date_source": "courtlistener",
+  "date_source": "us_reports",
   "docket": "18-422",
   "edition": {
     "name": "CourtListener and the United States Reports",
-    "notes": "Case details: CourtListener (Free Law Project), cluster 4633469. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+    "notes": "Case details: CourtListener (Free Law Project), cluster 4633469. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 588, part 2 (preliminary print), as the Supreme Court publishes it, read from the text layer of the Court's PDF."
   },
   "id": "4633469",
+  "pdf_first_page": 346,
+  "pdf_url": "https://www.supremecourt.gov/opinions/preliminaryprint/588US2PP_final.pdf",
   "ref_prefix": "Case.4633469",
-  "segments": [],
-  "source_ids": [
-    "courtlistener-search-dockets-1"
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 1",
+      "page": 684,
+      "ref": "Case.4633469.syllabus.1",
+      "text": "Voters and other plaintiffs in North Carolina and Maryland fled suits challenging their States' congressional districting maps as unconstitutional partisan gerrymanders. The North Carolina plaintiffs claimed that the State's districting plan discriminated against Democrats, while the Maryland plaintiffs claimed that their State's plan discriminated against Republicans. The plaintiffs alleged violations of the First Amendment, the Equal Protection Clause of the Fourteenth Amendment, the Elections Clause, and Article I, § 2. The District Courts in both cases ruled in favor of the plaintiffs, and the defendants appealed directly to this Court."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 2",
+      "page": 684,
+      "ref": "Case.4633469.syllabus.2",
+      "text": "Held: Partisan gerrymandering claims present political questions beyond the reach of the federal courts. Pp. 695–721."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 3",
+      "page": 684,
+      "ref": "Case.4633469.syllabus.3",
+      "text": "(a) In these cases, the Court is asked to decide an important question of constitutional law. Before it does so, the Court “must fnd that the question is presented in a `case' or `controversy' that is . . . `of a Judiciary Nature.' ” DaimlerChrysler Corp. v. Cuno, 547 U. S. 332, 342. While it is “the province and duty of the judicial department to say what the law is,” Marbury v. Madison, 1 Cranch 137, 177, sometimes the law is that the Judiciary cannot entertain a claim because it presents a nonjusticiable “political question,” Baker v. Carr, 369 U. S. 186, 217. Among the political question cases this Court has identifed are those that lack “judicially discoverable and manageable standards for resolving [them].” Ibid. This Court's partisan gerrymandering cases have left unresolved the question whether such claims are claims of legal right, resolvable according to legal principles, or political questions that must fnd their resolution elsewhere. See Gill v. Whitford, 585 U. S. 48, 60."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 4",
+      "page": 684,
+      "ref": "Case.4633469.syllabus.4",
+      "text": "Partisan gerrymandering was known in the Colonies prior to Independence, and the Framers were familiar with it at the time of the drafting and ratifcation of the Constitution. They addressed the election of Representatives to Congress in the Elections Clause, Art. I, § 4, cl. 1, assigning to state legislatures the power to prescribe the “Times, Places and Manner of holding Elections” for Members of Congress, while giving Congress the power to “make or alter” any such regulations. Congress has regularly exercised its Elections Clause power, including to address partisan gerrymandering. But the Framers did not set aside all electoral issues as questions that only Congress can resolve. In two areas—one-person, one-vote and racial gerrymandering—this Court has held that there is a role for the courts with respect to at least some issues that could arise from a State's drawing of congressional districts. But the history of partisan gerrymandering is not irrelevant. Aware of electoral districting problems, the Framers chose a characteristic approach, assigning the issue to the state legislatures, expressly checked and balanced by the Federal Congress, with no suggestion that the federal courts had a role to play."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 5",
+      "page": 685,
+      "ref": "Case.4633469.syllabus.5",
+      "text": "Courts have nonetheless been called upon to resolve a variety of questions surrounding districting. The claim of population inequality among districts in Baker v. Carr, for example, could be decided under basic equal protection principles. 369 U. S., at 226. Racial discrimination in districting also raises constitutional issues that can be addressed by the federal courts. See Gomillion v. Lightfoot, 364 U. S. 339, 340. Partisan gerrymandering claims have proved far more diffcult to adjudicate, in part because “a jurisdiction may engage in constitutional political gerrymandering.” Hunt v. Cromartie, 526 U. S. 541, 551. To hold that legislators cannot take their partisan interests into account when drawing district lines would essentially countermand the Framers' decision to entrust districting to political entities. The “central problem” is “determining when political gerrymandering has gone too far.” Vieth v. Jubelirer, 541 U. S. 267, 296 (plurality opinion). Despite considerable efforts in Gaffney v. Cummings, 412 U. S. 735, 753; Davis v. Bandemer, 478 U. S. 109, 116–117; Vieth, 541 U. S., at 272–273; and League of United Latin American Citizens v. Perry, 548 U. S. 399, 414 (LULAC), this Court's prior cases have left “unresolved whether . . . claims [of legal right] may be brought in cases involving allegations of partisan gerrymandering,” Gill, 585 U. S., at 65. Two “threshold questions” remained: standing, which was addressed in Gill, and “whether [such] claims are justiciable.” Ibid. Pp. 695–703."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 6",
+      "page": 685,
+      "ref": "Case.4633469.syllabus.6",
+      "text": "(b) Any standard for resolving partisan gerrymandering claims must be grounded in a “limited and precise rationale” and be “clear, manageable, and politically neutral.” Vieth, 541 U. S., at 306–308 (Kennedy, J., concurring in judgment). The question is one of degree: How to “provid[e] a standard for deciding how much partisan dominance is too much.” LULAC, 548 U. S., at 420 (opinion of Kennedy, J.). Partisan gerrymandering claims rest on an instinct that groups with a certain level of political support should enjoy a commensurate level of political power and infuence. Such claims invariably sound in a desire for proportional representation, but the Constitution does not require proportional representation, and federal courts are neither equipped nor authorized to apportion political power as a matter of fairness. It is not even clear what fairness looks like in this context. It may mean achieving a greater number of competitive districts by undoing packing and cracking so that supporters of the disadvantaged party have a better shot at electing their preferred candidates. But it could mean engaging in cracking and packing to ensure each party its “appropriate” share of “safe” seats. Or perhaps it should be measured by adherence to “traditional” districting criteria. Deciding among those different visions of fairness poses basic questions that are political, not legal. There are no legal standards discernible in the Constitution for making such judgments. And it is only after determining how to defne fairness that one can even begin to answer the determinative question: “How much is too much?”"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 7",
+      "page": 686,
+      "ref": "Case.4633469.syllabus.7",
+      "text": "The fact that the Court can adjudicate one-person, one-vote claims does not mean that partisan gerrymandering claims are justiciable. This Court's one-person, one-vote cases recognize that each person is entitled to an equal say in the election of representatives. It hardly follows from that principle that a person is entitled to have his political party achieve representation commensurate to its share of statewide support. Vote dilution in the one-person, one-vote cases refers to the idea that each vote must carry equal weight. That requirement does not extend to political parties; it does not mean that each party must be infuential in proportion to the number of its supporters. The racial gerrymandering cases are also inapposite: They call for the elimination of a racial classifcation, but a partisan gerrymandering claim cannot ask for the elimination of partisanship. Pp. 703–710."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 8",
+      "page": 686,
+      "ref": "Case.4633469.syllabus.8",
+      "text": "(c) None of the proposed “tests” for evaluating partisan gerrymandering claims meets the need for a limited and precise standard that is judicially discernible and manageable. Pp. 710–718."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 9",
+      "page": 686,
+      "ref": "Case.4633469.syllabus.9",
+      "text": "(1) The Common Cause District Court concluded that all but one of the districts in North Carolina's 2016 Plan violated the Equal Protection Clause by intentionally diluting the voting strength of Democrats. It applied a three-part test, examining intent, effects, and causation. The District Court's “predominant intent” prong is borrowed from the test used in racial gerrymandering cases. However, unlike race-based decisionmaking, which is “inherently suspect,” Miller v. Johnson, 515 U. S. 900, 915, districting for some level of partisan advantage is not unconstitutional. Determining that lines were drawn on the basis of partisanship does not indicate that districting was constitutionally impermissible. The Common Cause District Court also required the plaintiffs to show that vote dilution is “likely to persist” to such a degree that the elected representatives will feel free to ignore the concerns of the supporters of the minority party. Experience proves that accurately predicting electoral outcomes is not simple, and asking judges to predict how a particular districting map will perform in future elections risks basing constitutional holdings on unstable ground outside judicial expertise. The District Court's third prong—which gave the defendants an opportunity to show that discriminatory effects were due to a “legitimate redistricting objective”—just restates the question asked at the “predominant intent” prong. Pp. 710–713."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 10",
+      "page": 687,
+      "ref": "Case.4633469.syllabus.10",
+      "text": "(2) The District Courts also found partisan gerrymandering claims justiciable under the First Amendment, coalescing around a basic threepart test: proof of intent to burden individuals based on their voting history or party affliation, an actual burden on political speech or associational rights, and a causal link between the invidious intent and actual burden. But their analysis offers no “clear” and “manageable” way of distinguishing permissible from impermissible partisan motivation. Pp. 713–715."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 11",
+      "page": 687,
+      "ref": "Case.4633469.syllabus.11",
+      "text": "(3) Using a State's own districting criteria as a baseline from which to measure how extreme a partisan gerrymander is would be indeterminate and arbitrary. Doing so would still leave open the question of how much political motivation and effect is too much. Pp. 715–716."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 12",
+      "page": 687,
+      "ref": "Case.4633469.syllabus.12",
+      "text": "(4) The North Carolina District Court further held that the 2016 Plan violated Article I, § 2, and the Elections Clause, Art. I, § 4, cl. 1. But the Vieth plurality concluded—without objection from any other Justice—that neither § 2 nor § 4 “provides a judicially enforceable limit on the political considerations that the States and Congress may take into account when districting.” 541 U. S., at 305. Any assertion that partisan gerrymanders violate the core right of voters to choose their representatives is an objection more likely grounded in the Guarantee Clause of Article IV, § 4, which “guarantee[s] to every State in [the] Union a Republican Form of Government.” This Court has several times concluded that the Guarantee Clause does not provide the basis for a justiciable claim. See, e. g., Pacifc States Telephone & Telegraph Co. v. Oregon, 223 U. S. 118. Pp. 717–718."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 13",
+      "page": 687,
+      "ref": "Case.4633469.syllabus.13",
+      "text": "(d) The conclusion that partisan gerrymandering claims are not justiciable neither condones excessive partisan gerrymandering nor condemns complaints about districting to echo into a void. Numerous States are actively addressing the issue through state constitutional amendments and legislation placing power to draw electoral districts in the hands of independent commissions, mandating particular districting criteria for their mapmakers, or prohibiting drawing district lines for partisan advantage. The Framers also gave Congress the power to do something about partisan gerrymandering in the Elections Clause. That avenue for reform established by the Framers, and used by Congress in the past, remains open. Pp. 718–721."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rucho v. Common Cause, syllabus ¶ 14",
+      "page": 688,
+      "ref": "Case.4633469.syllabus.14",
+      "text": "318 F. Supp. 3d 777 and 348 F. Supp. 3d 493, vacated and remanded."
+    }
   ],
-  "syllabus_note": "The Library of Congress has no scan of this decision on its own (summary decisions are printed in lists, and the latest volumes are not yet scanned).",
+  "source_ids": [
+    "courtlistener-search-dockets-1",
+    "scotus-588-pp2"
+  ],
   "title": "Rucho v. Common Cause",
   "us_cite": "588 U.S. 684"
 }

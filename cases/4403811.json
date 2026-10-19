@@ -3,21 +3,130 @@
     "named in the title of essay ArtI.S8.C4.1.4.3"
   ],
   "conan_citation": "Sessions v. Morales-Santana, 582 U.S. 47 (2017)",
+  "court_print": "United States Reports, volume 582 (bound volume)",
   "courtlistener_name": "Sessions v. Morales-Santana",
   "courtlistener_url": "https://www.courtlistener.com/opinion/4403811/sessions-v-morales-santana/",
   "date": "2017-06-12",
-  "date_source": "courtlistener",
+  "date_source": "us_reports",
   "edition": {
     "name": "CourtListener and the United States Reports",
-    "notes": "Case details: CourtListener (Free Law Project), cluster 4403811. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+    "notes": "Case details: CourtListener (Free Law Project), cluster 4403811. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 582 (bound volume), as the Supreme Court publishes it, read from the text layer of the Court's PDF."
   },
   "id": "4403811",
+  "pdf_first_page": 84,
+  "pdf_url": "https://www.supremecourt.gov/opinions/boundvolumes/582BV.pdf",
   "ref_prefix": "Case.4403811",
-  "segments": [],
-  "source_ids": [
-    "courtlistener-citations-4"
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 1",
+      "page": 47,
+      "ref": "Case.4403811.syllabus.1",
+      "text": "The Immigration and Nationality Act provides the framework for acquisition of U. S. citizenship from birth by a child born abroad, when one parent is a U. S. citizen and the other a citizen of another nation. Applicable to married couples, the main rule in effect at the time here relevant, 8 U. S. C. § 1401(a)(7) (1958 ed.), required the U. S.-citizen parent to have ten years' physical presence in the United States prior to the child's birth, “at least fve of which were after attaining” age 14. The rule is made applicable to unwed U. S.-citizen fathers by § 1409(a), but § 1409(c) creates an exception for an unwed U. S.-citizen mother, whose citizenship can be transmitted to a child born abroad if she has lived continuously in the United States for just one year prior to the child's birth."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 2",
+      "page": 47,
+      "ref": "Case.4403811.syllabus.2",
+      "text": "Respondent Luis Ramón Morales-Santana, who has lived in the United States since he was 13, asserts U. S. citizenship at birth based on the U. S. citizenship of his biological father, José Morales. José moved to the Dominican Republic 20 days short of his 19th birthday, therefore failing to satisfy § 1401(a)(7)'s requirement of fve years' physical presence after age 14. There, he lived with the Dominican woman who gave birth to Morales-Santana. José accepted parental responsibility and included Morales-Santana in his household; he married Morales-Santana's mother and his name was then added to hers on Morales-Santana's birth certifcate. In 2000, the Government sought to remove Morales-Santana based on several criminal convictions, ranking him as alien because, at his time of birth, his father did not satisfy the requirement of fve years' physical presence after age 14. An immigration judge rejected Morales-Santana's citizenship claim and ordered his removal. Morales-Santana later moved to reopen the proceedings, asserting that the Government's refusal to recognize that he derived citizenship from his U. S.-citizen father violated the Constitution's equal protection guarantee. The Board of Immigration Appeals denied the motion, but the Second Circuit reversed. Relying on this Court's post- 1970 construction of the equal protection principle as it bears on genderbased classifcations, the court held unconstitutional the differential treatment of unwed mothers and fathers. To cure this infrmity, the Court of Appeals held that Morales-Santana derived citizenship through his father, just as he would were his mother the U. S. citizen."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 3",
+      "page": 48,
+      "ref": "Case.4403811.syllabus.3",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 4",
+      "page": 48,
+      "ref": "Case.4403811.syllabus.4",
+      "text": "1. The gender line Congress drew is incompatible with the Fifth Amendment's requirement that the Government accord to all persons “the equal protection of the laws.” Pp. 56–72."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 5",
+      "page": 48,
+      "ref": "Case.4403811.syllabus.5",
+      "text": "(a) Morales-Santana satisfes the requirements for third-party standing in seeking to vindicate his father's right to equal protection. José Morales' ability to pass citizenship to his son easily satisfes the requirement that the third party have a “ `close' relationship with the person who possesses the right.” Kowalski v. Tesmer, 543 U. S. 125, 130. And José's death many years before the current controversy arose is “a `hindrance' to [José's] ability to protect his own interests.” Ibid. Pp. 56–57."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 6",
+      "page": 48,
+      "ref": "Case.4403811.syllabus.6",
+      "text": "(b) Sections 1401 and 1409 date from an era when the Nation's lawbooks were rife with overbroad generalizations about the way men and women are. Today, such laws receive the heightened scrutiny that now attends “all gender-based classifcations,” J. E. B. v. Alabama ex rel. T. B., 511 U. S. 127, 136, including laws granting or denying benefts “on the basis of the sex of the qualifying parent,” Califano v. Westcott, 443 U. S. 76, 84. Prescribing one rule for mothers, another for fathers, § 1409 is of the same genre as the classifcations declared unconstitutional in Westcott; Reed v. Reed, 404 U. S. 71, 74, 76–77; Frontiero v. Richardson, 411 U. S. 677, 688–691; Weinberger v. Wiesenfeld, 420 U. S. 636, 648–653; and Califano v. Goldfarb, 430 U. S. 199, 206–207. A successful defense therefore requires an “ `exceedingly persuasive justifcation.' ” United States v. Virginia, 518 U. S. 515, 531. Pp. 57–59."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 7",
+      "page": 48,
+      "ref": "Case.4403811.syllabus.7",
+      "text": "(c) The Government must show, at least, that its gender-based “ `classifcation serves “important governmental objectives and that the discriminatory means employed” are “substantially related to [achieving] those objectives.” ' ” Virginia, 518 U. S., at 533. The classifcation must serve an important governmental interest today, for “new insights and societal understandings can reveal unjustifed inequality . . . that once passed unnoticed and unchallenged.” Obergefell v. Hodges, 576 U. S. 644, 673. Pp. 59–64."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 8",
+      "page": 48,
+      "ref": "Case.4403811.syllabus.8",
+      "text": "(1) At the time § 1409 was enacted as part of the Nationality Act of 1940 (1940 Act), two once habitual, but now untenable, assumptions pervaded the Nation's citizenship laws and underpinned judicial and administrative rulings: In marriage, husband is dominant, wife subordinate; unwed mother is the sole guardian of a nonmarital child. In the 1940 Act, Congress codifed the mother-as-sole-guardian perception for unmarried parents. According to the stereotype, a residency requirement was justifed for unwed citizen fathers, who would care little about, and have scant contact with, their nonmarital children. Unwed citizen mothers needed no such prophylactic, because the alien father, along with his foreign ways, was presumptively out of the picture. Pp. 59–62."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 9",
+      "page": 49,
+      "ref": "Case.4403811.syllabus.9",
+      "text": "(2) For close to a half century, this Court has viewed with suspicion laws that rely on “overbroad generalizations about the different talents, capacities, or preferences of males and females.” Virginia, 518 U. S., at 533. No “important [governmental] interest” is served by laws grounded, as § 1409(a) and (c) are, in the obsolescing view that “unwed fathers [are] invariably less qualifed and entitled than mothers” to take responsibility for nonmarital children. Caban v. Mohammed, 441 U. S. 380, 382, 394. In light of this equal protection jurisprudence, § 1409(a) and (c)'s discrete duration-of-residence requirements for mothers and fathers are anachronistic. Pp. 62–64."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 10",
+      "page": 49,
+      "ref": "Case.4403811.syllabus.10",
+      "text": "(d) The Government points to Fiallo v. Bell, 430 U. S. 787; Miller v. Albright, 523 U. S. 420; and Tuan Anh Nguyen v. INS, 533 U. S. 53, for support. But Fiallo involved entry preferences for alien children; the case did not present a claim of U. S. citizenship. And Miller and Nguyen addressed a paternal-acknowledgment requirement well met here, not the length of a parent's prebirth residency in the United States. Pp. 64–66."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 11",
+      "page": 49,
+      "ref": "Case.4403811.syllabus.11",
+      "text": "(e) The Government's suggested rationales for § 1409(a) and (c)'s gender-based differential do not survive heightened scrutiny. Pp. 66–72."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 12",
+      "page": 49,
+      "ref": "Case.4403811.syllabus.12",
+      "text": "(1) The Government asserts that Congress sought to ensure that a child born abroad has a strong connection to the United States. The statute, the Government suggests, bracketed an unwed U. S.-citizen mother with a married couple in which both parents are U. S. citizens because she is the only legally recognized parent at birth; and aligned an unwed U. S.-citizen father with a married couple, one spouse a citizen, the other, an alien, because of the competing national infuence of the alien mother. This rationale conforms to the long-held view that unwed fathers care little about their children. And the gender-based means scarcely serve the suggested congressional interest. Citizenship may be transmitted to children who have no tie to the United States so long as their U. S.-citizen mother was continuously present in the United States for one year at any point in her life prior to the child's birth; but it may not be transmitted by a U. S.-citizen father who falls a few days short of meeting § 1401(a)(7)'s longer physical-presence requirements, even if he acknowledges paternity on the day the child is born and raises the child in the United States. Pp. 66–68."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 13",
+      "page": 50,
+      "ref": "Case.4403811.syllabus.13",
+      "text": "(2) The Government also maintains that Congress wished to reduce the risk of statelessness for the foreign-born child of a U. S. citizen. But congressional hearings and reports offer no support for the assertion that a statelessness concern prompted the diverse physicalpresence requirements. Nor has the Government shown that the risk of statelessness disproportionately endangered the children of unwed U. S.-citizen mothers. Pp. 68–72."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 14",
+      "page": 50,
+      "ref": "Case.4403811.syllabus.14",
+      "text": "2. Because this Court is not equipped to convert § 1409(c)'s exception for unwed U. S.-citizen mothers into the main rule displacing §§ 1401(a)(7) and 1409(a), it falls to Congress to select a uniform prescription that neither favors nor disadvantages any person on the basis of gender. In the interim, § 1401(a)(7)'s current requirement should apply, prospectively, to children born to unwed U. S.-citizen mothers. The legislature's intent, as revealed by the statute at hand, governs the choice between the two remedial alternatives: extending favorable treatment to the excluded class or withdrawing favorable treatment from the favored class. Ordinarily, the preferred rule is to extend favorable treatment. Westcott, 443 U. S., at 89–90. Here, however, extension to fathers of § 1409(c)'s favorable treatment for mothers would displace Congress' general rule, the longer physical-presence requirements of §§ 1401(a)(7) and 1409 applicable to unwed U. S.-citizen fathers and U. S.-citizen parents, male as well as female, married to the child's alien parent. Congress' “ `commitment to th[is] residual policy' ” and “ `the degree of potential disruption of the statutory scheme that would occur by extension as opposed to abrogation,' ” Heckler v. Mathews, 465 U. S. 728, 739, n. 5, indicate that Congress would likely have abrogated § 1409(c)'s special exception, preferring to preserve “the importance of residence in this country as the talisman of dedicated attachment,” Rogers v. Bellei, 401 U. S. 815, 834. Pp. 72–77."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Sessions v. Morales-Santana, syllabus ¶ 15",
+      "page": 50,
+      "ref": "Case.4403811.syllabus.15",
+      "text": "804 F. 3d 520, affrmed in part, reversed in part, and remanded."
+    }
   ],
-  "syllabus_note": "The Library of Congress has no scan of this decision on its own (summary decisions are printed in lists, and the latest volumes are not yet scanned).",
+  "source_ids": [
+    "courtlistener-citations-4",
+    "scotus-582-bv"
+  ],
   "title": "Sessions v. Morales-Santana",
   "us_cite": "582 U.S. 47"
 }

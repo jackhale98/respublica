@@ -1,0 +1,41 @@
+{
+  "chosen_because": [
+    "overrules Cicenia v. Lagay (table of overruled decisions)",
+    "overrules Crooker v. California (table of overruled decisions)"
+  ],
+  "conan_citation": "Escobedo v. Illinois, 378 U.S. 478 (1964)",
+  "courtlistener_name": "Escobedo v. Illinois",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/106883/escobedo-v-illinois/",
+  "date": "1964-06-22",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 106883. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 378, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "106883",
+  "loc_url": "https://www.loc.gov/item/usrep378478/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378478/usrep378478.pdf",
+  "ref_prefix": "Case.106883",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Escobedo v. Illinois, syllabus ¶ 1",
+      "page": 478,
+      "ref": "Case.106883.syllabus.1",
+      "text": "Petitioner, a 22-year-old of Mexican extraction, was arrested with his sister and taken to police headquarters for interrogation in connection with the fatal shooting, about 11 days before, of his brother-in-law. He had been arrested shortly after the shooting, but had made no statement, and was released after his lawyer obtained a writ of habeas corpus from a state court. Petitioner made several requests to see his lawyer, who, though present in the building, and despite persistent efforts, was refused access to his client. Petitioner was not advised by the police of his right to remain silent and, after persistent questioning by the police, made a damaging statement to an Assistant State's Attorney which was admitted at the trial. Convicted of murder, he appealed to the State Supreme Court, which affirmed the conviction. Held: Under the circumstances of this case, where a police investigation is no longer a general inquiry into an unsolved crime but has begun to focus on a particular suspect in police custody who has been refused an opportunity to consult with his counsel and who has not been warned of his constitutional right to keep silent, the accused has been denied the assistance of counsel in violation of the Sixth and Fourteenth Amendments; and no statement extracted by the police during the interrogation may be used against him at a trial. Crooker v. California, 357 U. S. 433, and Cicenia v. Lagay, 357 U. S. 504, distinguished, and to the extent that. they may be inconsistent with the instant 6ase, they are not controlling. Pp. 479-492."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Escobedo v. Illinois, syllabus ¶ 2",
+      "page": 478,
+      "ref": "Case.106883.syllabus.2",
+      "text": "28 Ill. 2d 41, 190 N. E. 2d 825, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-378-478"
+  ],
+  "title": "Escobedo v. Illinois",
+  "us_cite": "378 U.S. 478"
+}

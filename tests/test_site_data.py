@@ -134,8 +134,15 @@ class GraphTests(unittest.TestCase):
         self.assertEqual(page["url"], "/cases/105221/")
         self.assertTrue(page["case"]["overruled"])
         self.assertEqual(len(page["overruled_by"]), 1)
-        self.assertEqual(page["blocks"][0]["printed"], {"page": 484, "url": "https://example.org/b.pdf#page=2"})
+        self.assertEqual(page["blocks"][0]["printed"], {"page": 484, "url": "https://example.org/b.pdf#page=2",
+                                                        "from": "the Library of Congress scan"})
         self.assertEqual(site["stats"]["cases"], 1)
+        # A syllabus from the Court's PDF of a whole volume: the page counts from where the case starts.
+        doc |= {"court_print": "United States Reports, volume 347 (bound volume)", "pdf_first_page": 500}
+        site, pages = SiteBuilder(c, [link]).build()
+        self.assertEqual(pages["case-105221"]["blocks"][0]["printed"],
+                         {"page": 484, "url": "https://example.org/b.pdf#page=501", "from": "the Supreme Court's PDF"})
+        self.assertEqual(pages["case-105221"]["case"]["pdf_first_page"], 500)
         self.assertEqual(pages["cases"]["cases"][0]["id"], "105221")
 
     def test_two_hop_neighborhood_and_rejected_links(self):

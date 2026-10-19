@@ -26,9 +26,9 @@ from difflib import SequenceMatcher
 from functools import lru_cache
 from pathlib import Path
 
-from importers import corrections
+from importers import corrections, library
 from importers.ocr import (TOKEN, Block, Reference, Vocabulary, align, attested, blocks, classify, consensus, key, known_words,
-                          parse_djvu_xml)
+                          parse_djvu_xml, set_aside)
 from importers.ratification_series import BOOKS, SERIES
 from tools.common import TEXTS_DIR, raw_path, read_raw_text, roman_to_int, write_json
 
@@ -56,6 +56,8 @@ class LoadedBook:
 def load_book(book_id: str) -> LoadedBook:
     book = BOOKS[book_id]
     pages = parse_djvu_xml(raw_path(book["primary"]))
+    if book.get("set_aside"):
+        set_aside(pages, book.get("signature_marks"), book.get("speaker_lines"), book.get("running_head"))
     classify(pages)
     offsets = Counter(p.leaf - int(p.folio) for p in pages if p.folio and p.folio.isdigit())
     _expect(bool(offsets), f"{book_id}: no printed page numbers found")
@@ -314,6 +316,16 @@ class Prepared:
     series: dict
     essays: list[Essay]
     readings: dict[int, list[dict]]  # id(block) -> per-token readings
+    # id(block) -> the Anti-Federalist Library's reading of each token (a
+    # tie-breaker only: importers/library.py)
+    library: dict[int, list[str | None]] = field(default_factory=dict)
+    # id(block) -> words the one scan read with little confidence (the New-York
+    # Journal's essays: importers/nyjournal.py)
+    doubtful: dict[int, list[bool]] = field(default_factory=dict)
+    # id(block) -> the scan it is read from, where not the series' book
+    scans: dict[int, dict] = field(default_factory=dict)
+    # essay id -> the issue dates it was printed in (the New-York Journal's essays)
+    dates: dict[str, list[str]] = field(default_factory=dict)
 
 
 def end_at(series: dict, eb: list) -> list:
@@ -336,6 +348,7 @@ def prepare(series: dict) -> Prepared:
     essays = []
     hints: dict[str, int] = {}
     readings: dict[int, list[dict]] = {}
+    lib: dict[int, list[str | None]] = {}
     for n, head, eb in raw:
         eb = split_greetings(eb)
         if series.get("end_at"):
@@ -346,10 +359,14 @@ def prepare(series: dict) -> Prepared:
         # puts them in a different order from the other scans' page text.
         stream = [head, *(b for b in eb if b.kind != "note")]
         tokens = [TOKEN.findall(b.text) for b in stream]
-        aligned = align([t for ts in tokens for t in ts], book.refs, hints)
+        flat = [t for ts in tokens for t in ts]
+        aligned = align(flat, book.refs, hints)
+        # The Library's reading, where it has this essay (a tie-breaker).
+        lib_flat = library.readings(flat, library.page_for(series["slug"], n))
         at = 0
         for b, ts in zip(stream, tokens):
             readings[id(b)] = aligned[at:at + len(ts)]
+            lib[id(b)] = lib_flat[at:at + len(ts)]
             at += len(ts)
         for b in eb:
             if b.kind == "note":
@@ -358,21 +375,72 @@ def prepare(series: dict) -> Prepared:
         if series.get("heading_in_publication"):
             e.header.insert(0, head)  # the heading is the newspaper's name
         essays.append(e)
-    return Prepared(series, essays, readings)
+    prepared = Prepared(series, essays, readings, lib)
+    if series.get("continued_in") == "nyjournal":
+        prepare_nyjournal(prepared)
+    return prepared
+
+
+def prepare_nyjournal(prepared: Prepared) -> None:
+    """Brutus V-XVI from the New-York Journal (importers/nyjournal.py),
+    after the essays from the series' book: one scan, so each word's only
+    reading is the OCR's, with its confidence, and the Library's text of
+    the essay as a tie-breaker. An essay printed in two instalments (XII,
+    XIV) is one essay: the first instalment's heading lines and salutation,
+    both instalments' paragraphs, the second's signature."""
+    from importers import nyjournal
+    series = prepared.series
+    for n, dates in nyjournal.ESSAYS:
+        pieces = []
+        for date in dates:
+            ps = nyjournal.parts(nyjournal.instalment(n, date))
+            for p in ps:
+                b = p.block
+                prepared.readings[id(b)] = [{"primary": t} for t, _ in p.tokens]
+                prepared.doubtful[id(b)] = [c < nyjournal.DOUBTFUL for _, c in p.tokens]
+                prepared.scans[id(b)] = nyjournal.scan(p)
+            # The Library's text of the essay, lined up with all its words.
+            flat = [t for p in ps for t, _ in p.tokens]
+            lib_flat = library.readings(flat, library.page_for(series["slug"], n))
+            at = 0
+            for p in ps:
+                prepared.library[id(p.block)] = lib_flat[at:at + len(p.tokens)]
+                at += len(p.tokens)
+            pieces.append(structure(series, n, [p.block for p in ps]))
+        e = pieces[0]
+        for more in pieces[1:]:
+            e.body += more.body
+            e.notes += more.notes
+            e.closing, e.inline_tokens = more.closing, more.inline_tokens
+        prepared.essays.append(e)
+        prepared.dates[n] = dates
 
 
 def text_of(block, prepared: Prepared, known: set[str]) -> tuple[str, list[dict]]:
-    return text_of_readings(prepared.readings[id(block)], known)
+    # A word of the New-York Journal's one scan that the Library reads
+    # differently is left for a person (`strict`): the Library follows that
+    # printing.
+    one_scan = id(block) in prepared.doubtful
+    return text_of_readings(prepared.readings[id(block)], known, prepared.library.get(id(block)), strict=one_scan,
+                            doubtful=prepared.doubtful.get(id(block)))
 
 
-def text_of_readings(readings: list[dict], known: set[str]) -> tuple[str, list[dict]]:
-    """Text decided by vote, with uncertain spans as character offsets."""
-    words, unsettled = consensus(readings, known)
+def text_of_readings(readings: list[dict], known: set[str], lib: list[str | None] | None = None,
+                     strict: bool = False, doubtful: list[bool] | None = None) -> tuple[str, list[dict]]:
+    """Text decided by vote, with uncertain spans as character offsets.
+    `lib`, `strict`, `doubtful`: see `ocr.consensus`. A word the scans could
+    not settle carries the Library's reading as its `suggestion` where no
+    scan reads it so."""
+    words, unsettled = consensus(readings, known, lib, strict, doubtful)
     pos = [0]
     for w in words:
         pos.append(pos[-1] + len(w) + 1)
-    spans = [{"end": pos[u.end] - 1, "readings": dict(sorted(u.readings.items())), "start": pos[u.start]}
-             for u in unsettled]
+    spans = []
+    for u in unsettled:
+        span = {"end": pos[u.end] - 1, "readings": dict(sorted(u.readings.items())), "start": pos[u.start]}
+        if u.suggestion:
+            span["suggestion"] = u.suggestion
+        spans.append(span)
     return " ".join(words), spans
 
 
@@ -394,7 +462,8 @@ def build(prepared: Prepared, known: set[str]) -> dict:
     def segment(ref: str, label: str, block, kind: str | None = None) -> dict:
         text, spans, fixed = corrections.apply(ref, *text_of(block, prepared, known))
         seg = {"label": label, "pages": block.folios, "ref": ref,
-               "scan": {"item": bookdef["item"], "leaves": block.leaves}, "text": text}
+               "scan": prepared.scans.get(id(block)) or {"item": bookdef["item"], "leaves": block.leaves},
+               "text": text}
         if kind:
             seg["kind"] = kind
         if spans:
@@ -417,6 +486,9 @@ def build(prepared: Prepared, known: set[str]) -> dict:
         # "uncertain", keyed by field ("publication.0" is the first line).
         div = {"attribution": series["attribution"], "label": label, "level": 1, "publication": [],
                "ref": base}
+        if e.id in prepared.dates:
+            ds = prepared.dates[e.id]
+            div["date"] = ds[0] if len(ds) == 1 else f"{ds[0]}/{ds[-1]}"
         unsettled: dict[str, list[dict]] = {}
         for i, b in enumerate(e.header):
             text, sp = joined([b])
@@ -430,8 +502,16 @@ def build(prepared: Prepared, known: set[str]) -> dict:
         lead = None
         if e.inline_tokens:
             last = e.body[-1]
-            lead = text_of_readings(prepared.readings[id(last)][-e.inline_tokens:], known)
+            lib = prepared.library.get(id(last))
+            doubt = prepared.doubtful.get(id(last))
+            lead = text_of_readings(prepared.readings[id(last)][-e.inline_tokens:], known,
+                                    lib[-e.inline_tokens:] if lib else None, strict=doubt is not None,
+                                    doubtful=doubt[-e.inline_tokens:] if doubt else None)
             prepared.readings[id(last)] = prepared.readings[id(last)][:-e.inline_tokens]
+            if lib:
+                prepared.library[id(last)] = lib[:-e.inline_tokens]
+            if doubt:
+                prepared.doubtful[id(last)] = doubt[:-e.inline_tokens]
         if e.closing or lead:
             div["signature"], sp = joined(e.closing, lead)
             if sp:
@@ -450,26 +530,37 @@ def build(prepared: Prepared, known: set[str]) -> dict:
     attribution = {"source": f"{bookdef['short']}, title page of the section", **series["attribution"]}
     for d in divisions:
         d["attribution"] = attribution
+    edition = {"name": bookdef["edition"],
+               "notes": f"{bookdef['edition']}, pp. {series['pages'][0]}–{series['pages'][1]}. Read from OCR "
+                        "scans and checked word by word against independent scans; words the scans could not "
+                        "settle are marked as uncertain." + (LIBRARY_NOTE if library.PAGES.get(prefix) else "")
+                        + " See docs/editions.md."}
+    source_ids = [bookdef["primary"], *bookdef["references"].values()]
+    if prepared.dates:
+        from importers import nyjournal
+        edition = nyjournal.edition(edition, series, prepared.dates)
+        source_ids += nyjournal.source_ids()
     doc = {
         "attribution": attribution,
         "date": series.get("date"),
         "divisions": divisions,
-        "edition": {"name": bookdef["edition"],
-                    "notes": f"{bookdef['edition']}, pp. {series['pages'][0]}–{series['pages'][1]}. Read from OCR "
-                             "scans and checked word by word against independent scans; words the scans could not "
-                             "settle are marked as uncertain. See docs/editions.md."},
+        "edition": edition,
         "id": series["work_id"],
         "position": series["position"],
         "ref_prefix": prefix,
         "segments": segments,
         "short": series["short"],
-        "source_ids": [bookdef["primary"], *bookdef["references"].values()],
+        "source_ids": [*source_ids, *library.source_ids(series["slug"], [e.id for e in prepared.essays])],
         "title": series["title"],
     }
     if retired:
         doc["retired"] = [{"merged_into": into, "reason": series["retired_reason"], "ref": ref}
                           for ref, into in sorted(retired.items())]
     return doc
+
+
+LIBRARY_NOTE = (" Where the scans disagreed, the Anti-Federalist Library's text was used to choose among their "
+                "readings, never to add one.")
 
 
 def run(out_dir: Path = TEXTS_DIR) -> list[Path]:

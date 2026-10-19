@@ -394,6 +394,20 @@ def landmark_cases(cases: list[CaseEntry], pages: dict[int, list[str]],
             for key in case_keys(text):
                 if len(cited.get(key, ())) >= OVERRULED_PAGES:
                     choose(key, f"overruled (table of overruled decisions) and cited on {len(cited[key])} pages", text)
+    # Rule 6 (decision 53). Every decision the table lists as overruling a case
+    # chosen so far, so that an overruled case in the library is never shown
+    # without what overruled it (Plessy v. Ferguson and Bob Jones University
+    # v. United States). One step: the cases rule 6 adds are not followed.
+    so_far = set(chosen)
+    by_name = {name_key(c.name): k for k, c in chosen.items()}
+    for row in overrulings or []:
+        if overruling_key(row, so_far, by_name):
+            continue  # already in the set
+        hits = [key for text, _ in row.overruled for key in case_keys(text) if key in so_far]
+        keys = case_keys(row.overruling)
+        if hits and keys:
+            for key in hits:
+                choose(keys[0], f"overrules {chosen[key].name.split(',')[0]} (table of overruled decisions)", row.overruling)
     return chosen
 
 

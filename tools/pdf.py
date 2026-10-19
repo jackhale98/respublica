@@ -6,9 +6,11 @@
             print(line.y, line.x0, line.size, line.text)
 
 Enough of PDF for the government PDFs this project reads (govinfo's
-Constitution Annotated): cross-reference tables and streams, compressed
+Constitution Annotated, the Supreme Court's opinions): cross-reference tables and streams, compressed
 object streams, Flate with PNG predictors, the page tree with inherited
-resources, and the text operators. Characters come from each font's
+resources, the text operators, and the standard security handler's RC4
+encryption with an empty user password (a PDF anyone may open, with
+permissions set: the Supreme Court's opinions). Characters come from each font's
 ToUnicode map (or its encoding); positions come from the text and graphics
 matrices, so text can be put back into lines and columns. It does not
 render anything, and it fails loudly on what it does not understand.
@@ -16,6 +18,7 @@ render anything, and it fails loudly on what it does not understand.
 
 from __future__ import annotations
 
+import hashlib
 import re
 import zlib
 from dataclasses import dataclass, field
@@ -250,6 +253,58 @@ class Operator(str):
     pass
 
 
+# The standard security handler (PDF 1.7, 7.6.3), RC4 only, revisions 2 to 4,
+# for a file with an empty user password: what readers do to open it.
+_PAD = bytes.fromhex("28BF4E5E4E758A4164004E56FFFA01082E2E00B6D0683E802F0CA9FE6453697A")
+
+
+def _rc4(key: bytes, data: bytes) -> bytes:
+    s = list(range(256))
+    j = 0
+    for i in range(256):
+        j = (j + s[i] + key[i % len(key)]) & 255
+        s[i], s[j] = s[j], s[i]
+    out = bytearray(len(data))
+    i = j = 0
+    for k, byte in enumerate(data):
+        i = (i + 1) & 255
+        j = (j + s[i]) & 255
+        s[i], s[j] = s[j], s[i]
+        out[k] = byte ^ s[(s[i] + s[j]) & 255]
+    return bytes(out)
+
+
+def _as_bytes(v) -> bytes:
+    return v if isinstance(v, bytes) else str(v).encode("latin-1")
+
+
+def _file_key(enc: dict, trailer: dict) -> bytes:
+    if enc.get("Filter") != "Standard":
+        raise PDFError(f"unsupported security handler {enc.get('Filter')}")
+    v, r = enc.get("V", 0), enc.get("R", 2)
+    if v == 4:
+        cfm = enc.get("CF", {}).get(enc.get("StmF", "StdCF"), {}).get("CFM")
+        if cfm != "V2":
+            raise PDFError(f"unsupported crypt filter {cfm} (only RC4)")
+    if r not in (2, 3, 4):
+        raise PDFError(f"unsupported security handler revision {r}")
+    n = 5 if r == 2 else enc.get("Length", 40) // 8
+    ids = trailer.get("ID") or [b""]
+    h = hashlib.md5(_PAD + _as_bytes(enc["O"])[:32] + (enc["P"] & 0xFFFFFFFF).to_bytes(4, "little") + _as_bytes(ids[0]))
+    if r == 4 and enc.get("EncryptMetadata", True) is False:
+        h.update(b"\xff\xff\xff\xff")
+    key = h.digest()
+    if r >= 3:
+        for _ in range(50):
+            key = hashlib.md5(key[:n]).digest()
+    return key[:n]
+
+
+def _object_key(key: bytes, num: int, gen: int) -> bytes:
+    k = hashlib.md5(key + num.to_bytes(4, "little")[:3] + gen.to_bytes(4, "little")[:2]).digest()
+    return k[:min(len(key) + 5, 16)]
+
+
 def _name(b: bytes) -> str:
     return re.sub(rb"#([0-9A-Fa-f]{2})", lambda m: bytes([int(m.group(1), 16)]), b).decode("latin-1")
 
@@ -272,6 +327,9 @@ class Document:
         while offset is not None and offset not in seen:
             seen.add(offset)
             offset = self._read_xref(offset)
+        self._key: bytes | None = None
+        if "Encrypt" in self.trailer:
+            self._key = _file_key(self.get(self.trailer["Encrypt"]), self.trailer)
 
     def _read_xref(self, offset: int):
         lx = Lexer(self.data, offset)
@@ -333,8 +391,12 @@ class Document:
         elif entry[0] == "f":
             lx = Lexer(self.data, entry[1])
             lx.resolve = self.get
-            lx.word(), lx.word(), lx.word()  # "n g obj"
+            num, gen, _ = lx.word(), lx.word(), lx.word()  # "n g obj"
             value = lx.obj()
+            # Streams of an encrypted file are decrypted with the object's
+            # own key (not cross-reference streams or unencrypted metadata).
+            if self._key and isinstance(value, Stream) and value.dict.get("Type") not in ("XRef", "Metadata"):
+                value = Stream(value.dict, _rc4(_object_key(self._key, int(num), int(gen)), value.raw))
         else:
             value = self._from_objstm(entry[1], entry[2])
         self._cache[obj.num] = value
@@ -682,15 +744,16 @@ def _lines(runs: list[Glyphs], column_gap: float | None = None) -> list[Line]:
 
 
 def pdf_lines(path: Path | str, column_gap: float | None = None,
-              max_pages: int | None = None) -> list[list[Line]]:
+              max_pages: int | None = None, start: int = 0) -> list[list[Line]]:
     """Every page's text as lines, top to bottom (y grows downwards). With
     `column_gap` (in points), text separated by a wider gap on the same
     line comes out as separate lines (table cells), ordered by y, then x.
-    With `max_pages`, only the first pages are read."""
+    With `max_pages`, only that many pages are read, from page `start`
+    (counting from 0)."""
     doc = Document(Path(path).read_bytes())
     fonts: dict = {}
     pages = []
-    for page in doc.pages()[:max_pages]:
+    for page in doc.pages()[start:start + max_pages if max_pages is not None else None]:
         runs, _ = page_text(doc, page, fonts)
         pages.append(_lines(runs, column_gap))
     return pages

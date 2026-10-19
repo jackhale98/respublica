@@ -105,8 +105,10 @@ and quote-mark style (curly vs straight). See `tools/common.py`,
 ## The ratification debate
 
 Imported by `importers/ratification.py` (phase 5) from four public-domain
-compilations, read from the Internet Archive's scans. Modern compilations
-(Storing, 1981; Borden, 1965) are not candidates because of copyright.
+compilations, read from the Internet Archive's scans, and (Brutus V–XVI) from
+the original newspaper; Patrick Henry's speeches by `importers/elliot.py`
+from Elliot's *Debates*. Modern compilations (Storing, 1981; Borden, 1965)
+are not candidates because of copyright.
 
 | Book | Scans used | Imported |
 |---|---|---|
@@ -114,6 +116,8 @@ compilations, read from the Internet Archive's scans. Modern compilations
 | Paul Leicester Ford, ed., *Pamphlets on the Constitution of the United States* (Brooklyn, 1888) | `cu31924020874099` (DjVu XML); checked against `pamphletsoncons00fordgoog` | Letters from the Federal Farmer (I–V) so far |
 | John Bach McMaster and Frederick D. Stone, eds., *Pennsylvania and the Federal Constitution, 1787–1788* (Lancaster, 1888) | `cu31924030454387` (DjVu XML); checked against `pennsylvaniafede00hist` | Centinel I–XXIV (chapter VII); the Address and Reasons of Dissent of the Minority of the Convention of Pennsylvania (chapter VI, pp. 454–482: from the title to the twenty-one signatures; the editors' introduction before it and the yeas and nays of the final vote after it, printed in columns OCR reads out of order, are not imported) |
 | *Debates and Proceedings in the Convention of the Commonwealth of Massachusetts, held in the year 1788* (Boston, 1856) | `debatesproceedin00mass` (DjVu XML); checked against `debatesproceedin00massrich`, `debatesandproce03convgoog` and `cu31924032635546` | Brutus I–IV ("Spirit of the Press", pp. 366–398) |
+| *The New-York Journal, and Weekly Register* (New York: Thomas Greenleaf), December 13, 1787 to April 10, 1788 | the Library of Congress's scans in Chronicling America (LCCN sn83030566): each page's ALTO XML (words, boxes, confidence), pages 2 and 3 of thirteen issues; one scan only | Brutus V–X and XII–XVI, as first printed (XII and XIV in two instalments each) |
+| Jonathan Elliot, ed., *The Debates in the Several State Conventions on the Adoption of the Federal Constitution*, vol. 3 (2nd ed., standard pagination; Philadelphia: Lippincott, 1907 printing) | `debatesinseveral03elliuoft` (DjVu XML); checked against `cu31924024573820` (1876), `debatesinsevera08convgoog` (1861) and `debatesinsevera12elligoog` (1836), all of the same pagination | Patrick Henry's speeches in the Virginia convention, June 5–25, 1788 (the twenty-four the Anti-Federalist Library prints, pp. 43–652) |
 
 **Method.** The text is read from the scans by OCR consensus: one scan's
 layout and words, checked word by word against the OCR of other copies of
@@ -142,17 +146,65 @@ records what the edition says and makes no claim of its own.
 grouping, not the editors'. William Williams's letter (he defended his
 conduct but voted to ratify) is `other`.
 
+**Brutus.** I–IV come from the 1856 *Debates*, which reprint only those
+four from the Boston *Independent Chronicle* (with the 1856 editors' modern
+spelling), under the *New-York Journal* dates of first publication. V–X and
+XII–XVI come from the *New-York Journal* itself, in Chronicling America
+(decision 55): the essay from the newspaper's line ("For the New-York Journal,
+&c.") and heading ("BRUTUS, No. V.") to the signature, with the long s and
+the newspaper's spelling as printed. There is one scan of each page and its
+OCR is poor (about one word in seven differs from the Anti-Federalist
+Library's text, the long s read as "f" or "l" most often), so the consensus
+method cannot vote: a word is settled when the OCR reads it with confidence
+(ALTO word confidence 0.5 or more) and it is a known word, or when the
+Anti-Federalist Library reads it the same way; every other word is marked
+uncertain, with the Library's reading as a suggestion where it differs.
+About 140 words in a thousand are marked. **Brutus XI** (January 31, 1788)
+is not imported: that issue is not in Chronicling America, and its text is
+not taken from anywhere else. XII and XIV, printed in two instalments, are
+one essay each: the first instalment's heading lines, both instalments'
+paragraphs, numbered through, and the second's signature; the "(To be
+continued.)" and "[Continued from last Thursday's paper.]" lines between
+them are not kept. Each passage links to its page at the Library of
+Congress.
+
+**Patrick Henry** (`importers/elliot.py`). The speeches are those the
+Anti-Federalist Library prints, each as Elliot prints it, from the paragraph
+that opens it (the speaker's name in capitals) to the next speaker or the
+next day's heading. Three take in other members' remarks as the Library's
+do (George Nicholas on June 17 and June 23, John Marshall on June 23), with
+the speakers named as Elliot names them; nothing is trimmed. The
+reporter's notes in brackets stay in the text as printed. About 20 shorter
+remarks of Henry's that the Library does not print are not imported. Two
+printings both call themselves Elliot's second edition of 1836: the
+standard (Lippincott) pagination, used here, and a separate setting
+"printed on the Pennsylvania Avenue" (UNC's scans, `debatesofseveral03unse`),
+whose pages differ and which is never mixed in. The 1861–1907 printings
+head the day of Henry's June 19 speech "Wednesday, June 18" a second time
+(erratum 60).
+
+**The Anti-Federalist Library as a tie-breaker** (decision 55). The
+Library (antifederalists.org; its Markdown at
+github.com/seven-obelisks/antifederalists, pinned to one commit and kept as
+raw sources) is CC0 but names no source and was probably copied from a
+modern edition, with editorial brackets and its own misreadings. It never
+supplies text. Where the scans' readings of a word disagree and the vote
+cannot settle it, a reading with the Library's letters is chosen; where no
+scan's reading agrees, the word stays uncertain and the Library's reading
+is shown on `/errata/` as a suggestion to check against the page image
+(`docs/ocr.md`, "The Anti-Federalist Library"). It is used for Brutus I–XVI,
+Agrippa I–XI, the Federal Farmer I–V, Centinel I and V–XVIII and Henry's
+speeches; not for Cato (its pages are duplicated or cut short) or Centinel
+II–IV (excerpts).
+
 **Not yet imported:**
 
-- **Brutus V–XVI.** The 1856 *Debates* reprint only I–IV, from the Boston
-  *Independent Chronicle*; that reprint's text (I–IV, with the 1856 editors'
-  modern spelling) is what is imported, under the *New-York Journal* dates
-  of first publication. The original Greenleaf printing of 13 essays is in
-  the Library of Congress's Chronicling America (II, III and XI are not
-  online), but there is only one scan of each page and its OCR is poor, so
-  the consensus method cannot be used; every line would need correcting
-  against the image. Adding it is a new upstream source and waits on the
-  project owner.
+- **Old Whig, Maryland Farmer, Impartial Examiner, John DeWitt,
+  Philadelphiensis, Melancton Smith.** The Anti-Federalist Library has them,
+  but no scan of their first printings was found to check it against (the
+  New-York Journal reprinted only some of Philadelphiensis; the Library's
+  Melancton Smith follows Childs's 1788 report, not Elliot), and the Library
+  is not a source of text.
 - **The Federal Farmer's *Additional Letters* (1788).** The only copies found
   are 1962 facsimile reprints, lending-only.
 - The rest of Ford's *Pamphlets* (the Columbian Patriot, Jay, Webster, Coxe,
@@ -340,8 +392,18 @@ at a line end are rejoined. Only these changes are made. A syllabus is read
 from volume 91 (1875) on: the earlier, nominative reports carry the
 reporters' own headnotes, often as marginal notes. Where a paragraph seems to
 stop mid-sentence (the text layer is out of order, or the end was missed),
-no syllabus is imported and the case says so (`syllabus_note`). The scans are
+no syllabus is imported and the case says so (`syllabus_note`). Where no
+opinion has a majority, the syllabus goes on past the judgment line through
+each opinion's part ("JUSTICE X delivered the opinion of the Court …,
+concluding that"), up to the list of who joined which opinion. The scans are
 kept out of git (decision 49): `make fetch` downloads them.
+
+For cases the Library of Congress has not scanned (volumes 582 on), the
+syllabus is read the same way from the Supreme Court's own PDF
+(`scotus-*`, `importers/scotus.py`, decision 54): the bound volume where the
+volume is bound, else the preliminary print. Its text is born-digital and
+drops the "fi" and "fl" ligatures as recent scans do. The case file names
+the PDF (`pdf_url`) and its edition note says which print it is.
 
 **Opinions** are not imported; each case links to its opinion on
 CourtListener (decision 49).

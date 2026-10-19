@@ -1,0 +1,76 @@
+{
+  "chosen_because": [
+    "overrules Breedlove v. Suttles (table of overruled decisions)"
+  ],
+  "conan_citation": "Harper v. Virginia Board of Elections, 383 U.S. 663 (1966)",
+  "courtlistener_date": "1966-03-28",
+  "courtlistener_name": "Harper v. Virginia Board of Elections",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107197/harper-v-virginia-board-of-elections/",
+  "date": "1966-03-24",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107197. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 383, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107197",
+  "loc_url": "https://www.loc.gov/item/usrep383663/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383663/usrep383663.pdf",
+  "ref_prefix": "Case.107197",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Harper v. Virginia Board of Elections, syllabus ¶ 1",
+      "page": 663,
+      "ref": "Case.107197.syllabus.1",
+      "text": "Appellants, Virginia residents, brought this action to have Virginia's poll tax declared unconstitutional. The three-judge District Court dismissed the complaint on the basis of Breedlove v. Suttles, 302 U. S. 277. Held: A State's conditioning of the right to vote on the payment of a fee or tax violates the Equal Protection Clause of the Fourteenth Amendment. Breedlove v. Suttles, supra, pro tanto overruled. Pp. 665-670."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Harper v. Virginia Board of Elections, syllabus ¶ 2",
+      "page": 663,
+      "ref": "Case.107197.syllabus.2",
+      "text": "(a) Once the franchise is granted to the electorate, lines which determine who may vote may not be drawn so as to cause invidious discrimination. Pp. 665-667."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Harper v. Virginia Board of Elections, syllabus ¶ 3",
+      "page": 663,
+      "ref": "Case.107197.syllabus.3",
+      "text": "(b) Fee l)ayments or wealth, like race, creed, or color, are unrelated to the citizen's ability to participate intelligently in the electoral process. Pp. 666-668."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Harper v. Virginia Board of Elections, syllabus ¶ 4",
+      "page": 663,
+      "ref": "Case.107197.syllabus.4",
+      "text": "(c) The interest of the State, when it comes to voting registration, is limited to the fixing of standards related to the applicant's qualifications as a voter. P. 668."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Harper v. Virginia Board of Elections, syllabus ¶ 5",
+      "page": 663,
+      "ref": "Case.107197.syllabus.5",
+      "text": "(d) Lines drawn on the basis of wealth or property, like those of race, are traditionall'y disfavored. P. 668."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Harper v. Virginia Board of Elections, syllabus ¶ 6",
+      "page": 663,
+      "ref": "Case.107197.syllabus.6",
+      "text": "(e) Classifications which might impinge on fundamental rights and liberties-such as the franchise-must be closely scrutinized. P. 670."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Harper v. Virginia Board of Elections, syllabus ¶ 7",
+      "page": 663,
+      "ref": "Case.107197.syllabus.7",
+      "text": "240 F. Supp. 270, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-383-663"
+  ],
+  "title": "Harper v. Virginia Board of Elections",
+  "us_cite": "383 U.S. 663"
+}

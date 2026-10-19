@@ -12,11 +12,16 @@ const PAGE = 20; // passages shown at a time
 const SCANS: Record<string, string> = {
   primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan",
   microfilm: "microfilm scan", tesseract: "second OCR", lincoln: "Lincoln Foundation scan",
+  michigan: "Michigan scan", cornell: "Cornell scan", harvard: "Harvard scan", uc: "UC scan",
 };
 // Page images only from the hosts the page's Content Security Policy allows.
-const IMAGE_HOSTS = /^https:\/\/(archive\.org|[a-z0-9-]+\.us\.archive\.org|digital\.library\.unt\.edu)\//;
+const IMAGE_HOSTS = /^https:\/\/(archive\.org|[a-z0-9-]+\.us\.archive\.org|digital\.library\.unt\.edu|tile\.loc\.gov)\//;
 
-type Word = { index: number; was: string; before: string; after: string; readings: Record<string, string> };
+// `suggestion`: the Anti-Federalist Library's reading, where no scan reads the
+// word so: to check against the page image, never to take on trust.
+type Word = {
+  index: number; was: string; before: string; after: string; readings: Record<string, string>; suggestion?: string;
+};
 type Passage = { ref: string; label: string; url: string | null; pages: { image: string; url: string }[]; words: Word[] };
 type Fix = { ref: string; index: number; was: string; now: string; sent?: boolean };
 
@@ -157,6 +162,16 @@ function wordRow(p: Passage, w: Word, card: HTMLElement): HTMLElement {
     b.dataset.reading = text;
     b.append(text, el("small", undefined, scans.join(", ")));
     b.addEventListener("click", () => choose(fixes[row.dataset.key!]?.now === text ? null : text));
+    readings.append(b);
+  }
+  const suggestion = w.suggestion;
+  if (suggestion && !seen.has(suggestion)) {
+    const b = el("button", "rv-choice er-suggestion");
+    b.type = "button";
+    b.dataset.reading = suggestion;
+    b.title = "No scan reads this. Choose it only if the page image shows it.";
+    b.append(suggestion, el("small", undefined, "Anti-Federalist Library: check the page"));
+    b.addEventListener("click", () => choose(fixes[row.dataset.key!]?.now === suggestion ? null : suggestion));
     readings.append(b);
   }
   const typed = el("input", "rv-note");

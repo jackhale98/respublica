@@ -1,5 +1,635 @@
 [
   {
+    "id": "afl-agrippa1",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/agrippa/agrippa1.md: its text of Agrippa 1, as Markdown.",
+    "path": "sources/raw/afl-agrippa1.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "a180da4e754591ae2d16c8ab149514ceff997f231c463993cf6f95b16d9c17fe",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/agrippa/agrippa1.md"
+  },
+  {
+    "id": "afl-agrippa10",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/agrippa/agrippa10.md: its text of Agrippa 10, as Markdown.",
+    "path": "sources/raw/afl-agrippa10.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "026f676cf4eebf5da0589b4e2cd45554978f320218ce87170f480e47e7e89f34",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/agrippa/agrippa10.md"
+  },
+  {
+    "id": "afl-agrippa11",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/agrippa/agrippa11.md: its text of Agrippa 11, as Markdown.",
+    "path": "sources/raw/afl-agrippa11.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "17d9bf2b865304930739423a5172b249170dea475f9afd97d14fa2d1e39c6e5f",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/agrippa/agrippa11.md"
+  },
+  {
+    "id": "afl-agrippa2",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/agrippa/agrippa2.md: its text of Agrippa 2, as Markdown.",
+    "path": "sources/raw/afl-agrippa2.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "bdd2dcd9b4f7f4f66045e9ac593e918af8a7caffe070b6e09305a467f571bba4",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/agrippa/agrippa2.md"
+  },
+  {
+    "id": "afl-agrippa3",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/agrippa/agrippa3.md: its text of Agrippa 3, as Markdown.",
+    "path": "sources/raw/afl-agrippa3.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "955fce69907052d3a9be6f5fddaf7023d5b2fd58140b9018acf0bff3f293587e",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/agrippa/agrippa3.md"
+  },
+  {
+    "id": "afl-agrippa4",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/agrippa/agrippa4.md: its text of Agrippa 4, as Markdown.",
+    "path": "sources/raw/afl-agrippa4.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "740ac99c90b9fbcee7ac826c34a4a05fb468370478a6f4761b5c2bf45db79f38",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/agrippa/agrippa4.md"
+  },
+  {
+    "id": "afl-agrippa5",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/agrippa/agrippa5.md: its text of Agrippa 5, as Markdown.",
+    "path": "sources/raw/afl-agrippa5.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "bbecca856f67ddca31bcc602885f5688b4cb8bdb998087b2414062195cff359b",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/agrippa/agrippa5.md"
+  },
+  {
+    "id": "afl-agrippa6",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/agrippa/agrippa6.md: its text of Agrippa 6, as Markdown.",
+    "path": "sources/raw/afl-agrippa6.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "2df5c0ea615aab1862f1c0d554efd8196733d48d3f3eb1f197674d24cc95982f",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/agrippa/agrippa6.md"
+  },
+  {
+    "id": "afl-agrippa7",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/agrippa/agrippa7.md: its text of Agrippa 7, as Markdown.",
+    "path": "sources/raw/afl-agrippa7.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "91f245a24e64235a50ce8990aa5c9aa06e6d15b72e60da5758d35089b3e02546",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/agrippa/agrippa7.md"
+  },
+  {
+    "id": "afl-agrippa8",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/agrippa/agrippa8.md: its text of Agrippa 8, as Markdown.",
+    "path": "sources/raw/afl-agrippa8.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "6760bdcd61bc70d8b773a4048a16b521b6e31b840bf130511ea336336baebc8f",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/agrippa/agrippa8.md"
+  },
+  {
+    "id": "afl-agrippa9",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/agrippa/agrippa9.md: its text of Agrippa 9, as Markdown.",
+    "path": "sources/raw/afl-agrippa9.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "961c3a5277a3c5c99a6b190f613fe16f85184fa75bbb951f0a1767c9595f9560",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/agrippa/agrippa9.md"
+  },
+  {
+    "id": "afl-brutus1",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus1.md: its text of Brutus 1, as Markdown.",
+    "path": "sources/raw/afl-brutus1.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "a282e180e12bef3ce5aa5d17423788c2312d81268f824ea9b25052b23bf9bdb4",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus1.md"
+  },
+  {
+    "id": "afl-brutus10",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus10.md: its text of Brutus 10, as Markdown.",
+    "path": "sources/raw/afl-brutus10.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f409f3ff614b0287de905b23aa40fa00df960613913a89db0fb269d3e42a08ab",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus10.md"
+  },
+  {
+    "id": "afl-brutus12",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus12.md: its text of Brutus 12, as Markdown.",
+    "path": "sources/raw/afl-brutus12.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "3f806deaf6ca29a4e31b747d04b50cfb74dbc47bff3a6d91bbd9a87a6a167123",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus12.md"
+  },
+  {
+    "id": "afl-brutus13",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus13.md: its text of Brutus 13, as Markdown.",
+    "path": "sources/raw/afl-brutus13.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "89c5870033e123761f2890b91a7cf432e4c9edb3be42efa8ccf00a6906a0e8f2",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus13.md"
+  },
+  {
+    "id": "afl-brutus14",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus14.md: its text of Brutus 14, as Markdown.",
+    "path": "sources/raw/afl-brutus14.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "bfb8086197df5a5c2f894b5937afc9a90b9c2d07cf7b9cd886a37f6c25ae8f29",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus14.md"
+  },
+  {
+    "id": "afl-brutus15",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus15.md: its text of Brutus 15, as Markdown.",
+    "path": "sources/raw/afl-brutus15.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "0f6ec816dd6c85384861a03398082ab4188a5915a0539dc1448783cb6bba18d8",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus15.md"
+  },
+  {
+    "id": "afl-brutus16",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus16.md: its text of Brutus 16, as Markdown.",
+    "path": "sources/raw/afl-brutus16.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f8188c1660f050137c5e853d9626b1f384914487a5118c2ad9b67cefb52c07c4",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus16.md"
+  },
+  {
+    "id": "afl-brutus2",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus2.md: its text of Brutus 2, as Markdown.",
+    "path": "sources/raw/afl-brutus2.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "bd0c511e51d5716bb095bae8334a2d09ff13351d5d0188b65e8c8470337b6e2a",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus2.md"
+  },
+  {
+    "id": "afl-brutus3",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus3.md: its text of Brutus 3, as Markdown.",
+    "path": "sources/raw/afl-brutus3.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c16a339061473121eb655c22fbe1a49fb4ad491a93ce889352d11cc946819f51",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus3.md"
+  },
+  {
+    "id": "afl-brutus4",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus4.md: its text of Brutus 4, as Markdown.",
+    "path": "sources/raw/afl-brutus4.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "4b980bf4438a0038d5d2f1f08e59539ee55c5a6848c1746e7fa8deb817fc7f2d",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus4.md"
+  },
+  {
+    "id": "afl-brutus5",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus5.md: its text of Brutus 5, as Markdown.",
+    "path": "sources/raw/afl-brutus5.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c276c03d72a6dafb2c8f559694b340404fd87b039f5cfc6ae503781a022dd1e8",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus5.md"
+  },
+  {
+    "id": "afl-brutus6",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus6.md: its text of Brutus 6, as Markdown.",
+    "path": "sources/raw/afl-brutus6.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "95f3281af39f0ef5225f3aed3614d990284cd9e08624434b8c1a040a62f72a3c",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus6.md"
+  },
+  {
+    "id": "afl-brutus7",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus7.md: its text of Brutus 7, as Markdown.",
+    "path": "sources/raw/afl-brutus7.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f4255ea956f572a76bac05af34e03ea796dd5407e4841285294f76acd655f323",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus7.md"
+  },
+  {
+    "id": "afl-brutus8",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus8.md: its text of Brutus 8, as Markdown.",
+    "path": "sources/raw/afl-brutus8.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "484f605be9a64b3ffb988107f0d70b27f8049210c62cb69e9121c80488b9ff6f",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus8.md"
+  },
+  {
+    "id": "afl-brutus9",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/brutus/brutus9.md: its text of Brutus 9, as Markdown.",
+    "path": "sources/raw/afl-brutus9.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c5bc22d0db8206e6f582cc83db5c22c70f239f0dbef3b22cb3b07e45db7db342",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/brutus/brutus9.md"
+  },
+  {
+    "id": "afl-centinel1",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel1.md: its text of Centinel 1, as Markdown.",
+    "path": "sources/raw/afl-centinel1.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c2229da4dd27e9f31f2374ce5d0a3dfaf3bb849d374cfe230b43b9dba7fd04d2",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel1.md"
+  },
+  {
+    "id": "afl-centinel10",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel10.md: its text of Centinel 10, as Markdown.",
+    "path": "sources/raw/afl-centinel10.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "5b182d7dec686b8e5425939b147845b62f0034076256669332a5a6c044dd53c3",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel10.md"
+  },
+  {
+    "id": "afl-centinel11",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel11.md: its text of Centinel 11, as Markdown.",
+    "path": "sources/raw/afl-centinel11.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "29a89e30aef6a489d7e61faedb5a6d77b832de08b01d20d9dca6f1c72ca6f5cb",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel11.md"
+  },
+  {
+    "id": "afl-centinel12",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel12.md: its text of Centinel 12, as Markdown.",
+    "path": "sources/raw/afl-centinel12.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "aeb94a4c6b5ee324609e97e8330f916bacc5d2528cdb330209de43848ebdba90",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel12.md"
+  },
+  {
+    "id": "afl-centinel13",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel13.md: its text of Centinel 13, as Markdown.",
+    "path": "sources/raw/afl-centinel13.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "94ca2c5c02fbd6f26b64822bcbbdef92803886d0a83886607bf46b2b5323a5b6",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel13.md"
+  },
+  {
+    "id": "afl-centinel14",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel14.md: its text of Centinel 14, as Markdown.",
+    "path": "sources/raw/afl-centinel14.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f211140e443ba6e1270ad67005744dcb253ec481cd8cb54afab9fd2a9f401593",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel14.md"
+  },
+  {
+    "id": "afl-centinel15",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel15.md: its text of Centinel 15, as Markdown.",
+    "path": "sources/raw/afl-centinel15.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ce424b4fc60d941210c098f0437aaf9a7a8042d337f6a3b4c71548ec1d425f53",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel15.md"
+  },
+  {
+    "id": "afl-centinel16",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel16.md: its text of Centinel 16, as Markdown.",
+    "path": "sources/raw/afl-centinel16.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "eb2e3becbee7c5b7d7c7c556196ee2a5cba71d7e5b41b55c7bdc81270d65b96f",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel16.md"
+  },
+  {
+    "id": "afl-centinel17",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel17.md: its text of Centinel 17, as Markdown.",
+    "path": "sources/raw/afl-centinel17.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f75ceaa4e2b983880fc5fdd7a63fa81098a9c285e2f09e920aeeec0b7c4b2afc",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel17.md"
+  },
+  {
+    "id": "afl-centinel18",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel18.md: its text of Centinel 18, as Markdown.",
+    "path": "sources/raw/afl-centinel18.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "7aa2895f0afc56919445952fc1e579b4cae6d25a57ce3ec7f0a2869df4220c95",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel18.md"
+  },
+  {
+    "id": "afl-centinel5",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel5.md: its text of Centinel 5, as Markdown.",
+    "path": "sources/raw/afl-centinel5.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c09fdeed80a475aa57ebe794dac9e0aa761e2d5923f97e15a1a093b3956dd845",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel5.md"
+  },
+  {
+    "id": "afl-centinel6",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel6.md: its text of Centinel 6, as Markdown.",
+    "path": "sources/raw/afl-centinel6.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "036ceddbff505dbe92d5f6b2e48b5001b275823481208d6e09cc0aaecd08be66",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel6.md"
+  },
+  {
+    "id": "afl-centinel7",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel7.md: its text of Centinel 7, as Markdown.",
+    "path": "sources/raw/afl-centinel7.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "94d1d79b3b4b544ffd500d772db22de3531650014841a0760abef01cadaeda4d",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel7.md"
+  },
+  {
+    "id": "afl-centinel8",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel8.md: its text of Centinel 8, as Markdown.",
+    "path": "sources/raw/afl-centinel8.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "66a63d75a14f1940e0e85c9ae4ed07f722815cab47d06cf155016a185e71b855",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel8.md"
+  },
+  {
+    "id": "afl-centinel9",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/centinel/centinel9.md: its text of Centinel 9, as Markdown.",
+    "path": "sources/raw/afl-centinel9.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "629a75fbb80612c41f13134450de0fd702ca8e903eaa17766254da3c8ef7f38f",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/centinel/centinel9.md"
+  },
+  {
+    "id": "afl-farmer1",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/farmer/farmer1.md: its text of FederalFarmer 1, as Markdown.",
+    "path": "sources/raw/afl-farmer1.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "6a86f292accfa4b78cf98efa25fa8681711e8ac4bd3a177aa4dfd903c83b8475",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/farmer/farmer1.md"
+  },
+  {
+    "id": "afl-farmer2",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/farmer/farmer2.md: its text of FederalFarmer 2, as Markdown.",
+    "path": "sources/raw/afl-farmer2.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "cd2d3e5489edfa3135ef001ce1bf0b9cadf583adaf613dfcbed3a0d2e813b11f",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/farmer/farmer2.md"
+  },
+  {
+    "id": "afl-farmer3",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/farmer/farmer3.md: its text of FederalFarmer 3, as Markdown.",
+    "path": "sources/raw/afl-farmer3.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "8728b0c855ebaf09f79046e58d6ca21f7d92b7b503db110283476f442a8d9057",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/farmer/farmer3.md"
+  },
+  {
+    "id": "afl-farmer4",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/farmer/farmer4.md: its text of FederalFarmer 4, as Markdown.",
+    "path": "sources/raw/afl-farmer4.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "4233796aae914c66440c2b4ae015df1957f3aaa68a1ac6e7a66de7efa9cc1d75",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/farmer/farmer4.md"
+  },
+  {
+    "id": "afl-farmer5",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/papers/farmer/farmer5.md: its text of FederalFarmer 5, as Markdown.",
+    "path": "sources/raw/afl-farmer5.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "22c551c681c626bd4b2e4b862754811106bdf03d9025aebed573414cb840b0ec",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/papers/farmer/farmer5.md"
+  },
+  {
+    "id": "afl-henry1",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry1.md: its text of Henry henry1, as Markdown.",
+    "path": "sources/raw/afl-henry1.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c47bb81bdb1322afad6718bbd20bc5a59d7192727f22bd90269e9e8104e12676",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry1.md"
+  },
+  {
+    "id": "afl-henry10",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry10.md: its text of Henry henry10, as Markdown.",
+    "path": "sources/raw/afl-henry10.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "2bfb4b7997bff88f579d0dabffe26c2a27e7b5296325742c730f5f531cc558cc",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry10.md"
+  },
+  {
+    "id": "afl-henry11",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry11.md: its text of Henry henry11, as Markdown.",
+    "path": "sources/raw/afl-henry11.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ed1b054ecbe3458083a2598d3305a848478e433fbd99a5ed07957775332eb8fa",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry11.md"
+  },
+  {
+    "id": "afl-henry12",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry12.md: its text of Henry henry12, as Markdown.",
+    "path": "sources/raw/afl-henry12.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "35782d18597d66f46e2dbea8429d799b5f41f1e2ac2093e592053f009151c324",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry12.md"
+  },
+  {
+    "id": "afl-henry13",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry13.md: its text of Henry henry13, as Markdown.",
+    "path": "sources/raw/afl-henry13.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "9638252c740b79e8d56f21f9918ef6a68a0f90fd58ff91e1abae5b292f6af654",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry13.md"
+  },
+  {
+    "id": "afl-henry14",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry14.md: its text of Henry henry14, as Markdown.",
+    "path": "sources/raw/afl-henry14.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e1aa8204ab6f4dda67298fe4f8cf486628b3448021a49d5de4ce76fe1c69ad5a",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry14.md"
+  },
+  {
+    "id": "afl-henry15",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry15.md: its text of Henry henry15, as Markdown.",
+    "path": "sources/raw/afl-henry15.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "544a1206d7c1ad064c83511d66fa8dd037bd97b667cbc20c6aaa8423b9ad8bd2",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry15.md"
+  },
+  {
+    "id": "afl-henry16",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry16.md: its text of Henry henry16, as Markdown.",
+    "path": "sources/raw/afl-henry16.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f8f3f97fd1677e2d0b08f3cd27816ae164e09da4043a38667cffcfd1759f93a9",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry16.md"
+  },
+  {
+    "id": "afl-henry17",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry17.md: its text of Henry henry17, as Markdown.",
+    "path": "sources/raw/afl-henry17.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "88faa40a0f97ba6415f9734a1d808041775c38e060a52c4fd1bd80bc1f699e1a",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry17.md"
+  },
+  {
+    "id": "afl-henry18",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry18.md: its text of Henry henry18, as Markdown.",
+    "path": "sources/raw/afl-henry18.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "b14ca8adfd35b51b115608e5524bb74a9e69cb952d5b4553933961c14e4ebd12",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry18.md"
+  },
+  {
+    "id": "afl-henry19",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry19.md: its text of Henry henry19, as Markdown.",
+    "path": "sources/raw/afl-henry19.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "eff481e7040b0791fa2ee55dab53bd0428b660bdc8411eb3152d41f949d5c589",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry19.md"
+  },
+  {
+    "id": "afl-henry2",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry2.md: its text of Henry henry2, as Markdown.",
+    "path": "sources/raw/afl-henry2.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c604d38a2a60af99e742ad7f414ca6a3b8cf6df6e1f83f9d801dcf811ecc9a7a",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry2.md"
+  },
+  {
+    "id": "afl-henry20",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry20.md: its text of Henry henry20, as Markdown.",
+    "path": "sources/raw/afl-henry20.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "bbbdbabd8888a256f979681256eb9c83d6d85cc0ded094ebac93ffa0bfbb6010",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry20.md"
+  },
+  {
+    "id": "afl-henry21",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry21.md: its text of Henry henry21, as Markdown.",
+    "path": "sources/raw/afl-henry21.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "55b925ac61a3dc564e0d12e5a31f93f7cd1d8060c31994cec2c9df6799ed81b8",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry21.md"
+  },
+  {
+    "id": "afl-henry22",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry22.md: its text of Henry henry22, as Markdown.",
+    "path": "sources/raw/afl-henry22.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "0317cbc3ffb48e8024bc4bc3bbf613ef7b7e9c6eb7bd53644a518f796ea91e65",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry22.md"
+  },
+  {
+    "id": "afl-henry23",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry23.md: its text of Henry henry23, as Markdown.",
+    "path": "sources/raw/afl-henry23.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c61faaef37e0ca3f892b4460f8038bcdffc4219aae0a6e4ffd37bd90cdc661f4",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry23.md"
+  },
+  {
+    "id": "afl-henry24",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry24.md: its text of Henry henry24, as Markdown.",
+    "path": "sources/raw/afl-henry24.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "03b917a661f251e480b23918f54f8a752739b17029b35e6d3ad13fd14f04a97d",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry24.md"
+  },
+  {
+    "id": "afl-henry3",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry3.md: its text of Henry henry3, as Markdown.",
+    "path": "sources/raw/afl-henry3.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "fc91923db54e789b6b8b5a1c043dcb591eb29c9d94517d393b1b41966c2cb343",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry3.md"
+  },
+  {
+    "id": "afl-henry4",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry4.md: its text of Henry henry4, as Markdown.",
+    "path": "sources/raw/afl-henry4.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "2f67383d6c9ae193ea7bf80ab16b10bd6e696b93cb7b28d2e9552d6ed42aecc8",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry4.md"
+  },
+  {
+    "id": "afl-henry5",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry5.md: its text of Henry henry5, as Markdown.",
+    "path": "sources/raw/afl-henry5.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "215e8b289b941d1c8f7e4402338c5d9a7d952fdc68e7063d4295a1b195d50cf8",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry5.md"
+  },
+  {
+    "id": "afl-henry6",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry6.md: its text of Henry henry6, as Markdown.",
+    "path": "sources/raw/afl-henry6.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "487c7ad418a4c825be5b001351dd82567dacdc9aa955a6d9904600297dee2908",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry6.md"
+  },
+  {
+    "id": "afl-henry7",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry7.md: its text of Henry henry7, as Markdown.",
+    "path": "sources/raw/afl-henry7.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "7d1b8f80a2fd613f5d9e49bd5471eb7c921341cb68901f5ec71dc3f6c45c9c7c",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry7.md"
+  },
+  {
+    "id": "afl-henry8",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry8.md: its text of Henry henry8, as Markdown.",
+    "path": "sources/raw/afl-henry8.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "bc7c22f4001be724afb3ed64b25255caa68863a8d807e91d2af9db15903cb1b7",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry8.md"
+  },
+  {
+    "id": "afl-henry9",
+    "license": "CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; the repository has no licence file and names no source for its texts). Used only as a tie-breaker between scans, never as text (docs/decisions.md 55).",
+    "notes": "The Anti-Federalist Library (github.com/seven-obelisks/antifederalists, commit 6424aff9c3eaba736da37863922bec85a03f8700), content/speeches/henry/henry9.md: its text of Henry henry9, as Markdown.",
+    "path": "sources/raw/afl-henry9.md",
+    "retrieved_at": "2026-10-19",
+    "sha256": "4c68f874f8e99508bb9509d405feb8ef91e68e75a63a860c59639c350e628aed",
+    "url": "https://raw.githubusercontent.com/seven-obelisks/antifederalists/6424aff9c3eaba736da37863922bec85a03f8700/content/speeches/henry/henry9.md"
+  },
+  {
     "id": "conan-2022-10",
     "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Congressional Research Service, Library of Congress.",
     "notes": "Constitution of the United States of America: Analysis and Interpretation (Constitution Annotated), 2022 print edition, govinfo package GPO-CONAN-2022, granule 10: Article III - Judicial Branch.",
@@ -369,6 +999,27 @@
   },
   {
     "auth_env": "COURTLISTENER_TOKEN",
+    "id": "courtlistener-citations-5",
+    "license": "Free of known copyright restrictions (Public Domain Mark), per CourtListener's bulk data terms; U.S. court opinions are public domain. Free Law Project.",
+    "notes": "CourtListener citation lookup: the clusters for 18 U.S. Reports citations of the first set of cases (decisions 41 to 43).",
+    "path": "sources/raw/courtlistener-citations-5.json",
+    "post": "text=123+U.S.+443%3B+303+U.S.+376%3B+322+U.S.+533%3B+372+U.S.+293%3B+376+U.S.+1%3B+378+U.S.+368%3B+378+U.S.+478%3B+381+U.S.+437%3B+383+U.S.+663%3B+385+U.S.+589%3B+395+U.S.+784%3B+448+U.S.+83%3B+461+U.S.+574%3B+483+U.S.+219%3B+501+U.S.+722%3B+521+U.S.+203%3B+536+U.S.+304%3B+536+U.S.+584",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e7b0efe3bb9559a49b64fde3ad276204a16f0e3cb959f182f9247137151f046f",
+    "url": "https://www.courtlistener.com/api/rest/v4/citation-lookup/"
+  },
+  {
+    "auth_env": "COURTLISTENER_TOKEN",
+    "id": "courtlistener-scotus-16-1466",
+    "license": "Free of known copyright restrictions (Public Domain Mark), per CourtListener's bulk data terms; U.S. court opinions are public domain. Free Law Project.",
+    "notes": "CourtListener clusters API: the cluster for Janus v. American Federation of State, County, & Municipal Employees, Council 31, No. 16-1466 (U.S. June 27, 2018) (a slip opinion in the Constitution Annotated), by docket number.",
+    "path": "sources/raw/courtlistener-scotus-16-1466.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "9ef37bd1301ede99cccb81a9ef6180bb1f54558ac4d8ca9844007345a2f54d1b",
+    "url": "https://www.courtlistener.com/api/rest/v4/clusters/?docket__docket_number=16-1466&docket__court=scotus"
+  },
+  {
+    "auth_env": "COURTLISTENER_TOKEN",
     "id": "courtlistener-scotus-17-965",
     "license": "Free of known copyright restrictions (Public Domain Mark), per CourtListener's bulk data terms; U.S. court opinions are public domain. Free Law Project.",
     "notes": "CourtListener clusters API: the cluster for Trump v. Hawaii, No. 17-965 (U.S. June 26, 2018) (a slip opinion in the Constitution Annotated), by docket number.",
@@ -482,6 +1133,42 @@
     "retrieved_at": "2026-10-18",
     "sha256": "e69e28c845d63e90f95d0016b93b8cf602a001f1a490d7515b121cd64dcc49cb",
     "url": "https://archive.org/download/sim_united-states-congress-debates-and-proceedings_march-3-1789-march-3-1791_1/sim_united-states-congress-debates-and-proceedings_march-3-1789-march-3-1791_1_djvu.xml"
+  },
+  {
+    "id": "ia-elliot-v3-1836-google-txt",
+    "license": "Public domain in the USA (published 1836). OCR text generated by the Internet Archive from a Google scan.",
+    "notes": "Elliot's Debates, vol. 3 (Washington: printed for the editor, 1836; the same pagination as the 1907 printing, not the separate setting printed on the Pennsylvania Avenue). Internet Archive item debatesinsevera12elligoog (Google scan): OCR text, used for consensus.",
+    "path": "sources/raw/ia-elliot-v3-1836-google-txt.txt",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ce404f12b8316693003eb7485a898c832086ec61e0a88ba9d3e21317ada7c330",
+    "url": "https://archive.org/download/debatesinsevera12elligoog/debatesinsevera12elligoog_djvu.txt"
+  },
+  {
+    "id": "ia-elliot-v3-1861-google-txt",
+    "license": "Public domain in the USA (published 1861). OCR text generated by the Internet Archive from a Google scan.",
+    "notes": "Elliot's Debates, vol. 3 (Philadelphia: J. B. Lippincott, 1861; the same pagination as the 1907 printing). Internet Archive item debatesinsevera08convgoog (Google scan of a Harvard copy): OCR text, used for consensus.",
+    "path": "sources/raw/ia-elliot-v3-1861-google-txt.txt",
+    "retrieved_at": "2026-10-19",
+    "sha256": "cd9dd0ddc0e0b73d839ad44f71527c8df2176d6eb6cb772a4a69c36f5e00e9f1",
+    "url": "https://archive.org/download/debatesinsevera08convgoog/debatesinsevera08convgoog_djvu.txt"
+  },
+  {
+    "id": "ia-elliot-v3-1876-cornell-txt",
+    "license": "Public domain in the USA (published 1876). OCR text generated by the Internet Archive from its scan.",
+    "notes": "Elliot's Debates, vol. 3 (Philadelphia: J. B. Lippincott, 1876; the same pagination as the 1907 printing). Internet Archive item cu31924024573820 (Cornell copy): OCR text, used for consensus.",
+    "path": "sources/raw/ia-elliot-v3-1876-cornell-txt.txt",
+    "retrieved_at": "2026-10-19",
+    "sha256": "32ee7d79e6bed03d37524c5c89e4a9f27d35c3f347bdd76e77a3b4127ba0783e",
+    "url": "https://archive.org/download/cu31924024573820/cu31924024573820_djvu.txt"
+  },
+  {
+    "id": "ia-elliot-v3-1907-toronto-xml",
+    "license": "Public domain in the USA (published 1907; the text was first published 1836). OCR and layout generated by the Internet Archive from its scan.",
+    "notes": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 3 (Philadelphia: J. B. Lippincott, 1907; the standard pagination, Virginia on pp. 1-663). Internet Archive item debatesinseveral03elliuoft (University of Toronto copy): DjVu XML, the primary scan for Patrick Henry's speeches.",
+    "path": "sources/raw/ia-elliot-v3-1907-toronto-xml.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c0218ee77ef9b8f49e6fa82a0b95322054ecab574b7892ff30345ffe20432380",
+    "url": "https://archive.org/download/debatesinseveral03elliuoft/debatesinseveral03elliuoft_djvu.xml"
   },
   {
     "id": "ia-ford-essays-1892-brittle-txt",
@@ -673,6 +1360,240 @@
     "url": "https://archive.org/download/pennsylvaniafede00hist/pennsylvaniafede00hist_djvu.txt"
   },
   {
+    "id": "loc-nyjournal-1787-12-13-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1787-12-13, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1787-12-13-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "185a0aa1aeb40e2b4824bf34123ae68f911d8d7324022b064fd23779a6d0de5e",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1787121301/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1787-12-13-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1787-12-13, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1787-12-13-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "07477687533403c2a51ebfaefb73bfe1bd0b1228daf71d951e717e2d062363a8",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1787121301/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1787-12-27-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1787-12-27, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1787-12-27-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "6d90151329bda400c3797ebd3b508982e927a923153513cf6fef396b8aa198f4",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1787122701/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1787-12-27-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1787-12-27, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1787-12-27-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "0547420127a321a934a7d223155d4d9e2d29276dce3c035933a74b464afd1b33",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1787122701/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-01-03-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-01-03, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-01-03-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "6fff9c98a92cdbcdf9d09c32394aab1c77e40251fa396778ed4d2f0456c8bb0a",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788010301/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-01-03-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-01-03, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-01-03-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "fb01d982da784460c40769737464d171dc85546f928c07a54069be96050897a1",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788010301/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-01-10-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-01-10, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-01-10-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "87250d6a8dc9cb3b60989a098d177a0ffa6e3ba0ee1e4007efb2ecbb4b5e7ef7",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788011001/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-01-10-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-01-10, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-01-10-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "5fb686c507c3c4d84d7cd9f6c906d0f2a4d517e64346c177c55cc23e9474a603",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788011001/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-01-17-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-01-17, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-01-17-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "3cab9e14bbebffd4949541ba39712b57915f9a403179894c4e859cf7bc6ca5fb",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788011701/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-01-17-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-01-17, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-01-17-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "715fc54a1fb1648c33facfa0fc689bd12e12d7a87773bfaae0ed5a9ffcf1b235",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788011701/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-01-24-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-01-24, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-01-24-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ee10af632d9a273deefe40405bd013ba6042fa55d9585a4ea7b39f02cd583b1d",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788012401/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-01-24-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-01-24, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-01-24-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e25431f9920204d72ded8af8ad7866e669a44caaa8e96a55e27be0b90588bd65",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788012401/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-02-07-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-02-07, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-02-07-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "a8191a5b39b7a6fd968fb332e47c7d2ec7695503d636d05324ef474770eecfe0",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788020701/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-02-07-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-02-07, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-02-07-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "3181a0f8a596a4a74dc38659d877b06a2a29f2b8fe95d53507a560851a8c82f1",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788020701/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-02-14-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-02-14, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-02-14-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "b63dbbd9208f9273778c0c398d173673c5663b05822f5b679206537e559368b0",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788021401/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-02-14-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-02-14, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-02-14-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "1fc5b8d0293e6c8d346ffe4a27406eef260cadf6b05e30421ab74010a29c977a",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788021401/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-02-21-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-02-21, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-02-21-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "b6da3f83c06ac8240af4ef6019796e15205dd40b6fdcab65b5951c3caafda2a2",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788022101/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-02-21-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-02-21, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-02-21-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "65b454a3ca7652d22fa866c292874a252f5b3b1ef82b298514d6925eb2e1f130",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788022101/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-02-28-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-02-28, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-02-28-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "557e73a6054681dde763aa209387398936ce50349a76c4261f1b55f613def02d",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788022801/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-02-28-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-02-28, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-02-28-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "1f5c920212fb38027407c5e63f4c798cc15566260008b557c3e046f71a452939",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788022801/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-03-06-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-03-06, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-03-06-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "8441f82dc2fea5636f32c81a2be62aaaf041ca60327336fe3d3e3ef687b50706",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788030601/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-03-06-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-03-06, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-03-06-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "6a9c2b29337fb85766aba46b813925f79339a07c6ea0cfbcae8e2a4f66758a15",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788030601/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-03-20-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-03-20, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-03-20-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e4a89fed31117f35246e26d5c50ef5d097d352303e3e2075313117f682b23161",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788032001/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-03-20-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-03-20, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-03-20-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "d365dadd5e13dfe50475ab88295145e5c18d8961c660d822a7dce7ae98d84d78",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788032001/0003.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-04-10-p2-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-04-10, page 2 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-04-10-p2-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ed33b2ad97ddef330be72a76dd0023ab98a10cba336d7ad594246d9ab32ce588",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788041001/0002.xml"
+  },
+  {
+    "id": "loc-nyjournal-1788-04-10-p3-alto",
+    "license": "Public domain (The New-York Journal, 1787-88). Page OCR (ALTO XML) by the Library of Congress, Chronicling America, which believes the newspapers in it are in the public domain or have no known copyright restrictions.",
+    "notes": "The New-York Journal, and Weekly Register (New York: Thomas Greenleaf), 1787–1788, issue of 1788-04-10, page 3 (Chronicling America, LCCN sn83030566): the page's OCR as ALTO XML (words, their boxes and confidence).",
+    "path": "sources/raw/loc-nyjournal-1788-04-10-p3-alto.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "9694f98e69759d1161083c0dd7a5db9f4944541bb0982eb4d39c76ab33363399",
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bureau_ver02/data/sn83030566/print/1788041001/0003.xml"
+  },
+  {
     "id": "loc-usrep-10-87",
     "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
     "notes": "United States Reports, 10 U.S. 87: Fletcher v. Peck, 10 U.S. (6 Cranch) 87 (1810), as printed (Library of Congress scan, https://www.loc.gov/item/usrep010087/).",
@@ -707,6 +1628,15 @@
     "retrieved_at": "2026-10-18",
     "sha256": "de104631ba35da32ae8e743b330c5d36ae1eff336410ee3db4dd10d325811043",
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep118/usrep118356/usrep118356.pdf"
+  },
+  {
+    "id": "loc-usrep-123-443",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 123 U.S. 443: In re Ayers, 123 U.S. 443 (1887), as printed (Library of Congress scan, https://www.loc.gov/item/usrep123443/).",
+    "path": "sources/raw/loc-usrep-123-443.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "0a0b63f9350fe4736af0f3e86d6b3cc9f4aa59d758ef865acfde58b84a7233a0",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep123/usrep123443/usrep123443.pdf"
   },
   {
     "id": "loc-usrep-14-304",
@@ -1042,6 +1972,15 @@
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep302/usrep302319/usrep302319.pdf"
   },
   {
+    "id": "loc-usrep-303-376",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 303 U.S. 376: Helvering v. Mountain Producers Corp., 303 U.S. 376 (1938), as printed (Library of Congress scan, https://www.loc.gov/item/usrep303376/).",
+    "path": "sources/raw/loc-usrep-303-376.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "40df1eae3a05d60210ba0afa3131a017e97f1256230c8b3bc862451418902082",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep303/usrep303376/usrep303376.pdf"
+  },
+  {
     "id": "loc-usrep-304-64",
     "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
     "notes": "United States Reports, 304 U.S. 64: Erie Railroad v. Tompkins, 304 U.S. 64 (1938), as printed (Library of Congress scan, https://www.loc.gov/item/usrep304064/).",
@@ -1130,6 +2069,15 @@
     "retrieved_at": "2026-10-18",
     "sha256": "9001353c5363f960b8838c5ae8ae3b5cad19e55235f8bcf4df334b541d8a3a51",
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep319/usrep319624/usrep319624.pdf"
+  },
+  {
+    "id": "loc-usrep-322-533",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 322 U.S. 533: United States v. South-Eastern Underwriters Ass’n, 322 U.S. 533 (1944), as printed (Library of Congress scan, https://www.loc.gov/item/usrep322533/).",
+    "path": "sources/raw/loc-usrep-322-533.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "20152e072a356ff863015d4787cc5dbbf39abe12b3d2055b394df2b2c6bfc6d9",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep322/usrep322533/usrep322533.pdf"
   },
   {
     "id": "loc-usrep-323-214",
@@ -1411,6 +2359,15 @@
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep369/usrep369186/usrep369186.pdf"
   },
   {
+    "id": "loc-usrep-372-293",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 372 U.S. 293: Townsend v. Sain, 372 U.S. 293 (1963), as printed (Library of Congress scan, https://www.loc.gov/item/usrep372293/).",
+    "path": "sources/raw/loc-usrep-372-293.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "86a57a93cedd6171f590947b747cd156833a5314bea9212e5e7868f3a416fa4b",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/usrep372293/usrep372293.pdf"
+  },
+  {
     "id": "loc-usrep-372-391",
     "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
     "notes": "United States Reports, 372 U.S. 391: Fay v. Noia, 372 U.S. 391 (1963), as printed (Library of Congress scan, https://www.loc.gov/item/usrep372391/).",
@@ -1418,6 +2375,15 @@
     "retrieved_at": "2026-10-18",
     "sha256": "19a7b8948091826fd6ae7b0825ff7e07ecb53238ee5cb1b1796d784ad90551b6",
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/usrep372391/usrep372391.pdf"
+  },
+  {
+    "id": "loc-usrep-376-1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 376 U.S. 1: Wesberry v. Sanders, 376 U.S. 1 (1964), as printed (Library of Congress scan, https://www.loc.gov/item/usrep376001/).",
+    "path": "sources/raw/loc-usrep-376-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "9bc5d573f910a7d2577dfa086d8ec8189ec76f7a8b2767e3cdeed6d41355b540",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376001/usrep376001.pdf"
   },
   {
     "id": "loc-usrep-378-1",
@@ -1429,6 +2395,24 @@
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378001/usrep378001.pdf"
   },
   {
+    "id": "loc-usrep-378-368",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 378 U.S. 368: Jackson v. Denno, 378 U.S. 368 (1964), as printed (Library of Congress scan, https://www.loc.gov/item/usrep378368/).",
+    "path": "sources/raw/loc-usrep-378-368.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "b1c7b183b04887f35afedc3c589b7355ec82cabb446af275ae3a2fed9261a4d1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378368/usrep378368.pdf"
+  },
+  {
+    "id": "loc-usrep-378-478",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 378 U.S. 478: Escobedo v. Illinois, 378 U.S. 478 (1964), as printed (Library of Congress scan, https://www.loc.gov/item/usrep378478/).",
+    "path": "sources/raw/loc-usrep-378-478.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "02ed05a67a520e44fbc9db26e0c83b916645954dc8937eced165aad3032bd68b",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378478/usrep378478.pdf"
+  },
+  {
     "id": "loc-usrep-380-39",
     "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
     "notes": "United States Reports, 380 U.S. 39: Crider v. Zurich Insurance Co., 380 U.S. 39 (1965), as printed (Library of Congress scan, https://www.loc.gov/item/usrep380039/).",
@@ -1436,6 +2420,15 @@
     "retrieved_at": "2026-10-18",
     "sha256": "e490d9a4fd219fcb8d215b3b7af864036c6def54325135a653e1a1226bb3255c",
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep380/usrep380039/usrep380039.pdf"
+  },
+  {
+    "id": "loc-usrep-381-437",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 381 U.S. 437: United States v. Brown, 381 U.S. 437 (1965), as printed (Library of Congress scan, https://www.loc.gov/item/usrep381437/).",
+    "path": "sources/raw/loc-usrep-381-437.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f06b63096d35021e378f8283790c2487905a1c1964d6fa0bd81df0315f973237",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep381/usrep381437/usrep381437.pdf"
   },
   {
     "id": "loc-usrep-381-479",
@@ -1447,6 +2440,15 @@
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep381/usrep381479/usrep381479.pdf"
   },
   {
+    "id": "loc-usrep-383-663",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 383 U.S. 663: Harper v. Virginia Board of Elections, 383 U.S. 663 (1966), as printed (Library of Congress scan, https://www.loc.gov/item/usrep383663/).",
+    "path": "sources/raw/loc-usrep-383-663.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "9e8d4aed92583ef0b252744a641f2b95118c7a98dadd790380a188275fef3517",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383663/usrep383663.pdf"
+  },
+  {
     "id": "loc-usrep-384-436",
     "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
     "notes": "United States Reports, 384 U.S. 436: Miranda v. Arizona, 384 U.S. 436 (1966), as printed (Library of Congress scan, https://www.loc.gov/item/usrep384436/).",
@@ -1454,6 +2456,15 @@
     "retrieved_at": "2026-10-18",
     "sha256": "31e7666853b8b72f2793da506814552fcaee91fbdb4ad162f8669a0e2419e193",
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep384/usrep384436/usrep384436.pdf"
+  },
+  {
+    "id": "loc-usrep-385-589",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 385 U.S. 589: Keyishian v. Board of Regents, 385 U.S. 589 (1967), as printed (Library of Congress scan, https://www.loc.gov/item/usrep385589/).",
+    "path": "sources/raw/loc-usrep-385-589.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "dd6ce1dfcfc2b313996373aba9c82cd2a85b9ec3b794e847b8d0ce4ef57ad46b",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep385589/usrep385589.pdf"
   },
   {
     "id": "loc-usrep-387-253",
@@ -1535,6 +2546,15 @@
     "retrieved_at": "2026-10-18",
     "sha256": "3e36591328a44f9d63d20f04d6cac442a229273c27ed112273aa3f4950928a73",
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep395/usrep395486/usrep395486.pdf"
+  },
+  {
+    "id": "loc-usrep-395-784",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 395 U.S. 784: Benton v. Maryland, 395 U.S. 784 (1969), as printed (Library of Congress scan, https://www.loc.gov/item/usrep395784/).",
+    "path": "sources/raw/loc-usrep-395-784.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "17ebdbf1b8bdeb0ac1737f84d87c4061578f18ebed7ec23202e57e7f13ca25b3",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep395/usrep395784/usrep395784.pdf"
   },
   {
     "id": "loc-usrep-397-49",
@@ -1852,6 +2872,15 @@
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep448/usrep448056/usrep448056.pdf"
   },
   {
+    "id": "loc-usrep-448-83",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 448 U.S. 83: United States v. Salvucci, 448 U.S. 83 (1980), as printed (Library of Congress scan, https://www.loc.gov/item/usrep448083/).",
+    "path": "sources/raw/loc-usrep-448-83.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "1985e08419e066cde40d9ce410a023565e78a164fec3c354160acef7ab7157b3",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep448/usrep448083/usrep448083.pdf"
+  },
+  {
     "id": "loc-usrep-455-422",
     "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
     "notes": "United States Reports, 455 U.S. 422: Logan v. Zimmerman Brush Co., 455 U.S. 422 (1982), as printed (Library of Congress scan, https://www.loc.gov/item/usrep455422/).",
@@ -1913,6 +2942,15 @@
     "retrieved_at": "2026-10-18",
     "sha256": "724af3b6ae7eca9ba27d41424d241a32bb412d4a17785d25da8bd6256401be8f",
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep046/usrep046441/usrep046441.pdf"
+  },
+  {
+    "id": "loc-usrep-461-574",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 461 U.S. 574: Bob Jones University v. United States, 461 U.S. 574 (1983), as printed (Library of Congress scan, https://www.loc.gov/item/usrep461574/).",
+    "path": "sources/raw/loc-usrep-461-574.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "34bd9b60ef26434ddbee0a28a7fa9030a13dad78e5158799eb45cd129c83e8a1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep461/usrep461574/usrep461574.pdf"
   },
   {
     "id": "loc-usrep-462-919",
@@ -2014,6 +3052,15 @@
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep048/usrep048001/usrep048001.pdf"
   },
   {
+    "id": "loc-usrep-483-219",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 483 U.S. 219: Puerto Rico v. Branstad, 483 U.S. 219 (1987), as printed (Library of Congress scan, https://www.loc.gov/item/usrep483219/).",
+    "path": "sources/raw/loc-usrep-483-219.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e18f8e1c564d6b719d412259fead3e2b59030b29c51b4ae0dbda2b00906eff85",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep483/usrep483219/usrep483219.pdf"
+  },
+  {
     "id": "loc-usrep-485-505",
     "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
     "notes": "United States Reports, 485 U.S. 505: South Carolina v. Baker, 485 U.S. 505 (1988), as printed (Library of Congress scan, https://www.loc.gov/item/usrep485505/).",
@@ -2104,6 +3151,15 @@
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep501/usrep501032/usrep501032.pdf"
   },
   {
+    "id": "loc-usrep-501-722",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 501 U.S. 722: Coleman v. Thompson, 501 U.S. 722 (1991), as printed (Library of Congress scan, https://www.loc.gov/item/usrep501722/).",
+    "path": "sources/raw/loc-usrep-501-722.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "10013981f3027c4ca7bd2d254fc8f8e71a41738ca217d97592e4121ef17d788f",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep501/usrep501722/usrep501722.pdf"
+  },
+  {
     "id": "loc-usrep-504-555",
     "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
     "notes": "United States Reports, 504 U.S. 555: Lujan v. Defenders of Wildlife, 504 U.S. 555 (1992), as printed (Library of Congress scan, https://www.loc.gov/item/usrep504555/).",
@@ -2185,6 +3241,15 @@
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep517/usrep517748/usrep517748.pdf"
   },
   {
+    "id": "loc-usrep-521-203",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 521 U.S. 203: Agostini v. Felton, 521 U.S. 203 (1997), as printed (Library of Congress scan, https://www.loc.gov/item/usrep521203/).",
+    "path": "sources/raw/loc-usrep-521-203.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "87fe8fd9de10cd1af37fe90a4c8606714dc0fdc1251d82b024cb22830ab589a1",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep521/usrep521203/usrep521203.pdf"
+  },
+  {
     "id": "loc-usrep-521-898",
     "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
     "notes": "United States Reports, 521 U.S. 898: Printz v. United States, 521 U.S. 898 (1997), as printed (Library of Congress scan, https://www.loc.gov/item/usrep521898/).",
@@ -2228,6 +3293,24 @@
     "retrieved_at": "2026-10-18",
     "sha256": "9c63c92250412a2777db25415fedcbfd3a147e155625c8407dd37dd4d3f94d37",
     "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep533/usrep533678/usrep533678.pdf"
+  },
+  {
+    "id": "loc-usrep-536-304",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 536 U.S. 304: Atkins v. Virginia, 536 U.S. 304 (2002), as printed (Library of Congress scan, https://www.loc.gov/item/usrep536304/).",
+    "path": "sources/raw/loc-usrep-536-304.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "466624c0aecfcae93f9b8ece6b0038c999ef7137d161f73ed6db53424c735598",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep536/usrep536304/usrep536304.pdf"
+  },
+  {
+    "id": "loc-usrep-536-584",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Library of Congress, United States Reports collection.",
+    "notes": "United States Reports, 536 U.S. 584: Ring v. Arizona, 536 U.S. 584 (2002), as printed (Library of Congress scan, https://www.loc.gov/item/usrep536584/).",
+    "path": "sources/raw/loc-usrep-536-584.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "a4abc45041af79411d89dd44554a601b4361b87ebea9e4d0c9683c48eff07e3c",
+    "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep536/usrep536584/usrep536584.pdf"
   },
   {
     "id": "loc-usrep-539-558",
@@ -2525,6 +3608,78 @@
     "retrieved_at": "2026-10-18",
     "sha256": "21735d1896efdc206f8dc2defa822077aa09ca49d127a0259bc3ba291ff9ab89",
     "url": "https://www.archives.gov/founding-docs/declaration-transcript"
+  },
+  {
+    "id": "scotus-582-bv",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Supreme Court of the United States.",
+    "notes": "United States Reports, volume 582 (bound volume), as the Supreme Court publishes it; the case import reads 582 U.S. 47 from it. Encrypted with an empty user password (anyone may open it).",
+    "path": "sources/raw/scotus-582-bv.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "21dbb51e7fb765c3a96fe9b92c783866f581d86bc2055b72d9d6cfb191dcdfbc",
+    "url": "https://www.supremecourt.gov/opinions/boundvolumes/582BV.pdf"
+  },
+  {
+    "id": "scotus-585-bv",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Supreme Court of the United States.",
+    "notes": "United States Reports, volume 585 (bound volume), as the Supreme Court publishes it; the case import reads 585 U.S. 667, 585 U.S. 878 from it. Encrypted with an empty user password (anyone may open it).",
+    "path": "sources/raw/scotus-585-bv.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "a9b499cc5f13cce146d17a333cf589e27db0874805fdc5bd4a2e593e83c228aa",
+    "url": "https://www.supremecourt.gov/opinions/boundvolumes/585BV.pdf"
+  },
+  {
+    "id": "scotus-588-pp2",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Supreme Court of the United States.",
+    "notes": "United States Reports, volume 588, part 2 (preliminary print), as the Supreme Court publishes it; the case import reads 588 U.S. 684 from it. Encrypted with an empty user password (anyone may open it).",
+    "path": "sources/raw/scotus-588-pp2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ce8da9165dcf7af84775e49ad2ece3f1a9003823cb21433cb7a03c781f92fd2d",
+    "url": "https://www.supremecourt.gov/opinions/preliminaryprint/588US2PP_final.pdf"
+  },
+  {
+    "id": "scotus-591-pp1",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Supreme Court of the United States.",
+    "notes": "United States Reports, volume 591, part 1 (preliminary print), as the Supreme Court publishes it; the case import reads 591 U.S. 197 from it. Encrypted with an empty user password (anyone may open it).",
+    "path": "sources/raw/scotus-591-pp1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "1f11cbd95c312dbcaa110f49f03953ffe7c39b2d42d95f7c109faaf315f61659",
+    "url": "https://www.supremecourt.gov/opinions/preliminaryprint/591US1PP_web.pdf"
+  },
+  {
+    "id": "scotus-591-pp2",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Supreme Court of the United States.",
+    "notes": "United States Reports, volume 591, part 2 (preliminary print), as the Supreme Court publishes it; the case import reads 591 U.S. 848 from it. Encrypted with an empty user password (anyone may open it).",
+    "path": "sources/raw/scotus-591-pp2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "d113d76eee1b7784cf541fee195299ced7ed5ee615b8afe50c588febb5eb5fd7",
+    "url": "https://www.supremecourt.gov/opinions/preliminaryprint/591US2PP_web.pdf"
+  },
+  {
+    "id": "scotus-594-595",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Supreme Court of the United States.",
+    "notes": "594 U.S. 595 (preliminary print of the case), as the Supreme Court publishes it; the case import reads 594 U.S. 595 from it. Encrypted with an empty user password (anyone may open it).",
+    "path": "sources/raw/scotus-594-595.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "870c1348d5ac06f36fdbf074f56424987b755a1139c15dc60c1d5230240b5515",
+    "url": "https://www.supremecourt.gov/opinions/20pdf/594us2r65_2co3.pdf"
+  },
+  {
+    "id": "scotus-597-215",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Supreme Court of the United States.",
+    "notes": "597 U.S. 215 (preliminary print of the case), as the Supreme Court publishes it; the case import reads 597 U.S. 215 from it. Encrypted with an empty user password (anyone may open it).",
+    "path": "sources/raw/scotus-597-215.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "70091abee490f2ed61351bd072823e0743d6dd01b6f664359dbcf25bc755e0ad",
+    "url": "https://www.supremecourt.gov/opinions/21pdf/597us1r58_gebh.pdf"
+  },
+  {
+    "id": "scotus-597-507",
+    "license": "Public domain (U.S. Government work, 17 U.S.C. 105). Supreme Court of the United States.",
+    "notes": "597 U.S. 507 (preliminary print of the case), as the Supreme Court publishes it; the case import reads 597 U.S. 507 from it. Encrypted with an empty user password (anyone may open it).",
+    "path": "sources/raw/scotus-597-507.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "53dc3c56a3c6a70ddb15f2c727a2973a9e6567fd1880a62bda890046e30032a0",
+    "url": "https://www.supremecourt.gov/opinions/21pdf/597us2r62_d92h.pdf"
   },
   {
     "encoding": "gzip",

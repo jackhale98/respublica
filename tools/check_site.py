@@ -34,7 +34,8 @@ RESOURCE_RELS = {"stylesheet", "preload", "modulepreload", "prefetch", "icon", "
 ALLOWED_UNSAFE = {"'wasm-unsafe-eval'"}
 # The only third-party sources: the errata page shows page images from the
 # Internet Archive and the UNT Digital Library (images only; decision 48).
-PAGE_IMAGES = {"/errata/": "img-src 'self' https://archive.org https://*.us.archive.org https://digital.library.unt.edu"}
+PAGE_IMAGES = {"/errata/": "img-src 'self' https://archive.org https://*.us.archive.org https://digital.library.unt.edu "
+                          "https://tile.loc.gov"}
 
 # Free-tier budgets (docs/decisions.md 15, 44). Cloudflare static assets:
 # 20,000 files and 25 MiB per file on the free plan. Budgets sit well inside

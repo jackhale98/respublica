@@ -1,0 +1,90 @@
+{
+  "chosen_because": [
+    "overrules American Communications Ass’n v. Douds (table of overruled decisions)"
+  ],
+  "conan_citation": "United States v. Brown, 381 U.S. 437 (1965)",
+  "courtlistener_date": "1965-10-11",
+  "courtlistener_name": "United States v. Brown",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107081/united-states-v-brown/",
+  "date": "1965-06-07",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107081. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 381, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107081",
+  "loc_url": "https://www.loc.gov/item/usrep381437/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep381/usrep381437/usrep381437.pdf",
+  "ref_prefix": "Case.107081",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Brown, syllabus ¶ 1",
+      "page": 437,
+      "ref": "Case.107081.syllabus.1",
+      "text": "Respondent was convicted under § 504 of the Labor-Management Reporting and Disclosure Act of 1959, which makes it a crime for one who belongs to the Communist Party or who has been a member thereof during the preceding five years wilfully to serve as a member of the executive board of a labor organization. The Court of Appeals reversed, holding § 504 violative of the First and Fifth Amendments. Held: Section 504 constitutes a bill of attainder and is therefore unconstitutional. Pp. 441-462."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Brown, syllabus ¶ 2",
+      "page": 437,
+      "ref": "Case.107081.syllabus.2",
+      "text": "(a) The Bill of Attainder Clause, Art. I, § 9, cl. 3, was intended to implement the separation of powers among the three branches of the Government by guarding against the legislative exercise of judicial power. Pp. 441-446."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Brown, syllabus ¶ 3",
+      "page": 437,
+      "ref": "Case.107081.syllabus.3",
+      "text": "(b) The Bill of Attainder Clause is to be liberally construed in the light of its purpose to prevent legislative punishment of designated persons or groups. Cummings v. Missouri, 4 Wall. 277; Ex parte Garland, 4 Wall. 333; United States v. Lovett, 328 U. S. 303. Pp. 447-449."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Brown, syllabus ¶ 4",
+      "page": 437,
+      "ref": "Case.107081.syllabus.4",
+      "text": ". (c) In designating Communist Party members as those persons who cannot hold union office, Congress has exceeded its Commerce Clause power to enact generally applicable legislation disqualifying from positions affecting interstate commerce persons who may use such positions to cause political strikes. Pp. 449-452."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Brown, syllabus ¶ 5",
+      "page": 437,
+      "ref": "Case.107081.syllabus.5",
+      "text": "(d) Section 504 is distinguishable from such conflict-of-interest statutes as § 32 of the Banking Act, where Congress was legislating with respect to general characteristics rather than with respect to the members of a specific group. Pp. 453-455."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Brown, syllabus ¶ 6",
+      "page": 437,
+      "ref": "Case.107081.syllabus.6",
+      "text": "(e) The 4esignation of Communist Party membership cannot be justified as an alternative, \"shorthand\" expression for the characteristics which render men likely to incite political strikes. Pp. 455-456."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Brown, syllabus ¶ 7",
+      "page": 437,
+      "ref": "Case.107081.syllabus.7",
+      "text": "(f) A statute which inflicts its deprivation upon named or described persons or groups constitutes a bill of attainder whether its aim is retributive, punishing past acts, or preventive, discouraging future conduct. In American Communications Assn. v. Douds, 339 U. S. 382, where the Court upheld § 9 (h) of the National Labor Relations Act, the predecessor of § 504, the Court erroneously assumed that only a law visiting retribution for past, acts could constitute a bill of attainder, and misread the statute involved in United States v. Lovett, 328 U. S. 303, which it sought to distinguish from § 9 (h), as being in that category. Pp. 456-460."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Brown, syllabus ¶ 8",
+      "page": 438,
+      "ref": "Case.107081.syllabus.8",
+      "text": "(g) The legislative specification of those to whom the enacted sanction is to apply invalidates a provision as a bill of attainder whether the individuals are designated by name as in Lovett or by description as here. Pp. 461-462."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Brown, syllabus ¶ 9",
+      "page": 438,
+      "ref": "Case.107081.syllabus.9",
+      "text": "334 F. 2d 488, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-381-437"
+  ],
+  "title": "United States v. Brown",
+  "us_cite": "381 U.S. 437"
+}

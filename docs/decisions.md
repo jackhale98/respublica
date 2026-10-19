@@ -956,6 +956,111 @@ The project owner asked for the clause pages planned for phase 7.
   the search index, so a search does not find each clause twice.
 
 
+## 53. The first set of cases: what overrules them
+
+The project owner noticed that *Plessy v. Ferguson* showed no overruling.
+The Constitution Annotated's Table of Supreme Court Decisions Overruled by
+Subsequent Decisions (2022, p. 2441) lists *Plessy* as overruled by *Bob
+Jones University v. United States* (1983), not by *Brown v. Board of
+Education*, which the table does not list as overruling any decision; the
+library records overrulings only from that table (rule 7), so *Plessy*'s
+overruling is *Bob Jones*'s. *Bob Jones* was not in the set, so no link was
+made. One more rule, as fixed as the others:
+
+6. every decision the table lists as overruling a case chosen by rules 1
+   to 5. One step: what overrules a case added by this rule is not added.
+
+It adds 19 decisions (*Bob Jones*, *Atkins v. Virginia*, *Ring v.
+Arizona*, *Agostini v. Felton*, *Harper v. Virginia Board of Elections*,
+*Wesberry v. Sanders*, *Benton v. Maryland*, *Escobedo v. Illinois*,
+*Janus*, …), each with the reason it was chosen. They were looked up on
+CourtListener with two requests and their scans fetched from the Library
+of Congress like the others. The set is now 232 cases.
+
+
+## 54. Syllabi from the Supreme Court's own PDFs, and syllabi with several opinions
+
+The project owner approved supremecourt.gov as a source. The Library of
+Congress has scanned the United States Reports to about volume 578, so nine
+cases in the set (*Sessions v. Morales-Santana*, *Trump v. Hawaii*, *Janus*,
+*Rucho*, *Seila Law*, *Trump v. Mazars*, *Americans for Prosperity
+Foundation v. Bonta*, *Dobbs* and *Kennedy v. Bremerton*) had no syllabus.
+
+- **The Court's PDFs.** Each is read from the PDF the Court publishes: the
+  bound volume where the volume is bound (582, 585), else the preliminary
+  print of the volume (588, 591) or of the case (594, 597)
+  (`importers/scotus.py`, `PRINTS`). They are raw sources like any other
+  (about 18 MB, kept in git), read by the same reader as the scans
+  (`importers.usreports`, with a `source`), word for word; a case is found
+  in a volume by the page number in its running heads. The PDFs are
+  encrypted with an empty user password, which anyone may open;
+  `tools/pdf.py` reads them (RC4). The Library of Congress scan, where there
+  is one, comes first.
+- **Opinions without a majority.** Where no opinion speaks for the Court
+  throughout, the syllabus goes on after the judgment line with a part for
+  each opinion ("JUSTICE WHITE delivered the opinion of the Court with
+  respect to Parts I and II, concluding that …"). The reader had stopped at
+  the judgment line, so eight published syllabi were cut short (455 U.S. 422,
+  478 U.S. 109, 492 U.S. 302, 497 U.S. 639, 504 U.S. 555, 512 U.S. 622,
+  561 U.S. 742, 567 U.S. 519), and *Adamson* (332 U.S. 46) was cut at
+  "argued the" inside a holding. They now run to the list of who joined which
+  opinion. Their published paragraphs are unchanged, with the same refs; the
+  rest of the syllabus follows with new refs (rule 6). Up to 24 pages are
+  read per case (*McConnell*'s syllabus runs to p. 110); dates are read from
+  a case's first two pages only.
+- **The reader's other changes** let it follow 20 of the 25 scans it
+  had refused (hanging indents, lines read out of order, volumes before 1882
+  that print no dates). 202 of the 232 cases now have a syllabus; five scans
+  are still refused, and each case says why.
+
+## 55. Brutus V–XVI, Patrick Henry, and the Anti-Federalist Library as a tie-breaker
+
+The project owner decided, after the research on the Anti-Federalist
+Library (antifederalists.org) and the original printings:
+
+- **Brutus V–XVI from the New-York Journal.** Chronicling America (the
+  Library of Congress) is approved as a source. Each page's OCR is read from
+  its ALTO XML on tile.loc.gov (words, boxes, confidence); the page URLs are
+  taken from each issue's record at loc.gov, paced for its rate limit. There
+  is one scan, so nothing votes: a word is settled when it is a known word
+  read with confidence (0.5 or more) or when the Library reads it alike;
+  otherwise it is uncertain (about 14% of words). The essays join the
+  existing Brutus work, `Brutus.{n}.{paragraph}`; XII and XIV, printed in two
+  instalments, are one essay each. **Brutus XI** has no scan and is left
+  out, and the work's notes say so; its text is not taken from anywhere
+  else. The long s that OCR reads as "f" is never turned into "s" by code.
+- **Patrick Henry from Elliot's Debates**, vol. 3, standard pagination: the
+  Internet Archive's 1907 Lippincott scan with the 1876, 1861 and 1836
+  copies of the same pagination as readings; never the separate
+  "Pennsylvania Avenue" setting (UNC). The speeches imported are the
+  twenty-four the Library prints, each as Elliot prints it; where the
+  Library's speech takes in another member's remarks (June 17, June 23),
+  the import keeps them with Elliot's speaker names. Refs `Henry.{Mon}{day}`
+  as for the debates in Congress (`docs/references.md`).
+- **The Library is a tie-breaker, never a source of text.** It is CC0, but
+  names no source and was probably copied from a modern edition (it has
+  editorial brackets and misreadings of its own). Its Markdown is pinned to
+  commit 6424aff9 of github.com/seven-obelisks/antifederalists and kept as
+  raw sources. Where the scans' readings of a word disagree, it may choose
+  among them; where no scan reads it so, the text stays and its reading is
+  recorded on the uncertain word as a `suggestion`, shown on `/errata/` for
+  a person to check against the page image (a field, not a new mechanism:
+  a chosen suggestion is recorded like any correction). In the newspaper
+  and Elliot, whose printing the Library follows, a word only weakly read
+  (one scan, or not a known word) that the Library reads differently is
+  also left for a person. The rules are in `docs/ocr.md`.
+- **Applied to existing works** where the Library's pages match ours:
+  Brutus I–IV, Agrippa I–XI, the Federal Farmer I–V, Centinel I and
+  V–XVIII (Centinel XIII and XVI from the pages the Library mislabels XII
+  and XV). Not Cato (duplicated and cut-short pages) or Centinel II–IV
+  (excerpts). No ref or paragraph changed; 28 words changed, each to
+  another scan's reading (listed in the commit that made the change), 5
+  uncertain marks were dropped where the Library agreed with the main scan,
+  and the editions' notes say the Library was used.
+- **Skipped:** Old Whig, Maryland Farmer, Impartial Examiner, John DeWitt,
+  Philadelphiensis and Melancton Smith, for which no scan of the first
+  printing was found to check the Library against.
+
 ## 56. The Thirteenth and Fifteenth Amendments in the Congressional Globe
 
 The project owner asked for the debates on the Thirteenth and Fifteenth

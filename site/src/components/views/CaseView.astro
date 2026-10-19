@@ -12,6 +12,7 @@ const { page } = Astro.props;
 const c = page.case;
 const cl = safeUrl(c.courtlistener_url);
 const loc = safeUrl(c.loc_url);
+const court = c.court_print && safeUrl(`${c.pdf_url}#page=${c.pdf_first_page}`);
 const interprets = page.connections.filter((x) => x.type === "interprets" && x.direction === "out");
 const cite = c.us_cite || (c.docket ? `No. ${c.docket}` : "");
 ---
@@ -44,6 +45,7 @@ const cite = c.us_cite || (c.docket ? `No. ${c.docket}` : "");
     <p class="case-ext" data-pagefind-ignore>
       {cl && <a href={cl} rel="noopener" target="_blank">Read the full opinion on CourtListener</a>}
       {loc && <Fragment>{cl && " · "}<a href={loc} rel="noopener" target="_blank">The case as printed (Library of Congress)</a></Fragment>}
+      {court && <Fragment>{cl && " · "}<a href={court} rel="noopener" target="_blank">The case as printed (Supreme Court)</a></Fragment>}
     </p>
   </header>
 
@@ -67,8 +69,9 @@ const cite = c.us_cite || (c.docket ? `No. ${c.docket}` : "");
       <Fragment>
         <p class="doc-note" data-pagefind-ignore>
           The syllabus is prepared by the Reporter of Decisions and is not part of the opinion of the Court. It is
-          shown as printed in the United States Reports, read from the text layer of the Library of Congress scan
-          (optical character recognition in older volumes, not yet checked word by word against the page).
+          shown as printed in the United States Reports, read from the text layer of {c.court_print
+            ? `the Supreme Court's PDF: ${c.court_print}.`
+            : "the Library of Congress scan (optical character recognition in older volumes, not yet checked word by word against the page)."}
         </p>
         <div class="blocks">{page.blocks.map((b) => <Passage block={b} />)}</div>
       </Fragment>

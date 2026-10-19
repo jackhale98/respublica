@@ -828,7 +828,7 @@
   ],
   "edition": {
     "name": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892)",
-    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 49–122. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+    "notes": "Paul Leicester Ford, ed., Essays on the Constitution of the United States (Brooklyn, 1892), pp. 49–122. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. Where the scans disagreed, the Anti-Federalist Library's text was used to choose among their readings, never to add one. See docs/editions.md."
   },
   "id": "agrippa",
   "position": "anti",
@@ -870,7 +870,8 @@
             "google": "(or",
             "primary": "iox"
           },
-          "start": 371
+          "start": 371,
+          "suggestion": "for"
         }
       ]
     },
@@ -1033,18 +1034,7 @@
           69
         ]
       },
-      "text": "Connecticut set out originally on the same principles, and has continued uniformly to exercise tlie powers of government to this time.",
-      "uncertain": [
-        {
-          "end": 106,
-          "readings": {
-            "brittle": "the powers",
-            "google": "theipowers",
-            "primary": "tlie powers"
-          },
-          "start": 95
-        }
-      ]
+      "text": "Connecticut set out originally on the same principles, and has continued uniformly to exercise the powers of government to this time."
     },
     {
       "label": "Agrippa 2, ¶ 3",
@@ -1058,18 +1048,7 @@
           69
         ]
       },
-      "text": "During the last year,* we bad decisive evidences of the vigour of this kind of government. In Connecticut, the treason was restrained while it existed only in the form of conspiracy. In Vermont, the conspirators assembled in arms, but were suppressed by the exertions of the militia, under the direction of their sheriffs. In New-Hampshire, the attack was made on the legislature, but the insurrection was in a very few hours suppressed, and has never been renewed. In Massachusetts, the danger was by delay suffered to increase. One judicial court after another was stopped, and even the capital trembled. Still, however, when the supreme executive gave the signal, a force of many thou.sands of active, resolute men, took the field, during the .severities of winter, and every difficulty vanished before them. Since that time we have been continually coalescing. The people have applied with diligence to their several occupations, and the whole country wears one face of improvement. Agriculture has been improved, manufactures multiplied, and trade prodigiously enlarged. These are the advantages of freedom in a growing country. While our resources have been thus rapidly increasing, the courts have set in every part of the commonwealth, without any guard to defend them; have tried causes of every kind, whether civil or criminal, and the sheriffs, have in no case been interrupted in the execution of their office. In those cases indeed, where the government was more particularly interested, mercy has been extended; but in civil causes, and in the case of moral offences, the law has been punctually executed. Damage done to individuals, during the tumults, has been repaired, by judgment of the courts of law, and the award has been carried into effect. This is the present state of affairs, when we are asked to relinquish that freedom which produces such happy effects.",
-      "uncertain": [
-        {
-          "end": 29,
-          "readings": {
-            "brittle": "had",
-            "google": "had",
-            "primary": "bad"
-          },
-          "start": 26
-        }
-      ]
+      "text": "During the last year,* we had decisive evidences of the vigour of this kind of government. In Connecticut, the treason was restrained while it existed only in the form of conspiracy. In Vermont, the conspirators assembled in arms, but were suppressed by the exertions of the militia, under the direction of their sheriffs. In New-Hampshire, the attack was made on the legislature, but the insurrection was in a very few hours suppressed, and has never been renewed. In Massachusetts, the danger was by delay suffered to increase. One judicial court after another was stopped, and even the capital trembled. Still, however, when the supreme executive gave the signal, a force of many thou.sands of active, resolute men, took the field, during the .severities of winter, and every difficulty vanished before them. Since that time we have been continually coalescing. The people have applied with diligence to their several occupations, and the whole country wears one face of improvement. Agriculture has been improved, manufactures multiplied, and trade prodigiously enlarged. These are the advantages of freedom in a growing country. While our resources have been thus rapidly increasing, the courts have set in every part of the commonwealth, without any guard to defend them; have tried causes of every kind, whether civil or criminal, and the sheriffs, have in no case been interrupted in the execution of their office. In those cases indeed, where the government was more particularly interested, mercy has been extended; but in civil causes, and in the case of moral offences, the law has been punctually executed. Damage done to individuals, during the tumults, has been repaired, by judgment of the courts of law, and the award has been carried into effect. This is the present state of affairs, when we are asked to relinquish that freedom which produces such happy effects."
     },
     {
       "label": "Agrippa 2, ¶ 4",
@@ -1326,7 +1305,8 @@
             "google": "ver>",
             "primary": "ver>"
           },
-          "start": 674
+          "start": 674,
+          "suggestion": "very"
         }
       ]
     },
@@ -1469,7 +1449,8 @@
           "readings": {
             "primary": "dcclaration"
           },
-          "start": 703
+          "start": 703,
+          "suggestion": "declaration"
         }
       ]
     },
@@ -1485,18 +1466,7 @@
           82
         ]
       },
-      "text": "The idea of consolidation is further kept up in the right given to regulate trade. Though this power under certain limitations would be a proper one for the department of Congress; it is in this system carried much too far, and much farther than is necessary. This is, without exception, the m.ost commercial state upon the continent. Our extensive coasts, cold climate, small estates, and equality of rights, with a variety of subordinate and concurring circumstances, place us in this respect at the head o' the Union. We must, therefore, be indulged if a point which so nearly relates to our welfare be rigidly examined. The new constitution not only prohibits vessels, bound from one state to another, from paying any duties, but even from entering and clearing. The only use of such a regulation is, to keep each state in complete ignorance of its own resources. It certainly is no hardship to enter and clear at the custom house, and the expense is too small to be an object.",
-      "uncertain": [
-        {
-          "end": 509,
-          "readings": {
-            "brittle": "of",
-            "google": "of",
-            "primary": "o'"
-          },
-          "start": 507
-        }
-      ]
+      "text": "The idea of consolidation is further kept up in the right given to regulate trade. Though this power under certain limitations would be a proper one for the department of Congress; it is in this system carried much too far, and much farther than is necessary. This is, without exception, the m.ost commercial state upon the continent. Our extensive coasts, cold climate, small estates, and equality of rights, with a variety of subordinate and concurring circumstances, place us in this respect at the head of the Union. We must, therefore, be indulged if a point which so nearly relates to our welfare be rigidly examined. The new constitution not only prohibits vessels, bound from one state to another, from paying any duties, but even from entering and clearing. The only use of such a regulation is, to keep each state in complete ignorance of its own resources. It certainly is no hardship to enter and clear at the custom house, and the expense is too small to be an object."
     },
     {
       "label": "Agrippa 6, ¶ 4",
@@ -1558,17 +1528,8 @@
           86
         ]
       },
-      "text": "At the beginning of the present year, the whole continental debt was about twelve millions of pounds in our money. About one-quarter part of this sum was due to our foreign creditors. Of these France was the principal, and called for the arrears of interest. A new loan of one hundred and twenty thousand pounds was negotiated in Holland, at five per cent., to pay the arrears due to France. At first sight this has the appearance of bad economy, and has been used for the villainous purpose of disafiecting the people. Ikit in the course of this same year, Congress have negotiated the sale of as much of their western lands on the Ohio and Mississippi, as amount nearly to the whole sum of the foreign debt; and instead of a dead loss by borrowing money at five per cent, to the amount of an hundred and twenty thousand pounds in one sum, they make a saving of the interest at six per cent, on three millions of their domestick debt, which is an annual saving of an hundred and eighty thousand pounds. It is easy to see how such an immense fund as the western territory may be applied to the payment of the foreign debt. Purchasers of the land would as willingly procure any kind of the produce of the United States as they would buy loan office certificates to pay for the land. The produce thus procured would easily be negotiated for the benefit of our foreign creditors. I do not mean to insinuate that no other provision should be made for our creditors, but only to shew that our credit is not so bad in other countries as has been represented, and that our resources are fully equal to the pressure.",
+      "text": "At the beginning of the present year, the whole continental debt was about twelve millions of pounds in our money. About one-quarter part of this sum was due to our foreign creditors. Of these France was the principal, and called for the arrears of interest. A new loan of one hundred and twenty thousand pounds was negotiated in Holland, at five per cent., to pay the arrears due to France. At first sight this has the appearance of bad economy, and has been used for the villainous purpose of disaffecting the people. Ikit in the course of this same year, Congress have negotiated the sale of as much of their western lands on the Ohio and Mississippi, as amount nearly to the whole sum of the foreign debt; and instead of a dead loss by borrowing money at five per cent, to the amount of an hundred and twenty thousand pounds in one sum, they make a saving of the interest at six per cent, on three millions of their domestick debt, which is an annual saving of an hundred and eighty thousand pounds. It is easy to see how such an immense fund as the western territory may be applied to the payment of the foreign debt. Purchasers of the land would as willingly procure any kind of the produce of the United States as they would buy loan office certificates to pay for the land. The produce thus procured would easily be negotiated for the benefit of our foreign creditors. I do not mean to insinuate that no other provision should be made for our creditors, but only to shew that our credit is not so bad in other countries as has been represented, and that our resources are fully equal to the pressure.",
       "uncertain": [
-        {
-          "end": 507,
-          "readings": {
-            "brittle": "disaffecting",
-            "google": "disafTecting",
-            "primary": "disafiecting"
-          },
-          "start": 495
-        },
         {
           "end": 524,
           "readings": {
@@ -1841,18 +1802,7 @@
           98
         ]
       },
-      "text": "By such an explicit declaration of 'die powers given to Con gress, we shall provide for all federal purposes, and shall at the same time secure our rights. It is easier to amend the old confederation, defective as it has been represented, than it is to correct the new form. For with whatever view it was framed, truth constrains me to say, that it is insidious in its form, and ruinous in its tendency. Under the pretence of different branches of the legislature, the members will in fact be chosen from the same general description of citizens. The advantages of a check will be lost, while we shall be continually exposed to the cabals and corruption of a British election. There cannot be a more eligible mode than the present, for appointing members of Congress, nor more effectual checks provided than our separate state government's, nor any system so little expensive, in case of our adopting the resolve just stated, or even continuing as we are. We shall in that case avoid all the inconvenience of concurrent jurisdictions, we shall avoid the expensive and useless establishments of the Philadelphia proposition, we shall preserve our constitution and liberty, and we shall provide for all such institutions as will be useful. Surely then you cannot hesitate, whether you will chuse freedom or servitude. The object is now well defined. By adopting the form proposed by the convention, you will have the derision of foreigners, internal misery, and the anathemas of posterity. By amending the present confederation, and granting limited powers to Congress, you secure the admiration of strangers, internal happiness, and the blessings and prosperity of all succeeding generations. Be wise, then, and by preserving your freedom, prove, that Heaven bestowed it not in vain. Many will be the efforts to delude the convention. The mode of judging is itself suspicious, as being contrary to the antient and established usage of the commonwealth. But since the mode is adopted, we trust, that the members of that venerable assembly will not so much regard the greatness of their power, as the sense and interest of their constituents. And they will do well to remember that even a mistake in adopting it, will be destructive, while no evils can arise from a total, and much less, probably, from such a partial rejection as we have proposed.",
-      "uncertain": [
-        {
-          "end": 39,
-          "readings": {
-            "brittle": "the",
-            "google": "the",
-            "primary": "'die"
-          },
-          "start": 35
-        }
-      ]
+      "text": "By such an explicit declaration of the powers given to Con gress, we shall provide for all federal purposes, and shall at the same time secure our rights. It is easier to amend the old confederation, defective as it has been represented, than it is to correct the new form. For with whatever view it was framed, truth constrains me to say, that it is insidious in its form, and ruinous in its tendency. Under the pretence of different branches of the legislature, the members will in fact be chosen from the same general description of citizens. The advantages of a check will be lost, while we shall be continually exposed to the cabals and corruption of a British election. There cannot be a more eligible mode than the present, for appointing members of Congress, nor more effectual checks provided than our separate state government's, nor any system so little expensive, in case of our adopting the resolve just stated, or even continuing as we are. We shall in that case avoid all the inconvenience of concurrent jurisdictions, we shall avoid the expensive and useless establishments of the Philadelphia proposition, we shall preserve our constitution and liberty, and we shall provide for all such institutions as will be useful. Surely then you cannot hesitate, whether you will chuse freedom or servitude. The object is now well defined. By adopting the form proposed by the convention, you will have the derision of foreigners, internal misery, and the anathemas of posterity. By amending the present confederation, and granting limited powers to Congress, you secure the admiration of strangers, internal happiness, and the blessings and prosperity of all succeeding generations. Be wise, then, and by preserving your freedom, prove, that Heaven bestowed it not in vain. Many will be the efforts to delude the convention. The mode of judging is itself suspicious, as being contrary to the antient and established usage of the commonwealth. But since the mode is adopted, we trust, that the members of that venerable assembly will not so much regard the greatness of their power, as the sense and interest of their constituents. And they will do well to remember that even a mistake in adopting it, will be destructive, while no evils can arise from a total, and much less, probably, from such a partial rejection as we have proposed."
     },
     {
       "label": "Agrippa 10, ¶ 7",
@@ -1906,7 +1856,8 @@
           "readings": {
             "primary": "rendcr"
           },
-          "start": 1350
+          "start": 1350,
+          "suggestion": "render"
         }
       ]
     },
@@ -2951,7 +2902,18 @@
   "source_ids": [
     "ia-ford-essays-1892-toronto-xml",
     "ia-ford-essays-1892-brittle-txt",
-    "ia-ford-essays-1892-google-txt"
+    "ia-ford-essays-1892-google-txt",
+    "afl-agrippa1",
+    "afl-agrippa10",
+    "afl-agrippa11",
+    "afl-agrippa2",
+    "afl-agrippa3",
+    "afl-agrippa4",
+    "afl-agrippa5",
+    "afl-agrippa6",
+    "afl-agrippa7",
+    "afl-agrippa8",
+    "afl-agrippa9"
   ],
   "title": "The Letters of Agrippa"
 }

@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "overrules Jones v. United States (table of overruled decisions)"
+  ],
+  "conan_citation": "United States v. Salvucci, 448 U.S. 83 (1980)",
+  "courtlistener_name": "United States v. Salvucci",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/110325/united-states-v-salvucci/",
+  "date": "1980-06-25",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 110325. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 448, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "110325",
+  "loc_url": "https://www.loc.gov/item/usrep448083/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep448/usrep448083/usrep448083.pdf",
+  "ref_prefix": "Case.110325",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Salvucci, syllabus ¶ 1",
+      "page": 83,
+      "ref": "Case.110325.syllabus.1",
+      "text": "Respondents were charged with unlawful possession of stolen mail. The checks that formed the basis of the indictment had been seized by police during a search, conducted pursuant to a warrant, of an apartment rented by one respondents mother. Respondents moved to suppress the checks on the ground that the affidavit supporting the application for the search warrant was inadequate to show probable cause. The District Court granted the motion. The Court of Appeals affirmed, holding, in reliance on Jones v. United States, 362 U. S. 257, that since respondents were charged with crimes of possession, they were entitled to claim \"automatic standing\" to challenge the legality of the search without regard to whether they had an expectation of privacy in the premises searched."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Salvucci, syllabus ¶ 2",
+      "page": 83,
+      "ref": "Case.110325.syllabus.2",
+      "text": "Held. Defendants charged with crimes of possession may only claim the benefits of the exclusionary rule if their own Fourth Amendment rights have in fact been violated. Jones v. United States, supra, overruled. Pp. 86-95."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Salvucci, syllabus ¶ 3",
+      "page": 83,
+      "ref": "Case.110325.syllabus.3",
+      "text": "(a) The \"dilemma\" identified in Jones (and given as one of the two reasons for establishing the \"automatic standing\" rule as an exception to the exclusionary rule) that a defendant charged with a possessory offense might only be able to establish his standing to challenge a search and seizure by giving self-incriminating testimony admissible as evidence of his guilt, was eliminated by Simmons v. United States, 390 U. S. 377, wherein it was held that testimony given by a defendant in support of a motion to suppress cannot be admitted as evidence of his guilt at trial. Pp. 89-90."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Salvucci, syllabus ¶ 4",
+      "page": 83,
+      "ref": "Case.110325.syllabus.4",
+      "text": "(b) The second reason given m Jones for the \"automatic standing\" rule that such rule would prevent the \"vice of prosecutorial self-contradiction\" whereby the Government would assert that the defendant possessed the goods m question for purposes of criminal liability while simultaneously asserting that he did not possess them for the purposes of claiming the protections of the Fourth Amendment, has likewise been eroded. It is now the rule that a prosecutor, without legal contradiction, may simultaneously maintain that a defendant criminally possessed the seized goods but was not subject to a Fourth Amendment deprivation. Rakas v Illinos, 439 U. S. 128. The underlying assumption for such \"vice of prosecutorial self-contradiction\" that possession of seized goods is the equivalent of Fourth Amendment \"standing\" to challenge the search creates too broad a gauge for measurement of Fourth Amendment rights. Rather, it must be asked not merely whether the defendant has a possessory interest in the items seized but also whether he had an expectation of privacy in the area searched. Pp. 90-93."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Salvucci, syllabus ¶ 5",
+      "page": 84,
+      "ref": "Case.110325.syllabus.5",
+      "text": "(c) The issue whether the prosecutor, although not permitted under Simmons v United States, supra, to use a defendant's testimony at a suppression hearing as substantive evidence of guilt at trial, may still be permitted to use such testimony to impeach the defendant at trial, need not be resolved here, since it is an issue that more aptly relates to the proper breadth of the Simmons privilege and not to the need for retaining automatic standing. Pp. 93-94."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Salvucci, syllabus ¶ 6",
+      "page": 84,
+      "ref": "Case.110325.syllabus.6",
+      "text": "(d) Respondents' argument that the \"automatic standing\" rule should be retained since it maximizes the deterrence of illegal police conduct by permitting an expanded class of potential challengers, is without merit. Pp. 94-95."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Salvucci, syllabus ¶ 7",
+      "page": 84,
+      "ref": "Case.110325.syllabus.7",
+      "text": "599 F 2d 1094, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-448-83"
+  ],
+  "title": "United States v. Salvucci",
+  "us_cite": "448 U.S. 83"
+}
