@@ -15,3 +15,10 @@ an "Errata review" issue (`python -m tools.errata apply`); the importers
 apply them (`importers/corrections.py`) and record each in the passage's
 `corrected` list. Never write a line here by hand or by an agent: CLAUDE.md
 rule 3 and docs/decisions.md 48.
+
+The one exception is the owner's decision 56: lines with `"source":
+"library"` record the Anti-Federalist Library's readings, accepted in bulk
+by the project owner without a check against the page image, written by
+`python -m tools.errata accept-library --owner LOGIN` on their instruction.
+Such a word goes into the text but stays marked uncertain (`accepted`), and
+a person's later decision on it replaces it.

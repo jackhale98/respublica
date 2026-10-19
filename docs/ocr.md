@@ -305,8 +305,12 @@ In `texts/{work}.json` (validated by `make verify`, see
   missing where OCR misread them); `scan.leaves` are always present.
 
 - `suggestion` on an uncertain span: the Anti-Federalist Library's reading,
-  where no scan's reading agrees with it. It is never in the text; verify
-  checks it is one line and differs from the text.
+  where no scan's reading agrees with it. Verify checks it is one line and
+  differs from the text.
+- `accepted` on an uncertain span (`{source: "library", by, at}`): the text
+  has the Library's reading there, accepted by the project owner without a
+  check against the page (decision 56); the span keeps the scans' readings
+  and stays marked until a person confirms or overrules it.
 - `corrected` lists the words a maintainer read off the page image
   (`start`, `end` in the corrected text, the scans' word `was`, and `by` and
   `at`); see "Reviewing and correcting".
@@ -350,6 +354,9 @@ later, is below).
 - **Brutus V–XVI** (one newspaper scan): about 28,800 words with about
   4,040 marked, 140 per thousand, about 3,000 of them with the Library's
   reading as a suggestion (about 500 of those differ only by the long s).
+- **The Library's readings accepted** (decision 56): all 3,041 suggestions
+  (2,994 in Brutus, 22 in Henry, 25 in the older works) are now in the text,
+  still marked as unchecked.
 - **The Annals of Congress** (1834, small type in two columns; one other
   scan and a Tesseract reading): about 53,000 words with 562 marked, 11 per
   thousand. With the two scans alone it was 22 per thousand.

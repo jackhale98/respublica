@@ -21,6 +21,8 @@ const IMAGE_HOSTS = /^https:\/\/(archive\.org|[a-z0-9-]+\.us\.archive\.org|digit
 // word so: to check against the page image, never to take on trust.
 type Word = {
   index: number; was: string; before: string; after: string; readings: Record<string, string>; suggestion?: string;
+  // The text has the Library's reading, accepted by the owner without a check against the page (decision 56).
+  accepted?: boolean;
 };
 type Passage = { ref: string; label: string; url: string | null; pages: { image: string; url: string }[]; words: Word[] };
 type Fix = { ref: string; index: number; was: string; now: string; sent?: boolean };
@@ -162,6 +164,15 @@ function wordRow(p: Passage, w: Word, card: HTMLElement): HTMLElement {
     b.dataset.reading = text;
     b.append(text, el("small", undefined, scans.join(", ")));
     b.addEventListener("click", () => choose(fixes[row.dataset.key!]?.now === text ? null : text));
+    readings.append(b);
+  }
+  if (w.accepted && !seen.has(w.was)) {
+    const b = el("button", "rv-choice er-suggestion");
+    b.type = "button";
+    b.dataset.reading = w.was;
+    b.title = "The text has this reading now. Choose it only if the page image shows it.";
+    b.append(w.was, el("small", undefined, "Anti-Federalist Library, in the text now: check the page"));
+    b.addEventListener("click", () => choose(fixes[row.dataset.key!]?.now === w.was ? null : w.was));
     readings.append(b);
   }
   const suggestion = w.suggestion;

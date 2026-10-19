@@ -31,7 +31,7 @@ const numeral = (label) => label.split(" ").at(-1);
             {runs.map((r, k) => {
               const text = r.em ? <em>{r.t}</em> : r.t;
               const body = r.fix ? <span class="fix" title={fixTitle(r.fix)}>{text}</span>
-                : r.unc ? <span class="unc" title={uncertainTitle(r.unc)}>{text}</span> : text;
+                : r.unc ? <span class:list={["unc", r.lib && "lib"]} title={uncertainTitle(r.unc, r.lib)}>{text}</span> : text;
               if (r.chg === undefined) return body;
               const c = block.changed[r.chg];
               const lastOfSpan = !runs.slice(k + 1).some((x) => x.chg === r.chg);
@@ -67,7 +67,7 @@ const numeral = (label) => label.split(" ").at(-1);
       </p>
       {block.uncertain > 0 && (
         <ul class="unc-list">
-          {block.paras.flat(2).filter((r) => r.unc).map((r) => <li><span class="unc">{r.t}</span> {uncertainTitle(r.unc).replace("Uncertain reading. ", "")}</li>)}
+          {block.paras.flat(2).filter((r) => r.unc).map((r) => <li><span class:list={["unc", r.lib && "lib"]}>{r.t}</span> {uncertainTitle(r.unc, r.lib).replace("Uncertain reading. ", "")}</li>)}
         </ul>
       )}
     </template>

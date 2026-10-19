@@ -1,6 +1,7 @@
 """Record a person's decisions on words read from scans (decision 48).
 
     python -m tools.errata apply --reviewer LOGIN --text FILE
+    python -m tools.errata accept-library --owner LOGIN
 
 The errata page (`/errata/`) opens a GitHub issue titled "Errata review"
 whose body lists one decision per line:
@@ -15,6 +16,12 @@ opened by someone with write access; it appends each decision to
 `importers/corrections.py`), and updates any link quote that contains the
 word, so that quotes stay exact. Then `make import` and `make verify` run.
 Humans only: an agent never records a correction.
+
+`accept-library` records, as decided by the project owner, every reading
+the Anti-Federalist Library suggests for a word the scans could not settle
+(decision 56): each line carries `"source": "library"`, and the word stays
+marked as unchecked until a person confirms or overrules it on the errata
+page. It is run only on the owner's instruction, under their login.
 """
 
 from __future__ import annotations
@@ -102,13 +109,40 @@ def apply(decisions: list[dict], reviewer: str, today: str) -> dict:
     return {"not_found": not_found, "quotes_updated": quotes, "recorded": len(recorded)}
 
 
+def accept_library(owner: str, today: str) -> dict:
+    """Record every Library suggestion as accepted by `owner` (decision 56)."""
+    recorded, quotes = 0, 0
+    CORRECTIONS_DIR.mkdir(exist_ok=True)
+    for f in sorted(TEXTS_DIR.glob("*.json")):
+        doc = read_json(f)
+        items = []
+        for seg in doc.get("segments", []):
+            for i, u in enumerate(seg.get("uncertain", [])):
+                if u.get("suggestion") and "accepted" not in u:
+                    items.append({"at": today, "by": owner, "index": i, "now": u["suggestion"], "ref": seg["ref"],
+                                  "source": "library", "was": seg["text"][u["start"]:u["end"]]})
+        if not items:
+            continue
+        with (CORRECTIONS_DIR / f"{doc['id']}.jsonl").open("a", encoding="utf-8") as fh:
+            for c in items:
+                fh.write(json.dumps(c, ensure_ascii=False, sort_keys=True) + "\n")
+                quotes += update_quotes(c["ref"], c["was"], c["now"])
+        recorded += len(items)
+    return {"quotes_updated": quotes, "recorded": recorded}
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="python -m tools.errata")
     sub = p.add_subparsers(dest="cmd", required=True)
     a = sub.add_parser("apply", help="(humans' decisions) record corrections from an errata review issue")
     a.add_argument("--reviewer", required=True)
     a.add_argument("--text", required=True)
+    lib = sub.add_parser("accept-library", help="(the owner's decision) accept every Anti-Federalist Library suggestion")
+    lib.add_argument("--owner", required=True)
     args = p.parse_args(argv)
+    if args.cmd == "accept-library":
+        print(json.dumps(accept_library(args.owner, dt.date.today().isoformat()), indent=2))
+        return 0
     decisions, bad = parse(Path(args.text).read_text(encoding="utf-8"))
     result = apply(decisions, args.reviewer, dt.date.today().isoformat())
     result["unreadable"] = bad

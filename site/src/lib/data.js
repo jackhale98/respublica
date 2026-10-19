@@ -98,9 +98,12 @@ export const POSITION_LABELS = { anti: "Anti-Federalist", federalist: "Federalis
 const SCANS = { primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan", microfilm: "microfilm scan", tesseract: "second OCR of the main scan", lincoln: "Lincoln Foundation scan" };
 
 // "Uncertain reading. The scans read: “Delibeiatc,” (main scan), …"
-export function uncertainTitle(readings = {}) {
+export function uncertainTitle(readings = {}, lib = false) {
   const parts = Object.entries(readings).map(([k, v]) => `“${v}” (${SCANS[k] || k})`);
-  return `Uncertain reading. ${parts.length > 1 ? "The scans read" : "Only one scan has this word"}: ${parts.join(", ")}`;
+  const scans = `${parts.length > 1 ? "The scans read" : "Only one scan has this word"}: ${parts.join(", ")}`;
+  // The Anti-Federalist Library's reading, accepted without a check against the page (decision 56).
+  if (lib) return `Uncertain reading. The text gives the Anti-Federalist Library's reading, not yet checked against the page. ${scans}`;
+  return `Uncertain reading. ${scans}`;
 }
 
 // A word a person corrected against the page image (decision 48).

@@ -254,6 +254,7 @@ a.card:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); bor
 /* A word the OCR scans could not settle (see /about/#ocr). */
 .fix { text-decoration: underline solid var(--text-faint); text-decoration-thickness: 1px; text-underline-offset: .2em; cursor: help; }
 .unc { text-decoration: underline dotted var(--text-faint); text-decoration-thickness: 1.5px; text-underline-offset: .2em; cursor: help; }
+.unc.lib { text-decoration-style: dashed; text-decoration-thickness: 1px; }
 
 /* ---------------------------------------------------------- nib loader */
 

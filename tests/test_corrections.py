@@ -48,6 +48,29 @@ class ApplyTests(unittest.TestCase):
             self.run_with([{"at": "2026-10-19", "by": "jack", "index": 0, "now": "this",
                             "ref": "House1789.Jun8.1", "was": "somethingelse"}])
 
+    def test_an_accepted_library_reading_replaces_the_word_but_stays_marked(self):
+        self.spans[0]["suggestion"] = "this"
+        text, spans, fixed = self.run_with([{"at": "2026-10-19", "by": "jack", "index": 0, "now": "this",
+                                             "ref": "House1789.Jun8.1", "source": "library", "was": "tlm^his"}])
+        self.assertIn("House this was", text)
+        self.assertEqual(fixed, [])
+        self.assertEqual(len(spans), 2)
+        self.assertEqual(text[spans[0]["start"]:spans[0]["end"]], "this")
+        self.assertEqual(spans[0]["accepted"], {"at": "2026-10-19", "by": "jack", "source": "library"})
+        self.assertNotIn("suggestion", spans[0])
+        self.assertEqual(text[spans[1]["start"]:spans[1]["end"]], "namelUor")
+
+    def test_a_person_overrules_an_accepted_library_reading(self):
+        text, spans, fixed = self.run_with([
+            {"at": "2026-10-19", "by": "jack", "index": 0, "now": "thus", "ref": "House1789.Jun8.1",
+             "source": "library", "was": "tlm^his"},
+            # The person saw the word as the text then read it ("thus").
+            {"at": "2026-10-20", "by": "ann", "index": 0, "now": "this", "ref": "House1789.Jun8.1", "was": "thus"}])
+        self.assertIn("House this was", text)
+        self.assertEqual(len(spans), 1)
+        self.assertEqual(fixed[0]["by"], "ann")
+        self.assertEqual(fixed[0]["was"], "tlm^his")
+
 
 class IssueTests(unittest.TestCase):
     def test_lines_of_an_errata_review_issue(self):

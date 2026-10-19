@@ -146,7 +146,7 @@ def marked_runs(text: str, spans: list[dict]) -> list[dict]:
     for u in spans:
         if u["start"] > at:
             runs.append({"t": text[at:u["start"]]})
-        runs.append({"t": text[u["start"]:u["end"]], "unc": u["readings"]})
+        runs.append({"t": text[u["start"]:u["end"]], "unc": u["readings"], **({"lib": True} if u.get("accepted") else {})})
         at = u["end"]
     if at < len(text):
         runs.append({"t": text[at:]})
@@ -335,7 +335,8 @@ def runs_for(segment: dict, changed: list[dict]) -> list[list[list[dict]]]:
     A run is {"t": text} plus optional "em": true (italics),
     "chg": index into `changed` (a span the National Archives marks as
     changed by an amendment), "unc": the scans' readings of a word they
-    could not settle, and "fix": a word a person corrected against the page
+    could not settle ("lib": true where the text has the Anti-Federalist
+    Library's reading, accepted unchecked; decision 56), and "fix": a word a person corrected against the page
     image ({"was": the scans' word, "by": their GitHub login}; decision 48). Paragraphs are separated by a blank line in the text,
     lines by a single newline.
     """
@@ -381,6 +382,8 @@ def runs_for(segment: dict, changed: list[dict]) -> list[list[list[dict]]]:
             run["chg"] = chg[i]
         if unc[i] is not None:
             run["unc"] = spans[unc[i]]["readings"]
+            if spans[unc[i]].get("accepted"):
+                run["lib"] = True  # the Anti-Federalist Library's reading, not yet checked (decision 56)
         if fix[i] is not None:
             run["fix"] = {"by": fixed[fix[i]]["by"], "was": fixed[fix[i]]["was"]}
         paras[-1][-1].append(run)
@@ -1291,7 +1294,8 @@ def build_errata(corpus: Corpus, refs: dict[str, dict]) -> tuple[dict, dict[str,
                 {"after": words_after(text[u["end"]:].replace("\n", " ")),
                  "before": words_before(text[:u["start"]].replace("\n", " ")),
                  "index": i, "readings": u["readings"], "was": text[u["start"]:u["end"]],
-                 **({"suggestion": u["suggestion"]} if u.get("suggestion") else {})}
+                 **({"suggestion": u["suggestion"]} if u.get("suggestion") else {}),
+                 **({"accepted": True} if u.get("accepted") else {})}
                 for i, u in enumerate(spans)]})
         if not items and not corrected:
             continue

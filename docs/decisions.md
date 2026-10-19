@@ -1060,3 +1060,30 @@ Library (antifederalists.org) and the original printings:
 - **Skipped:** Old Whig, Maryland Farmer, Impartial Examiner, John DeWitt,
   Philadelphiensis and Melancton Smith, for which no scan of the first
   printing was found to check the Library against.
+
+## 56. Accepting the Anti-Federalist Library's readings
+
+After the import of decision 55, the project owner chose to accept every
+reading the Anti-Federalist Library suggests for a word the scans could not
+settle (3,041 words: 2,994 in Brutus, most in Brutus V–XVI, 22 in Patrick
+Henry's speeches, 16 in Centinel, 5 in the Federal Farmer and 4 in
+Agrippa), rather than wait for each to be read off the page image. This is
+an exception to rule 3, made by the owner, and it is kept visible:
+
+- **Recorded as the owner's decision.** `python -m tools.errata
+  accept-library --owner jackhale98` wrote one line per word to
+  `corrections/{work}.jsonl`, with `"source": "library"`. The importers
+  apply them (`importers/corrections.py`) like other corrections.
+- **Still marked.** The word in the text is the Library's, but it stays
+  among the passage's uncertain words with `accepted` (who accepted it,
+  when) and the scans' readings. The reader shows it with a dashed
+  underline and says the reading is the Library's, not yet checked against
+  the page. The errata page still lists it, with a choice that confirms
+  it; a person's decision on the word, recorded through the errata
+  workflow as usual, replaces the Library's reading.
+- **What it changes.** The Library modernizes the long s, so Brutus V–XVI
+  now reads "legislative" where the newspaper prints it with a long s
+  (OCR read "legiflative"); where the OCR read the long s correctly as "f"
+  and the Library gave no suggestion, the text keeps "f". The Library's own
+  errors (decision 55) can now be in the text, marked like the rest. One
+  link quote that contained an accepted word was updated with it.

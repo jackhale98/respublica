@@ -3,11 +3,12 @@ import { fixTitle, uncertainTitle } from "../lib/data.js";
 
 // A line of runs from site data: plain text, italics, and words the scans
 // could not settle (dotted underline; the readings are in the title and in
-// the passage panel), and words a person corrected against the page image.
+// the passage panel; dashed where the text has the Anti-Federalist
+// Library's reading, accepted unchecked), and words a person corrected against the page image.
 const { runs = [] } = Astro.props;
 ---
 {runs.map((r) => {
   const body = r.em ? <em>{r.t}</em> : r.t;
   if (r.fix) return <span class="fix" title={fixTitle(r.fix)}>{body}</span>;
-  return r.unc ? <span class="unc" title={uncertainTitle(r.unc)}>{body}</span> : body;
+  return r.unc ? <span class:list={["unc", r.lib && "lib"]} title={uncertainTitle(r.unc, r.lib)}>{body}</span> : body;
 })}
