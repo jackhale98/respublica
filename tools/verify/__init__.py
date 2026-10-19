@@ -353,37 +353,50 @@ def check_texts(corpus: Corpus) -> list[str]:
     return errors
 
 
-def check_reproducible() -> list[str]:
+def check_reproducible(only: list[str] | None = None) -> list[str]:
     """Every file in texts/ and cases/ must be exactly what the importers
     produce from sources/raw/. This is what keeps hand-typed text out of the
-    corpus."""
-    from importers import IMPORTERS
+    corpus. Each importer runs in a process of its own and reports what it
+    reads and writes; that must match importers/outputs.json, which the
+    errata workflow uses to re-run only the importers a correction touches.
+
+    `only`: run just these importers (the errata and link-review workflows,
+    which first check that nothing outside their outputs changed; decision
+    64). The full check runs on every push to main."""
+    from importers.__main__ import MAP_PATH, load_map, names, run_separately
 
     errors: list[str] = []
+    committed_map = load_map()
+    chosen = names() if only is None else [n for n in names() if n in only]
+    found: dict[str, dict] = {}
     produced: dict[Path, set[str]] = {TEXTS_DIR: set(), CASES_DIR: set()}
     with tempfile.TemporaryDirectory() as tmp:
-        for module in IMPORTERS:
-            final = getattr(module, "OUT_DIR", TEXTS_DIR)
-            out = Path(tmp) / final.name
-            out.mkdir(exist_ok=True)
+        for name in chosen:
+            out = Path(tmp) / name
+            out.mkdir()
             try:
-                paths = module.run(out)
+                found[name] = run_separately(name, out)
             except Exception as exc:  # report, don't crash the whole run
-                errors.append(f"importer {module.__name__} failed: {exc}")
-                produced.pop(final, None)  # nothing to compare its directory against
+                errors.append(f"importer {name} failed: {exc}")
                 continue
-            for p in paths:
-                produced.setdefault(final, set()).add(p.name)
-                committed = final / p.name
-                where = f"{final.name}/{p.name}"
+            for rel in found[name]["outputs"]:
+                final = ROOT / rel.split("/")[0]
+                produced.setdefault(final, set()).add(Path(rel).name)
+                p = out / Path(rel).name
+                committed = ROOT / rel
                 if not committed.exists():
-                    errors.append(f"{where} is missing (run make import)")
+                    errors.append(f"{rel} is missing (run make import)")
                 elif committed.read_bytes() != p.read_bytes():
-                    errors.append(f"{where} differs from importer output (run make import; never edit it by hand)")
-    for final, names in produced.items():
-        for f in sorted(final.glob("*.json")):
-            if f.name not in names:
-                errors.append(f"{final.name}/{f.name} is not produced by any importer")
+                    errors.append(f"{rel} differs from importer output (run make import; never edit it by hand)")
+            if committed_map.get(name) != found[name]:
+                errors.append(f"{MAP_PATH.relative_to(ROOT)}: the entry for {name} is out of date (run make import)")
+    if only is None and not errors:
+        for final, names_ in produced.items():
+            for f in sorted(final.glob("*.json")):
+                if f.name not in names_:
+                    errors.append(f"{final.name}/{f.name} is not produced by any importer")
+        if set(committed_map) != set(found):
+            errors.append(f"{MAP_PATH.relative_to(ROOT)} names other importers than importers/__init__.py (run make import)")
     return errors
 
 
@@ -556,11 +569,15 @@ CHECKS = [
     ("budgets", check_repo_budgets),
     ("texts", check_texts),
     ("corrections", check_corrections),
-    ("reproducible", lambda c: check_reproducible()),
+    ("reproducible", lambda c: check_reproducible(ONLY_IMPORTERS)),
     ("refs", check_refs_locked),
     ("links", check_links),
     ("overruled", check_overruled_flags),
 ]
+
+
+# Set by `python -m tools.verify --importers a,b` (decision 65).
+ONLY_IMPORTERS: list[str] | None = None
 
 
 def run_all() -> dict[str, list[str]]:

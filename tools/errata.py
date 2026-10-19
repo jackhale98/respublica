@@ -106,7 +106,7 @@ def apply(decisions: list[dict], reviewer: str, today: str) -> dict:
                 recorded.append(c["ref"])
                 if c["now"] != c["was"]:
                     quotes += update_quotes(c["ref"], c["was"], c["now"])
-    return {"not_found": not_found, "quotes_updated": quotes, "recorded": len(recorded)}
+    return {"not_found": not_found, "quotes_updated": quotes, "recorded": len(recorded), "works": sorted(by_work)}
 
 
 def accept_library(owner: str, today: str) -> dict:

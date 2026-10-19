@@ -14,13 +14,19 @@ Read `CLAUDE.md` first; its rules apply to people and agents alike.
 | Command | What it does |
 |---|---|
 | `make fetch` | Restores any raw file listed in `sources/manifest.json` that is missing locally. Refuses a download whose checksum no longer matches. |
-| `make import` | Runs every importer (`python -m importers`), writing `texts/`. |
+| `make import` | Runs every importer (`python -m importers`), each in a process of its own, writing `texts/` and `cases/` and `importers/outputs.json` (which files each importer writes and which raw sources it reads; decision 65). `python -m importers --only a,b` runs just those. |
 | `make verify` | Runs the unit tests and every data check. Must pass before any task is finished. |
 | `make lock-refs` | Adds any new refs to `refs.lock`. Run it when an importer adds passages. |
 | `make build` | Builds the site data (`tools/site_data.py`), the site and its Pagefind search index into `site/dist/`, then checks the output. |
 | `make dev` | Runs the site locally (search needs `make build`; the dev server has no index). |
 
-CI runs `make verify` and `make build` on every pull request. Every push to
+CI runs `make verify` and `make build` on every pull request and every push to
+`main`. The errata and link-review workflows run a narrower check before they
+commit (decision 65): the errata workflow re-runs only the importers of the
+corrected works (`python -m tools.scope`, `python -m tools.fetch --importers`,
+`python -m tools.verify --importers`), the link review none, and both first
+check that nothing outside those importers' outputs, `corrections/` and
+`links/` changed. Every push to
 `main` is built and deployed by Cloudflare to <https://respublicalibrary.org>
 (`wrangler.jsonc`; build command `make build`, deploy command
 `npx wrangler@4.147.0 deploy`; decision 44).

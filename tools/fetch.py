@@ -3,6 +3,7 @@
     python -m tools.fetch              # restore any raw file that is missing
     python -m tools.fetch add --id ID --url URL --license TEXT [--notes TEXT] [--ext .html]
     python -m tools.fetch cache-keys   # name=key per family of raw files kept out of git (CI)
+    python -m tools.fetch --importers ratification,elliot   # only what those importers read
 
 `add` downloads a new original once and records its URL, retrieval date,
 sha256 and license. A source behind an API token (CourtListener) records
@@ -130,11 +131,16 @@ def cmd_add(args: argparse.Namespace) -> int:
     return 0
 
 
-def cmd_restore(_: argparse.Namespace) -> int:
+def cmd_restore(args: argparse.Namespace) -> int:
     failed = 0
+    wanted = None
+    if getattr(args, "importers", None) is not None:
+        # Only what these importers read (importers/outputs.json; decision 65).
+        from tools.scope import raw_for
+        wanted = set(raw_for([n for n in args.importers.split(",") if n]))
     for e in load_manifest():
         path = ROOT / e["path"]
-        if path.exists():
+        if path.exists() or (wanted is not None and e["id"] not in wanted):
             continue
         data = _fetch(e["url"], e.get("auth_env"), e.get("encoding"), e.get("post"), e.get("range"))
         if sha256_bytes(data) != e["sha256"]:
@@ -180,6 +186,7 @@ def main(argv: list[str] | None = None) -> int:
     a.add_argument("--notes")
     a.add_argument("--ext")
     sub.add_parser("cache-keys", help="print a CI cache key for each family of raw files kept out of git")
+    p.add_argument("--importers", help="restore only what these importers read (comma-separated)")
     args = p.parse_args(argv)
     if args.cmd == "add":
         return cmd_add(args)
