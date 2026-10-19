@@ -29,7 +29,7 @@ founding documents, The Federalist, twenty-two works of the ratification
 debate read from scans, about 740 suggested links awaiting review, the
 connections panel and graph, search, and the review page.
 
-**More of the debate** (decision 56): Brutus V–XVI (not XI, which has no
+**More of the debate** (decision 55): Brutus V–XVI (not XI, which has no
 scan) from the *New-York Journal*'s single Library of Congress scan
 (`importers/nyjournal.py`; about 14% of words marked uncertain, most with a
 suggestion), and Patrick Henry's twenty-four speeches in the Virginia

@@ -150,7 +150,7 @@ conduct but voted to ratify) is `other`.
 four from the Boston *Independent Chronicle* (with the 1856 editors' modern
 spelling), under the *New-York Journal* dates of first publication. V–X and
 XII–XVI come from the *New-York Journal* itself, in Chronicling America
-(decision 56): the essay from the newspaper's line ("For the New-York Journal,
+(decision 55): the essay from the newspaper's line ("For the New-York Journal,
 &c.") and heading ("BRUTUS, No. V.") to the signature, with the long s and
 the newspaper's spelling as printed. There is one scan of each page and its
 OCR is poor (about one word in seven differs from the Anti-Federalist
@@ -183,7 +183,7 @@ whose pages differ and which is never mixed in. The 1861–1907 printings
 head the day of Henry's June 19 speech "Wednesday, June 18" a second time
 (erratum 60).
 
-**The Anti-Federalist Library as a tie-breaker** (decision 56). The
+**The Anti-Federalist Library as a tie-breaker** (decision 55). The
 Library (antifederalists.org; its Markdown at
 github.com/seven-obelisks/antifederalists, pinned to one commit and kept as
 raw sources) is CC0 but names no source and was probably copied from a

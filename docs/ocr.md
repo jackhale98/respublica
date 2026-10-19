@@ -205,7 +205,7 @@ word vote on each.
 
 ## The Anti-Federalist Library: a tie-breaker (`importers/library.py`)
 
-Decision 56. The Anti-Federalist Library (antifederalists.org) prints
+Decision 55. The Anti-Federalist Library (antifederalists.org) prints
 many of the same essays, as Markdown files in a public repository (pinned to
 one commit; each file is a raw source). It is CC0, but it names no source,
 and its bracketed insertions (`[sic]`, `[,]`, conjectures with "?") show it

@@ -782,7 +782,7 @@ def edge_marks(v: str) -> tuple[str, str]:
 def tie_break(joint: dict[str, str], word: str, settled: bool, lib: str, strict: bool = False,
               known: set[str] = frozenset()) -> tuple[str, bool, str | None]:
     """The Anti-Federalist Library as a tie-breaker (importers/library.py;
-    decision 56). Returns (word, settled, suggestion).
+    decision 55). Returns (word, settled, suggestion).
 
     The Library never adds a word: the text is always one of the scans'
     readings. A word the vote left unsettled is settled when the Library

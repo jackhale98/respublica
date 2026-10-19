@@ -1,6 +1,6 @@
 """Brutus V-XVI from The New-York Journal (Thomas Greenleaf, New York,
 1787-88), read from the Library of Congress's Chronicling America scans
-(LCCN sn83030566; decision 56).
+(LCCN sn83030566; decision 55).
 
 Each page's OCR is the Library's ALTO XML (ABBYY FineReader 12): words with
 their boxes on the page and a confidence for each (`WC`), set in text

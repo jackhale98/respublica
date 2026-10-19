@@ -1,5 +1,5 @@
 """The Anti-Federalist Library (antifederalists.org) as a tie-breaker
-between scans (decision 56).
+between scans (decision 55).
 
 The Library is a CC0 website whose texts are Markdown files in a public
 GitHub repository, pinned here to one commit. It names no source, and its
@@ -39,7 +39,7 @@ COMMIT = "6424aff9c3eaba736da37863922bec85a03f8700"
 RAW_URL = "https://raw.githubusercontent.com/{repo}/{commit}/content/{path}"
 LICENSE = ("CC0 1.0 (the Anti-Federalist Library's site footer: \"The Anti-Federalist Library is marked CC0 1.0\"; "
            "the repository has no licence file and names no source for its texts). Used only as a tie-breaker "
-           "between scans, never as text (docs/decisions.md 56).")
+           "between scans, never as text (docs/decisions.md 55).")
 
 # The Library's pages for our works, by series and essay (or speech) id.
 # Centinel: the pages titled "Centinel XII" (centinel13) and "Centinel XV"

@@ -1,5 +1,5 @@
 """Patrick Henry's speeches in the Virginia ratifying convention, June
-1788, from Elliot's Debates (decision 56).
+1788, from Elliot's Debates (decision 55).
 
 Jonathan Elliot, ed., The Debates in the Several State Conventions on the
 Adoption of the Federal Constitution, vol. 3 (Virginia, pp. 1-663), in the

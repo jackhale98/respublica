@@ -1013,7 +1013,7 @@ Foundation v. Bonta*, *Dobbs* and *Kennedy v. Bremerton*) had no syllabus.
   that print no dates). 202 of the 232 cases now have a syllabus; five scans
   are still refused, and each case says why.
 
-## 56. Brutus V–XVI, Patrick Henry, and the Anti-Federalist Library as a tie-breaker
+## 55. Brutus V–XVI, Patrick Henry, and the Anti-Federalist Library as a tie-breaker
 
 The project owner decided, after the research on the Anti-Federalist
 Library (antifederalists.org) and the original printings:

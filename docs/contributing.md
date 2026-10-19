@@ -85,7 +85,7 @@ Record what the page shows on the errata page (`/errata/`), which sends it
 as a GitHub issue that the errata workflow records in `corrections/`; never
 edit `texts/` or `corrections/` by hand. Some words also carry a
 `suggestion`: the Anti-Federalist Library's reading, where no scan reads the
-word so (decision 56). The page offers it as a choice marked "Anti-Federalist
+word so (decision 55). The page offers it as a choice marked "Anti-Federalist
 Library: check the page"; choose it only if the page image shows it (it is
 recorded like any typed correction). Shared misreadings go in
 `docs/errata.md`. See `docs/ocr.md`, "Reviewing and correcting".
