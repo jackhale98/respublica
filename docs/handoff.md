@@ -50,10 +50,10 @@ Congressional Globe (`importers/globe.py`, decision 47). About 1% (1789)
 and 1.2% (House and Senate, 1866) of words are marked uncertain; since
 decision 58 the June days of 1866 are checked against the Lincoln
 Financial Foundation copy's part 4 (`congressionalglo00unit`), with the
-microfilm as a third reading. 408 of the 1866 uncertain words are ones
-both copies read alike against UNT's OCR ("tho" against "the"; erratum
-65): an easy batch for `/errata/`, or a change to the vote for the owner
-to decide (it would touch every work read by consensus). Joining a
+microfilm as a third reading. Since decision 59 two copies that agree on a
+clean-text word overrule UNT's OCR ("tho" -> "the"; erratum 65), which
+settled about 200 words across the library and marked about 100 more
+where one real word replaced another, for a person to check. Joining a
 vote's tally to the last name in the copies' text (`Session.tallies`) is
 applied only to 1866; the 1864–65 and 1869 copies split tallies the same
 way and would gain from it, which changes those texts. The Thirteenth (1864–65: `Senate1864`, `House1864`, `House1865`)

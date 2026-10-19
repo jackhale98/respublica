@@ -19,8 +19,20 @@ class VoteTests(unittest.TestCase):
     def test_tie_with_an_unlike_known_word_is_unsettled(self):
         self.assertEqual(vote({"primary": "(ISrumlaer", "a": "(Timber"}, KNOWN | {"timber"}), ("(ISrumlaer", False))
 
-    def test_a_clean_known_word_is_never_replaced_by_another(self):
-        self.assertEqual(vote({"primary": "friends", "a": "Citizens", "b": "Citizens"}, KNOWN), ("friends", False))
+    def test_a_clean_known_word_is_not_replaced_by_one_other_scan(self):
+        self.assertEqual(vote({"primary": "friends", "a": "Citizens"}, KNOWN), ("friends", False))
+
+    def test_two_scans_overrule_the_main_scan(self):
+        # Decision 59: two scans agreeing on another known word win.
+        from importers.ocr import Vocabulary
+        vocab = Vocabulary({"the", "be"})
+        vocab.attest({"tho"})  # known only because two scans read it so
+        self.assertEqual(vote({"primary": "tho", "a": "the", "b": "the"}, vocab), ("the", True))
+        # Not with a word only the scans attest: they share misreadings.
+        self.assertEqual(vote({"primary": "the", "a": "tho", "b": "tho"}, vocab)[0], "the")
+        # A clean-text word overruled stays marked for a person.
+        clean = Vocabulary(KNOWN)
+        self.assertEqual(vote({"primary": "friends", "a": "citizens", "b": "citizens"}, clean), ("citizens", False))
 
     def test_but_a_garbled_one_is(self):
         self.assertEqual(vote({"primary": ")our", "a": "your", "b": "your"}, KNOWN), ("your", True))
