@@ -73,6 +73,36 @@ class HeadingTests(unittest.TestCase):
         self.assertFalse(record.is_dateline(block("SATIDIDAY, April ~7, 1912."), dt.date(1912, 4, 26)))
 
 
+class LaterVolumeTests(unittest.TestCase):
+    """Rules for the volumes from 1932, which leave the 1909-19 works as they were."""
+
+    def test_headings_over_two_lines_are_joined(self):
+        bs = [block("COMMENCEMENT OF TERMS OF PRESIDENT, VICE PRESIDENT, MEM\xad"), block("BERS OF CONGRESS, ETC."),
+              block("Mr. POU. Mr. Speaker, I call up House Resolution 133.", False)]
+        out = record.join_headings(bs)
+        self.assertEqual(len(out), 2)
+        self.assertTrue(record.like(out[0].text, "commencementoftermsofpresidentvicepresidentmembersofcongressetc"))
+        # Not a signature over a place and date, nor a speaker's line.
+        for first in ("RICHARD NIXON.", "Mr. MANSFIELD. No."):
+            self.assertEqual(len(record.join_headings([block(first), block("EXTENSION OF RIGHT TO VOTE")])), 2)
+
+    def test_a_heading_may_end_in_a_year_and_a_date_does_not_stop_an_opening(self):
+        opening = block("The Secretary of the Senate reported that on today, March 14, 1962, he presented", False)
+        self.assertTrue(record.opens_item(opening, later=True))
+        self.assertFalse(record.opens_item(opening))
+        heading = block("DEPARTMENT OF LABOR APPROPRIATION BILL, 1948")
+        nxt = block("Mr. KEEFE, from the Committee on Appropriations, reported the bill", False)
+        self.assertTrue(record.is_heading(heading, nxt, later=True))
+        self.assertFalse(record.is_heading(heading, nxt))
+
+    def test_headings_inside_an_item(self):
+        for text in ("AMENDMENT OFFERED BY MR. PUCINSKI", "AMENDMENT OF'FERED BY MR. MOORE", "QUORUM CALL",
+                     "CONFERENCE REPORT (REPORT No. 564)", "AMENDMENTS NO. 11"):
+            self.assertTrue(record.LATER_INNER.match(text), text)
+        self.assertFalse(record.LATER_INNER.match("EXTENSION OF RIGHT TO VOTE"))
+        self.assertTrue(record.LATER_ROUTINE.match("By unanimous consent, the following routine business was transacted:"))
+
+
 class TableTests(unittest.TestCase):
     def test_days(self):
         seen = set()
@@ -85,7 +115,7 @@ class TableTests(unittest.TestCase):
             session = record.session_of(granule)  # its part is in a session's list
             self.assertIn(session.year, (date.year, date.year + 1))
         for table in (record.EXTRA_HEADINGS, record.INSIDE, record.SPEECH_HEADINGS, record.ELSEWHERE,
-                      record.RUNS_TO):
+                      record.RUNS_TO, record.SPEECH_PAGES, record.OTHER_HEADINGS):
             self.assertTrue(set(table) <= seen, table)
 
     def test_index_pages(self):

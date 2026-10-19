@@ -450,6 +450,63 @@ OCR ran lines of two columns into each other, words of one paragraph can
 stand in another (errata 100–102). Run `python -m tools.uncertain` for the
 current counts.
 
+**The Twentieth to Twenty-sixth Amendments, 1932–1971**
+(`importers/record.py`, decision 62) are imported from the same bound
+edition in the same way: volumes 75 and 76 (72nd Congress, 1932–33), 93
+(80th, 1947), 106 (86th, 1960), 108 (87th, 1962), 111 (89th, 1965) and 117
+(92nd, 1971). Fourteen works, one per house and session:
+
+| Amendment | Joint resolution | Works (`texts/…`) | Days |
+|---|---|---|---|
+| Twentieth | S. J. Res. 14 | `senate-twentieth-amendment-1932`, `house-twentieth-amendment-1932` | Senate January 6, February 17, March 2; House February 12 – March 1, 1932 (6 days) |
+| Twenty-first | S. J. Res. 211 | `senate-twenty-first-amendment-1933`, `house-twenty-first-amendment-1933` | Senate February 13–16; House February 20, 1933 |
+| Twenty-second | H. J. Res. 27 | `house-twenty-second-amendment-1947`, `senate-twenty-second-amendment-1947` | House February 6, March 21; Senate March 3–12, 1947 (5 days) |
+| Twenty-third | S. J. Res. 39 | `senate-twenty-third-amendment-1960`, `house-twenty-third-amendment-1960` | Senate January 26 – February 2 (5 days), June 16; House June 14, 1960 |
+| Twenty-fourth | S. J. Res. 29 | `senate-twenty-fourth-amendment-1962`, `house-twenty-fourth-amendment-1962` | Senate March 14–27 (11 days); House August 27, 1962 |
+| Twenty-fifth | S. J. Res. 1 | `senate-twenty-fifth-amendment-1965`, `house-twenty-fifth-amendment-1965` | Senate February 18 – July 6 (5 days); House April 13 – June 30, 1965 (4 days) |
+| Twenty-sixth | S. J. Res. 7 | `senate-twenty-sixth-amendment-1971`, `house-twenty-sixth-amendment-1971` | Senate March 9–10; House March 23, 1971 |
+
+Some resolutions were taken up under headings that do not name their
+subject: S. J. Res. 29 was a bill to make Alexander Hamilton's house a
+national monument, whose text the Senate replaced with the amendment ("The
+Alexander Hamilton National Monument—Amendment to the Constitution Dealing
+with Poll Taxes"); S. J. Res. 39 was first an amendment on filling
+vacancies in the House. Where a house debated its own resolution and then
+passed the other house's in its place (House, June 14, 1960, and March 23,
+1971), the whole item is imported.
+
+**What differs from 1909–19.** The later volumes set item headings in
+capitals without a full stop, over one to three lines, often filling the
+column; they print the sections of long speeches, inserted statements,
+"QUORUM CALL", "AMENDMENT OFFERED BY MR. …" and similar headings inside a
+debate; and from 1947 they are set in three columns with narrow gutters.
+The importer therefore, for these volumes only (`Session.later`): splits a
+text-layer line at a gutter where the baselines differ; takes a line in
+capitals after a sentence's end for a heading, joins a heading's lines
+(not a signature, a date or a speaker's line); lets a heading end in a year
+("… BILL, 1948"); treats quorum calls, amendments offered, parliamentary
+inquiries and conference reports as headings inside an item
+(`LATER_INNER`); ends an item at a routine opening whose heading OCR lost
+("By unanimous consent, the following routine business was transacted";
+`LATER_ROUTINE`); begins the day where the house met ("The Senate met at
+…"), since the masthead in display type is often not read; and splits a
+page whose text layer runs lines across the gutters where equal columns
+would be. Speeches printed in sections are listed by their pages
+(`SPEECH_PAGES`), headings that begin another item without an opening read
+after them by name (`OTHER_HEADINGS`). From 1947 the index gives the page
+each day's debate begins on rather than its range, so `RUNS_TO` lists, for
+each such day, the page the debate runs to (read off the page: the next
+item's heading or the recess).
+
+**Quality.** About 1,371,000 words, 18,700 (14 per thousand) marked uncertain:
+the text layer of these volumes is much better than that of 1909–19. From
+4.5 per thousand (the Senate, 1965) to 23 (both houses, 1947) and 47 (the
+Senate, 1971, whose debate prints long tables: four in five of its marked
+words are figures and leader dots). About 7,500 of the marked words are
+figures, and about 11,000 have no microfilm reading (tables, roll calls,
+and lines the two OCRs read in different orders). Lines of a heading can be
+read apart from it (errata 104–105).
+
 ## Supreme Court cases
 
 **Which cases interpret which clause** come from the *Constitution of the

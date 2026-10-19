@@ -285,6 +285,32 @@ None of these prefixes is used by another work (`House1789`, `House1794`,
   places, dates and signatures of documents printed in the debate are
   paragraphs of the item, numbered with the rest.
 
+### The Twentieth to Twenty-sixth Amendments, 1932–1971
+
+The same importer and scheme (decision 62), one work per house and
+session:
+
+| Work | Prefix | Days |
+|---|---|---|
+| `texts/senate-twentieth-amendment-1932.json` | `Senate1932` | January 6 – March 2, 1932 |
+| `texts/house-twentieth-amendment-1932.json` | `House1932` | February 12 – March 1, 1932 |
+| `texts/senate-twenty-first-amendment-1933.json` | `Senate1933` | February 13 – 16, 1933 |
+| `texts/house-twenty-first-amendment-1933.json` | `House1933` | February 20, 1933 |
+| `texts/house-twenty-second-amendment-1947.json` | `House1947` | February 6 – March 21, 1947 |
+| `texts/senate-twenty-second-amendment-1947.json` | `Senate1947` | March 3 – 12, 1947 |
+| `texts/senate-twenty-third-amendment-1960.json` | `Senate1960` | January 26 – June 16, 1960 |
+| `texts/house-twenty-third-amendment-1960.json` | `House1960` | June 14, 1960 |
+| `texts/senate-twenty-fourth-amendment-1962.json` | `Senate1962` | March 14 – 27, 1962 |
+| `texts/house-twenty-fourth-amendment-1962.json` | `House1962` | August 27, 1962 |
+| `texts/senate-twenty-fifth-amendment-1965.json` | `Senate1965` | February 18 – July 6, 1965 |
+| `texts/house-twenty-fifth-amendment-1965.json` | `House1965` | April 13 – June 30, 1965 |
+| `texts/senate-twenty-sixth-amendment-1971.json` | `Senate1971` | March 9 – 10, 1971 |
+| `texts/house-twenty-sixth-amendment-1971.json` | `House1971` | March 23, 1971 |
+
+No other work uses these prefixes. Headings printed inside an item (a quorum
+call, an amendment offered, a conference report, the sections of a speech)
+are paragraphs of the item, as above.
+
 ## Retired refs
 
 Once the site has launched, a correction that joins two passages wrongly

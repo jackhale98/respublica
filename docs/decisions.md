@@ -1376,3 +1376,55 @@ How it is done (`importers/record.py`):
   100–103 record words read across columns and misread headings.
 
 The 20th–26th Amendments follow in the same way (`DAYS`), volume by volume.
+
+## 62. The Twentieth to Twenty-sixth Amendments in the Congressional Record
+
+The rest of the work approved in decision 61: each house's proceedings on
+the joint resolutions proposing the Twentieth to Twenty-sixth Amendments,
+from the bound Record (volumes 75, 76, 93, 106, 108, 111 and 117), with
+the same sources (govinfo's PDFs, about 1.7 GB more out of git, and the
+Internet Archive's microfilm OCR), the same rule for days and items, and
+one work per house per session: `Senate1932`, `House1932`; `Senate1933`,
+`House1933`; `House1947`, `Senate1947`; `Senate1960`, `House1960`;
+`Senate1962`, `House1962`; `Senate1965`, `House1965`; `Senate1971`,
+`House1971` (52 days, about 1,371,000 words).
+
+- **The later volumes are read by rules of their own** (`Session.later`),
+  so that the 1909–19 works, whose refs are locked, do not change. These
+  volumes set headings in capitals without a full stop, over several lines;
+  print quorum calls, amendments offered, conference reports and the
+  sections of long speeches under headings inside a debate; and from 1947
+  are set in three columns with narrow gutters. `docs/editions.md` lists
+  the rules. The words the scans attest are counted apart for the two
+  groups of volumes for the same reason.
+- **The index gives where a day's debate begins, not its range** (from
+  1947), so the check that no item runs more than a page past the index's
+  last page would stop on every long day. Rather than drop the check, each
+  such day lists the page its debate runs to (`RUNS_TO`), read off the
+  page: the next item's heading or the recess. A heading OCR did not read
+  still stops the importer unless the day's entry was checked.
+- **Speeches printed in sections** are listed by their pages
+  (`SPEECH_PAGES`) where their section headings would otherwise end the
+  item (Sheppard on the League of Nations, February 14, 1933; Robertson,
+  Fulbright and Douglas, 1962; the statements printed in the debate of
+  March 10, 1971).
+- **A resolution taken up under another subject.** S. J. Res. 29 (1962)
+  was a bill on Alexander Hamilton's house and S. J. Res. 39 (1960) an
+  amendment on filling vacancies in the House; their items are those under
+  the headings the Record gives them. Where a house debated its own
+  resolution and passed the other house's in its place (June 14, 1960;
+  March 23, 1971), the whole item is imported. Speeches the Record prints
+  under headings of their own outside the item (tributes after the vote,
+  statements in morning business) are not.
+- **Quality.** 18,700 words marked uncertain, 14 per thousand, far fewer
+  than in 1909–19; about 7,500 are figures in tables. Errata 104–105 record
+  heading lines read apart from their headings.
+- **On the site** the works join "Debates in Congress" in seven groups. The
+  about page lists govinfo's day PDFs as one line per volume and house, each
+  day a link (`source_list`), to stay inside its HTML budget; a day split
+  into sheets by HTML may now hold a footnote, shown on its own sheet.
+- **Open: `/data/refs.json` is over its 5 MB budget** (7.5 MB with these
+  works; the debates in Congress make up 7.3 MB of it). The check is not
+  relaxed. Splitting the file, or leaving the debates' paragraph refs out of
+  it, changes a lookup other sites use (decision 17's URL table, decision 18), so it waits
+  for the project owner's decision; until then `make build` fails on it.

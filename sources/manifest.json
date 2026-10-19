@@ -1693,6 +1693,636 @@
     "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1919-pt1-v58/mods.xml"
   },
   {
+    "id": "govinfo-crecb-1932-pt2-v75-3-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, Senate, January 6, 1932 (govinfo granule GPO-CRECB-1932-pt2-v75-3-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1932-pt2-v75-3-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "0ca25494cef9eadb40417627a3984ef59031770fe15161a9ad18082e68512e8f",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1932-pt2-v75/pdf/GPO-CRECB-1932-pt2-v75-3-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1932-pt2-v75-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, govinfo package GPO-CRECB-1932-pt2-v75: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1932-pt2-v75-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "2bf39e6213fa10b8a2eeb04de5826716b9ee56f76604aefcd5201e0290ca2137",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1932-pt2-v75/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1932-pt4-v75-12-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, House, February 20, 1932 (govinfo granule GPO-CRECB-1932-pt4-v75-12-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1932-pt4-v75-12-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "072004acc57853c31c632dceb0beebd425fb17c8b601404837d0c532f50b8b82",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1932-pt4-v75/pdf/GPO-CRECB-1932-pt4-v75-12-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1932-pt4-v75-5-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, House, February 12, 1932 (govinfo granule GPO-CRECB-1932-pt4-v75-5-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1932-pt4-v75-5-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "25d42f094360bbf89c567e9175c891332774e7f6245871301bfe4b244344d905",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1932-pt4-v75/pdf/GPO-CRECB-1932-pt4-v75-5-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1932-pt4-v75-6-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, House, February 13, 1932 (govinfo granule GPO-CRECB-1932-pt4-v75-6-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1932-pt4-v75-6-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "9721324e3c88344b0ef7f443aaf667d0e6435328e136f30613602e593ecb2439",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1932-pt4-v75/pdf/GPO-CRECB-1932-pt4-v75-6-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1932-pt4-v75-8-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, House, February 16, 1932 (govinfo granule GPO-CRECB-1932-pt4-v75-8-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1932-pt4-v75-8-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "2e3ec704359156ecb4685b89e1ae2b070517314a018027c0d612534aabf7cd6b",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1932-pt4-v75/pdf/GPO-CRECB-1932-pt4-v75-8-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1932-pt4-v75-9-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, Senate, February 17, 1932 (govinfo granule GPO-CRECB-1932-pt4-v75-9-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1932-pt4-v75-9-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e958ee6d2b2f882642d5a06841895957feafcc05b87be5b7997335130141ddc3",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1932-pt4-v75/pdf/GPO-CRECB-1932-pt4-v75-9-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1932-pt4-v75-9-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, House, February 17, 1932 (govinfo granule GPO-CRECB-1932-pt4-v75-9-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1932-pt4-v75-9-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "d21451ad436964a5aa79b65559cee97da2a28d5141d8f58cd42e327a83a299fc",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1932-pt4-v75/pdf/GPO-CRECB-1932-pt4-v75-9-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1932-pt4-v75-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, govinfo package GPO-CRECB-1932-pt4-v75: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1932-pt4-v75-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "6e252759fc558145acd6121526452c02f9ab3765421cefead1b777d48fcff390",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1932-pt4-v75/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1932-pt5-v75-5-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, House, March 1, 1932 (govinfo granule GPO-CRECB-1932-pt5-v75-5-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1932-pt5-v75-5-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "b2b1d15bf538746f12001ec5d31e8901f82e2106e345423ca09c81d6af0e0e7d",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1932-pt5-v75/pdf/GPO-CRECB-1932-pt5-v75-5-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1932-pt5-v75-6-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, Senate, March 2, 1932 (govinfo granule GPO-CRECB-1932-pt5-v75-6-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1932-pt5-v75-6-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "b35255d6857dd7f9c058acac5b2b51dc3ce57b7387f4f2d8724ac79f174de69f",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1932-pt5-v75/pdf/GPO-CRECB-1932-pt5-v75-6-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1932-pt5-v75-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 75, govinfo package GPO-CRECB-1932-pt5-v75: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1932-pt5-v75-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "5c4254a7858770040e9917096d810c923c961b586747c40d63b0678f5b821487",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1932-pt5-v75/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1933-pt4-v76-10-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 76, Senate, February 16, 1933 (govinfo granule GPO-CRECB-1933-pt4-v76-10-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1933-pt4-v76-10-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c4c185380950f144261114c873f3497558f9bf6dc42473e97d4b850bd1cf7b94",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1933-pt4-v76/pdf/GPO-CRECB-1933-pt4-v76-10-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1933-pt4-v76-13-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 76, House, February 20, 1933 (govinfo granule GPO-CRECB-1933-pt4-v76-13-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1933-pt4-v76-13-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "2e775b0c1bca4e7745d0523447875a59778b08216704bfbc2902dbd161399c69",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1933-pt4-v76/pdf/GPO-CRECB-1933-pt4-v76-13-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1933-pt4-v76-7-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 76, Senate, February 13, 1933 (govinfo granule GPO-CRECB-1933-pt4-v76-7-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1933-pt4-v76-7-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e1eaf6dc5b34e15f6d662e74c67b21ae36d7210b9fb43fee487cffb8cef80563",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1933-pt4-v76/pdf/GPO-CRECB-1933-pt4-v76-7-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1933-pt4-v76-8-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 76, Senate, February 14, 1933 (govinfo granule GPO-CRECB-1933-pt4-v76-8-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1933-pt4-v76-8-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "6a78be5e83185b6d1dfd50faf18ca26e97d29af2497209cf87fe29d31f073b78",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1933-pt4-v76/pdf/GPO-CRECB-1933-pt4-v76-8-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1933-pt4-v76-9-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 76, Senate, February 15, 1933 (govinfo granule GPO-CRECB-1933-pt4-v76-9-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1933-pt4-v76-9-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "4715110409c73e96c2720f4cd42e98924fbc024d646a3e425b50cad774a12fee",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1933-pt4-v76/pdf/GPO-CRECB-1933-pt4-v76-9-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1933-pt4-v76-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 76, govinfo package GPO-CRECB-1933-pt4-v76: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1933-pt4-v76-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ae753c80093c20d7cb50744631ceb9efb02c81de968c3aca0b2d65e77844ed86",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1933-pt4-v76/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1947-pt1-24-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 93, House, February 6, 1947 (govinfo granule GPO-CRECB-1947-pt1-24-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1947-pt1-24-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ebb1b3eb3cec1d33dc7b0ad40161581975a4c8c443dcc765fdcb10078ebd8828",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1947-pt1/pdf/GPO-CRECB-1947-pt1-24-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1947-pt1-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 93, govinfo package GPO-CRECB-1947-pt1: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1947-pt1-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c68ac4ff08e86a7acd1c8a7a6ae44be81452b3712f728144903e866b256ac5df",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1947-pt1/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1947-pt2-11-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 93, Senate, March 12, 1947 (govinfo granule GPO-CRECB-1947-pt2-11-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1947-pt2-11-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "3fd127bf73c22b544b42bbbceee1ffda9e58cab9f01d2a3c7ecccbb3b2112be1",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1947-pt2/pdf/GPO-CRECB-1947-pt2-11-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1947-pt2-18-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 93, House, March 21, 1947 (govinfo granule GPO-CRECB-1947-pt2-18-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1947-pt2-18-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "441eda203ac41542cd16d24690d3f399c18b961770caa74fcc30f24959410b35",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1947-pt2/pdf/GPO-CRECB-1947-pt2-18-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1947-pt2-4-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 93, Senate, March 3, 1947 (govinfo granule GPO-CRECB-1947-pt2-4-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1947-pt2-4-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "d75ec831bdf4be8b6995be55834b3d9bb42c555a742c946dd7519675ad0c2580",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1947-pt2/pdf/GPO-CRECB-1947-pt2-4-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1947-pt2-6-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 93, Senate, March 5, 1947 (govinfo granule GPO-CRECB-1947-pt2-6-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1947-pt2-6-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "613b137079180abea888602d950d376b8c10bf01add1ea3581f443ed75d0bce3",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1947-pt2/pdf/GPO-CRECB-1947-pt2-6-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1947-pt2-8-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 93, Senate, March 7, 1947 (govinfo granule GPO-CRECB-1947-pt2-8-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1947-pt2-8-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "a964734b0bf9001ca582f8061da8b78d1abae7654743e7970e74892bef90bf02",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1947-pt2/pdf/GPO-CRECB-1947-pt2-8-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1947-pt2-9-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 93, Senate, March 10, 1947 (govinfo granule GPO-CRECB-1947-pt2-9-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1947-pt2-9-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e2fec6342e2ec3275ad16aae2d1cf281ef90c7e502c287612d3bcca7fa1c9cf1",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1947-pt2/pdf/GPO-CRECB-1947-pt2-9-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1947-pt2-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 93, govinfo package GPO-CRECB-1947-pt2: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1947-pt2-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "1a32faf3b14795d032468f823a5c925d5e3731ed8ed44e45e5d506e59684593c",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1947-pt2/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1960-pt1-13-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 106, Senate, January 26, 1960 (govinfo granule GPO-CRECB-1960-pt1-13-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1960-pt1-13-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "23ba510d766bf2298d2e547760ddd74ce8d8d39651533dc184ea1354f00e2be2",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt1/pdf/GPO-CRECB-1960-pt1-13-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1960-pt1-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 106, govinfo package GPO-CRECB-1960-pt1: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1960-pt1-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f8fe5291373368873b8982b6fc6757b76722b4f4ad742eb8ec72cc0da6decf87",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1960-pt1/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1960-pt10-1-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 106, House, June 14, 1960 (govinfo granule GPO-CRECB-1960-pt10-1-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1960-pt10-1-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "a803f7363da912b326c2a2fe189044824bc81c82592771db5c398ccd32a50b4c",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt10/pdf/GPO-CRECB-1960-pt10-1-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1960-pt10-3-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 106, Senate, June 16, 1960 (govinfo granule GPO-CRECB-1960-pt10-3-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1960-pt10-3-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "42fd7d8a1322491fc43ac1044c2a1f22ef1b3f9cad7b6063ed97e54e5bddb123",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt10/pdf/GPO-CRECB-1960-pt10-3-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1960-pt10-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 106, govinfo package GPO-CRECB-1960-pt10: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1960-pt10-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "a366fef65d3c30c5574e8e3f9614ea70bca7b29a8945bfc999117104ed1fd902",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1960-pt10/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1960-pt2-1-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 106, Senate, January 27, 1960 (govinfo granule GPO-CRECB-1960-pt2-1-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1960-pt2-1-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "a28f47cbb49742fd4f0cbc7d1672980af5b7712d094b8a1508d34ecd857ee59d",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt2/pdf/GPO-CRECB-1960-pt2-1-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1960-pt2-2-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 106, Senate, January 28, 1960 (govinfo granule GPO-CRECB-1960-pt2-2-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1960-pt2-2-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "43354a7e80986daff0d225a0012a394c18945022358f7d56ad659bb85a7534b1",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt2/pdf/GPO-CRECB-1960-pt2-2-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1960-pt2-3-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 106, Senate, January 29, 1960 (govinfo granule GPO-CRECB-1960-pt2-3-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1960-pt2-3-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "4d14af4e01b1d7a656d658e955b55e73c7ebceea5fa70953e01e8aa31fb1bf23",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt2/pdf/GPO-CRECB-1960-pt2-3-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1960-pt2-5-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 106, Senate, February 2, 1960 (govinfo granule GPO-CRECB-1960-pt2-5-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1960-pt2-5-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "73d3ef2395d262bd0b14980cc81c20a02ba1a871e7934496427bbfbe39713af3",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt2/pdf/GPO-CRECB-1960-pt2-5-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1960-pt2-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 106, govinfo package GPO-CRECB-1960-pt2: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1960-pt2-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "933fe5080803159e72e9d4d8345608d60c1ee861d61b3117f86e43b0d3bf2190",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1960-pt2/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt13-7-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, House, August 27, 1962 (govinfo granule GPO-CRECB-1962-pt13-7-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt13-7-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "cc814e986465e521c2b92b2c44f955031f45ad5ee5df4a36159256b31d4c1b0c",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt13/pdf/GPO-CRECB-1962-pt13-7-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt13-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, govinfo package GPO-CRECB-1962-pt13: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1962-pt13-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "220f3d4e97f5f6bd4c77a840dcbec14b1622c72c9c7d8355fb5d4c01e9bda643",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1962-pt13/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt3-11-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, Senate, March 14, 1962 (govinfo granule GPO-CRECB-1962-pt3-11-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt3-11-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "562b192cf35141d79dd8ac0758d75bd8a1f244f99440ac21d56fdb7a72b74d3d",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt3/pdf/GPO-CRECB-1962-pt3-11-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt3-12-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, Senate, March 15, 1962 (govinfo granule GPO-CRECB-1962-pt3-12-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt3-12-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "df9b76a3d76b5c278e7bebf366930e962a844288e8d77dcb2cc763eeedf7e258",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt3/pdf/GPO-CRECB-1962-pt3-12-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt3-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, govinfo package GPO-CRECB-1962-pt3: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1962-pt3-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "fa8554b5d621594cb496662855a5fa83b85c79537e4d39d3bacb3dc953c26fb8",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1962-pt3/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt4-1-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, Senate, March 16, 1962 (govinfo granule GPO-CRECB-1962-pt4-1-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt4-1-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "8e3e59bfaac92991ed5b57f5f1b796c9a42bc6cd1ab6c976f35e215d32a530a8",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-1-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt4-2-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, Senate, March 19, 1962 (govinfo granule GPO-CRECB-1962-pt4-2-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt4-2-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "8d2356f43d874cc5fd2653d4aaa15e41fcf5ee8dc7c4548dda139004a3db7400",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-2-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt4-3-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, Senate, March 20, 1962 (govinfo granule GPO-CRECB-1962-pt4-3-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt4-3-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "1ca2cf19e9bcdb4aabb1b006f3d5d458c6d4c17480a28714b5216f214174564a",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-3-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt4-4-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, Senate, March 21, 1962 (govinfo granule GPO-CRECB-1962-pt4-4-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt4-4-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "bc1e3d4156ba144c69a5767ec9fe22a2e62dc508f57f2a9b3e161b96842df162",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-4-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt4-5-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, Senate, March 22, 1962 (govinfo granule GPO-CRECB-1962-pt4-5-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt4-5-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "910cadfe8d0956b5a834c03cd9de6c1d8c4f0dbce07ed5c98b4f4e6880b869d6",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-5-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt4-6-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, Senate, March 23, 1962 (govinfo granule GPO-CRECB-1962-pt4-6-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt4-6-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "a6422aaddf697cd626c26a25857d8d877c6a5d6ab2e0e7c696a756b6c23fb1d5",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-6-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt4-7-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, Senate, March 24, 1962 (govinfo granule GPO-CRECB-1962-pt4-7-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt4-7-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "52ad366982f89e844b7a16aaa73ea5ae2ccc423ed660fa6a4d23740e83d87bc9",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-7-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt4-8-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, Senate, March 26, 1962 (govinfo granule GPO-CRECB-1962-pt4-8-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt4-8-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "bfc80b6168efc9257579e86292b95e35f72a58f5b39a8451a1a18c461094c12e",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-8-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt4-9-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, Senate, March 27, 1962 (govinfo granule GPO-CRECB-1962-pt4-9-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1962-pt4-9-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c7fde0f64905585f6594edcd047dc110e11c3d44414ac2bc3c561c53c81b9d32",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-9-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1962-pt4-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 108, govinfo package GPO-CRECB-1962-pt4: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1962-pt4-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "42cf3febe4d30176d85d9f7f3312595bac675b21b352f0f6042b65b76427cb90",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1962-pt4/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt11-10-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, Senate, July 6, 1965 (govinfo granule GPO-CRECB-1965-pt11-10-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1965-pt11-10-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "04fa3359372c59d290bade0bc6132708e4ac1c5989bea83b115a74d9a02df14e",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt11/pdf/GPO-CRECB-1965-pt11-10-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt11-6-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, House, June 29, 1965 (govinfo granule GPO-CRECB-1965-pt11-6-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1965-pt11-6-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "11790b32cef317b28b416b96b2238d37f0763d3cb7d603c1ff26e0a96c937d9b",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt11/pdf/GPO-CRECB-1965-pt11-6-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt11-7-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, House, June 30, 1965 (govinfo granule GPO-CRECB-1965-pt11-7-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1965-pt11-7-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f75c6ec2997595005f414a9dbdfd1481e5b0274ce95fa3e3838db909ce0455db",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt11/pdf/GPO-CRECB-1965-pt11-7-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt11-7-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, Senate, June 30, 1965 (govinfo granule GPO-CRECB-1965-pt11-7-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1965-pt11-7-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ff9589e781af8f6205dd684287a82b2ddf9d00ef317eaace52cf5dfff4b54ef8",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt11/pdf/GPO-CRECB-1965-pt11-7-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt11-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, govinfo package GPO-CRECB-1965-pt11: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1965-pt11-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "2f7a4154e2e25651eef9dd7d9062d5bfc6185e6aaa7a17883c2f0028234b0476",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1965-pt11/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt3-2-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, Senate, February 18, 1965 (govinfo granule GPO-CRECB-1965-pt3-2-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1965-pt3-2-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "78ccb981c6994f2f52f3050752ee899bf43ff0080b33d0ed957f636467ede7ba",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt3/pdf/GPO-CRECB-1965-pt3-2-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt3-3-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, Senate, February 19, 1965 (govinfo granule GPO-CRECB-1965-pt3-3-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1965-pt3-3-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e8bcffd97b40aa65e14466d85762db2bcc34ef8ac087805c63de790fbfe37757",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt3/pdf/GPO-CRECB-1965-pt3-3-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt3-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, govinfo package GPO-CRECB-1965-pt3: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1965-pt3-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "30c4346424343684a614fcdbabb189b069e5b27e81d011ec16fdbea67305a632",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1965-pt3/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt6-10-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, Senate, April 22, 1965 (govinfo granule GPO-CRECB-1965-pt6-10-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1965-pt6-10-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "bb62f4f634fe737cb69aac67fa24a6c351c5f33a68ebaa0e5c0f261795de81df",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-10-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt6-5-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, House, April 13, 1965 (govinfo granule GPO-CRECB-1965-pt6-5-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1965-pt6-5-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c5936cdac32dfea148f25a32a69c07eaa9df3d68fdf927d61349cd468c92698b",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-5-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt6-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, govinfo package GPO-CRECB-1965-pt6: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1965-pt6-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "d5361f49ca2ae477ba5675f8f197baed6006caa9b13c806e8279f2d391d051cf",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1965-pt6/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt7-1-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, House, April 28, 1965 (govinfo granule GPO-CRECB-1965-pt7-1-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1965-pt7-1-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "969d4c9866ff47d3dcc716b5a7cee953537503bf9c8674f8e3d862544acf6b9d",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt7/pdf/GPO-CRECB-1965-pt7-1-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1965-pt7-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 111, govinfo package GPO-CRECB-1965-pt7: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1965-pt7-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "25179e1aa33ceb9e2a48f0e3a699fd849764bcbf5dbab3297b33037965fb7a64",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1965-pt7/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1971-pt5-1-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 117, Senate, March 9, 1971 (govinfo granule GPO-CRECB-1971-pt5-1-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1971-pt5-1-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "eb2f5d4fa8ea4869b9aea9d91c615930fbebb94e515c69682dc8859d70edb581",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1971-pt5/pdf/GPO-CRECB-1971-pt5-1-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1971-pt5-2-1",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 117, Senate, March 10, 1971 (govinfo granule GPO-CRECB-1971-pt5-2-1): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1971-pt5-2-1.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "1ec93ab7da052389d4e2be992d118ad9c300963e959dfe32355decda297fa883",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1971-pt5/pdf/GPO-CRECB-1971-pt5-2-1.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1971-pt5-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 117, govinfo package GPO-CRECB-1971-pt5: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1971-pt5-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "0fa810413b44bcad0d315111bae4a6295997d9490e856f760364ef6d01ec24fc",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1971-pt5/mods.xml"
+  },
+  {
+    "id": "govinfo-crecb-1971-pt6-5-2",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 117, House, March 23, 1971 (govinfo granule GPO-CRECB-1971-pt6-5-2): scan with its OCR text layer.",
+    "path": "sources/raw/govinfo-crecb-1971-pt6-5-2.pdf",
+    "retrieved_at": "2026-10-19",
+    "sha256": "dbec409a646ef2b29a054f7638a534b9b614c85021201f840df79f45f84a2624",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1971-pt6/pdf/GPO-CRECB-1971-pt6-5-2.pdf"
+  },
+  {
+    "id": "govinfo-crecb-1971-pt6-mods",
+    "license": "Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text layer as served by the U.S. Government Publishing Office, govinfo.gov.",
+    "notes": "Congressional Record (bound edition), vol. 117, govinfo package GPO-CRECB-1971-pt6: its MODS record, which gives each granule's printed pages.",
+    "path": "sources/raw/govinfo-crecb-1971-pt6-mods.xml",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c26443546d26b07882eeefb4c46969f48d87f9bd90aa3fc2f45be1c0357cc747",
+    "url": "https://www.govinfo.gov/metadata/pkg/GPO-CRECB-1971-pt6/mods.xml"
+  },
+  {
     "id": "gutenberg-federalist-18",
     "license": "Text is public domain in the USA. The file itself carries the Project Gutenberg License; Res Publica reproduces only the public-domain text and none of the Project Gutenberg trademark or license material.",
     "notes": "Project Gutenberg eBook #18, The Federalist Papers, plain-text UTF-8.",
@@ -2906,6 +3536,492 @@
     "retrieved_at": "2026-10-19",
     "sha256": "447268e791fb1c60b23a347d48a82b2c09701688a2ea865d3e1b6610dc5dca93",
     "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_may-19-june-12-1919_58/sim_congressional-record-proceedings-and-debates_may-19-june-12-1919_58_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1932-pt2-v75-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1932, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 75, the part govinfo calls GPO-CRECB-1932-pt2-v75: Internet Archive item sim_congressional-record-proceedings-and-debates_january-04-19-1932_75 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1932-pt2-v75-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "b52702ff4835193f27f19c319e541804b81a1d90e2f340218c334fd96cb3c4df",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-04-19-1932_75/sim_congressional-record-proceedings-and-debates_january-04-19-1932_75_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1932-pt2-v75-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1932, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 75, the part govinfo calls GPO-CRECB-1932-pt2-v75: Internet Archive item sim_congressional-record-proceedings-and-debates_january-04-19-1932_75 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1932-pt2-v75-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "eca04c7e02e0cd16f7997827d630deb52fcf4e4c5302fec2a343a9a42b00080a",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-04-19-1932_75/sim_congressional-record-proceedings-and-debates_january-04-19-1932_75_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1932-pt2-v75-text",
+    "license": "Public domain in the USA (the Congressional Record, 1932, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 75, the part govinfo calls GPO-CRECB-1932-pt2-v75: Internet Archive item sim_congressional-record-proceedings-and-debates_january-04-19-1932_75 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1932-pt2-v75-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "eec6f5fefa4177f0efff3baefefbc98970c0524ecd73889fdb3b231e14ee3462",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-04-19-1932_75/sim_congressional-record-proceedings-and-debates_january-04-19-1932_75_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1932-pt4-v75-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1932, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 75, the part govinfo calls GPO-CRECB-1932-pt4-v75: Internet Archive item sim_congressional-record-proceedings-and-debates_february-08-24-1932_75 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1932-pt4-v75-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "7e3360b90b8565f573d5461e6a0c1962c2a663347c7b2ebf5a987b704974f85c",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-08-24-1932_75/sim_congressional-record-proceedings-and-debates_february-08-24-1932_75_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1932-pt4-v75-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1932, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 75, the part govinfo calls GPO-CRECB-1932-pt4-v75: Internet Archive item sim_congressional-record-proceedings-and-debates_february-08-24-1932_75 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1932-pt4-v75-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "05f6cb1be26e4db49af7965b8bd0740bc9e544660dee9eab87681b1026cb50fd",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-08-24-1932_75/sim_congressional-record-proceedings-and-debates_february-08-24-1932_75_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1932-pt4-v75-text",
+    "license": "Public domain in the USA (the Congressional Record, 1932, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 75, the part govinfo calls GPO-CRECB-1932-pt4-v75: Internet Archive item sim_congressional-record-proceedings-and-debates_february-08-24-1932_75 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1932-pt4-v75-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "23d28308a66796021ac8953a640b5f5c8ba61a39f958e676e8ed78a5d816faa7",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-08-24-1932_75/sim_congressional-record-proceedings-and-debates_february-08-24-1932_75_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1932-pt5-v75-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1932, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 75, the part govinfo calls GPO-CRECB-1932-pt5-v75: Internet Archive item sim_congressional-record-proceedings-and-debates_february-25-march-11-1932_75 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1932-pt5-v75-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "d62de56773da1d0014f20e1258d2faa3b7c0100bf386f5d46f967829422532f1",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-25-march-11-1932_75/sim_congressional-record-proceedings-and-debates_february-25-march-11-1932_75_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1932-pt5-v75-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1932, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 75, the part govinfo calls GPO-CRECB-1932-pt5-v75: Internet Archive item sim_congressional-record-proceedings-and-debates_february-25-march-11-1932_75 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1932-pt5-v75-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "8a0e4a613f8b1efb3805b1252ff7588dda1e914cc14f25e47dd36d38f6c9e598",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-25-march-11-1932_75/sim_congressional-record-proceedings-and-debates_february-25-march-11-1932_75_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1932-pt5-v75-text",
+    "license": "Public domain in the USA (the Congressional Record, 1932, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 75, the part govinfo calls GPO-CRECB-1932-pt5-v75: Internet Archive item sim_congressional-record-proceedings-and-debates_february-25-march-11-1932_75 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1932-pt5-v75-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "da43d24e17e6de347f660a70452335031deece164dc73fbcbc3e5cc0fe053cde",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-25-march-11-1932_75/sim_congressional-record-proceedings-and-debates_february-25-march-11-1932_75_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1933-pt4-v76-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1933, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 76, the part govinfo calls GPO-CRECB-1933-pt4-v76: Internet Archive item sim_congressional-record-proceedings-and-debates_february-06-20-1933_76 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1933-pt4-v76-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "3f48a0bf26a628e3d2e9816286babebde9b3d0b3052100e576f6fe45dcd16679",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-06-20-1933_76/sim_congressional-record-proceedings-and-debates_february-06-20-1933_76_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1933-pt4-v76-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1933, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 76, the part govinfo calls GPO-CRECB-1933-pt4-v76: Internet Archive item sim_congressional-record-proceedings-and-debates_february-06-20-1933_76 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1933-pt4-v76-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "acc1e6718604685ea44ba3d607304399d9293977c95fc05071b565c8196ae855",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-06-20-1933_76/sim_congressional-record-proceedings-and-debates_february-06-20-1933_76_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1933-pt4-v76-text",
+    "license": "Public domain in the USA (the Congressional Record, 1933, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 76, the part govinfo calls GPO-CRECB-1933-pt4-v76: Internet Archive item sim_congressional-record-proceedings-and-debates_february-06-20-1933_76 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1933-pt4-v76-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "919b82d51514f8ff645cfabaa924abcb69eb78802599288e596489efef1faa36",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-06-20-1933_76/sim_congressional-record-proceedings-and-debates_february-06-20-1933_76_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1947-pt1-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1947, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 93, the part govinfo calls GPO-CRECB-1947-pt1: Internet Archive item sim_congressional-record-proceedings-and-debates_january-3-february-24-1947_93 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1947-pt1-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "3b08a35e522fa75f03bb733df4e945afb1a51ed88eda59496363a7d75345a84c",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-3-february-24-1947_93/sim_congressional-record-proceedings-and-debates_january-3-february-24-1947_93_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1947-pt1-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1947, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 93, the part govinfo calls GPO-CRECB-1947-pt1: Internet Archive item sim_congressional-record-proceedings-and-debates_january-3-february-24-1947_93 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1947-pt1-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "59014abc0aebbc056a043e6fc7aae14d391b3423d7645d93af35f271767e338a",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-3-february-24-1947_93/sim_congressional-record-proceedings-and-debates_january-3-february-24-1947_93_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1947-pt1-text",
+    "license": "Public domain in the USA (the Congressional Record, 1947, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 93, the part govinfo calls GPO-CRECB-1947-pt1: Internet Archive item sim_congressional-record-proceedings-and-debates_january-3-february-24-1947_93 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1947-pt1-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e771fe6e0b09187cd1dd66076ea0a3c5ef18f45e720022d74ccb6d2f62c932b0",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-3-february-24-1947_93/sim_congressional-record-proceedings-and-debates_january-3-february-24-1947_93_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1947-pt2-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1947, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 93, the part govinfo calls GPO-CRECB-1947-pt2: Internet Archive item sim_congressional-record-proceedings-and-debates_february-26-march-28-1947_93 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1947-pt2-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c3c0015fa01be66b9d75fb8132ea4cb4a857f9f8d6f0ad83945a0beaf32e78d4",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-26-march-28-1947_93/sim_congressional-record-proceedings-and-debates_february-26-march-28-1947_93_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1947-pt2-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1947, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 93, the part govinfo calls GPO-CRECB-1947-pt2: Internet Archive item sim_congressional-record-proceedings-and-debates_february-26-march-28-1947_93 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1947-pt2-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "4556122a1b4dfd318ea8ece8a4996b43e3b66f15fc81e0d8a1063c337360435b",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-26-march-28-1947_93/sim_congressional-record-proceedings-and-debates_february-26-march-28-1947_93_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1947-pt2-text",
+    "license": "Public domain in the USA (the Congressional Record, 1947, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 93, the part govinfo calls GPO-CRECB-1947-pt2: Internet Archive item sim_congressional-record-proceedings-and-debates_february-26-march-28-1947_93 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1947-pt2-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "c95bd61e0efbc6869621dc70cf20029042ef8731108ac1fd5403e029e36d14cc",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-26-march-28-1947_93/sim_congressional-record-proceedings-and-debates_february-26-march-28-1947_93_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1960-pt1-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1960, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 106, the part govinfo calls GPO-CRECB-1960-pt1: Internet Archive item sim_congressional-record-proceedings-and-debates_january-6-1960-january-26-1960_106 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1960-pt1-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ed9dc7f621010aa91e12a4aa703fd861f99ab0339b81fe6bddb3809d076ddf96",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-6-1960-january-26-1960_106/sim_congressional-record-proceedings-and-debates_january-6-1960-january-26-1960_106_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1960-pt1-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1960, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 106, the part govinfo calls GPO-CRECB-1960-pt1: Internet Archive item sim_congressional-record-proceedings-and-debates_january-6-1960-january-26-1960_106 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1960-pt1-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "588a7e87574ac57f631b723854608025fa9ab8a89c0f98ef59ddee1bd1db0eb1",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-6-1960-january-26-1960_106/sim_congressional-record-proceedings-and-debates_january-6-1960-january-26-1960_106_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1960-pt1-text",
+    "license": "Public domain in the USA (the Congressional Record, 1960, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 106, the part govinfo calls GPO-CRECB-1960-pt1: Internet Archive item sim_congressional-record-proceedings-and-debates_january-6-1960-january-26-1960_106 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1960-pt1-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f3234435904a7b41d4b8b5f16720743d10b9820f8f1bae2c4a00920ccb95d029",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-6-1960-january-26-1960_106/sim_congressional-record-proceedings-and-debates_january-6-1960-january-26-1960_106_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1960-pt10-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1960, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 106, the part govinfo calls GPO-CRECB-1960-pt10: Internet Archive item sim_congressional-record-proceedings-and-debates_june-14-1960-june-22-1960_106 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1960-pt10-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "89d7e9eac9056d5ef9448cb6f4c34d41f3d4a3c92b525c52947136fe9abd71bd",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_june-14-1960-june-22-1960_106/sim_congressional-record-proceedings-and-debates_june-14-1960-june-22-1960_106_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1960-pt10-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1960, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 106, the part govinfo calls GPO-CRECB-1960-pt10: Internet Archive item sim_congressional-record-proceedings-and-debates_june-14-1960-june-22-1960_106 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1960-pt10-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "46b2ef2d801309346b1457cabbcc0b85f4c38807e53baaf5f08e17c13a54a601",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_june-14-1960-june-22-1960_106/sim_congressional-record-proceedings-and-debates_june-14-1960-june-22-1960_106_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1960-pt10-text",
+    "license": "Public domain in the USA (the Congressional Record, 1960, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 106, the part govinfo calls GPO-CRECB-1960-pt10: Internet Archive item sim_congressional-record-proceedings-and-debates_june-14-1960-june-22-1960_106 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1960-pt10-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "4a3832be16f917378d05956bbadc4650c3f1b3f8cbdfde7ecc37bb9336b609c8",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_june-14-1960-june-22-1960_106/sim_congressional-record-proceedings-and-debates_june-14-1960-june-22-1960_106_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1960-pt2-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1960, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 106, the part govinfo calls GPO-CRECB-1960-pt2: Internet Archive item sim_congressional-record-proceedings-and-debates_january-27-1960-february-16-1960_106 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1960-pt2-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "1fc713608a4f3d777fd6463b5544c504799f6e946e6874b22fac1052dbac5735",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-27-1960-february-16-1960_106/sim_congressional-record-proceedings-and-debates_january-27-1960-february-16-1960_106_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1960-pt2-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1960, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 106, the part govinfo calls GPO-CRECB-1960-pt2: Internet Archive item sim_congressional-record-proceedings-and-debates_january-27-1960-february-16-1960_106 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1960-pt2-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "bc62c1844f274a3bbf8aa848c0415039b9d34a2e599a195d92ce04e437ef3a4b",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-27-1960-february-16-1960_106/sim_congressional-record-proceedings-and-debates_january-27-1960-february-16-1960_106_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1960-pt2-text",
+    "license": "Public domain in the USA (the Congressional Record, 1960, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 106, the part govinfo calls GPO-CRECB-1960-pt2: Internet Archive item sim_congressional-record-proceedings-and-debates_january-27-1960-february-16-1960_106 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1960-pt2-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "9f7b75f13f2620c4fe39cf284a4eed781049c1b60b76b6225b64dc4e321a98f5",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_january-27-1960-february-16-1960_106/sim_congressional-record-proceedings-and-debates_january-27-1960-february-16-1960_106_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1962-pt13-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1962, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 108, the part govinfo calls GPO-CRECB-1962-pt13: Internet Archive item sim_congressional-record-proceedings-and-debates_august-20-30-1962_108 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1962-pt13-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "75cba1fe1ea4f9edc8a59ca67ae95a33fa2ff09912bf17b3266b6e1db94ef824",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_august-20-30-1962_108/sim_congressional-record-proceedings-and-debates_august-20-30-1962_108_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1962-pt13-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1962, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 108, the part govinfo calls GPO-CRECB-1962-pt13: Internet Archive item sim_congressional-record-proceedings-and-debates_august-20-30-1962_108 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1962-pt13-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "6415a311dfa0667d9ba023291ea425158c4cead09d123c067d4ddd05029d9b65",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_august-20-30-1962_108/sim_congressional-record-proceedings-and-debates_august-20-30-1962_108_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1962-pt13-text",
+    "license": "Public domain in the USA (the Congressional Record, 1962, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 108, the part govinfo calls GPO-CRECB-1962-pt13: Internet Archive item sim_congressional-record-proceedings-and-debates_august-20-30-1962_108 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1962-pt13-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "6263b3d45716d67094a2972b222f84333169b6f0d3f5a0768a83b9f5cec5118a",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_august-20-30-1962_108/sim_congressional-record-proceedings-and-debates_august-20-30-1962_108_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1962-pt3-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1962, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 108, the part govinfo calls GPO-CRECB-1962-pt3: Internet Archive item sim_congressional-record-proceedings-and-debates_february-26-march-15-1962_108 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1962-pt3-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f1072945f88473195f59d76d3a304cf1a85ad7156fea2807ce87e7adff5e4178",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-26-march-15-1962_108/sim_congressional-record-proceedings-and-debates_february-26-march-15-1962_108_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1962-pt3-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1962, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 108, the part govinfo calls GPO-CRECB-1962-pt3: Internet Archive item sim_congressional-record-proceedings-and-debates_february-26-march-15-1962_108 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1962-pt3-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "d340dc1ad05629f28cdd430a058e7f8c09c823815c61f9f379c6e240c265ef18",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-26-march-15-1962_108/sim_congressional-record-proceedings-and-debates_february-26-march-15-1962_108_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1962-pt3-text",
+    "license": "Public domain in the USA (the Congressional Record, 1962, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 108, the part govinfo calls GPO-CRECB-1962-pt3: Internet Archive item sim_congressional-record-proceedings-and-debates_february-26-march-15-1962_108 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1962-pt3-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ff423eef73fc4746c82f10a9ac3a2a31d5440c4228f751c69444fd73cc91bc64",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-26-march-15-1962_108/sim_congressional-record-proceedings-and-debates_february-26-march-15-1962_108_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1962-pt4-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1962, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 108, the part govinfo calls GPO-CRECB-1962-pt4: Internet Archive item sim_congressional-record-proceedings-and-debates_march-16-april-2-1962_108 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1962-pt4-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "b842c41569f506063be1fe400aea8ee64eaa2120409f67ee32e018c2c860b3ff",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_march-16-april-2-1962_108/sim_congressional-record-proceedings-and-debates_march-16-april-2-1962_108_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1962-pt4-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1962, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 108, the part govinfo calls GPO-CRECB-1962-pt4: Internet Archive item sim_congressional-record-proceedings-and-debates_march-16-april-2-1962_108 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1962-pt4-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "21556a540fccb6d29690fa35121928b3e9aca4ed914c933cf6fc1d5ec5489f82",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_march-16-april-2-1962_108/sim_congressional-record-proceedings-and-debates_march-16-april-2-1962_108_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1962-pt4-text",
+    "license": "Public domain in the USA (the Congressional Record, 1962, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 108, the part govinfo calls GPO-CRECB-1962-pt4: Internet Archive item sim_congressional-record-proceedings-and-debates_march-16-april-2-1962_108 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1962-pt4-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "9ade41bcb2f978d969f5c8d9b795d2366e12d672b36543afae866504a48fb50b",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_march-16-april-2-1962_108/sim_congressional-record-proceedings-and-debates_march-16-april-2-1962_108_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1965-pt11-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt11: Internet Archive item sim_congressional-record-proceedings-and-debates_june-22-1965-july-6-1965_111 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt11-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "553bb0afdf724517eb2cba93a531dbec53489405856054fe1cec125251602adf",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_june-22-1965-july-6-1965_111/sim_congressional-record-proceedings-and-debates_june-22-1965-july-6-1965_111_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1965-pt11-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt11: Internet Archive item sim_congressional-record-proceedings-and-debates_june-22-1965-july-6-1965_111 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt11-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "1c9c20e7d3b8e13a42f6c544debf69ae6f538d97f11d8fa3977481b6d635999f",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_june-22-1965-july-6-1965_111/sim_congressional-record-proceedings-and-debates_june-22-1965-july-6-1965_111_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1965-pt11-text",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt11: Internet Archive item sim_congressional-record-proceedings-and-debates_june-22-1965-july-6-1965_111 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt11-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "ba1a4c1d170932f97601eca617f61b5ccda210f1624226dddda98e2e55408386",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_june-22-1965-july-6-1965_111/sim_congressional-record-proceedings-and-debates_june-22-1965-july-6-1965_111_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1965-pt3-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt3: Internet Archive item sim_congressional-record-proceedings-and-debates_february-17-1965-march-4-1965_111 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt3-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "0f4b761c5e3733d5ef01c151cb4cb8c5ebff204fb68e3cbd5b09097687036042",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-17-1965-march-4-1965_111/sim_congressional-record-proceedings-and-debates_february-17-1965-march-4-1965_111_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1965-pt3-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt3: Internet Archive item sim_congressional-record-proceedings-and-debates_february-17-1965-march-4-1965_111 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt3-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "d9748ead1b9625aa3f2fcda09825d1db10126e4f82804ffd8d68eb86be61d628",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-17-1965-march-4-1965_111/sim_congressional-record-proceedings-and-debates_february-17-1965-march-4-1965_111_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1965-pt3-text",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt3: Internet Archive item sim_congressional-record-proceedings-and-debates_february-17-1965-march-4-1965_111 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt3-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e00d1467cd10cb7321e1fefeeaa347b032cdc4d77d88ee17734f13076cd73787",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_february-17-1965-march-4-1965_111/sim_congressional-record-proceedings-and-debates_february-17-1965-march-4-1965_111_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1965-pt6-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt6: Internet Archive item sim_congressional-record-proceedings-and-debates_april-7-1965-april-27-1965_111 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt6-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "3b66f7694e9a039a42e33393128fd5831114cbb045ab3caba6514b651d0ce05e",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_april-7-1965-april-27-1965_111/sim_congressional-record-proceedings-and-debates_april-7-1965-april-27-1965_111_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1965-pt6-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt6: Internet Archive item sim_congressional-record-proceedings-and-debates_april-7-1965-april-27-1965_111 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt6-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "bc3f044dfff7b778a8ced3a724ab94ff73874a291190ff94fe4920569eb29811",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_april-7-1965-april-27-1965_111/sim_congressional-record-proceedings-and-debates_april-7-1965-april-27-1965_111_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1965-pt6-text",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt6: Internet Archive item sim_congressional-record-proceedings-and-debates_april-7-1965-april-27-1965_111 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt6-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "9fa495b569bf519de76ea434ee6e4bfbc1e26a5e7f48665f3f0d0b3d62930610",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_april-7-1965-april-27-1965_111/sim_congressional-record-proceedings-and-debates_april-7-1965-april-27-1965_111_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1965-pt7-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt7: Internet Archive item sim_congressional-record-proceedings-and-debates_april-28-1965-may-10-1965_111 (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt7-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "5673fd04be09260c8c2f8a82817fe58b1ab5590f441406f01d9649cdb4f5f060",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_april-28-1965-may-10-1965_111/sim_congressional-record-proceedings-and-debates_april-28-1965-may-10-1965_111_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1965-pt7-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt7: Internet Archive item sim_congressional-record-proceedings-and-debates_april-28-1965-may-10-1965_111 (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt7-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "3573d771b86bce9770bca7ff8c6e2a30ca0091ccddb87f336ff856872df68e2e",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_april-28-1965-may-10-1965_111/sim_congressional-record-proceedings-and-debates_april-28-1965-may-10-1965_111_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1965-pt7-text",
+    "license": "Public domain in the USA (the Congressional Record, 1965, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 111, the part govinfo calls GPO-CRECB-1965-pt7: Internet Archive item sim_congressional-record-proceedings-and-debates_april-28-1965-may-10-1965_111 (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1965-pt7-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "e9f10359385ecedfca81684f3bb2bfa03aea1d94789bc977ae5b39e876dcf073",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_april-28-1965-may-10-1965_111/sim_congressional-record-proceedings-and-debates_april-28-1965-may-10-1965_111_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1971-pt5-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1971, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 117, the part govinfo calls GPO-CRECB-1971-pt5: Internet Archive item sim_congressional-record-proceedings-and-debates_march-9-16-1971_117_part-5-redacted (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1971-pt5-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "631edb637d4568f784525e17931667255814d62a4bfb2a5748a80d73d38391ea",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_march-9-16-1971_117_part-5-redacted/sim_congressional-record-proceedings-and-debates_march-9-16-1971_117_part-5_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1971-pt5-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1971, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 117, the part govinfo calls GPO-CRECB-1971-pt5: Internet Archive item sim_congressional-record-proceedings-and-debates_march-9-16-1971_117_part-5-redacted (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1971-pt5-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "f5ed4f8c9b6d3a90c93e419749fec91b6b6f5ba72272aef0f035dba7ce1c54b0",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_march-9-16-1971_117_part-5-redacted/sim_congressional-record-proceedings-and-debates_march-9-16-1971_117_part-5_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1971-pt5-text",
+    "license": "Public domain in the USA (the Congressional Record, 1971, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 117, the part govinfo calls GPO-CRECB-1971-pt5: Internet Archive item sim_congressional-record-proceedings-and-debates_march-9-16-1971_117_part-5-redacted (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1971-pt5-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "20eeef8edd1e7d8a92d7693f593bc2bfae74f6c5da15e2ec07344da86eb16719",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_march-9-16-1971_117_part-5-redacted/sim_congressional-record-proceedings-and-debates_march-9-16-1971_117_part-5_hocr_searchtext.txt.gz"
+  },
+  {
+    "id": "ia-record-1971-pt6-pageindex",
+    "license": "Public domain in the USA (the Congressional Record, 1971, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 117, the part govinfo calls GPO-CRECB-1971-pt6: Internet Archive item sim_congressional-record-proceedings-and-debates_march-17-25-1971_117_part-6-redacted (microfilm), pageindex; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1971-pt6-pageindex.json.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "221f107de5997fc25550ec105b3a6dc2e55be0da5eeef870ff6f70b4372f2466",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_march-17-25-1971_117_part-6-redacted/sim_congressional-record-proceedings-and-debates_march-17-25-1971_117_part-6_hocr_pageindex.json.gz"
+  },
+  {
+    "id": "ia-record-1971-pt6-pages",
+    "license": "Public domain in the USA (the Congressional Record, 1971, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 117, the part govinfo calls GPO-CRECB-1971-pt6: Internet Archive item sim_congressional-record-proceedings-and-debates_march-17-25-1971_117_part-6-redacted (microfilm), pages; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1971-pt6-pages.json",
+    "retrieved_at": "2026-10-19",
+    "sha256": "9a1b995e51afbab474b73bbf3f2366a369bb56663afb11f2e12cf4ce24a52bdf",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_march-17-25-1971_117_part-6-redacted/sim_congressional-record-proceedings-and-debates_march-17-25-1971_117_part-6_page_numbers.json"
+  },
+  {
+    "id": "ia-record-1971-pt6-text",
+    "license": "Public domain in the USA (the Congressional Record, 1971, a work of the United States Government). OCR and page numbers generated by the Internet Archive from its microfilm scan.",
+    "notes": "Congressional Record (bound edition), vol. 117, the part govinfo calls GPO-CRECB-1971-pt6: Internet Archive item sim_congressional-record-proceedings-and-debates_march-17-25-1971_117_part-6-redacted (microfilm), text; used for consensus and its page images.",
+    "path": "sources/raw/ia-record-1971-pt6-text.txt.gz",
+    "retrieved_at": "2026-10-19",
+    "sha256": "57bbc93e370d5ef580579d30297420764e6ef8912dcb9a2463ce1ebecb4705a8",
+    "url": "https://archive.org/download/sim_congressional-record-proceedings-and-debates_march-17-25-1971_117_part-6-redacted/sim_congressional-record-proceedings-and-debates_march-17-25-1971_117_part-6_hocr_searchtext.txt.gz"
   },
   {
     "id": "loc-nyjournal-1787-12-13-p2-alto",

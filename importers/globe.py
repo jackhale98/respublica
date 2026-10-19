@@ -390,14 +390,17 @@ def unt_page(page: int, year: int = 1866) -> Page:
 SIGNATURE = re.compile(r"(?i)^\W*\d{2}\w{1,3}\.?\s*Co\S{1,4}\s+\S{2,4}\s*S\S{2,5}\W*No\b")
 
 
-def paragraphs(col: Page, refined: bool = False) -> list[Para]:
+def paragraphs(col: Page, refined: bool = False, capitals: bool = False) -> list[Para]:
     """A column's lines (one to a paragraph, as UNT gives them) made into
     paragraphs: a paragraph ends at a line that stops short of the right
     margin when the next is indented, and a centred line (a heading) stands
     alone. Refined (`Session.refined`): a line in small capitals set in a
     little from both margins is a heading too, and a heading may run over two lines, the first in
     small capitals and not ending a sentence ("THE DEATH OF SLAVERY IS THE
-    LIFE OF THE / NATION.", the title of a speech in 1864)."""
+    LIFE OF THE / NATION.", the title of a speech in 1864). With `capitals`
+    (the Congressional Record from 1932, whose headings are set in capitals
+    without a full stop and may fill the column), a line of two or more words
+    in capitals after one that ends a sentence is a heading too."""
     lines = sorted((l for para in col.paras for l in para.lines), key=lambda l: l.words[0].y0)
     if not lines:
         return []
@@ -421,6 +424,11 @@ def paragraphs(col: Page, refined: bool = False) -> list[Para]:
     gaps = [b - a for a, b in zip(tops, tops[1:])]
     leading = sorted(gaps)[len(gaps) // 2] if gaps else 0
 
+    def in_capitals(t: str) -> bool:
+        cased = [c for c in t if c.isalpha()]
+        return (len(cased) >= 8 and sum(c.isupper() for c in cased) >= 0.85 * len(cased)
+                and not re.search(r"\bM(?:r|rs|essrs)\.", t))
+
     def heading(k: int) -> bool:
         """Centred, or standing apart with space above and below (a heading
         in small capitals may fill the column)."""
@@ -434,6 +442,11 @@ def paragraphs(col: Page, refined: bool = False) -> list[Para]:
         if (refined and l.x0 > margins[k] + col.width * 0.03 and max(w.x1 for w in ws) < right - col.width * 0.03
                 and one_case(" ".join(w.text for w in ws)) and len(ws) >= 2):
             return True  # (refined) a long heading in small capitals, nearly filling the column
+        if (capitals and len(ws) >= 2 and in_capitals(l.text)
+                and (k == 0 or re.search(r"[.:?!\"')\]](?:\s?[J1l|·•'~])?$", lines[k - 1].text.rstrip())
+                     # (or the line before is one in capitals broken at a hyphen)
+                     or (in_capitals(lines[k - 1].text) and re.search(r"[A-Z][-\xad]$", lines[k - 1].text.rstrip())))):
+            return True
         above = gaps[k - 1] if k > 0 else float("inf")
         below = gaps[k] if k < len(gaps) else float("inf")
         # (Not the last line of a paragraph, which goes on from a line that

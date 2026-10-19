@@ -40,7 +40,7 @@ from importers.annals import letters
 from importers.columns import body_span, mark_notes, split_columns
 from importers.globe import ITEM_START, SPEAKER, paragraphs, rejoin
 from importers.ocr import (
-    TOKEN, Block, Line, Page, Para, Reference, Vocabulary, Word, align, attested, blocks,
+    TOKEN, Block, Line, Page, Para, Reference, Vocabulary, Word, align, attested, blocks, join_across,
 )
 from importers.ratification import clean_vocabulary, text_of_readings
 from tools.common import TEXTS_DIR, load_manifest, raw_path, write_json
@@ -48,7 +48,8 @@ from tools.pdf import pdf_words
 
 GRANULE_URL = "https://www.govinfo.gov/content/pkg/{package}/pdf/{granule}.pdf"
 MODS_URL = "https://www.govinfo.gov/metadata/pkg/{package}/mods.xml"
-IA_URL = "https://archive.org/download/{item}/{item}{suffix}"
+# (An item whose name ends "-redacted" names its files without it.)
+IA_URL = "https://archive.org/download/{item}/{prefix}{suffix}"
 GOVINFO_LICENSE = ("Public domain (a work of the United States Government, 17 U.S.C. 105). Scan and OCR text "
                    "layer as served by the U.S. Government Publishing Office, govinfo.gov.")
 IA_LICENSE = ("Public domain in the USA (the Congressional Record, {year}, a work of the United States "
@@ -83,6 +84,10 @@ class Session:
     year: int  # the volume's year, as govinfo names its packages
     columns: int
     microfilm: tuple[tuple[str, str], ...]  # (govinfo package, Internet Archive item)
+    # The later volumes (1932 on): headings without a full stop, the running
+    # head nearer the text. Rules for them apply only here, so the earlier
+    # works' text (and refs) stay as they are.
+    later: bool = False
 
     @property
     def edition(self) -> str:
@@ -109,6 +114,31 @@ SESSIONS = {
         ("GPO-CRECB-1918-pt1-v56", SIM + "december-03-1917-january-19-1918_56"),)),
     "1919": Session("1919", "66th Congress, 1st session", 58, 1919, 2, (
         ("GPO-CRECB-1919-pt1-v58", SIM + "may-19-june-12-1919_58"),)),
+    "1932": Session("1932", "72nd Congress, 1st session", 75, 1932, 2, later=True, microfilm=(
+        ("GPO-CRECB-1932-pt2-v75", SIM + "january-04-19-1932_75"),
+        ("GPO-CRECB-1932-pt4-v75", SIM + "february-08-24-1932_75"),
+        ("GPO-CRECB-1932-pt5-v75", SIM + "february-25-march-11-1932_75"))),
+    "1933": Session("1933", "72nd Congress, 2d session", 76, 1933, 2, later=True, microfilm=(
+        ("GPO-CRECB-1933-pt4-v76", SIM + "february-06-20-1933_76"),)),
+    "1947": Session("1947", "80th Congress, 1st session", 93, 1947, 3, later=True, microfilm=(
+        ("GPO-CRECB-1947-pt1", SIM + "january-3-february-24-1947_93"),
+        ("GPO-CRECB-1947-pt2", SIM + "february-26-march-28-1947_93"))),
+    "1960": Session("1960", "86th Congress, 2d session", 106, 1960, 3, later=True, microfilm=(
+        ("GPO-CRECB-1960-pt1", SIM + "january-6-1960-january-26-1960_106"),
+        ("GPO-CRECB-1960-pt2", SIM + "january-27-1960-february-16-1960_106"),
+        ("GPO-CRECB-1960-pt10", SIM + "june-14-1960-june-22-1960_106"))),
+    "1962": Session("1962", "87th Congress, 2d session", 108, 1962, 3, later=True, microfilm=(
+        ("GPO-CRECB-1962-pt3", SIM + "february-26-march-15-1962_108"),
+        ("GPO-CRECB-1962-pt4", SIM + "march-16-april-2-1962_108"),
+        ("GPO-CRECB-1962-pt13", SIM + "august-20-30-1962_108"))),
+    "1965": Session("1965", "89th Congress, 1st session", 111, 1965, 3, later=True, microfilm=(
+        ("GPO-CRECB-1965-pt3", SIM + "february-17-1965-march-4-1965_111"),
+        ("GPO-CRECB-1965-pt6", SIM + "april-7-1965-april-27-1965_111"),
+        ("GPO-CRECB-1965-pt7", SIM + "april-28-1965-may-10-1965_111"),
+        ("GPO-CRECB-1965-pt11", SIM + "june-22-1965-july-6-1965_111"))),
+    "1971": Session("1971", "92nd Congress, 1st session", 117, 1971, 3, later=True, microfilm=(
+        ("GPO-CRECB-1971-pt5", SIM + "march-9-16-1971_117_part-5-redacted"),
+        ("GPO-CRECB-1971-pt6", SIM + "march-17-25-1971_117_part-6-redacted"))),
 }
 
 
@@ -120,6 +150,9 @@ class Amendment:
     resolution: str  # "S. J. Res. 40"
     headings: tuple[str, ...]  # the subject headings, in letters ("taxesonincomes")
     subject: re.Pattern  # the joint resolution, as an item's first paragraphs name it
+    # (Later volumes) the subject heading as a pattern: a heading set over
+    # lines may be read in part ("AND MEMBERS OF CONGRESS", March 1, 1932).
+    heading: re.Pattern | None = None
 
 
 AMENDMENTS = {
@@ -138,6 +171,36 @@ AMENDMENTS = {
                   re.compile(r"J\W{0,3}\s*R\w{0,3}\W{0,3}\s*1\b|amendment\s+to\s+the\s+Constitution|joint\s+resolution"
                              r"|constitutional\s+amendment|suffrage\s+amendment", re.I)),
 }
+
+
+def _resolution(number: str) -> str:
+    """A joint resolution as an item names it ("S. J. Res. 14", "Senate
+    Joint Resolution 14"), with the amendment's own words."""
+    return (rf"J\W{{0,3}}\s*R\w{{0,3}}\W{{0,3}}\s*{number}\b|joint\s+resolution\s+(?:No\.?\s*)?{number}\b"
+            r"|amendment\s+to\s+the\s+Constitution|joint\s+resolution|constitutional\s+amendment")
+
+
+AMENDMENTS.update({
+    20: Amendment(20, "S. J. Res. 14", (), re.compile(_resolution("14"), re.I),
+                  re.compile(r"TERMS\W+OF\W+(?:THE\W+)?PRESIDENT|MEMBERS\W+OF\W+CONGRESS|JOINT\W+RESOLUTION\W+14\b", re.I)),
+    21: Amendment(21, "S. J. Res. 211", ("amendmentoftheconstitutionrepealofprohibition",
+                                         "amendmenttotheconstitutionrepealofprohibition"),
+                  re.compile(_resolution("211"), re.I),
+                  re.compile(r"REPEAL\W+OF\W+(?:THE\W+)?(?:PROH|EIGHTEENTH)", re.I)),
+    22: Amendment(22, "H. J. Res. 27", ("thepresidentialterm",), re.compile(_resolution("27"), re.I),
+                  re.compile(r"TERMS?\W+OF\W+OFFICE\W+OF\W+(?:THE\W+)?PRESIDENT|PRESIDENTIAL\W+TERM", re.I)),
+    23: Amendment(23, "S. J. Res. 39", ("fillingoftemporaryvacanciesinthehouseofrepresentatives",),
+                  re.compile(_resolution("39"), re.I),
+                  re.compile(r"TEMPORARY\W+VACANCIES|ELECTORAL\W+COLLEGE", re.I)),
+    24: Amendment(24, "S. J. Res. 29", (), re.compile(_resolution("29"), re.I),
+                  re.compile(r"TIONAL\W+(?:\.\W*)?MONUME|DEALING\W+WITH\W+POLL|^\W*QUALIFICATIONS\W+OF\W+ELECTORS\W*$|(?:ABOLI|ELIMINAT)\w*\W+(?:OF\W+)?(?:THE\W+)?POLL\W+TAX",
+                             re.I)),
+    25: Amendment(25, "S. J. Res. 1", (), re.compile(_resolution("1"), re.I),
+                  re.compile(r"PRESIDENTIAL\W+(?:AND\W+)?(?:VICE\W*PRESIDENTIAL\W+)?SUCCESSION|PRESIDENTIAL\W+INABILITY"
+                             r"|^\W*SUCCESSION\W+TO\W+THE\W+PRESIDENCY|REREFERRAL\W+OF\W+SENATE\W+JOINT\W+RESOLUTION\W+1\b", re.I)),
+    26: Amendment(26, "S. J. Res. 7", (), re.compile(_resolution("7"), re.I),
+                  re.compile(r"EXTENSION\W+OF\W+(?:THE\W+)?RIGHT\W+TO\W+VOTE|LOWERING\W+THE\W+VOTING\W+AGE", re.I)),
+})
 
 # The days the volume's History of Bills and Resolutions lists for each joint
 # resolution: (amendment, house, date, govinfo granule, the pages it gives for
@@ -204,6 +267,65 @@ DAYS: list[tuple[int, str, dt.date, str, str]] = [
     (19, "Senate", dt.date(1919, 5, 28), "GPO-CRECB-1919-pt1-v58-9-1", "343, 348"),
     (19, "Senate", dt.date(1919, 6, 3), "GPO-CRECB-1919-pt1-v58-14-1", "556, 561-571"),
     (19, "Senate", dt.date(1919, 6, 4), "GPO-CRECB-1919-pt1-v58-15-1", "615-635"),
+    # The Twentieth Amendment: S. J. Res. 14, 72nd Congress, 1st session (vol. 75).
+    (20, "Senate", dt.date(1932, 1, 6), "GPO-CRECB-1932-pt2-v75-3-1", "1368-1384"),
+    (20, "House", dt.date(1932, 2, 12), "GPO-CRECB-1932-pt4-v75-5-2", "3821-3843"),
+    (20, "House", dt.date(1932, 2, 13), "GPO-CRECB-1932-pt4-v75-6-1", "3850-3878, 3880"),
+    (20, "House", dt.date(1932, 2, 16), "GPO-CRECB-1932-pt4-v75-8-2", "4059-4060"),
+    (20, "Senate", dt.date(1932, 2, 17), "GPO-CRECB-1932-pt4-v75-9-1", "4115, 4118"),
+    (20, "House", dt.date(1932, 2, 17), "GPO-CRECB-1932-pt4-v75-9-2", "4192-4193"),
+    (20, "House", dt.date(1932, 2, 20), "GPO-CRECB-1932-pt4-v75-12-1", "4442"),
+    (20, "House", dt.date(1932, 3, 1), "GPO-CRECB-1932-pt5-v75-5-2", "5026-5027"),
+    (20, "Senate", dt.date(1932, 3, 2), "GPO-CRECB-1932-pt5-v75-6-1", "5084-5086"),
+    # The Twenty-first Amendment: S. J. Res. 211, 72nd Congress, 2d session (vol. 76).
+    (21, "Senate", dt.date(1933, 2, 13), "GPO-CRECB-1933-pt4-v76-7-1", "3961"),
+    (21, "Senate", dt.date(1933, 2, 14), "GPO-CRECB-1933-pt4-v76-8-1", "4001-4002, 4008, 4055"),
+    (21, "Senate", dt.date(1933, 2, 15), "GPO-CRECB-1933-pt4-v76-9-1", "4138-4179"),
+    (21, "Senate", dt.date(1933, 2, 16), "GPO-CRECB-1933-pt4-v76-10-1", "4215-4231"),
+    (21, "House", dt.date(1933, 2, 20), "GPO-CRECB-1933-pt4-v76-13-2", "4508-4529"),
+    # The Twenty-second Amendment: H. J. Res. 27, 80th Congress, 1st session (vol. 93).
+    (22, "House", dt.date(1947, 2, 6), "GPO-CRECB-1947-pt1-24-1", "841-872"),
+    (22, "Senate", dt.date(1947, 3, 3), "GPO-CRECB-1947-pt2-4-1", "1611"),
+    (22, "Senate", dt.date(1947, 3, 5), "GPO-CRECB-1947-pt2-6-1", "1680, 1704"),
+    (22, "Senate", dt.date(1947, 3, 7), "GPO-CRECB-1947-pt2-8-1", "1770, 1794"),
+    (22, "Senate", dt.date(1947, 3, 10), "GPO-CRECB-1947-pt2-9-1", "1818, 1862"),
+    (22, "Senate", dt.date(1947, 3, 12), "GPO-CRECB-1947-pt2-11-1", "1938-1939, 1944, 1965, 1977-1978"),
+    (22, "House", dt.date(1947, 3, 21), "GPO-CRECB-1947-pt2-18-2", "2389"),
+    # The Twenty-third Amendment: S. J. Res. 39, 86th Congress, 2d session (vol. 106).
+    (23, "Senate", dt.date(1960, 1, 26), "GPO-CRECB-1960-pt1-13-1", "1320"),
+    (23, "Senate", dt.date(1960, 1, 27), "GPO-CRECB-1960-pt2-1-1", "1380"),
+    (23, "Senate", dt.date(1960, 1, 28), "GPO-CRECB-1960-pt2-2-1", "1515, 1528"),
+    (23, "Senate", dt.date(1960, 1, 29), "GPO-CRECB-1960-pt2-3-1", "1598, 1619"),
+    (23, "Senate", dt.date(1960, 2, 2), "GPO-CRECB-1960-pt2-5-1", "1715, 1744, 1749, 1764"),
+    (23, "House", dt.date(1960, 6, 14), "GPO-CRECB-1960-pt10-1-2", "12571"),
+    (23, "Senate", dt.date(1960, 6, 16), "GPO-CRECB-1960-pt10-3-1", "12850"),
+    # The Twenty-fourth Amendment: S. J. Res. 29, 87th Congress, 2d session (vol. 108).
+    (24, "Senate", dt.date(1962, 3, 14), "GPO-CRECB-1962-pt3-11-2", "4150"),
+    (24, "Senate", dt.date(1962, 3, 15), "GPO-CRECB-1962-pt3-12-1", "4171, 4185, 4198, 4243"),
+    (24, "Senate", dt.date(1962, 3, 16), "GPO-CRECB-1962-pt4-1-1", "4363, 4377, 4380, 4408"),
+    (24, "Senate", dt.date(1962, 3, 19), "GPO-CRECB-1962-pt4-2-2", "4509, 4528"),
+    (24, "Senate", dt.date(1962, 3, 20), "GPO-CRECB-1962-pt4-3-1", "4547, 4551, 4559, 4567, 4575"),
+    (24, "Senate", dt.date(1962, 3, 21), "GPO-CRECB-1962-pt4-4-1", "4633, 4635, 4658, 4669"),
+    (24, "Senate", dt.date(1962, 3, 22), "GPO-CRECB-1962-pt4-5-2", "4791, 4807, 4810, 4828, 4843"),
+    (24, "Senate", dt.date(1962, 3, 23), "GPO-CRECB-1962-pt4-6-1", "4881, 4901, 4910, 4923"),
+    (24, "Senate", dt.date(1962, 3, 24), "GPO-CRECB-1962-pt4-7-1", "4937, 4959"),
+    (24, "Senate", dt.date(1962, 3, 26), "GPO-CRECB-1962-pt4-8-2", "5007, 5018, 5041, 5043"),
+    (24, "Senate", dt.date(1962, 3, 27), "GPO-CRECB-1962-pt4-9-1", "5072, 5080, 5088, 5102-5105"),
+    (24, "House", dt.date(1962, 8, 27), "GPO-CRECB-1962-pt13-7-1", "17654"),
+    # The Twenty-fifth Amendment: S. J. Res. 1, 89th Congress, 1st session (vol. 111).
+    (25, "Senate", dt.date(1965, 2, 18), "GPO-CRECB-1965-pt3-2-2", "3168"),
+    (25, "Senate", dt.date(1965, 2, 19), "GPO-CRECB-1965-pt3-3-1", "3231, 3245, 3250, 3261, 3264, 3286"),
+    (25, "House", dt.date(1965, 4, 13), "GPO-CRECB-1965-pt6-5-2", "7931, 7936-7969"),
+    (25, "Senate", dt.date(1965, 4, 22), "GPO-CRECB-1965-pt6-10-2", "8245-8246"),
+    (25, "House", dt.date(1965, 4, 28), "GPO-CRECB-1965-pt7-1-1", "8652"),
+    (25, "House", dt.date(1965, 6, 29), "GPO-CRECB-1965-pt11-6-2", "15126"),
+    (25, "House", dt.date(1965, 6, 30), "GPO-CRECB-1965-pt11-7-1", "15212"),
+    (25, "Senate", dt.date(1965, 6, 30), "GPO-CRECB-1965-pt11-7-2", "15378, 15381, 15392"),
+    (25, "Senate", dt.date(1965, 7, 6), "GPO-CRECB-1965-pt11-10-1", "15583, 15596"),
+    # The Twenty-sixth Amendment: S. J. Res. 7, 92nd Congress, 1st session (vol. 117).
+    (26, "Senate", dt.date(1971, 3, 9), "GPO-CRECB-1971-pt5-1-1", "5488, 5517, 5519, 5577"),
+    (26, "Senate", dt.date(1971, 3, 10), "GPO-CRECB-1971-pt5-2-1", "5802, 5814, 5816, 5830"),
+    (26, "House", dt.date(1971, 3, 23), "GPO-CRECB-1971-pt6-5-2", "7570"),
 ]
 
 
@@ -260,7 +382,8 @@ def cmd_fetch() -> None:
             sid = ia_id(package, what)
             if sid in have:
                 continue
-            add_source(sid, IA_URL.format(item=item, suffix=suffix), IA_LICENSE.format(year=session.year),
+            add_source(sid, IA_URL.format(item=item, prefix=item.removesuffix("-redacted"), suffix=suffix),
+                       IA_LICENSE.format(year=session.year),
                        f"Congressional Record (bound edition), vol. {session.volume}, the part govinfo calls "
                        f"{package}: Internet Archive item {item} (microfilm), {what}; used for consensus and "
                        "its page images.", ext=ext)
@@ -280,17 +403,21 @@ def printed_range(granule: str) -> tuple[int, int]:
     return int(m.group(1)), int(m.group(2))
 
 
-def to_page(leaf: int, width: float, height: float, words: list) -> Page:
+def to_page(leaf: int, width: float, height: float, words: list, later: bool = False, columns: int = 2) -> Page:
     """A page of the text layer as `importers.ocr` reads a scan: words in
     pixels at 300 dpi, put into lines by their baselines. A gap wider than
     one and a half times the type size (the gutter) ends a line, so that two
-    columns' lines at one height stay apart."""
+    columns' lines at one height stay apart. (In the later volumes, whose
+    gutters are narrower, so does a gap at a gutter between words whose
+    baselines differ: a heading in one column beside a line of the other.)"""
     ws = sorted(words, key=lambda w: (round(w.y), w.x))
     lines: list[list] = []
     for w in ws:
         last = lines[-1][-1] if lines else None
         if (last is not None and abs(last.y - w.y) <= max(1.0, 0.3 * w.size) and w.x >= last.x
-                and w.x - last.x1 < 1.5 * w.size):
+                and w.x - last.x1 < 1.5 * w.size
+                and not (later and w.x - last.x1 > 3 and abs(last.y - w.y) > 1.0
+                         and any(abs((last.x1 + w.x) / 2 / width - k / columns) < 0.06 for k in range(1, columns)))):
             lines[-1].append(w)
         else:
             lines.append([w])
@@ -306,7 +433,10 @@ def to_page(leaf: int, width: float, height: float, words: list) -> Page:
         head = max(w.size for ln in printed if ln[0].y <= top + 2 for w in ln)
         body = sorted(ln[0].y for ln in printed if ln[0].y > top + 0.5 * head)
         size = sorted(w.size for ln in printed for w in ln)[sum(len(ln) for ln in printed) // 2]
-        if top < 0.15 * height and body and body[0] - top > 2.2 * size:
+        row = " ".join(w.text for ln in printed if ln[0].y <= top + 0.5 * head for w in ln)
+        # (Nearer the text in later volumes, 1932: then it must read as a head.)
+        gap = 1.6 * size if later and RUNNING_HEAD.search(row) else 2.2 * size
+        if top < 0.15 * height and body and body[0] - top > gap:
             lines = [ln for ln in lines if ln[0].y > top + 0.5 * head]
     page = Page(leaf, int(width * SCALE), int(height * SCALE))
     for ln in lines:
@@ -316,6 +446,7 @@ def to_page(leaf: int, width: float, height: float, words: list) -> Page:
     return page
 
 
+RUNNING_HEAD = re.compile(r"(?i)C\W*O\W*N\W*G\W*R|R\W*E\W*C\W*O\W*R\W*D\W*[-—]|\b\d{3,5}\b")
 SIGNATURE = re.compile(r"^\W*[XLVIC1l]{2,7}\W{1,4}\d{1,4}\W*$")
 
 
@@ -325,7 +456,8 @@ def granule_words(granule: str) -> tuple:
 
 
 def granule_pages(granule: str) -> tuple[Page, ...]:
-    return tuple(to_page(k, p.width, p.height, p.words) for k, p in enumerate(granule_words(granule), 1))
+    session = session_of(granule)
+    return tuple(to_page(k, p.width, p.height, p.words, session.later, session.columns) for k, p in enumerate(granule_words(granule), 1))
 
 
 def granule_heads(granule: str) -> tuple[str, ...]:
@@ -339,6 +471,7 @@ def granule_blocks(granule: str, columns: int) -> tuple[Block, ...]:
     Its pages follow the printed pages in order; the running head of most
     pages must give the page's number."""
     first, last = printed_range(granule)
+    session = session_of(granule)
     pages = granule_pages(granule)
     heads = granule_heads(granule)
     _expect(len(pages) == last - first + 1, f"{granule}: {len(pages)} pages for pp. {first}-{last}")
@@ -354,14 +487,64 @@ def granule_blocks(granule: str, columns: int) -> tuple[Block, ...]:
             left, right = body_span(page)
             if right - left < 0.6 * page.width:
                 cs = split_columns(page, set(), 1)
+            elif session.later:
+                # (Later volumes: a page whose text layer runs nearly every
+                # line across the narrow gutters is split where equal
+                # columns would be.)
+                cs = split_columns(page, set(), columns, reference=True)
         _expect(cs is not None, f"{granule}, p. {number}: not read as {columns} columns")
         for col in cs:
-            col.paras = paragraphs(col, refined=True)
+            col.paras = paragraphs(col, refined=True, capitals=session.later)
             mark_notes(col)
             col.folio = col.number = str(number)
         cols.extend(cs)
     _expect(read >= 0.5 * len(pages), f"{granule}: only {read} of {len(pages)} running heads give the page")
-    return tuple(rejoin(blocks(cols)))
+    bs = rejoin(blocks(cols))
+    if session_of(granule).later:
+        bs = join_headings(bs)
+    return tuple(bs)
+
+
+def join_headings(bs: list[Block]) -> list[Block]:
+    """A heading set over two lines ("FIXING TERMS OF PRESIDENT, VICE
+    PRESIDENT, AND MEM- / BERS OF CONGRESS, ETC.", February 12, 1932) is one
+    heading: in the later volumes a heading has no full stop to end it, so
+    two headings in capitals one after the other are joined (not a house's
+    name over its dateline)."""
+    out: list[Block] = []
+    for k, b in enumerate(bs):
+        prev = out[-1] if out else None
+        # (Or its last word or two, read as text: "… FOOT-AND-MOUTH DISEASE AND
+        # RINDER- / PEST", March 21, 1947; "… WISCONSIN-CONFERENCE / REPORT"
+        # over an item's opening, March 22, 1962.)
+        broken = (prev is not None and prev.heading and not b.heading and prev.kind == b.kind == "text"
+                  and capitals(b.text)
+                  and ((len(b.text.split()) <= 5 and bool(re.search(r"[A-Z][-\xad]$", prev.text.rstrip())))
+                       or (len(b.text.split()) <= 2 and k + 1 < len(bs) and opens_item(bs[k + 1], True))))
+        if (prev is not None and (broken or prev.heading and b.heading) and prev.kind == b.kind == "text"
+                and capitals(prev.text) and not house_of(prev) and not house_of(b)
+                and (capitals(b.text)  # (or a year: "COMMUNICATIONS SATELLITE ACT / OF 1962")
+                     or (len(b.text.split()) <= 3 and bool(re.search(r"\d{4}", b.text))
+                         and not re.search(r"[a-z]", b.text)))
+                and not SIGNED_LATER.match(prev.text) and not SIGNED_LATER.match(b.text)
+                # (not a signature, "RICHARD NIXON.", or a place and date)
+                and not (prev.text.rstrip().endswith(".")
+                         and (len(prev.text.split()) <= 3 or bool(PLACE_DATE_LATER.search(prev.text))))
+                and not any(SPEAKER.match(t) or re.match(r"\W*M\w{0,2}\W{0,3}\s", t) for t in (prev.text, b.text))
+                and len(prev.text.split()) + len(b.text.split()) <= 32):
+            prev.text = join_across(prev.text, b.text)
+            for leaf, folio in zip(b.leaves, b.folios):
+                if leaf not in prev.leaves:
+                    prev.leaves.append(leaf)
+                    prev.folios.append(folio)
+            continue
+        out.append(b)
+    return out
+
+
+def capitals(text: str) -> bool:
+    cased = [c for c in text if c.isalpha()]
+    return len(cased) >= 3 and sum(c.isupper() for c in cased) >= 0.75 * len(cased)
 
 
 # ------------------------------------------------------------ items
@@ -378,6 +561,20 @@ INNER = re.compile(r"^\W*(?:YEAS|NAYS|NOT\s+VOTING|ANSWERED|PAIRED|PAIRS|GENERAL
                    # (An article without its number, as OCR reads it: "ARl:ICLE -,", "ARTICLJ: -.")
                    r"|^\W*A\S{4,8}\s*[-—–]\W*$", re.I)
 
+# (Later volumes) headings printed inside an item: a conference report and
+# the managers' statement, an amendment offered, a quorum call.
+# (Later volumes) the openings of routine items, which end an item even when
+# OCR lost their heading: "By unanimous consent, the following routine
+# business was transacted:", "A message from the House of Representatives,
+# by Mr. Bartlett, one of its reading clerks, …".
+LATER_ROUTINE = re.compile(r"\W*(?:By\s+unanimous\s+consent,\s+the\s+following\s+routine\s+business"
+                           r"|A\s+message\s+from\s+the\s+(?:House\s+of\s+Representatives|Senate),\s+by\s+Mr)")
+LATER_INNER = re.compile(r"^\W*(?:CONFERENCE\s+REPORT(?:\s*\(REPORT\s+No\.?\s*\d+\))?|STATEMENT"
+                         r"|AMENDMENTS?\s+O\S{5,9}\s+BY\s+.{2,40}|MOTION\s+TO\s+RECOMMIT(?:\s+O\S{5,9}\s+BY\s+.{2,40})?"
+                         # (the debate goes on after these, under no heading of its own)
+                         r"|QUORUM\s+CALL|PARLIAMENTARY\s+INQUIRY|AMENDMENTS?\s+NOS?\.?\s*\d+(?:[,\s]+(?:AND\s+)?\d+)*)\W*$",
+                         re.I)
+
 # Headings other than the subject under which a house took the joint
 # resolution up on a day the index lists, in letters.
 EXTRA_HEADINGS: dict[tuple[str, dt.date], tuple[str, ...]] = {
@@ -392,6 +589,16 @@ EXTRA_HEADINGS: dict[tuple[str, dt.date], tuple[str, ...]] = {
     # The debate on the Journal's record of the Vice President's vote on the
     # Bristow amendment.
     ("Senate", dt.date(1911, 6, 13)): ("thejournalvoteofthevicepresident",),
+    # The heading "AMENDMENT TO THE CONSTITUTION RELATING TO TERMS OF OFFICE OF
+    # THE PRESIDENT" with its first and last lines read apart from it.
+    ("House", dt.date(1947, 2, 6)): ("totheconstitutionrelatingtotermsofofficeofthe",),
+    # The heading of the joint resolution's item where OCR garbled the
+    # paragraphs that name it ("The Senate resumed the , considera tioo. €>f
+    # tliHr motion …").
+    ("Senate", dt.date(1962, 3, 26)): ("thealexanderhamiltonnationalmonumentamendmenttotheconstitutiondealingwithpolltaxes",),
+    # The House's amendment laid before the Senate.
+    ("Senate", dt.date(1965, 4, 22)): ("amendmenttotheconstitutionoftheunitedstatesrelatingtothesuccession"
+                                       "ofthepresidencyandvicepresidency",),
     # Rucker's request to lay the joint resolution before the House.
     ("House", dt.date(1912, 5, 13)): ("orderofbusiness",),
     # Kitchin's request to set the time of the vote.
@@ -409,6 +616,9 @@ ELSEWHERE: dict[tuple[str, dt.date], dict[int, str]] = {
         p: "the index's range (5543-5560) runs over the items before the Senate resumed the joint resolution: the "
            "order of business, the motion to take up the migratory-bird treaty bill (S. 1553) and its roll calls"
         for p in range(5543, 5548)},
+    ("Senate", dt.date(1932, 1, 6)): {
+        p: "the index's range (1368-1384) runs over the election of a President pro tempore"
+        for p in range(1369, 1372)},
 }
 
 # Where a house took the joint resolution up inside an item on other
@@ -434,6 +644,31 @@ INSIDE: dict[tuple[str, dt.date], list[tuple[re.Pattern, re.Pattern | None]]] = 
 # joint resolution was before the Senate, until the executive session.)
 RUNS_TO: dict[tuple[str, dt.date], int] = {
     ("Senate", dt.date(1911, 5, 16)): 1229,
+    # Extended remarks printed under the leave to extend them.
+    ("House", dt.date(1932, 2, 13)): 3882,
+    # The colloquies during Sheppard's speech, printed after it, to the recess.
+    ("Senate", dt.date(1933, 2, 14)): 4061,
+    # (From 1947 the index gives the page each day's debate begins on; these
+    # run to the recess.)
+    ("Senate", dt.date(1947, 3, 7)): 1807,
+    ("Senate", dt.date(1947, 3, 10)): 1868,
+    ("House", dt.date(1947, 3, 21)): 2392,
+    ("Senate", dt.date(1960, 1, 27)): 1383,
+    ("Senate", dt.date(1960, 1, 28)): 1541,
+    ("Senate", dt.date(1960, 1, 29)): 1624,
+    ("Senate", dt.date(1960, 6, 16)): 12858,
+    ("Senate", dt.date(1962, 3, 14)): 4155,
+    ("Senate", dt.date(1962, 3, 15)): 4246,
+    ("Senate", dt.date(1962, 3, 19)): 4533,
+    ("Senate", dt.date(1962, 3, 16)): 4410,
+    ("Senate", dt.date(1962, 3, 20)): 4588,
+    ("Senate", dt.date(1962, 3, 21)): 4673,
+    ("Senate", dt.date(1962, 3, 22)): 4848,
+    ("Senate", dt.date(1962, 3, 23)): 4929,
+    ("Senate", dt.date(1962, 3, 24)): 4975,
+    ("House", dt.date(1962, 8, 27)): 17670,
+    ("Senate", dt.date(1965, 2, 19)): 3286,
+    ("House", dt.date(1965, 6, 30)): 15216,
 }
 
 # Headings inside an item that stay in it (a speech printed in sections), in letters.
@@ -441,6 +676,38 @@ SPEECH_HEADINGS: dict[tuple[str, dt.date], tuple[str, ...]] = {
     ("House", dt.date(1911, 4, 13)): ("publicconfidenceinsenateshaken", "federalcontrol"),  # Hobson's speech
     ("Senate", dt.date(1911, 6, 12)): ("incometax",),  # Stone's speech
     ("House", dt.date(1917, 12, 17)): ("samuelgompers",),  # the signature of a letter quoted in part
+    ("House", dt.date(1960, 6, 14)): ("thescurrilousoberdorferpincusarticles",),  # Walter, speaking out of order
+    ("House", dt.date(1962, 8, 27)): ("polltaxisantivotingrequirementandshouldbeabolished",),  # Boland's speech
+    ("Senate", dt.date(1965, 2, 19)): ("unanimousconsentagreement",),  # on the time of the vote
+}
+
+# Pages on which an item's headings are the sections of a speech in it
+# (Sheppard's account of the League of Nations, read against the motion to
+# take the joint resolution up, February 14, 1933).
+SPEECH_PAGES: dict[tuple[str, dt.date], tuple[tuple[int, int], ...]] = {
+    ("Senate", dt.date(1933, 2, 14)): ((4008, 4052),),
+    # Sabath's speech on the rule, in sections, February 6, 1947.
+    ("House", dt.date(1947, 2, 6)): ((841, 842), (854, 854)),  # and Gore's
+    # Robertson's speech on the Court's reading of article I, in sections.
+    ("Senate", dt.date(1960, 1, 28)): ((1536, 1540),),
+    # Robertson's again, March 21, 1962.
+    ("Senate", dt.date(1962, 3, 21)): ((4641, 4644),),
+    # Fulbright's survey of the States' poll taxes, by State, and the debate on it.
+    ("Senate", dt.date(1962, 3, 22)): ((4828, 4839),),
+    # Douglas's, in numbered sections, and the vote on the Javits amendment.
+    ("Senate", dt.date(1962, 3, 27)): ((5097, 5101),),
+    # Celler's speech in sections, a call of the House, and the debate on
+    # H. J. Res. 223, before S. J. Res. 7 was passed in its place.
+    ("House", dt.date(1971, 3, 23)): ((7532, 7569),),
+    # Statements printed in the debate under headings of their own, before the
+    # vote ("RESUMPTION OF PROCEEDINGS").
+    ("Senate", dt.date(1971, 3, 10)): ((5818, 5829),),
+}
+
+# Headings that begin another item though OCR read no opening after them, in
+# letters: matter printed "During the delivery of Mr. SHEPPARD's speech".
+OTHER_HEADINGS: dict[tuple[str, dt.date], tuple[str, ...]] = {
+    ("Senate", dt.date(1933, 2, 14)): ("addressbythepresidentoftheunitedstates",),
 }
 
 
@@ -453,7 +720,7 @@ class Item:
     body: list[Block]
 
 
-def is_heading(b: Block, nxt: Block | None) -> bool:
+def is_heading(b: Block, nxt: Block | None, later: bool = False) -> bool:
     """An item heading: a line set as a heading, in capitals, before an
     item's opening (a speaker,
     a message, the business taken up). A heading followed by more of a
@@ -464,29 +731,33 @@ def is_heading(b: Block, nxt: Block | None) -> bool:
     OCR reads "Mr.")."""
     t = b.text.strip()
     cased = [c for c in t if c.isalpha()]
-    return (b.kind == "text" and b.heading and 1 <= len(t.split()) <= 16 and len(cased) >= 3
+    return (b.kind == "text" and b.heading and 1 <= len(t.split()) <= (32 if later else 16) and len(cased) >= 3
             and sum(c.isupper() for c in cased) >= 0.75 * len(cased)
             and not SPEAKER.match(t) and not re.match(r"\W*M\w{0,2}\W{0,3}\s", t)
             and not re.search(r"[A-Z0-9'’]{2,}\.\s+(?:\S+\s+)?\S*[a-z]", t)
             and not re.search(r"[\[\]]", t) and not t.endswith(":") and not re.match(r"\W*By\s", t)
-            and not SIGNED.match(t) and not PLACE_DATE.search(t)
-            and nxt is not None and opens_item(nxt))
+            and not SIGNED.match(t) and not (PLACE_DATE_LATER if later else PLACE_DATE).search(t)
+            and not (later and re.match(r"\W*(?:Hon|Dr|Rev|Gen|Col|Adm)\.\s", t))  # a letter's address
+            and nxt is not None and opens_item(nxt, later))
 
 
 
-def opens_item(b: Block) -> bool:
+def opens_item(b: Block, later: bool = False) -> bool:
     """How an item's first paragraph opens (`globe.ITEM_START`), or a
     speaker's name in capitals after a short first word OCR may misread
     ("Tbe VICE-PRESIDENT.", "1\\Ir. BORAH."); not a speech going on ("Mr.
     Speaker, this brings me to …"), nor a letter's place and date ("IOLA,
-    KANS., January 5, 1917.")."""
+    KANS., January 5, 1917."; in the later volumes, a date in a paragraph
+    that opens as an item does is no letter's: "The Secretary of the Senate
+    reported that on today, March 14, 1962, …")."""
     cased = [c for c in b.text if c.isalpha()]
     capitals = (bool(cased) and sum(c.isupper() for c in cased) >= 0.75 * len(cased)  # another heading line
                 and not b.text.rstrip().endswith(":"))
     return ((bool(ITEM_START.match(b.text)) or bool(re.match(r"\W*\S{1,6}\s+[A-Z][A-Z'’-]{2,}", b.text))
              or bool(re.match(r"\W*By\s+\S{1,6}(?:\s?\.)?\s+[A-Z]{3}", b.text))  # "By Mr. SMOOT:" (bills introduced)
              or bool(OPENING.match(b.text)) or bool(ROUTINE.match(b.text)))
-            and not ADDRESS.match(b.text) and not capitals and not PLACE_DATE.search(b.text[:60])
+            and not ADDRESS.match(b.text) and not capitals
+            and not (PLACE_DATE.search(b.text[:60]) and not (later and ITEM_START.match(b.text)))
             and not PLACE.match(b.text))
 
 
@@ -494,10 +765,15 @@ def opens_item(b: Block) -> bool:
 # it was written ("PORTLAND, OREG., July 30."), printed in the debate.
 SIGNED = re.compile(r"^\W*(?:[A-Z][A-Za-z]{0,4}\s?\.\s*){1,3}[A-Z][A-Za-z'’-]+[.,]?\W*$")
 # A letter's closing, before its signature ("Very truly, yours,").
+# (Later volumes) a signature with a first name ("EVERETT S. BROWN.", read
+# "EVERETT s. BRowN.").
+SIGNED_LATER = re.compile(r"^\W*[A-Z][A-Za-z]{1,10}\s+[A-Za-z]\s?\.\s*[A-Z][A-Za-z'’-]+[.,]?\W*$")
 # A letter's place ("TROY, KANS., Fe1JrtUJry 5, W11.").
 PLACE = re.compile(r"^\W*[A-Z][\w.'’ -]{1,25},\s+[A-Z][A-Za-z]{1,6}\.?,\s")
 CLOSING = re.compile(r"(?i)(?:yours|truly|respectfully|sincerely|remain|obedient\s+servant)\W*$")
 PLACE_DATE = re.compile(r"(?i)\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\W{0,2}\s*\d|\b1[89]\d\d\W*$")
+# (Later volumes: a heading may end in a year, "… APPROPRIATION BILL, 1948".)
+PLACE_DATE_LATER = re.compile(r"(?i)\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\W{0,2}\s*\d")
 
 # The business taken up after a first word OCR garbled ("'l'he Sen:at-e, ;as
 # in :Committee of the Whole").
@@ -509,8 +785,9 @@ ROUTINE = re.compile(r"\W*(?:Bills\s+(?:and\s+joint\s+resolutions\s+)?were|Under
 ADDRESS = re.compile(r"\W*M\w{0,2}\W{0,3}\s*(?:Speaker|President|Chairman)\b")
 
 
-def named_heading(b: Block, names: tuple[str, ...]) -> bool:
-    return any(like(b.text, n) or like(b.text, n + "again") for n in names)
+def named_heading(b: Block, names: tuple[str, ...], pattern: re.Pattern | None = None) -> bool:
+    return (any(like(b.text, n) or like(b.text, n + "again") for n in names)
+            or (pattern is not None and bool(pattern.search(b.text))))
 
 
 def like(text: str, name: str, floor: float = 0.75) -> bool:
@@ -562,13 +839,26 @@ def day_items(number: int, house: str, date: dt.date, granule: str, pages: str) 
     session = session_of(granule)
     amendment = AMENDMENTS[number]
     bs = list(granule_blocks(granule, session.columns))
-    start = next((k for k, b in enumerate(bs[:-1]) if house_of(b) == house and is_dateline(bs[k + 1], date)), None)
+    start = None
+    if session.later:
+        # (Later volumes: the day's masthead, in display type, is often not
+        # read, and a letter's "HOUSE OF REPRESENTATIVES, / Washington, D.C.,
+        # March 23, 1971." would pass for it: the day begins where the house
+        # met.)
+        name = "Senate" if house == "Senate" else "House"
+        first = int(bs[0].folios[0]) if bs else 0
+        start = next((k - 2 for k, b in enumerate(bs) if re.match(rf"\W*The\s+{name}\s+met\s+at\b", b.text)
+                      and int(b.folios[0]) <= first + 2), None)
+    if start is None:
+        start = next((k for k, b in enumerate(bs[:-1]) if house_of(b) == house and is_dateline(bs[k + 1], date)), None)
     if start is None:
         # (The house's name not read, July 31, 1917: the dateline alone.)
         start = next((k - 1 for k, b in enumerate(bs) if k and b.heading and is_dateline(b, date)), None)
     _expect(start is not None, f"{house} {date}: the house's heading and dateline are not in {granule}")
     names = amendment.headings + EXTRA_HEADINGS.get((house, date), ())
     inner = SPEECH_HEADINGS.get((house, date), ())
+    speech = SPEECH_PAGES.get((house, date), ())
+    others = OTHER_HEADINGS.get((house, date), ())
     found: set[str] = set()
     out: list[Item] = []
     current: Item | None = None
@@ -594,24 +884,42 @@ def day_items(number: int, house: str, date: dt.date, granule: str, pages: str) 
         # (So is one after a letter's closing, its signature; one after a
         # paragraph ending in a colon, which introduces a quotation; or one
         # before a letter's place and date, "ALLEN COUNTY." over "IOLA, KANS.,
-        # January 5, 1917.", July 31, 1917.)
+        # January 5, 1917.", July 31, 1917; in the later volumes, one under a
+        # signature, "EVERETT s. BRowN." over "UNIVERSITY OF MlcmGAN,", January
+        # 6, 1932.)
         # (Nor is the end of a paragraph that stops on "from" or "the": "… the
         # gentleman from / [Mr. MONDELL].", May 21, 1919.)
-        if re.search(r"\b(?:from|the|of|to|and|by|for|with|in)\s*$", bs[k - 1].text) and not named_heading(b, names):
+        if re.search(r"\b(?:from|the|of|to|and|by|for|with|in)\s*$", bs[k - 1].text) and not named_heading(b, names, amendment.heading):
             if current is not None:
                 current.body.append(b)
             continue
         document = current is not None and (bool(re.match(r"\s*\[[^\]]*\]\W*$", bs[k - 1].text))
                                             or bool(CLOSING.search(bs[k - 1].text[-40:]))
                                             or bs[k - 1].text.rstrip().endswith(":")
-                                            or (k + 1 < len(bs) and (bool(PLACE_DATE.search(bs[k + 1].text[:60]))
+                                            or (session.later and bool(SIGNED_LATER.match(bs[k - 1].text)))
+                                            # (later: or under a letter's date, "Washington, D.C., March 6, 1962.")
+                                            or (session.later and len(bs[k - 1].text) < 60
+                                                and bool(PLACE_DATE_LATER.search(bs[k - 1].text)))
+                                            or (k + 1 < len(bs) and (bool(PLACE_DATE.search(bs[k + 1].text[:60])
+                                                                          and not (session.later and ITEM_START.match(bs[k + 1].text)))
                                                                       or bool(PLACE.match(bs[k + 1].text)))))
         # (A heading of the subject, or one listed for the day, is an item's
         # heading even before an opening OCR garbled past recognizing.)
-        named = (b.kind == "text" and b.heading and not document and len(b.text.split()) <= 16
-                 and any(like(b.text, n) or like(b.text, n + "again") for n in names))
-        if (named or is_heading(b, bs[k + 1] if k + 1 < len(bs) else None)) and not INNER.match(b.text) and not document:
-            if current is not None and named and not is_heading(b, bs[k + 1] if k + 1 < len(bs) else None):
+        named = (b.kind == "text" and b.heading and not document and len(b.text.split()) <= (32 if session.later else 16)
+                 and named_heading(b, names, amendment.heading))
+        other = b.kind == "text" and b.heading and any(like(b.text, h) for h in others)
+        if session.later and current is not None and not b.heading and LATER_ROUTINE.match(b.text):
+            current = None
+            continue
+        if current is not None and any(lo <= int(b.folios[0]) <= hi for lo, hi in speech):
+            current.body.append(b)
+            continue
+        # (Later: a heading of the subject OCR reads with a quote first, "'r.HE
+        # ALEXANDER HAMILTON …", is not a quotation.)
+        inner_ = INNER.match(b.text) and not (session.later and named and INNER.match(b.text).group(0).strip() in "\"“'‘")
+        if ((named or other or is_heading(b, bs[k + 1] if k + 1 < len(bs) else None, session.later)) and not inner_
+                and not document and not (session.later and LATER_INNER.match(b.text))):
+            if current is not None and named and not is_heading(b, bs[k + 1] if k + 1 < len(bs) else None, session.later):
                 # (The title of a document printed in the item, which repeats
                 # the subject: "NATIONAL CONTROL OVER ELECTION OF SENATORS.",
                 # over the minority's views, May 22, 1911.)
@@ -812,19 +1120,23 @@ def build(house: str, session: Session, amendment: Amendment, its: list[Item], r
 
 
 def run(out_dir: Path = TEXTS_DIR) -> list[Path]:
-    known = Vocabulary(clean_vocabulary())
+    # (The words the scans attest are counted apart for the volumes of 1909-19
+    # and those from 1932, so that adding the one does not change the other.)
+    clean = clean_vocabulary()
+    known = {False: Vocabulary(clean), True: Vocabulary(clean)}
     groups: dict[tuple[int, str, str], list[Item]] = {}
     for number, house, date, granule, pages in DAYS:
         groups.setdefault((number, house, session_of(granule).key), []).extend(
             day_items(number, house, date, granule, pages))
     readings: dict[int, list[dict]] = {}
-    for its in groups.values():
-        readings.update(prepare(its))
-    for r in readings.values():
-        known.attest(attested(r))
+    for (_, _, key), its in groups.items():
+        rs = prepare(its)
+        readings.update(rs)
+        for r in rs.values():
+            known[SESSIONS[key].later].attest(attested(r))
     paths = []
     for (number, house, key), its in groups.items():
-        work = build(house, SESSIONS[key], AMENDMENTS[number], its, readings, known)
+        work = build(house, SESSIONS[key], AMENDMENTS[number], its, readings, known[SESSIONS[key].later])
         path = out_dir / f"{work['id']}.json"
         write_json(path, work)
         paths.append(path)
