@@ -1,0 +1,41 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 6 pages"
+  ],
+  "conan_citation": "Colegrove v. Green, 328 U.S. 549 (1946)",
+  "courtlistener_date": "1946-10-28",
+  "courtlistener_name": "Colegrove v. Green",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104311/colegrove-v-green/",
+  "date": "1946-06-10",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104311. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 328, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104311",
+  "loc_url": "https://www.loc.gov/item/usrep328549/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep328/usrep328549/usrep328549.pdf",
+  "ref_prefix": "Case.104311",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Colegrove v. Green, syllabus ¶ 1",
+      "page": 549,
+      "ref": "Case.104311.syllabus.1",
+      "text": "Three persons who were qualified to vote in congressional districts of Illinois which have much larger populations than other congressional districts of that State, brought suit in a Federal District Court in Illinois, under the Declaratory Judgment Act, to restrain officers of the State from arranging for an election, in which members of Congress were to be chosen, pursuant to provisions of an - Illinois law of 1901 governing congressional districts. The complaint alleged that, by reason of later changes in population, the congressional districts, created by the Illinois law lacked compactness of territory and approxim4te equality of population; and prayed a decree, with incidental relief, declaring the provisions of the state law invalid as in violation of various provisions of the Federal Constitution and in conflict with the Reapportionment Act of 1911, as amended. The District Court dismissed the complaint. Held, dismissal of the complaint is affirmed. Pp. 550- 551,556."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Colegrove v. Green, syllabus ¶ 2",
+      "page": 549,
+      "ref": "Case.104311.syllabus.2",
+      "text": "64 F. Supp. 632, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-328-549"
+  ],
+  "title": "Colegrove v. Green",
+  "us_cite": "328 U.S. 549"
+}

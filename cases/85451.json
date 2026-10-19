@@ -1,0 +1,28 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.11 (4 pages)",
+    "cited on 14 pages",
+    "overruled (table of overruled decisions) and cited on 14 pages"
+  ],
+  "conan_citation": "Osborn v. Bank of the United States, 22 U.S. (9 Wheat.) 738 (1824)",
+  "courtlistener_name": "Osborn v. Bank of United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/85451/osborn-v-bank-of-united-states/",
+  "date": "1824-03-19",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 85451. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 22, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "85451",
+  "loc_url": "https://www.loc.gov/item/usrep022738/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep022/usrep022738/usrep022738.pdf",
+  "ref_prefix": "Case.85451",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-22-738"
+  ],
+  "syllabus_note": "Volume 22 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Osborn v. Bank of the United States",
+  "us_cite": "22 U.S. 738"
+}

@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Adler v. Board of Education, 342 U.S. 485 (1952)",
+  "courtlistener_name": "Adler v. Board of Ed. of City of New York",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104974/adler-v-board-of-ed-of-city-of-new-york/",
+  "date": "1952-03-03",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104974. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 342, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104974",
+  "loc_url": "https://www.loc.gov/item/usrep342485/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep342/usrep342485/usrep342485.pdf",
+  "ref_prefix": "Case.104974",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Adler v. Board of Education, syllabus ¶ 1",
+      "page": 485,
+      "ref": "Case.104974.syllabus.1",
+      "text": "The Civil Service Law of New York, § 12-a, makes ineligible for employment in any public school any nember of any organization advocating the overthrow of the Government by force, violence or any unlawful means. Section 3022 of the Education Law, added by the Feinberg Law, requires the Board of Regents (1) to adopt and enforce rules for the removal of any employee who violates, or is ineligible under, § 12-a, (2) to promulgate a list of organizations described in § 12-a, and (3) to provide in its rules that membership in any organization so listed is prima facie evidence of disqualification for employment in the public schools. No organization may be so listed, and no person severed from or denied employment, except after a hearing and subject. to judicial review. Held.: This Court finds no constitutional infirmity in § 12-a of the Civil Service Law of New Ydrk or in § 3022 of the Education Law. Pp. 486-496."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Adler v. Board of Education, syllabus ¶ 2",
+      "page": 485,
+      "ref": "Case.104974.syllabus.2",
+      "text": "1. Section 3022 and the rules promulgated thereunder do not constitute an abridgment of the freedom of speech and assembly of persons employed or seeking employment in the public schools of New York. Garner v. Los Angeles Board, 341 U. S. 716. Pp. 491-493."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Adler v. Board of Education, syllabus ¶ 3",
+      "page": 485,
+      "ref": "Case.104974.syllabus.3",
+      "text": "2. The provision of § 3022 directing the Board of Regents to provide in rules thereunder that membership in any organization so listed by the Board shall constitute prima facie evidence of disqualification for employment in the public schools does not deny members of such organizations due process of law. Pp. 494-496."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Adler v. Board of Education, syllabus ¶ 4",
+      "page": 485,
+      "ref": "Case.104974.syllabus.4",
+      "text": "'"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Adler v. Board of Education, syllabus ¶ 5",
+      "page": 485,
+      "ref": "Case.104974.syllabus.5",
+      "text": "3. The use of the word \"subversive in § 1 of the Feinberg Law, which is a preamble and not a definitive part of the Act, does not render the statute void for vagueness under the Due Process Clause, in view of the fact that in subdivision 2 of § 3022 it is given a very definite meaning-i. e., an organization that advocates the overthrow of government by force or violence. P. 496."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Adler v. Board of Education, syllabus ¶ 6",
+      "page": 485,
+      "ref": "Case.104974.syllabus.6",
+      "text": "4. The constitutionality of § 3021 of the Education Law not having been questioned in the, proceedings in the lower courts and being raised here for the first time, it will not be passed upon by this Court before the state courts have had an opportunity to pass upon it. P. 496."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Adler v. Board of Education, syllabus ¶ 7",
+      "page": 485,
+      "ref": "Case.104974.syllabus.7",
+      "text": "301 N. Y. 476, 95 N. E. 2d 806, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-342-485"
+  ],
+  "title": "Adler v. Board of Education",
+  "us_cite": "342 U.S. 485"
+}

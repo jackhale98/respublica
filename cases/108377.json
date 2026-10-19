@@ -1,0 +1,83 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt4.7 (4 pages)",
+    "cited on 12 pages"
+  ],
+  "conan_citation": "Coolidge v. New Hampshire, 403 U.S. 443 (1971)",
+  "courtlistener_name": "Coolidge v. New Hampshire",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/108377/coolidge-v-new-hampshire/",
+  "date": "1971-06-21",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 108377. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 403, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "108377",
+  "loc_url": "https://www.loc.gov/item/usrep403443/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep403/usrep403443/usrep403443.pdf",
+  "ref_prefix": "Case.108377",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Coolidge v. New Hampshire, syllabus ¶ 1",
+      "page": 443,
+      "ref": "Case.108377.syllabus.1",
+      "text": "Police went to petitioner's home on January 28, 1964, to question him about a murder. In the course of their inquiry he showed them three guns; and he agreed to take a lie-detector test on February 2. The test was inconclusive on the murder but during its course petitioner admitted a theft. In petitioner's absence, two other policemen came to the house and questioned petitioner's wife to check petitioner's story and corroborate his admission of the theft. Unaware of the visit of the other officers who had been shown the guns and knowing little about the murder weapon, the police asked about any guns there might be in the house and were shown four by petitioner's wife which she offered to let them take. After one policeman first declined the offer, they took the guns, along with various articles of petitioner's clothing his wife made available to them. On February 19, petitioner was arrested in his house for the murder and on that date a warrant to search petitioner's automobile was applied for by the police chief and issued by the Attorney General (who had assumed charge of the investigation and was later the chief prosecutor at the trial), acting as a justice of the peace. The car, which at the time of the arrest was parked in petitioner's driveway, was subsequently towed to the police station, where on February 21 and on two occasions the next year it was searched. Vacuum sweepings from the car as well as from the clothing were used as evidence at the trial, along with one of the guns made available by petitioner's wife. Following the overruling of pretrial motions to suppress that evidence, petitioner was convicted, and the State Supreme Court affirmed. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coolidge v. New Hampshire, syllabus ¶ 2",
+      "page": 443,
+      "ref": "Case.108377.syllabus.2",
+      "text": "1. The warrant for the search and seizure of petitioner's automobile did not satisfy the requirements of the Fourth Amendment as made applicable to the States by the Fourteenth because it was not issued by a \"neutral and detached magistrate.\" Johnson v. United States, 333 U. S. 10, 14. Pp. 449-453."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coolidge v. New Hampshire, syllabus ¶ 3",
+      "page": 443,
+      "ref": "Case.108377.syllabus.3",
+      "text": "2. The basic constitutional rule is that \"searches conducted outside the judicial process, without prior approval by judge or magistrate, are per se unreasonable under the Fourth Amendment--subject only to a few specifically established and welldefined exceptions,\" and, on the facts of this case, a warrantless search and seizure of the car cannot be justified under those exceptions. Pp. 453-482."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coolidge v. New Hampshire, syllabus ¶ 4",
+      "page": 444,
+      "ref": "Case.108377.syllabus.4",
+      "text": "(a) The seizure of the.car in the driveway cannot be justified as incidental to the arrest which took place inside the house. Even assuming, arguendo, that the police could properly have made a warrantless search of the car in the driveway when they arrested petitioner, they could not have done so at their leisure after its removal. Pp. 455-457."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coolidge v. New Hampshire, syllabus ¶ 5",
+      "page": 444,
+      "ref": "Case.108377.syllabus.5",
+      "text": "(b) Under the circumstances present here--where the police for some time had known of the probable role of the car in the crime, petitioner had had ample opportunity to destroy incriminating evidence, the house was guarded at the time of arrest and petitioner had no access to the car-there were no exigent circumstances justifying the warrantless search even had it been made before the car was taken to the police station, and the special exceptions for automobile searches in Carroll v. United States, 267 U. S. 132, and Chambers v. Maroney, 399 U. S. 42, are clearly inapplicable. Cf. Dyke v. Taylor Implement Mfg. Co., 391 U. S. 216. Pp. 458-464."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coolidge v. New Hampshire, syllabus ¶ 6",
+      "page": 444,
+      "ref": "Case.108377.syllabus.6",
+      "text": "(c) Under certain circumstances the police may without a warrant seize evidence in \"plain view,\" though not for that reason alone and only when the discovery of the evidence is inadvertent. That exception is inapplicab]e to the facts of the instant case, where the police had ample opportunity to obtain a valid warrant, knew in advance the car's description and location, intended to seize it when they entered on petitioner's property, and no contraband or dangerous objects were involved. Pp. 464-473."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coolidge v. New Hampshire, syllabus ¶ 7",
+      "page": 444,
+      "ref": "Case.108377.syllabus.7",
+      "text": "3. No search and seizure were implicated in the February 2 visit when the police obtained the guns and clothing from petitioner's wife, and hence they needed no warrant. The police, who exerted no effort to coerce or dominate her, were not obligated to refuse her offer for them to take the guns, and in making these and the other items available to the police, she was not acting as the instrument or agent of the police. Pp. 484-490."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coolidge v. New Hampshire, syllabus ¶ 8",
+      "page": 444,
+      "ref": "Case.108377.syllabus.8",
+      "text": "109 N. H. 403, 260 A. 2d 547, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-403-443"
+  ],
+  "title": "Coolidge v. New Hampshire",
+  "us_cite": "403 U.S. 443"
+}

@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 6 pages"
+  ],
+  "conan_citation": "Kentucky v. Dennison, 65 U.S. (24 How.) 66 (1861)",
+  "courtlistener_name": "Commonwealth of Ky. v. DENNISON, GOVERNOR, &C.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/87371/commonwealth-of-ky-v-dennison-governor-c/",
+  "date": "1861-03-14",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 87371. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 65, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "87371",
+  "loc_url": "https://www.loc.gov/item/usrep065066/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep065/usrep065066/usrep065066.pdf",
+  "ref_prefix": "Case.87371",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-65-66"
+  ],
+  "syllabus_note": "Volume 65 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Kentucky v. Dennison",
+  "us_cite": "65 U.S. 66"
+}

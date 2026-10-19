@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Jones v. United States, 362 U.S. 257 (1960)",
+  "courtlistener_name": "Jones v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/106022/jones-v-united-states/",
+  "date": "1960-03-28",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 106022. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 362, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "106022",
+  "loc_url": "https://www.loc.gov/item/usrep362257/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep362/usrep362257/usrep362257.pdf",
+  "ref_prefix": "Case.106022",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-362-257"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 257 a paragraph seems to stop mid-sentence.",
+  "title": "Jones v. United States",
+  "us_cite": "362 U.S. 257"
+}

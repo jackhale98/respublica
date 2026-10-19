@@ -1,0 +1,118 @@
+{
+  "chosen_because": [
+    "overruled by Edelman v. Jordan (table of overruled decisions)",
+    "overruled (table of overruled decisions) and cited on 6 pages"
+  ],
+  "conan_citation": "Shapiro v. Thompson, 394 U.S. 618 (1969)",
+  "courtlistener_name": "Shapiro v. Thompson",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107901/shapiro-v-thompson/",
+  "date": "1969-04-21",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107901. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 394, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107901",
+  "loc_url": "https://www.loc.gov/item/usrep394618/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep394/usrep394618/usrep394618.pdf",
+  "ref_prefix": "Case.107901",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 1",
+      "page": 618,
+      "ref": "Case.107901.syllabus.1",
+      "text": "These appeals are from decisions of three-judge District Courts holding unconstitutional Connecticut, Pennsylvania, or District of Columbia statutory provisions which deny welfare assistance to persons who are residents and meet all other eligibility requirements except that they have not resided within the jurisdiction for at least a year immediately preceding their applications for assistance. Appellees' main contention on reargument is that the prohibition of benefits to residents of less than one year creates a classification which constitutes an invidious discrimination denying them equal protection of the laws. Appellants argue that the waiting period is needed to preserve the fiscal integrity of their public assistance programs, as persons who require welfare assistance during their first year of residence are likely to become continuing burdens on welfare programs. Appellants also seek to justify the classification as a permissible attempt to discourage indigents from entering a State solely to obtain larger benefits, and to distinguish between new and old residents on the basis of the tax contributions they have made to the community. Certain appellants rely in addition on the following administrative and related governmental objectives: facilitating the planning of welfare budgets, providing an objective test of residency, minimizing the opportunity for recipients fraudulently to receive payments from more than one jurisdiction, and encouraging early entry of new residents into the labor force. Connecticut and Pennsylvania also argue that Congress approved the imposition of the one-year requirement in § 402 (b) of the Social Security Act. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 2",
+      "page": 619,
+      "ref": "Case.107901.syllabus.2",
+      "text": "1. The statutory prohibition of benefits to residents of less than a year creates a classification which denies equal protection of the laws because the interests allegedly served by the classification either may not constitutionally be promoted by government or are not compelling governmental interests. P. 627."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 3",
+      "page": 619,
+      "ref": "Case.107901.syllabus.3",
+      "text": "2. Since the Constitution guarantees the right of interstate movement, the purpose of deterring the migration of indigents into a State is impermissible and cannot serve to justify the classification created by the one-year waiting period. Pp. 629-631."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 4",
+      "page": 619,
+      "ref": "Case.107901.syllabus.4",
+      "text": "3. A State may no more try to fence out those indigents who seek higher welfare payments than it may try to fence out indigents generally. Pp. 631-632."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 5",
+      "page": 619,
+      "ref": "Case.107901.syllabus.5",
+      "text": "4. The classification may not be sustained as an attempt to distinguish between new and old residents on the basis of the contribution they have made to the community through the payment of taxes because the Equal Protection Clause prohibits the States from apportioning benefits or services on the basis of the past tax contributions of its citizens. Pp. 632-633."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 6",
+      "page": 619,
+      "ref": "Case.107901.syllabus.6",
+      "text": "5. In moving from jurisdiction to jurisdiction appellees were exercising a constitutional right, and any classification which penalizes the exercise of that right, unless shown to be necessary to promote a compelling governmental interest, is unconstitutional. P. 634."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 7",
+      "page": 619,
+      "ref": "Case.107901.syllabus.7",
+      "text": "6. Appellants do not use and have no need to use the one-year requirement for the administrative and governmental purposes suggested, and under the standard of a compelling state interest, that requirement clearly violates the Equal Protection Clause. Pp. 634-638."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 8",
+      "page": 619,
+      "ref": "Case.107901.syllabus.8",
+      "text": "7. Section 402 (b) of the Social Security Act does not render the waiting-period requirements constitutional. Pp. 638-641."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 9",
+      "page": 619,
+      "ref": "Case.107901.syllabus.9",
+      "text": "(a) That section on its face does not approve, much less prescribe, a one-year requirement, and the legislative history reveals that Congress' purpose was to curb hardships resulting from excessive residence requirements and not to approve or prescribe any waiting period. Pp. 639-640."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 10",
+      "page": 619,
+      "ref": "Case.107901.syllabus.10",
+      "text": "(b) Assuming, arguendo, that Congress did approve the use of a one-year waiting period, it is the responsive state legislation and not § 402 (b) which infringes constitutional rights. P. 641."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 11",
+      "page": 619,
+      "ref": "Case.107901.syllabus.11",
+      "text": "(c) If the constitutionality of § 402 (b) were at issue, that provision, insofar as it permits the one-year waiting period, would be unconstitutional, as Congress may not authorize the States to violate the Equal Protection Clause. P. 641."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 12",
+      "page": 620,
+      "ref": "Case.107901.syllabus.12",
+      "text": "8. The waiting-period requirement in the District of Columbia Code, adopted by Congress as an exercise of federal power, is an unconstitutional discrimination which violates the Due Process Clause of the Fifth Amendment. Pp. 641-642."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shapiro v. Thompson, syllabus ¶ 13",
+      "page": 620,
+      "ref": "Case.107901.syllabus.13",
+      "text": "No. 9, 270 F. Supp. 331; No. 33, 279 F. Supp. 22; and No. 34, 277 F. Supp. 65, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-394-618"
+  ],
+  "title": "Shapiro v. Thompson",
+  "us_cite": "394 U.S. 618"
+}

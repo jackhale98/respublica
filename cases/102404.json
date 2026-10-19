@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIV.S1.4 (4 pages)"
+  ],
+  "conan_citation": "Alaska Packers Ass’n v. Industrial Accident Comm’n, 294 U.S. 532 (1935)",
+  "courtlistener_name": "Alaska Packers Assn. v. Industrial Accident Comm'n of Cal.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102404/alaska-packers-assn-v-industrial-accident-commn-of-cal/",
+  "date": "1935-03-11",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102404. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 294, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102404",
+  "loc_url": "https://www.loc.gov/item/usrep294532/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep294/usrep294532/usrep294532.pdf",
+  "ref_prefix": "Case.102404",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-294-532"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 533 a paragraph seems to stop mid-sentence.",
+  "title": "Alaska Packers Ass’n v. Industrial Accident Comm’n",
+  "us_cite": "294 U.S. 532"
+}

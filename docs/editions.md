@@ -246,11 +246,15 @@ keyed by cluster ID as CommonHall does (`importers/courtlistener.py`). Each
 case is looked up once by its U.S. Reports citation, through CourtListener's
 citation lookup (several citations per request), or, for a decision the
 Constitution Annotated cites as a slip opinion, by its docket number in the
-Supreme Court. Every response is a raw source (`courtlistener-citations-{n}`,
-`courtlistener-scotus-{docket}`), with the request body; the API token is
-read from `COURTLISTENER_TOKEN` and never stored. A case with no cluster,
-or one dated in another year than the Constitution Annotated prints, stops
-the import. Where CourtListener gives several clusters for a citation (the
+Supreme Court. A decision filed under two docket numbers (decided with a
+companion case: *Rucho v. Common Cause*, *Trump v. Mazars*) is found by a
+search for its docket number, as the opinion filed on the date the
+Constitution Annotated prints. Every response is a raw source
+(`courtlistener-citations-{n}`, `courtlistener-scotus-{docket}`,
+`courtlistener-search-dockets-{n}`), with the request body; the API token
+is read from `COURTLISTENER_TOKEN` and never stored. A case with no
+cluster, or one dated more than a year from the year the Constitution
+Annotated prints, stops the import. Where CourtListener gives several clusters for a citation (the
 same decision imported twice from different sources, or another case filed
 under it by mistake), the import keeps those whose first party is the
 Constitution Annotated's and whose year is its year, then takes the one
@@ -258,6 +262,20 @@ other opinions cite most; the case file says so (`courtlistener_match`), and
 a tie stops the import. The case's name is the Constitution Annotated's;
 CourtListener's is kept as `courtlistener_name`. CourtListener's data is
 offered free of known copyright restrictions.
+
+**The date of decision** is the one printed in the United States Reports
+("Decided December 18, 1944."), read from the scan's text layer, when its
+month reads as a month and its year is the year of the term the volume
+prints or the next (OCR reads "1295" for "1895"). CourtListener's date is
+often that of a later order (a rehearing denied) or the first day of the
+term, so it is used only where the scan gives no date that can be read (the
+nominative reports print none), and only when its year is the one the
+Constitution Annotated prints, or when that is the term's year and
+CourtListener's date falls in the next (*Ex parte Garland*, December Term
+1866, decided in January 1867). Otherwise the case gives only the year the
+Constitution Annotated prints (the *Prize Cases*, 1863). Each case records
+where its date comes from (`date_source`) and CourtListener's date when it
+differs (`courtlistener_date`).
 
 **The syllabus** is copied as printed in the United States Reports, from the
 Library of Congress's scan of each case (`loc-usrep-{volume}-{page}`, one PDF

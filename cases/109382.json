@@ -1,0 +1,103 @@
+{
+  "chosen_because": [
+    "named in the title of essay Amdt14.S1.5.4.2"
+  ],
+  "conan_citation": "Mathews v. Eldridge, 424 U.S. 319 (1976)",
+  "courtlistener_name": "Mathews v. Eldridge",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109382/mathews-v-eldridge/",
+  "date": "1976-02-24",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109382. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 424, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109382",
+  "loc_url": "https://www.loc.gov/item/usrep424319/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep424/usrep424319/usrep424319.pdf",
+  "ref_prefix": "Case.109382",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Mathews v. Eldridge, syllabus ¶ 1",
+      "page": 319,
+      "ref": "Case.109382.syllabus.1",
+      "text": "In order to establish initial and continued entitlement to disability benefits under the Social Security Act (Act), a worker must demonstrate that, inter alia, he is unable \"to engage in any substantial gainful activity by reason of any medically determinable physical or mental impairment . . . .\" The worker bears the continuing burden of showing, by means of \"medically acceptable . . . techniques\" that his impairment is of such severity that he cannot perform his previous work or any other kind of gainful work. A state agency makes the continuing assessment of the worker's eligibility for benefits, obtaining information from the worker and his sources of medical treatment. The agency may arrange for an independent medical examination to resolve conflicting information. If the agency's tentative assessment of the beneficiary's condition differs from his own, the beneficiary is informed that his benefits may be terminated, is provided a summary of the evidence, and afforded an opportunity to review the agency's evidence. The state agency then makes a final determination, which is reviewed by the Social Security Administration (SSA). If the SSA accepts the agency determination it gives written notification to the beneficiary of the reasons for the decision and of his right to de novo state agency reconsideration. Upon acceptance by the SSA, benefits are terminated effective two months after the month in which recovery is found to have occurred. If, after reconsideration by the state agency and SSA review, the decision remains adverse to the recipient, he is notified of his right to an evidentiary hearing before an SSA administrative law judge. If an adverse decision results, the recipient may request discretionary review by the SSA Appeals Council, and finally may obtain judicial review. If it is determined after benefits are terminated that the claimant's disability extended beyond the date of cessation initially established, he is entitled to retroactive payments. Retroactive adjustments are also made for overpayments. A few years after respondent was first awarded disability benefits he received and completed a questionnaire from the monitoring state agency. After considering the information contained therein and obtaining reports from his doctor and an independent medical consultant, the agency wrote respondent that it had tentatively determined that his disability had ceased in May 1972 and advised him that he might request a reasonable time to furnish additional information. In a reply letter respondent disputed one characterization of his medical condition and indicated that the agency had enough evidence to establish his disability. The agency then made its final determination reaffirming its tentative decision. This determination was accepted by the SSA, which notified respondent in July that his benefits would end after that month and that he had a right to state agency reconsideration within six months. Instead of requesting such reconsideration respondent brought this action challenging the constitutionality of the procedures for terminating disability benefits and seeking reinstatement of benefits pending a hearing. The District Court, relying in part on Goldberg v. Kelly, 397 U. S. 254, held that the termination procedures violated procedural due process and concluded that prior to termination of benefits respondent was entitled to an evidentiary hearing of the type provided welfare beneficiaries under Title IV of the Act. The Court of Appeals affirmed. Petitioner contends, inter alia, that the District Court is barred from considering respondent's action by Weinberger v. Salf, 422 U. S. 749, which held that district courts are precluded from exercising jurisdiction over an action seeking a review of a decision of the Secretary of Health, Education, and Welfare regarding benefits under the Act except as provided in 42 U. S. C. § 405 (g), which grants jurisdiction only to review a \"final\" decision of the Secretary made after a hearing to which he was a party. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mathews v. Eldridge, syllabus ¶ 2",
+      "page": 320,
+      "ref": "Case.109382.syllabus.2",
+      "text": "1. The District Court had jurisdiction over respondent's constitutional claim, since the denial of his request for benefits was a final decision with respect to that claim for purposes of § 405 (g) jurisdiction. Pp. 326-332."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mathews v. Eldridge, syllabus ¶ 3",
+      "page": 320,
+      "ref": "Case.109382.syllabus.3",
+      "text": "(a) The § 405 (g) finality requirement consists of the waivable requirement that the administrative remedies prescribed by the Secretary be exhausted and the nonwaivable requirement that a claim for benefits shall have been presented to the Secretary. Respondent's answers to the questionnaire and his letter to the state agency specifically presented the claim that his benefits should not be terminated because he was still disabled, and thus satisfied the nonwaivable requirement. Pp. 328-330."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mathews v. Eldridge, syllabus ¶ 4",
+      "page": 321,
+      "ref": "Case.109382.syllabus.4",
+      "text": "(b) Although respondent concededly did not exhaust the Secretary's internal-review procedures and ordinarily only the Secretary has the power to waive exhaustion, this is a case where the claimant's interest in having a particular issue promptly resolved is so great that deference to the Secretary's judgment is inappropriate. The facts that respondent's constitutional challenge was collateral to his substantive claim of entitlement and that (contrary to the situation in Salfi) he colorably claimed that an erroneous termination would damage him in a way not compensable through retroactive payments warrant the conclusion that the denial of his claim to continued benefits was a sufficiently \"final decision\" with respect to his constitutional claim to satisfy the statutory exhaustion requirement. Pp. 330-332."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mathews v. Eldridge, syllabus ¶ 5",
+      "page": 321,
+      "ref": "Case.109382.syllabus.5",
+      "text": "2. An evidentiary hearing is not required prior to the termination of Social Security disability payments and the administrative procedures prescribed under the Act fully comport with due process. Pp. 332-349."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mathews v. Eldridge, syllabus ¶ 6",
+      "page": 321,
+      "ref": "Case.109382.syllabus.6",
+      "text": "(a) \"[D]ue process is flexible and calls for such procedural protections as the particular situation demands,\" Morrissey v. Brewer, 408 U. S. 471, 481. Resolution of the issue here involving the constitutional sufficiency of administrative procedures prior to the initial termination of benefits and pending review, requires consideration of three factors: (1) the private interest that will be affected by the official action; (2) the risk of an erroneous deprivation of such interest through the procedures used, and probable value, if any, of additional procedural safeguards; and (3) the Government's interest, including the fiscal and administrative burdens that the additional or substitute procedures would entail. Pp. 332-335."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mathews v. Eldridge, syllabus ¶ 7",
+      "page": 321,
+      "ref": "Case.109382.syllabus.7",
+      "text": "(b) The private interest that will be adversely affected by an erroneous termination of benefits is likely to be less in the case of a disabled worker than in the case of a welfare recipient, like the claimants in Goldberg, supra. Eligibility for disability payments is not based on financial need, and although hardship may be imposed upon the erroneously terminated disability recipient, his need is likely less than the welfare recipient. In view of other forms of government assistance available to the terminated disability recipient, there is less reason than in Goldberg to depart from the ordinary principle that something less than an evidentiary hearing is sufficient prior to adverse administrative action. Pp. 339-343."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mathews v. Eldridge, syllabus ¶ 8",
+      "page": 321,
+      "ref": "Case.109382.syllabus.8",
+      "text": "(c) The medical assessment of the worker's condition implicates a more sharply focused and easily documented decision than the typical determination of welfare entitlement. The decision whether to discontinue disability benefits will normally turn upon \"routine, standard, and unbiased medical reports by physician specialists,\" Richardson v. Perales, 402 U. S. 389, 404. In a disability situation the potential value of an evidentiary hearing is thus substantially less than in the welfare context. Pp. 343-345."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mathews v. Eldridge, syllabus ¶ 9",
+      "page": 322,
+      "ref": "Case.109382.syllabus.9",
+      "text": "(d) Written submissions provide the disability recipient with an effective means of communicating his case to the decisionmaker. The detailed questionnaire identifies with particularity the information relevant to the entitlement decision. Information critical to the decision is derived directly from medical sources. Finally, prior to termination of benefits, the disability recipient or his representative is afforded full access to the information relied on by the state agency, is provided the reasons underlying its tentative assessment, and is given an opportunity to submit additional arguments and evidence. Pp. 345-346."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mathews v. Eldridge, syllabus ¶ 10",
+      "page": 322,
+      "ref": "Case.109382.syllabus.10",
+      "text": "(e) Requiring an evidentiarv hearing upon demand in all cases prior to the termination of disability benefits would entail fiscal and administrative burdens out of proportion to any countervailing benefits The judicial model of an evidentiary hearing is neither a required, nor even the most effective, method of decisionmaking in all circumstances, and here where the prescribed procedures not only provide the claimant with an effective process for asserting his claim prior to any administrative action but also assure a right to an evidentiary hearing as well as subsequent judicial review before the denial of his claim becomes final, there is no deprivation of procedural due process. Pp. 347-349."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mathews v. Eldridge, syllabus ¶ 11",
+      "page": 322,
+      "ref": "Case.109382.syllabus.11",
+      "text": "493 F. 2d 1230, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-424-319"
+  ],
+  "title": "Mathews v. Eldridge",
+  "us_cite": "424 U.S. 319"
+}

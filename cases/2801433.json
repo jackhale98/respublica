@@ -1,0 +1,89 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C3.7 (6 pages)"
+  ],
+  "conan_citation": "Comptroller of the Treasury of Maryland v. Wynne, 575 U.S. 542 (2015)",
+  "courtlistener_name": "Comptroller of Treasury of Md. v. Wynne",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/2801433/comptroller-of-treasury-of-md-v-wynne/",
+  "date": "2015-05-18",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 2801433. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 575, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "2801433",
+  "loc_url": "https://www.loc.gov/item/usrep575542/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep575/usrep575542/usrep575542.pdf",
+  "ref_prefix": "Case.2801433",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Comptroller of the Treasury of Maryland v. Wynne, syllabus ¶ 1",
+      "page": 542,
+      "ref": "Case.2801433.syllabus.1",
+      "text": "Maryland's personal income tax on state residents consists of a “state” income tax, Md. Tax-Gen. Code Ann. § 10–105(a), and a “county” income tax, §§ 10–103, 10–106. Residents who pay income tax to another jurisdiction for income earned in that other jurisdiction are allowed a credit against the “state” tax but not the “county” tax. § 10–703. Nonresidents who earn income from sources within Maryland must pay the “state” income tax, §§ 10–105(d), 10–210, and nonresidents not subject to the county tax must pay a “special nonresident tax” in lieu of the “county” tax, § 10–106.1."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Comptroller of the Treasury of Maryland v. Wynne, syllabus ¶ 2",
+      "page": 542,
+      "ref": "Case.2801433.syllabus.2",
+      "text": "Respondents, Maryland residents, earned pass-through income from a Subchapter S corporation that earned income in several States. Respondents claimed an income tax credit on their 2006 Maryland income tax return for taxes paid to other States. The Maryland State Comptroller of the Treasury, petitioner here, allowed respondents a credit against their “state” income tax but not against their “county” income tax and assessed a tax defciency. That decision was affrmed by the Hearings and Appeals Section of the Comptroller's Offce and by the Maryland Tax Court, but the Circuit Court for Howard County reversed on the ground that Maryland's tax system violated the Commerce Clause of the Federal Constitution. The Court of Appeals of Maryland affrmed and held that the tax unconstitutionally discriminated against interstate commerce."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Comptroller of the Treasury of Maryland v. Wynne, syllabus ¶ 3",
+      "page": 542,
+      "ref": "Case.2801433.syllabus.3",
+      "text": "Held: Maryland's personal income tax scheme violates the dormant Commerce Clause. Pp. 548–571."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Comptroller of the Treasury of Maryland v. Wynne, syllabus ¶ 4",
+      "page": 542,
+      "ref": "Case.2801433.syllabus.4",
+      "text": "(a) The Commerce Clause, which grants Congress power to “regulate Commerce . . . among the several States,” Art. I, § 8, cl. 3, also has “a further, negative command, known as the dormant Commerce Clause,” Oklahoma Tax Comm'n v. Jefferson Lines, Inc., 514 U. S. 175, 179, which precludes States from “discriminat[ing] between transactions on the basis of some interstate element,” Boston Stock Exchange v. State Tax Comm'n, 429 U. S. 318, 332, n. 12. Thus, inter alia, a State “may not tax a transaction or incident more heavily when it crosses state lines than when it occurs entirely within the State,” Armco Inc. v. Hardesty, 467 U. S. 638, 642, or “impose a tax which discriminates against interstate commerce either by providing a direct commercial advantage to local business, or by subjecting interstate commerce to the burden of `multiple taxation,' ” Northwestern States Portland Cement Co. v. Minnesota, 358 U. S. 450, 458. Pp. 548–550."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Comptroller of the Treasury of Maryland v. Wynne, syllabus ¶ 5",
+      "page": 543,
+      "ref": "Case.2801433.syllabus.5",
+      "text": "(b) The result in this case is all but dictated by this Court's dormant Commerce Clause cases, particularly J. D. Adams Mfg. Co. v. Storen, 304 U. S. 307, 311, Gwin, White & Prince, Inc. v. Henneford, 305 U. S. 434, 439, and Central Greyhound Lines, Inc. v. Mealey, 334 U. S. 653, 662, which all invalidated state tax schemes that might lead to double taxation of out-of-state income and that discriminated in favor of intrastate over interstate economic activity. Pp. 550–551."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Comptroller of the Treasury of Maryland v. Wynne, syllabus ¶ 6",
+      "page": 543,
+      "ref": "Case.2801433.syllabus.6",
+      "text": "(c) This conclusion is not affected by the fact that these three cases involved a tax on gross receipts rather than net income, and a tax on corporations rather than individuals. This Court's decisions have previously rejected the formal distinction between gross receipts and net income taxes. And there is no reason the dormant Commerce Clause should treat individuals less favorably than corporations; in addition, the taxes invalidated in J. D. Adams and Gwin, White applied to the income of both individuals and corporations. Nor does the right of the individual to vote in political elections justify disparate treatment of corporate and personal income. Thus the Court has previously entertained and even sustained dormant Commerce Clause challenges by individual residents of the State that imposed the alleged burden on interstate commerce. See Department of Revenue of Ky. v. Davis, 553 U. S. 328, 336; Granholm v. Heald, 544 U. S. 460, 469. Pp. 551–556."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Comptroller of the Treasury of Maryland v. Wynne, syllabus ¶ 7",
+      "page": 543,
+      "ref": "Case.2801433.syllabus.7",
+      "text": "(d) Maryland's tax scheme is not immune from dormant Commerce Clause scrutiny simply because Maryland has the jurisdictional power under the Due Process Clause to impose the tax. “[W]hile a state may, consistent with the Due Process Clause, have the authority to tax a particular taxpayer, imposition of the tax may nonetheless violate the Commerce Clause.” Quill Corp. v. North Dakota, 504 U. S. 298, 305. Pp. 556–558."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Comptroller of the Treasury of Maryland v. Wynne, syllabus ¶ 8",
+      "page": 543,
+      "ref": "Case.2801433.syllabus.8",
+      "text": "(e) Maryland's income tax scheme discriminates against interstate commerce. The “internal consistency” test, which helps courts identify tax schemes that discriminate against interstate commerce, assumes that every State has the same tax structure. Maryland's income tax scheme fails the internal consistency test because if every State adopted Maryland's tax structure, interstate commerce would be taxed at a higher rate than intrastate commerce. Maryland's tax scheme is inherently discriminatory and operates as a tariff, which is fatal because tariffs are “[t]he paradigmatic example of a law discriminating against interstate commerce.” West Lynn Creamery, Inc. v. Healy, 512 U. S. 186, 193. Petitioner emphasizes that by offering residents who earn income in interstate commerce a credit against the “state” portion of the income tax, Maryland actually receives less tax revenue from residents who earn income from interstate commerce rather than intrastate commerce, but this argument is a red herring. The critical point is that the total tax burden on interstate commerce is higher. Pp. 561–569."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Comptroller of the Treasury of Maryland v. Wynne, syllabus ¶ 9",
+      "page": 544,
+      "ref": "Case.2801433.syllabus.9",
+      "text": "431 Md. 147, 64 A. 3d 453, affrmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-575-542"
+  ],
+  "title": "Comptroller of the Treasury of Maryland v. Wynne",
+  "us_cite": "575 U.S. 542"
+}

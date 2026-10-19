@@ -1,0 +1,54 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C18.8 (5 pages)"
+  ],
+  "conan_citation": "Nishimura Ekiu v. United States, 142 U.S. 651 (1892)",
+  "courtlistener_name": "Nishimura Ekiu v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/93243/nishimura-ekiu-v-united-states/",
+  "date": "1892-01-18",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 93243. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 142, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "93243",
+  "loc_url": "https://www.loc.gov/item/usrep142651/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep142/usrep142651/usrep142651.pdf",
+  "ref_prefix": "Case.93243",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Nishimura Ekiu v. United States, syllabus ¶ 1",
+      "page": 651,
+      "ref": "Case.93243.syllabus.1",
+      "text": "The act of March 3, 1891, c. 551, forbidding certain classes of alien immigrants to land in the United States, is constitutional and valid."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nishimura Ekiu v. United States, syllabus ¶ 2",
+      "page": 651,
+      "ref": "Case.93243.syllabus.2",
+      "text": "Upon a writ of habeas corpus, if sufficient ground for the prisoner's detention by the government is shown, he is not to be discharged for defects in.the original arrest or commitment."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nishimura Ekiu v. United States, syllabus ¶ 3",
+      "page": 652,
+      "ref": "Case.93243.syllabus.3",
+      "text": "Inspectors of immigration under the act of March 3, 1891, c. 551, are to be appointed by the Secretary of the Treasury."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nishimura Ekiu v. United States, syllabus ¶ 4",
+      "page": 652,
+      "ref": "Case.93243.syllabus.4",
+      "text": "The decision of an inspector of immigration, within the authority conferred upon him by the act of March 3, 1891, c. 551, that an alien immigrant shall not be permitted to land, because within one of the classes specified in that act, is final and conclusive against his right to land, except upon appeal to the commissioner of immigration and the Secretary of the Treasury; and cannot be reviewed on habeas corpus, even 'if it is not shown that the inspector took or recorded any evidence on the question."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-142-651"
+  ],
+  "title": "Nishimura Ekiu v. United States",
+  "us_cite": "142 U.S. 651"
+}

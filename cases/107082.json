@@ -1,0 +1,54 @@
+{
+  "chosen_because": [
+    "cited on 16 pages"
+  ],
+  "conan_citation": "Griswold v. Connecticut, 381 U.S. 479 (1965)",
+  "courtlistener_name": "Griswold v. Connecticut",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107082/griswold-v-connecticut/",
+  "date": "1965-06-07",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107082. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 381, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107082",
+  "loc_url": "https://www.loc.gov/item/usrep381479/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep381/usrep381479/usrep381479.pdf",
+  "ref_prefix": "Case.107082",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Griswold v. Connecticut, syllabus ¶ 1",
+      "page": 479,
+      "ref": "Case.107082.syllabus.1",
+      "text": "Appellants, the Executive Director of the Planned Parenthood League of Connecticut, and its medical director, a licensed physician, were convicted as accessories for giving married persons information and medical advice on how to prevent conception and, following examination, prescribing a contraceptive device or material for the wife'9 use. A Connecticut statute makes it a crime for any person to use any drug or article to prevent conception. Appellants claimed that the accessory statute as applied violated the Fourteenth Amendment. An intermediate appellate court and the State's highest court affirmed the judgment. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Griswold v. Connecticut, syllabus ¶ 2",
+      "page": 479,
+      "ref": "Case.107082.syllabus.2",
+      "text": "1. Appellants have standing to assert the constitutional rights of the married people. Tileston v. Ullman, 318 U. S. 44, distinguished. P. 481."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Griswold v. Connecticut, syllabus ¶ 3",
+      "page": 479,
+      "ref": "Case.107082.syllabus.3",
+      "text": "2. The Connecticut statute forbidding use of contraceptives violates the right of marital privacy which is within the penumbra of specific guarantees of the Bill of Rights. Pp. 481-486."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Griswold v. Connecticut, syllabus ¶ 4",
+      "page": 479,
+      "ref": "Case.107082.syllabus.4",
+      "text": "151 Conn. 544, 200 A. 2d 479, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-381-479"
+  ],
+  "title": "Griswold v. Connecticut",
+  "us_cite": "381 U.S. 479"
+}

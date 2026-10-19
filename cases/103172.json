@@ -1,0 +1,82 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C1.1 (4 pages)"
+  ],
+  "conan_citation": "Graves v. New York ex rel. O’Keefe, 306 U.S. 466 (1939)",
+  "courtlistener_name": "Graves v. New York Ex Rel. O'Keefe",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/103172/graves-v-new-york-ex-rel-okeefe/",
+  "date": "1939-03-27",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 103172. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 306, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "103172",
+  "loc_url": "https://www.loc.gov/item/usrep306466/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep306/usrep306466/usrep306466.pdf",
+  "ref_prefix": "Case.103172",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Graves v. New York ex rel. O’Keefe, syllabus ¶ 1",
+      "page": 466,
+      "ref": "Case.103172.syllabus.1",
+      "text": "1. The receipt of salary by a resident of New York as an examining attorney for the Federal Home Owners' Loan Corporation, is constitutionally subject to non-discriminatory taxation by a State. P. 475. '"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Graves v. New York ex rel. O’Keefe, syllabus ¶ 2",
+      "page": 466,
+      "ref": "Case.103172.syllabus.2",
+      "text": "2. For the purposes of this case it is assumed that the creation of the Home Owners' Loan Corporation was a constitutional exercise of the powers of the FRderal Government, and that all activities of the Government constitutionally authorized by Congress are governmental and stand on a parity with i,'spect to immunity from state-taxation. P. 477."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Graves v. New York ex rel. O’Keefe, syllabus ¶ 3",
+      "page": 466,
+      "ref": "Case.103172.syllabus.3",
+      "text": "3. Whether Congress, as an incident to the exercise of specifically granted powers, has power to grant tax exemptions extending beyond the constitutional immunity of federal agencies which courts may imply, is a question not determined in this case. P. 478."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Graves v. New York ex rel. O’Keefe, syllabus ¶ 4",
+      "page": 467,
+      "ref": "Case.103172.syllabus.4",
+      "text": "4. No purpose of Congress either to grant or to withhold immunity from state taxation of salaries of employees of the Home Owners' Loan Corporation is expressed or implied in the Home Owners' Loan Act of 1933, 48 Stat. 128, or is to be inferred from the silence of Congress.. P. 479."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Graves v. New York ex rel. O’Keefe, syllabus ¶ 5",
+      "page": 467,
+      "ref": "Case.103172.syllabus.5",
+      "text": "5. A tax on income is not legally or economically a tax on its source, and there isno basis for the assumption that' the economic burden of a non-discriminatory state income tax on the salary of an employee of the National Oovernment or of a governmental agefcy is passed on so as to impose a burden on the National Government tantamount to an unconstitutional interference by the one government with the other in the performance of its functions. P. 480."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Graves v. New York ex rel. O’Keefe, syllabus ¶ 6",
+      "page": 467,
+      "ref": "Case.103172.syllabus.6",
+      "text": "6. Assuming that the Homd Owners' Loan Corporation is clothed with the same constitutional immunity from state taxation as the Government itself, it can not be said that the present tax on the income of its employees lays any unconstitutional burden upon it.' P. 486."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Graves v. New York ex rel. O’Keefe, syllabus ¶ 7",
+      "page": 467,
+      "ref": "Case.103172.syllabus.7",
+      "text": "7. Collector v. Day; 11 Wall. 113, and New York ex rel. Rogers v. Graves, 299 U. S. 401, are overruled in so far as they recognize an implied constitutional immunity from non-discriminating income taxation of the salaries of officers or employees of the national or state governments or their instrumentalities. Id."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Graves v. New York ex rel. O’Keefe, syllabus ¶ 8",
+      "page": 467,
+      "ref": "Case.103172.syllabus.8",
+      "text": "278 N. Y. 691; 16 N. E. 2d 404, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-306-466"
+  ],
+  "title": "Graves v. New York ex rel. O’Keefe",
+  "us_cite": "306 U.S. 466"
+}

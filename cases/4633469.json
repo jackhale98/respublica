@@ -1,0 +1,25 @@
+{
+  "chosen_because": [
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Rucho v. Common Cause, No. 18-422 (U.S. June 27, 2019)",
+  "courtlistener_match": "CourtListener files this decision under several docket numbers; of the 4 opinions and orders under No. 18-422, this is the one dated as the Constitution Annotated prints.",
+  "courtlistener_name": "Rucho v. Common Cause",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/4633469/rucho-v-common-cause/",
+  "date": "2019-06-27",
+  "date_source": "courtlistener",
+  "docket": "18-422",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 4633469. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+  },
+  "id": "4633469",
+  "ref_prefix": "Case.4633469",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-search-dockets-1"
+  ],
+  "syllabus_note": "The Library of Congress has no scan of this decision on its own (summary decisions are printed in lists, and the latest volumes are not yet scanned).",
+  "title": "Rucho v. Common Cause",
+  "us_cite": "588 U.S. 684"
+}

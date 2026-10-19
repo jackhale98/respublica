@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.12 (5 pages)"
+  ],
+  "conan_citation": "Waring v. Clarke, 46 U.S. (5 How.) 441 (1847)",
+  "courtlistener_name": "Waring v. Clarke",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/86428/waring-v-clarke/",
+  "date": "1847-03-18",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 86428. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 46, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "86428",
+  "loc_url": "https://www.loc.gov/item/usrep046441/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep046/usrep046441/usrep046441.pdf",
+  "ref_prefix": "Case.86428",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-46-441"
+  ],
+  "syllabus_note": "Volume 46 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Waring v. Clarke",
+  "us_cite": "46 U.S. 441"
+}

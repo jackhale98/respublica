@@ -843,6 +843,20 @@ The project owner chose, when phase 7 resumed with a CourtListener token:
   and slip opinions by docket number: about a dozen requests for 213 cases.
   Each response is a raw source with its request body; the token is never
   stored, only the name of the variable that holds it (`auth_env`).
+- **Dates from the United States Reports.** CourtListener's dates are
+  often those of a later order or the first day of a term (*Korematsu*: the
+  date a rehearing was denied, in 1945; *Mapp v. Ohio*: October 9, 1961, for
+  a decision of June 19). A case's date is the one the United States Reports
+  print, read from the scan when it reads cleanly (172 of the 213); else
+  CourtListener's when its year agrees with the Constitution Annotated's (or
+  with the term the case was decided in); else only the year the
+  Constitution Annotated prints (the *Prize Cases*). The case file says
+  which (`date_source`).
+- **Decisions filed under two docket numbers.** CourtListener files a
+  slip opinion decided with a companion case under both numbers ("18–422;
+  18–726"), which its clusters API does not match; one search request found
+  both (*Rucho*, *Trump v. Mazars*), and the case is the opinion filed on
+  the date the Constitution Annotated prints.
 - **When a citation has several clusters.** CourtListener holds some
   decisions twice (imported from different sources) and files a few cases
   under another's citation (*Bank of Columbia v. Okely* under *Sturges v.

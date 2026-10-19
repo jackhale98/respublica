@@ -1,0 +1,68 @@
+{
+  "chosen_because": [
+    "cited on 15 pages"
+  ],
+  "conan_citation": "Walz v. Tax Comm’n, 397 U.S. 664 (1970)",
+  "courtlistener_name": "Walz v. Tax Comm'n of City of New York",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/108135/walz-v-tax-commn-of-city-of-new-york/",
+  "date": "1970-05-04",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 108135. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 397, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "108135",
+  "loc_url": "https://www.loc.gov/item/usrep397664/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep397/usrep397664/usrep397664.pdf",
+  "ref_prefix": "Case.108135",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Walz v. Tax Comm’n, syllabus ¶ 1",
+      "page": 664,
+      "ref": "Case.108135.syllabus.1",
+      "text": "Appellant property owner unsuccessfully sought an injunction in the New York courts to prevent the New York City Tax Commission from granting property tax exemptions to religious organizations for properties used solely for religious worship, as authorized by the state constitution and the implementing statute providing for tax exemptions for property used exclusively for religious, educational, or charitable purposes. Appellant contended that the exemptions as applied to religious bodies violated provisions prohibiting establishment of religion under the First and Fourteenth Amendments. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Walz v. Tax Comm’n, syllabus ¶ 2",
+      "page": 664,
+      "ref": "Case.108135.syllabus.2",
+      "text": "1. The First Amendment tolerates neither governmentally established religion nor governmental interference with religion. Pp. 667-672."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Walz v. Tax Comm’n, syllabus ¶ 3",
+      "page": 664,
+      "ref": "Case.108135.syllabus.3",
+      "text": "2. The legislative purpose of tax exemptions is not aimed at establishing, sponsoring, or supporting religion, and New York's legislation simply spares the exercise of religion from the burden of property taxation levied on private profit institutions. Pp. 672-674."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Walz v. Tax Comm’n, syllabus ¶ 4",
+      "page": 664,
+      "ref": "Case.108135.syllabus.4",
+      "text": "3. The tax exemption creates only a minimal and remote involvemer\" between church and state, far less than taxation of churches would entail, and it restricts the fiscal relationship between them, thus tending to complement and reinforce the desired separation insulating each from the other. Pp. 674-676."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Walz v. Tax Comm’n, syllabus ¶ 5",
+      "page": 664,
+      "ref": "Case.108135.syllabus.5",
+      "text": "4. Freedom from taxation for two centuries has not led to an established church or religion and on the contrary has helped to guarantee the free exercise of all forms of religious belief. Pp. 676-680."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Walz v. Tax Comm’n, syllabus ¶ 6",
+      "page": 664,
+      "ref": "Case.108135.syllabus.6",
+      "text": "24 N. Y. 2d 30, 246 N. E. 2d 517, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-397-664"
+  ],
+  "title": "Walz v. Tax Comm’n",
+  "us_cite": "397 U.S. 664"
+}

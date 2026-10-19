@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "overruled by Erie Railroad v. Tompkins (table of overruled decisions)"
+  ],
+  "conan_citation": "Swift v. Tyson, 41 U.S. (16 Pet.) 1 (1842)",
+  "courtlistener_name": "Swift v. Tyson",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/86188/swift-v-tyson/",
+  "date": "1842-01-25",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 86188. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 41, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "86188",
+  "loc_url": "https://www.loc.gov/item/usrep041001/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep041/usrep041001/usrep041001.pdf",
+  "ref_prefix": "Case.86188",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-41-1"
+  ],
+  "syllabus_note": "Volume 41 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Swift v. Tyson",
+  "us_cite": "41 U.S. 1"
+}

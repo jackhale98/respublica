@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "cited on 13 pages"
+  ],
+  "conan_citation": "Martin v. Hunter’s Lessee, 14 U.S. (1 Wheat.) 304 (1816)",
+  "courtlistener_name": "Martin v. Hunter's Lessee",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/85160/martin-v-hunters-lessee/",
+  "date": "1816-03-20",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 85160. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 14, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "85160",
+  "loc_url": "https://www.loc.gov/item/usrep014304/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep014/usrep014304/usrep014304.pdf",
+  "ref_prefix": "Case.85160",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-14-304"
+  ],
+  "syllabus_note": "Volume 14 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Martin v. Hunter’s Lessee",
+  "us_cite": "14 U.S. 304"
+}

@@ -1,0 +1,23 @@
+{
+  "chosen_because": [
+    "named in the title of essay ArtI.S8.C4.1.4.3"
+  ],
+  "conan_citation": "Sessions v. Morales-Santana, 582 U.S. 47 (2017)",
+  "courtlistener_name": "Sessions v. Morales-Santana",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/4403811/sessions-v-morales-santana/",
+  "date": "2017-06-12",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 4403811. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+  },
+  "id": "4403811",
+  "ref_prefix": "Case.4403811",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4"
+  ],
+  "syllabus_note": "The Library of Congress has no scan of this decision on its own (summary decisions are printed in lists, and the latest volumes are not yet scanned).",
+  "title": "Sessions v. Morales-Santana",
+  "us_cite": "582 U.S. 47"
+}

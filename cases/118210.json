@@ -1,0 +1,62 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.7 (7 pages)"
+  ],
+  "conan_citation": "Ohio Forestry Ass’n, Inc. v. Sierra Club, 523 U.S. 726 (1998)",
+  "courtlistener_date": "1998-05-26",
+  "courtlistener_name": "Ohio Forestry Assn., Inc. v. Sierra Club",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/118210/ohio-forestry-assn-inc-v-sierra-club/",
+  "date": "1998-05-18",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 118210. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 523, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "118210",
+  "loc_url": "https://www.loc.gov/item/usrep523726/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep523/usrep523726/usrep523726.pdf",
+  "ref_prefix": "Case.118210",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Ohio Forestry Ass’n, Inc. v. Sierra Club, syllabus ¶ 1",
+      "page": 726,
+      "ref": "Case.118210.syllabus.1",
+      "text": "Pursuant to the National Forest Management Act of 1976 (NFMA), the United States Forest Service developed a Land and Resource Management Plan (Plan) for Ohio's Wayne National Forest. Although the Plan makes logging in the forest more likely-it sets logging goals, selects the areas suited to timber production, and determines which probable methods of timber harvest are appropriate-it does not itself authorize the cutting of any trees. Before the Service can permit logging, the NFMA and applicable regulations require it to: (a) propose a particular site and specific harvesting method, (b) ensure that the project is consistent with the Plan, (c) provide affected parties with notice and an opportunity to be heard, (d) conduct an environmental analysis of the project, and (e) make a final decision to permit logging, which affected persons may challenge in administrative and court appeals. Furthermore, the Service must revise the Plan as appropriate. When the Plan was first proposed, the Sierra Club and another environmental organization (collectively Sierra Club) pursued various administrative remedies to bring about the Plan's modification, and then brought this suit challenging the Plan's lawfulness on the ground that it permits too much logging and too much clearcutting. The District Court granted the Forest Service summary judgment, but the Sixth Circuit reversed. The latter court found the dispute justiciable because, inter alia, it was \"ripe for review\" and held that the Plan violated the NFMA."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ohio Forestry Ass’n, Inc. v. Sierra Club, syllabus ¶ 2",
+      "page": 726,
+      "ref": "Case.118210.syllabus.2",
+      "text": "Held This dispute is not justiciable, because it is not ripe for court review. Pp. 732-739."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ohio Forestry Ass’n, Inc. v. Sierra Club, syllabus ¶ 3",
+      "page": 726,
+      "ref": "Case.118210.syllabus.3",
+      "text": "(a) In deciding whether an agency decision is ripe, this Court has examined the fitness of the particular issues for judicial decision and the hardship to the parties of withholding review. Abbott Laboratories v. Gardner, 387 U. S. 136, 149. Such an examination in this case reveals that the relevant factors, taken together, foreclose court review. First, withholding review will not cause the plaintiffs significant \"hardship.\" Ibid. The challenged Plan provisions do not create adverse effects of a strictly legal kind; for example, they do not establish a legal right to cut trees or abolish any legal authority to object to trees being cut. Cf. United States v. Los Angeles & Salt Lake R. Co., 273 U. S. 299,309-310. Nor would delaying review cause the Sierra Club significant practical harm. Given the procedural requirements the Service must observe before it can permit logging, the Sierra Club need not bring its challenge now, but may await a later time when harm is more imminent and certain. Cf. Abbott Laboratories, 387 U. S., at 152-154. Nor has the Sierra Club pointed to any other way in which the Plan could now force it to modify its behavior to avoid future adverse consequences, as, for example, agency regulations can sometimes force immediate compliance through fear of future sanctions. CE, e.g., id., at 152-153. Second, court review now could interfere with the system that Congress spedfled for the Forest Service to reach logging decisions. From that agency's perspective, immediate review could hinder its efforts to refine its policies through revision of the Plan or application of the Plan in practice. Cf., e. g., id., at 149. Here, the possibility that further consideration will actually occur before the Plan is implemented is real, not theoretical. Third, the courts would benefit from further factual development of the issues. See Duke Power Co. v. Carolina Environmental Study Group, Inc., 438 U. S. 59, 82. Review now would require timeconsuming consideration of the details of an elaborate, technically based Plan, which predicts consequences that may affect many different parcels of land in a variety of ways, and which effects themselves may change over time. That review would have to take place without benefit of the focus that particular logging proposals could provide. And, depending upon the agency's future actions to revise the Plan or modify the expected implementation methods, review now may turn out to have been unnecessary. See FTC v. Standard Oil Co. of Cal., 449 U. S. 232, 242. Finally, Congress has not specifically provided for preimplementation judicial review of such plans, unlike certain agency rules, cf, e. g., Lujan v. National Wildlife Federation, 497 U.S. 871, 891, and forest plans are unlike environmental impact statements prepared pursuant to the National Environmental Policy Act of 1969 because claims involving such statements can never get any riper. Pp. 732-787."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ohio Forestry Ass’n, Inc. v. Sierra Club, syllabus ¶ 4",
+      "page": 727,
+      "ref": "Case.118210.syllabus.4",
+      "text": "(b) The Court cannot consider the Sierra Club's argument that the Plan will hurt it immediately in many ways not yet mentioned. That argument makes its first appearance in this Court in the briefs on the merits and is, therefore, not fairly presented. Pp. 738-739."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ohio Forestry Ass’n, Inc. v. Sierra Club, syllabus ¶ 5",
+      "page": 727,
+      "ref": "Case.118210.syllabus.5",
+      "text": "105 F. 3d 248, vacated and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-523-726"
+  ],
+  "title": "Ohio Forestry Ass’n, Inc. v. Sierra Club",
+  "us_cite": "523 U.S. 726"
+}

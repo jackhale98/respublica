@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "overruled by Warden v. Hayden (table of overruled decisions)"
+  ],
+  "conan_citation": "Gouled v. United States, 255 U.S. 298 (1921)",
+  "courtlistener_name": "Gouled v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/99745/gouled-v-united-states/",
+  "date": "1921-02-28",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 99745. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 255, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "99745",
+  "loc_url": "https://www.loc.gov/item/usrep255298/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep255/usrep255298/usrep255298.pdf",
+  "ref_prefix": "Case.99745",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-255-298"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 298 a paragraph seems to stop mid-sentence.",
+  "title": "Gouled v. United States",
+  "us_cite": "255 U.S. 298"
+}

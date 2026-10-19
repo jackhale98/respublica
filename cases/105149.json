@@ -1,0 +1,194 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Stein v. New York, 346 U.S. 156 (1953)",
+  "courtlistener_name": "Stein v. New York",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/105149/stein-v-new-york/",
+  "date": "1953-06-15",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 105149. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 346, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "105149",
+  "loc_url": "https://www.loc.gov/item/usrep346156/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep346/usrep346156/usrep346156.pdf",
+  "ref_prefix": "Case.105149",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 1",
+      "page": 156,
+      "ref": "Case.105149.syllabus.1",
+      "text": "In a New York state court, a jury found the three petitioners guilty of murder, and they were sentenced to death. The murder allegedly was committed while petitioners, and an accomplice who turned state's evidence, were engaged in an armed holdup. The evidence at the trial included separate written confessions by two of the petitioners. Each written confession implicated all three petitioners and all objected to introduction- of each confession on the ground that it was coerced. The trial court denied a motion by the third pbtitioner that, if the confessions were admitted, all reference to him be stricken from them. The court heard evidence in the presence of the jury as to the issue of coercion and left determination of that issue to the jury, which rendered a general verdict of guilty. The New York Court of Appeals affirmed without opinion. Held: There was no violation of the Fourteenth Amendment in the proceedings, and .the judgments are affirmed. Pp. 159-197."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 2",
+      "page": 156,
+      "ref": "Case.105149.syllabus.2",
+      "text": "1. Petitioners were not denied a fair hearing on the coercion issue. Pp. 170-179."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 3",
+      "page": 156,
+      "ref": "Case.105149.syllabus.3",
+      "text": "(a) The Fourteenth Amendment cannot be construed as allowing petitioners to testify to their coercion by the police without becoming subject to any cross-examination. Pp. 174-176."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 4",
+      "page": 156,
+      "ref": "Case.105149.syllabus.4",
+      "text": ".(b) In the trial of a coercion issue, as of every other issue, when the prosecution has made a case to go to the jury, an accused must choose between the disadvantage from silence and that from testifying. P. 177."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 5",
+      "page": 156,
+      "ref": "Case.105149.syllabus.5",
+      "text": "(c) The Fourteenth Amendment does not forbid jury trial of the issue whether a confession was coerced; nor does it forbid its submission to a jury tentatively and with proper instructions along with the issue of guilt, although a general verdict of guilty does not disclose the jury's decision on the issue of coercion. Pp. 177-179."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 6",
+      "page": 157,
+      "ref": "Case.105149.syllabus.6",
+      "text": "2. On the record in this case, it did not violate the Fourteenth Amendment if the jury resolved that the confessions were admissible as a basis for conviction. Pp. 179-188."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 7",
+      "page": 157,
+      "ref": "Case.105149.syllabus.7",
+      "text": "(a) When the issue as to whether confessions were coerced has been fairly tried and reviewed by *the courts of a State, and there is no indication that constitutional standards of judgment have been disregarded, this Court will accept the state's determination of the issue, in the absence of impeachment by conceded facts. Pp. 180-182."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 8",
+      "page": 157,
+      "ref": "Case.105149.syllabus.8",
+      "text": "(b) Upon the evidence in this case, the state courts could properly find that the confessions were not obtained by physical force or threats. Pp. 182-184."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 9",
+      "page": 157,
+      "ref": "Case.105149.syllabus.9",
+      "text": "(c) Upon the evidence in this case, the state courts could properly find that the confessions were not obtained by psychological coercion. Pp. 184-186."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 10",
+      "page": 157,
+      "ref": "Case.105149.syllabus.10",
+      "text": "(d) The illegal delay in the arraignment of petitioners did not alone require rejection of the confessions under the Fourteenth Amendment. Pp. 186-188."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 11",
+      "page": 157,
+      "ref": "Case.105149.syllabus.11",
+      "text": "3. If the jury rejected the confessions, it could constitutionally base a conviction on other sufficient evidence. Pp. 188-194."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 12",
+      "page": 157,
+      "ref": "Case.105149.syllabus.12",
+      "text": "(a) There was no constitutional error in the trial court's refusal of petitioners' request for instruction to the jury that, if it found the confessions to have been coerced, it must return a verdict of acquittal. Pp. 188-193."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 13",
+      "page": 157,
+      "ref": "Case.105149.syllabus.13",
+      "text": "(b) The submission of a confession to a state jury tentatively and under proper instructions for judgment of the coercion issue does not preclude a 'conviction on other sufficient evidence if it rejects the confession. P. 190."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 14",
+      "page": 157,
+      "ref": "Case.105149.syllabus.14",
+      "text": "(c) The other evidence of petitioners' guilt, consisting of direct testimony of the surviving victim and of a well-corroborated accomplice, as well as incriminating circumstances unexplained, is such that, apart from the confessions, it could not be held constitutionally or legally insufficient to warrant the jury verdict. Pp. 190-192."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 15",
+      "page": 157,
+      "ref": "Case.105149.syllabus.15",
+      "text": "(d) The Fourteenth Amendment does not enact a rigid exclusionary rule of evidence rather than a guarantee against conviction on inherently untrustworthy evidence. Pp. 192-193."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 16",
+      "page": 157,
+      "ref": "Case.105149.syllabus.16",
+      "text": "(e) Whatever may have been the grounds of the New York Court of Appeals' affirmance of the judgments in this case, the decision here is based, not upon the ground of harmless error, but upon the ground that there was no constitutional error. Pp. 193- 194."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 17",
+      "page": 158,
+      "ref": "Case.105149.syllabus.17",
+      "text": "4. As to the third petitioner's objections relating to the admissibility of the confessions to which he was not a party, there was no constitutional error such as would justify setting aside his conviction. Pp. 194-196."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 18",
+      "page": 158,
+      "ref": "Case.105149.syllabus.18",
+      "text": "(a) The holding that it was permissible for the state courts to find. that the confessions were voluntary takes away the support for this objection in this Court. P. 194."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 19",
+      "page": 158,
+      "ref": "Case.105149.syllabus.19",
+      "text": "(b) In the light of the other testimony in the case, the deletion of this petitioner's name from the confessions would not have helped him. P. 194."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 20",
+      "page": 158,
+      "ref": "Case.105149.syllabus.20",
+      "text": "(c) This petiti .ier's rights under the Fourteenth Amendment were not infringed by the fact that he was unable to cross-examine the confessors. P. 195."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 21",
+      "page": 158,
+      "ref": "Case.105149.syllabus.21",
+      "text": "(d) The hearsay-evidence rule, with all its subtleties, anomalies and ramifications, is not embraced by the Fourteenth Amendment. P. 196."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 22",
+      "page": 158,
+      "ref": "Case.105149.syllabus.22",
+      "text": "(e) That the methods adopted by the New York courts to protect this petitioner against any disadvantage from the use of the confessions may not have been the most effective conceivable, does not render them violative of the Fourteenth Amendment. P. 196."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 23",
+      "page": 158,
+      "ref": "Case.105149.syllabus.23",
+      "text": "5. On the record in this case, there is no justification for reading the Fourteenth Amendment to deny the State the power to hold these petitioners guilty. Pp. 196-197."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Stein v. New York, syllabus ¶ 24",
+      "page": 158,
+      "ref": "Case.105149.syllabus.24",
+      "text": "303 N. Y. 856, 104 N. E. 2d 917, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-346-156"
+  ],
+  "title": "Stein v. New York",
+  "us_cite": "346 U.S. 156"
+}

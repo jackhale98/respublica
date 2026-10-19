@@ -1,0 +1,194 @@
+{
+  "chosen_because": [
+    "cited on 12 pages"
+  ],
+  "conan_citation": "National Labor Relations Board v. Jones & Laughlin Steel Corp., 301 U.S. 1 (1937)",
+  "courtlistener_name": "National Labor Relations Board v. Jones & Laughlin Steel Corp.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102804/national-labor-relations-board-v-jones-laughlin-steel-corp/",
+  "date": "1937-04-12",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102804. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 301, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102804",
+  "loc_url": "https://www.loc.gov/item/usrep301001/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep301/usrep301001/usrep301001.pdf",
+  "ref_prefix": "Case.102804",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 1",
+      "page": 1,
+      "ref": "Case.102804.syllabus.1",
+      "text": "1. The distinction between what is national and what is local in the activities of commerce is vital to the maintenance of our federal form of government. P. 29."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 2",
+      "page": 1,
+      "ref": "Case.102804.syllabus.2",
+      "text": "2. The validity of provisions which, considered by themselves, are constitutional, held not affected by general and ambiguous declarations in the same statute. P. 30."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 3",
+      "page": 1,
+      "ref": "Case.102804.syllabus.3",
+      "text": "3. An interpretation which conforms a statute to the Constitution must be preferred to another which would render it unconstitutional or of doubtful validity. P. 30."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 4",
+      "page": 1,
+      "ref": "Case.102804.syllabus.4",
+      "text": "4. Acts which directly burden or obstruct interstate or foreign commerce, or its free flow, are within the reach of the congressional power; and this includes acts, having that effect., which grow out of labor disputes. P. 31."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 5",
+      "page": 2,
+      "ref": "Case.102804.syllabus.5",
+      "text": "5. Employees in industry have a fundamental right to organize and select represcntatives of their own choosing for collective bargaining; and discrimination or coercion upon the pirt of their employer to prevent the free exercise of this right is a proper subject for condemnation by competent legislative authority. P. 33."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 6",
+      "page": 2,
+      "ref": "Case.102804.syllabus.6",
+      "text": "G. The congressional authority to protect interstate commerce from burdens and obstructions is not limited to transactions which can be deemed to be an essential part of a \"flow\" of such commerce. Pp. 34-36."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 7",
+      "page": 2,
+      "ref": "Case.102804.syllabus.7",
+      "text": "7. Although activities may be intrastate in character when separately considered, if they have such a close and substantial relalien to interstate commerce that their control is essential, or appropriate, to protect that commerce from burdens and obstructions, Congress has the power to exercise that control. P. 37."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 8",
+      "page": 2,
+      "ref": "Case.102804.syllabus.8",
+      "text": "S. This power must be considered in the light of our dual system of government and may not be extended so as to embrace effects upon interstate commerce so indirect and remote that to embrace. them would, in view of cur complex society, effectually obliterate the distinction between what is national and what is local and create a completely centralized government. The question is necessarily one of degree. P. 37."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 9",
+      "page": 2,
+      "ref": "Case.102804.syllabus.9",
+      "text": "0. Whatever amounts to more or less constant practice, and threatens to obstruct or unduly to burden the freedomr of interstate com-, merce, is within the regulatory power of Congress under the commerce clause; and it is primarily for Congress to consider and decide the fact of the danger and meet it. P. 37.,"
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 10",
+      "page": 2,
+      "ref": "Case.102804.syllabus.10",
+      "text": "10. The close and intimate effect which brings the subject within the reach of federal power may be due to activities in relation to productive industry, although the industry when separately viewed is local, P. 38."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 11",
+      "page": 2,
+      "ref": "Case.102804.syllabus.11",
+      "text": "11. The relation to interstate commerce of the manufacturing enterprise involved in this case was such that a stoppage of its operations by industrial strife would have an immediate, direct and paralyzing effect upon interstate commerce. Therefore Congress had constitutional authority, for the protection of interstate commerce, to safeguard the right of the employees in the manufacturing plant to self-organization and free choice of their representatives for collective bargaining. P. 41."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 12",
+      "page": 3,
+      "ref": "Case.102804.syllabus.12",
+      "text": "Judicial notice is taken of the facts that the recognition of the right of employees to self-organization and to have representatives of their own choosing for the purpose of collective bargaining is often an essential condition of industrial peace, and that refusal to confer and negotiate has been one of the most, prolific causes of strife."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 13",
+      "page": 3,
+      "ref": "Case.102804.syllabus.13",
+      "text": "12. The National Labor Relations Act of July 5, 1935, empowers the National Labor Relations Board to prevent any person from engaging in unfair labor practices \"affecting commerce\";.its definition of \"commerce\" (aside from commerce within a territory or the District of Columbia) is such as to include only interstate and foreign commerce; and -the term '.'affecting commerce\" it defines as meaning \"in commerce, or burdening or obstructing commerce or the free flow of commerce, or having led or tending to lead to a labor dispute burdening or obstructing -commerce or the free flow of commerce.\" .The \"unfair labor practices,\" as defined by the Act and involved in this case, are restraint or coercion of employees in their rights to self-organization and to bargain collectively through representatives of their own choosing, and discrimination against them in.regard to hire or tenure.. of employment for the purpose of encouraging or discouraging membership in any labor organization. §§ 7 and 8. The Act (§ 9a) declares that representatives, for the purpose of collective bargaining, of the majority of the employees in an appropriate unit shall be the exclusive representatives of all the employees in that unit; but that any individual employee or a group of employees shall have the right at any time to present grievances to their employer. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 14",
+      "page": 3,
+      "ref": "Case.102804.syllabus.14",
+      "text": "(1) That in safeguarding rights of employees and empowering the Board, the statute, in so far as involved in the present case, confines itself to such control of the industrial relationship as may be constitutionally exercised by Congress to prevent burden or obstruction to interstate or foreign commerce arising from industrial disputes. P. 43."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 15",
+      "page": 3,
+      "ref": "Case.102804.syllabus.15",
+      "text": "(2) The Act imposes upon Lhe eiiplover the duty of conferring and negotiating with the authorized representatives of the employees for the purpose of settling a labor dispute; but it does not preclude such individual contracts as the employer may elect to make directly with individual employees. P. 44."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 16",
+      "page": 3,
+      "ref": "Case.102804.syllabus.16",
+      "text": "(3) The Act does not compel agreements between employers and employees. Its theory is that free opportunity for negotiation with accredited representatives of employees is likely to promote industrial peace and may bring about the adjustments and agreements which the Act in itself does not attempt to compel. P. 45."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 17",
+      "page": 4,
+      "ref": "Case.102804.syllabus.17",
+      "text": "(4) The Act does not interfere with the normal right of the employer to hire, or with the right of discharge when exercised for other reasons thin intimidation and coercion; and what is the true reason in this regard is left the subject of investigation in each case with full opportunity to show the facts. P. 45."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 18",
+      "page": 4,
+      "ref": "Case.102804.syllabus.18",
+      "text": "13. A corporation which manufactured iron and steel products in its factories in Pennsylvania from raw materials most of which it brought in from other States, and which shipped 75% of the manufactured products out of Pennsylvania and disposed of them throughout this country and in Canada, was required by orders of the National Labor Relations Board to tender reinstatement to men who had been employed in one of the, factories but were discharged because of their union activities and for the purpose of discouraging union membership. The orders further required that the company make good the pay the men had lost through their discharge, and that it desist. from discriminating against members of the union, with regard to hire and tenure of employment, and from interfering by coercion with the selforganization of its employees in the plant. Held that the orders were authorized by the National Labor Relations Act, and that the Act is constitutional as thus applied to the company. Pp. 30, 32, 34, 41."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 19",
+      "page": 4,
+      "ref": "Case.102804.syllabus.19",
+      "text": "14. The right of employers to conduct their own business is not arbitrarily restrained by regulations that merely protect the correlative rights of their employees to organize fo the purpose of securing the redress of grievances and of promoting agreements with employers relating to rates of pay and conditions of work. P. 43."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 20",
+      "page": 4,
+      "ref": "Case.102804.syllabus.20",
+      "text": "15. The fact that the National Labor Relations Act subjects the employer to supervision and restraint and leaves untouched the abuses for which employees may be responsible, and fails to provide a more comprehensive plan, with better assurance of fairness to both sides and with increased chances of success in bringing about equitable solutions of industrial disputes affecting interstate commerce, does not affect its validity. The question is as to the power of Congress, not as to its policy; and legislative authority, exerted within its proper field, need not embrace all the evils within its reach. P. 46."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 21",
+      "page": 5,
+      "ref": "Case.102804.syllabus.21",
+      "text": "16. The Natirnal Labor Relations Act establishes standards to which the Board must conform. There must be complaint, notice and hearing. The Board must receive evidence and make findings. These findings as to the facts are to be conclusive, but only if supported by evidence. The order of the Board is subject to review by the designated court; and only when sustained by the court may the order be enforced. Upon that review all questions of the jurisdiction of the Board and the regularity of its proceedings, all questions of constitutional right or statutory authority, are open to examination by the court. These procedural provisions afford adequate opportunity to secure judicial protection against arbitrary action, in accordance with the wellsettled rules applicable to administrative agencies set up by Congress to aid in the enforcement of valid legislation. P. 47."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 22",
+      "page": 5,
+      "ref": "Case.102804.syllabus.22",
+      "text": "17. The provision of the National Labor Relations Act, § 10 (c), authorizing the Board to require the reinstatement of employees found to have been discharged because of their union activity or for the purpose of discouraging membership in the union, is valid. P. 47."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 23",
+      "page": 5,
+      "ref": "Case.102804.syllabus.23",
+      "text": "18. The provision of the Act, § 10 (c), that the Board, in requiring reinstatement, may direct the payment of wages for the time lost by the discharge, less amounts earned by the employee during that period, does not contravene the provisions of the Seventh Amendment with respect to jury trial in suits at common law. P. 48."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Labor Relations Board v. Jones & Laughlin Steel Corp., syllabus ¶ 24",
+      "page": 5,
+      "ref": "Case.102804.syllabus.24",
+      "text": "83 F. (2d) 998, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-301-1"
+  ],
+  "title": "National Labor Relations Board v. Jones & Laughlin Steel Corp.",
+  "us_cite": "301 U.S. 1"
+}

@@ -1,0 +1,181 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.10 (6 pages)",
+    "cited on 18 pages"
+  ],
+  "conan_citation": "Ashwander v. Tennessee Valley Authority, 297 U.S. 288 (1936)",
+  "courtlistener_name": "Ashwander v. Tennessee Valley Authority",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102605/ashwander-v-tennessee-valley-authority/",
+  "date": "1936-02-17",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102605. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 297, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102605",
+  "loc_url": "https://www.loc.gov/item/usrep297288/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep297/usrep297288/usrep297288.pdf",
+  "ref_prefix": "Case.102605",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 1",
+      "page": 288,
+      "ref": "Case.102605.syllabus.1",
+      "text": "1. Owners of a minority of the preferred shares, with voting power, in a corporation have standing to sue in its right to prevent the carrying out of a contract executed in its name by the directors with an agency of the United States, upon the grounds that the contract is unconstitutional and that its performance will cause irreparable injury to the interests of the corporation. P. 318."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 2",
+      "page": 288,
+      "ref": "Case.102605.syllabus.2",
+      "text": "In order to establish the stockholders' right of suit, it is not necessary to show that, in executing the contract, the directors acted with fraudulent intent or under legal duress or ultra vires of the corporation. In the absence of an adequate legal remedy, it is enough to show the breach of duty involved in the injurious, illegal action. Th;-may consist in yielding to illegal government demands. The fa.:, that the directors, in the exercise of their judgment, resolved to comply with such demands, is not an adequate ground for denying to the stockholders an opportunity to contest their validity."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 3",
+      "page": 288,
+      "ref": "Case.102605.syllabus.3",
+      "text": "2. The opportunity to resort to equity, in the absence of an adequate legal remedy, in order to prevent illegal transactions by those in control of corporate properties, should not be curtailed because of reluctance to decide constitutional questions. P. 321."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 4",
+      "page": 288,
+      "ref": "Case.102605.syllabus.4",
+      "text": "3. Estoppel in equity must rest on substantial grounds of prejudice or change of position-not on technicalities. P. 322."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 5",
+      "page": 288,
+      "ref": "Case.102605.syllabus.5",
+      "text": "4. Where a contract between an electric power corporation and the Tennessee Valley Authority, a federal agency, for the sale by the former to the latter of transmission lines leading from a government dam where electricity was generated, was attacked in behalf of the corporation upon the ground that legislation by Congress purporting to empower the federal agency was unconstitutional,- held that the corporation was not estopped by having bought electricity of the Government at the dam before and after the passage of the legislation; or by having applied to a state public service commission for approval of the contract; or by a delay of some months in the bringing of a stockholders' suit to set the contract aside. P. 323."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 6",
+      "page": 289,
+      "ref": "Case.102605.syllabus.6",
+      "text": "The principle that one who acc epts the benefit of a statute may not question its constitutionality, held inapplicable."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 7",
+      "page": 289,
+      "ref": "Case.102605.syllabus.7",
+      "text": "5. The 'judicial power does not extend to the determination of abstract questions. P. 324."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 8",
+      "page": 289,
+      "ref": "Case.102605.syllabus.8",
+      "text": "6. The Act providing for declaratory judgments does not attempt to change the essential requisites for the exercise of judicial power. By its terms, it applies to \"cases of actual controversy,\" meaning a controversy, of a justiciable nature, thus excluding advisory decrees upon hypothetical states of fact. P. 325."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 9",
+      "page": 289,
+      "ref": "Case.102605.syllabus.9",
+      "text": "7. The dam across the Tennessee River at Muscle Shoals, known as the Wilson Dam, was constructed pursuant to the National Defense Act of June 3, 1916, in the exercise of constitutional functions of the Federal Government, (a) as a means of assuring abundant electric energy for the manufacture of munitions in the event of war; (b) to improve the navigability of the river. P. 326."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 10",
+      "page": 289,
+      "ref": "Case.102605.syllabus.10",
+      "text": "8. Judicial notice is taken of the international situation existing when the Act of 1916 was passed. Indisputably, the Wilson Dam and its auxiliary plants, including a hydro-electric power plant, are, and were intended to be, adapted to the purposes of national defense. P. 327."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 11",
+      "page": 289,
+      "ref": "Case.102605.syllabus.11",
+      "text": "9. The power to regulate interstate commerce includes the power to remove obstructions to navigation from the navigable rivers of the United States. P. 328."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 12",
+      "page": 289,
+      "ref": "Case.102605.syllabus.12",
+      "text": "10. In the execution of the Wilson Dam project for.the constitutional purposes above stated, the United States acquired full title to the dam site, with all riparian rights. Water power, an inevitable incident of the construction of the dam, came into the exclusive control of the Federal Government, and was convertible into electric energy. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 13",
+      "page": 289,
+      "ref": "Case.102605.syllabus.13",
+      "text": "(1) That the water power, the right to convert it into electric energy, and the electric energy thus produced, constitute property belonging to the United States. P. 330."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 14",
+      "page": 289,
+      "ref": "Case.102605.syllabus.14",
+      "text": "(2) That this electric energy, so produced at the Wilson Dam, is property of which Congress may dispose pursuant to the authority expressly granted by § 3, Art. IV, of the Constitution. P. 330."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 15",
+      "page": 289,
+      "ref": "Case.102605.syllabus.15",
+      "text": "(3) The Ninth and Tenth Amendments do not apply to rights which are expressly granted by the Constitution to the Federal Government. P. 330."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 16",
+      "page": 289,
+      "ref": "Case.102605.syllabus.16",
+      "text": "(4) The authority of Congress to aispose of electric energy generated at the Wilson Dam, is not limited to a surplus necessarily created in the course of making munitions of War or operating the works for navigation purposes, but extends to the remainder of the available energy, which would otherwise be lost or wasted. P. 335."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 17",
+      "page": 290,
+      "ref": "Case.102605.syllabus.17",
+      "text": "(5) The method of disposing of government property under the constitutional provision (§ 3, Art. IV) must be appropriate to the nature of the property, and be adopted in the public interest as distinguished from private or personal ends; and, the Court assumes, it must be consistent with the foundation principles of our dual system of Government and must not be contrived to govern the concerns reserved to the States. P. 338."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 18",
+      "page": 290,
+      "ref": "Case.102605.syllabus.18",
+      "text": "11. The Government, acting through its agency, the Tennessee Valley Authority, undertook to dispose of electric energy generated at the Wilson Dam by sale to a power company, by interchange of energy with the company, and by purchase from the company of certain transmission lines leading from the dam and providing the means of distributing such energy to a large population within fifty miles. The power company had theretofore been buying energy from the Government at the dam and was apparently the only customer to whom it could be sold there. The purchase of the lines was to enable the Government to seek a wider market. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 19",
+      "page": 290,
+      "ref": "Case.102605.syllabus.19",
+      "text": "(1) That there was no basis for concluding that the contract exceeded the federal power to dispose of property, and invaded rights reserved to the State or to the people. P. 338."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 20",
+      "page": 290,
+      "ref": "Case.102605.syllabus.20",
+      "text": "(2) The power company had no constitutional right to insist that the energy should be sold to it at the dam or go to waste. P. 339."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 21",
+      "page": 290,
+      "ref": "Case.102605.syllabus.21",
+      "text": "The decision on the constitutional question is strictly limited to the right of the Government to dispose of the energy itself,-- which is simply the mechanical energy, incidental to falling water at this dam, converted into electric energy, susceptible of transmission,--and the right to acquire these transmission lines as a facility for disposing of that energy. The Government rightly conceded at the bar that it was without constitutional authority to acquire or dispose of electric energy except as it comes into being in the operation of works constructed in the exercise of some power delegated to the United States. The question whether it might constitutionally use the energy generated at Wilson Dam in carrying on manufacturing or commercial 'enterprises not related to the purposes for which the Government was established, is not involved in this case; nor is the question whether, for disposing of the energy, the Government could acquire or operate local or urban distribution systems. The Court expresses no opinion as to such questions, nor as to the status of any other dam or power development in the Tennessee Valley, whether connected with or apart from the Wilson Dam, nor as to the validity of the Tennessee Valley Authority Act or of the claims made in the pronouncements and program of that Authority, apart from the questions discussed in relation to the particular provisions of the contract above mentioned affecting the Power Company. P. 339."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ashwander v. Tennessee Valley Authority, syllabus ¶ 22",
+      "page": 291,
+      "ref": "Case.102605.syllabus.22",
+      "text": "78 F. (2d) 578, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-297-288"
+  ],
+  "title": "Ashwander v. Tennessee Valley Authority",
+  "us_cite": "297 U.S. 288"
+}

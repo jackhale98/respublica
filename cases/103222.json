@@ -1,0 +1,104 @@
+{
+  "chosen_because": [
+    "cited on 10 pages",
+    "named in the title of essay ArtIII.S2.C1.9.4"
+  ],
+  "conan_citation": "Coleman v. Miller, 307 U.S. 433 (1939)",
+  "courtlistener_name": "Coleman v. Miller",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/103222/coleman-v-miller/",
+  "date": "1939-06-05",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 103222. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 307, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "103222",
+  "loc_url": "https://www.loc.gov/item/usrep307433/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep307/usrep307433/usrep307433.pdf",
+  "ref_prefix": "Case.103222",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Miller, syllabus ¶ 1",
+      "page": 433,
+      "ref": "Case.103222.syllabus.1",
+      "text": "1. Upon submission of a resolution for ratification of a proposed amendment to the Federal Constitution, known as the Child Labor Amendment, twenty of the forty senators of the State of Kansas voted in favor of its adoption and twenty voted against it. The Lieutenant Governor, the presiding officer of the Senate, then cast his vote in favor of the resolution, and later it was adopted by the other house of the legislature on a vote of a majority of its members. The twenty senators who had voted against ratification, challenging the right of -he Lieutenant Governor to cast the deciding vote in the Senate, and alleging that the proposed amendment had lost its vitality because of previous rejection by Kansas and other States and failure of ratification within a reasonable time, sought a writ of mandamus to compel the Secretary of the Senate to erase an endorsement on the resolution, to the effect that it had been adopted by the Senate, and to endorse thereon the words \"was not passed,\" and to restrain the officers of the Senate and House of Representatives from signing the resolution and the Secretary of State of Kansas from authenticating it and delivering it to the Governor. The State entered its appearance and the State Supreme Court entertained the action, sustained the right of the plaintiffs to maintain it, but overruled their contentions, uphteld the ratification, and denied the writ. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Miller, syllabus ¶ 2",
+      "page": 433,
+      "ref": "Case.103222.syllabus.2",
+      "text": "(1) The questions decided were federal questions, arising under Article V of the Constitution. P. 437."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Miller, syllabus ¶ 3",
+      "page": 433,
+      "ref": "Case.103222.syllabus.3",
+      "text": "(2) The complaining senators, whose votes against ratification have been overridden and virtually held for naught, although if they are right in their contentions their votes would have been sufficient to defeat ratification, have a plain, direct and adequate interest in maintaining the effectiveness of their votes. They have set up and claimed a right and privilege under the Constitution of the United States to have their votes given effect and the state court has denied that right and privilege. P. 438."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Miller, syllabus ¶ 4",
+      "page": 433,
+      "ref": "Case.103222.syllabus.4",
+      "text": "(3) This Court has jurisdiction to review the decision of the state court by certiorari, under Jud. Code § 237 (b). P. 438."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Miller, syllabus ¶ 5",
+      "page": 434,
+      "ref": "Case.103222.syllabus.5",
+      "text": "2. The Court being equally divided in opinion as to whether the question presents a justiciable controversy, or is a political question, expresses no opinion upon a contention that the Lieutenant Governor of Kansas was not a part of the \"legislature,\" and under Article V of the Federal Constitution could not be permitted a deciding vote on the ratification of the proposed amendment. P. 446."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Miller, syllabus ¶ 6",
+      "page": 434,
+      "ref": "Case.103222.syllabus.6",
+      "text": "3. In accordance with the precedent of the Fourteenth Amendment, the efficacy of ratification of a proposed amendment to the Federal Constitution by a state legislature which had previously rejected the proposal, is held a question for the political departments, with the ultimate authority in the Congress in the exercise' of its control over the promulgation of the adoption of the amendment. P. 447."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Miller, syllabus ¶ 7",
+      "page": 434,
+      "ref": "Case.103222.syllabus.7",
+      "text": "4. The legislature of Kansas having actually ratified the proposed Child Labor Amendment, this Court should not restrain the state officers from certifying the ratification to the Secretary of State, because of an earlier rejection, and thus prevent the question from coming before the political departments. There is found no basis in either Constitution or statute for such judicial action. P. 450."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Miller, syllabus ¶ 8",
+      "page": 434,
+      "ref": "Case.103222.syllabus.8",
+      "text": "5. R. S. § 205; 5 U. S. C. 160, presupposes official notice to the Secretary of State when'a state legislature has adopted a resolution of ratification. No warrant is seen for judicial interference with the performance of that duty. P. 450."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Miller, syllabus ¶ 9",
+      "page": 434,
+      "ref": "Case.103222.syllabus.9",
+      "text": "6. The Congress in controlling the promulgation of the adoption of a constitutional amendment has the final determination of the question whether by lapse of time its proposal of the amendment had lost its vitality before being adopted by the requisite number of legislatures. P. 451."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Miller, syllabus ¶ 10",
+      "page": 434,
+      "ref": "Case.103222.syllabus.10",
+      "text": "7. In determining whether a question falls within the category of political, non-justiciable questions, the appropriateness under our system of government of attributing finality to the action of the political departments, and also the lack of satisfactory criteria for a judicial determination, are dominant considerations. P. 454."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Miller, syllabus ¶ 11",
+      "page": 434,
+      "ref": "Case.103222.syllabus.11",
+      "text": "146 Kan. 390; 71 P. 2d 518, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-307-433"
+  ],
+  "title": "Coleman v. Miller",
+  "us_cite": "307 U.S. 433"
+}

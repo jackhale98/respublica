@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "named in the title of essay ArtIII.S2.C1.9.3"
+  ],
+  "conan_citation": "Luther v. Borden, 48 U.S. (7 How.) 1 (1849)",
+  "courtlistener_name": "Luther v. Borden",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/86466/luther-v-borden/",
+  "date": "1849-01-18",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 86466. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 48, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "86466",
+  "loc_url": "https://www.loc.gov/item/usrep048001/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep048/usrep048001/usrep048001.pdf",
+  "ref_prefix": "Case.86466",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-48-1"
+  ],
+  "syllabus_note": "Volume 48 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Luther v. Borden",
+  "us_cite": "48 U.S. 1"
+}

@@ -1,0 +1,49 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.6 (11 pages)",
+    "cited on 17 pages",
+    "named in the title of essay ArtIII.S2.C1.6.4"
+  ],
+  "conan_citation": "Lujan v. Defenders of Wildlife, 504 U.S. 555 (1992)",
+  "courtlistener_name": "Lujan v. Defenders of Wildlife",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112747/lujan-v-defenders-of-wildlife/",
+  "date": "1992-06-12",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112747. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 504, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112747",
+  "loc_url": "https://www.loc.gov/item/usrep504555/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep504/usrep504555/usrep504555.pdf",
+  "ref_prefix": "Case.112747",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Lujan v. Defenders of Wildlife, syllabus ¶ 1",
+      "page": 555,
+      "ref": "Case.112747.syllabus.1",
+      "text": "Section 7(a)(2) of the Endangered Species Act of 1973 divides responsibilities regarding the protection of endangered species between petitioner Secretary of the Interior and the Secretary of Commerce, and requires each federal agency to consult with the relevant Secretary to ensure that any action funded by the agency is not likely to jeopardize the continued existence or habitat of any endangered or threatened species. Both Secretaries initially promulgated a joint regulation extending § 7(a)(2)'s coverage to actions taken in foreign nations, but a subsequent joint rule limited the section's geographic scope to the United States and the high seas. Respondents, wildlife conservation and other environmental organizations, filed an action in the District Court, seeking a declaratory judgment that the new regulation erred as to § 7(a)(2)'s geographic scope and an injunction requiring the Secretary of the Interior to promulgate a new rule restoring his initial interpretation. The Court of Appeals reversed the District Court's dismissal of the suit for lack of standing. Upon remand, on cross-motions for summary judgment, the District Court denied the Secretary's motion, which renewed his objection to standing, and granted respondents' motion, ordering the Secretary to publish a new rule. The Court of Appeals affirmed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Lujan v. Defenders of Wildlife, syllabus ¶ 2",
+      "page": 555,
+      "ref": "Case.112747.syllabus.2",
+      "text": "Held: The judgment is reversed, and the case is remanded."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Lujan v. Defenders of Wildlife, syllabus ¶ 3",
+      "page": 555,
+      "ref": "Case.112747.syllabus.3",
+      "text": "911 F. 2d 117, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-504-555"
+  ],
+  "title": "Lujan v. Defenders of Wildlife",
+  "us_cite": "504 U.S. 555"
+}

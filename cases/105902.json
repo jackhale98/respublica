@@ -1,0 +1,111 @@
+{
+  "chosen_because": [
+    "cited on 11 pages"
+  ],
+  "conan_citation": "Barenblatt v. United States, 360 U.S. 109 (1959)",
+  "courtlistener_date": "1959-10-12",
+  "courtlistener_name": "Barenblatt v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/105902/barenblatt-v-united-states/",
+  "date": "1959-06-08",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 105902. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 360, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "105902",
+  "loc_url": "https://www.loc.gov/item/usrep360109/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep360/usrep360109/usrep360109.pdf",
+  "ref_prefix": "Case.105902",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 1",
+      "page": 109,
+      "ref": "Case.105902.syllabus.1",
+      "text": "Summoned to testify before a Subcommittee of the House of Representatives Committee on Un-American Activities, which was investigating alleged Communist infiltration into the field of education, petitioner, formerly a graduate student and teaching fellow at the University of Michigan, refused to answer questions as to whether he was then or had ever been a member of the Communist Party. He disclaimed reliance upon the privilege against self-incrimination, but objected generally to the right of the Subcommittee to inquire into his \"political\" and \"religious\" beliefs or any \"other personal or private affairs\" or \"associational activities\" upon grounds set forth in a previously prepaied memorandum, which was based on the First, Ninth, and Tenth Amendments, the prohibition against bills of attainder and the doctrine of separation of powers. For such refusal, he was convicted of a violation of 2 U. S. C. § 192, which makes it a misdemeanor for any person summoned as a witness by either Hoase of Congress or a committee thereof to refuse to answer any question pertinent to the question under inquiry. He was fined and sentenced to'imprisonment for six months. Held: Petitioner's conviction is sustained. Pp. 111-134."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 2",
+      "page": 109,
+      "ref": "Case.105902.syllabus.2",
+      "text": "1. In the light of the Committee's history and the repeated extensions of its life, as well as the successive appropriations by the House of Representatives for the conduct of its activities, its legislative authority and that of the Subcommittee to conduct the inquiry under consideration here is unassailable; and House Rule XI, 83d Congress, which defines the .Committee's authority, cannot be said to be constitutionally infirm on the score of vagueness. Watkins v. United States, 354 U. S. 178, distinguished. Pp. 116-123."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 3",
+      "page": 109,
+      "ref": "Case.105902.syllabus.3",
+      "text": "(a) Rule XI has a '\"persuasive gloss of legislative history\" which shows beyond doubt that, in pursuance of its legislative concerns in the domain of \"national security,\" the House of Representatives has clothed the Committee with pervasive authority to investigate Communist activities in this country. Pp. 117-121."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 4",
+      "page": 110,
+      "ref": "Case.105902.syllabus.4",
+      "text": "(b) In the light of the legislative history, Rule XI cannot be construed so as to exclude the field of education from the Committee's compulsory authority. Pp. 121-123."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 5",
+      "page": 110,
+      "ref": "Case.105902.syllabus.5",
+      "text": "2. The record in this case refutes petitioner's contention that he was not adequately apprised of the pertinency of the Subcommittee's questions to the subject matter of the inquiry. Watkins v. United States, supra, distinguished. Pp. 123-125."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 6",
+      "page": 110,
+      "ref": "Case.105902.syllabus.6",
+      "text": "3. On the record in this case, the balance between the individual and the governmental interests here at stake must be struck in favor of the latter, and, therefore, the provisions of the First Amendment were not transgressed by the Subcommittee's inquiry into petitioner's past or present membership in the Communist Party. Pp. 125-134."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 7",
+      "page": 110,
+      "ref": "Case.105902.syllabus.7",
+      "text": "(a) Where First Amendment rights are asserted to bar governmental interrogation, resolution of the issue always involves a balancing by the courts of the competing private and public interests at stake in the particular circumstances shown. Pp. 126-127."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 8",
+      "page": 110,
+      "ref": "Case.105902.syllabus.8",
+      "text": "(b) The investigation here involved was related to a valid legislative purpose, since Congress has wide power to legislate in the field of Communist activity in this Country and to conduct appropriate investigations in aid thereof. Pp. 127-129."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 9",
+      "page": 110,
+      "ref": "Case.105902.syllabus.9",
+      "text": "(c) Investigatory power in this domain is not to be denied Congress solely because the field of education is involved, and the record in this case does not indicate any attempt by the Committee to inquire into the content of academic lectures or discussions, but only to investigate the extent to which the Communist Party had succeeded in infiltrating into our educational institutions persons and groups committed to furthering the Party's alleged objective of violent overthrow of the Government. Sweezy v. New Hampshire, 354 U. S. 234, distinguished. Pp. 129-132."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 10",
+      "page": 110,
+      "ref": "Case.105902.syllabus.10",
+      "text": "(d) On the record in this case, it cannot be said that the true objective of the Committee and of the Congress was purely \"exposure,\" rather than furtherance of a valid legislative purpose. Pp. 132-133."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 11",
+      "page": 110,
+      "ref": "Case.105902.syllabus.11",
+      "text": "(e) The record is barren of other factors which in themselves might lead to the conclusion that the individual interests at stake were not subordinate to those of the Government. P. 134."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barenblatt v. United States, syllabus ¶ 12",
+      "page": 110,
+      "ref": "Case.105902.syllabus.12",
+      "text": "102 U. S. App. D. C. 217, 252 F. 2d 129, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-360-109"
+  ],
+  "title": "Barenblatt v. United States",
+  "us_cite": "360 U.S. 109"
+}

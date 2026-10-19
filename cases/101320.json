@@ -1,0 +1,104 @@
+{
+  "chosen_because": [
+    "overruled by Katz v. United States (table of overruled decisions)",
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Olmstead v. United States, 277 U.S. 438 (1928)",
+  "courtlistener_name": "Olmstead v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/101320/olmstead-v-united-states/",
+  "date": "1928-06-04",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 101320. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 277, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "101320",
+  "loc_url": "https://www.loc.gov/item/usrep277438/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep277/usrep277438/usrep277438.pdf",
+  "ref_prefix": "Case.101320",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Olmstead v. United States, syllabus ¶ 1",
+      "page": 438,
+      "ref": "Case.101320.syllabus.1",
+      "text": "1. Use in evidence in a criminal trial in a federal court of an incriminating telephone conversation voluntarily conducted by the accused and secretly overheard from a tapped wire by a government officer, does not compel the accused to be a witness against himself in violation of the Fifth Amendment. P. 462."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Olmstead v. United States, syllabus ¶ 2",
+      "page": 438,
+      "ref": "Case.101320.syllabus.2",
+      "text": "2. Evidence of a conspiracy to violate the Prohibition Act was obtained by government officers by secretly tapping the lines of a telephone company connected with the chief office and some of the residences of the conspirators, and thus clandestinely overhearing and recording their telephonic conversations concerning the conspiracy and in aid of its execution. The tapping connections were made in the basement of a large office building and on public streets, and no trespass was committed upon any property of the defendants. Held, that the obtaining of the evidence and its use at the trial did not violate the Fourth Amendment. Pp. 457-466."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Olmstead v. United States, syllabus ¶ 3",
+      "page": 438,
+      "ref": "Case.101320.syllabus.3",
+      "text": "3. The principle of liberal construction applied to the Amendment to effect its purpose in the interest of liberty, wil not justify enlarging it beyond the possible practical meaning -of \"persons, houses, papers, and effects,\" or so applying \"searches and seizures\" as to forbid hearing or sight. P. 465."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Olmstead v. United States, syllabus ¶ 4",
+      "page": 438,
+      "ref": "Case.101320.syllabus.4",
+      "text": "4. The policy of protecting the secrecy of telephone messages by making them, when intercepted, inadmissible as evidence in federal criminal trials, may be adopted by Congress through legislation; but it is not for the courts to adopt it by attributing an enlarged and unusual meaning to the Fourth Amendment. P. 465."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Olmstead v. United States, syllabus ¶ 5",
+      "page": 438,
+      "ref": "Case.101320.syllabus.5",
+      "text": "5. A provision in an order granting certiorari limiting the review to a single specific question, does not deprive the Court of jurisdiction to decide other questions presented by the record. P. 466."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Olmstead v. United States, syllabus ¶ 6",
+      "page": 438,
+      "ref": "Case.101320.syllabus.6",
+      "text": "6. The common law of evidence having prevailed in the State of Washington since a time antedating her transformation from a Territory to a State, those rules apply in the trials of criminal cases in the federal courts sitting in that State. P. 466."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Olmstead v. United States, syllabus ¶ 7",
+      "page": 439,
+      "ref": "Case.101320.syllabus.7",
+      "text": "7. Under the common law, the admissibility of evidence is not affected by the fact of its having been obtained illegally. P. 467."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Olmstead v. United States, syllabus ¶ 8",
+      "page": 439,
+      "ref": "Case.101320.syllabus.8",
+      "text": "8. The rule excluding from the federal courts evidence of crime procured by government officers by methods forbidden by the Fourth and Fifth Amendments, is an exception to the common law rule. Id."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Olmstead v. United States, syllabus ¶ 9",
+      "page": 439,
+      "ref": "Case.101320.syllabus.9",
+      "text": "9. Without the sanction of an Act of Congress, federal courts have no discretion to exclude evidence, the admission of which is not unconstitutional, because it was unethically procured. P. 468."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Olmstead v. United States, syllabus ¶ 10",
+      "page": 439,
+      "ref": "Case.101320.syllabus.10",
+      "text": "10. The statute of Washington, adopted in 1909, making the interception of telephone messages a misdemeanor, cannot affect the rules of evidence applicable in federal courts in criminal cases. Id."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Olmstead v. United States, syllabus ¶ 11",
+      "page": 439,
+      "ref": "Case.101320.syllabus.11",
+      "text": "19 F. (2d) 842, 848, 850, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-277-438"
+  ],
+  "title": "Olmstead v. United States",
+  "us_cite": "277 U.S. 438"
+}

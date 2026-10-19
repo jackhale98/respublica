@@ -1,0 +1,47 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C4.2 (4 pages)"
+  ],
+  "conan_citation": "Hanover National Bank v. Moyses, 186 U.S. 181 (1902)",
+  "courtlistener_name": "Hanover National Bank v. Moyses",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/95681/hanover-national-bank-v-moyses/",
+  "date": "1902-06-02",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 95681. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 186, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "95681",
+  "loc_url": "https://www.loc.gov/item/usrep186181/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep186/usrep186181/usrep186181.pdf",
+  "ref_prefix": "Case.95681",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Hanover National Bank v. Moyses, syllabus ¶ 1",
+      "page": 181,
+      "ref": "Case.95681.syllabus.1",
+      "text": "The bankruptcy law of 1898 is not unconstitutional because it provides that others than traders may be adjudged bankrupts; and that this may be done on voluntary petition."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hanover National Bank v. Moyses, syllabus ¶ 2",
+      "page": 181,
+      "ref": "Case.95681.syllabus.2",
+      "text": "Nor is it unconstitutional for want of uniformity because of its recognition of exemptions by the local law."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hanover National Bank v. Moyses, syllabus ¶ 3",
+      "page": 181,
+      "ref": "Case.95681.syllabus.3",
+      "text": "The notices provided for by the act are sufficient under the Constitution of the United States, and the discharge of the debtor under proceedings at his domicil authorized by Congress is valid throughout the United States."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-186-181"
+  ],
+  "title": "Hanover National Bank v. Moyses",
+  "us_cite": "186 U.S. 181"
+}

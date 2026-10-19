@@ -1,0 +1,48 @@
+{
+  "chosen_because": [
+    "overruled by Dobbs v. Jackson Women’s Health Organization (table of overruled decisions)",
+    "overruled (table of overruled decisions) and cited on 6 pages"
+  ],
+  "conan_citation": "Planned Parenthood of Southeastern Pennsylvania v. Casey, 505 U.S. 833 (1992)",
+  "courtlistener_name": "Planned Parenthood of Southeastern Pa. v. Casey",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112786/planned-parenthood-of-southeastern-pa-v-casey/",
+  "date": "1992-06-29",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112786. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 505, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112786",
+  "loc_url": "https://www.loc.gov/item/usrep505833/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep505/usrep505833/usrep505833.pdf",
+  "ref_prefix": "Case.112786",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Planned Parenthood of Southeastern Pennsylvania v. Casey, syllabus ¶ 1",
+      "page": 833,
+      "ref": "Case.112786.syllabus.1",
+      "text": "At issue are five provisions of the Pennsylvania Abortion Control Act of 1982: § 3205, which requires that a woman seeking an abortion give her informed consent prior to the procedure, and specifies that she be provided with certain information at least 24 hours before the abortion is performed; § 3206, which mandates the informed consent of one parent for a minor to obtain an abortion, but provides a judicial bypass procedure; § 3209, which commands that, unless certain exceptions apply, a married woman seeking an abortion must sign a statement indicating that she has notified her husband; § 3203, which defines a \"medical emergency\" that will excuse compliance with the foregoing requirements; and §§3207(b), 3214(a), and 3214(f), which impose certain reporting requirements on facilities providing abortion services. Before any of the provisions took effect, the petitioners, five abortion clinics and a physician representing himself and a class of doctors who provide abortion services, brought this suit seeking a declaratory judgment that each of the provisions was unconstitutional on its face, as well as injunctive relief. The District Court held all the provisions unconstitutional and permanently enjoined their enforcement. The Court of Appeals affirmed in part and reversed in part, striking down the husband notification provision but upholding the others."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Planned Parenthood of Southeastern Pennsylvania v. Casey, syllabus ¶ 2",
+      "page": 833,
+      "ref": "Case.112786.syllabus.2",
+      "text": "Held: The judgment in No. 91-902 is affirmed; the judgment in No. 91-744 is affirmed in part and reversed in part, and the case is remanded."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Planned Parenthood of Southeastern Pennsylvania v. Casey, syllabus ¶ 3",
+      "page": 833,
+      "ref": "Case.112786.syllabus.3",
+      "text": "947 F. 2d 682: No. 91-902, affirmed; No. 91-744, affirmed in part, reversed in part, and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-505-833"
+  ],
+  "title": "Planned Parenthood of Southeastern Pennsylvania v. Casey",
+  "us_cite": "505 U.S. 833"
+}

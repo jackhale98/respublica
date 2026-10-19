@@ -1,0 +1,24 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt1.8 (5 pages)"
+  ],
+  "conan_citation": "Americans for Prosperity Foundation v. Bonta, No. 19-251 (U.S. July 1, 2021)",
+  "courtlistener_name": "Americans for Prosperity Foundation v. Bonta",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/4896549/americans-for-prosperity-foundation-v-bonta/",
+  "date": "2021-07-01",
+  "date_source": "courtlistener",
+  "docket": "19-251",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 4896549. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+  },
+  "id": "4896549",
+  "ref_prefix": "Case.4896549",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-scotus-19-251"
+  ],
+  "syllabus_note": "The Library of Congress has no scan of this decision on its own (summary decisions are printed in lists, and the latest volumes are not yet scanned).",
+  "title": "Americans for Prosperity Foundation v. Bonta",
+  "us_cite": "594 U.S. 595"
+}

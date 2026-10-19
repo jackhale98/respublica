@@ -1,0 +1,89 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 6 pages"
+  ],
+  "conan_citation": "American Communications Ass’n v. Douds, 339 U.S. 382 (1950)",
+  "courtlistener_name": "American Communications Assn. v. Douds",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104790/american-communications-assn-v-douds/",
+  "date": "1950-05-08",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104790. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 339, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104790",
+  "loc_url": "https://www.loc.gov/item/usrep339382/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep339/usrep339382/usrep339382.pdf",
+  "ref_prefix": "Case.104790",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "American Communications Ass’n v. Douds, syllabus ¶ 1",
+      "page": 382,
+      "ref": "Case.104790.syllabus.1",
+      "text": "Section 9 (h) of the National Labor Relations Act, as amended b the Labor Management Relations Act, 1947, which imposes certain restrictions on, and denies the benefits of certain provisions of the National Labor Relations Act to, any labor organization the officers of which have not filed with the National Labor Relations Board the so-called \"non-Communist\" affidavits prescribed by § 9 (h), is valid under the Federal Constitution. Pp. 385-415."
+    },
+    {
+      "kind": "syllabus",
+      "label": "American Communications Ass’n v. Douds, syllabus ¶ 2",
+      "page": 382,
+      "ref": "Case.104790.syllabus.2",
+      "text": "1. One of the purposes of the Labor Management Relations Act was to remove the obstructions to the free flow of commerce resulting from \"political strikes\" instigated by Communists who had infiltrated the management of labor organizations and were subordinating legitimate trade-union objectives to obstructive. strikes when dictated by Communist Party leaders, often iA support of the policies of a foreign government. Pp, 387-389."
+    },
+    {
+      "kind": "syllabus",
+      "label": "American Communications Ass’n v. Douds, syllabus ¶ 3",
+      "page": 382,
+      "ref": "Case.104790.syllabus.3",
+      "text": "2. Section 9 (h) does not merely withhold from noncomplying unions benefi'ts granted by the Government; it also imposes on them a number of restrictions which would not exist if the National Labor Relations Act had not been enacted. However, it does not prohibit persons who do not sign the prescribed affidavit f.om holding union office. Pp. 389 390."
+    },
+    {
+      "kind": "syllabus",
+      "label": "American Communications Ass’n v. Douds, syllabus ¶ 4",
+      "page": 382,
+      "ref": "Case.104790.syllabus.4",
+      "text": "3. The remedy provided by § 9 (h) bears reasonable relation to the evil which it was designed to reach, since Congress might reasonably find that Communists, unlike members of other political parties, and persons who believe irl the overthrow of the Government by force, unlike persons of other beliefs, represent a cen-\" tinuing danger of disruptive political strikes when they hold posi-, tions of union leadership. Pp. 390-393."
+    },
+    {
+      "kind": "syllabus",
+      "label": "American Communications Ass’n v. Douds, syllabus ¶ 5",
+      "page": 383,
+      "ref": "Case.104790.syllabus.5",
+      "text": "4. Section 9 (h) is designed to protect the public, not against what Communists and others identified therein advocate or believe, but against what Congress has concluded they have done and arc likely to do again; and the probable effects of the statute upon' the free exercise of the right of speech and assembly must be weighed against the congressional determination that political strikes are evils of conduct which cause substantial harm to interstate commerce and that Communists and others identified by § 9 (h) pose continuing threats to that public. interest when in positions of union leadership. Pp. 393-400."
+    },
+    {
+      "kind": "syllabus",
+      "label": "American Communications Ass’n v. Douds, syllabus ¶ 6",
+      "page": 383,
+      "ref": "Case.104790.syllabus.6",
+      "text": "5. In view of the complexity of the problem of political strikes and how to deal with their leaders,, the public interest in the good faith exercise of the great powers entrusted by Congress to labor bargaining representatives under the National Labor Relations ict, the fact that § 9 (h) touches only a relatively few persons who combine certain political affiliations or beliefs with the occupancy of positions of great power over the economy of the country, and the fact that injury to interstate commerce would be an accomplished fact before any sanctions could 'be applied, the legislative judgment that interstate commerce must be protected from a continuing threat of political strikes is a permissible one in this case. Pp. 400-406."
+    },
+    {
+      "kind": "syllabus",
+      "label": "American Communications Ass’n v. Douds, syllabus ¶ 7",
+      "page": 383,
+      "ref": "Case.104790.syllabus.7",
+      "text": "6. The belief identified in § 9 (h) is a belief in the objective of overthrow by force or by any illegal or unconstitutional methods of the Government of the United States as it now exists under the. Constitution and laws thereof. The sole effect of the statute upon one who holds such beliefs is that he may be forced to relinquish his position as a union leader. So construed, in the light of the circumstances surrounding the problem, § 9 (h) does not unduly infringe freedoms protected by the First Amendment. Pp. 406-412."
+    },
+    {
+      "kind": "syllabus",
+      "label": "American Communications Ass’n v. Douds, syllabus ¶ 8",
+      "page": 383,
+      "ref": "Case.104790.syllabus.8",
+      "text": "7. Section 9 (h) is not unconstitutionally vague; it does not violate the prohibition of Article I, § 9 of the Constitution against bills of attainder or ex post facto laws; and it fcoes not require a \"test oath\" contrary to the provision of Article VI that \"no religious Test shall ever be required as- a Qualification to any Office or public Trust under the United States.\" Pp. 412-415."
+    },
+    {
+      "kind": "syllabus",
+      "label": "American Communications Ass’n v. Douds, syllabus ¶ 9",
+      "page": 383,
+      "ref": "Case.104790.syllabus.9",
+      "text": "9 F. Supp. 563,170 F. 2d 247, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-339-382"
+  ],
+  "title": "American Communications Ass’n v. Douds",
+  "us_cite": "339 U.S. 382"
+}

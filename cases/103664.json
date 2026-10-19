@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "overruled by Katz v. United States (table of overruled decisions)"
+  ],
+  "conan_citation": "Goldman v. United States, 316 U.S. 129 (1942)",
+  "courtlistener_match": "CourtListener gives 2 clusters for 316 U.S. 129; this one matches the case's name and year and is the most cited (the others: 2443377).",
+  "courtlistener_name": "Goldman v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/103664/goldman-v-united-states/",
+  "date": "1942-04-27",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 103664. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 316, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "103664",
+  "loc_url": "https://www.loc.gov/item/usrep316129/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep316/usrep316129/usrep316129.pdf",
+  "ref_prefix": "Case.103664",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-316-129"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 129 a paragraph seems to stop mid-sentence.",
+  "title": "Goldman v. United States",
+  "us_cite": "316 U.S. 129"
+}

@@ -1,0 +1,40 @@
+{
+  "chosen_because": [
+    "overruled by Malloy v. Hogan (table of overruled decisions)"
+  ],
+  "conan_citation": "Adamson v. California, 332 U.S. 46 (1947)",
+  "courtlistener_name": "Adamson v. California",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104455/adamson-v-california/",
+  "date": "1947-06-23",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104455. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 332, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104455",
+  "loc_url": "https://www.loc.gov/item/usrep332046/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep332/usrep332046/usrep332046.pdf",
+  "ref_prefix": "Case.104455",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Adamson v. California, syllabus ¶ 1",
+      "page": 46,
+      "ref": "Case.104455.syllabus.1",
+      "text": "1. The guaranty of the Fifth Amendment that no person \"shall be compelled in any criminal case to be 'a witness against himself\" is not made effective against state action by the Fourteenth Amendment. Twining v. New Jersey, 211 U. S. 78, and Palko v. Connecticut, ,302 U. S. 319, reaffirmed. ' Pp. 50-53."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Adamson v. California, syllabus ¶ 2",
+      "page": 46,
+      "ref": "Case.104455.syllabus.2",
+      "text": "2. The privilege against self-incrimination is not inherent in the right to a fair trial, and is therefore not on that basis protected by the due process clause of the Fourteenth Amendment. Pp. 53-54."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-332-46"
+  ],
+  "title": "Adamson v. California",
+  "us_cite": "332 U.S. 46"
+}

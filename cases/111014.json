@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Marsh v. Chambers, 463 U.S. 783 (1983)",
+  "courtlistener_name": "Marsh v. Chambers",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/111014/marsh-v-chambers/",
+  "date": "1983-07-05",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 111014. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 463, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "111014",
+  "loc_url": "https://www.loc.gov/item/usrep463783/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep463/usrep463783/usrep463783.pdf",
+  "ref_prefix": "Case.111014",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Marsh v. Chambers, syllabus ¶ 1",
+      "page": 783,
+      "ref": "Case.111014.syllabus.1",
+      "text": "The Nebraska Legislature begins each of its sessions with a prayer by a chaplain paid by the State with the legislature's approval. Respondent member of the Nebraska Legislature brought an action in Federal District Court, claiming that the legislature's chaplaincy practice violates the Establishment Clause of the First Amendment, and seeking injunctive relief. The District Court held that the Establishment Clause was not breached by the prayer but was violated by paying the chaplain from public funds, and accordingly enjoined the use of such funds to pay the chaplain. The Court of Appeals held that the whole chaplaincy practice violated the Establishment Clause, and accordingly prohibited the State from engaging in any aspect of the practice."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Marsh v. Chambers, syllabus ¶ 2",
+      "page": 783,
+      "ref": "Case.111014.syllabus.2",
+      "text": "Held: The Nebraska Legislature's chaplaincy practice does not violate the Establishment Clause. Pp. 786-795."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Marsh v. Chambers, syllabus ¶ 3",
+      "page": 783,
+      "ref": "Case.111014.syllabus.3",
+      "text": "(a) The practice of opening sessions of Congress with prayer has continued without interruption for almost 200 years ever since the First Congress drafted the First Amendment, and a similar practice has been followed for more than a century in Nebraska and many other states. While historical patterns, standing alone, cannot justify contemporary violations of constitutional guarantees, historical evidence in the context of this case sheds light not only on what the drafters of the First Amendment intended the Establishment Clause to mean but also on how they thought that Clause applied to the chaplaincy practice authorized by the First Congress. In applying the First Amendment to the states through the Fourteenth Amendment, it would be incongruous to interpret the Clause as imposing more stringent First Amendment limits on the states than the draftsmen imposed on the Federal Government. In light of the history, there can be no doubt that the practice of opening legislative sessions with prayer has become part of the fabric of our society. To invoke divine guidance on a public body entrusted with making the laws is not, in these circumstances, a violation of the Establishment Clause; it is simply a tolerable acknowledgment of beliefs widely held among the people of this country. Pp. 786-792."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Marsh v. Chambers, syllabus ¶ 4",
+      "page": 783,
+      "ref": "Case.111014.syllabus.4",
+      "text": "(b) Weighed against the historical background, the facts that a clergyman of only one denomination has been selected by the Nebraska Legislature for 16 years, that the chaplain is paid at public expense, and that the prayers are in the Judeo-Christian tradition do not serve to invalidate Nebraska's practice. Pp. 792-795."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Marsh v. Chambers, syllabus ¶ 5",
+      "page": 784,
+      "ref": "Case.111014.syllabus.5",
+      "text": "675 F. 2d 228, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-463-783"
+  ],
+  "title": "Marsh v. Chambers",
+  "us_cite": "463 U.S. 783"
+}

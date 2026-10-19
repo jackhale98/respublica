@@ -1,0 +1,62 @@
+{
+  "chosen_because": [
+    "cited on 12 pages"
+  ],
+  "conan_citation": "Garcia v. San Antonio Metropolitan Transit Authority, 469 U.S. 528 (1985)",
+  "courtlistener_date": "1985-04-15",
+  "courtlistener_name": "Garcia v. San Antonio Metropolitan Transit Authority",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/111308/garcia-v-san-antonio-metropolitan-transit-authority/",
+  "date": "1985-02-19",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 111308. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 469, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "111308",
+  "loc_url": "https://www.loc.gov/item/usrep469528/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep469/usrep469528/usrep469528.pdf",
+  "ref_prefix": "Case.111308",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Garcia v. San Antonio Metropolitan Transit Authority, syllabus ¶ 1",
+      "page": 528,
+      "ref": "Case.111308.syllabus.1",
+      "text": "Appellee San Antonio Metropolitan Transit Authority (SAMTA) is a public mass-transit authority that is the major provider of transportation in the San Antonio, Tex., metropolitan area. It has received substantial federal financial assistance under the Urban Mass Transportation Act of 1964. In 1979, the Wage and Hour Administration of the Department of Labor issued an opinion that SAMTA's operations are not immune from the minimum-wage and overtime requirements of the Fair Labor Standards Act (FLSA) under National League of Cities v. Usery, 426 U. S. 833, in which it was held that the Commerce Clause does not empower Congress to enforce such requirements against the States \"in areas of traditional governmental functions.\" Id., at 852. SAMTA then filed an action in Federal District Court, seeking declaratory relief. Entering judgment for SAMTA, the District Court held that municipal ownership and operation of a mass-transit system is a traditional governmental function and thus, under National League of Cities, is exempt from the obligations imposed by the FLSA."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Garcia v. San Antonio Metropolitan Transit Authority, syllabus ¶ 2",
+      "page": 528,
+      "ref": "Case.111308.syllabus.2",
+      "text": "Held: In affording SAMTA employees the protection of the wage and hour provisions of the FLSA, Congress contravened no affirmative limit on its power under the Commerce Clause. Pp. 537-557."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Garcia v. San Antonio Metropolitan Transit Authority, syllabus ¶ 3",
+      "page": 528,
+      "ref": "Case.111308.syllabus.3",
+      "text": "(a) The attempt to draw the boundaries of state regulatory immunity in terms of \"traditional governmental functions\" is not only unworkable but is also inconsistent with established principles of federalism and, indeed, with those very federalism principles on which National League of Cities purported to rest. That case, accordingly, is overruled. Pp. 537-547."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Garcia v. San Antonio Metropolitan Transit Authority, syllabus ¶ 4",
+      "page": 528,
+      "ref": "Case.111308.syllabus.4",
+      "text": "(b) There is nothing in the overtime and minimum-wage requirements of the FLSA, as applied to SAMTA, that is destructive of state sovereignty or violative of any constitutional provision. The States' continued role in the federal system is primarily guaranteed not by any externally imposed limits on the commerce power, but by the structure of the Federal Government itself. In these cases, the political process effectively protected that role. Pp. 547-555."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Garcia v. San Antonio Metropolitan Transit Authority, syllabus ¶ 5",
+      "page": 529,
+      "ref": "Case.111308.syllabus.5",
+      "text": "557 F. Supp. 445, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-469-528"
+  ],
+  "title": "Garcia v. San Antonio Metropolitan Transit Authority",
+  "us_cite": "469 U.S. 528"
+}

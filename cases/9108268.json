@@ -1,0 +1,83 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S1.6 (4 pages)"
+  ],
+  "conan_citation": "Touby v. United States, 500 U.S. 160 (1991)",
+  "courtlistener_match": "CourtListener gives 3 clusters for 500 U.S. 160; this one matches the case's name and year and is the most cited (the others: 9108269, 112591).",
+  "courtlistener_name": "Touby v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/9108268/touby-v-united-states/",
+  "date": "1991-05-20",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 9108268. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 500, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "9108268",
+  "loc_url": "https://www.loc.gov/item/usrep500160/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep500/usrep500160/usrep500160.pdf",
+  "ref_prefix": "Case.9108268",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Touby v. United States, syllabus ¶ 1",
+      "page": 160,
+      "ref": "Case.9108268.syllabus.1",
+      "text": "The Controlled Substances Act authorizes the Attorney General, upon compliance with specified procedures, to add new drugs to five \"schedules\" of controlled substances, the manufacture, possession, and distribution of which the Act regulates or prohibits. Because compliance with the Act's procedures resulted in lengthy delays, drug traffickers were able to develop and market \"designer drugs\"-which have pharmacological effects similar to, but chemical compositions slightly different from, scheduled substances-long before the Government was able to schedule them and initiate prosecutions. To combat this problem, Congress added §201(h) to the Act, creating an expedited procedure by which the Attorney General can schedule a substance on a temporary basis when doing so is \"necessary to avoid an imminent hazard to the public safety,\" and providing that a temporary scheduling order is not subject to judicial review. The Attorney General promulgated regulations delegating, inter alia, his temporary scheduling power to the Drug Enforcement Administration (DEA), which subsequently temporarily designated the designer drug \"Euphoria\" as a schedule I controlled substance. While that temporary order was in effect, petitioners were indicted for manufacturing and conspiring to manufacture Euphoria. The District Court denied their motion to dismiss, rejecting their contentions that § 201(h) unconstitutionally delegates legislative power to the Attorney General, and that the Attorney General improperly delegated his temporary scheduling authority to the DEA. The Court of Appeals affirmed petitioners' subsequent convictions."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Touby v. United States, syllabus ¶ 2",
+      "page": 160,
+      "ref": "Case.9108268.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Touby v. United States, syllabus ¶ 3",
+      "page": 160,
+      "ref": "Case.9108268.syllabus.3",
+      "text": "1. Section 201(h) does not unconstitutionally delegate legislative power to the Attorney General. Pp. 164-169."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Touby v. United States, syllabus ¶ 4",
+      "page": 160,
+      "ref": "Case.9108268.syllabus.4",
+      "text": "(a) The nondelegation doctrine does not prevent Congress from seeking assistance from a coordinate Branch, so long as it lays down an \"intelligible principle\" to which the person or body authorized to act is directed to conform. See, e. g., J. W. Hampton, Jr., & Co. v. United States, 276 U. S. 394, 409. Section 201(h)'s \"imminent hazard to public safety\" standard is concededly such a principle. Moreover, even if more specific guidance is required when Congress authorizes another Branch to promulgate regulations that contemplate criminal sanctions, § 201(h) passes muster. Although it features fewer procedural requirements than the permanent scheduling statute, the section meaningfully constrains the Attorney General by placing multiple specific restrictions on his discretion to define criminal conduct. He must also satisfy § 202(b)'s requirements for adding substances to schedules. Pp. 164-167. -"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Touby v. United States, syllabus ¶ 5",
+      "page": 161,
+      "ref": "Case.9108268.syllabus.5",
+      "text": "(b) Section 201(h) does not violate the principle of separation of powers by concentrating too much power in the Attorney General, who also wields the power to prosecute crimes. The separation-of-powers principle focuses on the distribution of powers among the three coequal Branches of Government, see Mistretta v. United States, 488 U. S. 361, 382, and does not speak to the manner in which Congress parcels out authority within the Executive Branch. Pp. 167-168."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Touby v. United States, syllabus ¶ 6",
+      "page": 161,
+      "ref": "Case.9108268.syllabus.6",
+      "text": "(c) Section 201(h) does not violate the nondelegation doctrine by barring judicial review. Since § 507 of the Act plainly authorizes judicial review of a permanent scheduling order, the effect of the § 201(h) bar is merely to postpone legal challenges to a scheduling order until the administrative process has run its course. Moreover, the § 201(h) bar does not preclude an individual facing criminal charges from bringing a challenge to a temporary scheduling order as a defense to prosecution. In these circumstances, the nondelegation doctrine does not require in addition an opportunity for preenforcement review of administrative determinations. Pp. 168-169."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Touby v. United States, syllabus ¶ 7",
+      "page": 161,
+      "ref": "Case.9108268.syllabus.7",
+      "text": "2. The Attorney General did not improperly delegate his temporary scheduling power to the DEA. Section 501(a) of the Act-which authorizes delegation of \"any of [the Attorney General's] functions\" under the Act -permits delegation unless a specific limitation appears elsewhere in the Act. See United States v. Giordano, 416 U. S. 505, 512-514. No such limitation appears with regard to the temporary scheduling power. P. 169."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Touby v. United States, syllabus ¶ 8",
+      "page": 161,
+      "ref": "Case.9108268.syllabus.8",
+      "text": "909 F. 2d 759, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-500-160"
+  ],
+  "title": "Touby v. United States",
+  "us_cite": "500 U.S. 160"
+}

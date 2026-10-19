@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Paul v. Virginia, 75 U.S. (8 Wall.) 168 (1869)",
+  "courtlistener_name": "Paul v. Virginia",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/88079/paul-v-virginia/",
+  "date": "1869-11-18",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 88079. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 75, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "88079",
+  "loc_url": "https://www.loc.gov/item/usrep075168/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep075/usrep075168/usrep075168.pdf",
+  "ref_prefix": "Case.88079",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-75-168"
+  ],
+  "syllabus_note": "Volume 75 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Paul v. Virginia",
+  "us_cite": "75 U.S. 168"
+}

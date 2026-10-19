@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "overruled by Gregg v. Georgia (table of overruled decisions)"
+  ],
+  "conan_citation": "McGautha v. California, 402 U.S. 183 (1971)",
+  "courtlistener_name": "McGautha v. California",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/108329/mcgautha-v-california/",
+  "date": "1971-05-03",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 108329. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 402, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "108329",
+  "loc_url": "https://www.loc.gov/item/usrep402183/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep402/usrep402183/usrep402183.pdf",
+  "ref_prefix": "Case.108329",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "McGautha v. California, syllabus ¶ 1",
+      "page": 183,
+      "ref": "Case.108329.syllabus.1",
+      "text": "Petitioner in No. 203 was convicted of first-degree murder in California, and was sentenced to death. The penalty was left to the jury's absolute discretion, and punishment was determined in a separate proceeding following the trial on the issue of guilt. Petitioner in No. 204 was convicted of first-degree murder, and was sentenced to death in Ohio, where the jury, which also had absolute penalty discretion, determined guilt and penalty after a single trial and in a single verdift. Certiorari was granted to consider vrhether petitioners' rights were infringed by permitting the death penalty without standards to govern its imposition, and in No. 204, to consider the constitutionality of a single guilt and punishment proceeding. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "McGautha v. California, syllabus ¶ 2",
+      "page": 183,
+      "ref": "Case.108329.syllabus.2",
+      "text": "1. In light of history, experience, and the limitations of human knowledge in establishing definitive standards, it is impossible to say that leaving to the untrammeled discretion of the jury the power .to pronounce life or death in capital cases violates any provision of the Constitvtion. Pp. 196-208."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McGautha v. California, syllabus ¶ 3",
+      "page": 183,
+      "ref": "Case.108329.syllabus.3",
+      "text": "2. The Constitution does not prohibit the States from considering that the compassionate purposes of jury sentencing in capital cases are better served by having the issues of guilt and punishment resolved in a single trial than by focusing the jury's attention solely on punishment after guilt has been determined. Pp. 208-222."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McGautha v. California, syllabus ¶ 4",
+      "page": 183,
+      "ref": "Case.108329.syllabus.4",
+      "text": "(a) Petitioner in No. 204 has failed to show that his unitary trial violated the Constitution by forcing \"the making of difficult judgments\" in his decision whether to remain silent on the issue of guilt at the cost of surrendering his chance to plead his case on the punishment issue. Simmons v. United States, 390 U. S. 377, distinguished. Pp. 210-213."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McGautha v. California, syllabus ¶ 5",
+      "page": 183,
+      "ref": "Case.108329.syllabus.5",
+      "text": "(b) The policies of the privilege against self-incrimination are not offended when a defendant in a capital case yields to the pressure to testify on the issue of punishment at the risk of damaging his case on guilt. Pp. 213-217."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McGautha v. California, syllabus ¶ 6",
+      "page": 184,
+      "ref": "Case.108329.syllabus.6",
+      "text": "(c) Ohio does provide for the common-law ritual of allocution, but the State need not provide petitioner an opportunity to speak to the jury free from any adverse consequences on the issue of guilt. Pp. 217-220."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McGautha v. California, syllabus ¶ 7",
+      "page": 184,
+      "ref": "Case.108329.syllabus.7",
+      "text": "No. 203, 70 Cal, 2d 770, 452 P. 2d 650; and No. 204, 18 Ohio St. 2d 182, 248 N. E. 2d 614, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-402-183"
+  ],
+  "title": "McGautha v. California",
+  "us_cite": "402 U.S. 183"
+}

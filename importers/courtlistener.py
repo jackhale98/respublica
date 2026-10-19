@@ -16,6 +16,11 @@ API. Each response is recorded once as a raw source
 (`tools.fetch.add_source`): URL, request body, date, sha256 and license,
 and the name of the environment variable holding the token, never the
 token. `lookup` asks again only for cases no recorded response matched.
+A slip opinion decided together with another case is filed under both
+docket numbers ("18–422; 18–726"), which the clusters API does not match;
+for those, a recorded search (`courtlistener-search-dockets-{n}`) gives the
+opinions filed under the docket, and the one filed on the date the
+Constitution Annotated prints is the case (`from_search`).
 `matches` reads the recorded responses and fails loudly when a case has no
 cluster or several, or when the cluster's year is not the year the
 Constitution Annotated prints.
@@ -78,6 +83,37 @@ class Match:
     note: str | None = None  # how one cluster was chosen among several
 
 
+MONTHS = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+          "November", "December")
+
+
+def printed_date(name: str) -> str | None:
+    """The full date in a Constitution Annotated citation of a slip opinion:
+    "(U.S. June 27, 2019)" -> "2019-06-27"."""
+    m = re.search(r"\(U\.S\. ([A-Z][a-z]+)\.? (\d{1,2}), (\d{4})\)\s*$", name)
+    if not m or m.group(1) not in MONTHS:
+        return None
+    return f"{m.group(3)}-{MONTHS.index(m.group(1)) + 1:02d}-{int(m.group(2)):02d}"
+
+
+def dockets(field: str) -> set[str]:
+    """Docket numbers in a search result's field: "18–422; 18–726" -> {"18-422", "18-726"}."""
+    return {re.sub(r"^No\.\s*|\.$", "", d.strip().replace("\u2013", "-")) for d in field.split(";") if d.strip()}
+
+
+def from_search(result: dict) -> dict:
+    """A search API result in the shape of a cluster, with the fields the
+    import uses (checked against a recorded response)."""
+    cites = []
+    for c in result.get("citation", []):
+        m = re.fullmatch(r"(\d+) (U\.S\.|S\. Ct\.|L\. Ed\. 2d|L\. Ed\.) (\d+)", c)
+        if m:
+            cites.append({"page": m.group(3), "reporter": m.group(2), "volume": int(m.group(1))})
+    return {"absolute_url": result["absolute_url"], "case_name": result["caseName"],
+            "citation_count": result.get("citeCount"), "citations": cites,
+            "date_filed": result["dateFiled"], "id": result["cluster_id"]}
+
+
 def printed_year(name: str) -> str | None:
     """The year in a Constitution Annotated citation: "(1954)", "(U.S. June 24, 2022)"."""
     m = re.search(r"\((?:[^()]*\s)?(\d{4})\)\s*$", name)
@@ -95,13 +131,24 @@ def clusters_for(key: str, responses: list[tuple[str, object]]) -> tuple[str, li
                 if key in r.get("normalized_citations", []) and r.get("status") in (200, 300, 404):
                     return sid, r.get("clusters", [])
         return None
+    found = None
     for sid, data in responses:
         if sid == docket_source(key):
             if not isinstance(data, dict) or not isinstance(data.get("results"), list):
                 raise CourtListenerError(f"{sid}: not a clusters API response: {str(data)[:200]}")
             if data.get("next"):
                 raise CourtListenerError(f"{sid}: more than one page of clusters")
-            return sid, data["results"]
+            found = sid, data["results"]
+    if found and found[1]:
+        return found
+    # None by docket number alone: a decision filed under several (see the module's notes).
+    number = key.removeprefix("No. ")
+    for sid, data in responses:
+        if sid.startswith("courtlistener-search-dockets-"):
+            hits = [r for r in data.get("results", []) if number in dockets(r.get("docketNumber", ""))]
+            if hits:
+                return sid, [from_search(r) for r in hits]
+    return found
     return None
 
 
@@ -128,6 +175,16 @@ def match(key: str, name: str, responses: list[tuple[str, object]]) -> Match:
         raise CourtListenerError(f"{key} ({name}): CourtListener has no cluster for it ({sid})")
     year = printed_year(name)
     note = None
+    if sid.startswith("courtlistener-search-"):
+        # The opinions and orders filed under a docket: the case is the one
+        # filed on the date the Constitution Annotated prints.
+        on = [c for c in clusters if c.get("date_filed") == printed_date(name)]
+        if len(on) != 1:
+            raise CourtListenerError(f"{key} ({name}): {len(on)} of the opinions under the docket are dated "
+                                     f"{printed_date(name)} ({sid})")
+        note = (f"CourtListener files this decision under several docket numbers; of the {len(clusters)} "
+                f"opinions and orders under {key}, this is the one dated as the Constitution Annotated prints.")
+        clusters = on
     if len(clusters) > 1:
         candidates = clusters
         for keep in (lambda c: first_party(c.get("case_name", "")) == first_party(name),
@@ -142,7 +199,12 @@ def match(key: str, name: str, responses: list[tuple[str, object]]) -> Match:
                 f"year and is the most cited (the others: {others}).")
         clusters = ranked[:1]
     cluster = clusters[0]
-    if year and not str(cluster.get("date_filed", "")).startswith(year):
+    # CourtListener's date is sometimes that of a later order (a rehearing
+    # denied) or the first day of the term; the case's own date comes from
+    # the United States Reports (importers/cases.py, case_date). A year more
+    # than one off means the wrong case.
+    filed = str(cluster.get("date_filed", ""))[:4]
+    if year and not (filed.isdigit() and abs(int(filed) - int(year)) <= 1):
         raise CourtListenerError(f"{key} ({name}): cluster {cluster.get('id')} is dated {cluster.get('date_filed')}")
     return Match(key, name, sid, cluster, note)
 
@@ -201,7 +263,7 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="python -m importers.courtlistener")
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("lookup", help="record each case's cluster from CourtListener (needs the token)")
-    sub.add_parser("matches", help="list the recorded matches; fail on none, several or a wrong year")
+    sub.add_parser("matches", help="list the recorded matches; fail on none, several or a year more than one off")
     args = ap.parse_args(argv)
     return {"lookup": cmd_lookup, "matches": cmd_matches}[args.cmd](args)
 

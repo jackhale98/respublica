@@ -1,0 +1,48 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt1.7 (8 pages)"
+  ],
+  "conan_citation": "Turner Broadcasting System, Inc. v. Federal Communications Comm’n, 512 U.S. 622 (1994)",
+  "courtlistener_date": "1994-08-24",
+  "courtlistener_name": "Turner Broadcasting System, Inc. v. Federal Communications Commission",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/117869/turner-broadcasting-system-inc-v-federal-communications-commission/",
+  "date": "1994-06-27",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 117869. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 512, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "117869",
+  "loc_url": "https://www.loc.gov/item/usrep512622/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep512/usrep512622/usrep512622.pdf",
+  "ref_prefix": "Case.117869",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Turner Broadcasting System, Inc. v. Federal Communications Comm’n, syllabus ¶ 1",
+      "page": 622,
+      "ref": "Case.117869.syllabus.1",
+      "text": "Concerned that a competitive imbalance between cable television and over-the-air broadcasters was endangering the broadcasters' ability to compete for a viewing audience and thus for necessary operating revenues, Congress passed the Cable Television Consumer Protection and Competition Act of 1992. Sections 4 and 5 of the Act require cable television systems to devote a specified portion of their channels to the transmission of local commercial and public broadcast stations. Soon after the Act became law, appellants, numerous cable programmers and operators, challenged the constitutionality of the must-carry provisions. The District Court granted the United States and intervenordefendants summary judgment, ruling that the provisions are consistent with the First Amendment. The court rejected appellants' argument that the provisions warrant strict scrutiny as a content-based regulation and sustained them under the intermediate standard of scrutiny set forth in United States v. O'Brien, 391 U. S. 367, concluding that they are sufficiently tailored to serve the important governmental interest in the preservation of local broadcasting."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Turner Broadcasting System, Inc. v. Federal Communications Comm’n, syllabus ¶ 2",
+      "page": 622,
+      "ref": "Case.117869.syllabus.2",
+      "text": "Held: The judgment is vacated, and the case is remanded."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Turner Broadcasting System, Inc. v. Federal Communications Comm’n, syllabus ¶ 3",
+      "page": 622,
+      "ref": "Case.117869.syllabus.3",
+      "text": "819 F. Supp. 32, vacated and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-512-622"
+  ],
+  "title": "Turner Broadcasting System, Inc. v. Federal Communications Comm’n",
+  "us_cite": "512 U.S. 622"
+}

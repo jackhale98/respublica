@@ -1,0 +1,54 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C4.1 (7 pages)"
+  ],
+  "conan_citation": "Afroyim v. Rusk, 387 U.S. 253 (1967)",
+  "courtlistener_name": "Afroyim v. Rusk",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107464/afroyim-v-rusk/",
+  "date": "1967-05-29",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107464. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 387, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107464",
+  "loc_url": "https://www.loc.gov/item/usrep387253/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep387/usrep387253/usrep387253.pdf",
+  "ref_prefix": "Case.107464",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Afroyim v. Rusk, syllabus ¶ 1",
+      "page": 253,
+      "ref": "Case.107464.syllabus.1",
+      "text": "Petitioner, of Polish birth, became a naturalized American citizen in 1926. He went to Israel in 1950 and in 1951 voted in an Israeli legislative election. The State Department subsequently refused to renew his passport, maintaining that petitioner had lost his citizenship by virtue of § 401 (e) of the Nationality Act of 1940 which provides that a United States citizen shall \"lose\" his citizenship if he votes in a foreign political election. Petitioner then brought this declaratory judgment action alleging the unconstitutionality of § 401 (e). On the basis of Perez v. Brownell, 356 U. S. 44, the District Court and Court of Appeals held that Congress under its implied power to regulate foreign affairs can strip an American citizen of his citizenship. Held: Congress has no power under the Constitution to divest a person of his United States citizenship absent his voluntary renunciation thereof. Perez v. Brownell, supra, overruled. Pp. 256-268."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Afroyim v. Rusk, syllabus ¶ 2",
+      "page": 253,
+      "ref": "Case.107464.syllabus.2",
+      "text": "(a) Congress has no express power under the Constitution to strip a person of citizenship, and no such power can be sustained as an implied attribute of sovereignty, as was recognized by Congress before the passage of the Fourteenth Amendment; and a mature and well-considered dictum in Osborn v. Bank of the United States, 9 Wheat. 738, 827, is to the same effect. Pp. 257-261."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Afroyim v. Rusk, syllabus ¶ 3",
+      "page": 253,
+      "ref": "Case.107464.syllabus.3",
+      "text": "(b) The Fourteenth Amendment's provision that \"All persons born or naturalized in the United States . . . are citizens of the United States . . .\" completely controls the status of citizenship and prevents the cancellation of petitioner's citizenship. Pp. 262-268."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Afroyim v. Rusk, syllabus ¶ 4",
+      "page": 253,
+      "ref": "Case.107464.syllabus.4",
+      "text": "361 F. 2d 102, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-387-253"
+  ],
+  "title": "Afroyim v. Rusk",
+  "us_cite": "387 U.S. 253"
+}

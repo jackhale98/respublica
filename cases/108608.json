@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt14.S1.5 (7 pages)"
+  ],
+  "conan_citation": "Board of Regents v. Roth, 408 U.S. 564 (1972)",
+  "courtlistener_name": "Board of Regents of State Colleges v. Roth",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/108608/board-of-regents-of-state-colleges-v-roth/",
+  "date": "1972-06-29",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 108608. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 408, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "108608",
+  "loc_url": "https://www.loc.gov/item/usrep408564/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep408/usrep408564/usrep408564.pdf",
+  "ref_prefix": "Case.108608",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-408-564"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 564 a paragraph seems to stop mid-sentence.",
+  "title": "Board of Regents v. Roth",
+  "us_cite": "408 U.S. 564"
+}

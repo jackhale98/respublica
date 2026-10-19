@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "cited on 15 pages"
+  ],
+  "conan_citation": "U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995)",
+  "courtlistener_name": "U. S. Term Limits, Inc. v. Thornton",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/117935/u-s-term-limits-inc-v-thornton/",
+  "date": "1995-05-22",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 117935. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 514, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "117935",
+  "loc_url": "https://www.loc.gov/item/usrep514779/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep514/usrep514779/usrep514779.pdf",
+  "ref_prefix": "Case.117935",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "U.S. Term Limits, Inc. v. Thornton, syllabus ¶ 1",
+      "page": 779,
+      "ref": "Case.117935.syllabus.1",
+      "text": "Respondent Hill filed this suit in Arkansas state court challenging the constitutionality of § 3 of Amendment 73 to the Arkansas Constitution, which prohibits the name of an otherwise-eligible candidate for Congress from appearing on the general election ballot if that candidate has already served three terms in the House of Representatives or two terms in the Senate. The trial court held that § 3 violated Article I of the Federal Constitution, and the Arkansas Supreme Court affirmed. A plurality of the latter court concluded that the States have no authority \"to change, add to, or diminish\" the age, citizenship, and residency requirements for congressional service enumerated in the Qualifications Clauses, U. S. Const., Art. I, § 2, cl. 2, and Art. I, § 3, cl. 3, and rejected the argument that Amendment 73 is constitutional because it is formulated as a ballot access restriction rather than an outright disqualification of congressional incumbents."
+    },
+    {
+      "kind": "syllabus",
+      "label": "U.S. Term Limits, Inc. v. Thornton, syllabus ¶ 2",
+      "page": 779,
+      "ref": "Case.117935.syllabus.2",
+      "text": "Held\" Section 3 of Amendment 73 to the Arkansas Constitution violates the Federal Constitution. Pp. 787-838."
+    },
+    {
+      "kind": "syllabus",
+      "label": "U.S. Term Limits, Inc. v. Thornton, syllabus ¶ 3",
+      "page": 779,
+      "ref": "Case.117935.syllabus.3",
+      "text": "(a) The power granted to each House of Congress to judge the \"Qualifications of its own Members,\" Art. I, § 5, cl. 1, does not include the power to alter or add to the qualifications set forth in the Constitution's text. Powell v. McCormack, 395 U. S. 486, 540. After examining Powell's analysis of the Qualifications Clauses' history and text, id., at 518-548, and its articulation of the \"basic principles of our democratic system,\" id., at 548, this Court reaffirms that the constitutional qualifications for congressional service are \"fixed,\" at least in the sense that they may not be supplemented by Congress. Pp. 787-798."
+    },
+    {
+      "kind": "syllabus",
+      "label": "U.S. Term Limits, Inc. v. Thornton, syllabus ¶ 4",
+      "page": 779,
+      "ref": "Case.117935.syllabus.4",
+      "text": "(b) So too, the Constitution prohibits States from imposing congressional qualifications additional to those specifically enumerated in its text. Petitioners' argument that States possess control over qualifications as part of the original powers reserved to them by the Tenth Amendment is rejected for two reasons. First, the power to add qualifications is not within the States' pre-Tenth Amendment \"original powers,\" but is a new right arising from the Constitution itself, and thus is not reserved. Second, even if the States possessed some original power in this area, it must be concluded that the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \"divested\" States of any power to add qualifications. That this is so is demonstrated by the unanimity among the courts and learned commentators who have considered the issue; by the Constitution's structure and the text of pertinent constitutional provisions, including Art. I, § 2, cl. 1, Art. I, § 4, cl. 1, Art. I, § 6, and Art. I, § 5, cl. 1; by the relevant historical materials, including the records of the Constitutional Convention and the ratification debates, as well as Congress' subsequent experience with state attempts to impose qualifications; and, most importantly, by the \"fundamental principle of our representative democracy . ..'that the people should choose whom they please to govern them,\"' Powell, 395 U. S., at 547. Permitting individual States to formulate diverse qualifications for their congressional representatives would result in a patchwork that would be inconsistent with the Framers' vision of a uniform National Legislature representing the people of the United States. The fact that, immediately after the adoption of the Constitution, many States imposed term limits and other qualifications on state officers, while only one State imposed such a qualification on Members of Congress, provides further persuasive evidence of a general understanding that the qualifications in the Constitution were unalterable by the States. Pp. 798-827."
+    },
+    {
+      "kind": "syllabus",
+      "label": "U.S. Term Limits, Inc. v. Thornton, syllabus ¶ 5",
+      "page": 780,
+      "ref": "Case.117935.syllabus.5",
+      "text": "(c) A state congressional term limits measure is unconstitutional when it has the likely effect of handicapping a class of candidates and has the sole purpose of creating additional qualifications indirectly. The Court rejects petitioners' argument that Amendment 73 is valid because it merely precludes certain congressional candidates from being certified and having their names appear on the ballot, and allows them to run as write-in candidates and serve if elected. Even if petitioners' narrow understanding of qualifications is correct, Amendment 73 must fall because it is an indirect attempt to evade the Qualifications Clauses' requirements and trivializes the basic democratic principles underlying those Clauses. Nor can the Court agree with petitioners' related argument that Amendment 73 is a permissible exercise of state power under the Elections Clause, Art. I, §4, cl. 1, to regulate the \"Times, Places and Manner of holding Elections.\" A necessary consequence of that argument is that Congress itself would have the power under the Elections Clause to \"make or alter\" a measure such as Amendment 73, a result that is unfathomable under Powell. Moreover, petitioners' broad construction is fundamentally inconsistent with the Framers' view of the Elections Clause, which was intended to grant States authority to protect the integrity and regularity of the election process by regulating election procedures, see, e. g., Storer v. Brown, 415 U. S. 724, 730, 733, not to provide them with license to impose substantive qualifications that would exclude classes of candidates from federal office. Pp. 828-836."
+    },
+    {
+      "kind": "syllabus",
+      "label": "U.S. Term Limits, Inc. v. Thornton, syllabus ¶ 6",
+      "page": 781,
+      "ref": "Case.117935.syllabus.6",
+      "text": "(d) State imposition of term limits for congressional service would effect such a fundamental change in the constitutional framework that it must come through a constitutional amendment properly passed under the procedures set forth in Article V. Absent such an amendment, allowing individual States to craft their own congressional qualifications would erode the structure designed by the Framers to form a \"more perfect Union.\" Pp. 837-838."
+    },
+    {
+      "kind": "syllabus",
+      "label": "U.S. Term Limits, Inc. v. Thornton, syllabus ¶ 7",
+      "page": 781,
+      "ref": "Case.117935.syllabus.7",
+      "text": "316 Ark. 251, 872 S. W. 2d 349, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-514-779"
+  ],
+  "title": "U.S. Term Limits, Inc. v. Thornton",
+  "us_cite": "514 U.S. 779"
+}

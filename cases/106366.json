@@ -1,0 +1,63 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.9 (9 pages)",
+    "cited on 28 pages",
+    "named in the title of essay ArtIII.S2.C1.9.4"
+  ],
+  "conan_citation": "Baker v. Carr, 369 U.S. 186 (1962)",
+  "courtlistener_name": "Baker v. Carr",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/106366/baker-v-carr/",
+  "date": "1962-03-26",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 106366. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 369, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "106366",
+  "loc_url": "https://www.loc.gov/item/usrep369186/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep369/usrep369186/usrep369186.pdf",
+  "ref_prefix": "Case.106366",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Baker v. Carr, syllabus ¶ 1",
+      "page": 186,
+      "ref": "Case.106366.syllabus.1",
+      "text": "Appellants are persons allegedly qualified to vote for members of the General Assembly of Tennessee representing the counties in which they reside. They brought suit in a Federal District Court in Tennessee under 42 U. S. C. §§ 1983 and 1988, on behalf of themselves and others similarly situated, to redress the alleged deprivation of their federal constitutional rights by legislation classifying voters with respect to representation in the General Assembly. They alleged that, by means of a 1901 statute of Tennessee arbitrarily and capriciously apportioning the seats in the General Assembly among the State's 95 counties, and a failure to reapportion them subsequently notwithstanding substantial growth and redistribution of the State's population, they suffer a \"debasement of their votes\" and were thereby denied the equal protection of the laws guaranteed them by the Fourteenth Amendment., They sought, inter alia, a declaratory judgment that the 1901 statute is unconstitutional and an injunction restraining certain state officers from conducting any further elections under it. The District Court dismissed the complaint on the grounds that it lacked jurisdiction of the subject matter and that no claim was stated upon which relief could be granted. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Baker v. Carr, syllabus ¶ 2",
+      "page": 186,
+      "ref": "Case.106366.syllabus.2",
+      "text": "1. The District Court had jurisdiction of the subject matter of the federal constitutional claim asserted in the complaint. Pp. 198-204."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Baker v. Carr, syllabus ¶ 3",
+      "page": 186,
+      "ref": "Case.106366.syllabus.3",
+      "text": "2. Appellants had standing to maintain this suit. Pp. 204-208."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Baker v. Carr, syllabus ¶ 4",
+      "page": 186,
+      "ref": "Case.106366.syllabus.4",
+      "text": "3. The complaint's allegations of a denial of equal protection presented a justiciable constitutional cause of action upon which appellants are entitled to a trial and a decision. Pp. 208-237."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Baker v. Carr, syllabus ¶ 5",
+      "page": 186,
+      "ref": "Case.106366.syllabus.5",
+      "text": "179 F. Supp. 824, reversed and cause remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-369-186"
+  ],
+  "title": "Baker v. Carr",
+  "us_cite": "369 U.S. 186"
+}

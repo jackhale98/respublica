@@ -1,0 +1,54 @@
+{
+  "chosen_because": [
+    "overruled by Mapp v. Ohio (table of overruled decisions)"
+  ],
+  "conan_citation": "Wolf v. Colorado, 338 U.S. 25 (1949)",
+  "courtlistener_name": "Wolf v. Colorado",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104709/wolf-v-colorado/",
+  "date": "1949-06-27",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104709. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 338, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104709",
+  "loc_url": "https://www.loc.gov/item/usrep338025/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep338/usrep338025/usrep338025.pdf",
+  "ref_prefix": "Case.104709",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Wolf v. Colorado, syllabus ¶ 1",
+      "page": 25,
+      "ref": "Case.104709.syllabus.1",
+      "text": "In a prosecution in a state court for a state crime, the Fourteenth Amendment of the Federal Constitution does not forbid the admission of relevant evidence even though obtained by an unreasonable search and seizure. Pp. 25-33."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Wolf v. Colorado, syllabus ¶ 2",
+      "page": 25,
+      "ref": "Case.104709.syllabus.2",
+      "text": "(a) Arbitrary intrusion into privacy by the police is prohibited by the Due Process Clause of the Fourteenth Amendment. Pp. 27-28."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Wolf v. Colorado, syllabus ¶ 3",
+      "page": 25,
+      "ref": "Case.104709.syllabus.3",
+      "text": "(b) While the doctrine of Weeks v. United States, 232 U. S. 383, making evidence secured in violation of the Fourth Amendment inadmissible in federal courts is adhered to, it is not imposed on the States by the Fourteenth Amendment. Pp. 28-33."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Wolf v. Colorado, syllabus ¶ 4",
+      "page": 25,
+      "ref": "Case.104709.syllabus.4",
+      "text": "117 Colo. 279, 321, 187 P. 2d 926, 928, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-338-25"
+  ],
+  "title": "Wolf v. Colorado",
+  "us_cite": "338 U.S. 25"
+}

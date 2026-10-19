@@ -1,0 +1,28 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtII.S2.C1.1 (5 pages)",
+    "cited on 11 pages"
+  ],
+  "conan_citation": "Ex parte Milligan, 71 U.S. (4 Wall.) 2 (1866)",
+  "courtlistener_match": "CourtListener gives 3 clusters for 71 U.S. 2; this one matches the case's name and year and is the most cited (the others: 1528394, 87754).",
+  "courtlistener_name": "Ex parte Milligan",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/8403334/ex-parte-milligan/",
+  "date": "1866-12-15",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 8403334. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 71, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "8403334",
+  "loc_url": "https://www.loc.gov/item/usrep071002/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep071/usrep071002/usrep071002.pdf",
+  "ref_prefix": "Case.8403334",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-71-2"
+  ],
+  "syllabus_note": "Volume 71 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Ex parte Milligan",
+  "us_cite": "71 U.S. 2"
+}

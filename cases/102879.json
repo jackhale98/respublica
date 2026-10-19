@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 9 pages"
+  ],
+  "conan_citation": "Palko v. Connecticut, 302 U.S. 319 (1937)",
+  "courtlistener_name": "Palko v. Connecticut",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102879/palko-v-connecticut/",
+  "date": "1937-12-06",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102879. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 302, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102879",
+  "loc_url": "https://www.loc.gov/item/usrep302319/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep302/usrep302319/usrep302319.pdf",
+  "ref_prefix": "Case.102879",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Palko v. Connecticut, syllabus ¶ 1",
+      "page": 319,
+      "ref": "Case.102879.syllabus.1",
+      "text": "1. Under a state statute allowing appeal by the State in criminal cases, when permitted by the trial judge, for correction of errors of law, a sentence of life imprisonment, on a conviction of murder in the second degree, was reversed. Upon retrial, the accused was convicted of murder in the first degree and sentenced to death. Held consistent with due process of law under the Fourteenth Amendment. P. 322."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Palko v. Connecticut, syllabus ¶ 2",
+      "page": 319,
+      "ref": "Case.102879.syllabus.2",
+      "text": "2. Assuming that the prohibition of double jeopardy in the Fifth Amendment applies to jeopardy in the same case if the new trial be at the instance of the Government and not upon defendant's motion, it does not follow that a like prohibition is applicable* against state action by force of the Fourteenth Amendment. Pp.' 322 et seq."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Palko v. Connecticut, syllabus ¶ 3",
+      "page": 320,
+      "ref": "Case.102879.syllabus.3",
+      "text": "3. The Fourteenth Amendment does not guarantee against state action all that would be a violation of the original bill of rights (Amendments I to VIII) if done by the Federal Government. P. 323."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Palko v. Connecticut, syllabus ¶ 4",
+      "page": 320,
+      "ref": "Case.102879.syllabus.4",
+      "text": "4. The process of absorption whereby some of the privileges and immunities guaranteed by the federal bill of rights have been brought within the Fourteenth Amendment, has had its source in the belief that neither liberty nor justice would exist if they were sacrificed. P. 326."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Palko v. Connecticut, syllabus ¶ 5",
+      "page": 320,
+      "ref": "Case.102879.syllabus.5",
+      "text": "5. It is not necessary to the decision in this case to consider what the answer would have to be if the State were permitted after a trial free from error to try the accused over again or to bring another case against him. P. 328."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Palko v. Connecticut, syllabus ¶ 6",
+      "page": 320,
+      "ref": "Case.102879.syllabus.6",
+      "text": "6. The conviction of the defendant upon the retrial ordered upon the appeal by the State in this case was not in derogation of any privileges or immunities that belonged to him as a citizen of the United States. Maxwell v. Dow, 176 U. S. 581. P. 329."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Palko v. Connecticut, syllabus ¶ 7",
+      "page": 320,
+      "ref": "Case.102879.syllabus.7",
+      "text": "122 Conn. 529; 191 Atl. 320, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-302-319"
+  ],
+  "title": "Palko v. Connecticut",
+  "us_cite": "302 U.S. 319"
+}

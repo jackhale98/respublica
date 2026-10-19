@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C3.9 (4 pages)"
+  ],
+  "conan_citation": "Ramah Navajo School Board v. Bureau of Revenue of New Mexico, 458 U.S. 832 (1982)",
+  "courtlistener_name": "Ramah Navajo School Bd., Inc. v. Bureau of Revenue of NM",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/110796/ramah-navajo-school-bd-inc-v-bureau-of-revenue-of-nm/",
+  "date": "1982-07-02",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 110796. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 458, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "110796",
+  "loc_url": "https://www.loc.gov/item/usrep458832/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep458/usrep458832/usrep458832.pdf",
+  "ref_prefix": "Case.110796",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Ramah Navajo School Board v. Bureau of Revenue of New Mexico, syllabus ¶ 1",
+      "page": 832,
+      "ref": "Case.110796.syllabus.1",
+      "text": "Held: Federal law pre-empts New Mexico's tax imposed on the gross receipts that appellant non-Indian construction company received from appellant triba school board for the construction of a school for Indian children on the reservation. White Mountain Apache Tribe v. Bracker, 448 U. S. 136, controlling. Pp. 836-847."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ramah Navajo School Board v. Bureau of Revenue of New Mexico, syllabus ¶ 2",
+      "page": 832,
+      "ref": "Case.110796.syllabus.2",
+      "text": "(a) In view of the federal and tribal interests arising from Congress' broad power to regulate tribal affairs under the Indian Commerce Clause, Art. I, § 8, cl. 3, and from the semi-autonomous status of Indian tribes, the exercise of state authority over commercial activity on an Indian reservation may be pre-empted by federal law, or it may interfere with the tribe's ability to exercise its sovereign functions. Traditional notions of tribal sovereignty, and the recognition and encouragement of such sovereignty in congressional Acts promoting tribal independence and economic development, inform the pre-emption analysis. Ambiguities in federal law should be construed generously, and federal preemption is not limited to those situations where Congress has explicitly announced an intention to pre-empt state activity. Pp. 837-839."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ramah Navajo School Board v. Bureau of Revenue of New Mexico, syllabus ¶ 3",
+      "page": 832,
+      "ref": "Case.110796.syllabus.3",
+      "text": "(b) Federal statutes (particularly the Indian Self-Determination and Education Assistance Act) reflect the federal policy of encouraging the development of Indian-controlled institutions on the reservation, and under detailed regulations governing school construction the Bureau of Indian Affairs has wide-ranging authority to monitor and review subcontracting agreements between the Indian organization, which is viewed as the general contractor, and the non-Indian firm that actually constructs the facilities. The direction and supervision provided by the comprehensive federal regulatory scheme for the construction of Indian schools leave no room for the additional burden sought to be imposed by New Mexico. There is no merit to the contention that the state tax is not pre-empted merely because the federal statutes and regulations do not specifically express the intention to pre-empt this exercise of state authority. The interest asserted by the State relating to its providing services to the non-Indian contractor for its activities off the reservation is not a legitimate justification for a tax whose ultimate burden falls on the tribal organization. Nor is the State's purpose in imposing the tax pursuant to a general desire to increase revenues sufficient to justify the additional burdens thereby imposed on the comprehensive federal scheme regulating the creation and maintenance of educational opportunities for Indian children and on the express federal policy of encouraging Indian self-sufficiency in the area of education. Pp. 839-845."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ramah Navajo School Board v. Bureau of Revenue of New Mexico, syllabus ¶ 4",
+      "page": 833,
+      "ref": "Case.110796.syllabus.4",
+      "text": "(c) Pre-emption analysis in this area need not be modified by applying a new approach relying on the Indian Commerce Clause. Existing preemption analysis governing this type of case provides sufficient guidance to state courts and also allows for more flexible consideration of the federal, state, and tribal interests at issue. Pp. 845-846."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ramah Navajo School Board v. Bureau of Revenue of New Mexico, syllabus ¶ 5",
+      "page": 833,
+      "ref": "Case.110796.syllabus.5",
+      "text": "95 N. M. 708, 625 P. 2d 1225, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-458-832"
+  ],
+  "title": "Ramah Navajo School Board v. Bureau of Revenue of New Mexico",
+  "us_cite": "458 U.S. 832"
+}

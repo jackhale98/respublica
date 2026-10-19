@@ -1,0 +1,69 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S1.4 (4 pages)",
+    "cited on 16 pages"
+  ],
+  "conan_citation": "Marshall Field & Co. v. Clark, 143 U.S. 649 (1892)",
+  "courtlistener_name": "Field v. Clark",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/93290/field-v-clark/",
+  "date": "1892-02-29",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 93290. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 143, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "93290",
+  "loc_url": "https://www.loc.gov/item/usrep143649/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep143/usrep143649/usrep143649.pdf",
+  "ref_prefix": "Case.93290",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Marshall Field & Co. v. Clark, syllabus ¶ 1",
+      "page": 649,
+      "ref": "Case.93290.syllabus.1",
+      "text": "The signing by the Speaker of the House of Representatives and by the President of the Senate, in open session, of an enrolled bill, is an official attestation by the two Houses of such bill as one that has passed Congress; and when the bill thus attested receives the approval of the President, and is depositdd in the Department of State according to law, its authentication as a bill that has passed Congress is complete and unimpeachable."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Marshall Field & Co. v. Clark, syllabus ¶ 2",
+      "page": 650,
+      "ref": "Case.93290.syllabus.2",
+      "text": "IL is not competent to show from the journals of either House of Congress, that an act so authenticated, approved and deposited, did not pass in the precise-form in which it was signed by the presiding officers of the two Houses and approved by the President."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Marshall Field & Co. v. Clark, syllabus ¶ 3",
+      "page": 650,
+      "ref": "Case.93290.syllabus.3",
+      "text": "Congress cannot, under the Constitution, delegate its legislative pow6r to the President."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Marshall Field & Co. v. Clark, syllabus ¶ 4",
+      "page": 650,
+      "ref": "Case.93290.syllabus.4",
+      "text": "The authority conferred upon the President by section 3 of the act of October 1, 1890, to reduce the revenue and equalize duties on imports, and for other purposes, 26 Stat. c. 1244, pp. 567. 612, to suspend by proclamation the free introduction of sugar, molasses, coffee, tea and hides, when he is satisfied that any country producing such articles imposes duties or other exactions upon the agricultural or other products of the United States, which he may deem to be reciprocally unequal or unreasonable, is, not open to the objection that it unconstitutionally transfers legislative power to the President, (FuLLER, C. J., and LABAR, J., dissenting;) but even if it were it does not follow that other parts of the act imposing duties upon imported articles, are inoperative."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Marshall Field & Co. v. Clark, syllabus ¶ 5",
+      "page": 650,
+      "ref": "Case.93290.syllabus.5",
+      "text": "The court does not decide whether the provision in that act respecting bounties upon sugar (schedule E, Sugar, 26 Stat. 583) is or is not constitutional, because it is plain from the act that these bounties do not constitute a part of the system of customs duties imposed by the act, and it is clear that the parts of the act imposing such duties would remain in force even if tl~ese bounties were held to be unconstitutionally imposed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Marshall Field & Co. v. Clark, syllabus ¶ 6",
+      "page": 650,
+      "ref": "Case.93290.syllabus.6",
+      "text": "Unless it be impossible to avoid it, a general revenue statute should never be declared inoperative in all its parts because a particular part, relating to a distinct subject, may be invalid."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-143-649"
+  ],
+  "title": "Marshall Field & Co. v. Clark",
+  "us_cite": "143 U.S. 649"
+}

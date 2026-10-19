@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt14.S1.4 (4 pages)"
+  ],
+  "conan_citation": "Malloy v. Hogan, 378 U.S. 1 (1964)",
+  "courtlistener_name": "Malloy v. Hogan",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/106862/malloy-v-hogan/",
+  "date": "1964-06-15",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 106862. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 378, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "106862",
+  "loc_url": "https://www.loc.gov/item/usrep378001/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378001/usrep378001.pdf",
+  "ref_prefix": "Case.106862",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-378-1"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 2 a paragraph seems to stop mid-sentence.",
+  "title": "Malloy v. Hogan",
+  "us_cite": "378 U.S. 1"
+}

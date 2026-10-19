@@ -1,0 +1,47 @@
+{
+  "chosen_because": [
+    "cited on 15 pages"
+  ],
+  "conan_citation": "Mistretta v. United States, 488 U.S. 361 (1989)",
+  "courtlistener_name": "Mistretta v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112173/mistretta-v-united-states/",
+  "date": "1989-01-18",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112173. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 488, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112173",
+  "loc_url": "https://www.loc.gov/item/usrep488361/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep488/usrep488361/usrep488361.pdf",
+  "ref_prefix": "Case.112173",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Mistretta v. United States, syllabus ¶ 1",
+      "page": 361,
+      "ref": "Case.112173.syllabus.1",
+      "text": "Because the existing indeterminate sentencing system resulted in serious disparities among the sentences imposed by federal judges upon similarly situated offenders and in uncertainty as to an offender's actual date of release by Executive Branch parole officials, Congress passed the Sentencing Reform Act of 1984 (Act), which, inter alia, created the United States Sentencing Commission as an independent body in the Judicial Branch with power to promulgate binding sentencing guidelines establishing a range of determinate sentences for all categories of federal offenses and defendants according to specific and detailed factors. The District Court upheld the constitutionality of the Commission's resulting Guidelines against claims by petitioner Mistretta, who was under indictment on three counts centering in a cocaine sale, that the Commission was constituted in violation of the separation-of-powers principle, and that Congress had delegated excessive authority to the Commission to structure the Guidelines. Mistretta had pleaded guilty to a conspiracyto-distribute count, was sentenced under the Guidelines to 18 months' imprisonment and other penalties, and filed a notice of appeal. This Court granted his petition and that of the United States for certiorari before judgment in the Court of Appeals in order to consider the Guidelines' constitutionality."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mistretta v. United States, syllabus ¶ 2",
+      "page": 361,
+      "ref": "Case.112173.syllabus.2",
+      "text": "Held: The Sentencing Guidelines are constitutional, since Congress neither (1) delegated excessive legislative power to the Commission nor (2) violated the separation-of-powers principle by placing the Commission in the Judicial Branch, by requiring federal judges to serve on the Commission and to share their authority with nonjudges, or by empowering the President to appoint Commission members and to remove them for cause. The Constitution's structural protections do not prohibit Congress from delegating to an expert body within the Judicial Branch the intricate task of formulating sentencing guidelines consistent with such significant statutory direction as is present here, nor from calling upon the accumulated wisdom and experience of the Judicial Branch in creating policy on a matter uniquely within the ken of judges. Pp. 371-412."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mistretta v. United States, syllabus ¶ 3",
+      "page": 361,
+      "ref": "Case.112173.syllabus.3",
+      "text": "682 F. Supp. 1033, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-488-361"
+  ],
+  "title": "Mistretta v. United States",
+  "us_cite": "488 U.S. 361"
+}

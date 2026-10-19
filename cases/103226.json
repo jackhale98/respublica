@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "cited on 11 pages"
+  ],
+  "conan_citation": "Hague v. Committee for Industrial Organization, 307 U.S. 496 (1939)",
+  "courtlistener_name": "Haguer v. Committee for Industrial Organization",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/103226/haguer-v-committee-for-industrial-organization/",
+  "date": "1939-06-05",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 103226. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 307, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "103226",
+  "loc_url": "https://www.loc.gov/item/usrep307496/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep307/usrep307496/usrep307496.pdf",
+  "ref_prefix": "Case.103226",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-307-496"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 497 a paragraph seems to stop mid-sentence.",
+  "title": "Hague v. Committee for Industrial Organization",
+  "us_cite": "307 U.S. 496"
+}

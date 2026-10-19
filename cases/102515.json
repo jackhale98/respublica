@@ -1,0 +1,103 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C1.1 (4 pages)"
+  ],
+  "conan_citation": "United States v. Constantine, 296 U.S. 287 (1935)",
+  "courtlistener_name": "United States v. Constantine",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102515/united-states-v-constantine/",
+  "date": "1935-12-09",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102515. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 296, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102515",
+  "loc_url": "https://www.loc.gov/item/usrep296287/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep296/usrep296287/usrep296287.pdf",
+  "ref_prefix": "Case.102515",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Constantine, syllabus ¶ 1",
+      "page": 287,
+      "ref": "Case.102515.syllabus.1",
+      "text": "1. An otherwise valid federal excise tax on the business of selling liquor is not rendered invalid in the particular case by the fact that the business is being conducted in violation of the state law. P. 293."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Constantine, syllabus ¶ 2",
+      "page": 287,
+      "ref": "Case.102515.syllabus.2",
+      "text": "2. A provision of the Revenue Act of 1926 imposes in addition to the $25 excise tax laid on retail liquor dealers by R. S., § 3244, as amended, a \"special excise tax\" of $1000 on such dealers when they carry on the business contrary to local state or muni~i- pal law, and provides fine and imprisonment for failure to patt Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Constantine, syllabus ¶ 3",
+      "page": 287,
+      "ref": "Case.102515.syllabus.3",
+      "text": "Tha - ubi supra, p. 346."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Constantine, syllabus ¶ 4",
+      "page": 287,
+      "ref": "Case.102515.syllabus.4",
+      "text": "13 C, sell v. Benson, supra, 46; Voehl v. Indemnity Insurance Co. 288 U. S. 162, 166."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Constantine, syllabus ¶ 5",
+      "page": 288,
+      "ref": "Case.102515.syllabus.5",
+      "text": "(1) The provision, if regarded as part of the machinery for enforcing the Eighteenth Amendment, fell automatically with the repeal of that Amendment. P. 293."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Constantine, syllabus ¶ 6",
+      "page": 288,
+      "ref": "Case.102515.syllabus.6",
+      "text": "(2) An exaction which in reality is a penalty cannot be converted into a tax by so naming it; its purpose and operation determine its character. P. 294."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Constantine, syllabus ¶ 7",
+      "page": 288,
+      "ref": "Case.102515.syllabus.7",
+      "text": "(3) The additional exaction is not a tax, but a penalty for violation of state law. P. 294."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Constantine, syllabus ¶ 8",
+      "page": 288,
+      "ref": "Case.102515.syllabus.8",
+      "text": "(4) The effect of the exaction in question is, under the guise of a taxing act, to usurp the police powers of the States. P. 296."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Constantine, syllabus ¶ 9",
+      "page": 288,
+      "ref": "Case.102515.syllabus.9",
+      "text": "3. The United States may not impose penalties for infractions of the criminal laws of a State by her own citizens. P. 296."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Constantine, syllabus ¶ 10",
+      "page": 288,
+      "ref": "Case.102515.syllabus.10",
+      "text": "4. The Court has no occasion in this case to consider whether the law in question is, bad for want of the uniformity of operation required by Art. I, § 8 of the Constitution. P. 297."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Constantine, syllabus ¶ 11",
+      "page": 288,
+      "ref": "Case.102515.syllabus.11",
+      "text": "75 F. (2d) 928, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-296-287"
+  ],
+  "title": "United States v. Constantine",
+  "us_cite": "296 U.S. 287"
+}

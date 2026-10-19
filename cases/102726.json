@@ -1,0 +1,145 @@
+{
+  "chosen_because": [
+    "cited on 13 pages"
+  ],
+  "conan_citation": "United States v. Curtiss-Wright Export Corp., 299 U.S. 304 (1936)",
+  "courtlistener_name": "United States v. Curtiss-Wright Export Corp.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102726/united-states-v-curtiss-wright-export-corp/",
+  "date": "1936-12-21",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102726. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 299, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102726",
+  "loc_url": "https://www.loc.gov/item/usrep299304/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep299/usrep299304/usrep299304.pdf",
+  "ref_prefix": "Case.102726",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 1",
+      "page": 304,
+      "ref": "Case.102726.syllabus.1",
+      "text": "A Joint Resolution of May 28, 1934, provided: \"That ii the President finds that the prohibition of the sale of arms and munitions of war in the United States to those countries now engaged in armed conflict in the Chaco may coL pibute to the regstablishment of peace between those countries, and if after consultation with the governments of other American Republics and with their cobperation, as well as that of such other governments as he may deem necessary, he makes proclamation to that effect, it shall be unlawful to sell, except under such limitations and exceptions as the President prescribes, any arms or munitions of war in any place in the United States to the countries now engaged in that armed conflict, or to any person, company, or association acting in the interest of either country, until otherwise ordered by the President or by Congress.\" Violation was made punishable as a crime. The President issued two proclamations, one on the date of the Resolution, putting it into operation; the other on November 14, 1935, revoking the first proclamation. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 2",
+      "page": 305,
+      "ref": "Case.102726.syllabus.2",
+      "text": "(1) The Joint Resolution is not an unconstitutional delegation of legislative power to the Executive. Pp. 314, 329."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 3",
+      "page": 305,
+      "ref": "Case.102726.syllabus.3",
+      "text": "(2) The powers of the Federal Government over foreign or external affairs differ in nature and origin from those over domestic or internal affairs. P. 315."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 4",
+      "page": 305,
+      "ref": "Case.102726.syllabus.4",
+      "text": "(3) The broad statement that the Federal Government can exercise no powers except those specifically enumerated in the Constitution, and such implied powers as are necessary and proper to carry into effect the enumerated powers, is categorically true only in respect of our internal affairs. In that field, the primary purpose of the Constitution was to carve from the general mass of legislative powers then possessed by the States such portions as it was thought desirable to vest in the Federal Government, leaving those not included in the enumeration still in the States. Id."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 5",
+      "page": 305,
+      "ref": "Case.102726.syllabus.5",
+      "text": "(4) The States severally never possessed international powers. P. 316."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 6",
+      "page": 305,
+      "ref": "Case.102726.syllabus.6",
+      "text": "(5) As a result of the separation from Great Britain by the Colonies, acting as a unit, the powers of external sovereignty passed from the Crown, not to the Colonies severally, but to the Colonies in their collective and corporate capacity as the United States of America. Id."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 7",
+      "page": 305,
+      "ref": "Case.102726.syllabus.7",
+      "text": "(6) The Conslitution was ordained and established, among other things, to form \"a more perfect Union.\" Prior to that event, the Union, declared by the Articles of Confederation to be \"perpetual,\" was the sole possessor of external sovereignity, and in the Union it remained without change save in so far as the Constitution in express terms qualified its exercise. Though the States were several their people in respect of foreign affairs were one. P. 317."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 8",
+      "page": 305,
+      "ref": "Case.102726.syllabus.8",
+      "text": "(7) The investment of the Federal Government with the powers of external sovereignty did not depend upon .the affirmative grants of the Constitution. P. 318."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 9",
+      "page": 305,
+      "ref": "Case.102726.syllabus.9",
+      "text": "(8) In the international field, the sovereignty of the United States is complete. Id."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 10",
+      "page": 305,
+      "ref": "Case.102726.syllabus.10",
+      "text": "(9) In international relations the President is the sole organ of the Federal Government. P. 319."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 11",
+      "page": 305,
+      "ref": "Case.102726.syllabus.11",
+      "text": "(10) In view of the delicacy of foreign relations and of the power peculiar to the President in this regard, Congressional legislation which is to be made effective in the international field must often accord to him a degree of discretion and freedom which would not be admissible were domestic affairs alone involved. P. 319."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 12",
+      "page": 306,
+      "ref": "Case.102726.syllabus.12",
+      "text": "(11) The marked difference between foreign and domestic affairs, in this respect, is recognized in the dealings of the houses of Congress with executive departments. P. 321."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 13",
+      "page": 306,
+      "ref": "Case.102726.syllabus.13",
+      "text": "(12) Unbroken legislative practice from, the inception almost of the national government supports the conclusion that the Joint Resolution, supra, is not an unconstitutional delegation of power. P. 322."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 14",
+      "page": 306,
+      "ref": "Case.102726.syllabus.14",
+      "text": "(13) Findings of jurisdictional facts in the first proclamation, following the language of the Joint Resolution, were sufficient. P. 330."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 15",
+      "page": 306,
+      "ref": "Case.102726.syllabus.15",
+      "text": "(14) The revocation of the first proclamation by the second did not have the effect of abrogating the Resolution or of precluding its enforcement by prosecution and punishment of offenses committed during the life of the first proclamation. P. 331."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 16",
+      "page": 306,
+      "ref": "Case.102726.syllabus.16",
+      "text": "2. Upon an appeal by the United States under the Criminal Appeals Act from a decision holding an indictment bad on demurrer, this Court has jurisdiction of questions involving the validity of the statute on which the indictment was founded which were decided by the District Court in favor of the United States. P. 329."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Curtiss-Wright Export Corp., syllabus ¶ 17",
+      "page": 306,
+      "ref": "Case.102726.syllabus.17",
+      "text": "14 F. Supp. 230, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-299-304"
+  ],
+  "title": "United States v. Curtiss-Wright Export Corp.",
+  "us_cite": "299 U.S. 304"
+}

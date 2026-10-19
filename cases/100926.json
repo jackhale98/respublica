@@ -1,0 +1,174 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtII.S2.C2.3 (9 pages)",
+    "cited on 18 pages"
+  ],
+  "conan_citation": "Myers v. United States, 272 U.S. 52 (1926)",
+  "courtlistener_name": "Myers v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/100926/myers-v-united-states/",
+  "date": "1926-10-25",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 100926. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 272, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "100926",
+  "loc_url": "https://www.loc.gov/item/usrep272052/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep272/usrep272052/usrep272052.pdf",
+  "ref_prefix": "Case.100926",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 1",
+      "page": 52,
+      "ref": "Case.100926.syllabus.1",
+      "text": "1. A postmaster who was removed from office petitioned the President and the Senate committee on Post Offices for a hearing on any charges filed; protested to the Post Office Department; and three months before his four year term expired, having pursued no other occupation and derived no compensation for other service in the interval, began suit in the Court of Claims for salary since removal. No notice of the removal, nor any nomination of a successor had been sent in the meantime to the Senate whereby his case could have been brought before that body; and the commencement of suit was within a month after the ending of its last session preceding the expiration of the four years. Held that the plaintiff was not guilty of laches. P. 107."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 2",
+      "page": 53,
+      "ref": "Case.100926.syllabus.2",
+      "text": "2. Section 6 of the Act of July 12, 1876, providing that \"Postmasters of the first, second and third classes shall be appointed and may be removed by the President by and with the advice and consent of the Senate and shall hold their offices for four years unless sooner removed or suspended according to law,\" is unconstitutional in its attempt to make the President's power of removal dependent upon consent of the Senate. Pp. 107, 176."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 3",
+      "page": 53,
+      "ref": "Case.100926.syllabus.3",
+      "text": "3. The President is empowered by the Constitution to remove any executive officer appointed by him by and with the advice and consent of the Senate, and this power is not subject in its exercise to the assent of the Senate nor can it be made so by an act of Congress. Pp. 119, 125."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 4",
+      "page": 53,
+      "ref": "Case.100926.syllabus.4",
+      "text": "4. The provision of Art. H, § 1, of the Constitution that \"the Executive power shall be vested in a President,\" is a grant of the power and not merely a naming of a department of the government. Pp. 151, 163."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 5",
+      "page": 53,
+      "ref": "Case.100926.syllabus.5",
+      "text": "5. The provisions of Art. II, § 2, which blend action by the legislative branch, or by part of it, in the work of the Executive, are limitations upon this general grant of the Executive power which are to be strictly construed and not to be extended by implication. P. 164."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 6",
+      "page": 53,
+      "ref": "Case.100926.syllabus.6",
+      "text": "6. It is a canon of interpretation that real effect should be given to all the words of the Constitution. P. 151."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 7",
+      "page": 53,
+      "ref": "Case.100926.syllabus.7",
+      "text": "7. Removal of executive officials from office is an executive function; the power to remove, like the power to appoint, is part of \"the Executive power,\"--a conclusion which is confirmed by the obligation \"to take care that the laws be faithfully executed.\" Pp. 161, 164."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 8",
+      "page": 53,
+      "ref": "Case.100926.syllabus.8",
+      "text": "8. The power of removal is an incident of the power to appoint; but such incident does not extend the Senate's power of checking appointments, to removals. Pp. 119, 121, 126, 161."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 9",
+      "page": 53,
+      "ref": "Case.100926.syllabus.9",
+      "text": "9. The excepting clause in § 2 of Art. II, providing, \"but Congress may by law vest the appointment of such inferior officers as they may think proper in the President alone, in the courts of law or in the heads of departments,\" does not enable Congress to regulate the removal of inferior officers appointed by the President by and with the advice and consent of the Senate. Pp. 158-161."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 10",
+      "page": 54,
+      "ref": "Case.100926.syllabus.10",
+      "text": "10. A contemporaneous legislative exposition of the Constitution when the founders of our Government and framers of the Constitution were actively participating in public affairs, acquiesced in for many years, fixes the meaning of the provisions so construed. P. 175."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 11",
+      "page": 54,
+      "ref": "Case.100926.syllabus.11",
+      "text": "11. Upon an historical examination of the subject, the Court finds that the action of the First Congress, in 1789, touching the Bill to establish a Department of Foreign Affairs, was a clean-cut and deliberate construction of the Constitution as vesting in the President alone the power to remove officers, inferior as well as superior, appointed by him with the consent of the Senate; that this construction was acquiesced in by all branches of the Government for 73 years; and that subsequent attempts of Congress, through the Tenure of Office Act of March 2, 1867, and other acts of that period, to reverse the construction of 1789 by subjecting the President's power to remove executive officers appointed by him and confirmed by the Senate, to the control of the Senate, or lodge such power elsewhere in the Government, were not acquiesced in, but their validity was denied by the Executive whenever any real issue over it arose. Pp. 111, 164-176."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 12",
+      "page": 54,
+      "ref": "Case.100926.syllabus.12",
+      "text": "12. The weight of congressional legislation as supporting a particular construction of the Constitution by acquiescence, depends not only upon the nature of the question, but also upon the attitude of the executive and judicial branches of the government and the number of instances in the execution of the law in which opportunity for objection in the courts or elsewhere has been afforded. P. 170."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 13",
+      "page": 54,
+      "ref": "Case.100926.syllabus.13",
+      "text": "13. The provisions of the Act of May 15, 1820, for removal of the officers therein named \"at pleasure,\" were not based on the assumption that without them the President would not have that power, but were inserted in acquiescence to the legislative decision of 1789. P. 146."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 14",
+      "page": 54,
+      "ref": "Case.100926.syllabus.14",
+      "text": "14. Approval by the President of acts of Congress containing provisions purporting to restrict the President's constitutional power of removing officers, held not proof of Executive acquiescence in such curtailment, where the approval was explicable by the value of the legislation in other respects--as where the restriction was in a rider imposed on an appropriation act. P. 170."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 15",
+      "page": 55,
+      "ref": "Case.100926.syllabus.15",
+      "text": "15. Marbury v. Madison, 1 Cranch 137, considered, in connection with Parsons v. United States, 167 U. S. 324, and hetd not authoritative on the question of removal power here involved. Pp. 139-144, 158."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 16",
+      "page": 55,
+      "ref": "Case.100926.syllabus.16",
+      "text": "The question, (1) Whether a judge appointed by the President with the consent of the Senate under an act of Congress, not under authority of Art. IlI of the Constitution, can be removed by the President alone without the consent of the Senate; (2), whether the legislative decision of 1789 covers such a case; and (3), whether Congress may provide for his removal in some other way, present considerations different from those which apply in the removal of executive officers, and are not herein decided. Pp. 154-158."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 17",
+      "page": 55,
+      "ref": "Case.100926.syllabus.17",
+      "text": "This Court has recognized (United States v. Perkins, 116 U. S. 483) that Congress may prescribe incidental regulations controlling and restricting the heads of departments in the exercise of the power of removal; but it has never held, and could not reasonably hold, that the excepting clause enables Congress to draw to itself, or to either branch of it, the power to remove or the right to participate in the exercise of that power. To do this would be to go beyond the words and implications of that clause and to infringe the constitutional principle of the separation of governmental powers. P. 161."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 18",
+      "page": 55,
+      "ref": "Case.100926.syllabus.18",
+      "text": "Assuming the power of Congress to regulate removals as incidental to the exercise of its constitutional power to vest appointments of inferior officers in the heads of departments, certainly so long as Congress does not exercise that power, the power of removal must remain where the Constitution places it,--with the President, as part of the executive power, in accordance with the legislative decision of 1789. P. 161."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 19",
+      "page": 55,
+      "ref": "Case.100926.syllabus.19",
+      "text": "Whether the action of Congress in removing the necessity for the advice and consent of the Senate, and putting the power of appointment in the President alone, would make his power of removal in such case any more subject to Congressional legislation than before, is a question not heretofore decided by this Court and not presented or decided in this case. P. 161."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 20",
+      "page": 55,
+      "ref": "Case.100926.syllabus.20",
+      "text": "Congress is only given power to provide for appointments and removals of inferior officers after it has vested, and on condition that it does vest, their appointment in other authority than the President with the Senate's consent. P. 164."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Myers v. United States, syllabus ¶ 21",
+      "page": 55,
+      "ref": "Case.100926.syllabus.21",
+      "text": "58 Ct. Cls. 199, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-272-52"
+  ],
+  "title": "Myers v. United States",
+  "us_cite": "272 U.S. 52"
+}

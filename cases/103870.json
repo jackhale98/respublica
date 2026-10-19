@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "cited on 12 pages"
+  ],
+  "conan_citation": "West Virginia State Board of Education v. Barnette, 319 U.S. 624 (1943)",
+  "courtlistener_name": "West Virginia State Board of Education v. Barnette",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/103870/west-virginia-state-board-of-education-v-barnette/",
+  "date": "1943-06-14",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 103870. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 319, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "103870",
+  "loc_url": "https://www.loc.gov/item/usrep319624/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep319/usrep319624/usrep319624.pdf",
+  "ref_prefix": "Case.103870",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-319-624"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 624 a paragraph seems to stop mid-sentence.",
+  "title": "West Virginia State Board of Education v. Barnette",
+  "us_cite": "319 U.S. 624"
+}

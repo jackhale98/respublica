@@ -1,0 +1,103 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt4.3 (7 pages)"
+  ],
+  "conan_citation": "Warden v. Hayden, 387 U.S. 294 (1967)",
+  "courtlistener_name": "Warden, Maryland Penitentiary v. Hayden",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107465/warden-maryland-penitentiary-v-hayden/",
+  "date": "1967-05-29",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107465. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 387, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107465",
+  "loc_url": "https://www.loc.gov/item/usrep387294/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep387/usrep387294/usrep387294.pdf",
+  "ref_prefix": "Case.107465",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Warden v. Hayden, syllabus ¶ 1",
+      "page": 294,
+      "ref": "Case.107465.syllabus.1",
+      "text": "The police were informed that an armed robbery had occurred and that the suspect, respondent, had thereafter entered a certain house. Minutes later they arrived there and were told by respondent's wife that she had no objection to their searching the house. Certain officers arrested respondent in an upstairs bedroom when it became clear he was the only man in the house. Others simultaneously searched the first floor and cellar. One found weapons in a flush tank; another, looking \"for a man or the money,\" found in a washing machine clothing of the type the suspect was said to have worn. Ammunition was also found. These items were admitted into evidence without objection at respondent's trial which resulted in his conviction. After unsuccessful state court proceedings respondent sought and was denied habeas corpus relief in the District Court. The Court of Appeals found the search lawful, but reversed on the ground that the clothing seized during the search was immune from seizure, being of \"evidential value only.\" Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warden v. Hayden, syllabus ¶ 2",
+      "page": 294,
+      "ref": "Case.107465.syllabus.2",
+      "text": "1. \"The exigencies of the situation,\" in which the officers were in pursuit of a suspected armed felon in the house which he had entered only minutes before they arrived, permitted their warrantless entry and search. McDonald v. United States, 335 U. S. 451, 456. Pp. 298-300."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warden v. Hayden, syllabus ¶ 3",
+      "page": 294,
+      "ref": "Case.107465.syllabus.3",
+      "text": "2. The distinction prohibiting seizure of items of only evidential value and allowing seizure of instrumentalities, fruits, or contraband is no longer accepted as being required by the Fourth Amendment. Pp. 300-310."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warden v. Hayden, syllabus ¶ 4",
+      "page": 294,
+      "ref": "Case.107465.syllabus.4",
+      "text": "(a) There is no rational distinction between a search for \"mere evidence\" and one for an \"instrumentality\" in terms of the privacy which is safeguarded by the Fourth Amendment; nor does the language of the Amendment itself make such a distinction. Pp. 301-302."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warden v. Hayden, syllabus ¶ 5",
+      "page": 294,
+      "ref": "Case.107465.syllabus.5",
+      "text": "(b) The clothing items involved here are not \"testimonial\" or \"communicative\" and their introduction did not compel respondent to become a witness against himself in violation of the Fifth Amendment. Schmerber v. California, 384 U. S. 757. Pp. 302-303."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warden v. Hayden, syllabus ¶ 6",
+      "page": 295,
+      "ref": "Case.107465.syllabus.6",
+      "text": "(c) The premise that property interests control government's search and seizure rights, on which Gouled v. United States, 255 U. S. 298, partly rested, is no longer controlling as the Fourth Amendment's principal object is the protection of privacy, not property. Pp. 303-306."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warden v. Hayden, syllabus ¶ 7",
+      "page": 295,
+      "ref": "Case.107465.syllabus.7",
+      "text": "(d) The related premise of Gouled that government may not seize evidence for the purpose of proving crime has also been discredited. The Fourth Amendment does not bar a search for that purpose provided that there is probable cause, as there was here, for the belief that the evidence sought will aid in a particular apprehension or conviction. Pp. 306-307."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warden v. Hayden, syllabus ¶ 8",
+      "page": 295,
+      "ref": "Case.107465.syllabus.8",
+      "text": "(e) The remedy of suppression, with its limited, functional consequence, has made possible the rejection of both the related Gouled premises. P. 307."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warden v. Hayden, syllabus ¶ 9",
+      "page": 295,
+      "ref": "Case.107465.syllabus.9",
+      "text": "(f) Just as the suppression of evidence does not require the return of such items as contraband, the introduction of \"mere evidence\" does not entitle the State to its retention if it is being wrongfully withheld. Pp. 307-308."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warden v. Hayden, syllabus ¶ 10",
+      "page": 295,
+      "ref": "Case.107465.syllabus.10",
+      "text": "(g) The numerous and confusing exceptions to the \"mere evidence\" limitation make it questionable whether it affords any meaningful protection. P. 309."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warden v. Hayden, syllabus ¶ 11",
+      "page": 295,
+      "ref": "Case.107465.syllabus.11",
+      "text": "363 F. 2d 647, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-387-294"
+  ],
+  "title": "Warden v. Hayden",
+  "us_cite": "387 U.S. 294"
+}

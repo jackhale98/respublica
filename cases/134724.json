@@ -1,0 +1,89 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt6.5 (5 pages)"
+  ],
+  "conan_citation": "Crawford v. Washington, 541 U.S. 36 (2004)",
+  "courtlistener_name": "Crawford v. Washington",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/134724/crawford-v-washington/",
+  "date": "2004-03-08",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 134724. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 541, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "134724",
+  "loc_url": "https://www.loc.gov/item/usrep541036/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep541/usrep541036/usrep541036.pdf",
+  "ref_prefix": "Case.134724",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Crawford v. Washington, syllabus ¶ 1",
+      "page": 36,
+      "ref": "Case.134724.syllabus.1",
+      "text": "Petitioner was tried for assault and attempted murder. The State sought to introduce a recorded statement that petitioner's wife Sylvia had made during police interrogation, as evidence that the stabbing was not in self-defense. Sylvia did not testify at trial because of Washington's marital privilege. Petitioner argued that admitting the evidence would violate his Sixth Amendment right to be \"confronted with the witnesses against him.\" Under Ohio v. Roberts, 448 U. S. 56, that right does not bar admission of an unavailable witness's statement against a criminal defendant if the statement bears \"adequate 'indicia of reliability,\"' a test met when the evidence either falls within a 'Tirmly rooted hearsay exception\" or bears \"particularized guarantees of trustworthiness.\" Id., at 66. The trial court admitted the statement on the latter ground. The State Supreme Court upheld the conviction, deeming the statement reliable because it was nearly identical to, i. e., interlocked with, petitioner's own statement to the police, in that both were ambiguous as to whether the victim had drawn a weapon before petitioner assaulted him."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crawford v. Washington, syllabus ¶ 2",
+      "page": 36,
+      "ref": "Case.134724.syllabus.2",
+      "text": "Held. The State's use of Sylvia's statement violated the Confrontation Clause because, where testimonial statements are at issue, the only indicium of reliability sufficient to satisfy constitutional demands is confrontation. Pp. 42-69."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crawford v. Washington, syllabus ¶ 3",
+      "page": 36,
+      "ref": "Case.134724.syllabus.3",
+      "text": "(a) The Confrontation Clause's text does not alone resolve this case, so this Court turns to the Clause's historical background. That history supports two principles. First, the principal evil at which the Clause was directed was the civil-law mode of criminal procedure, particularly the use of ex parte examinations as evidence against the accused. The Clause's primary object is testimonial hearsay, and interrogations by law enforcement officers fall squarely within that class. Second, the Framers would not have allowed admission of testimonial statements of a witness who did not appear at trial unless he was unavailable to testify and the defendant had had a prior opportunity for cross-examination. English authorities and early state cases indicate that this was the common law at the time of the founding. And the \"right ... to be confronted with the witnesses against him,\" Amdt. 6, is most naturally read as a reference to the common-law right of confrontation, admitting only those exceptions established at the time of the founding. See Mattox v. United States, 156 U. S. 237, 243. Pp. 42-56."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crawford v. Washington, syllabus ¶ 4",
+      "page": 37,
+      "ref": "Case.134724.syllabus.4",
+      "text": "(b) This Court's decisions have generally remained faithful to the Confrontation Clause's original meaning. See, e. g., Mattox, supra. Pp. 57-59."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crawford v. Washington, syllabus ¶ 5",
+      "page": 37,
+      "ref": "Case.134724.syllabus.5",
+      "text": "(c) However, the same cannot be said of the rationales of this Court's more recent decisions. See Roberts, supra, at 66. The Roberts test departs from historical principles because it admits statements consisting of ex parte testimony upon a mere reliability finding. Pp. 60-61."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crawford v. Washington, syllabus ¶ 6",
+      "page": 37,
+      "ref": "Case.134724.syllabus.6",
+      "text": "(d) The Confrontation Clause commands that reliability be assessed in a particular manner: by testing in the crucible of cross-examination. Roberts allows a jury to hear evidence, untested by the adversary process, based on a mere judicial determination of reliability, thus replacing the constitutionally prescribed method of assessing reliability with a wholly foreign one. Pp. 61-62."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crawford v. Washington, syllabus ¶ 7",
+      "page": 37,
+      "ref": "Case.134724.syllabus.7",
+      "text": "(e) Roberts' framework is unpredictable. Whether a statement is deemed reliable depends on which factors a judge considers and how much weight he accords each of them. However, the unpardonable vice of the Roberts test is its demonstrated capacity to admit core testimonial statements that the Confrontation Clause plainly meant to exclude. Pp. 62-65."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crawford v. Washington, syllabus ¶ 8",
+      "page": 37,
+      "ref": "Case.134724.syllabus.8",
+      "text": "(f) The instant case is a self-contained demonstration of Roberts' unpredictable and inconsistent application. It also reveals Roberts' failure to interpret the Constitution in a way that secures its intended constraint on judicial discretion. The Constitution prescribes the procedure for determining the reliability of testimony in criminal trials, and this Court, no less than the state courts, lacks authority to replace it with one of its own devising. Pp. 65-68."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crawford v. Washington, syllabus ¶ 9",
+      "page": 37,
+      "ref": "Case.134724.syllabus.9",
+      "text": "147 Wash. 2d 424, 54 P. 3d 656, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-541-36"
+  ],
+  "title": "Crawford v. Washington",
+  "us_cite": "541 U.S. 36"
+}

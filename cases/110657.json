@@ -1,0 +1,48 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt14.S1.5 (7 pages)"
+  ],
+  "conan_citation": "Logan v. Zimmerman Brush Co., 455 U.S. 422 (1982)",
+  "courtlistener_date": "1982-03-02",
+  "courtlistener_name": "Logan v. Zimmerman Brush Co.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/110657/logan-v-zimmerman-brush-co/",
+  "date": "1982-02-24",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 110657. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 455, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "110657",
+  "loc_url": "https://www.loc.gov/item/usrep455422/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep455/usrep455422/usrep455422.pdf",
+  "ref_prefix": "Case.110657",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Logan v. Zimmerman Brush Co., syllabus ¶ 1",
+      "page": 422,
+      "ref": "Case.110657.syllabus.1",
+      "text": "The Illinois Fair Employment Practices Act (FEPA) barred employment discrimination on the basis of physical handicap unrelated to ability. To obtain relief, a complainant had to bring a charge of unlawful conduct before the Illinois Fair Employment Practices Commission (Commission) within 180 days of the occurrence of such alleged conduct. The statute then gave the Commission 120 days within which to convene a factfinding conference to obtain evidence, ascertain the parties' positions, and explore the possibility of a settlement. Appellant, an employee of appellee, was discharged purportedly because his short left leg made it impossible for him to perform his duties as a shipping clerk. Appellant filed a timely charge alleging unlawful termination of his employment, but apparently through inadvertence the Commission scheduled the factfinding conference for a date 5 days after expiration of the 120-day statutory period. The Commission denied appellee's motion that the charge be dismissed for failure to hold a timely conference. On appeal, the Illinois Supreme Court held that the failure to comply with the 120- day convening requirement deprived the Commission of jurisdiction to consider appellant's charge, and rejected appellant's argument that his federal due process and equal protection rights would be violated were the Commission's error allowed to extinguish his cause of action."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Logan v. Zimmerman Brush Co., syllabus ¶ 2",
+      "page": 422,
+      "ref": "Case.110657.syllabus.2",
+      "text": "Held: The judgment is reversed, and the case is remanded."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Logan v. Zimmerman Brush Co., syllabus ¶ 3",
+      "page": 422,
+      "ref": "Case.110657.syllabus.3",
+      "text": "82 Ill. 2d 99, 411 N. E. 2d 277, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-455-422"
+  ],
+  "title": "Logan v. Zimmerman Brush Co.",
+  "us_cite": "455 U.S. 422"
+}

@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "overruled by Crawford v. Washington (table of overruled decisions)"
+  ],
+  "conan_citation": "Ohio v. Roberts, 448 U.S. 56 (1980)",
+  "courtlistener_name": "Ohio v. Roberts",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/110324/ohio-v-roberts/",
+  "date": "1980-06-25",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 110324. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 448, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "110324",
+  "loc_url": "https://www.loc.gov/item/usrep448056/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep448/usrep448056/usrep448056.pdf",
+  "ref_prefix": "Case.110324",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Ohio v. Roberts, syllabus ¶ 1",
+      "page": 56,
+      "ref": "Case.110324.syllabus.1",
+      "text": "At respondents preliminary hearing in an Ohio state court on charges of forgery of a check m the name of one Bernard Isaacs and of possession of stolen credit cards belonging to Isaacs and his wife, respondent's counsel called as a witness the Isaacs' daughter, who testified that she had permitted respondent to use her apartment for several days while she was away However, she refused to admit that she had given respondent checks and the credit cards without informing him that she did not have permission to use them. Respondents counsel did not ask to have the witness declared hostile or to place her on cross-examination. At respondent's subsequent criminal trial, he testified that the daughter had given him her parents' checkbook and credit cards with the understandmg that he could use them. When the daughter failed to appear at the trial despite the State's having issued five separate subpoenas to her at her parents' residence, the State offered m rebuttal the transcript of her preliminary hearing testimony, relying on an Ohio statute which permits the use of such testimony when the witness \"cannot for any reason be produced at the trial.\" At a voir dire hearing on admissibility, conducted after the defense objected to the use of the transcript as violative of the Sixth Amendment's Confrontation Clause, the mother, as the sole witness, testified that the daughter had left home soon after the preliminary hearing; that about a year before the trial a San Francisco social worker had communicated with the parents about the daughter's welfare application filed there; that the last time the daughter telephoned, some seven or eight months before trial, she told her parents that she \"was traveling\" outside Ohio, but did not reveal where she was; that the mother knew of no way to reach the daughter in case of an emergency; and that she did not know of anybody who knew where the daughter was. The trial court admitted the transcript into evidence, and respondent was convicted. Affirming the Ohio Court of Appeals' reversal of the conviction, the Ohio Supreme Court held that the transcript was inadmissible because the daughter had not been actually cross-examined at the preliminary hearing and was absent at trial, the admission of the transcript thus having violated respondent's confrontation right."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ohio v. Roberts, syllabus ¶ 2",
+      "page": 56,
+      "ref": "Case.110324.syllabus.2",
+      "text": "Held. The introduction in evidence at respondent's trial of the daughter's preliminary hearing testimony was constitutionally permissible. Pp. 62-77"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ohio v. Roberts, syllabus ¶ 3",
+      "page": 57,
+      "ref": "Case.110324.syllabus.3",
+      "text": "(a) When a hearsay declarant is not present for cross-examination at trial, the Confrontation Clause normally requires a showing that he is unavailable. Even then, his statement is admissible only if it bears adequate \"indicia of reliability\" Reliability can be inferred without more m a case where the evidence falls within a firmly rooted hearsay exception. In other cases, the evidence must be excluded, at least absent a showing of particulanzed guarantees of trustworthiness. Cf. Mancust v. Stubbs, 408 U. S. 204. Pp. 62-66."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ohio v. Roberts, syllabus ¶ 4",
+      "page": 57,
+      "ref": "Case.110324.syllabus.4",
+      "text": "(b) The daughter's prior testimony at the preliminary hearing bore sufficient \"indicia of reliability\" Cf. Californza v Green, 399 U. S. 149. It need not be decided whether, under Green, the mere opportunity to cross-examine satisfies the Confrontation Clause, for defense counsel tested the daughter's testimony with the equivalent of significant crossexamination. His questioning, which was replete with leading questions, clearly partook of cross-examination as a matter of form and comported with the principal purpose of cross-examnnation by challenging the daughter's veracity Regardless of how state law might formally characterize the questioning, it afforded substantial compliance with the purposes behind the confrontation requirement. Nor can this case be distinguished from Green merely because the daughter was not personally available for questioning at trial or because respondent had a different lawyer at trial from the one at the preliminary hearing. Moreover, this case does not fall among those in which a particularized search for \"indicia of reliability\" must be made. Pp. 67-73."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ohio v. Roberts, syllabus ¶ 5",
+      "page": 57,
+      "ref": "Case.110324.syllabus.5",
+      "text": "(c) On the facts presented, the trial court and the Ohio Supreme Court correctly concluded that the daughter's unavailability to appear at the trial, in the constitutional sense, was established. Pp. 74-77 55 Ohio St. 2d 191, 378 N. E. 2d 492, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-448-56"
+  ],
+  "title": "Ohio v. Roberts",
+  "us_cite": "448 U.S. 56"
+}

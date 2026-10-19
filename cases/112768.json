@@ -1,0 +1,132 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt10.4 (5 pages)",
+    "cited on 20 pages"
+  ],
+  "conan_citation": "New York v. United States, 505 U.S. 144 (1992)",
+  "courtlistener_name": "New York v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112768/new-york-v-united-states/",
+  "date": "1992-06-19",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112768. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 505, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112768",
+  "loc_url": "https://www.loc.gov/item/usrep505144/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep505/usrep505144/usrep505144.pdf",
+  "ref_prefix": "Case.112768",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 1",
+      "page": 144,
+      "ref": "Case.112768.syllabus.1",
+      "text": "Faced with a looming shortage of disposal sites for low level radioactive waste in 31 States, Congress enacted the Low-Level Radioactive Waste Policy Amendments Act of 1985, which, among other things, imposes upon States, either alone or in \"regional compacts\" with other States, the obligation to provide for the disposal of waste generated within their borders, and contains three provisions setting forth \"incentives\" to States to comply with that obligation. The first set of incentives-the monetary incentives-works in three steps: (1) States with disposal sites are authorized to impose a surcharge on radioactive waste received from other States; (2) the Secretary of Energy collects a portion of this surcharge and places it in an escrow account; and (3) States achieving a -series of milestones in developing sites receive portions of this fund. The second set of incentives-the access incentives-authorizes sited States and regional compacts gradually-to increase the cost of access to their sites, and then to deny access altogether, to waste generated in States that do not meet federal deadlines. The so-called third \"incentive\"-the take title provision-specifies that a State or regional compact that fails to provide for the disposal of all internally generated waste by a particular date must, upon the request of the waste's generator or owner, take title to and possession of the waste and become liable for all damages suffered by the generator or owner as a result of the State's failure to promptly take possession. Petitioners, New York State and two of its counties, filed this suit against the United States, seeking a declaratory judgment that, inter alia, the three incentives provisions are inconsistent with the Tenth Amendment-which declares that \"powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States\"-and with the Guarantee Clause of Article IV, § 4-which directs the United States to \"guarantee to every State... a Republican Form of Government.\" The District Court dismissed the complaint, and the Court of Appeals affirmed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 2",
+      "page": 145,
+      "ref": "Case.112768.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 3",
+      "page": 145,
+      "ref": "Case.112768.syllabus.3",
+      "text": "1. The Act's monetary incentives and access incentives provisions are consistent with the Constitution's allocation of power between the Federal and State Governments, but the take title provision is not. Pp. 155-183."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 4",
+      "page": 145,
+      "ref": "Case.112768.syllabus.4",
+      "text": "(a) In ascertaining whether any of the challenged provisions oversteps the boundary between federal and state power, the Court must determine whether it is authorized by the affirmative grants to Congress contained in Article I's Commerce and Spending Clauses or whether it invades the province of state sovereignty reserved by the Tenth Amendment. Pp. 155-159."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 5",
+      "page": 145,
+      "ref": "Case.112768.syllabus.5",
+      "text": "(b) Although regulation of the interstate market in the disposal of low level radioactive waste is well within Congress' Commerce Clause authority, c£ Philadelphia v. New Jersey, 437 U. S. 617, 621-623, and Congress could, if it wished, pre-empt entirely state regulation in this area, a review of this Court's decisions, see, e. g., Hodel v. Virginia Surface Mining & Reclamation Assn., Inc., 452 U. S. 264, 288, and the history of the Constitutional Convention, demonstrates that Congress may not commandeer the States' legislative processes by directly compelling them to enact and enforce a federal regulatory program, but must exercise legislative authority directly upon individuals. Pp. 159-166."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 6",
+      "page": 145,
+      "ref": "Case.112768.syllabus.6",
+      "text": "(c) Nevertheless, there are a variety of methods, short of outright coercion, by which Congress may urge a State to adopt a legislative program consistent with federal interests. As relevant here, Congress may, under its spending power, attach conditions on the receipt of federal funds, so long as such conditions meet four requirements. See, e. g., South Dakota v. Dole, 483 U. S. 203, 206-208, and n. 3. Moreover, where Congress has the authority to regulate private activity under the Commerce Clause, it may, as part of a program of \"cooperative federalism,\" offer States the choice of regulating that activity according to federal standards or having state law pre-empted by federal regulation. See, e. g., Hodel, supra, at 288, 289. Pp. 166-169."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 7",
+      "page": 145,
+      "ref": "Case.112768.syllabus.7",
+      "text": "(d) This Court declines petitioners' invitation to construe the Act's provision obligating the States to dispose of their radioactive wastes as a separate mandate to regulate according to Congress' instructions. That would upset the usual constitutiofial balance of federal and state powers, whereas the constitutional problem is avoided by construing the Act as a whole to comprise three sets of incentives to the States. Pp. 169-170."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 8",
+      "page": 145,
+      "ref": "Case.112768.syllabus.8",
+      "text": "(e) The Act's monetary incentives are well within Congress' Commerce and Spending Clause authority and thus are not inconsistent with the Tenth Amendment. The authorization to sited States to impose surcharges is an unexceptionable exercise of Congress' power to enable the States to burden interstate commerce. The Secretary's collection of a percentage of the surcharge is no more than a federal tax on interstate commerce, which petitioners do not claim to be an invalid exercise of either Congress' commerce or taxing power. Finally, in conditioning the States' receipt of federal fimds upon their achieving specified milestones, Congress has not exceeded its Spending Clause authority in any of the four respects identified by this Court in Dole, supra, at 207-208. Petitioners' objection to the form of the expenditures as nonfederal is unavailing, since the Spending Clause has never been construed to deprive Congress of the power to collect money in a segregated trust fund and spend it for a particular purpose, and since the States' ability largely to control whether they will pay into the escrow account or receive a share was expressly provided by Congress as a method of encouraging them to regulate according to the federal plan. Pp. 171-173."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 9",
+      "page": 146,
+      "ref": "Case.112768.syllabus.9",
+      "text": "(f) The Act's access incentives constitute a conditional exercise of Congress' commerce power along the lines of that approved in Hodel, supra, at 288, and thus do not intrude on the States' Tenth Amendrfient sovereignty. These incentives present nonsited States with the choice either of regulating waste disposal according to federal standards or having their waste-producing residents denied access to disposal sites. They are not compelled to regulate, expend any funds, or participate in any federal program, and they may continue to regulate waste in their own way if they do not accede to federal direction. Pp. 173-174."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 10",
+      "page": 146,
+      "ref": "Case.112768.syllabus.10",
+      "text": "(g) Because the Act's take title provision offers the States a \"choice\" between the two unconstitutionally coercive alternativeseither accepting ownership of waste or regulating according to Congress' instructions-the provision lies outside Congress' enumerated powers and is inconsistent with the Tenth Amendment. On the one hand, either forcing the transfer of waste from generators to the States or requiring the States to become liable for the generators' damages would \"commandeer\" States into the service of federal regulatory purposes. On the other hand, requiring the States to regulate pursuant to Congress' direction would present a simple unconstitutional command to implement legislation enacted by Congress. Thus, the States' \"choice\" is no choice at all. Pp. 174-177."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 11",
+      "page": 146,
+      "ref": "Case.112768.syllabus.11",
+      "text": "(h) The United States' alternative arguments purporting to find limited circumstances in which congressional compulsion of state regulation is constitutionally permissible-that such compulsion is justified where the federal interest is sufficiently important; that the Constitution does, in some circumstances, permit federal directives to state governments; and that the Constitution endows Congress with the power to arbitrate disputes between States in interstate commerce-are rejected. Pp. 177-180."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 12",
+      "page": 147,
+      "ref": "Case.112768.syllabus.12",
+      "text": "(i) Also rejected is the sited state respondents' argument that the Act cannot be ruled an unconstitutional infringement of New York sovereignty because officials of that State lent their support, and consented, to the Act's passage. A departure from the Constitution's plan for the intergovernmental allocation of authority cannot be ratified by the \"consent\" of state officials, since the Constitution protects state sovereignty for the benefit of individuals, not States or their governments, and since the officials' interests may not coincide with the Constitution's allocation. Nor does New York's prior support estop it from asserting the Act's unconstitutionality. Pp. 180-183."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 13",
+      "page": 147,
+      "ref": "Case.112768.syllabus.13",
+      "text": "(j) Even assuming that the Guarantee Clause provides a basis upon which a State or its subdivisions may sue to enjoin the enforcement of a federal statute, petitioners have not made out a claim that the Act's money incentives and access incentives provisions are inconsistent with that Clause. Neither the threat of loss of federal funds nor the possibility that the State's waste producers may find themselves excluded from other States' disposal sites can reasonably be said to deny New York a republican form of government. Pp. 183-186."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 14",
+      "page": 147,
+      "ref": "Case.112768.syllabus.14",
+      "text": "2. The take title provision is severable from the rest of the Act, since severance will not prevent the operation of the rest of the Act or defeat its purpose of encouraging the States to attain local or regional selfsufficiency in low level radioactive waste disposal; since the Act still includes two incentives to encourage States along this road; since a State whose waste generators are unable to gain access to out-ofstate disposal sites may encounter considerable internal pressure to provide for disposal, even without the prospect of taking title; and since any burden caused by New York's failure to secure a site will not be borne by other States' residents because the sited regional compacts need not accept New York's waste after the final transition period. Pp. 186-187."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York v. United States, syllabus ¶ 15",
+      "page": 147,
+      "ref": "Case.112768.syllabus.15",
+      "text": "942 F. 2d 114, affirmed in part and reversed in part."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-505-144"
+  ],
+  "title": "New York v. United States",
+  "us_cite": "505 U.S. 144"
+}

@@ -1,0 +1,28 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.11 (4 pages)",
+    "cited on 18 pages"
+  ],
+  "conan_citation": "Cohens v. Virginia, 19 U.S. (6 Wheat.) 264 (1821)",
+  "courtlistener_match": "CourtListener gives 2 clusters for 19 U.S. 264; this one matches the case's name and year and is the most cited (the others: 8403416).",
+  "courtlistener_name": "Cohens v. Virginia",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/85330/cohens-v-virginia/",
+  "date": "1821-03-18",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 85330. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 19, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "85330",
+  "loc_url": "https://www.loc.gov/item/usrep019264/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep019/usrep019264/usrep019264.pdf",
+  "ref_prefix": "Case.85330",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-19-264"
+  ],
+  "syllabus_note": "Volume 19 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Cohens v. Virginia",
+  "us_cite": "19 U.S. 264"
+}

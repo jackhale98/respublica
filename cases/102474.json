@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "cited on 11 pages"
+  ],
+  "conan_citation": "A. L. A. Schechter Poultry Corp. v. United States, 295 U.S. 495 (1935)",
+  "courtlistener_name": "A. L. A. Schechter Poultry Corp. v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102474/a-l-a-schechter-poultry-corp-v-united-states/",
+  "date": "1935-05-27",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102474. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 295, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102474",
+  "loc_url": "https://www.loc.gov/item/usrep295495/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep295/usrep295495/usrep295495.pdf",
+  "ref_prefix": "Case.102474",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-295-495"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 495 a paragraph seems to stop mid-sentence.",
+  "title": "A. L. A. Schechter Poultry Corp. v. United States",
+  "us_cite": "295 U.S. 495"
+}

@@ -1,0 +1,24 @@
+{
+  "chosen_because": [
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Trump v. Mazars USA, LLP, No. 19-715 (U.S. July 9, 2020)",
+  "courtlistener_match": "CourtListener files this decision under several docket numbers; of the 4 opinions and orders under No. 19-715, this is the one dated as the Constitution Annotated prints.",
+  "courtlistener_name": "Trump v. Mazars USA, LLP",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/4766665/trump-v-mazars-usa-llp/",
+  "date": "2020-07-09",
+  "date_source": "courtlistener",
+  "docket": "19-715",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 4766665. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+  },
+  "id": "4766665",
+  "ref_prefix": "Case.4766665",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-search-dockets-1"
+  ],
+  "syllabus_note": "Not yet in the bound volumes of the United States Reports.",
+  "title": "Trump v. Mazars USA, LLP"
+}

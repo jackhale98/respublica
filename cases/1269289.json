@@ -1,0 +1,97 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt5.6 (4 pages)",
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Zadvydas v. Davis, 533 U.S. 678 (2001)",
+  "courtlistener_name": "Zadvydas v. Davis",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/1269289/zadvydas-v-davis/",
+  "date": "2001-06-28",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 1269289. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 533, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "1269289",
+  "loc_url": "https://www.loc.gov/item/usrep533678/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep533/usrep533678/usrep533678.pdf",
+  "ref_prefix": "Case.1269289",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Zadvydas v. Davis, syllabus ¶ 1",
+      "page": 678,
+      "ref": "Case.1269289.syllabus.1",
+      "text": "After a final removal order is entered, an alien ordered removed is held in custody during a 90-day removal period. If the alien is not removed in those 90 days, the post-removal-period detention statute authorizes further detention or supervised release, subject to administrative review. Kestutis Zadvydas, petitioner in No. 99-7791-a resident alien born, apparently of Lithuanian parents, in a German displaced persons camp-was ordered deported based on his criminal record. Germany and Lithuania refused to accept him because he was not a citizen of their countries; efforts to send him to his wife's native country also failed. When he remained in custody after the removal period expired, he filed a habeas action under 28 U. S. C. § 2241. The District Court granted the writ, reasoning that, because the Government would never remove him, his confinement would be permanent, in violation of the Constitution. In reversing, the Fifth Circuit concluded that Zadvydas' detention did not violate the Constitution because eventual deportation was not impossible, good-faith efforts to remove him continued, and his detention was subject to administrative review. Kim Ho Ma, respondent in No. 00-38, is a resident alien born in Cambodia who was ordered removed based on his aggravated felony conviction. When he remained in custody after the removal period expired, he filed a § 2241 habeas petition. In ordering his release, the District Court held that the Constitution forbids post-removal-period detention unless there is a realistic chance that an alien will be removed, and that no such chance existed here because Cambodia has no repatriation treaty with the United States. The Ninth Circuit affirmed, concluding that detention was not authorized for more than a reasonable time beyond the 90-day period, and that, given the lack of a repatriation agreement, that time had expired."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Zadvydas v. Davis, syllabus ¶ 2",
+      "page": 678,
+      "ref": "Case.1269289.syllabus.2",
+      "text": "Held"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Zadvydas v. Davis, syllabus ¶ 3",
+      "page": 678,
+      "ref": "Case.1269289.syllabus.3",
+      "text": "1. Section 2241 habeas proceedings are available as a forum for statutory and constitutional challenges to post-removal-period detention. Statutory changes in the immigration law left habeas untouched as the basic method for obtaining review of continued custody after a deportation order becomes final, and none of the statutory provisions limiting judicial review of removal decisions applies here. Pp. 687-688."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Zadvydas v. Davis, syllabus ¶ 4",
+      "page": 679,
+      "ref": "Case.1269289.syllabus.4",
+      "text": "2. The post-removal-period detention statute, read in light of the Constitution's demands, implicitly limits an alien's detention to a period reasonably necessary to bring about that alien's removal from the United States, and does not permit indefinite detention. Pp. 688-699."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Zadvydas v. Davis, syllabus ¶ 5",
+      "page": 679,
+      "ref": "Case.1269289.syllabus.5",
+      "text": "(a) A statute permitting indefinite detention would raise serious constitutional questions. Freedom from imprisonment lies at the heart of the liberty protected by the Due Process Clause. Government detention violates the Clause unless it is ordered in a criminal proceeding with adequate procedural safeguards or a special justification outweighs the individual's liberty interest. The instant proceedings are civil and assumed to be nonpunitive, and the Government proffers no sufficiently strong justification for indefinite civil detention under this statute. The first justification-preventing flight-is weak or nonexistent where removal seems a remote possibility. Preventive detention based on the second justification-protecting the community-has been upheld only when limited to specially dangerous individuals and subject to strong procedural protections. When preventive detention is potentially indefinite, this dangerousness rationale must also be accompanied by some other special circumstance, such as mental illness, that helps to create the danger. The civil confinement here is potentially permanent, and once the flight risk justification evaporates, the only special circumstance is the alien's removable status, which bears no relation to dangerousness. Moreover, the sole procedural protections here are found in administrative proceedings, where the alien bears the burden of proving he is not dangerous, without (according to the Government) significant later judicial review. The Constitution may well preclude granting an administrative body unreviewable authority to make determinations implicating fundamental rights. Pp. 690-692."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Zadvydas v. Davis, syllabus ¶ 6",
+      "page": 679,
+      "ref": "Case.1269289.syllabus.6",
+      "text": "(b) Shaughnessy v. United States ex rel. Mezei, 345 U. S. 206-in which an alien was indefinitely detained as he attempted to reenter the country-does not support the Government's argument that alien status itself can justify indefinite detention. Once an alien enters the country, the legal circumstance changes, for the Due Process Clause applies to all persons within the United States, including aliens, whether their presence is lawful, unlawful, temporary, or permanent. Nor do cases holding that, because Congress has plenary power to create immigration law, the Judicial Branch must defer to Executive and Legislative Branch decisionmaking in that area help the Government, because that power is subject to constitutional limits. Finally, the aliens' liberty interest is not diminished by their lack of a legal right to live at large, for the choice at issue here is between imprisonment and supervision under release conditions that may not be violated and their liberty interest is strong enough to raise a serious constitutional problem with indefinite detention. Pp. 692-696."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Zadvydas v. Davis, syllabus ¶ 7",
+      "page": 680,
+      "ref": "Case.1269289.syllabus.7",
+      "text": "(c) Despite the constitutional problem here, if this Court were to find a clear congressional intent to grant the Attorney General the power to indefinitely detain an alien ordered removed, the Court would be required to give it effect. But this Court finds no clear indication of such intent. The statute's use of \"may\" is ambiguous and does not necessarily suggest unlimited discretion. Similar related statutes requiring detention of criminal aliens during removal proceedings and the removal period do not show that Congress authorized indefinite detention here. Finally, nothing in the statute's legislative history clearly demonstrates a congressional intent to authorize indefinite, perhaps permanent, detention. Pp. 696-699."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Zadvydas v. Davis, syllabus ¶ 8",
+      "page": 680,
+      "ref": "Case.1269289.syllabus.8",
+      "text": "3. The application of the \"reasonable time\" limitation is subject to federal-court review. The basic federal habeas statute grants the federal courts authority to determine whether post-removal-period detention is pursuant to statutory authority. In answering that question, the court must ask whether the detention exceeds a period reasonably necessary to secure removal. It should measure reasonableness primarily in terms of the statute's purpose of assuring the alien's presence at the moment of removal. Thus, if removal is not reasonably foreseeable, the court should hold continued detention unreasonable and no longer authorized. If it is foreseeable, the court should consider the risk of the alien's committing further crimes as a factor potentially justifying continued confinement. Without abdicating their responsibility to review the detention's lawfulness, the courts can take appropriate account of such matters as the Executive Branch's greater immigrationrelated expertise, the Immigration and Naturalization Service's administrative needs and concerns, and the Nation's need to speak with one voice on immigration. In order to limit the occasions when courts will need to make the difficult judgments called for by the recognition of this necessary Executive leeway, it is practically necessary to recognize a presumptively reasonable period of detention. It is unlikely that Congress believed that all reasonably foreseeable removals could be accomplished in 90 days, but there is reason to believe that it doubted the constitutionality of more than six months' detention. Thus, for the sake of uniform administration in the federal courts, six months is the appropriate period. After the 6-month period, once an alien provides good reason to believe that there is no significant likelihood of removal in the reasonably foreseeable future, the Government must furnish evidence sufficient to rebut that showing. Pp. 699-701."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Zadvydas v. Davis, syllabus ¶ 9",
+      "page": 681,
+      "ref": "Case.1269289.syllabus.9",
+      "text": "4. The standard that the Fifth Circuit applied in holding Zadvydas' continued detention lawful seems to require an alien seeking release to show the absence of any prospect of removal-no matter how unlikely or unforeseeable-and thus demands more than the statute can bear. The Ninth Circuit's conclusion that Ma should be released may have rested solely upon the absence of a repatriation agreement without giving due weight to the likelihood of successful future negotiations. P. 702."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Zadvydas v. Davis, syllabus ¶ 10",
+      "page": 681,
+      "ref": "Case.1269289.syllabus.10",
+      "text": "185 F. 3d 279 and 208 F. 3d 815, vacated and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-533-678"
+  ],
+  "title": "Zadvydas v. Davis",
+  "us_cite": "533 U.S. 678"
+}

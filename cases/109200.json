@@ -1,0 +1,54 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt5.3 (5 pages)"
+  ],
+  "conan_citation": "United States v. Wilson, 420 U.S. 332 (1975)",
+  "courtlistener_name": "United States v. Wilson",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109200/united-states-v-wilson/",
+  "date": "1975-02-25",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109200. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 420, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109200",
+  "loc_url": "https://www.loc.gov/item/usrep420332/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep420/usrep420332/usrep420332.pdf",
+  "ref_prefix": "Case.109200",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Wilson, syllabus ¶ 1",
+      "page": 332,
+      "ref": "Case.109200.syllabus.1",
+      "text": "The jury entered a guilty verdict against respondent for a federal offense, but on one of respondent's postverdict motions the District Court dismissed the indictment on the ground that the delay between the offense and the indictment prejudiced respondent's right to a fair trial. The Court of Appeals dismissed the Government's appeal on the ground that the Double Jeopardy Clause barred review of the District Court's ruling. Because the ruling was based on facts brought out at the trial, the Court of Appeals held it was in effect an acquittal. Held: When a trial judge rules in favor of the defendant after a guilty verdict has been entered by the trier of fact, the Government may appeal from that ruling without contravening the Double Jeopardy Clause. Pp. 335-353."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Wilson, syllabus ¶ 2",
+      "page": 332,
+      "ref": "Case.109200.syllabus.2",
+      "text": "(a) That Clause protects against Government appeals only where there is a danger of subjecting the defendant to a second trial for the same offense, and hence such protection does not attach to a trial judge's postverdict correction of an error of law which would not grant the prosecution a new trial or subject the defendant to multiple prosecutions. Pp. 339-353."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Wilson, syllabus ¶ 3",
+      "page": 332,
+      "ref": "Case.109200.syllabus.3",
+      "text": "(b) Here the District Court's ruling in respondent's favor could be disposed of on appeal without subjecting him to a second trial at the Government's behest. If he prevails on appeal, the matter will become final, and the Government will not be permitted to bring a second prosecution for the same offense, whereas if he loses, the case must return to the District Court for disposition of his remaining motions. P. 353."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Wilson, syllabus ¶ 4",
+      "page": 332,
+      "ref": "Case.109200.syllabus.4",
+      "text": "492 F. 2d 1345, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-420-332"
+  ],
+  "title": "United States v. Wilson",
+  "us_cite": "420 U.S. 332"
+}

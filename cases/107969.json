@@ -1,0 +1,147 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S5.C2.2 (5 pages)",
+    "cited on 23 pages"
+  ],
+  "conan_citation": "Powell v. McCormack, 395 U.S. 486 (1969)",
+  "courtlistener_date": "1969-10-13",
+  "courtlistener_name": "Powell v. McCormack",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107969/powell-v-mccormack/",
+  "date": "1969-06-16",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107969. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 395, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107969",
+  "loc_url": "https://www.loc.gov/item/usrep395486/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep395/usrep395486/usrep395486.pdf",
+  "ref_prefix": "Case.107969",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 1",
+      "page": 486,
+      "ref": "Case.107969.syllabus.1",
+      "text": "Petitioner Powell, who had been duly elected to serve in the House of Representatives for the 90th Congress, was denied his seat by the adoption of House Resolution No. 278 which the Speaker had ruled was on the issue of excluding Powell and could be decided by majority vote. The House's action followed charges that Powell had misappropriated public funds and abused the process of the New York courts. Powell and certain voters of his congressional district thereafter brought suit in the District Court for injunctive, mandatory, and declaratory relief against respondents, certain named House members, the Speaker, Clerk, Sergeant at Arms, and Doorkeeper of the House, alleging that the Resolution barring his seating violated Art. I, § 2, cl. 1, of the Constitution as contrary to the mandate that House members be elected by the people of each State and cl. 2 which sets forth the qualifications for membership of age, citizenship, and residence (all concededly met by Powell), which they claimed were exclusive. The complaint alleged that the House Clerk threatened to refuse to perform the service to which Powell as a duly elected Congressman was entitled; that the Sergeant at Arms refused to pay Powell's salary; and that the Doorkeeper threatened to deny Powell admission to the House chamber. The District Court granted respondents' motion to dismiss the complaint \"for want of jurisdiction of the subject matter.\" The Court of Appeals affirmed on somewhat different grounds. While the case was pending in this Court, the 90th Congress ended and Powell was elected to and seated by the 91st Congress. Respondents contend that (1) the case is moot; (2) the Speech or Debate Clause (Art. I, § 6) forecloses judicial review; (3) the decision to exclude Powell is supported by the expulsion power in Art. I, § 5, under which the House, which \"shall be the Judge of the . . . Qualifications of its own Members,\" can by a two-thirds vote '(exceeded here) expel a member for any reason at all; (4) the Court lacks subject matter jurisdiction over this litigation, or, alternatively, (5) the litigation is not justiciable under general criteria or because it involves a political question. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 2",
+      "page": 487,
+      "ref": "Case.107969.syllabus.2",
+      "text": "1. The case has not been mooted by Powell's seating in the 91st Congress, since his claim for back salary remains a viable issue. Pp. 495-500."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 3",
+      "page": 487,
+      "ref": "Case.107969.syllabus.3",
+      "text": "(a) Powell's averments as to declaratory relief are sufficient. Alejandrino v. Quezon, 271. U. S. 528, distinguished. Pp. 496-499."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 4",
+      "page": 487,
+      "ref": "Case.107969.syllabus.4",
+      "text": "(b) The mootness of Powell's claim to a seat in the 90th Congress does not affect the viability of his back salary claim with respect to the term for which he was excluded. Bond v. Floyd, 385 U. S. 116. Pp. 499-500."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 5",
+      "page": 487,
+      "ref": "Case.107969.syllabus.5",
+      "text": "2. Although the Speech or Debate Clause bars action against respondent Congressmen, it does not bar action against the other respondents, who are legislative employees charged with unconstitutional activity, Kilbourn v. Thompson, 103 U. S. 168; Dombrowski v. Eastland, 387 U. S. 82; and the fact that House employees are acting pursuant to express orders of the House does not preclude judicial review of the constitutionality of the underlying legislative decision. Pp. 501-506."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 6",
+      "page": 487,
+      "ref": "Case.107969.syllabus.6",
+      "text": "3. House Resolution No. 278 was an exclusion proceeding and cannot be treated as an expulsion proceeding (which House members have viewed as not applying to pre-election misconduct). This Court will not speculate whether the House would have voted to expel Powell had it been faced with that question. Pp. 506-512."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 7",
+      "page": 487,
+      "ref": "Case.107969.syllabus.7",
+      "text": "4. The Court has subject matter jurisdiction over petitioners' action. Pp. 512-516."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 8",
+      "page": 487,
+      "ref": "Case.107969.syllabus.8",
+      "text": "(a) The case is one \"arising under\" the Constitution within the meaning of Art. III, since petitioners' claims \"will be sustained if the Constitution . . . [is] given one construction and will be defeated if it [is] given another.\" Bell v. Hood, 327 U. S. 678. Pp. 513-514."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 9",
+      "page": 487,
+      "ref": "Case.107969.syllabus.9",
+      "text": "(b) The district courts are given a broad grant of jurisdiction by 28 U. S. C. § 1331 (a), over \"all civil actions wherein the matter in controversy . . . arises under the Constitution . . .\" and while that grant is not entirely co-extensive with Art. III, there is no indication that § 1331 (a) was intended to foreclose federal courts from entertaining suits involving the seating of Congressmen. Pp. 514-516."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 10",
+      "page": 487,
+      "ref": "Case.107969.syllabus.10",
+      "text": "5. This litigation is justiciable because the claim presented and the relief sought can be judicially resolved. Pp. 516-518."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 11",
+      "page": 487,
+      "ref": "Case.107969.syllabus.11",
+      "text": "(a) Petitioners' claim does not lack justiciability on the ground that the House's duty cannot be judicially determined, since if petitioners are correct the House had a duty to seat Powell once it determined that he met the standing qualifications set forth in the Constitution. P. 517."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 12",
+      "page": 488,
+      "ref": "Case.107969.syllabus.12",
+      "text": "(b) The relief sought is susceptible of judicial resolution, since regardless of the appropriateness of a coercive remedy against House personnel (an issue not here decided) declaratory relief is independently available. Pp. 517-518."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 13",
+      "page": 488,
+      "ref": "Case.107969.syllabus.13",
+      "text": "6. The case does not involve a \"political question,\" which under the separation-of-powers doctrine would not be justiciable. Pp. 518-549."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 14",
+      "page": 488,
+      "ref": "Case.107969.syllabus.14",
+      "text": "(a) The Court's examination of relevant historical materials shows at most that Congress' power under Art. I, § 5, to judge the \"Qualifications of its Members\" is a \"textually demonstrable constitutional commitment . . . to [that] co-ordinate political department of government\" (Baker v. Car\", 369 U. S. 186, 217) to judge only standing qualifications which are expressly set forth in the Constitution; hence, the House has no power to exclude a member-elect who meets the Constitution's membership requirements. Pp. 518-548."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 15",
+      "page": 488,
+      "ref": "Case.107969.syllabus.15",
+      "text": "(b) The case does not present a political question in the sense, also urged by respondents, that it would entail a \"potentially embarrassing confrontation between coordinate branches\" of the Government, since our system of. government requires federal courts on occasion to interpret the Constitution differently from other branches. Pp. 548-549."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 16",
+      "page": 488,
+      "ref": "Case.107969.syllabus.16",
+      "text": "7. In judging the qualifications of its members under Art. I, § 5, Congress is limited to the standing qualifications expressly prescribed by the Constitution. P. 550."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. McCormack, syllabus ¶ 17",
+      "page": 488,
+      "ref": "Case.107969.syllabus.17",
+      "text": "129 U. S. App. D. C. 354, 395 F. 2d 577, affirmed in part, reversed in part, and remanded to the District Court for entry of a declaratory judgment and for further proceedings."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-395-486"
+  ],
+  "title": "Powell v. McCormack",
+  "us_cite": "395 U.S. 486"
+}

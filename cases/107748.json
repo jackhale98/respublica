@@ -1,0 +1,124 @@
+{
+  "chosen_because": [
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Jones v. Alfred H. Mayer Co., 392 U.S. 409 (1968)",
+  "courtlistener_name": "Jones v. Alfred H. Mayer Co.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107748/jones-v-alfred-h-mayer-co/",
+  "date": "1968-06-17",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107748. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 392, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107748",
+  "loc_url": "https://www.loc.gov/item/usrep392409/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep392/usrep392409/usrep392409.pdf",
+  "ref_prefix": "Case.107748",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 1",
+      "page": 409,
+      "ref": "Case.107748.syllabus.1",
+      "text": "Petitioners, alleging that respondents had refused to sell them a home for the sole reason that petitioner Joseph Lee Jones is a Negro, filed a complaint in the District Court, seeking injunctive and other relief. Petitioners relied in part upon 42 U. S. C. § 1982, which provides that all citizens \"shall have the same right, in every State and Territory, as is enjoyed by white citizens thereof to inherit, purchase, lease, sell, hold, and convey real and personal property.\" The District Court dismissed the complaint and the Court of Appeals affirmed, concluding that § 1982 applies only to state action and does not reach private refusals to sell. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 2",
+      "page": 409,
+      "ref": "Case.107748.syllabus.2",
+      "text": "1. Congress' enactment of the Civil Rights Act of 1968, containing in Title VIII detailed housing provisions applicable to a broad range of discriminatory practices and enforceable by a complete arsenal of federal authority, had no effect upon this litigation or upon § 1982, a general statute limited to racial discrimination in the sale and rental of property and enforceable only by private parties acting on their own initiative. Pp. 413-417."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 3",
+      "page": 409,
+      "ref": "Case.107748.syllabus.3",
+      "text": "2. Section 1982 applies to all racial discrimination in the sale or rental of property. Pp. 417-437."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 4",
+      "page": 409,
+      "ref": "Case.107748.syllabus.4",
+      "text": "(a) Section 1982 has previously been construed to do more than grant Negro citizens the general legal capacity to buy and rent property free of prohibitions that wholly disable them because of their race. Hurd v. Hodge, 334 U. S. 24. Pp. 417-419."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 5",
+      "page": 409,
+      "ref": "Case.107748.syllabus.5",
+      "text": "(b) The question whether purely private discrimination unaided by any governmental action violates § 1982 remains one of first impression in this Court. Hurd v. Hodge, supra; Corrigan v. Buckley, 271 U. S. 323; the Civil Rights Cases, 109 U. S. 3; and Virginia v. Rives, 100 U. S. 313, distinguished. Pp. 419-420."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 6",
+      "page": 409,
+      "ref": "Case.107748.syllabus.6",
+      "text": "(c) On its face, the language of § 1982 appears to prohibit all discrimination against Negroes in the sale or rental of property. Pp. 420-422."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 7",
+      "page": 409,
+      "ref": "Case.107748.syllabus.7",
+      "text": "(d) The legislative history of § 1982, which was part of § 1 of the Civil Rights Act of 1866, likewise shows that both Houses of Congress believed that they were enacting a comprehensive statute forbidding every form of racial discrimination affecting the basic civil rights enumerated therein-including the right to purchase or lease property-and thereby securing all such rights against interference from any source whatever, whether governmental or private. Pp. 422-436."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 8",
+      "page": 410,
+      "ref": "Case.107748.syllabus.8",
+      "text": "(e) The scope of the 1866 Act was not altered when it was re-enacted in 1870, two years after ratification of the Fourteenth Amendment. Pp. 436-437."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 9",
+      "page": 410,
+      "ref": "Case.107748.syllabus.9",
+      "text": "(f) That § 1982 lay partially dormant for many years does not diminish its force today. P. 437."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 10",
+      "page": 410,
+      "ref": "Case.107748.syllabus.10",
+      "text": "3. Congress has power under the Thirteenth Amendment to do what 42 U. S. C. § 1982 purports to do. Pp. 437-444."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 11",
+      "page": 410,
+      "ref": "Case.107748.syllabus.11",
+      "text": "(a) Because the Thirteenth Amendment \"is not a mere prohibition of State laws establishing or upholding slavery, but an absolute declaration that slavery or involuntary servitude shall not exist in any part of the United States,\" Civil Rights Cases, 109 U. S. 3, 20, it has never been doubted \"that the power vested in Congress to enforce the article by appropriate legislation,\" ibid., includes the power to enact laws \"operating upon the acts of individuals, whether sanctioned by State legislation or not.\" Id., at 23. See Clyatt v. United States, 197 U. S. 207. P. 438."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 12",
+      "page": 410,
+      "ref": "Case.107748.syllabus.12",
+      "text": "(b) The. Thirteenth Amendment authorized Congress to do more than merely dissolve the legal bond by which the Negro slave was held to his master; it gave Congress the power rationally to determine what are the badges and the incidents of slavery and the authority to translate that determination into effective legislation. Pp. 439-440."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 13",
+      "page": 410,
+      "ref": "Case.107748.syllabus.13",
+      "text": "(c) Whatever else they may have encompassed, the badges and incidents of slavery that the Thirteenth Amendment empowered Congress to eliminate included restraints upon \"those fundamental rights which are the essence of civjl freedom, namely, the same right . . . to inherit, purchase, lease, sell and convey property, as is enjoyed by white citizens.\" Civil Rights Cases, 109 U. S. 3, 22. Insofar as Hodges v. United States, 203 U. S. 1, suggests a contrary holding, it is overruled. Pp. 441-443."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jones v. Alfred H. Mayer Co., syllabus ¶ 14",
+      "page": 410,
+      "ref": "Case.107748.syllabus.14",
+      "text": "379 F. 2d 33, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-392-409"
+  ],
+  "title": "Jones v. Alfred H. Mayer Co.",
+  "us_cite": "392 U.S. 409"
+}

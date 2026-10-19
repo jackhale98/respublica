@@ -1,0 +1,188 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S1.6 (5 pages)",
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Fay v. Noia, 372 U.S. 391 (1963)",
+  "courtlistener_name": "Fay v. Noia",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/106548/fay-v-noia/",
+  "date": "1963-03-18",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 106548. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 372, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "106548",
+  "loc_url": "https://www.loc.gov/item/usrep372391/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/usrep372391/usrep372391.pdf",
+  "ref_prefix": "Case.106548",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 1",
+      "page": 391,
+      "ref": "Case.106548.syllabus.1",
+      "text": "In 1942, respondent and two codefendants were convicted in a New York State Court of murder committed during a robbery, and each was sentenced to life imprisonment. The sole evidence against each was his confession. Respondent did not appeal; but his codefendants did. Their appeals were unsuccessful; but subsequent proceedings' resulted in their release on the ground that- their confessions were coerced and their convictions violated the Fourteenth Amendment. Thereafter, respondent applied to the State Court for a coram nobis review of his conviction; but this was denied ultimately because of his failure to appeal. He then applied to a Federal District Court for a writ of habeas corpus, which was denied on the ground that his failure to appeal was a failure to exhaust available state remedies, within the meaning of 28 U. S. C. § 2254, although it was conceded that respondent's confession had been coerced. The Court of Appeals reversed. Held: The judgment of the Court of Appeals is affirmed on other grounds. Pp. 394-441."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 2",
+      "page": 391,
+      "ref": "Case.106548.syllabus.2",
+      "text": "1. Under the conditions of modern society, respondent's imprisonment under a conviction procured by a coerced confession, which the State concedes was obtained in violation of the Fourteenth Amendmeht, is intolerable; and habeas corpus is the appropriate remedy. Pp. 399-415."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 3",
+      "page": 391,
+      "ref": "Case.106548.syllabus.3",
+      "text": "(a) The basic principle of the Great Writ of habeas corpus is that, in a civilized society,-government must always be accountable to the judiciary for a man's imprisonment: If the imprisonment cannot be shown to conform with the fundamental requirements of law, the individual is entitled to his immediate release. Pp. 399-402."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 4",
+      "page": 391,
+      "ref": "Case.106548.syllabus.4",
+      "text": "(b) A review of the history of habeas corpus shows that, when the' Suspension Clause, Art. I, § 9, Cl..2, .was written into the Federal Constitution and the first Judiciary Act was passed conferring habeas corpus jurisdiction upon the federal judiciary, there was respectable common-law authority for the proposition that habeas corpus was available to remedy any kind of governmental restraint contrary to the fundamental law; and it would appear that the Constitution invites, if it does not compel, a generous construction of the power of the feaeral courts to dispense the writ conformably with common-law practice. Pp. 402-406."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 5",
+      "page": 392,
+      "ref": "Case.106548.syllabus.5",
+      "text": "(c) Changed conceptions of the kind of criminal proceedings so fundamentally defective as to make imprisonment under them constitutionally intolerable should not be allowed to obscure the basic continuity in the conception of the writ as a remedy for such imprisonments. Pp. 406-415."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 6",
+      "page": 392,
+      "ref": "Case.106548.syllabus.6",
+      "text": "2. The exigencies of federalism do not compel a different result. SPp. 415-426."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 7",
+      "page": 392,
+      "ref": "Case.106548.syllabus.7",
+      "text": "(a) The rule that a state prisoner must exhaust his remedies in the state courts before applying to a federal court for a writ of habeas corpus, which evolved as a matter of accommodation between state and federal courts and is now codified in 28 U. S. C. § 2254, is a doctrine of comity between courts. It is not one defining power but one which relates to the appropriate exercise of power. Pp. 415-420."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 8",
+      "page": 392,
+      "ref": "Case.106548.syllabus.8",
+      "text": "(b) Save in one decision, which has since been repudiated, this Court has consistently held that, after the state courts had decided the federal question on the merits against the applicant, he could apply to the federal courts for habeas corpus and there relitigate the question. Pp. 420-422."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 9",
+      "page": 392,
+      "ref": "Case.106548.syllabus.9",
+      "text": "(c) Even if the state court adjudication turns wholly on primary, historical facts, a Federal District Court has a broad power on habeas corpus to hold an evidentiary hearing and determine the facts. P. 422."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 10",
+      "page": 392,
+      "ref": "Case.106548.syllabus.10",
+      "text": "(d) Conventional notions of finality in criminal litigation cannot be permitted to defeat the manifest federal policy that federal constitutional rights of personal liberty shall not be denied without the fullest opportunity for plenary federal judicial review. Pp. 422-424."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 11",
+      "page": 392,
+      "ref": "Case.106548.syllabus.11",
+      "text": "(e) By relying on a rule of discretion, avowedly flexible and always yielding to \"exceptional circumstances,\" this Court has refused to concede jurisdictional significance to abortive state-court proceedings. Pp. 424-426."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 12",
+      "page": 392,
+      "ref": "Case.106548.syllabus.12",
+      "text": "3. Federal courts have power Under the federal habeas corpus statute, 28 U. S. C. §§ 2241 et seq., to grant relief despite the applicant's failure to have pursued a state remedy not available to him at the time he applies. The doctrine under which state proccoural defaults are held to constitute an adequate and independent state law ground barring direct Supreme Court review is not to be extended to limit the power granted the federal courts under the federal habeas corpus statute. Pp. 398-399, 426-434."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 13",
+      "page": 393,
+      "ref": "Case.106548.syllabus.13",
+      "text": "(a) Federal court jurisdiction in a habeas corpus proceeding is conferred by the allegation of an unconstitutional restraint, and it is not defeated by anything that may occur in the state proceedings. Pp. 426-427."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 14",
+      "page": 393,
+      "ref": "Case.106548.syllabus.14",
+      "text": "(b) Due process denied in the state proceedings leading to a conviction is not restored just because a state court declines to adjudicate on the merits the claim of such denial. P. 427."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 15",
+      "page": 393,
+      "ref": "Case.106548.syllabus.15",
+      "text": "(c) By committing a procedural default,.a defendant maybe debarred from challenging his conviction in the state courts, even on federal constitutional grounds; but forfeiture of remedies does not legitimize the unconstitutional conduct by which his conviction was procured. Pp. 427-428."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 16",
+      "page": 393,
+      "ref": "Case.106548.syllabus.16",
+      "text": "(d) The federal courts are not without power to grant habeas corpus relief to an applicant whote federal claims would not be heard on direct review in this Court because of a procedural default furnishing an adequate and independent ground of state decision. Pp. 428-434."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 17",
+      "page": 393,
+      "ref": "Case.106548.syllabus.17",
+      "text": "4. Respondent's failure to appeal was not a failure to exhaust \"the remedies available in the courts of the State,\" as required by 28 U. S. C. § 2254. That requirement refers only to a failure to exhaust state remedies still open to the applicant at the time he files his application for habeas corpus in the federal court. Pp. 434-435."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 18",
+      "page": 393,
+      "ref": "Case.106548.syllabus.18",
+      "text": "5. Darr v. Burford, 339 U. S. 200 is overruled to the extent that it required a state prisoner to seek certiorari in this Court before seeking federal habeas corpus relief. Pp. 435-438."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 19",
+      "page": 393,
+      "ref": "Case.106548.syllabus.19",
+      "text": "6. Respondent's failure to appeal cannot, in the circumstances of this case, be deemed an intelligent and understanding waiver of his right to appeal such as to justify the withholding of federal habeas corpus relief. Pp. 399, 438-440."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 20",
+      "page": 393,
+      "ref": "Case.106548.syllabus.20",
+      "text": "(a) A federal judge may, in his discretion, deny relief to an applicant for habeas corpus who has deliberately by-passed the orderly procedure of state courts and in so doing has forfeited his state-court remedies. P. 438."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 21",
+      "page": 393,
+      "ref": "Case.106548.syllabus.21",
+      "text": "(b) This grant of discretion is not to be interpreted as permission to introduce legal fictions into federal habeas corpus proceedings. It is applicable only when the petitioner himself has understandingly and knowingly foregone tne privilege of seeking to vindicate his federal claims in the state courts. P. 439."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 22",
+      "page": 394,
+      "ref": "Case.106548.syllabus.22",
+      "text": "(c) In the circumstances of this case, it cannot be said that respondent's failire to appeal justified the withholding of federal habeas corpus relief. Pp. 439-440."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fay v. Noia, syllabus ¶ 23",
+      "page": 394,
+      "ref": "Case.106548.syllabus.23",
+      "text": "300 F. 2d 345, affirmed on other grounds."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-372-391"
+  ],
+  "title": "Fay v. Noia",
+  "us_cite": "372 U.S. 391"
+}

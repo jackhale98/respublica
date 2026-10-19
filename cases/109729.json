@@ -1,0 +1,145 @@
+{
+  "chosen_because": [
+    "cited on 17 pages"
+  ],
+  "conan_citation": "Nixon v. Administrator of General Services, 433 U.S. 425 (1977)",
+  "courtlistener_name": "Nixon v. Administrator of General Services",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109729/nixon-v-administrator-of-general-services/",
+  "date": "1977-06-28",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109729. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 433, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109729",
+  "loc_url": "https://www.loc.gov/item/usrep433425/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep433/usrep433425/usrep433425.pdf",
+  "ref_prefix": "Case.109729",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 1",
+      "page": 425,
+      "ref": "Case.109729.syllabus.1",
+      "text": "After appellant had resigned as President of the United States, he executed a depository agreement with the Administrator of General Services that provided for the storage near appellant's California home of Presidential materials (an estimated 42 million pages of documents and 880 tape recordings) accumulated during appellant's terms of office. Under this agreement, neither appellant nor the General Services Administration (GSA) could gain access to the materials without the other's consent. Appellant was not to withdraw any original writing for three years, although he could make and withdraw copies. After the initial threeyear period he could withdraw any of the materials except tape recordings. With respect to the tape recordings, appellant agreed not to withdraw the originals for five years and to make reproductions only by mutual agreement. Following this five-year period the Administrator would destroy such tapes as appellant directed, and all of the tapes were to be destroyed at appellant's death or after the expiration of 10 years, whichever occurred first. Shortly after the public announcement of this agreement, a bill was introduced in Congress designed to abrogate it, and about three months later this bill was enacted as the Presidential Recordings and Materials Preservation Act (Act) and was signed into law by President Ford. The Act directs the Administrator of GSA to take custody of appellant's Presidential materials and have them screened by Government archivists in order to return to appellant those personal and private in nature and to preserve those having historical value and to make the materials available for use in judicial proceedings subject to \"any rights, defenses or privileges which the Federal Government or any person may invoke.\" The Administrator is also directed to promulgate regulations to govern eventual public access to some of the materials. These regulations must take into account seven guidelines specified by § 104 (a) of the Act, including, inter aia, the need to protect any person's opportunity to assert any legally or constitutionally based right or privilege and the need to return to appellant or his family materials that are personal and private in nature. No such public-access regulations have yet become effective. The day after the Act was signed into law, appellant filed an action in District Court challenging the Act's constitutionality on the grounds, inter alia, that on its face it violates (1) the principle of separation of powers; (2) the Presidential privilege; (3) appellant's privacy interests; (4) his First Amendment associational rights; and (5) the Bill of Attainder Clause, and seeking declaratory and injunctive relief against enforcement of the Act. Concluding that since no public-access regulations had yet taken effect it could consider only the injury to appellant's constitutionally protected interests allegedly caused by the taking of the Presidential materials into custody and their screening by Government archivists, the District Court held that appellant's constitutional challenges were without merit and dismissed the complaint. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 2",
+      "page": 426,
+      "ref": "Case.109729.syllabus.2",
+      "text": "1. The Act does not on its face violate the principle of separation of powers. Pp. 441-446."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 3",
+      "page": 426,
+      "ref": "Case.109729.syllabus.3",
+      "text": "(a) The Act's regulation of the Executive Branch's function in the control of the disposition of Presidential materials does not in itself violate such principle, since the Executive Branch became a party to the Act's regulation when President Ford signed the Act into law and President Carter's administration, acting through the Solicitor General, urged affirmance of the District Court's judgment. Moreover, the function remains in the Executive Branch in the person of the GSA Administrator and the Government archivists, employees of that branch. P. 441."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 4",
+      "page": 426,
+      "ref": "Case.109729.syllabus.4",
+      "text": "(b) The separate powers were not intended to operate with absolute independence, but in determining whether the Act violates the separationof-powers principle the proper inquiry requires analysis of the extent to which the Act prevents the Executive Branch from accomplishing its constitutionally assigned functions, and only where the potential for disruption is present must it then be determined whether that impact is justified by an overriding need to promote objectives within Congress' constitutional authority. Pp. 441-443."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 5",
+      "page": 426,
+      "ref": "Case.109729.syllabus.5",
+      "text": "(c) There is nothing in the Act rendering it unduly disruptive of the Executive Branch, since that branch remains in full control of the Presidential materials, the Act being facially designed to ensure that the materials can be released only when release is not barred by privileges inhering iii that branch. Pp. 443-446."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 6",
+      "page": 426,
+      "ref": "Case.109729.syllabus.6",
+      "text": "2. Neither does the Act on its face violate the Presidential privilege of confidentiality. Pp. 446-455."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 7",
+      "page": 426,
+      "ref": "Case.109729.syllabus.7",
+      "text": "(a) In view of the specific directions to the GSA Administrator in § 104 (a) of the Act to take into account, in determining public access to the materials, \"the need to protect any party's opportunity to assert any constitutionally based right or privilege,\" and the need to return to appellant his purely private materials, there is no reason to believe that the restrictions on public access ultimately established by regulation will not be adequate to preserve executive confidentiality. Pp. 449-451."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 8",
+      "page": 427,
+      "ref": "Case.109729.syllabus.8",
+      "text": "(b) The mere screening of the materials by Government archivists, who have previously performed the identical task for other former Presidents without any suggestion that such activity in any way interfered with executive confidentiality, will not impermissibly interfere with candid communication of views by Presidential advisers and will be no more of an intrusion into Presidential confidentiality than the in camera inspection by the District Court approved in United States v. Nixon, 418 U.S .683. Pp. 451-452."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 9",
+      "page": 427,
+      "ref": "Case.109729.syllabus.9",
+      "text": "(c) Given the safeguards built into the Act to prevent disclosure of materials that implicate Presidential confidentiality, the requirement that appellant's personal and private materials be returned to him, and the minimal nature of the intrusion into the confidentiality of the Presidency resulting from the archivists' viewing such materials in the course of their screening process, the claims of Presidential privilege must yield to the important congressional purposes of preserving appellant's Presidential materials and maintaining access to them for lawful governmental and historical purposes. Pp. 452-454."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 10",
+      "page": 427,
+      "ref": "Case.109729.syllabus.10",
+      "text": "3. The Act does not unconstitutionally invade appellant's' right of privacy. While he has a legitimate expectation of privacy in his personal communications, the constitutionality of the Act must be viewed in the context of the limited intrusion of the screening process, of appellant's status as a public figure, his lack of expectation of privacy in the overwhelming majority of the materials (he having conceded that he saw no more than 200,000 items), and the virtual impossibility of segregating the apparently small quantity of private materials without comprehensive screening. When this is combined with the Act's sensitivity to appellant's legitimate privacy interests, the unblemished record of the archivists for discretion, and the likelihood that the public-access regulations to be promulgated will further moot appellant's fears that his materials will be reviewed by \"a host of persons,\" it is apparent that appellant's privacy claim has no merit. Pp. 455-465."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 11",
+      "page": 427,
+      "ref": "Case.109729.syllabus.11",
+      "text": "4. The Act does not significantly interfere with or chill appellant's First Amendment associational rights. His First Amendment claim is clearly outweighed by the compelling governmental interests promoted by the Act in preserving the materials. Since archival screening is the least restrictive means of identifying the materials to be returned to appellant, the burden of that screening is the measure of the First Amendment claim, and any such burden is speculative in light of the Act's provisions protecting appellant from improper public disclosures and guaranteeing him full judicial review before any public access is permitted. Pp. 465-468."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 12",
+      "page": 428,
+      "ref": "Case.109729.syllabus.12",
+      "text": "5. The Act does not violate the Bill of Attainder Clause. Pp. 468-484."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 13",
+      "page": 428,
+      "ref": "Case.109729.syllabus.13",
+      "text": "(a) However expansive is the prohibition against bills of attainder, it was not intended to serve as a variant of the Equal Protection Clause, invalidating every Act by Congress or the States that burdens some persons or groups but not all other plausible individuals. While the Bill of Attainder Clause serves as an important bulwark against tyranny, it does not do so by limiting Congress to the choice of legislating for the universe, or legislating only benefits, or not legislating at all. Pp. 468-471."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 14",
+      "page": 428,
+      "ref": "Case.109729.syllabus.14",
+      "text": "(b) The Act's specificity in referring to appellant by name does not automatically offend the Bill of Attainder Clause. Since at the time of the Act's passage Congress was only concerned with the preservation of appellant's materials, the papers of former Presidents already being housed in libraries, appellant constituted a legitimate class of one, and this alone can justify Congress' decision to proceed with dispatch with respect to his materials while accepting the status of his predecessors' papers and ordering in the Public Documents Act the further consideration of generalized standards to govern his successors. Pp. 471-472."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 15",
+      "page": 428,
+      "ref": "Case.109729.syllabus.15",
+      "text": "(c) Congress, by lodging appellant's materials in the GSA's custody pending their screening by Government archivists and the promulgation of further regulations, did not \"inflict punishment\" within the historical meaning of bills of attainder. Pp. 473-475."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 16",
+      "page": 428,
+      "ref": "Case.109729.syllabus.16",
+      "text": "(d) Evaluated in terms of Congress' asserted proper purposes of the Act to preserve the availability of judicial evidence and historically relevant materials, the Act is one of nonpunitive legislative policymaking, and there is no evidence in the legislative history or in the provisions of the Act showing a congressional intent to punish appellant. Pp. 475- 484."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Nixon v. Administrator of General Services, syllabus ¶ 17",
+      "page": 428,
+      "ref": "Case.109729.syllabus.17",
+      "text": "408 F. Supp. 321, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-433-425"
+  ],
+  "title": "Nixon v. Administrator of General Services",
+  "us_cite": "433 U.S. 425"
+}

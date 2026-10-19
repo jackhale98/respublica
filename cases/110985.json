@@ -1,0 +1,118 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.5 (4 pages)",
+    "cited on 26 pages"
+  ],
+  "conan_citation": "Immigration & Naturalization Service v. Chadha, 462 U.S. 919 (1983)",
+  "courtlistener_name": "Immigration & Naturalization Service v. Chadha",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/110985/immigration-naturalization-service-v-chadha/",
+  "date": "1983-06-23",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 110985. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 462, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "110985",
+  "loc_url": "https://www.loc.gov/item/usrep462919/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep462/usrep462919/usrep462919.pdf",
+  "ref_prefix": "Case.110985",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 1",
+      "page": 919,
+      "ref": "Case.110985.syllabus.1",
+      "text": "Section 244(c)(2) of the Immigration and Nationality Act (Act) authorizes either House of Congress, by resolution, to invalidate the decision of the Executive Branch, pursuant to authority delegated by Congress to the Attorney General, to allow a particular deportable alien to remain in the United States. Appellee-respondent Chadha, an alien who had been lawfully admitted to the United States on a nonimnigrant student visa, remained in the United States after his visa had expired and was ordered by the Immigration and Naturalization Service (INS) to show cause why he should not be deported. He then applied for suspension of the deportation, and, after a hearing, an Immigration Judge, acting pursuant to § 244(a)(1) of the Act, which authorizes the Attorney General, in his discretion, to suspend deportation, ordered the suspension, and reported the suspension to Congress as required by § 244(c)(1). Thereafter, the House of Representatives passed a resolution pursuant to § 244(c)(2) vetoing the suspension, and the Immigration Judge reopened the deportation proceedings. Chadha moved to terminate the proceedings on the ground that § 244(c)(2) is unconstitutional, but the judge held that he had no authority to rule on its constitutionality and ordered Chadha deported pursuant to the House Resolution. Chadha's appeal to the Board of Immigration Appeals was dismissed, the Board also holding that it had no power to declare § 244(c)(2) unconstitutional. Chadha then filed a petition for review of the deportation order in the Court of Appeals, and the INS joined him in arguing that § 244(c)(2) is unconstitutional. The Court of Appeals held that § 244(c)(2) violates the constitutional doctrine of separation of powers, and accordingly directed the Attorney General to cease taking any steps to deport Chadha based upon the House Resolution."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 2",
+      "page": 920,
+      "ref": "Case.110985.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 3",
+      "page": 920,
+      "ref": "Case.110985.syllabus.3",
+      "text": "1. This Court has jurisdiction to entertain the INS's appeal in No. 80-1832 under 28 U. S. C. § 1252, which provides that \"[a]ny party\" may appeal to the Supreme Court from a judgment of \"any court of the United States\" holding an Act of Congress unconstitutional in \"any civil action, suit, or proceeding\" to which the United States or any of its agencies is a party. A court of appeals is \"a court of the United States\" for purposes of § 1252, the proceeding below was a \"civil action, suit, or proceeding,\" the INS is an agency of the United States and was a party to the proceeding below, and the judgment below held an Act of Congress unconstitutional. Moreover, for purposes of deciding whether the INS was \"any party\" within the grant of appellate jurisdiction in § 1252, the INS was sufficiently aggrieved by the Court of Appeals' decision prohibiting it from taking action it would otherwise take. An agency's status as an aggrieved party under § 1252 is not altered by the fact that the Executive may agree with the holding that the statute in question is unconstitutional. Pp. 929-931."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 4",
+      "page": 920,
+      "ref": "Case.110985.syllabus.4",
+      "text": "2. Section 244(c)(2) is severable from the remainder of § 244. Section 406 of the Act provides that if any particular provision of the Act is held invalid, the remainder of the Act shall not be affected. This gives rise to a presumption that Congress did not intend the validity of the Act as a whole, or any part thereof, to depend upon whether the veto clause of § 244(c)(2) was invalid. This presumption is supported by § 244's legislative history. Moreover, a provision is further presumed severable if what remains after severance is fully operative as a law. Here, § 244 can survive as a \"fully operative\" and workable administrative mechanism without the one-House veto. Pp. 931-935."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 5",
+      "page": 920,
+      "ref": "Case.110985.syllabus.5",
+      "text": "3. Chadha has standing to challenge the constitutionality of § 244(c)(2) since he has demonstrated \"injury in fact and a substantial likelihood that the judicial relief requested will prevent or redress the claimed injury.\" Duke Power Co. v. Carolina Environmental Study Group, Inc., 438 U. S. 59, 79. Pp. 935-936."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 6",
+      "page": 920,
+      "ref": "Case.110985.syllabus.6",
+      "text": "4. The fact that Chadha may have other statutory relief available to him does not preclude him from challenging the constitutionality of § 244(c)(2), especially where the other avenues of relief are at most speculative. Pp. 936-937."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 7",
+      "page": 920,
+      "ref": "Case.110985.syllabus.7",
+      "text": "5. The Court of Appeals had jurisdiction under § 106(a) of the Act, which provides that a petition for review in a court of appeals \"shall be the sole and exclusive procedure for the judicial review of all final orders of deportation... made against aliens within the United States pursuant to administrative proceedings\" under § 242(b) of the Act. Section 106(a) includes all matters on which the final deportation order is contingent, rather than only those determinations made at the deportation hearing. Here, Chadha's deportation stands or falls on the validity of the challenged veto, the final deportation order having been entered only to implement that veto. Pp. 937-939."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 8",
+      "page": 921,
+      "ref": "Case.110985.syllabus.8",
+      "text": "6. A case or controversy is presented by these cases. From the time of the House's formal intervention, there was concrete adverseness, and prior to such intervention, there was adequate Art. III adverseness even though the only parties were the INS and Chadha. The INS's agreement with Chadha's position does not alter the fact that the INS would have deported him absent the Court of Appeals' judgment. Moreover, Congress is the proper party to defend the validity of a statute when a Government agency, as a defendant charged with enforcing the statute, agrees with plaintiffs that the statute is unconstitutional. Pp. 939-940."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 9",
+      "page": 921,
+      "ref": "Case.110985.syllabus.9",
+      "text": "7. These cases do not present a nonjusticiable political question on the asserted ground that Chadha is merely challenging Congress' authority under the Naturalization and Necessary and Proper Clauses of the Constitution. The presence of constitutional issues with significant political overtones does not automatically invoke the political question doctrine. Resolution of litigation challenging the constitutional authority of one of the three branches cannot be evaded by the courts simply because the issues have political implications. Pp. 940-943."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 10",
+      "page": 921,
+      "ref": "Case.110985.syllabus.10",
+      "text": "8. The congressional veto provision in § 244(c)(2) is unconstitutional. Pp. 944-959."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 11",
+      "page": 921,
+      "ref": "Case.110985.syllabus.11",
+      "text": "(a) The prescription for legislative action in Art. I, § 1-requiring all legislative powers to be vested in a Congress consisting of a Senate and a House of Representatives-and § 7-requiring every bill passed by the House and Senate, before becoming law, to be presented to the President, and, if he disapproves, to be repassed by two-thirds of the Senate and House-represents the Framers' decision that the legislative power of the Federal Government be exercised in accord with a single, finely wrought and exhaustively considered procedure. This procedure is an integral part of the constitutional design for the separation of powers. Pp. 944-951."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 12",
+      "page": 921,
+      "ref": "Case.110985.syllabus.12",
+      "text": "(b) Here, the action taken by the House pursuant to § 244(c)(2) was essentially legislative in purpose and effect and thus was subject to the procedural requirements of Art. I, § 7, for legislative action: passage by a majority of both Houses and presentation to the President. The oneHouse veto operated to overrule the Attorney General and mandate Chadha's deportation. The veto's legislative character is confirmed by the character of the congressional action it supplants; i. e., absent the veto provision of § 244(c)(2), neither the House nor the Senate, or both acting together, could effectively require the Attorney General to deport an alien once the Attorney General, in the exercise of legislatively delegated authority, had determined that the alien should remain in the United States. Without the veto provision, this could have been achieved only by legislation requiring deportation. A veto by one House under § 244(c)(2) cannot be justified as an attempt at amending the standards set out in § 244(a)(1), or as a repeal of § 244 as applied to Chadha. The nature of the decision implemented by the one-House veto further manifests its legislative character. Congress must abide by its delegation of authority to the Attorney General until that delegation is legislatively altered or revoked. Finally, the veto's legislative character is confirmed by the fact that when the Framers intended to authorize either House of Congress to act alone and outside of its prescribed bicameral legislative role, they narrowly and precisely defined the procedure for such action in the Constitution. Pp. 951-959."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Immigration & Naturalization Service v. Chadha, syllabus ¶ 13",
+      "page": 922,
+      "ref": "Case.110985.syllabus.13",
+      "text": "634 F. 2d 408, affied."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-462-919"
+  ],
+  "title": "Immigration & Naturalization Service v. Chadha",
+  "us_cite": "462 U.S. 919"
+}

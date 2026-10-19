@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S9.C3.3 (5 pages)",
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Cummings v. Missouri, 71 U.S. (4 Wall.) 277 (1867)",
+  "courtlistener_name": "Cummings v. Missouri",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/87778/cummings-v-missouri/",
+  "date": "1867-01-14",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 87778. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 71, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "87778",
+  "loc_url": "https://www.loc.gov/item/usrep071277/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep071/usrep071277/usrep071277.pdf",
+  "ref_prefix": "Case.87778",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-71-277"
+  ],
+  "syllabus_note": "Volume 71 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Cummings v. Missouri",
+  "us_cite": "71 U.S. 277"
+}

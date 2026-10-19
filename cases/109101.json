@@ -1,0 +1,111 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtII.S3.4 (7 pages)",
+    "cited on 13 pages"
+  ],
+  "conan_citation": "United States v. Nixon, 418 U.S. 683 (1974)",
+  "courtlistener_name": "United States v. Nixon",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109101/united-states-v-nixon/",
+  "date": "1974-07-24",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109101. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 418, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109101",
+  "loc_url": "https://www.loc.gov/item/usrep418683/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep418/usrep418683/usrep418683.pdf",
+  "ref_prefix": "Case.109101",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 1",
+      "page": 683,
+      "ref": "Case.109101.syllabus.1",
+      "text": "Following indictment alleging violation of federal statutes by certain staff members of the White House and political supporters of the President, the Special Prosecutor filed a motion under Fed. Rule Crim. Proc. 17 (c) for a subpoena duces tecum for the production before trial of certain tapes and documents relating to precisely identified conversations and meetings between the President and others. The President, claiming executive privilege, filed a motion to quash the subpoena. The District Court, after treating the subpoenaed material as presumptively privileged, concluded that the Special Prosecutor had made a sufficient showing to rebut the presumption and that the requirements of Rule 17 (c) had been satisfied. The court thereafter issued an order for an in camera examination of the subpoenaed material, having rejected the President's contentions (a) that the dispute between him and the Special Prosecutor was nonjusticiable as an \"intra-executive\" conflict and (b) that the judiciary lacked authority to review the President's assertion of executive privilege. The court stayed its order pending appellate review, which the President then sought in the Court of Appeals. The Special Prosecutor then filed in this Court a petition for a writ of certiorari before judgment (No. 73-1766) and the President filed a cross-petition for such a writ challenging the grand-jury action (No. 73-1834). The Court granted both petitions. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 2",
+      "page": 683,
+      "ref": "Case.109101.syllabus.2",
+      "text": "1. The District Court's order was appealable as a \"final\" order under 28 U. S. C. § 1291, was therefore properly \"in\" the Court of Appeals, 28 U. S. C. § 1254, when the petition for certiorari before judgment was filed in this Court, and is now properly before this Court for review. Although such an order is normally not final and subject to appeal, an exception is made in a \"limited class of cases where denial of immediate review would render impossible any review whatsoever of an individual's claims,\" United States v. Ryan, 402 U. S. 530, 533. Such an exception is proper in the unique circumstances of this case where it would be inappropriate to subject the President to the procedure of securing review by resisting the order and inappropriate to require that the District Court proceed by a traditional contempt citation in order to provide appellate review. Pp. 690-692."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 3",
+      "page": 684,
+      "ref": "Case.109101.syllabus.3",
+      "text": "2. The dispute between the Special Prosecutor and the President presents a justiciable controversy. Pp. 692-697."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 4",
+      "page": 684,
+      "ref": "Case.109101.syllabus.4",
+      "text": "(a) The mere assertion of an \"intra-branch dispute,\" without more, does not defeat federal jurisdiction. United States v. ICC, 337 U. S. 426. P. 693."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 5",
+      "page": 684,
+      "ref": "Case.109101.syllabus.5",
+      "text": "(b) The Attorney General by regulation has conferred upon the Special Prosecutor unique tenure and authority to represent the United States and has given the Special Prosecutor explicit power to contest the invocation of executive privilege in seeking evidence deemed relevant to the performance of his specially delegated duties. While the regulation remains in effect, the Executive Branch is bound by it. United States ex rel. Accardi v. Shaughnessy, 347 U. S. 260. Pp. 694-696."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 6",
+      "page": 684,
+      "ref": "Case.109101.syllabus.6",
+      "text": "(c) The action of the Special Prosecutor within the scope of his express authority seeking specified evidence preliminarily determined to be relevant and admissible in the pending criminal case, and the President's assertion of privilege in opposition thereto, present issues \"of a type which are traditionally justiciable,\" United States v. ICC, supra, at 430, and the fact that both litigants are officers of the Executive Branch is not a bar to justiciability. Pp. 696-697."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 7",
+      "page": 684,
+      "ref": "Case.109101.syllabus.7",
+      "text": "3. From this Court's examination of the material submitted by the Special Prosecutor in support of his motion for the subpoena, much of which is under seal, it is clear that the District Court's denial of the motion to quash comported with Rule 17 (c) and that the Special Prosecutor has made a sufficient showing to justify a subpoena for production before trial. Pp. 697-702."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 8",
+      "page": 684,
+      "ref": "Case.109101.syllabus.8",
+      "text": "4. Neither the doctrine of separation of powers nor the generalized need for confidentiality of high-level communications, without more, can sustain an absolute, unqualified Presidential privilege of immunity from judicial process under all circumstances. See, e. g., Marbury v. Madison, 1 Cranch 137, 177; Baker v. Carr, 369 U. S. 186, 211. Absent a claim of need to protect military, diplomatic, or sensitive national security secrets, the confidentiality of Presidential communications is not significantly diminished by producing material for a criminal trial under the protected conditions of in camera inspection, and any absolute executive privilege under Art. II of the Constitution would plainly conflict with the function of the courts under the Constitution. Pp. 703-707."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 9",
+      "page": 685,
+      "ref": "Case.109101.syllabus.9",
+      "text": "5. Although the courts will afford the utmost deference to Presidential acts in the performance of an Art. II function, United States v. Burr, 25 F. Cas. 187, 190, 191-192 (No. 14,694), when a claim of Presidential privilege as to materials subpoenaed for use in a criminal trial is based, as it is here, not on the ground that military or diplomatic secrets are implicated, but merely on the ground of a generalized interest in confidentiality, the President's generalized assertion of privilege must yield to the demonstrated, specific need for evidence in a pending criminal trial and the fundamental demands of due process of law in the fair administration of criminal justice. Pp. 707-713."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 10",
+      "page": 685,
+      "ref": "Case.109101.syllabus.10",
+      "text": "6. On the basis of this Court's examination of the record, it cannot be concluded that the District Court erred in ordering in camera examination of the subpoenaed material, which shall now forthwith be transmitted to the District Court. Pp. 713-714."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 11",
+      "page": 685,
+      "ref": "Case.109101.syllabus.11",
+      "text": "7. Since a President's communications encompass a vastly wider range of sensitive material than would be true of an ordinary individual, the public interest requires that Presidential confidentiality be afforded the greatest protection consistent with the fair administration of justice, and the District Court has a heavy responsibility to ensure that material involving Presidential conversations irrelevant to or inadmissible in the criminal prosecution be accorded the high degree of respect due a President and that such material be returned under seal to its lawful custodian. Until released to the Special Prosecutor no in camera material is to be released to anyone. Pp. 714-716."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Nixon, syllabus ¶ 12",
+      "page": 685,
+      "ref": "Case.109101.syllabus.12",
+      "text": "No. 73-1766, 377 F. Supp. 1326, affirmed; No. 73-1834, certiorari dismissed as improvidently granted."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-418-683"
+  ],
+  "title": "United States v. Nixon",
+  "us_cite": "418 U.S. 683"
+}

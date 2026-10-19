@@ -1,0 +1,47 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Penry v. Lynaugh, 492 U.S. 302 (1989)",
+  "courtlistener_name": "Penry v. Lynaugh",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112325/penry-v-lynaugh/",
+  "date": "1989-06-26",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112325. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 492, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112325",
+  "loc_url": "https://www.loc.gov/item/usrep492302/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep492/usrep492302/usrep492302.pdf",
+  "ref_prefix": "Case.112325",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Penry v. Lynaugh, syllabus ¶ 1",
+      "page": 302,
+      "ref": "Case.112325.syllabus.1",
+      "text": "Petitioner was charged with capital murder in Texas state court. He was found competent to stand trial, although a psychologist testified that he was mildly to moderately retarded and had the mental age of a 6'W-yearold. At the guilt-innocence phase of the trial, petitioner raised an insanity defense and presented psychiatric testimony that he suffered from a combination of organic brain damage and moderate retardation which resulted in poor impulse control and an inability to learn from experience. His evidence also indicated that he had been abused as a child. The State introduced testimony that petitioner was legally sane but had an antisocial personality. The jury rejected petitioner's insanity defense and found him guilty of capital murder. At the penalty phase of the trial, the sentencing jury was instructed to consider all the evidence introduced at trial in answering the following \"special issues\": (1) whether petitioner's conduct was committed deliberately and with the reasonable expectation that death would result; (2) whether there was a probability that he would be a continuing threat to society; and (3) whether the killing was unreasonable in response to any provocation by the victim. The trial court rejected petitioner's request for jury instructions defining the terms in the special issues and authorizing a grant of mercy based upon the existence of mitigating circumstances. The jury answered \"yes\" to each special issue, and, as required by Texas law, the court therefore sentenced petitioner to death. A \"no\" answer to any of the special issues would have required a sentence of life imprisonment. The Texas Court of Criminal Appeals affirmed, rejecting petitioner's contentions that his death sentence violated the Eighth Amendment first, because the jury was not adequately instructed to consider all of his mitigating evidence and because the special issues' terms were not defined in such a way that the jury could consider and give effect to that evidence in answering them; and, second, because it is cruel and unusual punishment to execute a mentally retarded person with petitioner's mental ability. After this Court denied certiorari on direct review, the Federal District Court and the Court of Appeals upheld petitioner's death sentence in habeas corpus proceedings. Although it denied him relief, the Court of Appeals nevertheless found considerable merit in petitioner's claim that his mitigating evidence of mental retardation and childhood abuse could not be given effect by the jury, under the instructions given, in answering the special issues."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Penry v. Lynaugh, syllabus ¶ 2",
+      "page": 303,
+      "ref": "Case.112325.syllabus.2",
+      "text": "Held: The judgment is affirmed in part and reversed in part, and the case is remanded."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Penry v. Lynaugh, syllabus ¶ 3",
+      "page": 303,
+      "ref": "Case.112325.syllabus.3",
+      "text": "832 F. 2d 915, affirmed in part, reversed in part, and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-492-302"
+  ],
+  "title": "Penry v. Lynaugh",
+  "us_cite": "492 U.S. 302"
+}

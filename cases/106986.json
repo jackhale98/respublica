@@ -1,0 +1,40 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIV.S1.4 (4 pages)"
+  ],
+  "conan_citation": "Crider v. Zurich Insurance Co., 380 U.S. 39 (1965)",
+  "courtlistener_name": "Crider v. Zurich Insurance",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/106986/crider-v-zurich-insurance/",
+  "date": "1965-03-01",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 106986. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 380, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "106986",
+  "loc_url": "https://www.loc.gov/item/usrep380039/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep380/usrep380039/usrep380039.pdf",
+  "ref_prefix": "Case.106986",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Crider v. Zurich Insurance Co., syllabus ¶ 1",
+      "page": 39,
+      "ref": "Case.106986.syllabus.1",
+      "text": "Petitioner, an Alabama resident, was injured in that State while working for a Georgia corporation, against which he then secured a default judgment in an Alabama court under the Georgia Workmen's Compensation Act. Petitioner then brought this diversity action on the judgment against respondent, his employer's insurer, in the District Court, which granted a motion to dismiss on the ground that the Alabama court lacked jurisdiction to award damages under the Georgia Act providing for a remedy which could be afforded exclusively by the Georgia compensation board. The Court of Appeals affirmed. Held: The State where an employee resides and is injured may adopt such choice of remedy as it desires, and Alabama was free to adopt and enforce the remedy provided by Georgia without any requirement imposed by the Full Faith and Credit Clause that the special Georgia procedure be followed. Pp. 41-43."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crider v. Zurich Insurance Co., syllabus ¶ 2",
+      "page": 39,
+      "ref": "Case.106986.syllabus.2",
+      "text": "324 F. 2d 499, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-380-39"
+  ],
+  "title": "Crider v. Zurich Insurance Co.",
+  "us_cite": "380 U.S. 39"
+}

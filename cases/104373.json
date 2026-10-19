@@ -1,0 +1,55 @@
+{
+  "chosen_because": [
+    "cited on 16 pages"
+  ],
+  "conan_citation": "Everson v. Board of Education, 330 U.S. 1 (1947)",
+  "courtlistener_date": "1947-03-10",
+  "courtlistener_name": "Everson v. Board of Ed. of Ewing",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104373/everson-v-board-of-ed-of-ewing/",
+  "date": "1947-02-10",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104373. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 330, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104373",
+  "loc_url": "https://www.loc.gov/item/usrep330001/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep330/usrep330001/usrep330001.pdf",
+  "ref_prefix": "Case.104373",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Everson v. Board of Education, syllabus ¶ 1",
+      "page": 1,
+      "ref": "Case.104373.syllabus.1",
+      "text": "Pursuant to a New Jersey statute authorizing district boards of education to make rides and contracts for the transportation of children to and from schools othes than private schools operated for profit, a board of education by resolution authorized the reimbursement of parents for fares paid for the transportation by public carrier of children attending public and Catholic schools. The Catholic schools operated under the superintendency of a Catholic priest and, in addition to secular education, gave religious instruction in the Catholic Faith. A district taxpayer challenged the validity under the Federal Constitution of the statute and resolution, so far as they authorized reimbursement to parents for the transportation of children attendthg sectarian schools. No question was raised as to whether the exclusion of private schools operated for profit denied equal protection of the laws; nor did the record show that there were any children in the district who attended, or would have attended but for the cost' of transportation, any but public or Catholic schools. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Everson v. Board of Education, syllabus ¶ 2",
+      "page": 1,
+      "ref": "Case.104373.syllabus.2",
+      "text": "1. .The expenditure of tax-raised funds thus authorized was for a public' purpose, and did not violate the due process clause of the Fourteenth Amendment. Pp. 5-8."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Everson v. Board of Education, syllabus ¶ 3",
+      "page": 1,
+      "ref": "Case.104373.syllabus.3",
+      "text": "2. The. statute and resolution did not violate the provision of the First Amendment (made applicable to the states by the Fourteenth Amendment) prohibiting any \"law respecting an establishment of religion.\" Pp. 8-18."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Everson v. Board of Education, syllabus ¶ 4",
+      "page": 1,
+      "ref": "Case.104373.syllabus.4",
+      "text": "133 N. J. L. 350,44 A. 2d 333, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-330-1"
+  ],
+  "title": "Everson v. Board of Education",
+  "us_cite": "330 U.S. 1"
+}

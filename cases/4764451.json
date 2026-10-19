@@ -1,0 +1,25 @@
+{
+  "chosen_because": [
+    "cited on 13 pages"
+  ],
+  "conan_citation": "Seila Law LLC v. Consumer Financial Protection Bureau, No. 19-7 (U.S. June 29, 2020)",
+  "courtlistener_match": "CourtListener gives 4 clusters for No. 19-7; this one matches the case's name and year and is the most cited (the others: 4766668, 4764603, 4764602).",
+  "courtlistener_name": "Seila Law LLC v. Consumer Financial Protection Bureau",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/4764451/seila-law-llc-v-consumer-financial-protection-bureau/",
+  "date": "2020-06-29",
+  "date_source": "courtlistener",
+  "docket": "19-7",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 4764451. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+  },
+  "id": "4764451",
+  "ref_prefix": "Case.4764451",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-scotus-19-7"
+  ],
+  "syllabus_note": "The Library of Congress has no scan of this decision on its own (summary decisions are printed in lists, and the latest volumes are not yet scanned).",
+  "title": "Seila Law LLC v. Consumer Financial Protection Bureau",
+  "us_cite": "591 U.S. 197"
+}

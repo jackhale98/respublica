@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtII.S2.C2.1 (8 pages)",
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Medellin v. Texas, 552 U.S. 491 (2008)",
+  "courtlistener_name": "Medellin v. Texas",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/145822/medellin-v-texas/",
+  "date": "2008-03-25",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 145822. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 552, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "145822",
+  "loc_url": "https://www.loc.gov/item/usrep552491/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep552/usrep552491/usrep552491.pdf",
+  "ref_prefix": "Case.145822",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-552-491"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 491 a paragraph seems to stop mid-sentence.",
+  "title": "Medellin v. Texas",
+  "us_cite": "552 U.S. 491"
+}

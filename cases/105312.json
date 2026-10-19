@@ -1,0 +1,146 @@
+{
+  "chosen_because": [
+    "named in the title of essay Amdt14.S1.8.2.1",
+    "named in the title of essay Amdt14.S1.8.2.2"
+  ],
+  "conan_citation": "Brown v. Board of Education, 349 U.S. 294 (1955)",
+  "courtlistener_name": "Brown v. Board of Education",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/105312/brown-v-board-of-education/",
+  "date": "1955-05-31",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 105312. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 349, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "105312",
+  "loc_url": "https://www.loc.gov/item/usrep349294/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep349/usrep349294/usrep349294.pdf",
+  "ref_prefix": "Case.105312",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 1",
+      "page": 294,
+      "ref": "Case.105312.syllabus.1",
+      "text": "1. Racial discrimination in public education is unconstitutional, 347 U. S. 483, 497, and all provisions of federal, 'state or local law requiring or permitting such discrimination must yield to this principle. P. 298."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 2",
+      "page": 294,
+      "ref": "Case.105312.syllabus.2",
+      "text": "2. The judgments below (except that in the Delaware case) are reversed and the cases are remanded to the District Courts to take such proceedings and enter such orders and decrees consistent with this opinion as are necessary and proper to admit the parties to these cases to public schools on a racially nondiscriminatory basis with all deliberate speed P. 301."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 3",
+      "page": 294,
+      "ref": "Case.105312.syllabus.3",
+      "text": "(a) School authorities have the primary responsibility for elucidating, assessing and solving the varied local school problems which may require solution in fully implementing the governing constitutional principles. P. 299."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 4",
+      "page": 294,
+      "ref": "Case.105312.syllabus.4",
+      "text": "(b) Courts will have to consider whether the action of school authorities constitutes good faith implementation of the governing constitutional principles. P. 299."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 5",
+      "page": 294,
+      "ref": "Case.105312.syllabus.5",
+      "text": "(c) Because of their proximity to local conditions and the possible need for further hearings, the courts which originally heard these cases can best perform this judicial appraisal. P. 299."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 6",
+      "page": 294,
+      "ref": "Case.105312.syllabus.6",
+      "text": "(d) In fashioning and effectuating the decrees, the courts will be guided by equitable principles-characterized by a practical flexibility in shaping remedies and a facility for adjusting and reconciling public and private needs. P. 300."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 7",
+      "page": 295,
+      "ref": "Case.105312.syllabus.7",
+      "text": "(e) At stake is the personal interest of the plaintiffs in admission to public schools as soon as practicable on a nondiscriminatory basis. P. 300."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 8",
+      "page": 295,
+      "ref": "Case.105312.syllabus.8",
+      "text": "(f) Courts of equity may properly take into account the public interest in the elimination in a systematic and effective manner of a variety of obstacles in making the transition to school systems operated in accordance with the constitutional principles enunciated in 347 U. S. 483, 497; but the vitality of these constitutional principles cannot be allowed to yield simply because of disagreement with them. P. 300."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 9",
+      "page": 295,
+      "ref": "Case.105312.syllabus.9",
+      "text": "(g) While giving weight to these public and private considerations, the courts will require that the defendants make a prompt and reasonable start toward full compliance with the ruling of this Court. P. 300."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 10",
+      "page": 295,
+      "ref": "Case.105312.syllabus.10",
+      "text": "(h) Once such a start has been made, the courts may find that additional time is necessary to carry out the ruling in an effective manner. P. 300."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 11",
+      "page": 295,
+      "ref": "Case.105312.syllabus.11",
+      "text": "(i) The burden rests on the defendants to establish that additional time is necessary in the public interest and is consistent with good faith compliance at the earliest practicable date: P. 300."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 12",
+      "page": 295,
+      "ref": "Case.105312.syllabus.12",
+      "text": "(jY The courts may consider problems related to administration, arising from the physical condition of the school plant, the school transportation system, personnel, revision of school districts and attendance areas into compact units to achieve'a system of determining admission to the public schools on a nonracial basis, and revision of local laws and regulations which may be necessary in solving the foregoing problems. Pp. 300-301."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 13",
+      "page": 295,
+      "ref": "Case.105312.syllabus.13",
+      "text": "(k) The courts will also consider the adequacy of any plans the defendants may propose to meet these problems and to effectuate a transition to a racially noidiscriminatory school system. P. 301."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 14",
+      "page": 295,
+      "ref": "Case.105312.syllabus.14",
+      "text": "(1) During the period of transition, the courts will retain jurisdiction of these cases. P. 301."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 15",
+      "page": 295,
+      "ref": "Case.105312.syllabus.15",
+      "text": "3. The judgment in the Delaware case, ordering the immediate admission of the plaintiffs to schools previously attended only by white children, is affirmed on the basis of the principles stated by this Court in its opinion, 347 U. S. 483; but the case is remanded to the Supreme Court of Delaware for such further proceedings as that Court may deem necessary in the light of this opinion. P. 301."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 16",
+      "page": 295,
+      "ref": "Case.105312.syllabus.16",
+      "text": "98 F. Supp. 797, 103 F. Supp. 920, 103 F. Supp. 337 and judgmcat ii. No. 4, reversed and remanded."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 17",
+      "page": 295,
+      "ref": "Case.105312.syllabus.17",
+      "text": "91 A. 2d 137, affirmed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-349-294"
+  ],
+  "title": "Brown v. Board of Education",
+  "us_cite": "349 U.S. 294"
+}

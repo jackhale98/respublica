@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "cited on 12 pages"
+  ],
+  "conan_citation": "Ex parte Yarbrough, 110 U.S. 651 (1884)",
+  "courtlistener_name": "Ex Parte Yarbrough",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/91064/ex-parte-yarbrough/",
+  "date": "1884-03-03",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 91064. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 110, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "91064",
+  "loc_url": "https://www.loc.gov/item/usrep110651/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep110/usrep110651/usrep110651.pdf",
+  "ref_prefix": "Case.91064",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-110-651"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 652 a paragraph seems to stop mid-sentence.",
+  "title": "Ex parte Yarbrough",
+  "us_cite": "110 U.S. 651"
+}

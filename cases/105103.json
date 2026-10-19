@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C18.8 (5 pages)"
+  ],
+  "conan_citation": "Shaughnessy v. United States ex rel. Mezei, 345 U.S. 206 (1953)",
+  "courtlistener_name": "Shaughnessy v. United States Ex Rel. Mezei",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/105103/shaughnessy-v-united-states-ex-rel-mezei/",
+  "date": "1953-03-16",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 105103. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 345, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "105103",
+  "loc_url": "https://www.loc.gov/item/usrep345206/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep345/usrep345206/usrep345206.pdf",
+  "ref_prefix": "Case.105103",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Shaughnessy v. United States ex rel. Mezei, syllabus ¶ 1",
+      "page": 206,
+      "ref": "Case.105103.syllabus.1",
+      "text": "An alien resident of the United States traveled abroad and remained in Hungary for 19 months. On his return to this country, the Attorney General, acting pursuant to 22 U. S. C. § 223 and regulations thereunder, ordered him permanently excluded without a hearing. The order was based on \"information of a confidential nature, the disclosure of which would be prejudicial to the public interest,\" and on a finding that the alien's entry would be prejudicial to the public interest for security reasons. Because other nations refused to accept him, his exclusion at Ellis Island was continued for 21 months. A federal district court in habeas corpus proceedings then directed his conditional parole into the United States on bond. Held: The Attorney General's continued exclusion of the alien without a hearing does not amount to an unlpvful detention, and courts may not temporarily admit him to the iJnited States pending arrangements for his departure abroad. Pp. 207-216."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaughnessy v. United States ex rel. Mezei, syllabus ¶ 2",
+      "page": 206,
+      "ref": "Case.105103.syllabus.2",
+      "text": "(a) In exclusion cases, the courts cannot retry the Attorney General's statutory determination that an alien's entry would be prejudicial to the public interest. Pp. 210-212."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaughnessy v. United States ex rel. Mezei, syllabus ¶ 3",
+      "page": 206,
+      "ref": "Case.105103.syllabus.3",
+      "text": ". (b) Neither an alien's harborage on Ellis Island nor his prior residence in this country transforms the administrative proceeding against him into something other than an exclusion proceeding; and he may be excluded if unqualified for admission under existing immigration laws. P. 213."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaughnessy v. United States ex rel. Mezei, syllabus ¶ 4",
+      "page": 206,
+      "ref": "Case.105103.syllabus.4",
+      "text": "(c) Although a lawfully resident alien may not captiously be deprived of his constitutional rights to due process, the alien in this case is an entrant alien or \"assimilated to that status\" for constitutional purposes. Kwong Hai Chew v. Coldin#, 344 U. S. 590, distinguished. Pp. 213-214."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaughnessy v. United States ex rel. Mezei, syllabus ¶ 5",
+      "page": 206,
+      "ref": "Case.105103.syllabus.5",
+      "text": "(d) The Attorney General therefore may exclude this alien without a hearing, as authorized by the emergency regulations promulgated pursuant to the Passport Act, and need not disclose the evidence upon which that determination rests. Pp. 214-215."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-345-206"
+  ],
+  "title": "Shaughnessy v. United States ex rel. Mezei",
+  "us_cite": "345 U.S. 206"
+}

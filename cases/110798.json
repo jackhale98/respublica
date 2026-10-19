@@ -1,0 +1,119 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt1.7 (8 pages)",
+    "cited on 10 pages"
+  ],
+  "conan_citation": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., 458 U.S. 886 (1982)",
+  "courtlistener_date": "1982-10-04",
+  "courtlistener_name": "National Ass'n for the Advancement of Colored People v. Claiborne Hardware Co.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/110798/national-assn-for-the-advancement-of-colored-people-v-claiborne-hardware/",
+  "date": "1982-07-02",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 110798. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 458, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "110798",
+  "loc_url": "https://www.loc.gov/item/usrep458886/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep458/usrep458886/usrep458886.pdf",
+  "ref_prefix": "Case.110798",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 1",
+      "page": 886,
+      "ref": "Case.110798.syllabus.1",
+      "text": "In 1966, a boycott of white merchants in Claiborne County, Miss., was launched at a meeting of a local branch of the National Association for the Advancement of Colored People (NAACP) attended by several hundred black persons. The purpose of the boycott was to secure compliance by both civic and business leaders with a lengthy list of demands for equality and racial justice. The boycott was largely supported by speeches encouraging nonparticipants to join the common cause and by nonviolent picketing, but some acts and threats of violence did occur. In 1969, respondent white merchants filed suit in Mississippi Chancery Court for injunctive relief and damages against petitioners (the NAACP, the Mississippi Action for Progress, and a number of individuals who had participated in the boycott, including Charles Evers, the field secretary of the NAACP in Mississippi and a principal organizer of the boycott). Holding petitioners jointly and severally liable for all of respondents' lost earnings during a 7-year period from 1966 to the end of 1972 on three separate conspiracy theories, including the tort of malicious interference with respondents' businesses, the Chancery Court imposed damages liability and issued a permanent injunction. The Mississippi Supreme Court rejected two theories of liability but upheld the imposition of liability on the basis of the common-law tort theory. Based on evidence that fear of reprisals caused some black citizens to withhold their patronage from respondents' businesses, the court held that the entire boycott was unlawful and affirmed petitioners' liability for all damages \"resulting from the boycott\" on the ground that petitioners had agreed to use force, violence, and \"threats\" to effectuate the boycott."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 2",
+      "page": 886,
+      "ref": "Case.110798.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 3",
+      "page": 886,
+      "ref": "Case.110798.syllabus.3",
+      "text": "1. The nonviolent elements of petitioners' activities are entitled to the protection of the First Amendment. Pp. 907-915."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 4",
+      "page": 886,
+      "ref": "Case.110798.syllabus.4",
+      "text": "(a) Through exercise of their First Amendment rights of speech, assembly, association, and petition, rather than through riot or revolution, petitioners sought to bring about political, social, and economic change. Pp. 907-912."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 5",
+      "page": 886,
+      "ref": "Case.110798.syllabus.5",
+      "text": "(b) While States have broad power to regulate economic activities, there is no comparable right to prohibit peaceful political activity such as that found in the boycott in this case. Pp. 912-915."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 6",
+      "page": 887,
+      "ref": "Case.110798.syllabus.6",
+      "text": "2. Petitioners are not liable in damages for the consequences of their nonviolent, protected activity. Pp. 915-920."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 7",
+      "page": 887,
+      "ref": "Case.110798.syllabus.7",
+      "text": "(a) While the State legitimately may impose damages for the consequences of violent conduct, it may not award compensation for the consequences of nonviolent, protected activity; only those losses proximately caused by the unlawful conduct may be recovered. Pp. 915-918."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 8",
+      "page": 887,
+      "ref": "Case.110798.syllabus.8",
+      "text": "(b) Similarly, the First Amendment restricts the ability of the State to impose liability on an individual solely because of his association with another. Civil liability may not be imposed merely because an individual belonged to a group, some members of which committed acts of violence. For liability to be imposed by reason of association alone, it is necessary to establish that the group itself possessed unlawful goals and that the individual held a specific intent to further those illegal aims. Pp. 918-920."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 9",
+      "page": 887,
+      "ref": "Case.110798.syllabus.9",
+      "text": "3. The award for all damages \"resulting from the boycott\" cannot be sustained, where the record discloses that all of the respondents' business losses were not proximately caused by violence or threats of violence. Pp. 920-932."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 10",
+      "page": 887,
+      "ref": "Case.110798.syllabus.10",
+      "text": "(a) To the extent that the Mississippi Supreme Court's judgment rests on the ground that \"many\" black citizens were \"intimidated\" by \"threats\" of \"social ostracism, vilification, and traduction,\" it is flatly inconsistent with the First Amendment. The court's ambiguous findings are inadequate to assure the \"precision of regulation\" demanded by that Amendment. Pp. 920-924."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 11",
+      "page": 887,
+      "ref": "Case.110798.syllabus.11",
+      "text": "(b) Regular attendance and participation at the meetings of the Claiborne County Branch of the NAACP is an insufficient predicate on which to impose liability on the individual petitioners. Nor can liability be imposed on such individuals simply because they were either \"store watchers\" who stood outside the boycotted merchants' stores to record the names of black citizens who patronized the stores or members of a special group of boycott \"enforcers.\" Pp. 924-926."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 12",
+      "page": 887,
+      "ref": "Case.110798.syllabus.12",
+      "text": "(c) For similar reasons, the judgment against Evers cannot be separately justified, nor can liability be imposed upon him on the basis of speeches that he made, because those speeches did not incite violence or specifically authorize the use of violence. His acts, being insufficient to impose liability on him, may not be used to impose liability on the NAACP, his principal. Moreover, there is no finding that Evers or any other NAACP member had either actual or apparent authority from the NAACP to commit acts of violence or to threaten violent conduct or that the NAACP ratified unlawful conduct. To impose liability on the NAACP without such a finding would impermissibly burden the rights of political association that are protected by the First Amendment. Pp. 926-932."
+    },
+    {
+      "kind": "syllabus",
+      "label": "National Association for the Advancement of Colored People v. Claiborne Hardware Co., syllabus ¶ 13",
+      "page": 887,
+      "ref": "Case.110798.syllabus.13",
+      "text": "393 So. 2d 1290, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-458-886"
+  ],
+  "title": "National Association for the Advancement of Colored People v. Claiborne Hardware Co.",
+  "us_cite": "458 U.S. 886"
+}

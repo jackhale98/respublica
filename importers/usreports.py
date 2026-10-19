@@ -56,9 +56,11 @@ AFTER = re.compile(r"argued(?: the| for|$)|submitted (on )?(the|a|his|their) bri
 PRINTER_MARK = re.compile(r"^\S*\d{5,}\S*( [\d-]+)?$|^\d+-\d+-+\d+$")
 NOTE = re.compile(r"^[*†‡]|^\S?N[Oo][Tt][Ee]:")    # a footnote ("*Together with No. 2, ...")
 RUNNING_HEAD = re.compile(r"^(\d+ )?Syllabus\.?( \d+ U\. ?S\.)?$|^Cite as: \d+ U\. ?S\. \d+ \(\d{4}\)( \d+)?$|^VOL\. [CLXVI]+")
-# More of the dates: "Reargued October 22-23, 1958." or "March 31, 1958.*" on a line of its own.
+# More of the dates: "Reargued October 22-23, 1958." or "March 31, 1958.*" on a line of its own,
+# or the year alone ("1977").
 DATE_MORE = re.compile(r"\b(Argued|Reargued|Decided|Submitted|reargument|Opinion announced)\b"
-                       r"|^[A-Z][a-z]+\.? \d{1,2}(-\d+)?, \d{4}\.?\*?$|^(?=[a-z\d]).*(\d{1,2}, \d{4}\.|\d{4}\.-)")
+                       r"|^[A-Z][a-z]+\.? \d{1,2}(-\d+)?, \d{4}\.?\*?$|^(?=[a-z\d]).*(\d{1,2}, \d{4}\.|\d{4}\.-)"
+                       r"|^\d{4}\.?\*?$")
 HEAD_GAP = 30                   # running heads: within this of the page's top line
 
 
@@ -156,6 +158,54 @@ def syllabus(volume: int, page: int) -> list[Paragraph]:
         if ended:
             break
     return _finish(paras)
+
+
+MONTHS = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+          "November", "December")
+# The date of decision in the case's dates ("Decided March 3d, 1884."); a
+# decision announced without one ("Opinion and judgments announced May 31,
+# 1955."). The month must be read exactly; OCR's "Jantary" is not guessed at.
+DECIDED = re.compile(r"\b(?:Decided|announced),?\s+([A-Z][a-z]+)\.?\s*(\d{1,2})(?:st|nd|rd|th|d)?,\s*(\d{4})\b")
+# The term in the running heads: "OCTOBER TERM, 1944.", "DEOEMBER TERM, 1862.", "Oct. 1875.]".
+TERM = re.compile(r"\bTER\w*[,.]?\s+(\d{4})\b|^(?:Oct|Dec)\w*\.?\s+(\d{4})\.?\s*[\])]")
+
+
+@dataclass
+class PrintedDates:
+    decided: str | None     # ISO date of decision, as printed, if read cleanly and in the term
+    term: int | None        # the year of the term the case is reported in
+    line: str               # the case's dates as printed ("" when there are none)
+
+
+def printed_dates(volume: int, page: int) -> PrintedDates:
+    """The dates the United States Reports print for a case: its term, from
+    the running heads, and its date of decision, from the line of the case's
+    dates (the one the syllabus follows). A date of decision is kept only if
+    its month reads as a month and its year is the term's or the next (OCR
+    reads "1295" for "1895")."""
+    pages = _pages(volume, page)[:3]
+    years = Counter(int(m.group(1) or m.group(2)) for pg in pages for l in pg for m in [TERM.search(l.text)] if m)
+    term = years.most_common(1)[0][0] if years else None
+    dates = ""
+    for pg in pages:
+        # Lines of figures are kept here: a page's folio is never next to the dates, a year alone can be ("1977").
+        lines = _merge_fragments([l for l in pg if not PRINTER_MARK.match(l.text)])
+        at = next((k for k, l in enumerate(lines) if DATE_LINE.search(l.text)), None)
+        if at is None:
+            continue
+        block = [lines[at].text]
+        while at + 1 < len(lines) and DATE_MORE.search(lines[at + 1].text):
+            at += 1
+            block.append(lines[at].text)
+        dates = " ".join(block)
+        break
+    decided = None
+    m = DECIDED.search(dates)
+    if m and m.group(1) in MONTHS and 1 <= int(m.group(2)) <= 31:
+        year = int(m.group(3))
+        if term is None or year in (term, term + 1):
+            decided = f"{year:04d}-{MONTHS.index(m.group(1)) + 1:02d}-{int(m.group(2)):02d}"
+    return PrintedDates(decided, term, dates)
 
 
 def _finish(paras: list[tuple[int, list[Line]]]) -> list[Paragraph]:

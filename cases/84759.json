@@ -1,0 +1,28 @@
+{
+  "chosen_because": [
+    "cited on 35 pages",
+    "named in the title of essay ArtIII.S1.3",
+    "named in the title of essay ArtIII.S2.C1.9.2"
+  ],
+  "conan_citation": "Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803)",
+  "courtlistener_name": "Marbury v. Madison",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/84759/marbury-v-madison/",
+  "date": "1803-02-24",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 84759. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 5, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "84759",
+  "loc_url": "https://www.loc.gov/item/usrep005137/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep005/usrep005137/usrep005137.pdf",
+  "ref_prefix": "Case.84759",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-5-137"
+  ],
+  "syllabus_note": "Volume 5 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Marbury v. Madison",
+  "us_cite": "5 U.S. 137"
+}

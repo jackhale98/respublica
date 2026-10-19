@@ -1,0 +1,47 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Aguilar v. Felton, 473 U.S. 402 (1985)",
+  "courtlistener_name": "Aguilar v. Felton",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/111506/aguilar-v-felton/",
+  "date": "1985-07-01",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 111506. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 473, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "111506",
+  "loc_url": "https://www.loc.gov/item/usrep473402/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep473/usrep473402/usrep473402.pdf",
+  "ref_prefix": "Case.111506",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Aguilar v. Felton, syllabus ¶ 1",
+      "page": 402,
+      "ref": "Case.111506.syllabus.1",
+      "text": "New York City uses federal funds received under the Title I program of the Elementary and Secondary Education Act of 1965 to pay the salaries of public school employees who teach in parochial schools in the city. That program authorized federal financial assistance to local educational institutions to meet the needs of educationally deprived children from low-income families. The city makes the teacher assignments, and the teachers are supervised by field personnel who monitor the Title I classes. Appellee city taxpayers brought an action in Federal District Court, alleging that the Title I program administered by the city violates the Establishment Clause of the First Amendment, and seeking injunctive relief. The District Court granted appellants' motion for summary judgment based on the evidentiary record in another case that involved an identical challenge to the city's Title I program, and in which the constitutionality of the program was upheld. The Court of Appeals reversed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Aguilar v. Felton, syllabus ¶ 2",
+      "page": 402,
+      "ref": "Case.111506.syllabus.2",
+      "text": "Held: The Title I program administered by New York City, which is similar in a number of respects to that held unconstitutional today in School District of Grand Rapids v. Ball, ante, p. 373, violates the Establishment Clause. Although the program here could be argued to be distinguishable from that in School District of Grand Rapids on the ground that New York City has adopted a system for monitoring the religious content of publicly funded Title I classes in the religious schools, the supervision would at best assist in preventing the Title I program from being used, intentionally or unwittingly, to inculcate the religious beliefs of the surrounding parochial school. And the program here would, in any event, inevitably result in the excessive entanglement of church and state. Even where state aid to parochial institutions does not have the primary effect of advancing religion, the provision of such aid may nevertheless violate the Establishment Clause owing to the interaction of church and state in the administration of that aid. Here, the scope and duration of New York City's Title I program would require a permanent and pervasive state presence in the sectarian schools receiving aid. This pervasive monitoring infringes precisely those Establishment Clause values at the root of the prohibition of excessive entanglement. Moreover, personnel of the public and parochial school systems must work together in resolving various administrative matters and problems, and the program necessitates frequent contacts between the regular parochial school teachers and the remedial teachers. Pp. 408-414."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Aguilar v. Felton, syllabus ¶ 3",
+      "page": 403,
+      "ref": "Case.111506.syllabus.3",
+      "text": "739 F. 2d 48, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-473-402"
+  ],
+  "title": "Aguilar v. Felton",
+  "us_cite": "473 U.S. 402"
+}

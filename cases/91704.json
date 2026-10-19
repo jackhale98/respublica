@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Yick Wo v. Hopkins, 118 U.S. 356 (1886)",
+  "courtlistener_name": "Yick Wo v. Hopkins",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/91704/yick-wo-v-hopkins/",
+  "date": "1886-05-10",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 91704. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 118, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "91704",
+  "loc_url": "https://www.loc.gov/item/usrep118356/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep118/usrep118356/usrep118356.pdf",
+  "ref_prefix": "Case.91704",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Yick Wo v. Hopkins, syllabus ¶ 1",
+      "page": 356,
+      "ref": "Case.91704.syllabus.1",
+      "text": "In a suit brought to this court from a State court which involves the constitutionality of ordinances made by a municip-l corporation in the State, this court will, when necessary, put its own independent construction upon the ordinances."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Yick Wo v. Hopkins, syllabus ¶ 2",
+      "page": 356,
+      "ref": "Case.91704.syllabus.2",
+      "text": "A municipal ordinance to regulate the carrying on of public laundries within the limits of the municipality violates the provisions of the Constitution of the United States, if it confers upon the municipal authorities arbitrary power, at their own will, and without regard to discretion in the legal sense of the term, to give or withhold consent as to persons or places, without regard to the competency of the persons applying, or the propriety of the place selected, for the carrying on of the business."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Yick Wo v. Hopkins, syllabus ¶ 3",
+      "page": 356,
+      "ref": "Case.91704.syllabus.3",
+      "text": "An administration of a municipal ordinance for the carrying on of a lawful business within the corporate limits violates the provisions of the Constitution of the United States, if it makes arbitrary and unjust discriminations, founded on differences of race, between persons otherwise in similar circumstances."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Yick Wo v. Hopkins, syllabus ¶ 4",
+      "page": 356,
+      "ref": "Case.91704.syllabus.4",
+      "text": "The guarantees of protection contained in the Fourteenth Amendment to the Constitution extend to all persons within the territorial jurisdiction of the United States, without regard to differences of race, of color, or of nationality."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Yick Wo v. Hopkins, syllabus ¶ 5",
+      "page": 356,
+      "ref": "Case.91704.syllabus.5",
+      "text": "Those subjects of the Emperor of China who have the right to temporarily or permanently reside within the United States, are entitled to enjoy the protection guaranteed by the Constitution and afforded by the laws."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-118-356"
+  ],
+  "title": "Yick Wo v. Hopkins",
+  "us_cite": "118 U.S. 356"
+}

@@ -1,0 +1,33 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 7 pages"
+  ],
+  "conan_citation": "Plessy v. Ferguson, 163 U.S. 537 (1896)",
+  "courtlistener_name": "Plessy v. Ferguson",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/94508/plessy-v-ferguson/",
+  "date": "1896-05-18",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 94508. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 163, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "94508",
+  "loc_url": "https://www.loc.gov/item/usrep163537/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep163/usrep163537/usrep163537.pdf",
+  "ref_prefix": "Case.94508",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Plessy v. Ferguson, syllabus ¶ 1",
+      "page": 537,
+      "ref": "Case.94508.syllabus.1",
+      "text": "The statute of Louisiana, acts of 1890, No. 111, requiring railway companies carrying passengers In their coaches ip that State, to provide equal, but separate, accommodations for the white and colored races, by providing two or more passenger coaches for each passenger train, or by dividing the passenger coaches by a partition so as to secure separate accommodations; and providing that no person shall be permitted to occupy seats in coaches other than the ones assigned to them, on account of the race they belong to; and requiring the officers of the passenger trains to assign each passenger to the coach or compartment assigned for the race to which be or she belongs; and imposing fines or imprisonment upon passengers insisting on going into a coach or compartment other than the one set aside for the race to which he or she belongs; and conferring upon officers of the trains power to refuse to carry on the train passengers refusing to occupy the coach or compartment assigned to them, and exempting the railway company from liability for such refusal, are not in conflict with the provisions either of the Thirteenth Amendment or of the Fourteenth Amendment to the Constitution of the United States."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-163-537"
+  ],
+  "title": "Plessy v. Ferguson",
+  "us_cite": "163 U.S. 537"
+}

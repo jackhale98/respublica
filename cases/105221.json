@@ -1,0 +1,77 @@
+{
+  "chosen_because": [
+    "cited on 11 pages",
+    "named in the title of essay Amdt14.S1.8.2.1",
+    "named in the title of essay Amdt14.S1.8.2.2"
+  ],
+  "conan_citation": "Brown v. Board of Education, 347 U.S. 483 (1954)",
+  "courtlistener_name": "Brown v. Board of Education",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/105221/brown-v-board-of-education/",
+  "date": "1954-05-17",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 105221. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 347, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "105221",
+  "loc_url": "https://www.loc.gov/item/usrep347483/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf",
+  "ref_prefix": "Case.105221",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 1",
+      "page": 483,
+      "ref": "Case.105221.syllabus.1",
+      "text": "Segregation of white and Negro children in the public schools of a State solely on the basis of race, pursuant to state laws permitting or requiring such segregation, denies to Negro children the equal protection of the laws guaranteed by the Fourteenth Amendment-, even though the physical facilities and other \"tangible\" factors of white and Negro schools may be equal. Pp. 1486-496."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 2",
+      "page": 483,
+      "ref": "Case.105221.syllabus.2",
+      "text": "(a) The history of the Fourteenth Amendfnent is inconclusive as to its intended effect on public education.' Pp. 489-490."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 3",
+      "page": 483,
+      "ref": "Case.105221.syllabus.3",
+      "text": "(b) The question presented in these cises must be deteilnined, not on the basis of conditions existing when the Fourteenth Amendment was adopted, but in the light of the full development of public education and its present place in American life throughdut the Nation. Pp. 492-493."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 4",
+      "page": 483,
+      "ref": "Case.105221.syllabus.4",
+      "text": "(c) Where a State has undertaken to provide an opportunity for an education-in its public schools, such an opportunity is a right which must be made available to all on equal terms. P. 493."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 5",
+      "page": 483,
+      "ref": "Case.105221.syllabus.5",
+      "text": "(d) Segregation of children in public schools solely on the basis of race deprives children of the minority group of equal educational opportunities, even though the physical facilities and other \"tangible\" factors may be equal. Pp. 493-494."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 6",
+      "page": 483,
+      "ref": "Case.105221.syllabus.6",
+      "text": "/ (e) The \"separate but equal\" doctrine adopted in Plessy v. Ferguson, 163 U. S. 537, has no place in the field of public education. P. 495."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Board of Education, syllabus ¶ 7",
+      "page": 484,
+      "ref": "Case.105221.syllabus.7",
+      "text": "(f) The cases are restored to the docket for further argument on specified questions relating to the forms of the decrees. Pp. 495-496."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-347-483"
+  ],
+  "title": "Brown v. Board of Education",
+  "us_cite": "347 U.S. 483"
+}

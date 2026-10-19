@@ -1,0 +1,55 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt6.4 (7 pages)",
+    "cited on 14 pages"
+  ],
+  "conan_citation": "Duncan v. Louisiana, 391 U.S. 145 (1968)",
+  "courtlistener_name": "Duncan v. Louisiana",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107685/duncan-v-louisiana/",
+  "date": "1968-05-20",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107685. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 391, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107685",
+  "loc_url": "https://www.loc.gov/item/usrep391145/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep391/usrep391145/usrep391145.pdf",
+  "ref_prefix": "Case.107685",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Duncan v. Louisiana, syllabus ¶ 1",
+      "page": 145,
+      "ref": "Case.107685.syllabus.1",
+      "text": "Under Louisiana law simple battery is a misdemeanor punishable by a maximum of two years' imprisonment and a $300 fine. Appellant was convicted of simple battery and sentenced to 60 days in prison and a fine of $150. He had requested a jury trial which was denied because the Louisiana Constitution grants jury trials only in cases where capital punishment or imprisonment at hard labor may be imposed. The Louisiana Supreme Court denied certiorari. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Duncan v. Louisiana, syllabus ¶ 2",
+      "page": 145,
+      "ref": "Case.107685.syllabus.2",
+      "text": "1. Since trial by jury in criminal cases is fundamental to the American scheme of justice, the Fourteenth Amendment guarantees a right of jury trial in all criminal cases which, were they tried in a federal court, would come within the Sixth Amendment's guarantee of trial by jury. Pp. 147-158."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Duncan v. Louisiana, syllabus ¶ 3",
+      "page": 145,
+      "ref": "Case.107685.syllabus.3",
+      "text": "2. The penalty authorized for a particular crime is of major relevance in determining whether it is a serious one subject to the mandates of the Sixth Amendment, and it is sufficient here, without defining the boundary between petty offenses and serious crimes, to hold that a crime punishable by two years in prison is a serious crime and that appellant was entitled to a jury trial. Pp. 159-162."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Duncan v. Louisiana, syllabus ¶ 4",
+      "page": 145,
+      "ref": "Case.107685.syllabus.4",
+      "text": "250 La. 253, 195 So. 2d 142, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-391-145"
+  ],
+  "title": "Duncan v. Louisiana",
+  "us_cite": "391 U.S. 145"
+}

@@ -1,0 +1,138 @@
+{
+  "chosen_because": [
+    "overruled by Fay v. Noia (table of overruled decisions)"
+  ],
+  "conan_citation": "Brown v. Allen, 344 U.S. 443 (1953)",
+  "courtlistener_name": "Brown v. Allen",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/105074/brown-v-allen/",
+  "date": "1953-02-09",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 105074. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 344, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "105074",
+  "loc_url": "https://www.loc.gov/item/usrep344443/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep344/usrep344443/usrep344443.pdf",
+  "ref_prefix": "Case.105074",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 1",
+      "page": 443,
+      "ref": "Case.105074.syllabus.1",
+      "text": "1. Where, on direct review of his conviction, a state prisoner's claim of federal constitutional right has been decided adversely to him by the state supreme court and an application to this Court for certiorari has been denied, he has satisfied the requirement of 28 U. S. C. § 2254 that state remedies be exhausted before a federal court may grant an application for habeas corpus. Pp. 446-450."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 2",
+      "page": 443,
+      "ref": "Case.105074.syllabus.2",
+      "text": "(a) It is not necessary in such circumstances that he pursue in. the state courts a collateral remedy based on the same evidence and issues. Pp. 447-450."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 3",
+      "page": 443,
+      "ref": "Case.105074.syllabus.3",
+      "text": "(b) Section 2254 is not to be construed as requiring repetitious applications to state courts for relief. P. 448, n. 3."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 4",
+      "page": 443,
+      "ref": "Case.105074.syllabus.4",
+      "text": "2. A denial of certiorari by this Court (with no statement of reasons therefor) to review a decision of a state supreme court affirming a conviction in a criminal prosecution should be given no weight by a federal court in passing upon the same petitioner's application for a writ'of habeas corpus. (Opinion of MR. JUsTICE FRANKFURTER, stating the position of a majority of the Court on this point.) Pp. 489-497."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 5",
+      "page": 443,
+      "ref": "Case.105074.syllabus.5",
+      "text": "3. On a state prisoner's application for habeas corpus on federal constitutional grounds, the federal district court may take into consideration the proceedings and adjudications in the state trial and appellate courts. Pp. 457-458.."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 6",
+      "page": 443,
+      "ref": "Case.105074.syllabus.6",
+      "text": "(a) Where the state decision was based on an adequate state ground, no further/examination is required, unless no state remedy for the deprivation of federal constitutional rights ever existed. P. 458.."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 7",
+      "page": 443,
+      "ref": "Case.105074.syllabus.7",
+      "text": "(b) Where there is material conflict of fact in the transcript of evidence as to deprivation of constitutional rights; the district court may properly depend upon the state's resolution of the issue. P. 458."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 8",
+      "page": 444,
+      "ref": "Case.105074.syllabus.8",
+      "text": "(c) In other circumstances, the state adjudication carries the weight that federal practice gives to the conclusion of a court of last resort of another jurisdiction' on federal constitutional issues, although res judicata is not applicable. P. 458."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 9",
+      "page": 444,
+      "ref": "Case.105074.syllabus.9",
+      "text": "4. Although in each of these cases the District Court erroneously gave consideration to this Court's prior denial of certiorari, it affirmatively appears from the record that the error could not have affected the result, and such error may be and is disregarded as harmless. Fed. Rules Crim. Proc., 52. Pp. 458--460."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 10",
+      "page": 444,
+      "ref": "Case.105074.syllabus.10",
+      "text": "5. On the application, of a state prisoner to a federal district court for habeas corpus, when the records of the state trial and appellate courts are before the district court, it is within the discretion of the district court whether to take evidence and hear argument on the federal constitutional issues; and the action of the district court in not taking evidence or hearing argument in the case here involved was not an abuse of that, discretion. Pp. 460-465."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 11",
+      "page": 444,
+      "ref": "Case.105074.syllabus.11",
+      "text": "6. In 28 U. S. C. §§ 2243 and 2244, the word \"entertain\" means a federal district court's conclusion, after examination of the habeas corpus application with such accompanying papers as the court deems necessary, that a hearing on the merits, legal or factual, is proper. Pp. 460-461."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 12",
+      "page": 444,
+      "ref": "Case.105074.syllabus.12",
+      "text": "7. In No. 32, petitioner, a Negro, was not denied due-process or equal protection in violation of the Fourteenth Amendment by the method of selecting grand and petit juries from lists limited by state statute to taxpayers, though the lists had a higher proportion of white than Negro citizens. Pp. 466-474."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 13",
+      "page": 444,
+      "ref": "Case.105074.syllabus.13",
+      "text": "8. In No. 32, petitioner was not denied due process by the admission in evidence against him of confessions not shown to have been coerced. Pp. 474-476."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 14",
+      "page": 444,
+      "ref": "Case.105074.syllabus.14",
+      "text": "9. In No. 22, petitioner, a Negro, did not show by clear evidence that, in the selection of jurors which was actually made in his case, there was discrimination based solely on race; and petitioner's conviction cannot be set aside on that ground as violative of the Equal Protection Clause of the Fourteenth Amendment. The comparatively small number of names of Negroes in the jury box was .insufficient in itself to establish such discrimination. Pp..477-482."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 15",
+      "page": 444,
+      "ref": "Case.105074.syllabus.15",
+      "text": "10. In No. 20, the State Supreme Court had refused review on the merits of petitioners' conviction and death sentence (challenged on federal constitutional grounds) because of petitioners' failure to perfect their appeal within the 60-day limit applicable under state law, the appeal not having been perfected until the 61st day. Held: A failure to use a state's available remedy, in the absence of some interference or incapacity, bars federal habeas corpus. Pp. 482-487."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Brown v. Allen, syllabus ¶ 16",
+      "page": 445,
+      "ref": "Case.105074.syllabus.16",
+      "text": "192 F. 2d 477, 763, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-344-443"
+  ],
+  "title": "Brown v. Allen",
+  "us_cite": "344 U.S. 443"
+}

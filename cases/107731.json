@@ -1,0 +1,83 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.4 (4 pages)",
+    "cited on 12 pages"
+  ],
+  "conan_citation": "Flast v. Cohen, 392 U.S. 83 (1968)",
+  "courtlistener_name": "Flast v. Cohen",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107731/flast-v-cohen/",
+  "date": "1968-06-10",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107731. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 392, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107731",
+  "loc_url": "https://www.loc.gov/item/usrep392083/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep392/usrep392083/usrep392083.pdf",
+  "ref_prefix": "Case.107731",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Flast v. Cohen, syllabus ¶ 1",
+      "page": 83,
+      "ref": "Case.107731.syllabus.1",
+      "text": "Appellant taxpayers allege that federal funds have been disbursed by appellee federal officials under the Elementary and Secondary Education Act of 1965' to finance instruction and the purchase of educational materials for use in religious and sectarian schools, in violation of the Establishment and Free Exercise Clauses of the First Amendment. Appellants sought a declaration that the expenditures were not authorized by the Act or, in the alternative, that the Act is to that extent unconstitutional, and requested the convening of a three-judge court. A three-judge court ruled, on the authority of Frothingham v. Mellon, 262 U. S. 447 (1923), that appellants lacked standing to maintain the action. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Flast v. Cohen, syllabus ¶ 2",
+      "page": 83,
+      "ref": "Case.107731.syllabus.2",
+      "text": "1. The three-judge court was properly convened, as the constitutional attack, even though focused on the program's operations in New York City, would if successful affect the entire regulatory scheme of the statute, and the complaint alleged a constitutional ground for relief, albeit one coupled with an alternative nonconstitutional ground. Pp. 88-91."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Flast v. Cohen, syllabus ¶ 3",
+      "page": 83,
+      "ref": "Case.107731.syllabus.3",
+      "text": "2. There is no absolute bar in Art.- III of the Constitution to suits by federal taxpayers challenging allegedly unconstitutional federal taxing and spending programs since the taxpayers may or may not have the requisite personal stake in the outcome. Pp. 91-101."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Flast v. Cohen, syllabus ¶ 4",
+      "page": 83,
+      "ref": "Case.107731.syllabus.4",
+      "text": "3. To maintain an action challenging the constitutionality of a federal spending program, individuals must demonstrate the necessary stake as taxpayers in the outcome of the litigation to satisfy Art. III requirements. Pp. 102-103."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Flast v. Cohen, syllabus ¶ 5",
+      "page": 83,
+      "ref": "Case.107731.syllabus.5",
+      "text": "(a) Taxpayers must establish a logical link between that status and the type of legislative enactment attacked, as it will not be sufficient to allege an incidental expenditure of tax funds in the administration of an essentially regulatory statute. P. 102."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Flast v. Cohen, syllabus ¶ 6",
+      "page": 83,
+      "ref": "Case.107731.syllabus.6",
+      "text": "(b) Taxpayers must also establish a nexus between that status and the precise nature of the constitutional infringement alleged. They must show that the statute exceeds specific constitutional limitations on the exercise of the taxing and spending power and not simply that the enactment is generally beyond the powers delegated to Congress by Art. I, § 8. Pp. 102-103."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Flast v. Cohen, syllabus ¶ 7",
+      "page": 84,
+      "ref": "Case.107731.syllabus.7",
+      "text": "4. The taxpayer-appellants here have standing consistent with Art. III to invoke federal judicial power since they have alleged that tax money is being spent in violation of a specific constitutional protection against the abuse of legislative power, i. e., the Establishment Clause of the First Amendment. Frothngham v. Mellon, supra, distinguished. Pp. 103-106."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Flast v. Cohen, syllabus ¶ 8",
+      "page": 84,
+      "ref": "Case.107731.syllabus.8",
+      "text": "271 F. Supp. 1, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-392-83"
+  ],
+  "title": "Flast v. Cohen",
+  "us_cite": "392 U.S. 83"
+}

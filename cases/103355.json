@@ -1,0 +1,96 @@
+{
+  "chosen_because": [
+    "cited on 18 pages"
+  ],
+  "conan_citation": "Cantwell v. Connecticut, 310 U.S. 296 (1940)",
+  "courtlistener_name": "Cantwell v. Connecticut",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/103355/cantwell-v-connecticut/",
+  "date": "1940-05-20",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 103355. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 310, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "103355",
+  "loc_url": "https://www.loc.gov/item/usrep310296/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep310/usrep310296/usrep310296.pdf",
+  "ref_prefix": "Case.103355",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Cantwell v. Connecticut, syllabus ¶ 1",
+      "page": 296,
+      "ref": "Case.103355.syllabus.1",
+      "text": "1. The fundamental concept of liberty embodied in the Fourteenth. Amendment embraces the liberties guaranteed by the First Amendment. P. 303."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cantwell v. Connecticut, syllabus ¶ 2",
+      "page": 296,
+      "ref": "Case.103355.syllabus.2",
+      "text": "2. The enactment by a State of any law respecting an establishment of religion or prohibiting the free exercise thereof is forbidden by' th6 Fourteenth Amendment. P. 303."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cantwell v. Connecticut, syllabus ¶ 3",
+      "page": 296,
+      "ref": "Case.103355.syllabus.3",
+      "text": "3. Under the constitutional guaranty, freedom of conscience and of religious belief is absolute; although freedom to act in the exercise of religion is subject to regulation for the protection of society. Such regulation, however, in attaining a permissible end; must not unduly infringe the proteeted freedom. Pp. 303-304."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cantwell v. Connecticut, syllabus ¶ 4",
+      "page": 296,
+      "ref": "Case.103355.syllabus.4",
+      "text": "4. A state statute which forbids any person to solicit money or valuables for any alleged religious cause, unless a certificate theiefor shall first have been procured from a designated official, who is required to determine whether such. cause is -A religious -one and who may withhold his approval if he determines that it is not, is a prdvious restraint upon the free exercise of religion and a deprivation of liberty without due process of law in violation of the Fourteenth Amendment.. P. 304."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cantwell v. Connecticut, syllabus ¶ 5",
+      "page": 296,
+      "ref": "Case.103355.syllabus.5",
+      "text": "So held as it was applied to persons engaged in distributing literature purporting to be religious, and soliciting contributions to be used for the publication of such literature."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cantwell v. Connecticut, syllabus ¶ 6",
+      "page": 296,
+      "ref": "Case.103355.syllabus.6",
+      "text": "A State constitutionally may -by general and non-discriminatory legislation regulate the time, place and manner of soliciting upon its streets, and of holding meetings thereon; and may in other respects safeguard the peace, good order and comfort of the cornmunity. The statute here, however, is not such a regulation. If a certificate is issued, solicitation is permitted without other restriction; but if a certificate is denied, solicitation is altogether prohibited."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cantwell v. Connecticut, syllabus ¶ 7",
+      "page": 297,
+      "ref": "Case.103355.syllabus.7",
+      "text": "5. The fact that arbitrary or capricious action by the licensing officer is subject to judicial review can not validate the statute. A previous restraint by judicial decision after trial is as obnoxious under the Constitution as restraint by administrative action. P. 306."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cantwell v. Connecticut, syllabus ¶ 8",
+      "page": 297,
+      "ref": "Case.103355.syllabus.8",
+      "text": "6. The common law offense of breach of the peace may be committed not only by acts of violence, but also by acts and words likely to produce violence in others. P. 308."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cantwell v. Connecticut, syllabus ¶ 9",
+      "page": 297,
+      "ref": "Case.103355.syllabus.9",
+      "text": "7. Defendant, while on a public street endeavoring to interest passersby in the purchase of .publications, or in making contributions, in the interest of what he believed to be true religion, induced individuals to listen to the playing 6f a phonograph record describing the publications. The record contained a verbal attack upon the religious denomindtion of which the listeners were members, provoking their indignation and a desire on their part to strike the defendant, who thereupon picked up his books and phonograph and went on his way. There was no showing that defendant's deportment was noisy, truculent, overbearing or offensive; nor was it claimed that he intended to insult or affront the listeners by.playing the record; nor was it shown that the sound of the phonograph disturbed persons living nearby, drew a crowd, or impeded traffic. Held, that defendant's conviction of the common law offense of breach of the peace was violative of constitutional guarantees of religious liberty and freedom of speech. Pp. 307 et seq."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cantwell v. Connecticut, syllabus ¶ 10",
+      "page": 297,
+      "ref": "Case.103355.syllabus.10",
+      "text": "126 Conn. 1; 8 A. 2d 533, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-310-296"
+  ],
+  "title": "Cantwell v. Connecticut",
+  "us_cite": "310 U.S. 296"
+}

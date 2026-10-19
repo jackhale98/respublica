@@ -1,0 +1,48 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 6 pages"
+  ],
+  "conan_citation": "Walton v. Arizona, 497 U.S. 639 (1990)",
+  "courtlistener_date": "1990-08-30",
+  "courtlistener_name": "Walton v. Arizona",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112485/walton-v-arizona/",
+  "date": "1990-06-27",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112485. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 497, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112485",
+  "loc_url": "https://www.loc.gov/item/usrep497639/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep497/usrep497639/usrep497639.pdf",
+  "ref_prefix": "Case.112485",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Walton v. Arizona, syllabus ¶ 1",
+      "page": 639,
+      "ref": "Case.112485.syllabus.1",
+      "text": "Petitioner Walton was found guilty in an Arizona court of first-degree murder and was sentenced in a separate sentencing hearing before the judge, as required by state law. Under that law, the judge, inter alia, determines the existence of aggravating and mitigating circumstances and \"shall impose\" a death sentence if he finds one or more of several enumerated aggravating circumstances and that there are no mitigating circumstances sufficiently substantial to call for leniency. The burden is on the prosecution to establish the existence of aggravating circumstances and on the defendant to establish mitigating ones. The judge sentenced Walton to death, after finding the presence of two aggravating circumstances -that the murder was committed \"in an especially heinous, cruel or depraved manner,\" and that it was committed for pecuniary gain-and that, considering all of the mitigating factors urged by Walton, the mitigating circumstances did not call for leniency. The State Supreme Court upheld the sentence. In an independent review, the court concluded that the evidence was sufficient to prove the existence of both aggravating factors. As to the first factor, the court noted that it had previously defined \"especially cruel\" to mean that the victim had suffered mental anguish before his death and had defined \"especially depraved\" to mean that the perpetrator had relished the murder, evidencing debasement or perversion. The court also agreed that there were no mitigating factors sufficient to call for leniency and determined that the sentence was proportional to sentences imposed in similar cases."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Walton v. Arizona, syllabus ¶ 2",
+      "page": 639,
+      "ref": "Case.112485.syllabus.2",
+      "text": "Held: The judgment is affirmed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Walton v. Arizona, syllabus ¶ 3",
+      "page": 639,
+      "ref": "Case.112485.syllabus.3",
+      "text": "159 Ariz. 571, 769 P. 2d 1017, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-497-639"
+  ],
+  "title": "Walton v. Arizona",
+  "us_cite": "497 U.S. 639"
+}

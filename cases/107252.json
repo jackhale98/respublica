@@ -1,0 +1,111 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt5.4 (10 pages)",
+    "cited on 13 pages"
+  ],
+  "conan_citation": "Miranda v. Arizona, 384 U.S. 436 (1966)",
+  "courtlistener_name": "Miranda v. Arizona",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107252/miranda-v-arizona/",
+  "date": "1966-06-13",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107252. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 384, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107252",
+  "loc_url": "https://www.loc.gov/item/usrep384436/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep384/usrep384436/usrep384436.pdf",
+  "ref_prefix": "Case.107252",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 1",
+      "page": 436,
+      "ref": "Case.107252.syllabus.1",
+      "text": "In each of these cases the defendant while in police custody was questioned by police officers, detectives, or'a prosecuting attorney in a room in which he was cut off from* the outside world. None of the defendants was given a'full and effective warning ot his rights at the outset of the interrogation process. In all four cases the. questioning elicited oral admissions, and in three of them signed statements as 'well, which were admitted at their trials. All defendants were convicted and all convictions, except in No. 584, were affirmed on appeal. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 2",
+      "page": 436,
+      "ref": "Case.107252.syllabus.2",
+      "text": "1. The prosecution may not use statements, whether exculpatory or inculpatory, stemming from questioning initiated by law enforcement officers after' a person has been taken into custody or otherwise deprived of his freedom of action in any ignificant way, unless it demonstrates the use of procedural safeguards effective to secure the Fifth Amendment's jrivilege against, self-incrimination. Pp. 444-491."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 3",
+      "page": 436,
+      "ref": "Case.107252.syllabus.3",
+      "text": "(a) The atmosphere and environment of incommunicado interrogation as it exists today -is inherently intimidating and works to undermine the privilege against self-incrimination. Unless adequate preventive measures are taken to dispel the compulsion inherent in custodial surroundings,, no statement obtained from the defendant can truly' be the product of his free choice. Pp.445-458."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 4",
+      "page": 436,
+      "ref": "Case.107252.syllabus.4",
+      "text": "(b) The privilege against self-incrimination, which has had a long and expansive historical development, is the essential mainstay of our adversary system and guarantees to the individual the 'right fo remain silent unless he chooses to speak in the unfettered exercise of his own will,\"' during a period of custodial interrogation 'as well as in the courts .or during the course of other official investigations. Pp. 458-465."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 5",
+      "page": 437,
+      "ref": "Case.107252.syllabus.5",
+      "text": "(c) The decision in Escobedo v.' Illinois, 378 U. S. 478, stressed the need for protective devices to make the process of police interrogation conform to the dictates of the privilege. Pp. 465-466."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 6",
+      "page": 437,
+      "ref": "Case.107252.syllabus.6",
+      "text": "(d) In the absence of other effective measures the following procedures to safeguard the Fifth Amendment privilege must be observed: The person in custody must, prior to interrogation, be clearly informed that he has the right to remain silent, and that anything he says will be used against him in court; he must be clearly informed that he has the right to consult with a lawyer and to have the lawyer with him during interrogation, and that, if he is indigent, a lawyer will be appointed to represent him. Pp. 467-473."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 7",
+      "page": 437,
+      "ref": "Case.107252.syllabus.7",
+      "text": "(e) If the individual indicates, prior to or during questioning, that he wishes to remain silent, the interrogation must cease; if he states that he wants an attorney, the questioning must cease until an attorney is present. Pp. 473-474."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 8",
+      "page": 437,
+      "ref": "Case.107252.syllabus.8",
+      "text": "(f) Where an interrogation is conducted without the presence of an ahtorney and a statement is taken, a heavy burden'rests on the Government to demonstrate that the defendant knowingly and intelligently waived his right to counsel. P. 475."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 9",
+      "page": 437,
+      "ref": "Case.107252.syllabus.9",
+      "text": "(g) Where the hidividual answers some questions during incustody interrogation he has not waived his privilege and may invoke his right to remain silent thereafter. Pp. 475-476."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 10",
+      "page": 437,
+      "ref": "Case.107252.syllabus.10",
+      "text": "(h) The warnings required and the waiver needed are,.in the absence of- a fully effective equivalent, prerequisites to the admissibility of any statement, inculpatory or exculpatory, made by a defendant. Pp. 476-477.."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 11",
+      "page": 437,
+      "ref": "Case.107252.syllabus.11",
+      "text": "2. The limitations on the interrogation process required for the protection of the individual's constitutional rights should not cause an undue interference with a proper system of law enforcement, as demonstrated by the procedures of the FBI and the safeguards afforded in other jurisdictions. Pp. 479-491."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Miranda v. Arizona, syllabus ¶ 12",
+      "page": 437,
+      "ref": "Case.107252.syllabus.12",
+      "text": "3. In each of these cases the statements were obtained under circumstances that did not meet constitutional standards for protection of the privilege against self-incrimination. Pp. 491-499. 98 Ariz. 18, 401 P. 2d 721; 15 N. Y. 2d 970, 207 N. E. 2d 527; 16 N. Y. 2d 614, 209 N. E. 2d 110; 342 F. 2d 684, reversed; 62 Cal. 2d .571, 400 P. 2d 97, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-384-436"
+  ],
+  "title": "Miranda v. Arizona",
+  "us_cite": "384 U.S. 436"
+}

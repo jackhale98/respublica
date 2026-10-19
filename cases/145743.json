@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "overruled by Johnson v. United States (table of overruled decisions)"
+  ],
+  "conan_citation": "James v. United States, 550 U.S. 192 (2007)",
+  "courtlistener_name": "James v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/145743/james-v-united-states/",
+  "date": "2007-04-18",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 145743. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 550, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "145743",
+  "loc_url": "https://www.loc.gov/item/usrep550192/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep550/usrep550192/usrep550192.pdf",
+  "ref_prefix": "Case.145743",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-550-192"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 194 a paragraph seems to stop mid-sentence.",
+  "title": "James v. United States",
+  "us_cite": "550 U.S. 192"
+}

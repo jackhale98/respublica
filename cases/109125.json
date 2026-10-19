@@ -1,0 +1,40 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt14.2 (5 pages)"
+  ],
+  "conan_citation": "Jackson v. Metropolitan Edison Co., 419 U.S. 345 (1974)",
+  "courtlistener_name": "Jackson v. Metropolitan Edison Co.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109125/jackson-v-metropolitan-edison-co/",
+  "date": "1974-12-23",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109125. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 419, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109125",
+  "loc_url": "https://www.loc.gov/item/usrep419345/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep419/usrep419345/usrep419345.pdf",
+  "ref_prefix": "Case.109125",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Metropolitan Edison Co., syllabus ¶ 1",
+      "page": 345,
+      "ref": "Case.109125.syllabus.1",
+      "text": "Petitioner brought suit against respondent, a privately owned and operated utility corporation which holds a certificate of public convenience issued by the Pennsylvania Utility Commission, seeking damages and injunctive relief under 42 U. S. C. § 1983 for termination of her electric service allegedly before she had been afforded notice, a hearing, and an opportunity to pay any amounts found due. Petitioner claimed that under state law she was entitled to reasonably continuous electric service and that respondent's termination for alleged nonpayment, permitted by a provision of its general tariff filed with the Commission, was state action depriving petitioner of her property without due process of law and giving rise to a cause of action under § 1983. The Court of Appeals affirmed the District Court's dismissal of petitioner's complaint. Held: Pennsylvania is not sufficiently connected with the challenged termination to make respondents conduct attributable to the State for purposes of the Fourteenth Amendment, petitioner having shown no more than that respondent was a heavily regulated private utility with a partial monopoly and that it elected to terminate service in a manner that the Commission found permissible under state law. Cf. Moose Lodge No. 107 v. Irvis, 407 U. S. 163. Public Utilities Comm'n v. Pollak, 343 U. S. 451; Burton v. Wilmington Parking Authority, 365 U. S. 715, distinguished. Pp. 349-359."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Metropolitan Edison Co., syllabus ¶ 2",
+      "page": 345,
+      "ref": "Case.109125.syllabus.2",
+      "text": "483 F. 2d 754, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-419-345"
+  ],
+  "title": "Jackson v. Metropolitan Edison Co.",
+  "us_cite": "419 U.S. 345"
+}

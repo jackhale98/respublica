@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "overruled by Graves v. New York ex rel. O’Keefe (table of overruled decisions)",
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Collector v. Day, 78 U.S. (11 Wall.) 113 (1871)",
+  "courtlistener_name": "Collector v. Day",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/88308/collector-v-day/",
+  "date": "1871-04-18",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 88308. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 78, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "88308",
+  "loc_url": "https://www.loc.gov/item/usrep078113/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep078/usrep078113/usrep078113.pdf",
+  "ref_prefix": "Case.88308",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-78-113"
+  ],
+  "syllabus_note": "Volume 78 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Collector v. Day",
+  "us_cite": "78 U.S. 113"
+}

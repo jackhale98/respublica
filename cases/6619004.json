@@ -1,0 +1,25 @@
+{
+  "chosen_because": [
+    "cited on 22 pages"
+  ],
+  "conan_citation": "Kennedy v. Bremerton School District, No. 21-418 (U.S. June 27, 2022)",
+  "courtlistener_match": "CourtListener gives 2 clusters for No. 21-418; this one matches the case's name and year and is the most cited (the others: 6623460).",
+  "courtlistener_name": "Kennedy v. Bremerton School Dist.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/6619004/kennedy-v-bremerton-school-dist/",
+  "date": "2022-06-27",
+  "date_source": "courtlistener",
+  "docket": "21-418",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 6619004. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+  },
+  "id": "6619004",
+  "ref_prefix": "Case.6619004",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-scotus-21-418"
+  ],
+  "syllabus_note": "The Library of Congress has no scan of this decision on its own (summary decisions are printed in lists, and the latest volumes are not yet scanned).",
+  "title": "Kennedy v. Bremerton School District",
+  "us_cite": "597 U.S. 507"
+}

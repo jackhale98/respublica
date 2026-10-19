@@ -1,0 +1,68 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S6.C1.3 (7 pages)"
+  ],
+  "conan_citation": "Gravel v. United States, 408 U.S. 606 (1972)",
+  "courtlistener_name": "Gravel v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/108610/gravel-v-united-states/",
+  "date": "1972-06-29",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 108610. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 408, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "108610",
+  "loc_url": "https://www.loc.gov/item/usrep408606/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep408/usrep408606/usrep408606.pdf",
+  "ref_prefix": "Case.108610",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Gravel v. United States, syllabus ¶ 1",
+      "page": 606,
+      "ref": "Case.108610.syllabus.1",
+      "text": "A United States Senator read to a subcommittee from classified documents (the Pentagon Papers), which he then placed in the public record. The press reported that the Senator had arranged for private publication of the Papers. A grand jury investigating whether violations of federal law were implicated subpoenaed an aide to the Senator. The Senator, as an intervenor, moved to quash the subpoena, contending that it would violate the Speech or Debate Clause to compel the aide to testify. The District Court denied the motion but limited the questioning of the aide. The Court of Appeals affirmed the denial but modified the protective order, ruling that congressional aides and other persons may not be questioned regarding legislative acts and that, though the private publication was not constitutionally protected, a common-law privilege similar to the privilege of protecting executive officials from liability for libel, see Barr v. Matteo, 360 U. S. 564, barred questioning the aide concerning such publication. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gravel v. United States, syllabus ¶ 2",
+      "page": 606,
+      "ref": "Case.108610.syllabus.2",
+      "text": "1. The Speech or Debate Clause applies not only to a Member of Congress but also to his aide, insofar as the aide's conduct would be a protected legislative act if performed by the Member himself. Kilbourn v. Thompson, 103 U. S. 168; Dombrowski v. Eastland, 387 U. S. 82; and Powell v. McCormack, 395 U. S. 486, distinguished. Pp. 613-622."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gravel v. United States, syllabus ¶ 3",
+      "page": 606,
+      "ref": "Case.108610.syllabus.3",
+      "text": "2. The Speech or Debate Clause does not extend immunity to the Senator's aide from testifying before the grand jury about the alleged arrangement for private publication of the Pentagon Papers, as such publication had no connection with the legislative process. Pp. 622-627."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gravel v. United States, syllabus ¶ 4",
+      "page": 606,
+      "ref": "Case.108610.syllabus.4",
+      "text": "3. The aide, similarly, had no nonconstitutional testimonial privilege from being questioned by the grand jury in connection with its inquiry into whether private publication of the Papers violated federal law. P. 627."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gravel v. United States, syllabus ¶ 5",
+      "page": 607,
+      "ref": "Case.108610.syllabus.5",
+      "text": "4. The Court of Appeals' protective order was overly broad in enjoining interrogation of the aide with respect to any act, \"in the broadest sense,\" 'that he performed within the scope of his employment, since the aide's immunity extended only to legislative acts as to which the Senator would be immune. And the aide may be questioned by the grand jury about the source of classified documents in the Senator's possession, as long as the questioning implicates no legislative act. The order in other respects would suffice if it forbade questioning the aide or others about the conduct or motives of the Senator or his aides at the subcommittee meeting; communications between the Senator and his aides relating to that meeting or any legislative act of the Senator; or steps of the Senator or his aides preparatory for the meeting, if not relevant to third-party crimes. Pp. 627-629."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gravel v. United States, syllabus ¶ 6",
+      "page": 607,
+      "ref": "Case.108610.syllabus.6",
+      "text": "455 F. 2d 753, vacated and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-408-606"
+  ],
+  "title": "Gravel v. United States",
+  "us_cite": "408 U.S. 606"
+}

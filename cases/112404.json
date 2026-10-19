@@ -1,0 +1,62 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt1.4 (8 pages)",
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Employment Division v. Smith, 494 U.S. 872 (1990)",
+  "courtlistener_name": "Employment Div., Dept. of Human Resources of Ore. v. Smith",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112404/employment-div-dept-of-human-resources-of-ore-v-smith/",
+  "date": "1990-04-17",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112404. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 494, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112404",
+  "loc_url": "https://www.loc.gov/item/usrep494872/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep494/usrep494872/usrep494872.pdf",
+  "ref_prefix": "Case.112404",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Employment Division v. Smith, syllabus ¶ 1",
+      "page": 872,
+      "ref": "Case.112404.syllabus.1",
+      "text": "Respondents Smith and Black were fired by a private drug rehabilitation organization because they ingested peyote, a hallucinogenic drug, for sacramental purposes at a ceremony of their Native American Church. Their applications for unemployment compensation were denied by the State of Oregon under a state law disqualifying employees discharged for work-related \"misconduct.\" Holding that the denials violated respondents' First Amendment free exercise rights, the State Court of Appeals reversed. The State Supreme Court affirmed, but this Court vacated the judgment and remanded for a determination whether sacramental peyote use is proscribed by the State's controlled substance law, which makes it a felony to knowingly or intentionally possess the drug. Pending that determination, the Court refused to decide whether such use is protected by the Constitution. On remand, the State Supreme Court held that sacramental peyote use violated, and was not excepted from, the state-law prohibition, but concluded that that prohibition was invalid under the Free Exercise Clause."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Employment Division v. Smith, syllabus ¶ 2",
+      "page": 872,
+      "ref": "Case.112404.syllabus.2",
+      "text": "Held: The Free Exercise Clause permits the State to prohibit sacramental peyote use and thus to deny unemployment benefits to persons discharged for such use. Pp. 876-890."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Employment Division v. Smith, syllabus ¶ 3",
+      "page": 872,
+      "ref": "Case.112404.syllabus.3",
+      "text": "(a) Although a State would be \"prohibiting the free exercise [of religion]\" in violation of the Clause if it sought to ban the performance of (or abstention from) physical acts solely because of their religious motivation, the Clause does not relieve an individual of the obligation to comply with a law that incidentally forbids (or requires) the performance of an act that his religious belief requires (or forbids) if the law is not specifically directed to religious practice and is otherwise constitutional as applied to those who engage in the specified act for nonreligious reasons. See, e. g., Reynolds v. United States, 98 U. S. 145, 166-167. The only decisions in which this Court has held that the First Amendment bars application of a neutral, generally applicable law to religiously motivated action are distinguished on the ground that they involved not the Free Exercise Clause alone, but that Clause in conjunction with other constitutional protections. See, e. g., Cantwell v. Connecticut, 310 U. S. 296, 304-307; Wisconsin v. Yoder, 406 U. S. 205. Pp. 876-882."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Employment Division v. Smith, syllabus ¶ 4",
+      "page": 873,
+      "ref": "Case.112404.syllabus.4",
+      "text": "(b) Respondents' claim for a religious exemption from the Oregon law cannot be evaluated under the balancing test set forth in the line of cases following Sherbert v. Verner, 374 U. S. 398, 402-403, whereby governmental actions that substantially burden a religious practice must be justified by a \"compelling governmental interest.\" That test was developed in a context -unemployment compensation eligibility rules-that lent itself to individualized governmental assessment of the reasons for the relevant conduct. The test is inapplicable to an across-the-board criminal prohibition on a particular form of conduct. A holding to the contrary would create an extraordinary right to ignore generally applicable laws that are not supported by \"compelling governmental interest\" on the basis of religious belief. Nor could such a right be limited tp situations in which the conduct prohibited is \"central\" to the individual's religion, since that would enmesh judges in an impermissible inquiry into the centrality of particular beliefs or practices to a faith. Cf. Hernandez v. Commissioner, 490 U. S. 680, 699. Thus, although it is constitutionally permissible to exempt sacramental peyote use from the operation of drug laws, it is not constitutionally required. Pp. 882-890."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Employment Division v. Smith, syllabus ¶ 5",
+      "page": 873,
+      "ref": "Case.112404.syllabus.5",
+      "text": "307 Ore. 68, 763 P. 2d 146, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-494-872"
+  ],
+  "title": "Employment Division v. Smith",
+  "us_cite": "494 U.S. 872"
+}

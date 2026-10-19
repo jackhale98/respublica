@@ -1,0 +1,54 @@
+{
+  "chosen_because": [
+    "cited on 12 pages"
+  ],
+  "conan_citation": "Schlesinger v. Reservists Committee to Stop the War, 418 U.S. 208 (1974)",
+  "courtlistener_name": "Schlesinger v. Reservists Committee to Stop the War",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109087/schlesinger-v-reservists-committee-to-stop-the-war/",
+  "date": "1974-06-25",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109087. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 418, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109087",
+  "loc_url": "https://www.loc.gov/item/usrep418208/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep418/usrep418208/usrep418208.pdf",
+  "ref_prefix": "Case.109087",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Schlesinger v. Reservists Committee to Stop the War, syllabus ¶ 1",
+      "page": 208,
+      "ref": "Case.109087.syllabus.1",
+      "text": "Respondents-an association of present and former members of the Armed Forces Reserve opposing United States involvement in Vietnam, and five association members who were United States citizens and taxpayers-brought a class action on behalf, inter alia, of all United States citizens and taxpayers against petitioners, the Secretary of Defense and the three Service Secretaries, challenging the Reserve membership of Members of Congress as violating the Incompatibility Clause of Art. I, § 6, c. 2, of the Constitution, which provides that \"no Person holding any Office under the United States, shall be a Member of either House during his Continuance in Office.\" The District Court held that respondents had standing to sue as citizens but not as taxpayers, and on the merits granted partial relief. The Court of Appeals affirmed. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Schlesinger v. Reservists Committee to Stop the War, syllabus ¶ 2",
+      "page": 208,
+      "ref": "Case.109087.syllabus.2",
+      "text": "1. Respondents had no standing to sue as citizens, since the claimed nonobservance of the Incompatibility Clause which they assert deprives citizens of the faithful discharge of the legislative duties of reservist Members of Congress implicates only the generalized interest of all citizens in constitutional governance and is thus merely an abstract injury rather than the concrete injury that is essential to satisfy Art. III's \"case or controversy\" requirement. Pp. 216-227."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Schlesinger v. Reservists Committee to Stop the War, syllabus ¶ 3",
+      "page": 208,
+      "ref": "Case.109087.syllabus.3",
+      "text": "2. Respondents also lacked standing to sue as taxpayers, since they failed to establish the required \"logical nexus between the [taxpayer] status asserted and the claim sought to be adjudicated.\" Flast v. Cohen, 392 U. S. 83, 102. Pp. 227-228."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Schlesinger v. Reservists Committee to Stop the War, syllabus ¶ 4",
+      "page": 208,
+      "ref": "Case.109087.syllabus.4",
+      "text": "162 U. S. App. D. C. 19, 495 F. 2d 1075, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-418-208"
+  ],
+  "title": "Schlesinger v. Reservists Committee to Stop the War",
+  "us_cite": "418 U.S. 208"
+}

@@ -1,0 +1,90 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Abood v. Detroit Board of Education, 431 U.S. 209 (1977)",
+  "courtlistener_date": "1977-06-27",
+  "courtlistener_name": "Abood v. Detroit Board of Education",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109661/abood-v-detroit-board-of-education/",
+  "date": "1977-05-23",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109661. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 431, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109661",
+  "loc_url": "https://www.loc.gov/item/usrep431209/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep431/usrep431209/usrep431209.pdf",
+  "ref_prefix": "Case.109661",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Abood v. Detroit Board of Education, syllabus ¶ 1",
+      "page": 209,
+      "ref": "Case.109661.syllabus.1",
+      "text": "A Michigan statute authorizing union representation of local governmental employees permits an \"agency shop\" arrangement, whereby every employee represented by a union, even though not a union member, must pay to the union, as a condition of employment, a service charge equal in amount to union dues. Appellant teachers filed actions (later consolidated) m Michigan state court against appellee Detroit Board of Education and appellee Union (which represented teachers employed by the Board) and Union officials, challenging the validity of the agencyshop clause m a collective-bargaining agreement between the Board and the Union. The complaints alleged that appellants were unwilling or had refused to pay Union dues, that they opposed collective bargaining in the public sector, that the Union was engaged in various political and other ideological activities that appellants did not approve and that were not collective-bargaining activities, and prayed that the agency-shop clause be declared invalid under state law and under the United States Constitution as a deprivation of appellants' freedom of association protected by the First and Fourteenth Amendments. The trial court dismissed the actions for failure to state a claim upon which relief could be granted. The Michigan Court of Appeals, while reversing and remanding on other grounds, upheld the constitutionality of the agencyshop clause, and, although recognizing that the expenditure of compulsory service charges to further \"political purposes\" unrelated to collective bargaining could violate appellants' First and Fourteenth Amendment rights, held that since the complaints had failed to allege that appellants had notified the Union as to those causes and candidates to which they objected, appellants were not entitled to restitution of any portion of the service charges. Held."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Abood v. Detroit Board of Education, syllabus ¶ 2",
+      "page": 209,
+      "ref": "Case.109661.syllabus.2",
+      "text": "1. Insofar as the service charges are used to finance expenditures by the Union for collective-bargaining, contract-administration, and grievance-adjustment purposes, the agency-shop clause is valid. Railway Employes' Dept. v Hanson, 351 U. S. 225, Machinists v Street, 367 U. S. 740. Pp. 217-232."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Abood v. Detroit Board of Education, syllabus ¶ 3",
+      "page": 209,
+      "ref": "Case.109661.syllabus.3",
+      "text": "(a) That government employment is involved, rather than private employment, does not mean that Hanson, supra, and Street, supra, can be distinguished by relying in this case upon the doctrine that public employment cannot be conditioned upon the surrender of First Amendment rights, for the railroad employees' claim in Hanson that a union-shop agreement was invalid failed not because there was no governmental action but because there was no First Amendment violation. Pp. 226-227"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Abood v. Detroit Board of Education, syllabus ¶ 4",
+      "page": 210,
+      "ref": "Case.109661.syllabus.4",
+      "text": "(b) Although public employee unions' activities are political to the extent they attempt to influence governmental policymakmg, the differences in the nature of collective bargaining between the public and private sectors do not mean that a public employee has a weightier First Amendment interest than a private employee m not being conpelled to contribute to the costs of exclusive union representation. A public employee who believes that a union representing him is urging a course that is unwise as a matter of public policy is not barred from expressing his viewpoint., but, besides voting in accordance with his convictions, every public employee is largely free to express his views, in public or private, orally or in writing, and, with some exceptions not pertinent here, is free to participate in the full range of political and ideological activities open to other citizens. Pp. 227-232."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Abood v. Detroit Board of Education, syllabus ¶ 5",
+      "page": 210,
+      "ref": "Case.109661.syllabus.5",
+      "text": "2. The principles that under the First Amendment an individual should be free to believe as he will and that m a free society one's beliefs should be shaped by his mind and his conscience rather than coerced by the State, prohibit appellees from requiring any of the appellants to contribute to the support of an ideological cause he may oppose as a condition of holding a job as a public school teacher. Pp. 232-237"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Abood v. Detroit Board of Education, syllabus ¶ 6",
+      "page": 210,
+      "ref": "Case.109661.syllabus.6",
+      "text": "(a) That appellants are compelled to make, rather than prohibited from making, contributions for political purposes works no less an infringement of their constitutional rights. P 234."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Abood v. Detroit Board of Education, syllabus ¶ 7",
+      "page": 210,
+      "ref": "Case.109661.syllabus.7",
+      "text": "(b) The Constitution requires that a union's expenditures for ideological causes not germane to its duties as a collective-bargaining representative be financed from charges, dues, or assessments paid by employees who do not object to advancing such causes and who are not coerced into doing so against their will by the threat of loss of governmental employment. Pp. 234-235."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Abood v. Detroit Board of Education, syllabus ¶ 8",
+      "page": 210,
+      "ref": "Case.109661.syllabus.8",
+      "text": "3. The Michigan Court of Appeals erred in holding that appellants were entitled to no relief even if they can prove their allegations and in depriving them of their right to such remedies as enjoining the Union from expending the service charges for ideological causes opposed by appellants, or ordering a refund of a portion of -such charges, m the proportion such expenditures bear to the total Union expenditures. Hanson, supra, Railway Clerks v Allen, 373 U S. 113. In view, however, of the fact that since the commencement of this litigation appellee Union has adopted an internal Union remedy for dissenters, it may be appropriate to defer further judicial proceedings pending the voluntary utilization by the parties of that internal remedy as a possible means of settling the dispute. Pp. 237-242."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Abood v. Detroit Board of Education, syllabus ¶ 9",
+      "page": 211,
+      "ref": "Case.109661.syllabus.9",
+      "text": "60 Mich. App. 92,230 N. W 2d 322, vacated and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-431-209"
+  ],
+  "title": "Abood v. Detroit Board of Education",
+  "us_cite": "431 U.S. 209"
+}

@@ -1,0 +1,89 @@
+{
+  "chosen_because": [
+    "cited on 12 pages"
+  ],
+  "conan_citation": "Bowsher v. Synar, 478 U.S. 714 (1986)",
+  "courtlistener_name": "Bowsher v. Synar",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/111756/bowsher-v-synar/",
+  "date": "1986-07-07",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 111756. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 478, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "111756",
+  "loc_url": "https://www.loc.gov/item/usrep478714/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep478/usrep478714/usrep478714.pdf",
+  "ref_prefix": "Case.111756",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Bowsher v. Synar, syllabus ¶ 1",
+      "page": 714,
+      "ref": "Case.111756.syllabus.1",
+      "text": "In order to eliminate the federal budget deficit, Congress enacted the Balanced Budget and Emergency Deficit Control Act of 1985 (Act), popularly known as the \"Gramm-Rudman-Hollings Act,\" which sets a maximum deficit amount for federal spending for each of the fiscal years 1986 through 1991 (progressively reducing the deficit amount to zero in 1991). If in any fiscal year the budget deficit exceeds the prescribed maximum by more than a specified sum, the Act requires basically across-theboard cuts in federal spending to reach the targeted deficit level. These reductions are accomplished under the \"reporting provisions\" spelled out in § 251 of the Act, which requires the Directors of the Office of Management and Budget (OMB) and the Congressional Budget Office (CBO) to submit their deficit estimates and program-by-program budget reduction calculations to the Comptroller General who, after reviewing the Directors' joint report, then reports his conclusions to the President. The President in turn must issue a \"sequestration\" order mandating the spending reductions specified by the Comptroller General, and the sequestration order becomes effective unless, within a specified time, Congress legislates reductions to obviate the need for the sequestration order. The Act also contains in § 274(f) a \"fallback\" deficit reduction process (eliminating the Comptroller General's participation) to take effect if § 251's reporting provisions are invalidated. In consolidated actions in the Federal District Court, individual Congressmen and the National Treasury Employees Union (Union) (who, along with one of the Union's members, are appellees here) challenged the Act's constitutionality. The court held, inter alia, that the Comptroller General's role in exercising executive functions under the Act's deficit reduction process violated the constitutionally imposed doctrine of separation of powers because the Comptroller General is removable only by a congressional joint resolution or by impeachment, and Congress may not retain the power of removal over an officer performing executive powers."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowsher v. Synar, syllabus ¶ 2",
+      "page": 715,
+      "ref": "Case.111756.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowsher v. Synar, syllabus ¶ 3",
+      "page": 715,
+      "ref": "Case.111756.syllabus.3",
+      "text": "1. The fact that members of the Union, one of whom is an appellee here, will sustain injury because the Act suspends certain scheduled cost-of-living benefit increases to the members, is sufficient to create standing under a provision of the Act and Article III to challenge the Act's constitutionality. Therefore, the standing issue as to the Union itself or Members of Congress need not be considered. P. 721."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowsher v. Synar, syllabus ¶ 4",
+      "page": 715,
+      "ref": "Case.111756.syllabus.4",
+      "text": "2. The powers vested in the Comptroller General under § 251 violate the Constitution's command that Congress play no direct role in the execution of the laws. Pp. 721-734."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowsher v. Synar, syllabus ¶ 5",
+      "page": 715,
+      "ref": "Case.111756.syllabus.5",
+      "text": "(a) Under the constitutional principle of separation of powers, Congress cannot reserve for itself the power of removal of an officer charged with the execution of the laws except by impeachment. To permit the execution of the laws to be vested in an officer answerable only to Congress would, in practical terms, reserve in Congress control of the execution of the laws. The structure of the Constitution does not permit Congress to execute the laws; it follows that Congress cannot grant to an officer under its control what it does not possess. Cf. INS v. Chadha, 462 U. S. 919. Pp. 721-727."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowsher v. Synar, syllabus ¶ 6",
+      "page": 715,
+      "ref": "Case.111756.syllabus.6",
+      "text": "(b) There is no merit to the contention that the Comptroller General performs his duties independently and is not subservient to Congress. Although nominated by the President and confirmed by the Senate, the Comptroller General is removable only at the initiative of Congress. Under controlling statutes, he may be removed not only by impeachment but also by joint resolution of Congress \"at any time\" for specified causes, including \"inefficiency,\" \"neglect of duty,\" and \"malfeasance.\" The quoted terms, as interpreted by Congress, could sustain removal of a Comptroller General for any number of actual or perceived transgressions of the legislative will. Moreover, the political realities do not reveal that the Comptroller General is free from Congress' influence. He heads the General Accounting Office, which under pertinent statutes is \"an instrumentality of the United States Government independent of the executive departments,\" and Congress has consistently viewed the Comptroller General as an officer of the Legislative Branch. Over the years, the Comptrollers General have also viewed themselves as part of the Legislative Branch. Thus, because Congress has retained removal authority over the Comptroller General, he may not be entrusted with executive powers. Pp. 727-732."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowsher v. Synar, syllabus ¶ 7",
+      "page": 715,
+      "ref": "Case.111756.syllabus.7",
+      "text": "(c) Under § 251 of the Act, the Comptroller General has been improperly assigned executive powers. Although he is to have \"due regard\" for the estimates and reductions contained in the joint report of the Directors of the CBO and the OMB, the Act clearly contemplates that in preparing his report the Comptroller General will exercise his independent judgment and evaluation with respect to those estimates and will make decisions of the kind that are made by officers charged with executing a statute. The Act's provisions give him, not the President, the ultimate authority in determining what budget cuts are to be made. By placing the responsibility for execution of the Act in the hands of an officer who is subject to removal only by itself, Congress in effect has retained control over the Act's execution and has unconstitutionally intruded into the executive function. Pp. 732-734."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowsher v. Synar, syllabus ¶ 8",
+      "page": 716,
+      "ref": "Case.111756.syllabus.8",
+      "text": "3. It is not necessary to consider whether the appropriate remedy is to nullify the 1921 statutory provisions that authorize Congress to remove the Comptroller General, rather than to invalidate § 251 of the Act. In § 274(f), Congress has explicitly provided \"fallback\" provisions that take effect if any of the reporting procedures described in § 251 are invalidated. Assuming that the question of the appropriate remedy must be resolved on the basis of congressional intent, the intent appears to have been for § 274(f) to be given effect as written. Pp. 734-736."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowsher v. Synar, syllabus ¶ 9",
+      "page": 716,
+      "ref": "Case.111756.syllabus.9",
+      "text": "626 F. Supp. 1374, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-478-714"
+  ],
+  "title": "Bowsher v. Synar",
+  "us_cite": "478 U.S. 714"
+}

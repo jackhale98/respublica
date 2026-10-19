@@ -1,0 +1,166 @@
+{
+  "chosen_because": [
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Johnson v. Eisentrager, 339 U.S. 763 (1950)",
+  "courtlistener_name": "Johnson v. Eisentrager",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104813/johnson-v-eisentrager/",
+  "date": "1950-06-05",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104813. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 339, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104813",
+  "loc_url": "https://www.loc.gov/item/usrep339763/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep339/usrep339763/usrep339763.pdf",
+  "ref_prefix": "Case.104813",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 1",
+      "page": 763,
+      "ref": "Case.104813.syllabus.1",
+      "text": "-Respondents, who are nonresident enemy aliens, were captured in China by the United States Army and tried and convicted in China by an American military commission for-violations of the laws of war committed in China prior to their capture. They were transported to the American-occupied part of Germany and imprisoned there in the custody of the Army. At no time were they within the territorial jurisdiction of any American civil court. Claiming that their trial, conviction and imprisonment violated Articles I and III, the Fifth Amendment, and other provisions of our Constitution, laws of the United States and provisions of the Geneva Convention, they petitioned the District Court for the District of Columbia for a writ of habeas corpus directed to the Secretary of Defense, the Secretary of the Army, and several officers of the Army having directive power over their custodian. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 2",
+      "page": 763,
+      "ref": "Case.104813.syllabus.2",
+      "text": "1. A nonresident enemy alien has no access to our courts in wartime. Pp. 768-777."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 3",
+      "page": 763,
+      "ref": "Case.104813.syllabus.3",
+      "text": "(a) Our law does not abolish inherent distinctions recognized throughout the civilized world between citizens and aliens, nor between aliens of friendly and enemy allegiance, nor between resident enemy aliens who have submitted themselves to our laws and nonresident enemy aliens who at all times have remained with, and adhered to, enemy governments. P. 769."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 4",
+      "page": 763,
+      "ref": "Case.104813.syllabus.4",
+      "text": "(b) In extending certain constitutional protections to resident aliens, this Court has been careful to point out that it was the aliens' presence within its territorial jurisdiction that gave the Judiciary power to act. P. 771."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 5",
+      "page": 763,
+      "ref": "Case.104813.syllabus.5",
+      "text": "(c) Executive power over enemy aliens, undelayed and unhampered by litigation, has been deemed, throughout our history, essential to wartime security. P. 774."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 6",
+      "page": 763,
+      "ref": "Case.104813.syllabus.6",
+      "text": "(d) A resident enemy alien is constitutionally subject to summary arrest, internment and deportation whenever a \"declared war\" exists. Courts will entertain his plea for freedom from executive custody only to ascertain the existence of a state of war and whether he is an alien enemy. Once these jurisdictional facts have been determined, courts will not inquire into any other issue as to his internment. P. 775."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 7",
+      "page": 764,
+      "ref": "Case.104813.syllabus.7",
+      "text": "(e) A nonresident enemy alien, especially one who has remained in the service of the enemy,. does not have even this qualified access to our courts. P. 776."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 8",
+      "page": 764,
+      "ref": "Case.104813.syllabus.8",
+      "text": "2. These nonresident enemy aliens, captured and imprisoned abroad, have no right to a writ of habeas corpus in a court of the United States. Ex parte Quirin, 317 U. S. 1; In re Yamashita, 327 U. S. 1, distinguished. Pp. 777-781."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 9",
+      "page": 764,
+      "ref": "Case.104813.syllabus.9",
+      "text": "3. The Constitution does not confer.a right of personal security or an immunity from military trial and punishment upon an alien enemy engaged in the hostile service of a government at war with the United States. Pp. 781-785."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 10",
+      "page": 764,
+      "ref": "Case.104813.syllabus.10",
+      "text": "(a) The term \"any person\" in the Fifth Amendment does not extend its protection to alien enemies everywhere in the world engaged in hostilities against us. Pp. 782-783."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 11",
+      "page": 764,
+      "ref": "Case.104813.syllabus.11",
+      "text": "(b) The claim asserted by respondents and sustained by the court below would, in practical effect, amount to a right not to be tried at all for an offense against our armed forces. P. 782."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 12",
+      "page": 764,
+      "ref": "Case.104813.syllabus.12",
+      "text": "4. The petition in this case alleges no fact showing lack of jurisdiction in the military authorities to accuse, try and condemn these prisoners or that they acted in excess of their lawful powers. Pp. 785-790."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 13",
+      "page": 764,
+      "ref": "Case.104813.syllabus.13",
+      "text": "(a) The jurisdiction of military authorities, during or follow: ing hostilities, to punish those guilty of offenses against the laws of war is long-established. P., 786."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 14",
+      "page": 764,
+      "ref": "Case.104813.syllabus.14",
+      "text": "(b) It being within the jurisdiction of a military commission to try these prisoners, it was for it to determine whether the laws of war applied and whether they had been violated. : Pp. 786-788."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 15",
+      "page": 764,
+      "ref": "Case.104813.syllabus.15",
+      "text": "(c) It is not the function of the Judiciary to entertain private litigation-even by a citizen-which challenges the legality, wisdom or propriety of the Commander-in-Chief in sending our armed forces abroad or to any particular region. P. 789."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 16",
+      "page": 764,
+      "ref": "Case.104813.syllabus.16",
+      "text": "(d) Nothing in the Geneva Convention makes these prisoners immune from prosecution or punishment for war crimes. P. 789."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 17",
+      "page": 764,
+      "ref": "Case.104813.syllabus.17",
+      "text": "(e) Article 60 of the Geneva Convention, requiting that notice of trial of prisoners of war be given to the protecting power, is inapplicable to trials for war crimes committed before capture. Pp. 789-790."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 18",
+      "page": 764,
+      "ref": "Case.104813.syllabus.18",
+      "text": "(f) Article 63 of the Geneva Convention, requiring trial of prisoners of war \"by the same courts and according to the same procedure as in the case of persons belonging to the armed forces of the detaining Power,\" is likewise inapplicable to trials for war crimes committed before capture. P. 790."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 19",
+      "page": 765,
+      "ref": "Case.104813.syllabus.19",
+      "text": "5. Since there is no basis in this case for invoking federal judicial power, it is not necessary to decide where, if the case were otherwise, the petition should be filed. Pp. 790-791."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. Eisentrager, syllabus ¶ 20",
+      "page": 765,
+      "ref": "Case.104813.syllabus.20",
+      "text": "84 U. S. App. D. C. 396, 174 F. 2d 961, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-339-763"
+  ],
+  "title": "Johnson v. Eisentrager",
+  "us_cite": "339 U.S. 763"
+}

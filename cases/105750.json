@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "overruled by Miranda v. Arizona (table of overruled decisions)"
+  ],
+  "conan_citation": "Cicenia v. Lagay, 357 U.S. 504 (1958)",
+  "courtlistener_name": "Cicenia v. Lagay",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/105750/cicenia-v-lagay/",
+  "date": "1958-06-30",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 105750. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 357, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "105750",
+  "loc_url": "https://www.loc.gov/item/usrep357504/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep357/usrep357504/usrep357504.pdf",
+  "ref_prefix": "Case.105750",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Cicenia v. Lagay, syllabus ¶ 1",
+      "page": 504,
+      "ref": "Case.105750.syllabus.1",
+      "text": "Claiming that his conviction of murder in a state court on a plea of non vult violated the Due Process Clause of the Fourteenth Amendment, petitioner applied to a Federal District Court for a writ of habeas corpus, which was denied. He had retained counsel before his arrest; but, while being questioned by state police, he was repeatedly denied the right to consult his counsel until he had confessed. He was not permitted to inspect his confession before pleading to the indictment. Held: Petitioner's conviction did not violate the Due Process Clause of the Fourteenth Amendment. Pp. 505-511."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cicenia v. Lagay, syllabus ¶ 2",
+      "page": 504,
+      "ref": "Case.105750.syllabus.2",
+      "text": "1. An independent examination of the record satisfies this Court that the District Court was justified in concluding that petitioner failed to substantiate the charge that his confession was coerced. P. 508."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cicenia v. Lagay, syllabus ¶ 3",
+      "page": 504,
+      "ref": "Case.105750.syllabus.3",
+      "text": "2. Refusal to permit petitioner to consult his counsel while being questioned by the state police did not of itself violate the Fourteenth Amendment. Crooker v. California, ante, p. 433. Pp. 508-510."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cicenia v. Lagay, syllabus ¶ 4",
+      "page": 504,
+      "ref": "Case.105750.syllabus.4",
+      "text": "3. In the absence of a showing of prejudice, petitioner was not denied due process by the trial judge's discretionary refusal to perlnit him to inspect his written confession before pleading to the indictment. Pp. 510-511'"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Cicenia v. Lagay, syllabus ¶ 5",
+      "page": 504,
+      "ref": "Case.105750.syllabus.5",
+      "text": "240 F. 2d 844, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-357-504"
+  ],
+  "title": "Cicenia v. Lagay",
+  "us_cite": "357 U.S. 504"
+}

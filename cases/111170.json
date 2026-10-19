@@ -1,0 +1,90 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt6.6 (5 pages)"
+  ],
+  "conan_citation": "Strickland v. Washington, 466 U.S. 668 (1984)",
+  "courtlistener_date": "1984-06-25",
+  "courtlistener_name": "Strickland v. Washington",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/111170/strickland-v-washington/",
+  "date": "1984-05-14",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 111170. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 466, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "111170",
+  "loc_url": "https://www.loc.gov/item/usrep466668/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep466/usrep466668/usrep466668.pdf",
+  "ref_prefix": "Case.111170",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Strickland v. Washington, syllabus ¶ 1",
+      "page": 668,
+      "ref": "Case.111170.syllabus.1",
+      "text": "Respondent pleaded guilty in a Florida trial court to an indictment that included three capital murder charges. In the plea colloquy, respondent told the trial judge that, although he had committed a string of burglaries, he had no significant prior criminal record and that at the time of his criminal spree he was under extreme stress caused by his inability to support his family. The trial judge told respondent that he had \"a great deal of respect for people who are willing to step forward and admit their responsibility.\" In preparing for the sentencing hearing, defense counsel spoke with respondent about his background, but did not seek out character witnesses or request a psychiatric examination. Counsel's decision not to present evidence concerning respondent's character and emotional state reflected his judgment that it was advisable to rely on the plea colloquy for evidence as to such matters, thus preventing the State from cross-examining respondent and from presenting psychiatric evidence of its own. Counsel did not request a presentence report because it would have included respondent's criminal history and thereby would have undermined the claim of no significant prior criminal record. Finding numerous aggravating circumstances and no mitigating circumstance, the trial judge sentenced respondent to death on each of the murder counts. The Florida Supreme Court affirmed, and respondent then sought collateral relief in state court on the ground, inter alia, that counsel had rendered ineffective assistance at the sentencing proceeding in several respects, including his failure to request a psychiatric report, to investigate and present character witnesses, and to seek a presentence report. The trial court denied relief, and the Florida Supreme Court affirmed. Respondent then filed a habeas corpus petition in Federal District Court advancing numerous grounds for relief, including the claim of ineffective assistance of counsel. After an evidentiary hearing, the District Court denied relief, concluding that although counsel made errors in judgment in failing to investigate mitigating evidence further than he did, no prejudice to respondent's sentence resulted from any such error in judgment. The Court of Appeals ultimately reversed, stating that the Sixth Amendment accorded criminal defendants a right to counsel rendering \"reasonably effective assistance given the totality of the circumstances.\" After outlining standards for judging whether a defense counsel fulfilled the duty to investigate nonstatutory mitigating circumstances and whether counsel's errors were sufficiently prejudicial to justify reversal, the Court of Appeals remanded the case for application of the standards."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Strickland v. Washington, syllabus ¶ 2",
+      "page": 669,
+      "ref": "Case.111170.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Strickland v. Washington, syllabus ¶ 3",
+      "page": 669,
+      "ref": "Case.111170.syllabus.3",
+      "text": "1. The Sixth Amendment right to counsel is the right to the effective assistance of counsel, and the benchmark for judging any claim of ineffectiveness must be whether counsel's conduct so undermined the proper functioning of the adversarial process that the trial cannot be relied on as having produced a just result. The same principle applies to a capital sentencing proceeding-such as the one provided by Florida law-that is sufficiently like a trial in its adversarial format and in the existence of standards for decision that counsel's role in the proceeding is comparable to counsel's role at trial. Pp. 684-687."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Strickland v. Washington, syllabus ¶ 4",
+      "page": 669,
+      "ref": "Case.111170.syllabus.4",
+      "text": "2. A convicted defendant's claim that counsel's assistance was so defective as to require reversal of a conviction or setting aside of a death sentence requires that the defendant show, first, that counsel's performance was deficient and, second, that the deficient performance prejudiced the defense so as to deprive the defendant of a fair trial. Pp. 687-696."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Strickland v. Washington, syllabus ¶ 5",
+      "page": 669,
+      "ref": "Case.111170.syllabus.5",
+      "text": "(a) The proper standard for judging attorney performance is that of reasonably effective assistance, considering all the circumstances. When a convicted defendant complains of the ineffectiveness of counsel's assistance, the defendant must show that counsel's representation fell below an objective standard of reasonableness. Judicial scrutiny of counsel's performance must be highly deferential, and a fair assessment of attorney performance requires that every effort be made to eliminate the distorting effects of hindsight, to reconstruct the circumstances of counsel's challenged conduct, and to evaluate the conduct from counsel's perspective at the time. A court must indulge a strong presumption that counsel's conduct falls within the wide range of reasonable professional assistance. These standards require no special amplification in order to define counsel's duty to investigate, the duty at issue in this case. Pp. 687-691."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Strickland v. Washington, syllabus ¶ 6",
+      "page": 669,
+      "ref": "Case.111170.syllabus.6",
+      "text": "(b) With regard to the required showing of prejudice, the proper standard requires the defendant to show that there is a reasonable probability that, but for counsel's unprofessional errors, the result of the proceeding would have been different. A reasonable probability is a probability sufficient to undermine confidence in the outcome. A court hearing an ineffectiveness claim must consider the totality of the evidence before the judge or jury. Pp. 691-696."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Strickland v. Washington, syllabus ¶ 7",
+      "page": 670,
+      "ref": "Case.111170.syllabus.7",
+      "text": "3. A number of practical considerations are important for the application of the standards set forth above. The standards do not establish mechanical rules; the ultimate focus of inquiry must be on the fundamental fairness of the proceeding whose result is being challenged. A court need not first determine whether counsel's performance was deficient before examining the prejudice suffered by the defendant as a result of the alleged deficiencies. If it is easier to dispose of an ineffectiveness claim on the ground of lack of sufficient prejudice, that course should be followed. The principles governing ineffectiveness claims apply in federal collateral proceedings as they do on direct appeal or in motions for a new trial. And in a federal habeas challenge to a state criminal judgment, a state court conclusion that counsel rendered effective assistance is not a finding of fact binding on the federal court to the extent stated by 28 U. S. C. § 2254(d), but is a mixed question of law and fact. Pp. 696-698."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Strickland v. Washington, syllabus ¶ 8",
+      "page": 670,
+      "ref": "Case.111170.syllabus.8",
+      "text": "4. The facts of this case make it clear that counsel's conduct at and before respondent's sentencing proceeding cannot be found unreasonable under the above standards. They also make it clear that, even assuming counsel's conduct was unreasonable, respondent suffered insufficient prejudice to warrant setting aside his death sentence. Pp. 698-700."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Strickland v. Washington, syllabus ¶ 9",
+      "page": 670,
+      "ref": "Case.111170.syllabus.9",
+      "text": "693 F. 2d 1243, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-466-668"
+  ],
+  "title": "Strickland v. Washington",
+  "us_cite": "466 U.S. 668"
+}

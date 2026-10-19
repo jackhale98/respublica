@@ -1,0 +1,103 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Breedlove v. Suttles, 302 U.S. 277 (1937)",
+  "courtlistener_name": "Breedlove v. Suttles",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102874/breedlove-v-suttles/",
+  "date": "1937-12-06",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102874. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 302, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102874",
+  "loc_url": "https://www.loc.gov/item/usrep302277/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep302/usrep302277/usrep302277.pdf",
+  "ref_prefix": "Case.102874",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Breedlove v. Suttles, syllabus ¶ 1",
+      "page": 277,
+      "ref": "Case.102874.syllabus.1",
+      "text": "1. A Georgia statute exempts all persons under 21 or over 60 years of age, and all females who do not register for voting, from a poll tax of $1.00 per year, which is levied generally upon all inhabitants, and which, under the state constitution, must be paid by the person liable, together with arrears, before he can be registered for voting. Held that males who are not within the exemption are not denied the equal protection of the laws guaranteed by the Fourteenth Amendment. Pp. 281-282."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Breedlove v. Suttles, syllabus ¶ 2",
+      "page": 278,
+      "ref": "Case.102874.syllabus.2",
+      "text": "2. On the basis of special consideration to which they are naturally entitled, women ad a class may be exempted from poll taxes without exempting men. P. 282."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Breedlove v. Suttles, syllabus ¶ 3",
+      "page": 278,
+      "ref": "Case.102874.syllabus.3",
+      "text": "3. Since this discrimination is permissibie in favor of all women, a man subject to the tax has no status to complain that, among women, the tax is levied only on those who register to vote, or that registration is allowed to them without paying taxes for previous years. P. 282."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Breedlove v. Suttles, syllabus ¶ 4",
+      "page": 278,
+      "ref": "Case.102874.syllabus.4",
+      "text": "4. Payment of the Georgia poll tax as a prerequisite to voting is not required for the purpose of denying or abridging the privilege of voting. P. 282."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Breedlove v. Suttles, syllabus ¶ 5",
+      "page": 278,
+      "ref": "Case.102874.syllabus.5",
+      "text": "5. Exaction of payment of poll taxes before registration as an aid to collection is a use of tht State's power consistent with the Federal Constitution. P. 283."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Breedlove v. Suttles, syllabus ¶ 6",
+      "page": 278,
+      "ref": "Case.102874.syllabus.6",
+      "text": "6. Voting is. a privilege derived not from the United States but from the State, which may impose such conditions as it' deems appropriate, subject only to the limitations of the Fifteenth and Nineteenth Amendments and other provisions of the Federal Constitution. P. 283."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Breedlove v. Suttles, syllabus ¶ 7",
+      "page": 278,
+      "ref": "Case.102874.syllabus.7",
+      "text": "7. A state law requiring payment of poll taxes as a condition to voting does not abridge any privilege or immunity protected by the Fourteenth Amendment. P. 283."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Breedlove v. Suttles, syllabus ¶ 8",
+      "page": 278,
+      "ref": "Case.102874.syllabus.8",
+      "text": "8. The Nineteenth Amendment, forbidding denial or abridgement of the right to vote, on account of sex, applies equally in favor of men and women, and by its own force supersedes inconsistent measures, whether federal or state. P. 283."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Breedlove v. Suttles, syllabus ¶ 9",
+      "page": 278,
+      "ref": "Case.102874.syllabus.9",
+      "text": "9. It was not the purpose of the Nineteenth Amendment to limit the taxing power of the State. P. 283."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Breedlove v. Suttles, syllabus ¶ 10",
+      "page": 278,
+      "ref": "Case.102874.syllabus.10",
+      "text": "10. The Georgia statute levying on 'inhabitants of the State. a poll tax, payment whereof is made a prerequisite to voting, but exempting females who do not register for voting, does not abridge the right of male citizens to vote, on account of their sex, and is not repugnant to the Nineteenth Amendment. P. 284."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Breedlove v. Suttles, syllabus ¶ 11",
+      "page": 278,
+      "ref": "Case.102874.syllabus.11",
+      "text": "183 Ga. .189; 188 S. E. 140, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-302-277"
+  ],
+  "title": "Breedlove v. Suttles",
+  "us_cite": "302 U.S. 277"
+}

@@ -1,0 +1,76 @@
+{
+  "chosen_because": [
+    "overruled by United States v. Darby (table of overruled decisions)",
+    "overruled (table of overruled decisions) and cited on 7 pages"
+  ],
+  "conan_citation": "Hammer v. Dagenhart, 247 U.S. 251 (1918)",
+  "courtlistener_name": "Hammer v. Dagenhart",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/99190/hammer-v-dagenhart/",
+  "date": "1918-06-03",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 99190. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 247, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "99190",
+  "loc_url": "https://www.loc.gov/item/usrep247251/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep247/usrep247251/usrep247251.pdf",
+  "ref_prefix": "Case.99190",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Hammer v. Dagenhart, syllabus ¶ 1",
+      "page": 251,
+      "ref": "Case.99190.syllabus.1",
+      "text": "The Act of September 1, 1916, c. 432, 39 Stat. 675, prohibits transportation in interstate commerce of goods made at a factory in which, within thirty days prior to their removal therefrom, children under the age of 14 years have been employed or permitted to work, or children between the ages of 14 and 16 years have been employed or permitted to work more than eight hours in any day, or more than six days in any week, or after the hour of 7 P. m. or before the hour of 6 A. M. Held, unconstitutional as exceeding the commerce power of Congress and invading the powers reserved to the States."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hammer v. Dagenhart, syllabus ¶ 2",
+      "page": 251,
+      "ref": "Case.99190.syllabus.2",
+      "text": "The power to regulate interstate commerce is the power to prescribe the rule by which the commerce is to be governed; in other words, to control the means by which it is carried on."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hammer v. Dagenhart, syllabus ¶ 3",
+      "page": 251,
+      "ref": "Case.99190.syllabus.3",
+      "text": "The court has never sustained a right to exclude save in cases where the character of the particular things excluded was such as to bring them peculiarly within the governmental authority of the State or Nation and render their exclusion, in effect, but a regulation of interstate transportation, necessary to prevent the accomplishmentthrough that means of the evils inherent in them."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hammer v. Dagenhart, syllabus ¶ 4",
+      "page": 251,
+      "ref": "Case.99190.syllabus.4",
+      "text": "The manufacture of goods is not commerce, nor do the facts that they are intended for, and are afterwards shipped in, interstate commerce make their production a part of that commerce subject to the control of Congress."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hammer v. Dagenhart, syllabus ¶ 5",
+      "page": 251,
+      "ref": "Case.99190.syllabus.5",
+      "text": "The power to regulate interstate commerce was not intended as a means of enabling Congress to equalize the economic conditions in the States for the prevention of unfair competition among them, by forbidating the interstate transportation of goods made under conditions which Congress deems productive of unfairness."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hammer v. Dagenhart, syllabus ¶ 6",
+      "page": 251,
+      "ref": "Case.99190.syllabus.6",
+      "text": "It was not intended as an authority to Congress to control the States in the exercise of their police power over local trade and manufacture,, always existing and expressly reserved to them by the Tenth Amendment."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hammer v. Dagenhart, syllabus ¶ 7",
+      "page": 251,
+      "ref": "Case.99190.syllabus.7",
+      "text": "Affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-247-251"
+  ],
+  "title": "Hammer v. Dagenhart",
+  "us_cite": "247 U.S. 251"
+}

@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "cited on 16 pages",
+    "named in the title of essay Amdt14.S1.2.1"
+  ],
+  "conan_citation": "Slaughter-House Cases, 83 U.S. (16 Wall.) 36 (1873)",
+  "courtlistener_name": "Butchers' Benevolent Ass'n v. Crescent City Live-Stock Landing & Slaughter-House Co.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/88661/butchers-benevolent-assn-v-crescent-city-live-stock-landing/",
+  "date": "1873-04-14",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 88661. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 83, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "88661",
+  "loc_url": "https://www.loc.gov/item/usrep083036/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep083/usrep083036/usrep083036.pdf",
+  "ref_prefix": "Case.88661",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-83-36"
+  ],
+  "syllabus_note": "Volume 83 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Slaughter-House Cases",
+  "us_cite": "83 U.S. 36"
+}

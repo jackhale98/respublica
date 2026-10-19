@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "overruled by Jones v. Alfred H. Mayer Co. (table of overruled decisions)"
+  ],
+  "conan_citation": "Hodges v. United States, 203 U.S. 1 (1906)",
+  "courtlistener_name": "Hodges v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/1447641/hodges-v-united-states/",
+  "date": "1906-05-28",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 1447641. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 203, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "1447641",
+  "loc_url": "https://www.loc.gov/item/usrep203001/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep203/usrep203001/usrep203001.pdf",
+  "ref_prefix": "Case.1447641",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-203-1"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 1 a paragraph seems to stop mid-sentence.",
+  "title": "Hodges v. United States",
+  "us_cite": "203 U.S. 1"
+}

@@ -1,0 +1,40 @@
+{
+  "chosen_because": [
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Torcaso v. Watkins, 367 U.S. 488 (1961)",
+  "courtlistener_name": "Torcaso v. Watkins",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/106281/torcaso-v-watkins/",
+  "date": "1961-06-19",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 106281. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 367, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "106281",
+  "loc_url": "https://www.loc.gov/item/usrep367488/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep367/usrep367488/usrep367488.pdf",
+  "ref_prefix": "Case.106281",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Torcaso v. Watkins, syllabus ¶ 1",
+      "page": 488,
+      "ref": "Case.106281.syllabus.1",
+      "text": "Appellant was appointed by the Governor of Maryland to the office of Notary Public; but he was denied a commission because he would not declare his belief in God, as required by the Maryland Constitution. Claiming that this requirement violated his rights under the First and Fourteenth Amendments, he sued in a state court to compel issuance of his commission; but relief was denied. The State Court of Appeals affirmed, holding that the state constitutional provision is self-executing without need for implementing legislation and requires declaration of a belief in God as a qualification for office. Held: This Maryland test for public office cannot be enforced against appellant, because it unconstitutionally invades his freedom of belief and religion guaranteed by the First Amendment and protected by the Fourteenth Amendment from infringement by the States. Pp. 489-496."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Torcaso v. Watkins, syllabus ¶ 2",
+      "page": 488,
+      "ref": "Case.106281.syllabus.2",
+      "text": "223 Md. 49, 162 A. 2d 438, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-367-488"
+  ],
+  "title": "Torcaso v. Watkins",
+  "us_cite": "367 U.S. 488"
+}

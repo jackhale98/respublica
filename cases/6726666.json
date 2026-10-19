@@ -1,0 +1,28 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S10.C1.6 (8 pages)",
+    "cited on 11 pages"
+  ],
+  "conan_citation": "Sturges v. Crowninshield, 17 U.S. (4 Wheat.) 122 (1819)",
+  "courtlistener_match": "CourtListener gives 2 clusters for 17 U.S. 122; this one matches the case's name and year and is the most cited (the others: 85267).",
+  "courtlistener_name": "Sturges v. Crowninshield",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/6726666/sturges-v-crowninshield/",
+  "date": "1819-02-15",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 6726666. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 17, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "6726666",
+  "loc_url": "https://www.loc.gov/item/usrep017122/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep017/usrep017122/usrep017122.pdf",
+  "ref_prefix": "Case.6726666",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-17-122"
+  ],
+  "syllabus_note": "Volume 17 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Sturges v. Crowninshield",
+  "us_cite": "17 U.S. 122"
+}

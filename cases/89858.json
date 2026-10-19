@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt1.2 (5 pages)",
+    "cited on 14 pages"
+  ],
+  "conan_citation": "Reynolds v. United States, 98 U.S. (8 Otto) 145 (1879)",
+  "courtlistener_name": "Reynolds v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/89858/reynolds-v-united-states/",
+  "date": "1879-01-18",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 89858. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 98, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "89858",
+  "loc_url": "https://www.loc.gov/item/usrep098145/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep098/usrep098145/usrep098145.pdf",
+  "ref_prefix": "Case.89858",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-98-145"
+  ],
+  "syllabus_note": "No syllabus was found in the text layer of the scan.",
+  "title": "Reynolds v. United States",
+  "us_cite": "98 U.S. 145"
+}

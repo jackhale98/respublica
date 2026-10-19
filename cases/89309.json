@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "cited on 11 pages"
+  ],
+  "conan_citation": "United States v. Cruikshank, 92 U.S. 542 (1876)",
+  "courtlistener_name": "United States v. Cruikshank",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/89309/united-states-v-cruikshank/",
+  "date": "1876-03-27",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 89309. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 92, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "89309",
+  "loc_url": "https://www.loc.gov/item/usrep092542/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep092/usrep092542/usrep092542.pdf",
+  "ref_prefix": "Case.89309",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-92-542"
+  ],
+  "syllabus_note": "No syllabus was found in the text layer of the scan.",
+  "title": "United States v. Cruikshank",
+  "us_cite": "92 U.S. 542"
+}

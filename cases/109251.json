@@ -1,0 +1,41 @@
+{
+  "chosen_because": [
+    "overruled by Mitchell v. Helms (table of overruled decisions)"
+  ],
+  "conan_citation": "Meek v. Pittenger, 421 U.S. 349 (1975)",
+  "courtlistener_date": "1975-06-23",
+  "courtlistener_name": "Meek v. Pittenger",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109251/meek-v-pittenger/",
+  "date": "1975-05-19",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109251. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 421, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109251",
+  "loc_url": "https://www.loc.gov/item/usrep421349/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep421/usrep421349/usrep421349.pdf",
+  "ref_prefix": "Case.109251",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Meek v. Pittenger, syllabus ¶ 1",
+      "page": 349,
+      "ref": "Case.109251.syllabus.1",
+      "text": "The Commonwealth of Pennsylvania is authorized to provide directly to all children enrolled in nonpublic elementary and secondary schools meeting Pennsylvania's compulsory-attendance requirements \"auxiliary services\" (Act 194) and loans of textbooks \"acceptable for use in\" the public schools (Act 195). Act 195 also provides for loans directly to the nonpublic schools of \"instructional materials and equipment, useful to the education\" of nonpublic school children. The auxiliary services include counseling, testing, psychological services, speech and hearing therapy, and related services for exceptional, remedial, or educationally disadvantaged students, \"and such other secular, neutral, non-ideological services as are of benefit to nonpublic school children\" and are provided for those in public schools. The instructional materials include periodicals, photographs, maps, charts, recordings, and films. The instructional equipment includes projectors, recorders, and laboratory paraphernalia. Appellants brought this suit in the District Court challenging the constitutionality of both Acts. The court upheld the constitutionality of the textbook and instructional materials loan programs and the auxiliary services program but invalidated the instructional equipment loan program to the extent that it sanctioned the loan of equipment \"which from its nature can be diverted to religious purposes.\" Held: Act 194 and all but the textbook loan provisions of Act 195 violate the Establishment Clause of the First Amendment as made applicable to the States by the Fourteenth. Pp. 359-372; 388."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Meek v. Pittenger, syllabus ¶ 2",
+      "page": 349,
+      "ref": "Case.109251.syllabus.2",
+      "text": "374 F. Supp. 639, affirmed in part, reversed in part."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-421-349"
+  ],
+  "title": "Meek v. Pittenger",
+  "us_cite": "421 U.S. 349"
+}

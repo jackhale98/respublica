@@ -1,0 +1,111 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.5 (4 pages)",
+    "cited on 10 pages"
+  ],
+  "conan_citation": "United States v. Windsor, 570 U.S. 744 (2013)",
+  "courtlistener_name": "United States v. Windsor",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/945737/united-states-v-windsor/",
+  "date": "2013-06-26",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 945737. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 570, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "945737",
+  "loc_url": "https://www.loc.gov/item/usrep570744/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep570/usrep570744/usrep570744.pdf",
+  "ref_prefix": "Case.945737",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 1",
+      "page": 744,
+      "ref": "Case.945737.syllabus.1",
+      "text": "The State of New York recognizes the marriage of New York residents Edith Windsor and Thea Spyer, who wed in Ontario, Canada, in 2007. When Spyer died in 2009, she left her entire estate to Windsor. Windsor sought to claim the federal estate tax exemption for surviving spouses, but was barred from doing so by § 3 of the federal Defense of Marriage Act (DOMA), which amended the Dictionary Act—a law providing rules of construction for over 1,000 federal laws and the whole realm of federal regulations—to defne “marriage” and “spouse” as excluding same-sex partners. Windsor paid $363,053 in estate taxes and sought a refund, which the Internal Revenue Service denied. Windsor brought this refund suit, contending that DOMA violates the principles of equal protection incorporated in the Fifth Amendment. While the suit was pending, the Attorney General notifed the Speaker of the House of Representatives that the Department of Justice would no longer defend § 3's constitutionality. In response, the Bipartisan Legal Advisory Group (BLAG) of the House of Representatives voted to intervene in the litigation to defend § 3's constitutionality. The District Court permitted the intervention. On the merits, the court ruled against the United States, fnding § 3 unconstitutional and ordering the Treasury to refund Windsor's tax with interest. The Second Circuit affrmed. The United States has not complied with the judgment."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 2",
+      "page": 744,
+      "ref": "Case.945737.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 3",
+      "page": 744,
+      "ref": "Case.945737.syllabus.3",
+      "text": "1. This Court has jurisdiction to consider the merits of the case. This case clearly presented a concrete disagreement between opposing parties that was suitable for judicial resolution in the District Court, but the Executive's decision not to defend § 3's constitutionality in court while continuing to deny refunds and assess defciencies introduces a complication. Given the Government's concession, amicus contends, once the District Court ordered the refund, the case should have ended and the appeal been dismissed. But this argument elides the distinction between Article III's jurisdictional requirements and the prudential limits on its exercise, which are “essentially matters of judicial selfgovernance.” Warth v. Seldin, 422 U. S. 490, 500. Here, the United States retains a stake suffcient to support Article III jurisdiction on appeal and in this Court. The refund it was ordered to pay Windsor is “a real and immediate economic injury,” Hein v. Freedom From Religion Foundation, Inc., 551 U. S. 587, 599, even if the Executive disagrees with § 3 of DOMA. Windsor's ongoing claim for funds that the United States refuses to pay thus establishes a controversy suffcient for Article III jurisdiction. Cf. INS v. Chadha, 462 U. S. 919."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 4",
+      "page": 745,
+      "ref": "Case.945737.syllabus.4",
+      "text": "Prudential considerations, however, demand that there be “concrete adverseness which sharpens the presentation of issues upon which the court so largely depends for illumination of diffcult constitutional questions.” Baker v. Carr, 369 U. S. 186, 204. Unlike Article III requirements—which must be satisfed by the parties before judicial consideration is appropriate—prudential factors that counsel against hearing this case are subject to “countervailing considerations [that] may outweigh the concerns underlying the usual reluctance to exert judicial power.” Warth, supra, at 500–501. One such consideration is the extent to which adversarial presentation of the issues is ensured by the participation of amici curiae prepared to defend with vigor the legislative Act's constitutionality. See Chadha, supra, at 940. Here, BLAG's substantial adversarial argument for § 3's constitutionality satisfes prudential concerns that otherwise might counsel against hearing an appeal from a decision with which the principal parties agree. This conclusion does not mean that it is appropriate for the Executive as a routine exercise to challenge statutes in court instead of making the case to Congress for amendment or repeal. But this case is not routine, and BLAG's capable defense ensures that the prudential issues do not cloud the merits question, which is of immediate importance to the Federal Government and to hundreds of thousands of persons. Pp. 755–763."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 5",
+      "page": 745,
+      "ref": "Case.945737.syllabus.5",
+      "text": "2. DOMA is unconstitutional as a deprivation of the equal liberty of persons that is protected by the Fifth Amendment. Pp. 763–775."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 6",
+      "page": 745,
+      "ref": "Case.945737.syllabus.6",
+      "text": "(a) By history and tradition the defnition and regulation of marriage has been treated as being within the authority and realm of the separate States. Congress has enacted discrete statutes to regulate the meaning of marriage in order to further federal policy, but DOMA, with a directive applicable to over 1,000 federal statutes and the whole realm of federal regulations, has a far greater reach. Its operation is also directed to a class of persons that the laws of New York, and of 11 other States, have sought to protect. Assessing the validity of that intervention requires discussing the historical and traditional extent of state power and authority over marriage."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 7",
+      "page": 745,
+      "ref": "Case.945737.syllabus.7",
+      "text": "Subject to certain constitutional guarantees, see, e. g., Loving v. Virginia, 388 U. S. 1, “regulation of domestic relations” is “an area that has long been regarded as a virtually exclusive province of the States,” Sosna v. Iowa, 419 U. S. 393, 404. The signifcance of state responsibilities for the defnition and regulation of marriage dates to the Nation's beginning; for “when the Constitution was adopted the common understanding was that the domestic relations of husband and wife and parent and child were matters reserved to the States,” Ohio ex rel. Popovici v. Agler, 280 U. S. 379, 383–384. Marriage laws may vary from State to State, but they are consistent within each State."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 8",
+      "page": 746,
+      "ref": "Case.945737.syllabus.8",
+      "text": "DOMA rejects this long-established precept. The State's decision to give this class of persons the right to marry conferred upon them a dignity and status of immense import. But the Federal Government uses the state-defned class for the opposite purpose—to impose restrictions and disabilities. The question is whether the resulting injury and indignity is a deprivation of an essential part of the liberty protected by the Fifth Amendment, since what New York treats as alike the federal law deems unlike by a law designed to injure the same class the State seeks to protect. New York's actions were a proper exercise of its sovereign authority. They refect both the community's considered perspective on the historical roots of the institution of marriage and its evolving understanding of the meaning of equality. Pp. 763–769."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 9",
+      "page": 746,
+      "ref": "Case.945737.syllabus.9",
+      "text": "(b) By seeking to injure the very class New York seeks to protect, DOMA violates basic due process and equal protection principles applicable to the Federal Government. The Constitution's guarantee of equality “must at the very least mean that a bare congressional desire to harm a politically unpopular group cannot” justify disparate treatment of that group. Department of Agriculture v. Moreno, 413 U. S. 528, 534–535. DOMA cannot survive under these principles. Its unusual deviation from the tradition of recognizing and accepting state defnitions of marriage operates to deprive same-sex couples of the benefts and responsibilities that come with federal recognition of their marriages. This is strong evidence of a law having the purpose and effect of disapproval of a class recognized and protected by state law. DOMA's avowed purpose and practical effect are to impose a disadvantage, a separate status, and so a stigma upon all who enter into same-sex marriages made lawful by the unquestioned authority of the States."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 10",
+      "page": 746,
+      "ref": "Case.945737.syllabus.10",
+      "text": "DOMA's history of enactment and its own text demonstrate that interference with the equal dignity of same-sex marriages, conferred by the States in the exercise of their sovereign power, was more than an incidental effect of the federal statute. It was its essence. BLAG's arguments are just as candid about the congressional purpose. DOMA's operation in practice confrms this purpose. It frustrates New York's objective of eliminating inequality by writing inequality into the entire United States Code."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 11",
+      "page": 747,
+      "ref": "Case.945737.syllabus.11",
+      "text": "DOMA's principal effect is to identify and make unequal a subset of state-sanctioned marriages. It contrives to deprive some couples married under the laws of their State, but not others, of both rights and responsibilities, creating two contradictory marriage regimes within the same State. It also forces same-sex couples to live as married for the purpose of state law but unmarried for the purpose of federal law, thus diminishing the stability and predictability of basic personal relations the State has found it proper to acknowledge and protect. Pp. 769–774."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Windsor, syllabus ¶ 12",
+      "page": 747,
+      "ref": "Case.945737.syllabus.12",
+      "text": "699 F. 3d 169, affrmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-570-744"
+  ],
+  "title": "United States v. Windsor",
+  "us_cite": "570 U.S. 744"
+}

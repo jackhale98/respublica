@@ -1,0 +1,40 @@
+{
+  "chosen_because": [
+    "cited on 12 pages"
+  ],
+  "conan_citation": "Trop v. Dulles, 356 U.S. 86 (1958)",
+  "courtlistener_name": "Trop v. Dulles",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/105659/trop-v-dulles/",
+  "date": "1958-03-31",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 105659. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 356, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "105659",
+  "loc_url": "https://www.loc.gov/item/usrep356086/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep356/usrep356086/usrep356086.pdf",
+  "ref_prefix": "Case.105659",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Trop v. Dulles, syllabus ¶ 1",
+      "page": 86,
+      "ref": "Case.105659.syllabus.1",
+      "text": "At least as applied in this case to a native-born citizen of the Vnited States who did not voluntarily relinquish'6r abandon his citizenship ol\" become, involved in any way with a foreign nation, § 401 (g) of. the Nationality Act of 1940, as amended, which-provides 'that a citizen \"shall lose his 'nationality\" by \"deserting the.military or naval forces of-the United States in time of war, provided he is convicted tlhereo' by court martial and- as a result of 'such conviction is dismissed or dishonorably discharged from the service,\" is. unconstitutional. Pp. 87-114."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trop v. Dulles, syllabus ¶ 2",
+      "page": 86,
+      "ref": "Case.105659.syllabus.2",
+      "text": "239 F. 2d 527, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-356-86"
+  ],
+  "title": "Trop v. Dulles",
+  "us_cite": "356 U.S. 86"
+}

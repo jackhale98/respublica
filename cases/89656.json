@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "overruled by Shaffer v. Heitner (table of overruled decisions)",
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Pennoyer v. Neff, 95 U.S. 714 (1878)",
+  "courtlistener_name": "Pennoyer v. Neff",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/89656/pennoyer-v-neff/",
+  "date": "1878-01-21",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 89656. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 95, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "89656",
+  "loc_url": "https://www.loc.gov/item/usrep095714/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep095/usrep095714/usrep095714.pdf",
+  "ref_prefix": "Case.89656",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-95-714"
+  ],
+  "syllabus_note": "No syllabus was found in the text layer of the scan.",
+  "title": "Pennoyer v. Neff",
+  "us_cite": "95 U.S. 714"
+}

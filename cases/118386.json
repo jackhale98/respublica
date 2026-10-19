@@ -1,0 +1,47 @@
+{
+  "chosen_because": [
+    "cited on 14 pages"
+  ],
+  "conan_citation": "Mitchell v. Helms, 530 U.S. 793 (2000)",
+  "courtlistener_name": "Mitchell v. Helms",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/118386/mitchell-v-helms/",
+  "date": "2000-06-28",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 118386. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 530, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "118386",
+  "loc_url": "https://www.loc.gov/item/usrep530793/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep530/usrep530793/usrep530793.pdf",
+  "ref_prefix": "Case.118386",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Mitchell v. Helms, syllabus ¶ 1",
+      "page": 793,
+      "ref": "Case.118386.syllabus.1",
+      "text": "Chapter 2 of the Education Consolidation and Improvement Act of 1981 channels federal funds via state educational agencies (SEA's) to local educational agencies (LEA's), which in turn lend educational materials and equipment, such as library and media materials and computer software and hardware, to public and private elementary and secondary schools to implement \"secular, neutral, and nonideological\" programs. The enrollment of each participating school determines the amount of Chapter 2 aid that it receives. In an average year, about 80% of Chapter 2 funds spent in Jefferson Parish, Louisiana, are allocated for private schools, most of which are Catholic or otherwise religiously affiliated. Respondents filed suit alleging, among other things, that Chapter 2, as applied in the parish, violated the First Amendment's Establishment Clause. Agreeing, the Chief Judge of the District Court held, under Lemo v. Kurtzman, 403 U. S. 602, 612-613, that Chapter 2 had the primary effect of advancing religion because the materials and equipment loaned to the Catholic schools were direct aid and the schools were pervasively sectarian. He relied primarily on Meek v. Pittenger, 421 U. S. 349, and Wolman v. Walter, 483 U. S. 229, in which programs providing many of the same sorts of materials and equipment as does Chapter 2 were struck down, even though programs providing for the loan of public school textbooks to religious schools were upheld. After the judge issued an order permanently excluding pervasively sectarian schools in the parish from receiving any Chapter 2 materials or equipment, he retired. Another judge then reversed that order, upholding Chapter 2 under, inter alia, Zobrest v. Catalina Foothills School Dist., 509 U.S. 1, in which a public school district was allowed to provide a sign-language interpreter to a deaf student at a Catholic high school as part of a federal program for the disabled. While respondents' appeal was pending, this Court decided Agostini v. Felton, 521 U. S. 203, approving a program under Title I of the Elementary and Secondary Education Act of 1965 that provided public employees to teach remedial classes at religious and other private schools. Concluding that Agostini had neither directly overruled Meek and Wolman nor rejected their distinction between textbooks and other in-kind aid, the Fifth Circuit relied on those two cases to invalidate Chapter 2."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mitchell v. Helms, syllabus ¶ 2",
+      "page": 794,
+      "ref": "Case.118386.syllabus.2",
+      "text": "Held: The judgment is reversed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mitchell v. Helms, syllabus ¶ 3",
+      "page": 794,
+      "ref": "Case.118386.syllabus.3",
+      "text": "151 F. 8d 347, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-530-793"
+  ],
+  "title": "Mitchell v. Helms",
+  "us_cite": "530 U.S. 793"
+}

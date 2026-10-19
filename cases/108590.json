@@ -1,0 +1,40 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt6.2 (7 pages)"
+  ],
+  "conan_citation": "Barker v. Wingo, 407 U.S. 514 (1972)",
+  "courtlistener_name": "Barker v. Wingo",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/108590/barker-v-wingo/",
+  "date": "1972-06-22",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 108590. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 407, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "108590",
+  "loc_url": "https://www.loc.gov/item/usrep407514/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep407/usrep407514/usrep407514.pdf",
+  "ref_prefix": "Case.108590",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Barker v. Wingo, syllabus ¶ 1",
+      "page": 514,
+      "ref": "Case.108590.syllabus.1",
+      "text": "Petitioner was not brought to trial for murder until more than five years after he had been arrested, during which time the prosecution obtained numerous continuances, initially for the purpose of first t6ying petitioner's alleged accomplice so that his testimony, if conviction resulted, would be available at petitioner's trial. Before the accomplice was finally convicted, he was tried six times. Petitioner made no objection to the continuances until three and onehalf years after he was arrested. After the accomplice was finally convicted, petitioner, after further delays because of a key prosecution witness' illness, was tried and convicted. In this habeas corpus proceeding the Court of Appeals, concluding that petitioner had waived his right to a speedy trial for the period prior to his demand for trial, and in any event had not been prejudiced by the delay, affirmed the District Court's judgment against petitioner. Held: A defendant's constitutional right to a speedy trial cannot be established by any inflexible rule but can be determined only on an ad hoc balancing basis, in which the conduct of the prosecution and that of the defendant are weighed. The court should assess such factors as the length of and reason for the delay, the defendant's assertion of his right, and prejudice to the defendant. In this case the lack of any serious prejudice to petitioner and the fact, as disclosed by the record, that he did not want a speedy trial outweigh opposing considerations and compel the conclusion that petitioner was not deprived of his due process right to a speedy trial. Pp. 519-536."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Barker v. Wingo, syllabus ¶ 2",
+      "page": 514,
+      "ref": "Case.108590.syllabus.2",
+      "text": "442 F. 2d 1141, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-407-514"
+  ],
+  "title": "Barker v. Wingo",
+  "us_cite": "407 U.S. 514"
+}

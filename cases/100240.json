@@ -1,0 +1,76 @@
+{
+  "chosen_because": [
+    "cited on 11 pages"
+  ],
+  "conan_citation": "Massachusetts v. Mellon, 262 U.S. 447 (1923)",
+  "courtlistener_date": "1923-06-11",
+  "courtlistener_name": "Massachusetts v. Mellon",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/100240/massachusetts-v-mellon/",
+  "date": "1923-06-04",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 100240. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 262, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "100240",
+  "loc_url": "https://www.loc.gov/item/usrep262447/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep262/usrep262447/usrep262447.pdf",
+  "ref_prefix": "Case.100240",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Massachusetts v. Mellon, syllabus ¶ 1",
+      "page": 447,
+      "ref": "Case.100240.syllabus.1",
+      "text": "1. This Court has no jurisdiction of an original proceeding by a State if the matter is not of justiciable character. P. 480."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Massachusetts v. Mellon, syllabus ¶ 2",
+      "page": 447,
+      "ref": "Case.100240.syllabus.2",
+      "text": "2. The Act of November 23, 1921, c. 135, 42 Stat. 224, called the \"Maternity Act,\" authorizes appropriations, to be apportioned among such of the States as shall accept and comply with its provisions, for the purpose of coperating with them to reduce maternal and infant mortality and to protect the health of mothers and infants; it provides for its administration by a federal bureau in coperation with state agencies, which are to make sch reports of their operations and expenditures as the bureau may prescribe; and that, whenever the bureau shall determine that funds have not been properly expended by any State, payments to that State may be withheld. In a suit brought in this Court by a State, against the federal officials charged with the administration of the act, who were citizens of other States, to enjoin them from enforcing it, wherein the plaintiff averred that the act is unconstitutional, in that its purpose is to induce the States to yield sovereign rights reserved by them and not granted the Federal Government, under the Constitution, and that the burden of the appropriations falls unequally upon the several States, held, that, as the statute does not require the plaintiff to do or yield anything, and as no burden is imposed by it other than that of taxation, which falls, not on the State but on her inhabitants, who are within the federal, as well as the state, taxing power, the complaint resolves down to the naked contention that Congress has usurped reserved powers of the States by the mere enactment of the statute, though nothing has been, or is to be, done under it without their consent,-an abstract question of political power, not a matter of judicial cognizance. P. 482."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Massachusetts v. Mellon, syllabus ¶ 3",
+      "page": 448,
+      "ref": "Case.100240.syllabus.3",
+      "text": "3. A State may not, as parens patriae, institute judicial proceedings to protect her citizens (who are no less citizens of the United States), from the operation of a federal statute upon the ground that, as applied to them, it is unconstitutional. P. 485."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Massachusetts v. Mellon, syllabus ¶ 4",
+      "page": 448,
+      "ref": "Case.100240.syllabus.4",
+      "text": "4. A suit by an individual, as a past and future federal taxpayer, to restrain the enforcement of an act of Congress authorizing appropriations of public money, upon the ground that the act is invalid, cannot be entertained in equity. P. 486."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Massachusetts v. Mellon, syllabus ¶ 5",
+      "page": 448,
+      "ref": "Case.100240.syllabus.5",
+      "text": "5. To invoke the judicial power to disregard a statute as unconstitutional, the party who assails it must show not only that the statute is invalid, but that he has sustained, or is immediately in danger of sustaining, some direct injury as a result of its enforcement, and not merely that he suffers in some indefinite way in common with people generally. P. 488."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Massachusetts v. Mellon, syllabus ¶ 6",
+      "page": 448,
+      "ref": "Case.100240.syllabus.6",
+      "text": "No. 24, Original. Dismissed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Massachusetts v. Mellon, syllabus ¶ 7",
+      "page": 448,
+      "ref": "Case.100240.syllabus.7",
+      "text": "No. 962. 288 Fed. 252, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-262-447"
+  ],
+  "title": "Massachusetts v. Mellon",
+  "us_cite": "262 U.S. 447"
+}

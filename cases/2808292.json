@@ -1,0 +1,47 @@
+{
+  "chosen_because": [
+    "named in the title of essay ArtI.S8.C18.8.8.3"
+  ],
+  "conan_citation": "Kerry v. Din, 576 U.S. 86 (2015)",
+  "courtlistener_name": "Kerry v. Din",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/2808292/kerry-v-din/",
+  "date": "2015-06-15",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 2808292. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 576, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "2808292",
+  "loc_url": "https://www.loc.gov/item/usrep576086/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep576/usrep576086/usrep576086.pdf",
+  "ref_prefix": "Case.2808292",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Kerry v. Din, syllabus ¶ 1",
+      "page": 86,
+      "ref": "Case.2808292.syllabus.1",
+      "text": "Respondent Fauzia Din petitioned to have her husband, Kanishka Berashk, a resident citizen of Afghanistan and former civil servant in the Taliban regime, classifed as an “immediate relative” entitled to priority immigration status. Din's petition was approved, but Berashk's visa application was ultimately denied. A consular offcer informed Berashk that he was inadmissible under 8 U. S. C. § 1182(a)(3)(B), which excludes aliens who have engaged in “[t]errorist activities,” but the offcer provided no further information. Unable to obtain a more detailed explanation for Berashk's visa denial, Din fled suit in Federal District Court, which dismissed her complaint. The Ninth Circuit reversed, holding that Din had a protected liberty interest in her marriage that entitled her to review of the denial of Berashk's visa. It further held that the Government deprived her of that liberty interest without due process when it denied Berashk's visa application without providing a more detailed explanation of its reasons."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Kerry v. Din, syllabus ¶ 2",
+      "page": 86,
+      "ref": "Case.2808292.syllabus.2",
+      "text": "Held: The judgment is vacated, and the case is remanded."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Kerry v. Din, syllabus ¶ 3",
+      "page": 86,
+      "ref": "Case.2808292.syllabus.3",
+      "text": "718 F. 3d 856, vacated and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-576-86"
+  ],
+  "title": "Kerry v. Din",
+  "us_cite": "576 U.S. 86"
+}

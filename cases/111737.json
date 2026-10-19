@@ -1,0 +1,48 @@
+{
+  "chosen_because": [
+    "overruled by Rucho v. Common Cause (table of overruled decisions)",
+    "overruled (table of overruled decisions) and cited on 7 pages"
+  ],
+  "conan_citation": "Davis v. Bandemer, 478 U.S. 109 (1986)",
+  "courtlistener_name": "Davis v. Bandemer",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/111737/davis-v-bandemer/",
+  "date": "1986-06-30",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 111737. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 478, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "111737",
+  "loc_url": "https://www.loc.gov/item/usrep478109/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep478/usrep478109/usrep478109.pdf",
+  "ref_prefix": "Case.111737",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Davis v. Bandemer, syllabus ¶ 1",
+      "page": 109,
+      "ref": "Case.111737.syllabus.1",
+      "text": "The Indiana Legislature consists of a 100-member House of Representatives and a 50-member Senate. Representatives serve 2-year terms, with elections for all seats every two years. Senators serve 4-year terms, with half of the seats up for election every two years. Senators are elected from single-member districts, while representatives are elected from a mixture of single-member and multimember districts. In 1981, the legislature reapportioned the districts pursuant to the 1980 census. At that time, there were Republican majorities in both the House and the Senate. The reapportionment plan provided 50 singlemember districts for the Senate and 7 triple-member, 9 double-member, and 61 single-member districts for the House. The multimember districts generally included the State's metropolitan areas. In 1982, appellee Indiana Democrats filed suit in Federal District Court against appellant state officials, alleging that the 1981 reapportionment plan constituted a political gerrymander intended to disadvantage Democrats, and that the particular district lines that were drawn and the mix of single-member and multimember districts were intended to and did violate their right, as Democrats, to equal protection under the Fourteenth Amendment. In November 1982, before the case went to trial, elections were held under the new plan. Democratic candidates for the House received 51.9% of votes cast statewide but only 43 out of the 100 seats to be filled. Democratic candidates for the Senate received 53.1% of the votes cast statewide, and 13 out of the 25 Democratic candidates were elected. In Marion and Allen Counties, both divided into multimember House districts, Democratic candidates drew 46.6% of the vote, but only 3 of the 21 Democratic candidates were elected. Subsequently, relying primarily on the 1982 election results as proof of unconstitutionally discriminatory vote dilution, the District Court invalidated the 1981 reapportionment plan, enjoined appellants from holding elections pursuant thereto, and ordered the legislature to prepare a new plan."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Davis v. Bandemer, syllabus ¶ 2",
+      "page": 109,
+      "ref": "Case.111737.syllabus.2",
+      "text": "Held: The judgment is reversed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Davis v. Bandemer, syllabus ¶ 3",
+      "page": 109,
+      "ref": "Case.111737.syllabus.3",
+      "text": "603 F. Supp. 1479, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-478-109"
+  ],
+  "title": "Davis v. Bandemer",
+  "us_cite": "478 U.S. 109"
+}

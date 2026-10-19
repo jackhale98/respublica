@@ -1,0 +1,110 @@
+{
+  "chosen_because": [
+    "cited on 11 pages"
+  ],
+  "conan_citation": "Printz v. United States, 521 U.S. 898 (1997)",
+  "courtlistener_name": "Printz v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/118148/printz-v-united-states/",
+  "date": "1997-06-27",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 118148. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 521, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "118148",
+  "loc_url": "https://www.loc.gov/item/usrep521898/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep521/usrep521898/usrep521898.pdf",
+  "ref_prefix": "Case.118148",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 1",
+      "page": 898,
+      "ref": "Case.118148.syllabus.1",
+      "text": "Brady Handgun Violence Prevention Act provisions require the Attorney General to establish a national system for instantly checking prospective handgun purchasers' backgrounds, note following 18 U. S. C. § 922, and command the \"chief law enforcement officer\" (CLEO) of each local jurisdiction to conduct such checks and perform related tasks on an interim basis until the national system becomes operative, § 922(s). Petitioners, the CLEOs for counties in Montana and Arizona, filed separate actions challenging the interim provisions' constitutionality. In each case, the District Court held that the background-check provision was unconstitutional, but concluded that it was severable from the remainder of the Act, effectively leaving a voluntary background-check system in place. The Ninth Circuit reversed, finding none of the interim provisions unconstitutional."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 2",
+      "page": 898,
+      "ref": "Case.118148.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 3",
+      "page": 898,
+      "ref": "Case.118148.syllabus.3",
+      "text": "1. The Brady Act's interim provision commanding CLEOs to conduct background checks, § 922(s)(2), is unconstitutional. Extinguished with it is the duty implicit in the background-check requirement that the CLEO accept completed handgun-applicant statements (Brady Forms) from firearms dealers, §§922(s)(1)(A)(i)(III) and (IV). Pp. 904-933."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 4",
+      "page": 898,
+      "ref": "Case.118148.syllabus.4",
+      "text": "(a) Because there is no constitutional text speaking to the precise question whether congressional action compelling state officers to execute federal laws is unconstitutional, the answer to the CLEOs' challenge must be sought in historical understanding and practice, in the Constitution's structure, and in this Court's jurisprudence. Pp. 904-905."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 5",
+      "page": 898,
+      "ref": "Case.118148.syllabus.5",
+      "text": "(b) Relevant constitutional practice tends to negate the existence of the congressional power asserted here, but is not conclusive. Enactments of the early Congresses seem to contain no evidence of an assumption that the Federal Government may command the States' executive power in the absence of a particularized constitutional authorization. The early enactments establish, at most, that the Constitution was originally understood to permit imposition of an obligation on state judges to enforce federal prescriptions related to matters appropriate for the judicial power. The Government misplaces its reliance on portions of The Federalist suggesting that federal responsibilities could be imposed on state officers. None of these statements necessarily implies-what is the critical point here-that Congress could impose these responsibilities without the States' consent. They appear to rest on the natural assumption that the States would consent, see FERC v. Mississippi, 456 U. S. 742, 796, n. 35 (O'CONNOR, J., concurring in judgment and dissenting in part). Finally, there is an absence of executivecommandeering federal statutes in the country's later history, at least until very recent years. Even assuming that newer laws represent an assertion of the congressional power challenged here, they are of such recent vintage that they are not probative of a constitutional tradition. Pp. 905-918."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 6",
+      "page": 899,
+      "ref": "Case.118148.syllabus.6",
+      "text": "(c) The Constitution's structure reveals a principle that controls these cases: the system of \"dual sovereignty.\" See, e. g., Gregory v. Ashcroft, 501-U. S. 452, 457. Although the States surrendered many of their powers to the new Federal Government, they retained a residuary and inviolable sovereignty that is reflected throughout the Constitution's text. See, e.g., Lane County v. Oregon, 7 Wall. 71, 76. The Framers rejected the concept of a central government that would act upon and through the States, and instead designed a system in which the State and Federal Governments would exercise concurrent authority over the people. The Federal Government's power would be augmented immeasurably and impermissibly if it were able to impress into its service-and at no cost to itself-the police officers of the 50 States. Pp. 918-922."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 7",
+      "page": 899,
+      "ref": "Case.118148.syllabus.7",
+      "text": "(d) Federal control of state officers would also have an effect upon the separation and equilibration of powers between the three branches of the Federal Government itself. The Brady Act effectively transfers the President's responsibility to administer the laws enacted by Congress, Art. II, §§2 and 3, to thousands of CLEOs in the 50 States, who are left to implement the program without meaningful Presidential control. The Federal Executive's unity would be shattered, and the power of the President would be subject to reduction, if Congress could simply require state officers to execute its laws. Pp. 922-923."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 8",
+      "page": 899,
+      "ref": "Case.118148.syllabus.8",
+      "text": "(e) Contrary to the contention of JUSTICE STEVENS' dissent, the Brady Act's direction of the actions of state executive officials is not constitutionally valid under Art. I, § 8, as a law \"necessary and proper\" to the execution of Congress's Commerce Clause power to regulate handgun sales. Where, as here, a law violates the state sovereignty principle, it is not a law \"proper for carrying into Execution\" delegated powers within the Necessary and Proper Clause's meaning. Cf. New York v. United States, 505 U. S. 144, 166. The Supremacy Clause does not help the dissent, since it makes \"Law of the Land\" only \"Laws of the United States which shall be made in Pursuance [of the Constitution].\" Art. VI, cl. 2. Pp. 923-925."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 9",
+      "page": 900,
+      "ref": "Case.118148.syllabus.9",
+      "text": "(f) Finally, and most conclusively in these cases, the Court's jurisprudence makes clear that the Federal Government may not compel the States to enact or administer a federal regulatory program. See, e. g., New York, supra, at 188. The attempts of the Government and JUSTICE STEVENS' dissent to distinguish New York-on grounds that the Brady Act's background-check provision does not require state legislative or executive officials to make policy; that requiring state officers to perform discrete, ministerial federal tasks does not diminish the state or federal officials' accountability; and that the Brady Act is addressed to individual CLEOs while the provisions invalidated in New York were directed to the State itself-are not persuasive. A \"balancing\" analysis is inappropriate here, since the whole object of the law is to direct the functioning of the state executive, and hence to compromise the structural framework of dual sovereignty; it is the very principle of separate state sovereignty that such a law offends. See, e. g., New York, supra, at 187. Pp. 925-933."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 10",
+      "page": 900,
+      "ref": "Case.118148.syllabus.10",
+      "text": "2. With the Act's background-check and implicit receipt-of-forms requirements invalidated, the Brady Act requirements that CLEOs destroy all Brady Forms and related records, § 922(s)(6)(B)(i), and give would-be purchasers written statements of the reasons for determining their ineligibility to receive handguns, § 922(s)(6)(C), require no action whatsoever on the part of CLEOs such as petitioners, who are not voluntary participants in administration of the federal scheme. As to them, these provisions are not unconstitutional, but simply inoperative. Pp. 933-934."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 11",
+      "page": 900,
+      "ref": "Case.118148.syllabus.11",
+      "text": "3. The Court declines to address the severability question briefed and argued by the parties: whether firearms dealers remain obliged to forward Brady Forms to CLEOs, §§922(s)(1)(A)(i)(III) and (IV), and to wait five business days thereafter before consummating a firearms sale, § 922(s)(1)(A)(ii). These provisions burden only dealers and firearms purchasers, and no plaintiff in either of those categories is before the Court. P. 935."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Printz v. United States, syllabus ¶ 12",
+      "page": 900,
+      "ref": "Case.118148.syllabus.12",
+      "text": "66 F. 3d 1025, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-521-898"
+  ],
+  "title": "Printz v. United States",
+  "us_cite": "521 U.S. 898"
+}

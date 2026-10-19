@@ -1,0 +1,104 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C18.8 (5 pages)"
+  ],
+  "conan_citation": "United States ex rel. Knauff v. Shaughnessy, 338 U.S. 537 (1950)",
+  "courtlistener_date": "1950-02-06",
+  "courtlistener_name": "United States Ex Rel. Knauff v. Shaughnessy",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104751/united-states-ex-rel-knauff-v-shaughnessy/",
+  "date": "1950-01-16",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104751. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 338, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104751",
+  "loc_url": "https://www.loc.gov/item/usrep338537/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep338/usrep338537/usrep338537.pdf",
+  "ref_prefix": "Case.104751",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States ex rel. Knauff v. Shaughnessy, syllabus ¶ 1",
+      "page": 537,
+      "ref": "Case.104751.syllabus.1",
+      "text": "The alien wife of a citizen who had served honorably in the armed forces of the United States during World War II sought admission to the United States. On the basis of confidential information the disclosure of which, in his judgment, would endanger the public security, the Attorney General denied a hearing, found that her admission would be prejudicial to the interests of the United States, and ordered her excluded. Held: This action was authorized by the Act of June 21, 1941, 22 U. S. C. § 223, and the proclamations and regulations issued thereunder, notwithstanding the War Brides Act of December 28, 1945, 8 U. S. C. § 232 et seq. Pp. 539-547."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States ex rel. Knauff v. Shaughnessy, syllabus ¶ 2",
+      "page": 537,
+      "ref": "Case.104751.syllabus.2",
+      "text": "(a) The admission of aliens to this country is not a right but a privilege, which is granted only upon such terms as the United States prescribes. P. 542."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States ex rel. Knauff v. Shaughnessy, syllabus ¶ 3",
+      "page": 537,
+      "ref": "Case.104751.syllabus.3",
+      "text": "(b) The Act of June 21, 1941, did not unconstitutionally delegate legislative power to prescribe the conditions under which aliens should be excluded. Pp. 542-543."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States ex rel. Knauff v. Shaughnessy, syllabus ¶ 4",
+      "page": 537,
+      "ref": "Case.104751.syllabus.4",
+      "text": "(c) It is not within the province of any court, unless expressly authorized by law, to review the determination of the political branch of the Government to exclude a given alien. P. 543."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States ex rel. Knauff v. Shaughnessy, syllabus ¶ 5",
+      "page": 538,
+      "ref": "Case.104751.syllabus.5",
+      "text": "(d) Any procedure authorized by Congress for the exclusion of aliens is due process, so far as an alien denied entry is concerned. P. 544."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States ex rel. Knauff v. Shaughnessy, syllabus ¶ 6",
+      "page": 538,
+      "ref": "Case.104751.syllabus.6",
+      "text": "(e) The regulations governing the entry of aliens into the United States during the national emergency proclaimed May 27, 1941, which were prescribed by the Secretary of State and the Attorney General pursuant to Presidential Proclamation 2523, were \"reasonable\" within the meaning of the Act of June 21, 1941. P. 544."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States ex rel. Knauff v. Shaughnessy, syllabus ¶ 7",
+      "page": 538,
+      "ref": "Case.104751.syllabus.7",
+      "text": "(f) Presidential Proclamation 2523 authorized the Attorney General as well as the Secretary of State to order the exclusion of aliens. P. 544."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States ex rel. Knauff v. Shaughnessy, syllabus ¶ 8",
+      "page": 538,
+      "ref": "Case.104751.syllabus.8",
+      "text": "(g) Petitioner, an alien, had no vested right of entry which could be the subject of a prohibition against retroactive operation of regulations affecting her status. P. 544."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States ex rel. Knauff v. Shaughnessy, syllabus ¶ 9",
+      "page": 538,
+      "ref": "Case.104751.syllabus.9",
+      "text": "(h) The national emergency proclaimed May 27, 1941, has not been terminated; a state of war still exists; and the Act of June 21, 1941, and the proclamations and regulations thereunder are still in force. Pp. 545-546."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States ex rel. Knauff v. Shaughnessy, syllabus ¶ 10",
+      "page": 538,
+      "ref": "Case.104751.syllabus.10",
+      "text": "(i) A different result is not required by the War Brides Act, which waives some of the usual requirements for the admission of certain alien spouses only if they are \"otherwise admissible under the immigration laws.\" Pp. 546-547."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States ex rel. Knauff v. Shaughnessy, syllabus ¶ 11",
+      "page": 538,
+      "ref": "Case.104751.syllabus.11",
+      "text": "173 F. 2d 599, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-338-537"
+  ],
+  "title": "United States ex rel. Knauff v. Shaughnessy",
+  "us_cite": "338 U.S. 537"
+}

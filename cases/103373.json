@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "overruled by West Virginia State Board of Education v. Barnette (table of overruled decisions)"
+  ],
+  "conan_citation": "Minersville School District v. Gobitis, 310 U.S. 586 (1940)",
+  "courtlistener_name": "Minersville School District v. Gobitis",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/103373/minersville-school-district-v-gobitis/",
+  "date": "1940-06-03",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 103373. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 310, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "103373",
+  "loc_url": "https://www.loc.gov/item/usrep310586/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep310/usrep310586/usrep310586.pdf",
+  "ref_prefix": "Case.103373",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Minersville School District v. Gobitis, syllabus ¶ 1",
+      "page": 586,
+      "ref": "Case.103373.syllabus.1",
+      "text": "1. A state regulation requiring that pupils in the public schools, on pain of expulsion, participate in a daily ceremony of saluting the national flag, whilst reciting in unison a pledge of allegiance to it -\"and to the Republic for which it stands; one Nation indivisible, with liberty and justice for all\"-held withiii the scope of legislative power, and consistent with the. Fourteenth Amendment, aa applied to children brought up in, and entertaining, a conscientious religious belief that such obeisance to the flag is forbidden by the Bible and that the Bible, as the Word of God, is the supreme authority. P. 591."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Minersville School District v. Gobitis, syllabus ¶ 2",
+      "page": 586,
+      "ref": "Case.103373.syllabus.2",
+      "text": "2. Religious c6nvictions do not relieve the individual from obedience to an otherwise valid general law not aimed at the promotion or * restriction of religious beliefs. P. 594."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Minersville School District v. Gobitis, syllabus ¶ 3",
+      "page": 586,
+      "ref": "Case.103373.syllabus.3",
+      "text": "3. So far as the Federal Constitution is concerned, it is within the province of the legislatures and school authorities of- the several States to adopt appropriate means to evoke and foster a sentiment of national unity among the children in the public schools. P. 597."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Minersville School District v. Gobitis, syllabus ¶ 4",
+      "page": 586,
+      "ref": "Case.103373.syllabus.4",
+      "text": "4. This Court can not exercise censorship over the conviction of legislatures that a. particular program or exercise will best promote in the minds of children who attend the common schools an attachment to the institutions of their country, nor overrule the local judgment against granting exemptions from observdnce of such a program. P. 598."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Minersville School District v. Gobitis, syllabus ¶ 5",
+      "page": 586,
+      "ref": "Case.103373.syllabus.5",
+      "text": "108 F. 2d 683, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-310-586"
+  ],
+  "title": "Minersville School District v. Gobitis",
+  "us_cite": "310 U.S. 586"
+}

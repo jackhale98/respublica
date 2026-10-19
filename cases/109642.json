@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C18.8 (5 pages)"
+  ],
+  "conan_citation": "Fiallo v. Bell, 430 U.S. 787 (1977)",
+  "courtlistener_name": "Fiallo Ex Rel. Rodriguez v. Bell",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109642/fiallo-ex-rel-rodriguez-v-bell/",
+  "date": "1977-04-26",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109642. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 430, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109642",
+  "loc_url": "https://www.loc.gov/item/usrep430787/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep430/usrep430787/usrep430787.pdf",
+  "ref_prefix": "Case.109642",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Fiallo v. Bell, syllabus ¶ 1",
+      "page": 787,
+      "ref": "Case.109642.syllabus.1",
+      "text": "Sections 101 (b) (1) (D) and 101 (b) (2) of the Immigration and Nationality Act of 1952, which have the effect of excluding the relationship between an illegitimate child and his natural father (as opposed to his natural mother) from the special preference immigration status accorded by the Act to the \"child\" or \"parent\" of a United States citizen or lawful permanent resident, held not to be unconstitutional. Pp. 792-800."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fiallo v. Bell, syllabus ¶ 2",
+      "page": 787,
+      "ref": "Case.109642.syllabus.2",
+      "text": "(a) This Court's cases \"have long recognized the power to expel or exclude aliens as a fundamental sovereign attribute exercised by the Government's political departments largely immune from judicial control,\" Shaughnessy v. Mezei, 345 U. S. 206, 210; see also Kleindienst v. Mandel, 408 U. S. 753; Harisiades v. Shaughnessy, 342 U. S. 580, 588- 589, and no factors exist in the instant case warranting a more searching judicial scrutiny than has generally been applied in immigration cases. Pp. 792-796."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fiallo v. Bell, syllabus ¶ 3",
+      "page": 787,
+      "ref": "Case.109642.syllabus.3",
+      "text": "(b) In enacting the challenged statutory provisions Congress was specifically concerned with clarifying the previous law so that the illegitimate child in relation to his mother would have the same status as a legitimate child, and the legislative history of those provisions reflects an intentional choice not to provide preferential immigration status by virtue of the relationship between an illegitimate child and his natural father. The distinction is one of many (such as those based on age) drawn by Congress pursuant to its determination to provide some-but not all-families with relief from various immigration restrictions that would otherwise hinder reunification of the family in this country. The decision as to where to draw the line is a policy question within Congress' exclusive province. Pp. 797-798."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fiallo v. Bell, syllabus ¶ 4",
+      "page": 787,
+      "ref": "Case.109642.syllabus.4",
+      "text": "(c) Whether Congress' determination that preferential status is not warranted for illegitimate children and their natural fathers results from a perceived absence in most cases of close family ties or a concern with serious problems of proof that usually lurk in paternity determinations, it is not for the courts to probe and test the justifications for the legislative decision. Kleindienst v. Mandel, supra, at 770. Pp. 798-799."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Fiallo v. Bell, syllabus ¶ 5",
+      "page": 787,
+      "ref": "Case.109642.syllabus.5",
+      "text": "406 F. Supp. 162, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-430-787"
+  ],
+  "title": "Fiallo v. Bell",
+  "us_cite": "430 U.S. 787"
+}

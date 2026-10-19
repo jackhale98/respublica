@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "cited on 13 pages"
+  ],
+  "conan_citation": "Warth v. Seldin, 422 U.S. 490 (1975)",
+  "courtlistener_name": "Warth v. Seldin",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109301/warth-v-seldin/",
+  "date": "1975-06-25",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109301. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 422, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109301",
+  "loc_url": "https://www.loc.gov/item/usrep422490/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep422/usrep422490/usrep422490.pdf",
+  "ref_prefix": "Case.109301",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Warth v. Seldin, syllabus ¶ 1",
+      "page": 490,
+      "ref": "Case.109301.syllabus.1",
+      "text": "This action for declaratory and injunctive relief and damages was brought by certain of the petitioners against respondent town of Penfield (a suburb of Rochester, N. Y.), and respondent members of Penfield's Zoning, Planning, and Town Boards, claiming that the town's zoning ordinance, by its terms and as enforced, effectively excluded persons of low and moderate income from living in the town, in violation of petitioners' constitutional rights and of 42 U. S. C. §§ 1981, 1982, and 1983. Petitioners consist of both the original plaintiffs-(1) Metro-Act of Rochester, a notfor-profit corporation among whose purposes is fostering action to alleviate the housing shortage for low- and moderate-income persons in the Rochester area; (2) several individual Rochester taxpayers; and (3) several Rochester area residents with low or moderate incomes who are also members of minority racial or ethnic groups-and Rochester Home Builders Association (Home Builders), embracing a number of residential construction firms in the Rochester area, which unsuccessfully sought to intervene as a party-plaintiff, and the Housing Council in the Monroe County Area (Housing Council), a not-for-profit corporation consisting of a number of organizations interested in housing problems, which was unsuccessfully sought to be added as a partyplaintiff. The District Court dismissed the complaint on the ground, inter alia, that petitioners lacked standing to prosecute the action, and the Court of Appeals affirmed. Held: Whether the rules of standing are considered as aspects of the constitutional requirement that a plaintiff must make out a \"case or controversy\" within the meaning of Art. III, or, apart from such requirement, as prudential limitations on the courts' role in resolving disputes involving \"generalized grievances\" or third parties' legal rights or interests, none of the petitioners has met the threshold requirement of such rules that to have standing a complainant must clearly allege facts demonstrating that he is a proper party to invoke judicial resolution of the dispute and the exercise of the court's remedial powers. Pp. 498-518."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warth v. Seldin, syllabus ¶ 2",
+      "page": 491,
+      "ref": "Case.109301.syllabus.2",
+      "text": "(a) As to petitioner Rochester residents who assert standing as persons of low or moderate income and, coincidentally, as members of minority racial or ethnic groups, the facts alleged fail to support an actionable causal relationship between Penfield's zoning practices and these petitioners' alleged injury. A plaintiff who seeks to challenge exclusionary zoning practices must allege specific, concrete facts demonstrating that such practices harm him, and that he personally would benefit in a tangible way from the court's intervention. Here, these petitioners rely on little more than the remote possibility, unsubstantiated by allegations of fact, that their situation might have been better had respondents acted otherwise, and might improve were the court to afford relief. Pp. 502-508."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warth v. Seldin, syllabus ¶ 3",
+      "page": 491,
+      "ref": "Case.109301.syllabus.3",
+      "text": "(b) With respect to petitioners who assert standing on the basis of their status as Rochester taxpayers, claiming that they are suffering economic injury through increased taxes resulting from Penfield's zoning practices having forced Rochester to provide more tax-abated low- or moderate-cost housing than it otherwise would have done, the line of causation between Penfield's actions and such injury is not apparent. But even assuming that these petitioners could establish that the zoning practices harm them, the basis of their claim is that the practices violate the constitutional and statutory rights of third parties-persons of low and moderate income who allegedly are excluded from Penfield. Hence, their claim falls squarely within the prudential standing rule that normally bars litigants from asserting the rights or legal interests of others in order to obtain relief from injury to themselves. Pp. 508-510."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warth v. Seldin, syllabus ¶ 4",
+      "page": 491,
+      "ref": "Case.109301.syllabus.4",
+      "text": "(c) Petitioner Metro-Act's claims to standing as a Rochester taxpayer and on behalf of its members who are Rochester taxpayers or persons of low or moderate income, are precluded for the reasons applying to the denial of standing to the individual petitioner Rochester taxpayers and persons of low and moderate income. In addition, with respect to Metro-Act's claim to standing because 9% of its membership is composed of Penfield residents, prudential considerations strongly counsel against according such residents or Metro-Act standing, where the complaint is that they have been harmed indirectly by the exclusion of others, thus attempting, in the absence of a showing of any exception allowing such a claim, to raise the putative rights of third parties. Trafficante v. Metropolitan Life Ins., 409 U. S. 205, distinguished. Pp. 512-514."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warth v. Seldin, syllabus ¶ 5",
+      "page": 492,
+      "ref": "Case.109301.syllabus.5",
+      "text": "(d) Petitioner Home Builders, which alleges no monetary injury to itself, has no standing to claim damages on behalf of its members, since whatever injury may have been suffered is peculiar to the individual member concerned, thus requiring individualized proof of both the fact and extent of injury and individual awards. Nor does Home Builders have standing to claim prospective relief, absent any allegation of facts sufficient to show the existence of any injury to members of sufficient immediacy and ripeness to warrant judicial intervention. Pp. 514-516."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warth v. Seldin, syllabus ¶ 6",
+      "page": 492,
+      "ref": "Case.109301.syllabus.6",
+      "text": "(e) Petitioner Housing Council has no standing, where the complaint and record do not indicate that any of its members, with one exception, has made any effort involving Penfield, has taken any steps toward building there, or had any dealings with respondents. With respect to the one exception, this petitioner averred no basis for inferring that an earlier controversy between it and respondents remained a live, concrete dispute. Pp. 516-517."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Warth v. Seldin, syllabus ¶ 7",
+      "page": 492,
+      "ref": "Case.109301.syllabus.7",
+      "text": "495 F. 2d 1187, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-422-490"
+  ],
+  "title": "Warth v. Seldin",
+  "us_cite": "422 U.S. 490"
+}

@@ -1,0 +1,76 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt5.3 (5 pages)"
+  ],
+  "conan_citation": "United States v. Scott, 437 U.S. 82 (1978)",
+  "courtlistener_date": "1978-10-02",
+  "courtlistener_name": "United States v. Scott",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109895/united-states-v-scott/",
+  "date": "1978-06-14",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109895. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 437, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109895",
+  "loc_url": "https://www.loc.gov/item/usrep437082/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep437/usrep437082/usrep437082.pdf",
+  "ref_prefix": "Case.109895",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Scott, syllabus ¶ 1",
+      "page": 82,
+      "ref": "Case.109895.syllabus.1",
+      "text": "Respondent, indicted for federal drug offenses, moved before trial and twice during trial for dismissal of two counts of the indictment on the ground that his defense had been prejudiced by preindictment delay. At the close of all the evidence the trial court granted respondent's motion. The Government sought to appeal the dismissals under 18 U. S. C. § 3731 (1976 ed.), which allows the United States to appeal from a district court's dismissal of an indictment except where the Double Jeopardy Clause of the Fifth Amendment prohibits further prosecution. The Court of Appeals, concluding that that Clause barred further prosecution, dismissed the appeal, relying on United States v. Jenkins, 420 U. S. 358. In that case the Court, following the principle underlying the Double Jeopardy Clause that the Government with all its resources and power should not be allowed to make repeated attempts to convict an individual for an alleged offense, held that, whether or not a dismissal of an indictment after jeopardy had attached amounted to an acquittal on the merits, the Government had no right to appeal because \"further proceedings of some sort, devoted to the resolution of factual issues going to the elements of the offense charged, would have been required upbn reversal and remand.\""
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Scott, syllabus ¶ 2",
+      "page": 82,
+      "ref": "Case.109895.syllabus.2",
+      "text": "Held: Where a defendant himself seeks to have his trial terminated without any submission to either judge or jury as to his guilt or innocence, an appeal by the Government from his successful effort to do so does not offend the Double Jeopardy Clause, and hence is not barred by 18 U. S. C. § 3731 (1976 ed.). United States v. Jenkins, supra, overruled. Pp. 87-101."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Scott, syllabus ¶ 3",
+      "page": 82,
+      "ref": "Case.109895.syllabus.3",
+      "text": "(a) The successful appeal of a judgment of conviction, except on the ground of insufficiency of the evidence to support the verdict, Burks v. United States, ante, p. 1, does not bar further prosecution on the same charge. A judgment of acquittal, whether based on a jury verdict of not guilty or on a ruling by the court that the evidence is insufficient to convict, may not be appealed and terminates the prosecution when a second trial would be necessitated by a reversal. Pp. 87-92."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Scott, syllabus ¶ 4",
+      "page": 82,
+      "ref": "Case.109895.syllabus.4",
+      "text": "(b) Where no final determination of guilt or innocence has been made a trial judge may declare a mistrial on the motion of the prosecution or upon his own initiative on1y if \"there is a manifest necessity for the act, or the ends of public justice would otherwise be defeated,\" United States v. Perez. 9 Wheat. 579, 580, but where a de fendant successfully seeks to avoid his trial prior to its conclusion hy a motion for a mistrial, the Double .Ieopardv Clause is not offended hy a second prosecution. Such 't motion 1 the defendant is deemed to be a deliberate election on his part to forgo his valued right to have his guilt or innocence determined by the first trier of fact. U'ited States v. Dinitz, 424 U. S. 600, 609. Pp. 92-94."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Scott, syllabus ¶ 5",
+      "page": 83,
+      "ref": "Case.109895.syllabus.5",
+      "text": "(c) At least in some cases, the dismissal of an indictment after jeopard has \"attached\" may be t reatecd on the same basis as the declaration of a mistrial even fhough a successful Goverrnent appeal would require further trial court proceedings leading to the factual resolution of the issue of guilt or innocence, see Lee v. Uoited States, 432 U. S. 23; and the Court's growing experience with Government appeals calls for a re-examination of the rationale in Jenkins in light of Lee; United States v. Martin Liven Supply Co., 430 U. S. 564; and other recent expositions of the Double Jeopardy Clause. Pp. 94-95."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Scott, syllabus ¶ 6",
+      "page": 83,
+      "ref": "Case.109895.syllabus.6",
+      "text": "(d) In a situation such as the instant one, where a defendant chooses to avoid conviction, not because of his assertion that the Government has failed to make out a case against him, but because of a legal claim that the Government's case against him must fail even though it might satisfy the trier of fact that he was guilly beyond a reasonable doubt, the defendant 1b deliberately choosing to seek termination of the trial suffers no injury cognizable under the Double .eopardy Clause if the Government is permitted to appeal from such a trial-court ruling favoring the defendant. The Double Jeopardy Clause, which guards against Government oppression, does not relieve a defendant of the consequences of his voluntary choice. Pp. 95-101."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Scott, syllabus ¶ 7",
+      "page": 83,
+      "ref": "Case.109895.syllabus.7",
+      "text": "544 F. 2d 903, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-437-82"
+  ],
+  "title": "United States v. Scott",
+  "us_cite": "437 U.S. 82"
+}

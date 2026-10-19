@@ -1,0 +1,96 @@
+{
+  "chosen_because": [
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Bond v. United States, 572 U.S. 844 (2014)",
+  "courtlistener_name": "Bond v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/2676593/bond-v-united-states/",
+  "date": "2014-06-02",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 2676593. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 572, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "2676593",
+  "loc_url": "https://www.loc.gov/item/usrep572844/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep572/usrep572844/usrep572844.pdf",
+  "ref_prefix": "Case.2676593",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Bond v. United States, syllabus ¶ 1",
+      "page": 844,
+      "ref": "Case.2676593.syllabus.1",
+      "text": "To implement the international Convention on the Prohibition of the Development, Production, Stockpiling, and Use of Chemical Weapons and on Their Destruction, Congress enacted the Chemical Weapons Convention Implementation Act of 1998. The statute forbids, among other things, any person knowingly to “possess[ ] or use . . . any chemical weapon.” 18 U. S. C. § 229(a)(1). A “chemical weapon” is “[a] toxic chemical and its precursors, except where intended for a purpose not prohibited under this chapter.” § 229F(1)(A). A “toxic chemical” is “any chemical which through its chemical action on life processes can cause death, temporary incapacitation or permanent harm to humans or animals. The term includes all such chemicals, regardless of their origin or of their method of production, and regardless of whether they are produced in facilities, in munitions or elsewhere.” § 229F(8)(A). “[P]urposes not prohibited by this chapter” is defned as “[a]ny peaceful purpose related to an industrial, agricultural, research, medical, or pharmaceutical activity or other activity,” and other specifc purposes. § 229F(7)."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bond v. United States, syllabus ¶ 2",
+      "page": 844,
+      "ref": "Case.2676593.syllabus.2",
+      "text": "Petitioner Bond sought revenge against Myrlinda Haynes—with whom her husband had carried on an affair—by spreading two toxic chemicals on Haynes's car, mailbox, and doorknob in hopes that Haynes would develop an uncomfortable rash. On one occasion Haynes suffered a minor chemical burn that she treated by rinsing with water, but Bond's attempted assaults were otherwise entirely unsuccessful. Federal prosecutors charged Bond with violating, among other things, section 229(a). Bond moved to dismiss the chemical weapons charges on the ground that the Act violates the Tenth Amendment. When the District Court denied her motion, she pleaded guilty but reserved the right to appeal. The Third Circuit initially held that Bond lacked standing to raise her Tenth Amendment challenge, but this Court reversed. On remand, the Third Circuit rejected her Tenth Amendment argument and her additional argument that section 229 does not reach her conduct."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bond v. United States, syllabus ¶ 3",
+      "page": 844,
+      "ref": "Case.2676593.syllabus.3",
+      "text": "Held: Section 229 does not reach Bond's simple assault. Pp. 854–866."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bond v. United States, syllabus ¶ 4",
+      "page": 844,
+      "ref": "Case.2676593.syllabus.4",
+      "text": "(a) The parties debate whether section 229 is a necessary and proper means of executing the Federal Government's power to make treaties, but “normally [this] Court will not decide a constitutional question if there is some other ground upon which to dispose of the case.” Escambia County v. McMillan, 466 U. S. 48, 51 (per curiam). Thus, this Court starts with Bond's argument that section 229 does not cover her conduct. Pp. 854–855."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bond v. United States, syllabus ¶ 5",
+      "page": 845,
+      "ref": "Case.2676593.syllabus.5",
+      "text": "(b) This Court has no need to interpret the scope of the international Chemical Weapons Convention in this case. The treaty specifes that a signatory nation should implement its obligations “in accordance with its constitutional processes.” Art. VII(1), 1974 U. N. T. S. 331. Bond was prosecuted under a federal statute, which, unlike the treaty, must be read consistent with the principles of federalism inherent in our constitutional structure. Pp. 855–866."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bond v. United States, syllabus ¶ 6",
+      "page": 845,
+      "ref": "Case.2676593.syllabus.6",
+      "text": "(1) A fair reading of section 229 must recognize the duty of “federal courts to be certain of Congress's intent before fnding that federal law overrides” the “usual constitutional balance of federal and state powers.” Gregory v. Ashcroft, 501 U. S. 452, 460. This principle applies to federal laws that punish local criminal activity, which has traditionally been the responsibility of the States. This Court's precedents have referred to basic principles of federalism in the Constitution to resolve ambiguity in federal statutes. See, e. g., United States v. Bass, 404 U. S. 336; Jones v. United States, 529 U. S. 848. Here, the ambiguity in the statute derives from the improbably broad reach of the key statutory defnition, given the term—“chemical weapon”—that is being defned, the deeply serious consequences of adopting such a boundless reading, and the lack of any apparent need to do so in light of the context from which the statute arose—a treaty about chemical warfare and terrorism, not about local assaults. Thus, the Court can reasonably insist on a clear indication that Congress intended to reach purely local crimes before interpreting section 229's expansive language in a way that intrudes on the States' police power. Pp. 856–860."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bond v. United States, syllabus ¶ 7",
+      "page": 845,
+      "ref": "Case.2676593.syllabus.7",
+      "text": "(2) No such clear indication is found in section 229. An ordinary speaker would not describe Bond's feud-driven act of spreading irritating chemicals as involving a “chemical weapon.” And the chemicals at issue here bear little resemblance to those whose prohibition was the object of an international Convention. Where the breadth of a statutory defnition creates ambiguity, it is appropriate to look to the ordinary meaning of the term being defned (here, “chemical weapon”) in settling on a fair reading of the statute. See Johnson v. United States, 559 U. S. 133."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bond v. United States, syllabus ¶ 8",
+      "page": 845,
+      "ref": "Case.2676593.syllabus.8",
+      "text": "The Government's reading of section 229 would transform a statute concerned with acts of war, assassination, and terrorism into a massive federal anti-poisoning regime that reaches the simplest of assaults. In light of the principle that Congress does not normally intrude upon the States' police power, this Court is reluctant to conclude that Congress meant to punish Bond's crime with a federal prosecution for a chemical weapons attack. In fact, only a handful of prosecutions have been brought under section 229, and most of those involved crimes not traditionally within the States' purview, e. g., terrorist plots."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bond v. United States, syllabus ¶ 9",
+      "page": 846,
+      "ref": "Case.2676593.syllabus.9",
+      "text": "Pennsylvania's laws are suffcient to prosecute assaults like Bond's, and there is no indication in section 229 that Congress intended to abandon its traditional “reluctan[ce] to defne as a federal crime conduct readily denounced as criminal by the States,” Bass, supra, at 349. That principle goes to the very structure of the Constitution, and “protects the liberty of the individual from arbitrary power.” Bond v. United States, 564 U. S. 211, 222. The global need to prevent chemical warfare does not require the Federal Government to reach into the kitchen cupboard. Pp. 860–866."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bond v. United States, syllabus ¶ 10",
+      "page": 846,
+      "ref": "Case.2676593.syllabus.10",
+      "text": "681 F. 3d 149, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-572-844"
+  ],
+  "title": "Bond v. United States",
+  "us_cite": "572 U.S. 844"
+}

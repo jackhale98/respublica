@@ -1,0 +1,40 @@
+{
+  "chosen_because": [
+    "named in the title of essay ArtI.S8.C4.1.4.2"
+  ],
+  "conan_citation": "Rogers v. Bellei, 401 U.S. 815 (1971)",
+  "courtlistener_name": "Rogers v. Bellei",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/108307/rogers-v-bellei/",
+  "date": "1971-04-05",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 108307. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 401, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "108307",
+  "loc_url": "https://www.loc.gov/item/usrep401815/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep401/usrep401815/usrep401815.pdf",
+  "ref_prefix": "Case.108307",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Rogers v. Bellei, syllabus ¶ 1",
+      "page": 815,
+      "ref": "Case.108307.syllabus.1",
+      "text": "Appellee challenges the constitutionality of § 301 (b): of the Imx aigration and Nationality-Act of 1952, which provides that one who acquires United States citizenship by virtue of having ben born abroad to parents, one of whom is an American citizen, whb has met certain residence requirements, shall'lose his citizenship unless he resides in this country continuously for five years between the ages of 14 and 28. The three-judge District Court held the section unconstitutional, citing Afroyim v. Rusk, -387 -U. Sr 253, hnd Schneider v. Rusk, 377 U. S.163. Held: Congress has the power to impose the condition. subsequent of residence in this country on appellee,-'wh does not come within the Fourteenth Amend ment's definition of citizens as those \"born or'naturalized in .the United States,\" and its imposition is not -unreasonable, arbitrary, or unlawful. Afroyim v. Rusk, supra, and -Schneider v. Rusk, supra, distinguished. Pp. 820-836."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rogers v. Bellei, syllabus ¶ 2",
+      "page": 815,
+      "ref": "Case.108307.syllabus.2",
+      "text": "296 F. Supp. 1247, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-401-815"
+  ],
+  "title": "Rogers v. Bellei",
+  "us_cite": "401 U.S. 815"
+}

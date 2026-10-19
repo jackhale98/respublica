@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt14.2 (5 pages)"
+  ],
+  "conan_citation": "Blum v. Yaretsky, 457 U.S. 991 (1982)",
+  "courtlistener_name": "Blum v. Yaretsky",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/110768/blum-v-yaretsky/",
+  "date": "1982-06-25",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 110768. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 457, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "110768",
+  "loc_url": "https://www.loc.gov/item/usrep457991/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep457/usrep457991/usrep457991.pdf",
+  "ref_prefix": "Case.110768",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Blum v. Yaretsky, syllabus ¶ 1",
+      "page": 991,
+      "ref": "Case.110768.syllabus.1",
+      "text": "As a participating State in the Medicaid program established by the Social Security Act, New York provides Medicaid assistance to eligible persons who receive care in private nursing homes, which are designated as either \"skilled nursing facilities\" (SNF's) or \"health related facilities\" (HRF's), the latter providing less extensive, and generally less expensive, medical care than the former. The nursing homes are directly reimbursed by the State for the reasonable cost of health care services. To obtain Medicaid assistance, an individual must satisfy eligibility standards in terms of income or resources and must seek medically necessary services. As to the latter requirement, federal regulations require each nursing home to establish a utilization review committee (URC) of physicians whose functions include periodically assessing whether each patient is receiving the appropriate level of care, and thus whether the patient's continued stay in the facility is justified. Respondents, who were Medicaid patients in an SNF, instituted a class action in Federal District Court after the nursing home's URC decided that they should be transferred to a lower level of care in an HRF and so notified local officials, and after administrative hearings resulting in affirmance by state officials of the local officials' decision to discontinue benefits unless respondents accepted transfer to an HRF. Respondents alleged, inter alia, that they had not been afforded adequate notice either of the URC decisions and the reasons supporting them or of their right to an administrative hearing to challenge those decisions, as required by the Due Process Clause of the Fourteenth Amendment. Respondents later added claims as to procedural safeguards that should also apply to URC decisions transferring a patient to a higher level of care and to transfers of any kind initiated by the nursing homes themselves or by the patients' attending physicians. Ultimately the court approved a consent judgment establishing procedural rights applicable to URCinitiated transfers to lower levels of care, and ruled in respondents' favor as to transfers to higher levels of care and all transfers initiated by the facility or its agent. The court permanently enjoined petitioner state officials and all SNF's and HRF's in the State from permitting or ordering discharges of class members or their transfers to a different level of care, without prior written notice and an evidentiary hearing. The Court of Appeals affirmed, holding that URC-initiated transfers to a higher level of care and all discharges and transfers by nursing homes or attending physicians involved \"state action\" for purposes of the Fourteenth Amendment."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Blum v. Yaretsky, syllabus ¶ 2",
+      "page": 992,
+      "ref": "Case.110768.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Blum v. Yaretsky, syllabus ¶ 3",
+      "page": 992,
+      "ref": "Case.110768.syllabus.3",
+      "text": "1. Respondents have standing to challenge the procedural adequacy of facility-initiated discharges and transfers to lower levels of care. Although respondents were threatened only with URC-initiated transfers to lower levels of care, and although the consent judgment in the District Court halted implementation of such URC decisions, the threat that the nursing homes might determine, independently of the URC decisions, that respondents' continued stay at current levels of care was not medically necessary is not imaginary or speculative but is quite realistic. However, the threat of transfers to higher levels of care is not of sufficient immediacy and reality that respondents presently have standing to seek an adjudication of the procedures attending such transfers. Thus the District Court exceeded its authority under Art. III in adjudicating the procedures governing transfers to higher levels of care. Pp. 999-1002."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Blum v. Yaretsky, syllabus ¶ 4",
+      "page": 992,
+      "ref": "Case.110768.syllabus.4",
+      "text": "2. Respondents failed to establish \"state action\" in the nursing homes' decisions to discharge or transfer Medicaid patients to lower levels of care and thus failed to prove that petitioners have violated rights secured by the Fourteenth Amendment. Pp. 1002-1012."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Blum v. Yaretsky, syllabus ¶ 5",
+      "page": 992,
+      "ref": "Case.110768.syllabus.5",
+      "text": "(a) The mere fact that a private business is subject to state regulation does not by itself convert its action into that of the State for purposes of the Fourteenth Amendment. A State normally can be held responsible for a private decision only when it has exercised coercive power or has provided such significant encouragement that the choice must in law be deemed to be that of the State. Pp. 1003-1005."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Blum v. Yaretsky, syllabus ¶ 6",
+      "page": 992,
+      "ref": "Case.110768.syllabus.6",
+      "text": "(b) The fact that the State responds to the nursing homes' discharge or transfer decisions by adjusting the patients' Medicaid benefits does not render it responsible for those decisions. Moreover, the pertinent statutes and regulations do not constitute affirmative commands by the State for summary discharge or transfer of Medicaid patients who are thought to be inappropriately placed in nursing facilities. The State, by requiring completion by physicians or nursing homes of forms relating to a patient's condition and discharge or transfer decisions, is not responsible for the decisions of the physicians or nursing homes. Those decisions ultimately turn on medical judgments made by private parties according to professional standards that are not established by the State. Similarly, regulations imposing penalties on nursing homes that fail to discharge or transfer patients whose continued stay is inappropriate do not themselves dictate the decision to discharge or transfer in a particular case. And even though the State subsidizes the cost of the facilities, pays the expenses of the patients, and licenses the facilities, the action of the nursing homes is not thereby converted into \"state action.\" Nor do the nursing homes perform a function that has been \"traditionally the exclusive prerogative of the State,\" Jackson v. Metropolitan Edison Co., 419 U. S. 345, 353, so as to establish the required nexus between the State and the challenged action. Pp. 1005-1012."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Blum v. Yaretsky, syllabus ¶ 7",
+      "page": 993,
+      "ref": "Case.110768.syllabus.7",
+      "text": "629 F. 2d 817, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-457-991"
+  ],
+  "title": "Blum v. Yaretsky",
+  "us_cite": "457 U.S. 991"
+}

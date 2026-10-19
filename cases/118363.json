@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "cited on 10 pages"
+  ],
+  "conan_citation": "United States v. Morrison, 529 U.S. 598 (2000)",
+  "courtlistener_name": "United States v. Morrison",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/118363/united-states-v-morrison/",
+  "date": "2000-05-15",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 118363. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 529, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "118363",
+  "loc_url": "https://www.loc.gov/item/usrep529598/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep529/usrep529598/usrep529598.pdf",
+  "ref_prefix": "Case.118363",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Morrison, syllabus ¶ 1",
+      "page": 598,
+      "ref": "Case.118363.syllabus.1",
+      "text": "Petitioner Brzonkala filed suit, alleging, inter alia, that she was raped by respondents while the three were students at Virginia Polytechnic Institute, and that this attack violated 42 U. S. C. § 13981, which provides a federal civil remedy for the victims of gender-motivated violence. Respondents moved to dismiss on the grounds that the complaint failed to state a claim and that § 13981's civil remedy is unconstitutional. Petitioner United States intervened to defend the section's constitutionality. In dismissing the complaint, the District Court held that it stated a claim against respondents, but that Congress lacked authority to enact § 13981 under either the Commerce Clause or § 5 of the Fourteenth Amendment, which Congress had explicitly identified as the sources of federal authority for § 13981. The en banc Fourth Circuit affirmed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Morrison, syllabus ¶ 2",
+      "page": 598,
+      "ref": "Case.118363.syllabus.2",
+      "text": "Held: Section 13981 cannot be sustained under the Commerce Clause or § 5 of the Fourteenth Amendment. Pp. 607-627."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Morrison, syllabus ¶ 3",
+      "page": 598,
+      "ref": "Case.118363.syllabus.3",
+      "text": "(a) The Commerce Clause does not provide Congress with authority to enact § 13981's federal civil remedy. A congressional enactment will be invalidated only upon a plain showing that Congress has exceeded its constitutional bounds. See United States v. Lopez, 514 U. S. 549, 568, 577-578. Petitioners assert that § 13981 can be sustained under Congress' commerce power as a regulation of activity that substantially affects interstate commerce. The proper framework for analyzing such a claim is provided by the principles the Court set out in Lopez. First, in Lopez, the noneconomic, criminal nature of possessing a firearm in a school zone was central to the Court's conclusion that Congress lacks authority to regulate such possession. Similarly, gender-motivated crimes of violence are not, in any sense, economic activity. Second, like the statute at issue in Lopez, § 13981 contains no jurisdictional element establishing that the federal cause of action is in pursuance of Congress' regulation of interstate commerce. Although Lopez makes clear that such a jurisdictional element would lend support to the argument that § 13981 is sufficiently tied to interstate commerce to come within Congress' authority, Congress elected to cast § 13981's remedy over a wider, and more purely intrastate, body of violent crime. Third, although § 13981, unlike the Lopez statute, is supported by numerous findings regarding the serious impact of gender-motivated violence on victims and their families, these findings are substantially weakened by the fact that they rely on reasoning that this Court has rejected, namely, a but-for causal chain from the initial occurrence of violent crime to every attenuated effect upon interstate commerce. If accepted, this reasoning would allow Congress to regulate any crime whose nationwide, aggregated impact has substantial effects on employment, production, transit, or consumption. Moreover, such reasoning will not limit Congress to regulating violence, but may be applied equally as well to family law and other areas of state regulation since the aggregate effect of marriage, divorce, and childrearing on the national economy is undoubtedly significant. The Constitution requires a distinction between what is truly national and what is truly local, and there is no better example of the police power, which the Founders undeniably left reposed in the States and denied the central Government, than the suppression of violent crime and vindication of its victims. Congress therefore may not regulate noneconomic, violent criminal conduct based solely on the conduct's aggregate effect on interstate commerce. Pp. 607-619."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Morrison, syllabus ¶ 4",
+      "page": 599,
+      "ref": "Case.118363.syllabus.4",
+      "text": "(b) Section 5 of the Fourteenth Amendment, which permits Congress to enforce by appropriate legislation the constitutional guarantee that no State shall deprive any person of life, liberty, or property without due process, or deny any person equal protection of the laws, City of Boerne v. Flores, 521 U. S. 507, 517, also does not give Congress the authority to enact § 13981. Petitioners' assertion that there is pervasive bias in various state justice systems against victims of gendermotivated violence is supported by a voluminous congressional record. However, the Fourteenth Amendment places limitations on the manner in which Congress may attack discriminatory conduct. Foremost among them is the principle that the Amendment prohibits only state action, not private conduct. This was the conclusion reached in United States v. Harris, 106 U. S. 629, and the Civil Rights Cases, 109 U. S. 3, which were both decided shortly after the Amendment's adoption. The force of the doctrine of stare decisis behind these decisions stems not only from the length of time they have been on the books, but also from the insight attributable to the Members of the Court at that time, who all had intimate knowledge and familiarity with the events surrounding the Amendment's adoption. Neither United States v. Guest, 383 U. S. 745, nor District of Columbia v. Carter, 409 U. S. 418, casts any doubt on the enduring vitality of the Civil Rights Cases and Harris. Assuming that there has been gender-based disparate treatment by state authorities in these cases, it would not be enough to save § 13981's civil remedy, which is directed not at a State or state actor but at individuals who have committed criminal acts motivated by gender bias. Section 13981 visits no consequence on any Virginia public official involved in investigating or prosecuting Brzonkala's assault, and it is thus unlike any of the § 5 remedies this Court has previously upheld. See, e. g., South Carolina v. Katzenbach, 383 U. S. 301. Section 13981 is also different from previously upheld remedies in that it applies uniformly throughout the Nation, even though Congress' findings indicate that the problem addressed does not exist in all, or even most, States. In contrast, the § 5 remedy in Katzenbach was directed only to those States in which Congress found that there had been discrimination. Pp. 619-627."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Morrison, syllabus ¶ 5",
+      "page": 600,
+      "ref": "Case.118363.syllabus.5",
+      "text": "169 F. 3d 820, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-529-598"
+  ],
+  "title": "United States v. Morrison",
+  "us_cite": "529 U.S. 598"
+}

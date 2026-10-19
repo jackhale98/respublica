@@ -1,0 +1,54 @@
+{
+  "chosen_because": [
+    "named in the title of essay Amdt14.S1.6.2.2"
+  ],
+  "conan_citation": "Lochner v. New York, 198 U.S. 45 (1905)",
+  "courtlistener_name": "Lochner v. New York",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/96276/lochner-v-new-york/",
+  "date": "1905-04-17",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 96276. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 198, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "96276",
+  "loc_url": "https://www.loc.gov/item/usrep198045/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep198/usrep198045/usrep198045.pdf",
+  "ref_prefix": "Case.96276",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Lochner v. New York, syllabus ¶ 1",
+      "page": 45,
+      "ref": "Case.96276.syllabus.1",
+      "text": "-The general right to make a contract in relation-to his business is part of the liberty protected by the Fourteenth Amendment, and this includes the right to purchase and sell labor, except as controlled by the State mn the legitimate exercise of its police power."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Lochner v. New York, syllabus ¶ 2",
+      "page": 45,
+      "ref": "Case.96276.syllabus.2",
+      "text": "Liberty of contract relating to labor includes both parties to it; the one has ' as much right to purchase as the other to sell labor."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Lochner v. New York, syllabus ¶ 3",
+      "page": 45,
+      "ref": "Case.96276.syllabus.3",
+      "text": "There is no reasonable ground, on the score of health, for mterfermg.with the liberty of the person or the right of free\" contract, by determining the hours of labor, in the occupation of a baker. Nor can a law limiting such hours be justified as a health law to safeguard the public health, or the health of the individuals folfowing that occupation."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Lochner v. New York, syllabus ¶ 4",
+      "page": 45,
+      "ref": "Case.96276.syllabus.4",
+      "text": "Section 110 of the labor law of the State of New York, providing that no employds shall be required or permitted to work m bakeries more than sixty hours in a week, or ten hours a day, is not a legitimate exercise of the police power of the State, but an unreasonable, unnecessary and arbitrary interference with the right and liberty of the individual to contract, in relation to labor, and as such it is in conflict with, and void under, the Federal Constitution."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-198-45"
+  ],
+  "title": "Lochner v. New York",
+  "us_cite": "198 U.S. 45"
+}

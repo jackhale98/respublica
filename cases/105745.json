@@ -1,0 +1,55 @@
+{
+  "chosen_because": [
+    "overruled by Miranda v. Arizona (table of overruled decisions)"
+  ],
+  "conan_citation": "Crooker v. California, 357 U.S. 433 (1958)",
+  "courtlistener_date": "1958-10-13",
+  "courtlistener_name": "Crooker v. California",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/105745/crooker-v-california/",
+  "date": "1958-06-30",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 105745. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 357, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "105745",
+  "loc_url": "https://www.loc.gov/item/usrep357433/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep357/usrep357433/usrep357433.pdf",
+  "ref_prefix": "Case.105745",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Crooker v. California, syllabus ¶ 1",
+      "page": 433,
+      "ref": "Case.105745.syllabus.1",
+      "text": "Petitioner, a 31-year-old college graduate who had attended the first year of law school and had studied criminal law, was 'convicted in a state court of murder and sentenced to death, 'and his conviction was affirmed by the State Supreme Court. He claims that his conviction violated the Due Process Clause of the Fourteenth Amendment, because (1) the confession admitted in evidence over his objection was coerced, and (2) even if it was voluntary, it occurred while he was without counsel because of denials of His requests for an opportunity to obtain counsel. During the 14 hours between his arrest and confession, he asked several times for an opportunity to get counsel, but this was denied until after he had confessed. Meanwhile, he refused to take a lie detector test, refused to answer many questions, and showed full awareness of his right to be silent. He was advised by a police lieutenant that he need not answer any questions he did not wish to answer. The questioning by several police officers was intermittent, and petitioner was given coffee, milk and a sanowich and allowed to smoke whenever he liked. Held: The judgment is affirmed. Pp. 434-441."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crooker v. California, syllabus ¶ 2",
+      "page": 433,
+      "ref": "Case.105745.syllabus.2",
+      "text": "1. On the record, this Court is unable to say that petitioner's confession was'anything other than voluntary. Pp. 434-438."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crooker v. California, syllabus ¶ 3",
+      "page": 433,
+      "ref": "Case.105745.syllabus.3",
+      "text": "2. Denial by state officials of the request of an accused for an opportunity to engage counsel at any stage of the pre-trial proceedings in a criminal case violates due process, if 'he is so prejudiced thereby as to make his subsequent trial lacking in basic fairness; but the record in this case does not show that petitioner was so prejudiced. Pp. 438-441."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Crooker v. California, syllabus ¶ 4",
+      "page": 433,
+      "ref": "Case.105745.syllabus.4",
+      "text": "47 Cal. 2d 348, 303 P. 2d 753, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-357-433"
+  ],
+  "title": "Crooker v. California",
+  "us_cite": "357 U.S. 433"
+}

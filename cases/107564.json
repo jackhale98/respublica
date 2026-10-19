@@ -1,0 +1,68 @@
+{
+  "chosen_because": [
+    "cited on 11 pages"
+  ],
+  "conan_citation": "Katz v. United States, 389 U.S. 347 (1967)",
+  "courtlistener_name": "Katz v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107564/katz-v-united-states/",
+  "date": "1967-12-18",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107564. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 389, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107564",
+  "loc_url": "https://www.loc.gov/item/usrep389347/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep389/usrep389347/usrep389347.pdf",
+  "ref_prefix": "Case.107564",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Katz v. United States, syllabus ¶ 1",
+      "page": 347,
+      "ref": "Case.107564.syllabus.1",
+      "text": "Petitioner was convicted under an indictment charging him with transmitting wagering information by telephone across state lines in violation of 18 U. S. C. § 1084. Evidence of petitioner's end of the conversations, overheard by FBI agents who had attached an electronic listening and recording device to the outside of the telephone booth from which the calls were made, was introduced at the trial. The Court of Appeals affirmed the conviction, finding that there was no Fourth Amendment violation since there was \"no physical entrance into the area occupied by\" petitioner. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Katz v. United States, syllabus ¶ 2",
+      "page": 347,
+      "ref": "Case.107564.syllabus.2",
+      "text": "1. The Government's eavesdropping activities violated the privacy upon which petitioner justifiably relied while using the telephone booth and thus constituted a \"search and seizure\" within the meaning of the Fourth Amendment. Pp. 350-353."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Katz v. United States, syllabus ¶ 3",
+      "page": 347,
+      "ref": "Case.107564.syllabus.3",
+      "text": "(a) The Fourth Amendment governs not only the seizure of tangible items but extends as well to the recording of oral statements. Silverman v. United States, 365 U. S. 505, 511. P. 353."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Katz v. United States, syllabus ¶ 4",
+      "page": 347,
+      "ref": "Case.107564.syllabus.4",
+      "text": "(b) Because the Fourth Amendment protects people rather than places, its reach cannot turn on the presence or absence of a physical intrusion into any given enclosure. The \"trespass\" doctrine of Olmstead v. United States, 277 U. S. 438, and Goldman v. United States, 316 U. S. 129, is no longer controlling. Pp. 351, 353."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Katz v. United States, syllabus ¶ 5",
+      "page": 347,
+      "ref": "Case.107564.syllabus.5",
+      "text": "2. Although the surveillance in this case may have been so narrowly circumscribed that it could constitutionally have been authorized in advance, it was not in fact conducted pursuant to the warrant procedure which is a constitutional precondition of such electronic surveillance. Pp. 354-359."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Katz v. United States, syllabus ¶ 6",
+      "page": 347,
+      "ref": "Case.107564.syllabus.6",
+      "text": "369 F. 2d 130, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-389-347"
+  ],
+  "title": "Katz v. United States",
+  "us_cite": "389 U.S. 347"
+}

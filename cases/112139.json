@@ -1,0 +1,132 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtII.S2.C2.3 (9 pages)",
+    "cited on 18 pages"
+  ],
+  "conan_citation": "Morrison v. Olson, 487 U.S. 654 (1988)",
+  "courtlistener_name": "Morrison v. Olson",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112139/morrison-v-olson/",
+  "date": "1988-06-29",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112139. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 487, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112139",
+  "loc_url": "https://www.loc.gov/item/usrep487654/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep487/usrep487654/usrep487654.pdf",
+  "ref_prefix": "Case.112139",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 1",
+      "page": 654,
+      "ref": "Case.112139.syllabus.1",
+      "text": "This case presents the question of the constitutionality of the independent counsel provisions of the Ethics in Government Act of 1978 (Act). It arose when the House Judiciary Committee began an investigation into the Justice Department's role in a controversy between the House and the Environmental Protection Agency (EPA) with regard to the Agency's limited production of certain documents that had been subpoenaed during an earlier House investigation. The Judiciary Committee's Report suggested that an official of the Attorney General's Office (appellee Olson) had given false testimony during the earlier EPA investigation, and that two other officials of that Office (appellees Schmults and Dinkins) had obstructed the EPA investigation by wrongfully withholding certain documents. A copy of the Report was forwarded to the Attorney General with a request, pursuant to the Act, that he seek appointment of an independent counsel to investigate the allegations against appellees. Ultimately, pursuant to the Act's provisions, the Special Division (a special court created by the Act) appointed appellant as independent counsel with respect to Olson only, and gave her jurisdiction to investigate whether Olson's testimony, or any other matter related thereto, violated federal law, and to prosecute any violations. When a dispute arose between independent counsel and the Attorney General, who refused to furnish as \"related matters\" the Judiciary Committee's allegations against Schmults and Dinkins, the Special Division ruled that its grant of jurisdiction to counsel was broad enough to permit inquiry into whether Olson had conspired with others, including Schmults and Dinkins, to obstruct the EPA investigation. Appellant then caused a grand jury to issue subpoenas on appellees, who moved in Federal District Court to quash the subpoenas, claiming that the Act's independent counsel provisions were unconstitutional and that appellant accordingly had no authority to proceed. The court upheld the Act's constitutionality, denied the motions, and later ordered that appellees be held in contempt for continuing to refuse to comply with the subpoenas. The Court of Appeals reversed, holding that the Act violated the Appointments Clause of the Constitution, Art. II, § 2, cl. 2; the limitations of Article III; and the principle of separation of powers by interfering with the President's authority under Article II."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 2",
+      "page": 655,
+      "ref": "Case.112139.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 3",
+      "page": 655,
+      "ref": "Case.112139.syllabus.3",
+      "text": "1. There is no merit to appellant's contention-based on Blair v. United States, 250 U. S. 273, which limited the issues that may be raised by a person who has been held in contempt for failure to comply with a grand jury subpoena-that the constitutional issues addressed by the Court of Appeals cannot be raised on this appeal from the District Court's contempt judgment. The Court of Appeals ruled that, because appellant had failed to object to the District Court's consideration of the merits of appellees' constitutional claims, she had waived her opportunity to contend on appeal that Blair barred review of those claims. Appellant's contention is not \"jurisdictional\" in the sense that it cannot be waived by failure to raise it at the proper time and place. Nor is it the sort of claim which would defeat jurisdiction in the District Court by showing that an Article III \"Case or Controversy\" is lacking. Pp. 669-670."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 4",
+      "page": 655,
+      "ref": "Case.112139.syllabus.4",
+      "text": "2. It does not violate the Appointments Clause for Congress to vest the appointment of independent counsel in the Special Division. Pp. 670-677."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 5",
+      "page": 655,
+      "ref": "Case.112139.syllabus.5",
+      "text": "(a) Appellant is an \"inferior\" officer for purposes of the Clause, which-after providing for the appointment of certain federal officials (\"principal\" officers) by the President with the Senate's advice and consent-states that \"the Congress may by Law vest the Appointment of such inferior Officers, as they think proper, in the President alone, in the Courts of Law, or in the Heads of Departments.\" Although appellant may not be \"subordinate\" to the Attorney General (and the President) insofar as, under the Act, she possesses a degree of independent discretion to exercise the powers delegated to her, the fact that the Act authorizes her removal by the Attorney General indicates that she is to some degree \"inferior\" in rank and authority. Moreover, appellant is empowered by the Act to perform only certain, limited duties, restricted primarily to investigation and, if appropriate, prosecution for certain federal crimes. In addition, appellant's office is limited in jurisdiction to that which has been granted by the Special Division pursuant to a request by the Attorney General. Also, appellant's office is \"temporary\" in the sense that an independent counsel is appointed essentially to accomplish a single task, and when that task is over the office is terminated, either by counsel herself or by action of the Special Division. Pp. 670-673."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 6",
+      "page": 655,
+      "ref": "Case.112139.syllabus.6",
+      "text": "(b) There is no merit to appellees' argument that, even if appellant is an \"inferior\" officer, the Clause does not empower Congress to place the power to appoint such an officer outside the Executive Branch-that is, to make \"interbranch appointments.\" The Clause's language as to \"inferior\" officers admits of no limitation on interbranch appointments, but instead seems clearly to give Congress significant discretion to determine whether it is \"proper\" to vest the appointment of, for example, executive officials in the \"courts of Law.\" The Clause's history provides no support for appellees' position. Moreover, Congress was concerned when it created the office of independent counsel with the conflicts of interest that could arise in situations when the Executive Branch is called upon to investigate its own high-ranking officers, and the most logical place to put the appointing authority was in the Judicial Branch. In light of the Act's provision making the judges of the Special Division ineligible to participate in any matters relating to an independent counsel they have appointed, appointment of independent counsel by that court does not run afoul of the constitutional limitation on \"incongruous\" interbranch appointments. Pp. 673-677."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 7",
+      "page": 656,
+      "ref": "Case.112139.syllabus.7",
+      "text": "3. The powers vested in the Special Division do not violate Article III, under which executive or administrative duties of a nonjudicial nature may not be imposed on judges holding office under Article III. Pp. 677-685."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 8",
+      "page": 656,
+      "ref": "Case.112139.syllabus.8",
+      "text": "(a) There can be no Article III objection to the Special Division's exercise of the power, under the Act, to appoint independent counsel, since the power itself derives from the Appointments Clause, a source of authority for judicial action that is independent of Article III. Moreover, the Division's Appointments Clause powers encompass the power to define the independent counsel's jurisdiction. When, as here, Congress creates a temporary \"office,\" the nature and duties of which will by necessity vary with the factual circumstances giving rise to the need for an appointment in the first place, it may vest the power to define the office's scope in the court as an incident to the appointment of the officer pursuant to the Appointments Clause. However, the jurisdiction that the court decides upon must be demonstrably related to the factual circumstances that gave rise to the Attorney General's request for the appointment of independent counsel in the particular case. Pp. 678-679."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 9",
+      "page": 656,
+      "ref": "Case.112139.syllabus.9",
+      "text": "(b) Article III does not absolutely prevent Congress from vesting certain miscellaneous powers in the Special Division under the Act. One purpose of the broad prohibition upon the courts' exercise of executive or administrative duties of a nonjudicial nature is to maintain the separation between the Judiciary and the other branches of the Federal Government by ensuring that judges do not encroach upon executive or legislative authority or undertake tasks that are more properly accomplished by those branches. Here, the Division's miscellaneous powerssuch as the passive powers to \"receive\" (but not to act on or specifically approve) various reports from independent counsel or the Attorney General-do not encroach upon the Executive Branch's authority. The Act simply does not give the Division power to \"supervise\" the independent counsel in the exercise of counsel's investigative or prosecutorial authority. And, the functions that the Division is empowered to perform are not inherently \"Executive,\" but are directly analogous to functions that federal judges perform in other contexts. Pp. 680-681."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 10",
+      "page": 657,
+      "ref": "Case.112139.syllabus.10",
+      "text": "(c) The Special Division's power to terminate an independent counsel's office when counsel's task is completed-although \"administrative\" to the extent that it requires the Division to monitor the progress of counsel's proceedings and to decide whether counsel's job is \"completed\"-is not such a significant judicial encroachment upon executive power or upon independent counsel's prosecutorial discretion as to require that the Act be invalidated as inconsistent with Article III. The Act's termination provisions do not give the Division anything approaching the power to remove the counsel while an investigation or court proceeding is still underway-this power is vested solely in the Attorney General. Pp. 682-683."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 11",
+      "page": 657,
+      "ref": "Case.112139.syllabus.11",
+      "text": "(d) Nor does the Special Division's exercise of the various powers specifically granted to it pose any threat to the impartial and independent federal adjudication of claims within the judicial power of the United States. The Act gives the Division itself no power to review any of the independent counsel's actions or any of the Attorney General's actions with regard to the counsel. Accordingly, there is no risk of partisan or biased adjudication of claims regarding the independent counsel by that court. Moreover, the Act prevents the Division's members from participating in \"any judicial proceeding concerning a matter which involves such independent counsel while such independent counsel is serving in that office or which involves the exercise of such independent counsel's official duties, regardless of whether such independent counsel is still serving in that office.\" Pp. 683-685."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 12",
+      "page": 657,
+      "ref": "Case.112139.syllabus.12",
+      "text": "4. The Act does not violate separation of powers principles by impermissibly interfering with the functions of the Executive Branch. Pp. 685-696."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 13",
+      "page": 657,
+      "ref": "Case.112139.syllabus.13",
+      "text": "(a) The Act's provision restricting the Attorney General's power to remove the independent counsel to only those instances in which he can show \"good cause,\" taken by itself, does not impermissibly interfere with the President's exercise of his constitutionally appointed functions. Here, Congress has not attempted to gain a role in the removal of executive officials other than its established powers of impeachment and conviction. The Act instead puts the removal power squarely in the hands of the Executive Branch. Bowsher v. Synar, 478 U. S. 714, and Myers v. United States, 272 U. S. 52, distinguished. The determination of whether the Constitution allows Congress to impose a \"good cause\"-type restriction on the President's power to remove an official does not turn on whether or not that official is classified as \"purely executive.\" The analysis contained in this Court's removal cases is designed not to define rigid categories of those officials who may or may not be removed at will by the President, but to ensure that Congress does not interfere with the President's exercise of the \"executive power\" and his constitutionally appointed duty to \"take care that the laws be faithfully executed\" under Article II. Cf. Humphrey's Executor v. United States, 295 U. S. 602; Wiener v. United States, 357 U. S. 349. Here, the Act's imposition of a \"good cause\" standard for removal by itself does not unduly trammel on executive authority. The congressional determination to limit the Attorney General's removal power was essential, in Congress' view, to establish the necessary independence of the office of independent counsel. Pp. 685-693."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 14",
+      "page": 658,
+      "ref": "Case.112139.syllabus.14",
+      "text": "(b) The Act, taken as a whole, does not violate the principle of separation of powers by unduly interfering with the Executive Branch's role. This case does not involve an attempt by Congress to increase its own powers at the expense of the Executive Branch. The Act does empower certain Members of Congress to request the Attorney General to apply for the appointment of an independent counsel, but the Attorney General has no duty to comply with the request, although he must respond within a certain time limit. Other than that, Congress' role under the Act is limited to receiving reports or other information and to oversight of the independent counsel's activities, functions that have been recognized generally as being incidental to the legislative function of Congress. Similarly, the Act does not work any judicial usurpation of properly executive functions. Nor does the Act impermissibly undermine the powers of the Executive Branch, or disrupt the proper balance between the coordinate branches by preventing the Executive Branch from accomplishing its constitutionally assigned functions. Even though counsel is to some degree \"independent\" and free from Executive Branch supervision to a greater extent than other federal prosecutors, the Act gives the Executive Branch sufficient control over the independent counsel to ensure that the President is able to perform his constitutionally assigned duties. Pp. 693-696."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Morrison v. Olson, syllabus ¶ 15",
+      "page": 658,
+      "ref": "Case.112139.syllabus.15",
+      "text": "267 U. S. App. D. C. 178, 838 F. 2d 476, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-487-654"
+  ],
+  "title": "Morrison v. Olson",
+  "us_cite": "487 U.S. 654"
+}

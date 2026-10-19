@@ -3,9 +3,10 @@ import io
 import unittest
 import urllib.error
 
-from importers.cases import printed_name
-from importers.courtlistener import CourtListenerError, clusters_for, docket_source, docket_url, match, printed_year
-from importers.usreports import DATE_MORE, Paragraph, _finish, _merge_fragments, problems
+from importers.cases import case_date, printed_name
+from importers.courtlistener import (CourtListenerError, clusters_for, docket_source, docket_url, dockets, match,
+                                     printed_date, printed_year)
+from importers.usreports import DATE_MORE, DECIDED, Paragraph, PrintedDates, _finish, _merge_fragments, problems
 from tools.common import _retry_after, auth_headers
 from tools.pdf import Line
 
@@ -66,11 +67,52 @@ class CourtListenerTests(unittest.TestCase):
     def test_match_fails_loudly(self):
         for key, name in (("1 U.S. 1", "A v. B, 1 U.S. 1 (1790)"),      # none
                           ("2 U.S. 2", "C v. D, 2 U.S. 2 (1790)"),      # several
-                          ("347 U.S. 483", "Brown, 347 U.S. 483 (1955)"),  # wrong year
+                          ("347 U.S. 483", "Brown, 347 U.S. 483 (1956)"),  # more than a year off
                           ("3 U.S. 3", "E v. F, 3 U.S. 3 (1791)")):     # never looked up
             with self.assertRaises(CourtListenerError, msg=key):
                 match(key, name, RESPONSES)
         self.assertIsNone(clusters_for("3 U.S. 3", RESPONSES))
+        # A year off is CourtListener dating a later order: the cluster stands, its date is checked later.
+        self.assertEqual(match("347 U.S. 483", "Brown, 347 U.S. 483 (1955)", RESPONSES).cluster["id"], 105221)
+
+    def test_a_decision_filed_under_two_dockets_is_found_by_search(self):
+        def hit(cid, date, number, cites=()):
+            return {"absolute_url": f"/opinion/{cid}/x/", "caseName": "Rucho v. Common Cause", "citation": list(cites),
+                    "citeCount": 0, "cluster_id": cid, "dateFiled": date, "docketNumber": number}
+        search = {"count": 3, "next": None, "results": [
+            hit(9359036, "2019-01-08", "No. 18\u2013422."), hit(4633469, "2019-06-27", "18\u2013422; 18\u2013726", ["588 U.S. 684"]),
+            hit(1, "2019-06-27", "No. 17-1")]}
+        responses = [("courtlistener-scotus-18-422", {"next": None, "results": []}),
+                     ("courtlistener-search-dockets-1", search)]
+        self.assertEqual(dockets("18\u2013422; 18\u2013726"), {"18-422", "18-726"})
+        self.assertEqual(printed_date("Rucho v. Common Cause, No. 18-422 (U.S. June 27, 2019)"), "2019-06-27")
+        m = match("No. 18-422", "Rucho v. Common Cause, No. 18-422 (U.S. June 27, 2019)", responses)
+        self.assertEqual(m.cluster["id"], 4633469)
+        self.assertEqual(m.cluster["citations"], [{"page": "684", "reporter": "U.S.", "volume": 588}])
+        self.assertEqual(m.source_id, "courtlistener-search-dockets-1")
+
+
+class DateTests(unittest.TestCase):
+    def test_the_printed_date_of_decision(self):
+        for line, want in (("No. 22. Argued October 11, 12, 1944.-Decided December 18, 1944.", ("December", "18", "1944")),
+                           ("Argued January 23d, 24th, 1884.-Decided March 3d, 1884.", ("March", "3", "1884")),
+                           ("Argued April 18, 1896. -Decided May18, 1896.", ("May", "18", "1896")),
+                           ("Opinion and judgments announced May 31, 1955.", ("May", "31", "1955"))):
+            self.assertEqual(DECIDED.search(line).groups(), want, line)
+        self.assertIsNone(DECIDED.search("Argued April 15, 16, 1918.-Decided June , 1918."))
+        self.assertTrue(DATE_MORE.search("1977"))
+
+    def test_which_date_a_case_takes(self):
+        cl = {"date_filed": "1945-02-26"}
+        self.assertEqual(case_date(cl, "1944", PrintedDates("1944-12-18", 1944, "")), ("1944-12-18", "us_reports"))
+        # No printed date: CourtListener's when its year agrees, or falls in the year after the term's.
+        self.assertEqual(case_date({"date_filed": "1918-06-03"}, "1918", PrintedDates(None, 1917, "")),
+                         ("1918-06-03", "courtlistener"))
+        self.assertEqual(case_date({"date_filed": "1867-01-14"}, "1866", PrintedDates(None, 1866, "")),
+                         ("1867-01-14", "courtlistener"))
+        # Otherwise only the year the Constitution Annotated prints.
+        self.assertEqual(case_date({"date_filed": "1862-12-01"}, "1863", PrintedDates(None, 1862, "")),
+                         ("1863", "constitution_annotated"))
 
 
 class SyllabusTests(unittest.TestCase):

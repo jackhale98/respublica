@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C3.9 (4 pages)"
+  ],
+  "conan_citation": "White Mountain Apache Tribe v. Bracker, 448 U.S. 136 (1980)",
+  "courtlistener_name": "White Mountain Apache Tribe v. Bracker",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/110328/white-mountain-apache-tribe-v-bracker/",
+  "date": "1980-06-27",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 110328. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 448, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "110328",
+  "loc_url": "https://www.loc.gov/item/usrep448136/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep448/usrep448136/usrep448136.pdf",
+  "ref_prefix": "Case.110328",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "White Mountain Apache Tribe v. Bracker, syllabus ¶ 1",
+      "page": 136,
+      "ref": "Case.110328.syllabus.1",
+      "text": "Pursuant to a contract with an organization of petitioner White Mountain Apache Tribe, petitioner Pinetop Logging Co. (Pinetop), a non-Indian enterprise authorized to do business in Arizona, felled tribal timber on the Fort Apache Reservation and transported it to the tribal organization's sawmill. Pinetop's activities were performed solely on the reservation. Respondents, state agencies and members thereof, sought to impose on Pinetop Arizona's motor carrier license tax, which is assessed on the basis of the carrier's gross receipts, and its use fuel tax, which is assessed on the basis of diesel fuel used to propel a motor vehicle on any lghway within the State. Pinetop paid the taxes under protest and then brought suit in state court, asserting that under federal law the taxes could not lawfully be imposed on logging activities conducted exclusively within the reservation or on hauling activities on Bureau of Indian Affairs (BIA) and tribal roads. The trial court awarded summary judgment to respondents, and the Arizona Court of Appeals affirmed in pertinent part, rejecting petitioners' pre-emption claim."
+    },
+    {
+      "kind": "syllabus",
+      "label": "White Mountain Apache Tribe v. Bracker, syllabus ¶ 2",
+      "page": 136,
+      "ref": "Case.110328.syllabus.2",
+      "text": "Held. The Arizona taxes are pre-empted by federal law. Cf. Warren Trading Post Co. v. Arnzona Tax Comm'n, 380 U. S. 685. Pp. 141-153."
+    },
+    {
+      "kind": "syllabus",
+      "label": "White Mountain Apache Tribe v. Bracker, syllabus ¶ 3",
+      "page": 136,
+      "ref": "Case.110328.syllabus.3",
+      "text": "(a) The tradition of Indian sovereignty over the reservation and tribal members must inform the determination whether the exercise of state authority has been pre-empted by operation of federal law Where, as here, a State asserts authority over the conduct of non-Indians engaging in activity on the reservation, a particularized inquiry must be made into the nature of the state, federal, and tribal interests at stake, an inquiry designed to determine whether, in the specific context, the exercise of state authority would violate federal law Pp. 141-145."
+    },
+    {
+      "kind": "syllabus",
+      "label": "White Mountain Apache Tribe v. Bracker, syllabus ¶ 4",
+      "page": 136,
+      "ref": "Case.110328.syllabus.4",
+      "text": "(b) The Federal Government's regulation of the harvesting, sale, and management of tribal timber, and of the BIA and tribal roads, is so pervasive as to preclude the additional burdens sought to be imposed here by assessing the taxes in question against Pinetop for operations that are conducted solely on BIA and tribal roads within the reservation. Pp. 145-149."
+    },
+    {
+      "kind": "syllabus",
+      "label": "White Mountain Apache Tribe v. Bracker, syllabus ¶ 5",
+      "page": 136,
+      "ref": "Case.110328.syllabus.5",
+      "text": "(c) Imposition of the taxes in question would undermine the federal policy of assuring that the profits from timber sales would mure to the Tribe's benefit; would also undermine the Secretary of the Interior's ability to make the wide range of determinations committed to his authority concerning the setting of fees and rates with respect to the harvesting and sale of tribal timber; and would adversely affect the Tribe's ability to comply with the sustained-yield management policies imposed by federal law Pp. 140-150."
+    },
+    {
+      "kind": "syllabus",
+      "label": "White Mountain Apache Tribe v. Bracker, syllabus ¶ 6",
+      "page": 137,
+      "ref": "Case.110328.syllabus.6",
+      "text": "(d) Respondents' generalized interest m raising revenue is inmsufficient, in the context of this case, to permit its proposed intrusion into the federal regulatory scheme with respect to the harvesting and sale of tribal timber. P 150."
+    },
+    {
+      "kind": "syllabus",
+      "label": "White Mountain Apache Tribe v. Bracker, syllabus ¶ 7",
+      "page": 137,
+      "ref": "Case.110328.syllabus.7",
+      "text": "120 Ariz. 282, 585 P 2d 891, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-448-136"
+  ],
+  "title": "White Mountain Apache Tribe v. Bracker",
+  "us_cite": "448 U.S. 136"
+}

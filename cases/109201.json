@@ -1,0 +1,40 @@
+{
+  "chosen_because": [
+    "overruled by United States v. Scott (table of overruled decisions)"
+  ],
+  "conan_citation": "United States v. Jenkins, 420 U.S. 358 (1975)",
+  "courtlistener_name": "United States v. Jenkins",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109201/united-states-v-jenkins/",
+  "date": "1975-02-25",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109201. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 420, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109201",
+  "loc_url": "https://www.loc.gov/item/usrep420358/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep420/usrep420358/usrep420358.pdf",
+  "ref_prefix": "Case.109201",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Jenkins, syllabus ¶ 1",
+      "page": 358,
+      "ref": "Case.109201.syllabus.1",
+      "text": "After respondent was ordered to report for induction, his local draft board refused to postpone his induction to allow him to claim a conscientious objector classification, and he was subsequently indicted for refusing and failing to report for induction. Following a bench trial the District Court \"dismissed\" the indictment and \"discharged\" respondent, holding that, although under Ehlert v. United State&, 402 U. S. 99, the board was not required to entertain conscientious objector claims arising between notice of induction and the scheduled induction date, nevertheless, since respondent failed to report at a time when Ehlert had not yet been decided and when the prevailing law of the Circuit required a local board to reopen a registrant's classification if his conscientious objector views ripened only after he had been notified to report for induction, respondent was entitled to a postponement of induction until the board considered his conscientious objector claim, and that it would be unfair to apply Ehlert to respondent. The Court of Appeals dismissed the Government's appeal under 18 U. S. C. § 3731 on the ground that it was barred by the Double Jeopardy Clause, concluding that although the District Court had characterized its action as a dismissal of the indictment, respondent had in effect been acquitted, since the District Court had relied upon facts developed at trial and had concluded \"that the statute should not be applied to [respondent] as a matter of fact.\" Held: Although it is not clear whether or not the District Court's judgment discharging respondent was a resolution of the factual issues against the Government, it suffices for double jeopardy purposes, and therefore for determining appealability under 18 U. S. C. § 3731, that further proceedings of some sort, devoted to resolving factual issues going to the elements of the offense charged and resulting in supplemental findings, would have been required upon reversal and remand. The trial, which could have resulted in a conviction, has long since terminated in respondent's favor, and to subject him to any further proceedings, even if the District Court were to receive no additional evidence, would violate the Double Jeopardy Clause. Pp. 365-370."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Jenkins, syllabus ¶ 2",
+      "page": 359,
+      "ref": "Case.109201.syllabus.2",
+      "text": "490 F. 2d 868, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-420-358"
+  ],
+  "title": "United States v. Jenkins",
+  "us_cite": "420 U.S. 358"
+}

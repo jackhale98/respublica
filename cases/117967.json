@@ -1,0 +1,96 @@
+{
+  "chosen_because": [
+    "cited on 13 pages"
+  ],
+  "conan_citation": "Rosenberger v. Rector & Visitors of the University of Virginia, 515 U.S. 819 (1995)",
+  "courtlistener_name": "Rosenberger v. Rector & Visitors of University of Virginia",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/117967/rosenberger-v-rector-visitors-of-university-of-virginia/",
+  "date": "1995-06-29",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 117967. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 515, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "117967",
+  "loc_url": "https://www.loc.gov/item/usrep515819/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep515/usrep515819/usrep515819.pdf",
+  "ref_prefix": "Case.117967",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Rosenberger v. Rector & Visitors of the University of Virginia, syllabus ¶ 1",
+      "page": 819,
+      "ref": "Case.117967.syllabus.1",
+      "text": "Respondent University of Virginia, a state instrumentality, authorizes payments from its Student Activities Fund (SAF) to outside contractors for the printing costs of a variety of publications issued by student groups called \"Contracted Independent Organizations\" (CIO's). The SAF receives its money from mandatory student fees and is designed to support a broad range of extracurricular student activities related to the University's educational purpose. CIO's must include in their dealings with third parties and in all written materials a disclaimer stating that they are independent of the University and that the University is not responsible for them. The University withheld authorization for payments to a printer on behalf of petitioners' CIO, Wide Awake Productions (WAP), solely because its student newspaper, Wide Awake: A Christian Perspective at the University of Virginia, \"primarily promotes or manifests a particular belie[f] in or about a deity or an ultimate reality,\" as prohibited by the University's SAF Guidelines. Petitioners filed this suit under 42 U. S. C. § 1983, alleging, inter alia, that the refusal to authorize payment violated their First Amendment right to freedom of speech. After the District Court granted summary judgment for the University, the Fourth Circuit affirmed, holding that the 'University's invocation of viewpoint discrimination to deny third-party payment violated the Speech Clause, but concluding that the discrimination was justified by the necessity of complying with the Establishment Clause."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rosenberger v. Rector & Visitors of the University of Virginia, syllabus ¶ 2",
+      "page": 819,
+      "ref": "Case.117967.syllabus.2",
+      "text": "Held."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rosenberger v. Rector & Visitors of the University of Virginia, syllabus ¶ 3",
+      "page": 819,
+      "ref": "Case.117967.syllabus.3",
+      "text": "1. The Guideline invoked to deny SAF support, both in its terms and in its application to these petitioners, is a denial of their right of free speech. Pp. 828-837."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rosenberger v. Rector & Visitors of the University of Virginia, syllabus ¶ 4",
+      "page": 819,
+      "ref": "Case.117967.syllabus.4",
+      "text": "(a) The Guideline violates the principles governing speech in limited public forums, which apply to the SAF under, e. g., Perry Ed. Assn. v. Perry Local Educators' Assn., 460 U. S. 37, 46-47. In determining whether a State is acting within its power to preserve the limits it has set for such a forum so that the exclusion of a class of speech there is legitimate, see, e. g., id., at 49, this Court has observed a distinction between, on the one hand, content discrimination-i e., discrimination against speech because of its subject matter-which may be permissible if it preserves the limited forum's purposes, and, on the other hand, viewpoint discrimination-i e., discrimination because of the speaker's specific motivating ideology, opinion, or perspective-which is presumed impermissible when directed against speech otherwise within the forum's limitations, see id., at 46. The most recent and most apposite case in this area is Lamb's Chapel v. Center Moriches Union Free School Dist., 508 U. S. 384, 393, in which the Court held that permitting school property to be used for the presentation of all views on an issue except those dealing with it from a religious standpoint constitutes prohibited viewpoint discrimination. Here, as in that case, the State's actions are properly interpreted as unconstitutional viewpoint discrimination rather than permissible line-drawing based on content: By the very terms of the SAF prohibition, the University does not exclude religion as a subject matter, but selects for disfavored treatment those student journalistic efforts with religious editorial viewpoints. Pp. 828-832."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rosenberger v. Rector & Visitors of the University of Virginia, syllabus ¶ 5",
+      "page": 820,
+      "ref": "Case.117967.syllabus.5",
+      "text": "(b) The University's attempt to escape the consequences of Lamb's Chapel by urging that this case involves the provision of funds rather than access to facilities is unavailing. Although it may regulate the content of expression when it is the speaker or when it enlists private entities to convey its own message, Rust v. Sullivan, 500 U. S. 173; Widmar v. Vincent, 454 U. S. 263, 276, the University may not discriminate based on the viewpoint of private persons whose speech it subsidizes, Regan v. Taxation with Representation of Wash., 461 U. S. 540, 548. Its argument that the scarcity of public money may justify otherwise impermissible viewpoint discrimination among private speakers is simply wrong. Pp. 832-835."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rosenberger v. Rector & Visitors of the University of Virginia, syllabus ¶ 6",
+      "page": 820,
+      "ref": "Case.117967.syllabus.6",
+      "text": "(c) Vital First Amendment speech principles are at stake here. The Guideline at issue has a vast potential reach: The term \"promotes\" as used there would comprehend any writing advocating a philosophic position that rests upon a belief (or nonbelief) in a deity or ultimate reality, while the term \"manifests\" would bring within the prohibition any writing resting upon a premise presupposing the existence (or nonexistence) of a deity or ultimate reality. It is difficult to name renowned thinkers whose writings would be accepted, save perhaps for articles disclaiming all connection to their ultimate philosophy. Pp. 835-837."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rosenberger v. Rector & Visitors of the University of Virginia, syllabus ¶ 7",
+      "page": 820,
+      "ref": "Case.117967.syllabus.7",
+      "text": "2. The violation following from the University's denial of SAF support to petitioners is not excused by the necessity of complying with the Establishment Clause. Pp. 837-846."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rosenberger v. Rector & Visitors of the University of Virginia, syllabus ¶ 8",
+      "page": 820,
+      "ref": "Case.117967.syllabus.8",
+      "text": "(a) The governmental program at issue is neutral toward religion. Such neutrality is a significant factor in upholding programs in the face of Establishment Clause attack, and the guarantee of neutrality is not offended where, as here, the government follows neutral criteria and evenhanded policies to extend benefits to recipients whose ideologies and viewpoints, including religious ones, are broad and diverse, Board of Ed. of Kiryas Joel Village School Dist. v. Grumet, 512 U. S. 687, 704. There is no suggestion that the University created its program to advance religion or aid a religious cause. The SAF's purpose is to open a forum for speech and to support various student enterprises, including the publication of newspapers, in recognition of the diversity and creativity of student life. The SAF Guidelines have a separate classification for, and do not make third-party payments on behalf of, \"religious organizations,\" and WAP did not seek a subsidy because of its Christian editorial viewpoint; it sought funding under the Guidelines as a \"student ... communications ... grou[p].\" Neutrality is also apparent in the fact that the University has taken pains to disassociate itself from the private speech involved in this case. The program's neutrality distinguishes the student fees here from a tax levied for the direct support of a church or group of churches, which would violate the Establishment Clause. Pp. 837-842."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rosenberger v. Rector & Visitors of the University of Virginia, syllabus ¶ 9",
+      "page": 821,
+      "ref": "Case.117967.syllabus.9",
+      "text": "(b) This case is not controlled by the principle that special Establishment Clause dangers exist where the government makes direct money payments to sectarian institutions, see, e. g., Roemer v. Board of Public Works of Md., 426 U. S. 786, 747, since it is undisputed that no public funds flow directly into WAP's coffers under the program at issue. A public university does not violate the Establishment Clause when it grants access to its facilities on a religion-neutral basis to a wide spectrum of student groups, even if some of those groups would use the facilities for devotional exercises. See e. g., Widmar, 454 U. S., at 269. This is so even where the upkeep, maintenance, and repair of those facilities are paid out of a student activities fund to which students are required to contribute. Id., at 265. There is no difference in logic or principle, and certainly no difference of constitutional significance, between using such funds to operate a facility to which students have access, and paying a third-party contractor to operate the facility on its behalf. That is all that is involved here: The University provides printing services to a broad spectrum of student newspapers. Were the contrary view to become law, the University could only avoid a constitutional violation by scrutinizing the content of student speech, lest it contain too great a religious message. Such censorship would be far more inconsistent with the Establishment Clause's dictates than would governmental provision of secular printing services on a religion-blind basis. Pp. 842-846."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Rosenberger v. Rector & Visitors of the University of Virginia, syllabus ¶ 10",
+      "page": 821,
+      "ref": "Case.117967.syllabus.10",
+      "text": "18 F. 3d 269, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-515-819"
+  ],
+  "title": "Rosenberger v. Rector & Visitors of the University of Virginia",
+  "us_cite": "515 U.S. 819"
+}

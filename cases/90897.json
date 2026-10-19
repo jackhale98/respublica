@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "cited on 13 pages"
+  ],
+  "conan_citation": "The Civil Rights Cases, 109 U.S. 3 (1883)",
+  "courtlistener_match": "CourtListener gives 2 clusters for 109 U.S. 3; this one matches the case's name and year and is the most cited (the others: 7890904).",
+  "courtlistener_name": "Civil Rights Cases",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/90897/civil-rights-cases/",
+  "date": "1883-10-15",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 90897. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 109, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "90897",
+  "loc_url": "https://www.loc.gov/item/usrep109003/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep109/usrep109003/usrep109003.pdf",
+  "ref_prefix": "Case.90897",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-109-3"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 3 a paragraph seems to stop mid-sentence.",
+  "title": "The Civil Rights Cases",
+  "us_cite": "109 U.S. 3"
+}

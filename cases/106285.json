@@ -1,0 +1,41 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt4.7 (4 pages)"
+  ],
+  "conan_citation": "Mapp v. Ohio, 367 U.S. 643 (1961)",
+  "courtlistener_date": "1961-10-09",
+  "courtlistener_name": "Mapp v. Ohio",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/106285/mapp-v-ohio/",
+  "date": "1961-06-19",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 106285. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 367, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "106285",
+  "loc_url": "https://www.loc.gov/item/usrep367643/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep367/usrep367643/usrep367643.pdf",
+  "ref_prefix": "Case.106285",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Mapp v. Ohio, syllabus ¶ 1",
+      "page": 643,
+      "ref": "Case.106285.syllabus.1",
+      "text": "All evidence obtained by searches and seizures in violation of the Federal Constitution is inadmissible in a criminal trial in a state court. Wolf v. Colorado, 338 U. S. 25, overruled insofar as it holds to the contrary. Pp. 643-660."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Mapp v. Ohio, syllabus ¶ 2",
+      "page": 643,
+      "ref": "Case.106285.syllabus.2",
+      "text": "170 Ohio St. 427, 166 N. E. 2d 387, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-367-643"
+  ],
+  "title": "Mapp v. Ohio",
+  "us_cite": "367 U.S. 643"
+}

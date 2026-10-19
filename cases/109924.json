@@ -1,0 +1,83 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt5.9 (6 pages)"
+  ],
+  "conan_citation": "Penn Central Transportation Co. v. City of New York, 438 U.S. 104 (1978)",
+  "courtlistener_date": "1978-10-02",
+  "courtlistener_name": "Penn Central Transportation Co. v. New York City",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109924/penn-central-transportation-co-v-new-york-city/",
+  "date": "1978-06-26",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109924. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 438, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109924",
+  "loc_url": "https://www.loc.gov/item/usrep438104/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep438/usrep438104/usrep438104.pdf",
+  "ref_prefix": "Case.109924",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Penn Central Transportation Co. v. City of New York, syllabus ¶ 1",
+      "page": 104,
+      "ref": "Case.109924.syllabus.1",
+      "text": "Under New York City's Landmarks Preservation Law (Landmarks Law), which was enacted to protect historic landmarks and neighborhoods from precipitate decisions to destroy or fundamentally alter their character, the Landmarks Preservation Commission (Commission) may designate a building to be a \"landmark\" on a particular \"landmark site\" or may designate an area to be a \"historic district.\" The Board of Estimate may thereafter modify or disapprove the designation, and the owner may seek judicial review of the final designation decision. The owner of the designated landmark must keep the building's exterior \"in good repair\" and before exterior alterations are made must secure Commission approval. Under two ordinances owners of landmark sites may transfer development rights from a landmark parcel to proximate lots. Under the Landmarks Law, the Grand Central Terminal (Terminal), which is owned by the Penn Central Transportation Co. and its affiliates (Penn Central) was designated a \"landmark\" and the block it occupies a \"landmark site.\" Appellant Penn Central, though opposing the designation before the Commission, did not seek judicial review of the final designation decision. Thereafter appellant Penn Central entered into a lease with appellant UGP Properties, whereby UGP was to construct a multistory office building over the Terminal. After the Commission had rejected appellants' plans for the building as destructive of the Terminal's historic and aesthetic features, with no judicial review thereafter being sought, appellants brought suit in state court claiming that the application of the Landmarks Law had \"taken\" their property without just compensation in violation of the Fifth and Fourteenth Amendments and arbitrarily deprived them of their property without due process of law in violation of the Fourteenth Amendment. The trial court's grant of relief was reversed on appeal, the New York Court of Appeals ultimately concluding that there was no \"taking\" since the Landmarks Law had not transferred control of the property to the city, but only restricted appellants' exploitation of it; and that there was no -denial of due process because (1) the same use of the Terminal was permitted as before; (2) the appellants had not shown that they could not earn a reasonable return on their investment in the Terminal itself; (3) even if the Terminal proper could never operate at a reasonable profit, some of the income from Penn Central's extensive real estate holdings in the area must realistically be imputed to the Terminal; and (4) the development rights above the Terminal, which were made transferable to numerous sites in the vicinity, provided significant compensation for loss of rights above the Terminal itself. Held: The application of the Landmarks Law to the Terminal property does not constitute a \"taking\" of appellants' property within the meaning of the Fifth Amendment as made applicable to the States by the Fourteenth Amendment. Pp. 123-138."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Penn Central Transportation Co. v. City of New York, syllabus ¶ 2",
+      "page": 105,
+      "ref": "Case.109924.syllabus.2",
+      "text": "(a) In a wide variety of contexts the government may execute laws or programs that adversely affect recognized economic values without its action constituting a \"taking,\" and in instances such as zoning laws where a state tribunal has reasonably concluded that \"the health, safety, morals, or general welfare\" would be promoted by prohibiting particular contemplated uses of land, this Court has upheld land-use regulations that destroyed or adversely affected real property interests. In many instances use restrictions that served a substantial public purpose have been upheld against \"taking\" challenges, e. g., Goldblatt v. Hempstead, 369 U. S. 590; Hadacheck v. Sebastian, 239 U. S. 394, though a state statute that substantially furthers important public policies may so frustrate distinct investment-backed expectations as to constitute a \"taking,\" e. g., Pennsylvania Coal Co. v. Mahon, 260 U. S. 393, and government acquisitions of resources to permit uniquely public functions constitute \"takings,\" e. g., United States v. Causby, 328 U. S. 256. Pp. 123-128."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Penn Central Transportation Co. v. City of New York, syllabus ¶ 3",
+      "page": 105,
+      "ref": "Case.109924.syllabus.3",
+      "text": "(b) In deciding whether particular governmental action has effected a \"taking,\" the character of the action and nature and extent of the interference with property rights (here the city tax block designated as the \"landmark site\") are focused upon, rather than discrete segments thereof. Consequently, appellants cannot establish a \"taking\" simply by showing that they have been denied the ability to exploit the superjacent airspace, irrespective of the remainder of appellants' parcel. Pp. 130-131."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Penn Central Transportation Co. v. City of New York, syllabus ¶ 4",
+      "page": 105,
+      "ref": "Case.109924.syllabus.4",
+      "text": "(c) Though diminution in property value alone, as may result from a zoning law, cannot establish a \"taking,\" as appellants concede, they urge that the regulation of individual landmarks is different because it applies only to selected properties. But it does not follow that landmark laws, which embody a comprehensive plan to preserve structures of historic or aesthetic interest, are discriminatory, like \"reverse spot\" zoning. Nor can it. be successfully contended that designation of a landmark involves only a matter of taste and therefore will inevitably lead to arbitrary results, for judicial review is available and there is no reason to believe it will be less effective than would be so in the case of zoning or any other context. Pp. 131-133."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Penn Central Transportation Co. v. City of New York, syllabus ¶ 5",
+      "page": 106,
+      "ref": "Case.109924.syllabus.5",
+      "text": "(d) That the Landmarks Law affects some landowners more severely than others does not itself result in \"taking,\" for that is often the case with general welfare and zoning legislation. Nor, contrary to appellants' contention, are they solely burdened and unbenefited by the Landmarks Law, which has been extensively applied and was enacted on the basis of the legislative judgment that the preservation of landmarks benefits the citizenry both economically and by improving the overall quality of city life. Pp. 133-135."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Penn Central Transportation Co. v. City of New York, syllabus ¶ 6",
+      "page": 106,
+      "ref": "Case.109924.syllabus.6",
+      "text": "(e) The Landmarks Law no more effects an appropriation of the airspace above the Terminal for governmental uses than would a zoning law appropriate property; it simply prohibits appellants or others from occupying certain features of that space while allowing appellants gainfully to use the remainder of the parcel. United States v. Causby, supra, distinguished. P. 135."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Penn Central Transportation Co. v. City of New York, syllabus ¶ 7",
+      "page": 106,
+      "ref": "Case.109924.syllabus.7",
+      "text": "(f) The Landmarks Law, which does not interfere with the Terminal's\" present uses or prevent Penn Central from realizing a \"reasonable return\" on its investment, does not impose the drastic limitation on appellants' ability to use the air rights above the Terminal that appellants claim, for on this record there is no showing that a smaller, harmonizing structure would not be authorized. Moreover, the pre-existing air rights are made transferable to other parcels in the vicinity of the Terminal, thus mitigating whatever financial burdens appellants have incurred. Pp. 135-137."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Penn Central Transportation Co. v. City of New York, syllabus ¶ 8",
+      "page": 106,
+      "ref": "Case.109924.syllabus.8",
+      "text": "42 N. Y. 2d 324, 366 N. E. 2d 1271, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-438-104"
+  ],
+  "title": "Penn Central Transportation Co. v. City of New York",
+  "us_cite": "438 U.S. 104"
+}

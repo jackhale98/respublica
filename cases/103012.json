@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.16 (4 pages)"
+  ],
+  "conan_citation": "Erie Railroad v. Tompkins, 304 U.S. 64 (1938)",
+  "courtlistener_name": "Erie Railroad v. Tompkins",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/103012/erie-railroad-v-tompkins/",
+  "date": "1938-04-25",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 103012. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 304, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "103012",
+  "loc_url": "https://www.loc.gov/item/usrep304064/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep304/usrep304064/usrep304064.pdf",
+  "ref_prefix": "Case.103012",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Erie Railroad v. Tompkins, syllabus ¶ 1",
+      "page": 64,
+      "ref": "Case.103012.syllabus.1",
+      "text": "1. The liability of a railroad company, for injury caused by negligent operation of its train to a pedestrian on a much-used, beaten path on its right-of-way along and near the rails, depends, in the .absence of a federal or state statute, upon the unwritten law of the State where the accident occurred. Pp. 71 et seq."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Erie Railroad v. Tompkins, syllabus ¶ 2",
+      "page": 64,
+      "ref": "Case.103012.syllabus.2",
+      "text": "2. A federal court exercising jurisdiction over such a case on the ground of diversity of citizenship, is not free to treat this question as one of so-called \"general law,\" but must apply the state law as declared by the highest state court. Swift v. Tyson, 16 Pet. 1, overruled. Id."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Erie Railroad v. Tompkins, syllabus ¶ 3",
+      "page": 64,
+      "ref": "Case.103012.syllabus.3",
+      "text": "3. There is no federal general common law. Congress has no power to declare substantive rules of common law applicable in a State whether they be local in their nature- or \"general,\" whether they be commercial law or *a part of the law of torts. And no clause in the Constitution purports to confer such a power upon the, federal courts. Except in matters governed by the Federal Constitution or by Acts of Congress, the law to be applied in any case is th3 law of the State. And whether the law of the State shall be declared by its legislature in a statute or by its fiighest court in a decision is not a matter of federai concern. P. 78."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Erie Railroad v. Tompkins, syllabus ¶ 4",
+      "page": 64,
+      "ref": "Case.103012.syllabus.4",
+      "text": "4. In disapproving the doctrine of Swift v. Tyson, the Court does not hold unconstitutional § 34 of the Federal Judiciary Act of 1789 or any other Act of Congress. It merely declares that by applying the doctrine of that case iights which are reserved by the Constitution to the several States have been invaded. P. 79."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Erie Railroad v. Tompkins, syllabus ¶ 5",
+      "page": 64,
+      "ref": "Case.103012.syllabus.5",
+      "text": "90 F. 2d 603, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-304-64"
+  ],
+  "title": "Erie Railroad v. Tompkins",
+  "us_cite": "304 U.S. 64"
+}

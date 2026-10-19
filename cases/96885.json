@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "overruled by Malloy v. Hogan (table of overruled decisions)",
+    "overruled (table of overruled decisions) and cited on 9 pages"
+  ],
+  "conan_citation": "Twining v. New Jersey, 211 U.S. 78 (1908)",
+  "courtlistener_name": "Twining v. New Jersey",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/96885/twining-v-new-jersey/",
+  "date": "1908-11-09",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 96885. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 211, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "96885",
+  "loc_url": "https://www.loc.gov/item/usrep211078/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep211/usrep211078/usrep211078.pdf",
+  "ref_prefix": "Case.96885",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-211-78"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 78 a paragraph seems to stop mid-sentence.",
+  "title": "Twining v. New Jersey",
+  "us_cite": "211 U.S. 78"
+}

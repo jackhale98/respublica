@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "overruled by Citizens United v. Federal Election Comm’n (table of overruled decisions)"
+  ],
+  "conan_citation": "McConnell v. Federal Elections Comm’n, 540 U.S. 93 (2003)",
+  "courtlistener_name": "McConnell v. Federal Election Commission",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/131149/mcconnell-v-federal-election-commission/",
+  "date": "2003-12-10",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 131149. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 540, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "131149",
+  "loc_url": "https://www.loc.gov/item/usrep540093/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep540/usrep540093/usrep540093.pdf",
+  "ref_prefix": "Case.131149",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-540-93"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 104 a paragraph seems to stop mid-sentence.",
+  "title": "McConnell v. Federal Elections Comm’n",
+  "us_cite": "540 U.S. 93"
+}

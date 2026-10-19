@@ -1,0 +1,89 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt4.7 (4 pages)"
+  ],
+  "conan_citation": "Weeks v. United States, 232 U.S. 383 (1914)",
+  "courtlistener_name": "Weeks v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/98094/weeks-v-united-states/",
+  "date": "1914-02-24",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 98094. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 232, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "98094",
+  "loc_url": "https://www.loc.gov/item/usrep232383/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep232/usrep232383/usrep232383.pdf",
+  "ref_prefix": "Case.98094",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Weeks v. United States, syllabus ¶ 1",
+      "page": 383,
+      "ref": "Case.98094.syllabus.1",
+      "text": "Under the Fourth Amendment Federal courts and officers are under such limitations and restraints in the exercise of their power and authority as to forever secure the people, their persons, houses, papers and effects against all unreasonable searches and seizures under the guise of law."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Weeks v. United States, syllabus ¶ 2",
+      "page": 383,
+      "ref": "Case.98094.syllabus.2",
+      "text": "The protection of the Fourth Amendment reaches all alike, whether accused of crime or not; and the duty of giving it force and effect is obligatory on all entrusted with the enforcement of Federal laws."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Weeks v. United States, syllabus ¶ 3",
+      "page": 383,
+      "ref": "Case.98094.syllabus.3",
+      "text": "The tendency of those executing Federal criminal laws to obtain convictions by means of unlawful seizures and enforced confessions in violation of Federal rights is not to be sanctioned by the courts which are charged with the support of constitutional rights."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Weeks v. United States, syllabus ¶ 4",
+      "page": 383,
+      "ref": "Case.98094.syllabus.4",
+      "text": "The Federal courts cannot, as against a seasonable application for their return, in a criminal prosecution, retain for the purposes of evidence against the accused his letters and correspondence seized in his house during his absence and without his authority by a United States marshal holding no warrant for his arrest or for the search of his premises."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Weeks v. United States, syllabus ¶ 5",
+      "page": 383,
+      "ref": "Case.98094.syllabus.5",
+      "text": "While the efforts of courts and their officials to bring the guilty to punishment are praiseworthy, they are not-to be aided by sacrificing the great fundamental rights secured by the Constitution."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Weeks v. United States, syllabus ¶ 6",
+      "page": 383,
+      "ref": "Case.98094.syllabus.6",
+      "text": "While an incidental seizure of incriminating papers, made in the execution of a legal warrant, and their use as evidence, may be justified, and a collateral issue will not be raised to ascertain the source of competent evidence, Adams v. New York, 192 U. S. 585, -that rule does not justify the retention of letters seized in violation of the protection given by the Fourth Amendment where an application in the cause for their return has been made by the accused before trial."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Weeks v. United States, syllabus ¶ 7",
+      "page": 383,
+      "ref": "Case.98094.syllabus.7",
+      "text": "The court has power to deal with papers and documents in the possession of the District Attorney and other officers of the court and to direct their return to the accused if wrongfully seized."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Weeks v. United States, syllabus ¶ 8",
+      "page": 383,
+      "ref": "Case.98094.syllabus.8",
+      "text": "Where letters and papers of the accused were taken from his premises by an official of the United States, acting under color of office but without any search warrant and in violation of the constitutional rights of accused under the Fourth Amendment, and a seasonable application for return of the letters and papers has been refused and they are used in evidence over his objections, prejudicial error is committed and the judgment should be reversed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Weeks v. United States, syllabus ¶ 9",
+      "page": 384,
+      "ref": "Case.98094.syllabus.9",
+      "text": "The Fourth Amendment is not directed to individual misconduct of state officers. Its limitations reach the Federal Government and its agencies. Boyd v. United States, 116 U. S. 616."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-232-383"
+  ],
+  "title": "Weeks v. United States",
+  "us_cite": "232 U.S. 383"
+}

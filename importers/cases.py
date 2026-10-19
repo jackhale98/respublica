@@ -37,6 +37,39 @@ def printed_name(name: str) -> str:
     return NAME_END.sub("", name).strip()
 
 
+def case_date(cluster: dict, conan_year: str | None, printed) -> tuple[str, str]:
+    """The case's date of decision and where it comes from (decision 49):
+
+    1. the date printed in the United States Reports ("Decided December 18,
+       1944."), when the scan's text reads it cleanly (`usreports.printed_dates`);
+    2. else CourtListener's date, when its year is the one the Constitution
+       Annotated prints, or that is the year of the term the case is reported
+       in and CourtListener's date falls in the year after (the December Term
+       of 1866 ran into 1867: Ex parte Garland, decided January 14, 1867);
+    3. else only the year the Constitution Annotated prints.
+    """
+    if printed is not None and printed.decided:
+        return printed.decided, "us_reports"
+    filed = str(cluster.get("date_filed") or "")
+    term = printed.term if printed is not None else None
+    if conan_year and filed[:4] == conan_year:
+        return filed, "courtlistener"
+    if conan_year and term is not None and int(conan_year) == term and filed[:4] == str(term + 1):
+        return filed, "courtlistener"
+    if conan_year:
+        return conan_year, "constitution_annotated"
+    return filed, "courtlistener"
+
+
+DATE_NOTES = {
+    "us_reports": "Date of decision as printed in the United States Reports.",
+    "courtlistener": "Date of decision from CourtListener (the United States Reports scan gives none that could be read).",
+    "constitution_annotated": ("Year as the Constitution Annotated prints it; CourtListener's date ({filed}) "
+                               "is in another year, and the United States Reports scan gives no date of decision "
+                               "that could be read."),
+}
+
+
 def import_case(match: courtlistener.Match, reasons: list[str]) -> dict:
     from importers import courtlistener, usreports  # here, so `python -m importers.usreports` runs cleanly
     c = match.cluster
@@ -48,7 +81,7 @@ def import_case(match: courtlistener.Match, reasons: list[str]) -> dict:
         "title": title,
         "ref_prefix": prefix,
         "courtlistener_name": c["case_name"],
-        "date": c["date_filed"],
+        "date": None,  # below, from the United States Reports where it prints one
         "courtlistener_url": courtlistener.SITE + c["absolute_url"],
         "chosen_because": reasons,
         "conan_citation": match.name,
@@ -63,6 +96,17 @@ def import_case(match: courtlistener.Match, reasons: list[str]) -> dict:
     if not usreports.US.fullmatch(match.key):
         doc["docket"] = match.key.removeprefix("No. ")
     edition = [f"Case details: CourtListener (Free Law Project), cluster {cid}."]
+    printed = None
+    if m:
+        try:
+            usreports.raw_path(usreports.source_id(int(m.group(1)), int(m.group(2))))
+            printed = usreports.printed_dates(int(m.group(1)), int(m.group(2)))
+        except KeyError:
+            pass
+    doc["date"], doc["date_source"] = case_date(c, courtlistener.printed_year(match.name), printed)
+    if doc["date"] != c["date_filed"]:
+        doc["courtlistener_date"] = c["date_filed"]
+    edition.append(DATE_NOTES[doc["date_source"]].format(filed=c["date_filed"]))
     if not m:
         doc["syllabus_note"] = "Not yet in the bound volumes of the United States Reports."
     else:

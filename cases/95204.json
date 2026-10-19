@@ -1,0 +1,48 @@
+{
+  "chosen_because": [
+    "overruled by Duncan v. Louisiana (table of overruled decisions)"
+  ],
+  "conan_citation": "Maxwell v. Dow, 176 U.S. 581 (1900)",
+  "courtlistener_date": "1900-03-12",
+  "courtlistener_name": "Maxwell v. Dow",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/95204/maxwell-v-dow/",
+  "date": "1900-02-26",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 95204. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 176, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "95204",
+  "loc_url": "https://www.loc.gov/item/usrep176581/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep176/usrep176581/usrep176581.pdf",
+  "ref_prefix": "Case.95204",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Maxwell v. Dow, syllabus ¶ 1",
+      "page": 581,
+      "ref": "Case.95204.syllabus.1",
+      "text": "The decision in Hurtado v. California, 110 U. S. 516, that the words \"due process of law\" in the Fourteenth Amendment to the Constitution of the United States do not necessarily require an Indictment by a grand jury in a prosecution by a State for murder, has been often affirmed, and is now reaffirmed and applied to this case."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Maxwell v. Dow, syllabus ¶ 2",
+      "page": 581,
+      "ref": "Case.95204.syllabus.2",
+      "text": "The privileges and immunities of citizens of the United States do not necessarily include all the rights protected by the first eight amendments to the Federal Constitution against the powers of the Federal Government."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Maxwell v. Dow, syllabus ¶ 3",
+      "page": 581,
+      "ref": "Case.95204.syllabus.3",
+      "text": "The trial of a person accused as a criminal by a jury of only eight persons instead of twelve, and his subsequent imprisonment after conviction do not abridge his privileges and immunities under the Constitution as a citizen of the United States and do not deprive him of his liberty without due process of law."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-176-581"
+  ],
+  "title": "Maxwell v. Dow",
+  "us_cite": "176 U.S. 581"
+}

@@ -1,0 +1,83 @@
+{
+  "chosen_because": [
+    "overruled by Lawrence v. Texas (table of overruled decisions)"
+  ],
+  "conan_citation": "Bowers v. Hardwick, 478 U.S. 186 (1986)",
+  "courtlistener_date": "1986-09-11",
+  "courtlistener_name": "Bowers v. Hardwick",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/111738/bowers-v-hardwick/",
+  "date": "1986-06-30",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 111738. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 478, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "111738",
+  "loc_url": "https://www.loc.gov/item/usrep478186/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep478/usrep478186/usrep478186.pdf",
+  "ref_prefix": "Case.111738",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Bowers v. Hardwick, syllabus ¶ 1",
+      "page": 186,
+      "ref": "Case.111738.syllabus.1",
+      "text": "After being charged with violating the Georgia statute criminalizing sodomy by committing that act with another adult male in the bedroom of his home, respondent Hardwick (respondent) brought suit in Federal District Court, challenging the constitutionality of the statute insofar as it criminalized consensual sodomy. The court granted the defendants' motion to dismiss for failure to state a claim. The Court of Appeals reversed and remanded, holding that the Georgia statute violated respondent's fundamental rights."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowers v. Hardwick, syllabus ¶ 2",
+      "page": 186,
+      "ref": "Case.111738.syllabus.2",
+      "text": "Held: The Georgia statute is constitutional. Pp. 190-196."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowers v. Hardwick, syllabus ¶ 3",
+      "page": 186,
+      "ref": "Case.111738.syllabus.3",
+      "text": "(a) The Constitution does not confer a fundamental right upon homosexuals to engage in sodomy. None of the fundamental rights announced in this Court's prior cases involving family relationships, marriage, or procreation bear any resemblance to the right asserted in this case. And any claim that those cases stand for the proposition that any kind of private sexual conduct between consenting adults is constitutionally insulated from state proscription is unsupportable. Pp. 190-191."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowers v. Hardwick, syllabus ¶ 4",
+      "page": 186,
+      "ref": "Case.111738.syllabus.4",
+      "text": "(b) Against a background in which many States have criminalized sodomy and still do, to claim that a right to engage in such conduct is \"deeply rooted in this Nation's history and tradition\" or \"implicit in the concept of ordered liberty\" is, at best, facetious. Pp. 191-194."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowers v. Hardwick, syllabus ¶ 5",
+      "page": 186,
+      "ref": "Case.111738.syllabus.5",
+      "text": "(c) There should be great resistance to expand the reach of the Due Process Clauses to cover new fundamental rights. Otherwise, the Judiciary necessarily would take upon itself further authority to govern the country without constitutional authority. The claimed right in this case falls far short of overcoming this resistance. Pp. 194-195."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowers v. Hardwick, syllabus ¶ 6",
+      "page": 186,
+      "ref": "Case.111738.syllabus.6",
+      "text": "(d) The fact that homosexual conduct occurs in the privacy of the home does not affect the result. Stanley v. Georgia, 394 U. S. 557, distinguished. Pp. 195-196."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowers v. Hardwick, syllabus ¶ 7",
+      "page": 186,
+      "ref": "Case.111738.syllabus.7",
+      "text": "(e) Sodomy laws should not be invalidated on the asserted basis that majority belief that sodomy is immoral is an inadequate rationale to support the laws. P. 196."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bowers v. Hardwick, syllabus ¶ 8",
+      "page": 186,
+      "ref": "Case.111738.syllabus.8",
+      "text": "760 F. 2d 1202, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-478-186"
+  ],
+  "title": "Bowers v. Hardwick",
+  "us_cite": "478 U.S. 186"
+}

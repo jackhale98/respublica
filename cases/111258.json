@@ -1,0 +1,76 @@
+{
+  "chosen_because": [
+    "cited on 12 pages"
+  ],
+  "conan_citation": "Allen v. Wright, 468 U.S. 737 (1984)",
+  "courtlistener_date": "1984-09-18",
+  "courtlistener_name": "Allen v. Wright",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/111258/allen-v-wright/",
+  "date": "1984-07-03",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 111258. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 468, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "111258",
+  "loc_url": "https://www.loc.gov/item/usrep468737/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep468/usrep468737/usrep468737.pdf",
+  "ref_prefix": "Case.111258",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Allen v. Wright, syllabus ¶ 1",
+      "page": 737,
+      "ref": "Case.111258.syllabus.1",
+      "text": "The Internal Revenue Service (IRS) denies tax-exempt status under the Internal Revenue Code-and hence eligibility to receive charitable contributions deductible from income taxes under the Code-to racially discriminatory private schools, and has established guidelines and procedures for determining whether a particular school is in fact racially nondiscriminatory. Respondents, parents of black children who were attending public schools in seven States in school districts undergoing desegregation, brought a nationwide class action in Federal District Court against petitioner Government officials (petitioner Allen, the head of a private school identified in the complaint, intervened as a defendant), alleging that the IRS has not adopted sufficient standards and procedures to fulfill its obligation to deny tax-exempt status to racially discriminatory private schools and has thereby harmed respondents directly and interfered with their children's opportunity to receive an education in desegregated public schools. Respondents also alleged that many racially segregated private schools were created or expanded in their communities at the time the public schools were undergoing desegregation, and had received tax exemptions despite the IRS policy and guidelines; and that these unlawful tax exemptions harmed respondents in that they constituted tangible financial aid for racially segregated educational institutions and encouraged the organization and expansion of institutions that provided segregated educational opportunities for white students avoiding attendance in the public schools. Respondents did not allege that their children had ever applied or would ever apply for admission to any private school. They sought declaratory and injunctive relief. The District Court dismissed the complaint on the ground that respondents lacked standing to bring the suit. The Court of Appeals reversed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Allen v. Wright, syllabus ¶ 2",
+      "page": 737,
+      "ref": "Case.111258.syllabus.2",
+      "text": "Held: Respondents do not have standing to bring this suit. Pp. 750-766."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Allen v. Wright, syllabus ¶ 3",
+      "page": 737,
+      "ref": "Case.111258.syllabus.3",
+      "text": "(a) The \"case or controversy\" requirement of Art. III of the Constitution defines with respect to the Judicial Branch the idea of separation of powers on which the Federal Government is founded, and the Art. III doctrine of \"standing\" has a core constitutional component that a plaintiff must allege personal injury fairly traceable to the defendant's allegedly unlawful conduct and likely to be redressed by the requested relief. The concepts of standing doctrine present questions that must be answered by reference to the Art. III notion that federal courts may exercise power only in the last resort and as a necessity, and only when adjudication is consistent with a system of separated powers and the dispute is one traditionally thought to be capable of resolution through the judicial process. Pp. 750-752."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Allen v. Wright, syllabus ¶ 4",
+      "page": 738,
+      "ref": "Case.111258.syllabus.4",
+      "text": "(b) Respondents' claim that they are harmed directly by the mere fact of Government financial aid to discriminatory private schools fails because it does not constitute judicially cognizable injury. Insofar as the claim may be interpreted as one simply to have the Government avoid the alleged violation of law in granting the tax exemptions, an asserted right to have the Government act in accordance with law is not sufficient, standing alone, to confer jurisdiction on a federal court. Nor do respondents have standing to litigate their claim based on the stigmatizing injury often caused by racial discrimination. Such injury accords a basis for standing only to those persons who are personally denied equal treatment by the challenged discriminatory conduct, and respondents do not allege a stigmatic injury suffered as a direct result of having personally been denied equal treatment. Pp. 753-756."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Allen v. Wright, syllabus ¶ 5",
+      "page": 738,
+      "ref": "Case.111258.syllabus.5",
+      "text": "(c) Respondents' claim of injury as to their children's diminished ability to receive an education in a racially integrated school because of the federal tax exemptions granted to some racially discriminatory private schools-though a judicially cognizable injury-fails because the alleged injury is not fairly traceable to the Government conduct that is challenged as unlawful. Respondents have not alleged that there were enough racially discriminatory private schools receiving tax exemptions in respondents' communities for withdrawal of those exemptions to make an appreciable difference in public school integration. Moreover, it is entirely speculative whether withdrawal of a particular school's tax exemption would lead the school to change its policies; whether any given parent of a child attending such a private school would decide to transfer the child to public school as a result of any changes in policy of a private school threatened with loss of tax-exempt status; or whether, in a particular community, a large enough number of school officials and parents would reach decisions that collectively would have a significant impact on the racial composition of the public schools. To recognize respondents' standing to seek a restructuring of the apparatus established by the Executive Branch to fulfill its legal duties would run afoul of the idea of separation of powers that underlies standing doctrine. The Constitution assigns to the Executive Branch, not to the Judicial Branch, the duty to take care that the laws be faithfully executed. Pp. 756-761."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Allen v. Wright, syllabus ¶ 6",
+      "page": 739,
+      "ref": "Case.111258.syllabus.6",
+      "text": "(d) None of the cases relied on by the Court of Appeals and by respondents to establish standing-Gilmore v. City of Montgomery, 417 U. S. 556; Norwood v. Harrison, 413 U. S. 455; and Coit v. Green, 404 U. S. 997, summarily aff'g Green v. Connally, 330 F. Supp. 1150- requires a finding of standing here. Pp. 761-766."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Allen v. Wright, syllabus ¶ 7",
+      "page": 739,
+      "ref": "Case.111258.syllabus.7",
+      "text": "211 U. S. App. D. C. 231, 656 F. 2d 820, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-468-737"
+  ],
+  "title": "Allen v. Wright",
+  "us_cite": "468 U.S. 737"
+}

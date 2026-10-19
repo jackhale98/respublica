@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "named in the title of essay ArtII.S2.C1.1.2"
+  ],
+  "conan_citation": "Prize Cases, 67 U.S. (2 Black) 635 (1863)",
+  "courtlistener_date": "1862-12-01",
+  "courtlistener_name": "The Brig Amy Warwick",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/87541/the-brig-amy-warwick/",
+  "date": "1863",
+  "date_source": "constitution_annotated",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 87541. Year as the Constitution Annotated prints it; CourtListener's date (1862-12-01) is in another year, and the United States Reports scan gives no date of decision that could be read. Syllabus: United States Reports, volume 67, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "87541",
+  "loc_url": "https://www.loc.gov/item/usrep067635/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep067/usrep067635/usrep067635.pdf",
+  "ref_prefix": "Case.87541",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-67-635"
+  ],
+  "syllabus_note": "Volume 67 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Prize Cases",
+  "us_cite": "67 U.S. 635"
+}

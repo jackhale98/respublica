@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt4.6 (5 pages)",
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Terry v. Ohio, 392 U.S. 1 (1968)",
+  "courtlistener_name": "Terry v. Ohio",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107729/terry-v-ohio/",
+  "date": "1968-06-10",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107729. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 392, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107729",
+  "loc_url": "https://www.loc.gov/item/usrep392001/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep392/usrep392001/usrep392001.pdf",
+  "ref_prefix": "Case.107729",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-392-1"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 3 a paragraph seems to stop mid-sentence.",
+  "title": "Terry v. Ohio",
+  "us_cite": "392 U.S. 1"
+}

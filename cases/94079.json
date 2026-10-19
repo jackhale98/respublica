@@ -1,0 +1,40 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C3.5 (5 pages)"
+  ],
+  "conan_citation": "United States v. E.C. Knight, 156 U.S. 1 (1895)",
+  "courtlistener_name": "United States v. E. C. Knight Co.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/94079/united-states-v-e-c-knight-co/",
+  "date": "1895-01-21",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 94079. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 156, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "94079",
+  "loc_url": "https://www.loc.gov/item/usrep156001/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep156/usrep156001/usrep156001.pdf",
+  "ref_prefix": "Case.94079",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. E.C. Knight, syllabus ¶ 1",
+      "page": 1,
+      "ref": "Case.94079.syllabus.1",
+      "text": "The monopoly and restraint denounced by the act of July 2, 1890, c. 647, 26 Stat. 209, \"to protect trade and commerce against unlawful restraints and monopolies,\" are a monopoly in interstate and international trade or commerce, and not a monopoly in the manufacture of a necessary of life."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. E.C. Knight, syllabus ¶ 2",
+      "page": 1,
+      "ref": "Case.94079.syllabus.2",
+      "text": "The American Sugar Refining Company, a corporation existing under the laws of the State of New Jersey, being in control of a large ma3ority of the manufactories of refined sugar in the United States, acquired, through the purchase of stock in four Philadelphia refineries, such disposition over those manufactories throughout the United States as gave it a practical monopoly of the business. Held, that the result of the transaction was the creation of a monopoly in the manufacture of a necessary of life, which could not be suppressed under the provisions of the act of July 2, 1890, c. 647, 26 Stat. 209, \" to protect trade and commerce against unlawful restraints and monopolies,\" in the mode attempted in this suit; and that the acquisition of Philadelphia refineries by a New Jersey corporation, and the business of sugar refining in Pennsylvania, bear no direct relation to commerce between the States or with foreign nations."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-156-1"
+  ],
+  "title": "United States v. E.C. Knight",
+  "us_cite": "156 U.S. 1"
+}

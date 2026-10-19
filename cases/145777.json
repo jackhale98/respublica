@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt2.4 (4 pages)"
+  ],
+  "conan_citation": "District of Columbia v. Heller, 554 U.S. 570 (2008)",
+  "courtlistener_name": "District of Columbia v. Heller",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/145777/district-of-columbia-v-heller/",
+  "date": "2008-06-26",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 145777. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 554, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "145777",
+  "loc_url": "https://www.loc.gov/item/usrep554570/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep554/usrep554570/usrep554570.pdf",
+  "ref_prefix": "Case.145777",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-554-570"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 571 a paragraph seems to stop mid-sentence.",
+  "title": "District of Columbia v. Heller",
+  "us_cite": "554 U.S. 570"
+}

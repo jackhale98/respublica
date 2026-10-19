@@ -1,0 +1,24 @@
+{
+  "chosen_because": [
+    "overruled by Edelman v. Jordan (table of overruled decisions)"
+  ],
+  "conan_citation": "State Department of Health & Rehabilitative Services v. Zarate, 407 U.S. 918 (1972);",
+  "courtlistener_match": "CourtListener gives 5 clusters for 407 U.S. 918; this one matches the case's name and year and is the most cited (the others: 8988678, 8988677, 8988676, 8988674).",
+  "courtlistener_name": "State Department of Health & Rehabilitative Services of Florida v. Zarate",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/8988675/state-department-of-health-rehabilitative-services-of-florida-v-zarate/",
+  "date": "1972-06-19",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 8988675. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+  },
+  "id": "8988675",
+  "ref_prefix": "Case.8988675",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-3"
+  ],
+  "syllabus_note": "The Library of Congress has no scan of this decision on its own (summary decisions are printed in lists, and the latest volumes are not yet scanned).",
+  "title": "State Department of Health & Rehabilitative Services v. Zarate",
+  "us_cite": "407 U.S. 918"
+}

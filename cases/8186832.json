@@ -1,0 +1,55 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Burnet v. Coronado Oil & Gas Co., 285 U.S. 393 (1932)",
+  "courtlistener_match": "CourtListener gives 2 clusters for 285 U.S. 393; this one matches the case's name and year and is the most cited (the others: 101894).",
+  "courtlistener_name": "Burnet v. Coronado Oil & Gas Co.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/8186832/burnet-v-coronado-oil-gas-co/",
+  "date": "1932-04-11",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 8186832. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 285, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "8186832",
+  "loc_url": "https://www.loc.gov/item/usrep285393/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep285/usrep285393/usrep285393.pdf",
+  "ref_prefix": "Case.8186832",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Burnet v. Coronado Oil & Gas Co., syllabus ¶ 1",
+      "page": 393,
+      "ref": "Case.8186832.syllabus.1",
+      "text": "Lands granted by the United States to the State of Oklahoma for the support of common schools and dedicated to that purpose by the state constitution, were leased by the State to a private company for extraction of oil and gas, the State reserving a part of the gross production, the proceeds of which were paid into the public school fund, and the lessee taking the remainder. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Burnet v. Coronado Oil & Gas Co., syllabus ¶ 2",
+      "page": 393,
+      "ref": "Case.8186832.syllabus.2",
+      "text": "(1) The lease was an instrumentality of the State in the exercise of a strictly governmental function. P. 398."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Burnet v. Coronado Oil & Gas Co., syllabus ¶ 3",
+      "page": 393,
+      "ref": "Case.8186832.syllabus.3",
+      "text": "(2) Application of the federal income tax to the income derived from the lease by the lessee was therefore unconstitutional. Gillespie v. Oklahoma, 257 U. S. 501, followed; Group No. 1 Oil Corp. v. Bass, 283 U. S. 279, distinguished. Id."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Burnet v. Coronado Oil & Gas Co., syllabus ¶ 4",
+      "page": 393,
+      "ref": "Case.8186832.syllabus.4",
+      "text": "60 App. D. C. 233; 50 F. (2d) 998, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-285-393"
+  ],
+  "title": "Burnet v. Coronado Oil & Gas Co.",
+  "us_cite": "285 U.S. 393"
+}

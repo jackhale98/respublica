@@ -1,0 +1,49 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S1.9 (6 pages)",
+    "cited on 11 pages"
+  ],
+  "conan_citation": "Northern Pipeline Construction Co. v. Marathon Pipe Line Co., 458 U.S. 50 (1982)",
+  "courtlistener_date": "1982-10-04",
+  "courtlistener_name": "Northern Pipeline Construction Co. v. Marathon Pipe Line Co.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/110771/northern-pipeline-construction-co-v-marathon-pipe-line-co/",
+  "date": "1982-06-28",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 110771. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 458, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "110771",
+  "loc_url": "https://www.loc.gov/item/usrep458050/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep458/usrep458050/usrep458050.pdf",
+  "ref_prefix": "Case.110771",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Northern Pipeline Construction Co. v. Marathon Pipe Line Co., syllabus ¶ 1",
+      "page": 50,
+      "ref": "Case.110771.syllabus.1",
+      "text": "The Bankruptcy Act of 1978 (Act) established a United States bankruptcy court in each judicial district as an adjunct to the district court for such district. The bankruptcy court judges are appointed for 14-year terms, subject to removal by the judicial council of the circuit in which they serve on grounds of incompetence, misconduct, neglect of duty, or disability. Their salaries are set by statute and are subject to adjustment. The Act grants the bankruptcy courts jurisdiction over \"all civil proceedings arising under title 11 [bankruptcy] [of the United States Code] or arising in or related to cases under title 11.\" See 28 U. S. C. § 1471(b) (1976 ed., Supp. IV). After it had filed a petition for reorganization in a Bankruptcy Court, appellant Northern Pipeline Construction Co. (Northern) filed in that court a suit against appellee Marathon Pipe Line Co. (Marathon) seeking damages for an alleged breach of contract and warranty, as well as for misrepresentation, coercion, and duress. Marathon sought dismissal of the suit on the ground that the Act unconstitutionally conferred Art. III judicial power upon judges who lacked life tenure and protection against salary diminution. The Bankruptcy Court denied the motion to dismiss, but on appeal the District Court granted the motion."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Northern Pipeline Construction Co. v. Marathon Pipe Line Co., syllabus ¶ 2",
+      "page": 50,
+      "ref": "Case.110771.syllabus.2",
+      "text": "Held: The judgment is affirmed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Northern Pipeline Construction Co. v. Marathon Pipe Line Co., syllabus ¶ 3",
+      "page": 50,
+      "ref": "Case.110771.syllabus.3",
+      "text": "12 B. R. 946, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-458-50"
+  ],
+  "title": "Northern Pipeline Construction Co. v. Marathon Pipe Line Co.",
+  "us_cite": "458 U.S. 50"
+}

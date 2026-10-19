@@ -1,0 +1,54 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtII.S2.C1.3 (7 pages)"
+  ],
+  "conan_citation": "Schick v. Reed, 419 U.S. 256 (1974)",
+  "courtlistener_name": "Schick v. Reed",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109121/schick-v-reed/",
+  "date": "1974-12-23",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109121. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 419, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109121",
+  "loc_url": "https://www.loc.gov/item/usrep419256/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep419/usrep419256/usrep419256.pdf",
+  "ref_prefix": "Case.109121",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Schick v. Reed, syllabus ¶ 1",
+      "page": 256,
+      "ref": "Case.109121.syllabus.1",
+      "text": "Petitioner, sentenced to death, under Art. 118 of the Uniform Code of Military Justice, by a court-martial for murder, attacked the validity of a Presidential commutation to life imprisonment (under which petitioner had served 20 years) conditioned on petitioner's never being paroled. The District Court granted respondents' motion for summary judgment. The Court of Appeals affirmed, additionally rejecting petitioner's contention that this Court's intervening decision in Furman v. Georgia, 408 U. S. 238, required that petitioner be resentenced to a life term with the possibility of parole, the alternative punishment for murder under Art. 118. Held: The conditional commutation of petitioner's death sentence was within the President's powers under Art. II, § 2, cl. 1, of the Constitution to \"grant Reprieves and Pardons for Offenses against the United States.\" Pp. 260-268."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Schick v. Reed, syllabus ¶ 2",
+      "page": 256,
+      "ref": "Case.109121.syllabus.2",
+      "text": "(a) The executive pardoning power under the Constitution, which has consistently adhered to the English common-law practice, historically included the power to commute sentences on conditions not specifically authorized by statute. United States v. Wilson, 7 Pet. 150; Ex parte Wells, 18 How. 307. Pp. 260-266."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Schick v. Reed, syllabus ¶ 3",
+      "page": 256,
+      "ref": "Case.109121.syllabus.3",
+      "text": "(b) Since the pardoning power derives from the Constitution alone, it cannot be modified, abridged, or diminished by any statute, including Art. 118, and Furman v. Georgia, supra, did not affect the conditional commutation of petitioner's sentence. Pp. 266-268."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Schick v. Reed, syllabus ¶ 4",
+      "page": 256,
+      "ref": "Case.109121.syllabus.4",
+      "text": "157 U. S. App. D. C. 263; 483 F. 2d 1266, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-419-256"
+  ],
+  "title": "Schick v. Reed",
+  "us_cite": "419 U.S. 256"
+}

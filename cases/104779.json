@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "overruled by Fay v. Noia (table of overruled decisions)"
+  ],
+  "conan_citation": "Darr v. Burford, 339 U.S. 200 (1950) (in part);",
+  "courtlistener_name": "Darr v. Burford",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104779/darr-v-burford/",
+  "date": "1950-04-03",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104779. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 339, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104779",
+  "loc_url": "https://www.loc.gov/item/usrep339200/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep339/usrep339200/usrep339200.pdf",
+  "ref_prefix": "Case.104779",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Darr v. Burford, syllabus ¶ 1",
+      "page": 200,
+      "ref": "Case.104779.syllabus.1",
+      "text": "Petitioner, a state prisoner, applied to a Federal District Court for habeas corpus without petitioning this Court for certiorari from a denial of habeas corpus on the merits by the highest state court or excusing his failure to do so. Limiting its consideration of the application solely to the question whether it presented an extraordinary instance that called for disregard of accustomed procedure of petitioning this Court for certiorari, the District Court found that nothing extraordinary appeared and discharged the writ. Held.: The District Court properly refused to examine further into the merits of the petition and properly discharged the writ. Pp. 201-219."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Darr v. Burford, syllabus ¶ 2",
+      "page": 200,
+      "ref": "Case.104779.syllabus.2",
+      "text": "(a) Ordinarily an application for habeas corpus by one detained under a state court judgment of conviction for crime will be entertained by a federal district court only after all state remedies available, including all appellate remedies in the state courts, have been exhausted and review has been denied by this Court. Ex parte Hawk, 321 U. S. 114. Pp. 203-208."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Darr v. Burford, syllabus ¶ 3",
+      "page": 200,
+      "ref": "Case.104779.syllabus.3",
+      "text": "(b) Whatever deviation from the established rule may be inferred from or implied by Wade v. Mayo, 334 U. S. 672, is corrected by this decision. Pp. 208-210."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Darr v. Burford, syllabus ¶ 4",
+      "page": 200,
+      "ref": "Case.104779.syllabus.4",
+      "text": "(c) In § 2254 of the 1948 recodification of the Judicial Code, Congress accepted the rule of the Hawk case as a sound rule to guide consideration of habas corpus in federal courts. Pp. 210- 214."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Darr v. Burford, syllabus ¶ 5",
+      "page": 200,
+      "ref": "Case.104779.syllabus.5",
+      "text": "(d) Though a refusal of certiorari by this Court may carry no weight on the merits upon a later application to a federal district court for habeas corpus, comity ordinarily requires an application for review by this Court before a lower federal court may be asked to intervene in state matters. Pp. 214-217."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Darr v. Burford, syllabus ¶ 6",
+      "page": 200,
+      "ref": "Case.104779.syllabus.6",
+      "text": "(e) In this case, petitioner did not sustain the burden of showing that circumstances of peculiar,'urgency existed to require prompt federaeintervention. P. 219."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Darr v. Burford, syllabus ¶ 7",
+      "page": 200,
+      "ref": "Case.104779.syllabus.7",
+      "text": "172 F. 2d 668, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-339-200"
+  ],
+  "title": "Darr v. Burford",
+  "us_cite": "339 U.S. 200"
+}

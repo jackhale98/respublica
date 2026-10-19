@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt1.7 (8 pages)"
+  ],
+  "conan_citation": "R.A.V. v. City of St. Paul, 505 U.S. 377 (1992)",
+  "courtlistener_name": "R. A. v. v. City of St. Paul",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112774/r-a-v-v-city-of-st-paul/",
+  "date": "1992-06-22",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112774. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 505, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112774",
+  "loc_url": "https://www.loc.gov/item/usrep505377/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep505/usrep505377/usrep505377.pdf",
+  "ref_prefix": "Case.112774",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "R.A.V. v. City of St. Paul, syllabus ¶ 1",
+      "page": 377,
+      "ref": "Case.112774.syllabus.1",
+      "text": "After allegedly burning a cross on a black family's lawn, petitioner R. A. V. was charged under, inter alia, the St. Paul, Minnesota, Bias-Motivated Crime Ordinance, which prohibits the display of a symbol which one knows or has reason to know \"arouses anger, alarm or resentment in others on the basis of race, color, creed, religion or gender.\" The trial court dismissed this charge on the ground that the ordinance was substantially overbroad and impermissibly content based, but the State Supreme Court reversed. It rejected the overbreadth claim because the phrase \"arouses anger, alarm or resentment in others\" had been construed in earlier state cases to limit the ordinance's reach to \"fighting words\" within the meaning of this Court's decision in Chaplinsky v. New Hampshire, 315 U. S. 568, 572, a category of expression unprotected by the First Amendment. The court also concluded that the ordinance was not impermissibly content based because it was narrowly tailored to serve a compelling governmental interest in protecting the community against bias-motivated threats to public safety and order."
+    },
+    {
+      "kind": "syllabus",
+      "label": "R.A.V. v. City of St. Paul, syllabus ¶ 2",
+      "page": 377,
+      "ref": "Case.112774.syllabus.2",
+      "text": "Held. The ordinance is facially invalid under the First Amendment. Pp. 381-396."
+    },
+    {
+      "kind": "syllabus",
+      "label": "R.A.V. v. City of St. Paul, syllabus ¶ 3",
+      "page": 377,
+      "ref": "Case.112774.syllabus.3",
+      "text": "(a) This Court is bound by the state court's construction of the ordinance as reaching only expressions constituting \"fighting words.\" However, R. A. V.'s request that the scope of the Chaplinsky formulation be modified, thereby invalidating the ordinance as substantially overbroad, need not be reached, since the ordinance unconstitutionally prohibits speech on the basis of the subjects the speech addresses. P. 381."
+    },
+    {
+      "kind": "syllabus",
+      "label": "R.A.V. v. City of St. Paul, syllabus ¶ 4",
+      "page": 377,
+      "ref": "Case.112774.syllabus.4",
+      "text": "(b) A few limited categories of speech, such as obscenity, defamation, and fighting words, may be regulated because of their constitutionally proscribable content. However, these categories are not entirely invisible to the Constitution, and government may not regulate them based on hostility, or favoritism, towards a nonproscribable message they contain. Thus the regulation of \"fighting words\" may not be based on nonproscribable content. It may, however, be underinclusive, addressing some offensive instances and leaving other, equally offensive, ones alone, so long as the selective proscription is not based on content, or there is no realistic possibility that regulation of ideas is afoot. Pp. 382-390."
+    },
+    {
+      "kind": "syllabus",
+      "label": "R.A.V. v. City of St. Paul, syllabus ¶ 5",
+      "page": 378,
+      "ref": "Case.112774.syllabus.5",
+      "text": "(c) The ordinance, even as narrowly construed by the State Supreme Court, is facially unconstitutional because it imposes special prohibitions on those speakers who express views on the disfavored subjects of \"race, color, creed, religion or gender.\" At the same time, it permits displays containing abusive invective if they are not addressed to those topics. Moreover, in its practical operation the ordinance goes beyond mere content, to actual viewpoint, discrimination. Displays containing \"fighting words\" that do not invoke the disfavored subjects would seemingly be useable ad libitum by those arguing in favor of racial, color, etc., tolerance and equality, but not by their opponents. St. Paul's desire to communicate to minority groups that it does not condone the \"group hatred\" of bias-motivated speech does not justify selectively silencing speech on the basis of its content. Pp. 391-393."
+    },
+    {
+      "kind": "syllabus",
+      "label": "R.A.V. v. City of St. Paul, syllabus ¶ 6",
+      "page": 378,
+      "ref": "Case.112774.syllabus.6",
+      "text": "(d) The content-based discrimination reflected in the ordinance does not rest upon the very reasons why the particular class of speech at issue is proscribable, it is not aimed only at the \"secondary effects\" of speech within the meaning of Renton v. Playtime Theatres, Inc., 475 U. S. 41, and it is not for any other reason the sort that does not threaten censorship of ideas. In addition, the ordinance's content discrimination is not justified on the ground that the ordinance is narrowly tailored to serve a compelling state interest in ensuring the basic human rights of groups historically discriminated against, since an ordinance not limited to the favored topics would have precisely the same beneficial effect. Pp. 393-396."
+    },
+    {
+      "kind": "syllabus",
+      "label": "R.A.V. v. City of St. Paul, syllabus ¶ 7",
+      "page": 378,
+      "ref": "Case.112774.syllabus.7",
+      "text": "464 N. W. 2d 507, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-505-377"
+  ],
+  "title": "R.A.V. v. City of St. Paul",
+  "us_cite": "505 U.S. 377"
+}

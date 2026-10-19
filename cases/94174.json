@@ -1,0 +1,84 @@
+{
+  "chosen_because": [
+    "overruled by South Carolina v. Baker (table of overruled decisions)",
+    "overruled (table of overruled decisions) and cited on 8 pages"
+  ],
+  "conan_citation": "Pollock v. Farmers’ Loan & Trust Co., 157 U.S. 429 (1895)",
+  "courtlistener_date": "1895-04-08",
+  "courtlistener_name": "Pollock v. Farmers' Loan & Trust Co.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/94174/pollock-v-farmers-loan-trust-co/",
+  "date": "1695-04-08",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 94174. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 157, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "94174",
+  "loc_url": "https://www.loc.gov/item/usrep157429/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep157/usrep157429/usrep157429.pdf",
+  "ref_prefix": "Case.94174",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Pollock v. Farmers’ Loan & Trust Co., syllabus ¶ 1",
+      "page": 429,
+      "ref": "Case.94174.syllabus.1",
+      "text": "A court of equity has jurisdiction to prevent a threatened breach of trust in the misapplication or diversion of the funds of a corporation by illegal payments out of its capital or profits."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pollock v. Farmers’ Loan & Trust Co., syllabus ¶ 2",
+      "page": 429,
+      "ref": "Case.94174.syllabus.2",
+      "text": "Such a bill being filed by a stockholder to prevent a trust company from voluntarily making returns for the imposition and payment of a tax claimed to be unconstitutional, and on the further ground of threatened multiplicity of suits and irreparable injury, and the objection of adequate remedy at law not having been raised below or in this court, and the question of jurisdiction having been waived by the United States, so far as it was within its power to do so, and the relief sought being to prevent the voluntary action of the trust company and not in respect to the assessment and collection of the tax, the court will proceed to judgment on the merits."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pollock v. Farmers’ Loan & Trust Co., syllabus ¶ 3",
+      "page": 429,
+      "ref": "Case.94174.syllabus.3",
+      "text": "The doctrine of stare decisis is a salutary one, and is to be adhered to on proper occasions, in respect of decisions directly upon points in issue; but this court should not extend any decision upon a constitutional question, if it is convinced that error in principle might supervene."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pollock v. Farmers’ Loan & Trust Co., syllabus ¶ 4",
+      "page": 429,
+      "ref": "Case.94174.syllabus.4",
+      "text": "In the cases referred to in the opinion of the court in this case, beginning with Hylton v. United States, 3 Dall. 171, (February Term, 1796,) and ending with Springer v. United States, 102 U. S. 586, (OctoberTerm, 1880,) taxes on land are conceded to be direct taxes, and in none of them is it determined that a tax on rent or income derived from land is not a tax on land."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pollock v. Farmers’ Loan & Trust Co., syllabus ¶ 5",
+      "page": 429,
+      "ref": "Case.94174.syllabus.5",
+      "text": "A tax on the rents or income of real estate is a direct tax, within the meaning of that term as used in the Constitution of the United States."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pollock v. Farmers’ Loan & Trust Co., syllabus ¶ 6",
+      "page": 429,
+      "ref": "Case.94174.syllabus.6",
+      "text": "A tax upon income derived from the interest of bonds issued by a municipal corporation is a tax upon the power of the State and its instrumentalities to borrow money, and is consequently repugnant to the Constitution of the United States."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pollock v. Farmers’ Loan & Trust Co., syllabus ¶ 7",
+      "page": 429,
+      "ref": "Case.94174.syllabus.7",
+      "text": "So much of the act\" to reduce taxation, to provide revenue for the government, and for other purposes,\" 28 Stat. 509, c. 349, as provides for levying taxes upon rents or income derived from real estate, or from the interest on municipal bonds, is repugnant to the Constitution of the United States and is invalid."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pollock v. Farmers’ Loan & Trust Co., syllabus ¶ 8",
+      "page": 429,
+      "ref": "Case.94174.syllabus.8",
+      "text": "Upon each of the other questions argued at the bar, to wit: 1, Whether the void provision as to rents and income from real estate invalidates the whole act ? 2, Whether as to the income from personal property as such, the act is unconstitutional as laying direct taxes ? 3, Whether any part of the tax, if not considered as a direct tax, is invalid for want of uniformity on either of the grounds suggested ? -the Justices who heard the argument are equally divided, and, therefore, no opinion is expressed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-157-429"
+  ],
+  "title": "Pollock v. Farmers’ Loan & Trust Co.",
+  "us_cite": "157 U.S. 429"
+}

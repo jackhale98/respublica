@@ -1,0 +1,222 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S10.C1.6 (8 pages)"
+  ],
+  "conan_citation": "Home Building & Loan Ass’n v. Blaisdell, 290 U.S. 398 (1934)",
+  "courtlistener_name": "Home Building & Loan Assn. v. Blaisdell",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102167/home-building-loan-assn-v-blaisdell/",
+  "date": "1934-01-08",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102167. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 290, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102167",
+  "loc_url": "https://www.loc.gov/item/usrep290398/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep290/usrep290398/usrep290398.pdf",
+  "ref_prefix": "Case.102167",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 1",
+      "page": 398,
+      "ref": "Case.102167.syllabus.1",
+      "text": "1. Emergency does not increase constitutional power, nor diminish constitutional restrictions. P. 425."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 2",
+      "page": 398,
+      "ref": "Case.102167.syllabus.2",
+      "text": "2. Emergency may, however, furnish occasion for exercise of power possessed. P. 426."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 3",
+      "page": 398,
+      "ref": "Case.102167.syllabus.3",
+      "text": "3. The clause providing that no State shall pass any law impairing the obligation of contracts is not to be applied with literal exactness, like a mathematical formula, but is one of the broad clauses of the Constitution which require construction to fill out details. Pp. 426, 428."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 4",
+      "page": 398,
+      "ref": "Case.102167.syllabus.4",
+      "text": "4. The necessity of construction of the contract clause is not obviated by its association in the same section with other and more specific provisions which may not admit of construction. P. 427."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 5",
+      "page": 398,
+      "ref": "Case.102167.syllabus.5",
+      "text": "5. The exact scope of the contract clause is not fixed by the debates in the Constitutionai Convention or by the plain historical reasons, including the prio1 legislation in the States, which led to the adoption of that clause and of other prohibitions in the same section of the Constitution. Pp. 427, 428."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 6",
+      "page": 398,
+      "ref": "Case.102167.syllabus.6",
+      "text": "6. The obligation of a contract is not impaired by a law modifying the remedy for its enforcement but not so as to impair substantial rights secured by the contract. P. 430."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 7",
+      "page": 398,
+      "ref": "Case.102167.syllabus.7",
+      "text": "7. Decisions of this Court in which statutes extending the period of redemption from foreclosure sales were held unconstitutional do not control where the statute in question safeguards the interests of the mortgagee-purchaser by conditions imposed on the extension. P. 431."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 8",
+      "page": 399,
+      "ref": "Case.102167.syllabus.8",
+      "text": "8. The contract clause must be construed in harmony with the reserved power of the State to safeguard the vital interests of her people. Reservation of such essential sovereign power is read into contracts. P. 434."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 9",
+      "page": 399,
+      "ref": "Case.102167.syllabus.9",
+      "text": "9. The legislation is to be tested, not by whether its effect upon contracts is direct or is merely incidental, but. upon whether the end is legitimate and the means reasonable and appropriate to the end. P. 438."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 10",
+      "page": 399,
+      "ref": "Case.102167.syllabus.10",
+      "text": "10. The principle of harmonizing the contract clause and the reserved power precludes a construction permitting the State to repudiate debts, destroy contracts, or deny means to enforce them. P. 439."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 11",
+      "page": 399,
+      "ref": "Case.102167.syllabus.11",
+      "text": "11. Economic conditions may arise in which a temporary restraint of enforcement of contracts will be consistent with the spirit and purpose of the 'contract clause, and thus be within the range of the reserved power of the State to protect the vital interests of the community. Marcus Broun Co. v. Feldman, 256 U.S. 170; Block v. Hirsh, id. 135. Pp. 434,440."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 12",
+      "page": 399,
+      "ref": "Case.102167.syllabus.12",
+      "text": "12. Whether the emergency still exists upon which the continued operation of the law depends, is always open to judicial inquiry. P. 442."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 13",
+      "page": 399,
+      "ref": "Case.102167.syllabus.13",
+      "text": "13. The great clauses of the Constitution must be considered in the light of our whole experience, and not merely as they would be interpreted by its framers in the conditions and with the outlook of their time. P. 443."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 14",
+      "page": 399,
+      "ref": "Case.102167.syllabus.14",
+      "text": "14. A Minnesota statute, approved April 18, 1933, declares the existence of an emergency demanding an exercise of the police power for the protection of the public and to promote the general welfare of the people, by temporarily extending the time allowed by existing law for redeeming real property from foreclosure and sale under existing mortgages. In support of this proposition, it recites: That a severe financial and economic depression has existed for several years, resulting in extremely low prices for the products of farms and factories, in much unemployment, in almost complete lack of credit for farmers, business men and property owners, and in extreme stagnation of business, agriculture and industry; that many owners of real property, by reason of these conditions, are unable and, it is believed, for some time will be unable, to meet all payments as they come due, of taxes, interest and principal of mortgages, and are, therefore, threatened with the loss of their property through foreclosure sale; that much property has been bid in on foreclosure for prices much below what it is believed was its real value, and often for much less than the mortgage indebtedness, resulting in deficiency judgments; that, under the existing conditions, foreclosure of many real estate mortgages by advertisement would prevent fair, open and competitive bidding in the manner contemplated by law. The Act then provides, inter alia, as to foreclosure sales, that, where the period for redemption has not already expired, the mortgagor or owner in possession, by applying to a state court before its expiration, may obtain an extension for such time as the court may deem just and equitable, but in no case beyond May 1, 1935. The application is to be made on notice to the mortgagee. The court is to find the reasonable income or rental value of the property, and, as a condition to any extension allowed, is to order the applicant to pay all, or a reasonable part, of that value, in or towards the payment of taxes, insurance, interest and mortgage indebtedness, at such times and in such manner as to the court, under all the circumstances, shall appear just and equitable. If the applicant default in any payment so ordered, his right to redeem shall terminate in 30 days. The court is empowered to alter the terms of extensions as change of conditions may require. The Act automatically extends, to 30 days from its date, redemption periods which otherwise would expire within that time. It is to remain in effect only during the emergency and in no event beyond May 1, 1935. Prior to that date, no action shall be maintained for a deficiency judgment, until the period of redemption, as allowed by existing law or as extended under the Act, shall have expired.-In a proceeding under the statute, it appeared that the applicants, man and wife, owned a lot, in a closely built section of a large city, on which were a house and garage; that they lived in part of the house and offered the remainder for rent; that the reasonable present market value of the property was $6,000, and the reasonable value of the income and of the rental value, $40 per month; that on May 2, 1932, under a power of sale in a mortgage held by a building and loan association, this property had been sold for $3,700, the amount of the debt, and bid in by the mortgagee, leaving no deficiency; that taxes and insurance since paid by the mortgagee increased this amount to $4,056. The court extended the period of redemption, which would have expired May 2, 1933, to May 1, 1935, upon condition that the mortgagor pay $40 per month from date of sale throughout the extended period, to be applied on taxes, insurance, interest and mortgage indebtedness. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 15",
+      "page": 401,
+      "ref": "Case.102167.syllabus.15",
+      "text": "(1) An emergency existed furnishing proper occasion for exertion of the reserved power of the State to protect the vital interests of the community. P. 444."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 16",
+      "page": 401,
+      "ref": "Case.102167.syllabus.16",
+      "text": "(2) The findings of emergency by legislature and state supreme court can not be regarded as subterfuge or as lacking adequate basis, but are, indeed, supported by facts of which this Court takes judicial notice. P. 444."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 17",
+      "page": 401,
+      "ref": "Case.102167.syllabus.17",
+      "text": "(3) The legislation was addressed to a legitimate end, i.e., it was not for the advantage of particular individuals but for the protection of the basic interest of society. P. 445."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 18",
+      "page": 401,
+      "ref": "Case.102167.syllabus.18",
+      "text": "(4) In view of the nature of the contracts affected-mortgages of unquestionable validity-the relief would not be justified by the emergency, but would contravene the contract clause of the Constitution, if it were not appropriate to the emergency and granted only upon reasonable conditions. P. 445."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 19",
+      "page": 401,
+      "ref": "Case.102167.syllabus.19",
+      "text": "(5) The conditions upon which the period of redemption was extended do not appear to be unreasonable. The initial 30 day extension is to give opportunity for the application to the court. The integrity of the mortgage indebtedness is not impaired; interest continues to run; the validity of the sale and the right of the mortgagee-purchaser to title or to obtain a deficiency judgment, if the mortgagor fails to redeem within the extended period, are maintained; and the conditions of redemption, if redemption there be, stand as under the prior law. The mortgagor in possession must pay the rental value of the premises as ascertained in judicial proceedings, and this amount is applied in the carrying of the property and to interest upon the indebtedness. The mortgagee-purchaser thus is not left without compensation for the withholding of possession. P. 445."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 20",
+      "page": 401,
+      "ref": "Case.102167.syllabus.20",
+      "text": "(6) Important to the question of reasonableness is the fact, shown by official reports of which the Court takes judicial notice, that mortgagees in Minnesota are, predominantly, not home owners or farmers, but are corporations concerned chiefly with the reasonable protection of their investment security. The legislature was entitled to deal with this general or typical situation, though there may be individual cases of another aspect. P. 445."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 21",
+      "page": 401,
+      "ref": "Case.102167.syllabus.21",
+      "text": "(7) The relief afforded by the statute has regard to the interest of mortgagees as well as to the interest of mortgagors. P. 446."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 22",
+      "page": 402,
+      "ref": "Case.102167.syllabus.22",
+      "text": "(8) The procedure and relief provided are cognate to the historic exercise of equitable jurisdiction in cases of mortgage foreclosure. P. 446."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 23",
+      "page": 402,
+      "ref": "Case.102167.syllabus.23",
+      "text": "(9) Since the contract clause is not an absolute and utterly unqualified restriction of the States' protective power, the legislation is clearly so reasonable as to be within the legislative competency. P. 447."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 24",
+      "page": 402,
+      "ref": "Case.102167.syllabus.24",
+      "text": "(10) The legislation is temporary in operation-limited to the emergency. The period of postponement to May, 1935, may be reduced by order of the state court, under the statute, in case of change of circumstances; and the operation of the statute itself could not validly outlast the emergency or be so extended as virtually to destroy contracts. P. 447."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 25",
+      "page": 402,
+      "ref": "Case.102167.syllabus.25",
+      "text": "(11) Whether the legislation is wise or unwise as a matter of policy, does not concern the Court. P. 447."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 26",
+      "page": 402,
+      "ref": "Case.102167.syllabus.26",
+      "text": "(12) For tle same reasons that sustain it under the contract clause, the legislation, as applied in this case, is consistent with the due process clause of the Fourteenth Amendment. P. 448."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 27",
+      "page": 402,
+      "ref": "Case.102167.syllabus.27",
+      "text": "(13) The statute does not deny the equal protection of the laws; its classification is not arbitrary. P. 448."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Home Building & Loan Ass’n v. Blaisdell, syllabus ¶ 28",
+      "page": 402,
+      "ref": "Case.102167.syllabus.28",
+      "text": "189 Minn. 422, 448; 249 N.W. 334, 893, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-290-398"
+  ],
+  "title": "Home Building & Loan Ass’n v. Blaisdell",
+  "us_cite": "290 U.S. 398"
+}

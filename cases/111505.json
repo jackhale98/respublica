@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Grand Rapids School District v. Ball, 473 U.S. 373 (1985)",
+  "courtlistener_name": "School District of Grand Rapids v. Ball",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/111505/school-district-of-grand-rapids-v-ball/",
+  "date": "1985-07-01",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 111505. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 473, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "111505",
+  "loc_url": "https://www.loc.gov/item/usrep473373/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep473/usrep473373/usrep473373.pdf",
+  "ref_prefix": "Case.111505",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Grand Rapids School District v. Ball, syllabus ¶ 1",
+      "page": 373,
+      "ref": "Case.111505.syllabus.1",
+      "text": "Petitioner School District adopted two programs -Shared Time and Community Education-that provide classes to nonpublic school students at public expense in classrooms located in and leased from the nonpublic schools. The Shared Time program offers classes during the regular schoolday that are intended to supplement the \"core curriculum\" courses required by the State. The Shared Time teachers are full-time employees of the public schools, but a \"significant portion\" of them had previously taught in nonpublic schools. The Community Education program offers classes at the conclusion of the regular schoolday in voluntary courses, some of which are not offered at the public schools but others of which are. Community Education teachers are part-time public school employees who for the most part are otherwise employed full time by the same nonpublic school in which their Community Education classes are held. Of the 41 private schools involved in these programs, 40 are identifiably religious schools. The students attending both programs are the same students who otherwise attend the particular school in which the classes are held. Respondent taxpayers filed suit in Federal District Court against the School District and certain state officials, alleging that both programs violated the Establishment Clause of the First Amendment, made applicable to the States through the Fourteenth Amendment. The court agreed, entered a judgment for respondents, and enjoined further operation of the programs. The Court of Appeals affirmed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Grand Rapids School District v. Ball, syllabus ¶ 2",
+      "page": 373,
+      "ref": "Case.111505.syllabus.2",
+      "text": "Held: The Shared Time and Community Education programs have the \"primary or principal\" effect of advancing religion, and therefore violate the dictates of the Establishment Clause. Pp. 381-398."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Grand Rapids School District v. Ball, syllabus ¶ 3",
+      "page": 373,
+      "ref": "Case.111505.syllabus.3",
+      "text": "(a) Even the praiseworthy, secular purpose of providing for the education of schoolchildren cannot validate government aid to parochial schools when the aid has the effect of promoting a single religion or religion generally or when the aid unduly entangles the government in matters religious. Pp. 381-383."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Grand Rapids School District v. Ball, syllabus ¶ 4",
+      "page": 373,
+      "ref": "Case.111505.syllabus.4",
+      "text": "(b) The challenged programs have the effect of impermissibly promoting religion in three ways. First, the state-paid teachers, influenced by the pervasively sectarian nature of the religious schools in which they work, may subtly or overtly indoctrinate the students in particular religious tenets at public expense. Second, the symbolic union of church and state inherent in the provision of secular state-provided public instruction in the religious school buildings threatens to convey a message of state support for religion to students and to the general public. Third, the programs in effect subsidize the religious functions of the parochial schools by taking over a substantial portion of their responsibility for teaching secular subjects. Pp. 384-398."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Grand Rapids School District v. Ball, syllabus ¶ 5",
+      "page": 374,
+      "ref": "Case.111505.syllabus.5",
+      "text": "718 F. 2d 1389, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-473-373"
+  ],
+  "title": "Grand Rapids School District v. Ball",
+  "us_cite": "473 U.S. 373"
+}

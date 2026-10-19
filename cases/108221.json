@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "cited on 11 pages"
+  ],
+  "conan_citation": "Oregon v. Mitchell, 400 U.S. 112 (1970)",
+  "courtlistener_name": "Oregon v. Mitchell",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/108221/oregon-v-mitchell/",
+  "date": "1970-12-21",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 108221. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 400, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "108221",
+  "loc_url": "https://www.loc.gov/item/usrep400112/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep400/usrep400112/usrep400112.pdf",
+  "ref_prefix": "Case.108221",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-400-112"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 114 a paragraph seems to stop mid-sentence.",
+  "title": "Oregon v. Mitchell",
+  "us_cite": "400 U.S. 112"
+}

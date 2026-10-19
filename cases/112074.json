@@ -1,0 +1,48 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt6.6 (5 pages)"
+  ],
+  "conan_citation": "Wheat v. United States, 486 U.S. 153 (1988)",
+  "courtlistener_date": "1988-06-30",
+  "courtlistener_name": "Wheat v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112074/wheat-v-united-states/",
+  "date": "1988-05-23",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112074. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 486, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112074",
+  "loc_url": "https://www.loc.gov/item/usrep486153/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep486/usrep486153/usrep486153.pdf",
+  "ref_prefix": "Case.112074",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Wheat v. United States, syllabus ¶ 1",
+      "page": 153,
+      "ref": "Case.112074.syllabus.1",
+      "text": "Petitioner, along with numerous codefendants including Gomez-Barajas and Bravo, was charged with participating in a far-flung drug distribution conspiracy. At the time of petitioner's trial, the District Court was considering Gomez-Barajas' offer to plead guilty to certain charges stemming from the conspiracy, and had already accepted Bravo's guilty plea to one count. Both Gomez-Barajas and Bravo were represented by attorney Iredale. Two court days before his trial was to commence, petitioner moved for the substitution of Iredale as his counsel as well. Despite petitioner's assertion of his Sixth Amendment right to the counsel of his choice, and his willingness, as well as that of Gomez-Barajas and Bravo, to waive the right to conflict-free counsel, the court denied the substitution motion on the basis of irreconcilable and unwaiveable conflicts of interest for Iredale created by the likelihood that petitioner would be called to testify at any subsequent trial of Gomez-Barajas, and that Bravo would testify at petitioner's trial. Petitioner therefore proceeded to trial with his original counsel and was convicted. The Court of Appeals affirmed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Wheat v. United States, syllabus ¶ 2",
+      "page": 153,
+      "ref": "Case.112074.syllabus.2",
+      "text": "Held: The District Court did not err in declining petitioner's waiver of his right to conflict-free counsel and in refusing to permit his proposed substitution of attorneys. In multiple-representation cases, district courts have a duty to take such measures as are appropriate to protect criminal defendants against counsel's conflicts of interest, including the issuance of separate representation orders. Moreover, they often must do so at the pretrial stage, where relationships between parties are unclear, and the likelihood and dimensions of nascent conflicts of interest are hard to predict. The provision of waivers by all affected parties will not necessarily cure any problems, since the courts have an independent interest in assuring compliance with ethical standards and the appearance of fairness, and since several Courts of Appeals have demonstrated an apparent willingness to entertain ineffective-assistance claims by defendants who have specifically waived the right to conflict-free counsel. Thus, the district courts must be allowed substantial latitude to evaluate in the light of their informed judgment the facts and circumstances of each case, including any attempt by the Government to \"manufacture\" a conflict to prevent a defendant from obtaining particularly able counsel. Although the courts must recognize the Sixth Amendment presumption in favor of counsel of choice, that presumption may be overcome not only by a demonstration of actual conflict but also by a showing of a serious potential for conflict. Here, where the substitution motion was made so close to trial, it cannot be said that the District Court abused its discretion, since it was presented with complex litigation that was likely to engender conflicts of interest for Iredale if he was permitted to represent both petitioner and his codefendants. Pp. 158-164."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Wheat v. United States, syllabus ¶ 3",
+      "page": 154,
+      "ref": "Case.112074.syllabus.3",
+      "text": "813 F. 2d 1399, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-486-153"
+  ],
+  "title": "Wheat v. United States",
+  "us_cite": "486 U.S. 153"
+}

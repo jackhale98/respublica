@@ -1,0 +1,91 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S2.C1.11 (4 pages)",
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Romero v. International Terminal Operating Co., 358 U.S. 354 (1959)",
+  "courtlistener_date": "1959-04-06",
+  "courtlistener_name": "Romero v. International Terminal Operating Co.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/105825/romero-v-international-terminal-operating-co/",
+  "date": "1959-02-24",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 105825. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 358, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "105825",
+  "loc_url": "https://www.loc.gov/item/usrep358354/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep358/usrep358354/usrep358354.pdf",
+  "ref_prefix": "Case.105825",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Romero v. International Terminal Operating Co., syllabus ¶ 1",
+      "page": 354,
+      "ref": "Case.105825.syllabus.1",
+      "text": "Petitioner, a Spanish ilbject, was employed on board a ship of Spanish flag and registry, owned by a Spanish corporation, for a voyage beginning and ending in Spain. He was'injured while the ship was in American territorial waters, and he filed suit on the law side of a Federal District Court in New York. He claimed damages under the Jones Act and under the general maritime law for unseaworthiness, maintenance and cure and negligence against his Spanish employer and a New York corporation which acted as its husbanding agent in New York. Damages for negligence under the general maritime law were claimed against two other American corporations engaged in operations related to loading freight in New Jersey. The District Court dismissed the complaint and the Court of Appeals affirmed. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Romero v. International Terminal Operating Co., syllabus ¶ 2",
+      "page": 354,
+      "ref": "Case.105825.syllabus.2",
+      "text": "'1. Jurisdiction under the Jones Act was adequately alleged. P. 359."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Romero v. International Terminal Operating Co., syllabus ¶ 3",
+      "page": 354,
+      "ref": "Case.105825.syllabus.3",
+      "text": "2. Jurisdiction on the law side of cIaims based on the general maritime law is not granted by 28 U. S. C. § 1331. Pp. 359-380."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Romero v. International Terminal Operating Co., syllabus ¶ 4",
+      "page": 354,
+      "ref": "Case.105825.syllabus.4",
+      "text": "3. There was jurisdiction, \"pendent\" to jurisdiction under the Jones Act, to determine whether the claims against the Spanish corporation based on general maritime law stated a cause of action. Pp. 380-381."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Romero v. International Terminal Operating Co., syllabus ¶ 5",
+      "page": 354,
+      "ref": "Case.105825.syllabus.5",
+      "text": "4. There was jurisdiction under 28 U. S. C. § 1332 over the claims under the general maritime law against the three American corporations. P. 381."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Romero v. International Terminal Operating Co., syllabus ¶ 6",
+      "page": 354,
+      "ref": "Case.105825.syllabus.6",
+      "text": "5. Neither .the Jones Act nor the general maritime law of the United States is applicable to the claims against the foreign shipowner. Pp. 381-384."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Romero v. International Terminal Operating Co., syllabus ¶ 7",
+      "page": 354,
+      "ref": "Case.105825.syllabus.7",
+      "text": "6. The claims for unseaworthiness and maintenance and cure against the husbanding agent were properly dismissed in light of the District Court's findings of fact. Pp. p84-385."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Romero v. International Terminal Operating Co., syllabus ¶ 8",
+      "page": 355,
+      "ref": "Case.105825.syllabus.8",
+      "text": "7. The case must be remanded for consideration of the claims against the three American corporations based on negligence. P. 385."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Romero v. International Terminal Operating Co., syllabus ¶ 9",
+      "page": 355,
+      "ref": "Case.105825.syllabus.9",
+      "text": "244 F. 2d 409, judgment vacated and cause remanded to the District Court for further proceedings."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-358-354"
+  ],
+  "title": "Romero v. International Terminal Operating Co.",
+  "us_cite": "358 U.S. 354"
+}

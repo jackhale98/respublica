@@ -1,0 +1,49 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C3.6 (6 pages)",
+    "cited on 11 pages",
+    "named in the title of essay ArtI.S8.C3.6.1"
+  ],
+  "conan_citation": "United States v. Lopez, 514 U.S. 549 (1995)",
+  "courtlistener_name": "United States v. Lopez",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/117927/united-states-v-lopez/",
+  "date": "1995-04-26",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 117927. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 514, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "117927",
+  "loc_url": "https://www.loc.gov/item/usrep514549/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep514/usrep514549/usrep514549.pdf",
+  "ref_prefix": "Case.117927",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Lopez, syllabus ¶ 1",
+      "page": 549,
+      "ref": "Case.117927.syllabus.1",
+      "text": "After respondent, then a 12th-grade student, carried a concealed handgun into his high school, he was charged with violating the Gun-Free School Zones Act of 1990, which forbids \"any individual knowingly to possess a firearm at a place that [he] knows ... is a school zone,\" 18 U. S. C. § 922(q)(1)(A). The District Court denied his motion to dismiss the indictment, concluding that § 922(q) is a constitutional exercise of Congress' power to regulate activities in and affecting commerce. In reversing, the Court of Appeals held that, in light of what it characterized as insufficient congressional findings and legislative history, § 922(q) is invalid as beyond Congress' power under the Commerce Clause."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Lopez, syllabus ¶ 2",
+      "page": 549,
+      "ref": "Case.117927.syllabus.2",
+      "text": "Held: The Act exceeds Congress' Commerce Clause authority. First, although this Court has upheld a wide variety of congressional Acts regulating intrastate economic activity that substantially affected interstate commerce, the possession of a gun in a local school zone is in no sense an economic activity that might, through repetition elsewhere, have such a substantial effect on interstate commerce. Section 922(q) is a criminal statute that by its terms has nothing to do with \"commerce\" or any sort of economic enterprise, however broadly those terms are defined. Nor is it an essential part of a larger regulation of economic activity, in which the regulatory scheme could be undercut unless the intrastate activity were regulated. It cannot, therefore, be sustained under the Court's cases upholding regulations of activities that arise out of or are connected with a commercial transaction, which, viewed in the aggregate, substantially affects interstate commerce. Second, § 922(q) contains no jurisdictional element that would ensure, through case-by-case inquiry, that the firearms possession in question has the requisite nexus with interstate commerce. Respondent was a local student at a local school; there is no indication that he had recently moved in interstate commerce, and there is no requirement that his possession of the firearm have any concrete tie to interstate commerce. To uphold the Government's contention that § 922(q) is justified because firearms possession in a local school zone does indeed substantially affect interstate commerce would require this Court to pile inference upon inference in a manner that would bid fair to convert congressional Commerce Clause authority to a general police power of the sort held only by the States. Pp. 552-568."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Lopez, syllabus ¶ 3",
+      "page": 550,
+      "ref": "Case.117927.syllabus.3",
+      "text": "2 F. 3d 1342, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-514-549"
+  ],
+  "title": "United States v. Lopez",
+  "us_cite": "514 U.S. 549"
+}

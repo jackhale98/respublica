@@ -1,0 +1,82 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt6.3 (4 pages)"
+  ],
+  "conan_citation": "In re Oliver, 333 U.S. 257 (1948)",
+  "courtlistener_name": "In Re Oliver",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104521/in-re-oliver/",
+  "date": "1948-03-08",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104521. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 333, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104521",
+  "loc_url": "https://www.loc.gov/item/usrep333257/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep333/usrep333257/usrep333257.pdf",
+  "ref_prefix": "Case.104521",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "In re Oliver, syllabus ¶ 1",
+      "page": 257,
+      "ref": "Case.104521.syllabus.1",
+      "text": "In obedience to a subpoena, petitioner appeared as a witness before a Michigan circuit judge who was then conducting, in accordance with Michigan law, a secret \"one-man grand jury\" investigation of crime. After petitioner had given certain testimony, the judgegrand jury, acting in the belief that his testimony was false and evasive (which belief was based partly on testimony given-by at least one other witness in petitioner's absence), summarily charged him with contempt, convicted him, and sentenced him to sixty days in Jail. These proceedings were secret and petitioner h~d no opportunity to secure camnsel, to prepare his defense, to crossexamine the other grand- ury witness, or to summon witnesses to refute the charge against him. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Oliver, syllabus ¶ 2",
+      "page": 257,
+      "ref": "Case.104521.syllabus.2",
+      "text": "1. The secrecy of petitioner's trial for criminal contempt violated the due process clause of the Fourteenth Amendment. Pp. 266-273,278."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Oliver, syllabus ¶ 3",
+      "page": 257,
+      "ref": "Case.104521.syllabus.3",
+      "text": "(a) The reasons advanced to support the secrecy of grandjury investigative proceedings do not justify secrecy in the trial of a defendant accused of an offense for which he may be fined or sent to jail. Pp. 264-266."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Oliver, syllabus ¶ 4",
+      "page": 257,
+      "ref": "Case.104521.syllabus.4",
+      "text": "(b) An accused is entitled to a public trial, at least to the extent of having his friends, relatives and counsel present-no matter with what offense he may be charged. Pp. 271-272."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Oliver, syllabus ¶ 5",
+      "page": 257,
+      "ref": "Case.104521.syllabus.5",
+      "text": "2. The failure to afford petitioner a reasonable opportunity to defend himself against the charge of giving false and evasive testimony was a denial of due process of law. Pp. 273-278."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Oliver, syllabus ¶ 6",
+      "page": 257,
+      "ref": "Case.104521.syllabus.6",
+      "text": "(a) As a minimum, due process requires that an accused be given reasonable notice of the charge against him, the right to examine the witnesses against him, the right to testify in his own behalf, and the right to be represented by counsel. P. 273."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Oliver, syllabus ¶ 7",
+      "page": 257,
+      "ref": "Case.104521.syllabus.7",
+      "text": "(b) The circumstances of this case did not justify denial of these rights on the ground. that the trial was for contempt of court committed in the court's actual presence. Ex part? Terry, 128 U. S. 289, distinguished. Pp. 273-278."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Oliver, syllabus ¶ 8",
+      "page": 257,
+      "ref": "Case.104521.syllabus.8",
+      "text": "318 Mich. 7, 27 N. W. 2d 323, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-333-257"
+  ],
+  "title": "In re Oliver",
+  "us_cite": "333 U.S. 257"
+}

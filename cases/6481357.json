@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt14.S1.6 (10 pages)",
+    "cited on 16 pages",
+    "named in the title of essay Amdt14.S1.6.4.3"
+  ],
+  "conan_citation": "Dobbs v. Jackson Women’s Health Organization, No. 19-1392 (U.S. June 24, 2022)",
+  "courtlistener_name": "Dobbs v. Jackson Women's Health Organization",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/6481357/dobbs-v-jackson-womens-health-organization/",
+  "date": "2022-06-24",
+  "date_source": "courtlistener",
+  "docket": "19-1392",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 6481357. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+  },
+  "id": "6481357",
+  "ref_prefix": "Case.6481357",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-scotus-19-1392"
+  ],
+  "syllabus_note": "The Library of Congress has no scan of this decision on its own (summary decisions are printed in lists, and the latest volumes are not yet scanned).",
+  "title": "Dobbs v. Jackson Women’s Health Organization",
+  "us_cite": "597 U.S. 215"
+}

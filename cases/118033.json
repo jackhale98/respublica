@@ -1,0 +1,92 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S1.5 (6 pages)",
+    "most cited in essay topic ArtI.S1.6 (4 pages)",
+    "cited on 13 pages"
+  ],
+  "conan_citation": "Loving v. United States, 517 U.S. 748 (1996)",
+  "courtlistener_date": "1996-06-10",
+  "courtlistener_name": "Loving v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/118033/loving-v-united-states/",
+  "date": "1996-06-03",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 118033. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 517, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "118033",
+  "loc_url": "https://www.loc.gov/item/usrep517748/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep517/usrep517748/usrep517748.pdf",
+  "ref_prefix": "Case.118033",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Loving v. United States, syllabus ¶ 1",
+      "page": 748,
+      "ref": "Case.118033.syllabus.1",
+      "text": "A general court-martial found petitioner Loving, an Army private, guilty of both premeditated murder and felony murder under Article 118 of the Uniform Code of Military Justice (UCMJ), 10 U. S. C. §§ 918(1), (4). Finding three aggravating factors-(1) that the premeditated murder was committed during a robbery, Rule for Courts-Martial (RCM) 1004(c)(7)(B); (2) that Loving acted as the triggerman in the felony murder, RCM 1004(c)(8); and (3) that Loving, having been found guilty of the premeditated murder, had committed a second murder, also proved at his single trial, RCM 1004(c)(7)()-the court-martial sentenced Loving to death. The commander who convened the court-martial approved the findings and sentence. The United States Army Court of Military Review and the United States Court of Appeals for the Armed Forces affirmed, rejecting Loving's attack on the promulgation by Executive Order of the aggravating factors in RCM 1004. He contends that the Eighth Amendment and the separation-of-powers doctrine require that Congress, not the President, make the fundamental policy determination respecting the factors that warrant the death penalty."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Loving v. United States, syllabus ¶ 2",
+      "page": 748,
+      "ref": "Case.118033.syllabus.2",
+      "text": "Held&"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Loving v. United States, syllabus ¶ 3",
+      "page": 748,
+      "ref": "Case.118033.syllabus.3",
+      "text": "1. On the assumption that Furman v. Georgia, 408 U.S. 238, and subsequent cases apply to this crime and sentence, the Constitution requires the aggravating factors that Loving challenges. Under the Eighth Amendment, the military capital sentencing scheme must genuinely narrow the class of persons eligible for the death penalty and must reasonably justify the imposition of a more severe sentence on the accused compared to others found guilty of murder, see, e. g., Lowenfield v. Phelps, 484 U.S. 231, 244. That narrowing is not achieved in the statute. Article 118 authorizes the death penalty for but two of the four types of murder therein specified, premeditated and felony murder, §§918(1), (4), whereas intentional murder without premeditation and murder resulting from wanton and dangerous conduct are not punishable by death, §§ 918(2), (3). Moreover, Article 118(4) by its terms permits the death penalty for felony murder even if the accused had no intent to kill and did not do the killing himselft Because the Eighth Amendment does not permit death to be imposed in those circumstances, Enmund v. Florida, 458 U. S. 782, 801, additional aggravating factors establishing a higher culpability are necessary to Article 118's constitutional validity, see, e. g., Lowenfield, supra, at 244. Pp. 755-756."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Loving v. United States, syllabus ¶ 4",
+      "page": 749,
+      "ref": "Case.118033.syllabus.4",
+      "text": "2. The President's prescription of the challenged aggravating factors did not violate the separation-of-powers principle. Pp. 756-774."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Loving v. United States, syllabus ¶ 5",
+      "page": 749,
+      "ref": "Case.118033.syllabus.5",
+      "text": "(a) The fundamental precept of the delegation doctrine, a strand of this Court's separation-of-powers jurisprudence, is that the lawmaking function belongs to Congress, U. S. Const., Art. I, § 1, and may not be conveyed to another branch or entity, Field v. Clark, 143 U. S. 649, 692. This principle does not mean, however, that only Congress can make a rule of prospective force. Although it may not delegate the power to make the law, which necessarily involves discretion as to what the law shall be, Congress may delegate to others the authority or discretion to execute the law under and in pursuance of its terms. Id., at 693-694. Pp. 756-759."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Loving v. United States, syllabus ¶ 6",
+      "page": 749,
+      "ref": "Case.118033.syllabus.6",
+      "text": "(b) The Court rejects Loving's argument that Congress lacks power to delegate to the President the authority to prescribe aggravating factors in capital murder cases. An analysis of English constitutional history and of the historical necessities and events that instructed the Framers demonstrates that U. S. Const., Art. I, §8, cl. 14-which empowers Congress \"[t]o make Rules for the Government and Regulation of the land and naval forces\"-does not grant an exclusive, nondelegable power to determine military punishments, but gives Congress such flexibility to exercise or share power as the times might demand. And it would be contrary to the respect owed the President as Commander in Chief to hold that he may not be given wide discretion and authority. Thus, in the circumstances presented here, Congress may delegate authority to the President to define the aggravating factors that permit imposition of a statutory penalty, with the regulations providing the narrowing of the death-eligible class that the Eighth Amendment requires. Pp. 759-769."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Loving v. United States, syllabus ¶ 7",
+      "page": 749,
+      "ref": "Case.118033.syllabus.7",
+      "text": "(c) Also rejected is Loving's contention that, even if Congress can delegate to the President the authority to prescribe aggravating factors, Congress did not do so by implicit or explicit action in this instance. In fact, Congress exercised that power of delegation in 1950, when it enacted Articles 18, 56, and 36(a) of the UCMJ, 10 U. S. C. §§818 (A court-martial \"may, under such limitations as the President may prescribe, adjudge any punishment not forbidden by [the UCMJ], including the penalty of death when specifically authorized\"), 856 (\"The punishment which a court-martial may direct... may not exceed such limits as the President may prescribe for that offense\"), and 836(a) (which empowers the President to make procedural rules for courts-martial, and was identified by Congress in 1985 as a source of Presidential authority to provide capital aggravating factors). Together, these Articles give clear authority to the President to promulgate RCM 1004. Pp. 769-771."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Loving v. United States, syllabus ¶ 8",
+      "page": 750,
+      "ref": "Case.118033.syllabus.8",
+      "text": "(d) Loving's final assertion-that even if Articles 18, 56, and 36 can be construed as delegations, they lack an intelligible principle to guide the President's discretion-is also rejected. Had the delegations here called for the exercise of judgment or discretion that lies beyond the President's traditional authority, this argument might have more weight. However, because the President's duties as Commander in Chief require him to take responsible and continuing action to superintend the military, including the courts-martial, the delegated duty to prescribe aggravating factors for capital cases is interlinked with duties already assigned to him by the Constitution's express terms. The same limitations on delegation do not apply where the entity exercising the delegated authority possesses independent authority over the subject matter. See, e. g., United States v. Mazurie, 419 U. S. 544, 556-557. Pp. 771-774."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Loving v. United States, syllabus ¶ 9",
+      "page": 750,
+      "ref": "Case.118033.syllabus.9",
+      "text": "41 M. J. 213, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-517-748"
+  ],
+  "title": "Loving v. United States",
+  "us_cite": "517 U.S. 748"
+}

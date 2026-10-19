@@ -1,0 +1,47 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt6.3 (4 pages)"
+  ],
+  "conan_citation": "Presley v. Georgia, 558 U.S. 209 (2010)",
+  "courtlistener_name": "Presley v. Georgia",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/1746/presley-v-georgia/",
+  "date": "2010-01-19",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 1746. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 558, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "1746",
+  "loc_url": "https://www.loc.gov/item/usrep558209/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep558/usrep558209/usrep558209.pdf",
+  "ref_prefix": "Case.1746",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Presley v. Georgia, syllabus ¶ 1",
+      "page": 209,
+      "ref": "Case.1746.syllabus.1",
+      "text": "Petitioner Presley was convicted in a Georgia state court of cocaine trafﬁcking. In denying his motion for a new trial, the court rejected his claim that his Sixth Amendment right to a public trial was violated when the court excluded the public from the voir dire of prospective jurors. Both the Georgia Court of Appeals and Georgia Supreme Court afﬁrmed. The latter court concluded that a trial court need not consider alternatives to closing a courtroom absent the opposing party’s proffer of some alternatives."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Presley v. Georgia, syllabus ¶ 2",
+      "page": 209,
+      "ref": "Case.1746.syllabus.2",
+      "text": "Held: The trial court erred in closing voir dire without considering all reasonable alternatives to closure. Because the Sixth Amendment right to a public trial extends to jury voir dire, Waller v. Georgia, 467 U. S. 39, 46, “the party seeking to close the hearing must advance an overriding interest that is likely to be prejudiced, the closure must be no broader than necessary to protect that interest, the trial court must consider reasonable alternatives to closing the proceeding, and it must make ﬁndings adequate to support the closure,” id., at 48. Even where, as here, the parties offer no alternatives to closure, the trial court must consider alternatives and take every reasonable measure to accommodate the public’s right to be present. Nothing in the record shows that the trial court could not have accommodated the public at Presley’s trial."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Presley v. Georgia, syllabus ¶ 3",
+      "page": 209,
+      "ref": "Case.1746.syllabus.3",
+      "text": "Certiorari granted; 285 Ga. 270, 674 S. E. 2d 909, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-558-209"
+  ],
+  "title": "Presley v. Georgia",
+  "us_cite": "558 U.S. 209"
+}

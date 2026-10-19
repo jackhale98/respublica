@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "cited on 29 pages"
+  ],
+  "conan_citation": "Buckley v. Valeo, 424 U.S. 1 (1976)",
+  "courtlistener_date": "1976-02-27",
+  "courtlistener_name": "Buckley v. Valeo",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109380/buckley-v-valeo/",
+  "date": "1976-01-30",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109380. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 424, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109380",
+  "loc_url": "https://www.loc.gov/item/usrep424001/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep424/usrep424001/usrep424001.pdf",
+  "ref_prefix": "Case.109380",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-424-1"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 3 a paragraph seems to stop mid-sentence.",
+  "title": "Buckley v. Valeo",
+  "us_cite": "424 U.S. 1"
+}

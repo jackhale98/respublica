@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Niemotko v. Maryland, 340 U.S. 268 (1951)",
+  "courtlistener_name": "Niemotko v. Maryland",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104842/niemotko-v-maryland/",
+  "date": "1951-01-15",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104842. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 340, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104842",
+  "loc_url": "https://www.loc.gov/item/usrep340268/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep340/usrep340268/usrep340268.pdf",
+  "ref_prefix": "Case.104842",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Niemotko v. Maryland, syllabus ¶ 1",
+      "page": 268,
+      "ref": "Case.104842.syllabus.1",
+      "text": "Appellants' applications to a City Council for permits to use a city park for Bible talks were denied, for no apparent reason except the Council's dislike for appellants and disagreement with their views. For attempting to hold public meetings and make speeches in the park without permits, they were convicted on charges of disorderly conduct, although there was no evidence of disorder, threat of violence or riot, and they had conducted themselves in a manner beyond reproach. There was no ordinance prohibiting or regulating the use of the park and there were no established standards for the granting of permits; but permits customarily had been granted for similar purposes, including meetings of religious and fraternal organizations. Held: Appellants were denied equal protection of the laws, in the exercise of freedom of speech and religion, contrary to the First and Fourteenth Amendments. Pp. 269-273."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Niemotko v. Maryland, syllabus ¶ 2",
+      "page": 268,
+      "ref": "Case.104842.syllabus.2",
+      "text": "(a) The right to equal protection of the laws, in the exercise of those freedoms of speech and religion protected by the First and Fourteenth Amendments, has a firmer foundation than the whims or personal opinions of a local governing body. P. 272."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Niemotko v. Maryland, syllabus ¶ 3",
+      "page": 268,
+      "ref": "Case.104842.syllabus.3",
+      "text": "(b) A contention that state and city officials should have the power to exclude religious groups, as such, from the use of public parks was no justification when permits had always been issued for the use of the park by religious organizations. Pp. 272-273."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Niemotko v. Maryland, syllabus ¶ 4",
+      "page": 268,
+      "ref": "Case.104842.syllabus.4",
+      "text": "(c) A contention that the park was designated as a sanctuary for peace and quiet was no justification when its use for patriotic celebrations by fraternal organizations was permitted. P. 273."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Niemotko v. Maryland, syllabus ¶ 5",
+      "page": 268,
+      "ref": "Case.104842.syllabus.5",
+      "text": "(d) The lack of standards in the license-issuing \"practice\" renders that \"practice\" a prior restraint in contravention of the Fourteenth Amendment, and the completely arbitrary and discriminatory refusal to grant the permits was a denial of equal protection. P. 273."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Niemotko v. Maryland, syllabus ¶ 6",
+      "page": 269,
+      "ref": "Case.104842.syllabus.6",
+      "text": "(e) Since the convictions were based upon the lack of permits which were denied unconstitutionally, the convictions cannot stand. P. 273."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Niemotko v. Maryland, syllabus ¶ 7",
+      "page": 269,
+      "ref": "Case.104842.syllabus.7",
+      "text": "- Md. -, 71 A. 2d 9, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-340-268"
+  ],
+  "title": "Niemotko v. Maryland",
+  "us_cite": "340 U.S. 268"
+}

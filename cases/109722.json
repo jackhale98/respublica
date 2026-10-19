@@ -1,0 +1,41 @@
+{
+  "chosen_because": [
+    "overruled by Mitchell v. Helms (table of overruled decisions)",
+    "overruled (table of overruled decisions) and cited on 7 pages"
+  ],
+  "conan_citation": "Wolman v. Walter, 433 U.S. 229 (1977)",
+  "courtlistener_name": "Wolman v. Walter",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109722/wolman-v-walter/",
+  "date": "1977-06-24",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109722. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 433, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109722",
+  "loc_url": "https://www.loc.gov/item/usrep433229/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep433/usrep433229/usrep433229.pdf",
+  "ref_prefix": "Case.109722",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Wolman v. Walter, syllabus ¶ 1",
+      "page": 229,
+      "ref": "Case.109722.syllabus.1",
+      "text": "Appellants, citizens and taxpayers of Ohio, brought this action against appellees, certain state officials and others, challenging the constitutionality of all but one of the provisions of Ohio Rev. Code Ann. § 3317.06 (Supp. 1976) authorizing various forms of aid to nonpublic schools, most of which are sectarian. The Ohio scheme authorizes funding for use of nonpublic schoolchildren within the district where the nonpublic school is located for the following purposes: (1) purchasing secular textbooks approved by the superintendent of public instruction for use in public schools for loan to the children or their parents, on the request of either, made to the nonpublic school (§ 3317.06 (A)); (2) supplying such standardized tests and scoring services as are used in the public schools, with nonpublic school personnel not being involved in the test drafting or scoring, and no financial aid being involved (§ 3317.06 (J)) ; (3) providing speech and hearing diagnostic services and diagnostic psychological services in the nonpublic schools, with the personnel (except for physicians) performing the services being local board of education employees, physicians being hired on a contract basis, and treatment to be administered on nonpublic school premises (§§ 3317.06 (D), (F)); (4) supplying to students needing specialized attention therapeutic, guidance, and remedial services by employees of the local board of education or the State Department of Health, the services to be performed only in public schools, public centers, or in mobile units located off nonpublic school premises (§§ 3317.06 (G), (H), (I), (K)); (5) purchasing and loaning to pupils or their parents upon individual request instructional materials and instructional equipment of the kind used in the public schools and that is \"incapable of diversion to religious use\" (§§ 3317.06 (B), (C)); and (6) providing field trip transportation and services such as are provided to public school students, special contract transportation being permissible if school district buses are unavailable (§ 3317.06 (L)). A three-judge District Court held the statute constitutional in all respects. Held: Those portions of § 3317.06 authorizing the State to provide nonpublic school pupils with books, standardized testing and scoring, diagnostic services, and therapeutic and remedial services are constitutional. Those portions relating to instructional materials and equipment and field trip services are unconstitutional. Pp. 235-255; 255."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Wolman v. Walter, syllabus ¶ 2",
+      "page": 230,
+      "ref": "Case.109722.syllabus.2",
+      "text": "417 F. Supp. 1113, affirmed in part, reversed, in part."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-433-229"
+  ],
+  "title": "Wolman v. Walter",
+  "us_cite": "433 U.S. 229"
+}

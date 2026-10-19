@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt14.S1.4 (4 pages)"
+  ],
+  "conan_citation": "Powell v. Alabama, 287 U.S. 45 (1932)",
+  "courtlistener_name": "Powell v. Alabama",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/1236300/powell-v-alabama/",
+  "date": "1932-11-07",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 1236300. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 287, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "1236300",
+  "loc_url": "https://www.loc.gov/item/usrep287045/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep287/usrep287045/usrep287045.pdf",
+  "ref_prefix": "Case.1236300",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-287-45"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 45 a paragraph seems to stop mid-sentence.",
+  "title": "Powell v. Alabama",
+  "us_cite": "287 U.S. 45"
+}

@@ -1,0 +1,47 @@
+{
+  "chosen_because": [
+    "cited on 10 pages"
+  ],
+  "conan_citation": "McDonald v. City of Chicago, 561 U.S. 742 (2010)",
+  "courtlistener_name": "McDonald v. City of Chicago",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/149702/mcdonald-v-city-of-chicago/",
+  "date": "2010-06-28",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 149702. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 561, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "149702",
+  "loc_url": "https://www.loc.gov/item/usrep561742/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep561/usrep561742/usrep561742.pdf",
+  "ref_prefix": "Case.149702",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "McDonald v. City of Chicago, syllabus ¶ 1",
+      "page": 742,
+      "ref": "Case.149702.syllabus.1",
+      "text": "Two years ago, in District of Columbia v. Heller, 554 U. S. 570, this Court held that the Second Amendment protects the right to keep and bear arms for the purpose of self-defense and struck down a District of Columbia law that banned the possession of handguns in the home. Chicago (hereinafter City) and the village of Oak Park, a Chicago suburb, have laws effectively banning handgun possession by almost all private citizens. After Heller, petitioners ﬁled this federal suit against the City, which was consolidated with two related actions, alleging that the City’s handgun ban has left them vulnerable to criminals. They sought a declaration that the ban and several related City ordinances violate the Second and Fourteenth Amendments. Rejecting petitioners’ argument that the ordinances are unconstitutional, the court noted that the Seventh Circuit previously had upheld the constitutionality of a handgun ban, that Heller had explicitly refrained from opining on whether the Second Amendment applied to the States, and that the court had a duty to follow established Circuit precedent. The Seventh Circuit afﬁrmed, relying on three 19th-century cases—United States v. Cruikshank, 92 U. S. 542, Presser v. Illinois, 116 U. S. 252, and Miller v. Texas, 153 U. S. 535—which were decided in the wake of this Court’s interpretation of the Fourteenth Amendment’s Privileges or Immunities Clause in the Slaughter-House Cases, 16 Wall. 36."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McDonald v. City of Chicago, syllabus ¶ 2",
+      "page": 742,
+      "ref": "Case.149702.syllabus.2",
+      "text": "Held: The judgment is reversed, and the case is remanded."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McDonald v. City of Chicago, syllabus ¶ 3",
+      "page": 742,
+      "ref": "Case.149702.syllabus.3",
+      "text": "567 F. 3d 856, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-561-742"
+  ],
+  "title": "McDonald v. City of Chicago",
+  "us_cite": "561 U.S. 742"
+}

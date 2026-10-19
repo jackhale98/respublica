@@ -1,0 +1,76 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S8.C1.1 (4 pages)"
+  ],
+  "conan_citation": "South Carolina v. Baker, 485 U.S. 505 (1988)",
+  "courtlistener_date": "1988-06-13",
+  "courtlistener_name": "South Carolina v. Baker",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112040/south-carolina-v-baker/",
+  "date": "1988-04-20",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112040. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 485, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112040",
+  "loc_url": "https://www.loc.gov/item/usrep485505/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep485/usrep485505/usrep485505.pdf",
+  "ref_prefix": "Case.112040",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "South Carolina v. Baker, syllabus ¶ 1",
+      "page": 505,
+      "ref": "Case.112040.syllabus.1",
+      "text": "Section 310(b)(1) of the Tax Equity and Fiscal Responsibility Act of 1982 removes the federal income tax exemption for interest earned on publicly offered long-term bonds (hereinafter referred to as bonds) issued by state and local governments (hereinafter referred to collectively as States) unless those bonds are issued in registered (as opposed to bearer) form. South Carolina invoked this Court's original jurisdiction, contending that § 310(b)(1) is constitutionally invalid under the Tenth Amendment and the doctrine of intergovernmental tax immunity. A Special Master was appointed. After conducting hearings and taking evidence, he concluded that § 310(b)(1) is constitutional and recommended entering judgment for the defendant. South Carolina and the National Governors' Association (NGA), as an intervenor, filed exceptions to various factual findings of the Master and to his legal conclusions concerning their constitutional challenges."
+    },
+    {
+      "kind": "syllabus",
+      "label": "South Carolina v. Baker, syllabus ¶ 2",
+      "page": 505,
+      "ref": "Case.112040.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "South Carolina v. Baker, syllabus ¶ 3",
+      "page": 505,
+      "ref": "Case.112040.syllabus.3",
+      "text": "1. Section 310(b)(1) does not violate the Tenth Amendment or constitutional principles of federalism by effectively compelling States to issue bonds in registered form. Pp. 511-515."
+    },
+    {
+      "kind": "syllabus",
+      "label": "South Carolina v. Baker, syllabus ¶ 4",
+      "page": 505,
+      "ref": "Case.112040.syllabus.4",
+      "text": "(a) The Tenth Amendment limits on Congress' authority to regulate state activities are structural, not substantive-that is, the States must find their protection from congressional regulation through the national political process, not through judicially defined spheres of unregulable state activity. In this case, South Carolina has not even alleged that it was deprived of any right to participate in the national political process or that it was singled out in a way that left it politically isolated and powerless. The allegations South Carolina does make-that Congress was uninformed and chose an ineffective remedy-do not amount to an allegation that the political process operated in a defective manner. Pp. 512-513."
+    },
+    {
+      "kind": "syllabus",
+      "label": "South Carolina v. Baker, syllabus ¶ 5",
+      "page": 505,
+      "ref": "Case.112040.syllabus.5",
+      "text": "(b) NGA's contention that § 310 is invalid because it commandeers the state legislative and administrative process by coercing States into enacting legislation authorizing bond registration and into administering the registration scheme finds no support in the claim left open by FERC v. Mississippi, 456 U. S. 742. Section 310 regulates state activities; it does not, as did the statute in FERC, seek to control or influence the manner in which States regulate private parties. That a State wishing to engage in certain activity must take administrative and sometimes legislative action to comply with federal standards regulating that activity is a commonplace that presents no constitutional defect. Moreover, under NGA's theory, any State could immunize its activities from federal regulation by simply codifying the manner in which it engages in those activities. Pp. 513-515."
+    },
+    {
+      "kind": "syllabus",
+      "label": "South Carolina v. Baker, syllabus ¶ 6",
+      "page": 506,
+      "ref": "Case.112040.syllabus.6",
+      "text": "2. Section 310(b)(1) does not violate the doctrine of intergovernmental tax immunity by taxing the interest earned on unregistered state bonds. Section 310(b)(1) is inconsistent with this Court's holding in Pollock v. Farmers' Loan & Trust Co., 157 U. S. 429, that state bond interest was immune from a nondiscriminatory federal tax, but that decision has been effectively overruled by subsequent case law. Under the intergovernmental tax immunity jurisprudence prevailing at Pollock's time, neither the Federal nor the State Governments could tax income that an individual directly derived from any contract with the other government. This general rule was based on the rationale that any tax on income a party received under a contract with the government was a tax on the contract and thus a tax \"on\" the government because it burdened the government's power to enter into the contract. That rationale has been repudiated by modern intergovernmental tax immunity case law, and the government contract immunities have been, one by one, overruled. The owners of state bonds have no constitutional entitlement not to pay taxes on income they earn from the bonds, and States have no constitutional entitlement to issue bonds paying lower interest rates than other issuers. The nondiscriminatory tax under § 310 is imposed on and collected from bondholders, not States, and any increased administrative costs incurred by States in implementing the registration system are not \"taxes\" within the meaning of the tax immunity doctrine. Moreover, the provisions of § 310 seek to assure that all publicly offered long-term bonds are issued in registered form, whether issued by state or local governments, the Federal Government, or private corporations. Pp. 515-527."
+    },
+    {
+      "kind": "syllabus",
+      "label": "South Carolina v. Baker, syllabus ¶ 7",
+      "page": 506,
+      "ref": "Case.112040.syllabus.7",
+      "text": "Exceptions to Special Master's Report overruled, and judgment entered for defendant."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-485-505"
+  ],
+  "title": "South Carolina v. Baker",
+  "us_cite": "485 U.S. 505"
+}

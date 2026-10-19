@@ -1,0 +1,110 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt14.S1.7 (7 pages)"
+  ],
+  "conan_citation": "Shaffer v. Heitner, 433 U.S. 186 (1977)",
+  "courtlistener_name": "Shaffer v. Heitner",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109721/shaffer-v-heitner/",
+  "date": "1977-06-24",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109721. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 433, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109721",
+  "loc_url": "https://www.loc.gov/item/usrep433186/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep433/usrep433186/usrep433186.pdf",
+  "ref_prefix": "Case.109721",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 1",
+      "page": 186,
+      "ref": "Case.109721.syllabus.1",
+      "text": "Appellee, a nonresident of Delaware, filed a shareholder's derivative suit in a Delaware Chancery Court, naming as defendants a corporation and its subsidiary, as well as 28 present or former corporate officers or directors, alleging that the individual defendants had violated their duties to the corporation by causing it and its subsidiary to engage in actions (which occurred in Oregon) that resulted in corporate liability for substantial damages in a private antitrust suit and a large fine in a criminal contempt action. Simultaneously, appellee, pursuant to Del. Code Ann., Tit. 10, § 366 (1975), filed a motion for sequestration of the Delaware property of the individual defendants, all nonresidents of Delaware, accompanied by an affidavit identifying the property to be sequestered as stock, options, warrants, and various corporate rights of the defendants. A sequestration order was issued pursuant to which shares and options belonging to 21 defendants (appellants) were \"seized\" and \"stop transfer\" orders were placed on the corporate books. Appellants entered a special appearance to quash service of process and to vacate the sequestration order, contending that the ex parte sequestration procedure did not accord them due process; that the property seized was not capable of attachment in Delaware; and that they did not have sufficient contacts with Delaware to sustain jurisdiction of that State's courts under the rule of International Shoe Co. v. Washington, 326 U. S. 310. In that case the Court (after noting that the historical basis of in personam jurisdiction was a court's power over the defendant's person, making his presence within the court's territorial jurisdiction a prerequisite to its rendition of a personally binding judgment against him, Pennoyer v. Neff, 95 U. S. 714) held that that power was no longer the central concern and that \"due process requires only that in order to subject a defendant to a judgment in personam, if he be not present within the territory of the forum, he have certain minimum contacts with it such that the maintenance of the suit does not offend 'traditional notions of fair play and substantial justice'\" (and thus the focus shifted to the relationship among the defendant, the forum, and the litigation, rather than the mutually exclusive sovereignty of the States on which the rules of Pennoyer had rested). The Court of Chancery, rejecting appellants' arguments, upheld the § 366 procedure of compelling the personal appearance of a nonresident defendant to answer and defend a suit brought against him in a court of equity, which is accomplished by the appointment of a sequestrator to seize and hold the property of the nonresident located in Delaware subject to court order, with release of the property being made upon the defendant's entry of a general appearance. The court held that the limitation on the purpose and length of time for which sequestered property is held comported with due process and that the statutory situs of the stock (under a provision making Delaware the situs of ownership of the capital stock of all corporations existing under the laws of that State) provided a sufficient basis for the exercise of quasi in rem jurisdiction by a Delaware court. The Delaware Supreme Court affirmed, concluding that International Shoe raised no constittional barrier to the sequestration procedure because \"jurisdiction under § 366 remains . . . quasi in rem founded on the presence of capital stock [in Delaware], not on prior contact by defendants with this forum.\" Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 2",
+      "page": 187,
+      "ref": "Case.109721.syllabus.2",
+      "text": "1. Whether or not a State can assert jurisdiction over a nonresident must be evaluated according to the minimum-contacts standard of International Shoe Co. v. Washington, supra. Pp. 207-212."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 3",
+      "page": 187,
+      "ref": "Case.109721.syllabus.3",
+      "text": "(a) In order to justify an exercise of jurisdiction in rem, the basis for jurisdiction must be sufficient to justify exercising \"jurisdiction over the interests of persons in the thing.\" The presence of property in a State may bear upon the existence of jurisdiction by providing contacts among the forum State, the defendant, and the litigation, as for example, when claims to the property itself are the source of the underlying controversy between the plaintiff and defendant, where it would be unusual for the State where the property is located not to have jurisdiction. Pp. 207-208."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 4",
+      "page": 187,
+      "ref": "Case.109721.syllabus.4",
+      "text": "(b) But where, as in the instant quasi in rem action, the property now serving as the basis for state-court jurisdiction is completely unrelated to the plaintiff's cause of action, the presence of the property alone, i. e., absent other ties among the defendant, the State, and the litigation, would not support the State's jurisdiction. Pp. 208-209."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 5",
+      "page": 187,
+      "ref": "Case.109721.syllabus.5",
+      "text": "(c) Though the primary rationale for treating the presence of property alone as a basis for jurisdiction is to prevent a wrongdoer from avoiding payment of his obligations by removal of his assets to a place where he is not subject to an in personam suit, that is an insufficient justification for recognizing jurisdiction without regard to whether the property is in the State for that purpose. Moreover, the availability of attachment procedures and the protection of the Full Faith and Credit Clause, also militate against that rationale. Pp. 209-210."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 6",
+      "page": 188,
+      "ref": "Case.109721.syllabus.6",
+      "text": "(d) The fairness standard of International Shoe can be easily applied in the vast majority of cases. P. 211."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 7",
+      "page": 188,
+      "ref": "Case.109721.syllabus.7",
+      "text": "(e) Though jurisdiction based solely on the presence of property in a State has had a long history, \"traditional notions of fair play and substantial justice\" can be as readily offended by the perpetuation of ancient forms that are no longer justified as by the adoption of new procedures that do not comport with the basic values of our constitutional heritage. Cf. Sniadach v. Family Finance Corp, 395 U. S. 337, 340; Wolf v. Colorado, 338 U. S. 25, 27. Pp. 211-212."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 8",
+      "page": 188,
+      "ref": "Case.109721.syllabus.8",
+      "text": "2. Delaware's assertion of jurisdiction over appellants, based solely as it is on the statutory presence of appellants' property in Delaware, violates the Due Process Clause, which \"does not contemplate that a state may make binding a judgment . . . against an individual or corporate defendant with which the state has no contacts, ties, or relations.\" International Shoe, supra, at 319. Pp. 213-217."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 9",
+      "page": 188,
+      "ref": "Case.109721.syllabus.9",
+      "text": "(a) Appellants' holdings in the corporation, which are not the subject matter of this litigation and are unrelated to the underlying cause of action, do not provide contacts with Delaware sufficient to support jurisdiction of that State's courts over appellants. P. 213."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 10",
+      "page": 188,
+      "ref": "Case.109721.syllabus.10",
+      "text": "(b) Nor is Delaware state-court jurisdiction supported by that State's interest in supervising the management of a Delaware corporation and defining the obligations of its officers and directors, since Delaware bases jurisdiction, not on appellants' status as corporate fiduciaries, but on the presence of their property in the State. Moreover, sequestration has been available in any suit against a nonresident whether against corporate fiduciaries or not. Pp. 213-215."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 11",
+      "page": 188,
+      "ref": "Case.109721.syllabus.11",
+      "text": "(c) Though it may be appropriate for Delaware law to govern the obligations of appellants to the corporation and stockholders, this does not mean that appellants have \"purposefully avail[ed themselves] of the privilege of conducting activities within the forum State,\" Hanson v. Denckla, 357 U. S. 235, 253. Appellants, who were not required to acquire interests in the corporation in order to hold their positions, did not by acquiring those interests surrender their right to be brought to judgment in the States in which they had \"minimum contacts.\" Pp. 215-216."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Shaffer v. Heitner, syllabus ¶ 12",
+      "page": 188,
+      "ref": "Case.109721.syllabus.12",
+      "text": "361 A. 2d 225, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-433-186"
+  ],
+  "title": "Shaffer v. Heitner",
+  "us_cite": "433 U.S. 186"
+}

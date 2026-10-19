@@ -1,0 +1,28 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S9.C3.3 (5 pages)",
+    "cited on 10 pages"
+  ],
+  "conan_citation": "Calder v. Bull, 3 U.S. (3 Dall.) 386 (1798)",
+  "courtlistener_match": "CourtListener gives 2 clusters for 3 U.S. 386; this one matches the case's name and year and is the most cited (the others: 8403288).",
+  "courtlistener_name": "Calder v. Bull",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/84695/calder-v-bull/",
+  "date": "1798-08-17",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 84695. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 3, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "84695",
+  "loc_url": "https://www.loc.gov/item/usrep003386/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep003/usrep003386/usrep003386.pdf",
+  "ref_prefix": "Case.84695",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-3-386"
+  ],
+  "syllabus_note": "Volume 3 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Calder v. Bull",
+  "us_cite": "3 U.S. 386"
+}

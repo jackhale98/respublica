@@ -1,0 +1,147 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt10.3 (4 pages)",
+    "cited on 22 pages"
+  ],
+  "conan_citation": "United States v. Darby, 312 U.S. 100 (1941)",
+  "courtlistener_date": "1941-02-17",
+  "courtlistener_name": "United States v. Darby",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/103442/united-states-v-darby/",
+  "date": "1941-02-03",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 103442. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 312, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "103442",
+  "loc_url": "https://www.loc.gov/item/usrep312100/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep312/usrep312100/usrep312100.pdf",
+  "ref_prefix": "Case.103442",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 1",
+      "page": 100,
+      "ref": "Case.103442.syllabus.1",
+      "text": "1. The Fair Labor Standards Act of 1938 provides for fixing minimum wages and maximum hours for employees engaged in the production of goods for interstate commerce, with increased compensation for overtime, and forbids, under pain of fine and imprisonment: (1) violation by an employer of such wage and hour provisions; (2) shipment by him in interstate commerce of any goods in the production of which any employee was employed in violation of such provisions; and (3) failure of the employer to keep such records of his employees and of their wages and hours, as shall be prescribed by administrative regulation or order. Held within the commerce power and consistent with the Fifth and Tenth Amendments. P. 111."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 2",
+      "page": 100,
+      "ref": "Case.103442.syllabus.2",
+      "text": "2. While manufacture is not of itself interstate commerce, the shipment of manufactured goods interstate is such commerce and the prohibition of such shipment by Congress is a regulation of interstate commerce. P. 113."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 3",
+      "page": 100,
+      "ref": "Case.103442.syllabus.3",
+      "text": "3. Congress, following its own conception of public policy concerning the restrictions which may appropriately be imposed on interstate commerce, is free to exclude from it articles whose use in the State for which they are destined it may conceive to be injurious to the public health, morals or welfare, even though the State has not sought to regulate their use. P. 114."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 4",
+      "page": 100,
+      "ref": "Case.103442.syllabus.4",
+      "text": "4. Such regulation is not a forbidden invasion of state power merely because either its motive or its consequence is to restrict the use of articles of commerce within the States of destination; and is valid uniess prohibited by other Constitutional provisions. P. 114."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 5",
+      "page": 100,
+      "ref": "Case.103442.syllabus.5",
+      "text": "5. The motive and purpose of the present regulation are plainly to make effective the Congressional conception of public policy that interstate commerce should not be made the instrument of competition in the distribution of goods produced under substandard labor conditions, which competition is injurious to the commerce and to the States from and to which it flows. P. 115."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 6",
+      "page": 100,
+      "ref": "Case.103442.syllabus.6",
+      "text": "6. The motive and purpose of a regulation of interstate commerce are matters for the legislative judgment upon the exercise of which the Constitution places no restriction and over which the courts are given no control. P. 115."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 7",
+      "page": 101,
+      "ref": "Case.103442.syllabus.7",
+      "text": "7. In prohibiting interstate shipment of goods produced under the forbidden substandard labor conditions the Act is within the authority of Congress, if no Constitutional provision forbids: P. 115."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 8",
+      "page": 101,
+      "ref": "Case.103442.syllabus.8",
+      "text": "8. Hammer v. Dagenhart, 247 U. S. 251, overruled; Carter v. Carter Coal Co., 298 U. S. 238, declared to have been limited. Pp. 115, 123."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 9",
+      "page": 101,
+      "ref": "Case.103442.syllabus.9",
+      "text": "9. The \"production for interstate commerce\" intended by the Act includes, at least, production of goods, which, at the time of production, the employer, according to the normal course of his business, intends or expects to move in interstate commerce although, through the exigencies of the business, all of the goods may not thereafter actually enter interstate commerce. P. 117."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 10",
+      "page": 101,
+      "ref": "Case.103442.syllabus.10",
+      "text": "10. The power of Congress over interstate commerce extends to those intrastate activities which so affect interstate commerce or the exercise of the power of Congress over it as to make their regulation an appropriate means to the attainment of a legitimate end,-the exerciso of the granted power of Congress to regulate interstate commerce. P. 118."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 11",
+      "page": 101,
+      "ref": "Case.103442.syllabus.11",
+      "text": "11. Congress, having by the present Act adopted the policy of excluding from interstate commerce all goods produced for that commerce which do not conform to the specified labor standards, it may choose the means reasonably adapted to the attainment of the permitted end, even though they involve control of intrastate activities. P. 121."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 12",
+      "page": 101,
+      "ref": "Case.103442.syllabus.12",
+      "text": "12. Independently of the prohibition of shipment or transportation of the proscribed goods, the provision of the Act for the suppression of their production for interstate commerce is within the commerce power. P. 122."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 13",
+      "page": 101,
+      "ref": "Case.103442.syllabus.13",
+      "text": "13. The Tenth Amendment is not a limitation upon the authority of the National Government to resort to all means for the exercise of a granted power which are appropriate and plainly adapted to the permitted end. P. 123."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 14",
+      "page": 101,
+      "ref": "Case.103442.syllabus.14",
+      "text": "14. The requirements of the Act as to the keeping of records are valid as incidental to the wage and hour requirements. P. 124."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 15",
+      "page": 101,
+      "ref": "Case.103442.syllabus.15",
+      "text": "15. The wage and hour provisions of the Act do not violate the due process clause of the Fifth Amendment. P. 125."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 16",
+      "page": 101,
+      "ref": "Case.103442.syllabus.16",
+      "text": "16. In its criminal aspect, the Act is sufficiently definite to meet constitutional demands. P. 125."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Darby, syllabus ¶ 17",
+      "page": 101,
+      "ref": "Case.103442.syllabus.17",
+      "text": "32 F. Supp. 734, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-312-100"
+  ],
+  "title": "United States v. Darby",
+  "us_cite": "312 U.S. 100"
+}

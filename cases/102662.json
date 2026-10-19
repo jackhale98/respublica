@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "cited on 11 pages"
+  ],
+  "conan_citation": "Carter v. Carter Coal Co., 298 U.S. 238 (1936)",
+  "courtlistener_name": "Carter v. Carter Coal Co.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102662/carter-v-carter-coal-co/",
+  "date": "1936-05-18",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102662. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 298, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102662",
+  "loc_url": "https://www.loc.gov/item/usrep298238/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep298/usrep298238/usrep298238.pdf",
+  "ref_prefix": "Case.102662",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-298-238"
+  ],
+  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 239 a paragraph seems to stop mid-sentence.",
+  "title": "Carter v. Carter Coal Co.",
+  "us_cite": "298 U.S. 238"
+}

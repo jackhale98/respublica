@@ -1,0 +1,69 @@
+{
+  "chosen_because": [
+    "overruled by Afroyim v. Rusk (table of overruled decisions)",
+    "overruled (table of overruled decisions) and cited on 5 pages"
+  ],
+  "conan_citation": "Perez v. Brownell, 356 U.S. 44 (1958)",
+  "courtlistener_name": "Perez v. Brownell",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/105658/perez-v-brownell/",
+  "date": "1958-03-31",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 105658. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 356, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "105658",
+  "loc_url": "https://www.loc.gov/item/usrep356044/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep356/usrep356044/usrep356044.pdf",
+  "ref_prefix": "Case.105658",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Perez v. Brownell, syllabus ¶ 1",
+      "page": 44,
+      "ref": "Case.105658.syllabus.1",
+      "text": "In proceedings to deport a person born in the United States, the Government denied that he was an American citizen on the ground that, by voting in a Mexican political election and remaining outside of the United States in wartime to avoid military service, he had lost his citizenship under § 401 (e) and (j) of the Nationality Act of 1940, as amended. He sued for a judgment declaring him to be a citizen but was denied relief. Held: It was within the authority of Congress, under its power to regulate the relations of the United States with foreign countries, to provide in § 401 (e) that anyone who votes in a foreign political election shall lose his American citizenship; and the judgment is affirmed. Pp. 45-62."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Perez v. Brownell, syllabus ¶ 2",
+      "page": 44,
+      "ref": "Case.105658.syllabus.2",
+      "text": "(a) The power of Congress to regulate foreign relations may reasonably be deemed to include a power to deal'with voting by American citizens in foreign political elections, since Congress could find that such activities, because they might give rise to serious international embarrassment, relate to the conduct of foreign relations. Pp. 57-60."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Perez v. Brownell, syllabus ¶ 3",
+      "page": 44,
+      "ref": "Case.105658.syllabus.3",
+      "text": "(b) Since -withdrawal of the citizenship of Americans who vote in foreign political elections is reasonably calculated to effect the avoidance of embarrassment- in the conduct of foreign relations, such withdrawal is within the power of Congress, acting under the Necessary and Proper Clause. Pp. 60-62."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Perez v. Brownell, syllabus ¶ 4",
+      "page": 44,
+      "ref": "Case.105658.syllabus.4",
+      "text": "(c) There is nothing in the language, the context, the history or the manifest purpose of the Fourteenth Amendment to warrant drawing from it a restriction upon the power otherwise l'ossessed by Congress to withdraw citizenship. P. 58, n. 3."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Perez v. Brownell, syllabus ¶ 5",
+      "page": 45,
+      "ref": "Case.105658.syllabus.5",
+      "text": "(d) No opinion is expressed with respect to the constitutionality of § 401 (j) relating to persons who remain outside the United States to avoid military service. P. 62."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Perez v. Brownell, syllabus ¶ 6",
+      "page": 45,
+      "ref": "Case.105658.syllabus.6",
+      "text": "235 F. 2d 364, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-356-44"
+  ],
+  "title": "Perez v. Brownell",
+  "us_cite": "356 U.S. 44"
+}

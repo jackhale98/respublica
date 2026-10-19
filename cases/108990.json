@@ -1,0 +1,69 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt11.6 (6 pages)"
+  ],
+  "conan_citation": "Edelman v. Jordan, 415 U.S. 651 (1974)",
+  "courtlistener_date": "1974-05-13",
+  "courtlistener_name": "Edelman v. Jordan",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/108990/edelman-v-jordan/",
+  "date": "1974-03-25",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 108990. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 415, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "108990",
+  "loc_url": "https://www.loc.gov/item/usrep415651/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep415/usrep415651/usrep415651.pdf",
+  "ref_prefix": "Case.108990",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Edelman v. Jordan, syllabus ¶ 1",
+      "page": 651,
+      "ref": "Case.108990.syllabus.1",
+      "text": "Respondent brought this class action for injunctive and declaratory relief against the 1llinois officials administering the federal-state programs of Aid to the Aged, Blind, and Disabled (AABD), which are funded equally by the State and Federal Governments, contending that they were violating federal law and denying equal protection of the laws by following state regulations that did not comply with the federal time limits within which participating States had to process and make grants with respect to AABD applications. The District Court by a permanent injunction required compliance with the federal time limits and also ordered the state officials to release and remit AABD benefits wrongfully withheld to all persons found eligible who had applied therefor between July 1, 1968, the date of the federal regulations, and April 16, 1971, the date of the court's preliminary injunction. The Court of Appeals affirmed, rejecting the- state officials' contentions that the Eleventh Amendment, barred the award of the retroactive benefits and that the judgfient of inconsistency between federal regulations and, state provisions could be given only prospective effect. Held: The Eleventh Amendment of the Constitution bars that portion of the District Court's decree that ordered retroactive pavment of benefits. Pp. 658-678."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Edelman v. Jordan, syllabus ¶ 2",
+      "page": 651,
+      "ref": "Case.108990.syllabus.2",
+      "text": "(a) A suit by private parties seeking to impose a liability payable from public funds in the state treasury is foreclosed by the Amendment if the State does not consent to suit.. Pp. 662-663."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Edelman v. Jordan, syllabus ¶ 3",
+      "page": 651,
+      "ref": "Case.108990.syllabus.3",
+      "text": "(b) The Court of Appeals erred in holding that Ex parte Young, 209 U. S. 123, which awarded only prospective relief, did not preclude the retroactive monetary award here on the ground that it was an \"equitable restitution,\" since that award, though on its face directed against the state official individually, as a practical matter could be satisfied only from the general revenues of the State and was indistinguishable from an award of damages against the State. Ford Motor Co. v. Department of Treasury, 323 U. S. 459, followed. Shapiro v. Thompson, 394 U. S. 618; State Dept. of Health and Rehabilitation Services v. Zarate, 407 U. S. 918; Sterrett v. Mothers' & Children's Rights Organization, 409 U. S. 809; Wyman v. Bowens, 397 U. S. 49, disapproved to extent that their holdings do not comport with the holding in the instant case on the Eleventh Amendment issue. Pp. 663-671."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Edelman v. Jordan, syllabus ¶ 4",
+      "page": 652,
+      "ref": "Case.108990.syllabus.4",
+      "text": "(c) The\" State of Illinois,did not waive its Eleveiith Amendment immunity and consent to the bringing of respondent's suit by participating in the federal AABD program-. Parden v. Terminal R. Co., 377 U. S. 184, and Petty v. Tennessee-Missouri Bridge Comm'n, 359 U. S. 275, distinguished. -Nor does the mere fact that a State participates in a program partially funded by the Federal Government manifest consent by the State to be sued in federal courts. Pp. 671-674."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Edelman v. Jordan, syllabus ¶ 5",
+      "page": 652,
+      "ref": "Case.108990.syllabus.5",
+      "text": "(d) The Court of Appeals properly considered the Eleventh Amendment defense, which the state officials did not assert in the District Court, since that defense partakes of the nature of a jurisdictional bar. Ford Motor Co. v. Department of Treasury, supra. Pp. 677-678."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Edelman v. Jordan, syllabus ¶ 6",
+      "page": 652,
+      "ref": "Case.108990.syllabus.6",
+      "text": "472 F. 2d 985, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-415-651"
+  ],
+  "title": "Edelman v. Jordan",
+  "us_cite": "415 U.S. 651"
+}

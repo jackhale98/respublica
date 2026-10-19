@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt4.6 (5 pages)"
+  ],
+  "conan_citation": "Johnson v. United States, 333 U.S. 10 (1948)",
+  "courtlistener_name": "Johnson v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104504/johnson-v-united-states/",
+  "date": "1948-02-02",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104504. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 333, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104504",
+  "loc_url": "https://www.loc.gov/item/usrep333010/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep333/usrep333010/usrep333010.pdf",
+  "ref_prefix": "Case.104504",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. United States, syllabus ¶ 1",
+      "page": 10,
+      "ref": "Case.104504.syllabus.1",
+      "text": "1. Where officers detected the odor of burning opium emanating from a hotel room, entered without a search warrant and without knowing who was there, arrested the only occupant, searched the room and found opium and smoking apparatus, the search violated the Fourth Amendment to the Federal Constitution; and a conviction for a violation of the federal narcotic laws based on the evidence thus obtained cannot be sustained. Pp. 11-17."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. United States, syllabus ¶ 2",
+      "page": 10,
+      "ref": "Case.104504.syllabus.2",
+      "text": "2. As a general rule, the question when the right of privacy must reasonably yield to the right of search must be decided by a judicial officer, not by a policeman or government enforcement agent. Pp. 13-14."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. United States, syllabus ¶ 3",
+      "page": 10,
+      "ref": "Case.104504.syllabus.3",
+      "text": "3. There were no exceptional circumstances in this case sufficient to justify the failure of the officer to obtain a search warrant. Pp. 14-15."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. United States, syllabus ¶ 4",
+      "page": 11,
+      "ref": "Case.104504.syllabus.4",
+      "text": "4. It being conceded that the officer did not have probable cause to arrest petitioner until he entered the room and found her to be the sole occupant, the search cannot be sustained as being incident to a valid arrest. Pp. 15-16."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. United States, syllabus ¶ 5",
+      "page": 11,
+      "ref": "Case.104504.syllabus.5",
+      "text": "5. The Goverlhient cannot at the same time justify an arrest by a search and justify the search by the arrest. Pp. 16-19."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. United States, syllabus ¶ 6",
+      "page": 11,
+      "ref": "Case.104504.syllabus.6",
+      "text": "6. An officer gaining access to private living\" quarters under color of his office and of the law must then have some valid basis in law for the intrusion, P. 17."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Johnson v. United States, syllabus ¶ 7",
+      "page": 11,
+      "ref": "Case.104504.syllabus.7",
+      "text": "162 F. 2d 562. reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-333-10"
+  ],
+  "title": "Johnson v. United States",
+  "us_cite": "333 U.S. 10"
+}

@@ -1,0 +1,25 @@
+{
+  "chosen_because": [
+    "cited on 10 pages",
+    "named in the title of essay ArtI.S8.C18.8.8.3"
+  ],
+  "conan_citation": "Trump v. Hawaii, No. 17-965 (U.S. June 26, 2018)",
+  "courtlistener_name": "Trump v. Hawaii",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/4511149/trump-v-hawaii/",
+  "date": "2018-06-26",
+  "date_source": "courtlistener",
+  "docket": "17-965",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 4511149. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+  },
+  "id": "4511149",
+  "ref_prefix": "Case.4511149",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-scotus-17-965"
+  ],
+  "syllabus_note": "The Library of Congress has no scan of this decision on its own (summary decisions are printed in lists, and the latest volumes are not yet scanned).",
+  "title": "Trump v. Hawaii",
+  "us_cite": "585 U.S. 667"
+}

@@ -438,6 +438,16 @@
     "url": "https://www.courtlistener.com/api/rest/v4/clusters/?docket__docket_number=21-418&docket__court=scotus"
   },
   {
+    "auth_env": "COURTLISTENER_TOKEN",
+    "id": "courtlistener-search-dockets-1",
+    "license": "Free of known copyright restrictions (Public Domain Mark), per CourtListener's bulk data terms; U.S. court opinions are public domain. Free Law Project.",
+    "notes": "CourtListener search API: the opinions filed under docket numbers 18-422 (Rucho v. Common Cause) and 19-715 (Trump v. Mazars USA, LLP), slip opinions in the Constitution Annotated that the clusters API did not find by docket number.",
+    "path": "sources/raw/courtlistener-search-dockets-1.json",
+    "retrieved_at": "2026-10-18",
+    "sha256": "7441e9ae28b0ff8370ee907d9e0387c9d9ae662b2af581b58ddc3b19f738af30",
+    "url": "https://www.courtlistener.com/api/rest/v4/search/?type=o&court=scotus&q=docketNumber%3A%2218-422%22+OR+docketNumber%3A%2219-715%22"
+  },
+  {
     "id": "gutenberg-federalist-18",
     "license": "Text is public domain in the USA. The file itself carries the Project Gutenberg License; Res Publica reproduces only the public-domain text and none of the Project Gutenberg trademark or license material.",
     "notes": "Project Gutenberg eBook #18, The Federalist Papers, plain-text UTF-8.",

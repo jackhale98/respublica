@@ -1,0 +1,139 @@
+{
+  "chosen_because": [
+    "cited on 12 pages"
+  ],
+  "conan_citation": "United States v. Classic, 313 U.S. 299 (1941)",
+  "courtlistener_date": "1941-10-13",
+  "courtlistener_name": "United States v. Classic",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/103531/united-states-v-classic/",
+  "date": "1941-05-26",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 103531. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 313, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "103531",
+  "loc_url": "https://www.loc.gov/item/usrep313299/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep313/usrep313299/usrep313299.pdf",
+  "ref_prefix": "Case.103531",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 1",
+      "page": 299,
+      "ref": "Case.103531.syllabus.1",
+      "text": "1. Review under the Criminal Appeals Act of a judgment sustaining a demurrer to an indictment is confined to the questions of statutory construction and validity decided by the District Court. P. 309."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 2",
+      "page": 299,
+      "ref": "Case.103531.syllabus.2",
+      "text": "2. In Louisiana, a primary election to nominate a party candidate for the office of Representative in Congress is conducted at the public expense and regulated by statute. Candidates who may be voted for at general elections are restricted to primary nominees; to persons, not candidates in the primary, who file nomination papers with the requisite number of signatures; and to persons whose names may be lawfully written into the ballots by the electors. The practical effect is to impose serious restrictions upon the choice of candidates by the voters save by voting at the primary election. The primary election is an integral part of the procedure for choosing Representatives; and in this case, as alleged by the indictment, its practical operation, in the particular Congressional District involved, is to secure the election of the primary nominee of a particular political party. P. 311 et seq."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 3",
+      "page": 299,
+      "ref": "Case.103531.syllabus.3",
+      "text": "3. The right of the people to choose Representatives in Congress is a right established and guaranteed by Art. I, § 2 of the Constitution and hence is one secured by it to those citizens and inhabitants of the State who are entitled to exercise the right. P. 314."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 4",
+      "page": 299,
+      "ref": "Case.103531.syllabus.4",
+      "text": "The right to vote for Representatives in Congress is a right \"derived from the States,\" only in the sense that the States are authorized by the Constitution to legislate on the subject, as provided by § 2 of Art. I, to the extent that Congress has not restricted state action by the exercise of its powers to regulate elections under § 4, and its more general power, under Art. I, § 8, cl. 18, \"to make all laws which shall be necessary and proper for carrying into execution the foregoing powers.\""
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 5",
+      "page": 299,
+      "ref": "Case.103531.syllabus.5",
+      "text": "4. Included within the right to choose, secured by the Constitution, is the right ol qualified voters within a State to cast their ballots and have them counted at Congressional elections. P. 315."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 6",
+      "page": 299,
+      "ref": "Case.103531.syllabus.6",
+      "text": "Since the constitutional command is without restriction or limitation, this right, unlike those guaranteed by the Fourteenth and Fifteenth Amendments, is secured against the action of individuals as well as of States."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 7",
+      "page": 300,
+      "ref": "Case.103531.syllabus.7",
+      "text": "5. Where the state law has made the primary election an integral part of the procedure of choosing Representatives, or where in fact the primary effectively controls the choice, the right of the qualified elector to vote and have his ballot counted at the primary, is part of the right to choose Representatives secured by Art. I, § 2. P. 316."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 8",
+      "page": 300,
+      "ref": "Case.103531.syllabus.8",
+      "text": "In determining whether a provision of the Constitution applies to a new subject matter, it is of little significance that it is one with which the framers were not familiar. For in setting up an enduring framework of government they undertook to carry out for the indefinite future and in all the vicissitudes of the changing affairs of men, those fundamental purposes which the instrument itself discloses. Hence we read its words, not as we read legislative codes which are subject to continuous revision with the changing course of events, but as the revelation of the great purposes which were intended to be achieved by the Constitution as a continuing instrument of government."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 9",
+      "page": 300,
+      "ref": "Case.103531.syllabus.9",
+      "text": "6. A primary election which is a necessary step in the choice of candidates for election as Representatives in Congress, and which in the circumstances of the case controls that choice, is an election within the meaning of Art. I, §§ 2 and 4 of the Constitution, and is subject to Congressional regulation as to the manner of holding it. P. 317."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 10",
+      "page": 300,
+      "ref": "Case.103531.syllabus.10",
+      "text": "7. Art. I, § 8, cl. 18 of the Constitution empowers Congress to safeguard by appropriate legislation the right of choice by the people of Representatives in Congress secured by § 2 of Art. I. P. 320."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 11",
+      "page": 300,
+      "ref": "Case.103531.syllabus.11",
+      "text": "8. Section 19 of the Criminal Code, making it a crime to conspire to \"injure\" or \"oppress\" any citizen \"in the free exercise of any right or privilege secured to him by the Constitution,\" embraces a conspiracy to prevent qualified voters from exercising their constitutional right of voting, and having their votes counted, in a primary election prerequisite to the choice of party candidates for a Congressional election. P. 321."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 12",
+      "page": 300,
+      "ref": "Case.103531.syllabus.12",
+      "text": "9. Section 20 of the Criminal Code provides that whoever, \"under color of any law,\" willfully subjects any inhabitant of any State to the deprivation of any rights, privileges or immunities secured or protected by the Constitution and laws of the United States \"or to different punishments, pains, or penalties, on account of such inhabitant being an alien, or by reason of his color, or race, than are prescribed for the punishment of citizens,\" shall be punished as prescribed. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 13",
+      "page": 301,
+      "ref": "Case.103531.syllabus.13",
+      "text": "(1) The acts of election officials who conducted a primary election to nominate a party candidate for Representative in Congress in willfully altering and falsely counting and certifying the ballots, were acts under color of state law depriving the voter of constitutional rights within the meaning of the section. P. 325."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 14",
+      "page": 301,
+      "ref": "Case.103531.syllabus.14",
+      "text": "(2) The section authorizes punishment for two different offenses: The offense of willfully subjecting any inhabitant to the deprivation of rights secured by the Constitution, and the offense of willfully subjecting any inhabitant to different punishments on account of his alienage, color or race, than are prescribed for the punishment of citizens. P. 327."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 15",
+      "page": 301,
+      "ref": "Case.103531.syllabus.15",
+      "text": "10. The Court declines to consider the application of § 20 to deprivations of the right to equal protection of the laws guaranteed by the Fourteenth Amendment, a point apparently raised for the first time by the Government's brief in this Court and not assigned as error. Since the indictment on its face does not purport to charge a deprivation of equal protection to voters or candidates, the Court is not called upon to construe the indictment in order to raise a question of statutory validity or construction. P. 329."
+    },
+    {
+      "kind": "syllabus",
+      "label": "United States v. Classic, syllabus ¶ 16",
+      "page": 301,
+      "ref": "Case.103531.syllabus.16",
+      "text": "35 F. Supp. 66, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-313-299"
+  ],
+  "title": "United States v. Classic",
+  "us_cite": "313 U.S. 299"
+}

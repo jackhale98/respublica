@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt14.S1.8 (7 pages)"
+  ],
+  "conan_citation": "Dunn v. Blumstein, 405 U.S. 330 (1972)",
+  "courtlistener_name": "Dunn v. Blumstein",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/108485/dunn-v-blumstein/",
+  "date": "1972-03-21",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 108485. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 405, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "108485",
+  "loc_url": "https://www.loc.gov/item/usrep405330/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep405/usrep405330/usrep405330.pdf",
+  "ref_prefix": "Case.108485",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Dunn v. Blumstein, syllabus ¶ 1",
+      "page": 330,
+      "ref": "Case.108485.syllabus.1",
+      "text": "Tennessee closes its registration books 30 days before an election, but requires residence in the State for one year and in the county for three months as prerequisites for registration to vote. Appellee challenged the constitutionality of the durational residence requirements, and a three-judge District Court held them unconstitutional on the grounds that they impermissibly interfered with the right to vote and created a \"suspect\" classification penalizing some Tennessee residents because of recent interstate movement. Tennessee asserts that the requirements are needed to insure the purity of the ballot box and to have knowledgeable voters. Held: The durational residence requirements are violative of the Equal Protection Clause of the Fourteenth Amendment, as they are not necessary to further a compelling state interest. Pp. 335- 360."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Dunn v. Blumstein, syllabus ¶ 2",
+      "page": 330,
+      "ref": "Case.108485.syllabus.2",
+      "text": "(a) Since the requirements deny some citizens the right to vote, \"the Court must determine whether the exclusions are necessary to promote a compelling state interest.\" Kramer v. Union Free School District, 395 U. S. 621, 627 (emphasis added). Pp. 336-337."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Dunn v. Blumstein, syllabus ¶ 3",
+      "page": 330,
+      "ref": "Case.108485.syllabus.3",
+      "text": "(b) Absent a compelling state interest, Tennessee may not burden the right to travel by penalizing those bona fide residents who have recently traveled from one jurisdiction to another. Pp. 338-342."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Dunn v. Blumstein, syllabus ¶ 4",
+      "page": 330,
+      "ref": "Case.108485.syllabus.4",
+      "text": "(c) A period of 30 days appears to be ample to complete whatever administrative tasks are needed to prevent fraud and insure the purity of the ballot box. Pp. 345-349."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Dunn v. Blumstein, syllabus ¶ 5",
+      "page": 330,
+      "ref": "Case.108485.syllabus.5",
+      "text": ". (d) Since there are adequate means of ascertaining bona fide residence on an individualized basis, the State may not conclusively presume nonresidence from failure to satisfy the waitingperiod requirements of durational residence laws. Pp. 349-354."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Dunn v. Blumstein, syllabus ¶ 6",
+      "page": 330,
+      "ref": "Case.108485.syllabus.6",
+      "text": "(e) Tennessee has not established a sufficient relationship between its interest in an informed electorate and the fixed durational residence requirements. Pp. 354-360."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Dunn v. Blumstein, syllabus ¶ 7",
+      "page": 330,
+      "ref": "Case.108485.syllabus.7",
+      "text": "337 F. Supp. 323, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-405-330"
+  ],
+  "title": "Dunn v. Blumstein",
+  "us_cite": "405 U.S. 330"
+}

@@ -1,0 +1,42 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt8.4 (6 pages)",
+    "named in the title of essay Amdt8.4.9.4"
+  ],
+  "conan_citation": "Gregg v. Georgia, 428 U.S. 153 (1976)",
+  "courtlistener_date": "1976-07-22",
+  "courtlistener_name": "Gregg v. Georgia",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/109532/gregg-v-georgia/",
+  "date": "1976-07-02",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 109532. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 428, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "109532",
+  "loc_url": "https://www.loc.gov/item/usrep428153/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep428/usrep428153/usrep428153.pdf",
+  "ref_prefix": "Case.109532",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Gregg v. Georgia, syllabus ¶ 1",
+      "page": 153,
+      "ref": "Case.109532.syllabus.1",
+      "text": "Petitioner was charged with committing armed robbery and murder on the basis of evidence that he had killed and robbed two men. At the trial stage of Georgia's bifurcated procedure, the jury found petitioner guilty of two counts of armed robbery and two counts of murder. At the penalty stage, the judge instructed the jury that it could recommend either a death sentence or a life prison sentence on each count; that it was free to consider mitigating or aggravating circumstances, if any, as presented by the parties; and that it would not be authorized to consider imposing the death sentence unless it first found beyond a reasonable doubt (1) that the murder was committed while the offender was engaged in the commission of other capital felonies, viz., the armed robberies of the victims; (2) that he committed the murder for the purpose of receiving the victims' money and automobile; or (3) that the murder was \"outrageously and wantonly vile, horrible and inhuman\" in that it \"involved the depravity of [the] mind of the defendant.\" The jury found the first and second of these aggravating circumstances and returned a sentence of death. The Georgia Supreme Court affirmed the convictions. After reviewing the trial transcript and record and comparing the evidence and sentence in similar cases the court upheld the death sentences for the murders, concluding that they had not resulted from prejudice or any other arbitrary factor and were not excessive or disproportionate to the penalty applied in similar cases, but vacated the armed robbery sentences on the ground, inter alia, that the death penalty had rarely been imposed in Georgia for that offense. Petitioner challenges imposition of the death sentence under the Georgia statute as \"cruel and unusual\" punishment under the Eighth and Fourteenth Amendments. That statute, as amended following Furman v. Georgia, 408 U. S. 238 (where this Court held to be violative of those Amendments death sentences imposed under statutes that left juries with untrammeled discretion to impose or withhold the death penalty), retains the death penalty for murder and five other crimes. Guilt or innocence is determined in the first stage of a bifurcated trial; and if the trial is by jury, the trial judge must charge lesser included offenses when supported by any view of the evidence. Upon a guilty verdict or plea a presentence hearing is held where the judge or jury hears additional extenuating or mitigating evidence and evidence in aggravation of punishment if made known to the defendant before trial. At least one of 10 specified aggravating circumstances must be found to exist beyond a reasonable doubt and designated in writing before a death sentence can be imposed. In jury cases, the trial judge is bound by the recommended sentence. In its review of a death sentence (which is automatic), the State Supreme Court must consider whether the sentence was influenced by passion, prejudice, or any other arbitrary factor; whether the evidence supports the finding of a statutory aggravating circumstance; and whether the death sentence \"is excessive or disproportionate to the penalty imposed in similar cases, considering both the crime and the defendant.\" If the court affirms the death sentence it must include in its decision reference to similar cases that it has considered. Held: The judgment is affirmed. Pp. 168-207; 220- 226; 227."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Gregg v. Georgia, syllabus ¶ 2",
+      "page": 154,
+      "ref": "Case.109532.syllabus.2",
+      "text": "233 Ga. 117, 210 S. E. 2d 659, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-428-153"
+  ],
+  "title": "Gregg v. Georgia",
+  "us_cite": "428 U.S. 153"
+}

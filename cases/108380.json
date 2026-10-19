@@ -1,0 +1,70 @@
+{
+  "chosen_because": [
+    "most cited in essay topic Amdt1.3 (14 pages)",
+    "cited on 14 pages"
+  ],
+  "conan_citation": "Lemon v. Kurtzman, 403 U.S. 602 (1971)",
+  "courtlistener_date": "1971-10-12",
+  "courtlistener_name": "Lemon v. Kurtzman",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/108380/lemon-v-kurtzman/",
+  "date": "1971-06-28",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 108380. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 403, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "108380",
+  "loc_url": "https://www.loc.gov/item/usrep403602/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep403/usrep403602/usrep403602.pdf",
+  "ref_prefix": "Case.108380",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Lemon v. Kurtzman, syllabus ¶ 1",
+      "page": 602,
+      "ref": "Case.108380.syllabus.1",
+      "text": "Rhode Island's 1969 Salary Supplement Act provides for a 15% salary supplement to be paid to teachers in nonpublic schools at which the average per-pupil expenditure on secular education is below the average in public schools. Eligible teachers must teach only courses offered in the public schools, using only materials used in the public schools, and must agree not to teach courses in religion. A three-judge court found that about 25% of the State's elementary students attended nonpublic schools, about 95% of whom attended Roman Catholic affiliated schools, and that to date about 250 teachers at Roman Catholic schools are the sole beneficiaries under the Act. The court found that the parochial school system was \"an integral part of the religious mission of the Catholic Church,\" and held that the Act fostered \"excessive entanglement\" between government and religion, thus violating the Establishment Clause. Pennsylvania's Nonpublic Elementary and Secondary Education Act, passed in 1968, authorizes the state Superintendent of Public Instruction to \"purchase\" certain \"secular educational services\" from nonpublic schools, directly reimbursing those schools solely for teachers' salaries, textbooks, and instructional materials. Reimbursement is restricted to courses in specific secular subjects, the textbooks and materials must be approved by the Superintendent, and no payment is to be made for any course containing \"any subject matter expressing religious teaching, or the morals or forms of worship of any sect.\" Contracts were made with schools that have more than 20% of all the students in the State, most of which were affiliated with the Roman Catholic Church. The complaint challenging the constitutionality of the Act alleged that the church-affiliated schools are controlled by religious organizations, have the purpose of propagating and promoting a particular religious faith, and conduct their operations to fulfill that purpose. A three-judge court granted the State's motion to dismiss the complaint for failure to state a claim for relief, finding no violation of the Establishment or Free Exercise Clause. Held: Both statutes are unconstitutional under the Religion Clauses of the First Amendment, as the cumulative impact of the entire relationship arising under the statutes involves excessive entanglement between government and religion. Pp. 611-625."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Lemon v. Kurtzman, syllabus ¶ 2",
+      "page": 603,
+      "ref": "Case.108380.syllabus.2",
+      "text": "(a) The entanglement in the Rhode Island program arises because of the religious activity and purpose of the churchaffiliated schools, especially with respect to children of impressionable age in the primary grades, and the dangers that a teacher under religious control and discipline poses to the separation of religious from purely secular aspects of elementary education in such schools. These factors require continuing state surveillance to ensure that the statutory restrictions are obeyed and the First Amendment otherwise respected. Furthermore, under the Act the government must inspect school records to determine what part of the expenditures is attributable to secular education as opposed to religious activity, in the event a nonpublic school's expenditures per pupil exceed the comparable figures for public schools. Pp. 615-620."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Lemon v. Kurtzman, syllabus ¶ 3",
+      "page": 603,
+      "ref": "Case.108380.syllabus.3",
+      "text": "(b) The entanglement in the Pennsylvania program also arises from the restrictions and surveillance necessary to ensure that teachers play a strictly nonideological role and the state supervision of nonpublic school accounting procedures required to establish the cost of secular as distinguished from religious education. In addition, the Pennsylvania statute has the further defect of providing continuing financial aid directly to the church-related schools. Historically governmental control and surveillance measures tend to follow cash grant programs, and here the government's post-audit power to inspect the financial records of church-related schools creates an intimate and continuing relationship between church and state. Pp. 620-622."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Lemon v. Kurtzman, syllabus ¶ 4",
+      "page": 603,
+      "ref": "Case.108380.syllabus.4",
+      "text": "(c) Political division along religious lines was one of the evils at which the First Amendment aimed, and in these programs, where successive and probably permanent annual appropriations that benefit relatively few religious groups are involved, political fragmentation and divisiveness on religious lines are likely to be intensified. Pp. 622-624."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Lemon v. Kurtzman, syllabus ¶ 5",
+      "page": 604,
+      "ref": "Case.108380.syllabus.5",
+      "text": "(d) Unlike the tax exemption for places of religious worship, upheld in Walz v. Tax Commission, 397 U. S. 664, which was based on a practice of 200 years, these innovative programs have selfperpetuating and self-expanding propensities which provide a warning signal against entanglement between government and religion. Pp. 624-625."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Lemon v. Kurtzman, syllabus ¶ 6",
+      "page": 604,
+      "ref": "Case.108380.syllabus.6",
+      "text": "No. 89, 310 F. Supp. 35, reversed and remanded; Nos. 569 and 570, 316 F. Supp. 112, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-3",
+    "loc-usrep-403-602"
+  ],
+  "title": "Lemon v. Kurtzman",
+  "us_cite": "403 U.S. 602"
+}

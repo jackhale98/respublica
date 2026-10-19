@@ -1,0 +1,76 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtIII.S1.4 (4 pages)"
+  ],
+  "conan_citation": "Chambers v. NASCO, Inc., 501 U.S. 32 (1991)",
+  "courtlistener_date": "1991-08-02",
+  "courtlistener_name": "Chambers v. Nasco, Inc.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112616/chambers-v-nasco-inc/",
+  "date": "1991-06-06",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112616. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 501, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112616",
+  "loc_url": "https://www.loc.gov/item/usrep501032/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep501/usrep501032/usrep501032.pdf",
+  "ref_prefix": "Case.112616",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Chambers v. NASCO, Inc., syllabus ¶ 1",
+      "page": 32,
+      "ref": "Case.112616.syllabus.1",
+      "text": "Petitioner Chambers, the sole shareholder and director of a company that operated a television station in Louisiana, agreed to sell the station's facilities and broadcast license to respondent NASCO, Inc. Chambers soon changed his mind and, both before and after NASCO filed this diversity action for specific performance in the District Court, engaged in a series of actions within and without that court and in proceedings before the Federal Communications Commission, the Court of Appeals, and this Court, which were designed to frustrate the sale's consummation. On remand following the Court of Appeals' affirmance of judgment on the merits for NASCO, the District Court, on NASCO's motion and following full briefing and a hearing, imposed sanctions against Chambers in the form of attorney's fees and expenses totaling almost $1 million, representing the entire amount of NASCO's litigation costs paid to its attorneys. The court noted that the alleged sanctionable conduct was that Chambers had (1) attempted to deprive the court of jurisdiction by acts of fraud, nearly all of which were performed outside the confines of the court, (2) filed false and frivolous pleadings, and (3) \"attempted, by other tactics of delay, oppression, harassment and massive expense to reduce [NASCO] to exhausted compliance.\" The court deemed Federal Rule of Civil Procedure 11-which provides for the imposition of attorney's fees as a sanction for the improper filing of papers with a courtinsufficient to support the sanction against Chambers, since the Rule does not reach conduct in the foregoing first and third categories, and since it would have been impossible to assess sanctions at the time the papers in the second category were filed because their falsity did not become apparent until after the trial on the merits. The court likewise declined to impose sanctions under 28 U. S. C. § 1927, both because the statute's authorization of an attorney's fees sanction applies only to attorneys who unreasonably and vexatiously multiply proceedings, and therefore would not reach Chambers, and because the statute was not broad enough to reach \"acts which degrade the judicial system.\" The court therefore relied on its inherent power in imposing sanctions. In affirming, the Court of Appeals, inter alia, rejected Chambers' argument that a federal court sitting in diversity must look to state law, not the court's inherent power, to assess attorney's fees as a sanction for bad-faith conduct in litigation."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Chambers v. NASCO, Inc., syllabus ¶ 2",
+      "page": 33,
+      "ref": "Case.112616.syllabus.2",
+      "text": "Held: The District Court properly invoked its inherent power in assessing as a sanction for Chambers' bad-faith conduct the attorney's fees and related expenses paid by NASCO. Pp. 42-58."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Chambers v. NASCO, Inc., syllabus ¶ 3",
+      "page": 33,
+      "ref": "Case.112616.syllabus.3",
+      "text": "(a) Federal courts have the inherent power to manage their own proceedings and to control the conduct of those who appear before them. In invoking the inherent power to punish conduct which abuses the judicial process, a court must exercise discretion in fashioning an appropriate sanction, which may range from dismissal of a lawsuit to an assessment of attorney's fees. Although the \"American Rule\" prohibits the shifting of attorney's fees in most cases, see Alyeska Pipeline Service Co. v. Wilderness Society, 421 U. S. 240, 259, an exception allows federal courts to exercise their inherent power to assess such fees as a sanction when a party has acted in bad faith, vexatiously, wantonly, or for oppressive reasons, id., at 258-259, 260, as when the party practices a fraud upon the court, Universal Oil Products Co. v. Root Refining Co., 328 U. S. 575, 580, or delays or disrupts the litigation or hampers a court order's enforcement, Hutto v. Finney, 437 U. S. 678, 689, n. 14. Pp. 43-46."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Chambers v. NASCO, Inc., syllabus ¶ 4",
+      "page": 33,
+      "ref": "Case.112616.syllabus.4",
+      "text": "(b) There is nothing in § 1927, Rule 11, or other Federal Rules of Civil Procedure authorizing attorney's fees as a sanction, or in this Court's decisions interpreting those other sanctioning mechanisms, that warrants a conclusion that, taken alone or together, the other mechanisms displace courts' inherent power to impose attorney's fees as a sanction for badfaith conduct. Although a court ordinarily should rely on such rules when there is bad-faith conduct in the course of litigation that could be adequately sanctioned under the rules, the court may safely rely on its inherent power if, in its informed discretion, neither the statutes nor the rules are up to the task. The District Court did not abuse its discretion in resorting to the inherent power in the circumstances of this case. Although some of Chambers' conduct might have been reached through the other sanctioning mechanisms, all of that conduct was sanctionable. Requiring the court to apply the other mechanisms to discrete occurrences before invoking the inherent power to address remaining instances of sanctionable conduct would serve only to foster extensive and needless satellite litigation, which is contrary to the aim of the rules themselves. Nor did the court's reliance on the inherent power thwart the mandatory terms of Rules 11 and 26(g). Those Rules merely require that \"an appropriate sanction\" be imposed, without specifying which sanction is required. Bank of Nova Scotia v. United States, 487 U. S. 250, distinguished. Pp. 46-51."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Chambers v. NASCO, Inc., syllabus ¶ 5",
+      "page": 34,
+      "ref": "Case.112616.syllabus.5",
+      "text": "(c) There is no merit to Chambers' assertion that a federal court sitting in diversity cannot use its inherent power to assess attorney's fees as a sanction unless the applicable state law recognizes the \"bad-faith\" exception to the general American Rule against fee shifting. Although footnote 31 in Alyeska tied a diversity court's inherent power to award fees to the existence of a state law giving a right thereto, that limitation applies only to fee-shifting rules that embody a substantive policy, such as a statute which permits a prevailing party in certain classes of litigation to recover fees. Here the District Court did not attempt to sanction Chambers for breach of contract, but rather imposed sanctions for the fraud he perpetrated on the court and the bad faith he displayed toward both NASCO and the court throughout the litigation. The inherent power to tax fees for such conduct cannot be made subservient to any state policy without transgressing the boundaries set out in Erie R. Co. v. Tompkins, 304 U. S. 64, Guaranty Trust Co. v. York, 326 U. S. 99, and Hanna v. Plumer, 380 U. S. 460, for fee shifting here is not a matter of substantive remedy, but is a matter of vindicating judicial authority. Thus, although Louisiana law prohibits punitive damages for a bad-faith breach of contract, this substantive state policy is not implicated. Pp. 51-55."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Chambers v. NASCO, Inc., syllabus ¶ 6",
+      "page": 34,
+      "ref": "Case.112616.syllabus.6",
+      "text": "(d) Based on the circumstances of this case, the District Court acted within its discretion in assessing as a sanction for Chambers' bad-faith conduct the entire amount of NASCO's attorney's fees. Chambers' arguments to the contrary are without merit. First, although the sanction was not assessed until the conclusion of the litigation, the court's reliance on its inherent power did not represent an end run around Rule 11's notice requirements, since Chambers received repeated timely warnings both from NASCO and the court that his conduct was sanctionable. Second, the fact that the entire amount of fees was awarded does not mean that the court failed to tailor the sanction to the particular wrong, in light of the frequency and severity of Chambers' abuses of the judicial system and the resulting need to ensure that such abuses were not repeated. Third, the court did not abuse its discretion by failing to require NASCO to mitigate its expenses, since Chambers himself made a swift conclusion to the litigation by means of summary judgment impossible by continuing to assert that material factual disputes existed. Fourth, the court did not err in imposing sanctions for conduct before other tribunals, since, as long as Chambers received an appropriate hearing, he may be sanctioned for abuses of process beyond the courtroom. Finally, the claim that the award is not \"personalized\" as to Chambers' responsibility for the challenged conduct is flatly contradicted by the court's detailed factual findings concerning Chambers' involvement in the sequence of events at issue. Pp. 55-58."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Chambers v. NASCO, Inc., syllabus ¶ 7",
+      "page": 35,
+      "ref": "Case.112616.syllabus.7",
+      "text": "894 F. 2d 696, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-501-32"
+  ],
+  "title": "Chambers v. NASCO, Inc.",
+  "us_cite": "501 U.S. 32"
+}

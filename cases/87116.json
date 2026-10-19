@@ -1,0 +1,27 @@
+{
+  "chosen_because": [
+    "cited on 12 pages"
+  ],
+  "conan_citation": "Dred Scott v. Sandford, 60 U.S. (19 How.) 393 (1857)",
+  "courtlistener_match": "CourtListener gives 2 clusters for 60 U.S. 393; this one matches the case's name and year and is the most cited (the others: 8403312).",
+  "courtlistener_name": "Dred Scott v. Sandford",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/87116/dred-scott-v-sandford/",
+  "date": "1857-03-18",
+  "date_source": "courtlistener",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 87116. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 60, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "87116",
+  "loc_url": "https://www.loc.gov/item/usrep060393/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep060/usrep060393/usrep060393.pdf",
+  "ref_prefix": "Case.87116",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-4",
+    "loc-usrep-60-393"
+  ],
+  "syllabus_note": "Volume 60 is one of the early reports (before volume 91), whose headnotes are the reporter's own.",
+  "title": "Dred Scott v. Sandford",
+  "us_cite": "60 U.S. 393"
+}

@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "most cited in essay topic ArtI.S10.C3.3 (7 pages)"
+  ],
+  "conan_citation": "Virginia v. Tennessee, 148 U.S. 503 (1893)",
+  "courtlistener_name": "Virginia v. Tennessee",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/93576/virginia-v-tennessee/",
+  "date": "1893-04-03",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 93576. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 148, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "93576",
+  "loc_url": "https://www.loc.gov/item/usrep148503/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep148/usrep148503/usrep148503.pdf",
+  "ref_prefix": "Case.93576",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Virginia v. Tennessee, syllabus ¶ 1",
+      "page": 503,
+      "ref": "Case.93576.syllabus.1",
+      "text": "The boundary line between the States of Virginia and Tennessee, which was ascertained and adjusted by commissioners appointed by and on behalf of each State, and marked upon the surface of the ground between the summit of White Top Mountain and the top of the Cumberland AIountains, having been established and confirmed by the State of Virginia in January, 1803, and by the State of Tennessee in November, 1803, and having been recognized and acquiesced. in by both parties for a long course of years, and having been treated by Congress as the true boundary between the two States, in its districting them for judicilA and revenue purposes, and in its action touching the territory in which Federal elections were to be held and for which Federal appointments were tb be made, was a line established under an agreement or compact between the two States, to which the consent of Congress was constitutionally given; andi as so established, it takes effect as a definition, of the true boundary, even if it be found to vary somewhat from the line established in the original grants."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Virginia v. Tennessee, syllabus ¶ 2",
+      "page": 503,
+      "ref": "Case.93576.syllabus.2",
+      "text": "The history of the Royal Grants, and of the Colonial and State Legislation upon this sub3ect reviewpd."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Virginia v. Tennessee, syllabus ¶ 3",
+      "page": 503,
+      "ref": "Case.93576.syllabus.3",
+      "text": "an agreement or compact as to boundaries may be made between two States, and the requisite consent of Congress may be given to it subsequently, or may be implied from subsequent-action of Congress itself towards the two States; and when such agreement or compact is thus made, and is thus assented to, it is valid."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Virginia v. Tennessee, syllabus ¶ 4",
+      "page": 503,
+      "ref": "Case.93576.syllabus.4",
+      "text": "What \"an agreement or compact\" between two States of the Union is, and what \"the consent of Congress\" to such agreement or compact is, within the meaning of Article I of the Constitution,. considered and explained."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Virginia v. Tennessee, syllabus ¶ 5",
+      "page": 503,
+      "ref": "Case.93576.syllabus.5",
+      "text": "A boundary line between States or Provinces which has been run 6ut, located and marked upon the earth, and afterwards recognized ud acquiesced in by the parties for a long course of years, is conclusive."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-148-503"
+  ],
+  "title": "Virginia v. Tennessee",
+  "us_cite": "148 U.S. 503"
+}

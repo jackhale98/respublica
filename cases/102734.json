@@ -1,0 +1,103 @@
+{
+  "chosen_because": [
+    "overruled by Graves v. New York ex rel. O’Keefe (table of overruled decisions)"
+  ],
+  "conan_citation": "New York ex rel. Rogers v. Graves, 299 U.S. 401 (1937);",
+  "courtlistener_name": "New York Ex Rel. Rogers v. Graves",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102734/new-york-ex-rel-rogers-v-graves/",
+  "date": "1937-01-04",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102734. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 299, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102734",
+  "loc_url": "https://www.loc.gov/item/usrep299401/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep299/usrep299401/usrep299401.pdf",
+  "ref_prefix": "Case.102734",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "New York ex rel. Rogers v. Graves, syllabus ¶ 1",
+      "page": 401,
+      "ref": "Case.102734.syllabus.1",
+      "text": "1. The construction, management and operation of the. Panama Canal are governmental functions, and within the constitutional power of Congress to regulate commerce and to provide for the national defense. P. 406."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York ex rel. Rogers v. Graves, syllabus ¶ 2",
+      "page": 401,
+      "ref": "Case.102734.syllabus.2",
+      "text": "2. Such being the status of the Canal, it follows that all auxiliaries primarily designed and used to aid in its management and operation, and which have that effect, partake of its nature, and constitute, with the Canal, a single great regulator of national and international commerce. P. 406."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York ex rel. Rogers v. Graves, syllabus ¶ 3",
+      "page": 401,
+      "ref": "Case.102734.syllabus.3",
+      "text": "3. The interrelation of its activities with the management and operation of the Panama Canal is such as to constitute the Panama Rail Road Company a governmental instrumentality of the United States. P. 406."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York ex rel. Rogers v. Graves, syllabus ¶ 4",
+      "page": 401,
+      "ref": "Case.102734.syllabus.4",
+      "text": "4. This conclusion is supported by the contemporaneous and longcontinued administrative practice; and the correctness of it is recognized by relevant federal legislation. Pp. 406-407."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York ex rel. Rogers v. Graves, syllabus ¶ 5",
+      "page": 401,
+      "ref": "Case.102734.syllabus.5",
+      "text": "5. The character of the Railroad Company as a governmental instrumentality is not altered by the fact that its ships and railroad are used to some extent to carry private freight and passengers. The primary purpose of the enterprise being legitimately governmental, its incidental use for private purposes does not change its character. P. 407."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York ex rel. Rogers v. Graves, syllabus ¶ 6",
+      "page": 401,
+      "ref": "Case.102734.syllabus.6",
+      "text": "6. Even if it be assumed that the dairy, hotels, and other enterprises, built and maintained by the Company, are not governmental instrumentalities, this would not alter the fact that the railroad itself, in connection with the Canal, is a governmental instrumentality. P. 408."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York ex rel. Rogers v. Graves, syllabus ¶ 7",
+      "page": 401,
+      "ref": "Case.102734.syllabus.7",
+      "text": "7. It is vell settled that the federal government may employ a corporation as a means to carry into effect the substantive powers granted by the Constitution. McCulloch v. Maryland, 4 Wheat. 316. P. 408."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York ex rel. Rogers v. Graves, syllabus ¶ 8",
+      "page": 401,
+      "ref": "Case.102734.syllabus.8",
+      "text": "8. The Railroad Company being immune from state taxation, it necessarily results that fixed salaries and compensation paid to its officers and employees in their capacities as such are likewise immune. P. 408."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York ex rel. Rogers v. Graves, syllabus ¶ 9",
+      "page": 401,
+      "ref": "Case.102734.syllabus.9",
+      "text": "9. The salary of the general counsel of the Panama Railroad Company held exempt from payment of a state income tax. Pp. 402, 408."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York ex rel. Rogers v. Graves, syllabus ¶ 10",
+      "page": 402,
+      "ref": "Case.102734.syllabus.10",
+      "text": "10. The evidence in this case sufficiently negatives the suggestion that the relator--since 1906 the general counsel of the Railroad Company, at a fixed annual salary, and in the same category in respect of the Company as the secretary and treasurer-may have been an independent contractor and not an officer. P. 409."
+    },
+    {
+      "kind": "syllabus",
+      "label": "New York ex rel. Rogers v. Graves, syllabus ¶ 11",
+      "page": 402,
+      "ref": "Case.102734.syllabus.11",
+      "text": "271 N. Y. 543, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-1",
+    "loc-usrep-299-401"
+  ],
+  "title": "New York ex rel. Rogers v. Graves",
+  "us_cite": "299 U.S. 401"
+}

@@ -1,0 +1,55 @@
+{
+  "chosen_because": [
+    "overruled by Trump v. Hawaii (table of overruled decisions)"
+  ],
+  "conan_citation": "Korematsu v. United States, 323 U.S. 214 (1944)",
+  "courtlistener_date": "1945-02-26",
+  "courtlistener_name": "Korematsu v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/104040/korematsu-v-united-states/",
+  "date": "1944-12-18",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 104040. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 323, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "104040",
+  "loc_url": "https://www.loc.gov/item/usrep323214/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep323/usrep323214/usrep323214.pdf",
+  "ref_prefix": "Case.104040",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Korematsu v. United States, syllabus ¶ 1",
+      "page": 214,
+      "ref": "Case.104040.syllabus.1",
+      "text": "1. Civilian Exclusion Order No. 34 which, during a state of war with Japan and as a protection against espionage and sabotage, was promulgated by the Commanding General of the Western Defense Command under authority of Executive Order No. 9066 and the Act of March 21, 1942, and which directed the exclusion after May 9, 1942 from a described West Coast military area of all persons of Japanese ancestry, held constitutional as of the time it was made and when the petitioner-an American citizen of Japanese descent whose home was in the described area-violated it. P. 219."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Korematsu v. United States, syllabus ¶ 2",
+      "page": 214,
+      "ref": "Case.104040.syllabus.2",
+      "text": "2. The provisions of other orders requiring persons of Japanese ancestry to report to assembly centers and providing for the detention of such persons in assembly and relocation centers were separate, and their validity is not in issue in this proceeding. P. 222."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Korematsu v. United States, syllabus ¶ 3",
+      "page": 215,
+      "ref": "Case.104040.syllabus.3",
+      "text": "3. Even though evacuation and detention in the assembly center were inseparable, the order under which the petitioner was convicted was nevertheless valid. P. 223."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Korematsu v. United States, syllabus ¶ 4",
+      "page": 215,
+      "ref": "Case.104040.syllabus.4",
+      "text": "140 F. 2d 289, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-2",
+    "loc-usrep-323-214"
+  ],
+  "title": "Korematsu v. United States",
+  "us_cite": "323 U.S. 214"
+}
