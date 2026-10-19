@@ -47,7 +47,8 @@ def _entry(where: str, text: str, u: dict, seg: dict | None) -> dict:
         "page": ", ".join((seg or {}).get("pages", [])),
         "readings": u["readings"],
         "ref": where,
-        "url": scan_url(scan["item"], scan["leaves"][0]) if scan else "",
+        "suggestion": u.get("suggestion"),
+        "url": scan_url(scan["item"], scan["leaves"][0], scan.get("site", "archive.org"), scan) if scan else "",
     }
 
 
@@ -72,6 +73,8 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     for e in entries(ocr[args.work]):
         readings = "; ".join(f"{k}: {v}" for k, v in sorted(e["readings"].items()))
+        if e["suggestion"]:
+            readings += f"; Anti-Federalist Library (a suggestion, not a scan): {e['suggestion']}"
         if args.md:
             print(f"- [ ] `{e['ref']}` p. {e['page'] or '?'}: {e['context']}  \n  scans: {readings}  \n  page image: {e['url']}")
         else:

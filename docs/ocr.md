@@ -10,7 +10,10 @@ used are in `docs/editions.md`.
 
 Code: `importers/ocr.py` (the general method) and
 `importers/ratification.py` with `importers/ratification_series.py` (the
-books and series). Tests: `tests/test_ocr.py`.
+books and series); `importers/elliot.py` (Patrick Henry, Elliot's
+*Debates*); `importers/nyjournal.py` (Brutus V–XVI, one newspaper scan);
+`importers/library.py` (the Anti-Federalist Library as a tie-breaker).
+Tests: `tests/test_ocr.py`, `tests/test_library.py`.
 
 ## The idea in one paragraph
 
@@ -43,6 +46,8 @@ For each book, in `sources/raw/` (downloaded by `tools/fetch.py`, listed in
 | McMaster and Stone, *Pennsylvania and the Federal Constitution* (1888) | `ia-mcmaster-stone-1888-cornell-xml` | `-pitt-txt` (one) |
 | *Debates and Proceedings in the Convention of Massachusetts* (1856) | `ia-mass-debates-1856-nypl-xml` | `-uc-txt`, `-google-txt`, `-cornell-txt` (three) |
 | Annals of Congress, vol. 1 (1834) | `ia-annals-1834-v1-google-xml` | `-microfilm-xml`, and Tesseract's reading of the primary's page images (two) |
+| Elliot's *Debates*, vol. 3 (standard pagination; 1907 printing) | `ia-elliot-v3-1907-toronto-xml` | `ia-elliot-v3-1876-cornell-txt`, `-1861-google-txt`, `-1836-google-txt` (three) |
+| *The New-York Journal* (1787–88), Brutus V–XVI | the Library of Congress's ALTO XML (`loc-nyjournal-{date}-p{n}-alto`) | none: one scan (see "One scan" below) |
 
 With two references a word can be outvoted 2 to 1; with one, disagreements
 are ties and depend on the tie rules below, so those books have
@@ -198,6 +203,61 @@ An unsettled word keeps the main scan's reading. Words a scan read as one
 are voted on together; if that vote fails, the scans that read them word by
 word vote on each.
 
+## The Anti-Federalist Library: a tie-breaker (`importers/library.py`)
+
+Decision 56. The Anti-Federalist Library (antifederalists.org) prints
+many of the same essays, as Markdown files in a public repository (pinned to
+one commit; each file is a raw source). It is CC0, but it names no source,
+and its bracketed insertions (`[sic]`, `[,]`, conjectures with "?") show it
+was copied from a modern edition; it has OCR-like misreadings of its own
+("fight" for "right", "discemable"). So it never votes and never supplies a
+word. Its text (without front matter, headings, editorial brackets, page
+numbers in braces and diaereses) is lined up with each essay's words like a
+reference scan, and then, for each word (`ocr.tie_break`):
+
+1. **A word the vote left unsettled** is settled if one of the scans' readings
+   has the Library's letters: that scan's reading is taken, with its own
+   spelling and marks (the one whose marks match the Library's, if several).
+   If the main scan's reading has them, the word is kept and settled (the
+   Library corroborates a reading no other scan had).
+2. **If no scan's reading agrees**, nothing changes: the word stays
+   uncertain, and the Library's reading is recorded with it as a
+   `suggestion` for a person to check against the page image.
+3. **Where the Library follows the printing the scans are of** (Elliot, the
+   *New-York Journal*: `strict`), a settled word it reads differently is
+   unsettled too, with the suggestion, unless two scans read it alike and it
+   is a known word (four scans' "right" stands against the Library's
+   "fight"). Figures are never known words, so four scans' "1" for "I" is
+   left for a person. In the other works (later reprints, whose spelling
+   differs from the Library's edition) a settled word is never touched.
+
+The vote's own safeguards hold: the Library cannot choose a reading of more
+or less than the main scan's word ("property" for "prop-" before "erty",
+"that zest" for "thatzestof"), and a Library word that is a common OCR
+confusion of a scan's reading and not a known word ("discemable" against
+"discernable") is ignored. Works and pages used: `library.PAGES`.
+
+## One scan: the New-York Journal (`importers/nyjournal.py`)
+
+Brutus V–XVI exist only in the original newspaper, scanned once by the
+Library of Congress (Chronicling America). Its OCR is ALTO XML: each word,
+its box and the engine's confidence (`WC`). Pages are split into columns
+(text blocks that share most of their width), columns into paragraphs
+(an indented line after a short one, a centred line, a line with a large
+initial), and paragraphs rejoined across columns and pages when the column
+ends with a full line or mid-sentence. The essay runs from the newspaper's
+line and heading to the signature ("BRUTUS.", or "(To be continued.)" for a
+first instalment).
+
+With one scan there is nothing to vote with. Each word's only reading is
+the OCR's; it is settled when it is a known word read with confidence 0.5
+or more, or when the Library reads it the same way; otherwise it is marked
+uncertain, with the Library's reading as a suggestion where it differs.
+The long s, which OCR reads as "f" or "l" ("fyflem" for "system"), is never
+changed into "s": that would be typing text. Each passage links to its
+newspaper page at the Library of Congress, and the errata page shows the
+part of the page the paragraph fills (`scan.regions`).
+
 ## Step 4: structure (`ratification.py`)
 
 Each series lists, in `ratification_series.py`, its book, the printed pages
@@ -244,6 +304,9 @@ In `texts/{work}.json` (validated by `make verify`, see
 - `pages` are the printed page numbers read on the passage's pages (some are
   missing where OCR misread them); `scan.leaves` are always present.
 
+- `suggestion` on an uncertain span: the Anti-Federalist Library's reading,
+  where no scan's reading agrees with it. It is never in the text; verify
+  checks it is one line and differs from the text.
 - `corrected` lists the words a maintainer read off the page image
   (`start`, `end` in the corrected text, the scans' word `was`, and `by` and
   `at`); see "Reviewing and correcting".
@@ -276,6 +339,17 @@ later, is below).
   person.
 - **Paragraphs.** Spot checks of paragraph breaks against page images found
   them right on the pages checked, after the fixes in step 1.
+- **The Anti-Federalist Library as a tie-breaker** (October 2026), in
+  Brutus I–IV, Agrippa I–XI, the Federal Farmer I–V and Centinel I and
+  V–XVIII: 28 words changed to another scan's reading (each checked:
+  "lie" to "he", "tlie powers" to "the powers", "30,cxx)" to "30,000"), 5
+  more settled as the main scan read them, and 25 left uncertain with a
+  suggestion. Nothing else in those texts changed.
+- **Patrick Henry** (Elliot, four scans): about 57,700 words with 50
+  marked, under 1 per thousand, 23 of them with a suggestion.
+- **Brutus V–XVI** (one newspaper scan): about 28,800 words with about
+  4,040 marked, 140 per thousand, about 3,000 of them with the Library's
+  reading as a suggestion (about 500 of those differ only by the long s).
 - **The Annals of Congress** (1834, small type in two columns; one other
   scan and a Tesseract reading): about 53,000 words with 562 marked, 11 per
   thousand. With the two scans alone it was 22 per thousand.
@@ -302,7 +376,9 @@ underline.
 
 1. Open the errata page (`/errata/`, for maintainers). It lists every word
    the scans could not settle, by work, with the words around it, each
-   scan's reading and the page images (select an image to zoom). From the
+   scan's reading, the Anti-Federalist Library's suggestion where there is
+   one (marked as such: no scan reads it), and the page images (select an
+   image to zoom). From the
    command line:
 
    ```

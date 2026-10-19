@@ -25,3 +25,5 @@
 .er-readings .rv-choice[aria-pressed="true"] small { color: inherit; opacity: .8; }
 .er-readings .rv-note { flex: 1 1 10rem; font-family: var(--font-serif); }
 .er-more { justify-self: center; }
+/* A reading no scan has: the Anti-Federalist Library's suggestion, set apart. */
+.er-readings .er-suggestion { border-style: dashed; font-style: italic; }

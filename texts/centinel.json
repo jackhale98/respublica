@@ -559,7 +559,7 @@
   ],
   "edition": {
     "name": "John Bach McMaster and Frederick D. Stone, eds., Pennsylvania and the Federal Constitution, 1787–1788 (Lancaster, 1888)",
-    "notes": "John Bach McMaster and Frederick D. Stone, eds., Pennsylvania and the Federal Constitution, 1787–1788 (Lancaster, 1888), pp. 565–698. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+    "notes": "John Bach McMaster and Frederick D. Stone, eds., Pennsylvania and the Federal Constitution, 1787–1788 (Lancaster, 1888), pp. 565–698. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. Where the scans disagreed, the Anti-Federalist Library's text was used to choose among their readings, never to add one. See docs/editions.md."
   },
   "id": "centinel",
   "position": "anti",
@@ -642,7 +642,8 @@
           "readings": {
             "primary": "o/\""
           },
-          "start": 1033
+          "start": 1033,
+          "suggestion": "of"
         },
         {
           "end": 1104,
@@ -666,7 +667,8 @@
             "pitt": "yoViX",
             "primary": "yo\\xx"
           },
-          "start": 1467
+          "start": 1467,
+          "suggestion": "your"
         }
       ]
     },
@@ -758,7 +760,7 @@
           623
         ]
       },
-      "text": "I have been anxiously expecting that some enlightened patriot would, ere this, have taken up the pen to expose the futility, and counteract the baneful tendency of such principles. Mr. Adams' sine qua nan of a good government is three balancing powers; whose repelling qualities are to produce an equilibrium of interests, and thereby promote the happiness of the whole community. He asserts that the administrators of every government, will ever be actuated by views of private interest and ambition, to the prejudice of the public good ; that therefore the only effectual method to secure the rights of the people and promote their welfare, is to create an opposition of interests between the members of two distinct bodies, in the exercise of the powers of go\\'- ernment, and balanced by those of a third. This hypothesis supposes human wisdom competent to the task of instituting three co-equal orders in government, and a corresponding weight in the community to enable them respectively to exercise their several parts, and whose views and interests should be so distinct as to prevent a coalition of any two of them for the destruction of the third. Mr. Adams, although he has traced the constitution of every form of government that ever existed, as far as history affords materials, has not been able to adduce a single instance of such a government; he indeed says that the British constitution is such in theory, but this is rather a confirmation that his principles are chimerical and not to be reduced to practice. If such an organization of power were practicable, how long would it continue? Not a day — for there is so great a disparity in the talents, wisdom and industry of mankind, that the scale would presently preponderate to one or the other body, and with every accession of power the means of further increase would be greatly extended. The state of society in England is much more favorable to such a scheme of government than that of America. There they have a powerful hereditary nobility, and real distinctions of rank and interests; but even there, for want of that perfect equality of power and distinction of interests in the three orders of government, they exist but in name; the only operative and efficient check upon the conduct of administration, is the sense of the people at large.",
+      "text": "I have been anxiously expecting that some enlightened patriot would, ere this, have taken up the pen to expose the futility, and counteract the baneful tendency of such principles. Mr. Adams' sine qua nan of a good government is three balancing powers; whose repelling qualities are to produce an equilibrium of interests, and thereby promote the happiness of the whole community. He asserts that the administrators of every government, will ever be actuated by views of private interest and ambition, to the prejudice of the public good ; that therefore the only effectual method to secure the rights of the people and promote their welfare, is to create an opposition of interests between the members of two distinct bodies, in the exercise of the powers of government, and balanced by those of a third. This hypothesis supposes human wisdom competent to the task of instituting three co-equal orders in government, and a corresponding weight in the community to enable them respectively to exercise their several parts, and whose views and interests should be so distinct as to prevent a coalition of any two of them for the destruction of the third. Mr. Adams, although he has traced the constitution of every form of government that ever existed, as far as history affords materials, has not been able to adduce a single instance of such a government; he indeed says that the British constitution is such in theory, but this is rather a confirmation that his principles are chimerical and not to be reduced to practice. If such an organization of power were practicable, how long would it continue? Not a day — for there is so great a disparity in the talents, wisdom and industry of mankind, that the scale would presently preponderate to one or the other body, and with every accession of power the means of further increase would be greatly extended. The state of society in England is much more favorable to such a scheme of government than that of America. There they have a powerful hereditary nobility, and real distinctions of rank and interests; but even there, for want of that perfect equality of power and distinction of interests in the three orders of government, they exist but in name; the only operative and efficient check upon the conduct of administration, is the sense of the people at large.",
       "uncertain": [
         {
           "end": 204,
@@ -766,15 +768,8 @@
             "pitt": "no7i",
             "primary": "nan"
           },
-          "start": 201
-        },
-        {
-          "end": 774,
-          "readings": {
-            "pitt": "government,",
-            "primary": "go\\'- ernment,"
-          },
-          "start": 760
+          "start": 201,
+          "suggestion": "non"
         }
       ]
     },
@@ -820,17 +815,7 @@
           624
         ]
       },
-      "text": "Having premised this much, I shall now proceed to the examination of the proposed plan of government, and I trust, shall make it appear to the meanest capacity, that it has none of the essential requisites of a free government; that it is neither founded on those balancing restraining powers, recommended by Mr. Adams and attempted in the British constitution, or possessed of that responsibility to its constituents, which, in my opinion, is the only effectual security for the liberties and happiness of the people; but on the contrary, that itvis a most daring attempt to establish a despotic aristocracy among freemen, that the world has ever witnessed.",
-      "uncertain": [
-        {
-          "end": 550,
-          "readings": {
-            "pitt": "it is",
-            "primary": "itvis"
-          },
-          "start": 545
-        }
-      ]
+      "text": "Having premised this much, I shall now proceed to the examination of the proposed plan of government, and I trust, shall make it appear to the meanest capacity, that it has none of the essential requisites of a free government; that it is neither founded on those balancing restraining powers, recommended by Mr. Adams and attempted in the British constitution, or possessed of that responsibility to its constituents, which, in my opinion, is the only effectual security for the liberties and happiness of the people; but on the contrary, that it is a most daring attempt to establish a despotic aristocracy among freemen, that the world has ever witnessed."
     },
     {
       "label": "Centinel 1, ¶ 13",
@@ -860,31 +845,23 @@
           625
         ]
       },
-      "text": "It will not be controverted that the legislative is the highest delegated power in government, and that all others are subordinate to it. The celebrated Montesquieu establishes it as a maxim, that legislation necessarily follows the power of taxation. By sect. 8, of the first article of the proposed plan of government, \"the Congress are to have power to lay and collect taxes, duties, imposts, and excises, to pay the debts and provide for the common defense and general welfare of the United States; but all duties, imposts and excises, shall be uniform throughout the United States. ' ' Now what can be more comprehensive than these words? Not content by other sections of this plan, to grant all the great executive powers of a confederation, and a standing army in Time of PEACE, that grand engine of oppression, and moreover the absolute control over the commerce of the United States and all external objects of revenue, such as unlimited imposts upon imports, etc. , they are to be vested with every species of internal taxation ; whatever taxes, duties and excises that they njay deem requisite for the general welfare^ may be imposed on the citizens of these states, levied by the officers of Congress, distributed through every district in America; and the collection would be enforced by the standing army, however grievous or improper they may be. The Congress may construe every purpose for which the State legislatures now lay taxes, to be for the general welfare^ and thereby seize upon every object of revenue.",
+      "text": "It will not be controverted that the legislative is the highest delegated power in government, and that all others are subordinate to it. The celebrated Montesquieu establishes it as a maxim, that legislation necessarily follows the power of taxation. By sect. 8, of the first article of the proposed plan of government, \"the Congress are to have power to lay and collect taxes, duties, imposts, and excises, to pay the debts and provide for the common defense and general welfare of the United States; but all duties, imposts and excises, shall be uniform throughout the United States. ' ' Now what can be more comprehensive than these words? Not content by other sections of this plan, to grant all the great executive powers of a confederation, and a standing army in Time of PEACE, that grand engine of oppression, and moreover the absolute control over the commerce of the United States and all external objects of revenue, such as unlimited imposts upon imports, etc. , they are to be vested with every species of internal taxation ; whatever taxes, duties and excises that they may deem requisite for the general welfare^ may be imposed on the citizens of these states, levied by the officers of Congress, distributed through every district in America; and the collection would be enforced by the standing army, however grievous or improper they may be. The Congress may construe every purpose for which the State legislatures now lay taxes, to be for the general welfare^ and thereby seize upon every object of revenue.",
       "uncertain": [
         {
-          "end": 1089,
-          "readings": {
-            "pitt": "may",
-            "primary": "njay"
-          },
-          "start": 1085
-        },
-        {
-          "end": 1129,
+          "end": 1128,
           "readings": {
             "pitt": "welfare.,",
             "primary": "welfare^"
           },
-          "start": 1121
+          "start": 1120
         },
         {
-          "end": 1480,
+          "end": 1479,
           "readings": {
             "pitt": "welfare.,",
             "primary": "welfare^"
           },
-          "start": 1472
+          "start": 1471
         }
       ]
     },
@@ -1120,17 +1097,7 @@
           628
         ]
       },
-      "text": "Thus we see, the house of representatives are on the part of the people to balance the senate, who I suppose will be composed of the better sort, the well born, etc. The number of the representatives (being only one for every 30,cxx) inhabitants) appears to be too few, either to communicate the requisite information of the wants, local circumstances and sentiments of so extensive an empire, or to prevent corruption and undue influence, in the exercise of such great powers; the term for which they are to be chosen, too long to preserve a due dependence and accountability to their constituents; and the mode and places of their election not sufficiently ascertained, for as Congress have the control over both, they may govern the choice, by ordering the representatives of a whole State, to be elected in one place, and that too may be the most inconvenient.",
-      "uncertain": [
-        {
-          "end": 233,
-          "readings": {
-            "pitt": "30,000",
-            "primary": "30,cxx)"
-          },
-          "start": 226
-        }
-      ]
+      "text": "Thus we see, the house of representatives are on the part of the people to balance the senate, who I suppose will be composed of the better sort, the well born, etc. The number of the representatives (being only one for every 30,000 inhabitants) appears to be too few, either to communicate the requisite information of the wants, local circumstances and sentiments of so extensive an empire, or to prevent corruption and undue influence, in the exercise of such great powers; the term for which they are to be chosen, too long to preserve a due dependence and accountability to their constituents; and the mode and places of their election not sufficiently ascertained, for as Congress have the control over both, they may govern the choice, by ordering the representatives of a whole State, to be elected in one place, and that too may be the most inconvenient."
     },
     {
       "label": "Centinel 1, ¶ 30",
@@ -1179,7 +1146,8 @@
           "readings": {
             "primary": "granA"
           },
-          "start": 197
+          "start": 197,
+          "suggestion": "grand"
         },
         {
           "end": 1027,
@@ -1203,7 +1171,7 @@
           629
         ]
       },
-      "text": "But our situation is represented to be so critically dreadful, that, however reprehensible and exceptionable the proposed plan of government may be, there is no alternative between the adoption of it and absolute ruin. My fellow citizens, things are not at that crisis; it is the argument of tyrants; the present distracted state of Europe secures us from injury on that quarter, and as to domestic dissensions, we have not so much to fear from them, as to precipitate us into this form of government, without it is a safe and a proper one. For remember, oi z\\\\ possible ^vWs,, that of despotism is the worst and the-most to be dreaded.",
+      "text": "But our situation is represented to be so critically dreadful, that, however reprehensible and exceptionable the proposed plan of government may be, there is no alternative between the adoption of it and absolute ruin. My fellow citizens, things are not at that crisis; it is the argument of tyrants; the present distracted state of Europe secures us from injury on that quarter, and as to domestic dissensions, we have not so much to fear from them, as to precipitate us into this form of government, without it is a safe and a proper one. For remember, oi z\\\\ possible evils, that of despotism is the worst and the-most to be dreaded.",
       "uncertain": [
         {
           "end": 561,
@@ -1211,14 +1179,6 @@
             "primary": "z\\\\"
           },
           "start": 558
-        },
-        {
-          "end": 577,
-          "readings": {
-            "pitt": "evils,",
-            "primary": "^vWs,,"
-          },
-          "start": 571
         }
       ]
     },
@@ -1256,7 +1216,8 @@
             "pitt": "wile",
             "primary": "wii,i,"
           },
-          "start": 113
+          "start": 113,
+          "suggestion": "will"
         },
         {
           "end": 129,
@@ -1264,7 +1225,8 @@
             "pitt": "eove",
             "primary": "i,ove"
           },
-          "start": 124
+          "start": 124,
+          "suggestion": "love"
         }
       ]
     },
@@ -3142,7 +3104,8 @@
           "readings": {
             "primary": "^sx\\X."
           },
-          "start": 438
+          "start": 438,
+          "suggestion": "grant"
         }
       ]
     },
@@ -3167,7 +3130,8 @@
           "readings": {
             "primary": "neeessarily"
           },
-          "start": 1201
+          "start": 1201,
+          "suggestion": "necessarily"
         }
       ]
     },
@@ -3497,7 +3461,8 @@
           "readings": {
             "primary": "ih&"
           },
-          "start": 576
+          "start": 576,
+          "suggestion": "the"
         }
       ]
     },
@@ -3590,17 +3555,7 @@
           674
         ]
       },
-      "text": "One would imagine by the insolent conduct of these harpies of power that they had already triumphed over the liberties of the people, that the chains were riveted and tyranny established. They tell us all further opposition will be vain, as this state has passed the Rubicon. Do they imagine the freemen of Pennsylvania will be thus trepanned out of their liberties, that they will submit without a struggle? They must indeed be inebriated with th^ lust of dominion to indulge such chimerical ideas. Will the act of one-sixth of the people and this too founded on deception and surprise bind the community ? Is it thus that the altar of liberty, so recently crimsoned with the blood of our worthies, is to be prostrated and despotism reared on its ruins ? Certainly not. The solemn mummery that has been acting in the name of the people of Pennsylvania will be treated with the deserved contempt; it has served indeed to expose the principles of the men concerned, and to draw a line of discrimination between the real and affected patriots.",
-      "uncertain": [
-        {
-          "end": 448,
-          "readings": {
-            "pitt": "the",
-            "primary": "th^"
-          },
-          "start": 445
-        }
-      ]
+      "text": "One would imagine by the insolent conduct of these harpies of power that they had already triumphed over the liberties of the people, that the chains were riveted and tyranny established. They tell us all further opposition will be vain, as this state has passed the Rubicon. Do they imagine the freemen of Pennsylvania will be thus trepanned out of their liberties, that they will submit without a struggle? They must indeed be inebriated with the lust of dominion to indulge such chimerical ideas. Will the act of one-sixth of the people and this too founded on deception and surprise bind the community ? Is it thus that the altar of liberty, so recently crimsoned with the blood of our worthies, is to be prostrated and despotism reared on its ruins ? Certainly not. The solemn mummery that has been acting in the name of the people of Pennsylvania will be treated with the deserved contempt; it has served indeed to expose the principles of the men concerned, and to draw a line of discrimination between the real and affected patriots."
     },
     {
       "label": "Centinel 7, ¶ 3",
@@ -3803,7 +3758,8 @@
             "pitt": "tor",
             "primary": "ior"
           },
-          "start": 288
+          "start": 288,
+          "suggestion": "for"
         }
       ]
     },
@@ -3880,17 +3836,7 @@
           681
         ]
       },
-      "text": "The highest illustration of the excellence of the constitution of this commonwealth, is, that from its first establishment, the ambitious and profligate have been united in a constant conspiracy to destroy it; so sensible are they that it is their great enemy, that it is the great palladium of equal liberty, and the property of the people from the rapacious hand of power. The annals of mankind do not furnish a more glorious instance of the triumph of patriotism over the lust of ambition aided by most of the wealth of the State. The few generally prevail over the many by uniformity of council, unremitted and persevering exertion, and superior information and address; but in Pennsylvania the reverse has happened; here the wellborn have been bafiled in all their efforts to prostrate the altar of liberty for the purpose of substituting their own insolent sway that would degrade the freemen of this State into servile dependence upon the lordly and great. However it is not the nature of ambition to be discouraged ; it is ever ready to improve the first opportunity to rear its baneful head and with irritated fury to wreak its vengeance on the votaries of liberty. The present conspiracy is a continental exertion of the wellborn of America to obtain that darling domination, which they have not been able to accomplish in their respective States. Of what complexion were the deputies of this State in the general convention? Six out of eight were the inveterate enemies of our inestimable constitution, and the principals of that faction that for ten years past have kept the people in continual alarm for their liberties. Who are the advocates of the new constitution in this State ? They consist of the same faction, with the addition of a few deluded wellmeaning men, but whose number is daily lessening.",
-      "uncertain": [
-        {
-          "end": 756,
-          "readings": {
-            "pitt": "baffled",
-            "primary": "bafiled"
-          },
-          "start": 749
-        }
-      ]
+      "text": "The highest illustration of the excellence of the constitution of this commonwealth, is, that from its first establishment, the ambitious and profligate have been united in a constant conspiracy to destroy it; so sensible are they that it is their great enemy, that it is the great palladium of equal liberty, and the property of the people from the rapacious hand of power. The annals of mankind do not furnish a more glorious instance of the triumph of patriotism over the lust of ambition aided by most of the wealth of the State. The few generally prevail over the many by uniformity of council, unremitted and persevering exertion, and superior information and address; but in Pennsylvania the reverse has happened; here the wellborn have been baffled in all their efforts to prostrate the altar of liberty for the purpose of substituting their own insolent sway that would degrade the freemen of this State into servile dependence upon the lordly and great. However it is not the nature of ambition to be discouraged ; it is ever ready to improve the first opportunity to rear its baneful head and with irritated fury to wreak its vengeance on the votaries of liberty. The present conspiracy is a continental exertion of the wellborn of America to obtain that darling domination, which they have not been able to accomplish in their respective States. Of what complexion were the deputies of this State in the general convention? Six out of eight were the inveterate enemies of our inestimable constitution, and the principals of that faction that for ten years past have kept the people in continual alarm for their liberties. Who are the advocates of the new constitution in this State ? They consist of the same faction, with the addition of a few deluded wellmeaning men, but whose number is daily lessening."
     },
     {
       "label": "Centinel 9, ¶ 3",
@@ -3985,17 +3931,7 @@
           684
         ]
       },
-      "text": "It is a fact that can be established, that during almost the whole of the time that the late convention of this State was assembled, the newspapers published in New York by Mr. Greenleaf, which contains the essays written there against the new government, such as the patriotic ones of Brutus, Cincinnatus, Cato, etc. , sent as usual by the printer of that place to the printers of this city, miscarried in their conveyance, which prevented the republication in this State of many of these pieces; and since that period great irregularity prevails, and I stand informed that *H^rinters in New York complain that the free and independent newspapers of this city do not come to hand; whilst on the contrary we find the devoted vehicles of despotism pass uninterrupted. I would ask what is the meaning of the new arrangement at the post-office which abridges the circulation of newspapers at this momentous crisis, when our every concern is dependent upon a proper decision of the subject in discussion. No trivial excuse will be admitted; the Centinel will, as from the first approach of despotism, warn his countrymen of the insidious and base strategems that are practicing to hoodwink them out of their liberties.",
-      "uncertain": [
-        {
-          "end": 585,
-          "readings": {
-            "pitt": "the printers",
-            "primary": "*H^rinters"
-          },
-          "start": 575
-        }
-      ]
+      "text": "It is a fact that can be established, that during almost the whole of the time that the late convention of this State was assembled, the newspapers published in New York by Mr. Greenleaf, which contains the essays written there against the new government, such as the patriotic ones of Brutus, Cincinnatus, Cato, etc. , sent as usual by the printer of that place to the printers of this city, miscarried in their conveyance, which prevented the republication in this State of many of these pieces; and since that period great irregularity prevails, and I stand informed that the printers in New York complain that the free and independent newspapers of this city do not come to hand; whilst on the contrary we find the devoted vehicles of despotism pass uninterrupted. I would ask what is the meaning of the new arrangement at the post-office which abridges the circulation of newspapers at this momentous crisis, when our every concern is dependent upon a proper decision of the subject in discussion. No trivial excuse will be admitted; the Centinel will, as from the first approach of despotism, warn his countrymen of the insidious and base strategems that are practicing to hoodwink them out of their liberties."
     },
     {
       "label": "Centinel 9, ¶ 7",
@@ -4017,7 +3953,8 @@
             "pitt": "boi'U^",
             "primary": "bom^"
           },
-          "start": 794
+          "start": 794,
+          "suggestion": "born,"
         }
       ]
     },
@@ -4085,17 +4022,7 @@
           686
         ]
       },
-      "text": "The conspirators, deceived by their first success, grounded on the unreserved confidence of the people, do not consider that with the detection of their views all chance of success is over; that suspicion once awakened is not so soon to be lulled, but with eagle eye will penetrate all their wiles, and detect their every scheme, however deeply laid or speciously glossed. The labors of their committee will be unavailing: the point of deception is passed, the rays of enlightened patriotism have diffused general illumination. However, this new effort will serve to show the perseverance of ambition and the necessity of constant vigilance in the people for the preservation of their liberty.",
-      "uncertain": [
-        {
-          "end": 321,
-          "readings": {
-            "pitt": "ever^'",
-            "primary": "every"
-          },
-          "start": 316
-        }
-      ]
+      "text": "The conspirators, deceived by their first success, grounded on the unreserved confidence of the people, do not consider that with the detection of their views all chance of success is over; that suspicion once awakened is not so soon to be lulled, but with eagle eye will penetrate all their wiles, and detect their every scheme, however deeply laid or speciously glossed. The labors of their committee will be unavailing: the point of deception is passed, the rays of enlightened patriotism have diffused general illumination. However, this new effort will serve to show the perseverance of ambition and the necessity of constant vigilance in the people for the preservation of their liberty."
     },
     {
       "label": "Centinel 10, ¶ 3",
@@ -4158,17 +4085,7 @@
           689
         ]
       },
-      "text": "The evils of anarchy have been portrayed with all the imagery of language in the glowing colors of eloquence; the affrighted mind is thence led to clasp the new Constitution as the instrument of deliverance, as the only avenue to safety and happiness. To avoid the possible and transitory evils of one extreme, it is seduced into the certain and permanent misery necessarily attendant on the other. A state of anarchy from its very nature can never be of long continuance; the greater its violence the shorter the duration; order and security are immediately sought by the distracted people beneath the shelter of equal laws and the salutary restraints of regular government, and if this be not attainable absolute power is assumed by the one, or a few, who shall be the most enterprising and successful. If anarchy, therefore, were the inevitable consequence of rejecting the new Constitution, it would be infinitely better to incur it, for even then there would be at least the chance of a good government rising out of licentiousness; but to rush at once into despotism because there is a bare possibility of anarchy ensuing from the rejection, or from what is yet more visionary, the small delay that would be occasioned by a revision and correction of the proposed system of government is so superlatively weak, so fatally blind, that it is astonishing any person of common understanding should suffer such an imposition to have the least influence on his judgment; still more astonishing that so flimsy and deceptive a doctrine should make converts among the enlightened freemen of America, who have so long enjoyed the blessings of liberty; but when I view among such converts men otherwise pre-eminent it raises a blush for the weakness of humanity that these, her brightest ornaments, should be so dimsighted to what is self-evident to most men, that such imbecility of judgment should appear where so much perfection was looked for; this ought to teach us to depend more on our own judgment and the nature of the case than upon the opinions of the greatest and best of men, who, from constitutional infirmities or particular situations, may sometimes view an object through a delusive medium, but the opinions of great men are more frequently the dictates of ambition or private interest.",
-      "uncertain": [
-        {
-          "end": 1817,
-          "readings": {
-            "pitt": "dimsigfhted",
-            "primary": "dimsighted"
-          },
-          "start": 1807
-        }
-      ]
+      "text": "The evils of anarchy have been portrayed with all the imagery of language in the glowing colors of eloquence; the affrighted mind is thence led to clasp the new Constitution as the instrument of deliverance, as the only avenue to safety and happiness. To avoid the possible and transitory evils of one extreme, it is seduced into the certain and permanent misery necessarily attendant on the other. A state of anarchy from its very nature can never be of long continuance; the greater its violence the shorter the duration; order and security are immediately sought by the distracted people beneath the shelter of equal laws and the salutary restraints of regular government, and if this be not attainable absolute power is assumed by the one, or a few, who shall be the most enterprising and successful. If anarchy, therefore, were the inevitable consequence of rejecting the new Constitution, it would be infinitely better to incur it, for even then there would be at least the chance of a good government rising out of licentiousness; but to rush at once into despotism because there is a bare possibility of anarchy ensuing from the rejection, or from what is yet more visionary, the small delay that would be occasioned by a revision and correction of the proposed system of government is so superlatively weak, so fatally blind, that it is astonishing any person of common understanding should suffer such an imposition to have the least influence on his judgment; still more astonishing that so flimsy and deceptive a doctrine should make converts among the enlightened freemen of America, who have so long enjoyed the blessings of liberty; but when I view among such converts men otherwise pre-eminent it raises a blush for the weakness of humanity that these, her brightest ornaments, should be so dimsighted to what is self-evident to most men, that such imbecility of judgment should appear where so much perfection was looked for; this ought to teach us to depend more on our own judgment and the nature of the case than upon the opinions of the greatest and best of men, who, from constitutional infirmities or particular situations, may sometimes view an object through a delusive medium, but the opinions of great men are more frequently the dictates of ambition or private interest."
     },
     {
       "label": "Centinel 11, ¶ 3",
@@ -4206,7 +4123,8 @@
             "pitt": "Piibliiis^",
             "primary": "Publius*z."
           },
-          "start": 803
+          "start": 803,
+          "suggestion": "Publius,"
         }
       ]
     },
@@ -4553,7 +4471,7 @@
           697
         ]
       },
-      "text": "The conspirators having been severely galled and checked in their career by the artillery of freedom, have made more vigorous and successful efforts to silence her batteries, while falsehood with all her delusions is making new and greater exertions in favor of ambition. On the one hand, every avenue to information is as far as possible cut off\"; the usual communication between the states, through the medium of the press, is in a great measure destroyed by a new arrangement at the Post OflBce — scarcely a newspaper is suffered to passt by this conveyance, and the arguments of a Findley, a Whitehill and a Smilie, that bright constellation of patriots, are suppressed, and a spurious publication substituted ; and on the other hand the select committee are assiduously employed in manufacturing deception in all its ensnaring colors, and having an adequate fund at their command, they are deluging the country with their productions. The only newspaper that circulates extensively out of the city is kept running over with deceptive inventions. Doctor Puff\", the paragi-aphist, has scarcely slept since his appointment, having received orders to work double tides; beneath his creative pen thousands of correspondents rise into view, who all harmonize in their sentiments and information about the new constitution; but the chief reliance is on James the Caledonian, who can to appearance destroy all distinction between liberty and despotism, and make the latter pass for the former, who can bewilder truth in all the mazes of sophistry, and render the plainest propositions problematical. He, chameleon-like, can vary his appearance at pleasure, and assume any character for the purposes of deception. In the guise of a Conciliator^ in the Independent Gazetteer, he professes great candor and moderation, admits some of the principal objections to the new constitution to be well founded and insidiously proposes a method to remove them, which is to consider the first Congress under the new constitution as a convention, competent to supply all defects in the system of government. This is really a discovery that does honor to his invention. What ! a legislative declaration or law a basis upon which to rest our dearest liberties ? Does he suppose the people have so little penetration as not to see through so flimsy a delusion, that such a security would amount to no more than the will and pleasure of their rulers, who might repeat this fundamental sanction whenever ambition stimulated ? In the feigned character of A Freeman., he combats the weighty arguments of the minority of the late convention, by a mere play upon words, carefully avoiding the real merits of the question; and we moreover trace him in a variety of miscellaneous productions in every shape and form ; he occasionally assists Doctor Puff in the fabrication of extracts of letters, paragraphs, correspondents, etc., etc.",
+      "text": "The conspirators having been severely galled and checked in their career by the artillery of freedom, have made more vigorous and successful efforts to silence her batteries, while falsehood with all her delusions is making new and greater exertions in favor of ambition. On the one hand, every avenue to information is as far as possible cut off\"; the usual communication between the states, through the medium of the press, is in a great measure destroyed by a new arrangement at the Post OflBce — scarcely a newspaper is suffered to passt by this conveyance, and the arguments of a Findley, a Whitehill and a Smilie, that bright constellation of patriots, are suppressed, and a spurious publication substituted ; and on the other hand the select committee are assiduously employed in manufacturing deception in all its ensnaring colors, and having an adequate fund at their command, they are deluging the country with their productions. The only newspaper that circulates extensively out of the city is kept running over with deceptive inventions. Doctor Puff\", the paragraphist, has scarcely slept since his appointment, having received orders to work double tides; beneath his creative pen thousands of correspondents rise into view, who all harmonize in their sentiments and information about the new constitution; but the chief reliance is on James the Caledonian, who can to appearance destroy all distinction between liberty and despotism, and make the latter pass for the former, who can bewilder truth in all the mazes of sophistry, and render the plainest propositions problematical. He, chameleon-like, can vary his appearance at pleasure, and assume any character for the purposes of deception. In the guise of a Conciliator^ in the Independent Gazetteer, he professes great candor and moderation, admits some of the principal objections to the new constitution to be well founded and insidiously proposes a method to remove them, which is to consider the first Congress under the new constitution as a convention, competent to supply all defects in the system of government. This is really a discovery that does honor to his invention. What ! a legislative declaration or law a basis upon which to rest our dearest liberties ? Does he suppose the people have so little penetration as not to see through so flimsy a delusion, that such a security would amount to no more than the will and pleasure of their rulers, who might repeat this fundamental sanction whenever ambition stimulated ? In the feigned character of A Freeman., he combats the weighty arguments of the minority of the late convention, by a mere play upon words, carefully avoiding the real merits of the question; and we moreover trace him in a variety of miscellaneous productions in every shape and form ; he occasionally assists Doctor Puff in the fabrication of extracts of letters, paragraphs, correspondents, etc., etc.",
       "uncertain": [
         {
           "end": 497,
@@ -4569,31 +4487,24 @@
             "pitt": "passf",
             "primary": "passt"
           },
-          "start": 536
+          "start": 536,
+          "suggestion": "pass"
         },
         {
-          "end": 1083,
-          "readings": {
-            "pitt": "paragraphist,",
-            "primary": "paragi-aphist,"
-          },
-          "start": 1069
-        },
-        {
-          "end": 1740,
+          "end": 1739,
           "readings": {
             "pitt": "Conciliator^",
             "primary": "Conciliator^"
           },
-          "start": 1728
+          "start": 1727
         },
         {
-          "end": 2543,
+          "end": 2542,
           "readings": {
             "pitt": "Free^nan^",
             "primary": "Freeman.,"
           },
-          "start": 2534
+          "start": 2533
         }
       ]
     },
@@ -4722,7 +4633,8 @@
           "readings": {
             "primary": ".jaf"
           },
-          "start": 54
+          "start": 54,
+          "suggestion": "of"
         }
       ]
     },
@@ -4742,17 +4654,7 @@
           706
         ]
       },
-      "text": "\"Viewing it as a national, not a federal government; as calculated and designed not to protect and preserve, but to abolish and annihilate the State governments, it was opposed for the following reasons: — It was said that this continent was much too extensive for one national government, which should have sufficient power and energy to pervade and hold in obedience and subjection all its parts, consistent with the enjoyment and preservation of liberty; that the genius and habits of the people of America were opposed to such a government; that during their connection with Great Britain, they had been accustomed to have all their concerns transacted within a narrow circle — their colonial districts; they had been accustomed to have their seats of government near them, to which they might have access without much inconvenience, when their business should require it; that at this time we find if a county is rather large, the people complain of the inconvenience, and clamor for a division of their county, or for a removal of the place where their courts are held, so as to render it more central and convenient; that in those States, the territory of which is extensive, as soon as the population increases remote from the seat of government, the inhabitants are urgent for a removal of the seat of their government, or to be erected into a new State. As a proof of this, the inhabitants of the western parts of Virginia and North Carolina, of Vermont and the province of Maine, were instances; even the inhabitants of the western parts of Pennsylvania, who it was said already seriously look forward to the time when they shall either be erected into a new State, or have their seat of government removed to the Susquehanna. If the inhabitants of the different States consider it as a grievance to attend a county court, or the seat of their own government, when a little inconvenient, can it be supposed they would ever submit to have a national government established, the seat of which would be more than a thousand miles removed from some of them? It was insisted that governments of a republican nature are those best calculated to preserve the freedom and happiness of the citizen; that governments of this kind are only calculated for a territory but small in its extent; that the only method by which an extensive continent like America could be connected and united together consistent with the principles of freedom, must be by having a number of strong and energetic State governments for securing and protecting the rights of the individuals forming those governments, and for regulating all their concerns, and a strong, energetic federal government over those States for the protection and preservation, and for regulating the common concerns of the States; it was further insisted, that even if it was possible to effect a total abolition of the State governments at thi's time, and to establish one general government over the people of America, it could not long subsist, but in a little time would again be broken into a variety of governments of a smaller extent, similar in some manner to the present situation of this continent: the principal difference in all probability would be that the governments, so established, being effected by some violent convulsions, might not be formed on principles so favorable to liberty as those of our present State governments; that this ought to be an important consideration to such of the states who had excellent governments, which was the case with Maryland and most others, whatever it might be to persons who, disapproving of their particular State government, would be willing to hazard everything to overturn and destroy it. These reasons, sir, influenced me to vote against two branches in the legislature, and against every part of the system which was repugnant to the principles of a federal government. Nor was there a single argument urged, or reason assigned, which to my mind was satisfactory, to prove that a good government on federal principles was unattainable— the whole of their arguments only proving, what none of us controverted, that oiir federal government as originally formed was defective, and wanted amendment. However, a majority of the convention hastily and inconsiderately, without condescending to make a fair trial, in their great wisdom, decided that a kind of government which a Montesquieu and a Price have declared the best calculated of any to preserve internal liberty, and to enjoy external strength and security, and the only one by which a large continent can be connected and united consistent with the principles of liberty, was totally impracticable, and they acted accordingly. ' '",
-      "uncertain": [
-        {
-          "end": 4136,
-          "readings": {
-            "pitt": "our",
-            "primary": "oiir"
-          },
-          "start": 4132
-        }
-      ]
+      "text": "\"Viewing it as a national, not a federal government; as calculated and designed not to protect and preserve, but to abolish and annihilate the State governments, it was opposed for the following reasons: — It was said that this continent was much too extensive for one national government, which should have sufficient power and energy to pervade and hold in obedience and subjection all its parts, consistent with the enjoyment and preservation of liberty; that the genius and habits of the people of America were opposed to such a government; that during their connection with Great Britain, they had been accustomed to have all their concerns transacted within a narrow circle — their colonial districts; they had been accustomed to have their seats of government near them, to which they might have access without much inconvenience, when their business should require it; that at this time we find if a county is rather large, the people complain of the inconvenience, and clamor for a division of their county, or for a removal of the place where their courts are held, so as to render it more central and convenient; that in those States, the territory of which is extensive, as soon as the population increases remote from the seat of government, the inhabitants are urgent for a removal of the seat of their government, or to be erected into a new State. As a proof of this, the inhabitants of the western parts of Virginia and North Carolina, of Vermont and the province of Maine, were instances; even the inhabitants of the western parts of Pennsylvania, who it was said already seriously look forward to the time when they shall either be erected into a new State, or have their seat of government removed to the Susquehanna. If the inhabitants of the different States consider it as a grievance to attend a county court, or the seat of their own government, when a little inconvenient, can it be supposed they would ever submit to have a national government established, the seat of which would be more than a thousand miles removed from some of them? It was insisted that governments of a republican nature are those best calculated to preserve the freedom and happiness of the citizen; that governments of this kind are only calculated for a territory but small in its extent; that the only method by which an extensive continent like America could be connected and united together consistent with the principles of freedom, must be by having a number of strong and energetic State governments for securing and protecting the rights of the individuals forming those governments, and for regulating all their concerns, and a strong, energetic federal government over those States for the protection and preservation, and for regulating the common concerns of the States; it was further insisted, that even if it was possible to effect a total abolition of the State governments at thi's time, and to establish one general government over the people of America, it could not long subsist, but in a little time would again be broken into a variety of governments of a smaller extent, similar in some manner to the present situation of this continent: the principal difference in all probability would be that the governments, so established, being effected by some violent convulsions, might not be formed on principles so favorable to liberty as those of our present State governments; that this ought to be an important consideration to such of the states who had excellent governments, which was the case with Maryland and most others, whatever it might be to persons who, disapproving of their particular State government, would be willing to hazard everything to overturn and destroy it. These reasons, sir, influenced me to vote against two branches in the legislature, and against every part of the system which was repugnant to the principles of a federal government. Nor was there a single argument urged, or reason assigned, which to my mind was satisfactory, to prove that a good government on federal principles was unattainable— the whole of their arguments only proving, what none of us controverted, that our federal government as originally formed was defective, and wanted amendment. However, a majority of the convention hastily and inconsiderately, without condescending to make a fair trial, in their great wisdom, decided that a kind of government which a Montesquieu and a Price have declared the best calculated of any to preserve internal liberty, and to enjoy external strength and security, and the only one by which a large continent can be connected and united consistent with the principles of liberty, was totally impracticable, and they acted accordingly. ' '"
     },
     {
       "label": "Centinel 14, ¶ 6",
@@ -4839,17 +4741,7 @@
           710
         ]
       },
-      "text": "The magic of great names, the delusion of falsehood, the suppression of information, precipitation and fraud have been the instruments of this partial success, the pillars whereon the structure of tyranny has been so far raised. Those influential vehicles, the newspapers, with few exceptions, have been devoted to the cause of despotism, and by the subserviency of the P O , the usefulness of the patriotic newspapers lias been confined to the places of their publication, whilst falsehood and deception have had universal circulation, without the opportunity of refutation. The feigned unanimity of one part of America, has been represented to produce the acquiescence of another, and so mutally to impose upon the whole by the force of example.",
-      "uncertain": [
-        {
-          "end": 423,
-          "readings": {
-            "pitt": "has",
-            "primary": "lias"
-          },
-          "start": 419
-        }
-      ]
+      "text": "The magic of great names, the delusion of falsehood, the suppression of information, precipitation and fraud have been the instruments of this partial success, the pillars whereon the structure of tyranny has been so far raised. Those influential vehicles, the newspapers, with few exceptions, have been devoted to the cause of despotism, and by the subserviency of the P O , the usefulness of the patriotic newspapers has been confined to the places of their publication, whilst falsehood and deception have had universal circulation, without the opportunity of refutation. The feigned unanimity of one part of America, has been represented to produce the acquiescence of another, and so mutally to impose upon the whole by the force of example."
     },
     {
       "label": "Centinel 15, ¶ 3",
@@ -5219,7 +5111,8 @@
           "readings": {
             "primary": "perferring"
           },
-          "start": 1499
+          "start": 1499,
+          "suggestion": "preferring"
         },
         {
           "end": 1940,
@@ -5227,7 +5120,8 @@
             "pitt": "tho:",
             "primary": "\\h^"
           },
-          "start": 1937
+          "start": 1937,
+          "suggestion": "the"
         }
       ]
     },
@@ -5317,25 +5211,7 @@
           727
         ]
       },
-      "text": "As the liberties of all the states in the union are struck at in common with those of Pennsylvania, by the conduct of the Post Master General and deputies, I trust that the example which her Legislature * has set by instructing her delegates in Congress on this subject, will be followed by the others, that with one accord they will hurl their vengeance on the venal instruments of ambition, who have presumed to prostrate one of the principal bulwarks of liberty. In a confederated government of such extent as the United States, the freest communication of sentiment and information should be maintained, as the liberties, happiness and welfare of the union depend upon a concert of counsels ; the signals of alarm whenever ambition should rear its baneful head, ought to be uniform. Without this communication between the members of the confederacy the freedom of the press, if it could be maintained in so severed a situation, would cease to be a security against the encroachments of tyranny. The truth of the foregoing position is strikingly illustrated on the present occasion ; for want of this intercommunity of sentiment and information, the liberties of this country are brought to an awful crisis; ambition has made a great stride towards dominion, has succeeded through the medium of muzzled presses to delude a great body of the people in the other states, and threatens to overwhelm the enlightened opposition in this by external force. Here, indeed, notwithstanding every nerve was strained by the conspirators, to muzzle or demolish every newspaper that allowed free discussion, two printers have asserted the independency of the press, whereby the arts of ambition have been detected, and the new system has been portrayed in its native villainy; its advocates have long since abandoned the field of argument, relinquished the unequal contest, and truth and patriotism reign triumphant in this state; but the conspirators trust to their success in the other states for the attainment of their darling object, and therefore all their vigilance' is exerted to prevent the infectious spirit of freedom and enlightened patriotism communicating to the rest of the union — all intercourse is as far as possible cut off. To rectify the erroneous representation made in the other states of the sentiments of the people in this respecting the new constitution, I think it my duty to state the fact as it really is. — Those who favor this system of tyranny are most numerous in the city of Philadelphia, where perhaps they may be a considerable majority. In the most eastern counties they compose about oue-fourth of the people, but in the middle, northern and western counties not above a twentieth part, so that upon the whole the friends to the new constitution in this state are about one-sixth of the people. The following circumstance is an evidence of the spirit and decision of the opposition. — An individual, unadvisedly and without concert, and contrary to the system of conduct generally agreed upon, went to the expense of printing and circulating an address to the legislature, reprobating in the strongest terms the new constitution, and praying that the deputies of this state in the federal convention, who in violation of their duty acceded to the new constitution, be called to account for their daring procedure. This address, or petition, was signed by upwards of four thousand citizens in only two counties, viz., Franklin and Cumberland; and if the time liad admitted, prior to the adjournment of the legislature, there is reason to believe that this high-toned application would have been subscribed by five-sixth of the freemen of this state. The advocates of the new constitution, availing themselves of this partial measure of two counties, have asserted it to be the result of a general exertion, which is so evidently false that it can only deceive people at a distance from us, for the counties over the mountain are nearly unanimous in the opposition. In Fayette at a numerous county meeting, there appeared to be but two persons in favor of the constitution ; in Bedford county, in the mountains, there are not above twenty; in Huntingdon adjoining, about 30; in Dauphin, in the middle countr)', not 100; in Berks, a large eastern county that has near 5,000 taxable inhabitants, not more than 50, and so of several others, and yet no petitions were circulated or signed in these counties. The system of conduct alluded to is the forming societies in every county in the state, who have committees of correspondence. These are now engaged in planning a uniform exertion to emancipate this state from the thraldom of despotism. A convention of deputies from every district will in all probability be agreed upon as the most eligible mode of combining the strength of the opposition, which is increasing daily both in numbers and spirit.",
-      "uncertain": [
-        {
-          "end": 2622,
-          "readings": {
-            "pitt": "one-fourth",
-            "primary": "oue-fourth"
-          },
-          "start": 2612
-        },
-        {
-          "end": 3490,
-          "readings": {
-            "pitt": "had",
-            "primary": "liad"
-          },
-          "start": 3486
-        }
-      ]
+      "text": "As the liberties of all the states in the union are struck at in common with those of Pennsylvania, by the conduct of the Post Master General and deputies, I trust that the example which her Legislature * has set by instructing her delegates in Congress on this subject, will be followed by the others, that with one accord they will hurl their vengeance on the venal instruments of ambition, who have presumed to prostrate one of the principal bulwarks of liberty. In a confederated government of such extent as the United States, the freest communication of sentiment and information should be maintained, as the liberties, happiness and welfare of the union depend upon a concert of counsels ; the signals of alarm whenever ambition should rear its baneful head, ought to be uniform. Without this communication between the members of the confederacy the freedom of the press, if it could be maintained in so severed a situation, would cease to be a security against the encroachments of tyranny. The truth of the foregoing position is strikingly illustrated on the present occasion ; for want of this intercommunity of sentiment and information, the liberties of this country are brought to an awful crisis; ambition has made a great stride towards dominion, has succeeded through the medium of muzzled presses to delude a great body of the people in the other states, and threatens to overwhelm the enlightened opposition in this by external force. Here, indeed, notwithstanding every nerve was strained by the conspirators, to muzzle or demolish every newspaper that allowed free discussion, two printers have asserted the independency of the press, whereby the arts of ambition have been detected, and the new system has been portrayed in its native villainy; its advocates have long since abandoned the field of argument, relinquished the unequal contest, and truth and patriotism reign triumphant in this state; but the conspirators trust to their success in the other states for the attainment of their darling object, and therefore all their vigilance' is exerted to prevent the infectious spirit of freedom and enlightened patriotism communicating to the rest of the union — all intercourse is as far as possible cut off. To rectify the erroneous representation made in the other states of the sentiments of the people in this respecting the new constitution, I think it my duty to state the fact as it really is. — Those who favor this system of tyranny are most numerous in the city of Philadelphia, where perhaps they may be a considerable majority. In the most eastern counties they compose about one-fourth of the people, but in the middle, northern and western counties not above a twentieth part, so that upon the whole the friends to the new constitution in this state are about one-sixth of the people. The following circumstance is an evidence of the spirit and decision of the opposition. — An individual, unadvisedly and without concert, and contrary to the system of conduct generally agreed upon, went to the expense of printing and circulating an address to the legislature, reprobating in the strongest terms the new constitution, and praying that the deputies of this state in the federal convention, who in violation of their duty acceded to the new constitution, be called to account for their daring procedure. This address, or petition, was signed by upwards of four thousand citizens in only two counties, viz., Franklin and Cumberland; and if the time had admitted, prior to the adjournment of the legislature, there is reason to believe that this high-toned application would have been subscribed by five-sixth of the freemen of this state. The advocates of the new constitution, availing themselves of this partial measure of two counties, have asserted it to be the result of a general exertion, which is so evidently false that it can only deceive people at a distance from us, for the counties over the mountain are nearly unanimous in the opposition. In Fayette at a numerous county meeting, there appeared to be but two persons in favor of the constitution ; in Bedford county, in the mountains, there are not above twenty; in Huntingdon adjoining, about 30; in Dauphin, in the middle countr)', not 100; in Berks, a large eastern county that has near 5,000 taxable inhabitants, not more than 50, and so of several others, and yet no petitions were circulated or signed in these counties. The system of conduct alluded to is the forming societies in every county in the state, who have committees of correspondence. These are now engaged in planning a uniform exertion to emancipate this state from the thraldom of despotism. A convention of deputies from every district will in all probability be agreed upon as the most eligible mode of combining the strength of the opposition, which is increasing daily both in numbers and spirit."
     },
     {
       "label": "Centinel 18, ¶ 7",
@@ -6915,7 +6791,22 @@
   "short": "Centinel",
   "source_ids": [
     "ia-mcmaster-stone-1888-cornell-xml",
-    "ia-mcmaster-stone-1888-pitt-txt"
+    "ia-mcmaster-stone-1888-pitt-txt",
+    "afl-centinel1",
+    "afl-centinel10",
+    "afl-centinel11",
+    "afl-centinel12",
+    "afl-centinel13",
+    "afl-centinel14",
+    "afl-centinel15",
+    "afl-centinel16",
+    "afl-centinel17",
+    "afl-centinel18",
+    "afl-centinel5",
+    "afl-centinel6",
+    "afl-centinel7",
+    "afl-centinel8",
+    "afl-centinel9"
   ],
   "title": "The Letters of Centinel"
 }

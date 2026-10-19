@@ -954,3 +954,51 @@ The project owner asked for the clause pages planned for phase 7.
   `_clause_pages`), rendered by `ClauseView.astro`. Clause pages are not in
   the search index, so a search does not find each clause twice.
 
+
+## 56. Brutus V–XVI, Patrick Henry, and the Anti-Federalist Library as a tie-breaker
+
+The project owner decided, after the research on the Anti-Federalist
+Library (antifederalists.org) and the original printings:
+
+- **Brutus V–XVI from the New-York Journal.** Chronicling America (the
+  Library of Congress) is approved as a source. Each page's OCR is read from
+  its ALTO XML on tile.loc.gov (words, boxes, confidence); the page URLs are
+  taken from each issue's record at loc.gov, paced for its rate limit. There
+  is one scan, so nothing votes: a word is settled when it is a known word
+  read with confidence (0.5 or more) or when the Library reads it alike;
+  otherwise it is uncertain (about 14% of words). The essays join the
+  existing Brutus work, `Brutus.{n}.{paragraph}`; XII and XIV, printed in two
+  instalments, are one essay each. **Brutus XI** has no scan and is left
+  out, and the work's notes say so; its text is not taken from anywhere
+  else. The long s that OCR reads as "f" is never turned into "s" by code.
+- **Patrick Henry from Elliot's Debates**, vol. 3, standard pagination: the
+  Internet Archive's 1907 Lippincott scan with the 1876, 1861 and 1836
+  copies of the same pagination as readings; never the separate
+  "Pennsylvania Avenue" setting (UNC). The speeches imported are the
+  twenty-four the Library prints, each as Elliot prints it; where the
+  Library's speech takes in another member's remarks (June 17, June 23),
+  the import keeps them with Elliot's speaker names. Refs `Henry.{Mon}{day}`
+  as for the debates in Congress (`docs/references.md`).
+- **The Library is a tie-breaker, never a source of text.** It is CC0, but
+  names no source and was probably copied from a modern edition (it has
+  editorial brackets and misreadings of its own). Its Markdown is pinned to
+  commit 6424aff9 of github.com/seven-obelisks/antifederalists and kept as
+  raw sources. Where the scans' readings of a word disagree, it may choose
+  among them; where no scan reads it so, the text stays and its reading is
+  recorded on the uncertain word as a `suggestion`, shown on `/errata/` for
+  a person to check against the page image (a field, not a new mechanism:
+  a chosen suggestion is recorded like any correction). In the newspaper
+  and Elliot, whose printing the Library follows, a word only weakly read
+  (one scan, or not a known word) that the Library reads differently is
+  also left for a person. The rules are in `docs/ocr.md`.
+- **Applied to existing works** where the Library's pages match ours:
+  Brutus I–IV, Agrippa I–XI, the Federal Farmer I–V, Centinel I and
+  V–XVIII (Centinel XIII and XVI from the pages the Library mislabels XII
+  and XV). Not Cato (duplicated and cut-short pages) or Centinel II–IV
+  (excerpts). No ref or paragraph changed; 28 words changed, each to
+  another scan's reading (listed in the commit that made the change), 5
+  uncertain marks were dropped where the Library agreed with the main scan,
+  and the editions' notes say the Library was used.
+- **Skipped:** Old Whig, Maryland Farmer, Impartial Examiner, John DeWitt,
+  Philadelphiensis and Melancton Smith, for which no scan of the first
+  printing was found to check the Library against.

@@ -25,9 +25,23 @@ where the work stands and what comes next.
 ## Where things stand
 
 Phases 0–6 are done (the README's status table has the counts): the
-founding documents, The Federalist, twenty works of the ratification
+founding documents, The Federalist, twenty-two works of the ratification
 debate read from scans, about 740 suggested links awaiting review, the
 connections panel and graph, search, and the review page.
+
+**More of the debate** (decision 56): Brutus V–XVI (not XI, which has no
+scan) from the *New-York Journal*'s single Library of Congress scan
+(`importers/nyjournal.py`; about 14% of words marked uncertain, most with a
+suggestion), and Patrick Henry's twenty-four speeches in the Virginia
+convention from Elliot's *Debates* (`importers/elliot.py`, four scans,
+under 0.1% uncertain). The Anti-Federalist Library is a tie-breaker only
+(`importers/library.py`): it chose among scans' readings in Brutus I–IV,
+Agrippa I–XI, the Federal Farmer I–V and Centinel I and V–XVIII (28 words),
+and its readings appear on `/errata/` as suggestions. No links have been
+proposed for the new texts yet; check the newspaper essays' paragraph
+breaks first (erratum 63). Not imported, for want of a scan to check the
+Library against: Old Whig, Maryland Farmer, Impartial Examiner, John
+DeWitt, Philadelphiensis, Melancton Smith.
 
 **Debates in Congress** (`/congress/`): the House's 1789 debate on the
 amendments, from the Annals of Congress (`importers/annals.py`, decision

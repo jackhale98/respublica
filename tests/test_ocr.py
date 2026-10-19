@@ -177,7 +177,7 @@ class ReviewSheetTests(unittest.TestCase):
 
 class RatificationImportTests(unittest.TestCase):
     def test_series_essay_counts(self):
-        expect = {"cato": 7, "agrippa": 18, "centinel": 24, "landholder": 14, "federal-farmer": 5, "brutus": 4}
+        expect = {"cato": 7, "agrippa": 18, "centinel": 24, "landholder": 14, "federal-farmer": 5, "brutus": 15}
         for wid, n in expect.items():
             doc = json.loads((TEXTS_DIR / f"{wid}.json").read_text(encoding="utf-8"))
             self.assertEqual(len(doc["divisions"]), n, wid)
