@@ -187,5 +187,104 @@ class ProblemTests(unittest.TestCase):
         self.assertEqual(problems(kept), [])
 
 
+class PartTests(unittest.TestCase):
+    """Syllabi that go on past the judgment with what each opinion concluded."""
+
+    def test_part_headings_and_the_lineup(self):
+        for line in ("JUSTICE WHITE delivered the opinion of the Court with respect to",
+                     "THE CHIEF JUSTICE delivered the opinion of the Court with respect",
+                     "The Chief Justice delivered the opinion of the Court with respect to",
+                     "Justice Alito delivered the opinion of the Court with respect to Parts I,",
+                     "1. Chief Justice Roberts delivered the opinion of the Court with respect to"):
+            self.assertTrue(u.PART_HEAD.match(line), line)
+        for line in ("WHITE, J., announced the judgment of the Court and delivered",
+                     "Roberts, C. J., delivered the opinion of the Court, in which"):
+            self.assertFalse(u.PART_HEAD.match(line), line)
+
+    def test_a_part_heading_does_not_end_the_syllabus_but_the_lineup_does(self):
+        lines = [Line(525, 64, 345, 9, "JUSTICE WHITE delivered the opinion of the Court with respect to"),
+                 Line(535, 56, 344, 9, "Part II, concluding that political gerrymandering is justiciable.")]
+        self.assertTrue(u._part_head(lines, 0))
+        lineup = [Line(83, 47, 339, 9, "WHITE, J., announced the judgment of the Court and delivered the"),
+                  Line(95, 38, 339, 9, "opinion of the Court with respect to Part II, concluding nothing.")]
+        self.assertFalse(u._part_head(lineup, 0))
+        # A Justice's title without "concluding" near it is not a part.
+        self.assertFalse(u._part_head([Line(1, 50, 300, 9, "JUSTICE WHITE delivered the opinion.")], 0))
+
+    def test_parts_after_the_judgment_are_kept_up_to_the_lineup(self):
+        def para(text):
+            return (109, [Line(1, 50, 300, 9, text)])
+        kept = u._finish([para("Held: The judgment is reversed."),
+                          para("603 F. Supp. 1479, reversed."),
+                          para("JUSTICE WHITE delivered the opinion of the Court with respect to Part II, "
+                               "concluding that the case is justiciable. Pp. 118-127."),
+                          para("(a) A threshold showing is required. Pp. 127-134."),
+                          para("JUSTICE O'CONNOR, joined by JUSTICE REHNQUIST, concluded that the claims "
+                               "are nonjusticiable. Pp. 144-155."),
+                          para("WHITE, J., announced the judgment of the Court, post, p. 161.")])
+        self.assertEqual(len(kept), 5)
+        # Without a part heading right after it, the judgment still ends the syllabus.
+        kept = u._finish([para("603 F. Supp. 1479, reversed."), para("(a) A threshold showing. P. 127.")])
+        self.assertEqual(len(kept), 1)
+
+    def test_argued_in_a_holding_is_not_the_counsel(self):
+        self.assertFalse(u.AFTER.search("the trial court instructed the jury, and the state's attorney "
+                                        "argued the case, in accordance with the state law."))
+        self.assertTrue(u.AFTER.search("John D. LaBelle argued the cause for respondent."))
+
+
+class SourceTests(unittest.TestCase):
+    def test_another_source_is_read_from_its_start_page(self):
+        calls = []
+
+        def fake(path, max_pages=None, start=0):
+            calls.append((str(path).rsplit("/", 1)[-1], max_pages, start))
+            return []
+        with mock.patch.object(u, "pdf_lines", fake), mock.patch.object(u, "raw_path", lambda sid: f"/raw/{sid}.pdf"):
+            u._pages.cache_clear()
+            u._pages(597, 215, ("scotus-597-215", 1))
+            u._pages(347, 483)
+            u._pages.cache_clear()
+        self.assertEqual(calls, [("scotus-597-215.pdf", u.SYLLABUS_PAGES, 1),
+                                 ("loc-usrep-347-483.pdf", u.SYLLABUS_PAGES, 0)])
+
+    def test_pages_are_numbered_from_the_first_printed_page(self):
+        pages = [[Line(150, 186, 435, 9, "No. 07–290. Argued March 18, 2008—Decided June 26, 2008"),
+                  Line(170, 160, 461, 9, "District of Columbia law bans handgun possession by making it a"),
+                  Line(181, 169, 461, 9, "crime to carry an unregistered firearm and prohibiting the regis-"),
+                  Line(192, 169, 300, 9, "tration of handguns."),
+                  Line(203, 160, 183, 9, "Held:")],
+                 [Line(127, 253, 461, 9, "Cite as: 554 U. S. 570 (2008) 571"),
+                  Line(171, 178, 461, 9, "1. The Second Amendment protects an individual right to possess a"),
+                  Line(182, 169, 461, 9, "firearm unconnected with service in a militia, and to use that arm"),
+                  Line(193, 169, 300, 9, "for lawful purposes. Pp. 576–626."),
+                  Line(204, 160, 256, 9, "478 F. 3d 370, afﬁrmed."),
+                  Line(238, 169, 460, 9, "Scalia, J., delivered the opinion of the Court.")]]
+        seen = []
+
+        def fake_pages(v, p, source=None):
+            seen.append(source)
+            return pages
+        with mock.patch.object(u, "_pages", fake_pages):
+            paras = u.syllabus(554, 570, ("scotus-554", 40))
+        self.assertEqual(seen, [("scotus-554", 40)])
+        self.assertEqual([p.page for p in paras], [570, 570, 571, 571])
+
+    def test_dates_only_from_the_first_pages(self):
+        # A volume that prints no dates: an "Argued" in the opinion pages later does not count.
+        pages = [[Line(39, 60, 338, 10, "542 UNITED STATES v. CRUIKSHANK. [Sup. Ct."),
+                  Line(83, 105, 289, 11, "UNITED STATES v. CRUIKSHANK ET AL."),
+                  Line(102, 63, 340, 8, "1. Citizens are the members of the political community to"),
+                  Line(111, 80, 340, 8, "which they belong, the people who compose the community and"),
+                  Line(121, 80, 200, 8, "who have established it."),
+                  Line(140, 53, 326, 10, "ERROR to the Circuit Court of the United States for the"),
+                  Line(152, 43, 148, 10, "District of Louisiana.")],
+                 [Line(40, 60, 300, 10, "head")], [Line(40, 60, 300, 10, "head"),
+                                                    Line(90, 60, 300, 10, "Mr. X argued the case.")]]
+        self.assertEqual(read(pages, 92, 542), [(542, "1. Citizens are the members of the political community to "
+                                                      "which they belong, the people who compose the community and "
+                                                      "who have established it.")])
+
+
 if __name__ == "__main__":
     unittest.main()

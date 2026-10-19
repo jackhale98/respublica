@@ -73,7 +73,7 @@ DATE_MORE = re.compile(r"\b(Argued|Reargued|Decided|Submitted|reargument|Opinion
 # WHITE delivered the opinion of the Court with respect to Part II,
 # concluding that ...". The Justice's title comes before the name, unlike the
 # lineup that follows the syllabus ("WHITE, J., delivered the opinion ...").
-PART_HEAD = re.compile(r"^(\d+\. )?(THE CHIEF JUSTICE|(CHIEF )?JUSTICE [A-Z][A-Z'’]+|(Chief )?Justice [A-Z][a-z'’]+\w*)"
+PART_HEAD = re.compile(r"^(\d+\. )?(THE CHIEF JUSTICE|The Chief Justice|(CHIEF )?JUSTICE [A-Z][A-Z'’]+|(Chief )?Justice [A-Z][a-z'’]+\w*)"
                        r"( and (JUSTICE|Justice) [A-Z][\w'’]+)?,? (delivered|announced)\b")
 CONCLUDING = re.compile(r"\bconclud(ing|ed)\b")
 HEAD_GAP = 30                   # running heads: within this of the page's top line
