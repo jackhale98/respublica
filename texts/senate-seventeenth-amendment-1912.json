@@ -1,0 +1,5788 @@
+{
+  "date": "1912-04-17/1912-04-23",
+  "divisions": [
+    {
+      "date": "1912-04-17",
+      "label": "April 17, 1912",
+      "level": 1,
+      "ref": "Senate1912.Apr17",
+      "title": "ELECTION OF SENATORS BY DIRECT VOTE."
+    },
+    {
+      "date": "1912-04-23",
+      "label": "April 23, 1912",
+      "level": 1,
+      "ref": "Senate1912.Apr23",
+      "title": "ELECTION OF SENATORS BY DIRECT VOTE, .",
+      "uncertain": {
+        "title": [
+          {
+            "end": 38,
+            "readings": {
+              "microfilm": "Mr.",
+              "primary": "."
+            },
+            "start": 37
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Congressional Record: Containing the Proceedings and Debates of the 62nd Congress, 2d session, vol. 48 (Washington: Government Printing Office, 1912), the bound edition",
+    "notes": "Congressional Record: Containing the Proceedings and Debates of the 62nd Congress, 2d session, vol. 48 (Washington: Government Printing Office, 1912), the bound edition: the items of the proceedings of the Senate headed with the subject in which it took up the joint resolution (H. J. Res. 39) proposing the Seventeenth Amendment, on the days the volume's History of Bills and Resolutions lists for it, pp. 4905–5172; not the speeches printed in the Appendix. Read from the text layer of the Government Publishing Office's scans (govinfo.gov) and checked word by word against the Internet Archive's OCR of a microfilm of the same part; words they could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "senate-seventeenth-amendment-1912",
+  "ref_prefix": "Senate1912",
+  "segments": [
+    {
+      "label": "Senate, April 17, 1912, ¶ 1",
+      "pages": [
+        "4905"
+      ],
+      "ref": "Senate1912.Apr17.1",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-14-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            683
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. CLARK of Wyoming. Mr. President, for a considerable time the conf~rencc committee of the two Houses have had under consideration the differences between the two Houses on the joint resolution (H . J. Iles. 30) proposing nn amendment to the Constitution for the election of Senators. I regret to say that the conference committee has been unable to come to any agreement. It is not my purpose to report the disagreement at this time, , but to give the Senate · notice that on Tu es day next that disagreement will be formally reported to the Senate. I give the notice now because of the widespread intere s t in the matter, so that Senators may know that the disagreement report will be made at the time I have stated, at which time the committee will also return the papers for such further action as the Sena to may see proper to take.",
+      "uncertain": [
+        {
+          "end": 75,
+          "readings": {
+            "microfilm": "conférence",
+            "primary": "conf~rencc"
+          },
+          "start": 65
+        },
+        {
+          "end": 209,
+          "readings": {
+            "microfilm": "Res.",
+            "primary": "Iles."
+          },
+          "start": 204
+        },
+        {
+          "end": 213,
+          "readings": {
+            "microfilm": "39)",
+            "primary": "30)"
+          },
+          "start": 210
+        },
+        {
+          "end": 226,
+          "readings": {
+            "microfilm": "an",
+            "primary": "nn"
+          },
+          "start": 224
+        },
+        {
+          "end": 488,
+          "readings": {
+            "microfilm": "Tuesday",
+            "primary": "es day"
+          },
+          "start": 482
+        },
+        {
+          "end": 609,
+          "readings": {
+            "microfilm": "interest",
+            "primary": "intere s"
+          },
+          "start": 601
+        },
+        {
+          "end": 816,
+          "readings": {
+            "microfilm": "Senate",
+            "primary": "Sena to"
+          },
+          "start": 809
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 17, 1912, ¶ 2",
+      "pages": [
+        "4905"
+      ],
+      "ref": "Senate1912.Apr17.2",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-14-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            683
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "MOTOR AND 01'IlER VEHICLES IN GOVERNMENT SERVICE ( S. DOC .",
+      "uncertain": [
+        {
+          "end": 17,
+          "readings": {
+            "primary": "01'IlER"
+          },
+          "start": 10
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 17, 1912, ¶ 3",
+      "pages": [
+        "4905"
+      ],
+      "ref": "Senate1912.Apr17.3",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-14-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            683
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "NO. 571)."
+    },
+    {
+      "label": "Senate, April 17, 1912, ¶ 4",
+      "pages": [
+        "4905"
+      ],
+      "ref": "Senate1912.Apr17.4",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-14-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            683
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT laid before the Senate the following message from the President of the United States, which was read and, with accompanying paper, referred to the Commit­ .tee on Appropriations and ordered to be printed:"
+    },
+    {
+      "label": "Senate, April 17, 1912, ¶ 5",
+      "pages": [
+        "4905",
+        "4906"
+      ],
+      "ref": "Senate1912.Apr17.5",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-14-1",
+        "leaves": [
+          7,
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            683,
+            684
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "I transmit herewith a report from the Acting Secretary of State supplying the information with respect to the Department of State called for by the Senate resolution of March 25, 1012. con cern in g the number of carriages, vehicles, motor cycles, and automobiles now owned by the Government or maintained at Government expense in the executive departments, and' the pur­ moment? pose for which each of these vehicles is used.",
+      "uncertain": [
+        {
+          "end": 184,
+          "readings": {
+            "microfilm": "1912.",
+            "primary": "1012."
+          },
+          "start": 179
+        },
+        {
+          "end": 193,
+          "readings": {
+            "microfilm": "concerning",
+            "primary": "con cern"
+          },
+          "start": 185
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 17, 1912, ¶ 6",
+      "pages": [
+        "4906"
+      ],
+      "ref": "Senate1912.Apr17.6",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-14-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            684
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "WM. H. TAFT."
+    },
+    {
+      "label": "Senate, April 17, 1912, ¶ 7",
+      "pages": [
+        "4906"
+      ],
+      "ref": "Senate1912.Apr17.7",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-14-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            684
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "THE WHITE H01:ISE, April 15, 1912 .",
+      "uncertain": [
+        {
+          "end": 18,
+          "readings": {
+            "microfilm": "House,",
+            "primary": "H01:ISE,"
+          },
+          "start": 10
+        },
+        {
+          "end": 35,
+          "readings": {
+            "microfilm": "No.",
+            "primary": "."
+          },
+          "start": 34
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 1",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.1",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\lr. CLARK of Wyoming. l\\lr. President, something like a week n go I gLn-c notice to the Senate of the fact that the committee of conference on the disagreeing votes of the two Houses on House joint resolution No. 39, providing for the direct election of Senators IJy the people, llad been unable to agree, stating at that time that because of the great public interest apparent in this question, and in order that all Senators might hin·e due notice, the formal presentation of the disagreement would be postponed until this morning. It is now my purpose, Mr . President, to present that formal di sag reement, prefacing it, however, with a statement that the members of the c o mmittee of conference of both the Houses have been diligent in their efforts to r each an agreement on tllo disagreeing votes of the two Houses. Tl.le committee has had no less than 16 joint meetings, at all of which a majority of the committee from both Houses have been present. Notwithstanding their efforts, the fact of disagreement still remains . I think it is due to the Senate to to see it. mnko a short statement as to the disagreement.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "l\\lr."
+          },
+          "start": 0
+        },
+        {
+          "end": 29,
+          "readings": {
+            "primary": "l\\lr."
+          },
+          "start": 24
+        },
+        {
+          "end": 67,
+          "readings": {
+            "microfilm": "ago",
+            "primary": "go"
+          },
+          "start": 65
+        },
+        {
+          "end": 75,
+          "readings": {
+            "primary": "gLn-c"
+          },
+          "start": 70
+        },
+        {
+          "end": 268,
+          "readings": {
+            "primary": "IJy"
+          },
+          "start": 265
+        },
+        {
+          "end": 285,
+          "readings": {
+            "microfilm": "had",
+            "primary": "llad"
+          },
+          "start": 281
+        },
+        {
+          "end": 440,
+          "readings": {
+            "microfilm": "have",
+            "primary": "hin·e"
+          },
+          "start": 435
+        },
+        {
+          "end": 599,
+          "readings": {
+            "primary": "di"
+          },
+          "start": 597
+        },
+        {
+          "end": 612,
+          "readings": {
+            "microfilm": "disagreement,",
+            "primary": "sag reement,"
+          },
+          "start": 600
+        },
+        {
+          "end": 688,
+          "readings": {
+            "microfilm": "committee",
+            "primary": "o mmittee"
+          },
+          "start": 679
+        },
+        {
+          "end": 788,
+          "readings": {
+            "primary": "tllo"
+          },
+          "start": 784
+        },
+        {
+          "end": 831,
+          "readings": {
+            "microfilm": "The",
+            "primary": "Tl.le"
+          },
+          "start": 826
+        },
+        {
+          "end": 1084,
+          "readings": {
+            "microfilm": "make",
+            "primary": "mnko"
+          },
+          "start": 1080
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 2",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.2",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Owing to the fact that there seems to be a misunderstanding Mr. CLARK in some quarters as to the purport of the proposed amendment to the Constitution providing for the election of Senators by the people, it might be well if 'the actual s itu ation were concisely stated, so that there can be no question as to the attitude of Members of the Senate in relation thereto .",
+      "uncertain": [
+        {
+          "end": 69,
+          "readings": {
+            "primary": "CLARK"
+          },
+          "start": 64
+        },
+        {
+          "end": 248,
+          "readings": {
+            "microfilm": "situation",
+            "primary": "itu ation"
+          },
+          "start": 239
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 3",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.3",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "For many years there has be® a growing belief in the United States that the Senators of the United States should be elected, ns are the Representatives, by direct vote of the people, and that the duty of choosing Senators should not be performed by members of legislature s . This has been largely brought about by the fact that in some States regrettable scandals have attended the election ancl by the belief that large sums of money have been habitually used, either directly or indirectly, in procuring elections by the legi s latures, and it has been thought that by giving the election directly into the hands of the people these scandals and practices would be avoided, or at least minimized. The full scope and extent of the desire of the people, so far as it lrns found expression, has been that the vote for Senators should ho taken directly to the people, and the demand has been regard. made that the Constitution be amended so ns to procure this very clear and definite result.",
+      "uncertain": [
+        {
+          "end": 127,
+          "readings": {
+            "microfilm": "as",
+            "primary": "ns"
+          },
+          "start": 125
+        },
+        {
+          "end": 396,
+          "readings": {
+            "microfilm": "and",
+            "primary": "ancl"
+          },
+          "start": 392
+        },
+        {
+          "end": 528,
+          "readings": {
+            "primary": "legi"
+          },
+          "start": 524
+        },
+        {
+          "end": 539,
+          "readings": {
+            "microfilm": "legislatures,",
+            "primary": "s latures,"
+          },
+          "start": 529
+        },
+        {
+          "end": 772,
+          "readings": {
+            "microfilm": "has",
+            "primary": "lrns"
+          },
+          "start": 768
+        },
+        {
+          "end": 836,
+          "readings": {
+            "primary": "ho"
+          },
+          "start": 834
+        },
+        {
+          "end": 942,
+          "readings": {
+            "microfilm": "as",
+            "primary": "ns"
+          },
+          "start": 940
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 4",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.4",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "There is at present a difference of opinion between the Senate and the House as to tlle exact form which this resolution for an am e ndment should assume. The House of Representatives passed n form of resolution providing not only for the amendment that should take the election direct to the people by an amendment to section · 3 of Article I of the Constitution, but also proposed an amendment to section 4, Article I, which section gives to Congress supervisory authority over the regulations prescribed in each State as to the manner of holding elections for Senators and Representatives.",
+      "uncertain": [
+        {
+          "end": 87,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 83
+        },
+        {
+          "end": 139,
+          "readings": {
+            "microfilm": "amendment",
+            "primary": "e ndment"
+          },
+          "start": 131
+        },
+        {
+          "end": 192,
+          "readings": {
+            "microfilm": "a",
+            "primary": "n"
+          },
+          "start": 191
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 5",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.5",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "In passing this resolution the House seeks not only to provide for the election of Senators by the direct vote of the people, but also seeks to strip the Congress of the United States of any authority to supervise, in any manner or degree, the election of Senators, notwithstanding the fact that the proposed amendment of the House still leaves this power intact so far as election of Members of tlle House of Representatives is concerned. The Senate amendment, on the other hand, provides simply and solely for the election of the Senators by the people, leaving the supervisory authority · of Congress over the election, both of Senators and Representatives chosen by the same electorate, in exactly the same condition as it now is in the Constitution. In other words, the House provides for two amendments to the Constitution-tho Senate provides for one only .",
+      "uncertain": [
+        {
+          "end": 400,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 396
+        },
+        {
+          "end": 832,
+          "readings": {
+            "microfilm": "Constitution—the",
+            "primary": "Constitution-tho"
+          },
+          "start": 816
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 6",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.6",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "In the opinion of many of the best constitutional authorities, the amendment of tlle House would absolutely leave the Congress of tlle United States help.less to make inquiry into the election of a Senator in any manner whatever. The last Congress passed a publicity bill in which the amount that might be expended by or for a candidate for the Senate of the United States was expressly limited to a sum definite and certain. It would seem possible that under the proposed amendment as presented by the House no bill of that sort could be passed, and Congress would have no authority either to inquire into or to limit the amount of money that might be expended in such an election . Certainly there are few who would contend that such a condition ought to exist . To deprive the Congress of the United States of the power to say whether or not a Member of either body of its Congress had been corruptly elected is striking at the very root of the legislative branch of our Government. Now, l\\f r. President, I report the inability of the conferees to agree, return the conference papers to the Senate, and move that the Senate still further insist upon its amendment to House joint resolution No . 39.",
+      "uncertain": [
+        {
+          "end": 84,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 80
+        },
+        {
+          "end": 134,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 130
+        },
+        {
+          "end": 994,
+          "readings": {
+            "primary": "l\\f"
+          },
+          "start": 991
+        },
+        {
+          "end": 997,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "r."
+          },
+          "start": 995
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 7",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.7",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Tho VICE PRESIDENT . The Senator from Wyoming presents the report of the committee of conference on the disagreeing votes of the two Houses on House joint resolution No. 39, and moves that the Senate further insist upon its amendment to the joint resolution.",
+      "uncertain": [
+        {
+          "end": 3,
+          "readings": {
+            "microfilm": "to House",
+            "primary": "Tho"
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 8",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.8",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr . BACON . l\\fr . President, I am one of the Senators delegated by this body to represent it upon- the conference committee, and I have, I think, been assiduous in my attention to the duties assigned to me and diligent in the effort to try to bring about some arrangement between the two Houses. The paper, as I understand, which has just been read by the Senator from Wyoming [l\\fr. CLARK] is a report from that committee. Am I correct? '",
+      "uncertain": [
+        {
+          "end": 12,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 11
+        },
+        {
+          "end": 17,
+          "readings": {
+            "primary": "l\\fr"
+          },
+          "start": 13
+        },
+        {
+          "end": 385,
+          "readings": {
+            "microfilm": "[Mr.",
+            "primary": "[l\\fr."
+          },
+          "start": 379
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 9",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.9",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. CLARK of Wyoming. It was not so intended."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 10",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.10",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\Ir . BACON. Well, if it was not so intended, of course I have no right to see it.",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "primary": "l\\Ir"
+          },
+          "start": 0
+        },
+        {
+          "end": 6,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 5
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 11",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.11",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Ur. CLARK of Wyoming . The Senator is perfectly welcome l\\f'r. BACON . I understand that. of Wyoming. The Senator knows very well what the action of the committee was-that a report of the disagreement should be reported back to the Senate. I suppose there was nothing in that to preclude a Member of tllc Senate presenting the report setting forth in his own language his own views as to the differences between the two House <:. .",
+      "uncertain": [
+        {
+          "end": 3,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "Ur."
+          },
+          "start": 0
+        },
+        {
+          "end": 62,
+          "readings": {
+            "primary": "l\\f'r."
+          },
+          "start": 56
+        },
+        {
+          "end": 304,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tllc"
+          },
+          "start": 300
+        },
+        {
+          "end": 429,
+          "readings": {
+            "primary": "<:."
+          },
+          "start": 426
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 12",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.12",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1\\Ir . BACON. Probably if the Senator would retain llis patience a little while, until I get through, he would not find \"it necessary to make the remarks he llas just uttered.",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "primary": "1\\Ir"
+          },
+          "start": 0
+        },
+        {
+          "end": 6,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 5
+        },
+        {
+          "end": 55,
+          "readings": {
+            "microfilm": "his",
+            "primary": "llis"
+          },
+          "start": 51
+        },
+        {
+          "end": 161,
+          "readings": {
+            "microfilm": "has",
+            "primary": "llas"
+          },
+          "start": 157
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 13",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.13",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\Ir. CLARK of Wyoming. The Senator from Georgia was looking toward me with an inquiring eye .",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "l\\Ir."
+          },
+          "start": 0
+        },
+        {
+          "end": 94,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 93
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 14",
+      "pages": [
+        "5169"
+      ],
+      "ref": "Senate1912.Apr23.14",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\Ir. BACON. l\\Ir. President, I simply rose to say that if what the Senator read was not intended as a report, of course I had no ground for complaint in the fact that it was not submitted to me or that I had not an opportunity to see it. If it contained simply the personal remarks of the Senator, I have uo more right to be admitted into his confidence as to what those remarks would be upon that subject than I have on any other subject. Consequently the Senator i s above criticism in that I did wish to say, 1\\Ir. President, that on that committee, of course, I represented, as everyone knows, the minority and the views of the minority . Under the rules of the conference committee the committee necessarily acts as a unit, and Senators standing for tlle Senate proposition necessarily, under the action of the majority, represent the unit. At the same time it is proper that I should say that the paper just read, which I understood at the time of the reading to be a report-of course, I take the statement of the Senator from Wyoming that it is not so intended-has the effect of a report, and I would respectfully ask that I have the opportunity to file the views which I, ns a member of that committee, entertain as to the action of the , committee and what I think should be the action now.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "l\\Ir."
+          },
+          "start": 0
+        },
+        {
+          "end": 18,
+          "readings": {
+            "primary": "l\\Ir."
+          },
+          "start": 13
+        },
+        {
+          "end": 308,
+          "readings": {
+            "microfilm": "no",
+            "primary": "uo"
+          },
+          "start": 306
+        },
+        {
+          "end": 518,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "1\\Ir."
+          },
+          "start": 513
+        },
+        {
+          "end": 760,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 756
+        },
+        {
+          "end": 1183,
+          "readings": {
+            "microfilm": "as",
+            "primary": "ns"
+          },
+          "start": 1181
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 15",
+      "pages": [
+        "5169",
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.15",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          6,
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            947,
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "I want to say, however, in regard to one part of the paper just read, which bears a very striking resemblance to some things which have been uttered in the other House on the same subject, that I had intended, l\\fr. President, if the opportunity were presented, to offer an amendment to the joint resolution as it came from the Judiciary Committee, which would have probably met one of the objections which ha>o been put forward in the paper just read by the Senator from Wyoming. I shall not ro ad this now, except, of course, for information . I recognize the fact spoken of by the Senator that the recent legislation with regard to publicity might not be enforced if the resolution were adopted as it came from the other House and as it was reported to the Senate. Therefore, with the concurrence of such Senators as I have had the opportunity to confer with-I ha Ye had this but n few moments-I had intended, as I have already said, if the opportunity should be presented, to move to add this as an amendment to the joint resolution as it came from the Judiciary Committee nncl as it came from the other House, the joint re sol ution ns it came from the House being the joint resolution reported from the Judiciary Committee. The amendment which I will offer, if the opportunity presents itself, is this: After reciting the joint resolution just as it ;Was reported from the Judiciary Committee, add these words: But Congr es s may make such regulations in any State wh e n e ver the legislature th e r e of shall ne g lect, refuse, or from any circum s tance shall amendment? be incapable of doing so, and Congress may limit expenditures-- . This is the pa.rt to which I call particular attentionand Con g r e ss may limit exp e nditures and require publicity in connec­ been made . tion with the nomination and election of Senators.",
+      "uncertain": [
+        {
+          "end": 215,
+          "readings": {
+            "primary": "l\\fr."
+          },
+          "start": 210
+        },
+        {
+          "end": 411,
+          "readings": {
+            "microfilm": "have",
+            "primary": "ha>o"
+          },
+          "start": 407
+        },
+        {
+          "end": 498,
+          "readings": {
+            "microfilm": "read",
+            "primary": "ro ad"
+          },
+          "start": 493
+        },
+        {
+          "end": 869,
+          "readings": {
+            "microfilm": "have",
+            "primary": "ha Ye"
+          },
+          "start": 864
+        },
+        {
+          "end": 884,
+          "readings": {
+            "microfilm": "a",
+            "primary": "n"
+          },
+          "start": 883
+        },
+        {
+          "end": 1081,
+          "readings": {
+            "primary": "nncl"
+          },
+          "start": 1077
+        },
+        {
+          "end": 1137,
+          "readings": {
+            "microfilm": "resolution",
+            "primary": "sol ution"
+          },
+          "start": 1128
+        },
+        {
+          "end": 1140,
+          "readings": {
+            "microfilm": "as",
+            "primary": "ns"
+          },
+          "start": 1138
+        },
+        {
+          "end": 1429,
+          "readings": {
+            "microfilm": "Congress",
+            "primary": "Congr es"
+          },
+          "start": 1421
+        },
+        {
+          "end": 1473,
+          "readings": {
+            "primary": "wh"
+          },
+          "start": 1471
+        },
+        {
+          "end": 1483,
+          "readings": {
+            "microfilm": "whenever",
+            "primary": "e ver"
+          },
+          "start": 1478
+        },
+        {
+          "end": 1520,
+          "readings": {
+            "primary": "ne"
+          },
+          "start": 1518
+        },
+        {
+          "end": 1528,
+          "readings": {
+            "microfilm": "neglect,",
+            "primary": "g lect,"
+          },
+          "start": 1521
+        },
+        {
+          "end": 1557,
+          "readings": {
+            "microfilm": "circumstance",
+            "primary": "circum s"
+          },
+          "start": 1549
+        },
+        {
+          "end": 1563,
+          "readings": {
+            "primary": "tance"
+          },
+          "start": 1558
+        },
+        {
+          "end": 1710,
+          "readings": {
+            "microfilm": "Congress",
+            "primary": "Con g"
+          },
+          "start": 1705
+        },
+        {
+          "end": 1731,
+          "readings": {
+            "primary": "exp"
+          },
+          "start": 1728
+        },
+        {
+          "end": 1742,
+          "readings": {
+            "microfilm": "expenditures",
+            "primary": "e nditures"
+          },
+          "start": 1732
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 16",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.16",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "So that there will be no issue between the learned Senator and myself and those with whom I am in accord in regard to the advisability and propriety and importance of having this joint resolution so framed as to guard that particular point."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 17",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.17",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Now, I should like very much, l\\lr. President, as the paper which has been read by the Sena.tor is presented, it is true, not formally as a report, but necessarily with the force and effect of a report, that I may have the opportunity to file a paper expressing s ing the views of myself, representing the minority, in regard · d to this question .",
+      "uncertain": [
+        {
+          "end": 35,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "l\\lr."
+          },
+          "start": 30
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 18",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.18",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT . Without objection, such permission is granted."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 19",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.19",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BACON . I would not have the opportunity if the motion ma<le by the Senator is now to be acted upon, and it was with that in view that I made the request.",
+      "uncertain": [
+        {
+          "end": 64,
+          "readings": {
+            "microfilm": "made",
+            "primary": "ma<le"
+          },
+          "start": 59
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 20",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.20",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\lr. CLARK of Wyoming. Well, Mr. President, a week a.go the notice was given so that all Senators might be prepared to take up this subject and a.ct upon it at this time. As stated before, the presentation of the disagreement was delayed for six or seven or eight days in order that all who a.re interested might have due notice and be prepared to take up this matter at this time. Unfortunately, departing from my usual custom, in order that I might not be inaccurate, I reduced my remarks upon this question to writing. They are in no sense a pa.rt of the report; they a.re in no sense a pa.rt of the record, except as they are made a pa.rt of the record by being spoken upon tJie floor of the Senate. They purport to have no other . or further authority or weight than the authority and weight of the word of mouth upon any proposition coming from any Senator upon the floor.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "l\\lr."
+          },
+          "start": 0
+        },
+        {
+          "end": 683,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tJie"
+          },
+          "start": 679
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 21",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.21",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "~Ir. Pre s ident, in view of all the circumstances and in view of the importance of this question which has been long lying in the committee--and I want to say without the fault of any member of the committee--it seems to me that, with the notice given, this matter ought to be taken up at this time and some disposition made of it .",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "~Ir."
+          },
+          "start": 0
+        },
+        {
+          "end": 8,
+          "readings": {
+            "primary": "Pre"
+          },
+          "start": 5
+        },
+        {
+          "end": 17,
+          "readings": {
+            "microfilm": "President,",
+            "primary": "s ident,"
+          },
+          "start": 9
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 22",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.22",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. The question is on agreeing to the motion of the Senator from Wyoming . _",
+      "uncertain": [
+        {
+          "end": 93,
+          "readings": {
+            "primary": "_"
+          },
+          "start": 92
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 23",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.23",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr . BORAH and Mr . SUTHERLAND addressed the Chair ."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 24",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.24",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT . The Senator from Ida.ho. · Mr. BOR.A.H. Mr. President, if the Senator from Utah desires to speak, I will yield to him . I was simply going to call for a quorum in order that there may be no one absent ."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 25",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.25",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. The Sena.tor does not raise that Mr . BA.CON . Certainly. que s tion now?",
+      "uncertain": [
+        {
+          "end": 81,
+          "readings": {
+            "primary": "que"
+          },
+          "start": 78
+        },
+        {
+          "end": 88,
+          "readings": {
+            "microfilm": "question",
+            "primary": "s tion"
+          },
+          "start": 82
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 26",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.26",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr . BORAH. I understand the Sena.tor from Utah desires to speak."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 27",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.27",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr . SUTHERLAND. No ."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 28",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.28",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": ".Mr. BORAH. I suggest, then, the absence of a quorum ."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 29",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.29",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. The Senator from Idaho suggests the absence of a quorum. The Secretary will call the roll."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 30",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.30",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The Secretary callecl the roll, and the following Senators answered to their names : Ashurst Curtis Mc Cumber Sunders Bac o n Davis McLean Shively Borah Dillingham Martine, N. J. Simmons Bourne du Pont Myers Smith, Ariz . Brlggs Fall Nelson Smith, Ga . Bristow Fo s ter Nixon Smith, S. C . Brown Gall1n g er O'Gorman Smoot Bryan Garclner Oliver Stephenson Burnham Gronna Overman Stone Catron Gug g enheim Page Sutherland Ch a m be rlain Hcybru'll Paynter Thornton Chilt o n Hit c hcock Percy Tlllman Clark, Wyo. Johnson, :\\le. Perkins Townsend Clarke, Ark. Johnston, Ala. Pomerene \"Tarren Crane Jones llayner Watson Cr a wford Kern Ileed Wetmore Culber s on Lippitt Ilichardson Williams Cullom Lod g e Root Works",
+      "uncertain": [
+        {
+          "end": 21,
+          "readings": {
+            "primary": "callecl"
+          },
+          "start": 14
+        },
+        {
+          "end": 102,
+          "readings": {
+            "primary": "Mc"
+          },
+          "start": 100
+        },
+        {
+          "end": 109,
+          "readings": {
+            "primary": "Cumber"
+          },
+          "start": 103
+        },
+        {
+          "end": 117,
+          "readings": {
+            "primary": "Sunders"
+          },
+          "start": 110
+        },
+        {
+          "end": 121,
+          "readings": {
+            "primary": "Bac"
+          },
+          "start": 118
+        },
+        {
+          "end": 228,
+          "readings": {
+            "primary": "Brlggs"
+          },
+          "start": 222
+        },
+        {
+          "end": 263,
+          "readings": {
+            "primary": "Fo"
+          },
+          "start": 261
+        },
+        {
+          "end": 269,
+          "readings": {
+            "primary": "ter"
+          },
+          "start": 266
+        },
+        {
+          "end": 302,
+          "readings": {
+            "primary": "Gall1n"
+          },
+          "start": 296
+        },
+        {
+          "end": 337,
+          "readings": {
+            "primary": "Garclner"
+          },
+          "start": 329
+        },
+        {
+          "end": 395,
+          "readings": {
+            "primary": "Gug"
+          },
+          "start": 392
+        },
+        {
+          "end": 404,
+          "readings": {
+            "primary": "enheim"
+          },
+          "start": 398
+        },
+        {
+          "end": 436,
+          "readings": {
+            "primary": "rlain"
+          },
+          "start": 431
+        },
+        {
+          "end": 446,
+          "readings": {
+            "primary": "Hcybru'll"
+          },
+          "start": 437
+        },
+        {
+          "end": 469,
+          "readings": {
+            "primary": "Chilt"
+          },
+          "start": 464
+        },
+        {
+          "end": 485,
+          "readings": {
+            "primary": "hcock"
+          },
+          "start": 480
+        },
+        {
+          "end": 499,
+          "readings": {
+            "primary": "Tlllman"
+          },
+          "start": 492
+        },
+        {
+          "end": 506,
+          "readings": {
+            "primary": "Clark,"
+          },
+          "start": 500
+        },
+        {
+          "end": 526,
+          "readings": {
+            "primary": ":\\le."
+          },
+          "start": 521
+        },
+        {
+          "end": 588,
+          "readings": {
+            "primary": "\"Tarren"
+          },
+          "start": 581
+        },
+        {
+          "end": 608,
+          "readings": {
+            "primary": "llayner"
+          },
+          "start": 601
+        },
+        {
+          "end": 626,
+          "readings": {
+            "primary": "wford"
+          },
+          "start": 621
+        },
+        {
+          "end": 637,
+          "readings": {
+            "primary": "Ileed"
+          },
+          "start": 632
+        },
+        {
+          "end": 652,
+          "readings": {
+            "primary": "Culber"
+          },
+          "start": 646
+        },
+        {
+          "end": 677,
+          "readings": {
+            "primary": "Ilichardson"
+          },
+          "start": 666
+        },
+        {
+          "end": 697,
+          "readings": {
+            "primary": "Lod"
+          },
+          "start": 694
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 31",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.31",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. TOWNSEND. I de s ire to s tate that tile ecn i o r S e nator from Michig a n [Mr. S 1 nTH ] i s ab s ent on the bu s i nes s of the Senate. I s hould like to hn ve tlli s s t at e ment stnn d f o r the clay. Ur. BRYAN. I < 1cs ire to state that my c olleague [:Mr. F LET CHER] is ne ces rnrily nb c nt on bu s ine s s of th e Se nn.to.",
+      "uncertain": [
+        {
+          "end": 44,
+          "readings": {
+            "primary": "tile"
+          },
+          "start": 40
+        },
+        {
+          "end": 48,
+          "readings": {
+            "primary": "ecn"
+          },
+          "start": 45
+        },
+        {
+          "end": 64,
+          "readings": {
+            "primary": "nator"
+          },
+          "start": 59
+        },
+        {
+          "end": 76,
+          "readings": {
+            "primary": "Michig"
+          },
+          "start": 70
+        },
+        {
+          "end": 89,
+          "readings": {
+            "primary": "1"
+          },
+          "start": 88
+        },
+        {
+          "end": 93,
+          "readings": {
+            "primary": "nTH"
+          },
+          "start": 90
+        },
+        {
+          "end": 102,
+          "readings": {
+            "primary": "ab"
+          },
+          "start": 100
+        },
+        {
+          "end": 118,
+          "readings": {
+            "primary": "bu"
+          },
+          "start": 116
+        },
+        {
+          "end": 126,
+          "readings": {
+            "primary": "nes"
+          },
+          "start": 123
+        },
+        {
+          "end": 153,
+          "readings": {
+            "primary": "hould"
+          },
+          "start": 148
+        },
+        {
+          "end": 164,
+          "readings": {
+            "primary": "hn"
+          },
+          "start": 162
+        },
+        {
+          "end": 167,
+          "readings": {
+            "primary": "ve"
+          },
+          "start": 165
+        },
+        {
+          "end": 172,
+          "readings": {
+            "primary": "tlli"
+          },
+          "start": 168
+        },
+        {
+          "end": 193,
+          "readings": {
+            "primary": "stnn"
+          },
+          "start": 189
+        },
+        {
+          "end": 211,
+          "readings": {
+            "primary": "clay."
+          },
+          "start": 206
+        },
+        {
+          "end": 215,
+          "readings": {
+            "primary": "Ur."
+          },
+          "start": 212
+        },
+        {
+          "end": 226,
+          "readings": {
+            "primary": "<"
+          },
+          "start": 225
+        },
+        {
+          "end": 230,
+          "readings": {
+            "primary": "1cs"
+          },
+          "start": 227
+        },
+        {
+          "end": 262,
+          "readings": {
+            "primary": "olleague"
+          },
+          "start": 254
+        },
+        {
+          "end": 280,
+          "readings": {
+            "primary": "CHER]"
+          },
+          "start": 275
+        },
+        {
+          "end": 286,
+          "readings": {
+            "primary": "ne"
+          },
+          "start": 284
+        },
+        {
+          "end": 290,
+          "readings": {
+            "primary": "ces"
+          },
+          "start": 287
+        },
+        {
+          "end": 297,
+          "readings": {
+            "primary": "rnrily"
+          },
+          "start": 291
+        },
+        {
+          "end": 300,
+          "readings": {
+            "primary": "nb"
+          },
+          "start": 298
+        },
+        {
+          "end": 305,
+          "readings": {
+            "primary": "nt"
+          },
+          "start": 303
+        },
+        {
+          "end": 311,
+          "readings": {
+            "primary": "bu"
+          },
+          "start": 309
+        },
+        {
+          "end": 317,
+          "readings": {
+            "primary": "ine"
+          },
+          "start": 314
+        },
+        {
+          "end": 339,
+          "readings": {
+            "primary": "nn.to."
+          },
+          "start": 333
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 32",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.32",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Ur. JO N E S . I d es ir e to n n nou nce thnt my collengue [Mr. Por . \" D EX T Ell] i s u nn y o i cla hly <1 etn incc.1 from the Ch am her .",
+      "uncertain": [
+        {
+          "end": 3,
+          "readings": {
+            "primary": "Ur."
+          },
+          "start": 0
+        },
+        {
+          "end": 6,
+          "readings": {
+            "primary": "JO"
+          },
+          "start": 4
+        },
+        {
+          "end": 21,
+          "readings": {
+            "primary": "es"
+          },
+          "start": 19
+        },
+        {
+          "end": 24,
+          "readings": {
+            "primary": "ir"
+          },
+          "start": 22
+        },
+        {
+          "end": 37,
+          "readings": {
+            "primary": "nou"
+          },
+          "start": 34
+        },
+        {
+          "end": 41,
+          "readings": {
+            "primary": "nce"
+          },
+          "start": 38
+        },
+        {
+          "end": 46,
+          "readings": {
+            "primary": "thnt"
+          },
+          "start": 42
+        },
+        {
+          "end": 59,
+          "readings": {
+            "primary": "collengue"
+          },
+          "start": 50
+        },
+        {
+          "end": 68,
+          "readings": {
+            "primary": "Por"
+          },
+          "start": 65
+        },
+        {
+          "end": 84,
+          "readings": {
+            "primary": "Ell]"
+          },
+          "start": 80
+        },
+        {
+          "end": 93,
+          "readings": {
+            "primary": "nn"
+          },
+          "start": 91
+        },
+        {
+          "end": 103,
+          "readings": {
+            "primary": "cla"
+          },
+          "start": 100
+        },
+        {
+          "end": 107,
+          "readings": {
+            "primary": "hly"
+          },
+          "start": 104
+        },
+        {
+          "end": 110,
+          "readings": {
+            "primary": "<1"
+          },
+          "start": 108
+        },
+        {
+          "end": 121,
+          "readings": {
+            "microfilm": "detained",
+            "primary": "etn incc.1"
+          },
+          "start": 111
+        },
+        {
+          "end": 136,
+          "readings": {
+            "microfilm": "Chamber.",
+            "primary": "Ch am"
+          },
+          "start": 131
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 33",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.33",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VI CI!J PR E S I DE ... ~T . Se n Seventy-two S e na.tors have answered to the r o ll call. A quorum of the Senate is present .",
+      "uncertain": [
+        {
+          "end": 11,
+          "readings": {
+            "microfilm": "VICE",
+            "primary": "VI CI!J"
+          },
+          "start": 4
+        },
+        {
+          "end": 16,
+          "readings": {
+            "microfilm": "PRESIDENT.",
+            "primary": "PR E"
+          },
+          "start": 12
+        },
+        {
+          "end": 27,
+          "readings": {
+            "primary": "..."
+          },
+          "start": 24
+        },
+        {
+          "end": 30,
+          "readings": {
+            "primary": "~T"
+          },
+          "start": 28
+        },
+        {
+          "end": 61,
+          "readings": {
+            "microfilm": "Senators",
+            "primary": "e na.tors"
+          },
+          "start": 52
+        },
+        {
+          "end": 89,
+          "readings": {
+            "microfilm": "roll",
+            "primary": "o ll"
+          },
+          "start": 85
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 34",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.34",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr . BORAH. . I rise to a parliamentary inquiry . Is a mo ­ tion to recede from the Senate amendment and to concur in the House joint resolution in order at this time by way of"
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 35",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.35",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT . A motion to insist is practically the reverse of a motion to recede, and the motion to insist ha.s"
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 36",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.36",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. WILLI.A.MS. I understand that after a matter has gone to conference any motion which brings the two Houses into accord has preference of a motion that keeps them apart."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 37",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.37",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. Ordinarily that would be correct ."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 38",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.38",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr . WILLI.A.MS. A motion to recede and concur has the preference over a motion to insist ."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 39",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.39",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT . No motion to recede ancl. concur has been made.",
+      "uncertain": [
+        {
+          "end": 46,
+          "readings": {
+            "microfilm": "and",
+            "primary": "ancl."
+          },
+          "start": 41
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 40",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.40",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. WILLIAMS. . I understood that was the motion made by the Senator from Idaho."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 41",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.41",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr . BORAH. The thought has occurred to me that I want some further parliamentary information. I presume that a motion to recede and concur in the House joint resolution would necessitate a two-thirds vote in order to concur ."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 42",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.42",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. The Chair thinks there is no doubt about that."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 43",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.43",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr . BORAH . Then I will not make the motion."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 44",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.44",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. The question is on the motion of the Senator from Wyoming ."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 45",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.45",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. IUCOX Before that motion is put, I want to repeat what I stated a few moments a.go, and I hope Senators may- be able to understand exactly what I intend in this and the full signification of what the amendment will import, if it should be adopted . If the motion to insist is defeated and the question then will be upon concurring in the House joint re s olution , I will offer the following amendment :",
+      "uncertain": [
+        {
+          "end": 9,
+          "readings": {
+            "primary": "IUCOX"
+          },
+          "start": 4
+        },
+        {
+          "end": 366,
+          "readings": {
+            "microfilm": "resolution,",
+            "primary": "s olution"
+          },
+          "start": 357
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 46",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.46",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Ilut Congre s s may make such regulations in any State whenever the legislature thereof shall neglect, refuse, or, from 11ny circumstance, s hall be incapable of doing so, and Congress may limit expenditures and r e quire publicity 1n connection with the nommation and el e ct.ion. of Senators.",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "microfilm": "But",
+            "primary": "Ilut"
+          },
+          "start": 0
+        },
+        {
+          "end": 13,
+          "readings": {
+            "microfilm": "Congress",
+            "primary": "Congre s"
+          },
+          "start": 5
+        },
+        {
+          "end": 124,
+          "readings": {
+            "microfilm": "any",
+            "primary": "11ny"
+          },
+          "start": 120
+        },
+        {
+          "end": 221,
+          "readings": {
+            "microfilm": "require",
+            "primary": "e quire"
+          },
+          "start": 214
+        },
+        {
+          "end": 234,
+          "readings": {
+            "microfilm": "in",
+            "primary": "1n"
+          },
+          "start": 232
+        },
+        {
+          "end": 264,
+          "readings": {
+            "microfilm": "no tion",
+            "primary": "nommation"
+          },
+          "start": 255
+        },
+        {
+          "end": 281,
+          "readings": {
+            "microfilm": "election",
+            "primary": "e ct.ion."
+          },
+          "start": 272
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 47",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.47",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "I do not intend, Mr. President, to consume the time of the Senate. I have already addressed it se-veral times upon this subject. I want to call attention simply to two things . The first part of the proposed amendment which I have read and which I now read again is as follows :"
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 48",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.48",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "But Congress may make such regulations in any State whenever the legislature thereof shall neglect, refuse, or , from any circumstance, shall be incapable of doing so."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 49",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.49",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "That sentence is copied almost verbatim from the resolution of the convention of the State of New York at the time it gave its assent to the Constitution."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 50",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.50",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\fr . SUTHERLAJ\\TD . Mr . President--",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "primary": "l\\fr"
+          },
+          "start": 0
+        },
+        {
+          "end": 19,
+          "readings": {
+            "primary": "SUTHERLAJ\\TD"
+          },
+          "start": 7
+        },
+        {
+          "end": 26,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 25
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 51",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.51",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. Does the Senator from Georgia yield to the Senator from Utah?"
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 52",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.52",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. SUTHEil~\"'D . Will the Sena.tor read that last sentence again? I did not quite catch it.",
+      "uncertain": [
+        {
+          "end": 15,
+          "readings": {
+            "microfilm": "SUTHERLAND.",
+            "primary": "SUTHEil~\"'D"
+          },
+          "start": 4
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 53",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.53",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Ur . BA.CON. I will if the Senator will allow me to finish the sen ten cc. '",
+      "uncertain": [
+        {
+          "end": 2,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "Ur"
+          },
+          "start": 0
+        },
+        {
+          "end": 70,
+          "readings": {
+            "microfilm": "sentence.",
+            "primary": "sen ten"
+          },
+          "start": 63
+        },
+        {
+          "end": 74,
+          "readings": {
+            "primary": "cc."
+          },
+          "start": 71
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 54",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.54",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\fr. SUTHERLAND. Very well.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "l\\fr."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 55",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.55",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BACON . .A.nd the delegates from the State of New York were instructed to endeavor to have that incorporated at tlle earliest possible moment in the Constitution of the United States.",
+      "uncertain": [
+        {
+          "end": 120,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 116
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 56",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.56",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "I will now comply with the request of the Senator from Utah. The amendment I intend to propose is to follow the resolution as it ca.me from the Judiciary Committee, and is a s follows:"
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 57",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.57",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "But Congress may make such re g ulations in any State whenever the legislature thereof shall neglect, refuse, or, from any circumstance, shall be inC'apable of doing so-",
+      "uncertain": [
+        {
+          "end": 40,
+          "readings": {
+            "primary": "ulations"
+          },
+          "start": 32
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 58",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.58",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": ".And then the additional sentence is nddcdand Congress may limit expenditures and require publicity in connection with the nom1natlon and election of Senators .",
+      "uncertain": [
+        {
+          "end": 45,
+          "readings": {
+            "primary": "nddcdand"
+          },
+          "start": 37
+        },
+        {
+          "end": 133,
+          "readings": {
+            "microfilm": "‘Bemination.",
+            "primary": "nom1natlon"
+          },
+          "start": 123
+        },
+        {
+          "end": 160,
+          "readings": {
+            "microfilm": "Pn.",
+            "primary": "."
+          },
+          "start": 159
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 59",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.59",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "I simply read that, Mr . President, for the purpose of giving notice that if the Senate should not insist upon its amendment and the question should then recur upon concurring in the Hou s e joint resolution I would offer that as an amendment thereto.",
+      "uncertain": [
+        {
+          "end": 188,
+          "readings": {
+            "microfilm": "House",
+            "primary": "Hou s"
+          },
+          "start": 183
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 60",
+      "pages": [
+        "5170"
+      ],
+      "ref": "Senate1912.Apr23.60",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1\\Ir. RAYNER. Does the Sena.tor think that that would make valid the publicity bill which we have already passed?",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "1\\Ir."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 61",
+      "pages": [
+        "5170",
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.61",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          7,
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            948,
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\Ir . BACON. I think the publicity bill we have pa s sed is already valid, but it would put the joint resolution in such form that the adoption of the joint resolution as it came from the House would not free senatorial elections in the St. 1 States from the effect of that publicity legislation. . That is the purpo s e of it . ~rr. RAYNEH.. Mr. Pre s ident, the publi c ity bill i s undoubtedly valid; but, as the Senator admits, if the original joint resolution were adopted we would have no right to pass a publicity law affecting senatorial elections . • :L\\Iy point is whether the provision of tl.10 proposed amendment would be retroactive, or \\vhetlwr we would have to pass another publicity bill if that amendment was n<lovted.",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "primary": "l\\Ir"
+          },
+          "start": 0
+        },
+        {
+          "end": 6,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 5
+        },
+        {
+          "end": 57,
+          "readings": {
+            "microfilm": "passed",
+            "primary": "s sed"
+          },
+          "start": 52
+        },
+        {
+          "end": 243,
+          "readings": {
+            "primary": "1"
+          },
+          "start": 242
+        },
+        {
+          "end": 319,
+          "readings": {
+            "microfilm": "purpose",
+            "primary": "purpo s"
+          },
+          "start": 312
+        },
+        {
+          "end": 334,
+          "readings": {
+            "primary": "~rr."
+          },
+          "start": 330
+        },
+        {
+          "end": 343,
+          "readings": {
+            "primary": "RAYNEH.."
+          },
+          "start": 335
+        },
+        {
+          "end": 351,
+          "readings": {
+            "primary": "Pre"
+          },
+          "start": 348
+        },
+        {
+          "end": 360,
+          "readings": {
+            "microfilm": "President,",
+            "primary": "s ident,"
+          },
+          "start": 352
+        },
+        {
+          "end": 372,
+          "readings": {
+            "microfilm": "publicity",
+            "primary": "publi c"
+          },
+          "start": 365
+        },
+        {
+          "end": 566,
+          "readings": {
+            "primary": ":L\\Iy"
+          },
+          "start": 561
+        },
+        {
+          "end": 606,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tl.10"
+          },
+          "start": 601
+        },
+        {
+          "end": 659,
+          "readings": {
+            "microfilm": "whether",
+            "primary": "\\vhetlwr"
+          },
+          "start": 651
+        },
+        {
+          "end": 736,
+          "readings": {
+            "primary": "n<lovted."
+          },
+          "start": 727
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 62",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.62",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": ":M:r. BACON. Ur. President, this simply empowers Congress to do this thing. '.rlle objection has been raise<l-it was raised this morning by the Senator from Wyoming, and I think the objection is well based-that if Congress were to adopt the resolution as it came from tlle House ancl as it came from the Judiciary Committee, Congress would not have the right, or it might be claimed tltnt it would not have the right, to require vu bl icity of expenditures in senatorial elections; and tlie object is to put that matter beyond any possibility of doubt and to confer on Congress full power to legislate in regard to the publicity of all matters concerning the election of Senators, if the resolution ns it came from the House should be adopted .",
+      "uncertain": [
+        {
+          "end": 16,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "Ur."
+          },
+          "start": 13
+        },
+        {
+          "end": 82,
+          "readings": {
+            "microfilm": "The",
+            "primary": "'.rlle"
+          },
+          "start": 76
+        },
+        {
+          "end": 112,
+          "readings": {
+            "microfilm": "raised—it",
+            "primary": "raise<l-it"
+          },
+          "start": 102
+        },
+        {
+          "end": 272,
+          "readings": {
+            "primary": "tlle"
+          },
+          "start": 268
+        },
+        {
+          "end": 283,
+          "readings": {
+            "primary": "ancl"
+          },
+          "start": 279
+        },
+        {
+          "end": 388,
+          "readings": {
+            "microfilm": "that",
+            "primary": "tltnt"
+          },
+          "start": 383
+        },
+        {
+          "end": 431,
+          "readings": {
+            "primary": "vu"
+          },
+          "start": 429
+        },
+        {
+          "end": 440,
+          "readings": {
+            "microfilm": "publicity",
+            "primary": "bl icity"
+          },
+          "start": 432
+        },
+        {
+          "end": 490,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlie"
+          },
+          "start": 486
+        },
+        {
+          "end": 701,
+          "readings": {
+            "microfilm": "as",
+            "primary": "ns"
+          },
+          "start": 699
+        },
+        {
+          "end": 744,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 743
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 63",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.63",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Ur. SUTHERLAND. 1\\fr. President--",
+      "uncertain": [
+        {
+          "end": 3,
+          "readings": {
+            "primary": "Ur."
+          },
+          "start": 0
+        },
+        {
+          "end": 21,
+          "readings": {
+            "primary": "1\\fr."
+          },
+          "start": 16
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 64",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.64",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICg PRESIDEN'l'. Does the Senator from Georgia yield to the Senator from Utah?",
+      "uncertain": [
+        {
+          "end": 8,
+          "readings": {
+            "microfilm": "VICE",
+            "primary": "VICg"
+          },
+          "start": 4
+        },
+        {
+          "end": 21,
+          "readings": {
+            "microfilm": "PRESIDENT.",
+            "primary": "PRESIDEN'l'."
+          },
+          "start": 9
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 65",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.65",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BACON. I do."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 66",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.66",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. SUTHERLAND. If the amendment suggested by the Senator from Georgia should become a part of the Constitution, would it not be clear that Congress would be limited iu its legislation to the occasions enumerated in the Senator's amendment? In other words, Congress would not be able to legislate with reference to the elections of Senators in the States in any other particular, except as specified in the Senator's amendment. Is not that true?",
+      "uncertain": [
+        {
+          "end": 168,
+          "readings": {
+            "microfilm": "in",
+            "primary": "iu"
+          },
+          "start": 166
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 67",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.67",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "!\\fr. BACON. There is, as the Senator well knows, in the section of the Constitution at present power, ancl in the proposed amendment stm further power is given to Congress, the same as it now has. Otherwise, if the Senator means to ask me-I suppose it is better to put it into plain language-whether nncle-r this phraseology, if it should be adopted, Congress would have tlle power to legislate as to the manner in which the elections should be conducted, whether they should be allowed to have supervisors at the polls, whether they sl10ulcl be allowed to have marslrn ls at the polls, whether Congress could send soldiers to the polls for the purposes of seeing to the election, I will say undoubtedly this · would vreYcnt any such action on the part of Congress. Is that wlrnt the Senator had in view?",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "!\\fr."
+          },
+          "start": 0
+        },
+        {
+          "end": 107,
+          "readings": {
+            "microfilm": "and",
+            "primary": "ancl"
+          },
+          "start": 103
+        },
+        {
+          "end": 137,
+          "readings": {
+            "microfilm": "still",
+            "primary": "stm"
+          },
+          "start": 134
+        },
+        {
+          "end": 308,
+          "readings": {
+            "microfilm": "under",
+            "primary": "nncle-r"
+          },
+          "start": 301
+        },
+        {
+          "end": 376,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 372
+        },
+        {
+          "end": 543,
+          "readings": {
+            "microfilm": "should",
+            "primary": "sl10ulcl"
+          },
+          "start": 535
+        },
+        {
+          "end": 573,
+          "readings": {
+            "microfilm": "marshals",
+            "primary": "marslrn ls"
+          },
+          "start": 563
+        },
+        {
+          "end": 725,
+          "readings": {
+            "microfilm": "prevent",
+            "primary": "vreYcnt"
+          },
+          "start": 718
+        },
+        {
+          "end": 780,
+          "readings": {
+            "microfilm": "what",
+            "primary": "wlrnt"
+          },
+          "start": 775
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 68",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.68",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. SUTHgULAND . No; I clid not have that particular thought in mind at all. But if that would be excluded, of course everything else would be excluded except the particular thing specified in the Senator's amendment.",
+      "uncertain": [
+        {
+          "end": 14,
+          "readings": {
+            "microfilm": "SUTHERLAND.",
+            "primary": "SUTHgULAND"
+          },
+          "start": 4
+        },
+        {
+          "end": 27,
+          "readings": {
+            "microfilm": "did",
+            "primary": "clid"
+          },
+          "start": 23
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 69",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.69",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BACON. I have suggested the other things which occurred to me tlrnt Congress might legislate about. Will the Sona tor now indicate the things in his mind? .",
+      "uncertain": [
+        {
+          "end": 71,
+          "readings": {
+            "primary": "tlrnt"
+          },
+          "start": 66
+        },
+        {
+          "end": 121,
+          "readings": {
+            "microfilm": "Senator",
+            "primary": "Sona tor"
+          },
+          "start": 113
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 70",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.70",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. SU'l'HERLAND . I can not foresee what occasions may arise in tlle future which will cn.11 upon Congress for the exercise of this power, but I imagine that it would prevent Congress from fixing, ns it has done by a law now in operation, a uniform time for holding the election. It would prevent Congress from providing for the .Australian ballot, us it has done. It would prevent Congress from providing for election machines at elections . It might prevent Congress from doing a very great variety of things that the future wm disclose to be absolutely necessary. .",
+      "uncertain": [
+        {
+          "end": 16,
+          "readings": {
+            "microfilm": "SUTHERLAND.",
+            "primary": "SU'l'HERLAND"
+          },
+          "start": 4
+        },
+        {
+          "end": 69,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 65
+        },
+        {
+          "end": 93,
+          "readings": {
+            "primary": "cn.11"
+          },
+          "start": 88
+        },
+        {
+          "end": 200,
+          "readings": {
+            "microfilm": "as",
+            "primary": "ns"
+          },
+          "start": 198
+        },
+        {
+          "end": 352,
+          "readings": {
+            "microfilm": "as",
+            "primary": "us"
+          },
+          "start": 350
+        },
+        {
+          "end": 443,
+          "readings": {
+            "microfilm": "tions.",
+            "primary": "."
+          },
+          "start": 442
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 71",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.71",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "'Mr. BACON. Will the Senator be a little more specific?"
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 72",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.72",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l'.Tr. SUTHI•mLAND. I have stated three specific things.",
+      "uncertain": [
+        {
+          "end": 6,
+          "readings": {
+            "microfilm": "Mr,",
+            "primary": "l'.Tr."
+          },
+          "start": 0
+        },
+        {
+          "end": 19,
+          "readings": {
+            "microfilm": "SUTHERLAND.",
+            "primary": "SUTHI•mLAND."
+          },
+          "start": 7
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 73",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.73",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BACON. :\\fy attention was diverted for the moment. I will ask the Senator to excuse me and repeat thorn.",
+      "uncertain": [
+        {
+          "end": 15,
+          "readings": {
+            "microfilm": "My",
+            "primary": ":\\fy"
+          },
+          "start": 11
+        },
+        {
+          "end": 108,
+          "readings": {
+            "primary": "thorn."
+          },
+          "start": 102
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 74",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.74",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. SUTHlillLAND. I stated · to the Senator, for example, that it would prevent Congress from by law fixin'g a uniform time for holding the elections. Ji.S the . Senator knows, prior to the statute having been 1H.loptcd elections were held in the various States at different times, some of them in August, some of them in October, some of them in November, and some of them in the early spring months. It was only by virtue of the power which the Senator now - seeks to strike down that Congress fi.,xecl n uniform (1ate.",
+      "uncertain": [
+        {
+          "end": 17,
+          "readings": {
+            "microfilm": "SUTHERLAND.",
+            "primary": "SUTHlillLAND."
+          },
+          "start": 4
+        },
+        {
+          "end": 155,
+          "readings": {
+            "primary": "Ji.S"
+          },
+          "start": 151
+        },
+        {
+          "end": 219,
+          "readings": {
+            "microfilm": "adopted",
+            "primary": "1H.loptcd"
+          },
+          "start": 210
+        },
+        {
+          "end": 504,
+          "readings": {
+            "microfilm": "fix",
+            "primary": "fi.,xecl"
+          },
+          "start": 496
+        },
+        {
+          "end": 521,
+          "readings": {
+            "primary": "(1ate."
+          },
+          "start": 515
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 75",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.75",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l'.fr. BA.CON. Congress does not fix a uniform date for the election of Senators now.",
+      "uncertain": [
+        {
+          "end": 6,
+          "readings": {
+            "primary": "l'.fr."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 76",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.76",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": ":'\\Ir. SUTHERLAND. . But when / we provide for the election of Senators by vote of the people it would !Jc quite as neccs· sary to fix: a uniform date as it is to fix a uniform date for the election of :Members of the House. The Senator's amendment would prevent our doing tlmt. That is the complaint I am making.",
+      "uncertain": [
+        {
+          "end": 6,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": ":'\\Ir."
+          },
+          "start": 0
+        },
+        {
+          "end": 31,
+          "readings": {
+            "primary": "/"
+          },
+          "start": 30
+        },
+        {
+          "end": 106,
+          "readings": {
+            "primary": "!Jc"
+          },
+          "start": 103
+        },
+        {
+          "end": 122,
+          "readings": {
+            "microfilm": "neces-",
+            "primary": "neccs·"
+          },
+          "start": 116
+        },
+        {
+          "end": 278,
+          "readings": {
+            "microfilm": "that.",
+            "primary": "tlmt."
+          },
+          "start": 273
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 77",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.77",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": ".i\\fr. BACON. Well, if that is the only objection of the Senator--",
+      "uncertain": [
+        {
+          "end": 6,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": ".i\\fr."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 78",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.78",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. SUTHERLAND. I spoke of another, namely, the power of Congress to fix the Australian ballot for use in the various States."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 79",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.79",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "~fr. BA.CON. I um very frank to say that I would not be willing that Congress should ham that power.",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "~fr."
+          },
+          "start": 0
+        },
+        {
+          "end": 17,
+          "readings": {
+            "microfilm": "am",
+            "primary": "um"
+          },
+          "start": 15
+        },
+        {
+          "end": 88,
+          "readings": {
+            "microfilm": "have",
+            "primary": "ham"
+          },
+          "start": 85
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 80",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.80",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "lUr . SUTHERLAND. Congress has already exercised the power and provided that all ballots shall be ln writing.",
+      "uncertain": [
+        {
+          "end": 3,
+          "readings": {
+            "primary": "lUr"
+          },
+          "start": 0
+        },
+        {
+          "end": 5,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 4
+        },
+        {
+          "end": 100,
+          "readings": {
+            "primary": "ln"
+          },
+          "start": 98
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 81",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.81",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\:lr. B.<i.CON . But that is not tlle Australian ballot.",
+      "uncertain": [
+        {
+          "end": 6,
+          "readings": {
+            "primary": "l\\:lr."
+          },
+          "start": 0
+        },
+        {
+          "end": 15,
+          "readings": {
+            "microfilm": "BACON.",
+            "primary": "B.<i.CON"
+          },
+          "start": 7
+        },
+        {
+          "end": 38,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 34
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 82",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.82",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "~fr. SUTHERLAND. No; but I say we might desire to uo fuat.",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "~fr."
+          },
+          "start": 0
+        },
+        {
+          "end": 52,
+          "readings": {
+            "microfilm": "do",
+            "primary": "uo"
+          },
+          "start": 50
+        },
+        {
+          "end": 58,
+          "readings": {
+            "microfilm": "that.",
+            "primary": "fuat."
+          },
+          "start": 53
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 83",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.83",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": ":;\\-Ir. BACON. I should certainly object to Congress controlling the State to any such extent as that.",
+      "uncertain": [
+        {
+          "end": 7,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": ":;\\-Ir."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 84",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.84",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "i..\\ir. SUTHERLAND . Wllat I object to, if the Senator will permit me, is that w'e are undertaking to tie the hands of Congress · for tlle future. No matter how necessary it may be, we will be wholly unable to do any thing except those particular things specified in the Senator’s amendment .",
+      "uncertain": [
+        {
+          "end": 7,
+          "readings": {
+            "primary": "i..\\ir."
+          },
+          "start": 0
+        },
+        {
+          "end": 26,
+          "readings": {
+            "primary": "Wllat"
+          },
+          "start": 21
+        },
+        {
+          "end": 138,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 134
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 85",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.85",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "lifr. B.ACON. I uo not feel any disposition to go into a general debn te on this subject. I could not do so without very 1 largely repeating what I have- more than once said in the Senate, which I have no desire to consume tlle time of the Senate in doing. The election of Senators now, while it is under the general language of section 4, is one in which practically the States control all the details, except that Congress prescribes the <lays upon which the legislature, after it llns assembled, shall proceed to vote and how the vote shall be counted. But certainly there is nothing in the law now, although the language is applicable both to the election of Senators and the election of Representatives, which gives Congress any of the powers over the election of Senators which it would have if there were the same provision with reference to the election of Senators as there is with reference to the elec ~ tion of Members of the House. In other words, it is an impossibility that Congress shall provide for supervision over the election of Senators through tlle machinery of the district conrts of the United States. It is an impossibility, unless you absolutely destroy the dual system of government we have, that the district courts of tlie United States should be cm - Powered to appoint marshals to sit in a legislature and supervise the manner in which Senators shall bo elected. It is an utter impossibility, without destroying our system of government, that the district courts of tile United States should have tllc power to provide supervisors to superintend an election by , the legislature. It is a matter of utter impossibility, without the destruction of our system of government, for Congress to provide a law under which the soldiers of the United States can appear in a legislature and enforce the order of supervisors in the election by n legislature.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "lifr."
+          },
+          "start": 0
+        },
+        {
+          "end": 18,
+          "readings": {
+            "microfilm": "do",
+            "primary": "uo"
+          },
+          "start": 16
+        },
+        {
+          "end": 72,
+          "readings": {
+            "microfilm": "debate",
+            "primary": "debn te"
+          },
+          "start": 65
+        },
+        {
+          "end": 122,
+          "readings": {
+            "primary": "1"
+          },
+          "start": 121
+        },
+        {
+          "end": 227,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 223
+        },
+        {
+          "end": 445,
+          "readings": {
+            "microfilm": "days",
+            "primary": "<lays"
+          },
+          "start": 440
+        },
+        {
+          "end": 487,
+          "readings": {
+            "primary": "llns"
+          },
+          "start": 483
+        },
+        {
+          "end": 914,
+          "readings": {
+            "primary": "~"
+          },
+          "start": 913
+        },
+        {
+          "end": 1070,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 1066
+        },
+        {
+          "end": 1103,
+          "readings": {
+            "microfilm": "eourts",
+            "primary": "conrts"
+          },
+          "start": 1097
+        },
+        {
+          "end": 1251,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlie"
+          },
+          "start": 1247
+        },
+        {
+          "end": 1278,
+          "readings": {
+            "microfilm": "em-",
+            "primary": "cm"
+          },
+          "start": 1276
+        },
+        {
+          "end": 1384,
+          "readings": {
+            "microfilm": "be",
+            "primary": "bo"
+          },
+          "start": 1382
+        },
+        {
+          "end": 1501,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tile"
+          },
+          "start": 1497
+        },
+        {
+          "end": 1532,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tllc"
+          },
+          "start": 1528
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 86",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.86",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Therefore, however we may mix words or however we may try to think that the same provision in the one case applies in the other, practically they do not. Under the present law the States do have the control of the election of Senators, those who are their own peculiar representatives, and provide that in the selection they shall have the supreme voice."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 87",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.87",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. President, it is a remarkable fact that in the <.lay when the Constitution was formed, with only 13 little States, without any dominating influence by one over the other, without - any sectional questions to divide them, because at that time slavery existed in every· State except one, without anything to indicate the great necessity of each State controlling its own affairs as that necessity was afterwards developed. in the contentions which arose and which have continued for a cen- . tury-without any of these things, I say, it is n most remarkable fact that each of the 13 States, with nothing in their past to point to them the future, but the contrary, realized to the utmost degree the importance of self-control in its internal affairs and of its elections by each State, au . cl realized it to a degree, I started to say, infinitely greater than it is realized by the States at the present day.",
+      "uncertain": [
+        {
+          "end": 56,
+          "readings": {
+            "microfilm": "day",
+            "primary": "<.lay"
+          },
+          "start": 51
+        },
+        {
+          "end": 789,
+          "readings": {
+            "primary": "au"
+          },
+          "start": 787
+        },
+        {
+          "end": 794,
+          "readings": {
+            "primary": "cl"
+          },
+          "start": 792
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 88",
+      "pages": [
+        "5171"
+      ],
+      "ref": "Senate1912.Apr23.88",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "So it was when the Constitution of the United States, as framed in the convention, was sent to the several States for their ratification, while the States differed, one State objecting in n degree to one provision and another State in a degree to another provision, there was but one question upon which all the States agreed. · The record will prove what I am saying, that all the States agreed ou this one proposition: That in the election of Senators and of Representatives, while Congress should have the power or llicl have the power, which is prescribed in the fourth section, it should only he exercised, ns was expressed by the convention of ]\\cw York, when the States themselves might fail to exercise it or when for any reason they were incapable of exercising it.",
+      "uncertain": [
+        {
+          "end": 189,
+          "readings": {
+            "microfilm": "a",
+            "primary": "n"
+          },
+          "start": 188
+        },
+        {
+          "end": 398,
+          "readings": {
+            "microfilm": "on",
+            "primary": "ou"
+          },
+          "start": 396
+        },
+        {
+          "end": 523,
+          "readings": {
+            "primary": "llicl"
+          },
+          "start": 518
+        },
+        {
+          "end": 600,
+          "readings": {
+            "microfilm": "be",
+            "primary": "he"
+          },
+          "start": 598
+        },
+        {
+          "end": 614,
+          "readings": {
+            "microfilm": "as",
+            "primary": "ns"
+          },
+          "start": 612
+        },
+        {
+          "end": 654,
+          "readings": {
+            "microfilm": "New",
+            "primary": "]\\cw"
+          },
+          "start": 650
+        },
+        {
+          "end": 716,
+          "readings": {
+            "microfilm": "of",
+            "primary": "or"
+          },
+          "start": 714
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 89",
+      "pages": [
+        "5171",
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.89",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          8,
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            949,
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Without exception, every State the records of which have been preserved or can be found, beginning at New Hampshire and going to the extreme South, embodied in their adoption o~ the Constitution their deruancl that if the power of the Federal Government to supervise elections in the States should remain it should only be exercised, in the language of the convention of New York, whenever the legislature thereof shall neglect, refuse, or from any circumstance shall be incapable of doing so.",
+      "uncertain": [
+        {
+          "end": 177,
+          "readings": {
+            "microfilm": "of",
+            "primary": "o~"
+          },
+          "start": 175
+        },
+        {
+          "end": 209,
+          "readings": {
+            "microfilm": "demand",
+            "primary": "deruancl"
+          },
+          "start": 201
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 90",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.90",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\lr. President, the importance of that is many times greater now, with 46 States, than it was in the days of 13 States, because in proportion as the country grows larger in the same proportion are our interests diverse; in the same proportion is it true that what is appropriate for one section is not appropriate for another; and in the same degree there must be the resulting necessity and importance that each State should, as far as possible, control within its own limits and by its own authority the things which relate to its own peculiar affairs. The thing which in that day impressed those 13 States as being the most important of all things relating to the internal affairs of a State was the right to control its elections, and that they should not !Jc controlled by the Federal Government except in a case where the States should neglect or refuse or where they should be in a position that they were incapable of properly discharging that duty.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "microfilm": "shall",
+            "primary": "l\\lr."
+          },
+          "start": 0
+        },
+        {
+          "end": 764,
+          "readings": {
+            "microfilm": "be",
+            "primary": "!Jc"
+          },
+          "start": 761
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 91",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.91",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "J\\lr. President, I did not intend to say this much because, as I have said, I can say nothing but what is a repetition of what I han~ already said, and what I have said this morning is a repetition of what I have heretofore said. I have endeavored to resist the temptation which I have to go further in the subject, and I do resist it. u - is not proper that I should do so under the circumstances.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "J\\lr."
+          },
+          "start": 0
+        },
+        {
+          "end": 133,
+          "readings": {
+            "microfilm": "have",
+            "primary": "han~"
+          },
+          "start": 129
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 92",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.92",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "I simply ask, Mr. President, that the Senate will refuse to vote. insist upon its disagreement, that it will bring the matter again to tlle attention of the Senate to act upon the joint resolution as it comes from the House and as it has been reported to this body by the Judiciary Committee, and that when that is done I may have the opportunity, which of course I will have, of presenting this amendment, which will preserve two things. It will preserve the right of tlie Federal Government to regulate the manner of these elections in every case where the State should itself refuse or neglect to do so, or where it shall be incapable of doing so, and the second thing which will be accomplished by the amendment will be to give the Congress of the United States tlle full and unrestricted power to legislate as to all matters which are necessary to limit expenses and secure publicity in all proceedings relating to the election of Senators.",
+      "uncertain": [
+        {
+          "end": 139,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 135
+        },
+        {
+          "end": 473,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlie"
+          },
+          "start": 469
+        },
+        {
+          "end": 770,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 766
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 93",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.93",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": ":Mr. GRO::NNA. Ur. President, when this measure was before the Senate on a former day it was with some reluctance that I voted for the House provision. I did not vote for it because I preferred to have the provision of section 4, Article I, of the Bradley Constitution stricken out-that is, that Congress should have supervisory power as to the manner ancl the time of choosing Senators-but it was in the hope that the . joint resolution would be amended and would be agreed to in conference. In my anxiety to see tlle Constitution so amended as to give to the people the right to choose their Senators by a popular vote I Clark, Wyo. voted for it.",
+      "uncertain": [
+        {
+          "end": 14,
+          "readings": {
+            "microfilm": "GRONNA,.",
+            "primary": "GRO::NNA."
+          },
+          "start": 5
+        },
+        {
+          "end": 18,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "Ur."
+          },
+          "start": 15
+        },
+        {
+          "end": 356,
+          "readings": {
+            "microfilm": "and",
+            "primary": "ancl"
+          },
+          "start": 352
+        },
+        {
+          "end": 518,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 514
+        },
+        {
+          "end": 629,
+          "readings": {
+            "primary": "Clark,"
+          },
+          "start": 623
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 94",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.94",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "I find, however, that the conference committee has failed to agree. But they have agreed to disagree. I said to Senators on this floor that I preferred to vote for the resolution in the Ila con form . that it was presented by the Senator from Utah [l\\lr. SUTHERLAND] or the Senator from Kansas [Mr. BRISTOW]. Now, since the conference committee has failed to agree I shall vote for the resolution as it has been presented by the Senator from Kansas.",
+      "uncertain": [
+        {
+          "end": 189,
+          "readings": {
+            "primary": "Ila"
+          },
+          "start": 186
+        },
+        {
+          "end": 254,
+          "readings": {
+            "microfilm": "[Mr.,",
+            "primary": "[l\\lr."
+          },
+          "start": 248
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 95",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.95",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. The question is on agreeing to the motion of tlle Senater from Wyoming [Mr. CLARK] that the Senate insist upon its amendment.",
+      "uncertain": [
+        {
+          "end": 69,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 65
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 96",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.96",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": ":\\Ir. CLARKE of Arkansas. I ask for the yeas and nays.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": ":\\Ir."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 97",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.97",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The yeas and nays were ordered, and the Secretary proceeded to rn 11 the roll. ·",
+      "uncertain": [
+        {
+          "end": 65,
+          "readings": {
+            "primary": "rn"
+          },
+          "start": 63
+        },
+        {
+          "end": 68,
+          "readings": {
+            "primary": "11"
+          },
+          "start": 66
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 98",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.98",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1\\Ir. LIPPITT (when his name was called). I have a general pair with the senior Senator from Tennessee [1\\Ir. LEA]. I transfer that pair to the junior Senator from Illinois [Mr. LORIMER], and vote. I vote \"yea.\" I make this announcemeut for the day.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "1\\Ir."
+          },
+          "start": 0
+        },
+        {
+          "end": 109,
+          "readings": {
+            "microfilm": "[Mr.",
+            "primary": "[1\\Ir."
+          },
+          "start": 103
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 99",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.99",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. NIXON (when his name was called). I have a general Rule VIII. pair with the junior Senator . !ltor from Virginia [Mr. SWANSON], and therefore withhold my vote.",
+      "uncertain": [
+        {
+          "end": 102,
+          "readings": {
+            "primary": "!ltor"
+          },
+          "start": 97
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 100",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.100",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. OVERMAN (when his name 1VaS called). I ham a pair with the senior Senator from Iowa [Mr. CUMMINS], who is absent to-day on account of public business. If he were here, lie would vote \"yea.\" I transfer my pair to the senior Senator from Virginia [l\\fr. MARTIN], and vote. I vote \"nay.\"",
+      "uncertain": [
+        {
+          "end": 31,
+          "readings": {
+            "microfilm": "was",
+            "primary": "1VaS"
+          },
+          "start": 27
+        },
+        {
+          "end": 46,
+          "readings": {
+            "microfilm": "have",
+            "primary": "ham"
+          },
+          "start": 43
+        },
+        {
+          "end": 255,
+          "readings": {
+            "primary": "[l\\fr."
+          },
+          "start": 249
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 101",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.101",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. GORE (when 1\\Ir. OWEN'S name was called). I desire to announce that my colleague [Mr. OwEi~] is paired with the senior up to-day. Senator from South Dakota [l\\fr. GAMBLE]. If my colleague were present, he would vote \"nay.\"",
+      "uncertain": [
+        {
+          "end": 20,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "1\\Ir."
+          },
+          "start": 15
+        },
+        {
+          "end": 96,
+          "readings": {
+            "microfilm": "OWEN]",
+            "primary": "OwEi~]"
+          },
+          "start": 90
+        },
+        {
+          "end": 166,
+          "readings": {
+            "microfilm": "[Mr.",
+            "primary": "[l\\fr."
+          },
+          "start": 160
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 102",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.102",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. J01'.TES (when 1\\Ir. POINDEXTER'S name was called). My colleague [l\\fr. POINDEXTER] is absent, I think, from the city. I do not lmow how he would vote on this question, if present. l\\Ir. REED (after having voted in the negative). l\\fr. President, I voted inadvertently. The Senator from Michigan [Mr. SMITH] is serving on the investigation of the Titanic disaster. I therefore agreed with llim that I would pair on this vote. If he were present, he would vote \"yea.\" If I were at liberty ta vote, I would vote \"nay.\" I withdraw my vote.",
+      "uncertain": [
+        {
+          "end": 12,
+          "readings": {
+            "microfilm": "JONES",
+            "primary": "J01'.TES"
+          },
+          "start": 4
+        },
+        {
+          "end": 24,
+          "readings": {
+            "primary": "1\\Ir."
+          },
+          "start": 19
+        },
+        {
+          "end": 75,
+          "readings": {
+            "primary": "[l\\fr."
+          },
+          "start": 69
+        },
+        {
+          "end": 136,
+          "readings": {
+            "microfilm": "know",
+            "primary": "lmow"
+          },
+          "start": 132
+        },
+        {
+          "end": 190,
+          "readings": {
+            "primary": "l\\Ir."
+          },
+          "start": 185
+        },
+        {
+          "end": 239,
+          "readings": {
+            "primary": "l\\fr."
+          },
+          "start": 234
+        },
+        {
+          "end": 397,
+          "readings": {
+            "microfilm": "him",
+            "primary": "llim"
+          },
+          "start": 393
+        },
+        {
+          "end": 494,
+          "readings": {
+            "microfilm": "to",
+            "primary": "ta"
+          },
+          "start": 492
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 103",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.103",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\Ir. SI1\\H10NS (when his name was called). I am paired with the junior Senator from Minnesota [Mr. CLArP]. I do not know llow he would vote. If he were present and I were at liberty to vote, I would vote \"nay.\"",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "l\\Ir."
+          },
+          "start": 0
+        },
+        {
+          "end": 15,
+          "readings": {
+            "microfilm": "SIMMONS",
+            "primary": "SI1\\H10NS"
+          },
+          "start": 6
+        },
+        {
+          "end": 107,
+          "readings": {
+            "microfilm": "CrLapp].",
+            "primary": "CLArP]."
+          },
+          "start": 100
+        },
+        {
+          "end": 126,
+          "readings": {
+            "microfilm": "how",
+            "primary": "llow"
+          },
+          "start": 122
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 104",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.104",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "liberty TOWNSEND (when the name of Mr. SMITH of Michigan was called). I desire again to state that the senior Senator from Michigan [:M:r. SMITH] is unavoidably absent. If he were present, he would vote \"yea.\" He is paired with the junior Senator from Missouri [l\\Ir. REED].",
+      "uncertain": [
+        {
+          "end": 267,
+          "readings": {
+            "primary": "[l\\Ir."
+          },
+          "start": 261
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 105",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.105",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Tlle roll call was concluded.",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "microfilm": "The",
+            "primary": "Tlle"
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 106",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.106",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BANKHEAD. I desire to inquire if the senior Senator from Idaho [l\\!r. HEYBURN] has voted.",
+      "uncertain": [
+        {
+          "end": 73,
+          "readings": {
+            "microfilm": "[Mr.",
+            "primary": "[l\\!r."
+          },
+          "start": 67
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 107",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.107",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. He has voted."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 108",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.108",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BANKHEAD. I vote \"nay.\""
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 109",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.109",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. HEYBURN. I will state, in order that there may be no misunderstanding, that I observed the Senator from Alabama in tlle Chamber and therefore I voted, assuming that he would",
+      "uncertain": [
+        {
+          "end": 123,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tlle"
+          },
+          "start": 119
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 110",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.110",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. CRAWFORD. I desire to state that my colleague [~lr. GA.:llBLE] is necessarily absent, and is paired with the Senator from Oklahoma [l\\fr. OWEN]. I am . informed that if my colleague were present he would vote \"yea.\" ·.",
+      "uncertain": [
+        {
+          "end": 55,
+          "readings": {
+            "microfilm": "[Mr.",
+            "primary": "[~lr."
+          },
+          "start": 50
+        },
+        {
+          "end": 66,
+          "readings": {
+            "microfilm": "GAMBLE]",
+            "primary": "GA.:llBLE]"
+          },
+          "start": 56
+        },
+        {
+          "end": 141,
+          "readings": {
+            "microfilm": "[Mr.",
+            "primary": "[l\\fr."
+          },
+          "start": 135
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 111",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.111",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. JOHNSTON of Alabama. I desire to state that the junior Senator from Texas [Mr. BAILEY] is paired. with t11e Senator from Montana [Mr. D:rxoN]. If the Senator from Texas were present, he would vote \"nay.\"",
+      "uncertain": [
+        {
+          "end": 111,
+          "readings": {
+            "microfilm": "tne",
+            "primary": "t11e"
+          },
+          "start": 107
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 112",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.112",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\Ir. BRISTOW. I desire to state that the junior Senator from Iowa [Mr. KENYON] is unavoidably absent. If he were here, he would vote \"yea.\"",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "l\\Ir."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 113",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.113",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": ".Mr . . SI.M::t\\::IONS. I should have stated a few moments ago that while I do not know how the Senator from :Minnesota. [Mr. CLAPP] would vote if he were present, I am advised l that he would probably vote \"yea.\"",
+      "uncertain": [
+        {
+          "end": 7,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 6
+        },
+        {
+          "end": 23,
+          "readings": {
+            "microfilm": "SIMMONS.",
+            "primary": "SI.M::t\\::IONS."
+          },
+          "start": 8
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 114",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.114",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The result was announced-yeas 42, nays 36, as follows:"
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 115",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.115",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "YE.AS-4~.",
+      "uncertain": [
+        {
+          "end": 9,
+          "readings": {
+            "microfilm": "YEAS—42.,",
+            "primary": "YE.AS-4~."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 116",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.116",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Bourne Crane Jones Root"
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 117",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.117",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Crawford Lippitt Sanders"
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 118",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.118",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Brandegee Cullom Lodge Smoot Briggs Curtis McCumber Stephenson Bri s tow Dillingham McLean Sutherland Brown du Pont Nelson Townsend Burnham Fall Oliver Warren Burton Gallinger Page Wetmore Catron Gronna Penrose Works",
+      "uncertain": [
+        {
+          "end": 68,
+          "readings": {
+            "microfilm": "Bristow",
+            "primary": "Bri s"
+          },
+          "start": 63
+        },
+        {
+          "end": 72,
+          "readings": {
+            "primary": "tow"
+          },
+          "start": 69
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 119",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.119",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Guggenheim Perkins"
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 120",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.120",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Clarke, Ark. Heyburn Richardson"
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 121",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.121",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "NAYS-3G.",
+      "uncertain": [
+        {
+          "end": 8,
+          "readings": {
+            "microfilm": "NAYS—36.",
+            "primary": "NAYS-3G."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 122",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.122",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Ashurst Fletcher Myers Smith, Ariz."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 123",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.123",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Foster New lands Smith, Ga."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 124",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.124",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Bankhead Gardner O'Gorman Smith, !ild. Borah Gore Overman Smith, 8. C. Bryan Hitchcock · Paynter Stone Chamberlain Johnson, :Me. Percy Thornton Chilton .Johnston, Ala. Pomerene Tillman Culberson Kern Ravner Watson Davis Martine, N. J. Shively Williams",
+      "uncertain": [
+        {
+          "end": 38,
+          "readings": {
+            "microfilm": "Md.",
+            "primary": "!ild."
+          },
+          "start": 33
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 125",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.125",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "NOT VOTING-17."
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 126",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.126",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Bailey Kenyon Nixon Smith, Mich. Clapp La Follette Owen Swanson Cummins Lea Poindexter Dixon Lorimer Reed Gamble Martin, Va. Simmons",
+      "uncertain": [
+        {
+          "end": 6,
+          "readings": {
+            "microfilm": "alley",
+            "primary": "Bailey"
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, April 23, 1912, ¶ 127",
+      "pages": [
+        "5172"
+      ],
+      "ref": "Senate1912.Apr23.127",
+      "scan": {
+        "item": "GPO-CRECB-1912-pt5-v48-20-1",
+        "leaves": [
+          9
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_april-3-23-1912_48_1",
+          "leaves": [
+            950
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "So the motion of l\\lr. CL.ARK of Wyoming that the Senate insist on its amendment was agreed to.",
+      "uncertain": [
+        {
+          "end": 22,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "l\\lr."
+          },
+          "start": 17
+        },
+        {
+          "end": 29,
+          "readings": {
+            "microfilm": "CrarkK",
+            "primary": "CL.ARK"
+          },
+          "start": 23
+        }
+      ]
+    }
+  ],
+  "short": "Senate debates, 1912",
+  "source_ids": [
+    "govinfo-crecb-1912-pt5-v48-14-1",
+    "govinfo-crecb-1912-pt5-v48-20-1",
+    "govinfo-crecb-1912-pt5-v48-mods",
+    "ia-record-1912-pt5-v48-text",
+    "ia-record-1912-pt5-v48-pageindex",
+    "ia-record-1912-pt5-v48-pages"
+  ],
+  "title": "Debates in the Senate on the Seventeenth Amendment, 1912"
+}

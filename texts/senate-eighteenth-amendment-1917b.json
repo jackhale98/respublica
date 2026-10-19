@@ -1,0 +1,2577 @@
+{
+  "date": "1917-12-18/1917-12-18",
+  "divisions": [
+    {
+      "date": "1917-12-18",
+      "label": "December 18, 1917",
+      "level": 1,
+      "ref": "Senate1917b.Dec18",
+      "title": "-ATIOX.AJ~ provisions",
+      "uncertain": {
+        "title": [
+          {
+            "end": 10,
+            "readings": {
+              "primary": "-ATIOX.AJ~"
+            },
+            "start": 0
+          }
+        ]
+      }
+    }
+  ],
+  "edition": {
+    "name": "Congressional Record: Containing the Proceedings and Debates of the 65th Congress, 2d session, vol. 56 (Washington: Government Printing Office, 1918), the bound edition",
+    "notes": "Congressional Record: Containing the Proceedings and Debates of the 65th Congress, 2d session, vol. 56 (Washington: Government Printing Office, 1918), the bound edition: the items of the proceedings of the Senate headed with the subject in which it took up the joint resolution (S. J. Res. 17) proposing the Eighteenth Amendment, on the days the volume's History of Bills and Resolutions lists for it, pp. 477–478; not the speeches printed in the Appendix. Read from the text layer of the Government Publishing Office's scans (govinfo.gov) and checked word by word against the Internet Archive's OCR of a microfilm of the same part; words they could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "senate-eighteenth-amendment-1917b",
+  "ref_prefix": "Senate1917b",
+  "segments": [
+    {
+      "label": "Senate, December 18, 1917, ¶ 1",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.1",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VI •E PRE. IDBNT laid before the · Senate the amendments of the House . . e of Representatives to the-joint resolution ( S. J. Ties. 17) proposing an amendment to the Constitution of the United States, which were, on page 1, line . 9, to strike out \"the\" and in . insert \"after one year from the ratification of this article the\"; on page 1, to strike out lines 14 and 15 and lines 1 , 2, and 3 on page 2, and insert :",
+      "uncertain": [
+        {
+          "end": 20,
+          "readings": {
+            "microfilm": "President.",
+            "primary": "PRE. IDBNT"
+          },
+          "start": 10
+        },
+        {
+          "end": 111,
+          "readings": {
+            "microfilm": "theejoint",
+            "primary": "the-joint"
+          },
+          "start": 102
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 2",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.2",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "SEC. 2. The Congress and the several States shall have concarrent power to enforce this article by appropriate legislation.",
+      "uncertain": [
+        {
+          "end": 65,
+          "readings": {
+            "microfilm": "concerrent",
+            "primary": "concarrent"
+          },
+          "start": 55
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 3",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.3",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "And, on page 2, to strike out lines 4 and 5 and insert:"
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 4",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.4",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "SEc. 3. This · article shall ue inoperative unless it shall have been ratifiecl as an amendment to the Constitution by the legislatures of the several State , as provided in the Constitution, within seven years from the date of the submission hcreef to the State s by the Congress .",
+      "uncertain": [
+        {
+          "end": 31,
+          "readings": {
+            "microfilm": "be",
+            "primary": "ue"
+          },
+          "start": 29
+        },
+        {
+          "end": 79,
+          "readings": {
+            "microfilm": "rattml",
+            "primary": "ratifiecl"
+          },
+          "start": 70
+        },
+        {
+          "end": 156,
+          "readings": {
+            "microfilm": "States,",
+            "primary": "State"
+          },
+          "start": 151
+        },
+        {
+          "end": 249,
+          "readings": {
+            "microfilm": "hereef",
+            "primary": "hcreef"
+          },
+          "start": 243
+        },
+        {
+          "end": 282,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 281
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 5",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.5",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1\\Ir. SHEPPARD rose. . e.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "1\\Ir."
+          },
+          "start": 0
+        },
+        {
+          "end": 22,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 21
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 6",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.6",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1\\ir. GALLINGER. I suggest the absence of a quorum.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "1\\ir."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 7",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.7",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. The Secretary will call · the roll. The Secretary called the roll, and the following Senators answered to their names : Ashurst Chamberlain ~~~~~f3am Gallinger Beckham Colt Gerry Borah Culberson FI~t c hcr Gronna Brandegee Cummins France Hale Calder Curtis Fr {' Frelinghuysen Harding",
+      "uncertain": [
+        {
+          "end": 169,
+          "readings": {
+            "primary": "~~~~~f3am"
+          },
+          "start": 160
+        },
+        {
+          "end": 221,
+          "readings": {
+            "microfilm": "Fletcher",
+            "primary": "FI~t c"
+          },
+          "start": 215
+        },
+        {
+          "end": 225,
+          "readings": {
+            "primary": "hcr"
+          },
+          "start": 222
+        },
+        {
+          "end": 279,
+          "readings": {
+            "primary": "Fr"
+          },
+          "start": 277
+        },
+        {
+          "end": 282,
+          "readings": {
+            "primary": "{'"
+          },
+          "start": 280
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 8",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.8",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "LYI- ~ 31",
+      "uncertain": [
+        {
+          "end": 4,
+          "readings": {
+            "primary": "LYI-"
+          },
+          "start": 0
+        },
+        {
+          "end": 6,
+          "readings": {
+            "primary": "~"
+          },
+          "start": 5
+        },
+        {
+          "end": 9,
+          "readings": {
+            "primary": "31"
+          },
+          "start": 7
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 9",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.9",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Harclwick Culberson . Pomerene Sterling",
+      "uncertain": [
+        {
+          "end": 9,
+          "readings": {
+            "microfilm": "Chamberlain",
+            "primary": "Harclwick"
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 10",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.10",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "McKellar Robinson Stone"
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 11",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.11",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "McLean ~a ulsbury Sutherland",
+      "uncertain": [
+        {
+          "end": 17,
+          "readings": {
+            "microfilm": "Saulsbury",
+            "primary": "~a ulsbury"
+          },
+          "start": 7
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 12",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.12",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "James McNary Shafroth · Swanson Johnson, Cal. Martin sheppard · 'Thompson Johnson. K Dak. Myers · · Sherman Townsend • Jones, Wash. Nelson Shields Vardaman Kellogg New Simmons Wadsworth"
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 13",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.13",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "·e Newlands Smith, Ariz. Weeks",
+      "uncertain": [
+        {
+          "end": 2,
+          "readings": {
+            "microfilm": "Kendrick",
+            "primary": "·e"
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 14",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.14",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "King Norris ·· Smith, Ga. Williams"
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 15",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.15",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Overman Smith, Md."
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 16",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.16",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Penrose Smith, Mich."
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 17",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.17",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Lewis Pittman Smoot"
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 18",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.18",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": ". 1\\Ir. FRELI.i'\\'GHUYSEN. I wish b to announce the absence of my colleague [1\\Ir. · HuGHES] on account of illness:",
+      "uncertain": [
+        {
+          "end": 1,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 0
+        },
+        {
+          "end": 7,
+          "readings": {
+            "primary": "1\\Ir."
+          },
+          "start": 2
+        },
+        {
+          "end": 26,
+          "readings": {
+            "microfilm": "FRELINGHUYSEN.",
+            "primary": "FRELI.i'\\'GHUYSEN."
+          },
+          "start": 8
+        },
+        {
+          "end": 82,
+          "readings": {
+            "primary": "[1\\Ir."
+          },
+          "start": 76
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 19",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.19",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\Ir. SUTHERLAl~D. 1\\Iy colleague, the senior Senator from 'Vest Virginia [1\\Ir. GoFF] is ab ent owing to illness.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "l\\Ir."
+          },
+          "start": 0
+        },
+        {
+          "end": 18,
+          "readings": {
+            "microfilm": "SUTHERLAND.",
+            "primary": "SUTHERLAl~D."
+          },
+          "start": 6
+        },
+        {
+          "end": 23,
+          "readings": {
+            "primary": "1\\Iy"
+          },
+          "start": 19
+        },
+        {
+          "end": 64,
+          "readings": {
+            "microfilm": "West",
+            "primary": "'Vest"
+          },
+          "start": 59
+        },
+        {
+          "end": 80,
+          "readings": {
+            "primary": "[1\\Ir."
+          },
+          "start": 74
+        },
+        {
+          "end": 96,
+          "readings": {
+            "microfilm": "absent",
+            "primary": "ab ent"
+          },
+          "start": 90
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 20",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.20",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1\\lr. SHAFROTH. I de ire to announce tl1e unavoidable ab sence of my colleague 'rMr. THOMAS] on account of illness.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "1\\lr."
+          },
+          "start": 0
+        },
+        {
+          "end": 24,
+          "readings": {
+            "microfilm": "desire",
+            "primary": "de ire"
+          },
+          "start": 18
+        },
+        {
+          "end": 41,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tl1e"
+          },
+          "start": 37
+        },
+        {
+          "end": 84,
+          "readings": {
+            "microfilm": "|Mr.",
+            "primary": "'rMr."
+          },
+          "start": 79
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 21",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.21",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. VARDAMAN. I wish to announce the absence of the junior Senator from Mis ouri [1\\Ir . REED], the Senator from New Mexico [1\\Ir. JoNEs], the Senator from Iowa [1\\Ir. Kenyon], and the Senator from Massachusetts [Mr. LoDGE] on official bu i­ ness upon the Committee on Manufactures. .",
+      "uncertain": [
+        {
+          "end": 80,
+          "readings": {
+            "microfilm": "Missouri",
+            "primary": "Mis ouri"
+          },
+          "start": 72
+        },
+        {
+          "end": 86,
+          "readings": {
+            "primary": "[1\\Ir"
+          },
+          "start": 81
+        },
+        {
+          "end": 130,
+          "readings": {
+            "primary": "[1\\Ir."
+          },
+          "start": 124
+        },
+        {
+          "end": 167,
+          "readings": {
+            "primary": "[1\\Ir."
+          },
+          "start": 161
+        },
+        {
+          "end": 241,
+          "readings": {
+            "microfilm": "busi-",
+            "primary": "bu i­"
+          },
+          "start": 236
+        },
+        {
+          "end": 284,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 283
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 22",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.22",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1\\Ir.\" MYERS. 1\\fy colleague [Ur. WALSH] is detained from tl1e Senate on account of illness. ..",
+      "uncertain": [
+        {
+          "end": 6,
+          "readings": {
+            "primary": "1\\Ir.\""
+          },
+          "start": 0
+        },
+        {
+          "end": 18,
+          "readings": {
+            "primary": "1\\fy"
+          },
+          "start": 14
+        },
+        {
+          "end": 33,
+          "readings": {
+            "microfilm": "[Mr.",
+            "primary": "[Ur."
+          },
+          "start": 29
+        },
+        {
+          "end": 62,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tl1e"
+          },
+          "start": 58
+        },
+        {
+          "end": 95,
+          "readings": {
+            "primary": ".."
+          },
+          "start": 93
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 23",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.23",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1\\Ir. SAULSBURY. I wish to announce that my colleague [£It·. · wor.-eoTT] i absent on account of illness.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "1\\Ir."
+          },
+          "start": 0
+        },
+        {
+          "end": 73,
+          "readings": {
+            "primary": "wor.-eoTT]"
+          },
+          "start": 63
+        },
+        {
+          "end": 75,
+          "readings": {
+            "microfilm": "is",
+            "primary": "i"
+          },
+          "start": 74
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 24",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.24",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. Sixty-nine Senators have answered to ti1e roll call. There i a quorum present.",
+      "uncertain": [
+        {
+          "end": 61,
+          "readings": {
+            "microfilm": "the",
+            "primary": "ti1e"
+          },
+          "start": 57
+        },
+        {
+          "end": 80,
+          "readings": {
+            "microfilm": "is",
+            "primary": "i"
+          },
+          "start": 79
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 25",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.25",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1\\Ir. SHEPPARD. I move that the Senate concur in the amendments of the House of Representatives to Senate joint resolution No. 17.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "1\\Ir."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 26",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.26",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. The question is on the motion of the Senator from Texas."
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 27",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.27",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\1r. BORAH. l\\Ir . Pre:sident, a 11arliamentary inquiry. Do these amendment require a two-thirds vote?",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "primary": "l\\1r."
+          },
+          "start": 0
+        },
+        {
+          "end": 17,
+          "readings": {
+            "primary": "l\\Ir"
+          },
+          "start": 13
+        },
+        {
+          "end": 19,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 18
+        },
+        {
+          "end": 48,
+          "readings": {
+            "microfilm": "parliamentiory",
+            "primary": "11arliamentary"
+          },
+          "start": 34
+        },
+        {
+          "end": 76,
+          "readings": {
+            "microfilm": "amendments",
+            "primary": "amendment"
+          },
+          "start": 67
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 28",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.28",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The viCE PRESIDENT. That is the opinion of the Chair . It is the view of the Chair that an amendment to a resolution proposing a.n amendment to the Constitution of the United States needs only a majority in order to be adopted; but th - e re ·olution having once been · adopted by the Senate and gone to the House and returned here for ti1e final action of the Senate, it is necessary ' to have a two-thirds vote on the amendments of the House , f'or this con titutes the final passage of the resolution. .",
+      "uncertain": [
+        {
+          "end": 234,
+          "readings": {
+            "microfilm": "the",
+            "primary": "th"
+          },
+          "start": 232
+        },
+        {
+          "end": 250,
+          "readings": {
+            "microfilm": "resolution",
+            "primary": "re ·olution"
+          },
+          "start": 239
+        },
+        {
+          "end": 340,
+          "readings": {
+            "microfilm": "the",
+            "primary": "ti1e"
+          },
+          "start": 336
+        },
+        {
+          "end": 467,
+          "readings": {
+            "microfilm": "constitutes",
+            "primary": "con titutes"
+          },
+          "start": 456
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 29",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.29",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "- Mr. BORAH. Mr. Pre ident , I want to say a word before t11e matter is disposed of.",
+      "uncertain": [
+        {
+          "end": 26,
+          "readings": {
+            "microfilm": "President,",
+            "primary": "Pre ident"
+          },
+          "start": 17
+        },
+        {
+          "end": 61,
+          "readings": {
+            "microfilm": "the",
+            "primary": "t11e"
+          },
+          "start": 57
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 30",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.30",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "I regret exceedingly, l\\Ir. Pre . President, that this amendment has taken the form which it has. There are two clauses in the amendment which, to my mind, are irreconcilable with any idea of constitutional. action or action in harmony with the · Constitution. In the first place, ti1e amendment as it is propqsed to the Constitution as an amendment has in it the words \"after one year from the ratification of U1is article,\" . _ o that That the following amendment to the Constitution be, and hereby is, proposed to the States, to become valid as a part of the Constitution after one year from the ratification of this article- - And so forth.",
+      "uncertain": [
+        {
+          "end": 27,
+          "readings": {
+            "primary": "l\\Ir."
+          },
+          "start": 22
+        },
+        {
+          "end": 31,
+          "readings": {
+            "primary": "Pre"
+          },
+          "start": 28
+        },
+        {
+          "end": 33,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "."
+          },
+          "start": 32
+        },
+        {
+          "end": 285,
+          "readings": {
+            "microfilm": "the",
+            "primary": "ti1e"
+          },
+          "start": 281
+        },
+        {
+          "end": 313,
+          "readings": {
+            "microfilm": "posed",
+            "primary": "propqsed"
+          },
+          "start": 305
+        },
+        {
+          "end": 415,
+          "readings": {
+            "microfilm": "this",
+            "primary": "U1is"
+          },
+          "start": 411
+        },
+        {
+          "end": 429,
+          "readings": {
+            "primary": "_"
+          },
+          "start": 428
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 31",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.31",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "It is just as plain as the path to tl1e country schoolhou e that that is either wholly and ub olutely surplusage and has no bu ines · here · or el e it will prevent any real submission of the question to the States. It can do no good and may do much harm.",
+      "uncertain": [
+        {
+          "end": 39,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tl1e"
+          },
+          "start": 35
+        },
+        {
+          "end": 59,
+          "readings": {
+            "microfilm": "schoolhouse",
+            "primary": "schoolhou e"
+          },
+          "start": 48
+        },
+        {
+          "end": 101,
+          "readings": {
+            "microfilm": "absolutely",
+            "primary": "ub olutely"
+          },
+          "start": 91
+        },
+        {
+          "end": 131,
+          "readings": {
+            "microfilm": "business",
+            "primary": "bu ines"
+          },
+          "start": 124
+        },
+        {
+          "end": 148,
+          "readings": {
+            "microfilm": "else",
+            "primary": "el e"
+          },
+          "start": 144
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 32",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.32",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The Constitution of the United States provides in unmistakable language when a provision of the Constitution shall go into effect, and it is not within the power of the Congress, by incorporating a different provision in _a proposed amendment to change the law of the land. I can not understand, Mr. President, why such a clause should be inserted in an amendment S6 vital and important as this. It is manifestly out of harmony with - the Constitution. I do not assume to say what its effect will be, but it might endanger the whole proceedings.",
+      "uncertain": [
+        {
+          "end": 223,
+          "readings": {
+            "primary": "_a"
+          },
+          "start": 221
+        },
+        {
+          "end": 366,
+          "readings": {
+            "microfilm": "se",
+            "primary": "S6"
+          },
+          "start": 364
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 33",
+      "pages": [
+        "477"
+      ],
+      "ref": "Senate1917b.Dec18.33",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Secondly, it provides that \"this article shall be inoperative \"-and I want to call the attention of the Senate to the word \"inoperative\"-\" unless it shall have been ratified as an amendment to the Constitution by the legislatures of the several States, as provided in the Constitution, within six years.\" That has been changed to seven years."
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 34",
+      "pages": [
+        "477",
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.34",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          2,
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            481,
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "We have no power by this method to limit the time within which this amendment shall be ratified. That matter was discussed- before. I shall not diScuss if again. After a fuller investigation and a more thorough study of the matter I am more thoroughly _ convinced that ~e . lla\"Ye no such powrr. The act '\\i 1 which we · shall here perform will either result in a ~ubmission to the States or it will be held to be ~ s..ubmi ion at aU. If it ~·er -goes to the States and they actually acquire jurisdi't!tion of it, they em ratify it at any time they see fit, and when a sufficient number shall have ratified it, it becomes a part of the ConstitutiOH. If it is a submission at all, then a ratification will b& con titutiollal, though the requ1site number of States shoUld not vote for it for 10 years, or later.",
+      "uncertain": [
+        {
+          "end": 154,
+          "readings": {
+            "microfilm": "it",
+            "primary": "if"
+          },
+          "start": 152
+        },
+        {
+          "end": 235,
+          "readings": {
+            "microfilm": "aim",
+            "primary": "am"
+          },
+          "start": 233
+        },
+        {
+          "end": 253,
+          "readings": {
+            "primary": "_"
+          },
+          "start": 252
+        },
+        {
+          "end": 271,
+          "readings": {
+            "microfilm": "we",
+            "primary": "~e"
+          },
+          "start": 269
+        },
+        {
+          "end": 280,
+          "readings": {
+            "primary": "lla\"Ye"
+          },
+          "start": 274
+        },
+        {
+          "end": 295,
+          "readings": {
+            "primary": "powrr."
+          },
+          "start": 289
+        },
+        {
+          "end": 307,
+          "readings": {
+            "primary": "'\\i"
+          },
+          "start": 304
+        },
+        {
+          "end": 309,
+          "readings": {
+            "primary": "1"
+          },
+          "start": 308
+        },
+        {
+          "end": 374,
+          "readings": {
+            "microfilm": "subimission",
+            "primary": "~ubmission"
+          },
+          "start": 364
+        },
+        {
+          "end": 415,
+          "readings": {
+            "microfilm": "|",
+            "primary": "~"
+          },
+          "start": 414
+        },
+        {
+          "end": 423,
+          "readings": {
+            "primary": "s..ubmi"
+          },
+          "start": 416
+        },
+        {
+          "end": 434,
+          "readings": {
+            "primary": "aU."
+          },
+          "start": 431
+        },
+        {
+          "end": 445,
+          "readings": {
+            "microfilm": "eyer",
+            "primary": "~·er"
+          },
+          "start": 441
+        },
+        {
+          "end": 506,
+          "readings": {
+            "microfilm": "jurisdittien",
+            "primary": "jurisdi't!tion"
+          },
+          "start": 492
+        },
+        {
+          "end": 521,
+          "readings": {
+            "microfilm": "can",
+            "primary": "em"
+          },
+          "start": 519
+        },
+        {
+          "end": 649,
+          "readings": {
+            "microfilm": "Coustitution,",
+            "primary": "ConstitutiOH."
+          },
+          "start": 636
+        },
+        {
+          "end": 707,
+          "readings": {
+            "microfilm": "be",
+            "primary": "b&"
+          },
+          "start": 705
+        },
+        {
+          "end": 724,
+          "readings": {
+            "microfilm": "constitutional,",
+            "primary": "con titutiollal,"
+          },
+          "start": 708
+        },
+        {
+          "end": 745,
+          "readings": {
+            "microfilm": "requtsite",
+            "primary": "requ1site"
+          },
+          "start": 736
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 35",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.35",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1Ve ca11 not limit the time. For instance, to give an illustration we will as ume that this is submitted, that the States acquire jurisdiction of the subject and proceed to ratify, and at the end of seven year 36 States have ratified it. At the beginning of the eighth year the thirty-sixth State ratifies it. Will anyone contend for· a moment that it is not a part of the Cons1t­ tution of the United States if it is a submission at all? The Constitution it elf, which is unchanged, says that an amendment may be ratified by the States and places no limit upon the time within which to ratify it.",
+      "uncertain": [
+        {
+          "end": 3,
+          "readings": {
+            "microfilm": "",
+            "primary": "1Ve"
+          },
+          "start": 0
+        },
+        {
+          "end": 8,
+          "readings": {
+            "microfilm": "can",
+            "primary": "ca11"
+          },
+          "start": 4
+        },
+        {
+          "end": 81,
+          "readings": {
+            "microfilm": "assume",
+            "primary": "as ume"
+          },
+          "start": 75
+        },
+        {
+          "end": 209,
+          "readings": {
+            "microfilm": "years",
+            "primary": "year"
+          },
+          "start": 205
+        },
+        {
+          "end": 212,
+          "readings": {
+            "microfilm": "34",
+            "primary": "36"
+          },
+          "start": 210
+        },
+        {
+          "end": 380,
+          "readings": {
+            "microfilm": "Consti-",
+            "primary": "Cons1t­"
+          },
+          "start": 373
+        },
+        {
+          "end": 463,
+          "readings": {
+            "microfilm": "itself,",
+            "primary": "it elf,"
+          },
+          "start": 456
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 36",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.36",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The thing which I most fear, l\\Ir President, · however, is that it would be held not to have been a submission to the States at all. What I most fear is that it being a submission in a manner not provided for in the Constitution it is no submission at all. The Committee on the Judiciary has reported upon this matter since we acted upon the pending joint resolution. The able Senator from Connecticut [Ml!. BRANDEGEE] has proposed an amendment to the Constitution providing a limit o~ time within which con. titutional amendments shall be ratified. If the Congress can by each amendment fix the limit of time, there is no occasion for the Senator from Connecticut to offer such an amendment to the Don t~ution of the United States. In other words, when the w0ma.n-suffrag.e amendment c9mes along we can put in a limit Q:f 4 years or we can put in a limit of 10 years ; when some other amendment comes along we can put in a limit of 1 year or 3 years, and it will be a matter wholly within the control of Congress by the act of submission, whereas the Constitution itself places no limit upon it at all, and that is a vital, .substantial, el~ntal provision of the Constitution.",
+      "uncertain": [
+        {
+          "end": 33,
+          "readings": {
+            "primary": "l\\Ir"
+          },
+          "start": 29
+        },
+        {
+          "end": 407,
+          "readings": {
+            "microfilm": "[Mr.",
+            "primary": "[Ml!."
+          },
+          "start": 402
+        },
+        {
+          "end": 485,
+          "readings": {
+            "microfilm": "of",
+            "primary": "o~"
+          },
+          "start": 483
+        },
+        {
+          "end": 519,
+          "readings": {
+            "microfilm": "constitutional",
+            "primary": "con. titutional"
+          },
+          "start": 504
+        },
+        {
+          "end": 710,
+          "readings": {
+            "microfilm": "Constitution",
+            "primary": "Don t~ution"
+          },
+          "start": 699
+        },
+        {
+          "end": 774,
+          "readings": {
+            "microfilm": "weoman-suffrage",
+            "primary": "w0ma.n-suffrag.e"
+          },
+          "start": 758
+        },
+        {
+          "end": 790,
+          "readings": {
+            "microfilm": "cemes",
+            "primary": "c9mes"
+          },
+          "start": 785
+        },
+        {
+          "end": 822,
+          "readings": {
+            "microfilm": "of",
+            "primary": "Q:f"
+          },
+          "start": 819
+        },
+        {
+          "end": 944,
+          "readings": {
+            "microfilm": "8",
+            "primary": "3"
+          },
+          "start": 943
+        },
+        {
+          "end": 1146,
+          "readings": {
+            "microfilm": "elemental",
+            "primary": "el~ntal"
+          },
+          "start": 1139
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 37",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.37",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. President, if I have an opportunity, I shall vote against these amendments, because I think they are dangerous in their import. While I am in favor of the amendment, I am opposed to these changes. I think they should by no means be here. I do not think the friends of the measure should thus endanger the whole proceedings."
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 38",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.38",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. LEWIS. Before the Senator sits down may I ask the Senator, to test his position, suppose Congress should reverse the matter and put in a .Provision that this adoption shall not take effect for 20 years instead of saying within the time it should do so, that it actually said it shall not take effect for 20 years, does the Senator assume that that would be legal?"
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 39",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.39",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BORAH. I do not."
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 40",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.40",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. LEWIS. Then if it could provide in what time it should go into effect, could it not also provide what time it should not go into effect?"
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 41",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.41",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BORAH. If I caught the question, I say yes."
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 42",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.42",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. LEWIS. I was very much interested in the · senator's po ition. If Congress has the right to -put a time limit as to when this amendment shall go into effect it would equally have the right to put a limit when it should not go into effect.",
+      "uncertain": [
+        {
+          "end": 66,
+          "readings": {
+            "microfilm": "position.",
+            "primary": "po ition."
+          },
+          "start": 57
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 43",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.43",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BORAH. I think so."
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 44",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.44",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. LEWIS. Then if the Senator's argument is well taken, would not the final effect be that if Congress could put a limit as to when it should go into effect it could equally put one in when it should not go into effect?"
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 45",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.45",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BORAH. I think so."
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 46",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.46",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "l\\fr_ LEWIS. Therefore, if we could say it should not go into effect for 20 years, could we not also say when it could not go into effect? Not for 20 years, and would not that practically work an absolute obviation of the effect of the amendment by putting a limit of time at such a distance as to make it im· po. sible to reach the object we might have in view? · fr. BORAH. If I understand the Senator, I am in harmony with the view he expresses.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "l\\fr_"
+          },
+          "start": 0
+        },
+        {
+          "end": 319,
+          "readings": {
+            "microfilm": "possible",
+            "primary": "po. sible"
+          },
+          "start": 310
+        },
+        {
+          "end": 368,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "fr."
+          },
+          "start": 365
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 47",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.47",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. LEWIS. Would that be the operation according to the Senator's contention?"
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 48",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.48",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1\\.Ir. BORAH. That is my opinion.",
+      "uncertain": [
+        {
+          "end": 6,
+          "readings": {
+            "primary": "1\\.Ir."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 49",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.49",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "1\\lr. BRANDEGEE. Will the Senator, before he takes his seat, let me ask him a que tion? ·",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "microfilm": "Mr.",
+            "primary": "1\\lr."
+          },
+          "start": 0
+        },
+        {
+          "end": 87,
+          "readings": {
+            "microfilm": "question?",
+            "primary": "que tion?"
+          },
+          "start": 78
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 50",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.50",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Referring to the amendment' which the Senator from Idaho [1\\lr. BoRAH] has been discussing, I did not hear the first part of his remarks, and therefore he may have answered the question I am about to ask, but I will ask it again. The amendment reads as follows :",
+      "uncertain": [
+        {
+          "end": 63,
+          "readings": {
+            "primary": "[1\\lr."
+          },
+          "start": 57
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 51",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.51",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "This article shall be inoperative unless it shall have been ratified as an amendment to the Constitution ey the legislatures of the several States, as provided in the Constitution, within seven years from the date of the submission hereof to the States by the Congress.",
+      "uncertain": [
+        {
+          "end": 107,
+          "readings": {
+            "microfilm": "hy",
+            "primary": "ey"
+          },
+          "start": 105
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 52",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.52",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Does the 3enatoc think that that ameuament attached te the prope ed censtitution.al amendment Jillakes the entire submi mission void, or does be think that it would only be regarded as surplusage if Congress had po authority to put it on?",
+      "uncertain": [
+        {
+          "end": 16,
+          "readings": {
+            "microfilm": "Senatar",
+            "primary": "3enatoc"
+          },
+          "start": 9
+        },
+        {
+          "end": 42,
+          "readings": {
+            "microfilm": "amendment",
+            "primary": "ameuament"
+          },
+          "start": 33
+        },
+        {
+          "end": 54,
+          "readings": {
+            "microfilm": "to",
+            "primary": "te"
+          },
+          "start": 52
+        },
+        {
+          "end": 67,
+          "readings": {
+            "microfilm": "propesed",
+            "primary": "prope ed"
+          },
+          "start": 59
+        },
+        {
+          "end": 102,
+          "readings": {
+            "microfilm": "makes",
+            "primary": "Jillakes"
+          },
+          "start": 94
+        },
+        {
+          "end": 119,
+          "readings": {
+            "microfilm": "sul",
+            "primary": "submi"
+          },
+          "start": 114
+        },
+        {
+          "end": 144,
+          "readings": {
+            "microfilm": "he",
+            "primary": "be"
+          },
+          "start": 142
+        },
+        {
+          "end": 214,
+          "readings": {
+            "microfilm": "no",
+            "primary": "po"
+          },
+          "start": 212
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 53",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.53",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BORAH. Mr. President, I am not prepared to say I have not reached a conclusion as to what would be the effect of that amendment. Of course, one of two things must necessarily follow; either it will be held surplusage, and, therefore, :rrot effective at all, or the court would hold that Congress, not having submitted it in accordance with tll.e pi'Oviston~ of the Constitution, it would be no submission at all. If I felt perfectly clear that it would be held surplusage, I should not be unea y ab'out the situation; but when the Constitution of the United S'tates provides the manner in which an amendment shall be submitted, prescribes how it shall go to the States, and under what terms and conditions, I do not see how it can be submitted at all except in accordance with those terms and conditions. That is what I have great fear of-that it will be held not to have been a submission at all.",
+      "uncertain": [
+        {
+          "end": 243,
+          "readings": {
+            "microfilm": "not",
+            "primary": ":rrot"
+          },
+          "start": 238
+        },
+        {
+          "end": 349,
+          "readings": {
+            "microfilm": "the",
+            "primary": "tll.e"
+          },
+          "start": 344
+        },
+        {
+          "end": 361,
+          "readings": {
+            "microfilm": "prowisions",
+            "primary": "pi'Oviston~"
+          },
+          "start": 350
+        },
+        {
+          "end": 499,
+          "readings": {
+            "microfilm": "uheasy",
+            "primary": "unea y"
+          },
+          "start": 493
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 54",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.54",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BRANDEGEEl. Let me ask the Senator a further q.uestion. The amendatory section provides that the proposed amendment in its entirety shall, unless it is all accepted within seven years, become inoperative. If Congress has no authority to put that on, the further question might arise as to whether or not the whole submission process is still in operation. Then, even if three-fourths of the States did ratify it, we would still have a lawsuit carried to the Supreme Court to find whether it has been adopted or not. In other words, the minute it be· comes inoperative, tf this is a valid amendment at all, so as to work, then it is withdrawn from further submission to the States or from further action by the States.",
+      "uncertain": [
+        {
+          "end": 15,
+          "readings": {
+            "microfilm": "BRANDEGEER.",
+            "primary": "BRANDEGEEl."
+          },
+          "start": 4
+        },
+        {
+          "end": 575,
+          "readings": {
+            "microfilm": "if",
+            "primary": "tf"
+          },
+          "start": 573
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 55",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.55",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. BORAH. Of course, Mr. President, these changes were not inserted without a purpose and I fear the purpose was not one friendly to the cause."
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 56",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.56",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "To recapitulate the Constitution of the United States as it ' now stands provides that a proposed amendment to the Constitution shall become a part of the Constitution \"when ratified by the legislature of three-fourths of the several States.\" \"When;\" that is, as soon after submission as tHree-fourths of the States ratify, it shall become a part o:f the Constitution. Now, this provision of ours which we are submitting says that it shall not become a part of the Constitution when ratified b~ three-fourths of the States, but not until one year thereafter. That is in direct conflict with the express language of article V of the Constitution. Then, again, the Constitution of the United States as it now stands provides \"when ratified by the legislature of three-fourths of the several States,\" placing no limit upon the time. Is there any doubt but what if this pro• posed amendment were submitted L the States they would have a right to ratify it within 10 years or at any other time? Can it be contended for a moment that we can amend the Constitutioa by putting into a proposed amendment a different rule of ratification as to time than that which is now in the Constitution, and which will be in the Constitution and a part of the Constitution after this amendment is voted upon by three- fourths of the States? This is not a proposition to amend the Constitution providing a different time within which to ratify; This is simply a proposition to provide a different time in this particular submission than that which obtains in the general provision of the Constitution. We ignore the clear, unmistakable terms of the Constitution in this submission, both a to the time when the constitutional provision will begin to have effect and as ta the time within which the States mu t ratify. • w, other friends of this amendment seem willing to take the chance. I am not. I shall therefore vote against these propo ed changes. I want this amendment to go to the States in a way thu t when a sufficient number shall have ratified it there will be no doubt of its being a part of the Constitution.",
+      "uncertain": [
+        {
+          "end": 494,
+          "readings": {
+            "microfilm": "by",
+            "primary": "b~"
+          },
+          "start": 492
+        },
+        {
+          "end": 903,
+          "readings": {
+            "microfilm": "t’",
+            "primary": "L"
+          },
+          "start": 902
+        },
+        {
+          "end": 1057,
+          "readings": {
+            "microfilm": "Coustitutioa",
+            "primary": "Constitutioa"
+          },
+          "start": 1045
+        },
+        {
+          "end": 1666,
+          "readings": {
+            "microfilm": "as",
+            "primary": "a"
+          },
+          "start": 1665
+        },
+        {
+          "end": 1673,
+          "readings": {
+            "microfilm": "t]",
+            "primary": "the"
+          },
+          "start": 1670
+        },
+        {
+          "end": 1748,
+          "readings": {
+            "microfilm": "to",
+            "primary": "ta"
+          },
+          "start": 1746
+        },
+        {
+          "end": 1786,
+          "readings": {
+            "microfilm": "must",
+            "primary": "mu t"
+          },
+          "start": 1782
+        },
+        {
+          "end": 1799,
+          "readings": {
+            "microfilm": "Now,",
+            "primary": "w,"
+          },
+          "start": 1797
+        },
+        {
+          "end": 1920,
+          "readings": {
+            "microfilm": "proposed",
+            "primary": "propo ed"
+          },
+          "start": 1912
+        },
+        {
+          "end": 1986,
+          "readings": {
+            "microfilm": "that",
+            "primary": "thu t"
+          },
+          "start": 1981
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 57",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.57",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. SHEPPARD. Mr. President, as the Senator from Idaho [Mr. BoRAH] stated, this phase of the amendment was discu sed and passed on when the amendment was before the Senate on a former occasion. It was the judgment of the Senate that there was . s no question as to the power of Congress to submit the amendment in this form, and I ask for a vote.",
+      "uncertain": [
+        {
+          "end": 116,
+          "readings": {
+            "microfilm": "discussed",
+            "primary": "discu sed"
+          },
+          "start": 107
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 58",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.58",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "The VICE PRESIDENT. Those in favor of concurring 1n the amendments will rise. That is the only. way the Chair can determine the question. [A pause.] Those opposed will ri e. [A pause.] The vote is 47 ~yes and 8 noes. The amendments are concurred in and the joint resolution is adopted.",
+      "uncertain": [
+        {
+          "end": 51,
+          "readings": {
+            "microfilm": "in",
+            "primary": "1n"
+          },
+          "start": 49
+        },
+        {
+          "end": 173,
+          "readings": {
+            "microfilm": "rise.",
+            "primary": "ri e."
+          },
+          "start": 168
+        },
+        {
+          "end": 204,
+          "readings": {
+            "microfilm": "ayes",
+            "primary": "~yes"
+          },
+          "start": 200
+        }
+      ]
+    },
+    {
+      "label": "Senate, December 18, 1917, ¶ 59",
+      "pages": [
+        "478"
+      ],
+      "ref": "Senate1917b.Dec18.59",
+      "scan": {
+        "item": "GPO-CRECB-1918-pt1-v56-13-1",
+        "leaves": [
+          3
+        ],
+        "microfilm": {
+          "item": "sim_congressional-record-proceedings-and-debates_december-03-1917-january-19-1918_56",
+          "leaves": [
+            482
+          ]
+        },
+        "site": "govinfo"
+      },
+      "text": "Mr. ROBINSON. I desire to announce that the junior Senn .. tor from Arkansas [1\\:Ir. KnmY] is absent on account of illness in his family. If he had been pre ent on the vote in relation to the adoption of the amendment proposed by the House of Rep- . resentatives to the joint resolution relating t-o national prohibi· tion, he would have voted \" yea.\"",
+      "uncertain": [
+        {
+          "end": 55,
+          "readings": {
+            "microfilm": "Sena-",
+            "primary": "Senn"
+          },
+          "start": 51
+        },
+        {
+          "end": 58,
+          "readings": {
+            "primary": ".."
+          },
+          "start": 56
+        },
+        {
+          "end": 84,
+          "readings": {
+            "microfilm": "[Mr.",
+            "primary": "[1\\:Ir."
+          },
+          "start": 77
+        },
+        {
+          "end": 90,
+          "readings": {
+            "microfilm": "Krrsy]",
+            "primary": "KnmY]"
+          },
+          "start": 85
+        },
+        {
+          "end": 160,
+          "readings": {
+            "microfilm": "present",
+            "primary": "pre ent"
+          },
+          "start": 153
+        },
+        {
+          "end": 217,
+          "readings": {
+            "microfilm": "amendments",
+            "primary": "amendment"
+          },
+          "start": 208
+        }
+      ]
+    }
+  ],
+  "short": "Senate debates, 1917 (2d session)",
+  "source_ids": [
+    "govinfo-crecb-1918-pt1-v56-13-1",
+    "govinfo-crecb-1918-pt1-v56-mods",
+    "ia-record-1918-pt1-v56-text",
+    "ia-record-1918-pt1-v56-pageindex",
+    "ia-record-1918-pt1-v56-pages"
+  ],
+  "title": "Debates in the Senate on the Eighteenth Amendment, 1917 (2d session)"
+}

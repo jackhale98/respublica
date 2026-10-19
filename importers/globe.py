@@ -704,16 +704,21 @@ def span_blocks(first: int, last: int, year: int = 1866) -> tuple[Block, ...]:
     bs = blocks(cols)
     if not SESSIONS[year].refined:
         return tuple(bs)
-    # A paragraph set as a heading (taller type at the head of a column) that
-    # begins in lower case after a paragraph that stops mid-sentence goes on
-    # with it ("… Or, to be / explicit, were there no slavery all difficulty
-    # would vanish."), or that has a quotation mark in it ("… the word" /
-    # race," has been stricken out.").
+    return tuple(rejoin(bs, lambda b: subject_of(b, SESSIONS[year].headings, True) is not None))
+
+
+def rejoin(bs: list[Block], keep=lambda b: False) -> list[Block]:
+    """A paragraph set as a heading (taller type at the head of a column) that
+    begins in lower case after a paragraph that stops mid-sentence goes on
+    with it ("… Or, to be / explicit, were there no slavery all difficulty
+    would vanish."), or that has a quotation mark in it ("… the word" /
+    race," has been stricken out."); unless `keep` says it is a heading.
+    Shared with `importers.record`."""
     out: list[Block] = []
     for b in bs:
         prev = out[-1] if out else None
         if (prev is not None and b.heading and b.kind == prev.kind == "text" and re.match(r"[a-z]", b.text)
-                and subject_of(b, SESSIONS[year].headings, True) is None
+                and not keep(b)
                 and (not re.search(r"[.?!:;][\"'”’)\]]*$", re.sub(r"[/|\\^*•\s]+$", "", prev.text)) or '"' in b.text)):
             prev.text = join_across(prev.text, b.text)
             for leaf, folio in zip(b.leaves, b.folios):
@@ -722,7 +727,7 @@ def span_blocks(first: int, last: int, year: int = 1866) -> tuple[Block, ...]:
                     prev.folios.append(folio)
             continue
         out.append(b)
-    return tuple(out)
+    return out
 
 
 def day_items(house: str, date: dt.date, first: int, last: int) -> list[Item]:

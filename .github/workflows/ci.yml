@@ -18,15 +18,35 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version-file: .python-version
-      # Raw sources kept out of git (the U.S. Reports scans, decision 49): cached, then fetched if missing.
+      # Raw sources kept out of git (decisions 49 and 61): cached, then fetched if missing. Each family
+      # has its own key (python -m tools.fetch cache-keys), so new files of one family save only that family.
+      - id: raw-keys
+        run: python -m tools.fetch cache-keys >> "$GITHUB_OUTPUT"
       - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          path: |
-            sources/raw/loc-usrep-*.pdf
-            sources/raw/ia-annals-*
-            sources/raw/ia-globe-*
-          key: raw-${{ hashFiles('sources/manifest.json') }}
-          restore-keys: raw-
+          path: sources/raw/loc-usrep-*.pdf
+          key: raw-usrep-${{ steps.raw-keys.outputs.usrep }}
+          restore-keys: raw-usrep-
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/ia-annals-*
+          key: raw-annals-${{ steps.raw-keys.outputs.annals }}
+          restore-keys: raw-annals-
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/ia-globe-*
+          key: raw-globe-${{ steps.raw-keys.outputs.globe }}
+          restore-keys: raw-globe-
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/govinfo-crecb-*
+          key: raw-govinfo-${{ steps.raw-keys.outputs.govinfo }}
+          restore-keys: raw-govinfo-
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/ia-record-*
+          key: raw-iarecord-${{ steps.raw-keys.outputs.iarecord }}
+          restore-keys: raw-iarecord-
       - run: make fetch
       - run: make verify
 

@@ -103,11 +103,92 @@ WORKS = {
                    "Fifteenth Amendment: every item headed “Suffrage Constitutional Amendment” in which the Senate "
                    "took them up, and its sitting of January 30, as printed in the Congressional Globe, from "
                    "January 21 to the conference report of February 26, 1869."},
+    # The Sixteenth to Nineteenth Amendments, from the Congressional Record (decision 61).
+    "senate-sixteenth-amendment-1909": {
+        "collection": "congress", "order": 6.31, "paged": True, "short": "Senate debates, 1909",
+        "slug": "senate-sixteenth-amendment-1909", "group": "The Sixteenth Amendment, 1909",
+        "printed_in": "Congressional Record",
+        "summary": ("The Senate's debate on the joint resolution (S. J. Res. 40) proposing the Sixteenth Amendment: every"
+                   " item headed with its subject (“Tax on Incomes”, “Taxes on Incomes”) in which the Senate took it up,"
+                   " as printed in the Congressional Record, July 3 and 5, 1909, with the vote of July 5.")},
+    "house-sixteenth-amendment-1909": {
+        "collection": "congress", "order": 6.32, "paged": True, "short": "House debates, 1909",
+        "slug": "house-sixteenth-amendment-1909", "group": "The Sixteenth Amendment, 1909",
+        "printed_in": "Congressional Record",
+        "summary": ("The House of Representatives' debate on the Senate's joint resolution (S. J. Res. 40) proposing the "
+                   "Sixteenth Amendment: the item headed “Income Tax—Constitutional Amendment” of July 12, 1909, as "
+                   "printed in the Congressional Record, with the vote.")},
+    "house-seventeenth-amendment-1911": {
+        "collection": "congress", "order": 6.41, "paged": True, "short": "House debates, 1911",
+        "slug": "house-seventeenth-amendment-1911", "group": "The Seventeenth Amendment, 1911–12",
+        "printed_in": "Congressional Record",
+        "summary": ("The House of Representatives' debates on the joint resolution (H. J. Res. 39) proposing the "
+                   "Seventeenth Amendment in the first session of the Sixty-second Congress: every item headed with its "
+                   "subject (“Election of Senators”, “Election of Senators by the People”) in which the House took it "
+                   "up, as printed in the Congressional Record, from the vote of April 13 to July 15, 1911.")},
+    "senate-seventeenth-amendment-1911": {
+        "collection": "congress", "order": 6.42, "paged": True, "short": "Senate debates, 1911",
+        "slug": "senate-seventeenth-amendment-1911", "group": "The Seventeenth Amendment, 1911–12",
+        "printed_in": "Congressional Record",
+        "summary": ("The Senate's debates on the House's joint resolution (H. J. Res. 39) proposing the Seventeenth "
+                   "Amendment: every item headed “Election of Senators by Direct Vote” or “Election of Senators by the People” in which the Senate took it up, "
+                   "and the few under other headings the Record's index lists, as printed in the Congressional Record, "
+                   "from April 17 to July 14, 1911, with the vote of June 12.")},
+    "senate-seventeenth-amendment-1912": {
+        "collection": "congress", "order": 6.43, "paged": True, "short": "Senate debates, 1912",
+        "slug": "senate-seventeenth-amendment-1912", "group": "The Seventeenth Amendment, 1911–12",
+        "printed_in": "Congressional Record",
+        "summary": ("The Senate's proceedings on the joint resolution (H. J. Res. 39) proposing the Seventeenth Amendment"
+                   " in the second session of the Sixty-second Congress: the items headed “Election of Senators by "
+                   "Direct Vote” of April 17 and 23, 1912, as printed in the Congressional Record.")},
+    "house-seventeenth-amendment-1912": {
+        "collection": "congress", "order": 6.44, "paged": True, "short": "House debates, 1912",
+        "slug": "house-seventeenth-amendment-1912", "group": "The Seventeenth Amendment, 1911–12",
+        "printed_in": "Congressional Record",
+        "summary": ("The House of Representatives' proceedings on the Senate's amendment to the joint resolution (H. J. "
+                   "Res. 39) proposing the Seventeenth Amendment: the items headed with its subject of April 26 and May "
+                   "13, 1912, as printed in the Congressional Record, with the vote of May 13.")},
+    "senate-eighteenth-amendment-1917": {
+        "collection": "congress", "order": 6.51, "paged": True, "short": "Senate debates, 1917",
+        "slug": "senate-eighteenth-amendment-1917", "group": "The Eighteenth Amendment, 1917",
+        "printed_in": "Congressional Record",
+        "summary": ("The Senate's debate on the joint resolution (S. J. Res. 17) proposing the Eighteenth Amendment: "
+                   "every item headed “National Prohibition” or “Nation-wide Prohibition” in which the Senate took it "
+                   "up, as printed in the Congressional Record, from July 9 to the vote of August 1, 1917.")},
+    "house-eighteenth-amendment-1917b": {
+        "collection": "congress", "order": 6.52, "paged": True, "short": "House debates, 1917 (2d session)",
+        "slug": "house-eighteenth-amendment-1917b", "group": "The Eighteenth Amendment, 1917",
+        "printed_in": "Congressional Record",
+        "summary": ("The House of Representatives' debate on the Senate's joint resolution (S. J. Res. 17) proposing the "
+                   "Eighteenth Amendment: the items headed “Vote on the Prohibition Amendment” (December 15) and "
+                   "“National Prohibition” (December 17, 1917, with the vote), as printed in the Congressional Record.")},
+    "senate-eighteenth-amendment-1917b": {
+        "collection": "congress", "order": 6.53, "paged": True, "short": "Senate debates, 1917 (2d session)",
+        "slug": "senate-eighteenth-amendment-1917b", "group": "The Eighteenth Amendment, 1917",
+        "printed_in": "Congressional Record",
+        "summary": ("The Senate's proceedings of December 18, 1917, on the House's amendments to the joint resolution (S."
+                   " J. Res. 17) proposing the Eighteenth Amendment: the item headed “National Prohibition”, as printed "
+                   "in the Congressional Record, with the vote.")},
+    "house-nineteenth-amendment-1919": {
+        "collection": "congress", "order": 6.61, "paged": True, "short": "House debates, 1919",
+        "slug": "house-nineteenth-amendment-1919", "group": "The Nineteenth Amendment, 1919",
+        "printed_in": "Congressional Record",
+        "summary": ("The House of Representatives' debate on the joint resolution (H. J. Res. 1) proposing the Nineteenth"
+                   " Amendment: the item headed “Woman Suffrage” of May 21, 1919, as printed in the Congressional "
+                   "Record, with the vote.")},
+    "senate-nineteenth-amendment-1919": {
+        "collection": "congress", "order": 6.62, "paged": True, "short": "Senate debates, 1919",
+        "slug": "senate-nineteenth-amendment-1919", "group": "The Nineteenth Amendment, 1919",
+        "printed_in": "Congressional Record",
+        "summary": ("The Senate's debate on the House's joint resolution (H. J. Res. 1) proposing the Nineteenth "
+                   "Amendment: every item headed “Woman Suffrage” in which the Senate took it up, and the motion of June"
+                   " 3 to take it up, as printed in the Congressional Record, from May 23 to the vote of June 4, 1919.")},
 }
 
 # Collections of works shown on one page each.
 CONGRESS_GROUPS = ("The Bill of Rights, 1789", "The Thirteenth Amendment, 1864–65", "The Fourteenth Amendment, 1866",
-                   "The Fifteenth Amendment, 1869")
+                   "The Fifteenth Amendment, 1869", "The Sixteenth Amendment, 1909", "The Seventeenth Amendment, 1911–12",
+                   "The Eighteenth Amendment, 1917", "The Nineteenth Amendment, 1919")
 
 # Essays and letters of the ratification debate (texts with a `position`)
 # get their settings from the text: one page per essay for a series, one
@@ -190,9 +271,20 @@ LOC_PAGE_URL = "https://www.loc.gov/resource/{item}/{issue}/ed-1/?sp={n}"
 LOC_IMAGE_URL = "https://tile.loc.gov/image-services/iiif/{image}/pct:{x},{y},{w},{h}/pct:100/0/default.jpg"
 LOC_IMAGE_ID = re.compile(r"^service(?::[A-Za-z0-9_-]+)+$")
 LOC_ISSUE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+# The bound Congressional Record (decision 61): a page of govinfo's PDF of a
+# house's day (a granule of its part's package), and on the errata page the
+# same printed page in the Internet Archive's microfilm (govinfo serves no
+# page images).
+GOVINFO_PAGE_URL = "https://www.govinfo.gov/content/pkg/{package}/pdf/{granule}.pdf#page={n}"
+GOVINFO_GRANULE = re.compile(r"^(GPO-CRECB-\d{4}-pt\d+[A-Z]?(?:-v\d+)?)-\d+-\d+$")
 
 
 def scan_url(item: str, leaf: int, site: str = "archive.org", scan: dict | None = None) -> str:
+    if site == "govinfo":
+        m = GOVINFO_GRANULE.match(item)
+        if not m:
+            raise ValueError(f"unexpected govinfo granule {item!r}")
+        return GOVINFO_PAGE_URL.format(package=m.group(1), granule=item, n=leaf)
     if site == "unt":
         return UNT_PAGE_URL.format(item=item, n=leaf)
     if site == "loc":
@@ -203,6 +295,10 @@ def scan_url(item: str, leaf: int, site: str = "archive.org", scan: dict | None 
 
 
 def scan_image(item: str, leaf: int, site: str = "archive.org", scan: dict | None = None) -> str:
+    if site == "govinfo":
+        film = scan["microfilm"]
+        k = min(scan["leaves"].index(leaf), len(film["leaves"]) - 1)
+        return SCAN_IMAGE_URL.format(item=film["item"], n=film["leaves"][k] - 1)
     if site == "unt":
         return UNT_IMAGE_URL.format(item=item, n=leaf)
     if site == "loc":
