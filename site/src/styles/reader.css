@@ -289,6 +289,19 @@
 .conn blockquote { margin: .45rem 0 0; padding-left: .7rem; border-left: 2px solid var(--border-strong); font: italic 400 .92rem/1.5 var(--font-serif); color: var(--text-muted); }
 .conn blockquote mark { color: var(--text); font-style: normal; background: var(--highlight-soft); border-radius: 2px; padding: 0 .1em; }
 .conn .why { margin: .45rem 0 0; color: var(--text-muted); }
+.conn-pv {
+  margin-left: auto; padding: .25rem .6rem; border-radius: 999px; border: 1px solid var(--border);
+  background: var(--bg-raised); color: var(--text-muted); font: 600 .74rem/1 var(--font-sans); cursor: pointer;
+}
+.conn-pv:hover, .conn-pv[aria-expanded="true"] { color: var(--text); border-color: var(--border-strong); }
+.conn-preview { margin-top: .6rem; padding: .7rem .8rem; border-radius: var(--radius); background: var(--bg-subtle); }
+.pv-meta { margin: 0 0 .4rem; font-size: .8rem; color: var(--text-muted); }
+.pv-text { max-height: 18rem; overflow: auto; font: 400 .95rem/1.55 var(--font-serif); color: var(--text); overflow-wrap: anywhere; }
+.pv-text p { margin: 0 0 .55rem; }
+.pv-text p:last-child { margin-bottom: 0; }
+.pv-text mark { background: var(--highlight-soft); color: inherit; border-radius: 2px; padding: 0 .1em; }
+.pv-note { margin: .45rem 0 0; font-size: .78rem; color: var(--text-faint); }
+.pv-go { display: inline-block; margin-top: .5rem; font-weight: 600; font-size: .84rem; }
 .conn .src { margin: .3rem 0 0; color: var(--text-faint); font-size: .8rem; }
 
 .panel-passage[hidden], .panel-default[hidden] { display: none; }

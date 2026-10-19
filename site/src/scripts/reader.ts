@@ -18,9 +18,9 @@ let selected: HTMLElement | null = null;
 // ---------------------------------------------------------------- connections
 
 type Conn = {
-  verb: string; status: string; other_label: string; other_url: string | null;
+  verb: string; status: string; other: string; other_label: string; other_url: string | null;
   other_overruled?: boolean; other_quote?: string; rationale?: string; source?: string;
-  other_excerpt?: { before: string; quote: string; after: string };
+  other_excerpt?: { before: string; quote: string; after: string }; other_whole?: boolean;
 };
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
 const connUrl = document.querySelector<HTMLElement>("[data-reader]")?.dataset.connUrl;
@@ -35,7 +35,88 @@ function el<K extends keyof HTMLElementTagNameMap>(tag: K, cls?: string, text?: 
   return e;
 }
 
-function renderConn(c: Conn): HTMLLIElement {
+// ---------------------------------------------------------------- previews
+// A connection's far end, read in the panel: one small file per passage
+// (/data/preview/{ref}.json), fetched the first time a preview is opened.
+
+type Preview = {
+  label: string; url: string | null; text?: string; clipped?: boolean; more?: number; note?: string;
+  case?: { date?: string; us_cite?: string; docket?: string };
+};
+const previewData = new Map<string, Promise<Record<string, Preview>>>();
+const loadPreviews = (ref: string) => {
+  if (!previewData.has(ref)) {
+    previewData.set(ref, fetch(`${BASE}/data/preview/${encodeURIComponent(ref)}.json`)
+      .then((r) => (r.ok ? r.json() : {})).catch(() => ({})));
+  }
+  return previewData.get(ref)!;
+};
+const localHref = (url: string | null) => (url && url.startsWith("/") && !url.startsWith("//") ? BASE + url : null);
+
+function caseLine(c: NonNullable<Preview["case"]>): string {
+  const parts = [c.us_cite || (c.docket ? `No. ${c.docket}` : "")];
+  if (c.date) {
+    const d = c.date.length === 4 ? c.date
+      : new Date(`${c.date}T12:00:00Z`).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
+    parts.push(`decided ${d}`);
+  }
+  return parts.filter(Boolean).join(", ");
+}
+
+function renderPreview(pv: Preview, quote?: string): HTMLElement {
+  const box = el("div", "conn-preview");
+  if (pv.case) box.append(el("p", "pv-meta", caseLine(pv.case)));
+  if (pv.text) {
+    const text = el("div", "pv-text");
+    for (const para of pv.text.split("\n\n")) {
+      const p = el("p");
+      const at = quote ? para.indexOf(quote) : -1;
+      if (at >= 0) p.append(para.slice(0, at), el("mark", undefined, quote), para.slice(at + quote!.length));
+      else p.textContent = para;
+      text.append(p);
+    }
+    box.append(text);
+  }
+  const notes = [pv.note, pv.more ? `${pv.more} more ${pv.more === 1 ? "paragraph" : "paragraphs"}` : ""].filter(Boolean);
+  if (notes.length) box.append(el("p", "pv-note", notes.join(" · ")));
+  const go = localHref(pv.url);
+  if (go) {
+    const a = el("a", "pv-go", pv.case ? "Open the case" : pv.clipped || pv.more ? "Read it all" : "Go to passage");
+    a.href = go;
+    a.append(el("span", undefined, " →"));
+    box.append(a);
+  }
+  return box;
+}
+
+function previewToggle(c: Conn, here: string, li: HTMLLIElement): HTMLButtonElement {
+  const b = el("button", "conn-pv", "Preview");
+  b.type = "button";
+  b.setAttribute("aria-expanded", "false");
+  b.setAttribute("aria-label", `Preview ${c.other_label}`);
+  b.addEventListener("click", async (e) => {
+    e.stopPropagation();
+    const open = b.getAttribute("aria-expanded") === "true";
+    // One preview open at a time.
+    panel?.querySelectorAll<HTMLButtonElement>(".conn-pv[aria-expanded=true]").forEach((x) => {
+      x.setAttribute("aria-expanded", "false");
+      x.textContent = "Preview";
+      x.closest(".conn")?.querySelector(".conn-preview")?.remove();
+    });
+    if (open) return;
+    b.setAttribute("aria-expanded", "true");
+    b.textContent = "Close";
+    const wait = loading("Loading…", "muted");
+    li.append(wait);
+    const pv = (await loadPreviews(here))[c.other];
+    wait.remove();
+    if (b.getAttribute("aria-expanded") !== "true") return;
+    li.append(pv ? renderPreview(pv, c.other_quote) : el("p", "pv-note", "No preview for this connection."));
+  });
+  return b;
+}
+
+function renderConn(c: Conn, here: string): HTMLLIElement {
   const li = el("li", `conn ${c.status}`);
   const top = el("div", "conn-top");
   top.append(el("span", "conn-verb", c.verb));
@@ -46,6 +127,7 @@ function renderConn(c: Conn): HTMLLIElement {
   }
   if (c.status === "reviewed") top.append(el("span", "badge reviewed", "Reviewed"));
   if (c.other_overruled) top.append(el("span", "badge overruled", "Overruled"));
+  if (!c.other_whole) top.append(previewToggle(c, here, li));
   li.append(top);
   const url = c.other_url;
   if (url && url.startsWith("/") && !url.startsWith("//")) {
@@ -97,7 +179,7 @@ function fillPanel(p: HTMLElement) {
     loadConns().then((data) => {
       if (selected !== p) return;
       const list = el("ul", "conn-list");
-      list.append(...(data[p.id] || []).map(renderConn));
+      list.append(...(data[p.id] || []).map((c) => renderConn(c, p.id)));
       conns.replaceChildren(list);
     });
   }

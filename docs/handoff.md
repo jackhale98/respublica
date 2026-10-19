@@ -84,12 +84,11 @@ Thirteenth and Fifteenth Amendments in the Globe, by the same rule.
    article or a whole amendment (`Amendment.14`, `Constitution.3`); they
    show on the case page but on no clause, since only passages list
    connections. Decide with the owner whether to show them on the heading.
-5. **Connection preview** (approved by the owner): in the passage panel,
-   a "Preview" toggle on each connection opens the linked passage's text in
-   place (a case: its name, date and first syllabus paragraph), with "Show
-   all" and "Go to passage". Data: one small file per page from
-   `tools/site_data.py` with the far ends' text, fetched on first use. One
-   preview open at a time; works by keyboard and on the phone sheet.
+5. **Overview map** (approved by the owner): a page at `/map/` with the
+   Constitution as a spine, the debate's links above each clause and the
+   cases below, arcs between essays, filters; data precomputed in
+   `tools/site_data.py`, a table without JavaScript (see decision 50 for the
+   preview it builds on).
 6. **Run 3: the debate and the Bill of Rights** (approved by the owner):
    `shared_theme` links from essays of the ratification debate to the
    amendment clauses that cover a guarantee the essay names (a free press,

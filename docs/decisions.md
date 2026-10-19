@@ -864,3 +864,22 @@ The project owner chose, when phase 7 resumed with a CourtListener token:
   the clusters whose first party and year match the Constitution
   Annotated's, then the one other opinions cite most. The case file records
   the clusters passed over.
+
+## 50. Reading a connection in place
+
+The project owner asked to read a linked passage without leaving the page,
+with a button to go to it.
+
+- **In the panel, not a hover card.** Each connection quotes the linked
+  passage: the sentence around the quoted words, or its opening words.
+  Where that is not the whole passage, a **Preview** button opens it under
+  the connection (one at a time), up to 1,500 characters ended at a word,
+  with **Read it all** or **Go to passage**. A case shows its citation,
+  date and the first paragraph of its syllabus (or why it has none) and
+  **Open the case**. Buttons, not hover, so it works by keyboard, by touch
+  and on the phone's bottom sheet.
+- **One small file per passage.** `tools/site_data.py` writes
+  `/data/preview/{ref}.json` for each passage with connections (898 files,
+  65 KB at most), fetched the first time a preview is opened there. A file
+  per page would have been almost 1 MB for the Constitution.
+

@@ -11,6 +11,7 @@ Output:
   site/.data/pages/{page}.json   one file per page: blocks to render
   site/.data/refs.json           ref -> {url, label} for every ref
   site/.data/graph/{page}.json   two-hop link neighborhoods of a page's passages
+  site/.data/preview/{ref}.json  the far ends of a passage's connections, to read in the panel
   site/.data/review/index.json   suggested links awaiting review, by batch
   site/.data/review/{batch}.json one batch's suggested links, with both passages
   site/.data/errata/index.json   words the scans could not settle, by work
@@ -211,7 +212,9 @@ def build_link_index(links: list[dict], corpus: Corpus) -> dict:
                 # The far passage's own words around the quote, so that a
                 # reader on a clause sees what the Federalist wrote, not only
                 # its quotation of the clause.
-                entry["other_excerpt"] = excerpt(far["text"], l.get(other_q))
+                entry["other_excerpt"] = ex = excerpt(far["text"], l.get(other_q))
+                if " ".join((ex["before"] + ex["quote"] + ex["after"]).split()) == " ".join(far["text"].split()):
+                    entry["other_whole"] = True  # the excerpt is the whole passage: nothing more to preview
             by_ref.setdefault(here, []).append(entry)
     return {"by_ref": by_ref, "overruled": sorted(overruled)}
 
@@ -845,6 +848,64 @@ def build(corpus: Corpus, links: list[dict]) -> tuple[dict, dict[str, dict], dic
     return site, pages, refs, graphs
 
 
+# ------------------------------------------------------------ connection previews
+
+PREVIEW_CHARS = 1500  # longer passages are previewed to here (at a word) and read in full on their page
+
+
+def clip(text: str) -> dict:
+    if len(text) <= PREVIEW_CHARS:
+        return {"text": text}
+    cut = text.rfind(" ", 0, PREVIEW_CHARS)
+    return {"text": text[:cut if cut > 0 else PREVIEW_CHARS].rstrip() + " …", "clipped": True}
+
+
+def preview_of(corpus: Corpus, ref: str, refs: dict[str, dict]) -> dict | None:
+    """What the panel shows when a reader previews a connection: the linked
+    passage's text; for a whole case, its name, date, citation and first
+    paragraph of syllabus; for a whole essay or article, its first passage."""
+    info = refs.get(ref, {"label": label_for(corpus, ref), "url": None})
+    out = {"label": info["label"], "url": info["url"]}
+    if ref in corpus.segments:
+        return out | clip(corpus.segments[ref]["text"])
+    case = next((w for w in corpus.works.values() if w.get("ref_prefix") == ref and ref.startswith("Case.")), None)
+    if case:
+        first = next((x for x in case.get("segments", []) if x.get("kind") == "syllabus"), None)
+        out |= {"case": {k: case[k] for k in ("date", "us_cite", "docket") if case.get(k)}}
+        if first:
+            out |= clip(first["text"]) | {"more": len(case["segments"]) - 1, "note": "From the syllabus as printed"}
+        else:
+            out["note"] = case.get("syllabus_note", "")
+        return out
+    under = corpus.passages(ref)
+    if not under:
+        return None
+    return out | clip(under[0]["text"]) | {"more": len(under) - 1, "note": "The first passage"}
+
+
+def build_previews(corpus: Corpus, pages: dict[str, dict], refs: dict[str, dict]) -> dict[str, dict]:
+    """Preview files, one per passage with connections: far end ref ->
+    preview. The reader fetches a passage's file the first time a preview
+    of one of its connections is opened, so even the busiest clause costs
+    one small request."""
+    out: dict[str, dict] = {}
+    for page in pages.values():
+        if page["kind"] not in ("work", "part", "case"):
+            continue
+        for b in page.get("blocks", []) + page.get("notes", []):
+            if b["type"] != "passage" or not b.get("connections"):
+                continue
+            previews = {}
+            for c in b["connections"]:
+                if c["other"] not in previews:
+                    pv = preview_of(corpus, c["other"], refs)
+                    if pv:
+                        previews[c["other"]] = pv
+            if previews:
+                out[b["ref"]] = previews
+    return out
+
+
 # ------------------------------------------------------------ review page
 
 REVIEW_GROUPS = [
@@ -982,10 +1043,13 @@ def main() -> None:
         shutil.rmtree(OUT)
     write_json(OUT / "site.json", site)
     write_json(OUT / "refs.json", refs)
+    previews = build_previews(corpus, pages, refs)
     for pid, page in pages.items():
         write_json(OUT / "pages" / f"{pid}.json", page)
     for pid, graph in graphs.items():
         write_json(OUT / "graph" / f"{pid}.json", graph)
+    for name, shard in previews.items():
+        write_json(OUT / "preview" / f"{name}.json", shard)
     proposed = [(path.stem, rec) for path, _, rec in load_links() if path.parent.name == "proposed"]
     review, batches = build_review(corpus, proposed, refs)
     write_json(OUT / "review" / "index.json", review)

@@ -21,6 +21,8 @@ export const loadPage = (id) => cached(`page:${id}`, () => readJson(path.join(DA
 export const loadRefs = () => cached("refs", () => readJson(path.join(DATA, "refs.json")));
 export const loadReview = () => cached("review", () => readJson(path.join(DATA, "review", "index.json")));
 export const loadReviewBatch = (b) => readJson(path.join(DATA, "review", `${b}.json`));
+export const listPreviews = () => fs.readdirSync(path.join(DATA, "preview")).filter((f) => f.endsWith(".json")).map((f) => f.slice(0, -5));
+export const loadPreview = (ref) => readJson(path.join(DATA, "preview", `${ref}.json`));
 export const loadErrata = () => cached("errata", () => readJson(path.join(DATA, "errata", "index.json")));
 export const loadErrataWork = (w) => readJson(path.join(DATA, "errata", `${w}.json`));
 export const loadManifest = () => cached("manifest", () => readJson(path.resolve(process.cwd(), "..", "sources", "manifest.json")));

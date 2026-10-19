@@ -172,3 +172,13 @@ class SheetTests(unittest.TestCase):
         self.assertEqual(len(sheets([{"ref": "X.1.1", "text": "short"}])), 1)
         long = [{"ref": f"X.1.{n}", "text": "w" * SHEET_TEXT_BYTES} for n in range(1, 4)]
         self.assertEqual(len(sheets(long + [{"kind": "footnote", "ref": "X.1.fn1", "text": "n"}])), 1)
+
+
+class PreviewTests(unittest.TestCase):
+    def test_a_long_passage_is_clipped_at_a_word(self):
+        from tools.site_data import PREVIEW_CHARS, clip
+        self.assertEqual(clip("Short."), {"text": "Short."})
+        long = clip("word " * PREVIEW_CHARS)
+        self.assertTrue(long["clipped"])
+        self.assertTrue(long["text"].endswith("word …"))
+        self.assertLessEqual(len(long["text"]), PREVIEW_CHARS + 2)
