@@ -213,7 +213,7 @@ The Globe prints three columns to a page in small type. Words and layout
 come from the University of North Texas Digital Library's OCR of its copy
 (`unt-globe-1866-p{page}-words` and `-text`, one pair per page), matched
 word for word and split into columns. They are checked against the
-Internet Archive's scans of two other copies: the University of Michigan's
+Internet Archive's scans of two other copies: the Lincoln Financial Foundation Collection's
 (part 3, to page 2880; OCR text) and a microfilm (part 4; DjVu XML, read
 column by column). Each word is in at least one reading; words the two
 could not settle are marked as uncertain. The microfilm's OCR is poor, so
