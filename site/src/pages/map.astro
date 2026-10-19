@@ -20,12 +20,8 @@ for (const item of map.spine) {
   if (!groups.length || groups.at(-1).name !== item.group) groups.push({ name: item.group, items: [] });
   groups.at(-1).items.push(item);
 }
-const works = Object.values(map.works).filter((w) => w.parts > 0);
-const unlinked = works.filter((w) => w.linked_parts === 0).map((w) => w.title);
-const partial = works.filter((w) => w.linked_parts > 0 && w.linked_parts < w.parts);
 const debateLinks = map.debate.length;
 const caseLinks = map.interprets.length;
-const reviewed = map.debate.filter((m) => m[3]).length + map.interprets.filter((m) => m[3]).length;
 ---
 <Base title="Map of connections" section="map" description="The founding documents passage by passage, with every link from the ratification debate and Congress above each clause and the Supreme Court cases that interpret it below.">
   <section class="page-head">
@@ -42,12 +38,7 @@ const reviewed = map.debate.filter((m) => m[3]).length + map.interprets.filter((
 
   <div class="container map-page" data-map data-base={href("/")}>
     <div class="map-note card">
-      <p>
-        <strong>What the map shows is where links have been made, not where the founders argued most.</strong>{" "}
-        {reviewed === 0 ? "Every link is still a suggestion awaiting review. " : `${formatNumber(reviewed)} links have been reviewed by a person. `}
-        Works only partly linked so far: {partial.map((w, i) => <Fragment>{i > 0 && ", "}{w.title} ({w.linked_parts} of {w.parts})</Fragment>)}.
-        {unlinked.length > 0 && ` Not linked yet: ${unlinked.join(", ")}.`}
-      </p>
+      <p><strong>What the map shows is where links have been made, not where the founders argued most.</strong></p>
     </div>
 
     <div class="map-filters" role="group" aria-label="Show" data-map-filters hidden>
