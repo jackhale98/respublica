@@ -93,6 +93,12 @@ def check_manifest() -> list[str]:
             errors.append(f"manifest {eid}: auth_env must name an environment variable, not hold a token")
         if e.get("encoding", "gzip") != "gzip":
             errors.append(f"manifest {eid}: encoding must be gzip (the only one fetch asks for)")
+        if "range" in e:
+            m = re.fullmatch(r"(\d+)-(\d+)", str(e["range"]))
+            if not m or int(m.group(2)) < int(m.group(1)):
+                errors.append(f"manifest {eid}: range must be first-last (bytes of the file at url)")
+            elif (ROOT / e["path"]).exists() and (ROOT / e["path"]).stat().st_size != int(m.group(2)) - int(m.group(1)) + 1:
+                errors.append(f"manifest {eid}: {e['path']} is not the size of its range {e['range']}")
         path = (ROOT / e["path"]).resolve()
         if RAW_DIR.resolve() not in path.parents:
             errors.append(f"manifest {eid}: path must be under sources/raw/")
@@ -135,11 +141,14 @@ def check_ocr_records(raw: dict[str, dict]) -> list[str]:
         elif not path.exists() or sha256_file(path) != r["sha256"]:
             errors.append(f"sources/ocr {rid}: {r['path']} is missing or does not match its sha256 (rerun its OCR)")
         images = r["images"]
-        src = raw.get(images.get("source"))
-        if src is None:
-            errors.append(f"sources/ocr {rid}: images come from {images.get('source')!r}, which is not in the manifest")
-        elif src["sha256"] != images.get("sha256"):
-            errors.append(f"sources/ocr {rid}: was read from a different file than {src['id']} (rerun its OCR)")
+        # One file of page images ("source", "sha256"), or one file a page
+        # ("sources": [{"source", "sha256"}, …]; decision 59).
+        for img in images.get("sources") or [images]:
+            src = raw.get(img.get("source"))
+            if src is None:
+                errors.append(f"sources/ocr {rid}: images come from {img.get('source')!r}, which is not in the manifest")
+            elif src["sha256"] != img.get("sha256"):
+                errors.append(f"sources/ocr {rid}: was read from a different file than {src['id']} (rerun its OCR)")
         if not r["tools"] or not all(isinstance(v, str) and v for v in r["tools"].values()):
             errors.append(f"sources/ocr {rid}: tools must name each package and its version")
     if OCR_DIR.exists():

@@ -214,6 +214,35 @@ one work per house and session, with refs as for 1866:
 - Headings inside a speech ("LOYALTY.", in Yeaman's speech of January 9,
   1865) are paragraphs of the item, numbered with the rest.
 
+### The Eleventh and Twelfth Amendments, 1794 and 1802–03
+
+Each house's proceedings on the resolutions proposing the Eleventh
+Amendment (1794) and the Twelfth (1802, and 1803), imported by
+`importers/annals.py` from the Annals of Congress, volumes 4, 11 and 13
+(decision 59), one work per house and Congress, with refs as for 1789:
+
+| Work | Prefix | Days |
+|---|---|---|
+| `texts/senate-eleventh-amendment-1794.json` | `Senate1794` | January 2 – March 12, 1794 |
+| `texts/house-eleventh-amendment-1794.json` | `House1794` | January 15 – March 12, 1794 |
+| `texts/senate-twelfth-amendment-1802.json` | `Senate1802` | April 12 – May 3, 1802 |
+| `texts/house-twelfth-amendment-1802.json` | `House1802` | February 19 – May 1, 1802 |
+| `texts/senate-twelfth-amendment-1803.json` | `Senate1803` | October 21 – December 16, 1803 |
+| `texts/house-twelfth-amendment-1803.json` | `House1803` | October 17 – December 12, 1803 |
+
+- `Senate1803.Oct22`, `Senate1803.Oct22.{paragraph}`: one division per item,
+  named by its date; a second item of the same day takes a letter
+  (`Senate1802.May3b`, `House1803.Oct27b`). Each passage records the printed
+  columns it is on (`columns`).
+- An item printed under the subject's heading ("AMENDMENT TO THE
+  CONSTITUTION.") has that heading as its `title`; its paragraphs are
+  numbered from 1 after it.
+- An item printed without a heading (all of the Senate's proceedings of 1794
+  and 1802, which the Annals print as a journal, and the paragraphs in which
+  a house received, read, referred or postponed the resolution) has no
+  `title`; its paragraphs are numbered from the one that takes the
+  resolution up to the last before the house turns to other business.
+
 ## Retired refs
 
 Once the site has launched, a correction that joins two passages wrongly

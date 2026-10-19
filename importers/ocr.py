@@ -83,27 +83,52 @@ class Page:
     number: str | None = None  # printed page number, checked against nearby pages (settle_folios)
 
 
+def _djvu_page(obj: ET.Element, leaf: int) -> Page:
+    page = Page(leaf=leaf, width=int(obj.get("width", 0)), height=int(obj.get("height", 0)))
+    for para in obj.iter("PARAGRAPH"):
+        lines = []
+        for line in para.iter("LINE"):
+            words = []
+            for w in line.iter("WORD"):
+                c = [int(v) for v in (w.get("coords") or "0,0,0,0").split(",")[:4]]
+                x0, ybot, x1, ytop = c
+                words.append(Word(w.text or "", x0, min(ytop, ybot), x1, max(ytop, ybot),
+                                  int(w.get("x-confidence") or 0)))
+            if words:
+                lines.append(Line(words))
+        if lines:
+            page.paras.append(Para(lines, page.leaf))
+    return page
+
+
 def parse_djvu_xml(path: Path) -> list[Page]:
     """Pages from an Internet Archive DjVu XML file, in scan order."""
     pages: list[Page] = []
     for _, obj in ET.iterparse(path, events=("end",)):
         if obj.tag != "OBJECT":
             continue
-        page = Page(leaf=len(pages) + 1, width=int(obj.get("width", 0)), height=int(obj.get("height", 0)))
-        for para in obj.iter("PARAGRAPH"):
-            lines = []
-            for line in para.iter("LINE"):
-                words = []
-                for w in line.iter("WORD"):
-                    c = [int(v) for v in (w.get("coords") or "0,0,0,0").split(",")[:4]]
-                    x0, ybot, x1, ytop = c
-                    words.append(Word(w.text or "", x0, min(ytop, ybot), x1, max(ytop, ybot),
-                                      int(w.get("x-confidence") or 0)))
-                if words:
-                    lines.append(Line(words))
-            if lines:
-                page.paras.append(Para(lines, page.leaf))
-        pages.append(page)
+        pages.append(_djvu_page(obj, len(pages) + 1))
+        obj.clear()
+    return pages
+
+
+def parse_djvu_part(path: Path, base: int) -> list[Page]:
+    """Pages from part of an Internet Archive DjVu XML file (a run of its
+    OBJECT elements, as `tools.fetch` keeps a byte range of it). Each page's
+    leaf comes from the page name the file gives it ("…_0123.djvu"): `base`
+    is the number in the name of the scan's first page (1, or 0 in the
+    Internet Archive's microfilm scans)."""
+    import io
+    data = b"<DjVuXML><BODY>" + path.read_bytes() + b"</BODY></DjVuXML>"
+    pages: list[Page] = []
+    for _, obj in ET.iterparse(io.BytesIO(data), events=("end",)):
+        if obj.tag != "OBJECT":
+            continue
+        name = next((p.get("value", "") for p in obj.iter("PARAM") if p.get("name") == "PAGE"), "")
+        m = re.search(r"_(\d+)\.djvu$", name)
+        if not m:
+            raise ValueError(f"{path.name}: a page without a page name")
+        pages.append(_djvu_page(obj, int(m.group(1)) - base + 1))
         obj.clear()
     return pages
 
@@ -339,12 +364,15 @@ class Block:
     heading: bool = False  # set in type or placed as a heading is (see `_is_heading`)
 
 
-def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None) -> list[Block]:
+def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None,
+           by_number: bool = False) -> list[Block]:
     """Paragraphs of text and notes in reading order between two scan pages.
     A paragraph continues the one before it (across a page break, or where
     OCR split a paragraph in two) when the one before ends with a line that
     runs to the right margin and its own first line is not indented (and is
-    not a heading)."""
+    not a heading). With `by_number`, a block records each printed number it
+    runs onto, also where two of them are on one scan page (the columns of
+    the Annals, decision 59); otherwise each scan page's first."""
     out: list[Block] = []
     last_text: Block | None = None
     last_note: Block | None = None
@@ -374,6 +402,8 @@ def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None)
                         last_note.leaves.append(page.leaf)
                         if page.number:
                             last_note.folios.append(page.number)
+                    elif by_number and page.number and page.number not in last_note.folios:
+                        last_note.folios.append(page.number)
                 else:
                     last_note = Block(text, [page.leaf], [page.number] if page.number else [], "note")
                     out.append(last_note)
@@ -412,6 +442,8 @@ def blocks(pages: list[Page], first_leaf: int = 1, last_leaf: int | None = None)
                     last_text.leaves.append(page.leaf)
                     if page.number:
                         last_text.folios.append(page.number)
+                elif by_number and page.number and page.number not in last_text.folios:
+                    last_text.folios.append(page.number)
             else:
                 last_text = Block(text, [page.leaf], [page.number] if page.number else [], "text", indented,
                                   _is_heading(para, margin, page, body_h))

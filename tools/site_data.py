@@ -47,6 +47,54 @@ WORKS = {
                                          "Bill of Rights: every item printed under the heading “Amendments to the "
                                          "Constitution” in the Annals of Congress, from James Madison's speech of "
                                          "June 8 to the House's last vote on the articles."},
+    # The Eleventh and Twelfth Amendments (decision 59).
+    "senate-eleventh-amendment-1794": {
+        "collection": "congress", "order": 4.01, "paged": True, "short": "Senate proceedings, 1794",
+        "slug": "senate-eleventh-amendment-1794", "group": "The Eleventh Amendment, 1794",
+        "printed_in": "Annals of Congress",
+        "summary": "The Senate's proceedings on the resolution proposing the Eleventh Amendment, as printed in the "
+                   "Annals of Congress (as a journal, without headings): its motion of January 2, its "
+                   "consideration and vote of January 13 and 14, 1794, and its resolution of March 12 asking the "
+                   "President to send the amendment to the States."},
+    "house-eleventh-amendment-1794": {
+        "collection": "congress", "order": 4.02, "paged": True, "short": "House proceedings, 1794",
+        "slug": "house-eleventh-amendment-1794", "group": "The Eleventh Amendment, 1794",
+        "printed_in": "Annals of Congress",
+        "summary": "The House of Representatives' proceedings on the Senate's resolution proposing the Eleventh "
+                   "Amendment, as printed in the Annals of Congress: its first and second readings of January "
+                   "15 and 16, the item headed “Amendment to the Constitution” with the vote of March 4, 1794, "
+                   "and its agreement of March 12 that the amendment be sent to the States."},
+    "senate-twelfth-amendment-1802": {
+        "collection": "congress", "order": 4.03, "paged": True, "short": "Senate proceedings, 1802",
+        "slug": "senate-twelfth-amendment-1802", "group": "The Twelfth Amendment, 1802–03",
+        "printed_in": "Annals of Congress",
+        "summary": "The Senate's proceedings on designating the persons voted for as President and Vice President, "
+                   "as printed in the Annals of Congress: Mr. Clinton's motion of April 12, 1802, its "
+                   "postponements, and the vote of May 3 on the House's resolution."},
+    "house-twelfth-amendment-1802": {
+        "collection": "congress", "order": 4.04, "paged": True, "short": "House debates, 1802",
+        "slug": "house-twelfth-amendment-1802", "group": "The Twelfth Amendment, 1802–03",
+        "printed_in": "Annals of Congress",
+        "summary": "The House of Representatives' proceedings on designating the persons voted for as President "
+                   "and Vice President, as printed in the Annals of Congress: the resolutions offered on "
+                   "February 19, 1802, and the debate and vote of May 1, headed “Amendments to the Constitution”."},
+    "senate-twelfth-amendment-1803": {
+        "collection": "congress", "order": 4.05, "paged": True, "short": "Senate debates, 1803",
+        "slug": "senate-twelfth-amendment-1803", "group": "The Twelfth Amendment, 1802–03",
+        "printed_in": "Annals of Congress",
+        "summary": "The Senate's debate on the Twelfth Amendment, as printed in the Annals of Congress: every "
+                   "item headed “Amendment to the Constitution”, and the paragraphs in which the Senate took the "
+                   "resolution up without that heading, from Mr. Clinton's motion of October 21 to the vote of "
+                   "December 2, 1803, and after."},
+    "house-twelfth-amendment-1803": {
+        "collection": "congress", "order": 4.06, "paged": True, "short": "House debates, 1803",
+        "slug": "house-twelfth-amendment-1803", "group": "The Twelfth Amendment, 1802–03",
+        "printed_in": "Annals of Congress",
+        "summary": "The House of Representatives' debate on the Twelfth Amendment, as printed in the Annals of "
+                   "Congress: every item headed “Amendment to the Constitution”, and the paragraphs in which the "
+                   "House took the resolutions up without that heading, from Mr. Dawson's resolution of "
+                   "October 17 to the vote on the Senate's resolution and the request of December 12, 1803, that "
+                   "the President send the amendment to the States."},
     # The Thirteenth Amendment (decision 57).
     "senate-thirteenth-amendment-1864": {
         "collection": "congress", "order": 4.1, "paged": True, "short": "Senate debates, 1864",
@@ -106,7 +154,8 @@ WORKS = {
 }
 
 # Collections of works shown on one page each.
-CONGRESS_GROUPS = ("The Bill of Rights, 1789", "The Thirteenth Amendment, 1864–65", "The Fourteenth Amendment, 1866",
+CONGRESS_GROUPS = ("The Bill of Rights, 1789", "The Eleventh Amendment, 1794", "The Twelfth Amendment, 1802–03",
+                   "The Thirteenth Amendment, 1864–65", "The Fourteenth Amendment, 1866",
                    "The Fifteenth Amendment, 1869")
 
 # Essays and letters of the ratification debate (texts with a `position`)
