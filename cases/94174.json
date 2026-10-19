@@ -4,14 +4,13 @@
     "overruled (table of overruled decisions) and cited on 8 pages"
   ],
   "conan_citation": "Pollock v. Farmers’ Loan & Trust Co., 157 U.S. 429 (1895)",
-  "courtlistener_date": "1895-04-08",
   "courtlistener_name": "Pollock v. Farmers' Loan & Trust Co.",
   "courtlistener_url": "https://www.courtlistener.com/opinion/94174/pollock-v-farmers-loan-trust-co/",
-  "date": "1695-04-08",
-  "date_source": "us_reports",
+  "date": "1895-04-08",
+  "date_source": "courtlistener",
   "edition": {
     "name": "CourtListener and the United States Reports",
-    "notes": "Case details: CourtListener (Free Law Project), cluster 94174. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 157, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+    "notes": "Case details: CourtListener (Free Law Project), cluster 94174. Date of decision from CourtListener (the United States Reports scan gives none that could be read). Syllabus: United States Reports, volume 157, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
   },
   "id": "94174",
   "loc_url": "https://www.loc.gov/item/usrep157429/",

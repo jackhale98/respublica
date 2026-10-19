@@ -110,6 +110,9 @@ class DateTests(unittest.TestCase):
                          ("1918-06-03", "courtlistener"))
         self.assertEqual(case_date({"date_filed": "1867-01-14"}, "1866", PrintedDates(None, 1866, "")),
                          ("1867-01-14", "courtlistener"))
+        # A misread year in the printed date ("1695" for "1895", with no term read) is not taken.
+        self.assertEqual(case_date({"date_filed": "1895-04-08"}, "1895", PrintedDates("1695-04-08", None, "")),
+                         ("1895-04-08", "courtlistener"))
         # Otherwise only the year the Constitution Annotated prints.
         self.assertEqual(case_date({"date_filed": "1862-12-01"}, "1863", PrintedDates(None, 1862, "")),
                          ("1863", "constitution_annotated"))

@@ -847,7 +847,9 @@ The project owner chose, when phase 7 resumed with a CourtListener token:
   often those of a later order or the first day of a term (*Korematsu*: the
   date a rehearing was denied, in 1945; *Mapp v. Ohio*: October 9, 1961, for
   a decision of June 19). A case's date is the one the United States Reports
-  print, read from the scan when it reads cleanly (172 of the 213); else
+  print, read from the scan when it reads cleanly and its year agrees with
+  the Constitution Annotated's within one (172 of the 213; *Pollock*'s scan
+  reads "1695", and no term heading survived to catch it); else
   CourtListener's when its year agrees with the Constitution Annotated's (or
   with the term the case was decided in); else only the year the
   Constitution Annotated prints (the *Prize Cases*). The case file says

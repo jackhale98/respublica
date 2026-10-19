@@ -41,14 +41,18 @@ def case_date(cluster: dict, conan_year: str | None, printed) -> tuple[str, str]
     """The case's date of decision and where it comes from (decision 49):
 
     1. the date printed in the United States Reports ("Decided December 18,
-       1944."), when the scan's text reads it cleanly (`usreports.printed_dates`);
+       1944."), when the scan's text reads it cleanly (`usreports.printed_dates`)
+       and its year is within one of the year the Constitution Annotated prints;
     2. else CourtListener's date, when its year is the one the Constitution
        Annotated prints, or that is the year of the term the case is reported
        in and CourtListener's date falls in the year after (the December Term
        of 1866 ran into 1867: Ex parte Garland, decided January 14, 1867);
     3. else only the year the Constitution Annotated prints.
     """
-    if printed is not None and printed.decided:
+    # A printed date's year must agree with the Constitution Annotated's within a year: with
+    # no term read from the running heads, OCR's "1695" for "1895" would pass unchecked.
+    if printed is not None and printed.decided and (
+            not conan_year or abs(int(printed.decided[:4]) - int(conan_year)) <= 1):
         return printed.decided, "us_reports"
     filed = str(cluster.get("date_filed") or "")
     term = printed.term if printed is not None else None

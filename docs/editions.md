@@ -266,7 +266,8 @@ offered free of known copyright restrictions.
 **The date of decision** is the one printed in the United States Reports
 ("Decided December 18, 1944."), read from the scan's text layer, when its
 month reads as a month and its year is the year of the term the volume
-prints or the next (OCR reads "1295" for "1895"). CourtListener's date is
+prints or the next, and within a year of the year the Constitution
+Annotated prints (OCR reads "1295" and "1695" for "1895"). CourtListener's date is
 often that of a later order (a rehearing denied) or the first day of the
 term, so it is used only where the scan gives no date that can be read (the
 nominative reports print none), and only when its year is the one the
