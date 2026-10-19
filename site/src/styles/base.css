@@ -136,6 +136,17 @@ kbd {
 }
 .search-trigger kbd { display: none; }
 @media (min-width: 40rem) and (hover: hover) { .search-trigger kbd { display: inline-block; } }
+/* Mid widths, with the full nav in the header: shorter labels, tighter
+   links, and search as an icon, so the header fits on one line. */
+.primary-nav .nav-short { display: none; }
+@media (min-width: 56rem) and (max-width: 74.99rem) {
+  .primary-nav { gap: 0; }
+  .primary-nav a { padding: .55rem .55rem; font-size: .92rem; }
+  .primary-nav .nav-long { display: none; }
+  .primary-nav .nav-short { display: inline; }
+  .search-trigger { width: 2.5rem; min-width: 0; padding: 0; justify-content: center; }
+  .search-trigger .label, .search-trigger kbd { display: none; }
+}
 
 .theme-toggle [data-icon] { display: none; }
 :root:not([data-theme]) .theme-toggle [data-icon="system"],

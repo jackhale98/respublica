@@ -951,3 +951,24 @@ The project owner asked for the clause pages planned for phase 7.
   `_clause_pages`), rendered by `ClauseView.astro`. Clause pages are not in
   the search index, so a search does not find each clause twice.
 
+## 53. The first set of cases: what overrules them
+
+The project owner noticed that *Plessy v. Ferguson* showed no overruling.
+The Constitution Annotated's Table of Supreme Court Decisions Overruled by
+Subsequent Decisions (2022, p. 2441) lists *Plessy* as overruled by *Bob
+Jones University v. United States* (1983), not by *Brown v. Board of
+Education*, which the table does not list as overruling any decision; the
+library records overrulings only from that table (rule 7), so *Plessy*'s
+overruling is *Bob Jones*'s. *Bob Jones* was not in the set, so no link was
+made. One more rule, as fixed as the others:
+
+6. every decision the table lists as overruling a case chosen by rules 1
+   to 5. One step: what overrules a case added by this rule is not added.
+
+It adds 19 decisions (*Bob Jones*, *Atkins v. Virginia*, *Ring v.
+Arizona*, *Agostini v. Felton*, *Harper v. Virginia Board of Elections*,
+*Wesberry v. Sanders*, *Benton v. Maryland*, *Escobedo v. Illinois*,
+*Janus*, …), each with the reason it was chosen. They were looked up on
+CourtListener with two requests and their scans fetched from the Library
+of Congress like the others. The set is now 232 cases.
+
