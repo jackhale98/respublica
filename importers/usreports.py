@@ -93,8 +93,16 @@ DATE_PAGES = 2  # the case's dates are on its first page (an "Argued" later on i
 SYLLABUS_PAGES = 24  # the syllabus, with the counsel after it, fits in the first pages (McConnell: 19)
 
 
+# Another source of a case's printed pages than the Library of Congress
+# scan: (source id, index of the PDF page the case starts on), as for the
+# Supreme Court's own PDFs (importers.scotus: print_for, locate).
+Source = tuple[str, int]
+
+
 @lru_cache(maxsize=None)
-def _pages(volume: int, page: int) -> list[list[Line]]:
+def _pages(volume: int, page: int, source: Source | None = None) -> list[list[Line]]:
+    if source is not None:
+        return pdf_lines(raw_path(source[0]), max_pages=SYLLABUS_PAGES, start=source[1])
     return pdf_lines(raw_path(source_id(volume, page)), max_pages=SYLLABUS_PAGES)
 
 
@@ -222,7 +230,7 @@ def _next_item(lines: list[Line], line: Line) -> bool:
     return bool(m) and line.text.startswith(f"{int(m.group(1)) + 1}. ") and not _mid_sentence(lines[-1].text)
 
 
-def syllabus(volume: int, page: int) -> list[Paragraph]:
+def syllabus(volume: int, page: int, source: Source | None = None) -> list[Paragraph]:
     """The syllabus as printed: the paragraphs after the line with the
     case's dates ("Argued ... Decided ..."), set in smaller type than what
     follows, up to the counsel, the statement of the case or the opinion.
@@ -230,13 +238,15 @@ def syllabus(volume: int, page: int) -> list[Paragraph]:
     case's name, up to the larger type that follows them. Footnotes,
     running heads, folios and signature marks are left out; words broken
     at a line end are rejoined. Empty when the volume has no syllabus to
-    read (before FIRST_SYLLABUS_VOLUME) or none is found."""
+    read (before FIRST_SYLLABUS_VOLUME) or none is found. `page` is the
+    case's first printed page; `source`, if given, is read in place of the
+    Library of Congress scan."""
     if volume < FIRST_SYLLABUS_VOLUME:
         return []
     pages = [_merge_fragments([l for l in _drop_signature(pg, page + i)
                                if not l.text.strip().isdigit() and not PRINTER_MARK.match(l.text)
                                and not _speck(l)])
-             for i, pg in enumerate(_pages(volume, page))]
+             for i, pg in enumerate(_pages(volume, page, source))]
     dated = any(DATE_LINE.search(l.text) for pg in pages[:DATE_PAGES] for l in pg)
     paras: list[tuple[int, list[Line]]] = []
     size = None  # the syllabus's type size, from its first lines
@@ -334,13 +344,13 @@ class PrintedDates:
     line: str               # the case's dates as printed ("" when there are none)
 
 
-def printed_dates(volume: int, page: int) -> PrintedDates:
+def printed_dates(volume: int, page: int, source: Source | None = None) -> PrintedDates:
     """The dates the United States Reports print for a case: its term, from
     the running heads, and its date of decision, from the line of the case's
     dates (the one the syllabus follows). A date of decision is kept only if
     its month reads as a month and its year is the term's or the next (OCR
     reads "1295" for "1895")."""
-    pages = _pages(volume, page)[:3]
+    pages = _pages(volume, page, source)[:3]
     years = Counter(int(m.group(1) or m.group(2)) for pg in pages for l in pg for m in [TERM.search(l.text)] if m)
     term = years.most_common(1)[0][0] if years else None
     dates = ""
@@ -429,7 +439,11 @@ def problems(paras: list[Paragraph]) -> list[str]:
 
 
 def cmd_syllabus(args: argparse.Namespace) -> int:
-    paras = syllabus(args.volume, args.page)
+    source = None
+    if args.source:
+        from importers import scotus
+        source = (args.source, scotus.locate(args.source, args.page))
+    paras = syllabus(args.volume, args.page, source)
     for para in paras:
         print(f"[p. {para.page}] {para.text}\n")
     for problem in problems(paras):
@@ -471,6 +485,7 @@ def main(argv: list[str] | None = None) -> int:
     sy = sub.add_parser("syllabus", help="print a case's syllabus as read from its PDF")
     sy.add_argument("volume", type=int)
     sy.add_argument("page", type=int)
+    sy.add_argument("--source", help="read from this source (a Supreme Court PDF, importers.scotus) instead")
     args = ap.parse_args(argv)
     return {"fetch": cmd_fetch, "syllabus": cmd_syllabus}[args.cmd](args)
 

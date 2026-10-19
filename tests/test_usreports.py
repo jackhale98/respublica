@@ -11,7 +11,7 @@ from tools.pdf import Line
 
 def read(pages, volume=255, page=298):
     """The syllabus read from synthetic pages, as if from a scan."""
-    with mock.patch.object(u, "_pages", lambda v, p: pages):
+    with mock.patch.object(u, "_pages", lambda v, p, source=None: pages):
         return [(p.page, p.text) for p in u.syllabus(volume, page)]
 
 
