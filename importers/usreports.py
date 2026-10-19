@@ -89,6 +89,7 @@ class Paragraph:
     page: int           # the printed page it starts on
 
 
+DATE_PAGES = 2  # the case's dates are on its first page (an "Argued" later on is in the opinion)
 SYLLABUS_PAGES = 24  # the syllabus, with the counsel after it, fits in the first pages (McConnell: 19)
 
 
@@ -236,7 +237,7 @@ def syllabus(volume: int, page: int) -> list[Paragraph]:
                                if not l.text.strip().isdigit() and not PRINTER_MARK.match(l.text)
                                and not _speck(l)])
              for i, pg in enumerate(_pages(volume, page))]
-    dated = any(DATE_LINE.search(l.text) for pg in pages for l in pg)
+    dated = any(DATE_LINE.search(l.text) for pg in pages[:DATE_PAGES] for l in pg)
     paras: list[tuple[int, list[Line]]] = []
     size = None  # the syllabus's type size, from its first lines
     started = ended = False
