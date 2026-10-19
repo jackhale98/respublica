@@ -155,21 +155,21 @@ WORKS = {
     "senate-sixteenth-amendment-1909": {
         "collection": "congress", "order": 6.31, "paged": True, "short": "Senate debates, 1909",
         "slug": "senate-sixteenth-amendment-1909", "group": "The Sixteenth Amendment, 1909",
-        "printed_in": "Congressional Record",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
         "summary": ("The Senate's debate on the joint resolution (S. J. Res. 40) proposing the Sixteenth Amendment: every"
                    " item headed with its subject (“Tax on Incomes”, “Taxes on Incomes”) in which the Senate took it up,"
                    " as printed in the Congressional Record, July 3 and 5, 1909, with the vote of July 5.")},
     "house-sixteenth-amendment-1909": {
         "collection": "congress", "order": 6.32, "paged": True, "short": "House debates, 1909",
         "slug": "house-sixteenth-amendment-1909", "group": "The Sixteenth Amendment, 1909",
-        "printed_in": "Congressional Record",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
         "summary": ("The House of Representatives' debate on the Senate's joint resolution (S. J. Res. 40) proposing the "
                    "Sixteenth Amendment: the item headed “Income Tax—Constitutional Amendment” of July 12, 1909, as "
                    "printed in the Congressional Record, with the vote.")},
     "house-seventeenth-amendment-1911": {
         "collection": "congress", "order": 6.41, "paged": True, "short": "House debates, 1911",
         "slug": "house-seventeenth-amendment-1911", "group": "The Seventeenth Amendment, 1911–12",
-        "printed_in": "Congressional Record",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
         "summary": ("The House of Representatives' debates on the joint resolution (H. J. Res. 39) proposing the "
                    "Seventeenth Amendment in the first session of the Sixty-second Congress: every item headed with its "
                    "subject (“Election of Senators”, “Election of Senators by the People”) in which the House took it "
@@ -177,7 +177,7 @@ WORKS = {
     "senate-seventeenth-amendment-1911": {
         "collection": "congress", "order": 6.42, "paged": True, "short": "Senate debates, 1911",
         "slug": "senate-seventeenth-amendment-1911", "group": "The Seventeenth Amendment, 1911–12",
-        "printed_in": "Congressional Record",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
         "summary": ("The Senate's debates on the House's joint resolution (H. J. Res. 39) proposing the Seventeenth "
                    "Amendment: every item headed “Election of Senators by Direct Vote” or “Election of Senators by the People” in which the Senate took it up, "
                    "and the few under other headings the Record's index lists, as printed in the Congressional Record, "
@@ -185,49 +185,49 @@ WORKS = {
     "senate-seventeenth-amendment-1912": {
         "collection": "congress", "order": 6.43, "paged": True, "short": "Senate debates, 1912",
         "slug": "senate-seventeenth-amendment-1912", "group": "The Seventeenth Amendment, 1911–12",
-        "printed_in": "Congressional Record",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
         "summary": ("The Senate's proceedings on the joint resolution (H. J. Res. 39) proposing the Seventeenth Amendment"
                    " in the second session of the Sixty-second Congress: the items headed “Election of Senators by "
                    "Direct Vote” of April 17 and 23, 1912, as printed in the Congressional Record.")},
     "house-seventeenth-amendment-1912": {
         "collection": "congress", "order": 6.44, "paged": True, "short": "House debates, 1912",
         "slug": "house-seventeenth-amendment-1912", "group": "The Seventeenth Amendment, 1911–12",
-        "printed_in": "Congressional Record",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
         "summary": ("The House of Representatives' proceedings on the Senate's amendment to the joint resolution (H. J. "
                    "Res. 39) proposing the Seventeenth Amendment: the items headed with its subject of April 26 and May "
                    "13, 1912, as printed in the Congressional Record, with the vote of May 13.")},
     "senate-eighteenth-amendment-1917": {
         "collection": "congress", "order": 6.51, "paged": True, "short": "Senate debates, 1917",
         "slug": "senate-eighteenth-amendment-1917", "group": "The Eighteenth Amendment, 1917",
-        "printed_in": "Congressional Record",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
         "summary": ("The Senate's debate on the joint resolution (S. J. Res. 17) proposing the Eighteenth Amendment: "
                    "every item headed “National Prohibition” or “Nation-wide Prohibition” in which the Senate took it "
                    "up, as printed in the Congressional Record, from July 9 to the vote of August 1, 1917.")},
     "house-eighteenth-amendment-1917b": {
         "collection": "congress", "order": 6.52, "paged": True, "short": "House debates, 1917 (2d session)",
         "slug": "house-eighteenth-amendment-1917b", "group": "The Eighteenth Amendment, 1917",
-        "printed_in": "Congressional Record",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
         "summary": ("The House of Representatives' debate on the Senate's joint resolution (S. J. Res. 17) proposing the "
                    "Eighteenth Amendment: the items headed “Vote on the Prohibition Amendment” (December 15) and "
                    "“National Prohibition” (December 17, 1917, with the vote), as printed in the Congressional Record.")},
     "senate-eighteenth-amendment-1917b": {
         "collection": "congress", "order": 6.53, "paged": True, "short": "Senate debates, 1917 (2d session)",
         "slug": "senate-eighteenth-amendment-1917b", "group": "The Eighteenth Amendment, 1917",
-        "printed_in": "Congressional Record",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
         "summary": ("The Senate's proceedings of December 18, 1917, on the House's amendments to the joint resolution (S."
                    " J. Res. 17) proposing the Eighteenth Amendment: the item headed “National Prohibition”, as printed "
                    "in the Congressional Record, with the vote.")},
     "house-nineteenth-amendment-1919": {
         "collection": "congress", "order": 6.61, "paged": True, "short": "House debates, 1919",
         "slug": "house-nineteenth-amendment-1919", "group": "The Nineteenth Amendment, 1919",
-        "printed_in": "Congressional Record",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
         "summary": ("The House of Representatives' debate on the joint resolution (H. J. Res. 1) proposing the Nineteenth"
                    " Amendment: the item headed “Woman Suffrage” of May 21, 1919, as printed in the Congressional "
                    "Record, with the vote.")},
     "senate-nineteenth-amendment-1919": {
         "collection": "congress", "order": 6.62, "paged": True, "short": "Senate debates, 1919",
         "slug": "senate-nineteenth-amendment-1919", "group": "The Nineteenth Amendment, 1919",
-        "printed_in": "Congressional Record",
+        "printed_in": "Congressional Record", "sheet_by_html": True,
         "summary": ("The Senate's debate on the House's joint resolution (H. J. Res. 1) proposing the Nineteenth "
                    "Amendment: every item headed “Woman Suffrage” in which the Senate took it up, and the motion of June"
                    " 3 to take it up, as printed in the Congressional Record, from May 23 to the vote of June 4, 1919.")},
@@ -644,13 +644,34 @@ def _weight(x: dict) -> int:
     return len(x["text"].encode()) + sum(len(str(u["readings"])) + 80 for u in x.get("uncertain", []))
 
 
-def sheets(segments: list[dict]) -> list[list[dict]]:
-    """A part's passages, in sheets of nearly equal length."""
+# The Congressional Record's works (decision 61) are split by an estimate of
+# the HTML each passage makes, fitted to the built pages (within 9 KB): many
+# short passages (a speaker's word or two) and words marked with two
+# readings make their pages heavier than their text. A sheet is kept to
+# SHEET_HTML_BYTES, well inside the 400 KB budget. Other works keep the
+# sheets (and URLs) they have.
+SHEET_HTML_BYTES = 330_000
+PAGE_HTML_BYTES = 23_000  # the page around the passages
+
+
+def _html_weight(x: dict) -> float:
+    spans = x.get("uncertain", [])
+    return (1.03 * len(x["text"].encode()) + 165 * len(spans) + 1.85 * sum(len(str(u["readings"])) for u in spans)
+            + 830)
+
+
+def sheets(segments: list[dict], by_html: bool = False) -> list[list[dict]]:
+    """A part's passages, in sheets of nearly equal length (`by_html`: of
+    nearly equal HTML, see SHEET_HTML_BYTES)."""
     sizes = [len(x["text"].encode()) for x in segments]
     total = sum(sizes)
     n = -(-total // SHEET_TEXT_BYTES)
     weights = [_weight(x) for x in segments]
-    if -(-sum(weights) // SHEET_WEIGHT_BYTES) > n:
+    if by_html:
+        sizes = [_html_weight(x) for x in segments]
+        total = sum(sizes)
+        n = int(-(-total // (SHEET_HTML_BYTES - PAGE_HTML_BYTES)))
+    elif -(-sum(weights) // SHEET_WEIGHT_BYTES) > n:
         sizes, total = weights, sum(weights)
         n = -(-total // SHEET_WEIGHT_BYTES)
     if n <= 1 or any(x.get("kind") == "footnote" for x in segments):
@@ -724,7 +745,8 @@ class SiteBuilder:
             if self.settings[wid]["paged"]:
                 for t in tops:
                     page = f"{base}{part_slug(work, t['ref'])}/"
-                    for k, sheet in enumerate(sheets(self._part_segments(work, t)), 1):
+                    for k, sheet in enumerate(sheets(self._part_segments(work, t),
+                                                     self.settings[wid].get("sheet_by_html", False)), 1):
                         for x in sheet:
                             self.ref_urls[x["ref"]] = f"{sheet_url(page, k)}#{x['ref']}"
         # A retired ref's URL is its own anchor, inside the passage it was merged into.
@@ -983,7 +1005,7 @@ class SiteBuilder:
                         "words": sum(len(s["text"].split()) for s in body),
                     }
                     parts.append(part)
-                    split = sheets(segs)
+                    split = sheets(segs, cfg.get("sheet_by_html", False))
                     for k, sheet in enumerate(split, 1):
                         spid = pid if k == 1 else f"{pid}-{k}"
                         ids.append(spid)

@@ -243,6 +243,48 @@ Amendment (1794) and the Twelfth (1802, and 1803), imported by
   `title`; its paragraphs are numbered from the one that takes the
   resolution up to the last before the house turns to other business.
 
+### The Sixteenth to Nineteenth Amendments, 1909–1919
+
+Each house's proceedings on the joint resolutions proposing the Sixteenth
+to Nineteenth Amendments, imported by `importers/record.py` from the bound
+Congressional Record (decision 61), one work per house and session, named
+by the year the session met in; a second session that met in the same year
+takes the letter `b` (the 65th Congress's second session, December 1917):
+
+| Work | Prefix | Days |
+|---|---|---|
+| `texts/senate-sixteenth-amendment-1909.json` | `Senate1909` | July 3 – 5, 1909 |
+| `texts/house-sixteenth-amendment-1909.json` | `House1909` | July 12, 1909 |
+| `texts/house-seventeenth-amendment-1911.json` | `House1911` | April 13 – July 15, 1911 |
+| `texts/senate-seventeenth-amendment-1911.json` | `Senate1911` | April 17 – July 14, 1911 |
+| `texts/senate-seventeenth-amendment-1912.json` | `Senate1912` | April 17 – 23, 1912 |
+| `texts/house-seventeenth-amendment-1912.json` | `House1912` | April 26 – May 13, 1912 |
+| `texts/senate-eighteenth-amendment-1917.json` | `Senate1917` | July 9 – August 1, 1917 |
+| `texts/house-eighteenth-amendment-1917b.json` | `House1917b` | December 15 – 17, 1917 |
+| `texts/senate-eighteenth-amendment-1917b.json` | `Senate1917b` | December 18, 1917 |
+| `texts/house-nineteenth-amendment-1919.json` | `House1919` | May 21, 1919 |
+| `texts/senate-nineteenth-amendment-1919.json` | `Senate1919` | May 23 – June 4, 1919 |
+
+None of these prefixes is used by another work (`House1789`, `House1794`,
+`Senate1794`, `House1802`, `Senate1802`, `House1803`, `Senate1803`,
+`House1864`, `Senate1864`, `House1865`, `House1866`, `Senate1866`,
+`House1869`, `Senate1869`).
+
+- `Senate1909.Jul5`, `Senate1909.Jul5b`, …: one division per item, named by
+  its date; a second item of the same day takes a letter.
+  `Senate1909.Jul5.{paragraph}` its paragraphs, numbered from 1 after the
+  heading; each records the printed pages it is on (`pages`) and its pages
+  in govinfo's PDF of the day (`scan.leaves`) and in the microfilm
+  (`scan.microfilm.leaves`).
+- The item's printed heading ("TAXES ON INCOMES.") is the division's
+  `title`. An item in which a house took the joint resolution up inside an
+  item on other business (May 22, 25 and 26, 1911) or under a heading OCR
+  did not read (June 3, 1919) has no `title`; it begins at the paragraph
+  that takes the resolution up.
+- Headings of the sections of a speech, roll calls, and the titles,
+  places, dates and signatures of documents printed in the debate are
+  paragraphs of the item, numbered with the rest.
+
 ## Retired refs
 
 Once the site has launched, a correction that joins two passages wrongly

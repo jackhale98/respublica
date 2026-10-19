@@ -368,6 +368,88 @@ microfilm (OCR text). Speeches the Globe prints only in its Appendix (Davis
 and Howe in the Senate, 1864; Rollins of Missouri and Harding in the House)
 are not imported.
 
+**The Sixteenth to Nineteenth Amendments, 1909–1919**
+(`importers/record.py`, decision 61) are imported from the bound edition of
+the *Congressional Record: Containing the Proceedings and Debates* of each
+Congress (Washington: Government Printing Office): volume 44 (61st
+Congress, 1st session, 1909), 47 and 48 (62nd Congress, 1st and 2d
+sessions, 1911–12), 55 and 56 (65th Congress, 1st and 2d sessions,
+1917–18) and 58 (66th Congress, 1st session, 1919). Eleven works, one per
+house and session:
+
+| Amendment | Joint resolution | Works (`texts/…`) | Days |
+|---|---|---|---|
+| Sixteenth | S. J. Res. 40 | `senate-sixteenth-amendment-1909`, `house-sixteenth-amendment-1909` | Senate July 3, 5; House July 12, 1909 |
+| Seventeenth | H. J. Res. 39 | `house-seventeenth-amendment-1911`, `senate-seventeenth-amendment-1911`, `senate-seventeenth-amendment-1912`, `house-seventeenth-amendment-1912` | House April 13 – July 15, 1911 (5 days); Senate April 17 – July 14, 1911 (26 days); Senate April 17, 23, 1912; House April 26, May 13, 1912 |
+| Eighteenth | S. J. Res. 17 | `senate-eighteenth-amendment-1917`, `house-eighteenth-amendment-1917b`, `senate-eighteenth-amendment-1917b` | Senate July 9 – August 1, 1917 (8 days); House December 15, 17; Senate December 18, 1917 |
+| Nineteenth | H. J. Res. 1 | `house-nineteenth-amendment-1919`, `senate-nineteenth-amendment-1919` | House May 21; Senate May 23 – June 4, 1919 (6 days) |
+
+**What is imported** is fixed by the print and by the Record's own index.
+The days are those the volume's History of Bills and Resolutions lists for
+the joint resolution, with the pages it gives (`DAYS`). On each, every item
+of the house's proceedings headed with the resolution's subject ("Taxes on
+Incomes", "Election of Senators by Direct Vote", "National Prohibition",
+"Woman Suffrage", and their variants, `Amendment.headings`) whose heading
+or first paragraphs name the joint resolution, from its heading to the next
+item's heading or the end of the house's day, procedural items included (a
+report, a motion to take it up, a request to fix the time of a vote). Where
+the index lists a page on which the house took the resolution up under
+another heading, that item is included too (`EXTRA_HEADINGS`: the referral
+and the debate on which committee should have it, April 17, 1911; the
+minority's views presented, May 22, 1911; the debate on the Journal's record
+of the Vice President's vote, June 13, 1911; and others), and where it was
+laid before the Senate inside an item on other business and laid aside at
+once, those paragraphs are an item of their own, without a heading
+(`INSIDE`: May 22, 25 and 26, 1911; Watson's motion of June 3, 1919, under a
+heading OCR did not read). The importer stops if a page the index gives is
+in no item imported, and if an item runs on more than a page past the last
+page the index gives for the day; the few exceptions are listed with the
+reason (`ELSEWHERE`: the index's range runs over other business on June
+13, 1911, and July 30, 1917; `RUNS_TO`: Newlands spoke on the trusts while
+the joint resolution was before the Senate, May 16, 1911). Speeches printed
+in the Appendix by leave are not imported. The Twenty-seventh Amendment is
+not imported from the Record: it was proposed in 1789 (the House's debate is
+`House1789`), and the concurrent resolutions of May 1992 that declared it
+ratified are not debates on proposing an amendment.
+
+**Scans.** govinfo.gov (the Government Publishing Office) serves the bound
+edition as 150 ppi scans with an OCR text layer, one PDF per house per day
+(`govinfo-crecb-{granule}`), and each part's MODS record
+(`govinfo-crecb-{part}-mods`), which gives each day's printed pages. Words
+and layout come from the text layer (`tools/pdf.py`, `pdf_words`), read in
+two columns as the Globe is read in three (running heads, sheet signatures
+"XLIV—277" and specks left out; a page set in one column read as one). They
+are checked against the Internet Archive's OCR of a microfilm of the same
+bound part (`sim_congressional-record…`; its page-indexed OCR text, its
+page index and the printed page number it read on each page:
+`ia-record-{part}-text`, `-pageindex`, `-pages`), in runs of about 200
+words. Each passage links to its page in govinfo's PDF; the errata page
+shows the microfilm's page image, since govinfo serves none. All of these
+files are kept out of git (`make fetch` restores them).
+
+**Reading the page.** An item heading is a line set as a heading in
+capitals before an item's opening (a speaker's name in capitals, a message,
+the business taken up, a routine formula), as OCR reads them ("Tbe
+VICE-PRESIDENT.", "1\Ir. CULLOM."). Not item headings: a speaker's words
+("Mr. UNDERWOOD. I do."), the end of a paragraph set apart ("[Mr. /
+CLAYTON]."), "By Mr. SMOOT:" in a list of bills, a roll call's lists, the
+article of a joint resolution read to the house, the title of a document
+printed in the debate (after its source in brackets, after a paragraph
+ending in a colon, before a letter's place and date), a letter's signature,
+and the headings of the sections a speech is printed in (when no item opens
+after them; a few are listed, `SPEECH_HEADINGS`). The day begins at the
+house's name and dateline (or the dateline alone, July 31, 1917), read
+however OCR garbled them ("Fnmu, Ap1·il ~6, 1912.").
+
+**Quality.** The text layer reads the 1909–1912 volumes about as well as
+UNT reads the Globe; the 1917 volumes much worse. About 3–5% of words are
+marked uncertain (2.9% in the Senate's 1909 debate, 3.5–5.3% for the
+Seventeenth Amendment, 4.8% in the Senate's 1917 debate and 7.0% in the
+House's, 3.7–4.2% in 1919); each is marked with both readings. Where the
+OCR ran lines of two columns into each other, words of one paragraph can
+stand in another (errata 100–102). Run `python -m tools.uncertain` for the
+current counts.
+
 ## Supreme Court cases
 
 **Which cases interpret which clause** come from the *Constitution of the

@@ -73,6 +73,24 @@ January 30, 1869, is imported only up to the next heading ("Committee
 Service"); whether its later debate that day on S. R. No. 8, printed
 without a heading of its own, belongs too needs a look at pp. 733–741.
 
+**The Congressional Record** (`importers/record.py`, decision 61): both
+houses' proceedings on the Sixteenth to Nineteenth Amendments (1909–19,
+eleven works, `Senate1909` … `Senate1919`), from the text layer of
+govinfo.gov's scans of the bound Record, one PDF per house per day, checked
+against the Internet Archive's microfilm (whose page images the errata page
+shows). The days are those the Record's own index lists; the importer
+checks that every page it gives is in an item imported. About 4% of words
+are marked uncertain (7% in the House's December 1917 debate, whose volume
+the OCR reads worst; errata 100–103). The govinfo PDFs, about 600 MB, are
+kept out of git (the budget for such files is 4 GiB since decision 61; CI
+caches each family under its own key). To add a day or an amendment: find
+the joint resolution in the volume's History of Bills and Resolutions,
+the day's granule in the part's MODS record (`printPageRange`), add it to
+`DAYS` (and the part's microfilm to `SESSIONS`), `python -m importers.record
+fetch`, then run the importer and read what it stops on. The Twenty-seventh
+Amendment is left out (its proposing debate is `House1789`). Links have not
+been proposed for these works yet.
+
 **Phase 7, Supreme Court cases: the first set is imported** (decision 49):
 
 - 232 cases (`cases/`), chosen by the rules of decisions 41 to 43 and 53, each

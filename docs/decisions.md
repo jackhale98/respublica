@@ -1294,3 +1294,85 @@ Annals of Congress.
 - **Quality.** 2.0% of words are marked uncertain in 1794, 0.4–0.8% in
   1802, and 3.0–3.1% in 1803 (with decision 59's vote), where both Google scans are small and their
   OCR poor. Each is marked with every reading.
+
+## 61. The Sixteenth to Nineteenth Amendments in the Congressional Record
+
+The project owner approved govinfo.gov (the Government Publishing Office)
+as a new source ("All, add govinfo") and asked for the floor proceedings on
+the Sixteenth to Twenty-seventh Amendments from the bound Congressional
+Record. A first look (October 2026) found the scans usable but too large for
+the budget of raw files kept out of git, and the owner decided:
+
+- **Storage.** The out-of-git raw budget is raised from 1 GiB (decision 49)
+  to 4 GiB (`UNTRACKED_TOTAL_BUDGET` in `tools/verify`). govinfo serves the
+  bound Record only as PDFs of whole days (about 300–450 KB a printed page;
+  there is no page or text rendition), so the 16th–19th need about 600 MB
+  and the 20th–26th about 1.7 GB more. The PDFs stay whole and out of git
+  (`govinfo-crecb-*`), restored by `make fetch`, never byte ranges.
+- **CI caches each family of such files under its own key**
+  (`python -m tools.fetch cache-keys`, from that family's manifest entries:
+  U.S. Reports, Annals, Globe, govinfo, the Record's microfilm OCR), so a
+  new file of one family no longer saves every family's files again. The
+  first run after this change fetches each family once.
+- **The Twenty-seventh Amendment is left out.** It was proposed in 1789;
+  that debate is `House1789`. In May 1992 each house only adopted a
+  concurrent resolution declaring it ratified (S. Con. Res. 120, H. Con.
+  Res. 320), which is not a debate on proposing an amendment.
+- **Days and items** as for the Globe works (decision 57): on each day the
+  volume's History of Bills and Resolutions lists for the joint resolution,
+  every item under the resolution's heading, procedural ones too, and the
+  places where the house took it up under another heading or inside an
+  item on other business. Speeches printed in the Appendix by leave are
+  left out, as with the Globe.
+- **Works**, one per house per session, named by the year the session met
+  in, a second session meeting in the same year taking `b`: `Senate1909`,
+  `House1909`; `House1911`, `Senate1911`, `Senate1912`, `House1912`;
+  `Senate1917`, `House1917b`, `Senate1917b`; `House1919`, `Senate1919`.
+
+How it is done (`importers/record.py`):
+
+- **Sources.** For each day, govinfo's PDF of the house's proceedings (a
+  "granule"), whose OCR text layer gives words and layout
+  (`tools/pdf.py`, `pdf_words`), and its part's MODS record, which gives the
+  printed pages. The cross-check is the Internet Archive's OCR of a
+  microfilm of the same bound part (`sim_congressional-record…`), taken as
+  its page-indexed OCR text, its page index and the page numbers it read
+  (3–4 MB a part, against 10–14 MB for its plain OCR text and 150 MB for its
+  DjVu XML); its page images are the ones the errata page shows, since
+  govinfo serves none. A passage's `scan` is govinfo's (`site: "govinfo"`,
+  the granule and its pages) with the microfilm's leaves beside it; `make
+  verify` checks there is one for each page.
+- **The index decides the days, and checks the items.** The importer stops
+  if a page the index gives for a day is in no item it imports, or if an
+  item runs on more than a page past the last such page. Pages the index
+  gives that hold no item on the resolution are listed with the reason
+  (`ELSEWHERE`: the index's ranges for June 13, 1911, and July 30, 1917, run
+  over other business), as is the one item that rightly runs on (`RUNS_TO`,
+  May 16, 1911). Where the index's figures were read off its own OCR
+  ("1!)25", "4Sll"), the day's pages in the MODS record settle them.
+- **Reading the page** is described in `docs/editions.md`. Item headings
+  and the headings of the sections of a speech are set alike; a heading
+  ends an item only where an item opens after it, and a few speech headings
+  that are followed by a speaker's name are listed (`SPEECH_HEADINGS`).
+  Type size was tried and does not separate them (0.67 of the text's size
+  for one item heading, 0.68 for one speech heading).
+- **Shared code.** `globe.rejoin` (the Globe's rule for a lower-case line
+  set apart) and `globe.paragraphs` are reused, not copied. Two fixes in
+  shared code change no output: `ocr.NUMERAL_HEAD` takes runs of figures,
+  stops and spaces whole (possessively), since a table of figures that does
+  not match took exponential time (it matches exactly the same lines, which
+  `tests/test_record.py` checks); and `tools/pdf.py` parses each distinct
+  ToUnicode map once (govinfo's PDFs give every page its own copy of a map
+  of 65,536 codes).
+- **On the site** the works join "Debates in Congress" in four groups. A
+  day's sheets are sized by an estimate of the HTML their passages make
+  (`SHEET_HTML_BYTES`, `sheet_by_html` in `tools/site_data.py`, fitted to
+  the built pages within 9 KB): many short passages and words marked with
+  two readings made the first build's pages up to 626 KB against the 400
+  KB budget. Other works keep their sheets and URLs.
+- **Quality.** About 834,000 words, 44 per thousand marked uncertain (29 in
+  the Senate's 1909 debate to 70 in the House's of December 1917, where the
+  OCR is worst). With one reference every disagreement is a tie. Errata
+  100–103 record words read across columns and misread headings.
+
+The 20th–26th Amendments follow in the same way (`DAYS`), volume by volume.
