@@ -4,22 +4,145 @@
     "named in the title of essay ArtI.S8.C18.8.8.3"
   ],
   "conan_citation": "Trump v. Hawaii, No. 17-965 (U.S. June 26, 2018)",
+  "court_print": "United States Reports, volume 585 (bound volume)",
   "courtlistener_name": "Trump v. Hawaii",
   "courtlistener_url": "https://www.courtlistener.com/opinion/4511149/trump-v-hawaii/",
   "date": "2018-06-26",
-  "date_source": "courtlistener",
+  "date_source": "us_reports",
   "docket": "17-965",
   "edition": {
     "name": "CourtListener and the United States Reports",
-    "notes": "Case details: CourtListener (Free Law Project), cluster 4511149. Date of decision from CourtListener (the United States Reports scan gives none that could be read)."
+    "notes": "Case details: CourtListener (Free Law Project), cluster 4511149. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 585 (bound volume), as the Supreme Court publishes it, read from the text layer of the Court's PDF."
   },
   "id": "4511149",
+  "pdf_first_page": 698,
+  "pdf_url": "https://www.supremecourt.gov/opinions/boundvolumes/585BV.pdf",
   "ref_prefix": "Case.4511149",
-  "segments": [],
-  "source_ids": [
-    "courtlistener-scotus-17-965"
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 1",
+      "page": 667,
+      "ref": "Case.4511149.syllabus.1",
+      "text": "In September 2017, the President issued Proclamation No. 9645, seeking to improve vetting procedures for foreign nationals traveling to the United States by identifying ongoing defciencies in the information needed to assess whether nationals of particular countries present a security threat. The Proclamation placed entry restrictions on the nationals of eight foreign states whose systems for managing and sharing information about their nationals the President deemed inadequate. Foreign states were selected for inclusion based on a review undertaken pursuant to one of the President's earlier Executive Orders. As part of that review, the Department of Homeland Security (DHS), in consultation with the State Department and intelligence agencies, developed an information and risk assessment “baseline.” DHS then collected and evaluated data for all foreign governments, identifying those having defcient information-sharing practices and presenting national security concerns, as well as other countries “at risk” of failing to meet the baseline. After a 50-day period during which the State Department made diplomatic efforts to encourage foreign governments to improve their practices, the Acting Secretary of Homeland Security concluded that eight countries—Chad, Iran, Iraq, Libya, North Korea, Syria, Venezuela, and Yemen—remained defcient. She recommended entry restrictions for certain nationals from all of those countries but Iraq, which had a close cooperative relationship with the U. S. She also recommended including Somalia, which met the information-sharing component of the baseline standards but had other special risk factors, such as a signifcant terrorist presence. After consulting with multiple Cabinet members, the President adopted the recommendations and issued the Proclamation. Invoking his authority under 8 U. S. C. §§1182(f) and 1185(a), he determined that certain restrictions were necessary to “prevent the entry of those foreign nationals about whom the United States Government lacks sufficient information” and “elicit improved identitymanagement and information-sharing protocols and practices from foreign governments.” The Proclamation imposes a range of entry restrictions that vary based on the “distinct circumstances” in each of the eight countries. It exempts lawful permanent residents and provides case-by-case waivers under certain circumstances. It also directs DHS to assess on a continuing basis whether the restrictions should be modifed or continued, and to report to the President every 180 days. At the completion of the frst such review period, the President determined that Chad had suffciently improved its practices, and he accordingly lifted restrictions on its nationals."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 2",
+      "page": 668,
+      "ref": "Case.4511149.syllabus.2",
+      "text": "Plaintiffs—the State of Hawaii, three individuals with foreign relatives affected by the entry suspension, and the Muslim Association of Hawaii—argue that the Proclamation violates the Immigration and Nationality Act (INA) and the Establishment Clause. The District Court granted a nationwide preliminary injunction barring enforcement of the restrictions. The Ninth Circuit affrmed, concluding that the Proclamation contravened two provisions of the INA: §1182(f), which authorizes the President to “suspend the entry of all aliens or any class of aliens” whenever he “fnds” that their entry “would be detrimental to the interests of the United States,” and § 1152(a)(1)(A), which provides that “no person shall . . . be discriminated against in the issuance of an immigrant visa because of the person's race, sex, nationality, place of birth, or place of residence.” The court did not reach the Establishment Clause claim."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 3",
+      "page": 668,
+      "ref": "Case.4511149.syllabus.3",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 4",
+      "page": 668,
+      "ref": "Case.4511149.syllabus.4",
+      "text": "1. This Court assumes without deciding that plaintiffs' statutory claims are reviewable, notwithstanding consular nonreviewability or any other statutory nonreviewability issue. See Sale v. Haitian Centers Council, Inc., 509 U. S. 155. Pp. 682–683."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 5",
+      "page": 668,
+      "ref": "Case.4511149.syllabus.5",
+      "text": "2. The President has lawfully exercised the broad discretion granted to him under §1182(f) to suspend the entry of aliens into the United States. Pp. 683–697."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 6",
+      "page": 668,
+      "ref": "Case.4511149.syllabus.6",
+      "text": "(a) By its terms, §1182(f) exudes deference to the President in every clause. It entrusts to the President the decisions whether and when to suspend entry, whose entry to suspend, for how long, and on what conditions. It thus vests the President with “ample power” to impose entry restrictions in addition to those elsewhere enumerated in the INA. Sale, 509 U. S., at 187. The Proclamation falls well within this comprehensive delegation. The sole prerequisite set forth in §1182(f) is that the President “fnd[]” that the entry of the covered aliens “would be detrimental to the interests of the United States.” The President has undoubtedly fulflled that requirement here. He frst ordered DHS and other agencies to conduct a comprehensive evaluation of every single country's compliance with the information and risk assessment baseline. He then issued a Proclamation with extensive fndings about the defciencies and their impact. Based on that review, he found that restricting entry of aliens who could not be vetted with adequate information was in the national interest."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 7",
+      "page": 669,
+      "ref": "Case.4511149.syllabus.7",
+      "text": "Even assuming that some form of inquiry into the persuasiveness of the President's fndings is appropriate, but see Webster v. Doe, 486 U. S. 592, 600, plaintiffs' attacks on the suffciency of the fndings cannot be sustained. The 12-page Proclamation is more detailed than any prior order issued under §1182(f). And such a searching inquiry is inconsistent with the broad statutory text and the deference traditionally accorded the President in this sphere. See, e. g., Sale, 509 U. S., at 187–188."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 8",
+      "page": 669,
+      "ref": "Case.4511149.syllabus.8",
+      "text": "The Proclamation comports with the remaining textual limits in §1182(f). While the word “suspend” often connotes a temporary deferral, the President is not required to prescribe in advance a fxed end date for the entry restriction. Like its predecessors, the Proclamation makes clear that its “conditional restrictions” will remain in force only so long as necessary to “address” the identifed “inadequacies and risks” within the covered nations. Finally, the Proclamation properly identifes a “class of aliens” whose entry is suspended, and the word “class” comfortably encompasses a group of people linked by nationality. Pp. 684–688."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 9",
+      "page": 669,
+      "ref": "Case.4511149.syllabus.9",
+      "text": "(b) Plaintiffs have not identifed any confict between the Proclamation and the immigration scheme refected in the INA that would implicitly bar the President from addressing defciencies in the Nation's vetting system. The existing grounds of inadmissibility and the narrow Visa Waiver Program do not address the failure of certain high-risk countries to provide a minimum baseline of reliable information. Further, neither the legislative history of §1182(f) nor historical practice justifes departing from the clear text of the statute. Pp. 688–693."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 10",
+      "page": 669,
+      "ref": "Case.4511149.syllabus.10",
+      "text": "(c) Plaintiffs' argument that the President's entry suspension violates § 1152(a)(1)(A) ignores the basic distinction between admissibility determinations and visa issuance that runs throughout the INA. Section 1182 defnes the universe of aliens who are admissible into the United States (and therefore eligible to receive a visa). Once § 1182 sets the boundaries of admissibility, § 1152(a)(1)(A) prohibits discrimination in the allocation of immigrant visas based on nationality and other traits. Had Congress intended in § 1152(a)(1)(A) to constrain the President's power to determine who may enter the country, it could have chosen language directed to that end. Common sense and historical practice confrm that § 1152(a)(1)(A) does not limit the President's delegated authority under §1182(f). Presidents have repeatedly exercised their authority to suspend entry on the basis of nationality. And on plaintiffs' reading, the President would not be permitted to suspend entry from particular foreign states in response to an epidemic, or even if the United States were on the brink of war. Pp. 694–697."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 11",
+      "page": 670,
+      "ref": "Case.4511149.syllabus.11",
+      "text": "3. Plaintiffs have not demonstrated a likelihood of success on the merits of their claim that the Proclamation violates the Establishment Clause. Pp. 697–711."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 12",
+      "page": 670,
+      "ref": "Case.4511149.syllabus.12",
+      "text": "(a) The individual plaintiffs have Article III standing to challenge the exclusion of their relatives under the Establishment Clause. A person's interest in being united with his relatives is suffciently concrete and particularized to form the basis of an Article III injury in fact. Cf., e. g., Kerry v. Din, 576 U. S. 86, 101. Pp. 697–699."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 13",
+      "page": 670,
+      "ref": "Case.4511149.syllabus.13",
+      "text": "(b) Plaintiffs allege that the primary purpose of the Proclamation was religious animus and that the President's stated concerns about vetting protocols and national security were but pretexts for discriminating against Muslims. At the heart of their case is a series of statements by the President and his advisers both during the campaign and since the President assumed offce. The issue, however, is not whether to denounce the President's statements, but the signifcance of those statements in reviewing a Presidential directive, neutral on its face, addressing a matter within the core of executive responsibility. In doing so, the Court must consider not only the statements of a particular President, but also the authority of the Presidency itself. Pp. 699–702."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 14",
+      "page": 670,
+      "ref": "Case.4511149.syllabus.14",
+      "text": "(c) The admission and exclusion of foreign nationals is a “fundamental sovereign attribute exercised by the Government's political departments largely immune from judicial control.” Fiallo v. Bell, 430 U. S. 787, 792. Although foreign nationals seeking admission have no constitutional right to entry, this Court has engaged in a circumscribed judicial inquiry when the denial of a visa allegedly burdens the constitutional rights of a U. S. citizen. That review is limited to whether the Executive gives a “facially legitimate and bona fde” reason for its action, Kleindienst v. Mandel, 408 U. S. 753, 769, but the Court need not defne the precise contours of that narrow inquiry in this case. For today's purposes, the Court assumes that it may look behind the face of the Proclamation to the extent of applying rational basis review, i. e., whether the entry policy is plausibly related to the Government's stated objective to protect the country and improve vetting processes. Plaintiffs' extrinsic evidence may be considered, but the policy will be upheld so long as it can reasonably be understood to result from a justifcation independent of unconstitutional grounds. Pp. 702–705."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 15",
+      "page": 670,
+      "ref": "Case.4511149.syllabus.15",
+      "text": "(d) On the few occasions where the Court has struck down a policy as illegitimate under rational basis scrutiny, a common thread has been that the laws at issue were “divorced from any factual context from which [the Court] could discern a relationship to legitimate state interests.” Romer v. Evans, 517 U. S. 620, 635. The Proclamation does not ft that pattern. It is expressly premised on legitimate purposes and says nothing about religion. The entry restrictions on Muslim-majority nations are limited to countries that were previously designated by Congress or prior administrations as posing national security risks. Moreover, the Proclamation refects the results of a worldwide review process undertaken by multiple Cabinet officials and their agencies. Plaintiffs challenge the entry suspension based on their perception of its effectiveness and wisdom, but the Court cannot substitute its own assessment for the Executive's predictive judgments on such matters. See Holder v. Humanitarian Law Project, 561 U. S. 1, 33–34."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 16",
+      "page": 671,
+      "ref": "Case.4511149.syllabus.16",
+      "text": "Three additional features of the entry policy support the Government's claim of a legitimate national security interest. First, since the President introduced entry restrictions in January 2017, three Muslimmajority countries—Iraq, Sudan, and Chad—have been removed from the list. Second, for those countries still subject to entry restrictions, the Proclamation includes numerous exceptions for various categories of foreign nationals. Finally, the Proclamation creates a waiver program open to all covered foreign nationals seeking entry as immigrants or nonimmigrants. Under these circumstances, the Government has set forth a suffcient national security justifcation to survive rational basis review. Pp. 705–710."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Trump v. Hawaii, syllabus ¶ 17",
+      "page": 671,
+      "ref": "Case.4511149.syllabus.17",
+      "text": "878 F. 3d 662, reversed and remanded."
+    }
   ],
-  "syllabus_note": "The Library of Congress has no scan of this decision on its own (summary decisions are printed in lists, and the latest volumes are not yet scanned).",
+  "source_ids": [
+    "courtlistener-scotus-17-965",
+    "scotus-585-bv"
+  ],
   "title": "Trump v. Hawaii",
   "us_cite": "585 U.S. 667"
 }

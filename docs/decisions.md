@@ -753,12 +753,13 @@ approved the University of North Texas Digital Library as a new source.
   `importers/globe.py` and checked against the print. Two works, one per
   house: `House1866`, `Senate1866` (`docs/references.md`).
 - **Sources.** The Internet Archive has part 3 (to page 2880) in a clean
-  University of Michigan scan and on microfilm, and part 4 (the Senate's last
+  Lincoln Financial Foundation Collection scan (first recorded, wrongly, as
+  the University of Michigan's; the source id keeps that name) and on microfilm, and part 4 (the Senate's last
   days, and the House's final vote) only on a microfilm whose OCR is badly
   garbled at this size. UNT has both parts with its own OCR. Layout and words
   come from UNT: its per-page word boxes (IIIF annotations, which drop
   punctuation) and its OCR text page (with punctuation), matched word for
-  word. They are checked against the Michigan copy's OCR text (May) and the
+  word. They are checked against the Lincoln Financial Foundation copy's OCR text (May) and the
   microfilm (June). UNT's pages are kept in git, gzip-compressed as UNT sends
   them (`encoding: gzip` in the manifest; the text pages carry a session
   token, so they could not be fetched again byte for byte).
@@ -954,6 +955,63 @@ The project owner asked for the clause pages planned for phase 7.
   `_clause_pages`), rendered by `ClauseView.astro`. Clause pages are not in
   the search index, so a search does not find each clause twice.
 
+
+## 53. The first set of cases: what overrules them
+
+The project owner noticed that *Plessy v. Ferguson* showed no overruling.
+The Constitution Annotated's Table of Supreme Court Decisions Overruled by
+Subsequent Decisions (2022, p. 2441) lists *Plessy* as overruled by *Bob
+Jones University v. United States* (1983), not by *Brown v. Board of
+Education*, which the table does not list as overruling any decision; the
+library records overrulings only from that table (rule 7), so *Plessy*'s
+overruling is *Bob Jones*'s. *Bob Jones* was not in the set, so no link was
+made. One more rule, as fixed as the others:
+
+6. every decision the table lists as overruling a case chosen by rules 1
+   to 5. One step: what overrules a case added by this rule is not added.
+
+It adds 19 decisions (*Bob Jones*, *Atkins v. Virginia*, *Ring v.
+Arizona*, *Agostini v. Felton*, *Harper v. Virginia Board of Elections*,
+*Wesberry v. Sanders*, *Benton v. Maryland*, *Escobedo v. Illinois*,
+*Janus*, …), each with the reason it was chosen. They were looked up on
+CourtListener with two requests and their scans fetched from the Library
+of Congress like the others. The set is now 232 cases.
+
+
+## 54. Syllabi from the Supreme Court's own PDFs, and syllabi with several opinions
+
+The project owner approved supremecourt.gov as a source. The Library of
+Congress has scanned the United States Reports to about volume 578, so nine
+cases in the set (*Sessions v. Morales-Santana*, *Trump v. Hawaii*, *Janus*,
+*Rucho*, *Seila Law*, *Trump v. Mazars*, *Americans for Prosperity
+Foundation v. Bonta*, *Dobbs* and *Kennedy v. Bremerton*) had no syllabus.
+
+- **The Court's PDFs.** Each is read from the PDF the Court publishes: the
+  bound volume where the volume is bound (582, 585), else the preliminary
+  print of the volume (588, 591) or of the case (594, 597)
+  (`importers/scotus.py`, `PRINTS`). They are raw sources like any other
+  (about 18 MB, kept in git), read by the same reader as the scans
+  (`importers.usreports`, with a `source`), word for word; a case is found
+  in a volume by the page number in its running heads. The PDFs are
+  encrypted with an empty user password, which anyone may open;
+  `tools/pdf.py` reads them (RC4). The Library of Congress scan, where there
+  is one, comes first.
+- **Opinions without a majority.** Where no opinion speaks for the Court
+  throughout, the syllabus goes on after the judgment line with a part for
+  each opinion ("JUSTICE WHITE delivered the opinion of the Court with
+  respect to Parts I and II, concluding that …"). The reader had stopped at
+  the judgment line, so eight published syllabi were cut short (455 U.S. 422,
+  478 U.S. 109, 492 U.S. 302, 497 U.S. 639, 504 U.S. 555, 512 U.S. 622,
+  561 U.S. 742, 567 U.S. 519), and *Adamson* (332 U.S. 46) was cut at
+  "argued the" inside a holding. They now run to the list of who joined which
+  opinion. Their published paragraphs are unchanged, with the same refs; the
+  rest of the syllabus follows with new refs (rule 6). Up to 24 pages are
+  read per case (*McConnell*'s syllabus runs to p. 110); dates are read from
+  a case's first two pages only.
+- **The reader's other changes** let it follow 20 of the 25 scans it
+  had refused (hanging indents, lines read out of order, volumes before 1882
+  that print no dates). 202 of the 232 cases now have a syllabus; five scans
+  are still refused, and each case says why.
 
 ## 56. Brutus V–XVI, Patrick Henry, and the Anti-Federalist Library as a tie-breaker
 

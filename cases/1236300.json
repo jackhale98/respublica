@@ -15,12 +15,68 @@
   "loc_url": "https://www.loc.gov/item/usrep287045/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep287/usrep287045/usrep287045.pdf",
   "ref_prefix": "Case.1236300",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Powell v. Alabama, syllabus ¶ 1",
+      "page": 45,
+      "ref": "Case.1236300.syllabus.1",
+      "text": "1. The rule denying the aid of counsel to persons charged with felony, which (except as to legal questions) existed in Engiind when our Constitution was formed, was rejected in this country by the Colonies before the Declaration of Independence, and is not a test of whether the right to counsel in such cases is embraced in the guarantee of \"due process of law.\" P. 65."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. Alabama, syllabus ¶ 2",
+      "page": 46,
+      "ref": "Case.1236300.syllabus.2",
+      "text": "2. The rule that no part of the Constitution shall be treated as superfluous is\" an aid to construction which, in some instances, may be conclusive, but which must yield to more compelling considerations whenever they exist. P. 67."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. Alabama, syllabus ¶ 3",
+      "page": 46,
+      "ref": "Case.1236300.syllabus.3",
+      "text": "3. The fact that the right of an accused person to have counsel for his defense was guaranteed expressly (as respects the federal Government) by the Sixth Amendment, notwithstanding the presence of the 'due process clause in the Fifth Amendment, does not exclude that right from jhe concept \"due process of law.\" Pp. 66-68."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. Alabama, syllabus ¶ 4",
+      "page": 46,
+      "ref": "Case.1236300.syllabus.4",
+      "text": "4: The right of the accused, at least in a capital case, to have the aid of counsel for his defense, which includes the right to have sufficient time to advise with counsel and to prepare a defense, is one of the fundamental rights guaranteed by the due process clause of the Fourteenth Amendment. Pp. 68-71."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. Alabama, syllabus ¶ 5",
+      "page": 46,
+      "ref": "Case.1236300.syllabus.5",
+      "text": "5. In a capital case, where the defendant is unable to employ coinsel, and is incapable of making his own defense adequately because of ignorance, feeble-mindedness, illiteracy, or the like, it is the duty of the court, whether requested or not, to assign counsel for him as a necessary requisite of due process of law; and that duty is not discharged by an assignment at such a time and under such circumstances as to preclude the giving of effective aid in the preparation and trial of the case. P. 71."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. Alabama, syllabus ¶ 6",
+      "page": 46,
+      "ref": "Case.1236300.syllabus.6",
+      "text": "6. In a case such as this, the right to have counsel appointed, when necessary, is a logical corollary to the right to be heard by counsel. P.. 72."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. Alabama, syllabus ¶ 7",
+      "page": 46,
+      "ref": "Case.1236300.syllabus.7",
+      "text": "7. In such circumstances, the trial court has power, even in the absence of statute, to appoint an attorney for the accused; and the attorney, as an officer of the court, is bound to serve. P. 73."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Powell v. Alabama, syllabus ¶ 8",
+      "page": 46,
+      "ref": "Case.1236300.syllabus.8",
+      "text": "224 Ala.. 524, 531, 540, reversed."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-1",
     "loc-usrep-287-45"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 45 a paragraph seems to stop mid-sentence.",
   "title": "Powell v. Alabama",
   "us_cite": "287 U.S. 45"
 }

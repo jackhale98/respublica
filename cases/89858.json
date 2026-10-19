@@ -16,12 +16,68 @@
   "loc_url": "https://www.loc.gov/item/usrep098145/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep098/usrep098145/usrep098145.pdf",
   "ref_prefix": "Case.89858",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Reynolds v. United States, syllabus ¶ 1",
+      "page": 145,
+      "ref": "Case.89858.syllabus.1",
+      "text": "1. Sect. 808 of the Revised Statutes, providing for impanelling grand juries and prescribing the number of which they shall consist, applies only to the Circuit and the District Courts of the United States. An indictment for bigamy under sect. 5352 may, therefore, be found in a district court of Utah, by a grand jury of fifteen persons, impanelled pursuant to the laws of that Territory."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Reynolds v. United States, syllabus ¶ 2",
+      "page": 145,
+      "ref": "Case.89858.syllabus.2",
+      "text": "2. A petit juror in a criminal case testified on his voire dire that he believed that he had formed an opinion, although not upon evidence produced in court, as to the guilt or innocence of the prisoner; but that he had not expressed it, and did not think that it would influence his verdict. He was thereupon challenged by the prisoner for cause. The court overruled the challenge. Held, that its action was not erroneous."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Reynolds v. United States, syllabus ¶ 3",
+      "page": 145,
+      "ref": "Case.89858.syllabus.3",
+      "text": "3. Where it is apparent from the record that the challenge of'a petit juror, if it had been made by the United States for favor, should have beeii sustained, the judgment against the prisoner will not be reversed, simply because the challenge was in form for cause."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Reynolds v. United States, syllabus ¶ 4",
+      "page": 145,
+      "ref": "Case.89858.syllabus.4",
+      "text": "4. Although the Constitution declares that in all criminal prosecutions the accused shall enjoy the right to be confronted with the witnesses against him, yet if they are absent by his procurement, or when enough has been proved to cast upon him the burden of showing, and he, having full opportunity therefor, fails to show, that he has not been instrumental in concealing them or in keeping them away, he is in no condition to assert that his constitutional right has been violated by allowing competent evidence of the testimony which they gave on a previous trial between the United States and him upon the same issue. Such evidence is admissible."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Reynolds v. United States, syllabus ¶ 5",
+      "page": 145,
+      "ref": "Case.89858.syllabus.5",
+      "text": "5. Said sect. 5352 is in all respects constitutional and valid."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Reynolds v. United States, syllabus ¶ 6",
+      "page": 145,
+      "ref": "Case.89858.syllabus.6",
+      "text": "6. The scope and meaning of the first article of the amendments to the Constitution discussed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Reynolds v. United States, syllabus ¶ 7",
+      "page": 145,
+      "ref": "Case.89858.syllabus.7",
+      "text": "7. A party's religious belief cannot be accepted as a justification for his committing an overt act, made criminal by the law of the land. 'Where, therefore, the prisoner, knowing that his wife was living, married again in Utah, and, when indicted and tried therefor, set up that the church whereto he belonged enjoined upon its male members to practise polygamy, and that he, with the sanction of the recognized authorities of the church, and by a ceremony performed pursuant to its doctrines, did marry again,-Held, that the court properly refused to charge the jury that he was entitled to an acquittal, although they should find that he had contracted such second marriage pursuant to, and in conformity with, what he believed at the time to be a religious duty."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Reynolds v. United States, syllabus ¶ 8",
+      "page": 145,
+      "ref": "Case.89858.syllabus.8",
+      "text": "8. The court told the jury to \"consider what are to be the consequences to the innocent victims of this delusion [the doctrine of polygamy]. As this contest goes on they multiply, and there are pure-minded women and there are innocent children, - innocent in a sense even beyond the degree of the innocence of childhood itself. These are to be the sufferers; and as jurors fail to do their duty, and as these cases come up in the Territory of Utah, just so do these victims multiply and spread themselves over the land.\" Held, that the charge was not improper."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-4",
     "loc-usrep-98-145"
   ],
-  "syllabus_note": "No syllabus was found in the text layer of the scan.",
   "title": "Reynolds v. United States",
   "us_cite": "98 U.S. 145"
 }

@@ -11,8 +11,8 @@ const PER_ISSUE = 100; // GitHub limits how long a new-issue link can be
 const PAGE = 20; // passages shown at a time
 const SCANS: Record<string, string> = {
   primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan",
-  microfilm: "microfilm scan", tesseract: "second OCR", michigan: "Michigan scan", cornell: "Cornell scan",
-  harvard: "Harvard scan", uc: "UC scan",
+  microfilm: "microfilm scan", tesseract: "second OCR", lincoln: "Lincoln Foundation scan",
+  michigan: "Michigan scan", cornell: "Cornell scan", harvard: "Harvard scan", uc: "UC scan",
 };
 // Page images only from the hosts the page's Content Security Policy allows.
 const IMAGE_HOSTS = /^https:\/\/(archive\.org|[a-z0-9-]+\.us\.archive\.org|digital\.library\.unt\.edu|tile\.loc\.gov)\//;

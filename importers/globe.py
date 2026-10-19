@@ -20,7 +20,7 @@ Layout and words come from the University of North Texas Digital Library's
 OCR of its copy (`unt-globe-1866-p{page}-words`: each word and its box, no
 punctuation; `-text`: the same OCR as lines of text, with punctuation),
 split into columns (`importers/columns.py`). They are checked against the
-Internet Archive's scans of two other copies: the University of Michigan's
+Internet Archive's scans of two other copies: the Lincoln Financial Foundation Collection's
 part 3 (to page 2880) and a microfilm of part 4 (`importers/ocr.py`).
 """
 
@@ -51,7 +51,7 @@ UNT = {"part3": "metadc30866", "part4": "metadc30867"}  # UNT Digital Library re
 UNT_URL = "https://digital.library.unt.edu/ark:/67531/{record}/m1/{leaf}/{what}/"
 UNT_LICENSE = ("Public domain (the Congressional Globe, 1866). OCR as served by the UNT Digital Library; "
                "credit: UNT Libraries Government Documents Department, UNT Digital Library.")
-MICHIGAN = "ia-globe-1866-pt3-michigan-txt"  # pp. 1921-2880
+LINCOLN = "ia-globe-1866-pt3-michigan-txt"  # pp. 1921-2880; the Lincoln Financial Foundation copy (the id predates finding that)
 MICROFILM = "ia-globe-1866-pt4-microfilm-xml"  # pp. 2881-
 EDITION = ("The Congressional Globe: Containing the Debates and Proceedings of the First Session of the "
            "Thirty-Ninth Congress (Washington: F. & J. Rives, 1866)")
@@ -287,12 +287,12 @@ def settle_pages(read: dict[int, int | None]) -> dict[int, int]:
 # ------------------------------------------------------------ references
 
 
-def michigan_text() -> str:
-    """The Michigan copy's OCR text (part 3) from the House's proceedings of
+def lincoln_text() -> str:
+    """The Lincoln Financial Foundation copy's OCR text (part 3) from the House's proceedings of
     May 8, 1866, on: the part of it the imported items can be in."""
-    t = read_raw_text(MICHIGAN)
+    t = read_raw_text(LINCOLN)
     at = re.search(r"Tuesday,\s+May\s+8,\s+1866", t)
-    _expect(at is not None, f"{MICHIGAN}: May 8, 1866 not found")
+    _expect(at is not None, f"{LINCOLN}: May 8, 1866 not found")
     return t[at.start():]
 
 
@@ -444,7 +444,7 @@ WORKS = {
 
 def prepare(its: list[Item]) -> dict[int, list[dict]]:
     """Each block's words aligned with the other copies' readings."""
-    refs = [Reference("michigan", michigan_text()), Reference("microfilm", microfilm_text(2881, DAYS[-1][3]))]
+    refs = [Reference("lincoln", lincoln_text()), Reference("microfilm", microfilm_text(2881, DAYS[-1][3]))]
     hints: dict[str, int] = {}
     readings: dict[int, list[dict]] = {}
     for it in its:
@@ -508,7 +508,7 @@ def build(house: str, its: list[Item], readings: dict[int, list[dict]], known: s
         "ref_prefix": prefix,
         "segments": segments,
         "short": short,
-        "source_ids": sorted({sid for p in pages for sid in (words_id(p), text_id(p))}) + [MICHIGAN, MICROFILM],
+        "source_ids": sorted({sid for p in pages for sid in (words_id(p), text_id(p))}) + [LINCOLN, MICROFILM],
         "title": title,
     }
 

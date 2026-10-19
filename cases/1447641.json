@@ -15,12 +15,47 @@
   "loc_url": "https://www.loc.gov/item/usrep203001/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep203/usrep203001/usrep203001.pdf",
   "ref_prefix": "Case.1447641",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Hodges v. United States, syllabus ¶ 1",
+      "page": 1,
+      "ref": "Case.1447641.syllabus.1",
+      "text": "The Fourteenth and Fifteenth Amendments operate solely on state action and not on individual action. Unless the Thirteenth Amendment vests jurisdiction in the National Government, the remedy for wrongs committed by. iddividuals on persons of African descent is through state action and state tribunals, subject to supervision of this court by writ of error in proper cases."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hodges v. United States, syllabus ¶ 2",
+      "page": 1,
+      "ref": "Case.1447641.syllabus.2",
+      "text": "Notwithstanding the adoption of the Thirteenth, Fourteenth and Fifteenth Amendments, the National Government still remains one of enumerated powers, and the Tenth Amendment is not shorn of its vitality."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hodges v. United States, syllabus ¶ 3",
+      "page": 1,
+      "ref": "Case.1447641.syllabus.3",
+      "text": "Slavery and involuntary servitude as denounced by the Thirteenth Amendment mean a condition of enforced compulsory service of one to another; and while the cause inciting that amendment was the emancipation of the colored race, it reaches every race and every individual."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hodges v. United States, syllabus ¶ 4",
+      "page": 1,
+      "ref": "Case.1447641.syllabus.4",
+      "text": "The-result of the Amendments to the Constitution adopted after the Civil War was to abolish slavery, and to make the emancipated slaves citizens and not wards of the Nation over whom Congress retained jurisdiction. This decision of the people is binding upon the courts, and they cannot attempt to determine whether it was the wiser course."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Hodges v. United States, syllabus ¶ 5",
+      "page": 2,
+      "ref": "Case.1447641.syllabus.5",
+      "text": "The United States court has no jurisdiction under the Thirteenth Amendment. or sections 1978, 1979, 5508, 5510, Revised 'Statutes, of a charge of conspiracy made and carried out in a State to prevent citizens of African descent, because of their race and color, from making or carrying out contracts and agreements to labor."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-1",
     "loc-usrep-203-1"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 1 a paragraph seems to stop mid-sentence.",
   "title": "Hodges v. United States",
   "us_cite": "203 U.S. 1"
 }

@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "overrules Kentucky v. Dennison (table of overruled decisions)"
+  ],
+  "conan_citation": "Puerto Rico v. Branstad, 483 U.S. 219 (1987)",
+  "courtlistener_name": "Puerto Rico v. Branstad",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/111940/puerto-rico-v-branstad/",
+  "date": "1987-06-23",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 111940. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 483, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "111940",
+  "loc_url": "https://www.loc.gov/item/usrep483219/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep483/usrep483219/usrep483219.pdf",
+  "ref_prefix": "Case.111940",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Puerto Rico v. Branstad, syllabus ¶ 1",
+      "page": 219,
+      "ref": "Case.111940.syllabus.1",
+      "text": "Respondent Ronald Calder, who had been released on bail after being arraigned in a Puerto Rico court on felony charges, was declared a fugitive from justice when he failed to appear at a preliminary hearing. Believing that Calder had returned to his family's home in Iowa, Puerto Rico officials notified local authorities in Iowa, and Calder surrendered. The Governor of Puerto Rico submitted to the Governor of Iowa a request for Calder's extradition. After a hearing conducted by the Governor's counsel, and after unsuccessful negotiations between officials of the two jurisdictions for a reduction of the charges against Calder, Iowa's Governor denied the extradition request. Puerto Rico then filed suit in Federal District Court, seeking mandamus relief and a declaration that failure to deliver Calder upon presentation of proper extradition papers violated the Extradition Clause of the Federal Constitution and the Extradition Act. The court dismissed the complaint on the ground that the action was barred by the holding in Kentucky v. Dennison, 24 How. 66, that federal courts have no power to order a Governor to fulfill the State's obligation under the Extradition Clause to deliver up fugitives from justice. The Court of Appeals affirmed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Puerto Rico v. Branstad, syllabus ¶ 2",
+      "page": 219,
+      "ref": "Case.111940.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Puerto Rico v. Branstad, syllabus ¶ 3",
+      "page": 219,
+      "ref": "Case.111940.syllabus.3",
+      "text": "1. Dennison's holding that the federal courts have no authority under the Constitution to compel performance by an asylum State of the mandatory, ministerial duty to deliver up fugitives upon proper demand can stand no longer. Pp. 224-229."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Puerto Rico v. Branstad, syllabus ¶ 4",
+      "page": 219,
+      "ref": "Case.111940.syllabus.4",
+      "text": "(a) When Dennison was decided in 1861, the practical power of the Federal Government was at its lowest ebb since the adoption of the Constitution. Secession of States from the Union was a fact, and civil war was a threatening possibility. Pp. 224-225."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Puerto Rico v. Branstad, syllabus ¶ 5",
+      "page": 219,
+      "ref": "Case.111940.syllabus.5",
+      "text": "(b) The other proposition for which Dennison stands-that the Extradition Clause's commands are mandatory and afford no discretion to executive officers of the asylum State-is reaffirmed. However, the Dennison holding as to the federal courts' authority to enforce the Extradition Clause rested on a fundamental premise-that the States and the Federal Government in all circumstances must be viewed as coequal sovereigns-which is not representative of current law. It has long been a settled principle that federal courts may enjoin unconstitutional action by state officials. Considered de novo, there is no justification for distinguishing the duty to deliver fugitives from the many other species of constitutional duty enforceable in the federal courts. Because the duty is directly imposed upon the States by the Constitution itself, there is no need to weigh the performance of the federal obligation against the powers reserved to the States under the Tenth Amendment. Even assuming, as respondents contend, that there is an \"executive common law\" of extradition, developed under Dennison, which provides a superior alternative to the \"ministerial duty\" to extradite provided for by the Constitution, no weight can be accorded to it. Long continuation of decisional law or administrative practice incompatible with the Constitution's requirements cannot overcome this Court's responsibility to enforce those requirements. Pp. 226-229."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Puerto Rico v. Branstad, syllabus ¶ 6",
+      "page": 220,
+      "ref": "Case.111940.syllabus.6",
+      "text": "2. It need not be determined what applicability the Extradition Clause, which refers only to \"States,\" may have to the Commonwealth of Puerto Rico, since the Extradition Act clearly applies. Puerto Rico may predicate its mandamus action on the Act, without regard to the Clause's direct applicability. Pp. 229-230."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Puerto Rico v. Branstad, syllabus ¶ 7",
+      "page": 220,
+      "ref": "Case.111940.syllabus.7",
+      "text": "787 F. 2d 423, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-483-219"
+  ],
+  "title": "Puerto Rico v. Branstad",
+  "us_cite": "483 U.S. 219"
+}

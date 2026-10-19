@@ -1,0 +1,61 @@
+{
+  "chosen_because": [
+    "overrules Colegrove v. Green (table of overruled decisions)"
+  ],
+  "conan_citation": "Wesberry v. Sanders, 376 U.S. 1 (1964)",
+  "courtlistener_name": "Wesberry v. Sanders",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/106739/wesberry-v-sanders/",
+  "date": "1964-02-17",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 106739. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 376, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "106739",
+  "loc_url": "https://www.loc.gov/item/usrep376001/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376001/usrep376001.pdf",
+  "ref_prefix": "Case.106739",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Wesberry v. Sanders, syllabus ¶ 1",
+      "page": 1,
+      "ref": "Case.106739.syllabus.1",
+      "text": "Appellants are qualified voters in Georgia's Fifth Congressional District, the population of which is two to three times greater than that of some other congressional districts in the State. Since there is only one Congressman for each district, appellants claimed debasement of their right to vote resulting from the 1931 Georgia apportionment statute and failure of the legislature to realign that State's congressional districts more nearly to equalize the population of each. They brought this class action under 42 U. S. C. §§ 1983 and 1988 and 28 U. S. C. § 1343 (3) asking that the apportionment statute be declared invalid and that appellees, the Governor and Secretary of State, be enjoined from conducting elections under it. A three-judge District Court, though recognizing the gross population imbalance of the Fifth District in relation to the other districts, dismissed the complaint for \"want of equity.\" Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Wesberry v. Sanders, syllabus ¶ 2",
+      "page": 1,
+      "ref": "Case.106739.syllabus.2",
+      "text": "1. As in Baker v. Carr, 369 U. S. 186, which involved alleged malapportionment of seats in a state legislature, the District Court had jurisdiction of the subject matter; appellants had standing to sue; and they had stated a justiciable cause of action on which relief could be granted. Pp. 5-6."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Wesberry v. Sanders, syllabus ¶ 3",
+      "page": 1,
+      "ref": "Case.106739.syllabus.3",
+      "text": "2. A complaint alleging debasement of the right to vote as a result of a state congressional apportionment law is not subject to dismissal for \"want of equity\" as raising a wholly \"political\" question. Pp. 6-7."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Wesberry v. Sanders, syllabus ¶ 4",
+      "page": 2,
+      "ref": "Case.106739.syllabus.4",
+      "text": "3. The constitutional requirement in Art. I, § 2, that Representatives be chosen \"by the People of the several States\" means that as nearly as is practicable one person's vote in a congressional election is to be worth as much as another's. Pp. 7-8, 18."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Wesberry v. Sanders, syllabus ¶ 5",
+      "page": 2,
+      "ref": "Case.106739.syllabus.5",
+      "text": "206 F. Supp. 276, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-376-1"
+  ],
+  "title": "Wesberry v. Sanders",
+  "us_cite": "376 U.S. 1"
+}

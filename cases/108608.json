@@ -15,12 +15,26 @@
   "loc_url": "https://www.loc.gov/item/usrep408564/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep408/usrep408564/usrep408564.pdf",
   "ref_prefix": "Case.108608",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Board of Regents v. Roth, syllabus ¶ 1",
+      "page": 564,
+      "ref": "Case.108608.syllabus.1",
+      "text": "Respondent, hired for a fixed term of one academic year to teach at a state university, was informed without explanation that he would not be rehired for the ensuing year. A statute provided that all state university teachers would be employed initially on probation and that only after four years' continuous servic would teachers achieve permanent employment \"during efficiency and good behavior,\" with procedural protection -against separation. University rules gave a nontenured teacher \"dismissed\" before the end of the year some opportunity for review of the \"dismissal,\" but provided that no reason need be given for nonretention of a nontenured teacher, and no standards were specified for reemployment. Respondent brought this action claiming deprivation of his Fourteenth Amendment rights, alleging infringement of (1) his free speech right because the true reason for his nonretention was his criticism of the university administration, and (2) his procedural due process right because of the university's failure to advise him of the reason for its decision. The District Court granted summary judgment for the respondent on the procedural issue. The Court of Appeals affirmed. Held: The Fourteenth Amendment does not require opportunity for' a hearing prior to the nonrenewa of a nontenured state teacher's contract, unless he can show that the nonrenewal deprived him of an interest in \"liberty\" or that he had a \"property\" interest in continued employment, despite the lack of tenure or a formal contract. Here the nonretention of respondent, abient any charges against him or stigma or disability foreclosing other employment, is not tantamount to a deprivation of \"liberty,\" and the terms of respondent's employment accorded him no \"property\" interest protected by procedural due process. The courts below therefore erred in granting summary judgment for the respondent on the procedural due process issue. Pp. 569-579."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Board of Regents v. Roth, syllabus ¶ 2",
+      "page": 564,
+      "ref": "Case.108608.syllabus.2",
+      "text": "446 F. 2d 806, reversed and iemanded."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-3",
     "loc-usrep-408-564"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 564 a paragraph seems to stop mid-sentence.",
   "title": "Board of Regents v. Roth",
   "us_cite": "408 U.S. 564"
 }

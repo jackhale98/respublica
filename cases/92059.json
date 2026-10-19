@@ -1,0 +1,82 @@
+{
+  "chosen_because": [
+    "overrules Osborn v. Bank of the United States (table of overruled decisions)"
+  ],
+  "conan_citation": "In re Ayers, 123 U.S. 443 (1887)",
+  "courtlistener_name": "In Re Ayers",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/92059/in-re-ayers/",
+  "date": "1887-12-05",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 92059. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 123, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "92059",
+  "loc_url": "https://www.loc.gov/item/usrep123443/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep123/usrep123443/usrep123443.pdf",
+  "ref_prefix": "Case.92059",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "In re Ayers, syllabus ¶ 1",
+      "page": 443,
+      "ref": "Case.92059.syllabus.1",
+      "text": "It is well settled in this court that, while the exercise of the power of punishment for contempt of their orders by courts of general jurisdiction is not subject to review by writ of error, or by appeal, yet, when a court of the United States undertakes, by its process of contempt, to punish a man for refusing to comply with an order which that court had no authority to make, the original order being void for want of jurisdiction, the order punishing for contempt is equally void; and if the proceeding for contempt result in imprisonment, this court will, by its writ of habeas corpits, discharge the prisoner."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Ayers, syllabus ¶ 2",
+      "page": 443,
+      "ref": "Case.92059.syllabus.2",
+      "text": "Whether a State is the actual party defendant in a suit within the meaning of the l1th Amendment to the Constitution of the United States, is to be determined by a consideration of the nature of the case as presented by the whole record, and not, in every case, by a reference to the nominal parties of the record. Osborn v. Bank of the United States, 9 Wheat. 738, 857, explained and limited."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Ayers, syllabus ¶ 3",
+      "page": 443,
+      "ref": "Case.92059.syllabus.3",
+      "text": "In order to secure the manifest purpose of the constitutional exemption paranteed by the llth Amendment, it should be interpreted not literally and too narrowly, but with the breadth and largeness necessary to enable it to accomplish its purpose; and must be held to cover, not only suits brought against a State by name, but those against its officers, agents, and representatives, where the State, though not named, is the real party against which the relief is asked and the judgment will operate."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Ayers, syllabus ¶ 4",
+      "page": 443,
+      "ref": "Case.92059.syllabus.4",
+      "text": "If a bill in equity be brought against the officers and agents of a State, the nominal defendants having no personal interest in the subject-matter of the suit, and defending only as representing the State, and the relief prayed for is a decree that the defendants may be ordered to do and perform certain acts which, when done, will constitute a performance of an alleged contract of the State, it is a suit against the State for the specific performance of the contract within the terms of the 11th Amendment to the Constitution, although the State may not be named as a defendant; and, conversely, a bill for an injunction against such officers and agents, to restrain and enjoin them from acts which it is alleged they threaten to do, in pursuance of a statute of the State, in its name, and for its use, and which if done would constitute a breach on the part of the State of an alleged contract between it and the complainants, is in like manner a suit against the State within the meaning of that Amendment, although the State may not be named as a party defendant."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Ayers, syllabus ¶ 5",
+      "page": 444,
+      "ref": "Case.92059.syllabus.5",
+      "text": "The court does not intend to impinge upon the principle which justifies suits against individual defendants who, under color of the authority of unconstitutional state legislation, are guilty of personal trespasses and wrongs; nor to forbid suits against officers in their official capacity either to arrest or direct their official action by injunction or mandamus, where such suits are authorized by law, and the act to be done or omitted is purely ministerial, in the performance or omission of which the plaintiff has a legal interest."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Ayers, syllabus ¶ 6",
+      "page": 444,
+      "ref": "Case.92059.syllabus.6",
+      "text": "A bill in equity was filed by aliens against the Auditor of the State of Virginia, its Attorney General, and various Commonwealth Attorneys for its counties, seeking to enjoin them from briffging and prosecuting suits in the name and for the use of the State, under the act of its General Assembly of May 12, 1887, against tax-payers reported to be delinquent. but who had tendered in payment of the taxes sought to be recovpied in such suits, tax-receivable coupons cut from bonds of the State. An injunction having been granted according to the prayer of the bill, proceedings were taken against the Attorney General of the State and two Commonwcalth Attorneys for contempt in disobeying the orders of the court in this respect, and they were fined and were committed until the fine should be paid and they should be purged of the contempt. Held, that the suit was a suit against the State of Virginia, within the meaning of the 11th Amendment to the Constitution of the United States, and was not within the jurisdiction of the courts of the United States; that the injunction granted by the Circuit Court was null and void; that the imprisonment of the officers of the State for an alleged contempt of the authority of the Circuit Court was illegal; and that the prisoners, being before this court on a writ of habeas corpus, should be discharged."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Ayers, syllabus ¶ 7",
+      "page": 444,
+      "ref": "Case.92059.syllabus.7",
+      "text": "The Virginia act of 1877 concerning suits to collect taxes from persons who had tendered coupons in payment contains no provision as to the tender, or the proof of it, or the proof of the genuineness of the coupon, which violates legal or contract rights of the party sued."
+    },
+    {
+      "kind": "syllabus",
+      "label": "In re Ayers, syllabus ¶ 8",
+      "page": 444,
+      "ref": "Case.92059.syllabus.8",
+      "text": "If the holder of Virginia coupons, receivable in payment of state taxes, sells them, agreeing with the purchaser that they shall be so received by the State, the refusal of the State to receive them constitutes no injury to him for which le could sue the State, even if it were suable; and cannot be made the foundation for preventive relief in equity against officers of the State."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-123-443"
+  ],
+  "title": "In re Ayers",
+  "us_cite": "123 U.S. 443"
+}

@@ -1,0 +1,82 @@
+{
+  "chosen_because": [
+    "overrules Plessy v. Ferguson (table of overruled decisions)"
+  ],
+  "conan_citation": "Bob Jones University v. United States, 461 U.S. 574 (1983)",
+  "courtlistener_name": "Bob Jones University v. United States",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/110938/bob-jones-university-v-united-states/",
+  "date": "1983-05-24",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 110938. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 461, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "110938",
+  "loc_url": "https://www.loc.gov/item/usrep461574/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep461/usrep461574/usrep461574.pdf",
+  "ref_prefix": "Case.110938",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Bob Jones University v. United States, syllabus ¶ 1",
+      "page": 574,
+      "ref": "Case.110938.syllabus.1",
+      "text": "Section 501(c)(3) of the Internal Revenue Code of 1954 (IRC) provides that \"[c]orporations . .. organized and operated exclusively for religious, charitable ... or educational purposes\" are entitled to tax exemption. Until 1970, the Internal Revenue Service (IRS) granted tax-exempt status under § 501(c)(3) to private schools, independent of racial admissions policies, and granted charitable deductions for contributions to such schools under § 170 of the IRC. But in 1970, the IRS concluded that it could no longer justify allowing tax-exempt status under § 501(c)(3) to private schools that practiced racial discrimination, and in 1971 issued Revenue Ruling 71-447 providing that a private school not having a racially nondiscriminatory policy as to students is not \"charitable\" within the common-law concepts reflected in §§ 170 and 501(c)(3). In No. 81-3, petitioner Bob Jones University, while permitting unmarried Negroes to enroll as students, denies admission to applicants engaged in an interracial marriage or known to advocate interracial marriage or dating. Because of this admissions policy, the IRS revoked the University's taxexempt status. After paying a portion of the federal unemployment taxes for a certain taxable year, the University filed a refund action in Federal District Court, and the Government counterclaimed for unpaid taxes for that and other taxable years. Holding that the IRS exceeded its powers in revoking the University's tax-exempt status and violated the University's rights under the Religion Clauses of the First Amendment, the District Court ordered the IRS to refund the taxes paid and rejected the counterclaim. The Court of Appeals reversed. In No. 81-1, petitioner Goldsboro Christian Schools maintains a racially discriminatory admissions policy based upon its interpretation of the Bible, accepting for the most part only Caucasian students. The IRS determined that Goldsboro was not an organization described in § 501(c)(3) and hence was required to pay federal social security and unemployment taxes. After paying a portion of such taxes for certain years, Goldsboro filed a refund suit in Federal District Court, and the IRS counterclaimed for unpaid taxes. The District Court entered summary judgment for the IRS, rejecting Goldsboro's claim to tax-exempt status under § 501(c) (3) and also its claim that the denial of such status violated the Religion Clauses of the First Amendment. The Court of Appeals affirmed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bob Jones University v. United States, syllabus ¶ 2",
+      "page": 575,
+      "ref": "Case.110938.syllabus.2",
+      "text": "Held: Neither petitioner qualifies as a tax-exempt organization under § 501(c)(3). Pp. 585-605."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bob Jones University v. United States, syllabus ¶ 3",
+      "page": 575,
+      "ref": "Case.110938.syllabus.3",
+      "text": "(a) An examination of the IRC's framework and the background of congressional purposes reveals unmistakable evidence that underlying all relevant parts of the IRC is the intent that entitlement to tax exemption depends on meeting certain common-law standards of charitynamely, that an institution seeking tax-exempt status must serve a public purpose and not be contrary to established public policy. Thus, to warrant exemption under § 501(c)(3), an institution must fall within a category specified in that section and must demonstrably serve and be in harmony with the public interest, and the institution's purpose must not be so at odds with the common community conscience as to undermine any public benefit that might otherwise be conferred. Pp. 585-592."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bob Jones University v. United States, syllabus ¶ 4",
+      "page": 575,
+      "ref": "Case.110938.syllabus.4",
+      "text": "(b) The IRS's 1970 interpretation of § 501(c)(3) was correct. It would be wholly incompatible with the concepts underlying tax exemption to grant tax-exempt status to racially discriminatory private educational entities. Whatever may be the rationale for such private schools' policies, racial discrimination in education is contrary to public policy. Racially discriminatory educational institutions cannot be viewed as conferring a public benefit within the above \"charitable\" concept or within the congressional intent underlying § 501(c)(3). Pp. 592-596."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bob Jones University v. United States, syllabus ¶ 5",
+      "page": 575,
+      "ref": "Case.110938.syllabus.5",
+      "text": "(c) The IRS did not exceed its authority when it announced its interpretation of § 501(c)(3) in 1970 and 1971. Such interpretation is wholly consistent with what Congress, the Executive, and the courts had previously declared. And the actions of Congress since 1970 leave no doubt that the IRS reached the correct conclusion in exercising its authority. Pp. 596-602."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bob Jones University v. United States, syllabus ¶ 6",
+      "page": 575,
+      "ref": "Case.110938.syllabus.6",
+      "text": "(d) The Government's fundamental, overriding interest in eradicating racial discrimination in education substantially outweighs whatever burden denial of tax benefits places on petitioners' exercise of their religious beliefs. Petitioners' asserted interests cannot be accommodated with that compelling governmental interest, and no less restrictive means are available to achieve the govermental interest. Pp. 602-604."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bob Jones University v. United States, syllabus ¶ 7",
+      "page": 575,
+      "ref": "Case.110938.syllabus.7",
+      "text": "(e) The IRS properly applied its policy to both petitioners. Goldsboro admits that it maintains racially discriminatory policies, and, contrary to Bob Jones University's contention that it is not racially discriminatory, discrimination on the basis of racial affiliation and association is a form of racial discrimination. P. 605."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Bob Jones University v. United States, syllabus ¶ 8",
+      "page": 575,
+      "ref": "Case.110938.syllabus.8",
+      "text": "No. 81-1, 644 F. 2d 879, and No. 81-3, 639 F. 2d 147, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-461-574"
+  ],
+  "title": "Bob Jones University v. United States",
+  "us_cite": "461 U.S. 574"
+}

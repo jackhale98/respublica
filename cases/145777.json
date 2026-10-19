@@ -15,12 +15,96 @@
   "loc_url": "https://www.loc.gov/item/usrep554570/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep554/usrep554570/usrep554570.pdf",
   "ref_prefix": "Case.145777",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 1",
+      "page": 570,
+      "ref": "Case.145777.syllabus.1",
+      "text": "District of Columbia law bans handgun possession by making it a crime to carry an unregistered ﬁrearm and prohibiting the registration of handguns; provides separately that no person may carry an unlicensed handgun, but authorizes the police chief to issue 1-year licenses; and requires residents to keep lawfully owned ﬁrearms unloaded and disassembled or bound by a trigger lock or similar device. Respondent Heller, a D. C. special policeman, applied to register a handgun he wished to keep at home, but the District refused. He ﬁled this suit seeking, on Second Amendment grounds, to enjoin the city from enforcing the bar on handgun registration, the licensing requirement insofar as it prohibits carrying an unlicensed ﬁrearm in the home, and the trigger-lock requirement insofar as it prohibits the use of functional ﬁrearms in the home. The District Court dismissed the suit, but the D. C. Circuit reversed, holding that the Second Amendment protects an individual’s right to possess ﬁrearms and that the city’s total ban on handguns, as well as its requirement that ﬁrearms in the home be kept nonfunctional even when necessary for self-defense, violated that right."
+    },
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 2",
+      "page": 570,
+      "ref": "Case.145777.syllabus.2",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 3",
+      "page": 570,
+      "ref": "Case.145777.syllabus.3",
+      "text": "1. The Second Amendment protects an individual right to possess a ﬁrearm unconnected with service in a militia, and to use that arm for traditionally lawful purposes, such as self-defense within the home. Pp. 576–626."
+    },
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 4",
+      "page": 570,
+      "ref": "Case.145777.syllabus.4",
+      "text": "(a) The Amendment’s prefatory clause announces a purpose, but does not limit or expand the scope of the second part, the operative clause. The operative clause’s text and history demonstrate that it connotes an individual right to keep and bear arms. Pp. 576–595."
+    },
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 5",
+      "page": 570,
+      "ref": "Case.145777.syllabus.5",
+      "text": "(b) The prefatory clause comports with the Court’s interpretation of the operative clause. The “militia” comprised all males physically capable of acting in concert for the common defense. The Antifederalists feared that the Federal Government would disarm the people in order to disable this citizens’ militia, enabling a politicized standing army or a select militia to rule. The response was to deny Congress power to abridge the ancient right of individuals to keep and bear arms, so that the ideal of a citizens’ militia would be preserved. Pp. 595–600."
+    },
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 6",
+      "page": 571,
+      "ref": "Case.145777.syllabus.6",
+      "text": "(c) The Court’s interpretation is conﬁrmed by analogous armsbearing rights in state constitutions that preceded and immediately followed the Second Amendment. Pp. 600–603."
+    },
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 7",
+      "page": 571,
+      "ref": "Case.145777.syllabus.7",
+      "text": "(d) The Second Amendment’s drafting history, while of dubious interpretive worth, reveals three state Second Amendment proposals that unequivocally referred to an individual right to bear arms. Pp. 603–605."
+    },
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 8",
+      "page": 571,
+      "ref": "Case.145777.syllabus.8",
+      "text": "(e) Interpretation of the Second Amendment by scholars, courts, and legislators, from immediately after its ratiﬁcation through the late 19th century, also supports the Court’s conclusion. Pp. 605–619."
+    },
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 9",
+      "page": 571,
+      "ref": "Case.145777.syllabus.9",
+      "text": "(f) None of the Court’s precedents forecloses the Court’s interpretation. Neither United States v. Cruikshank, 92 U. S. 542, 553, nor Presser v. Illinois, 116 U. S. 252, 264–265, refutes the individual-rights interpretation. United States v. Miller, 307 U. S. 174, does not limit the right to keep and bear arms to militia purposes, but rather limits the type of weapon to which the right applies to those used by the militia, i. e., those in common use for lawful purposes. Pp. 619–626."
+    },
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 10",
+      "page": 571,
+      "ref": "Case.145777.syllabus.10",
+      "text": "2. Like most rights, the Second Amendment right is not unlimited. It is not a right to keep and carry any weapon whatsoever in any manner whatsoever and for whatever purpose: For example, concealed weapons prohibitions have been upheld under the Amendment or state analogues. The Court’s opinion should not be taken to cast doubt on longstanding prohibitions on the possession of ﬁrearms by felons and the mentally ill, or laws forbidding the carrying of ﬁrearms in sensitive places such as schools and government buildings, or laws imposing conditions and qualiﬁcations on the commercial sale of arms. Miller’s holding that the sorts of weapons protected are those “in common use at the time” ﬁnds support in the historical tradition of prohibiting the carrying of dangerous and unusual weapons. Pp. 626–628."
+    },
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 11",
+      "page": 571,
+      "ref": "Case.145777.syllabus.11",
+      "text": "3. The handgun ban and the trigger-lock requirement (as applied to self-defense) violate the Second Amendment. The District’s total ban on handgun possession in the home amounts to a prohibition on an entire class of “arms” that Americans overwhelmingly choose for the lawful purpose of self-defense. Under any of the standards of scrutiny the Court has applied to enumerated constitutional rights, this prohibition— in the place where the importance of the lawful defense of self, family, and property is most acute—would fail constitutional muster. Similarly, the requirement that any lawful ﬁrearm in the home be disassembled or bound by a trigger lock makes it impossible for citizens to use arms for the core lawful purpose of self-defense and is hence unconstitutional. Because Heller conceded at oral argument that the D. C. licensing law is permissible if it is not enforced arbitrarily and capriciously, the Court assumes that a license will satisfy his prayer for relief and does not address the licensing requirement. Assuming he is not disqualiﬁed from exercising Second Amendment rights, the District must permit Heller to register his handgun and must issue him a license to carry it in the home. Pp. 628–636."
+    },
+    {
+      "kind": "syllabus",
+      "label": "District of Columbia v. Heller, syllabus ¶ 12",
+      "page": 572,
+      "ref": "Case.145777.syllabus.12",
+      "text": "478 F. 3d 370, afﬁrmed."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-4",
     "loc-usrep-554-570"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 571 a paragraph seems to stop mid-sentence.",
   "title": "District of Columbia v. Heller",
   "us_cite": "554 U.S. 570"
 }

@@ -265,7 +265,7 @@ The Globe prints three columns to a page in small type. Words and layout
 come from the University of North Texas Digital Library's OCR of its copy
 (`unt-globe-1866-p{page}-words` and `-text`, one pair per page), matched
 word for word and split into columns. They are checked against the
-Internet Archive's scans of two other copies: the University of Michigan's
+Internet Archive's scans of two other copies: the Lincoln Financial Foundation Collection's
 (part 3, to page 2880; OCR text) and a microfilm (part 4; DjVu XML, read
 column by column). Each word is in at least one reading; words the two
 could not settle are marked as uncertain. The microfilm's OCR is poor, so
@@ -344,8 +344,18 @@ at a line end are rejoined. Only these changes are made. A syllabus is read
 from volume 91 (1875) on: the earlier, nominative reports carry the
 reporters' own headnotes, often as marginal notes. Where a paragraph seems to
 stop mid-sentence (the text layer is out of order, or the end was missed),
-no syllabus is imported and the case says so (`syllabus_note`). The scans are
+no syllabus is imported and the case says so (`syllabus_note`). Where no
+opinion has a majority, the syllabus goes on past the judgment line through
+each opinion's part ("JUSTICE X delivered the opinion of the Court …,
+concluding that"), up to the list of who joined which opinion. The scans are
 kept out of git (decision 49): `make fetch` downloads them.
+
+For cases the Library of Congress has not scanned (volumes 582 on), the
+syllabus is read the same way from the Supreme Court's own PDF
+(`scotus-*`, `importers/scotus.py`, decision 54): the bound volume where the
+volume is bound, else the preliminary print. Its text is born-digital and
+drops the "fi" and "fl" ligatures as recent scans do. The case file names
+the PDF (`pdf_url`) and its edition note says which print it is.
 
 **Opinions** are not imported; each case links to its opinion on
 CourtListener (decision 49).

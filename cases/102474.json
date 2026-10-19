@@ -15,12 +15,194 @@
   "loc_url": "https://www.loc.gov/item/usrep295495/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep295/usrep295495/usrep295495.pdf",
   "ref_prefix": "Case.102474",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 1",
+      "page": 495,
+      "ref": "Case.102474.syllabus.1",
+      "text": "-1. Extraordinary conditions, such as an'economic crisis, may call for extraordinary remedies, but they can not create or enlarge constitutional power. P. 528."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 2",
+      "page": 495,
+      "ref": "Case.102474.syllabus.2",
+      "text": "2. Congress is not permitted by the Constituti6n to abdicate, or to transfer to others, the essential legislative functions\" with which it is vested. Art, I, § 1; Art. I, § 8, par. 18. Panama Refining Co. v. Ryan, 293 U. S. 388. P. 529."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 3",
+      "page": 495,
+      "ref": "Case.102474.syllabus.3",
+      "text": "3. Congress may leave to selected instrumentalities the making of subordinate rules within prescribed limits, and the determination of facts to which the policy, as declared by Congress, is to apply; but it must itself lay down the policies and establish standards. P. 530."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 4",
+      "page": 495,
+      "ref": "Case.102474.syllabus.4",
+      "text": "4. The delegation of legislative power sought to be made to the President by § 3 of the National Industrial Recovery Act of June 16, 1933, is unconstitutional (pp. 529 et seq.); and the Act is also unconstitutional, as applied in this case, because it exceeds the power of Congress to regulate interstate commerce and invades the power reserved exclusively to the States (pp. 542 et sq.)."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 5",
+      "page": 495,
+      "ref": "Case.102474.syllabus.5",
+      "text": "5. Section 3 of the National Industrial Recovery Act provides that \"codes of fair competition,\" which shall be the \"standards of- fair competition\" for the trades and industries to which they relate, may be approved by the President upon application of repure sentative associations of the trades or industries to be affected, or may be prescribed by him on his own motion. Their provisions are to be enforced by injunctions from the federal courts, and \"any violation, of any of their provisions in any transaction in or affecting interstate commerce\" is to be deemed an unfair method of competition within the meaning of the Federal Trade Commission Act and is to be punished as a crime against the United States. Before approving, the President is to make certain findings as to the character of the association presenting' the code and absence of design to promote monopoly or oppress small enterprises, and must find that it will \"tend to effectuate the policy of this title.\" Codes permitting monopolies or monopolistic practices are forbidden. The Presidernt may \"impose such conditions (including requirements for the making of reports and the keeping of accounts) for ,the protection of consumers, competitors, employees and others, and in the furtherance of the public interest, and may provide such exceptions and exemptions from the provisions of such code,\" as he, in his discretioh, deems necessary \"to effectuate the policy herein declared.\" A code prescribed by him is to have the same effect as one approved on application. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 6",
+      "page": 496,
+      "ref": "Case.102474.syllabus.6",
+      "text": "(1) The statutory plan is not simply, one of voluntary effort; the \"codes of fair competition\" are meant to be codes of laws. P. 529."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 7",
+      "page": 496,
+      "ref": "Case.102474.syllabus.7",
+      "text": "(2) The meaning of the term \" fair competition\" (not expressly defined in the Act) is clearly not the mere antithesis of \"unfair competition,\" as known to the common law, or of \"unfair methods of competition\" under the Federal Trade Commission Act. P. 531."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 8",
+      "page": 496,
+      "ref": "Case.102474.syllabus.8",
+      "text": "(3) In authorizing the President to approve codes which \"will tend to effectuate the policy of this title,' § 3 of the Act refers to the Delaration of Policy in § 1. The purposes declared in § 1 are all directed to the rehabilitation of industry and 'the industrial recovery which was the major policy of Congress in adopting the Act. P. 534."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 9",
+      "page": 496,
+      "ref": "Case.102474.syllabus.9",
+      "text": "(4) That this is the' controlling-purpose of the code now before the Court appears both from its repeated declarations to that effect and from the scope of its requirements. P. 536."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 10",
+      "page": 496,
+      "ref": "Case.102474.syllabus.10",
+      "text": "(5) The authority sought to be conferred by § 3 was not merely to deal with \"unfair competitive practices\" which offend against existing law, or to create administrative machinery for the application of established principles of law to particular instances of violation. Rather, the purpose is clearly disclosed to authorize new and controlling prohibitions through codes of laws which would embrace what the formulators would propose, and what the President would approve or prescribe, as wise oand beneficent measures for the government of trades and industries, in order to bring about their rehabilitation, correction and \"improvement, according to the general declaration of policy in § 1. Codes of laws of this sort are styled \" codes of fair competition.\" P. 535."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 11",
+      "page": 497,
+      "ref": "Case.102474.syllabus.11",
+      "text": "(6) A delegation of its legislative authority to trade or industrial associations, empowering them to enact laws for the rehabilitation and expansion of their trades or industries, would be utterly inconsistent with the constitutional prerogatives and. duties of Congress. P. 537."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 12",
+      "page": 497,
+      "ref": "Case.102474.syllabus.12",
+      "text": "(7) Congress can not delegate legislative power to the President to exercise an unfettered discretion to make whatever la's he 'thinks may be needed or advisable for the rehabilitation and expansion of trade and industry. P. 537."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 13",
+      "page": 497,
+      "ref": "Case.102474.syllabus.13",
+      "text": "(S) '1 he only limits set by the Act to the President's discretion are, that he shall find, first, that the association or group proposing a code imposes no inequitable restrictions on admission to membership and is truly representative; second, that the code is not designed to promote -monopolies or to eliminate or oppiess small enterprises and will not operate to discriminate against them; and third, that it \"will tend to effectuate the policy of this title,\"-this last being\" a mere stateqient of opinion. These ate the only findings which Congress has made essential in order to put into operation a legislative code having the aims described in the \"Declaration of Policy.\" P. 538:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 14",
+      "page": 497,
+      "ref": "Case.102474.syllabus.14",
+      "text": "(9) ,Under the Act, the, President, in approving a code, may impose his own conditions, adding to or taking from what is pro-. posed, as \"in his'discretion\" he thinks necessary \"to effectuate the policy\" declared by the Act. He has no less libei when he prescribes a code on his own motion or on complaint, and he is free to prescribe one if a code has not been approved: P. 538. •"
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 15",
+      "page": 497,
+      "ref": "Case.102474.syllabus.15",
+      "text": "(10) The acts and reports of the administrative agencies which the President may create under the Act -have no sanction beyond his will. Their recommendations and findings in no- way limit tlie authority which § 3 undertakes to vest in him. And this authority relates to a host of different trades and industries, thus extending the President's discretion to all the varieties of laws which he may deem to be beneficial in dealing with the vast array of comnmercial activities throughout the country. P..539."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 16",
+      "page": 497,
+      "ref": "Case.102474.syllabus.16",
+      "text": "(11) Such a sweeping delegation of. legislative power finds no support in decisions of this Court defining and su~tainin, the powers granted to the Interstate Commerce Commission, to the Radio Commission, and to the President when acting under the \"flexible tariff\" provisions of the Tariff Act of 1922. P. 539."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 17",
+      "page": 498,
+      "ref": "Case.102474.syllabus.17",
+      "text": "(12)-Section 3 of the Recovery Act is without precedent. It supplies no standards for any trade, industry or activity. It does not undertak@-to prescribe rules of conduct to be applied to particular states of fact determined by appropriate administrative procedure. Instead, it authorizes the making of codes to prescribe them. For that legislative undertaking it sets up no standards, aside from the statement of the general aims of rehabilitation, correction-and e pansion, found in § 1. In view of the broad scope of that declaration, and of the nature of the few restrictions that are imposed, the discretion of the President in approving or pe-* scribing codes, and thus enacting laws for the government of trade and industry throughout the country, is virtually unfettered. The code-making authority thus sought to be conferred is an unconstitutional delegation of legislative power. P. 541.,."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 18",
+      "page": 498,
+      "ref": "Case.102474.syllabus.18",
+      "text": "6. Defendants were engaged in the business of slaughtering chickens and selling them to retailers. They bought their fowls from commission men in a market where most of the supply was shipped in -- from other States, transported them to their slaughterhouses, and there held them for slaughter and local cale to retail dealers and butchers, who in turn sold dif'ectly to consumers. They were indicted for disobeying the requirements of a \" Code of Fair Competition for the-Live Poultry Industry of the Metropolitan Area in and about the City of New York,\" approved by the President under § 3 of the National Industrial Recovery Act. The alleged violations werei failure to observe in their place of business provisions fixing minimum wages' and maximum hours for employees; permitting customers to select individual chickens from particular coops and half-coops; sale of an unfit chicken; sales without compliande with- municipal inspection regulations and to slaughterers and dealers not licensed under such regulations; making false reports and failure to make reports relating to range of daily prices and volume of sales. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 19",
+      "page": 498,
+      "ref": "Case.102474.syllabus.19",
+      "text": "(1) When the poultry had reached the defendants' slaughter- ,houses, the interstate commerce had ended, and subsequent transactions in, their business, including the matters charged in the indictment, -were transactions in intrastate commerce. P. 542."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 20",
+      "page": 498,
+      "ref": "Case.102474.syllabus.20",
+      "text": "(2) Decisions which deal with a stream of interstate commerce-where goods come to rest within a State temporarily and are later to go forward in interstate commerce-and with the regulation of transactions .involved in that practical continuity of movement, are inapplicable in this case. P. 543."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 21",
+      "page": 499,
+      "ref": "Case.102474.syllabus.21",
+      "text": "(3) The distinction between intrastate acts that directly affect interstate commerce, and therefore are subject to federal regulation, and those that affect it only indirectly, and therefore remain subject to the power of the States exclusively, is clear in principle, though the precise line can be drawn only as individual -cases arise. Pp. 544, 546."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 22",
+      "page": 499,
+      "ref": "Case.102474.syllabus.22",
+      "text": "(4) If the commerce clause were construed to reach all enterprises and transactions which could be gaid to have an indirect effect upon interstate commerce, the federal authority would embrace practipally all the activities of the people, and the authority of the State over its domestic concerns would exist only by sufferance of the Federal Government. Indeed, on such a theory, even the development of the State's commercial facilities would be subject to federal control. P. 546."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 23",
+      "page": 499,
+      "ref": "Case.102474.syllabus.23",
+      "text": "(5) The distinction between direct and indirect effects has long been clearly recognized .in the application of the Anti-Trust Act. It is fundamental and essential to the maintenance of our constitutional system. P. 547."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 24",
+      "page": 499,
+      "ref": "Case.102474.syllabus.24",
+      "text": "(6) The Federal Government can not regulate the wages and hours of labor of persons employed in the internal commerce of a State. No justification for such regulation is to be found in the.- fact that wages and hours affect costs and prices, and so indirectly affect interstate commerce; nor in the-fact that failure of some States to regulate wages and hours diverts commerce from the States that do regulate them. P. 548."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 25",
+      "page": 499,
+      "ref": "Case.102474.syllabus.25",
+      "text": "(7) The provisions of the code which are alleged to have been violated in this case are not a valid exercise of federal power. P. 550."
+    },
+    {
+      "kind": "syllabus",
+      "label": "A. L. A. Schechter Poultry Corp. v. United States, syllabus ¶ 26",
+      "page": 499,
+      "ref": "Case.102474.syllabus.26",
+      "text": "76 F. (2d) 617, reversed in part; affirmed in part."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-1",
     "loc-usrep-295-495"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 495 a paragraph seems to stop mid-sentence.",
   "title": "A. L. A. Schechter Poultry Corp. v. United States",
   "us_cite": "295 U.S. 495"
 }

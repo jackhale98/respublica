@@ -15,12 +15,236 @@
   "loc_url": "https://www.loc.gov/item/usrep298238/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep298/usrep298238/usrep298238.pdf",
   "ref_prefix": "Case.102662",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 1",
+      "page": 238,
+      "ref": "Case.102662.syllabus.1",
+      "text": "1. A stockholder may maintain a bill to enjoin the corporation and its directors from submitting to legislative exactions and regulations which are unconstitutional and would seriously injure the business of the corporation. P. 286."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 2",
+      "page": 238,
+      "ref": "Case.102662.syllabus.2",
+      "text": "2. Where irreparable injury from unconstitutional legislation is certain and imminent, suit for an injunction need not be deferred until injury has been actually inflicted. P. 287."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 3",
+      "page": 238,
+      "ref": "Case.102662.syllabus.3",
+      "text": "3. The \"Bituminous Coal Conservation Act of 1935\" declares, with specifications, that the mining and distribution of such coal are so affected with a national public interest and so related to the general welfare that the industry should be regulated. It recites further, with details, that such regulation is necessary because interstate commerce is directly and detrimentally affected by the state of the industry and its practices, and that the right of the miners to organize and collectively bargain for wages, hours of labor and working conditions should be guaranteed in order to prevent constant wage-cutting and disparate labor costs, detrimental to fair interstate commerce, and in order to prevent the obstructions to that commerce that arise from disputes over labor relations at the mines. The Act thereupon provides an elaborate scheme for the creation of a national commission, the organization of numerous coal districts, the setting up of numerous boards in the districts, and the fixing of all prices for bituminous coal, and of the wages, hours and working conditions of the miners, throughout the country. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 4",
+      "page": 239,
+      "ref": "Case.102662.syllabus.4",
+      "text": "(1) That a so-called excise tax, imposed by the Act, of 15% of the sale price or market value at the mine of all bituminous coal produced in the country, subject to a draw-back of 131/2% allowed to those producers who submit to the price-fixing and labor provisions of the Act, is not a tax but a penalty to coerce submission, and cannot be upheld as an expression of the taxing power. P. 288."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 5",
+      "page": 239,
+      "ref": "Case.102662.syllabus.5",
+      "text": "(2) The provisions of the Act looking to the control of the wages, hours, and working conditions of the miners engaged in the production of coal, and seeking to guarantee their right of collective bargaining in these matters, are beyond the powers of Congress, because-"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 6",
+      "page": 239,
+      "ref": "Case.102662.syllabus.6",
+      "text": "(a) The Constitution. grants to Congress no general power to regulate for the promotion of the general welfare. P. 289."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 7",
+      "page": 239,
+      "ref": "Case.102662.syllabus.7",
+      "text": "(b) The power expressly granted Congress to regulate interstate commerce does not include the power to control the conditions in which coal is -produced before it becomes an article of commerce. P. 297."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 8",
+      "page": 239,
+      "ref": "Case.102662.syllabus.8",
+      "text": "(c) The effect on interstate commerce in the coal of labor conditions involved in its production, including disputes and strikes over wages, etc., is an indirect effect. P. 307."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 9",
+      "page": 239,
+      "ref": "Case.102662.syllabus.9",
+      "text": "(3) Since a mine-owner, by refusing to accept the regulatory provisions, would incur a prohibitive tax and be deprived, by other provisions of the Act, of the right to sell coal to the United States or to any of its contractors for use in performing their contracts, the regulations are in fact compulsory. In view of this compulsion, provisions of the Act seeking to authorize part of the producers and miners to fix hours for the entire industry, and part of the producers and miners in the districts to fix minimum wages in their districts, are legislative delegation in its most obnoxious form, and clearly violate the Fifth Amendment. P. 310."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 10",
+      "page": 239,
+      "ref": "Case.102662.syllabus.10",
+      "text": "(4) The price-fixing provisions are not separable from the provisions concerning labor and therefore cannot stand independently. They are so related to and dependent upon the labor provisions, as conditions, considerations or compensations, as to make it clearly probable that, the latter being held bad, the former would not have been passed. P. 312."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 11",
+      "page": 239,
+      "ref": "Case.102662.syllabus.11",
+      "text": "(5) The constitutionality of the price-fixing provisions is not considered. P. 316."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 12",
+      "page": 239,
+      "ref": "Case.102662.syllabus.12",
+      "text": "4. Whether the end sought to be attained by an Act of Congress is legitimate is wholly a matter of constitutional power and not at all of legislative discretion. Beneficent aims, however great or well-directed, can never serve in lieu of power. P. 290."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 13",
+      "page": 240,
+      "ref": "Case.102662.syllabus.13",
+      "text": "5. To a constitutional end many ways are open; but to an end not within the terms of the Constitution, all ways are closed' P. 291."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 14",
+      "page": 240,
+      "ref": "Case.102662.syllabus.14",
+      "text": "6. The proposition, often advanced and as often discredited, that the power of the federal government inherently extends to all purposes affecting the Nation as a whole with which the States severally cannot deal, or deal adequately, and the related notion that Congress, entirely apart from those powers delegated by the Constitution, may enact laws to promote the general welfare, have always been definitely rejected by this Court. P. 291."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 15",
+      "page": 240,
+      "ref": "Case.102662.syllabus.15",
+      "text": "7. Those who framed and those who adopted the Constitution meant to carve from the general mass of legislative powers, then possessed by the States, only such portions as it was thought wise to confer upon the federal government; and in order that there should be no uncertainty as to what was taken and what was left, the national powers of legislation were not aggregated but enumerated-with the result that what was not embraced by the enumeration remained vested in the States without change or impairment. P. 294."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 16",
+      "page": 240,
+      "ref": "Case.102662.syllabus.16",
+      "text": "8. The States, in respect of all powers reserved to them, are supreme. And since every addition to the national legislative power to some extent detracts from or invades the power of the States, it is of vital moment that, in order to preserve the fixed balance intended by the Constitution, the powers of the general government be not so extended as to embrace any not within the express terms of the several grants or the implications necessarily to be drawn therefrom. P. 294."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 17",
+      "page": 240,
+      "ref": "Case.102662.syllabus.17",
+      "text": "9. The general government possesses no inherent power over the internal affairs of the States; and emphatically not with regard to legislation. P. 295."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 18",
+      "page": 240,
+      "ref": "Case.102662.syllabus.18",
+      "text": "10. The determination of the Framers Convention and the ratifying conventions to preserve complete and unimpaired state self-government in all matters not committed to the national government, is one of the plainest facts in the history of their deliberations. Adherence to that determination is incumbent equally upon the federal government and the States. State powers can neither be appropriated 'on the one hand nor abdicated on the other. P. 295."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 19",
+      "page": 240,
+      "ref": "Case.102662.syllabus.19",
+      "text": "11. If the federal government once begins taking over the powers of the States, the States may be so despoiled of their powers, orwhat may amount to the same thing-be so relieved of the responsibilities which the possession of the powers necessarily enjoins, as to reduce them to little more than geographical divisions of the national domain. P. 295."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 20",
+      "page": 241,
+      "ref": "Case.102662.syllabus.20",
+      "text": "12. The Constitution is a law-the supreme law of the land. Judicial tribunals are required to apply the law to the facts in every case properly brought before them; and in so doing, they are bound to give effect to this supreme law as against any mere statute conflicting with it. 'P. 296."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 21",
+      "page": 241,
+      "ref": "Case.102662.syllabus.21",
+      "text": "13. In the discharge of that duty, the opinion of the law-makers that a statute passed by them is valid must be given great weight; but their opinion, or the court's opinion, that the statute will prove greatly or generally beneficial, is wholly irrelevant to the inquiry. P. 297."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 22",
+      "page": 241,
+      "ref": "Case.102662.syllabus.22",
+      "text": "14. As used in the commerce clause of the Constitution, the term \"commerce\" is the equivalent of intercourse for the purposes of trade, and includes transportation, purchase, sale and exchange of commodities between citizens of the different States. The power to regulate commerce embraces the instruments by which commerce is carried on. P. 297."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 23",
+      "page": 241,
+      "ref": "Case.102662.syllabus.23",
+      "text": "15. Production and manufacture of commodities are not commerce, even when done with intent to sell or transport the commodities out of the State. P. 299."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 24",
+      "page": 241,
+      "ref": "Case.102662.syllabus.24",
+      "text": "16. The possibility or even certainty of the exportation of a product or an article from a State does not put it in interstate commerce before it has begun to move from the State. To hold otherwise would be to nationalize all industries. P. 301."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 25",
+      "page": 241,
+      "ref": "Case.102662.syllabus.25",
+      "text": "17. One who produces or manufactures a commodity, subsequently sold and shipped by him in interstate commerce, whether such sale and shipment were originally intended or not, has engaged in two distinct and separate activities. So far as he produces or manufactures it, his business is purely local. So far as he sells or ships it, or contracts to do so, to customers in another State, he engages in interstate commerce. In respect of the. former, he is subject to regulation by the State; in respect of the latter, to regulation only by the federal government. Production is not commerce, but a step in preparation for commerce. P. 303."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 26",
+      "page": 241,
+      "ref": "Case.102662.syllabus.26",
+      "text": "18. The incidents leading up to and culminating in the mining of coal--the employment of men, the fixing of their wages, hours of labor and working conditions, the bargaining in respect of these things-each and all constitute intercourse for the purposes of production, not of trade. Commerce in the coal is not brought into 'being by force of these purely local activities, but by negotiations, agreements and circumstances entirely apart from production. Mining brings the subject matter of commerce into existence; commerce disposes of it. P. 303."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 27",
+      "page": 242,
+      "ref": "Case.102662.syllabus.27",
+      "text": "19. To say that an activity or condition has a \"direct\" effect upon commerce, implies that it operates proximately-not mediately, remotely, or collaterally-to produce the effect, without the presence of any efficient intervening agency or condition. P. 307."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 28",
+      "page": 242,
+      "ref": "Case.102662.syllabus.28",
+      "text": "20. The distinction between a direct and an indirect effect upon interstate commerce is independent of the magnitude of the effect or of its cause. 'P. 308."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 29",
+      "page": 242,
+      "ref": "Case.102662.syllabus.29",
+      "text": "21. The evils which come to interstate commerce from struggles between employer and employees over the matter of wages, working conditions, the right of collective bargaining, etc., and the resulting strikes, curtailment and irregularity of production and effect on prices, however extensive such evils may be, affect interstate commerce in a secondary and indirect way; they are local evils over 'vhiclr the federal government has no legislative control. P. 308."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 30",
+      "page": 242,
+      "ref": "Case.102662.syllabus.30",
+      "text": "22. The want of power in the federal government is the same whether the wages, hours of service, and working conditions and the bargaining about them, are related to production before interstate commerce has begun, or to sale and distribution after it has ended. Schechter Poultry Corp. v. United States, 295 U. S. 495. P. 309."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 31",
+      "page": 242,
+      "ref": "Case.102662.syllabus.31",
+      "text": "23. A declaration in a statute that invalidity of any of its provisions shall not affect the others, reverses the presumption of inseparability, but it does not alter the rule that if one of two mutually dependent parts be unconstitutional, the other cannot be upheld. P. 312."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Carter v. Carter Coal Co., syllabus ¶ 32",
+      "page": 242,
+      "ref": "Case.102662.syllabus.32",
+      "text": "63 Washington Law Rep. 986, affirmed inl part and reversed in part. 12 F. Supp. 570, reversed."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-1",
     "loc-usrep-298-238"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 239 a paragraph seems to stop mid-sentence.",
   "title": "Carter v. Carter Coal Co.",
   "us_cite": "298 U.S. 238"
 }
