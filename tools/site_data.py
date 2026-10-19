@@ -105,7 +105,7 @@ UNT_IMAGE_URL = "https://digital.library.unt.edu/ark:/67531/{item}/m1/{n}/med_re
 # the page the paragraph fills (IIIF, cropped), since a whole newspaper page
 # is too large to read at screen size.
 LOC_PAGE_URL = "https://www.loc.gov/resource/{item}/{issue}/ed-1/?sp={n}"
-LOC_IMAGE_URL = "https://tile.loc.gov/image-services/iiif/{image}/pct:{x},{y},{w},{h}/1200,/0/default.jpg"
+LOC_IMAGE_URL = "https://tile.loc.gov/image-services/iiif/{image}/pct:{x},{y},{w},{h}/pct:100/0/default.jpg"
 LOC_IMAGE_ID = re.compile(r"^service(?::[A-Za-z0-9_-]+)+$")
 LOC_ISSUE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
