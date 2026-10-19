@@ -73,11 +73,34 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
           <a class="icon-btn search-trigger" href={href("/search/")} data-search-open aria-label="Search or jump to… (press /)">
             <Icon name="search" /><span class="label">Search or jump to…</span><kbd>/</kbd>
           </a>
-          <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="Color theme: system">
-            <span data-icon="system"><Icon name="system" /></span>
-            <span data-icon="light"><Icon name="sun" /></span>
-            <span data-icon="dark"><Icon name="moon" /></span>
-          </button>
+          <button class="icon-btn js-only" type="button" data-history-open aria-label="Where you've been" title="Where you've been"><Icon name="clock" /></button>
+          <button class="icon-btn js-only prefs-btn" type="button" data-prefs-open aria-label="Reading settings" title="Reading settings" aria-expanded="false" aria-controls="prefs"><span aria-hidden="true">Aa</span></button>
+        </div>
+        <div class="prefs" id="prefs" role="dialog" aria-label="Reading settings" data-prefs hidden>
+          <div class="prefs-row">
+            <span class="prefs-label" id="prefs-size">Text size</span>
+            <div class="prefs-seg" role="group" aria-labelledby="prefs-size">
+              <button type="button" data-size-step="-1" aria-label="Smaller text"><span class="a-sm">A</span>−</button>
+              <output data-size-label>Medium</output>
+              <button type="button" data-size-step="1" aria-label="Larger text"><span class="a-lg">A</span>+</button>
+            </div>
+          </div>
+          <div class="prefs-row">
+            <span class="prefs-label" id="prefs-leading">Line spacing</span>
+            <div class="prefs-seg" role="group" aria-labelledby="prefs-leading">
+              <button type="button" data-leading-set="normal">Normal</button>
+              <button type="button" data-leading-set="relaxed">Relaxed</button>
+            </div>
+          </div>
+          <div class="prefs-row">
+            <span class="prefs-label" id="prefs-theme">Theme</span>
+            <div class="prefs-seg" role="group" aria-labelledby="prefs-theme">
+              <button type="button" data-theme-set="system"><Icon name="system" />System</button>
+              <button type="button" data-theme-set="light"><Icon name="sun" />Light</button>
+              <button type="button" data-theme-set="dark"><Icon name="moon" />Dark</button>
+            </div>
+          </div>
+          <p class="prefs-note">Kept in this browser only. Text size applies to the library's texts everywhere.</p>
         </div>
       </div>
       <nav class="mobile-nav" aria-label="Primary">
@@ -140,6 +163,23 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       </div>
     </dialog>
     <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <div class="back-chip" data-back-chip hidden>
+      <a href="#" data-back-chip-link><Icon name="left" /><span>Back to <strong data-back-chip-label></strong></span></a>
+      <button type="button" class="icon-btn" data-back-chip-close aria-label="Dismiss"><Icon name="x" /></button>
+    </div>
+    <dialog class="history-dialog" aria-labelledby="history-title" data-history-dialog>
+      <header class="history-head">
+        <h2 id="history-title">Where you've been</h2>
+        <button type="button" class="icon-btn" data-history-close aria-label="Close"><Icon name="x" /></button>
+      </header>
+      <div class="history-actions">
+        <button type="button" class="btn btn-ghost" data-history-step="-1"><Icon name="left" />Back</button>
+        <button type="button" class="btn btn-ghost" data-history-step="1">Forward<Icon name="right" /></button>
+        <button type="button" class="btn btn-ghost history-clear" data-history-clear>Clear</button>
+      </div>
+      <ol class="history-list" data-history-list></ol>
+      <p class="history-note">The places you have read, newest first, kept in this browser only. Nothing is sent anywhere.</p>
+    </dialog>
 
     <script>
       import "../scripts/site.ts";

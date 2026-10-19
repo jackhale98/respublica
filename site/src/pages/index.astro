@@ -2,6 +2,7 @@
 import "../styles/home.css";
 import Base from "../layouts/Base.astro";
 import Icon from "../components/Icon.astro";
+import Continue from "../components/Continue.astro";
 import { href, AUTHORS, authorKey, formatDate, formatNumber, loadPage, loadRefs, loadSite } from "../lib/data.js";
 
 const site = loadSite();
@@ -74,6 +75,8 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
       )}
     </div>
   </section>
+
+  <div class="container"><Continue /></div>
 
   <section class="container section" aria-labelledby="library-h">
     <div class="section-head">

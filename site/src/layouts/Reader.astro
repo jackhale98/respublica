@@ -37,7 +37,7 @@ const { title, description, section, progress = false, pageId, place = title } =
         <div class="reader-tools" data-pagefind-ignore>
           <slot name="crumbs" />
           <button class="icon-btn toc-open" type="button" data-toc-open aria-controls="toc" aria-label="Contents"><Icon name="list" /><span>Contents</span></button>
-          <button class="icon-btn size-toggle" type="button" data-size-toggle aria-label="Text size"><Icon name="text" /></button>
+          <button class="icon-btn js-only prefs-btn" type="button" data-prefs-open aria-label="Reading settings" title="Reading settings" aria-controls="prefs"><span aria-hidden="true">Aa</span></button>
         </div>
         <slot />
       </div>

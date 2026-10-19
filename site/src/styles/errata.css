@@ -15,7 +15,7 @@
 .er-words { display: grid; gap: .8rem; margin: 0; padding: 0; list-style: none; }
 .er-word { display: grid; gap: .45rem; padding-top: .7rem; border-top: 1px solid var(--border); }
 .er-word:first-child { border-top: 0; padding-top: 0; }
-.er-context { margin: 0; font: 400 1rem/1.55 var(--font-serif); overflow-wrap: anywhere; }
+.er-context { margin: 0; font: 400 calc(1rem * var(--read-scale))/1.55 var(--font-serif); overflow-wrap: anywhere; }
 .er-context mark { background: var(--highlight-soft); color: inherit; box-shadow: 0 1px 0 var(--highlight); border-radius: 2px; padding: 0 .1em; }
 .er-word[data-state="chosen"] .er-context mark { background: color-mix(in srgb, var(--ok) 18%, transparent); box-shadow: 0 1px 0 var(--ok); }
 .er-readings { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; }

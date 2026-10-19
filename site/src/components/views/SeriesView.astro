@@ -1,6 +1,7 @@
 ---
 import "../../styles/collection.css";
 import Base from "../../layouts/Base.astro";
+import Continue from "../Continue.astro";
 import AuthorChip from "../AuthorChip.astro";
 import { href, POSITION_LABELS, authorText, formatDate, newspaper, printedDate, readingMinutes } from "../../lib/data.js";
 
@@ -33,6 +34,7 @@ const attr = work.attribution;
   </section>
 
   <div class="container">
+    <Continue work={work.url.split("/")[1]} />
     <ol class="papers">
       {parts.map((p) => {
         const date = printedDate(p.publication);

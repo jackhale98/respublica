@@ -1,6 +1,7 @@
 ---
 import "../../styles/collection.css";
 import Base from "../../layouts/Base.astro";
+import Continue from "../Continue.astro";
 import { href, formatDate, readingMinutes } from "../../lib/data.js";
 
 // Index of a debate in Congress: one entry per item, a day on which the house
@@ -29,6 +30,7 @@ const words = parts.reduce((s, p) => s + p.words, 0);
   </section>
 
   <div class="container">
+    <Continue work={work.url.split("/")[1]} />
     <ol class="papers">
       {parts.map((p, i) => (
         <li>

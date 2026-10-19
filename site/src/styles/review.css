@@ -49,12 +49,12 @@
 .rv-side { font: 700 .7rem/1 var(--font-sans); text-transform: uppercase; letter-spacing: .06em; color: var(--text-faint); }
 .rv-ref { font-weight: 600; color: var(--link); }
 .rv-code { font: .72rem var(--font-mono); color: var(--text-faint); }
-.rv-text { margin: 0; font: 400 1rem/1.55 var(--font-serif); overflow-wrap: anywhere; }
+.rv-text { margin: 0; font: 400 calc(1rem * var(--read-scale))/1.55 var(--font-serif); overflow-wrap: anywhere; }
 .rv-text.clamped { display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; overflow: hidden; }
 .rv-text mark { background: var(--highlight-soft); color: inherit; box-shadow: 0 1px 0 var(--highlight); border-radius: 2px; }
 .rv-more { border: 0; background: none; padding: .2rem 0; color: var(--link); font: 600 .82rem var(--font-sans); cursor: pointer; }
 .rv-whole { margin: 0; color: var(--text-muted); font-size: .9rem; }
-.rv-quote { margin: .4rem 0 0; padding-left: .7rem; border-left: 3px solid var(--highlight); font: italic 400 .98rem/1.5 var(--font-serif); }
+.rv-quote { margin: .4rem 0 0; padding-left: .7rem; border-left: 3px solid var(--highlight); font: italic 400 calc(.98rem * var(--read-scale))/1.5 var(--font-serif); }
 .rv-why { margin: 0; color: var(--text-muted); font-size: .92rem; }
 .rv-why strong { color: var(--text); }
 

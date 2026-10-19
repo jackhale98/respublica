@@ -2,41 +2,116 @@
 // Everything degrades to plain links without JavaScript.
 
 import { prefersReducedMotion } from "./loader";
+import "./history";
 
 const root = document.documentElement;
 
-// ---------------------------------------------------------------- theme
+// ---------------------------------------------------------------- reading settings
+
+// Theme, text size and line spacing (the "Aa" panel), kept in this browser
+// only and applied before first paint by public/theme.js. Text size scales
+// the library's texts everywhere (--read-scale), not menus and buttons.
 
 const THEMES = ["system", "light", "dark"] as const;
+const SIZES = ["s", "m", "l", "xl", "xxl"] as const;
+const SIZE_NAMES: Record<string, string> = { s: "Small", m: "Medium", l: "Large", xl: "Larger", xxl: "Largest" };
 
-function currentTheme(): (typeof THEMES)[number] {
-  const t = root.getAttribute("data-theme");
-  return t === "light" || t === "dark" ? t : "system";
-}
-
-function setTheme(theme: (typeof THEMES)[number]) {
-  if (theme === "system") root.removeAttribute("data-theme");
-  else root.setAttribute("data-theme", theme);
+function store(key: string, value: string | null) {
   try {
-    if (theme === "system") localStorage.removeItem("rp-theme");
-    else localStorage.setItem("rp-theme", theme);
+    if (value === null) localStorage.removeItem(key);
+    else localStorage.setItem(key, value);
   } catch {
     /* storage unavailable: the choice lasts for this page only */
   }
-  for (const b of document.querySelectorAll<HTMLButtonElement>("[data-theme-toggle]")) {
-    b.setAttribute("aria-label", `Color theme: ${theme}`);
-    b.title = `Theme: ${theme}`;
-  }
 }
 
-for (const b of document.querySelectorAll<HTMLButtonElement>("[data-theme-toggle]")) {
-  b.title = `Theme: ${currentTheme()}`;
+const currentTheme = () => (root.getAttribute("data-theme") as "light" | "dark" | null) ?? "system";
+const currentSize = () => root.getAttribute("data-size") ?? "m";
+const currentLeading = () => root.getAttribute("data-leading") ?? "normal";
+
+// The passage (or any element with a ref) at the top of the screen, and how
+// far below the header it sits: kept in place when the text reflows.
+function anchorAtTop(): { el: Element; top: number } | null {
+  const line = (document.querySelector<HTMLElement>(".site-header")?.offsetHeight ?? 0) + 8;
+  for (const el of document.querySelectorAll("[data-ref], .clause-text, .cl-item, .er-passage")) {
+    const r = el.getBoundingClientRect();
+    if (r.bottom > line) return { el, top: r.top };
+  }
+  return null;
+}
+
+function keepingPlace(change: () => void) {
+  const a = window.scrollY > 0 ? anchorAtTop() : null;
+  change();
+  if (a) window.scrollBy(0, a.el.getBoundingClientRect().top - a.top);
+}
+
+function paintPrefs() {
+  const size = currentSize();
+  const label = document.querySelector("[data-size-label]");
+  if (label) label.textContent = SIZE_NAMES[size];
+  const i = SIZES.indexOf(size as (typeof SIZES)[number]);
+  for (const b of document.querySelectorAll<HTMLButtonElement>("[data-size-step]")) {
+    const step = Number(b.dataset.sizeStep);
+    b.disabled = i + step < 0 || i + step >= SIZES.length;
+  }
+  for (const b of document.querySelectorAll<HTMLButtonElement>("[data-leading-set]"))
+    b.setAttribute("aria-pressed", String(b.dataset.leadingSet === currentLeading()));
+  for (const b of document.querySelectorAll<HTMLButtonElement>("[data-theme-set]"))
+    b.setAttribute("aria-pressed", String(b.dataset.themeSet === currentTheme()));
+}
+
+for (const b of document.querySelectorAll<HTMLButtonElement>("[data-size-step]")) {
   b.addEventListener("click", () => {
-    const next = THEMES[(THEMES.indexOf(currentTheme()) + 1) % THEMES.length];
-    setTheme(next);
-    toast(`Theme: ${next}`);
+    const i = SIZES.indexOf(currentSize() as (typeof SIZES)[number]) + Number(b.dataset.sizeStep);
+    const next = SIZES[Math.max(0, Math.min(SIZES.length - 1, i))];
+    keepingPlace(() => (next === "m" ? root.removeAttribute("data-size") : root.setAttribute("data-size", next)));
+    store("rp-size", next === "m" ? null : next);
+    paintPrefs();
   });
 }
+for (const b of document.querySelectorAll<HTMLButtonElement>("[data-leading-set]")) {
+  b.addEventListener("click", () => {
+    const relaxed = b.dataset.leadingSet === "relaxed";
+    keepingPlace(() => (relaxed ? root.setAttribute("data-leading", "relaxed") : root.removeAttribute("data-leading")));
+    store("rp-leading", relaxed ? "relaxed" : null);
+    paintPrefs();
+  });
+}
+for (const b of document.querySelectorAll<HTMLButtonElement>("[data-theme-set]")) {
+  b.addEventListener("click", () => {
+    const t = b.dataset.themeSet as (typeof THEMES)[number];
+    if (t === "system") root.removeAttribute("data-theme");
+    else root.setAttribute("data-theme", t);
+    store("rp-theme", t === "system" ? null : t);
+    paintPrefs();
+  });
+}
+
+const prefs = document.querySelector<HTMLElement>("[data-prefs]");
+const prefsButtons = document.querySelectorAll<HTMLButtonElement>("[data-prefs-open]");
+function showPrefs(open: boolean) {
+  if (!prefs) return;
+  prefs.hidden = !open;
+  for (const b of prefsButtons) b.setAttribute("aria-expanded", String(open));
+  if (open) {
+    paintPrefs();
+    prefs.querySelector<HTMLButtonElement>("button:not(:disabled)")?.focus({ preventScroll: true });
+  }
+}
+for (const b of prefsButtons) b.addEventListener("click", (e) => {
+  e.stopPropagation();
+  showPrefs(!!prefs?.hidden);
+});
+document.addEventListener("click", (e) => {
+  if (prefs && !prefs.hidden && !prefs.contains(e.target as Node)) showPrefs(false);
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && prefs && !prefs.hidden) {
+    showPrefs(false);
+    document.querySelector<HTMLButtonElement>(".site-header [data-prefs-open]")?.focus({ preventScroll: true });
+  }
+});
 
 // ---------------------------------------------------------------- logo egg
 

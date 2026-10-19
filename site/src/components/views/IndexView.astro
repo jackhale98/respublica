@@ -1,6 +1,7 @@
 ---
 import "../../styles/collection.css";
 import Base from "../../layouts/Base.astro";
+import Continue from "../Continue.astro";
 import AuthorChip from "../AuthorChip.astro";
 import Icon from "../Icon.astro";
 import { href, AUTHORS, authorKey, formatDate, newspaper, printedDate, readingMinutes } from "../../lib/data.js";
@@ -40,6 +41,7 @@ const words = parts.reduce((s, p) => s + p.words, 0);
   </section>
 
   <div class="container">
+    <Continue work={work.url.split("/")[1]} />
     <section class="card authorship" aria-labelledby="authors-h">
       <h2 id="authors-h">Authorship in this edition</h2>
       <svg class="author-bar" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" role="img"

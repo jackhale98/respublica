@@ -495,22 +495,6 @@ if (placebar) {
   });
 }
 
-// ---------------------------------------------------------------- text size
-
-const SIZES = ["s", "m", "l", "xl"];
-document.querySelector("[data-size-toggle]")?.addEventListener("click", () => {
-  const root = document.documentElement;
-  const cur = root.getAttribute("data-size") || "m";
-  const next = SIZES[(SIZES.indexOf(cur) + 1) % SIZES.length];
-  if (next === "m") root.removeAttribute("data-size"); else root.setAttribute("data-size", next);
-  try {
-    if (next === "m") localStorage.removeItem("rp-size"); else localStorage.setItem("rp-size", next);
-  } catch {
-    /* preference lasts for this page only */
-  }
-  toast(`Text size: ${{ s: "small", m: "medium", l: "large", xl: "extra large" }[next]}`);
-});
-
 // ---------------------------------------------------------------- initial
 
 // A retired ref's anchor sits inside the passage it was merged into.

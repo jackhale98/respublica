@@ -1,0 +1,13 @@
+---
+import Icon from "./Icon.astro";
+
+// Continue reading (scripts/history.ts): filled in the browser from the
+// places this reader left off, kept in this browser only; hidden until then
+// and without JavaScript. `work`: one work's slug, or none for the most
+// recent three across the library.
+const { work } = Astro.props;
+---
+<section class="continue-card" data-continue={work ?? ""} aria-labelledby={`continue-h${work ? `-${work}` : ""}`} hidden>
+  <h2 id={`continue-h${work ? `-${work}` : ""}`}><Icon name="book" />Continue reading</h2>
+  <ul data-continue-list></ul>
+</section>

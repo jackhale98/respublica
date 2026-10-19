@@ -44,13 +44,19 @@
   --radius-lg: 18px;
   --page: 76rem;
   --measure: 40rem;
-  --read-size: 1.1875rem;
+  /* Reading text (passages, clause text, excerpts, previews) scales with the
+     reader's text size; menus and buttons do not. */
+  --read-scale: 1;
+  --read-size: calc(1.1875rem * var(--read-scale));
+  --read-leading: 1.72;
   --header-h: 3.75rem;
 }
 
-:root[data-size="s"] { --read-size: 1.0625rem; }
-:root[data-size="l"] { --read-size: 1.3125rem; }
-:root[data-size="xl"] { --read-size: 1.4375rem; }
+:root[data-size="s"] { --read-scale: .895; }
+:root[data-size="l"] { --read-scale: 1.105; }
+:root[data-size="xl"] { --read-scale: 1.21; }
+:root[data-size="xxl"] { --read-scale: 1.35; }
+:root[data-leading="relaxed"] { --read-leading: 1.95; }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {

@@ -4,7 +4,7 @@
 .clause-text {
   margin: 1rem 0 0; max-width: 46rem; padding: .9rem 1.1rem; border-left: 3px solid var(--group-founding);
   border-radius: 0 var(--radius) var(--radius) 0; background: var(--bg-raised);
-  font: 400 clamp(1.05rem, 2.4vw, 1.2rem)/1.6 var(--font-serif); color: var(--text);
+  font: 400 calc(clamp(1.05rem, 2.4vw, 1.2rem) * var(--read-scale))/var(--read-leading) var(--font-serif); color: var(--text);
 }
 .clause-text p { margin: 0 0 .5rem; }
 .clause-text p:last-child { margin: 0; }
@@ -40,7 +40,7 @@
 .cl-verb { font: 600 .72rem/1 var(--font-sans); letter-spacing: .05em; text-transform: uppercase; color: var(--text-faint); }
 .cl-target { display: inline-block; margin-top: .3rem; font-weight: 600; }
 .cl-case { display: block; margin-top: .15rem; color: var(--text-muted); font-size: .84rem; }
-.cl-item blockquote { margin: .45rem 0 0; padding-left: .7rem; border-left: 2px solid var(--border-strong); font: italic 400 .98rem/1.5 var(--font-serif); color: var(--text-muted); }
+.cl-item blockquote { margin: .45rem 0 0; padding-left: .7rem; border-left: 2px solid var(--border-strong); font: italic 400 calc(.98rem * var(--read-scale))/1.5 var(--font-serif); color: var(--text-muted); }
 .cl-item blockquote mark { color: var(--text); font-style: normal; background: var(--highlight-soft); border-radius: 2px; padding: 0 .1em; }
 .cl-why { margin: .45rem 0 0; color: var(--text-muted); font-size: .86rem; }
 .cl-src { margin: .3rem 0 0; color: var(--text-faint); font-size: .8rem; }

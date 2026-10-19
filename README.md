@@ -34,10 +34,10 @@ between passages,
 `/` or Ctrl/⌘+K to search (matching passages appear as you type; Enter opens a
 full results page with every matching passage, filterable by text and author)
 or jump ("Fed 10", "1.8.3", "Amendment 14"), light
-and dark themes, adjustable text size (remembered in the browser), The
+and dark themes, adjustable text size and line spacing (remembered in the browser), The
 Federalist's papers filterable by author, a page for each Supreme Court case
 (`/cases/`) with its syllabus as printed, the provisions it is cited under and
-any overruling, a page for each clause of the Constitution and each section of an amendment (`/constitution/1/8/18/`) gathering the debate's links and the cases on it, a map of every link and case along the founding documents (`/map/`), a review page for maintainers (`/review/`), and an errata page (`/errata/`) on which they read uncertain words off the page images. Every page works without JavaScript except those two; the map shows its counts as a table.
+any overruling, a page for each clause of the Constitution and each section of an amendment (`/constitution/1/8/18/`) gathering the debate's links and the cases on it, a map of every link and case along the founding documents (`/map/`), a review page for maintainers (`/review/`), and an errata page (`/errata/`) on which they read uncertain words off the page images. Reading settings ("Aa" in the header: text size for the library's texts everywhere, line spacing, theme), "Where you've been" (a history of the places read, with Back, Forward and Clear, and a "Back to …" button after any jump) and "Continue reading" on the home page and each work's page are kept only in the reader's browser. Every page works without JavaScript except those two; the map shows its counts as a table.
 
 ## Quick start
 
