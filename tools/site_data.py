@@ -861,7 +861,7 @@ class SiteBuilder:
 
     # Fields of a case file (cases/) that its page shows as they are.
     CASE_FIELDS = ("chosen_because", "conan_citation", "courtlistener_name", "courtlistener_url", "date", "docket",
-                   "loc_url", "pdf_url", "syllabus_note", "us_cite")
+                   "court_print", "loc_url", "pdf_first_page", "pdf_url", "syllabus_note", "us_cite")
 
     def _case_page(self, work: dict) -> dict:
         """A case's page: its details, the syllabus as printed (one passage
@@ -884,7 +884,10 @@ class SiteBuilder:
             block = self._passage(work, s)
             if s.get("kind") == "syllabus" and work.get("pdf_url"):
                 first = int(case.get("us_cite", "0 U.S. 0").split()[-1])
-                block["printed"] = {"page": s["page"], "url": f"{work['pdf_url']}#page={s['page'] - first + 1}"}
+                index = s["page"] - first + work.get("pdf_first_page", 1)
+                block["printed"] = {"page": s["page"], "url": f"{work['pdf_url']}#page={index}",
+                                    "from": "the Supreme Court's PDF" if work.get("court_print")
+                                    else "the Library of Congress scan"}
             blocks.append(block)
         return {
             "blocks": blocks,

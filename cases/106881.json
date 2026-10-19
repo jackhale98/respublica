@@ -1,0 +1,96 @@
+{
+  "chosen_because": [
+    "overrules Stein v. New York (table of overruled decisions)"
+  ],
+  "conan_citation": "Jackson v. Denno, 378 U.S. 368 (1964)",
+  "courtlistener_name": "Jackson v. Denno",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/106881/jackson-v-denno/",
+  "date": "1964-06-22",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 106881. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 378, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "106881",
+  "loc_url": "https://www.loc.gov/item/usrep378368/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378368/usrep378368.pdf",
+  "ref_prefix": "Case.106881",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Denno, syllabus ¶ 1",
+      "page": 368,
+      "ref": "Case.106881.syllabus.1",
+      "text": "Petitioner after robbing a hotel fatally wounded a policeman and himself received two bullet wounds. Questioned shortly after arrival at a hospital, he admitted the shooting and the robbery. Some time later, after considerable loss of blood and soon after he had been given drugs, he was interrogated and admitted firing the first shot at the policeman. Petitioner was indicted for murder and both statements were admitted at the trial, at which petitioner's testimony differed in some important respects from the confessions. In accord with New York practice where the voluntariness of a confession is attacked, the trial court submitted that issue, with the others, to the jury. The jury was told to disregard the confession entirely if it was found involuntary, and to determine the guilt or innocence solely from other evidence; or, if it found the confession voluntary, it was to determine its truth or reliability and weigh it accordingly. The jury found petitioner guilty of firstdegree murder, the New York Court of Appeals affirmed and this Court denied certiorari. Petitioner filed a petition for a writ of habeas corpus asserting that the New York procedure for determining voluntariness of a confession was unconstitutional and that his confession was involuntary. The District Court denied the petition and the Court of Appeals affirmed. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Denno, syllabus ¶ 2",
+      "page": 368,
+      "ref": "Case.106881.syllabus.2",
+      "text": "1. Under the New York procedure, the trial judge must make a preliminary determination of the voluntariness of a confession and exclude it if in no circumstances could the confession be deemed voluntary. If the evidence presents a fair question as to its voluntariness, as where certain facts bearing on the issue are in dispute or where reasonable men could differ over the inferences to be drawn from the undisputed facts, the judge must admit the confession and leave to the jury, under proper instructions, the determination of its voluntary character and also of its truthfulness. This procedure does not provide an adequate and reliable determination of the voluntariness of the confession and does not adequately protect the petitioner's right not to be convicted through the use of a coerced confession and is therefore violative of the Due Process Clause of the Fourteenth Amendment. Stein v. New York, 346 U. S. 156, overruled. Pp. 376-391."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Denno, syllabus ¶ 3",
+      "page": 369,
+      "ref": "Case.106881.syllabus.3",
+      "text": "(a) It is a deprivation of due process of law to base a conviction, in whole or in part, on a coerced confession, regardless of its truth, and even though there may be sufficient other evidence to support the conviction. P. 376."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Denno, syllabus ¶ 4",
+      "page": 369,
+      "ref": "Case.106881.syllabus.4",
+      "text": "(b) A defendant has a constitutional right to a fair hearing and reliable determination of the voluntariness of a confession, not influenced by its truth or falsity. Pp. 376-377."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Denno, syllabus ¶ 5",
+      "page": 369,
+      "ref": "Case.106881.syllabus.5",
+      "text": "(c) It is impossible to tell whether the trial jury found the confession voluntary and relied on it, or involuntary and supposedly ignored it, but for the Court to accept these alternatives is to fail to protect the rights of the accused. Pp. 379-391."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Denno, syllabus ¶ 6",
+      "page": 369,
+      "ref": "Case.106881.syllabus.6",
+      "text": "(d) Under the New York procedure the evidence given the jury inevitably injects irrelevant and impermissible considerations of truthfulness of the confession into the assessment of voluntariness. Alternatively there is the danger that a confession found to be coerced plays some part in the jury's deliberations on guilt or innocence. Pp. 386-389."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Denno, syllabus ¶ 7",
+      "page": 369,
+      "ref": "Case.106881.syllabus.7",
+      "text": "2. Petitioner is entitled to a state court hearing on the issue of the voluntariness of the confession by a body other than the one trying his guilt or innocence, but that does not necessarily entitle him to a new trial. Pp. 391-396."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Denno, syllabus ¶ 8",
+      "page": 369,
+      "ref": "Case.106881.syllabus.8",
+      "text": "(a) If at an evidentiary hearing on the coercion issue it is determined that the confession was voluntary and admissible in evidence, -a new trial is unnecessary. P. 394."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Denno, syllabus ¶ 9",
+      "page": 369,
+      "ref": "Case.106881.syllabus.9",
+      "text": "(b) If it is determined at the hearing that the confession was involuntary, a new trial, at which the confession is excluded, is required. P. 394."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Jackson v. Denno, syllabus ¶ 10",
+      "page": 369,
+      "ref": "Case.106881.syllabus.10",
+      "text": "309 F. 2d 573, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-378-368"
+  ],
+  "title": "Jackson v. Denno",
+  "us_cite": "378 U.S. 368"
+}

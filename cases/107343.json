@@ -1,0 +1,104 @@
+{
+  "chosen_because": [
+    "overrules Adler v. Board of Education (table of overruled decisions)"
+  ],
+  "conan_citation": "Keyishian v. Board of Regents, 385 U.S. 589 (1967)",
+  "courtlistener_date": "1966-10-17",
+  "courtlistener_name": "Keyishian v. Board of Regents of Univ. of State of NY",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/107343/keyishian-v-board-of-regents-of-univ-of-state-of-ny/",
+  "date": "1967-01-23",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 107343. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 385, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "107343",
+  "loc_url": "https://www.loc.gov/item/usrep385589/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep385589/usrep385589.pdf",
+  "ref_prefix": "Case.107343",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Keyishian v. Board of Regents, syllabus ¶ 1",
+      "page": 589,
+      "ref": "Case.107343.syllabus.1",
+      "text": "Appellants, faculty members of the State University of New York and a nonfaculty employee, brought this action for declaratory and injunctive relief, claiming that New York's teacher loyalty laws and regulations are unconstitutional. Their continued employment had been terminated or was threatened when each appellant faculty member refused to comply with a requirement of the university trustees that he certify that he was not a Communist and that if he had ever been one he had so advised the university president; and the nonfaculty employee refused to state under oath whether he had advocated or been a member of a group which advocated forceful overthrow of the government. Under § 3021 of New York's Education Law \"treasonable or seditious\" utterances or acts are grounds for dismissal from the public school system, as well as under § 105, subd. 3, of the Civil Service Law. Other provisions of § 105 of the Civil Service Law disqualify from the civil service or employment in the educational system any person advocating or involved with the distribution of written material which advocates the forceful overthrow of the government. Section 3021 does not define \"treasonable or seditious.\" Section 105, subd. 3, provides that \"treasonable word or act\" shall mean \"treason\" as defined in the Penal Law and \"seditious word or act\" shall mean \"criminal anarchy\" as therein defined. Section 3022 (the Feinberg Law) of the Education Law requires the State Board of Regents to issue regulations for the disqualification or removal on loyalty grounds of faculty or other personnel in the state educational system, to make a list of \"subversive\" organizations, and to provide that membership therein constitutes prima facie evidence of disqualification for employment. The Board listed the National and State Communist Parties as \"subversive organizations\" under the law, but shortly before the trial of this case the university trustees' certificate requirement was rescinded and it was announced that no person would be ineligible for employment \"solely\" because he refused to sign the certificate, and that §§ 3021 and 3022 of the Education Law and § 105 of the Civil Service Law constituted part of the employment contract. A three-judge District Court sustained the constitutionality of these provisions against appellants' challenges of vagueness and overbreadth and dismissed the complaint. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Keyishian v. Board of Regents, syllabus ¶ 2",
+      "page": 590,
+      "ref": "Case.107343.syllabus.2",
+      "text": "1. Adler v. Board of Education, 342 U. S. 485, in which this Court upheld some aspects of the New York teacher loyalty plan before its extension to state institutions of higher learning, is not controlling, the vagueness issue presented here involving § 3021 and § 105 not having been decided in Adler, and the validity of the subversive organization membership provision of § 3022 having been upheld for reasons subsequently rejected by this Court. Pp. 593-595."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Keyishian v. Board of Regents, syllabus ¶ 3",
+      "page": 590,
+      "ref": "Case.107343.syllabus.3",
+      "text": "2. The rescission of the certificate requirement does not moot this case, as the substance of the statutory and regulatory complex challenged by appellants remains. P. 596."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Keyishian v. Board of Regents, syllabus ¶ 4",
+      "page": 590,
+      "ref": "Case.107343.syllabus.4",
+      "text": "3. Section 3021 of the Education Law and § 105, subds. 1 (a), 1 (b), and 3, of the Civil Service Law as implemented by the, machinery created pursuant to § 3022 of the Education Law, are unconstitutionally vague, since no teacher can know from § 3021 of the Education Law and § 105, subd. 3, of the Civil Service Law what constitutes the boundary between \"seditious\" and nonseditious utterances and acts, and the other provisions may well prohibit the employment of one who advocates doctrine abstractly without any attempt to incite others to action, and may be construed to cover mere expression of belief. Pp. 597-604."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Keyishian v. Board of Regents, syllabus ¶ 5",
+      "page": 590,
+      "ref": "Case.107343.syllabus.5",
+      "text": "(a) These provisions, which have not been interpreted by the New York courts, can have a stifling effect on the \"free play of the spirit which all teachers ought especially to cultivate and practice\" (Wieman v. Updegrafj, 344 U. S. 183, 195 (concurring opinion)). Pp. 601-602."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Keyishian v. Board of Regents, syllabus ¶ 6",
+      "page": 590,
+      "ref": "Case.107343.syllabus.6",
+      "text": "(b) Academic freedom is a special concern of the First Amendment, which does not tolerate laws that cast a pall of orthodoxy over the classroom. P. 603."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Keyishian v. Board of Regents, syllabus ¶ 7",
+      "page": 590,
+      "ref": "Case.107343.syllabus.7",
+      "text": "(c) The prolixity and profusion of statutes, regulations, and administrative machinery, and manifold cross-references to interrelated enactments and rules aggravate the problem of vagueness of wording. P. 604."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Keyishian v. Board of Regents, syllabus ¶ 8",
+      "page": 590,
+      "ref": "Case.107343.syllabus.8",
+      "text": "4. The provisions of the Civil Service Law (§ 105, subd. 1 (c)) and the Education Law (§ 3022, subd. 2), which make Communist Party membership, as such, prima facie evidence of disqualification for employment in the public school system are \"overbroad\" and therefore unconstitutional. Pp. 605-610."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Keyishian v. Board of Regents, syllabus ¶ 9",
+      "page": 591,
+      "ref": "Case.107343.syllabus.9",
+      "text": "(a) Constitutional doctrine after this Court's upholding of § 3022, subd. 2, in Adler has rejected its major premise that public employment may be conditioned upon the surrender of constitutional rights which could not be abridged by direct government action. P. 605."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Keyishian v. Board of Regents, syllabus ¶ 10",
+      "page": 591,
+      "ref": "Case.107343.syllabus.10",
+      "text": "(b) Mere knowing membership without a specific intent to further the unlawful aims of an organization is not a constitutionally adequate basis for imposing sanctions. Pp. 606-610."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Keyishian v. Board of Regents, syllabus ¶ 11",
+      "page": 591,
+      "ref": "Case.107343.syllabus.11",
+      "text": "255 F. Supp. 981, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-385-589"
+  ],
+  "title": "Keyishian v. Board of Regents",
+  "us_cite": "385 U.S. 589"
+}

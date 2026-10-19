@@ -15,12 +15,68 @@
   "loc_url": "https://www.loc.gov/item/usrep110651/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep110/usrep110651/usrep110651.pdf",
   "ref_prefix": "Case.91064",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Ex parte Yarbrough, syllabus ¶ 1",
+      "page": 651,
+      "ref": "Case.91064.syllabus.1",
+      "text": "Contitutina Law-Indictment-,Turisdiction."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ex parte Yarbrough, syllabus ¶ 2",
+      "page": 651,
+      "ref": "Case.91064.syllabus.2",
+      "text": "This court has no general authority to review on error or appeal the judgments of Circuit Courts in cases within their criminal jurisdiction."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ex parte Yarbrough, syllabus ¶ 3",
+      "page": 651,
+      "ref": "Case.91064.syllabus.3",
+      "text": "When a prisoner is held under sentence of a court of the United States in a matter wholly beyond the jurisdiction of that court, it is within the authority of the Supreme Court, when the matter is properlybrought to its attention, to inquire into it, and to discharge the prisoner if it be found that the matter was not within the jurisdiction of the court below."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ex parte Yarbrough, syllabus ¶ 4",
+      "page": 651,
+      "ref": "Case.91064.syllabus.4",
+      "text": "Errors of law committed by a Circuit Court which passed sentence upon a prisoner, cannot be inquired into in a proceeding on an application for Wzbea corpus to test the jurisdiction of the court which passed sentence."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ex parte Yarbrough, syllabus ¶ 5",
+      "page": 651,
+      "ref": "Case.91064.syllabus.5",
+      "text": "An indictment which charges in the first count that the defendants conspired to intimidate A. B., a citizen of African descent, in the exercise of his right to vote for a member of the Congress of the United States, and that in the execution of that conspiracy they beat, bruised, wounded, and otherwise maltreated him ; and in the second count that they did this on account of his race, color, and previous condition of servitude, by going in disguise and assaulting him on the public highway and on his own premises, contains a sufficient description of an offence embraced witbin the provisions of §§ 5508, 5520 Rev. Stat."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ex parte Yarbrough, syllabus ¶ 6",
+      "page": 652,
+      "ref": "Case.91064.syllabus.6",
+      "text": "In construing the Constitution of the United States, the doctrine that what is implied is as much a part of the instrument as what is expressed is a necessity by reason of the inherent inability to put all derivative powers into words."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ex parte Yarbrough, syllabus ¶ 7",
+      "page": 652,
+      "ref": "Case.91064.syllabus.7",
+      "text": "4 of article L of the Constitution, which declares that \" the times, places, and manner of holding elections for senators and representatives shall be prescribed in each State by the legislature thereof, but the Congress may at any time make or alter such regulations, except as to the place of c.hoonsing senators,\" adopts the State qualification as the federal qualification for the voter; but his right to vote is based upon the Constitution and not upon the State law, and Congress has the constitutional power to pass laws for the free, pure and safe exercise of this right."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Ex parte Yarbrough, syllabus ¶ 8",
+      "page": 652,
+      "ref": "Case.91064.syllabus.8",
+      "text": "Although it is true that the Fifteenth Amendment gives no affirmative right to the negro to vote, yet there are cases, some of which are stated by the court, in which it substantially confers that right upon him. Uniktd &te v. Rmeese, 92 U. S. 214, qualifle4 and explained."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-1",
     "loc-usrep-110-651"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 652 a paragraph seems to stop mid-sentence.",
   "title": "Ex parte Yarbrough",
   "us_cite": "110 U.S. 651"
 }

@@ -55,7 +55,7 @@ FOLIO = re.compile(r"^(\d{1,4})\s|\s(\d{1,4})$")
 
 def print_for(key: str, cite: str | None = None) -> tuple[str, int] | None:
     """(source id, printed first page) of a case the Court's PDFs hold."""
-    entry = PRINTS.get(key) or next((PRINTS[k] for k, c in CITES.items() if c == cite), None)
+    entry = PRINTS.get(key) or PRINTS.get(cite) or next((PRINTS[k] for k, c in CITES.items() if c == cite), None)
     if not entry:
         return None
     cite = cite or CITES.get(key, key)

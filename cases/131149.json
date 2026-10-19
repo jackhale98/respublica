@@ -15,12 +15,376 @@
   "loc_url": "https://www.loc.gov/item/usrep540093/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep540/usrep540093/usrep540093.pdf",
   "ref_prefix": "Case.131149",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 1",
+      "page": 93,
+      "ref": "Case.131149.syllabus.1",
+      "text": "The Bipartisan Campaign Reform Act of 2002 (BCRA), which amended the Federal Election Campaign Act of 1971 (FECA), the Communications Act of 1934, and other portions of the United States Code, is the most recent of nearly a century of federal enactments designed \"to purge national politics of what [is] conceived to be the pernicious influence of 'big money' campaign contributions.\" United States v. Automobile Workers, 352 U. S. 567, 572. In enacting BCRA, Congress sought to address three important developments in the years since this Court's landmark decision in Buckley v. Valeo, 424 U. S. 1 (per curian): the increased importance of \"soft money,\" the proliferation of \"issue ads,\" and the disturbing findings of a Senate investigation into campaign practices related to the 1996 federal elections."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 2",
+      "page": 93,
+      "ref": "Case.131149.syllabus.2",
+      "text": "With regard to the first development, prior to BCRA, FECA's disclosure requirements and source and amount limitations extended only to so-called \"hard money\" contributions made for the purpose of influencing an election for federal office. Political parties and candidates were able to circumvent FECA's limitations by contributing \"soft money\"- money as yet unregulated under FECA-to be used for activities intended to influence state or local elections; for mixed-purpose activities such as get-out-the-vote (GOTV) drives and generic party advertising; and for legislative advocacy advertisements, even if they mentioned a federal candidate's name, so long as the ads did not expressly advocate the candidate's election or defeat. With regard to the second development, parties and candidates circumvented FECA by using \"issue ads\" that were specifically intended to affect election results, but did not contain \"magic words,\" such as \"Vote Against Jane Doe,\" which would have subjected the ads to FECA's restrictions. Those developments were detailed in a 1998 Senate Committee Report summarizing an investigation into the 1996 federal elections, which concluded that the soft-money loophole had led to a meltdown of the campaign finance system; and discussed potential reforms, including a soft-money ban and restrictions on sham issue advocacy by nonparty groups."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 3",
+      "page": 94,
+      "ref": "Case.131149.syllabus.3",
+      "text": "Congress enacted many of the committee's proposals in BCRA: Title I regulates the use of soft money by political parties, officeholders, and candidates; Title II primarily prohibits corporations and unions from using general treasury funds for communications that are intended to, or have the effect of, influencing federal election outcomes; and Titles III, IV, and V set out other requirements. Eleven actions challenging BCRA's constitutionality were filed. A three-judge District Court held some parts of BCRA unconstitutional and upheld others. The parties challenging the law are referred to here as plaintiffs, and those who intervened in support of the law are intervenor-defendants."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 4",
+      "page": 94,
+      "ref": "Case.131149.syllabus.4",
+      "text": "Held: The judgment is affirmed in part and reversed in part."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 5",
+      "page": 94,
+      "ref": "Case.131149.syllabus.5",
+      "text": "251 F. Supp. 2d 176, 251 F. Supp. 2d 948, affirmed in part and reversed in part."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 6",
+      "page": 94,
+      "ref": "Case.131149.syllabus.6",
+      "text": "JUSTICE STEVENS and JUSTICE O'CONNOR delivered the Court's opinion with respect to BCRA Titles I and II, concluding that the statute's two principal, complementary features-Congress' effort to plug the soft-money loophole and its regulation of electioneering communications-must be upheld in the main. Pp. 133-224."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 7",
+      "page": 94,
+      "ref": "Case.131149.syllabus.7",
+      "text": "1. New FECA §323 survives plaintiffs' facial First Amendment challenge. Pp. 133-189."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 8",
+      "page": 94,
+      "ref": "Case.131149.syllabus.8",
+      "text": "(a) In evaluating § 323, the Court applies the less rigorous standard of review applicable to campaign contribution limits under Buckley and its progeny. Such limits are subject only to \"closely drawn\" scrutiny, see 424 U. S., at 25, rather than to strict scrutiny, because, unlike restrictions on campaign expenditures, contribution limits \"entai[l] only a marginal restriction upon the contributor's ability to engage in free communication,\" e. g., id., at 20-21. Moreover, contribution limits are grounded in the important governmental interests in preventing \"both the actual corruption threatened by large financial contributions and the eroding of public confidence in the electoral process through the appearance of corruption.\" E.g., Federal Election Comm'n v. National Right to Work Comm., 459 U. S. 197, 208. The less rigorous review standard shows proper deference to Congress' ability to weigh competing constitutional interests in an area in which it enjoys particular expertise, and provides it with sufficient room to anticipate and respond to concerns about circumvention of regulations designed to protect the political process' integrity. Finally, because Congress, in its lengthy deliberations leading to BCRA's enactment, properly relied on Buckley and its progeny, stare decisis considerations, buttressed by the respect that the Legislative and Judicial Branches owe one another, provide additional powerful reasons for adhering to the analysis of contribution limits the Court has consistently followed since Buckley. The Court rejects plaintiffs' argument that the type of speech and associational burdens that § 323 imposes are fundamentally different from the burdens that accompanied Buckley's contribution limits. Pp. 134-142."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 9",
+      "page": 95,
+      "ref": "Case.131149.syllabus.9",
+      "text": "(b) New FECA § 323(a)-which forbids national party committees and their agents to \"solicit, receive .... direct..., or spend any funds, that are not subject to [FECA's] limitations, prohibitions, and reporting requirements,\" 2 U. S. C. § 441i(a)(1)--does not violate the First Amendment. Pp. 142-161."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 10",
+      "page": 95,
+      "ref": "Case.131149.syllabus.10",
+      "text": "(1) The governmental interest underlying §323(a)-preventing the actual or apparent corruption of federal candidates and officeholders-constitutes a sufficiently important interest to justify contribution limits. That interest is not limited to the elimination of quid pro quo, cash-for-votes exchanges, see Buckley, supra, at 28, but extends also to \"undue influence on an officeholder's judgment, and the appearance of such influence,\" Federal Election Comm'n v. Colorado Republican Federal Campaign Comm., 533 U. S. 431, 441 (Colorado II). These interests are sufficient to justify not only contribution limits themselves, but also laws preventing the circumvention of such limits. Id., at 456. While the quantum of empirical evidence needed to satisfy heightened judicial scrutiny of legislative judgments varies with the novelty or plausibility of the justification raised, Nixon v. Shrink Missouri Government PAC, 528 U. S. 377, 391, the idea that large contributions to a national party can corrupt or create the appearance of corruption of federal candidates and officeholders is neither novel nor implausible, see, e. g., Buckley, supra, at 38. There is substantial evidence in these cases to support Congress' determination that such contributions of soft money give rise to corruption and the appearance of corruption. For instance, the record is replete with examples of national party committees peddling access to federal candidates and officeholders in exchange for large soft-money donations. Pp. 143-154."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 11",
+      "page": 96,
+      "ref": "Case.131149.syllabus.11",
+      "text": "(2) Section 323(a) is not impermissibly overbroad because it subjects all funds raised and spent by national parties to FECA's hardmoney source and amount limits, including, e. g., funds spent on purely state and local elections in which no federal office is at stake. The record demonstrates that the close relationship between federal officeholders and the national parties, as well as the means by which parties have traded on that relationship, have made all large soft-money contributions to national parties suspect, regardless of how those funds are ultimately used. The Government's strong interests in preventing corruption, and particularly its appearance, are thus sufficient to justify subjecting all donations to national parties to FECA's source, amount, and disclosure limitations. Pp. 154-156."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 12",
+      "page": 96,
+      "ref": "Case.131149.syllabus.12",
+      "text": "(3) Nor is §323(a)'s prohibition on national parties' soliciting or directing soft-money contributions substantially overbroad. That prohibition's reach is limited, in that it bars only soft-money solicitations by national party committees and party officers acting in their official capacities; the committees themselves remain free to solicit hard money on their own behalf or that of state committees and state and local candidates and to contribute hard money to state committees and candidates. Plaintiffs argue unpersuasively that the solicitation ban's overbreadth is demonstrated by § 323(e), which allows federal candidates and officeholders to solicit limited amounts of soft money from individual donors under certain circumstances. The differences between §§323(a) and 323(e) are without constitutional significance, see National Right to Work, supra, at 210, reflecting Congress' reasonable and expert judgments about national committees' functions and their interactions with officeholders. Pp. 157-158."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 13",
+      "page": 96,
+      "ref": "Case.131149.syllabus.13",
+      "text": "(4) Section 323(a) is not substantially overbroad with respect to the speech and associational rights of minor parties, even though the latter may have slim prospects for electoral success. It is reasonable to require that all parties and candidates follow the same rules designed to protect the electoral process' integrity. Buckley, 424 U. S., at 34-35. A nascent or struggling minor party can bring an as-applied challenge if § 323(a) prevents it from amassing the resources necessary to engage in effective advocacy. Id., at 21. Pp. 158-159."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 14",
+      "page": 96,
+      "ref": "Case.131149.syllabus.14",
+      "text": "(5) Plaintiffs' argument that § 323(a) unconstitutionally interferes with the ability of national committees to associate with state and local committees is unpersuasive because it hinges on an unnaturally broad reading of the statutory terms \"spend,\" \"receive,\" \"direct,\" and \"solicit.\" Nothing on §323(a)'s face prohibits national party officers from sitting down with state and local party committees or candidates to plan and advise how to raise and spend soft money, so long as the national officers do not personally spend, receive, direct, or solicit soft money. Pp. 159-161."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 15",
+      "page": 97,
+      "ref": "Case.131149.syllabus.15",
+      "text": "(c) On its face, new FECA § 323(b)-which prohibits state and local party committees from using soft money for activities affecting federal elections, 2 U. S. C. § 441i(b)-is closely drawn to match the important governmental interest of preventing corruption and its appearance. Pp. 161-173."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 16",
+      "page": 97,
+      "ref": "Case.131149.syllabus.16",
+      "text": "(1) Recognizing that the close ties between federal candidates and state party committees would soon render § 323(a)'s anticorruption measures ineffective if state and local committees remained available as a conduit for soft-money donations, Congress designed § 323(b) to prevent donors from contributing nonfederal funds to such committees to help finance \"Federal election activity,\" which is defined to encompass (1) voter registration activity during the 120 days before a federal election; (2) voter identification, GOTV, and generic campaign activity \"conducted in connection with an election in which a [federal] candidate... appears on the ballot\"; (3) any \"public communication\" that \"refers to a clearly identified (federal] candidate\" and \"promotes,\" \"supports,\" \"attacks,\" or \"opposes\" such a candidate; and (4) the services of a state committee employee who dedicates more than 25% of his or her compensated time to \"activities in connection with a Federal election,\" 2 U. S. C. §§431(20)(A)(i)-(iv). All activities that fall within this definition must be funded with hard money. §441i(b)(1). The Levin Amendment carves out an exception to this general rule, allowing state and local party committees to pay for certain federal election activities-namely, activities falling within categories (1) and (2) above that either do not refer to \"a clearly identified candidate for Federal office,\" or, if they involve broadcast communications, refer \"solely to a clearly identified candidate for State or local office,\" §§441i(b)(2)(B)(i)-(ii)- with an allocated ratio of hard money and so-called \"Levin funds.\" Levin funds are subject only to state regulation, but for two additional restrictions. First, no contributor can donate more than $10,000 per year to a single committee's Levin account. §441i(b)(2)(B)(iii). Second, both Levin funds and the allocated portion of hard money to pay for such activities must be raised by the state or local committee that spends them, though the committee can team up with other national, state, or local committees to solicit the hard-money portion. §§441i(b)(2)(B)(iv), 441i(b)(2)(C). Pp. 161-164."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 17",
+      "page": 97,
+      "ref": "Case.131149.syllabus.17",
+      "text": "(2) In addressing soft-money contributions to state committees, Congress both drew a conclusion and made a prediction. It concluded from the record that soft money's corrupting influence insinuates itself into the political process not only through national party committees, but also through state committees, which function as an alternate avenue for precisely the same corrupting forces. Indeed, the evidence shows that both candidates and parties already ask donors who have reached their direct contribution limit to donate to state committees. Congress' reasonable prediction, based on the history of campaign finance regulation, was that donors would react to § 323(a) by directing soft-money contributions to state committees for the purpose of influencing federal candidates and elections, and that federal candidates would be just as indebted to these contributors as they had been to those who had formerly contributed to the national parties. Preventing corrupting activity from shifting wholesale to state committees and thereby eviscerating FECA clearly qualifies as an important governmental interest. Pp. 164-166."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 18",
+      "page": 98,
+      "ref": "Case.131149.syllabus.18",
+      "text": "(3) Plaintiffs argue unpersuasively that, even if § 323(b) serves a legitimate interest, its restrictions are so unjustifiably burdensome and overbroad that they cannot be considered \"closely drawn\" to match the Government's objectives. P. 166."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 19",
+      "page": 98,
+      "ref": "Case.131149.syllabus.19",
+      "text": "(i) Section 323(b) is not substantially overbroad. Although § 323(b) captures some activities that affect state campaigns for nonfederal offices, these are the same activities that were covered by the Federal Election Commission's (FEC) pre-BCRA allocation rules, and so had to be funded in part by hard money because they affected both federal and state elections. As a practical matter, BCRA merely codifies the FEC's allocation regime principles while justifiably adjusting the applicable formulas in order to restore the efficacy of FECA's longstanding restriction on contributions to state and local committees for the purpose of influencing federal elections. By limiting its reach to \"Federal election activities,\" § 323(b) is narrowly focused on regulating contributions that directly benefit federal candidates and thus pose the greatest risk of corruption or its appearance. The first two categories of \"Federal election activity\"-voter registration efforts and voter identification, GOTV, and generic campaign activities conducted in connection with a federal election--clearly capture activities that confer a substantial benefit on federal candidates by getting like-minded voters to the polls. If a voter registration drive does not specifically mention a federal candidate, state committees can take advantage of the Levin Amendment's higher contribution limits and relaxed source restrictions. Moreover, because the record demonstrates abundantly that the third category of \"Federal election activity,\" \"public communication[s]\" that promote or attack a federal candidate, directly affects the election in which that candidate is participating, application of § 323(b)'s contribution caps to such communications is closely drawn to the anticorruption interest it is intended to address. Finally, Congress' interest in preventing circumvention of § 323(b)'s other restrictions justifies the requirement of the fourth category of \"Federal election activity\" that federal funds be used to pay any state or local party employee who spends more than 25% of his or her compensated time on activities connected with a federal election. Pp. 166-171."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 20",
+      "page": 99,
+      "ref": "Case.131149.syllabus.20",
+      "text": "(ii) The Levin Amendment does not unjustifiably burden association among party committees by forbidding transfers of Levin funds among state parties, transfers of hard money to fund the allocable federal portion of Levin expenditures, and joint fundraising of Levin funds by state parties. While preserving parties' associational freedom is important, not every minor restriction on parties' otherwise unrestrained ability to associate is of constitutional dimension. See Colorado II, 533 U. S., at 450, n. 11. Given the delicate and interconnected regulatory scheme at issue here, any associational burdens imposed by the Levin Amendment restrictions are far outweighed by the need to prevent circumvention of the entire scheme. Pp. 171-173."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 21",
+      "page": 99,
+      "ref": "Case.131149.syllabus.21",
+      "text": "(iii) The evidence supporting the argument that the Levin Amendment prevents parties from amassing the resources needed to engage in effective advocacy is speculative. The history of campaign finance regulation proves that political parties are extraordinarily flexible in adapting to new restrictions on their fundraising abilities. Moreover, the mere fact that § 323(b) may reduce the money available to state and local parties to fund federal election activities is. largely inconsequential. The question is not whether the amount available over previous election cycles is reduced, but whether the reduction is so radical as to drive the sound of the recipient's voice below the level of notice. Shrink Missouri, 528 U. S., at 397. If state or local parties can make such a showing, as-applied challenges remain available. P. 173."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 22",
+      "page": 99,
+      "ref": "Case.131149.syllabus.22",
+      "text": "(d) New FECA §323(d)-which forbids national, state, and local party committees and their agents to \"solicit any funds for, or make or direct any donations\" to § 501(c) tax-exempt organizations that make expenditures in connection with a federal election, and to § 527 political organizations \"other than a political committee, a State, district, or local committee of a political party, or the authorized campaign committee of a candidate for State or local office,\" 2 U. S. C. §441i(d)-is not facially invalid. Pp. 174-181."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 23",
+      "page": 99,
+      "ref": "Case.131149.syllabus.23",
+      "text": "(1) Section 323(d)'s restriction on solicitations is a valid anticircumvention measure. Absent this provision, national, state, and local party committees would have significant incentives to mobilize their formidable fundraising apparatuses, including the peddling of access to federal officeholders, into the. service of like-minded tax-exempt organizations that conduct activities benefiting their candidates. All of the corruption and the appearance of corruption attendant on the operation of those fundraising apparatuses would follow. Plaintiffs' argument that §323(d)'s solicitations ban cannot be squared with §323(e), which allows federal candidates and officeholders to solicit limited softmoney donations to tax-exempt organizations engaged in federal election activities, is not persuasive. If § 323(d)'s solicitation restriction is otherwise valid, it is not rendered unconstitutional by the mere fact that Congress chose not to regulate the activities of another group as stringently as it might have. See National Right to Work, 459 U. S., at 210. Furthermore, the difference between the two provisions is explained by the fact that national party officers, unlike federal candidates and officeholders, remain free to solicit soft money on behalf of nonprofit organizations in their individual capacities. Given § 323(e)'s tight content, source, and amount restrictions on soft-money solicitations by federal candidates and officeholders, as well as the less rigorous standard of review, § 323(e)'s greater solicitation allowances do not render § 323(d)'s solicitation restriction facially invalid. Pp. 174-178."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 24",
+      "page": 100,
+      "ref": "Case.131149.syllabus.24",
+      "text": "(2) Section 323(d)'s restriction on donations to qualifying § 501(c) or § 527 organizations is a valid anticircumvention measure insofar as it prohibits donations of funds not already raised in compliance with FECA. Absent such a restriction, state and local party committees could accomplish directly what the antisolicitation restrictions prevent them from doing indirectly-raising large sums of soft money to launder through tax-exempt organizations engaging in federal election activities. Although the ban raises overbreadth concerns if read to restrict donations from a party's federal account-i. e., funds already raised in compliance with FECA's source, amount, and disclosure limitationsthese concerns do not require that the facial challenge be sustained, given this Court's obligation to construe a statute, if possible, in such a way as to avoid constitutional questions, see, e.g., Crowell v. Benson, 285 U. S. 22, 62. Because the record does not compel the conclusion that Congress intended \"donations\" to include donations from a party's hard-money account, and because of the constitutional infirmities such an interpretation would raise, the Court narrowly construes § 323(d)s ban to apply only to donations of funds not raised in compliance with FECA. Pp. 178-181."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 25",
+      "page": 100,
+      "ref": "Case.131149.syllabus.25",
+      "text": "(e) New FECA §323(e)-which, with many exceptions, forbids federal candidates and officeholders to \"solicit, receive, direct, transfer, or spend\" soft money in connection with federal elections, 2 U. S. C. § 441i(e)(1)(A), and limits their ability to do so for state and local elections, §441i(e)(1)(B)-does not violate the First Amendment. No party seriously questions the constitutionality of the general ban on softmoney donations directly to federal candidates and officeholders and their agents. By severing the most direct link to the soft-money donor, the ban is closely drawn to prevent the corruption or the appearance of corruption of federal candidates and officeholders. The solicitation restrictions are valid anticircumvention measures. Even before BCRA's passage, federal candidates and officeholders solicited donations to state and local parties, as well as tax-exempt organizations, in order to help their own, as well as their party's, electoral cause. See Colorado II, su'pra, at 458. The incentives to do so will only increase with Title I's restrictions on the raising and spending of soft money by national, state, and local parties. Section 323(e) addresses these concerns while accommodating the individual speech and associational rights of federal candidates and officeholders. Pp. 181-184."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 26",
+      "page": 101,
+      "ref": "Case.131149.syllabus.26",
+      "text": "(f) New FECA §323(f)-which forbids state and local candidates or officeholders to raise and spend soft money to fund ads and other \"public communications\" that promote or attack federal candidates, 2 U. S. C. § 441i(f)-is a valid anticircumvention provision. The section places no cap on the funds that such candidates can spend on any activity, but, rather, limits only the source and amount of contributions that they can draw on to fund expenditures that directly impact federal elections. And, by regulating only contributions used to fund \"public communications,\" the section focuses narrowly on those soft-money donations with the greatest potential to corrupt or give rise to the appearance of corruption of federal candidates and officeholders. Plaintiffs' principal arguments against the section-(1) that the definition of \"public communications\" as communications that support or attack a clearly identified federal candidate is unconstitutionally vague and overbroad; and (2) that soft-money contributions to state and local candidates for \"public communications\" do not corrupt or appear to corrupt federal candidates-are rejected. Pp. 184-185."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 27",
+      "page": 101,
+      "ref": "Case.131149.syllabus.27",
+      "text": "2. Several plaintiffs argue unpersuasively that BCRA Title I exceeds Congress' Election Clause authority to \"make or alter\" rules governing federal elections, U. S. Const., Art. I, § 4, and violates constitutional federalism principles by impairing the States' authority to regulate their own elections. In examining federal Acts for Tenth Amendment infirmity, the Court focuses on whether States and state officials are commandeered to carry out federal regulatory schemes. See, e. g., Printz v. United States, 521 U. S. 898. By contrast, Title I only regulates private parties' conduct, imposing no requirements upon States or state officials. And, because it does not expressly pre-empt state legislation, Title I leaves States free to enforce their own restrictions on state electoral campaign financing. Moreover, while this Court has policed the absolute boundaries of Congress' Article I power, see, e. g., United States v. Morrison, 529 U. S. 598, plaintiffs offer no reason to believe that Congress has overstepped its Elections Clause power in enacting BCRA. Indeed, as already found, Title I is closely drawn to match Congress' important interest in preventing the corruption or the appearance of corruption of federal candidates and officeholders. That interest is sufficient to ground Congress' exercise of its Elections Clause power. Pp. 186-187."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 28",
+      "page": 102,
+      "ref": "Case.131149.syllabus.28",
+      "text": "3. Also rejected is the argument that BCRA Title I violates equal protection by discriminating against political parties in favor of special interest groups, which remain free to raise soft money to fund voter registration, GOTV activities, mailings, and broadcast advertising (other than electioneering communications). First, BCRA actually favors political parties in many ways, e. g., by allowing party committees to receive individual contributions substantially exceeding FECA limits on contributions to nonparty political committees. More importantly, Congress is fully entitled to consider the salient, real-world differences between parties and interest groups when crafting a campaign finance regulation system, see National Right to Work, supra, at 210, including the fact that parties have influence and power in the legislature vastly exceeding any interest group's. Taken seriously, plaintiffs' equal protection arguments would call into question not just BCRA Title I, but much of FECA's pre-existing structure. Pp. 187-188."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 29",
+      "page": 102,
+      "ref": "Case.131149.syllabus.29",
+      "text": "4. Accordingly, the judgment below is affirmed insofar as it upheld §§323(e) and 323(f) and reversed insofar as it invalidated §§323(a), 323(b), and 323(d). Pp. 188-189."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 30",
+      "page": 102,
+      "ref": "Case.131149.syllabus.30",
+      "text": "5. The District Court's judgment is affirmed to the extent that it upheld the disclosure requirements in amended FECA §304 and rejected the facial attack on the provisions relating to donors of $1,000 or more, but reversed to the extent that it invalidated FECA § 304(f)(5). Pp. 189-202."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 31",
+      "page": 102,
+      "ref": "Case.131149.syllabus.31",
+      "text": "(a) BCRA §201 comprehensively amends FECA §304, which requires political committees to file detailed periodic financial reports with the FEC. The narrowing construction adopted in Buckley limited FECA's disclosure requirement to communications expressly advocating the election or defeat of particular candidates. BCRA adopts a new term, \"electioneering communication,\" which encompasses any \"broadcast, cable, or satellite communication\" that clearly identifies a candidate for federal office, airs within a specific time period.(e. g., within 60 days of a general election and 30 days of a primary), and is targeted to the relevant electorate. 2 U.S. C. § 434(f)(3)(A)(i). BCRA also amends § 304 to provide disclosure requirements for persons who fund electioneering communications (and BCRA §203 amends FECA §316(b)(2) to extend those requirements to corporations and labor unions)."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 32",
+      "page": 102,
+      "ref": "Case.131149.syllabus.32",
+      "text": "Plaintiffs challenge the new term's constitutionality as it applies to both disclosures and expenditures, arguing primarily that Buckley drew a constitutionally mandated line between express advocacy and so-called issue advocacy, and that speakers have an inviolable First Amendment right to engage in the latter category of speech. However, a plain reading of Buckley and Federal Election Comm'n v. Massachusetts Citizens for Life, Inc., 479 U. S. 238 (MCFL), shows that the express advocacy restriction is a product of statutory interpretation, not a constitutional command. Both the concept of express advocacy and the class of magic words were born of an effort to avoid constitutional problems of vagueness and overbreadth in the statute before the Buckley Court. Consistent with the principle that a constitutional rule should never be formulated more broadly than required by the facts to which it is to be applied, Buckley and MCFL were specific to the statutory language before the Court and in no way drew a constitutional boundary that forever fixed the permissible scope of provisions regulating campaignrelated speech. The notion that the First Amendment erects a rigid barrier between express and issue advocacy also cannot be squared with this Court's longstanding recognition that the presence or absence of magic words cannot meaningfully distinguish electioneering speech from a true issue ad. Buckley's express advocacy line has not aided the legislative effort to combat real or apparent corruption, and Congress enacted BCRA to correct the flaws it found. Finally, because the components of new FECA § 304(f)(3)'s definition of \"electioneering communication\" are both easily understood and objectively determinable, the vagueness objection that persuaded the Buckley Court to limit FECA's reach to express advocacy is inapposite here. Pp. 189-194."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 33",
+      "page": 103,
+      "ref": "Case.131149.syllabus.33",
+      "text": "(b) With regard to plaintiffs' other concerns about the use of the phrase \"electioneering communication,\" the District Court correctly rejected their submission that new FECA §304 unnecessarily requires disclosure of the names of persons who contributed $1,000 or more to the individual or group paying for the communication, but erred in finding § 304(f)(5) invalid because it mandates disclosure of executory contracts for communications that have not yet aired. Because the important state interests identified in Buckley-providing the electorate with information, deterring actual corruption and avoiding its appearance, and gathering data necessary to enforce more substantive electioneering restrictions-apply in full to BCRA, Buckley amply supports application of FECA § 304's disclosure requirements to the entire range of \"electioneering communications.\" Buckley also forecloses a facial attack on the new § 304 provision that requires disclosure of the names of persons who contribute $1,000 or more to segregated funds or spend more than $10,000 in a calendar year on electioneering communications. Under Buckley's standard of proof, the evidence here did not establish the requisite reasonable probability of harm to any plaintiff group or its members resulting from compelled disclosure. However, the rejection of this facial challenge does not foreclose possible future challenges to particular applications of that disclosure requirement."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 34",
+      "page": 104,
+      "ref": "Case.131149.syllabus.34",
+      "text": "This Court is also unpersuaded by plaintiffs' challenge to new FECA § 304(f)(5)'s requirement regarding the disclosure of executory contracts. The new provision mandates disclosure only when a person makes disbursements totaling more than $10,000 in any calendar year to pay for electioneering communications. Given the relatively short timeframes in which such communications are made, the interest in assuring that disclosures are made in time to provide relevant information to voters is significant. Yet fixing the deadline for filing disclosure statements based on the date when aggregate disbursements exceed $10,000 would open a significant loophole without the advance disclosure requirement, for political supporters could avoid preelection disclosures about ads slated to run during a campaign's final weeks simply by making a preelection downpayment of less than $10,000, with the balance payable after the election. The record contains little evidence of any harm that might flow from the requirement's enforcement, and the District Court's speculation about such harm cannot outweigh the public interest in ensuring full disclosure before an election actually takes place. Pp. 194-202."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 35",
+      "page": 104,
+      "ref": "Case.131149.syllabus.35",
+      "text": "6. The District Court's judgment is affirmed insofar as' it held that plaintiffs advanced no basis for finding unconstitutional BCRA §202, which amends FECA §315(a)(7)(C) to provide that disbursements for electioneering communications that are coordinated with a candidate or party will be treated as contributions to, and expenditures by, that candidate or party, 2 U. S. C. §441a(a)(7)(C). That provision clarifies the scope of § 315(a)(7)(B), which provides that expenditures made by any person in cooperation, consultation, or concert with, or at the request or suggestion of a candidate or party constitute contributions. BCRA pre-empts a possible claim that the term \"expenditure\" in § 315(a)(7)(B) is limited to spending for express advocacy. Because Buckley' narrow interpretation of that term was only a statutory limitation on Congress' power to regulate federal elections, there is no reason why Congress may not treat coordinated disbursements for electioneering communications in the same way it treats other coordinated expenditures. Pp. 202-203."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 36",
+      "page": 104,
+      "ref": "Case.131149.syllabus.36",
+      "text": "7. The District Court's judgment is affirmed to the extent that it upheld the constitutionality of new FECA § 316(b)(2), and reversed to the extent that it invalidated any part of that section. BCRA § 203 extends to all \"electioneering communications\" FECA §316(b)(2)'s restrictions on the use of corporate and union general treasury funds. 2 U. S. C. §441b(b)(2). Because those entities may still organize and administer segregated funds, or PACs, for such communications, the provision is a regulation of, not a ban on, expression. Federal Election Comm'n v. Beaumont, 539 U. S. 146, 162. This Court's consideration of plaintiffs' claim that the expanded regulation is both overinclusive and underinclusive is informed by the conclusion that the distinction between express advocacy and so-called issue advocacy is not constitutionally compelled. Thus, the Court examines the degree to which BCRA burdens First Amendment expression and evaluates whether a compelling governmental interest justifies that burden. Plaintiffs have not carried their burden of proving that new FECA §316(b)(2) is overbroad. They argue that the justifications that adequately support regulation of express advocacy do not apply to significant quantities of speech encompassed by the electioneering communications definition. That argument fails to the extent that issue ads broadcast during the 30- and 60-day periods preceding federal primary and general elections are the functional equivalent of express advocacy. The justifications for regulating express advocacy apply equally to those ads if they have an electioneering purpose, which the vast majority do. Also rejected is plaintiffs' argument that new FECA §316(b)(2)'s segregated-fund requirement is underinclusive because it does not apply to print or Internet advertising. The record here reflects that corporations and unions used soft money to finance a virtual torrent of televised electionrelated ads during the relevant period. Congress justifiably concluded that remedial legislation was needed to stanch that flow of money. Finally, § 304(f)(3)(B)(i), which excludes news items and commentary from the electioneering communications definition, is wholly consistent with First Amendment principles as applied to the media. Pp. 203-209."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 37",
+      "page": 105,
+      "ref": "Case.131149.syllabus.37",
+      "text": "8. The District Court's judgment is affirmed to the extent that it upheld new FECA §316(c)(6), as limited to nonprofit entities that are not so-called MCFL organizations. BCRA §204, which adds §316(c)(6), 2 U. S. C. § 441b(c)(2), extends to nonprofit corporations the prohibition on the use of general treasury funds to pay for electioneering communications. This Court upheld a similar restriction in Beaumont, supra, except as it applied to organizations that are formed for the express purpose of promoting political ideas, have no shareholders, are not established by a business corporation or labor union, and do not accept contributions from those entities, MCFL, 479 U. S., at 264. The same constitutional objection to applying the pre-BCRA restrictions to such organizations necessarily applies with equal force to FECA §316(c)(6). That §316(c)(6) does not, on its face, exempt MCFL organizations is not a sufficient reason to invalidate it. This Court presumes that the legislators were fully aware that the provision could not apply to MCFL-type entities, and the Government concedes that it does not. As so construed, the provision is plainly valid. Pp. 209-211."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 38",
+      "page": 106,
+      "ref": "Case.131149.syllabus.38",
+      "text": "9. Because this Court has already found BCRA § 201's executory contract disclosure requirement constitutional, plaintiffs' challenge to a similar disclosure requirement in BCRA § 212, which added FECA § 304(g), 2 U. S. C. § 434, is essentially moot. Pp. 211-212."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 39",
+      "page": 106,
+      "ref": "Case.131149.syllabus.39",
+      "text": "10. The District Court's judgment is affirmed to the extent that it invalidated BCRA §213, which amends FECA §315(d)(4) to require political parties to choose between coordinated and independent expenditures during the postnomination, preelection period. 2 U. S. C. §441a(d)(4). That provision places an unconstitutional, burden on the parties' right to make unlimited independent expenditures. Although the category of burdened speech is limited to independent expenditures for express advocacy-and therefore is relatively small-it plainly is entitled to First Amendment protection. The governmental interest in requiring parties to avoid using magic words is not sufficient to support the burden imposed by §315(d)(4). The fact that the provision is cast as a choice rather than an outright prohibition on independent expenditures does not make it constitutional. Pp. 213-219."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 40",
+      "page": 106,
+      "ref": "Case.131149.syllabus.40",
+      "text": "11. The District Court's judgment is affirmed to the extent that it rejected plaintiffs' challenges to BCRA §214, which adds FECA §315(a)(7)(B)(ii), 2 U.S.C. §441a(a)(7)(B)(ii). FECA §315(a)(7)(B)(i) long has provided that expenditures that are controlled by or coordinated with a candidate will be treated as contributions to the candidate. BCRA § 214(a) extends that rule to expenditures coordinated with political parties; and §§214 (b) and (c) direct the FEC to promulgate new regulations that do not \"require agreement or formal collaboration to establish coordination,\" 2 U. S. C. §441a(a) note. FECA §315(a)(7) (B)(ii) is not overbroad simply because it permits a finding of coordination in the absence of a pre-existing agreement. Congress has always treated expenditures made after a wink or nod as coordinated. Nor does the absence of an agreement requirement render § 315(a)(7)(B)(ii) unconstitutionally vague. An agreement has never been required under §315(a)(7)(B)(i), which uses precisely the same language as the new provision to address coordination with candidates, and which has survived without constitutional challenge for almost three decades. Plaintiffs have provided no evidence that the definition has chilled political speech, and have made no attempt to explain how an agreement requirement would prevent the FEC from engaging in what they fear will be intrusive and politically motivated investigations. Finally, in this facial challenge to BCRA, plaintiffs' challenge to §§214(b) and (c) is not ripe to the extent that they allege constitutional infirmities in the FEC's new regulations rather than the statute. Pp. 219-224."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 41",
+      "page": 107,
+      "ref": "Case.131149.syllabus.41",
+      "text": "THE CHIEF JUSTICE delivered the opinion of the Court with respect to miscellaneous BCRA Title III and IV provisions, concluding that the District Court's judgment with respect to these provisions must be affirmed. Pp. 224-233."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 42",
+      "page": 107,
+      "ref": "Case.131149.syllabus.42",
+      "text": "1. The plaintiffs' challenges to BCRA § 305, § 307, and the millionaire provisions are nonjusticiable. Pp. 224-230."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 43",
+      "page": 107,
+      "ref": "Case.131149.syllabus.43",
+      "text": "(a) The McConnell plaintiffs lack standing to challenge BCRA § 305, which amends the federal Communications Act of 1934 requirement that, 45 days before a primary or 60 days before a general election, broadcast stations sell air time to a qualified candidate at their \"lowest unit charge,\" 47 U. S. C. § 315(b). Section 305's amendment, in turn, denies a candidate the benefit of that charge in specified circumstances. 47 U. S. C. §§315(b)(2)(A), (C). Senator McConnell's testimony that he plans to run ads critical of his opponents and had run them in the past is too remote temporally to satisfy the Article III standing requirement that a plaintiff demonstrate an \"injury in fact\" that is \"actual or imminent,\" Whitmnore v. Arkansas, 495 U. S. 149, 155, 158, given that the lowest unit charge requirement is not available until 45 days before a primary, that Senator McConnell's current term does not expire until 2009, and that, therefore, the earliest day he could be affected by § 305 is 45 days before the 2008 Republican primary election. Pp. 224-226."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 44",
+      "page": 107,
+      "ref": "Case.131149.syllabus.44",
+      "text": "(b) The Adams and Paul plaintiffs lack standing to challenge BCRA § 307, which amends FECA § 315(a)(1) to increase and index for inflation certain contribution limits. Neither injury alleged by the Adams plaintiffs, a group of voters, voter organizations, and candidates, is sufficient to confer standing. First, their assertion that § 307 deprives them of an equal ability to participate in the election process based on their economic status does not satisfy the standing requirement that a plaintiff's alleged injury be an invasion of a concrete and particularized legally protected interest, Lujan v. Defenders of Wildlife, 504 U. S. 555, 560, since political \"free trade\" does not necessarily require that all who participate in the political marketplace do so with exactly equal resources, e. g., Federal Election Comm'n v. Massachusetts Citizens for Life, Inc., 479 U. S. 238, 257 (MCFL). Second, the Adams plaintiffscandidates' contention that § 307 puts them at a \"fundraising disadvantage\" compared to their opponents because they do not wish to solicit or accept the large campaign contributions BCRA permits does not meet the standing requirement that their alleged injury be \"fairly traceable\" to § 307, see Lujan, supra, at 562, since their alleged inability to compete stems not from § 307's operation, but from their own personal choice not to solicit or accept large contributions. Also inadequate for standing purposes is the Paul plaintiffs' contention that their congressional campaigns and public interest advocacy involve traditional press activities, such that §307's contribution limits, together with FECA § 315's individual and political action committee contribution limitations, impose unconstitutional editorial control on them in violation of the First Amendment's Freedom of the Press Clause. These plaintiffs cannot show the requisite substantial likelihood their requested relief will remedy their alleged injury in fact, see Vermont Agency of Natural Resources v. United States ex rel. Stevens, 529 U. S. 765, 771, since, even if the Court were to strike down BCRA § 307's increases and indexes, as they ask, both FECA's contribution limits and an exemption for institutional news media would remain unchanged. Pp. 226-229."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 45",
+      "page": 108,
+      "ref": "Case.131149.syllabus.45",
+      "text": "(c) The Adams plaintiffs lack standing to challenge the so-called \"millionaire provisions,\" BCRA §§ 304, 316, and 319, which provide for a series of staggered increases in otherwise applicable contribution-tocandidate limits if the candidate's opponent spends a triggering amount of his personal funds, and eliminate the coordinated expenditure limits in certain circumstances. Because these plaintiffs allege the same injuries that they alleged with regard to BCRA § 307, they fail to state a cognizable injury that is fairly traceable to BCRA. Additionally, none of them is a candidate in an election affected by the millionaire provisions, and it would be purely conjectural to assume that any of them ever will be. Pp. 229-230."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 46",
+      "page": 108,
+      "ref": "Case.131149.syllabus.46",
+      "text": "2. The District Court's decision upholding BCRA § 311's expansion of FECA §318(a) to include mandatory electioneering-communicationsdisbursements disclosure is affirmed because such inclusion bears a sufficient relationship to the important governmental interest of \"shed- [ding] the light of publicity\" on campaign financing, Buckley, 424 U. S., at 81. Assuming, as the Court must, that FECA §318 is valid both to begin with and as amended by BCRA §311's amendments other than the electioneering-communications inclusion, the latter inclusion is not itself unconstitutional. Pp. 230-231."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 47",
+      "page": 108,
+      "ref": "Case.131149.syllabus.47",
+      "text": "3. BCRA §318-which forbids individuals \"17 years old or younger\" to make contributions to candidates and political parties, 2 U. S. C. § 441k-violates the First Amendment rights of minors, see, e. g., Tinker v. Des Moines Independent Community School Dist., 393 U. S. 503, 511- 513. Because limitations on an individual's political contributions impinge on the freedoms of expression and association, see Buckley, supra, at 20-22, the Court applies heightened scrutiny to such a limitation, asking whether it is justified by a \"sufficiently important interest\" and \"closely drawn\" to avoid unnecessary abridgment of the First Amendment, see, e.g., post, at 136 (joint opinion of STEVENS and O'CONNOR, JJ.). The Government offers scant evidence for its assertion that § 318 protects against corruption by conduit-i. e., donations by parents through their minor children to circumvent contribution limits applicable to the parents. Absent a more convincing case of the claimed evil, this interest is simply too attenuated for § 318 to withstand heightened scrutiny. See Shrink Missouri, 528 U. S., at 391. Even assuming, arguendo, the Government advances an important interest, the provision is overinclusive, as shown by the States' adoption of more tailored approaches. Pp. 231-232."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 48",
+      "page": 109,
+      "ref": "Case.131149.syllabus.48",
+      "text": "4. Because the FEC clearly has standing, the Court need not address whether the intervenor-defendants, whose position here is identical to the FEC's, were properly granted intervention pursuant to, inter alia, BCRA § 403(b). See, e. g., Clinton v. City of New York, 524 U. S. '417, 431-432, n. 19. P. 233."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 49",
+      "page": 109,
+      "ref": "Case.131149.syllabus.49",
+      "text": "JUSTICE BREYER delivered the Court's opinion with respect to BCRA Title V-§ 504 of which amends the Communications Act of 1934 to require broadcasters to keep publicly available records of politically related broadcasting requests, 47 U.S. C. § 315(e)--concluding that the portion of the judgment below invalidating § 504 as facially violative of the First Amendment must be reversed. Pp. 233-245."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 50",
+      "page": 109,
+      "ref": "Case.131149.syllabus.50",
+      "text": "1. Section 504's \"candidate request\" requirements-which call for broadcasters to keep records of broadcast requests \"made by or on behalf of a ... candidate,\" 47 U. S. C. §315(e)(1)(A)-are upheld. They are virtually identical to those contained in a longstanding Federal Communications Commission (FCC) regulation. The McConnell plaintiffs' argument that the requirements are intolerably burdensome and invasive is rejected. The FCC has consistently estimated that its regulation imposes upon a licensee a comparatively small additional administrative burden. Moreover, the § 504 requirement is supported by significant governmental interests in verifying that licensees comply with their obligations to allow political candidates \"equal time,\" 47 U. S. C. § 315(a), and to sell such time at the \"lowest unit charge,\" § 315(b); in evaluating whether they are processing candidate requests in an evenhanded fashion to help assure broadcasting fairness, § 315(a); in making the public aware of how much candidates spend on broadcast messages, 2 U. S. C. § 434; and in providing an independently compiled set of data for verifying candidates' compliance with BCRA's and FECA's disclosure requirements and source limitations, ibid. Because the Court cannot, on the present record, find the longstanding FCC regulation unconstitutional, it cannot strike down BCRA § 504's \"candidate request\" provision, which simply embodies the regulation in a statute, thereby blocking any agency attempt to repeal it. Pp. 234-238."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 51",
+      "page": 109,
+      "ref": "Case.131149.syllabus.51",
+      "text": "2. Because § 504's \"candidate request\" requirements are constitutional, its \"election message\" requirements-which serve similar governmental interests and impose only a small incremental burden in requiring broadcasters to keep records of requests (made by anyone) to broadcast \"message[s]\" that refer either to a \"legally qualified candidate\" or to \"any election to Federal office,\" 47 U. S. C. §§ 315(e)(1)(B)(i), (ii)-must be constitutional as well. Pp. 238-240."
+    },
+    {
+      "kind": "syllabus",
+      "label": "McConnell v. Federal Elections Comm’n, syllabus ¶ 52",
+      "page": 110,
+      "ref": "Case.131149.syllabus.52",
+      "text": "3. BCRA § 504's \"issue request\" requirements-which call for broadcasters to keep records of requests (made by anyone) to broadcast \"message[s]\" related to a \"national legislative issue of public importance,\" 47 U. S. C. § 315(e)(1)(B)(iii), or a \"political matter of national importance,\" §315(e)(1)(B)-survive the McConnell plaintiffs' facial challenge. These recordkeeping requirements seem likely to help determine whether broadcasters are fulfilling their obligations under the FCC's regulations to afford reasonable opportunity for the discussion of conflicting views on important public issues or whether they too heavily favor entertainment, discriminating against public affairs broadcasts. The plaintiffs' claim that the above-quoted statutory language is unconstitutionally vague or overbroad is unpersuasive, given that it is no more general than language Congress has used to impose other obligations upon broadcasters and is roughly comparable to other BCRA language upheld in this litigation. Whether the \"issue request\" requirements impose disproportionate administrative burdens will depend on how the FCC interprets and applies them. The parties remain free to challenge the provisions, as interpreted by the FCC's regulations, or as otherwise applied. Without the greater information any such challenge will likely provide, the Court cannot say that the provisions' administrative burdens are so great, or their justifications so minimal, as to warrant finding them facially unconstitutional. Similarly, the argument that the \"issue request\" requirement will force the purchasers to disclose information revealing their political strategies to opponents does not show that BCRA § 504 is facially unconstitutional, but the plaintiffs remain free to raise this argument when § 504 is applied. Pp. 240-246."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-4",
     "loc-usrep-540-93"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 104 a paragraph seems to stop mid-sentence.",
   "title": "McConnell v. Federal Elections Comm’n",
   "us_cite": "540 U.S. 93"
 }

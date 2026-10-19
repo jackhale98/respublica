@@ -1,0 +1,26 @@
+{
+  "chosen_because": [
+    "overrules Brown v. Allen (table of overruled decisions)"
+  ],
+  "conan_citation": "Townsend v. Sain, 372 U.S. 293 (1963)",
+  "courtlistener_name": "Townsend v. Sain",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/106544/townsend-v-sain/",
+  "date": "1963-03-18",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 106544. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 372, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "106544",
+  "loc_url": "https://www.loc.gov/item/usrep372293/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/usrep372293/usrep372293.pdf",
+  "ref_prefix": "Case.106544",
+  "segments": [],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-372-293"
+  ],
+  "syllabus_note": "No syllabus was found in the text layer of the scan.",
+  "title": "Townsend v. Sain",
+  "us_cite": "372 U.S. 293"
+}

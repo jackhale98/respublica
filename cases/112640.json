@@ -1,0 +1,97 @@
+{
+  "chosen_because": [
+    "overrules Fay v. Noia (table of overruled decisions)"
+  ],
+  "conan_citation": "Coleman v. Thompson, 501 U.S. 722 (1991)",
+  "courtlistener_date": "1991-09-13",
+  "courtlistener_name": "Coleman v. Thompson",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/112640/coleman-v-thompson/",
+  "date": "1991-06-24",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 112640. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 501, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "112640",
+  "loc_url": "https://www.loc.gov/item/usrep501722/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep501/usrep501722/usrep501722.pdf",
+  "ref_prefix": "Case.112640",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Thompson, syllabus ¶ 1",
+      "page": 722,
+      "ref": "Case.112640.syllabus.1",
+      "text": "After a Buchanan County jury convicted petitioner Coleman of capital murder, he was sentenced to death, and the Virginia Supreme Court affirmed. He then filed a habeas corpus action in the County Circuit Court, which, after a 2-day evidentiary hearing, ruled against him on numerous federal constitutional claims that he had not raised on direct appeal. He filed a notice of appeal with that court 33 days after it entered its final judgment and subsequently filed a petition for appeal in the Virginia Supreme Court. The Commonwealth moved to dismiss the appeal on the sole ground that the notice of appeal was untimely under the Supreme Court's Rule 5:9(a), which requires that such a notice be filed within 30 days of final judgment. After both parties filed several briefs on the subject of the dismissal motion and on the merits of Coleman's claims, the Supreme Court granted the motion \"upon consideration [o]f\" the filed papers. Coleman next filed a habeas petition in the Federal District Court, presenting, inter alia, seven federal constitutional claims he had first raised in state habeas. Among other things, the court concluded that, by virtue of the dismissal of his state habeas appeal, Coleman had procedurally defaulted the seven claims. The Court of Appeals affirmed, rejecting Coleman's argument that the Virginia Supreme Court had not \"clearly and expressly\" stated that its decision in state habeas was based on a procedural default, such that the federal courts could not treat it as such under Harris v. Reed, 489 U. S. 255. The court concluded that federal review of the claims was barred, since the Virginia Supreme Court had met Harris' \"plain statement\" requirement by granting a motion to dismiss that was based solely on procedural grounds, since that decision rested on independent and adequate state grounds, and since Coleman had not shown cause to excuse the default."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Thompson, syllabus ¶ 2",
+      "page": 722,
+      "ref": "Case.112640.syllabus.2",
+      "text": "Held: Coleman's claims presented for the first time in the state habeas proceeding are not subject to review in federal habeas. Pp. 729-757."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Thompson, syllabus ¶ 3",
+      "page": 722,
+      "ref": "Case.112640.syllabus.3",
+      "text": "(a) Because of comity and federalism concerns and the requirement that States have the first opportunity to correct their own mistakes, federal habeas courts generally may not review a state court's denial of a state prisoner's federal constitutional claim if the state court's decision rests on a state procedural default that is independent of the federal question and adequate to support the prisoner's continued custody. See, e. g., Wainwright v. Sykes, 433 U. S. 72, 81, 87. Pp. 729-732."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Thompson, syllabus ¶ 4",
+      "page": 723,
+      "ref": "Case.112640.syllabus.4",
+      "text": "(b) Since ambiguous state court decisions can make it difficult for a federal habeas court to apply the independent and adequate state ground doctrine, this Court has created a conclusive presumption that there is no such ground if the decision of the last state court to which the petitioner presented his federal claims fairly appeared to rest primarily on resolution of those claims, or to be interwoven with those claims, and did not \"clearly and expressly\" rely on an independent and adequate state ground. See Harris, supra, at 261, 266; Michigan v. Long, 463 U. S. 1032, 1040-1041. Pp. 732-735."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Thompson, syllabus ¶ 5",
+      "page": 723,
+      "ref": "Case.112640.syllabus.5",
+      "text": "(c) There is no merit to Coleman's contention that the Harris presumption applies in all cases in which the state habeas court's decision does not \"clearly and expressly\" state that it was based on an independent and adequate state ground. The holding of Harris, supra, is not changed by the fact that, in one particular exposition of its rule, id., at 263, the Court announced the \"plain statement\" requirement without mentioning the predicate requirement that the state court's decision must fairly appear to rest primarily on, or to be interwoven with, federal law. The Harris presumption, like all conclusive presumptions, is designed to avoid the costs of excessive inquiry where a per se rule will achieve the correct result in almost all cases. Coleman's proposed rule would greatly and unacceptably expand the risk of improper federal review in those cases in which it does not fairly appear that the state court rested its decision primarily on federal grounds. Applying Coleman's rule would have very little benefit to the federal courts in such cases, since their task of determining the scope of the state court judgment would not be difficult. On the other hand, that rule would place great burdens on the States, which, if their courts neglected to provide a clear and express statement of procedural default, would have to respond to federal habeas review of the federal claims of prisoners in state custody for independent and adequate state law reasons, would have to pay the price in terms of the uncertainty and delay added to the enforcement of their criminal laws, and would have to retry the petitioner if the federal courts reversed his conviction. Coleman's rule would also burden the state courts, which would have to incorporate \"plain statement\" language in every state appeal and every denial of state collateral review that was potentially subject to federal review. Pp. 735-740."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Thompson, syllabus ¶ 6",
+      "page": 723,
+      "ref": "Case.112640.syllabus.6",
+      "text": "(d) The Harris presumption does not apply in this case. The Virginia Supreme Court's dismissal order \"fairly appears\" to rest primarily on state law, since it does not mention federal law and granted the Commonwealth's dismissal motion, which was based solely on Coleman's failure to meet Rule 5:9(a)'s time requirements. There is no merit to Coleman's argument that the dismissal was not independent of federal law because the Virginia court applied its procedural bar only after determining that doing so would not abridge one of his federal constitutional rights, such that federal review is permissible under Ake v. Oklahoma, 470 U. S. 68, 75. Even if Ake, a direct review case, applies here, it does Coleman no good because the Virginia court relied on an independent state procedural ground. Moreover, it is clear that the rule of Tharp v. Commonwealth, 211 Va. 1, 3, 175 S. E. 2d 277, 278-in which the Virginia court announced that it would no longer allow extensions of time for filing petitions for writs of error with the Supreme Court unless denial of an extension would abridge a constitutional right -was not applied here, where it was Coleman's notice of appeal in the trial court that was late. And, although in O'Brien v. Socony Mobil Oil Co., 207 Va. 707, 709, 152 S. E. 2d 278, 280, the Virginia court reviewed the merits of a constitutional claim before dismissing the case on the basis of an untimely civil notice of appeal, it also expressly declined to announce a rule that there is a constitutional exception to the notice of appeal time requirement. While some ambiguity is added to this case by the fact that the Virginia Supreme Court's dismissal order was issued \"[u]pon consideration\" of all the filed papers, including those discussing the merits of Coleman's federal claims, this Court cannot read that ambiguity as overriding the Virginia court's explicit grant of a dismissal motion based solely on state procedural grounds independent of federal law. This Court also accepts the Court of Appeals' conclusion that the procedural bar was adequate to support the judgment, since Coleman did not petition for certiorari on this question. Pp. 740-744."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Thompson, syllabus ¶ 7",
+      "page": 724,
+      "ref": "Case.112640.syllabus.7",
+      "text": "(e) In all cases in which a state prisoner has defaulted his federal claims in state court pursuant to an independent and adequate state procedural rule, federal habeas review of the claims is barred unless the prisoner can demonstrate cause for the default and actual prejudice as a result of the alleged violation of federal law, or demonstrate that failure to consider the claims will result in a fundamental miscarriage of justice. Cf., e. g., Murray v. Carrier, 477 U. S. 478, 485, 495; Harris, supra, at 262. Although Coleman would be entitled to relief if the \"deliberate bypass\" standard set forth in Fay v. Noia, 372 U. S. 391, 438-439, still applied, that standard has been superseded by the Court's subsequent decisions applying the cause and prejudice standard. The Fay standard was based on a conception of federal/state relations that undervalued the important interest in finality served by state procedural rules and the significant harm to the States that results from the failure of federal courts to respect them. Cf. McCleskey v. Zant, 499 U. S. 467, 491. Pp. 744-751."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Thompson, syllabus ¶ 8",
+      "page": 725,
+      "ref": "Case.112640.syllabus.8",
+      "text": "(f) Coleman's contention that it was his attorney's error that led to the late filing of his state habeas appeal cannot demonstrate \"cause\" under the foregoing standard. Carrier, supra, at 488, establishes that attorney error can be \"cause\" only if it constitutes ineffective assistance of counsel violative of the Sixth Amendment. Because there is no constitutional right to an attorney in state postconviction proceedings, see, e. g., Pennsylvania v. Finley, 481 U. S. 551, a petitioner cannot claim constitutionally ineffective assistance of counsel in such proceedings, see Wainwright v. Torna, 455 U. S. 586. Although Coleman argues that attorney error may be of sufficient magnitude to excuse a procedural default in federal habeas even though no Sixth Amendment claim is possible, this argument is inconsistent with the language and logic of Carrier, supra, at 488, which explicitly says that, in the absence of a constitutional violation, the petitioner bears the risk in federal habeas for all attorney errors made in the course of the representation. Pp. 752-754."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Thompson, syllabus ¶ 9",
+      "page": 725,
+      "ref": "Case.112640.syllabus.9",
+      "text": "(g) Nor is there merit to Coleman's contention that, at least as to the federal ineffective assistance claims that he first presented to the state habeas trial court, attorney error in his state habeas appeal must constitute \"cause\" because, under Virginia law at the time of his trial and direct appeal, claims of that type could be brought only in state habeas. Although an indigent criminal defendant is constitutionally entitled to an effective attorney in his \"one and only appeal ... as of right,\" Douglas v. California, 372 U. S. 353, 357, 358; Evitts v. Lucey, 469 U. S. 387, Coleman has had his \"one and only appeal\" as to the claims in question, since the County Circuit Court fully addressed and denied those claims. He does not have a constitutional right to counsel on appeal from that determination. Cf., e. g., Finley, supra, at 556. Thus, since any attorney error that lead to the default of those claims cannot constitute \"cause,\" and since Coleman does not argue in this Court that federal review of the claims is necessary to prevent a fundamental miscarriage of justice, he is barred from bringing the claims in federal habeas. Pp. 755-757."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Coleman v. Thompson, syllabus ¶ 10",
+      "page": 725,
+      "ref": "Case.112640.syllabus.10",
+      "text": "895 F. 2d 139, affirmed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-501-722"
+  ],
+  "title": "Coleman v. Thompson",
+  "us_cite": "501 U.S. 722"
+}

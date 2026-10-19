@@ -1,0 +1,75 @@
+{
+  "chosen_because": [
+    "overrules Burnet v. Coronado Oil & Gas Co. (table of overruled decisions)"
+  ],
+  "conan_citation": "Helvering v. Mountain Producers Corp., 303 U.S. 376 (1938)",
+  "courtlistener_name": "Helvering v. Mountain Producers Corp.",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/102986/helvering-v-mountain-producers-corp/",
+  "date": "1938-03-07",
+  "date_source": "us_reports",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 102986. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 303, as printed, read from the text layer of the Library of Congress scan (OCR in older volumes; not checked word by word)."
+  },
+  "id": "102986",
+  "loc_url": "https://www.loc.gov/item/usrep303376/",
+  "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep303/usrep303376/usrep303376.pdf",
+  "ref_prefix": "Case.102986",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Helvering v. Mountain Producers Corp., syllabus ¶ 1",
+      "page": 376,
+      "ref": "Case.102986.syllabus.1",
+      "text": "1. The allowance for depletion in the case of oil and gas wells is fixed by Rev. Act 1926, § 204 (2), arbitrarily at a specified per cent. of the \"gross income from the property,\" for convenience of administration; the allowance is an act of grace; the rule prescribed can not be varied to suit particular equities; the term \"gross income from the property,\" means gross income from the oil and gas, and must be taken in its natural sense,-such income may be more or less than market value according to the bearing of particular contracts. P. 381."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Helvering v. Mountain Producers Corp., syllabus ¶ 2",
+      "page": 377,
+      "ref": "Case.102986.syllabus.2",
+      "text": "2. The Rev. Act of 1926 provides that in the case of oil and gas wells \"the allowance for depletion shall be 271/ per centum of the gross income from the property (luring the taxable year.\" The taxpayer, a corporation owning oil and gas properties, made a contract with a refining company pursuant to which, until a day specified, all the oil produced by the taxpayer was sold to the refiner at prices based on the average price received by the refiner for gasoline and kerosene, the refiner taking delivery from measuring tanks near the wells. As part of the price of the oil purchased, the refiner agreed to conduct the production operations. Held that the taxpayer's \"gross income from the property\" was the sum of the payments received from the refiner without adding the cost of production defrayed by the refiner under the contract. P. 378."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Helvering v. Mountain Producers Corp., syllabus ¶ 3",
+      "page": 377,
+      "ref": "Case.102986.syllabus.3",
+      "text": "3. A school' section, part of the land granted by the United States to the State of Wyoming for educational purposes by the Enabling Act of July 10, 1890, 26 Stat. 222, 223, was leased by the State to a private corporation for production of oil and gas, the State reserving a royalty. The Enabling Act provides that the proceeds of the land shall constitute a permanent school fund, and authorizes the State to lease for not more than five years. The lessee executed a declaration of trust, that~it held an undivided 50% of the lease and its net proceeds for the benefit of the taxpayer in this cse. Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Helvering v. Mountain Producers Corp., syllabus ¶ 4",
+      "page": 377,
+      "ref": "Case.102986.syllabus.4",
+      "text": "(1) That, as respects the power of the Federal Government to tax income from the lease, no distinction can be made between the income received by the lessee and the income received by the cestui que trust. Pp. 382-383."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Helvering v. Mountain Producers Corp., syllabus ¶ 5",
+      "page": 377,
+      "ref": "Case.102986.syllabus.5",
+      "text": "(2) A federal tax on such income is not subject to constitutional objection as a tax upon an instrumentality of the State and as constituting a direct and substantial interference with the execution of the trust assumed by the State under the Enabling Act. Pp. 383-387."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Helvering v. Mountain Producers Corp., syllabus ¶ 6",
+      "page": 377,
+      "ref": "Case.102986.syllabus.6",
+      "text": "Burnet v. Coronado Oil & Gas Co., 285 U. S. 393 and Gillespie v. Oklahoma, 257 U. S. 501, overruled."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Helvering v. Mountain Producers Corp., syllabus ¶ 7",
+      "page": 377,
+      "ref": "Case.102986.syllabus.7",
+      "text": "92 F. 2d 78, reversed."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-citations-5",
+    "loc-usrep-303-376"
+  ],
+  "title": "Helvering v. Mountain Producers Corp.",
+  "us_cite": "303 U.S. 376"
+}

@@ -114,7 +114,9 @@ at}]`, decision 48), and per work `position` and `short`; see `docs/ocr.md`, "Wh
 
 `cases/{cluster_id}.json` has the same shape, with `ref_prefix`
 `Case.{cluster_id}` and no divisions, plus the case's `date`, `us_cite` (or
-`docket`), `courtlistener_url`, `loc_url` and `pdf_url`, `chosen_because`
+`docket`), `courtlistener_url`, `loc_url` and `pdf_url` (for a syllabus from the Court's own PDF, also
+`court_print`, what the PDF is, and `pdf_first_page`, the PDF page the case
+starts on), `chosen_because`
 (the rules that chose it), `conan_citation`, `courtlistener_match` (when
 CourtListener gave several clusters) and, when no syllabus is shown,
 `syllabus_note`. Its segments are the syllabus paragraphs (`kind:

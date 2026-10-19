@@ -15,12 +15,61 @@
   "loc_url": "https://www.loc.gov/item/usrep319624/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep319/usrep319624/usrep319624.pdf",
   "ref_prefix": "Case.103870",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "West Virginia State Board of Education v. Barnette, syllabus ¶ 1",
+      "page": 624,
+      "ref": "Case.103870.syllabus.1",
+      "text": "1. State action against which the Fourteenth Amendment protects includes action by a state board of education. P. 637."
+    },
+    {
+      "kind": "syllabus",
+      "label": "West Virginia State Board of Education v. Barnette, syllabus ¶ 2",
+      "page": 624,
+      "ref": "Case.103870.syllabus.2",
+      "text": "2. The action of a State in making it compulsory for children in the public schools to salute the flag and pledge allegiance-by extending the right arm, palm upward, and declaring, \"I pledge allegiance to the flag of the United States of America and to the Republic for which it stands: one Nation, indivisible, with liberty and justice for all\"--violates the First and Fourteenth Amendments. P. 642."
+    },
+    {
+      "kind": "syllabus",
+      "label": "West Virginia State Board of Education v. Barnette, syllabus ¶ 3",
+      "page": 624,
+      "ref": "Case.103870.syllabus.3",
+      "text": "So held as applied to children who were expelled for refusal to comply, and whose absence thereby became \"unlawful,\" subjecting them and their parents or guardians to punishment."
+    },
+    {
+      "kind": "syllabus",
+      "label": "West Virginia State Board of Education v. Barnette, syllabus ¶ 4",
+      "page": 624,
+      "ref": "Case.103870.syllabus.4",
+      "text": "3. That those who refused compliance did so on religious grounds does not control the decision of this question; and it is unnecessary to inquire into the sincerity of their views. P. 634."
+    },
+    {
+      "kind": "syllabus",
+      "label": "West Virginia State Board of Education v. Barnette, syllabus ¶ 5",
+      "page": 624,
+      "ref": "Case.103870.syllabus.5",
+      "text": "4. Under the Federal Constitution, compulsion as here employed is not a permissible means of achieving \"national unity.\" P. 640."
+    },
+    {
+      "kind": "syllabus",
+      "label": "West Virginia State Board of Education v. Barnette, syllabus ¶ 6",
+      "page": 625,
+      "ref": "Case.103870.syllabus.6",
+      "text": "5. Minersville School Dist. v. Gobitis, 310 U. S. 586, overruled; Hamilton v. Regents, 293 U. S. 245, distinguished. Pp. 642, 632."
+    },
+    {
+      "kind": "syllabus",
+      "label": "West Virginia State Board of Education v. Barnette, syllabus ¶ 7",
+      "page": 625,
+      "ref": "Case.103870.syllabus.7",
+      "text": "47 F. Supp. 251, affirmed."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-2",
     "loc-usrep-319-624"
   ],
-  "syllabus_note": "The text layer of the scan could not be read reliably: on p. 624 a paragraph seems to stop mid-sentence.",
   "title": "West Virginia State Board of Education v. Barnette",
   "us_cite": "319 U.S. 624"
 }

@@ -1,0 +1,189 @@
+{
+  "chosen_because": [
+    "overrules Abood v. Detroit Board of Education (table of overruled decisions)"
+  ],
+  "conan_citation": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, No. 16-1466 (U.S. June 27, 2018)",
+  "court_print": "United States Reports, volume 585 (bound volume)",
+  "courtlistener_name": "Janus v. State, County, and Municipal Employees",
+  "courtlistener_url": "https://www.courtlistener.com/opinion/4511640/janus-v-state-county-and-municipal-employees/",
+  "date": "2018-06-27",
+  "date_source": "us_reports",
+  "docket": "16-1466",
+  "edition": {
+    "name": "CourtListener and the United States Reports",
+    "notes": "Case details: CourtListener (Free Law Project), cluster 4511640. Date of decision as printed in the United States Reports. Syllabus: United States Reports, volume 585 (bound volume), as the Supreme Court publishes it, read from the text layer of the Court's PDF."
+  },
+  "id": "4511640",
+  "pdf_first_page": 909,
+  "pdf_url": "https://www.supremecourt.gov/opinions/boundvolumes/585BV.pdf",
+  "ref_prefix": "Case.4511640",
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 1",
+      "page": 878,
+      "ref": "Case.4511640.syllabus.1",
+      "text": "Illinois law permits public employees to unionize. If a majority of the employees in a bargaining unit vote to be represented by a union, that union is designated as the exclusive representative of all the employees, even those who do not join. Only the union may engage in collective bargaining; individual employees may not be represented by another agent or negotiate directly with their employer. Nonmembers are required to pay what is generally called an “agency fee,” i. e., a percentage of the full union dues. Under Abood v. Detroit Bd. of Ed., 431 U. S. 209, 235–236, this fee may cover union expenditures attributable to those activities “germane” to the union's collective-bargaining activities (chargeable expenditures), but may not cover the union's political and ideological projects (nonchargeable expenditures). The union sets the agency fee annually and then sends nonmembers a notice explaining the basis for the fee and the breakdown of expenditures. Here, it was 78.06% of full union dues."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 2",
+      "page": 878,
+      "ref": "Case.4511640.syllabus.2",
+      "text": "Petitioner Mark Janus is a state employee whose unit is represented by a public-sector union (Union), one of the respondents. He refused to join the Union because he opposes many of its positions, including those taken in collective bargaining. Illinois' Governor, similarly opposed to many of these positions, fled suit challenging the constitutionality of the state law authorizing agency fees. The state attorney general, another respondent, intervened to defend the law, while Janus moved to intervene on the Governor's side. The District Court dismissed the Governor's challenge for lack of standing, but it simultaneously allowed Janus to fle his own complaint challenging the constitutionality of agency fees. The District Court granted respondents' motion to dismiss on the ground that the claim was foreclosed by Abood. The Seventh Circuit affrmed."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 3",
+      "page": 878,
+      "ref": "Case.4511640.syllabus.3",
+      "text": "Held:"
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 4",
+      "page": 878,
+      "ref": "Case.4511640.syllabus.4",
+      "text": "1. The District Court had jurisdiction over petitioner's suit. Petitioner was undisputedly injured in fact by Illinois' agency-fee scheme and his injuries can be redressed by a favorable court decision. For jurisdictional purposes, the court permissibly treated his amended complaint in intervention as the operative complaint in a new lawsuit. United States ex rel. Texas Portland Cement Co. v. McCord, 233 U. S. 157, distinguished. Pp. 890–891."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 5",
+      "page": 879,
+      "ref": "Case.4511640.syllabus.5",
+      "text": "2. The State's extraction of agency fees from nonconsenting public-sector employees violates the First Amendment. Abood erred in concluding otherwise, and stare decisis cannot support it. Abood is therefore overruled. Pp. 891–929."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 6",
+      "page": 879,
+      "ref": "Case.4511640.syllabus.6",
+      "text": "(a) Abood's holding is inconsistent with standard First Amendment principles. Pp. 891–901."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 7",
+      "page": 879,
+      "ref": "Case.4511640.syllabus.7",
+      "text": "(1) Forcing free and independent individuals to endorse ideas they find objectionable raises serious First Amendment concerns. E. g., West Virginia Bd. of Ed. v. Barnette, 319 U. S. 624, 633. That includes compelling a person to subsidize the speech of other private speakers. E. g., Knox v. Service Employees, 567 U. S. 298, 309. In Knox and Harris v. Quinn, 573 U. S. 616, the Court applied an “exacting” scrutiny standard in judging the constitutionality of agency fees rather than the more traditional strict scrutiny. Even under the more permissive standard, Illinois' scheme cannot survive. Pp. 891–895."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 8",
+      "page": 879,
+      "ref": "Case.4511640.syllabus.8",
+      "text": "(2) Neither of Abood's two justifcations for agency fees passes muster under this standard. First, agency fees cannot be upheld on the ground that they promote an interest in “labor peace.” The Abood Court's fears of confict and disruption if employees were represented by more than one union have proved to be unfounded: Exclusive representation of all the employees in a unit and the exaction of agency fees are not inextricably linked. To the contrary, in the Federal Government and the 28 States with laws prohibiting agency fees, millions of public employees are represented by unions that effectively serve as the exclusive representatives of all the employees. Whatever may have been the case 41 years ago when Abood was decided, it is thus now undeniable that “labor peace” can readily be achieved through less restrictive means than the assessment of agency fees."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 9",
+      "page": 879,
+      "ref": "Case.4511640.syllabus.9",
+      "text": "Second, avoiding “the risk of `free riders,' ” Abood, supra, at 224, is not a compelling state interest. Free-rider “arguments . . . are generally insufficient to overcome First Amendment objections,” Knox, supra, at 311, and the statutory requirement that unions represent members and nonmembers alike does not justify different treatment. As is evident in non-agency-fee jurisdictions, unions are quite willing to represent nonmembers in the absence of agency fees. And their duty of fair representation is a necessary concomitant of the authority that a union seeks when it chooses to be the exclusive representative. In any event, States can avoid free riders through less restrictive means than the imposition of agency fees. Pp. 895–901."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 10",
+      "page": 880,
+      "ref": "Case.4511640.syllabus.10",
+      "text": "(b) Respondents' alternative justifcations for Abood are similarly unavailing. Pp. 901–909."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 11",
+      "page": 880,
+      "ref": "Case.4511640.syllabus.11",
+      "text": "(1) The Union claims that Abood is supported by the First Amendment's original meaning. But neither founding-era evidence nor dictum in Connick v. Myers, 461 U. S. 138, 143, supports the view that the First Amendment was originally understood to allow States to force public employees to subsidize a private third party. If anything, the opposite is true. Pp. 902–905."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 12",
+      "page": 880,
+      "ref": "Case.4511640.syllabus.12",
+      "text": "(2) Nor does Pickering v. Board of Ed. of Township High School Dist. 205, Will Cty., 391 U. S. 563, provide a basis for Abood. Abood was not based on Pickering, and for good reasons. First, Pickering's framework was developed for use in cases involving “one employee's speech and its impact on that employee's public responsibilities,” United States v. Treasury Employees, 513 U. S. 454, 467, while Abood and other agency-fee cases involve a blanket requirement that all employees subsidize private speech with which they may not agree. Second, Pickering's framework was designed to determine whether a public employee's speech interferes with the effective operation of a government offce, not what happens when the government compels speech or speech subsidies in support of third parties. Third, the categorization schemes of Pickering and Abood do not line up. For example, under Abood, nonmembers cannot be charged for speech that concerns political or ideological issues; but under Pickering, an employee's free speech interests on such issues could be overcome if outweighed by the employer's interests. Pp. 905–909."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 13",
+      "page": 880,
+      "ref": "Case.4511640.syllabus.13",
+      "text": "(c) Even under some form of Pickering, Illinois' agency-fee arrangement would not survive. Pp. 909–916."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 14",
+      "page": 880,
+      "ref": "Case.4511640.syllabus.14",
+      "text": "(1) Respondents compare union speech in collective bargaining and grievance proceedings to speech “pursuant to [an employee's] offcial duties,” Garcetti v. Ceballos, 547 U. S. 410, 421, which the State may require of its employees. But in those situations, the employee's words are really the words of the employer, whereas here the union is speaking on behalf of the employees. Garcetti therefore does not apply. Pp. 909–910."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 15",
+      "page": 880,
+      "ref": "Case.4511640.syllabus.15",
+      "text": "(2) Nor does the union speech at issue cover only matters of private concern, which the State may also generally regulate under Pickering. To the contrary, union speech covers critically important and public matters such as the State's budget crisis, taxes, and collective bargaining issues related to education, child welfare, healthcare, and minority rights. Pp. 910–914."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 16",
+      "page": 880,
+      "ref": "Case.4511640.syllabus.16",
+      "text": "(3) The government's proffered interests must therefore justify the heavy burden of agency fees on nonmembers' First Amendment interests. They do not. The state interests asserted in Abood—promoting “labor peace” and avoiding free riders—clearly do not, as explained earlier. And the new interests asserted in Harris and here—bargaining with an adequately funded agent and improving the effciency of the work force—do not suffce either. Experience shows that unions can be effective even without agency fees. Pp. 914–916."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 17",
+      "page": 881,
+      "ref": "Case.4511640.syllabus.17",
+      "text": "(d) Stare decisis does not require retention of Abood. An analysis of several important factors that should be taken into account in deciding whether to overrule a past decision supports this conclusion. Pp. 916–929."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 18",
+      "page": 881,
+      "ref": "Case.4511640.syllabus.18",
+      "text": "(1) Abood was poorly reasoned, and those arguing for retaining it have recast its reasoning, which further undermines its stare decisis effect, e. g., Citizens United v. Federal Election Comm'n, 558 U. S. 310, 363. Abood relied on Railway Employees v. Hanson, 351 U. S. 225, and Machinists v. Street, 367 U. S. 740, both of which involved private-sector collective-bargaining agreements where the government merely authorized agency fees. Abood did not appreciate the very different First Amendment question that arises when a State requires its employees to pay agency fees. Abood also judged the constitutionality of publicsector agency fees using Hanson's deferential standard, which is inappropriate in deciding free speech issues. Nor did Abood take into account the difference between the effects of agency fees in public- and private-sector collective bargaining, anticipate administrative problems with classifying union expenses as chargeable or nonchargeable, foresee practical problems faced by nonmembers wishing to challenge those decisions, or understand the inherently political nature of public-sector bargaining. Pp. 917–921."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 19",
+      "page": 881,
+      "ref": "Case.4511640.syllabus.19",
+      "text": "(2) Abood's lack of workability also weighs against it. Its line between chargeable and nonchargeable expenditures has proved to be impossible to draw with precision, as even respondents recognize. See, e. g., Lehnert v. Ferris Faculty Assn., 500 U. S. 507, 519. What is more, a nonmember objecting to union chargeability determinations will have much trouble determining the accuracy of the union's reported expenditures, which are often expressed in extremely broad and vague terms. Pp. 921–924."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 20",
+      "page": 881,
+      "ref": "Case.4511640.syllabus.20",
+      "text": "(3) Developments since Abood, both factual and legal, have “eroded” the decision's “underpinnings” and left it an outlier among the Court's First Amendment cases. United States v. Gaudin, 515 U. S. 506, 521. Abood relied on an assumption that “the principle of exclusive representation in the public sector is dependent on a union or agency shop,” Harris, 573 U. S., at 638, but experience has shown otherwise. It was also decided when public-sector unionism was a relatively new phenomenon. Today, however, public-sector union membership has surpassed that in the private sector, and that ascendency corresponds with a parallel increase in public spending. Abood is also an anomaly in the Court's First Amendment jurisprudence, where exacting scrutiny, if not a more demanding standard, generally applies. Overruling Abood will also end the oddity of allowing public employers to compel union support (which is not supported by any tradition) but not to compel party support (which is supported by tradition), see, e. g., Elrod v. Burns, 427 U. S. 347. Pp. 924–926."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 21",
+      "page": 882,
+      "ref": "Case.4511640.syllabus.21",
+      "text": "(4) Reliance on Abood does not carry decisive weight. The uncertain status of Abood, known to unions for years; the lack of clarity it provides; the short-term nature of collective-bargaining agreements; and the ability of unions to protect themselves if an agency-fee provision was crucial to its bargain undermine the force of reliance. Pp. 926–929."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 22",
+      "page": 882,
+      "ref": "Case.4511640.syllabus.22",
+      "text": "3. For these reasons, States and public-sector unions may no longer extract agency fees from nonconsenting employees. The First Amendment is violated when money is taken from nonconsenting employees for a public-sector union; employees must choose to support the union before anything is taken from them. Accordingly, neither an agency fee nor any other form of payment to a public-sector union may be deducted from an employee, nor may any other attempt be made to collect such a payment, unless the employee affrmatively consents to pay. Pp. 929–930."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Janus v. American Federation of State, County, & Municipal Employees, Council 31, syllabus ¶ 23",
+      "page": 882,
+      "ref": "Case.4511640.syllabus.23",
+      "text": "851 F. 3d 746, reversed and remanded."
+    }
+  ],
+  "source_ids": [
+    "courtlistener-scotus-16-1466",
+    "scotus-585-bv"
+  ],
+  "title": "Janus v. American Federation of State, County, & Municipal Employees, Council 31",
+  "us_cite": "585 U.S. 878"
+}

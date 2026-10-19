@@ -976,3 +976,38 @@ Arizona*, *Agostini v. Felton*, *Harper v. Virginia Board of Elections*,
 CourtListener with two requests and their scans fetched from the Library
 of Congress like the others. The set is now 232 cases.
 
+
+## 54. Syllabi from the Supreme Court's own PDFs, and syllabi with several opinions
+
+The project owner approved supremecourt.gov as a source. The Library of
+Congress has scanned the United States Reports to about volume 578, so nine
+cases in the set (*Sessions v. Morales-Santana*, *Trump v. Hawaii*, *Janus*,
+*Rucho*, *Seila Law*, *Trump v. Mazars*, *Americans for Prosperity
+Foundation v. Bonta*, *Dobbs* and *Kennedy v. Bremerton*) had no syllabus.
+
+- **The Court's PDFs.** Each is read from the PDF the Court publishes: the
+  bound volume where the volume is bound (582, 585), else the preliminary
+  print of the volume (588, 591) or of the case (594, 597)
+  (`importers/scotus.py`, `PRINTS`). They are raw sources like any other
+  (about 18 MB, kept in git), read by the same reader as the scans
+  (`importers.usreports`, with a `source`), word for word; a case is found
+  in a volume by the page number in its running heads. The PDFs are
+  encrypted with an empty user password, which anyone may open;
+  `tools/pdf.py` reads them (RC4). The Library of Congress scan, where there
+  is one, comes first.
+- **Opinions without a majority.** Where no opinion speaks for the Court
+  throughout, the syllabus goes on after the judgment line with a part for
+  each opinion ("JUSTICE WHITE delivered the opinion of the Court with
+  respect to Parts I and II, concluding that …"). The reader had stopped at
+  the judgment line, so eight published syllabi were cut short (455 U.S. 422,
+  478 U.S. 109, 492 U.S. 302, 497 U.S. 639, 504 U.S. 555, 512 U.S. 622,
+  561 U.S. 742, 567 U.S. 519), and *Adamson* (332 U.S. 46) was cut at
+  "argued the" inside a holding. They now run to the list of who joined which
+  opinion. Their published paragraphs are unchanged, with the same refs; the
+  rest of the syllabus follows with new refs (rule 6). Up to 24 pages are
+  read per case (*McConnell*'s syllabus runs to p. 110); dates are read from
+  a case's first two pages only.
+- **The reader's other changes** let it follow 20 of the 25 scans it
+  had refused (hanging indents, lines read out of order, volumes before 1882
+  that print no dates). 202 of the 232 cases now have a syllabus; five scans
+  are still refused, and each case says why.

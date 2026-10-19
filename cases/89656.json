@@ -16,12 +16,68 @@
   "loc_url": "https://www.loc.gov/item/usrep095714/",
   "pdf_url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep095/usrep095714/usrep095714.pdf",
   "ref_prefix": "Case.89656",
-  "segments": [],
+  "segments": [
+    {
+      "kind": "syllabus",
+      "label": "Pennoyer v. Neff, syllabus ¶ 1",
+      "page": 714,
+      "ref": "Case.89656.syllabus.1",
+      "text": "1. A statute of Oregon, after providing for service of summons upon parties or their representatives, personally or at their residence, declares that when service cannot be thus made, and the defendant, after due diligence, cannot be found within the State, and \"that fact appears, by affidavit, to the satisfaction of the court or judge thereof, and it, in like manner, appears that a cause of action exists against the defendant, or that lie is a proper party to an action relating to real property in the State, such court or judge may grant an order that the service be made by publication of summons, . . . when the defendant is not a resident of the State, but has property therein, and the court has jurisdiction of the subject of the action,\"-the order to designate a newspaper of the county where the action is commenced in which the publication shall be made, - and that proof of such publication shall be \"the affidavit of the printer, or his foreman, or his principal clerk.\" field, that defects in the affidavit for the order can only be taken advantage of on appeal, or by some other direct proceeding, and cannot be urged to impeach the judgment collaterally; and that the provision as to proof of the publication is satisfied when the affidavit is made by the editor of the paper."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pennoyer v. Neff, syllabus ¶ 2",
+      "page": 714,
+      "ref": "Case.89656.syllabus.2",
+      "text": "2. A personal judgment is without any validity, if it be rendered by a State court in an action upon a money-demand against a non-resident of the State, who was served by a publication of summons, but upon whom no personal service of process within the State was made, and who did not appear; and no title to property passes by a sale under an execution issued upon such a judgment."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pennoyer v. Neff, syllabus ¶ 3",
+      "page": 714,
+      "ref": "Case.89656.syllabus.3",
+      "text": "8. The State, having within her territory property of a non-resident, may bold and appropriate it to satisfy the claims of her citizens against him; and her tribunals may inquire into his obligations to the extent necessary to control the disposition of that property. If he has no property in the State, there is nothing upon which her tribunals can adjudicate."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pennoyer v. Neff, syllabus ¶ 4",
+      "page": 714,
+      "ref": "Case.89656.syllabus.4",
+      "text": "4. Substituted service by publication, or in any other authorized form, is sufficient to inform a non-resident of the object of proceedings taken, where property is once Irought under the control of the court by seizure or some equivalent act; but where the suit is brought to determine his personal rights and obligations, that is, where it is merely in personam, such service upon him is ineffectual for any purpose."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pennoyer v. Neff, syllabus ¶ 5",
+      "page": 715,
+      "ref": "Case.89656.syllabus.5",
+      "text": "5. Process from the tribunals of one State cannot run into another State, and summon a party there domiciled to respond to proceedings against him; and publication of process or of notice within the State in which the tribunal sits cannot create any greater obligation upon him to appear. Process sent to him out of the State, and process published within it, are equally unavailing in proceedings to establish his personal liability."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pennoyer v. Neff, syllabus ¶ 6",
+      "page": 715,
+      "ref": "Case.89656.syllabus.6",
+      "text": "6. Except in cases affecting the personal status of the plaintiff, and in those wherein that mode of service may be considered to have been assented to in advance, the substituted service of process by publication, allowed by the law of Oregon and by similar laws in other States where actions are brought against non-residents, is effectual only where, in connection with process against the person for commencing the action, property in the State is brought under the control of the court, and subjected to its disposition by process adapted to that purpose, or where the judgment is sought as a means of reaching such property, or affecting some interest therein; in other words, where the action is in the nature of a proceeding in rem."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pennoyer v. Neff, syllabus ¶ 7",
+      "page": 715,
+      "ref": "Case.89656.syllabus.7",
+      "text": "7. Whilst the courts of the United States are not foreign tribunals in their relations to the State courts, they are tribunals of a different sovereignty, and are bound to give to a judgment of a State court only the same faith and credit to which it is entitled in the courts of another State."
+    },
+    {
+      "kind": "syllabus",
+      "label": "Pennoyer v. Neff, syllabus ¶ 8",
+      "page": 715,
+      "ref": "Case.89656.syllabus.8",
+      "text": "8. The term, \"' due process of law,\" when applied to judicial proceedings, means a course of legal proceedings according to those rules and principles which have been established by our jurisprudence for the protection and enforcement of private rights. To give such proceedings any validity, there must be a competent tribunal to pass upon their subject-matter; and, if that involves merely a determination of the personal liability of the defendant, he must be brought within its jurisdiction by service of process within the State, or by his voluntary appearance."
+    }
+  ],
   "source_ids": [
     "courtlistener-citations-4",
     "loc-usrep-95-714"
   ],
-  "syllabus_note": "No syllabus was found in the text layer of the scan.",
   "title": "Pennoyer v. Neff",
   "us_cite": "95 U.S. 714"
 }
