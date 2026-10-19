@@ -75,6 +75,10 @@ POSITIONS = ("anti", "federalist", "other")
 POSITION_LABELS = {"anti": "Anti-Federalist", "federalist": "Federalist", "other": "Other"}
 
 
+# What a ratification-debate work's parts are called, where not essays.
+PARTS = {"patrick-henry": "speeches"}
+
+
 def debate_settings(corpus: Corpus) -> dict[str, dict]:
     docs = [d for d in corpus.works.values() if d.get("position")]
     docs.sort(key=lambda d: (POSITIONS.index(d["position"]), d.get("date") or "", d["id"]))
@@ -677,6 +681,7 @@ class SiteBuilder:
                 "source_ids": work["source_ids"],
                 "title": work["title"],
                 "top_divisions": len(tops),
+                "part_name": PARTS.get(wid, "essays"),
                 "url": work_url(wid, self.settings),
             }
             if cfg.get("summary"):
