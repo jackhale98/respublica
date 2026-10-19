@@ -1087,3 +1087,67 @@ an exception to rule 3, made by the owner, and it is kept visible:
   and the Library gave no suggestion, the text keeps "f". The Library's own
   errors (decision 55) can now be in the text, marked like the rest. One
   link quote that contained an accepted word was updated with it.
+
+## 57. The Thirteenth and Fifteenth Amendments in the Congressional Globe
+
+The project owner asked for the debates on the Thirteenth and Fifteenth
+Amendments, read as the Fourteenth's are (decision 47), and decided two
+questions the rule left open: items in which a house took up the joint
+resolution without a heading on its subject are included (the House's
+evening session of May 31, 1864; the Senate's sitting of January 30, 1869),
+and so are procedural items under the subject heading (a motion to fix a
+day, to postpone, to reconsider, a notice of an amendment, a conference
+report filed).
+
+- **What is imported.** Every item of either house's proceedings on the
+  days listed in `importers/globe.py` (`DAYS`) headed with the subject of
+  the joint resolution — "Amendment(s) of/to the Constitution" and
+  "Abolition of Slavery" for S. No. 16 (1864–65); "Suffrage", "Suffrage
+  Constitutional Amendment" and "Rights of Citizens" for H. R. No. 402 and
+  S. R. No. 8 (1869) — whose first paragraphs name it, any later item that
+  day under the same heading, and the two places above (`OPENINGS`). A
+  notice of intent, a state legislature's resolutions, a message or a
+  different joint resolution under a like heading is not imported; days
+  with only such items are not listed.
+- **Five works**, one per house and session: `Senate1864` (11 days,
+  February 17 – April 8, 1864), `House1864` (5 days, May 31 – June 28,
+  1864), `House1865` (9 days, January 6–31, 1865), `House1869` (11 days)
+  and `Senate1869` (18 days), January 11 – February 26, 1869. They join
+  "Debates in Congress" in two new groups. Refs as for 1866
+  (`docs/references.md`).
+- **Sources.** UNT's OCR of its copies (`unt-globe-{year}-p{page}-…`, 872
+  pages, about 58 MB in git; the raw total stays well inside its budget).
+  The cross-check copies are the Lincoln Financial Foundation Collection's
+  scans (OCR text) for 1864–65 and, for 1869, the only scan the Internet
+  Archive has, a microfilm (OCR text, which reads column by column here).
+  They are kept out of git like the 1866 ones.
+- **Reading the page, refined** for these sessions (`Session.refined`; not
+  for 1866, whose refs are published and whose text does not change): the
+  masthead on the first page of each number (1864–65; UNT leaves these
+  pages unlabelled, so each is placed between its neighbours and checked
+  to carry the masthead) and the number's signature at the foot ("40th
+  Cong. 3d Sess.—No. 8.") are left out; a subject heading OCR ends with a
+  comma, a speck or nothing is still a heading, and so is a line of small
+  capitals set in a little from both margins; a heading may run over two
+  lines; specks one or two dots wide (a column rule read as "j") are
+  dropped; a lower-case line set apart that continues a sentence, a
+  speaker's words, an article of a joint resolution and the signatures
+  under a letter or report are not headings; "House of Representatives,"
+  closing a letter does not end the day. Headings inside a speech
+  (Yeaman's, January 9, 1865) stay in the item as paragraphs
+  (`SPEECH_HEADINGS`), and one subject heading OCR misread past
+  recognizing ("sn:i'F!i.u;K.", January 25, 1869) is named from the page
+  image (`MISREAD_HEADINGS`). Each item is checked against the other copy
+  in runs of about 200 words, since a day's opening formula ("The SPEAKER.
+  The next business in order is …") recurs day after day.
+- **Quality.** About 4.6% of words are marked uncertain in the Senate's
+  1864 debate (UNT's OCR of pp. 1318–1319 is badly garbled), 2.1% (House,
+  1864), 2.4% (House, 1865), 2.6% (House, 1869) and 1.9% (Senate, 1869).
+  Misread headings and a dropped line are in `docs/errata.md` (40–45).
+  Speeches the Globe prints only in its Appendix are not imported.
+- **On the site**, a day is split into sheets by its text as before, or,
+  where its uncertain words (each marked with every reading) would push the
+  page past the HTML budget, by text and readings together
+  (`SHEET_WEIGHT_BYTES`; only the Senate's March 28, 1864, so far; no 1866
+  sheet changes). The about page lists the Globe's page-by-page UNT sources
+  as one line per session instead of two lines per page.

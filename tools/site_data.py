@@ -25,7 +25,7 @@ import re
 import shutil
 from collections import Counter
 
-from tools.common import ROOT, read_json, write_json
+from tools.common import ROOT, load_manifest, read_json, write_json
 from tools.corpus import Corpus, load_corpus
 
 OUT = ROOT / "site" / ".data"
@@ -47,6 +47,30 @@ WORKS = {
                                          "Bill of Rights: every item printed under the heading “Amendments to the "
                                          "Constitution” in the Annals of Congress, from James Madison's speech of "
                                          "June 8 to the House's last vote on the articles."},
+    # The Thirteenth Amendment (decision 57).
+    "senate-thirteenth-amendment-1864": {
+        "collection": "congress", "order": 4.1, "paged": True, "short": "Senate debates, 1864",
+        "slug": "senate-thirteenth-amendment-1864", "group": "The Thirteenth Amendment, 1864–65",
+        "printed_in": "Congressional Globe",
+        "summary": "The Senate's debate on the joint resolution (S. No. 16) proposing the Thirteenth Amendment: "
+                   "every item headed with its subject (“Amendment of the Constitution”) in which the Senate took it "
+                   "up, as printed in the Congressional Globe, from February 17 to the vote of April 8, 1864."},
+    "house-thirteenth-amendment-1864": {
+        "collection": "congress", "order": 4.2, "paged": True, "short": "House debates, 1864",
+        "slug": "house-thirteenth-amendment-1864", "group": "The Thirteenth Amendment, 1864–65",
+        "printed_in": "Congressional Globe",
+        "summary": "The House of Representatives' debate on the Senate's joint resolution (S. No. 16) proposing "
+                   "the Thirteenth Amendment: every item headed “Abolition of Slavery” in which the House took it "
+                   "up, and its evening session of May 31, as printed in the Congressional Globe, from May 31 to "
+                   "June 28, 1864, with the vote of June 15."},
+    "house-thirteenth-amendment-1865": {
+        "collection": "congress", "order": 4.3, "paged": True, "short": "House debates, 1865",
+        "slug": "house-thirteenth-amendment-1865", "group": "The Thirteenth Amendment, 1864–65",
+        "printed_in": "Congressional Globe",
+        "summary": "The House of Representatives' debate on the motion to reconsider its vote of June 15, 1864, "
+                   "on the joint resolution (S. No. 16) proposing the Thirteenth Amendment: every item headed "
+                   "“Abolition of Slavery” in which the House took it up, as printed in the Congressional Globe, "
+                   "from James Ashley's motion of January 6 to the vote of January 31, 1865."},
     "house-fourteenth-amendment-1866": {
         "collection": "congress", "order": 5, "paged": True, "short": "House debates, 1866",
         "slug": "house-fourteenth-amendment-1866", "group": "The Fourteenth Amendment, 1866",
@@ -62,10 +86,28 @@ WORKS = {
         "summary": "The Senate's debate on the joint resolution (H. R. No. 127) proposing the Fourteenth "
                    "Amendment: every item headed “Reconstruction” in which the Senate took it up, as printed in "
                    "the Congressional Globe, from Jacob Howard's opening of May 23 to the vote of June 8."},
+    # The Fifteenth Amendment (decision 57).
+    "house-fifteenth-amendment-1869": {
+        "collection": "congress", "order": 6.1, "paged": True, "short": "House debates, 1869",
+        "slug": "house-fifteenth-amendment-1869", "group": "The Fifteenth Amendment, 1869",
+        "printed_in": "Congressional Globe",
+        "summary": "The House of Representatives' debate on the joint resolutions (H. R. No. 402, S. R. No. 8) "
+                   "proposing the Fifteenth Amendment: every item headed “Suffrage” or “Rights of Citizens” in "
+                   "which the House took them up, as printed in the Congressional Globe, from January 11 to the "
+                   "conference report of February 25, 1869."},
+    "senate-fifteenth-amendment-1869": {
+        "collection": "congress", "order": 6.2, "paged": True, "short": "Senate debates, 1869",
+        "slug": "senate-fifteenth-amendment-1869", "group": "The Fifteenth Amendment, 1869",
+        "printed_in": "Congressional Globe",
+        "summary": "The Senate's debate on the joint resolutions (S. R. No. 8, H. R. No. 402) proposing the "
+                   "Fifteenth Amendment: every item headed “Suffrage Constitutional Amendment” in which the Senate "
+                   "took them up, and its sitting of January 30, as printed in the Congressional Globe, from "
+                   "January 21 to the conference report of February 26, 1869."},
 }
 
 # Collections of works shown on one page each.
-CONGRESS_GROUPS = ("The Bill of Rights, 1789", "The Fourteenth Amendment, 1866")
+CONGRESS_GROUPS = ("The Bill of Rights, 1789", "The Thirteenth Amendment, 1864–65", "The Fourteenth Amendment, 1866",
+                   "The Fifteenth Amendment, 1869")
 
 # Essays and letters of the ratification debate (texts with a `position`)
 # get their settings from the text: one page per essay for a series, one
@@ -77,6 +119,42 @@ POSITION_LABELS = {"anti": "Anti-Federalist", "federalist": "Federalist", "other
 
 # What a ratification-debate work's parts are called, where not essays.
 PARTS = {"patrick-henry": "speeches"}
+
+# A work's sources as the about page lists them: each on a line, but the
+# Congressional Globe's page-by-page OCR from the UNT Digital Library (two
+# files a page, hundreds of pages) as one line per session, so the page
+# stays inside its HTML budget.
+UNT_PAGE_SOURCE = re.compile(r"^unt-globe-(\d{4})-p(\d+)-(?:words|text)$")
+
+
+def source_list(ids: list[str], manifest: dict[str, dict]) -> list[dict]:
+    out: list[dict] = []
+    groups: dict[str, dict] = {}
+    for sid in ids:
+        m = UNT_PAGE_SOURCE.match(sid)
+        if not m:
+            out.append({"id": sid})
+            continue
+        if m.group(1) not in groups:
+            groups[m.group(1)] = {"pages": set(), "entries": []}
+            out.append({"group": m.group(1)})
+        groups[m.group(1)]["pages"].add(int(m.group(2)))
+        groups[m.group(1)]["entries"].append(manifest[sid])
+    for item in out:
+        if "group" not in item:
+            continue
+        g = groups[item.pop("group")]
+        pages, entries = sorted(g["pages"]), g["entries"]
+        records = sorted({m.group(1) for e in entries if (m := re.search(r"/ark:/67531/(metadc\d+)/", e["url"]))})
+        item.update({
+            "text": f"The UNT Digital Library's OCR of the Congressional Globe, pp. {pages[0]}–{pages[-1]} "
+                    f"({len(pages)} pages, each as the words with their boxes and as the OCR text page), in its "
+                    f"{'records' if len(records) > 1 else 'record'}",
+            "links": [{"label": r, "url": f"https://digital.library.unt.edu/ark:/67531/{r}/"} for r in records],
+            "retrieved_at": max(e["retrieved_at"] for e in entries),
+            "license": entries[0]["license"],
+        })
+    return out
 
 
 def debate_settings(corpus: Corpus) -> dict[str, dict]:
@@ -409,11 +487,27 @@ def part_slug(work: dict, division_ref: str) -> str:
 SHEET_TEXT_BYTES = 90_000
 
 
+# Uncertain words weigh on a page too (each is marked with every scan's
+# reading): a part whose text and readings together pass this is split by
+# that weight instead, into more sheets (the Senate's debate of March 28,
+# 1864, where UNT's OCR of two pages is garbled; decision 57). No part of
+# the 1866 debates comes near it, so their sheets are as before.
+SHEET_WEIGHT_BYTES = 180_000
+
+
+def _weight(x: dict) -> int:
+    return len(x["text"].encode()) + sum(len(str(u["readings"])) + 80 for u in x.get("uncertain", []))
+
+
 def sheets(segments: list[dict]) -> list[list[dict]]:
     """A part's passages, in sheets of nearly equal length."""
     sizes = [len(x["text"].encode()) for x in segments]
     total = sum(sizes)
     n = -(-total // SHEET_TEXT_BYTES)
+    weights = [_weight(x) for x in segments]
+    if -(-sum(weights) // SHEET_WEIGHT_BYTES) > n:
+        sizes, total = weights, sum(weights)
+        n = -(-total // SHEET_WEIGHT_BYTES)
     if n <= 1 or any(x.get("kind") == "footnote" for x in segments):
         return [segments]
     out, at = [[]], 0
@@ -442,6 +536,7 @@ class SiteBuilder:
         self.corpus = corpus
         self.link_index = build_link_index(links, corpus)
         self.settings = {**WORKS, **debate_settings(corpus), **case_settings(corpus)}
+        self.manifest = {e["id"]: e for e in load_manifest()}
         self.works = [corpus.works[w] for w in sorted(self.settings, key=lambda k: self.settings[k]["order"])
                       if w in corpus.works]
         missing = set(corpus.works) - set(self.settings)
@@ -682,6 +777,7 @@ class SiteBuilder:
                 "passages": sum(1 for s in work["segments"] if s.get("kind") != "footnote"),
                 "short": cfg["short"],
                 "source_ids": work["source_ids"],
+                "sources": source_list(work["source_ids"], self.manifest),
                 "title": work["title"],
                 "top_divisions": len(tops),
                 "part_name": PARTS.get(wid, "essays"),

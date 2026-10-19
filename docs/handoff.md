@@ -49,9 +49,17 @@ amendments, from the Annals of Congress (`importers/annals.py`, decision
 Congressional Globe (`importers/globe.py`, decision 47). About 1% (1789),
 1.3% (House, 1866) and 2.2% (Senate, 1866) of words are marked uncertain;
 the Senate's June days have only a poor microfilm to check UNT's OCR
-against. Run 4 of the linking guide (`docs/linking.md`) proposes their
-links to the Constitution and to the amendments. Next in this line: the
-Thirteenth and Fifteenth Amendments in the Globe, by the same rule.
+against. The Thirteenth (1864–65: `Senate1864`, `House1864`, `House1865`)
+and Fifteenth Amendments (1869: `House1869`, `Senate1869`) are imported the
+same way (decision 57), with page reading refined for those volumes (never
+for 1866, whose refs are published); 1.9–4.6% of their words are marked
+uncertain, worst on pp. 1318–1319 of 1864 (errata 40). Run 4 of the linking
+guide (`docs/linking.md`) proposes links for these debates to the
+Constitution and to the amendments; it has not been run on the 1864–65 and
+1869 works yet. Open questions for the owner: the Senate's sitting of
+January 30, 1869, is imported only up to the next heading ("Committee
+Service"); whether its later debate that day on S. R. No. 8, printed
+without a heading of its own, belongs too needs a look at pp. 733–741.
 
 **Phase 7, Supreme Court cases: the first set is imported** (decision 49):
 
