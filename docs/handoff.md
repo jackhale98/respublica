@@ -114,12 +114,6 @@ been proposed for these works yet.
 
 ## Next
 
-- **Decide how to keep `/data/refs.json` inside its 5 MB budget** (decision
-  62): with the debates of 1932–71 it is 7.5 MB and `make build` fails on
-  it. The options (split it by work, or leave the debates' paragraph refs
-  out and resolve them from their day) change a lookup other sites use;
-  the owner decides.
-
 0. **Read uncertain words off the scans** on `/errata/` (decision 48):
    about 91,100 words in all (`python -m tools.uncertain`), 2,953 of them
    in the 1866 debates. Corrections come back

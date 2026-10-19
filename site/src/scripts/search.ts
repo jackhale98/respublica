@@ -9,7 +9,7 @@
 
 import { loading } from "./loader";
 
-type RefEntry = { label: string; url: string };
+type RefEntry = { label: string; url: string; refs?: string };
 export type Passage = { ref: string | null; label: string; url: string; excerpt: string; score: number; phrase: boolean };
 export type PageHit = { url: string; title: string; work: string; passages: Passage[] };
 
@@ -27,6 +27,26 @@ let pagefindPromise: Promise<any> | null = null;
 function loadRefs() {
   refsPromise ??= fetch(`${BASE}/data/refs.json`).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
   return refsPromise;
+}
+
+// The paragraphs of a debate in Congress are in their own file, named by the
+// debate's entry (decision 63): loaded into the same map when first needed.
+const partsLoaded = new Map<string, Promise<void>>();
+async function withRefsOf(prefixes: Iterable<string>): Promise<Record<string, RefEntry>> {
+  const refs = await loadRefs();
+  const lower = new Map(Object.keys(refs).filter((k) => !k.includes(".")).map((k) => [k.toLowerCase(), k]));
+  await Promise.all([...new Set(prefixes)].map((p) => {
+    const key = lower.get(p.toLowerCase());
+    const file = key ? refs[key].refs : undefined;
+    if (!file || !file.startsWith("/") || file.startsWith("//")) return;
+    if (!partsLoaded.has(file)) {
+      partsLoaded.set(file, fetch(`${BASE}${file}`).then((r) => (r.ok ? r.json() : {})).then((part) => {
+        Object.assign(refs, part);
+      }).catch(() => {}));
+    }
+    return partsLoaded.get(file);
+  }));
+  return refs;
 }
 
 export function loadPagefind() {
@@ -94,7 +114,7 @@ export function jumpCandidates(raw: string): string[] {
 }
 
 export async function jump(q: string): Promise<{ url: string; title: string; ref: string }[]> {
-  const refs = await loadRefs();
+  const refs = await withRefsOf(jumpCandidates(q).filter((c) => c.includes(".")).map((c) => c.split(".")[0]));
   const lower = new Map(Object.keys(refs).map((k) => [k.toLowerCase(), k]));
   const seen = new Set<string>();
   const items = [];
@@ -239,6 +259,7 @@ export async function search(q: string, filters: Record<string, string> = {}, de
     total: results.length,
     load: async (from, to) => {
       const datas = await Promise.all(results.slice(from, to).map((r: any) => r.data()));
+      await withRefsOf(datas.flatMap((d: any) => (d.anchors || []).map((a: any) => String(a.id || "").split(".")[0]).filter(Boolean)));
       return datas
         .map((d: any) => {
           const work = d.filters?.work?.[0] || "";

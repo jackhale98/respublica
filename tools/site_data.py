@@ -9,7 +9,10 @@ shown (and how they are flagged) lives here, where it is tested.
 Output:
   site/.data/site.json           works, pages, home-page stats
   site/.data/pages/{page}.json   one file per page: blocks to render
-  site/.data/refs.json           ref -> {url, label} for every ref
+  site/.data/refs.json           ref -> {url, label} for every ref (used at build time)
+  site/.data/refs-public.json    what /data/refs.json serves: every ref but the
+                                 paragraphs of the debates in Congress (decision 63)
+  site/.data/refs-parts/{wid}.json  those paragraphs, one file per debate
   site/.data/graph/{page}.json   two-hop link neighborhoods of a page's passages
   site/.data/preview/{ref}.json  the far ends of a passage's connections, to read in the panel
   site/.data/map.json            the overview map: links and cases along the founding documents
@@ -1466,6 +1469,25 @@ def map_side(corpus: Corpus, wid: str) -> str:
     return "other"
 
 
+def split_refs(corpus: Corpus, refs: dict[str, dict]) -> tuple[dict[str, dict], dict[str, dict[str, dict]]]:
+    """/data/refs.json without the paragraphs of the debates in Congress,
+    which go to one file per debate (decision 63): the debates hold most of
+    the library's refs, and search loads a debate's file only when it needs
+    it. The debate's own entry (its prefix) says where its file is
+    ("refs": "/data/refs/{work}.json"); its days stay in the main file."""
+    public = dict(refs)
+    parts: dict[str, dict[str, dict]] = {}
+    for wid, doc in corpus.works.items():
+        prefix = doc.get("ref_prefix", "")
+        if map_side(corpus, wid) != "congress" or prefix not in refs:
+            continue
+        own = {s["ref"]: public.pop(s["ref"]) for s in doc.get("segments", []) if s["ref"] in public}
+        if own:
+            parts[wid] = own
+            public[prefix] = {**refs[prefix], "refs": f"/data/refs/{wid}.json"}
+    return public, parts
+
+
 def founding_passages(corpus: Corpus, works: tuple[str, ...] = ("declaration", "constitution", "amendments")) -> list[dict]:
     """The founding documents' own text, passage by passage in reading order:
     not the Declaration's heading, the signers, or the notes after Article VII."""
@@ -1730,6 +1752,10 @@ def main() -> None:
         shutil.rmtree(OUT)
     write_json(OUT / "site.json", site)
     write_json(OUT / "refs.json", refs)
+    public, parts = split_refs(corpus, refs)
+    write_json(OUT / "refs-public.json", public)
+    for wid, own in parts.items():
+        write_json(OUT / "refs-parts" / f"{wid}.json", own)
     previews = build_previews(corpus, pages, refs)
     for pid, page in pages.items():
         write_json(OUT / "pages" / f"{pid}.json", page)

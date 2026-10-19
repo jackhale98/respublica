@@ -19,6 +19,10 @@ const cached = (key, fn) => (cache.has(key) ? cache.get(key) : cache.set(key, fn
 export const loadSite = () => cached("site", () => readJson(path.join(DATA, "site.json")));
 export const loadPage = (id) => cached(`page:${id}`, () => readJson(path.join(DATA, "pages", `${id}.json`)));
 export const loadRefs = () => cached("refs", () => readJson(path.join(DATA, "refs.json")));
+// What /data/refs.json and /data/refs/{work}.json serve (decision 63).
+export const loadPublicRefs = () => readJson(path.join(DATA, "refs-public.json"));
+export const listRefParts = () => fs.readdirSync(path.join(DATA, "refs-parts")).filter((f) => f.endsWith(".json")).map((f) => f.slice(0, -5));
+export const loadRefPart = (w) => readJson(path.join(DATA, "refs-parts", `${w}.json`));
 export const loadReview = () => cached("review", () => readJson(path.join(DATA, "review", "index.json")));
 export const loadReviewBatch = (b) => readJson(path.join(DATA, "review", `${b}.json`));
 export const loadMap = () => cached("map", () => readJson(path.join(DATA, "map.json")));

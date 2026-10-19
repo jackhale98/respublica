@@ -1428,3 +1428,23 @@ one work per house per session: `Senate1932`, `House1932`; `Senate1933`,
   relaxed. Splitting the file, or leaving the debates' paragraph refs out of
   it, changes a lookup other sites use (decision 17's URL table, decision 18), so it waits
   for the project owner's decision; until then `make build` fails on it.
+
+## 63. The ref lookup, split by debate
+
+With the debates in the Congressional Record (decisions 61 and 62),
+`/data/refs.json` grew to 7.5 MB, over the 5 MB budget for one file, and
+search downloads it whole for "jump to". The debates in Congress hold most
+of the library's refs: 7.3 MB of it. The project owner chose to split it by
+debate:
+
+- **`/data/refs.json`** keeps every ref but the paragraphs of the debates in
+  Congress: the founding documents, The Federalist, the ratification debate,
+  the cases, and each debate's own entry and its days. A debate's entry
+  (its prefix, such as `House1866`) gains `"refs": "/data/refs/{work}.json"`.
+- **`/data/refs/{work}.json`** holds that debate's paragraph refs, in the
+  same form (ref -> label and URL).
+- **Search** loads a debate's file only when a query names one of its refs
+  or a result is a page of that debate.
+- Every ref stays resolvable from these public files; a site that used the
+  one file reads a debate's file the same way when a ref's prefix entry
+  names one. The URLs of decision 17 do not change.
