@@ -579,6 +579,34 @@
       "scotus-597-507"
     ]
   },
+  "conventions": {
+    "outputs": [
+      "texts/connecticut-convention-1788.json",
+      "texts/maryland-convention-1788.json",
+      "texts/massachusetts-convention-1788.json",
+      "texts/new-hampshire-convention-1788.json",
+      "texts/new-york-convention-1788.json",
+      "texts/north-carolina-convention-1788.json",
+      "texts/pennsylvania-convention-1787.json",
+      "texts/south-carolina-convention-1788.json",
+      "texts/virginia-convention-1788.json"
+    ],
+    "raw": [
+      "gutenberg-federalist-18",
+      "ia-elliot-v2-1907-toronto-xml",
+      "ia-elliot-v3-1836-google-txt",
+      "ia-elliot-v3-1861-google-txt",
+      "ia-elliot-v3-1876-cornell-txt",
+      "ia-elliot-v3-1907-toronto-xml",
+      "ia-elliot-v4-1907-toronto-xml",
+      "loc-lled-002-xml",
+      "loc-lled-003-xml",
+      "loc-lled-004-xml",
+      "nara-amendments-11-27",
+      "nara-bill-of-rights",
+      "nara-constitution"
+    ]
+  },
   "elliot": {
     "outputs": [
       "texts/patrick-henry.json"
@@ -613,6 +641,7 @@
       "ia-elliot-v3-1861-google-txt",
       "ia-elliot-v3-1876-cornell-txt",
       "ia-elliot-v3-1907-toronto-xml",
+      "loc-lled-003-xml",
       "nara-amendments-11-27",
       "nara-bill-of-rights",
       "nara-constitution"
