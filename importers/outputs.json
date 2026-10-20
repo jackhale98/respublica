@@ -2792,6 +2792,20 @@
       "unt-globe-1869-p999-words"
     ]
   },
+  "locke": {
+    "outputs": [
+      "texts/locke-second-treatise.json"
+    ],
+    "raw": [
+      "gutenberg-federalist-18",
+      "ia-decl-locke-1690-illinois-xml",
+      "ia-decl-locke-1690-microfilm-txt",
+      "nara-amendments-11-27",
+      "nara-bill-of-rights",
+      "nara-constitution",
+      "tcp-a48901"
+    ]
+  },
   "nara": {
     "outputs": [
       "texts/amendments.json",
@@ -2804,6 +2818,19 @@
       "nara-bill-of-rights",
       "nara-constitution",
       "nara-declaration"
+    ]
+  },
+  "paine": {
+    "outputs": [
+      "texts/common-sense.json"
+    ],
+    "raw": [
+      "gutenberg-federalist-18",
+      "ia-decl-paine-1776-jcb-xml",
+      "nara-amendments-11-27",
+      "nara-bill-of-rights",
+      "nara-constitution",
+      "tcp-n11839"
     ]
   },
   "ratification": {
