@@ -40,8 +40,8 @@ class ScopeTests(unittest.TestCase):
     def test_only_the_cache_families_its_raw_files_are_in(self):
         # loc-nyjournal-* is kept out of git (decision 71); ia-ford here is not a family's name.
         self.assertEqual(scope.families_for(scope.raw_for(["ratification"])), ["nyjournal"])
-        self.assertEqual(scope.families_for(scope.raw_for(["globe"])), ["globe"])
-        self.assertEqual(scope.families_for(scope.raw_for(["cases", "globe"])), ["globe", "usrep"])
+        self.assertEqual(scope.families_for(scope.raw_for(["globe"])), ["globe", "untglobe"])
+        self.assertEqual(scope.families_for(scope.raw_for(["cases", "globe"])), ["globe", "untglobe", "usrep"])
 
     def test_the_guard_names_changes_outside_the_scope(self):
         with mock.patch.object(scope, "changed", lambda: ["texts/brutus.json", "corrections/brutus.jsonl", "texts/cato.json"]):
