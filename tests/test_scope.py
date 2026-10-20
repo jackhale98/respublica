@@ -8,13 +8,13 @@ from importers import __main__ as runner
 from tools import scope
 
 MAP = {
-    "ratification": {"outputs": ["texts/brutus.json", "texts/cato.json"], "raw": ["loc-nyjournal-1", "ia-ford"]},
+    "ratification": {"outputs": ["texts/brutus.json", "texts/cato.json"], "raw": ["loc-nyjournal-1", "ia-fordx"]},
     "globe": {"outputs": ["texts/house-fourteenth-amendment-1866.json"], "raw": ["ia-globe-1866-pt3-lincoln-txt", "unt-1"]},
     "cases": {"outputs": ["cases/94508.json"], "raw": ["loc-usrep-163-537"]},
 }
 MANIFEST = [
     {"id": "loc-nyjournal-1", "path": "sources/raw/loc-nyjournal-1.xml"},
-    {"id": "ia-ford", "path": "sources/raw/ia-ford.txt"},
+    {"id": "ia-fordx", "path": "sources/raw/iaford.txt"},
     {"id": "ia-globe-1866-pt3-lincoln-txt", "path": "sources/raw/ia-globe-1866-pt3-lincoln-txt.txt"},
     {"id": "unt-1", "path": "sources/raw/unt-globe-1.txt"},
     {"id": "loc-usrep-163-537", "path": "sources/raw/loc-usrep-163-537.pdf"},
@@ -38,9 +38,10 @@ class ScopeTests(unittest.TestCase):
         self.assertEqual(scope.importers_for([]), [])
 
     def test_only_the_cache_families_its_raw_files_are_in(self):
-        self.assertEqual(scope.families_for(scope.raw_for(["ratification"])), [])
-        self.assertEqual(scope.families_for(scope.raw_for(["globe"])), ["globe"])
-        self.assertEqual(scope.families_for(scope.raw_for(["cases", "globe"])), ["globe", "usrep"])
+        # loc-nyjournal-* is kept out of git (decision 71); ia-ford here is not a family's name.
+        self.assertEqual(scope.families_for(scope.raw_for(["ratification"])), ["nyjournal"])
+        self.assertEqual(scope.families_for(scope.raw_for(["globe"])), ["globe", "untglobe"])
+        self.assertEqual(scope.families_for(scope.raw_for(["cases", "globe"])), ["globe", "untglobe", "usrep"])
 
     def test_the_guard_names_changes_outside_the_scope(self):
         with mock.patch.object(scope, "changed", lambda: ["texts/brutus.json", "corrections/brutus.jsonl", "texts/cato.json"]):

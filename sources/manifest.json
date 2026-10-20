@@ -6562,6 +6562,15 @@
     "url": "https://raw.githubusercontent.com/textcreationpartnership/A48901/6259832fa2e82b4ebfbffee2ceee6865a9fffae7/A48901.xml"
   },
   {
+    "id": "tcp-evans-n16444",
+    "license": "CC0 1.0 Universal (Text Creation Partnership, Evans-TCP Phase I; stated in the file's availability element).",
+    "notes": "Evans-TCP N16444 = Evans 21127: The Federalist (New York: J. and A. M'Lean, 1788), 2 vols., TEI P5 transcription. Used only for the paragraph breaks of The Federalist (decision 70); its wording is not imported.",
+    "path": "sources/raw/tcp-evans-n16444.xml",
+    "retrieved_at": "2026-10-20",
+    "sha256": "a5a060e058fc31bc00bedb988772852b4e498654fabb8d0fea96d95e4dbb2d5a",
+    "url": "https://raw.githubusercontent.com/textcreationpartnership/N16444/master/N16444.xml"
+  },
+  {
     "id": "tcp-n11512-xml",
     "license": "CC0 1.0 Universal (the TCP header's availability statement: \"This Phase I text is available for reuse, according to the terms of Creative Commons 0 1.0 Universal\").",
     "notes": "Evans-TCP N11512 (Evans 14550): A Declaration by the Representatives of the United Colonies of North-America ... Setting forth the Causes and Necessity of their Taking up Arms ([Portsmouth, N.H.]: Daniel Fowle, 1775), broadside, TEI P5.",
