@@ -114,12 +114,60 @@ jobs:
           path: sources/raw/loc-lled-*
           key: raw-lled-${{ steps.raw-keys.outputs.lled }}
           restore-keys: raw-lled-
-      - if: contains(format(',{0},', steps.scope.outputs.families), ',iaelliot,')
+      - if: contains(format(',{0},', steps.scope.outputs.families), ',road,')
         uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          path: sources/raw/ia-elliot-v[24]-*
-          key: raw-iaelliot-${{ steps.raw-keys.outputs.iaelliot }}
-          restore-keys: raw-iaelliot-
+          path: sources/raw/ia-road-*
+          key: raw-road-${{ steps.raw-keys.outputs.road }}
+          restore-keys: raw-road-
+      - if: contains(format(',{0},', steps.scope.outputs.families), ',untglobe,')
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/unt-globe-*
+          key: raw-untglobe-${{ steps.raw-keys.outputs.untglobe }}
+          restore-keys: raw-untglobe-
+      - if: contains(format(',{0},', steps.scope.outputs.families), ',iapart,')
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/ia-part-*
+          key: raw-iapart-${{ steps.raw-keys.outputs.iapart }}
+          restore-keys: raw-iapart-
+      - if: contains(format(',{0},', steps.scope.outputs.families), ',iapage,')
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/ia-page-*
+          key: raw-iapage-${{ steps.raw-keys.outputs.iapage }}
+          restore-keys: raw-iapage-
+      - if: contains(format(',{0},', steps.scope.outputs.families), ',elliot,')
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/ia-elliot-*
+          key: raw-elliot-${{ steps.raw-keys.outputs.elliot }}
+          restore-keys: raw-elliot-
+      - if: contains(format(',{0},', steps.scope.outputs.families), ',mcmaster,')
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/ia-mcmaster-*
+          key: raw-mcmaster-${{ steps.raw-keys.outputs.mcmaster }}
+          restore-keys: raw-mcmaster-
+      - if: contains(format(',{0},', steps.scope.outputs.families), ',ford,')
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/ia-ford-*
+          key: raw-ford-${{ steps.raw-keys.outputs.ford }}
+          restore-keys: raw-ford-
+      - if: contains(format(',{0},', steps.scope.outputs.families), ',mass,')
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/ia-mass-*
+          key: raw-mass-${{ steps.raw-keys.outputs.mass }}
+          restore-keys: raw-mass-
+      - if: contains(format(',{0},', steps.scope.outputs.families), ',nyjournal,')
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/loc-nyjournal-*
+          key: raw-nyjournal-${{ steps.raw-keys.outputs.nyjournal }}
+          restore-keys: raw-nyjournal-
       - name: Re-run the importers the corrections touch
         env:
           IMPORTERS: ${{ steps.scope.outputs.importers }}

@@ -351,6 +351,47 @@ WORKS = {
         "summary": ("The House of Representatives' proceedings of March 23, 1971, on the Senate's joint resolution (S. J. "
                    "Res. 7) proposing the Twenty-sixth Amendment: the item headed “Lowering the Voting Age to 18”, as "
                    "printed in the Congressional Record.")},
+    # The road to independence, 1774-1776 (decision 66): one page per work,
+    # listed on /independence/ in date order.
+    "resolves-1774": {
+        "collection": "independence", "order": 8.1, "paged": False, "short": "Declaration and Resolves, 1774",
+        "slug": "resolves-1774",
+        "summary": "The First Continental Congress declares the colonists' rights, lists the Acts of Parliament that "
+                   "violate them, and resolves on peaceable measures: the day's entry for October 14, 1774, as the "
+                   "Journals of the Continental Congress print it."},
+    "causes-1775": {
+        "collection": "independence", "order": 8.2, "paged": False, "short": "Causes and Necessity, 1775",
+        "slug": "causes-1775",
+        "summary": "The Second Continental Congress sets forth why the colonies have taken up arms, July 6, 1775, "
+                   "in a broadside printed at Portsmouth that year (the Text Creation Partnership's transcription)."},
+    "new-governments-1776": {
+        "collection": "independence", "order": 8.3, "paged": False, "short": "Resolution and preamble, May 1776",
+        "slug": "new-governments-1776",
+        "summary": "Congress recommends that the colonies adopt governments of their own (May 10, 1776) and adopts "
+                   "John Adams's preamble calling for the authority of the Crown to be totally suppressed (May 15)."},
+    "lee-resolution-1776": {
+        "collection": "independence", "order": 8.4, "paged": False, "short": "Lee Resolution, 1776",
+        "slug": "lee-resolution-1776",
+        "summary": "June 7, 1776: resolutions that the colonies are, and of right ought to be, free and independent "
+                   "States, that foreign alliances be sought, and that a plan of confederation be prepared."},
+    "virginia-declaration-of-rights": {
+        "collection": "independence", "order": 8.5, "paged": False, "short": "Virginia Declaration of Rights",
+        "slug": "virginia-declaration-of-rights",
+        "summary": "The Virginia Convention's declaration of the rights that are “the basis and foundation of "
+                   "government”, adopted June 12, 1776, as the Commonwealth printed it in 1784 or 1785 (the Text "
+                   "Creation Partnership's transcription)."},
+    "jefferson-virginia-preamble-1776": {
+        "collection": "independence", "order": 8.6, "paged": False, "short": "Jefferson's draft preamble",
+        "slug": "jefferson-virginia-preamble-1776",
+        "summary": "Thomas Jefferson's draft of a preamble for Virginia's constitution, June 1776, its charges "
+                   "against the king close to those of the Declaration of Independence: the fair copy, as Ford's "
+                   "edition of his writings prints it."},
+    "independence-1776": {
+        "collection": "independence", "order": 8.7, "paged": False, "short": "Proceedings on independence, 1776",
+        "slug": "independence-1776",
+        "summary": "The Journals' entries for July 2, 1776, when Congress resolved that the colonies were free and "
+                   "independent States, and July 4, when it agreed to the Declaration, with its text and signers as "
+                   "the Journals print them."},
 }
 
 # Collections of works shown on one page each.
@@ -998,6 +1039,7 @@ class SiteBuilder:
             conns.append({**e, "other_url": self.url_for(e["other"])})
         # The cases that interpret a clause come last, in date order (their labels end with the year).
         conns.sort(key=lambda e: (e["type"] == "interprets", e["other_label"][-5:-1] if e["type"] == "interprets" else ""))
+        paras = runs_for(s, changed)
         block = {
             "changed": changed,
             "clause_url": clause_url(s["ref"]) if s["ref"] in self.clause_refs else None,
@@ -1008,7 +1050,7 @@ class SiteBuilder:
             "fallback": conns[:NOJS_CONNS] if s["ref"] in self.clause_refs else conns,
             "gutter": gutter(s["ref"], work, s),
             "label": s.get("label", s["ref"]),
-            "paras": runs_for(s, changed),
+            "paras": paras,
             "ref": s["ref"],
             "type": "passage",
         }
@@ -1174,7 +1216,9 @@ class SiteBuilder:
                 pid = wid
                 # A single piece: an essay or letter, or a convention's one undated piece.
                 single = (work.get("position") or wid in CONVENTIONS) and len(work.get("divisions", [])) == 1
-                body = [s for s in work["segments"] if not (single and s.get("kind") == "footnote")]
+                # The road to independence: the editor's notes after the text.
+                apart = single or cfg["collection"] == "independence"
+                body = [s for s in work["segments"] if not (apart and s.get("kind") == "footnote")]
                 pages[pid] = {
                     "blocks": self._blocks(work, body, () if single else (1, 2)),
                     "id": pid,
@@ -1187,6 +1231,7 @@ class SiteBuilder:
                 if single:
                     d = work["divisions"][0]
                     pages[pid]["division"] = {"header": self._header(d), "label": d["label"], "ref": d["ref"]}
+                if apart:
                     pages[pid]["notes"] = self._blocks(work, [s for s in work["segments"] if s.get("kind") == "footnote"], ())
             else:
                 parts = []
@@ -1282,6 +1327,13 @@ class SiteBuilder:
                 "groups": [{"label": g, "works": [w["id"] for w in congress if self.settings[w["id"]].get("group") == g]}
                            for g in CONGRESS_GROUPS],
                 "id": "congress", "kind": "congress", "title": "Debates in Congress", "url": "/congress/",
+            }
+
+        road = [w for w in works_out if w["collection"] == "independence"]  # (in their settings' order)
+        if road:
+            pages["independence"] = {
+                "id": "independence", "kind": "independence", "title": "The Road to Independence",
+                "url": "/independence/", "works": [w["id"] for w in road],
             }
 
         pages.update(self._clause_pages())

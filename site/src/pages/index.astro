@@ -37,6 +37,7 @@ const fedSegs = fedCounts.map((a) => {
 const featured = site.featured;
 const debate = site.works.filter((w) => w.collection === "ratification");
 const congress = site.works.filter((w) => w.collection === "congress");
+const road = site.works.filter((w) => w.collection === "independence");
 const cases = site.stats.cases ? loadPage("cases").cases : [];
 const withSyllabus = cases.filter((c) => c.syllabus > 0).length;
 const conventions = debate.filter((w) => w.group === "conventions");
@@ -95,6 +96,14 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
           <h3>The Declaration of Independence</h3>
           <p>Adopted in Congress on {formatDate(declaration.date)}, in the National Archives transcription, with each grievance as its own passage.</p>
           <div class="work-meta"><span>{declParas} paragraphs</span><span>{declSigners} signers</span></div>
+        </a>
+      )}
+      {road.length > 0 && (
+        <a class="card work-card w-declaration" href={href("/independence/")}>
+          <span class="work-icon"><Icon name="flag" /></span>
+          <h3>The road to independence</h3>
+          <p>The Continental Congress's resolves of 1774 and its declaration on taking up arms, the Lee Resolution, the Virginia Declaration of Rights, Jefferson's draft preamble and the Journals' record of July 2 and 4, 1776.</p>
+          <div class="work-meta"><span>{road.length} works</span><span>1774–1776</span></div>
         </a>
       )}
       {sources.map((w) => (

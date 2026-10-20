@@ -95,12 +95,13 @@ export const COLLECTIONS = {
   federalist: "The ratification debate",
   ratification: "The ratification debate",
   congress: "Debates in Congress",
+  independence: "The road to independence",
 };
 
 export const POSITION_LABELS = { anti: "Anti-Federalist", federalist: "Federalist", other: "Other" };
 
 // Scan names in readings ("primary", "brittle", "google", "pitt") -> words.
-const SCANS = { primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan", microfilm: "microfilm scan", tesseract: "second OCR of the main scan", lincoln: "Lincoln Foundation scan", nypl: "NYPL scan", harvard: "Harvard scan", michigan: "Michigan scan", "nypl-ocr": "second OCR of the NYPL scan", tcp: "TCP transcription", jcb: "John Carter Brown Library scan", illinois: "Illinois scan" };
+const SCANS = { primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan", microfilm: "microfilm scan", tesseract: "second OCR of the main scan", lincoln: "Lincoln Foundation scan", nypl: "NYPL scan", harvard: "Harvard scan", michigan: "Michigan scan", "nypl-ocr": "second OCR of the NYPL scan", tcp: "TCP transcription", jcb: "John Carter Brown Library scan", illinois: "Illinois scan", scan: "scan of the same printing", upload: "uploaded scan", acpl: "Allen County scan", ucgoogle: "UC Google scan" };
 
 // "Uncertain reading. The scans read: “Delibeiatc,” (main scan), …"
 export function uncertainTitle(readings = {}, lib = false) {

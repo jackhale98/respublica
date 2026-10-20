@@ -33,7 +33,8 @@ LINKS_DIR = ROOT / "links"
 # Raw files too large for git (the U.S. Reports scans, decision 49; the Annals
 # of Congress scans' DjVu XML, decision 46; the Congressional Globe's, decision 47;
 # the Congressional Record's govinfo PDFs and the Internet Archive's microfilm
-# OCR, decision 61): recorded in the manifest like any other, listed in
+# OCR, decision 61; the scans of the Journals of the Continental Congress and
+# of Ford's Writings of Thomas Jefferson, decision 66): recorded in the manifest like any other, listed in
 # .gitignore, restored by `make fetch` and cached in CI, each family under a
 # cache key of its own (`python -m tools.fetch cache-keys`).
 UNTRACKED_FAMILIES = {
@@ -42,14 +43,23 @@ UNTRACKED_FAMILIES = {
     "globe": "ia-globe-*",
     "govinfo": "govinfo-crecb-*",
     "iarecord": "ia-record-*",
+    "road": "ia-road-*",
     # Internet Archive scans that check the TCP texts of Common Sense and
     # Locke (decision 67): DjVu XML and OCR text.
     "iadecl": "ia-decl-*",
     # The Library of Congress's typed transcription of Elliot's Debates,
-    # vols. 2-4, and the Internet Archive's scans of vols. 2 and 4 it is
-    # checked against (decision 68).
+    # vols. 2-4 (decision 68); the scans it is checked against are `elliot`.
     "lled": "loc-lled-*",
-    "iaelliot": "ia-elliot-v[24]-*",
+    # Moved out of git when the tracked raw files neared their 300 MB budget
+    # (decision 71).
+    "untglobe": "unt-globe-*",
+    "iapart": "ia-part-*",
+    "iapage": "ia-page-*",
+    "elliot": "ia-elliot-*",
+    "mcmaster": "ia-mcmaster-*",
+    "ford": "ia-ford-*",
+    "mass": "ia-mass-*",
+    "nyjournal": "loc-nyjournal-*",
 }
 UNTRACKED_RAW = tuple(UNTRACKED_FAMILIES.values())
 

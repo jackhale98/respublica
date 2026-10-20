@@ -1504,6 +1504,82 @@ that they re-import only what changed and restore only the caches they need:
   rebuild cannot have changed. The full check still runs in CI on every push
   to main, the one these workflows make included.
 
+## 66. The road to independence, 1774–1776
+
+The project owner approved adding the documents on the way to the
+Declaration of Independence: the First Continental Congress's Declaration
+and Resolves (October 14, 1774); the Declaration of the Causes and Necessity
+of Taking Up Arms (July 6, 1775); the resolution of May 10, 1776 on forming
+new governments and its preamble of May 15; the Lee Resolution (June 7,
+1776); the Journals' proceedings of July 2 and 4, 1776 on independence; the
+Virginia Declaration of Rights (June 12, 1776); and Jefferson's draft
+preamble for the Virginia constitution (June 1776). Seven works, one per
+document (and one for the July proceedings), imported by
+`importers/independence.py` and shown together at `/independence/` ("The
+road to independence"), reached from the home page and the footer.
+
+- **Typed transcriptions first** (approved by the owner during the work).
+  Where the Text Creation Partnership has keyed a contemporary printing
+  (Evans-TCP, released under CC0), its TEI text is the text, read by the
+  shared TCP reader of decision 67 (`importers/tcp.py`; it was taught to
+  leave out a figure, to read a closer's dateline, and to rejoin a word
+  broken at a line's end after a gap): the Declaration of the Causes from Daniel Fowle's
+  Portsmouth broadside of 1775 (N11512, Evans 14550), the Declaration of
+  Rights from the Commonwealth's Richmond printing of 1784 or 1785 (N15245,
+  Evans 18818). Each file is a raw source, fetched from the TCP's public
+  repository. What the keyers could not read (`gap`, an unreadable stop)
+  stays as their placeholder and is marked uncertain, never filled in. Where
+  the Internet Archive has a scan of the same printing (the Richmond
+  printing, from Eighteenth Century Collections Online), every word is
+  checked against its OCR by the same rules as Common Sense and Locke
+  (`tcp.check`, decision 67): where the scan reads another real word, or
+  lacks one, the word is marked uncertain with both readings (`tcp` and the
+  scan's), never changed. OCR's garble of old type is not counted as a
+  reading. The Richmond printing keeps the long s ("ſ"), and so does the text. No scan of the
+  Portsmouth broadside was found, so that text has only the transcription's
+  own marks; the edition notes say which TCP text and printing each work
+  follows. The Journals of 1904–06 are not in Evans, and no Evans-TCP text
+  prints the 1774 resolves, the May 1776 resolutions, the Lee Resolution or
+  the July 1776 proceedings, nor Jefferson's draft (first printed in 1893),
+  so those are read from scans as before.
+- **Scans, by OCR consensus.** The Library of Congress's edition of the
+  Journals of the Continental Congress (ed. Worthington C. Ford; vols. 1, 4
+  and 5) and Ford's *Writings of Thomas Jefferson*, vol. 2 (1893): the
+  University of California's scan of each gives the layout and a first
+  reading, checked against two or three other copies' OCR (`docs/ocr.md`).
+  The references are read from their DjVu XML like the main scan, so each
+  copy's text and notes can be kept apart.
+- **Two texts side by side.** The Journals print the resolves of 1774 beside
+  John Sullivan's draft, and Ford prints the fair copy of Jefferson's draft
+  beside his first draft. The right-hand column is the text imported, from
+  every copy (`importers/parallel.py`): the drafts beside it share many words
+  with it and would otherwise be matched in place of it. For the 1775
+  declaration the Journals print Jefferson's and Dickinson's drafts beside
+  the final form; that work comes from the broadside instead.
+- **What each work takes in.** The day's entries on the subject (the
+  proceedings before and after the resolutions), not the day's other
+  business; the editor's notes whose marks stand in the imported text, each
+  named in `independence.WORKS` by its page and its first and last words;
+  Jefferson's fair copy from the bill's title to the end of the clause
+  deposing the king. The July 4 signers, printed as a list in two columns,
+  are one passage. Refs: `docs/references.md`, "The road to independence".
+- **Raw files.** The Internet Archive's DjVu XML of the Journals and of
+  Ford's *Writings* (about 120 MB) are kept out of git as a family of their
+  own (`ia-road-*`, cached in CI under its own key); the TCP files and the
+  ECCO scan's XML (under 1 MB) are in git.
+- **Quality.** About 4,600 words from the Journals with 36 marked uncertain,
+  1,860 from Ford with 14, the Declaration of Rights with 10 (4 of the
+  keyers' gaps), the 1775 declaration with 11 gaps. Errata 110–115 record
+  what the marks miss: a display initial read "Wit", the editor's double
+  bars and the signers' abbreviations, Jefferson's struck-through deletions
+  read as words (Ford's typography; the fair copy needs them marked against
+  the page images), and the broadside's illegible spans.
+- **On the site** each work is one page, its notes after the text; the
+  collection page lists the works in order and, below them, each work's
+  edition notes and sources, which the about page points to instead of
+  listing them (it is at 396 KB of its 400 KB budget with them moved).
+- **No links yet.** These works have no proposed links; a later run will.
+
 ## 67. Sources of the Declaration: Common Sense and Locke, from the Text Creation Partnership
 
 The project owner asked for two works that shaped the Declaration of
@@ -1617,10 +1693,10 @@ approved using it. Decided:
   XML's pretty-printer put around italics, the printer's signature marks it
   keyed at the foot of pages, the library stamp, and three words keyed
   broken across a page (`importers/amem.py`).
-- **Raw files kept out of git**, as two families: `lled` (`loc-lled-*`,
-  5.6 MB) and `iaelliot` (`ia-elliot-v[24]-*`, the scans' DjVu XML,
-  45 MB), cached in CI like the others. Raw files in git were near their
-  300 MB budget.
+- **Raw files kept out of git**: the family `lled` (`loc-lled-*`, 5.6 MB),
+  cached in CI like the others. The vol. 2 and 4 scans (`ia-elliot-v[24]-*`,
+  45 MB of DjVu XML) are in the family `elliot` (`ia-elliot-*`) that decision
+  71 keeps out of git. Raw files in git were near their 300 MB budget.
 - **On the site** the conventions are a group of their own in the
   ratification debate, "The state ratifying conventions", after the essays
   and letters; a page per day, split into sheets by HTML as the
@@ -1628,3 +1704,20 @@ approved using it. Decided:
   files, as the debates in Congress' do (decision 63).
 - **Not done:** no links proposed. Vol. 1 (the Federal Convention's
   journal, Luther Martin, Yates) is not imported.
+
+## 71. More raw families kept out of git
+
+With the sources of the Declaration (decisions 66 and 67) the raw files in
+git reached 288 of their 300 MB budget, with the state ratifying conventions
+still to come. The project owner chose to keep more families out of git, as
+the scans of decisions 49 and 61 are: the UNT Digital Library's OCR pages of
+the Congressional Globe (`unt-globe-*`, 68 MB in 2,138 files), the page
+ranges and page images of the Annals scans (`ia-part-*`, `ia-page-*`, 73 MB),
+and the scans of Elliot, McMaster and Stone, Ford and the Massachusetts
+Debates and the New-York Journal's pages (`ia-elliot-*`, `ia-mcmaster-*`,
+`ia-ford-*`, `ia-mass-*`, `loc-nyjournal-*`, 106 MB). Each is a family in
+`UNTRACKED_FAMILIES` with its own CI cache key, restored by `make fetch` and
+checked against its recorded sha256, and restored in the errata workflow only
+when a correction's importers read it (decision 65). The raw files left in
+git are 42 MB. The files stay in git's history; what changes is the working
+tree the budget measures, and its growth. Out of git: about 3.5 of 4 GiB.

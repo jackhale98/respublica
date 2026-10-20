@@ -57,10 +57,29 @@ keying slips ("fights" for "rights", "mast" for "must"), some OCR
 misreadings ("be"/"he"). The same transcription is now Henry's
 tie-breaker, before the Anti-Federalist Library: one word changed, and the
 72 words the scans settled that it reads otherwise are erratum 150. Its
-raw files and the vol. 2 and 4 scans are kept out of git (families `lled`,
-`iaelliot`). No links proposed yet. The importer stops on any dateline not
+raw files are kept out of git (family `lled`; the scans are in `elliot`,
+decision 71). No links proposed yet. The importer stops on any dateline not
 in its list of days: check the page before adding one.
 
+**The road to independence** (`/independence/`, decision 66): seven works
+of 1774–1776 (`importers/independence.py`): the Declaration and Resolves of
+1774, the May 1776 resolution and preamble, the Lee Resolution and the
+proceedings of July 2 and 4, 1776 from the Journals of the Continental
+Congress (vols. 1, 4, 5; three or four scans a volume, under 1% of words
+marked uncertain); the Declaration of the Causes of 1775 and the Virginia
+Declaration of Rights from the Text Creation Partnership's transcriptions
+(`importers/tcp.py`; the Virginia text checked word by word against a scan
+of the same printing, the Portsmouth broadside of 1775 against none); and
+Jefferson's draft preamble from Ford's *Writings*, vol. 2 (three scans).
+The resolves of 1774 and Jefferson's fair copy are printed beside drafts;
+`importers/parallel.py` takes the right-hand column. Open: Jefferson's
+struck-through deletions are read as words (erratum 113) and need marking
+against the page images before links are proposed to that work; the
+broadside's illegible spans (erratum 115) need a copy of it. No links have
+been proposed for these works. To add a document of the Journals: add a
+`Part` to `independence.WORKS` with its printed pages, opening and closing
+words and the notes it takes in, run `python -m importers.independence`,
+and read what it stops on.
 **Sources of the Declaration** (decision 67): Paine's *Common Sense*
 (first edition, R. Bell, January 1776; `importers/paine.py`) and Locke's
 Second Treatise (first edition, 1690, Book II; `importers/locke.py`), a

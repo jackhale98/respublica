@@ -1,0 +1,650 @@
+{
+  "attribution": {
+    "byline": "The Continental Congress",
+    "kind": "body",
+    "names": [
+      "Continental Congress"
+    ]
+  },
+  "date": "1774-10-14",
+  "edition": {
+    "name": "Worthington Chauncey Ford, ed., Journals of the Continental Congress, 1774–1789 (Washington: Government Printing Office), vol. 1 (1904)",
+    "notes": "Worthington Chauncey Ford, ed., Journals of the Continental Congress, 1774–1789 (Washington: Government Printing Office), vol. 1 (1904), pp. 63–73. The day's proceedings of October 14, 1774, and the resolutions as adopted, which the Journals print in the right-hand column beside John Sullivan's draft (left out), with the editor's notes on them. Read from the OCR of the University of California's scan and checked word by word against the OCR of 2 other copies; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "resolves-1774",
+  "ref_prefix": "Resolves1774",
+  "segments": [
+    {
+      "label": "Declaration and Resolves, ¶ 1",
+      "pages": [
+        "63"
+      ],
+      "ref": "Resolves1774.1",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          83
+        ]
+      },
+      "text": "The Congress met according to adjournment, & resuming the consideration of the subject under debate — came into the following Resolutions"
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 2",
+      "pages": [
+        "63",
+        "64"
+      ],
+      "ref": "Resolves1774.2",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          83,
+          84
+        ]
+      },
+      "text": "Whereas, since the close of the last war, the British parliament, claiming a power of right to bind the people of America, by statute in all cases whatsoever, hath in some acts expressly imposed taxes on them, and in others, under various pretences, but in fact for the purpose of raising a revenue, hath imposed rates and duties payable in these colonies, established a board of commissioners, with unconstitutional powers, and extended the jurisdiction of courts of Admiralty, not only for collecting the said duties, but for the trial of causes merely arising within the body of a county."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 3",
+      "pages": [
+        "64"
+      ],
+      "ref": "Resolves1774.3",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          84
+        ]
+      },
+      "text": "And whereas, in consequence of other statutes, judges, who before held only estates at will in their offices, have been made dependant on the Crown alone tor their salaries, and standing armies kept in times of peace:"
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 4",
+      "pages": [
+        "65"
+      ],
+      "ref": "Resolves1774.4",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          85
+        ]
+      },
+      "text": "And it has lately been resolved in Parliament, that by force of a statute, made in the thirty-fifth year of the reign of king Henry the eighth, colonists may be transported to England, and tried there upon accusations for treasons, and misprisions, or concealments of treasons committed in the colonies; and by a late statute, such trials have been directed in cases therein mentioned."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 5",
+      "pages": [
+        "65",
+        "66"
+      ],
+      "ref": "Resolves1774.5",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          85,
+          86
+        ]
+      },
+      "text": "And whereas, in the last session of parliament, three statutes were made; \"one, intituled \"An \"act to discontinue, in such man- \"ner and for such time as are \"therein mentioned, the landing \"and discharging, lading, or ship- \"ping of goods, wares & merchan- \"dise, at the town, and within the \"harbour of Boston, in the prov- \"ince of Massachusetts-bay, in \"North -America;\" another, inti- \"tuled \"An act for the better \"regulating the government of \"the province of the Massachu- \" setts-bay in New-England;\" and \"another, intituled \"An act for \"the impartial administration of \"justice, in the cases of persons \"questioned for any act done by \" them in the execution of the law, \"or for the suppression of riots \"and tumults, in the province of ' • the Massachusetts-bay, in New- \" England.\" And another statute was then made, \"for making more \"effectual provision for the gov- \"ernmentof the province of Que- \"bec, &c.\" All which statutes are impolitic, unjust, and cruel, as well as unconstitutional, and most dangerous and destructive of American rights."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 6",
+      "pages": [
+        "66"
+      ],
+      "ref": "Resolves1774.6",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          86
+        ]
+      },
+      "text": "And whereas, Assemblies have been frequently dissolved, contrary to the rights of the people, when they attempted to deliberate on grievances; and their dutiful, humble, loyal, & reasonable petitions to the crown for redress, have been repeatedly treated with contempt, by his majesty's ministers of state:"
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 7",
+      "pages": [
+        "66",
+        "67"
+      ],
+      "ref": "Resolves1774.7",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          86,
+          87
+        ]
+      },
+      "text": "The good people of the several Colonies of New-hampshire, Massachusetts-bay, Rhode-island and Providence plantations, Connecticut, New-York, New-Jersey, Pennsylvania, Newcastle, Kent and Sussex on Delaware, Maryland, Virginia, North Carolina, and South Carolina, justly alarmed at these arbitrary' proceedings of parliament and administration, have severally elected, constituted, and appointed deputies to meet and sit in general congress, in the city of Philadelphia, in order to obtain such establishment, as that their religion, laws, and liberties may not be subverted:"
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 8",
+      "pages": [
+        "67"
+      ],
+      "ref": "Resolves1774.8",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          87
+        ]
+      },
+      "text": "Whereupon the deputies so appointed being now assembled, in a full and free representation of these Colonies, taking into their most serious consideration, the best means of attaining the ends aforesaid, do, in the first place, as Englishmen, their ancestors in like cases have usually done, for asserting and vindicating their rights and liberties, declare."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 9",
+      "pages": [
+        "67"
+      ],
+      "ref": "Resolves1774.9",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          87
+        ]
+      },
+      "text": "That the inhabitants of the English Colonies in North America, by the immutable laws of nature, the principles of the English constitution, and the several charters or compacts, have the following Rights:"
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 10",
+      "pages": [
+        "67"
+      ],
+      "ref": "Resolves1774.10",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          87
+        ]
+      },
+      "text": "Resolved, N. C. D. 1. That they are entitled to life, liberty, & property, and they have never ceded to any sovereign power whatever, a right to dispose of either without their consent.",
+      "uncertain": [
+        {
+          "end": 21,
+          "readings": {
+            "google": "h",
+            "primary": "1.",
+            "upload": "1."
+          },
+          "start": 19
+        }
+      ]
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 11",
+      "pages": [
+        "68"
+      ],
+      "ref": "Resolves1774.11",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          88
+        ]
+      },
+      "text": "Resolved, N. C. D. 2. That our ancestors, who first settled these colonies, were at the time of their emigration from the mother country, entitled to all the rights, liberties, and immunities of free and natural-lwrn subjects, within the realm of England.",
+      "uncertain": [
+        {
+          "end": 216,
+          "readings": {
+            "google": "natural-bom",
+            "primary": "natural-lwrn",
+            "upload": "natural-born"
+          },
+          "start": 204
+        }
+      ]
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 12",
+      "pages": [
+        "68"
+      ],
+      "ref": "Resolves1774.12",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          88
+        ]
+      },
+      "text": "Resolved, N. C. D. 3. That by such emigration they by no means forfeited, surrendered, or lost any of those rights, but that they were, and their descendants now are, entitled to the exercise and enjoyment of all such of them, as their local and other circumstances enable them to exercise and enjoy."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 13",
+      "pages": [
+        "68",
+        "69"
+      ],
+      "ref": "Resolves1774.13",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          88,
+          89
+        ]
+      },
+      "text": "Resolved, 4. That the foundation of English liberty, and of all free government, is a right in the people to participate in their legislative council: and as the English colonists are not represented, and from their local and other circumstances, cannot properly be represented in the British parliament, they are entitled to a free and exclusive power of legislation in their several provincial legislatures, where their right of representation can alone be preserved, in all cases of taxation and internal polity, subject only to the negative of their sovereign, in such manner as has been heretofore used and accustomed. But, from the necessity of the case, and a regard to the mutual interest of both countries, we cheerfully consent to the operation of such acts of the British parliament, as are bona fide, restrained to the regulation of our external commerce, for the purpose of securing the commercial advantages of the whole empire to the mother country, and the commercial benefits of its respective members; excluding every idea of taxation, internal or external, for raising a revenue on the subjects in America, without their consent."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 14",
+      "pages": [
+        "69"
+      ],
+      "ref": "Resolves1774.14",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          89
+        ]
+      },
+      "text": "Resolved, N. C. D. 5. That the respective colonies are entitled to the common law of England, and more especially to the great and inestimable privilege of being tried by their peers of the vicinage, according to the course of that law."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 15",
+      "pages": [
+        "69"
+      ],
+      "ref": "Resolves1774.15",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          89
+        ]
+      },
+      "text": "HtnohvJ, 6. That they are entituled to the benefit of such of the English statutes as existed at the time of their colonization; and which they have, by experience, respectively found to be applicable to their several local and other circumstances.",
+      "uncertain": [
+        {
+          "end": 8,
+          "readings": {
+            "primary": "HtnohvJ,"
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 16",
+      "pages": [
+        "69"
+      ],
+      "ref": "Resolves1774.16",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          89
+        ]
+      },
+      "text": "Resolved, N. C. D. 7. That these, his majesty's colonies, are likewise entitled to all the immunities and privileges granted & confirmed to them by royal charters, or secured by their several codes of provincial laws."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 17",
+      "pages": [
+        "70"
+      ],
+      "ref": "Resolves1774.17",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          90
+        ]
+      },
+      "text": "Resolved, N. C. D. 8. That they have a right peaceably to assemble, consider of their grievances, and petition the King; and that all prosecutions, prohibitory' proclamations, and commitments for the same, are illegal.",
+      "uncertain": [
+        {
+          "end": 21,
+          "readings": {
+            "google": "8.",
+            "primary": "8.",
+            "upload": "S."
+          },
+          "start": 19
+        }
+      ]
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 18",
+      "pages": [
+        "70"
+      ],
+      "ref": "Resolves1774.18",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          90
+        ]
+      },
+      "text": "Resolved, N. C. D. 9. That the keeping a Standing army in these colonies, in times of peace, without the consent of the legislature of that colony, in which such army is kept, is against law."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 19",
+      "pages": [
+        "70"
+      ],
+      "ref": "Resolves1774.19",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          90
+        ]
+      },
+      "text": "Resolved, N. C. D. 10. It is indispensably necessary to good government, and rendered essential by the English constitution, that the constituent branches of the legislature be independent of each other; that, therefore, the exercise of legislative power in several colonies, by a council appointed, during pleasure, by the crown, is unconstitutional, dangerous, and destructive to the freedom of American legislation."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 20",
+      "pages": [
+        "70",
+        "71"
+      ],
+      "ref": "Resolves1774.20",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          90,
+          91
+        ]
+      },
+      "text": "All and each of which the aforesaid deputies, in behalf of themselves and their constituents, do claim, demand, and insist on, as their indubitable rights and liberties; which cannot be legally taken from them, altered or abridged by any power whatever, without their own consent, by their representatives in their several provincial legislatures."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 21",
+      "pages": [
+        "71"
+      ],
+      "ref": "Resolves1774.21",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          91
+        ]
+      },
+      "text": "In the course of our inquiry, we find many infringements and violations of the foregoing rights, which, from an ardent desire, that harmony and mutual intercourse of affection and interest may be restored, we pass over for the present, and proceed to state such acts and measures as have been adopted since the last war, which demonstrate a system formed to enslave America."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 22",
+      "pages": [
+        "71"
+      ],
+      "ref": "Resolves1774.22",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          91
+        ]
+      },
+      "text": "Resolved, N. C. D. That the following acts of Parliament are infringements and violations of the rights of the colonists; and that the repeal of them is essentially necessary in order to restore harmony between Great-Britain and the American colonies, viz:"
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 23",
+      "pages": [
+        "71",
+        "72"
+      ],
+      "ref": "Resolves1774.23",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          91,
+          92
+        ]
+      },
+      "text": "The several acts of 4 Geo. 3. ch. 15, & ch. 34.-5 Geo. 3. ch. 25.— 6 Geo. 3. ch. 52.— 7 Geo. 3. ch. 41, & ch. 46.-8 Geo. 3. ch. 22, which impose duties for the purpose of raising a revenue in America, extend the powers of the admiralty courts beyond their ancient limits, deprive the American subject of trial by jury, authorize the judges' certificate to indemnify the prosecutor from damages, that he might otherwise be liable to, requiring oppressive security from a claimant of ships and goods seized, before he shall be allowed to defend his property, and are subversive of American rights.",
+      "uncertain": [
+        {
+          "end": 21,
+          "readings": {
+            "google": "4",
+            "primary": "4",
+            "upload": "+"
+          },
+          "start": 20
+        },
+        {
+          "end": 49,
+          "readings": {
+            "google": "84.-5",
+            "primary": "34.-5",
+            "upload": "34.—5"
+          },
+          "start": 44
+        },
+        {
+          "end": 131,
+          "readings": {
+            "google": "2%",
+            "primary": "22,",
+            "upload": "22,"
+          },
+          "start": 128
+        }
+      ]
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 24",
+      "pages": [
+        "72"
+      ],
+      "ref": "Resolves1774.24",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          92
+        ]
+      },
+      "text": "Also the 12 Geo. 3. ch. 24, entituled \"An act for the better securing his Majesty's dock-yards, magazines, ships, ammunition, and stores,\" which declares a new offence in America, and deprives the American subject of a constitutional trial by a jury of the vicinage, by authorizing the trial of any person, charged with the committing any offence described in the said act, out of the realm, to be indicted and tried for the same in any shire or county within the realm."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 25",
+      "pages": [
+        "72"
+      ],
+      "ref": "Resolves1774.25",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          92
+        ]
+      },
+      "text": "Also the three acts passed in the last session of parliament, for stopping the port and blocking up the harbour of Boston, for altering the charter & government of the Massachusetts-bay, and that which is entituled \"An act for the better administration of Justice,\" &c."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 26",
+      "pages": [
+        "72"
+      ],
+      "ref": "Resolves1774.26",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          92
+        ]
+      },
+      "text": "Also the act passed in the same session for establishing the Roman Catholick Religion in the province of Quebec, abolishing the equitable system of English laws, and erecting a tyranny there, to the great danger, from so total a dissimilarity of Religion, law, and government of the neighbouring British colonies, by the assistance of whose blood and treasure the said country was conquered from France."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 27",
+      "pages": [
+        "72",
+        "73"
+      ],
+      "ref": "Resolves1774.27",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          92,
+          93
+        ]
+      },
+      "text": "Also the act passed in the same session for the better providing suitable quarters for officers and soldiers in his Majesty's service in North-America."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 28",
+      "pages": [
+        "73"
+      ],
+      "ref": "Resolves1774.28",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          93
+        ]
+      },
+      "text": "Also, that the keeping a standing army in several of these colonies, in time of peace, without the consent of the legislature of that colony in which such army is kept, is against law."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 29",
+      "pages": [
+        "73"
+      ],
+      "ref": "Resolves1774.29",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          93
+        ]
+      },
+      "text": "To these grievous acts and measures, Americans cannot submit, but in hopes that their fellow subjects in Great-Britain will, on a revision of them, restore us to that state in which both countries found happiness and prosperity, we have for the present only resolved to pursue the following peaceable measures:"
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 30",
+      "pages": [
+        "73"
+      ],
+      "ref": "Resolves1774.30",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          93
+        ]
+      },
+      "text": "Resolved, unanimously, That from and after the first day of December next, there be no importation into British America, from Great Britain or Ireland of any goods, wares or merchandize whatsoever, or from any other place of any such goods, wares or merchandize.'"
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 31",
+      "pages": [
+        "73"
+      ],
+      "ref": "Resolves1774.31",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          93
+        ]
+      },
+      "text": "1st. To enter into a non-importation, non-consumption, and nonexportation agreement or association."
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 32",
+      "pages": [
+        "73"
+      ],
+      "ref": "Resolves1774.32",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          93
+        ]
+      },
+      "text": "2. To prepare an address to the people of Great-Britain, and a memorial to the inhabitants of British America, &",
+      "uncertain": [
+        {
+          "end": 2,
+          "readings": {
+            "google": "2.",
+            "primary": "2.",
+            "upload": "9."
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Declaration and Resolves, ¶ 33",
+      "pages": [
+        "73"
+      ],
+      "ref": "Resolves1774.33",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          93
+        ]
+      },
+      "text": "3. To prepare a loyal address to his Majesty; agreeable to Resolutions already entered into."
+    },
+    {
+      "kind": "footnote",
+      "label": "Declaration and Resolves, note 1",
+      "pages": [
+        "63"
+      ],
+      "ref": "Resolves1774.fn1",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          83
+        ]
+      },
+      "text": "' Ward objected to the part relative to Statutes, and that mentioning our fathers having not forfeited by emigration, &c. \"13th. Met. Considered of the right of Parliament to regulate trade. Mr. Hopkins for some of the modes proposed. I was for none.\" Ward. \"From ten o'cloek until half after four, we were debating about the parliamentary power of regulating trade. Five Colonies were for allowing it, five against it, and two divided among themselves, that is, Massachusetts and Rhode Island. Mr. Duane has had his heart set upon asserting in our bill of rights the authority of Parliament to regulate the trade of the Colonies. He is for grounding it on compact, acquiescence, necessity, protection, not merelyon our consent.\" John Adams' Diary, 13 October, 1774. Galloway states that the report met with a \"very considerable opposition — the Committee sat near three weeks. The gentlemen who drew with me in opposition perplexed the proposals made by the violent party, as we acted entirely on the defensive; — so that they did not come to a single resolution for better than a fortnight, neither in stating their rights or their grievances, and as well as I can recollect, the Grand Committee did not determine on those resolutions. To the best of my knowledge, the Committee was dissolved before they were voted, and that owing to the opposition these resolves met with.\" E.raminafion",
+      "uncertain": [
+        {
+          "end": 121,
+          "readings": {
+            "google": "Ac.",
+            "primary": "&c.",
+            "upload": "&e."
+          },
+          "start": 118
+        },
+        {
+          "end": 275,
+          "readings": {
+            "google": "o*dock",
+            "primary": "o'cloek",
+            "upload": "o'clock"
+          },
+          "start": 268
+        },
+        {
+          "end": 751,
+          "readings": {
+            "google": "13",
+            "primary": "13",
+            "upload": "15"
+          },
+          "start": 749
+        },
+        {
+          "end": 1390,
+          "readings": {
+            "primary": "E.raminafion",
+            "upload": "JZreminetion"
+          },
+          "start": 1378
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Declaration and Resolves, note 2",
+      "pages": [
+        "73"
+      ],
+      "ref": "Resolves1774.fn2",
+      "scan": {
+        "item": "journalsofcontin01unit",
+        "leaves": [
+          93
+        ]
+      },
+      "text": "' This paragraph was struck out."
+    }
+  ],
+  "short": "Declaration and Resolves",
+  "source_ids": [
+    "ia-road-jcc-v1-uc-xml",
+    "ia-road-jcc-v1-google-xml",
+    "ia-road-jcc-v1-upload-xml"
+  ],
+  "title": "The Declaration and Resolves of the First Continental Congress"
+}

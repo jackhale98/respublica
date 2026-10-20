@@ -16,6 +16,7 @@ const SCANS: Record<string, string> = {
   nypl: "NYPL scan", "nypl-ocr": "second OCR of the NYPL scan",
   tcp: "TCP transcription", jcb: "John Carter Brown Library scan", illinois: "Illinois scan",
   toronto: "Toronto scan",
+  scan: "scan of the same printing", upload: "uploaded scan", acpl: "Allen County scan", ucgoogle: "UC Google scan",
 };
 // Whose a suggestion is (`suggested_by`; the Anti-Federalist Library's where none is named).
 const SUGGESTED_BY: Record<string, string> = { loc: "Library of Congress transcription" };

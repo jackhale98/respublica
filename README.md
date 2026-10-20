@@ -13,7 +13,7 @@ the rules every contributor (human or agent) follows.
 | Phase | State |
 |---|---|
 | 0. Setup | Done: Makefile, stdlib-only Python tools, `make verify`, Astro site with CSP, CI with pinned actions, deploy to Cloudflare (respublicalibrary.org), free-tier budgets, MIT + CC BY-SA 4.0. |
-| 1. Constitution | Done: Constitution and all 27 amendments imported from National Archives transcriptions; every clause renders with its ref. The Declaration of Independence added the same way (each grievance its own passage), and Congress's 1789 Joint Resolution proposing twelve amendments (each article its own passage). Two works the Declaration's language draws on (decision 67): Thomas Paine's *Common Sense* (the first edition, Philadelphia, January 1776) and John Locke's Second Treatise of Government (the first edition, London, 1690; refs by Locke's own sections), from the Text Creation Partnership's CC0 transcriptions, checked word by word against Internet Archive scans of the same printings, with differences marked uncertain. |
+| 1. Constitution | Done: Constitution and all 27 amendments imported from National Archives transcriptions; every clause renders with its ref. The Declaration of Independence added the same way (each grievance its own passage), and Congress's 1789 Joint Resolution proposing twelve amendments (each article its own passage). Two works the Declaration's language draws on (decision 67): Thomas Paine's *Common Sense* (the first edition, Philadelphia, January 1776) and John Locke's Second Treatise of Government (the first edition, London, 1690; refs by Locke's own sections), from the Text Creation Partnership's CC0 transcriptions, checked word by word against Internet Archive scans of the same printings, with differences marked uncertain. The road to independence (`/independence/`, decision 66): the Continental Congress's Declaration and Resolves of 1774, the resolution and preamble of May 1776, the Lee Resolution and the proceedings of July 2 and 4, 1776 from the Journals of the Continental Congress (read from scans by OCR consensus), the Declaration of the Causes and Necessity of Taking Up Arms (1775) and the Virginia Declaration of Rights from the Text Creation Partnership's transcriptions of printings of the time (the Virginia text checked against a scan of the same printing), and Jefferson's draft preamble for the Virginia constitution from Ford's edition of his writings. |
 | 2. Federalist | Done: all 85 papers from Project Gutenberg eBook #18, with paragraph refs, footnotes and attribution (disputed papers marked). |
 | 3. Explicit links | Linked: 289 suggested links from 51 Federalist papers to 73 clauses of the Constitution (81 quotations, 208 citations), awaiting human review. See [`docs/linking.md`](docs/linking.md). |
 | 4. Connections panel and graph | Done: the panel (a bottom sheet on phones) lists each passage's connections; "Graph" opens a two-hop graph of them (force layout with zoom, pan and drag; d3), filterable by link type, side (founding documents, Federalist, Anti-Federalist) and review status. |
@@ -48,8 +48,10 @@ make dev        # local preview (search needs make build)
 ```
 
 `make fetch` restores raw sources from `sources/manifest.json` (run it
-first in a fresh clone: the U.S. Reports scans, about 330 MB, and the
-Congressional Record's govinfo PDFs, about 2.1 GB, are not in git), `make import` regenerates `texts/` and `cases/` from them, and
+first in a fresh clone: the U.S. Reports scans, about 330 MB, the
+Congressional Record's govinfo PDFs, about 2.1 GB, and the scans of the
+Journals of the Continental Congress and Ford's *Writings of Thomas
+Jefferson*, about 125 MB, are not in git), `make import` regenerates `texts/` and `cases/` from them, and
 `make lock-refs` records new refs in `refs.lock`. Looking up new cases on
 CourtListener (`python -m importers.courtlistener lookup`) needs an API
 token in `COURTLISTENER_TOKEN`.
@@ -66,7 +68,7 @@ Cloudflare, which builds this repository (`make build`) and deploys
 sources/raw/        downloaded originals, never edited (scans too large for git, such as the U.S. Reports and the Congressional Record's PDFs, are kept out of it; `make fetch`)
 sources/manifest.json
 sources/ocr/        OCR we ran ourselves on raw page images, with a record of how (decision 46)
-importers/          one module per source (nara.py, federalist.py, annals.py, cases.py, …)
+importers/          one module per source (nara.py, federalist.py, annals.py, independence.py, cases.py, …)
 texts/              importer output: constitution, amendments, federalist
 refs.lock           every published ref (append-only)
 cases/              importer output: one file per Supreme Court case

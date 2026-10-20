@@ -35,6 +35,10 @@ def entries(doc: dict) -> list[dict]:
             if s["ref"].startswith(d["ref"] + ".") or (len(doc["divisions"]) == 1 and s["ref"].startswith(doc["ref_prefix"] + ".")):
                 for u in s.get("uncertain", []):
                     out.append(_entry(s["ref"], s["text"], u, s))
+    if not doc.get("divisions"):  # a work of one part (the road to independence, decision 66)
+        for s in doc["segments"]:
+            for u in s.get("uncertain", []):
+                out.append(_entry(s["ref"], s["text"], u, s))
     return out
 
 
