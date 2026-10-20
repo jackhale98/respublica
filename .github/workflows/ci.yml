@@ -47,6 +47,11 @@ jobs:
           path: sources/raw/ia-record-*
           key: raw-iarecord-${{ steps.raw-keys.outputs.iarecord }}
           restore-keys: raw-iarecord-
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/ia-road-*
+          key: raw-road-${{ steps.raw-keys.outputs.road }}
+          restore-keys: raw-road-
       - run: make fetch
       - run: make verify
 

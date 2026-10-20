@@ -1,0 +1,881 @@
+{
+  "attribution": {
+    "byline": "The Continental Congress",
+    "kind": "body",
+    "names": [
+      "Continental Congress"
+    ]
+  },
+  "date": "1776-07-02/1776-07-04",
+  "divisions": [
+    {
+      "date": "1776-07-02",
+      "label": "July 2, 1776",
+      "level": 1,
+      "ref": "Independence1776.Jul2"
+    },
+    {
+      "date": "1776-07-04",
+      "label": "July 4, 1776",
+      "level": 1,
+      "ref": "Independence1776.Jul4"
+    }
+  ],
+  "edition": {
+    "name": "Worthington Chauncey Ford, ed., Journals of the Continental Congress, 1774–1789 (Washington: Government Printing Office), vol. 5 (1906)",
+    "notes": "Worthington Chauncey Ford, ed., Journals of the Continental Congress, 1774–1789 (Washington: Government Printing Office), vol. 5 (1906), pp. 506–516. The Journals' entries on independence: on July 2, 1776, the resolution of independence and the Congress's first day in committee of the whole on the declaration; on July 4, the declaration's adoption, its text as the Journals print it (from the engrossed parchment) with the signers, and the orders for printing and proclaiming it. Read from the OCR of the University of California's scan and checked word by word against the OCR of 3 other copies; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "independence-1776",
+  "ref_prefix": "Independence1776",
+  "segments": [
+    {
+      "label": "Proceedings on independence, July 2, 1776, ¶ 1",
+      "pages": [
+        "506",
+        "507"
+      ],
+      "ref": "Independence1776.Jul2.1",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          98,
+          99
+        ]
+      },
+      "text": "The Congress resumed the consideration of the resolution agreed to by and reported from the committee of the whole; and the same being read, was agreed to as follows :"
+    },
+    {
+      "label": "Proceedings on independence, July 2, 1776, ¶ 2",
+      "pages": [
+        "507"
+      ],
+      "ref": "Independence1776.Jul2.2",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          99
+        ]
+      },
+      "text": "Resolved, That these United Colonies are, and, of right, ought to be. Free and Independent States; that they are absolved from all allegiance to the British crown, and that all political connexion between them, and the state of Great Britain, is, and ought to be, totally dissolved.'"
+    },
+    {
+      "label": "Proceedings on independence, July 2, 1776, ¶ 3",
+      "pages": [
+        "507"
+      ],
+      "ref": "Independence1776.Jul2.3",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          99
+        ]
+      },
+      "text": "Agreeable to the order of the day, the Congress resolved itself into a committee of the whole; Hand, after some time, II the president resumed the chair. Mr. [Benjamin] Harrison reported, that the committee have had under consideration the declaration to them referred ; but, not having had time to go through ||the same,|| desired leave to sit again :",
+      "uncertain": [
+        {
+          "end": 315,
+          "readings": {
+            "acpl": "||the",
+            "michigan": "||the",
+            "primary": "||the",
+            "upload": "||the"
+          },
+          "start": 310
+        },
+        {
+          "end": 323,
+          "readings": {
+            "acpl": "same,||",
+            "michigan": "same,||",
+            "primary": "same,||",
+            "upload": "same,||"
+          },
+          "start": 316
+        }
+      ]
+    },
+    {
+      "label": "Proceedings on independence, July 2, 1776, ¶ 4",
+      "pages": [
+        "507"
+      ],
+      "ref": "Independence1776.Jul2.4",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          99
+        ]
+      },
+      "text": "Resolved, That this Congress will, to morrow, again resolve itself into a committee of the whole, to take into their farther consideration the declaration on independence."
+    },
+    {
+      "kind": "footnote",
+      "label": "Proceedings on independence, July 2, 1776, note 1",
+      "pages": [
+        "507"
+      ],
+      "ref": "Independence1776.Jul2.fn1",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          99
+        ]
+      },
+      "text": "^ This report, in the writing of Charles Thomson, is in the Papers of the Continental Congress, No. 23, folio 17.",
+      "uncertain": [
+        {
+          "end": 1,
+          "readings": {
+            "michigan": "^",
+            "primary": "^"
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 1",
+      "pages": [
+        "510"
+      ],
+      "ref": "Independence1776.Jul4.1",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          102
+        ]
+      },
+      "text": "Agreeable to the order of the day, the Congress resolved itself into a committee of the whole, to take into their farther consideration, the declaration; Hand, after some time, II the president resumed the chair. Mr. [Benjamin] Harrison reported, that the committee of the whole Congress have agreed to a Declaration, which he delivered in.",
+      "uncertain": [
+        {
+          "end": 159,
+          "readings": {
+            "acpl": "||and,",
+            "michigan": "||and,",
+            "primary": "Hand,",
+            "upload": "|land,"
+          },
+          "start": 154
+        }
+      ]
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 2",
+      "pages": [
+        "510"
+      ],
+      "ref": "Independence1776.Jul4.2",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          102
+        ]
+      },
+      "text": "The Declaration being again read, was agreed to as follows :"
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 3",
+      "pages": [
+        "510"
+      ],
+      "ref": "Independence1776.Jul4.3",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          102
+        ]
+      },
+      "text": "The unanimous Declaration of the thirteen United States of America."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 4",
+      "pages": [
+        "510"
+      ],
+      "ref": "Independence1776.Jul4.4",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          102
+        ]
+      },
+      "text": "^hcn, in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the Powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.",
+      "uncertain": [
+        {
+          "end": 5,
+          "readings": {
+            "acpl": "lelhcn,",
+            "michigan": "WSxvXf",
+            "primary": "^hcn,",
+            "upload": "BHhen,"
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 5",
+      "pages": [
+        "510",
+        "511"
+      ],
+      "ref": "Independence1776.Jul4.5",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          102,
+          103
+        ]
+      },
+      "text": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these, are Life, Liberty, and the pursuit of Happiness. That, to secure these rights. Governments are instituted among Men, deriving their just Powers from the consent of the governed. That, whenever any form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such Principles, and organizing its Powers in such form, as to them shall seem most likely to effect their Safety and Happiness. Prudence, indeed, will dictate that Governments long established should not be changed for light and transient causes; and, accordingly, all experience hath shewn, that mankind are more disposed to suffer, while evils are sufferable, than to right themselves by abolishing the forms to which they are accustomed. But, when a long train of abuses and usurpations, pursuing invariably the same Object, evinces a design to reduce them under absolute Despotism, it is their right, it is their duty, to throw off such Government, and to provide new Guards for their future Security. Such has been the patient sufferance of these Colonies ; and such is now the necessity which constrains them to alter their former Systems of Government. The history of the present King of Great Britain is a history of repeated injuries and usurpations, all having in direct object the establishment of an absolute Tyranny over these States. To prove this, let Facts be submitted to a candid world."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 6",
+      "pages": [
+        "511"
+      ],
+      "ref": "Independence1776.Jul4.6",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          103
+        ]
+      },
+      "text": "He has refused his Assent to Laws the most wholesome and necessary for the public good."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 7",
+      "pages": [
+        "511"
+      ],
+      "ref": "Independence1776.Jul4.7",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          103
+        ]
+      },
+      "text": "He has forbidden his Governors to pass Laws of immediate and pressing importance, unless suspended in their operation till his Assent should be obtained; and when so suspended, he has utterly neglected to attend to them."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 8",
+      "pages": [
+        "511"
+      ],
+      "ref": "Independence1776.Jul4.8",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          103
+        ]
+      },
+      "text": "He has refused to pass other Laws for the accommodation of large districts of People, unless those People would relinquish the right of Representation in the legislature; a right inestimable to them and formidable to tyrants only."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 9",
+      "pages": [
+        "511"
+      ],
+      "ref": "Independence1776.Jul4.9",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          103
+        ]
+      },
+      "text": "He has called together legislative bodies at places unusual, uncomfortable, and distant from the depository of their Public Records, for the sole Purpose of fatiguing them into compliance with his measures."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 10",
+      "pages": [
+        "511"
+      ],
+      "ref": "Independence1776.Jul4.10",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          103
+        ]
+      },
+      "text": "He has dissolved Representative Houses repeatedly, for opposing, with manly firmness, his invasions on the rights of the People."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 11",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.11",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "He has refused for a long time, after such dissohitions, to cause others to be elected; whereby the Legislative Powers, incapable of Annihilation, have returned to the People at large for their exercise ; the State remaining in the mean time exposed to all the dangers of invasion from without, and convulsions within.",
+      "uncertain": [
+        {
+          "end": 56,
+          "readings": {
+            "acpl": "dissohitions,",
+            "michigan": "dissolutions,",
+            "primary": "dissohitions,",
+            "upload": "dissolutions,"
+          },
+          "start": 43
+        }
+      ]
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 12",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.12",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "He has endeavoured to prevent the Population of these States; for that purpose obstructing the Laws for Naturalization of Foreigners; refusing to pass others to encourage their migrations hither, and raising the conditions of new Appropriations of Lands."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 13",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.13",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "He has obstructed the Administration of Justice, byrefusing his Assent to Laws for establishing Judiciary Powers."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 14",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.14",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "He has made Judges dependent on his Will alone, for the tenure of their offices, and the amount and payment of their salaries."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 15",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.15",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "He has erected a multitude of New Offices, and sent hither swarms of Officers to harrass our People, and eat out their substance."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 16",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.16",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "He has kept among us, in times of Peace, Standing Armies, without the Consent of our legislatures."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 17",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.17",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "He has affected to render the Military independent of and superior to the Civil Power."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 18",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.18",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "He has combined with others to subject us to a jurisdiction foreign to our constitution, and unacknowledged by our laws ; giving his Assent to their Acts of pretended Legislation :"
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 19",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.19",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "For quartering large bodies of armed troops among us :"
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 20",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.20",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "For protecting them, by a mock Trial, from Punishment for any Murders which they should commit on the Inhabitants of these States :"
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 21",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.21",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "For cutting off our Trade with all parts of the world :"
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 22",
+      "pages": [
+        "512"
+      ],
+      "ref": "Independence1776.Jul4.22",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          104
+        ]
+      },
+      "text": "For imposing Taxes on us without our Consent :"
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 23",
+      "pages": [
+        "513"
+      ],
+      "ref": "Independence1776.Jul4.23",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          105
+        ]
+      },
+      "text": "For depriving us, in many cases, of the benefits of Trial by Jury :"
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 24",
+      "pages": [
+        "513"
+      ],
+      "ref": "Independence1776.Jul4.24",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          105
+        ]
+      },
+      "text": "For transporting us beyond Seas to be tried for pretended offences :"
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 25",
+      "pages": [
+        "513"
+      ],
+      "ref": "Independence1776.Jul4.25",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          105
+        ]
+      },
+      "text": "For abolishing the free System of English Laws in a neighbouring province, establishing therein an Arbitrary government, and enlarging its Boundaries, so as to render it at once an example and fit instrument for introducing the same absolute rule into these Colonies :"
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 26",
+      "pages": [
+        "513"
+      ],
+      "ref": "Independence1776.Jul4.26",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          105
+        ]
+      },
+      "text": "For taking away our Charters, abolishing our most valuable Laws, and altering fundamentally the Forms of our Governments :"
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 27",
+      "pages": [
+        "513"
+      ],
+      "ref": "Independence1776.Jul4.27",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          105
+        ]
+      },
+      "text": "For suspending our own Legislatures, and declaring themselves invested with Power to legislate for us in all cases whatsoever."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 28",
+      "pages": [
+        "513"
+      ],
+      "ref": "Independence1776.Jul4.28",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          105
+        ]
+      },
+      "text": "He has abdicated Government here, by declaring us out of his protection, and waging War against us."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 29",
+      "pages": [
+        "513"
+      ],
+      "ref": "Independence1776.Jul4.29",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          105
+        ]
+      },
+      "text": "He has plundered our seas, ravaged our Coasts, burnt our towns, and destroyed the Lives of our People."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 30",
+      "pages": [
+        "513"
+      ],
+      "ref": "Independence1776.Jul4.30",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          105
+        ]
+      },
+      "text": "He is at this time transporting large Armies of foreign Mercenaries to compleat the works of death, desolation and tyranny, already begun with circumstances of Cruelty and perfidy scarcely paralleled in the most barbarous ages, and totally unworthy the Head of a civilized nation."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 31",
+      "pages": [
+        "513"
+      ],
+      "ref": "Independence1776.Jul4.31",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          105
+        ]
+      },
+      "text": "He has constrained our fellow Citizens, taken Captive on the high Seas, to bear Arms against their Country, to become the executioners of their friends and Brethren, or to fall themselves by their Hands."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 32",
+      "pages": [
+        "513"
+      ],
+      "ref": "Independence1776.Jul4.32",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          105
+        ]
+      },
+      "text": "He has excited domestic insurrections amongst us, and has endeavoured to bring on the inhabitants of our f rou - frontiers, the merciless Indian Savages, whose known rule of warfare, is an undistinguished destruction of all ages, sexes and conditions.",
+      "uncertain": [
+        {
+          "end": 106,
+          "readings": {
+            "primary": "f"
+          },
+          "start": 105
+        },
+        {
+          "end": 110,
+          "readings": {
+            "primary": "rou"
+          },
+          "start": 107
+        }
+      ]
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 33",
+      "pages": [
+        "513",
+        "514"
+      ],
+      "ref": "Independence1776.Jul4.33",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          105,
+          106
+        ]
+      },
+      "text": "In every stage of these Oppressions, We have Petitioned for Redress, in the most humble terms: Our repeated Petitions, have been answered only by repeated injury. A Prince, whose character is thus marked by every act which may define a Tyrant, is unfit to be the ruler of a free People."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 34",
+      "pages": [
+        "514"
+      ],
+      "ref": "Independence1776.Jul4.34",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          106
+        ]
+      },
+      "text": "Nor have We been wanting in attentions to our Brittish brethren. We have warned them from time to time of attempts by their legislature to extend an unwarrantable jurisdiction over us. We have reminded them of the cu\"- cumstances of our emigration and settlement here. We have appealed to then* native justice and magnanimity, and we have conjured them by the ties of our common kindred, to disavow these usurpations, which, would inevitably interrupt our connexions and correspondence. They too have been deaf to the voice of justice and of consanguinity. We must, therefore, acquiesce in the necessity, which denounces our Separation, and hold them, as we hold the rest of mankind. Enemies in War, in Peace Friends.",
+      "uncertain": [
+        {
+          "end": 229,
+          "readings": {
+            "acpl": "circumstances",
+            "michigan": "circumstances",
+            "primary": "cu\"- cumstances",
+            "upload": "circumstances"
+          },
+          "start": 214
+        },
+        {
+          "end": 294,
+          "readings": {
+            "acpl": "then-",
+            "michigan": "their",
+            "primary": "then*",
+            "upload": "their"
+          },
+          "start": 289
+        }
+      ]
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 35",
+      "pages": [
+        "514",
+        "515"
+      ],
+      "ref": "Independence1776.Jul4.35",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          106,
+          107
+        ]
+      },
+      "text": "Wit, therefore, the Representatives of the united states of America, in General Congress assembled, appealing to the Supreme Judge of the World for the rectitude of our intentions, do, in the Name, and by Authority of the good People of these Colonies, solemnly publish and declare. That these United Colonies are, and of Right, ought to be Jfree and Independent .states; that they are Absolved from all Allegiance to the British Crown, and that all political connexion between them and the State of Great Britain, is and ought to be totally dissolved ; and that, as Free and Independent States, they have full Power to levy War, conclude Peace, contract Alliances, establish Commerce, and to do all other Acts and Things which Independent States may of right do. And for the support of this Declaration, with a firm reliance on the protection of divine Providence, we mutually pledge to each other our Lives, our Fortunes, and our sacred Honour.",
+      "uncertain": [
+        {
+          "end": 346,
+          "readings": {
+            "primary": "Jfree",
+            "upload": "Sree"
+          },
+          "start": 341
+        }
+      ]
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 36",
+      "pages": [
+        "515"
+      ],
+      "ref": "Independence1776.Jul4.36",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          107
+        ]
+      },
+      "text": "1 1 The foregoing declaration was, by order of Congress, engrossed, and signed by the following members :|P",
+      "uncertain": [
+        {
+          "end": 1,
+          "readings": {
+            "primary": "1"
+          },
+          "start": 0
+        },
+        {
+          "end": 3,
+          "readings": {
+            "primary": "1"
+          },
+          "start": 2
+        },
+        {
+          "end": 107,
+          "readings": {
+            "acpl": ":|P",
+            "michigan": ":||^",
+            "primary": ":|P"
+          },
+          "start": 104
+        }
+      ]
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 37",
+      "pages": [
+        "515"
+      ],
+      "ref": "Independence1776.Jul4.37",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          107
+        ]
+      },
+      "text": "John Hancock. JosiAH Bartlett. W\" Whipple. Sam\"- Adams. John Adams. RoB^ Treat Paine ! Elbridge Gerry. Steph. Hopkins. William Ellery. Roger Sherman. Sam\"- Huntington. W\" Williams. Oliver Wolcott. Matthew Thornton. W\" Floyd. Phil Livingston. Fran' Lewis. Lewis Morris. Rich\" Stockton. Jno Witherspoon. Era' Hopkinson. John Hart. Abra Clark. Rob' Morris. Benjamin Rush. Benj* Franklin. John Morton. Geo Clymer. Ja' Smith. Geo. Taylor. James Wilson. Geo. Ross. CiESAR Rodney. Geo Read. Thos M:Kean. Samuel Chase. W\" Paca. Tho' Stone. Charles Carroll of Carrollton. George Wythe. Richard Henry Lee. Th. Jefferson. Ben J'' Harrison. Tho' Nelson, Jr. Francis Lightfoot Lee. Carter Braxton. W\" Hooper. Joseph Hewes. John Penn. Edward Rutledge. Tho' Hey ward, Jun' Thomas Lynch, Jun' Arthur Middleton. Button Gwinnett. Lyman Hall. Geo Walton.",
+      "uncertain": [
+        {
+          "end": 72,
+          "readings": {
+            "acpl": "Rob\"^",
+            "michigan": "RoB^",
+            "primary": "RoB^",
+            "upload": "Ros?"
+          },
+          "start": 68
+        },
+        {
+          "end": 465,
+          "readings": {
+            "acpl": "Charles Carroll",
+            "michigan": "CiBSAB Rodney.",
+            "primary": "CiESAR",
+            "upload": "CzsaR"
+          },
+          "start": 459
+        },
+        {
+          "end": 618,
+          "readings": {
+            "acpl": "Ben J''",
+            "michigan": "Benj^",
+            "primary": "Ben J''"
+          },
+          "start": 611
+        }
+      ]
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 38",
+      "pages": [
+        "516"
+      ],
+      "ref": "Independence1776.Jul4.38",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          108
+        ]
+      },
+      "text": "Ordered, That the declaration be authenticated and printed."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 39",
+      "pages": [
+        "516"
+      ],
+      "ref": "Independence1776.Jul4.39",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          108
+        ]
+      },
+      "text": "That the committee appointed to prepare the declaration, superintend and correct the press."
+    },
+    {
+      "label": "Proceedings on independence, July 4, 1776, ¶ 40",
+      "pages": [
+        "516"
+      ],
+      "ref": "Independence1776.Jul4.40",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          108
+        ]
+      },
+      "text": "That copies of the declaration be sent to the several assemblies, conventions and committees, or councils of safety, and to the several commanding officers of the continental troops ; that it be proclaimed in each of the United States, and at the head of the army.’"
+    },
+    {
+      "kind": "footnote",
+      "label": "Proceedings on independence, July 4, 1776, note 1",
+      "pages": [
+        "515"
+      ],
+      "ref": "Independence1776.Jul4.fn1",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          107
+        ]
+      },
+      "text": "'The text used is that of the engrossed original in the Department of State."
+    },
+    {
+      "kind": "footnote",
+      "label": "Proceedings on independence, July 4, 1776, note 2",
+      "pages": [
+        "516"
+      ],
+      "ref": "Independence1776.Jul4.fn2",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          108
+        ]
+      },
+      "text": "\"A determined resolution of the Delegates from some of the Colonies to push the question of Independency has had a most happy effect, and after a day's debate, all the Colonies, except New York, whose Delegates are not empowered to give either an affirmative or negative voice, united in a declaration long sought for, solicited, and necessary— the Declaration of Independency.\" Elbridge Gerry to General Warren, 5 July, 1776. The Declaration was printed in the Pennsylvania Evening Post, 6 July, 1 776, and in the Pennsylvania Gazette, 10 July, 1776. See the Bibliographical Notes at the end of this year."
+    }
+  ],
+  "short": "Proceedings on independence",
+  "source_ids": [
+    "ia-road-jcc-v5-uc-xml",
+    "ia-road-jcc-v5-acpl-xml",
+    "ia-road-jcc-v5-michigan-xml",
+    "ia-road-jcc-v5-upload-xml"
+  ],
+  "title": "The Proceedings on Independence, July 2 and 4, 1776"
+}

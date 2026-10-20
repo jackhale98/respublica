@@ -1448,3 +1448,72 @@ debate:
 - Every ref stays resolvable from these public files; a site that used the
   one file reads a debate's file the same way when a ref's prefix entry
   names one. The URLs of decision 17 do not change.
+
+## 66. The road to independence, 1774–1776
+
+The project owner approved adding the documents on the way to the
+Declaration of Independence: the First Continental Congress's Declaration
+and Resolves (October 14, 1774); the Declaration of the Causes and Necessity
+of Taking Up Arms (July 6, 1775); the resolution of May 10, 1776 on forming
+new governments and its preamble of May 15; the Lee Resolution (June 7,
+1776); the Journals' proceedings of July 2 and 4, 1776 on independence; the
+Virginia Declaration of Rights (June 12, 1776); and Jefferson's draft
+preamble for the Virginia constitution (June 1776). Seven works, one per
+document (and one for the July proceedings), imported by
+`importers/independence.py` and shown together at `/independence/` ("The
+road to independence"), reached from the home page and the footer.
+
+- **Typed transcriptions first** (approved by the owner during the work).
+  Where the Text Creation Partnership has keyed a contemporary printing
+  (Evans-TCP, released under CC0), its TEI text is the text, read by
+  `importers/tcp.py`: the Declaration of the Causes from Daniel Fowle's
+  Portsmouth broadside of 1775 (N11512, Evans 14550), the Declaration of
+  Rights from the Commonwealth's Richmond printing of 1784 or 1785 (N15245,
+  Evans 18818). Each file is a raw source, fetched from the TCP's public
+  repository. What the keyers could not read (`gap`, an unreadable stop)
+  stays as their placeholder and is marked uncertain, never filled in. Where
+  the Internet Archive has a scan of the same printing (the Richmond
+  printing, from Eighteenth Century Collections Online), every word is
+  checked against its OCR as the Anti-Federalist Library's text was
+  (decision 55): where the scan reads another word the clean texts know, the
+  word is marked uncertain with both readings, never changed. OCR's garble
+  of old type and figures are not counted as readings. No scan of the
+  Portsmouth broadside was found, so that text has only the transcription's
+  own marks; the edition notes say which TCP text and printing each work
+  follows. The Journals of 1904–06 are not in Evans, and no Evans-TCP text
+  prints the 1774 resolves, the May 1776 resolutions, the Lee Resolution or
+  the July 1776 proceedings, nor Jefferson's draft (first printed in 1893),
+  so those are read from scans as before.
+- **Scans, by OCR consensus.** The Library of Congress's edition of the
+  Journals of the Continental Congress (ed. Worthington C. Ford; vols. 1, 4
+  and 5) and Ford's *Writings of Thomas Jefferson*, vol. 2 (1893): the
+  University of California's scan of each gives the layout and a first
+  reading, checked against two or three other copies' OCR (`docs/ocr.md`).
+  The references are read from their DjVu XML like the main scan, so each
+  copy's text and notes can be kept apart.
+- **Two texts side by side.** The Journals print the resolves of 1774 beside
+  John Sullivan's draft, and Ford prints the fair copy of Jefferson's draft
+  beside his first draft. The right-hand column is the text imported, from
+  every copy (`importers/parallel.py`): the drafts beside it share many words
+  with it and would otherwise be matched in place of it. For the 1775
+  declaration the Journals print Jefferson's and Dickinson's drafts beside
+  the final form; that work comes from the broadside instead.
+- **What each work takes in.** The day's entries on the subject (the
+  proceedings before and after the resolutions), not the day's other
+  business; the editor's notes whose marks stand in the imported text, each
+  named in `independence.WORKS` by its page and its first and last words;
+  Jefferson's fair copy from the bill's title to the end of the clause
+  deposing the king. The July 4 signers, printed as a list in two columns,
+  are one passage. Refs: `docs/references.md`, "The road to independence".
+- **Raw files.** The Internet Archive's DjVu XML of the Journals and of
+  Ford's *Writings* (about 120 MB) are kept out of git as a family of their
+  own (`ia-road-*`, cached in CI under its own key); the TCP files and the
+  ECCO scan's XML (under 1 MB) are in git.
+- **Quality.** About 4,600 words from the Journals with 36 marked uncertain,
+  1,860 from Ford with 14, the Declaration of Rights with 16 (4 of the
+  keyers' gaps), the 1775 declaration with 11 gaps. Errata 110–115 record
+  what the marks miss: a display initial read "Wit", the editor's double
+  bars and the signers' abbreviations, Jefferson's struck-through deletions
+  read as words (Ford's typography; the fair copy needs them marked against
+  the page images), and the broadside's illegible spans.
+- **No links yet.** These works have no proposed links; a later run will.

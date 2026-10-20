@@ -43,6 +43,26 @@ breaks first (erratum 63). Not imported, for want of a scan to check the
 Library against: Old Whig, Maryland Farmer, Impartial Examiner, John
 DeWitt, Philadelphiensis, Melancton Smith.
 
+**The road to independence** (`/independence/`, decision 66): seven works
+of 1774–1776 (`importers/independence.py`): the Declaration and Resolves of
+1774, the May 1776 resolution and preamble, the Lee Resolution and the
+proceedings of July 2 and 4, 1776 from the Journals of the Continental
+Congress (vols. 1, 4, 5; three or four scans a volume, under 1% of words
+marked uncertain); the Declaration of the Causes of 1775 and the Virginia
+Declaration of Rights from the Text Creation Partnership's transcriptions
+(`importers/tcp.py`; the Virginia text checked word by word against a scan
+of the same printing, the Portsmouth broadside of 1775 against none); and
+Jefferson's draft preamble from Ford's *Writings*, vol. 2 (three scans).
+The resolves of 1774 and Jefferson's fair copy are printed beside drafts;
+`importers/parallel.py` takes the right-hand column. Open: Jefferson's
+struck-through deletions are read as words (erratum 113) and need marking
+against the page images before links are proposed to that work; the
+broadside's illegible spans (erratum 115) need a copy of it. No links have
+been proposed for these works. To add a document of the Journals: add a
+`Part` to `independence.WORKS` with its printed pages, opening and closing
+words and the notes it takes in, run `python -m importers.independence`,
+and read what it stops on.
+
 **Debates in Congress** (`/congress/`): the House's 1789 debate on the
 amendments, from the Annals of Congress (`importers/annals.py`, decision
 46); both houses' proceedings on the Eleventh Amendment (1794) and the
