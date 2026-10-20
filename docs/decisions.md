@@ -1634,3 +1634,20 @@ and says nothing more about influence. Decided:
   join that section later.
 - **Not done:** no links have been proposed for these works. Slips of the
   transcriptions the check found or missed are errata 130–133.
+
+## 71. More raw families kept out of git
+
+With the sources of the Declaration (decisions 66 and 67) the raw files in
+git reached 288 of their 300 MB budget, with the state ratifying conventions
+still to come. The project owner chose to keep more families out of git, as
+the scans of decisions 49 and 61 are: the UNT Digital Library's OCR pages of
+the Congressional Globe (`unt-globe-*`, 68 MB in 2,138 files), the page
+ranges and page images of the Annals scans (`ia-part-*`, `ia-page-*`, 73 MB),
+and the scans of Elliot, McMaster and Stone, Ford and the Massachusetts
+Debates and the New-York Journal's pages (`ia-elliot-*`, `ia-mcmaster-*`,
+`ia-ford-*`, `ia-mass-*`, `loc-nyjournal-*`, 106 MB). Each is a family in
+`UNTRACKED_FAMILIES` with its own CI cache key, restored by `make fetch` and
+checked against its recorded sha256, and restored in the errata workflow only
+when a correction's importers read it (decision 65). The raw files left in
+git are 42 MB. The files stay in git's history; what changes is the working
+tree the budget measures, and its growth. Out of git: about 3.5 of 4 GiB.

@@ -47,6 +47,16 @@ UNTRACKED_FAMILIES = {
     # Internet Archive scans that check the TCP texts of Common Sense and
     # Locke (decision 67): DjVu XML and OCR text.
     "iadecl": "ia-decl-*",
+    # Moved out of git when the tracked raw files neared their 300 MB budget
+    # (decision 71).
+    "untglobe": "unt-globe-*",
+    "iapart": "ia-part-*",
+    "iapage": "ia-page-*",
+    "elliot": "ia-elliot-*",
+    "mcmaster": "ia-mcmaster-*",
+    "ford": "ia-ford-*",
+    "mass": "ia-mass-*",
+    "nyjournal": "loc-nyjournal-*",
 }
 UNTRACKED_RAW = tuple(UNTRACKED_FAMILIES.values())
 
