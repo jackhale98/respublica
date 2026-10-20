@@ -25,8 +25,8 @@ where the work stands and what comes next.
 ## Where things stand
 
 Phases 0–6 are done (the README's status table has the counts): the
-founding documents, The Federalist, twenty-two works of the ratification
-debate read from scans, about 740 suggested links awaiting review, the
+founding documents, The Federalist, thirty works of the ratification
+debate (twenty-two read from scans, eight typed by the TCP), about 740 suggested links awaiting review, the
 connections panel and graph, search, and the review page.
 
 **More of the debate** (decision 55): Brutus V–XVI (not XI, which has no
@@ -42,6 +42,26 @@ proposed for the new texts yet; check the newspaper essays' paragraph
 breaks first (erratum 63). Not imported, for want of a scan to check the
 Library against: Old Whig, Maryland Farmer, Impartial Examiner, John
 DeWitt, Philadelphiensis, Melancton Smith.
+
+**Pamphlets typed by the Text Creation Partnership** (decision 69):
+eight works from seven first printings, from their Evans-TCP CC0
+transcriptions (`importers/pamphlets.py`, the shared reader
+`importers/tcp.py`): the Columbian Patriot, Jay's Address (a Citizen of
+New-York), Coxe's Examination (an American Citizen) and Wilson's speech of
+October 6, 1787 printed with it, Aristides, Randolph's letter (with the
+letters that sent it to the printer), Monroe's *Some Observations* and the
+Native of Virginia's *Observations*: about 77,000 words, 724 words holding
+letters the transcribers could not read marked uncertain (mostly in
+Aristides, Monroe and the Native of Virginia, whose microprints were poor).
+No scan of these printings was found, so they are not cross-checked and
+their marked words are not on `/errata/` (no page image); keying slips may
+remain (errata 180–183). Long s (ſ) is kept as keyed, so site search does
+not find "Congreſs" under "Congress": an open question for the owner
+(folding ſ into s for the search index only). The same decision made
+Evans-TCP N16599, a New York reprint of 1788, a second tie-breaker for the
+Dissent of the Pennsylvania Minority and Centinel I–IX (5 words changed,
+19 marks dropped, 16 suggestions marked "Evans-TCP" on `/errata/`). No
+links proposed for the pamphlets yet.
 
 **Sources of the Declaration** (decision 67): Paine's *Common Sense*
 (first edition, R. Bell, January 1776; `importers/paine.py`) and Locke's

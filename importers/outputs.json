@@ -2833,6 +2833,27 @@
       "tcp-n11839"
     ]
   },
+  "pamphlets": {
+    "outputs": [
+      "texts/aristides.json",
+      "texts/columbian-patriot.json",
+      "texts/coxe-examination.json",
+      "texts/jay-address.json",
+      "texts/monroe-observations.json",
+      "texts/native-of-virginia.json",
+      "texts/randolph-letter.json",
+      "texts/wilson-speech.json"
+    ],
+    "raw": [
+      "tcp-n16126",
+      "tcp-n16378",
+      "tcp-n16431",
+      "tcp-n16445",
+      "tcp-n16481",
+      "tcp-n16546",
+      "tcp-n16547"
+    ]
+  },
   "ratification": {
     "outputs": [
       "texts/agrippa.json",
@@ -2944,7 +2965,8 @@
       "loc-nyjournal-1788-04-10-p3-alto",
       "nara-amendments-11-27",
       "nara-bill-of-rights",
-      "nara-constitution"
+      "nara-constitution",
+      "tcp-n16599"
     ]
   },
   "record": {
