@@ -84,7 +84,7 @@ const numeral = (label) => label.split(" ").at(-1);
     <details class="conns" data-pagefind-ignore>
       <summary>{conns.length} connection{conns.length === 1 ? "" : "s"}</summary>
       <ul class="conn-mini">
-        {conns.map((c) => (
+        {(block.fallback || conns).map((c) => (
           <li>
             {c.verb}{" "}
             {localUrl(c.other_url) ? <a href={localUrl(c.other_url)}>{c.other_label}</a> : c.other_label}
@@ -92,6 +92,9 @@ const numeral = (label) => label.split(" ").at(-1);
             {c.other_overruled && " (overruled)"}
           </li>
         ))}
+        {block.fallback && block.fallback.length < conns.length && localUrl(block.clause_url) && (
+          <li><a href={localUrl(block.clause_url)}>All {conns.length} on the clause page</a></li>
+        )}
       </ul>
     </details>
   )}

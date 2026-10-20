@@ -941,6 +941,10 @@ class SiteBuilder:
             "changed": changed,
             "clause_url": clause_url(s["ref"]) if s["ref"] in self.clause_refs else None,
             "connections": conns,
+            # The list shown without JavaScript: a clause with its own page
+            # lists the first NOJS_CONNS there, and the clause page the rest,
+            # so the busiest pages stay within their HTML budget.
+            "fallback": conns[:NOJS_CONNS] if s["ref"] in self.clause_refs else conns,
             "gutter": gutter(s["ref"], work, s),
             "label": s.get("label", s["ref"]),
             "paras": runs_for(s, changed),
@@ -1501,6 +1505,11 @@ def founding_passages(corpus: Corpus, works: tuple[str, ...] = ("declaration", "
                 continue
             out.append(seg)
     return out
+
+
+# Connections listed under a clause on its reading page without JavaScript
+# (the panel lists them all; the clause page too).
+NOJS_CONNS = 12
 
 
 def clause_url(ref: str) -> str | None:
