@@ -11,7 +11,7 @@ Output:
   site/.data/pages/{page}.json   one file per page: blocks to render
   site/.data/refs.json           ref -> {url, label} for every ref (used at build time)
   site/.data/refs-public.json    what /data/refs.json serves: every ref but the
-                                 paragraphs of the debates in Congress (decision 63)
+                                 paragraphs of the debates in Congress and the conventions (decisions 63, 68)
   site/.data/refs-parts/{wid}.json  those paragraphs, one file per debate
   site/.data/graph/{page}.json   two-hop link neighborhoods of a page's passages
   site/.data/preview/{ref}.json  the far ends of a passage's connections, to read in the panel
@@ -404,6 +404,43 @@ CONGRESS_GROUPS = ("The Bill of Rights, 1789", "The Eleventh Amendment, 1794", "
                    "The Twenty-fourth Amendment, 1962", "The Twenty-fifth Amendment, 1965",
                    "The Twenty-sixth Amendment, 1971")
 
+# The debates of the state ratifying conventions (decision 68): part of
+# the ratification debate, in a group of their own after the essays and
+# letters, in the order Elliot prints them. One page per day, split into
+# sheets by HTML as the Congressional Record's days are; the two undated
+# pieces are one page each.
+CONVENTIONS_GROUP = ("conventions", "The state ratifying conventions")
+CONVENTIONS = {
+    "massachusetts-convention-1788": "The Massachusetts convention at Boston, January 9 to February 7, 1788: the "
+                                     "minutes, the speeches as reported, the amendments it recommended and the yeas "
+                                     "and nays on ratification.",
+    "connecticut-convention-1788": "The fragment of the Connecticut convention's debates at Hartford, January 4–9, "
+                                   "1788, that Elliot collected from the newspapers.",
+    "new-hampshire-convention-1788": "The only speech Elliot knew from the New Hampshire convention: Joshua "
+                                     "Atherton on the clause on the importation of slaves.",
+    "new-york-convention-1788": "The New York convention at Poughkeepsie, June 17 to July 26, 1788, with the "
+                                "ratification, the amendments recommended and the circular letter to the states.",
+    "pennsylvania-convention-1787": "The Pennsylvania convention at Philadelphia, November 20 to December 11, 1787: "
+                                    "the minutes and the speeches of James Wilson and Thomas M'Kean, then the "
+                                    "meeting at Harrisburg of September 3, 1788.",
+    "maryland-convention-1788": "The address of the minority of the Maryland convention to the people of Maryland, "
+                                "which Elliot prints for want of the convention's debates.",
+    "virginia-convention-1788": "The Virginia convention at Richmond, June 2–27, 1788, with the ratification, the "
+                                "amendments recommended and the votes.",
+    "north-carolina-convention-1788": "The first North Carolina convention at Hillsborough, July 21 to August 2, "
+                                      "1788, which neither ratified nor rejected the Constitution.",
+    "south-carolina-convention-1788": "The South Carolina House of Representatives' debate on the Constitution, "
+                                      "January 16–19, 1788, and the convention at Charleston, May 12–23, 1788.",
+}
+
+
+def convention_settings(corpus: Corpus) -> dict[str, dict]:
+    return {wid: {"collection": "ratification", "group": CONVENTIONS_GROUP[0], "order": 500 + i,
+                  "paged": len(corpus.works[wid].get("divisions", [])) > 1, "sheet_by_html": True,
+                  "short": corpus.works[wid]["short"], "slug": wid, "summary": summary}
+            for i, (wid, summary) in enumerate(CONVENTIONS.items()) if wid in corpus.works}
+
+
 # Essays and letters of the ratification debate (texts with a `position`)
 # get their settings from the text: one page per essay for a series, one
 # page for a single piece. Their order: Anti-Federalist, then Federalist,
@@ -415,7 +452,8 @@ POSITION_LABELS = {"anti": "Anti-Federalist", "federalist": "Federalist", "other
 # What a work's parts are called, where not essays (the index pages of the ratification debate and of
 # the sources of the Declaration).
 PARTS = {"patrick-henry": "speeches", "common-sense": "parts", "locke-second-treatise": "chapters",
-         "coxe-examination": "parts", "randolph-letter": "letters", "native-of-virginia": "parts"}
+         "coxe-examination": "parts", "randolph-letter": "letters", "native-of-virginia": "parts",
+         **{wid: "days" for wid in CONVENTIONS}}
 
 # A work's sources as the about page lists them: each on a line, but the
 # Congressional Globe's page-by-page OCR from the UNT Digital Library (two
@@ -912,7 +950,7 @@ class SiteBuilder:
     def __init__(self, corpus: Corpus, links: list[dict]):
         self.corpus = corpus
         self.link_index = build_link_index(links, corpus)
-        self.settings = {**WORKS, **debate_settings(corpus), **case_settings(corpus)}
+        self.settings = {**WORKS, **debate_settings(corpus), **convention_settings(corpus), **case_settings(corpus)}
         self.manifest = {e["id"]: e for e in load_manifest()}
         self.works = [corpus.works[w] for w in sorted(self.settings, key=lambda k: self.settings[k]["order"])
                       if w in corpus.works]
@@ -1170,6 +1208,8 @@ class SiteBuilder:
                 info["summary"] = cfg["summary"]
             if work.get("position"):
                 info["position"] = work["position"]
+            if cfg.get("group") == CONVENTIONS_GROUP[0]:
+                info["group"] = cfg["group"]
             if work.get("position"):
                 notes = sum(1 for s in work["segments"] if s.get("kind") == "footnote")
                 info["notes"] = notes
@@ -1178,7 +1218,8 @@ class SiteBuilder:
                     info["typed"] = True
             if not cfg["paged"]:
                 pid = wid
-                single = work.get("position") and len(work.get("divisions", [])) == 1
+                # A single piece: an essay or letter, or a convention's one undated piece.
+                single = (work.get("position") or wid in CONVENTIONS) and len(work.get("divisions", [])) == 1
                 # The road to independence: the editor's notes after the text.
                 apart = single or cfg["collection"] == "independence"
                 body = [s for s in work["segments"] if not (apart and s.get("kind") == "footnote")]
@@ -1274,9 +1315,12 @@ class SiteBuilder:
         debate = [w for w in works_out if w["collection"] == "ratification"]
         if debate:
             pages["ratification"] = {
-                "groups": [{"key": k, "label": POSITION_LABELS[k],
+                "groups": [{"key": k, "label": POSITION_LABELS[k], "title": f"{POSITION_LABELS[k]} writers",
                             "works": [w["id"] for w in debate if w.get("position") == k]}
-                           for k in POSITIONS if any(w.get("position") == k for w in debate)],
+                           for k in POSITIONS if any(w.get("position") == k for w in debate)]
+                + ([{"key": CONVENTIONS_GROUP[0], "label": CONVENTIONS_GROUP[1], "title": CONVENTIONS_GROUP[1],
+                     "works": [w["id"] for w in debate if w.get("group") == CONVENTIONS_GROUP[0]]}]
+                   if any(w.get("group") == CONVENTIONS_GROUP[0] for w in debate) else []),
                 "id": "ratification", "kind": "collection", "title": "The Ratification Debate",
                 "url": "/ratification/",
             }
@@ -1553,8 +1597,9 @@ def map_side(corpus: Corpus, wid: str) -> str:
 
 
 def split_refs(corpus: Corpus, refs: dict[str, dict]) -> tuple[dict[str, dict], dict[str, dict[str, dict]]]:
-    """/data/refs.json without the paragraphs of the debates in Congress,
-    which go to one file per debate (decision 63): the debates hold most of
+    """/data/refs.json without the paragraphs of the debates in Congress
+    and of the state ratifying conventions (decision 68), which go to one
+    file per debate (decision 63): the debates hold most of
     the library's refs, and search loads a debate's file only when it needs
     it. The debate's own entry (its prefix) says where its file is
     ("refs": "/data/refs/{work}.json"); its days stay in the main file."""
@@ -1562,7 +1607,7 @@ def split_refs(corpus: Corpus, refs: dict[str, dict]) -> tuple[dict[str, dict], 
     parts: dict[str, dict[str, dict]] = {}
     for wid, doc in corpus.works.items():
         prefix = doc.get("ref_prefix", "")
-        if map_side(corpus, wid) != "congress" or prefix not in refs:
+        if (map_side(corpus, wid) != "congress" and wid not in CONVENTIONS) or prefix not in refs:
             continue
         own = {s["ref"]: public.pop(s["ref"]) for s in doc.get("segments", []) if s["ref"] in public}
         if own:
@@ -1819,6 +1864,9 @@ def build_errata(corpus: Corpus, refs: dict[str, dict]) -> tuple[dict, dict[str,
         if not items and not corrected:
             continue
         per_work[wid] = {"id": wid, "passages": items, "title": work["title"]}
+        if wid in CONVENTIONS:
+            # The text is the Library of Congress's transcription, checked against scans (decision 68).
+            per_work[wid]["labels"] = {"primary": "Library of Congress transcription"}
         works.append({"corrected": corrected, "edition": work.get("edition", {}).get("name", ""), "id": wid,
                       "passages": len(items), "title": work["title"],
                       "words": sum(len(i["words"]) for i in items)})

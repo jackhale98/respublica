@@ -66,6 +66,19 @@ class SiteStructureTests(unittest.TestCase):
             ids += [b["ref"] for b in page.get("blocks", []) + page.get("notes", []) if b["type"] == "passage"]
             self.assertEqual(len(ids), len(set(ids)), page["id"])
 
+    def test_state_conventions(self):
+        # A group of their own in the ratification debate (decision 68), one page per day.
+        groups = {g["key"]: g for g in self.pages["ratification"]["groups"]}
+        self.assertEqual(groups["conventions"]["title"], "The state ratifying conventions")
+        self.assertIn("virginia-convention-1788", groups["conventions"]["works"])
+        self.assertEqual(self.refs["Virginia1788.Jun5"]["url"], "/virginia-convention-1788/jun5/")
+        self.assertEqual(self.refs["NewHampshire1788.1"]["url"], "/new-hampshire-convention-1788/#NewHampshire1788.1")
+        from tools.site_data import split_refs
+        public, parts = split_refs(self.corpus, self.refs)
+        self.assertNotIn("Virginia1788.Jun5.1", public)
+        self.assertIn("Virginia1788.Jun5.1", parts["virginia-convention-1788"])
+        self.assertEqual(public["Virginia1788"]["refs"], "/data/refs/virginia-convention-1788.json")
+
     def test_federalist_pager(self):
         self.assertIsNone(self.pages["federalist-1"]["prev"])
         self.assertEqual(self.pages["federalist-10"]["next"]["url"], "/federalist/11/")

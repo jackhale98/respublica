@@ -63,6 +63,23 @@ Dissent of the Pennsylvania Minority and Centinel I–IX (5 words changed,
 19 marks dropped, 16 suggestions marked "Evans-TCP" on `/errata/`). No
 links proposed for the pamphlets yet.
 
+**The state ratifying conventions** (decision 68): nine works
+(`importers/conventions.py`), Massachusetts, Connecticut, New Hampshire,
+New York, Pennsylvania and Maryland (Elliot vol. 2), Virginia (vol. 3) and
+North and South Carolina (vol. 4), about 641,000 words, divided by day
+(refs `Virginia1788.Jun5.{n}`), in a group of their own on
+`/ratification/`. The text is the Library of Congress's typed
+transcription (`importers/amem.py`; public domain, as its header and the
+collection's rights page say), checked word by word against the Internet
+Archive's scans of the 1907 printing; about 750 words are marked uncertain
+where the scans read another word, many of them the transcription's own
+keying slips ("fights" for "rights", "mast" for "must"), some OCR
+misreadings ("be"/"he"). The same transcription is now Henry's
+tie-breaker, before the Anti-Federalist Library: one word changed, and the
+72 words the scans settled that it reads otherwise are erratum 150. Its
+raw files are kept out of git (family `lled`; the scans are in `elliot`,
+decision 71). No links proposed yet. The importer stops on any dateline not
+in its list of days: check the page before adding one.
 
 **The road to independence** (`/independence/`, decision 66): seven works
 of 1774–1776 (`importers/independence.py`): the Declaration and Resolves of

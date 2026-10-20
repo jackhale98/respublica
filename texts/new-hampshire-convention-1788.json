@@ -1,0 +1,138 @@
+{
+  "date": "1788",
+  "divisions": [
+    {
+      "label": "New Hampshire convention",
+      "level": 1,
+      "ref": "NewHampshire1788"
+    }
+  ],
+  "edition": {
+    "name": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 2 (2nd ed., Washington, 1836)",
+    "notes": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 2 (2nd ed., Washington, 1836), pp. 203–204, headed “New Hampshire Convention …”. The text is the Library of Congress's typed transcription (A Century of Lawmaking for a New Nation, 1997; lled002), not OCR, divided by day as Elliot prints the days. Every word was checked against the Internet Archive's scan of the 1907 Lippincott printing of the same pages (debatesinseveral02elliuoft); where the scans read another word, the transcription's word is kept and marked as uncertain, with every reading, for a person to check against the page image. See docs/editions.md."
+  },
+  "id": "new-hampshire-convention-1788",
+  "ref_prefix": "NewHampshire1788",
+  "segments": [
+    {
+      "label": "New Hampshire convention, New Hampshire convention, ¶ 1",
+      "pages": [
+        "203"
+      ],
+      "ref": "NewHampshire1788.1",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          219
+        ]
+      },
+      "text": "[A friend has favored the editor with the following fragment, being the only speech known to be preserved in the New Hampshire Convention, on adopting the federal Constitution of the United States.]"
+    },
+    {
+      "label": "New Hampshire convention, New Hampshire convention, ¶ 2",
+      "pages": [
+        "203"
+      ],
+      "ref": "NewHampshire1788.2",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          219
+        ]
+      },
+      "text": "* * * * * * * *"
+    },
+    {
+      "label": "New Hampshire convention, New Hampshire convention, ¶ 3",
+      "pages": [
+        "203"
+      ],
+      "ref": "NewHampshire1788.3",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          219
+        ]
+      },
+      "text": "Page 7, Sec. 9th. “The migration or importation of such persons as any the states now existing shall think proper to admit, shall not be prohibited by Congress prior to the year 1808; but a tax or duty may be imposed on such importation, not exceeding ten dollars for each person.”"
+    },
+    {
+      "label": "New Hampshire convention, New Hampshire convention, ¶ 4",
+      "pages": [
+        "203"
+      ],
+      "ref": "NewHampshire1788.4",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          219
+        ]
+      },
+      "text": "The Hon. Mr. DOW, from Weare, spoke very sensibly and feelingly against this paragraph."
+    },
+    {
+      "label": "New Hampshire convention, New Hampshire convention, ¶ 5",
+      "pages": [
+        "203"
+      ],
+      "ref": "NewHampshire1788.5",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          219
+        ]
+      },
+      "text": "Several members, on the other side, spoke in favor of it, with remarks on what Mr. Dow had said; after which, the Hon. JOSHUA ATHERTON, from Amherst, spoke as follows:—"
+    },
+    {
+      "label": "New Hampshire convention, New Hampshire convention, ¶ 6",
+      "pages": [
+        "203"
+      ],
+      "ref": "NewHampshire1788.6",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          219
+        ]
+      },
+      "text": "Mr. President, I cannot be of the opinion of the honorable gentlemen who last spoke, that this paragraph is either so useful or so inoffensive as they seem to imagine, or that the objections to it are so totally void of foundation. The idea that strikes those, who are opposed to this clause, so disagreeably and so forcibly, is, hereby it is conceived (if we ratify the Constitution) that we become consenters to, and partakers in, the sin and guilt of this abominable traffic, at least for a certain period, without any positive stipulation that it should even then be brought to an end. We do not behold in it that valuable acquisition so much boasted of by the honorable member from Portsmouth, “that an end is then to be put to slavery.” Congress may be as much, or more, puzzled to put a stop to it then, than we are now. The clause has not secured its abolition."
+    },
+    {
+      "label": "New Hampshire convention, New Hampshire convention, ¶ 7",
+      "pages": [
+        "203",
+        "204"
+      ],
+      "ref": "NewHampshire1788.7",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          219,
+          220
+        ]
+      },
+      "text": "We do not think ourselves under any obligation to perform works of supererogation in the reformation of mankind; we do not esteem ourselves under any necessity to go to Spain or Italy to suppress the inquisition of those countries; or of making a journey to the Carolinas to abolish the detestable custom of enslaving the Africans; but, sir, we will not lend the aid of our ratification to this cruel and inhuman merchandise, not even for a day. There is a great distinction in not taking a part in the most barbarous violation of the sacred laws of God and humanity, and our becoming guaranties for its exercise for a term of years. Yes, sir, it is our full purpose to wash our hands clear of it; and, however unconcerned spectators we may remain of such predatory infractions of the laws of our nature, however unfeelingly we may subscribe to the ratification of manstealing, with all its baneful consequences, yet I cannot but believe, in justice to human nature, that, if we reserve the consideration, and bring this claimed power somewhat nearer to our own doors, we shall form a more equitable opinion of its claim to this ratification. Let us figure to ourselves a company of these manstealers, well equipped for the enterprise, arriving on our coast. They seize and carry off the whole or a part of the inhabitants of the town of Exeter. Parents are taken, and children left; or possibly they may be so fortunate as to have a whole family taken and carried off together by these relentless robbers. What must be their feelings in the hands of their new and arbitrary masters? Dragged at once from every thing they held dear to them—stripped of every comfort of life, like beasts of prey—they are hurried on a loathsome and distressing voyage to the coast of Africa, or some other quarter of the globe, where the greatest price may await them; and here, if any thing can be added to their miseries, comes on the heart-breaking scene! A parent is sold to one, a son to another, and a daughter to a third! Brother is cleft from brother, sister from sister, and parents from their darling offspring! Broken with every distress that human nature can feel, and bedewed with tears of anguish, they are dragged into the last stage of depression and slavery, never, never to behold the faces of one another again! The scene is too affecting. I have not fortitude to pursue the subject!"
+    },
+    {
+      "label": "New Hampshire convention, New Hampshire convention, ¶ 8",
+      "pages": [
+        "204"
+      ],
+      "ref": "NewHampshire1788.8",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          220
+        ]
+      },
+      "text": "* * * * *"
+    }
+  ],
+  "short": "New Hampshire convention",
+  "source_ids": [
+    "loc-lled-002-xml",
+    "ia-elliot-v2-1907-toronto-xml"
+  ],
+  "title": "A Speech in the New Hampshire Ratifying Convention, 1788"
+}

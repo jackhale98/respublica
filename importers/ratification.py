@@ -451,13 +451,16 @@ def typed_of(prepared: Prepared, block, last: int | None = None) -> tuple[str, l
 
 def text_of_readings(readings: list[dict], known: set[str], lib: list[str | None] | None = None,
                      strict: bool = False, doubtful: list[bool] | None = None,
-                     typed: tuple[str, list[str | None]] | None = None) -> tuple[str, list[dict]]:
+                     typed: tuple[str, list[str | None]] | None = None,
+                     lib_source: list[str | None] | None = None) -> tuple[str, list[dict]]:
     """Text decided by vote, with uncertain spans as character offsets.
-    `lib`, `strict`, `doubtful`, `typed`: see `ocr.consensus`. A word the
-    scans could not settle carries the Library's reading as its
-    `suggestion` where no scan reads it so (or the typed text's, named in
-    `suggested_by`)."""
-    words, unsettled = consensus(readings, known, lib, strict, doubtful, typed)
+    `lib`, `strict`, `doubtful`, `typed`, `lib_source`: see `ocr.consensus`.
+    A word the scans could not settle carries the Library's reading as its
+    `suggestion` where no scan reads it so, and, where the suggestion is
+    another text's than the Anti-Federalist Library's, `suggested_by` (the
+    typed text's name, or "loc": the Library of Congress's transcription of
+    Elliot)."""
+    words, unsettled = consensus(readings, known, lib, strict, doubtful, typed, lib_source)
     pos = [0]
     for w in words:
         pos.append(pos[-1] + len(w) + 1)
@@ -466,7 +469,7 @@ def text_of_readings(readings: list[dict], known: set[str], lib: list[str | None
         span = {"end": pos[u.end] - 1, "readings": dict(sorted(u.readings.items())), "start": pos[u.start]}
         if u.suggestion:
             span["suggestion"] = u.suggestion
-        if u.suggested_by:
+        if u.suggestion and u.suggested_by and u.suggested_by != "library":
             span["suggested_by"] = u.suggested_by
         spans.append(span)
     return " ".join(words), spans

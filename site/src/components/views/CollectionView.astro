@@ -12,14 +12,15 @@ const federalist = works.federalist;
 const all = page.groups.flatMap((g) => g.works.map((id) => works[id]));
 const words = all.reduce((s, w) => s + w.words, 0);
 ---
-<Base title={page.title} section="ratification" description="Essays and letters for and against the Constitution, 1787–1788, from public-domain printings, with a permanent reference for every paragraph.">
+<Base title={page.title} section="ratification" description="Essays and letters for and against the Constitution, 1787–1788, and the debates of the state ratifying conventions, from public-domain printings, with a permanent reference for every paragraph.">
   <section class="page-head">
     <div class="container">
       <ol class="crumbs"><li><a href={href("/")}>Library</a></li><li aria-current="page">Ratification debate</li></ol>
       <h1>The Ratification Debate</h1>
       <p class="lede">
         Essays and letters printed in newspapers while the states debated the Constitution, for it and against it,
-        from collections edited by Paul Leicester Ford and by John Bach McMaster and Frederick D. Stone.
+        from collections edited by Paul Leicester Ford and by John Bach McMaster and Frederick D. Stone; and the
+        debates of the state ratifying conventions as Jonathan Elliot printed them.
       </p>
       <div class="doc-stats">
         <span><strong>{all.length}</strong> works</span>
@@ -32,7 +33,7 @@ const words = all.reduce((s, w) => s + w.words, 0);
   <div class="container">
     {page.groups.map((g) => (
       <section class="debate-group" aria-labelledby={`g-${g.key}`}>
-        <h2 id={`g-${g.key}`}><span class={`pos-dot pos-${g.key}`} aria-hidden="true"></span>{g.key === "other" ? "Other letters" : `${g.label} writers`}</h2>
+        <h2 id={`g-${g.key}`}>{g.key !== "conventions" && <span class={`pos-dot pos-${g.key}`} aria-hidden="true"></span>}{g.key === "other" ? "Other letters" : g.title}</h2>
         <ol class="debate-works">
           {g.key === "federalist" && federalist && (
             <li>
@@ -47,7 +48,9 @@ const words = all.reduce((s, w) => s + w.words, 0);
             <li>
               <a class="card debate-work" href={href(w.url)}>
                 <h3>{w.title}</h3>
-                <p class="by">{authorText(w.attribution)}{w.attribution?.byline?.startsWith("Attributed") || w.attribution?.byline?.startsWith("Accredited") ? " (attributed)" : ""}</p>
+                {w.attribution
+                  ? <p class="by">{authorText(w.attribution)}{w.attribution?.byline?.startsWith("Attributed") || w.attribution?.byline?.startsWith("Accredited") ? " (attributed)" : ""}</p>
+                  : w.summary && <p class="by">{w.summary}</p>}
                 <div class="paper-foot">
                   <span>{w.top_divisions > 1 ? `${w.top_divisions} ${w.part_name ?? "essays"}` : `${readingMinutes(w.words)} min read`}</span>
                   <span>{formatDate(w.date)}</span>

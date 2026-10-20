@@ -1,7 +1,10 @@
 """Importers: one module per upstream source. Each exposes run(out_dir) -> [paths]
 and writes to texts/ unless it sets OUT_DIR (cases/ for the case import)."""
 
-from importers import (annals, cases, elliot, federalist, globe, independence, locke, nara, paine, pamphlets,
-                       ratification, record)
+from importers import (
+    annals, cases, conventions, elliot, federalist, globe, independence, locke, nara, paine, pamphlets, ratification,
+    record,
+)
 
-IMPORTERS = [nara, federalist, ratification, pamphlets, elliot, independence, annals, globe, record, cases, paine, locke]
+IMPORTERS = [nara, federalist, ratification, pamphlets, elliot, conventions, independence, annals, globe, record, cases,
+             paine, locke]

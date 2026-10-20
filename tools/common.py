@@ -47,6 +47,9 @@ UNTRACKED_FAMILIES = {
     # Internet Archive scans that check the TCP texts of Common Sense and
     # Locke (decision 67): DjVu XML and OCR text.
     "iadecl": "ia-decl-*",
+    # The Library of Congress's typed transcription of Elliot's Debates,
+    # vols. 2-4 (decision 68); the scans it is checked against are `elliot`.
+    "lled": "loc-lled-*",
     # Moved out of git when the tracked raw files neared their 300 MB budget
     # (decision 71).
     "untglobe": "unt-globe-*",

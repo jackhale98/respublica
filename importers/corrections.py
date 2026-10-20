@@ -99,7 +99,7 @@ def apply(ref: str, text: str, spans: list[dict]) -> tuple[str, list[dict], list
         start = s["start"] + shift
         out.append(now)
         if c is None:
-            span = {k: v for k, v in s.items() if k != "suggestion"}
+            span = {k: v for k, v in s.items() if k not in ("suggestion", "suggested_by")}
             kept.append({**span, "accepted": {"at": lib["at"], "by": lib["by"], "source": "library"},
                          "end": start + len(now), "start": start})
         else:

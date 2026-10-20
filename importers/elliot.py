@@ -32,13 +32,14 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
-from importers import corrections, library
-from importers.ocr import TOKEN, Block, Vocabulary, align, attested, blocks
+from importers import amem, corrections, library
+from importers.ocr import TOKEN, Block, Vocabulary, align, attested, blocks, consensus, key
 from importers.ratification import clean_vocabulary, leaf_range, load_book, text_of_readings
 from importers.ratification_series import BOOKS, SPEAKER
 from tools.common import TEXTS_DIR, write_json
 
 BOOK = "elliot-3"
+LOC_VOLUME = 3  # the Library of Congress's transcription of the same volume (importers/amem.py)
 WORK_ID = "patrick-henry"
 PREFIX = "Henry"
 TITLE = "Speeches of Patrick Henry in the Virginia Ratifying Convention"
@@ -195,29 +196,42 @@ def units() -> list[Unit]:
 class Prepared:
     units: list[Unit]
     readings: dict[int, list[dict]]  # id(block) -> per-token readings
-    library: dict[int, list[str | None]]  # id(block) -> the Library's reading of each token
+    library: dict[int, list[str | None]]  # id(block) -> the tie-breaker's reading of each token
+    source: dict[int, list[str | None]]  # id(block) -> whose reading that is ("loc", "library")
+    loc: dict[int, list[str | None]]  # id(block) -> the Library of Congress's reading of each token
 
 
 def prepare(us: list[Unit]) -> Prepared:
     """Each block's words aligned with the other scans' readings, and with
-    the Library's text of the speech."""
+    the tie-breakers' texts: the Library of Congress's transcription of the
+    same pages (decision 68), and where it has no reading the Anti-Federalist
+    Library's text of the speech (decision 55)."""
     book = load_book(BOOK)
+    loc_ref = amem.reference(LOC_VOLUME)
     hints: dict[str, int] = {}
+    loc_hints: dict[str, int] = {}
     readings: dict[int, list[dict]] = {}
     lib: dict[int, list[str | None]] = {}
+    source: dict[int, list[str | None]] = {}
+    loc: dict[int, list[str | None]] = {}
     for u in us:
         tokens = [TOKEN.findall(b.text) for b in u.body]
         flat = [t for ts in tokens for t in ts]
         aligned = align(flat, book.refs, hints)
-        lib_flat = library.readings(flat, library.page_for("Henry", u.speech.library))
+        afl_flat = library.readings(flat, library.page_for("Henry", u.speech.library))
+        loc_flat = amem.readings(flat, loc_ref, loc_hints)
+        lib_flat = [x if x is not None else y for x, y in zip(loc_flat, afl_flat)]
+        src_flat = ["loc" if x is not None else "library" if y is not None else None for x, y in zip(loc_flat, afl_flat)]
         at = 0
         for b, ts in zip(u.body, tokens):
             readings[id(b)] = aligned[at:at + len(ts)]
             lib[id(b)] = lib_flat[at:at + len(ts)]
+            source[id(b)] = src_flat[at:at + len(ts)]
+            loc[id(b)] = loc_flat[at:at + len(ts)]
             at += len(ts)
         for b in u.notes:
             readings[id(b)] = align(TOKEN.findall(b.text), book.refs, dict(hints))
-    return Prepared(us, readings, lib)
+    return Prepared(us, readings, lib, source, loc)
 
 
 def build(p: Prepared, known: set[str]) -> dict:
@@ -231,10 +245,11 @@ def build(p: Prepared, known: set[str]) -> dict:
                 (None, u.body, lambda n: f"{base}.{n}", lambda n: f"Henry, {u.label}, ¶ {n}"),
                 ("footnote", u.notes, lambda n: f"{base}.fn{n}", lambda n: f"Henry, {u.label}, note {n}")):
             for n, b in enumerate(bs, 1):
-                # Elliot's text is the printing the Library follows: a settled
-                # word it reads differently is left for a person (`strict`).
+                # The tie-breakers follow Elliot's text: a settled word they
+                # read differently is left for a person (`strict`).
                 text, spans, fixed = corrections.apply(
-                    ref_of(n), *text_of_readings(p.readings[id(b)], known, p.library.get(id(b)), strict=True))
+                    ref_of(n), *text_of_readings(p.readings[id(b)], known, p.library.get(id(b)), strict=True,
+                                                 lib_source=p.source.get(id(b))))
                 seg = {"label": label_of(n), "pages": b.folios, "ref": ref_of(n),
                        "scan": {"item": bookdef["item"], "leaves": b.leaves}, "text": text}
                 if kind:
@@ -254,14 +269,16 @@ def build(p: Prepared, known: set[str]) -> dict:
                              "debates, June 5–25, 1788. The speeches of Patrick Henry that the Anti-Federalist "
                              "Library prints, each as Elliot prints it, with any other member's remarks it takes "
                              "in. Read from OCR scans and checked word by word against scans of three other copies; "
-                             "where they disagreed, the Library's text was used to choose among their readings, "
-                             "never to add one; words still unsettled are marked as uncertain. See docs/editions.md."},
+                             "where they disagreed, the Library of Congress's typed transcription of the same "
+                             "pages (and where it could not be lined up, the Library's text) was used to choose "
+                             "among their readings, never to add one; words still unsettled are marked as "
+                             "uncertain. See docs/editions.md."},
         "id": WORK_ID,
         "position": "anti",
         "ref_prefix": PREFIX,
         "segments": segments,
         "short": "Patrick Henry",
-        "source_ids": [bookdef["primary"], *bookdef["references"].values(),
+        "source_ids": [bookdef["primary"], *bookdef["references"].values(), amem.source_id(LOC_VOLUME),
                        *library.source_ids("Henry", [u.speech.library for u in p.units])],
         "title": TITLE,
     }
@@ -283,6 +300,43 @@ def run(out_dir: Path = TEXTS_DIR) -> list[Path]:
     return [path]
 
 
+def loc_disagreements() -> list[dict]:
+    """Words the scans settled that the Library of Congress's transcription
+    reads otherwise (by letters): errata candidates, for a person to check
+    against the page image (docs/errata.md). Where the word is now marked
+    uncertain (`strict`), `marked` is true; the text keeps the scans' word
+    either way."""
+    pr = prepare(units())
+    known = Vocabulary(clean_vocabulary())
+    for r in pr.readings.values():
+        known.attest(attested(r))
+    out = []
+    for u in pr.units:
+        for n, b in enumerate(u.body, 1):
+            readings, loc = pr.readings[id(b)], pr.loc[id(b)]
+            words, unsettled = consensus(readings, known, pr.library[id(b)], True, None, pr.source[id(b)])
+            marked = {x.start for x in unsettled}
+            i = k = 0
+            while i < len(readings):
+                end = i + 1
+                while end < len(readings) and "" in readings[end].values():
+                    end += 1
+                theirs = loc[i:end]
+                if (all(x is not None for x in theirs) and theirs[0] and not (end < len(loc) and loc[end] == "")
+                        and key(" ".join(x for x in theirs if x)) != key(words[k])):
+                    out.append({"ref": f"{PREFIX}.{u.key}.{n}", "word": words[k], "loc": " ".join(x for x in theirs if x),
+                                "marked": k in marked, "pages": b.folios,
+                                "context": " ".join(words[max(0, k - 5):k + 6])})
+                i, k = end, k + 1
+    return out
+
+
 if __name__ == "__main__":
-    for path in run():
-        print(f"wrote {path}")
+    import sys
+    if sys.argv[1:] == ["loc-report"]:
+        for d in loc_disagreements():
+            print(f"{d['ref']}\tp. {', '.join(d['pages'])}\t{d['word']!r}\tLoC {d['loc']!r}\t"
+                  f"{'marked' if d['marked'] else 'kept'}\t{d['context']}")
+    else:
+        for path in run():
+            print(f"wrote {path}")

@@ -20,10 +20,12 @@ const attr = work.attribution;
         <li><a href={href("/ratification/")}>Ratification debate</a></li>
         <li aria-current="page">{work.short}</li>
       </ol>
-      <span class={`eyebrow pos pos-${work.position}`}>{POSITION_LABELS[work.position]}</span>
+      {work.position
+        ? <span class={`eyebrow pos pos-${work.position}`}>{POSITION_LABELS[work.position]}</span>
+        : <span class="eyebrow">The state ratifying conventions</span>}
       <h1>{work.title}</h1>
       <p class="lede">
-        {parts.length} {work.part_name ?? "essays"}, {formatDate(work.date)}. {attr?.byline && <Fragment>{attr.byline}{" "}<span class="muted">(as given in {attr.source})</span>.</Fragment>}
+        {parts.length} {work.part_name ?? "essays"}, {formatDate(work.date)}. {!attr && work.summary} {attr?.byline && <Fragment>{attr.byline}{" "}<span class="muted">(as given in {attr.source})</span>.</Fragment>}
       </p>
       <div class="doc-stats">
         <span><strong>{parts.length}</strong> {work.part_name ?? "essays"}</span>
@@ -42,7 +44,7 @@ const attr = work.attribution;
           <li>
             <a class="card paper" href={href(p.url)}>
               <div class="paper-top">
-                {work.part_name !== "speeches" && (p.numeral ?? p.label.split(" ").at(-1)) && <span class="paper-no">{p.numeral ?? p.label.split(" ").at(-1)}</span>}
+                {work.part_name !== "speeches" && work.part_name !== "days" && (p.numeral ?? p.label.split(" ").at(-1)) && <span class="paper-no">{p.numeral ?? p.label.split(" ").at(-1)}</span>}
                 <AuthorChip attribution={p.attribution} short />
               </div>
               <h3>{p.label}</h3>
@@ -56,7 +58,7 @@ const attr = work.attribution;
       })}
     </ol>
     <p class="legend-note">
-      Text of {work.edition.name}, {work.typed ? "as typed by the Text Creation Partnership" : "read from OCR scans"}. <a href={href("/about/#ocr")}>How this text was made</a>
+      Text of {work.edition.name}, {work.typed ? "as typed by the Text Creation Partnership" : work.part_name === "days" ? "as the Library of Congress typed it, checked against a scan" : "read from OCR scans"}. <a href={href("/about/#ocr")}>How this text was made</a>
     </p>
   </div>
 </Base>

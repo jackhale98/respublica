@@ -20,9 +20,11 @@ independence: the Journals of the Continental Congress and Ford's
 `importers/independence.py` (a typed transcription as the text, checked
 against scans: see "A transcription as the text" below; the 1775
 Declaration of the Causes and the Virginia Declaration of Rights, decision
-66, are read the same way).
+66, are read the same way); `importers/amem.py` with
+`importers/conventions.py` (the Library of Congress's typed Elliot: Henry's
+tie-breaker, and the text of the state ratifying conventions).
 Tests: `tests/test_ocr.py`, `tests/test_library.py`, `tests/test_tcp.py`,
-`tests/test_independence.py`.
+`tests/test_independence.py`, `tests/test_conventions.py`.
 
 ## The idea in one paragraph
 
@@ -283,6 +285,17 @@ may word it otherwise: "Twelfth." against the scans' "12."). Words the
 transcription could not read give no reading. Works and divisions used:
 `typed` in `importers/ratification_series.py`.
 
+**Patrick Henry: the Library of Congress's Elliot first** (decision 68).
+For Henry's speeches the tie-breaker's reading of each word is the Library
+of Congress's typed transcription of the same volume and pages
+(`importers/amem.py`), where it lines up with the word, and the
+Anti-Federalist Library's only where it does not; the rules above are the
+same (`strict`). A suggestion records whose it is (`suggested_by: "loc"`),
+and only the Anti-Federalist Library's are taken in bulk by
+`tools.errata accept-library`. `python -m importers.elliot loc-report`
+lists every word the scans settled that the transcription reads otherwise
+(erratum 150).
+
 ## One scan: the New-York Journal (`importers/nyjournal.py`)
 
 Brutus V–XVI exist only in the original newspaper, scanned once by the
@@ -363,6 +376,21 @@ found, so only the words holding letters the keyers could not read are
 marked (`docs/editions.md`, "Pamphlets typed by the Text Creation
 Partnership"). Those words are not on `/errata/`, which needs a page image.
 
+**The Library of Congress's Elliot** (decision 68) is the text of the state
+ratifying conventions in the same way (`importers/conventions.py`): each
+word of the transcription is lined up with the Internet Archive's scans of
+the 1907 printing of the same volume, one scan for vols. 2 and 4, four for
+vol. 3, and marked uncertain, with the transcription's reading as `primary`
+beside the scans', where most of the scans read another known word (or a
+number) and it is not a shared OCR confusion; scan readings that are not
+words are OCR noise, counted but not marked, and where the scans split
+evenly nothing is marked. A word only one scan reads with a known word's
+letters is still marked: with one scan, an OCR misreading that makes a word
+("be" for "he") cannot be told from a keying slip, so both are left for a
+person. Before that, the importer checks that the pagination is the same
+(the first words of each paragraph are on the scan's page of that number).
+Details in `docs/editions.md`, "The state ratifying conventions".
+
 ## Step 4: structure (`ratification.py`)
 
 Each series lists, in `ratification_series.py`, its book, the printed pages
@@ -411,8 +439,9 @@ In `texts/{work}.json` (validated by `make verify`, see
 
 - `suggestion` on an uncertain span: the Anti-Federalist Library's reading,
   where no scan's reading agrees with it. Verify checks it is one line and
-  differs from the text. With `suggested_by` ("Evans-TCP N16599"), it is
-  that typed text's reading instead (decision 69); `python -m tools.errata
+  differs from the text. With `suggested_by`, it is another tie-breaker's
+  reading instead: a typed text's ("Evans-TCP N16599", decision 69) or the
+  Library of Congress's Elliot ("loc", decision 68); `python -m tools.errata
   accept-library` leaves those for a person.
 - `accepted` on an uncertain span (`{source: "library", by, at}`): the text
   has the Library's reading there, accepted by the project owner without a

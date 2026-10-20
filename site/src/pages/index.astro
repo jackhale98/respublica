@@ -40,7 +40,9 @@ const congress = site.works.filter((w) => w.collection === "congress");
 const road = site.works.filter((w) => w.collection === "independence");
 const cases = site.stats.cases ? loadPage("cases").cases : [];
 const withSyllabus = cases.filter((c) => c.syllabus > 0).length;
-const debateEssays = debate.reduce((s, w) => s + w.top_divisions, 0);
+const conventions = debate.filter((w) => w.group === "conventions");
+const debateEssays = debate.filter((w) => w.position).reduce((s, w) => s + w.top_divisions, 0);
+const conventionDays = conventions.reduce((s, w) => s + w.top_divisions, 0);
 const sideCount = (k) => debate.filter((w) => w.position === k).length;
 ---
 <Base>
@@ -149,8 +151,8 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
         <a class="card work-card w-debate" href={href("/ratification/")}>
           <span class="work-icon"><Icon name="feather" /></span>
           <h3>The ratification debate</h3>
-          <p>Brutus, Cato, Centinel, the Federal Farmer, the Landholder, Patrick Henry's speeches in the Virginia convention and more: {debateEssays} essays, letters and speeches for and against the Constitution, from public-domain printings.</p>
-          <div class="work-meta"><span>{sideCount("anti")} Anti-Federalist works</span><span>{sideCount("federalist")} Federalist</span></div>
+          <p>Brutus, Cato, Centinel, the Federal Farmer, the Landholder, Patrick Henry's speeches in the Virginia convention and more: {debateEssays} essays, letters and speeches for and against the Constitution, from public-domain printings{conventions.length > 0 && <Fragment>; and the debates of {conventions.length} state ratifying conventions as Elliot printed them, {conventionDays} days in all</Fragment>}.</p>
+          <div class="work-meta"><span>{sideCount("anti")} Anti-Federalist works</span><span>{sideCount("federalist")} Federalist</span>{conventions.length > 0 && <span>{conventions.length} conventions</span>}</div>
         </a>
       )}
       {congress.length > 0 && (

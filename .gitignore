@@ -13,6 +13,8 @@ sources/raw/ia-globe-*
 # The bound Congressional Record's govinfo PDFs (one per house per day) and the Internet Archive's microfilm OCR of its parts: `make fetch` restores them (decision 61)
 sources/raw/govinfo-crecb-*
 sources/raw/ia-record-*
+# The Library of Congress's typed transcription of Elliot's Debates, vols. 2-4, which the scans (ia-elliot-*) check: `make fetch` restores it (decision 68)
+sources/raw/loc-lled-*
 # Internet Archive scans of the Journals of the Continental Congress and of Ford's Writings of Thomas Jefferson (the road to independence): `make fetch` restores them (decision 66)
 sources/raw/ia-road-*
 # Internet Archive scans that check the TCP texts of Common Sense and Locke (decision 67): `make fetch` restores them

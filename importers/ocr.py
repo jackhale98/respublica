@@ -606,7 +606,7 @@ class Uncertain:
     end: int
     readings: dict[str, str]
     suggestion: str | None = None  # the Anti-Federalist Library's reading, where no scan's agrees with it
-    suggested_by: str | None = None  # a typed text's name, where the suggestion is its reading, not the Library's
+    suggested_by: str | None = None  # whose reading the suggestion is, where it is not the Library's own: a typed text's name, or which library ("loc")
 
 
 def align(tokens: list[str], refs: list[Reference], hints: dict[str, int]) -> list[dict[str, str]]:
@@ -758,7 +758,8 @@ def attested(readings: list[dict[str, str]]) -> set[str]:
 
 def consensus(readings: list[dict[str, str]], known: set[str], library: list[str | None] | None = None,
               strict: bool = False, doubtful: list[bool] | None = None,
-              typed: tuple[str, list[str | None]] | None = None) -> tuple[list[str], list[Uncertain]]:
+              typed: tuple[str, list[str | None]] | None = None,
+              library_source: list[str | None] | None = None) -> tuple[list[str], list[Uncertain]]:
     """Vote on each word (see `vote`); return the words and the unsettled ones.
 
     Where a scan read two of the primary's tokens as one word (a reading of
@@ -772,7 +773,11 @@ def consensus(readings: list[dict[str, str]], known: set[str], library: list[str
     text of another printing (its name and its reading of each token; the
     Text Creation Partnership's, decision 69), a second tie-breaker, never
     strict: it is asked only about a word the Library has left unsettled
-    without a suggestion of its own."""
+    without a suggestion of its own. `library_source`: where the
+    tie-breaker's readings come from more than one text (Patrick Henry's
+    speeches: the Library of Congress's transcription of Elliot, else the
+    Anti-Federalist Library; decision 68), whose each token's is, recorded
+    with a suggestion as `suggested_by`."""
     out: list[str] = []
     uncertain: list[Uncertain] = []
     i = 0
@@ -805,6 +810,8 @@ def consensus(readings: list[dict[str, str]], known: set[str], library: list[str
         lib = reading_of(library, i, end)
         if lib:
             word, settled, suggestion = tie_break(joint, word, settled, lib, strict, known)
+            if suggestion and library_source:
+                by = library_source[i]
         other = reading_of(typed[1], i, end) if typed and not settled and suggestion is None else None
         if other:
             word, settled, suggestion = tie_break(joint, word, settled, other, False, known)

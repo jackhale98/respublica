@@ -162,6 +162,8 @@ def check_ocr_records(raw: dict[str, dict]) -> list[str]:
 
 
 SEGMENT_KINDS = {"footnote", "syllabus"}
+# Tie-breakers other than the Anti-Federalist Library whose suggestions a span may carry.
+SUGGESTED_BY = {"loc"}
 POSITIONS = {"anti", "federalist", "other"}
 SCAN_ITEM = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{2,99}$")
 
@@ -199,9 +201,11 @@ def check_uncertain(where: str, text: str, spans: Any) -> list[str]:
         if "suggestion" in u and not (isinstance(sug, str) and sug.strip() and "\n" not in sug and len(sug) <= 200
                                       and sug != text[start:stop]):
             errors.append(f"{where}: uncertain span {start}-{stop} has a bad suggestion {sug!r}")
-        # A typed text's suggestion names the text (decision 69).
+        # Whose the suggestion is, where not the Library's: a typed text
+        # (decision 69) or another library (decision 68).
         if "suggested_by" in u and not ("suggestion" in u and isinstance(u["suggested_by"], str)
-                                        and re.fullmatch(r"Evans-TCP N\d{5}", u["suggested_by"])):
+                                        and (u["suggested_by"] in SUGGESTED_BY
+                                             or re.fullmatch(r"Evans-TCP N\d{5}", u["suggested_by"]))):
             errors.append(f"{where}: uncertain span {start}-{stop} has a bad suggested_by {u['suggested_by']!r}")
     return errors
 

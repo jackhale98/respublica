@@ -120,7 +120,10 @@ def accept_library(owner: str, today: str) -> dict:
         items = []
         for seg in doc.get("segments", []):
             for i, u in enumerate(seg.get("uncertain", [])):
-                if u.get("suggestion") and "accepted" not in u and not u.get("suggested_by"):
+                # Only the Anti-Federalist Library's: the owner's decision of
+                # 56 covers neither a typed text's (decision 69) nor another
+                # tie-breaker's (decision 68).
+                if u.get("suggestion") and "accepted" not in u and u.get("suggested_by", "library") == "library":
                     items.append({"at": today, "by": owner, "index": i, "now": u["suggestion"], "ref": seg["ref"],
                                   "source": "library", "was": seg["text"][u["start"]:u["end"]]})
         if not items:

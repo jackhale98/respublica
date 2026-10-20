@@ -269,6 +269,47 @@ Imported by `importers/elliot.py` from Elliot's *Debates*, vol. 3.
   Henry's, each opening with its speaker's name.
 - Notes, if any: `Henry.{day}.fn{k}`.
 
+### The state ratifying conventions (`texts/{state}-convention-{year}.json`)
+
+The debates of the state ratifying conventions as Elliot prints them,
+imported by `importers/conventions.py` from the Library of Congress's typed
+transcription of Elliot's *Debates*, vols. 2–4 (decision 68), one work per
+convention:
+
+| Work | Prefix | Days |
+|---|---|---|
+| `texts/massachusetts-convention-1788.json` | `Massachusetts1788` | January 9 – February 7, 1788 |
+| `texts/connecticut-convention-1788.json` | `Connecticut1788` | January 4–9, 1788 |
+| `texts/new-hampshire-convention-1788.json` | `NewHampshire1788` | a single piece (undated) |
+| `texts/new-york-convention-1788.json` | `NewYork1788` | June 17 – July 26, 1788 |
+| `texts/pennsylvania-convention-1787.json` | `Pennsylvania1787` | November 20 – December 11, 1787; September 3, 1788 (the Harrisburg meeting) |
+| `texts/maryland-convention-1788.json` | `Maryland1788` | a single piece (the minority's address) |
+| `texts/virginia-convention-1788.json` | `Virginia1788` | June 2–27, 1788 |
+| `texts/north-carolina-convention-1788.json` | `NorthCarolina1788` | July 21 – August 2, 1788 |
+| `texts/south-carolina-convention-1788.json` | `SouthCarolina1788` | January 16–19 (the House of Representatives) and May 12–23, 1788 |
+
+- The prefix is the state, without spaces, and the year the convention
+  met; the Harrisburg meeting, which Elliot prints after Pennsylvania's
+  convention, keeps the convention's prefix (`Pennsylvania1787.Sep3`).
+- `Virginia1788.Jun5`: one division per day as Elliot prints the days,
+  named by the date as month and day. The date is the day's: where the
+  day's heading is misprinted or mistyped, the date follows the weekday and
+  the order of the days, and the division has a note (`Pennsylvania1787.Nov23`,
+  headed "Friday, November 25"; `Pennsylvania1787.Nov28`, "Wednesday,
+  October 28"; `NewYork1788.Jul8` and `Jul23`, "1738" and "1783";
+  `Virginia1788.Jun19`, the second "Wednesday, June 18", erratum 60).
+- `Virginia1788.Jun5.{paragraph}`: every printed paragraph of the day,
+  numbered from 1: the dateline ("Thursday, June 5, 1788.") or the
+  paragraph it opens ("Thursday, January 10.—The committee …"), headings
+  within the day ("AYES."), each line of a vote list, the reporter's notes.
+  A speech keeps its speaker's name as printed ("Mr. HENRY."). A heading
+  over a day (South Carolina's "DEBATES IN CONVENTION.") is its paragraph 1.
+- Notes: `Virginia1788.Jun5.fn{k}`, numbered in order within the day.
+- A single piece: `NewHampshire1788.{paragraph}`, `Maryland1788.{paragraph}`.
+- Patrick Henry's speeches are in both `Virginia1788` and `Henry`; the two
+  works are read from different texts (the transcription, the OCR scans)
+  and their refs are independent.
+
 ## Sources of the Declaration
 
 Texts from the Text Creation Partnership's transcriptions, checked against

@@ -348,7 +348,7 @@
   ],
   "edition": {
     "name": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 3 (2nd ed., Philadelphia: J. B. Lippincott, 1907 printing)",
-    "notes": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 3 (2nd ed., Philadelphia: J. B. Lippincott, 1907 printing), pp. 43–652: the Virginia convention's debates, June 5–25, 1788. The speeches of Patrick Henry that the Anti-Federalist Library prints, each as Elliot prints it, with any other member's remarks it takes in. Read from OCR scans and checked word by word against scans of three other copies; where they disagreed, the Library's text was used to choose among their readings, never to add one; words still unsettled are marked as uncertain. See docs/editions.md."
+    "notes": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 3 (2nd ed., Philadelphia: J. B. Lippincott, 1907 printing), pp. 43–652: the Virginia convention's debates, June 5–25, 1788. The speeches of Patrick Henry that the Anti-Federalist Library prints, each as Elliot prints it, with any other member's remarks it takes in. Read from OCR scans and checked word by word against scans of three other copies; where they disagreed, the Library of Congress's typed transcription of the same pages (and where it could not be lined up, the Library's text) was used to choose among their readings, never to add one; words still unsettled are marked as uncertain. See docs/editions.md."
   },
   "id": "patrick-henry",
   "position": "anti",
@@ -2125,18 +2125,7 @@
           329
         ]
       },
-      "text": "Mr. HENRY. Mr. Chairman, once more 1 find it necessary to trespass on your patience. An honorable gentleman, several days ago, observed, that the great object of this government was justice. We were told before, that the greater consideration was union. However, the consideration of justice seems to have been what influenced his mind when he made strictures on the proceedings of the Virginia Assembly. I thought the reasons of that transaction had been sufficiently explained.",
-      "uncertain": [
-        {
-          "end": 36,
-          "readings": {
-            "cornell": "1",
-            "harvard": "I",
-            "primary": "1"
-          },
-          "start": 35
-        }
-      ]
+      "text": "Mr. HENRY. Mr. Chairman, once more I find it necessary to trespass on your patience. An honorable gentleman, several days ago, observed, that the great object of this government was justice. We were told before, that the greater consideration was union. However, the consideration of justice seems to have been what influenced his mind when he made strictures on the proceedings of the Virginia Assembly. I thought the reasons of that transaction had been sufficiently explained."
     },
     {
       "label": "Henry, June 12, 1788, ¶ 2",
@@ -4746,6 +4735,7 @@
     "ia-elliot-v3-1876-cornell-txt",
     "ia-elliot-v3-1861-google-txt",
     "ia-elliot-v3-1836-google-txt",
+    "loc-lled-003-xml",
     "afl-henry1",
     "afl-henry10",
     "afl-henry11",
