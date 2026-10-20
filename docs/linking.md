@@ -259,7 +259,7 @@ or the Annals' own notes or the record of votes ("yeas and nays").
 Confidence and rationale follow run 1. Every run is checked by a second
 agent against both texts before it is proposed, as in run 2.
 
-**Notes from the runs on 1794–1919** (October 2026), followed in those runs:
+**Notes from the runs on 1794–1971** (October 2026), followed in those runs:
 
 - **The Constitution "as it stood"** includes every amendment ratified by the
   day of the debate: 1–15 for 1909–12, 1–17 for 1917, 1–18 for 1919. A
@@ -273,7 +273,23 @@ agent against both texts before it is proposed, as in run 2.
   fourteenth amendment" with nothing that picks out a section is not a link,
   nor is a mention in an account of an amendment's ratification.
 - **"Section N" without its article** is linked only when the article was
-  named just before, at `medium`.
+  named just before, at `medium`. A named section ("article I, section 2")
+  may be cited as a whole (`Constitution.1.2`); a multi-section amendment
+  named only as a whole is not a link (the project owner's decision, after
+  the 1932–71 run proposed 514 such links and they were dropped).
+- **The subject of the debate is not a citation**: "repeal of the eighteenth
+  amendment" in 1933 names what is being debated. Nor are a resolution's
+  formulas that echo Article V ("valid to all intents and purposes as part
+  of the Constitution") or the ratification clauses.
+- **Clause numbering that differs from ours** ("article II, section 1,
+  clause 5" for the succession clause, our 2.1.6) is linked to the clause
+  the words fit, with the numbering noted in the rationale.
+- **Several proposals in one debate** (1960: the District of Columbia
+  electors and the poll tax): pass 2 compares each proposal with the
+  amendment it became, if any.
+- **Run 4 targets only the Constitution and the amendments.** Quotations of
+  The Federalist, the Declaration, the 1787 Convention's drafts or state
+  constitutions are left for a later run.
 - **Misnumbered references.** Speakers often misnumber ("the first section
   of the fourth article" for Article IV, section 2). Where the words quote
   or unmistakably describe a clause, link that clause at `medium` (or

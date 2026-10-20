@@ -648,6 +648,10 @@ def work_group(corpus: Corpus, wid: str) -> str:
     return {"anti": "anti", "federalist": "federalist"}.get(doc.get("position"), "other")
 
 
+# Links drawn from each second-hop neighbour in a page's graph.
+GRAPH_SECOND = 25
+
+
 def build_graph(links: list[dict], corpus: Corpus, url_for, page_refs: dict[str, list[str]],
                 shorts: dict[str, str] | None = None) -> dict[str, dict]:
     """For each page, the links within two hops of its passages.
@@ -673,9 +677,16 @@ def build_graph(links: list[dict], corpus: Corpus, url_for, page_refs: dict[str,
         hop0 = {r for r in refs if r in adj}
         hop1 = {(l["to"] if l["from"] == r else l["from"]) for r in hop0 for l in adj[r]}
         edges: dict[str, dict] = {}
-        for r in hop0 | hop1:
-            for l in adj.get(r, []):
-                edges[l["id"]] = {k: l[k] for k in ("id", "from", "to", "type", "status", "confidence")}
+        keep = lambda l: {k: l[k] for k in ("id", "from", "to", "type", "status", "confidence")}  # noqa: E731
+        for r in hop0:
+            for l in adj[r]:
+                edges[l["id"]] = keep(l)
+        # The second hop: at most GRAPH_SECOND links from each neighbour,
+        # reviewed first, so that a clause linked a thousand times (Article
+        # V) does not bring its whole neighbourhood into every page's graph.
+        for r in hop1 - hop0:
+            for l in sorted(adj.get(r, []), key=lambda l: (l.get("status") != "reviewed", l["id"]))[:GRAPH_SECOND]:
+                edges[l["id"]] = keep(l)
         nodes = {r: node(r) for e in edges.values() for r in (e["from"], e["to"])}
         out[pid] = {"edges": sorted(edges.values(), key=lambda e: e["id"]), "nodes": dict(sorted(nodes.items()))}
     return out

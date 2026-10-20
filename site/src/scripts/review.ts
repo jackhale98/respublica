@@ -26,8 +26,10 @@ const clear = bar.querySelector<HTMLButtonElement>("[data-clear]")!;
 
 // ---------------------------------------------------------------- state
 
+// A batch's links, from its three confidence lists (the page lists each id once).
+const idsOf = (el: HTMLElement) => ["high", "medium", "low"].flatMap((c) => (el.dataset[c] || "").split(" ").filter(Boolean));
 const live = new Set<string>();
-root.querySelectorAll<HTMLElement>("[data-ids]").forEach((el) => el.dataset.ids!.split(" ").filter(Boolean).forEach((id) => live.add(id)));
+root.querySelectorAll<HTMLElement>("[data-batch]").forEach((el) => idsOf(el).forEach((id) => live.add(id)));
 
 let decisions: Record<string, Decision> = {};
 try {
@@ -123,7 +125,7 @@ function update() {
   send.textContent = todo.length > PER_ISSUE ? `Send ${PER_ISSUE} of ${todo.length} to GitHub` : "Send to GitHub";
   if (/^[A-Za-z0-9-]+\/[A-Za-z0-9._-]+$/.test(repo) && batch.length) send.href = issueUrl(batch);
   root.querySelectorAll<HTMLElement>("[data-batch]").forEach((el) => {
-    const ids = el.dataset.ids!.split(" ");
+    const ids = idsOf(el);
     const done = ids.filter((id) => decisions[id]).length;
     const count = el.querySelector<HTMLElement>("[data-batch-count]")!;
     count.textContent = `${done ? `${done} of ` : ""}${ids.length} ${ids.length === 1 ? "link" : "links"}${done ? " decided" : ""}`;
