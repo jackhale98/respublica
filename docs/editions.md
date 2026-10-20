@@ -210,7 +210,9 @@ OCR (`importers/tcp.py`):
 Imported by `importers/ratification.py` (phase 5) from four public-domain
 compilations, read from the Internet Archive's scans, and (Brutus V–XVI) from
 the original newspaper; Patrick Henry's speeches by `importers/elliot.py`
-from Elliot's *Debates*. Modern compilations (Storing, 1981; Borden, 1965)
+from Elliot's *Debates*, and the debates of the state ratifying conventions
+by `importers/conventions.py` from the Library of Congress's typed
+transcription of Elliot (see "The state ratifying conventions" below). Modern compilations (Storing, 1981; Borden, 1965)
 are not candidates because of copyright.
 
 | Book | Scans used | Imported |
@@ -221,6 +223,7 @@ are not candidates because of copyright.
 | *Debates and Proceedings in the Convention of the Commonwealth of Massachusetts, held in the year 1788* (Boston, 1856) | `debatesproceedin00mass` (DjVu XML); checked against `debatesproceedin00massrich`, `debatesandproce03convgoog` and `cu31924032635546` | Brutus I–IV ("Spirit of the Press", pp. 366–398) |
 | *The New-York Journal, and Weekly Register* (New York: Thomas Greenleaf), December 13, 1787 to April 10, 1788 | the Library of Congress's scans in Chronicling America (LCCN sn83030566): each page's ALTO XML (words, boxes, confidence), pages 2 and 3 of thirteen issues; one scan only | Brutus V–X and XII–XVI, as first printed (XII and XIV in two instalments each) |
 | Jonathan Elliot, ed., *The Debates in the Several State Conventions on the Adoption of the Federal Constitution*, vol. 3 (2nd ed., standard pagination; Philadelphia: Lippincott, 1907 printing) | `debatesinseveral03elliuoft` (DjVu XML); checked against `cu31924024573820` (1876), `debatesinsevera08convgoog` (1861) and `debatesinsevera12elligoog` (1836), all of the same pagination | Patrick Henry's speeches in the Virginia convention, June 5–25, 1788 (the twenty-four the Anti-Federalist Library prints, pp. 43–652) |
+| Elliot, *Debates*, vols. 2–4 (2nd ed., Washington, 1836): the Library of Congress's typed transcription (`lled002`–`lled004`, 1997) | the text is the transcription, not OCR; checked against `debatesinseveral02elliuoft`, `debatesinseveral03elliuoft` (with the three other vol. 3 scans above) and `debatesinseveral04elliuoft` (1907 printing, the same pagination) | the state ratifying conventions: Massachusetts, Connecticut, New Hampshire, New York, Pennsylvania, Maryland (vol. 2, pp. 1–556), Virginia (vol. 3, pp. 1–663), North Carolina and South Carolina (vol. 4, pp. 1–341) |
 
 **Method.** The text is read from the scans by OCR consensus: one scan's
 layout and words, checked word by word against the OCR of other copies of
@@ -286,6 +289,19 @@ whose pages differ and which is never mixed in. The 1861–1907 printings
 head the day of Henry's June 19 speech "Wednesday, June 18" a second time
 (erratum 60).
 
+**The Library of Congress's Elliot as Henry's tie-breaker** (decision 68).
+The Library of Congress's typed transcription of vol. 3 (the standard
+pagination; see "The state ratifying conventions") is a strict tie-breaker
+before the Anti-Federalist Library: where it lines up with a word, its
+reading is the one used to choose among the scans' readings (never to add
+one), and the Anti-Federalist Library's only where it does not line up. A
+settled word it reads otherwise is left as the scans read it (marked
+uncertain where fewer than two scans read it so or it is not a known word,
+as `strict` always did); every such word is listed in erratum 150, since
+both sides have errors there: unmarked OCR slips in our text ("tning",
+"agam") and the transcription's keying slips ("fight" for "right",
+"cheek" for "check").
+
 **The Anti-Federalist Library as a tie-breaker** (decision 55). The
 Library (antifederalists.org; its Markdown at
 github.com/seven-obelisks/antifederalists, pinned to one commit and kept as
@@ -300,7 +316,83 @@ Agrippa I–XI, the Federal Farmer I–V, Centinel I and V–XVIII and Henry's
 speeches; not for Cato (its pages are duplicated or cut short) or Centinel
 II–IV (excerpts).
 
-**Not yet imported:**
+## The state ratifying conventions
+
+Imported by `importers/conventions.py` (decision 68), nine works, one per
+convention as Elliot prints it, from Jonathan Elliot, ed., *The Debates in
+the Several State Conventions on the Adoption of the Federal Constitution*
+(2nd ed., Washington, 1836; the standard pagination the Lippincott
+printings keep):
+
+| Work | Elliot | Days |
+|---|---|---|
+| `massachusetts-convention-1788` | vol. 2, pp. 1–183 | 24, January 9 – February 7, 1788 |
+| `connecticut-convention-1788` | vol. 2, pp. 185–202 ("Fragment of the Debates") | 3, January 4–9, 1788 |
+| `new-hampshire-convention-1788` | vol. 2, pp. 203–204 (one speech, undated) | a single piece |
+| `new-york-convention-1788` | vol. 2, pp. 205–414 | 24, June 17 – July 26, 1788 |
+| `pennsylvania-convention-1787` | vol. 2, pp. 415–546 | 14, November 20 – December 11, 1787, and the Harrisburg meeting of September 3, 1788 |
+| `maryland-convention-1788` | vol. 2, pp. 547–556 ("A Fragment of Facts", the minority's address of April 21, 1788) | a single piece |
+| `virginia-convention-1788` | vol. 3, pp. 1–663 | 23, June 2–27, 1788 |
+| `north-carolina-convention-1788` | vol. 4, pp. 1–252 | 12, July 21 – August 2, 1788 |
+| `south-carolina-convention-1788` | vol. 4, pp. 253–341 (the House of Representatives, then the convention) | 10, January 16–19 and May 12–23, 1788 |
+
+**The text** is the Library of Congress's typed transcription of each
+volume ("A Century of Lawmaking for a New Nation", American Memory, 1997;
+`lled002`–`lled004` at tile.loc.gov), keyed by hand to "an accuracy rate of
+99.95 percent or greater", as XML with the printed page numbers. It is in
+the public domain (the file's header: "Publication exempt from copyright
+protection"; the collection's rights page: "in the public domain and ...
+free to use and reuse"). `importers/amem.py` reads it. No word is changed;
+only the file's own layout is undone: the line breaks its pretty-printer put
+around italics ("Thursday\n, January"), the printer's signature marks keyed
+at the foot of pages ("42", "4 3"), the library stamp on the first page,
+and three words keyed broken across a page ("in-" and "ference"), which are
+rejoined. A table is its cells in the file's order. The transcription has
+no marks for illegible words or gaps; it prints the reporter's bracketed
+remarks in angle brackets ("〈Here Mr. Madison spoke too low to be
+understood.〉") in a few places, kept as it has them.
+
+**Division.** Each work runs from the paragraph after the section's
+heading to the last before the next section, and is divided by day at the
+paragraph that begins the day as Elliot prints it ("Thursday, January
+10.—The committee …", "Tuesday, June 3, 1788."). The importer lists every
+day and the words that begin it, checks each weekday against the calendar,
+and stops if it finds another dateline. Where the day's heading has another
+date than the day's, the ref follows the weekday and the order of the days,
+and the day carries a note: Pennsylvania's "Friday, November 25" (the 23d;
+the scan reads "23", so the slip is the transcription's) and "Wednesday,
+October 28" (November 28; the scan prints it so), New York's "1738" and
+"1783" (1788; the transcription's slips), and Virginia's second "Wednesday,
+June 18" (June 19; erratum 60). Every printed paragraph is a passage,
+datelines, headings ("AYES.") and each line of a vote list too, with the
+speaker's name as printed. Elliot's footnotes follow their paragraph as
+notes. A heading over a day (South Carolina's "DEBATES IN CONVENTION.",
+Connecticut's "Collected from contemporary publications …") is that day's
+first paragraph.
+
+**The check against the scans.** Every word is lined up with the Internet
+Archive's scan of the 1907 Lippincott printing of the same volume (the
+University of Toronto's copies; for Virginia, also the 1876, 1861 and 1836
+scans Henry's speeches are read from). First the pagination: the first
+words of every paragraph must be on the scan's page of the number the
+transcription gives (4,109 of 4,116 paragraphs; in the rest the scan misread
+the first words). Then each word: where most of the scans read another
+word than the transcription (marks and capitals aside), and the scans'
+word is a known word (the clean texts' vocabulary and words the
+transcription and a scan read alike elsewhere), or a number, and not one of
+the shared OCR confusions ("rn" for "m"), the transcription's word is kept
+and marked uncertain, with its reading as `primary` (shown on `/errata/` as
+"Library of Congress transcription") and each scan's. Where the scans read
+something that is not a word, it is taken for OCR noise and not marked;
+where they split two against two, nothing is marked. So a keying slip that
+gives a real word the scans also misread, or a scan reading the check does
+not know, is missed (erratum 151).
+
+**Not imported:** vol. 1 (the Journal of the Federal Convention, Luther
+Martin's letter, Yates's minutes) and the rest of vol. 4 (the "Opinions" of
+Congress, 1789–1836, and the Virginia and Kentucky resolutions).
+
+## The ratification debate: not yet imported
 
 - **Old Whig, Maryland Farmer, Impartial Examiner, John DeWitt,
   Philadelphiensis, Melancton Smith.** The Anti-Federalist Library has them,

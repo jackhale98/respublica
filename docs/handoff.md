@@ -43,6 +43,24 @@ breaks first (erratum 63). Not imported, for want of a scan to check the
 Library against: Old Whig, Maryland Farmer, Impartial Examiner, John
 DeWitt, Philadelphiensis, Melancton Smith.
 
+**The state ratifying conventions** (decision 68): nine works
+(`importers/conventions.py`), Massachusetts, Connecticut, New Hampshire,
+New York, Pennsylvania and Maryland (Elliot vol. 2), Virginia (vol. 3) and
+North and South Carolina (vol. 4), about 641,000 words, divided by day
+(refs `Virginia1788.Jun5.{n}`), in a group of their own on
+`/ratification/`. The text is the Library of Congress's typed
+transcription (`importers/amem.py`; public domain, as its header and the
+collection's rights page say), checked word by word against the Internet
+Archive's scans of the 1907 printing; about 750 words are marked uncertain
+where the scans read another word, many of them the transcription's own
+keying slips ("fights" for "rights", "mast" for "must"), some OCR
+misreadings ("be"/"he"). The same transcription is now Henry's
+tie-breaker, before the Anti-Federalist Library: one word changed, and the
+72 words the scans settled that it reads otherwise are erratum 150. Its
+raw files and the vol. 2 and 4 scans are kept out of git (families `lled`,
+`iaelliot`). No links proposed yet. The importer stops on any dateline not
+in its list of days: check the page before adding one.
+
 **Sources of the Declaration** (decision 67): Paine's *Common Sense*
 (first edition, R. Bell, January 1776; `importers/paine.py`) and Locke's
 Second Treatise (first edition, 1690, Book II; `importers/locke.py`), a

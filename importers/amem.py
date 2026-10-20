@@ -132,7 +132,11 @@ def norm(s: str) -> str:
 @lru_cache(maxsize=None)
 def volume(vol: int) -> Volume:
     """A volume's paragraphs, from its raw XML."""
-    raw = raw_path(source_id(vol)).read_bytes().decode("utf-8")
+    return parse(raw_path(source_id(vol)).read_bytes().decode("utf-8"), vol)
+
+
+def parse(raw: str, vol: int) -> Volume:
+    """A volume's paragraphs, from the text of its XML file."""
     _expect(raw.lstrip().startswith("<?xml") and "<tei2>" in raw, f"{source_id(vol)}: not an American Memory XML file")
     xml, marks = clean_markup(raw)
     root = ET.fromstring(xml)

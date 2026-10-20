@@ -45,6 +45,11 @@ UNTRACKED_FAMILIES = {
     # Internet Archive scans that check the TCP texts of Common Sense and
     # Locke (decision 67): DjVu XML and OCR text.
     "iadecl": "ia-decl-*",
+    # The Library of Congress's typed transcription of Elliot's Debates,
+    # vols. 2-4, and the Internet Archive's scans of vols. 2 and 4 it is
+    # checked against (decision 68).
+    "lled": "loc-lled-*",
+    "iaelliot": "ia-elliot-v[24]-*",
 }
 UNTRACKED_RAW = tuple(UNTRACKED_FAMILIES.values())
 

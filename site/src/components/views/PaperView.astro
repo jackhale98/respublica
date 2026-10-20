@@ -21,9 +21,11 @@ const congress = work.collection === "congress";
 // A part of Common Sense, a chapter of Locke (decision 67): named by its label ("Chapter II").
 const sources = work.collection === "sources";
 const num = (label) => label.split(" ").at(-1);
-// Parts known by their date, not a number (Patrick Henry's speeches).
-const dated = work.part_name === "speeches";
-const heading = congress ? d.label : d.title || d.label;
+// Parts known by their date, not a number (Patrick Henry's speeches, the
+// days of a state ratifying convention).
+const dated = work.part_name === "speeches" || work.part_name === "days";
+const days = work.part_name === "days";
+const heading = congress || days ? d.label : d.title || d.label;
 // A long day is shown on several pages (tools/site_data.py, sheets).
 const sheet = d.sheet;
 const printed = d.publication.map((l) => l).join(" ");
@@ -97,7 +99,7 @@ const printed = d.publication.map((l) => l).join(" ");
     </details>
   ))}
 
-  <nav class="pager" aria-label={dated ? "Speeches" : debate ? "Essays" : sources ? "Parts" : "Papers"} data-pagefind-ignore>
+  <nav class="pager" aria-label={days ? "Days" : dated ? "Speeches" : debate ? "Essays" : sources ? "Parts" : "Papers"} data-pagefind-ignore>
     {page.prev && (
       <a class="card prev" rel="prev" href={href(page.prev.url)}>
         <small><Icon name="left" />Previous</small>
@@ -115,7 +117,7 @@ const printed = d.publication.map((l) => l).join(" ");
   </nav>
 
   <Fragment slot="panel">
-    <span class="eyebrow">{congress ? "About this day" : dated ? "About this speech" : debate ? "About this essay" : sources ? "About this part" : "About this paper"}</span>
+    <span class="eyebrow">{congress || days ? "About this day" : dated ? "About this speech" : debate ? "About this essay" : sources ? "About this part" : "About this paper"}</span>
     <h2>{d.label}</h2>
     <dl>
       {attr && <Fragment><dt>Author</dt><dd>{authorText(attr)}</dd></Fragment>}

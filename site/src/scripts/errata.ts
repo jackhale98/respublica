@@ -15,7 +15,10 @@ const SCANS: Record<string, string> = {
   michigan: "Michigan scan", cornell: "Cornell scan", harvard: "Harvard scan", uc: "UC scan",
   nypl: "NYPL scan", "nypl-ocr": "second OCR of the NYPL scan",
   tcp: "TCP transcription", jcb: "John Carter Brown Library scan", illinois: "Illinois scan",
+  toronto: "Toronto scan",
 };
+// Whose a suggestion is (`suggested_by`; the Anti-Federalist Library's where none is named).
+const SUGGESTED_BY: Record<string, string> = { loc: "Library of Congress transcription" };
 // Page images only from the hosts the page's Content Security Policy allows.
 const IMAGE_HOSTS = /^https:\/\/(archive\.org|[a-z0-9-]+\.us\.archive\.org|digital\.library\.unt\.edu|tile\.loc\.gov)\//;
 
@@ -23,10 +26,16 @@ const IMAGE_HOSTS = /^https:\/\/(archive\.org|[a-z0-9-]+\.us\.archive\.org|digit
 // word so: to check against the page image, never to take on trust.
 type Word = {
   index: number; was: string; before: string; after: string; readings: Record<string, string>; suggestion?: string;
+  suggested_by?: string;
   // The text has the Library's reading, accepted by the owner without a check against the page (decision 56).
   accepted?: boolean;
 };
-type Passage = { ref: string; label: string; url: string | null; pages: { image: string; url: string }[]; words: Word[] };
+// `labels`: the work's own names for its readings (decision 68: in the state conventions, the main
+// reading is the Library of Congress's transcription, not a scan).
+type Passage = {
+  ref: string; label: string; url: string | null; pages: { image: string; url: string }[]; words: Word[];
+  labels?: Record<string, string>;
+};
 type Fix = { ref: string; index: number; was: string; now: string; sent?: boolean };
 
 const root = document.querySelector<HTMLElement>("[data-errata]")!;
@@ -159,7 +168,7 @@ function wordRow(p: Passage, w: Word, card: HTMLElement): HTMLElement {
   readings.setAttribute("aria-label", `Readings of “${w.was}”`);
   // The same word read by several scans is one choice.
   const seen = new Map<string, string[]>();
-  for (const [scan, text] of Object.entries(w.readings)) seen.set(text, [...(seen.get(text) || []), SCANS[scan] || scan]);
+  for (const [scan, text] of Object.entries(w.readings)) seen.set(text, [...(seen.get(text) || []), p.labels?.[scan] || SCANS[scan] || scan]);
   for (const [text, scans] of seen) {
     const b = el("button", "rv-choice");
     b.type = "button";
@@ -183,7 +192,7 @@ function wordRow(p: Passage, w: Word, card: HTMLElement): HTMLElement {
     b.type = "button";
     b.dataset.reading = suggestion;
     b.title = "No scan reads this. Choose it only if the page image shows it.";
-    b.append(suggestion, el("small", undefined, "Anti-Federalist Library: check the page"));
+    b.append(suggestion, el("small", undefined, `${SUGGESTED_BY[w.suggested_by || ""] || "Anti-Federalist Library"}: check the page`));
     b.addEventListener("click", () => choose(fixes[row.dataset.key!]?.now === suggestion ? null : suggestion));
     readings.append(b);
   }
@@ -259,7 +268,8 @@ async function load(details: HTMLDetailsElement) {
   try {
     const res = await fetch(`${BASE}/data/errata/${encodeURIComponent(details.dataset.work!)}.json`);
     if (!res.ok) throw new Error(String(res.status));
-    const data: { passages: Passage[] } = await res.json();
+    const data: { passages: Passage[]; labels?: Record<string, string> } = await res.json();
+    if (data.labels) data.passages.forEach((p) => (p.labels = data.labels));
     body.replaceChildren();
     let shown = 0;
     const more = el("button", "btn btn-ghost er-more");

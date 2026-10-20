@@ -21,8 +21,9 @@ is divided by day, at the paragraph that begins the day as Elliot prints it
 ("Thursday, January 10.—The committee ...", "Tuesday, June 3, 1788.");
 `CONVENTIONS` lists every day and the words that begin it, and the
 importer stops if the days found are not those. A misprinted date is
-recorded with the day (`Day.printed`), and the ref follows the date the
-weekday and the order of the days give. Every printed paragraph is a
+recorded with the day (`Day.printed`: a misprint of the book's, or a keying
+slip of the transcription's, which the cross-check then marks), and the ref
+follows the date the weekday and the order of the days give. Every printed paragraph is a
 passage, the datelines and headings within a day ("AYES.") too, numbered
 from 1 within the day; the speaker's name stays at the head of a speech, as
 printed. Footnotes follow the paragraph they belong to.
@@ -70,7 +71,7 @@ class Day:
     date: dt.date
     opens: str  # the words that begin the day, as the transcription prints them (a pattern)
     lead: int = 0  # paragraphs before those words that belong to the day (a heading over it)
-    printed: str | None = None  # the date as printed, where it is not the day's (a misprint)
+    printed: str | None = None  # the day's heading as the transcription has it, where its date is not the day's
 
 
 @dataclass(frozen=True)
@@ -86,7 +87,6 @@ class Convention:
     pages: tuple[int, int]
     days: tuple[Day, ...] = ()  # none: a single piece
     date: str = ""  # a single piece's date (ISO, or a year)
-    summary: str = ""
 
 
 def _d(y: int, m: int, day: int, opens: str, lead: int = 0, printed: str | None = None) -> Day:
@@ -126,10 +126,7 @@ CONVENTIONS = (
          _d(1788, 2, 4, _wd("Monday", "February") + r"4\b"),
          _d(1788, 2, 5, _wd("Tuesday", "February") + r"5\b"),
          _d(1788, 2, 6, _wd("Wednesday", "February") + r"6\b"),
-         _d(1788, 2, 7, _wd("Thursday", "February") + r"7\b")),
-        summary="The Massachusetts convention at Boston, January 9 to February 7, 1788, as Elliot prints its "
-                "debates: the minutes, the speeches as reported, the amendments it recommended and the yeas "
-                "and nays on ratification."),
+         _d(1788, 2, 7, _wd("Thursday", "February") + r"7\b"))),
     Convention(
         "connecticut-convention-1788", "Connecticut1788", "Connecticut",
         "Debates in the Connecticut Ratifying Convention, 1788", "Connecticut convention", 2, (1,),
@@ -138,16 +135,11 @@ CONVENTIONS = (
         # ...") is printed above the first day's dateline.
         (_d(1788, 1, 4, r"In Convention, Hartford, January 4, 1788\.$", lead=1),
          _d(1788, 1, 7, r"January 7, 1788\."),
-         _d(1788, 1, 9, r"January 9, 1788\s*\.")),
-        summary="The fragment of the Connecticut convention's debates at Hartford, January 4–9, 1788, that "
-                "Elliot collected from the newspapers: the speeches of Oliver Ellsworth, Richard Law, Governor "
-                "Huntington and others."),
+         _d(1788, 1, 9, r"January 9, 1788\s*\."))),
     Convention(
         "new-hampshire-convention-1788", "NewHampshire1788", "New Hampshire",
         "A Speech in the New Hampshire Ratifying Convention, 1788", "New Hampshire convention", 2, (2,),
-        "NEW HAMPSHIRE CONVENTION", (203, 204), date="1788",
-        summary="The only speech known to Elliot from the New Hampshire convention: Joshua Atherton on the "
-                "clause on the importation of slaves."),
+        "NEW HAMPSHIRE CONVENTION", (203, 204), date="1788"),
     Convention(
         "new-york-convention-1788", "NewYork1788", "New York",
         "Debates in the New York Ratifying Convention, 1788", "New York convention", 2, (3,),
@@ -175,10 +167,7 @@ CONVENTIONS = (
          _d(1788, 7, 19, _wd("Saturday", "July") + r"19\b"),
          _d(1788, 7, 23, _wd("Wednesday", "July") + r"23, 1783\b", printed="Wednesday, July 23, 1783"),
          _d(1788, 7, 25, _wd("Friday", "July") + r"25\b"),
-         _d(1788, 7, 26, _wd("Saturday", "July") + r"26\b")),
-        summary="The New York convention at Poughkeepsie, June 17 to July 26, 1788, as Elliot prints its "
-                "debates, with the ratification, the amendments recommended and the circular letter to the "
-                "states."),
+         _d(1788, 7, 26, _wd("Saturday", "July") + r"26\b"))),
     Convention(
         "pennsylvania-convention-1787", "Pennsylvania1787", "Pennsylvania",
         "Debates in the Pennsylvania Ratifying Convention, 1787", "Pennsylvania convention", 2, (4,),
@@ -186,11 +175,11 @@ CONVENTIONS = (
         (_d(1787, 11, 20, r"Philadelphia, Tuesday, November 20, 1787"),
          _d(1787, 11, 21, _wd("Wednesday", "November") + r"21\b"),
          _d(1787, 11, 22, _wd("Thursday", "November") + r"22\b"),
-         # Friday was November 23 (between the 22d and Saturday the 24th).
+         # Friday was November 23 (between the 22d and Saturday the 24th); the scan reads "23".
          _d(1787, 11, 23, _wd("Friday", "November") + r"25\b", printed="Friday, November 25, 1787"),
          _d(1787, 11, 24, _wd("Saturday", "November") + r"24\b"),
          _d(1787, 11, 26, _wd("Monday", "November") + r"26\b"),
-         # Wednesday after Monday the 26th: November 28.
+         # Wednesday after Monday the 26th: November 28 (the scan reads "October" too).
          _d(1787, 11, 28, _wd("Wednesday", "October") + r"28\b", printed="Wednesday, October 28, 1787"),
          _d(1787, 11, 30, _wd("Friday", "November") + r"30\b"),
          _d(1787, 12, 1, _wd("Saturday", "December") + r"1\b"),
@@ -200,17 +189,11 @@ CONVENTIONS = (
          _d(1787, 12, 11, _wd("Tuesday", "December") + r"11\b"),
          # The meeting at Harrisburg of the Constitution's opponents, which
          # Elliot prints after the convention.
-         _d(1788, 9, 3, r"PROCEEDINGS OF THE MEETING AT HARRISBURG")),
-        summary="The Pennsylvania convention at Philadelphia, November 20 to December 11, 1787, as Elliot "
-                "prints it: the minutes and the speeches of James Wilson and Thomas M'Kean, then the "
-                "proceedings of the meeting at Harrisburg, September 3, 1788."),
+         _d(1788, 9, 3, r"PROCEEDINGS OF THE MEETING AT HARRISBURG"))),
     Convention(
         "maryland-convention-1788", "Maryland1788", "Maryland",
         "A Fragment of Facts: the Maryland Ratifying Convention, 1788", "Maryland convention", 2, (5,),
-        "A FRAGMENT OF FACTS, DISCLOSING THE CONDUCT OF THE MARYLAND CONVENTION", (547, 556), date="1788-04-21",
-        summary="The address of the minority of the Maryland convention to the people of Maryland, which "
-                "Elliot prints for want of its debates: the convention's proceedings and the amendments its "
-                "committee considered."),
+        "A FRAGMENT OF FACTS, DISCLOSING THE CONDUCT OF THE MARYLAND CONVENTION", (547, 556), date="1788-04-21"),
     Convention(
         "virginia-convention-1788", "Virginia1788", "Virginia",
         "Debates in the Virginia Ratifying Convention, 1788", "Virginia convention", 3, (0,),
@@ -222,10 +205,7 @@ CONVENTIONS = (
          # 19th (erratum 60).
          _d(1788, 6, 19, r"Wednesday, June 18, 1788\.$", printed="Wednesday, June 18, 1788"),
          *(_d(1788, 6, n, WEEKDAYS[dt.date(1788, 6, n).weekday()] + rf", June {n}, 1788\.$")
-           for n in (20, 21, 23, 24, 25, 26, 27))),
-        summary="The Virginia convention at Richmond, June 2–27, 1788, as Elliot prints its debates, with the "
-                "ratification, the amendments recommended and the votes. Patrick Henry's speeches are also a "
-                "work of their own."),
+           for n in (20, 21, 23, 24, 25, 26, 27)))),
     Convention(
         "north-carolina-convention-1788", "NorthCarolina1788", "North Carolina",
         "Debates in the North Carolina Ratifying Convention, 1788", "North Carolina convention", 4, (0,),
@@ -233,10 +213,7 @@ CONVENTIONS = (
         (_d(1788, 7, 21, r"At a Convention, begun and held at Hillsborough, the 21st day of July"),
          *(_d(1788, m, n, WEEKDAYS[dt.date(1788, m, n).weekday()] + rf", {MONTHS[m - 1]} {n}, 1788\.$")
            for m, n in ((7, 22), (7, 23), (7, 24), (7, 25), (7, 26), (7, 28), (7, 29), (7, 30), (7, 31),
-                        (8, 1), (8, 2)))),
-        summary="The first North Carolina convention at Hillsborough, July 21 to August 2, 1788, as Elliot "
-                "prints its debates, with the declaration of rights and amendments it proposed, neither "
-                "ratifying nor rejecting the Constitution."),
+                        (8, 1), (8, 2))))),
     Convention(
         "south-carolina-convention-1788", "SouthCarolina1788", "South Carolina",
         "Debates in the South Carolina Legislature and Ratifying Convention, 1788", "South Carolina convention",
@@ -247,9 +224,7 @@ CONVENTIONS = (
          # "DEBATES IN CONVENTION." heads the convention's part.
          _d(1788, 5, 12, r"Monday, May 12, 1788\.$", lead=1),
          *(_d(1788, 5, n, WEEKDAYS[dt.date(1788, 5, n).weekday()] + rf", May {n}, 1788\.$")
-           for n in (13, 14, 20, 21, 23))),
-        summary="The South Carolina House of Representatives' debate on the Constitution, January 16–19, "
-                "1788, and the convention at Charleston, May 12–23, 1788, as Elliot prints them."),
+           for n in (13, 14, 20, 21, 23)))),
 )
 
 # A paragraph that looks like a day's opening: a weekday and a date, or a
@@ -482,7 +457,7 @@ def build(c: Convention, units: list[Unit], checked: Checked, book) -> dict:
         if u.date:
             div["date"] = u.date.isoformat()
         if u.printed:
-            div["notes"] = [{"text": f"Printed “{u.printed}”: a misprint for {u.label} (docs/errata.md)."}]
+            div["notes"] = [{"text": f"Headed “{u.printed}” in the transcription; the date is {u.label} (docs/errata.md)."}]
         divisions.append(div)
         n = fn = 0
         for p in u.paras:
@@ -556,8 +531,9 @@ def vocabulary(vol: int) -> Vocabulary:
 
 def check_pages(c: Convention, paras: list[amem.Para], book) -> tuple[int, int]:
     """That the scan's pages are the transcription's: the first words of
-    each paragraph that begins a page are on that page of the scan (its
-    printed page, found by its folio). Returns (pages checked, found)."""
+    each paragraph (of six words or more) are on the scan's page of the
+    number the transcription gives (found by its folio). Returns
+    (paragraphs checked, found)."""
     seen, found = 0, 0
     by_leaf = {p.leaf: p for p in book.pages}
     for p in paras:

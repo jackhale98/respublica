@@ -1558,3 +1558,73 @@ and says nothing more about influence. Decided:
   join that section later.
 - **Not done:** no links have been proposed for these works. Slips of the
   transcriptions the check found or missed are errata 130–133.
+
+## 68. The state ratifying conventions, and Patrick Henry's tie-breaker, from the Library of Congress's Elliot
+
+A survey of typed transcriptions found that the Library of Congress's "A
+Century of Lawmaking for a New Nation" (American Memory, 1997) keyed
+Elliot's *Debates*, vols. 1–4, by hand ("intended to have an accuracy rate
+of 99.95 percent or greater"), as XML with the printed page numbers, at
+`tile.loc.gov/storage-services/service/ll/llscd/lled00N/lled00N.xml`. It is
+the standard pagination our Patrick Henry text is read in. The project owner
+approved using it. Decided:
+
+- **Rights.** Each file's header reads "Publication exempt from copyright
+  protection; refer to accompanying matter." The collection's rights page
+  (read 2026-10-20 as JSON, `?fo=json`, since the HTML page answers only a
+  browser challenge): "The contents of this collection are in the public
+  domain and are free to use and reuse. Credit Line: Law Library of
+  Congress." Both are recorded in the manifest's `license`.
+- **Patrick Henry: a strict tie-breaker**, as the Anti-Federalist Library
+  is (decision 55), and before it: where the Library of Congress's text of
+  vol. 3 lines up with a word it is the tie-breaker's reading, and the
+  Anti-Federalist Library's only where it does not. It chooses only among
+  the scans' readings. A suggestion records whose it is (`suggested_by:
+  "loc"`), and `tools.errata accept-library` (decision 56) does not take
+  its suggestions. Refs and paragraphs are unchanged; one word changed
+  (`Henry.Jun12.1`, "1" to "I", which the Harvard scan reads). Where it reads
+  a word the scans settled otherwise, the text is not changed: those are
+  errata candidates (erratum 150), since both our text's unmarked OCR slips
+  ("tning", "agam") and the transcription's keying slips ("fight" for
+  "right") are among them.
+- **Nine new works**, one per convention, the text the Library of
+  Congress's (`importers/amem.py` reads it; `importers/conventions.py`
+  divides it): Massachusetts, Connecticut, New Hampshire, New York,
+  Pennsylvania and Maryland from vol. 2, the whole Virginia convention from
+  vol. 3 (Patrick Henry's speeches stay a work of their own), North and
+  South Carolina from vol. 4. Each is divided by day as Elliot prints the
+  days; every printed paragraph is a passage, datelines and headings
+  ("AYES.") too, with the speaker's name as printed. New Hampshire's one
+  speech and the Maryland minority's address, undated, are single pieces.
+  Refs `{State}{year}.{Mon}{day}.{n}` (`Virginia1788.Jun5.3`,
+  `Pennsylvania1787.Nov28.1`), notes `.fn{k}`, single pieces
+  `NewHampshire1788.{n}` (docs/references.md).
+- **Checked against the scans, nothing chosen.** Every word is lined up
+  with the Internet Archive's scan of the 1907 Lippincott printing of the
+  same volume (the Toronto copies, `debatesinseveral02elliuoft`, `03`,
+  `04`; for Virginia also the three other scans Henry is read from). The
+  importer first checks that the pagination is the same: the first words
+  of each paragraph are on the scan's page of the number the transcription
+  gives (4,109 of 4,116 paragraphs). Where most of the scans read
+  another word, and it is a known word, or a number, and not one of the
+  shared OCR confusions, the transcription's word stays and is marked
+  uncertain with every reading (the transcription's as `primary`, named
+  "Library of Congress transcription" on the errata page). Readings that are
+  OCR noise are counted, not marked. The transcription marks no illegible
+  words or gaps (no `<gap>` or `<unclear>`); the reader stops at any element
+  it does not know, so one added upstream cannot pass silently.
+- **The file's own layout is undone, nothing else**: the line breaks the
+  XML's pretty-printer put around italics, the printer's signature marks it
+  keyed at the foot of pages, the library stamp, and three words keyed
+  broken across a page (`importers/amem.py`).
+- **Raw files kept out of git**, as two families: `lled` (`loc-lled-*`,
+  5.6 MB) and `iaelliot` (`ia-elliot-v[24]-*`, the scans' DjVu XML,
+  45 MB), cached in CI like the others. Raw files in git were near their
+  300 MB budget.
+- **On the site** the conventions are a group of their own in the
+  ratification debate, "The state ratifying conventions", after the essays
+  and letters; a page per day, split into sheets by HTML as the
+  Congressional Record's days are; their paragraphs go to per-work ref
+  files, as the debates in Congress' do (decision 63).
+- **Not done:** no links proposed. Vol. 1 (the Federal Convention's
+  journal, Luther Martin, Yates) is not imported.

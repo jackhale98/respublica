@@ -15,8 +15,11 @@ books and series); `importers/elliot.py` (Patrick Henry, Elliot's
 `importers/library.py` (the Anti-Federalist Library as a tie-breaker);
 `importers/tcp.py` with `importers/paine.py` and `importers/locke.py` (a
 typed transcription as the text, checked against scans: see "A
-transcription as the text" below).
-Tests: `tests/test_ocr.py`, `tests/test_library.py`, `tests/test_tcp.py`.
+transcription as the text" below); `importers/amem.py` with
+`importers/conventions.py` (the Library of Congress's typed Elliot: Henry's
+tie-breaker, and the text of the state ratifying conventions).
+Tests: `tests/test_ocr.py`, `tests/test_library.py`, `tests/test_tcp.py`,
+`tests/test_conventions.py`.
 
 ## The idea in one paragraph
 
@@ -261,6 +264,17 @@ or less than the main scan's word ("property" for "prop-" before "erty",
 confusion of a scan's reading and not a known word ("discemable" against
 "discernable") is ignored. Works and pages used: `library.PAGES`.
 
+**Patrick Henry: the Library of Congress's Elliot first** (decision 68).
+For Henry's speeches the tie-breaker's reading of each word is the Library
+of Congress's typed transcription of the same volume and pages
+(`importers/amem.py`), where it lines up with the word, and the
+Anti-Federalist Library's only where it does not; the rules above are the
+same (`strict`). A suggestion records whose it is (`suggested_by: "loc"`),
+and only the Anti-Federalist Library's are taken in bulk by
+`tools.errata accept-library`. `python -m importers.elliot loc-report`
+lists every word the scans settled that the transcription reads otherwise
+(erratum 150).
+
 ## One scan: the New-York Journal (`importers/nyjournal.py`)
 
 Brutus V–XVI exist only in the original newspaper, scanned once by the
@@ -298,6 +312,21 @@ replaced. A scan photographed in its binding (the John Carter Brown
 Library's) has its words outside the block of text dropped and its lines
 rebuilt from where the words stand. The rules and what they cannot see are
 in `docs/editions.md`, "Sources of the Declaration".
+
+**The Library of Congress's Elliot** (decision 68) is the text of the state
+ratifying conventions in the same way (`importers/conventions.py`): each
+word of the transcription is lined up with the Internet Archive's scans of
+the 1907 printing of the same volume, one scan for vols. 2 and 4, four for
+vol. 3, and marked uncertain, with the transcription's reading as `primary`
+beside the scans', where most of the scans read another known word (or a
+number) and it is not a shared OCR confusion; scan readings that are not
+words are OCR noise, counted but not marked, and where the scans split
+evenly nothing is marked. A word only one scan reads with a known word's
+letters is still marked: with one scan, an OCR misreading that makes a word
+("be" for "he") cannot be told from a keying slip, so both are left for a
+person. Before that, the importer checks that the pagination is the same
+(the first words of each paragraph are on the scan's page of that number).
+Details in `docs/editions.md`, "The state ratifying conventions".
 
 ## Step 4: structure (`ratification.py`)
 
@@ -347,7 +376,8 @@ In `texts/{work}.json` (validated by `make verify`, see
 
 - `suggestion` on an uncertain span: the Anti-Federalist Library's reading,
   where no scan's reading agrees with it. Verify checks it is one line and
-  differs from the text.
+  differs from the text. `suggested_by` names another tie-breaker's
+  ("loc": the Library of Congress's Elliot, decision 68).
 - `accepted` on an uncertain span (`{source: "library", by, at}`): the text
   has the Library's reading there, accepted by the project owner without a
   check against the page (decision 56); the span keeps the scans' readings
