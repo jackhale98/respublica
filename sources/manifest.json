@@ -6346,6 +6346,15 @@
     "url": "https://www.supremecourt.gov/opinions/21pdf/597us2r62_d92h.pdf"
   },
   {
+    "id": "tcp-evans-n16444",
+    "license": "CC0 1.0 Universal (Text Creation Partnership, Evans-TCP Phase I; stated in the file's availability element).",
+    "notes": "Evans-TCP N16444 = Evans 21127: The Federalist (New York: J. and A. M'Lean, 1788), 2 vols., TEI P5 transcription. Used only for the paragraph breaks of The Federalist (decision 70); its wording is not imported.",
+    "path": "sources/raw/tcp-evans-n16444.xml",
+    "retrieved_at": "2026-10-20",
+    "sha256": "a5a060e058fc31bc00bedb988772852b4e498654fabb8d0fea96d95e4dbb2d5a",
+    "url": "https://raw.githubusercontent.com/textcreationpartnership/N16444/master/N16444.xml"
+  },
+  {
     "encoding": "gzip",
     "id": "unt-globe-1864-p1129-text",
     "license": "Public domain (the Congressional Globe, 1864). OCR as served by the UNT Digital Library; credit: UNT Libraries Government Documents Department, UNT Digital Library.",

@@ -97,9 +97,68 @@ and quote-mark style (curly vs straight). See `tools/common.py`,
   wording and paragraphing, including the same typo ("wellconstructed"), so
   the two appear to descend from the same e-text. Neither is a page-image
   transcription of the newspapers or the 1788 McLean edition; differences
-  from the newspaper printings are not yet documented.
+  from the newspaper printings are not yet documented (for McLean, see
+  below).
 - **Footnotes.** 66 footnotes, as `Federalist.{paper}.fn{n}`. Footnote markers
   such as `[1]` stay in the paragraph text where the edition prints them.
+- **Paragraphing, and the 1788 McLean edition** (decision 70). The e-text
+  lost most of its paragraph breaks in Nos. 40–59: No. 51 was one paragraph
+  of 1,911 words, No. 59 one, No. 40 two. The breaks there are restored from
+  *The Federalist* (New York: J. and A. M'Lean, 1788), 2 vols., in the Text
+  Creation Partnership's typed transcription (Evans-TCP N16444, Evans 21127;
+  source `tcp-evans-n16444`, CC0). Only break positions are taken from it:
+  - The importer aligns each paper's words with McLean's (difflib on
+    normalized words: case, punctuation and the long s ignored) and splits an
+    e-text paragraph before the word that corresponds to the first word of a
+    McLean paragraph, when the words on both sides of it align (at least three
+    of the six on each side, two of them the same word). The words, spelling
+    and punctuation stay the e-text's; only the space at the break goes.
+  - In two places the e-text runs a numbered clause on after a colon with no
+    space ("powers:1.", "States:1."); the break falls between the colon and the
+    figure, and no character is lost.
+  - No paragraph is joined. The e-text's own breaks stay, including 56 in this
+    stretch that McLean does not have, many of them mid-sentence
+    (`docs/errata.md`, erratum 200).
+  - Three McLean breaks are not made because the editions word the passage
+    differently there (Nos. 44 and 56; erratum 201).
+
+  | No. | Paragraphs before | After | McLean |
+  |---|---|---|---|
+  | 40 | 2 | 19 | 19 |
+  | 41 | 5 | 27 | 25 |
+  | 42 | 6 | 23 | 21 |
+  | 43 | 6 | 35 | 31 |
+  | 44 | 6 | 29 | 28 |
+  | 45 | 7 | 17 | 11 |
+  | 46 | 8 | 18 | 11 |
+  | 47 | 7 | 25 | 21 |
+  | 48 | 6 | 19 | 16 |
+  | 49 | 4 | 13 | 11 |
+  | 50 | 6 | 12 | 11 |
+  | 51 | 1 | 10 | 10 |
+  | 52 | 5 | 13 | 9 |
+  | 53 | 3 | 12 | 11 |
+  | 54 | 4 | 14 | 11 |
+  | 55 | 8 | 15 | 9 |
+  | 56 | 3 | 9 | 9 |
+  | 57 | 8 | 27 | 21 |
+  | 58 | 2 | 16 | 15 |
+  | 59 | 1 | 10 | 10 |
+  | **40–59** | **98** | **363** | **310** |
+
+  265 breaks were added; the work has 1,269 body paragraphs (1,004 before).
+  Outside Nos. 40–59 the e-text's paragraphs match McLean's almost
+  everywhere, and the few differences go both ways (the e-text has more
+  paragraphs than McLean in Nos. 6, 29, 38, 39, 62, 66 and 84). The only
+  McLean breaks that the alignment would add there are in No. 3 (where the
+  e-text begins paragraphs with "Because", a revision of Jay's text), No. 8
+  (¶9), No. 70 (¶23; the e-text's second version of No. 70 lacks it too) and
+  No. 81 (¶1, a quoted clause set apart, and two in ¶13). These look like the
+  editions' own paragraphing, not lost breaks, and are left alone.
+- **McLean as evidence.** McLean is not the e-text's source: about 12 words in
+  1,000 differ, most of them spelling ("defence", "shewn") but some of them
+  revisions (acts/votes, always/commonly, deciding/determining). Its readings bear on errata 6–9
+  and are recorded there; no wording is taken from it.
 - Importer: `importers/federalist.py`.
 
 ## The ratification debate

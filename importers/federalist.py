@@ -11,7 +11,12 @@ Footnotes become segments Federalist.{paper}.fn{n}.
 The only transformations are structural (see docs/editions.md):
   * hard-wrapped lines are joined with a single space;
   * the edition's _underscore_ italics are removed from the text and
-    recorded as character spans in `emphasis`.
+    recorded as character spans in `emphasis`;
+  * in Nos. 40-59, where the e-text lost most of its paragraph breaks,
+    a paragraph is split where the 1788 McLean edition (Evans-TCP N16444,
+    source tcp-evans-n16444) starts a new one (decision 70). The break is
+    found by aligning the two texts word by word; only its position comes
+    from McLean. No paragraph is joined and no word is taken from McLean.
 Wording, spelling and punctuation are untouched.
 """
 
@@ -19,11 +24,18 @@ from __future__ import annotations
 
 import datetime as dt
 import re
+import xml.etree.ElementTree as ET
+from difflib import SequenceMatcher
 from pathlib import Path
 
-from tools.common import TEXTS_DIR, collapse_ws, read_raw_text, roman_to_int, write_json
+from tools.common import TEXTS_DIR, collapse_ws, raw_path, read_raw_text, roman_to_int, write_json
 
 SOURCE_ID = "gutenberg-federalist-18"
+MCLEAN_ID = "tcp-evans-n16444"
+# The papers whose paragraph breaks the e-text lost (decision 70). Elsewhere
+# the e-text's paragraphs match McLean's but for a few differences in both
+# directions, which are the editions' own and are left alone.
+RESTORED = range(40, 60)
 
 AUTHORS = {
     "HAMILTON": {"kind": "single", "names": ["Alexander Hamilton"]},
@@ -90,6 +102,161 @@ def _segment(ref: str, label: str, raw: str, **extra) -> dict:
     return seg
 
 
+TEI = "{http://www.tei-c.org/ns/1.0}"
+
+
+def _tei_text(el: ET.Element, out: list[str]) -> None:
+    """Running text of a TEI element: notes left out, line-end hyphens joined."""
+    tag = el.tag.replace(TEI, "")
+    if tag == "g":
+        if el.get("ref") != "char:EOLhyphen":
+            out.append(el.text or "")
+    elif tag == "gap":
+        out.append(" \u25ca ")  # an illegible stretch: keeps words apart, matches nothing
+    elif tag == "lb":
+        out.append(" ")
+    elif tag not in ("note", "pb"):
+        out.append(el.text or "")
+        for c in el:
+            _tei_text(c, out)
+    out.append(el.tail or "")
+
+
+def mclean_paragraphs() -> dict[int, list[str]]:
+    """McLean's paragraphs of each paper (Evans-TCP N16444), by paper number.
+
+    A paragraph is a <p> (or a block quotation <q> standing outside one);
+    consecutive verse lines <l> are one block. Headings, signatures and
+    notes are left out. Used only to place paragraph breaks."""
+    root = ET.parse(raw_path(MCLEAN_ID)).getroot()
+    papers: dict[int, list[str]] = {}
+    for div in root.iter(TEI + "div"):
+        if div.get("type") != "number":
+            continue
+        paras: list[str] = []
+        verse = False
+
+        def walk(el: ET.Element) -> None:
+            nonlocal verse
+            tag = el.tag.replace(TEI, "")
+            if tag in ("head", "signed", "note", "pb"):
+                return
+            if tag in ("p", "l") or (tag == "q" and el.find(TEI + "p") is None):
+                out = [el.text or ""]
+                for c in el:
+                    _tei_text(c, out)
+                text = " ".join("".join(out).split())
+                if tag == "l" and verse:
+                    paras[-1] += " " + text
+                else:
+                    paras.append(text)
+                verse = tag == "l"
+                return
+            for c in el:
+                walk(c)
+
+        for c in div:
+            walk(c)
+        n = int(div.get("n"))
+        _expect(n not in papers and bool(paras), f"McLean: bad paper division {n}")
+        papers[n] = paras
+    _expect(sorted(papers) == list(range(1, 86)), "McLean: expected papers 1-85")
+    return papers
+
+
+def _key(tok: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", tok.lower().replace("\u017f", "s"))
+
+
+# Alignment tokens: words, with dashes, and a stop (.:;?!) glued to the next
+# word ("States:1."), as boundaries. Spans are character offsets.
+_TOKEN = re.compile(r"[^\s\u2014\u2013-]+?(?:[.:;?!](?=[\u201c\"A-Z0-9])|(?=[\s\u2014\u2013-])|$)")
+
+
+def _tokens(text: str) -> list[tuple[int, int, str]]:
+    return [(m.start(), m.end(), k) for m in _TOKEN.finditer(text) if (k := _key(m.group()))]
+
+
+def _context(j: int, i: int, side: int, same: dict[int, int], aligned: dict[int, int]) -> bool:
+    """Whether the six McLean words after (side 1) or before (side -1) word j
+    align near e-text word i: three of them, two of them the same word."""
+    def near(m: dict[int, int], k: int) -> bool:
+        g = m.get(j + side * k)
+        return g is not None and (i < g <= i + k + 2 if side > 0 else i - k - 3 <= g < i)
+    return (sum(near(aligned, k) for k in range(1, 7)) >= 3
+            and sum(near(same, k) for k in range(1, 7)) >= 2)
+
+
+def restore_breaks(paras: list[str], mclean: list[str]) -> tuple[list[str], list[int], list[dict]]:
+    """Split the e-text's paragraphs where McLean starts a paragraph.
+
+    Both texts are aligned on normalized words (difflib). A McLean
+    paragraph start is used when its first word aligns with a word of the
+    e-text (the same word, or one read differently in its place), and on
+    each side at least three of the six words next to it align with the
+    words next to that one, at least two of them the same word (so a
+    footnote marker, a respelt word or an illegible one does not stop it,
+    but a passage the two editions word differently does). The e-text is
+    split before the word that corresponds; its characters are kept
+    exactly, only the white space at the break is dropped. A break that
+    would fall inside an italic span is not made. Returns the paragraphs, the index of the
+    e-text paragraph each comes from, and a report of each break made or
+    passed over."""
+    gk: list[str] = []
+    gpos: list[tuple[int, int]] = []  # (paragraph, character offset)
+    for pi, para in enumerate(paras):
+        for start, _end, k in _tokens(para):
+            gk.append(k)
+            gpos.append((pi, start))
+    mk: list[str] = []
+    starts: list[int] = []
+    for qi, para in enumerate(mclean):
+        toks = _tokens(para)
+        if qi and toks:
+            starts.append(len(mk))
+        mk.extend(k for _s, _e, k in toks)
+    sm = SequenceMatcher(None, gk, mk, autojunk=False)
+    m2g: dict[int, int] = {}    # McLean word -> e-text word, the same word
+    loose: dict[int, int] = {}  # also a word read differently in the same place
+    for op, a1, a2, b1, b2 in sm.get_opcodes():
+        if op == "equal" or (op == "replace" and a2 - a1 == b2 - b1):
+            for k in range(b2 - b1):
+                loose[b1 + k] = a1 + k
+                if op == "equal":
+                    m2g[b1 + k] = a1 + k
+    cuts: dict[int, list[int]] = {}
+    report: list[dict] = []
+    for j in starts:
+        i = loose.get(j)
+        ctx = " ".join(mk[max(0, j - 5):j]) + " | " + " ".join(mk[j:j + 5])
+        if i is None or not all(_context(j, i, side, m2g, loose) for side in (1, -1)):
+            report.append({"action": "unaligned", "mclean": ctx})
+            continue
+        pi, off = gpos[i]
+        if off == 0 or (i and gpos[i - 1][0] != pi):
+            continue  # the e-text already breaks here
+        head = paras[pi][:off]
+        if head.count("_") % 2:
+            report.append({"action": "inside italics", "mclean": ctx})
+            continue
+        cuts.setdefault(pi, []).append(off)
+        report.append({"action": "split", "glued": not head[-1:].isspace(), "mclean": ctx,
+                       "paragraph": pi + 1})
+    out: list[str] = []
+    origin: list[int] = []
+    for pi, para in enumerate(paras):
+        prev = 0
+        for off in sorted(cuts.get(pi, [])) + [len(para)]:
+            piece = para[prev:off].strip()
+            _expect(bool(piece), f"empty paragraph from a McLean break in: {para[:60]!r}")
+            out.append(piece)
+            origin.append(pi)
+            prev = off
+    _expect("".join(out).replace(" ", "") == "".join(paras).replace(" ", ""),
+            "restoring breaks changed the text")
+    return out, origin, report
+
+
 def _split_papers(text: str) -> list[list[str]]:
     lines = text.split("\n")
     start = next(i for i, l in enumerate(lines) if l.startswith("*** START OF THE PROJECT GUTENBERG EBOOK"))
@@ -148,10 +315,25 @@ def _parse_paper(block: list[str]) -> dict:
     }
 
 
-def import_federalist() -> dict:
+def import_federalist(report: dict | None = None) -> dict:
     papers = [_parse_paper(b) for b in _split_papers(read_raw_text(SOURCE_ID))]
     numbers = [p["number"] for p in papers]
     _expect(numbers == list(range(1, 71)) + [70] + list(range(71, 86)), "papers out of order")
+    mclean = mclean_paragraphs()
+    renumbered: list[dict] = []
+    for p in papers[:70] + papers[71:]:  # not the unsegmented second No. 70
+        if p["number"] in RESTORED:
+            n = p["number"]
+            before = len(p["paragraphs"])
+            p["paragraphs"], origin, found = restore_breaks(p["paragraphs"], mclean[n])
+            # The refs these paragraphs had before decision 70, and where their text is now.
+            for k in range(before):
+                now = [f"Federalist.{n}.{i}" for i, o in enumerate(origin, 1) if o == k]
+                if now != [f"Federalist.{n}.{k + 1}"]:
+                    renumbered.append({"decision": 70, "now": now, "ref": f"Federalist.{n}.{k + 1}"})
+            if report is not None:
+                report[p["number"]] = {"before": before, "after": len(p["paragraphs"]),
+                                       "mclean": len(mclean[p["number"]]), "breaks": found}
 
     # The edition prints two versions of No. 70; the first is the base text.
     # The second is kept, unsegmented, as `variants` on the division.
@@ -198,13 +380,16 @@ def import_federalist() -> dict:
         "divisions": divisions,
         "edition": {
             "name": "Project Gutenberg eBook #18",
-            "notes": "See docs/editions.md. Paragraphing, footnotes, newspaper lines and attributions "
-                     "follow the base edition. Italics are recorded as emphasis spans.",
+            "notes": "See docs/editions.md. Wording, footnotes, newspaper lines and attributions "
+                     "follow the base edition, and so does its paragraphing, except that in Nos. 40-59, "
+                     "where the e-text lost paragraph breaks, the breaks of the 1788 McLean edition "
+                     "(Evans-TCP N16444) are restored (decision 70). Italics are recorded as emphasis spans.",
         },
         "id": "federalist",
         "ref_prefix": "Federalist",
+        "renumbered": renumbered,
         "segments": segments,
-        "source_ids": [SOURCE_ID],
+        "source_ids": [SOURCE_ID, MCLEAN_ID],
         "title": "The Federalist",
     }
 

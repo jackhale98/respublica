@@ -1503,3 +1503,43 @@ that they re-import only what changed and restore only the caches they need:
 - **Nothing is weakened.** Given the guard, the files a narrower run does not
   rebuild cannot have changed. The full check still runs in CI on every push
   to main, the one these workflows make included.
+
+## 70. The Federalist's lost paragraph breaks, restored from McLean (1788)
+
+The Project Gutenberg e-text lost most of its paragraph breaks in Nos. 40–59
+(No. 51 was one paragraph of 1,911 words; the 1788 McLean edition has ten).
+At the project owner's direction, an exception to rule 6 for this task only
+("No one but me is using this site yet"), the breaks are restored and the
+paragraphs of those papers renumbered:
+
+- **Source.** McLean's edition in the Text Creation Partnership's typed
+  transcription, Evans-TCP N16444 (Evans 21127), CC0, recorded as
+  `tcp-evans-n16444`. Only the positions of its paragraph breaks are used; no
+  word comes from it.
+- **Method.** `importers/federalist.py` aligns each paper's words with
+  McLean's and splits an e-text paragraph before the word that corresponds
+  to the first word of a McLean paragraph, when the words on both sides
+  align. 265 breaks were added: Nos. 40–59 went from 98 paragraphs to 363
+  (McLean has 310), the work from 1,004 body paragraphs to 1,269. Per paper
+  counts are in `docs/editions.md`.
+- **Nothing joined, no word changed.** The e-text's own breaks stay, 56 of
+  them where McLean has none (erratum 200), and three McLean breaks where the
+  editions word the passage differently are not made (erratum 201). Outside
+  Nos. 40–59 the few paragraphing differences look like the editions' own
+  and are left alone.
+- **Refs.** Every paper has at least as many paragraphs as before, so no ref
+  disappeared and `refs.lock` only gained 265 refs; the lock check did not
+  need to change. Because the old refs are reused, the retired-ref mechanism
+  (decision 35) cannot keep them; instead the work lists every changed ref
+  under `renumbered` with the paragraphs its text is in now, `make verify`
+  checks those entries, and `docs/references.md` prints the map.
+- **Links.** The 86 link ends on renumbered paragraphs (in `links/` and
+  `links/proposed/`) were moved to the paragraph that holds their quote,
+  located by code; their status, rationale and review fields are unchanged.
+  Two quotes spanned a restored break and were trimmed to their longer part
+  (`lnk_fed_const_54_003`, `lnk_fed_const_58_001`); no other quote changed.
+- **Errata.** McLean's readings for errata 6–9 are recorded in
+  `docs/errata.md`, and the refs of errata 4–8 updated. No wording is fixed
+  from McLean.
+
+After launch, rule 6 applies without exception.

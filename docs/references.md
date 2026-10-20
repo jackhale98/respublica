@@ -107,7 +107,44 @@ Paper numbers are the edition's ("No. X." is `Federalist.10`). The heading,
 newspaper line, attribution, salutation ("To the People of the State of New
 York:") and signature ("PUBLIUS.") are metadata on the paper and are **not**
 counted as paragraphs. Paragraph 1 is the first paragraph after the salutation.
-Paragraph boundaries are the edition's blank lines.
+Paragraph boundaries are the edition's blank lines, and in Nos. 40–59 also the
+breaks of the 1788 McLean edition, which the e-text lost (decision 70,
+`docs/editions.md`).
+
+**Renumbered before launch (decision 70).** Restoring those breaks renumbered
+the paragraphs of Nos. 40–59, at the project owner's direction while no one
+else used the site. No ref disappeared, since every paper has at least as
+many paragraphs as before, so `refs.lock` only gained refs. But a ref of these
+papers published before decision 70 may now name other text, and the retired
+refs mechanism (below) cannot keep it: the old ref is in use again. The work's
+file therefore lists each changed ref under `renumbered`, `{"ref", "now",
+"decision"}`, with the paragraphs its old text is in now, and `make verify`
+checks that they exist. Links were moved to the paragraph that holds their
+quote. A ref not listed (all of Nos. 1–39 and 60–85, footnotes, and the
+paragraphs before a paper's first new break) is unchanged.
+
+| No. | Old paragraph → new refs |
+|---|---|
+| 40 | 1 → 40.1–7; 2 → 40.8–19 |
+| 41 | 1 → 41.1–11; 2 → 41.12; 3 → 41.13–15; 4 → 41.16–26; 5 → 41.27 |
+| 42 | 1 → 42.1–6; 2 → 42.7; 3 → 42.8–9; 4 → 42.10–18; 5 → 42.19–22; 6 → 42.23 |
+| 43 | 1 → 43.1–3; 2 → 43.4–15; 3 → 43.16–18; 4 → 43.19–20; 5 → 43.21–31; 6 → 43.32–35 |
+| 44 | 1 → 44.1–3; 2 → 44.4; 3 → 44.5–8; 4 → 44.9–13; 5 → 44.14–15; 6 → 44.16–29 |
+| 45 | 1 → 45.1–2; 2 → 45.3–6; 3 → 45.7–10; 4 → 45.11; 5 → 45.12; 6 → 45.13; 7 → 45.14–17 |
+| 46 | 2 → 46.2–3; 3 → 46.4–5; 4 → 46.6–9; 5 → 46.10–11; 6 → 46.12–13; 7 → 46.14–15; 8 → 46.16–18 |
+| 47 | 1 → 47.1–3; 2 → 47.4–9; 3 → 47.10; 4 → 47.11–12; 5 → 47.13–22; 6 → 47.23; 7 → 47.24–25 |
+| 48 | 1 → 48.1–2; 2 → 48.3; 3 → 48.4–10; 4 → 48.11–14; 5 → 48.15–18; 6 → 48.19 |
+| 49 | 2 → 49.2–10; 3 → 49.11–12; 4 → 49.13 |
+| 50 | 1 → 50.1–2; 2 → 50.3–5; 3 → 50.6; 4 → 50.7; 5 → 50.8; 6 → 50.9–12 |
+| 51 | 1 → 51.1–10 |
+| 52 | 1 → 52.1–2; 2 → 52.3; 3 → 52.4–9; 4 → 52.10–11; 5 → 52.12–13 |
+| 53 | 1 → 53.1–7; 2 → 53.8; 3 → 53.9–12 |
+| 54 | 1 → 54.1–2; 2 → 54.3–8; 3 → 54.9–10; 4 → 54.11–14 |
+| 55 | 3 → 55.3–5; 4 → 55.6; 5 → 55.7–11; 6 → 55.12–13; 7 → 55.14; 8 → 55.15 |
+| 56 | 1 → 56.1–6; 2 → 56.7–8; 3 → 56.9 |
+| 57 | 1 → 57.1–2; 2 → 57.3–10; 3 → 57.11; 4 → 57.12–16; 5 → 57.17–19; 6 → 57.20–23; 7 → 57.24–26; 8 → 57.27 |
+| 58 | 1 → 58.1–14; 2 → 58.15–16 |
+| 59 | 1 → 59.1–10 |
 
 The edition prints No. 70 twice; refs `Federalist.70.*` number the first
 version. The second is stored unsegmented on the paper as a variant.
