@@ -197,14 +197,23 @@ class NumeralHeadTests(unittest.TestCase):
 
 
 class CacheTests(unittest.TestCase):
-    def test_every_family_has_a_key_and_a_cache_in_each_workflow(self):
+    def test_every_family_has_a_key_and_a_cache_where_it_is_needed(self):
         keys = fetch.cache_keys()
         self.assertEqual(set(keys), set(UNTRACKED_FAMILIES))
-        for wf in ("ci.yml", "errata.yml", "review.yml"):
+        # CI restores every family; the errata workflow each one it may need
+        # (only when a correction's importers read it); the link review none,
+        # since it changes no text (decision 65).
+        for wf in ("ci.yml", "errata.yml"):
             text = (ROOT / ".github" / "workflows" / wf).read_text(encoding="utf-8")
             for name, pattern in UNTRACKED_FAMILIES.items():
                 self.assertIn(f"path: sources/raw/{pattern}", text, (wf, name))
                 self.assertIn(f"key: raw-{name}-${{{{ steps.raw-keys.outputs.{name} }}}}", text, (wf, name))
+        errata = (ROOT / ".github" / "workflows" / "errata.yml").read_text(encoding="utf-8")
+        for name in UNTRACKED_FAMILIES:
+            self.assertIn(f"steps.scope.outputs.families), ',{name},')", errata, name)
+        review = (ROOT / ".github" / "workflows" / "review.yml").read_text(encoding="utf-8")
+        self.assertNotIn("sources/raw/", review)
+        self.assertIn('python -m tools.scope --check --allow links', review)
         # No family's key prefix is another's (restore-keys match by prefix).
         for a in UNTRACKED_FAMILIES:
             for b in UNTRACKED_FAMILIES:
