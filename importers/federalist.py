@@ -28,7 +28,8 @@ import xml.etree.ElementTree as ET
 from difflib import SequenceMatcher
 from pathlib import Path
 
-from tools.common import TEXTS_DIR, collapse_ws, raw_path, read_raw_text, roman_to_int, write_json
+from importers.tcp import TEI, load, tag
+from tools.common import TEXTS_DIR, collapse_ws, read_raw_text, roman_to_int, write_json
 
 SOURCE_ID = "gutenberg-federalist-18"
 MCLEAN_ID = "tcp-evans-n16444"
@@ -102,20 +103,17 @@ def _segment(ref: str, label: str, raw: str, **extra) -> dict:
     return seg
 
 
-TEI = "{http://www.tei-c.org/ns/1.0}"
-
-
 def _tei_text(el: ET.Element, out: list[str]) -> None:
     """Running text of a TEI element: notes left out, line-end hyphens joined."""
-    tag = el.tag.replace(TEI, "")
-    if tag == "g":
+    name = tag(el)
+    if name == "g":
         if el.get("ref") != "char:EOLhyphen":
             out.append(el.text or "")
-    elif tag == "gap":
+    elif name == "gap":
         out.append(" \u25ca ")  # an illegible stretch: keeps words apart, matches nothing
-    elif tag == "lb":
+    elif name == "lb":
         out.append(" ")
-    elif tag not in ("note", "pb"):
+    elif name not in ("note", "pb"):
         out.append(el.text or "")
         for c in el:
             _tei_text(c, out)
@@ -128,7 +126,7 @@ def mclean_paragraphs() -> dict[int, list[str]]:
     A paragraph is a <p> (or a block quotation <q> standing outside one);
     consecutive verse lines <l> are one block. Headings, signatures and
     notes are left out. Used only to place paragraph breaks."""
-    root = ET.parse(raw_path(MCLEAN_ID)).getroot()
+    root = load(MCLEAN_ID)
     papers: dict[int, list[str]] = {}
     for div in root.iter(TEI + "div"):
         if div.get("type") != "number":
@@ -138,19 +136,19 @@ def mclean_paragraphs() -> dict[int, list[str]]:
 
         def walk(el: ET.Element) -> None:
             nonlocal verse
-            tag = el.tag.replace(TEI, "")
-            if tag in ("head", "signed", "note", "pb"):
+            name = tag(el)
+            if name in ("head", "signed", "note", "pb"):
                 return
-            if tag in ("p", "l") or (tag == "q" and el.find(TEI + "p") is None):
+            if name in ("p", "l") or (name == "q" and el.find(TEI + "p") is None):
                 out = [el.text or ""]
                 for c in el:
                     _tei_text(c, out)
                 text = " ".join("".join(out).split())
-                if tag == "l" and verse:
+                if name == "l" and verse:
                     paras[-1] += " " + text
                 else:
                     paras.append(text)
-                verse = tag == "l"
+                verse = name == "l"
                 return
             for c in el:
                 walk(c)

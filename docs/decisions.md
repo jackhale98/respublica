@@ -1504,6 +1504,61 @@ that they re-import only what changed and restore only the caches they need:
   rebuild cannot have changed. The full check still runs in CI on every push
   to main, the one these workflows make included.
 
+## 67. Sources of the Declaration: Common Sense and Locke, from the Text Creation Partnership
+
+The project owner asked for two works that shaped the Declaration of
+Independence: Thomas Paine's *Common Sense* (Philadelphia, January 1776) and
+the second of John Locke's *Two Treatises of Government*. Locke is English;
+the library includes him as a source the Declaration's language draws on
+and says nothing more about influence. Decided:
+
+- **The Text Creation Partnership's transcriptions as the text** (the
+  owner's choice, made while the work was under way, in place of OCR). The
+  TCP (the University of Michigan and Oxford) keyed early printed books by
+  hand from page images and released them under CC0 as TEI P5 XML, one
+  repository per text on GitHub; each file is a raw source pinned to a
+  commit. Where a TCP text of a printing exists it is used; where none does,
+  the OCR method of decision 27 stands. `importers/tcp.py` reads the TEI:
+  words broken at a line end are joined, abbreviations the TCP expands are
+  given expanded, and letters it could not read ("•") and stops it could
+  not make out ("▪") are kept as it marks them and marked uncertain, never
+  filled in. The TCP gives the long s as a round s, so these texts have a
+  modern "s"; the editions' notes say so. Nothing else is modernized.
+- **Checked against scans of the same printing**, as the Anti-Federalist
+  Library's text was (decision 55), with the roles turned round: a word no
+  scan reads alike is marked uncertain, with the transcription's reading
+  (`tcp`) and the scans', where a scan reads another real word there, lacks
+  it where it reads the words around cleanly, or has a word more. The
+  transcription's word always stays: a difference is marked, never chosen.
+  Verify accepts `tcp` in place of the main scan's reading (`primary`), and
+  the site names it "TCP transcription". The rules are in
+  `docs/editions.md`.
+- ***Common Sense*: the first edition** (R. Bell, January 1776), Evans-TCP
+  N11839, checked against the John Carter Brown Library's copy of the first
+  edition, first issue, whose page images are the passages'. Bell's second
+  and third editions were reset and revised ("to quit his work" for "from
+  his work"), and Bradford's enlarged edition of February 1776 is another
+  text, so none is used as a check; no second scan of the first edition was
+  found. Refs `CommonSense.Introduction.{n}` and `CommonSense.{part}.{n}`,
+  parts 1–4 as the title page numbers them.
+- **Locke: the first edition** (London: Awnsham Churchill, 1690), EEBO-TCP
+  A48901, Book II only, checked against the University of Illinois's copy
+  and a microfilm. Refs `Locke.{chapter}.{section}` with Locke's own
+  section numbers, the usual citation; a section of several paragraphs is
+  one passage. This printing has no § 21 (later editions have one), so
+  `Locke.3.21` is not used.
+- **Raw files.** The TCP files (about 0.85 MB) are in git; the Internet
+  Archive files (about 11 MB) are kept out of git as a family of their own,
+  `iadecl` (`ia-decl-*`), cached in CI like the others.
+- **On the site** each work has an index page and a page per part of
+  *Common Sense* or chapter of Locke, in a collection of its own, "sources"
+  (`SourcesView`), with a card on the home page after the Declaration's
+  (Locke's text, about 53,500 words, is too long for one page). Another
+  agent is adding the documents of the Continental Congress; these two may
+  join that section later.
+- **Not done:** no links have been proposed for these works. Slips of the
+  transcriptions the check found or missed are errata 130–133.
+
 ## 70. The Federalist's lost paragraph breaks, restored from McLean (1788)
 
 The Project Gutenberg e-text lost most of its paragraph breaks in Nos. 40–59
@@ -1516,7 +1571,8 @@ paragraphs of those papers renumbered:
   transcription, Evans-TCP N16444 (Evans 21127), CC0, recorded as
   `tcp-evans-n16444`. Only the positions of its paragraph breaks are used; no
   word comes from it.
-- **Method.** `importers/federalist.py` aligns each paper's words with
+- **Method.** `importers/federalist.py` reads the TEI with the shared
+  helpers of `importers/tcp.py` (decision 67), aligns each paper's words with
   McLean's and splits an e-text paragraph before the word that corresponds
   to the first word of a McLean paragraph, when the words on both sides
   align. 265 breaks were added: Nos. 40–59 went from 98 paragraphs to 363

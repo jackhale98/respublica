@@ -35,6 +35,109 @@ and quote-mark style (curly vs straight). See `tools/common.py`,
   the date line into `Declaration.Heading`; nothing else is changed.
 - Importer: `importers/nara.py` (`import_declaration`).
 
+## Sources of the Declaration
+
+Two works the Declaration's language draws on (decision 67). The library
+records that, and says nothing more about their influence. Both are taken
+from the **Text Creation Partnership** (TCP; the University of Michigan and
+Oxford), which keyed early printed books by hand from page images and
+released the texts under CC0 as TEI P5 XML. The TCP text is the text, not
+OCR (`importers/tcp.py`):
+
+- **What the TCP marks is kept as it marks it.** Words broken at a line end
+  are joined (as the OCR importers do); abbreviations the TCP expands (the
+  Latin "-que" in Locke's quotations from Barclay) are given expanded, as its
+  `<ex>`; letters the keyers could not read are "•" and a stop they could
+  not make out "▪", as the TCP displays them, and every such word is marked
+  uncertain, never filled in. Superscripts are plain letters ("1o.").
+  Italics are not kept.
+- **The long s.** The TCP's keying rules give the long s as a round s, so
+  these texts have a modern "s" where the printings have "ſ". Nothing else
+  is modernized: "possitively", "encrease", "Iudge" are as the TCP keyed
+  them.
+- **The check against scans.** Each word is compared with the OCR of
+  Internet Archive scans of the same printing, as the Anti-Federalist
+  Library's text was compared with the scans (decision 55), the roles turned
+  round: the TCP is the text, the scans only a check. Words are compared by
+  their letters with the long s set aside ("s", "f" and "l" alike, which is
+  how OCR reads the long s; "i"/"j" and "u"/"v" alike too, since OCR
+  dictionaries regularize "Iudge"). Where no scan reads a word alike and a
+  scan reads another real word there (a word of the clean texts or of the
+  TCP text, not a piece of the TCP's word and not one of OCR's usual
+  confusions in this type, "be" for "he", "the" for "she", "fall" for
+  "shall"), or has no word there in a passage it otherwise reads cleanly, or
+  has a word of the clean texts more, the word is marked uncertain with the
+  TCP's reading (`tcp`) and the scans'; the TCP's word stays in the text. A
+  scan's reading that is not a word is OCR noise. What the check cannot see:
+  a slip that gives a word the check does not know, and the long s against
+  "f" or "l" ("fame" for "same"), errata 131 and 133.
+- **Scans.** Each passage records the scan whose page images it links to
+  (`scan.leaves`), found where its words were read in that scan.
+
+### Common Sense
+
+- **Printing:** [Thomas Paine], *Common Sense; Addressed to the Inhabitants
+  of America* (Philadelphia: Printed, and Sold, by R. Bell, in
+  Third-Street, 1776), the first edition, advertised January 9, 1776
+  ([4], 79, [1] p.). Published anonymously; the TCP's record attributes it
+  to Paine (from the *Dictionary of American Biography*).
+- **Text:** Evans-TCP N11839 (Evans 14954), keyed from the Readex microprint
+  of this printing (`tcp-n11839`, pinned to a commit of
+  github.com/textcreationpartnership/N11839).
+- **Check:** the John Carter Brown Library's copy of the first edition, first
+  issue (p. 63, line 13 ends "pedling politi-"), on the Internet Archive
+  (`commonsenseaddre00pain_2`, its DjVu XML, `ia-decl-paine-1776-jcb-xml`);
+  its page images are the passages'. No other scan of this printing was
+  found: Bell's second edition (John Adams's copy, `commonsenseaddre00pain`)
+  and third edition (`case_e211_.p128`, `commonsensewithw00pain_0`) were
+  reset and revised ("would urge him from his work" in the first edition is
+  "to quit his work" in both), and Bradford's enlarged edition of February
+  14, 1776, and the American and British reprints are other texts, so none
+  is used. The scan is a photograph of the bound copy: words outside the
+  block of text (the marbled edges) are left out, and its lines are rebuilt
+  from where the words stand (`tcp.printed_lines`).
+- **What is imported:** the Introduction and the four parts, with Paine's
+  two notes; not the title page, the running title over part I, "FINIS." or
+  the bookseller's advertisement. Refs: `docs/references.md`.
+- **Result:** 140 passages (2 notes), about 15,800 words, 61 marked
+  uncertain (about 4 per thousand). The scan was lined up with 92% of the
+  words, and read 89% with the same letters.
+- Importer: `importers/paine.py`.
+
+### Locke, the Second Treatise of Government
+
+- **Printing:** [John Locke], *Two Treatises of Government* (London: Printed
+  for Awnsham Churchill, 1690), the first edition (271 [i.e. 467] p.), Book
+  II: "An Essay Concerning the True Original, Extent and End of Civil
+  Government" (the TCP's heading reads "Oringinal"). Locke was English; the
+  work is in the library as a source the Declaration's language draws on.
+  Published anonymously; the TCP's record attributes it to Locke.
+- **Why this printing:** the TCP's transcription of it exists (the owner's
+  choice of method, decision 67), and it is the first edition. Later
+  editions revise the text: the 1764 edition Thomas Hollis prepared from
+  Locke's last corrections (three scans of it are on the Internet Archive)
+  has a § 21, "To avoid this state of war …", which this printing lacks.
+- **Text:** EEBO-TCP A48901 (Wing L2766), keyed from the Early English Books
+  images of the Union Theological Seminary Library's copy (`tcp-a48901`,
+  pinned to a commit of github.com/textcreationpartnership/A48901). Only
+  Book II is imported.
+- **Check:** two copies of this printing on the Internet Archive: the
+  University of Illinois's (`twotreatisesofgo00lock_1`, DjVu XML,
+  `ia-decl-locke-1690-illinois-xml`; its page images are the passages') and
+  a microfilm in the Early English Books series
+  (`bim_early-english-books-1641-1700_two-treatises-of-governm_locke-john_1690`,
+  OCR text, `ia-decl-locke-1690-microfilm-txt`). The Illinois scan was lined
+  up with 95% of the words and the microfilm with 80%; 2% were lined up with
+  neither.
+- **What is imported:** the nineteen chapters, Locke's numbered sections
+  §§ 1–243 (no § 21), and the nine notes printed in the margin (Hooker's
+  words); not Book II's headings, "FINIS." or Book I. A section of several
+  paragraphs is one passage. Refs: `docs/references.md`.
+- **Result:** 251 passages (242 sections, 9 notes), about 53,500 words, 162
+  marked uncertain (about 3 per thousand), among them the words with
+  letters the TCP could not read.
+- Importer: `importers/locke.py`.
+
 ## Constitution
 
 - **Base:** National Archives, "The Constitution of the United States: A

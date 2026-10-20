@@ -1,0 +1,57 @@
+---
+import "../../styles/collection.css";
+import Base from "../../layouts/Base.astro";
+import Continue from "../Continue.astro";
+import { href, authorText, formatDate, readingMinutes } from "../../lib/data.js";
+
+// Index of a work the Declaration's language draws on (decision 67): Common
+// Sense's parts, the chapters of Locke's Second Treatise.
+const { work } = Astro.props;
+const parts = work.parts;
+const words = parts.reduce((s, p) => s + p.words, 0);
+const attr = work.attribution;
+---
+<Base title={work.title} section={work.id} description={`${work.title}, ${formatDate(work.date)}: ${work.summary || ""} A permanent reference for every passage.`}>
+  <section class="page-head">
+    <div class="container">
+      <ol class="crumbs">
+        <li><a href={href("/")}>Library</a></li>
+        <li aria-current="page">{work.short}</li>
+      </ol>
+      <span class="eyebrow">A source of the Declaration</span>
+      <h1>{work.title}</h1>
+      <p class="lede">
+        {formatDate(work.date)}. {work.summary} {attr?.byline && <Fragment>{attr.byline}{" "}<span class="muted">(as given in {attr.source})</span>.</Fragment>}
+      </p>
+      <div class="doc-stats">
+        <span><strong>{parts.length}</strong> {work.part_name}</span>
+        <span><strong>{work.passages.toLocaleString("en-US")}</strong> passages</span>
+        <span><strong>{words >= 1000 ? `${Math.round(words / 1000)}k` : words}</strong> words</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <Continue work={work.url.split("/")[1]} />
+    <ol class="papers">
+      {parts.map((p) => (
+        <li>
+          <a class="card paper" href={href(p.url)}>
+            <div class="paper-top">
+              <span class="paper-no">{p.label.split(" ").at(-1)}</span>
+            </div>
+            <h3>{p.title || p.label}</h3>
+            <div class="paper-foot">
+              <span>{p.label}</span>
+              <span>{readingMinutes(p.words)} min</span>
+            </div>
+          </a>
+        </li>
+      ))}
+    </ol>
+    <p class="legend-note">
+      Text of {work.edition.name}, from the Text Creation Partnership's transcription, checked against scans of the
+      printing; {authorText(attr)}. <a href={href("/about/#editions")}>About the editions</a>
+    </p>
+  </div>
+</Base>
