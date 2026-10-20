@@ -348,7 +348,7 @@
   ],
   "edition": {
     "name": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 3 (2nd ed., Philadelphia: J. B. Lippincott, 1907 printing)",
-    "notes": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 3 (2nd ed., Philadelphia: J. B. Lippincott, 1907 printing), pp. 43–652: the Virginia convention's debates, June 5–25, 1788. The speeches of Patrick Henry that the Anti-Federalist Library prints, each as Elliot prints it, with any other member's remarks it takes in. Read from OCR scans and checked word by word against scans of three other copies; where they disagreed, the Library's text was used to choose among their readings, never to add one; words still unsettled are marked as uncertain. See docs/editions.md."
+    "notes": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 3 (2nd ed., Philadelphia: J. B. Lippincott, 1907 printing), pp. 43–652: the Virginia convention's debates, June 5–25, 1788. The speeches of Patrick Henry that the Anti-Federalist Library prints, each as Elliot prints it, with any other member's remarks it takes in. Read from OCR scans and checked word by word against scans of three other copies; where they disagreed, the Library of Congress's typed transcription of the same pages (and where it could not be lined up, the Library's text) was used to choose among their readings, never to add one; words still unsettled are marked as uncertain. See docs/editions.md."
   },
   "id": "patrick-henry",
   "position": "anti",
@@ -401,7 +401,8 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 2366
+          "start": 2366,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -771,7 +772,8 @@
             "google": "^om",
             "primary": "yrow"
           },
-          "start": 17
+          "start": 17,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -818,7 +820,8 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 2059
+          "start": 2059,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -967,7 +970,8 @@
             "cornell": "1",
             "primary": "1"
           },
-          "start": 10
+          "start": 10,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -1072,7 +1076,8 @@
             "cornell": "svsHenry.]",
             "primary": "svsterns"
           },
-          "start": 587
+          "start": 587,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -1119,7 +1124,8 @@
             "harvard": "[HBNRr. linquishment",
             "primary": "relinquishmenl"
           },
-          "start": 158
+          "start": 158,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -1308,7 +1314,8 @@
           "readings": {
             "primary": "\\Am"
           },
-          "start": 1657
+          "start": 1657,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -1517,7 +1524,8 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 1680
+          "start": 1680,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -2125,18 +2133,7 @@
           329
         ]
       },
-      "text": "Mr. HENRY. Mr. Chairman, once more 1 find it necessary to trespass on your patience. An honorable gentleman, several days ago, observed, that the great object of this government was justice. We were told before, that the greater consideration was union. However, the consideration of justice seems to have been what influenced his mind when he made strictures on the proceedings of the Virginia Assembly. I thought the reasons of that transaction had been sufficiently explained.",
-      "uncertain": [
-        {
-          "end": 36,
-          "readings": {
-            "cornell": "1",
-            "harvard": "I",
-            "primary": "1"
-          },
-          "start": 35
-        }
-      ]
+      "text": "Mr. HENRY. Mr. Chairman, once more I find it necessary to trespass on your patience. An honorable gentleman, several days ago, observed, that the great object of this government was justice. We were told before, that the greater consideration was union. However, the consideration of justice seems to have been what influenced his mind when he made strictures on the proceedings of the Virginia Assembly. I thought the reasons of that transaction had been sufficiently explained."
     },
     {
       "label": "Henry, June 12, 1788, ¶ 2",
@@ -2553,7 +2550,8 @@
             "harvard": "[IbbMMMf. inconveniences,",
             "primary": "mconreniences,"
           },
-          "start": 119
+          "start": 119,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -2909,7 +2907,8 @@
           "readings": {
             "primary": "administerea"
           },
-          "start": 849
+          "start": 849,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -3460,7 +3459,8 @@
             "harvard": "oi",
             "primary": "o^"
           },
-          "start": 156
+          "start": 156,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -3490,7 +3490,8 @@
           "readings": {
             "primary": "J"
           },
-          "start": 170
+          "start": 170,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -3789,7 +3790,8 @@
           "readings": {
             "primary": "lo"
           },
-          "start": 2441
+          "start": 2441,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -3982,7 +3984,8 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 1004
+          "start": 1004,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -4030,7 +4033,8 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 1586
+          "start": 1586,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -4074,7 +4078,8 @@
             "google": "theWth",
             "primary": "the llth"
           },
-          "start": 335
+          "start": 335,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -4244,7 +4249,8 @@
           "readings": {
             "primary": "trapquillity"
           },
-          "start": 112
+          "start": 112,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -4349,7 +4355,8 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 325
+          "start": 325,
+          "suggested_by": "loc"
         },
         {
           "end": 940,
@@ -4450,7 +4457,8 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 794
+          "start": 794,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -4481,7 +4489,8 @@
             "cornell": "iini",
             "primary": "ii(<i"
           },
-          "start": 868
+          "start": 868,
+          "suggested_by": "loc"
         },
         {
           "end": 1902,
@@ -4621,7 +4630,8 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 330
+          "start": 330,
+          "suggested_by": "loc"
         }
       ]
     },
@@ -4714,7 +4724,8 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 689
+          "start": 689,
+          "suggested_by": "loc"
         },
         {
           "end": 1883,
@@ -4746,6 +4757,7 @@
     "ia-elliot-v3-1876-cornell-txt",
     "ia-elliot-v3-1861-google-txt",
     "ia-elliot-v3-1836-google-txt",
+    "loc-lled-003-xml",
     "afl-henry1",
     "afl-henry10",
     "afl-henry11",

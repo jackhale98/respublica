@@ -64,6 +64,23 @@ BOOKS = {
         # "580 DEBATES. [Nicholas." on the left, "Henry.] VIRGINIA. 579" on the right.
         "running_head": r"\bDEBATES\.?\s*\[\s*\S+$|^\S*\]?\s*VIRGINIA\b",
     },
+    # Vols. 2 and 4, the same printing: the scans the Library of Congress's
+    # transcription of the other conventions is checked against
+    # (importers/conventions.py; decision 68).
+    "elliot-2": {
+        "edition": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 2 (2nd ed., Philadelphia: J. B. Lippincott, 1907 printing)",
+        "short": "Elliot, Debates, vol. 2",
+        "item": "debatesinseveral02elliuoft",
+        "primary": "ia-elliot-v2-1907-toronto-xml",
+        "references": {},
+    },
+    "elliot-4": {
+        "edition": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 4 (2nd ed., Philadelphia: J. B. Lippincott, 1907 printing)",
+        "short": "Elliot, Debates, vol. 4",
+        "item": "debatesinseveral04elliuoft",
+        "primary": "ia-elliot-v4-1907-toronto-xml",
+        "references": {},
+    },
 }
 
 # Roman numeral as OCR reads it (I as 1, l, | or !; II as H; V as Y).

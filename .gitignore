@@ -13,3 +13,6 @@ sources/raw/ia-globe-*
 # The bound Congressional Record's govinfo PDFs (one per house per day) and the Internet Archive's microfilm OCR of its parts: `make fetch` restores them (decision 61)
 sources/raw/govinfo-crecb-*
 sources/raw/ia-record-*
+# The Library of Congress's typed transcription of Elliot's Debates, vols. 2-4, and the Internet Archive's scans of vols. 2 and 4 it is checked against: `make fetch` restores them (decision 68)
+sources/raw/loc-lled-*
+sources/raw/ia-elliot-v[24]-*

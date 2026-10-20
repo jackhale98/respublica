@@ -1,0 +1,805 @@
+{
+  "date": "1788-01-04/1788-01-09",
+  "divisions": [
+    {
+      "date": "1788-01-04",
+      "label": "January 4, 1788",
+      "level": 1,
+      "ref": "Connecticut1788.Jan4"
+    },
+    {
+      "date": "1788-01-07",
+      "label": "January 7, 1788",
+      "level": 1,
+      "ref": "Connecticut1788.Jan7"
+    },
+    {
+      "date": "1788-01-09",
+      "label": "January 9, 1788",
+      "level": 1,
+      "ref": "Connecticut1788.Jan9"
+    }
+  ],
+  "edition": {
+    "name": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 2 (2nd ed., Washington, 1836)",
+    "notes": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 2 (2nd ed., Washington, 1836), pp. 185–202, headed “Fragment Of The Debates In The Convention Of The State Of Connecticut …”. The text is the Library of Congress's typed transcription (A Century of Lawmaking for a New Nation, 1997; lled002), not OCR, divided by day as Elliot prints the days. Every word was checked against the Internet Archive's scan of the 1907 Lippincott printing of the same pages (debatesinseveral02elliuoft); where the scans read another word, the transcription's word is kept and marked as uncertain, with every reading, for a person to check against the page image. See docs/editions.md."
+  },
+  "id": "connecticut-convention-1788",
+  "ref_prefix": "Connecticut1788",
+  "segments": [
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 1",
+      "pages": [
+        "185"
+      ],
+      "ref": "Connecticut1788.Jan4.1",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          201
+        ]
+      },
+      "text": "Collected from contemporary publications, since the first edition of this work."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 2",
+      "pages": [
+        "185"
+      ],
+      "ref": "Connecticut1788.Jan4.2",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          201
+        ]
+      },
+      "text": "In Convention, Hartford, January 4, 1788."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 3",
+      "pages": [
+        "185"
+      ],
+      "ref": "Connecticut1788.Jan4.3",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          201
+        ]
+      },
+      "text": "SPEECH of OLIVER ELSWORTH, on opening the Debates."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 4",
+      "pages": [
+        "185",
+        "186"
+      ],
+      "ref": "Connecticut1788.Jan4.4",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          201,
+          202
+        ]
+      },
+      "text": "OLIVER ELSWORTH. Mr. President, it is observable that there is no preface to the proposed Constitution; but it evidently presupposes two things: one is, the necessity of a federal government; the other is, the inefficacy of the old Articles of Confederation. A union is necessary for the purposes of a national defence. United, we are strong; divided, we are weak. It is easy for hostile nations to sweep off a number of separate states, one after another. Witness the states in the neighborhood of ancient Rome. They were successively subdued by that ambitious city, which they might have conquered with the utmost ease, if they had been united. Witness the Canaanitish nations, whose divided situation rendered them an easy prey. Witness England, which, when divided into separate states, was twice conquered by an inferior force. Thus it always happens to small states, and to great ones, if divided. Or if, to avoid this, they connect themselves with some powerful state, their situation is not much better. This shows us the necessity of combining our whole force, and, as to national purposes, becoming one state."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 5",
+      "pages": [
+        "186"
+      ],
+      "ref": "Connecticut1788.Jan4.5",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          202
+        ]
+      },
+      "text": "A union, sir, is likewise necessary, considered with relation to economy. Small states have enemies, as well as great ones. They must provide for their defence. The expense of it, which would be moderate for a large kingdom, would be intolerable to a petty state. The Dutch are wealthy; but they are one of the smallest of the European nations, and their taxes are higher than in any other country of Europe. Their taxes amount to forty shillings per head, when those of England do not exceed half that sum."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 6",
+      "pages": [
+        "186"
+      ],
+      "ref": "Connecticut1788.Jan4.6",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          202
+        ]
+      },
+      "text": "We must unite, in order to preserve peace among ourselves. If we be divided, what is to prevent wars from breaking out among the states? States, as well as individuals, are subject to ambition, to avarice, to those jarring passions which disturb the peace of society. What is to check these? If there be a parental hand over the whole, this, and nothing else, can restrain the unruly conduct of the members."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 7",
+      "pages": [
+        "186"
+      ],
+      "ref": "Connecticut1788.Jan4.7",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          202
+        ]
+      },
+      "text": "Union is necessary to preserve commutative justice between the states. If divided, what is to prevent the large states from oppressing the small? What is to defend us from the ambition and rapacity of New York, when she has spread over that vast territory which she claims and holds? Do we not already see in her the seeds of an overbearing ambition? On our other side there is a large and powerful state. Have we not already begun to be tributaries? If we do not improve the present critical time, — if we do not unite, — shall we not be like Issachar of old, a strong ass crouching down between two burdens? New Jersey and Delaware have seen this, and have adopted the Constitution unanimously."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 8",
+      "pages": [
+        "186",
+        "187"
+      ],
+      "ref": "Connecticut1788.Jan4.8",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          202,
+          203
+        ]
+      },
+      "text": "A more energetic system is necessary. The present is merely advisory. It has no coercive power. Without this, government is ineffectual, or rather is no government at all. But it is said, “Such a power is not necessary. States will not do wrong. They need only to be told their duty, and they will do it.” I ask, sir, What warrant is there for this assertion? Do not states do wrong? Whence come wars? One of two hostile nations must be in the wrong. But it is said, “Among sister states, this can never be presumed.” But do we not know that, when friends become enemies, their enmity is the most virulent? The seventeen provinces of the Netherlands were once confederated: they fought under the same banner. Antwerp, hard pressed by Philip, applied to the other states for relief. Holland, a rival in trade, opposed and prevented the needy succors. Antwerp was made a sacrifice. I wish I could say there were no seeds of similar injustice springing up among us. Is there not in one of our states injustice too barefaced for Eastern despotism? That state is small: it does little hurt to any but itself. But it has a spirit which would make a Tophet of the universe. But some will say, “We formerly did well without any union.” I answer, Our situation is materially changed. While Great Britain held her authority, she awed us. She appointed governors and councils for the American provinces. She had a negative upon our laws. But now, our circumstances are so altered, that there is no arguing what we shall be, from what we have been."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 9",
+      "pages": [
+        "187"
+      ],
+      "ref": "Connecticut1788.Jan4.9",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          203
+        ]
+      },
+      "text": "It is said, that other confederacies have not had the principle of coercion. Is this so? Let us attend to those confederacies which have resembled our own. Some time before Alexander, the Grecian states confederated together. The Amphictyonic council, consisting of deputies from these states, met at Delphos, and had authority to regulate the general interests of Greece. This council did enforce its decrees by coercion. The Bœ:otians once infringed upon a decree of the Amphictyons. A mulct was laid upon them. They refused to pay it. Upon that, their whole territory was confiscated. They were then glad to compound the matter. After the death of Alexander, the Achæan league was formed. The decrees of this confederacy were enforced by dint of arms. The Ætolian league was formed by some other Grecian cities, in opposition to the Achæan; and there was no peace between them until they were conquered and reduced to a Roman province. They were then obliged to sit down in peace under the same yoke of despotism."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 10",
+      "pages": [
+        "187",
+        "188"
+      ],
+      "ref": "Connecticut1788.Jan4.10",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          203,
+          204
+        ]
+      },
+      "text": "How is it with respect to the principle of coercion in the Germanic body? In Germany there are about three hundred principalities and republics. Deputies from these meet annually in the general diet, to make regulations for the empire. But the execution of these is not left voluntarily with the members. The empire is divided into ten circles, over each of which a superintendent is appointed, with the rank of a major-general. It is his duty to execute the decrees of the empire with a military force."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 11",
+      "pages": [
+        "188"
+      ],
+      "ref": "Connecticut1788.Jan4.11",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          204
+        ]
+      },
+      "text": "The confederation of the Swiss cantons has been considered as an example. But their circumstances are far different from ours. They are small republics, about twenty miles square, situated among the Alps, and inaccessible to hostile attacks. They have nothing to tempt an invasion. Till lately, they had neither commerce nor manufactures. They were merely a set of herdsmen. Their inaccessibleness has availed them. Four hundred of those mountaineers defeated 15,000 Austrians, who were marching to subdue them. They spend the ardor of youth in foreign service: they return old, and disposed for tranquillity. Between some of the cantons and France, there has long subsisted a defensive treaty. By this treaty, France is to be a mediator to settle differences between the cantons. If any one be obstinate, France is to compel a submission to reasonable terms."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 12",
+      "pages": [
+        "188"
+      ],
+      "ref": "Connecticut1788.Jan4.12",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          204
+        ]
+      },
+      "text": "The Dutch republic is an example that merits attention. The form of their constitution, as it is on paper, admits not of coercion. But necessity has introduced it in practice. This coercive power is the influence of the stadtholder—an officer originally unknown to their constitution. But they have been necessitated to appoint him, in order to set their unwieldy machine of government in motion. He is commander-in-chief of their navy, and of their army, consisting of forty or fifty regiments. He appoints the officers of the land and naval forces. He presides in the States-General, and in the states of every province, and, by means of this, he has a great opportunity to influence the elections and decisions. The province of Holland has ever been opposed to the appointment of a stadtholder; because, by its wealth and power, being equal to all the other provinces, it possesses the weight and influence of the stadtholder, when that office is vacant. Without such an influence, their machine of government would no more move, than a ship without wind, or a clock without weights."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 13",
+      "pages": [
+        "188",
+        "189"
+      ],
+      "ref": "Connecticut1788.Jan4.13",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          204,
+          205
+        ]
+      },
+      "text": "But to come nearer home. Mr. President, have we not seen and felt the necessity of such a coercive power? What was the consequence of the want of it during the late war, particularly towards the close? A few states bore the burden of the war. While we and one or two more of the states were paying eighty or a hundred dollars per man to recruit the Continental army, the regiments of some states had scarcely men enough to wait on their officers. Since the close of the war, some of the states have done nothing towards complying with the requisitions of Congress. Others, who did something at first, seeing that they were left to bear the whole burden, have become equally remiss. What is the consequence? To what shifts have we been driven? To the wretched expedient of negotiating new loans in Europe, to pay the interest of the foreign debt. And what is still worse, we have even been obliged to apply the new loans to the support of our own civil government at home."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 14",
+      "pages": [
+        "189"
+      ],
+      "ref": "Connecticut1788.Jan4.14",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          205
+        ]
+      },
+      "text": "Another ill consequence of this want of energy is, that treaties are not performed. The treaty of peace with Great Britain was a very favorable one for us. But it did not happen perfectly to please some of the states, and they would not comply with it. The consequence is, Britain charges us with the breach, and refuses to deliver up the forts on our northern quarter."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 15",
+      "pages": [
+        "189"
+      ],
+      "ref": "Connecticut1788.Jan4.15",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          205
+        ]
+      },
+      "text": "Our being tributaries to our sister states is in consequence of the want of a federal system. The state of New York raises 60 or £80,000 a year by impost. Connecticut consumes about one third of the goods upon which this impost is laid, and consequently pays one third of this sum to New York. If we import by the medium of Massachusetts, she has an impost, and to her we pay a tribute. If this is done when we have the shadow of a national government, what shall we not suffer when even that shadow is gone!"
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 16",
+      "pages": [
+        "189",
+        "190"
+      ],
+      "ref": "Connecticut1788.Jan4.16",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          205,
+          206
+        ]
+      },
+      "text": "If we go on as we have done, what is to become of the foreign debt? Will sovereign nations forgive us this debt, because we neglect to pay? or will they levy it by reprisals, as the laws of nations authorize them? Will our weakness induce Spain to relinquish the exclusive navigation of the Mississippi, or the territory which she claims on the east side of that river? Will our weakness induce the British to give up the northern posts? If a war breaks out, and our situation invites our enemies to make war, how are we to defend ourselves? Has government the means to enlist a man or buy an ox? Or shall we rally the remainder of our old army? The European nations I believe to be not friendly to us. They were pleased to see us disconnected from Great Britain; they are pleased to see us disunited among ourselves. If we continue so, how easy it is for them to canton us out among them, as they did the kingdom of Poland! But supposing this is not done, if we suffer the union to expire, the least that may be expected is, that the European powers will form alliances, some with one state and some with another, and play the states off one against another, and that we shall be involved in all the labyrinths of European politics. But I do not wish to continue the painful recital; enough has been said to show that a power in the general government to enforce the decrees of the Union is absolutely necessary."
+    },
+    {
+      "label": "Connecticut convention, January 4, 1788, ¶ 17",
+      "pages": [
+        "190"
+      ],
+      "ref": "Connecticut1788.Jan4.17",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          206
+        ]
+      },
+      "text": "The Constitution before us is a complete system of legislative, judicial, and executive power. It was designed to supply the defects of the former system; and I believe, upon a full discussion, it will be found calculated to answer the purposes for which it was designed."
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 1",
+      "pages": [
+        "190"
+      ],
+      "ref": "Connecticut1788.Jan7.1",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          206
+        ]
+      },
+      "text": "January 7, 1788. [On this Power of Congress to lay Taxes.]",
+      "uncertain": [
+        {
+          "end": 25,
+          "readings": {
+            "primary": "this",
+            "toronto": "the"
+          },
+          "start": 21
+        }
+      ]
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 2",
+      "pages": [
+        "190"
+      ],
+      "ref": "Connecticut1788.Jan7.2",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          206
+        ]
+      },
+      "text": "OLIVER ELSWORTH. Mr. President, this is a most important clause in the Constitution; and the gentlemen do well to offer all the objections which they have against it. Through the whole of this debate, I have attended to the objections which have been made against this clause; and I think them all to be unfounded. The clause is general; it gives the general legislature “power to lay and collect taxes, duties, imposts, and excises, to pay the debts and provide for the common defence and general welfare of the United States.” There are three objections against this clause—first, that it is too extensive, as it extends to all the objects of taxation; secondly, that it is partial; thirdly, that Congress ought not to have power to lay taxes at all."
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 3",
+      "pages": [
+        "190",
+        "191"
+      ],
+      "ref": "Connecticut1788.Jan7.3",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          206,
+          207
+        ]
+      },
+      "text": "The first objection is, that this clause extends to all the objects of taxation, But though it does extend to all, it does not extend to them exclusively. It does not say that Congress shall have all these sources of revenue, and the states none. All, excepting the impost, still lie open to the states. This state owes a debt; it must provide for the payment of it. So do all the other states. This will not escape the attention of Congress. When making calculations to raise a revenue, they will bear this in mind. They will not take away that which is necessary for the states. They are the head, and will take care that the members do not perish. The state debt, which now lies heavy upon us, arose from the want of powers in the federal system. Give the necessary powers to the national government, and the state will not be again necessitated to involve itself in debt for its defence in war. It will lie upon the national government to defend all the states, to defend all its members, from hostile attacks. The United States will bear the whole burden of war. It is necessary that the power of the general legislature should extend to all the objects of taxation, that government should be able to command all the resources of the country; because no man can tell what our exigencies maybe. Wars have now become rather wars of the purse than of the sword. Government mast therefore be able to command the whole power of the purse; otherwise a hostile nation may look into our Constitution, see what resources are in the power of government, and calculate to go a little beyond us; thus they may obtain a decided superiority over us, and reduce us to the utmost distress. A government which can command but half its resources is like a man with but one arm to defend himself.",
+      "uncertain": [
+        {
+          "end": 1379,
+          "readings": {
+            "primary": "mast",
+            "toronto": "must"
+          },
+          "start": 1375
+        }
+      ]
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 4",
+      "pages": [
+        "191"
+      ],
+      "ref": "Connecticut1788.Jan7.4",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          207
+        ]
+      },
+      "text": "The second objection is, that the impost is not a proper mode of taxation; that it is partial to the Southern States. I confess I am mortified when I find gentlemen supposing that their delegates in Convention were inattentive to their duty, and made a sacrifice of the interests of their constituents. If, however, the impost be a partial mode, this circumstance, high as my opinion of it is, would weakens my attachment to it; for I abhor partiality. But I think there are three special reasons why an impost is the best way of raising a national revenue.",
+      "uncertain": [
+        {
+          "end": 407,
+          "readings": {
+            "primary": "weakens",
+            "toronto": "weaken"
+          },
+          "start": 400
+        }
+      ]
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 5",
+      "pages": [
+        "191",
+        "192"
+      ],
+      "ref": "Connecticut1788.Jan7.5",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          207,
+          208
+        ]
+      },
+      "text": "The first is, it is the most fruitful and easy way. All nations have found it to be so. Direct taxation can go but little way towards raising a revenue. To raise money in this way, people must be provident; they must constantly be laying up money to answer the demands of the collector. But you cannot make people thus provident. If you would do any thing to the purpose, you must come in when they are spending, and take a part with them. This does not take away the tools of a man's business, or the necessary utensils of his family: it only comes in when he is taking his pleasure, and feels generous; when he is laying out a shilling for superfluities, it takes twopence of it for public use, and the remainder will do him as much good as the whole. I will instance two facts, which show how easily and insensibly a revenue is raised by indirect taxation. I suppose people in general are not sensible that we pay a tax to the state of New York. Yet it is an incontrovertible fact, that we, the people of Connecticut, pay annually into the treasury of New York more than fifty thousand dollars. Another instance I will mention: one of our common river sloops pays in the West Indies a portage bill of £60. This is a tax which foreigners lay upon us, and we pay it; for a duty laid upon our shipping, which transports our produce to foreign markets, sinks the price of our produce, and operates as an effectual tax upon those who till the ground, and bring the fruits of it to market. All nations have seen the necessity and propriety of raising a revenue by indirect taxation, by duties upon articles of consumption. France raises a revenue of twenty-four millions sterling per annum; and it is chiefly in this way. Fifty millions of livres they raise upon the single article of salt. The Swiss cantons raise almost the whole of their revenue upon salt. Those states purchase all the salt which is to be used in the country: they sell it out to the people at an advanced price; the advance is the revenue of the country. In England, the whole public revenue is about twelve millions sterling per annum; The land tax amounts to about two millions; the window and some other taxes, to about two millions more. The other eight millions are raised upon articles of consumption. The whole standing army of Great Britain could not enforce the collection of this vast sum by direct taxation. In Holland, their prodigious taxes, amounting to forty shillings for each inhabitant, are levied chiefly upon articles of consumption. They excise every thing, not excepting even their houses of infamy."
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 6",
+      "pages": [
+        "192",
+        "193",
+        "194"
+      ],
+      "ref": "Connecticut1788.Jan7.6",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          208,
+          209,
+          210
+        ]
+      },
+      "text": "The experiments, which have been made in our own country, show the productive nature of indirect taxes. The imports into the United States amount to a very large sum. They never will be less, but will continue to increase for centuries to come. As the population of our country increases, the imports will necessarily increase. They will increase, because our citizens will choose to be farmers; living independently on their freeholds, rather than to be manufacturers, and work for a groat a day. I find by calculation that a general impost of 5 per cent. would raise the sum of £245,000 per annum, deducting 8 per cent. for the charges of collecting. A further sum might be deducted for smuggling—a business which is too well understood among us, and which is looked upon in too favorable a light. But this loss in the public revenue will be overbalanced by an increase of importations. And a further sum may be reckoned upon some articles which will bear a higher duty than the one recommended by Congress. Rum, instead of 4d. per gallon, may be set higher without any detriment to our health or morals. In England, it pays a duty of 4s. 6d. the gallon. Now, let us compare this source of revenue with our national wants. The interest of the foreign debt is £130,000 lawful money per annum. The expenses of the civil list are £37,000, There are likewise further expenses for maintaining the frontier posts, for the support of those who have been disabled in the service of the Continent, and some other contingencies, amounting, together with the civil list, to £130,000. This sum, added to the interest of the foreign debt, will be £260,000. The consequence follows, that the avails of the impost will pay the interest of the whole foreign debt, and nearly satisfy those current national expenses. But perhaps it will be said that these paper calculations are overdone, and that the real avails will fall far short. Let me point out, then, what has actually been done. In only three of the states, in Massachusetts, New York, and Pennsylvania, 160 or £180,000 per annum have been raised by impost. From this fact, we may certainly conclude that, if a general impost should be laid, it would raise a greater sum than I have calculated. It is a strong argument in favor of an impost, that the collection of it will interfere less with the internal police of the states than any other species of taxation. It does not fill the country with revenue officers, but is confined to the sea-coast, and is chiefly a water operation. Another weighty reason in favor of this branch of the revenue is, if we do not give it to Congress, the individual states will have it, It will give some states an opportunity of oppressing others, and destroy all harmony between them. If we would have the states friendly in each other, let us take away this bone of contention, and place it, as it ought in justice to be placed, in the hands of the general government.",
+      "uncertain": [
+        {
+          "end": 2802,
+          "readings": {
+            "primary": "in",
+            "toronto": "to"
+          },
+          "start": 2800
+        }
+      ]
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 7",
+      "pages": [
+        "194",
+        "195"
+      ],
+      "ref": "Connecticut1788.Jan7.7",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          210,
+          211
+        ]
+      },
+      "text": "“But,” says an honorable gentleman near me, “the impost will be a partial tax; the Southern States will pay but little in comparison with the Northern.” I ask, What reason is there for this assertion? Why; says he, we live in a cold climate, and want warming. Do not they live in a hot climate, and want quenching? Until you get as far south as the Carolinas, there is no material difference in the quantity of clothing which is worn. In Virginia, they have the same course of clothing that we have; in Carolina, they have a great deal of cold, raw, chilly weather; even in Georgia, the River Savannah has been crossed upon the ice. And if they do not wear quite so great a quantity of clothing in those states as with us, yet people of rank wear that which is of a much more expensive kind. In these states, we manufacture one half of our clothing, and all our tools of husbandry; in those, they manufacture none, nor ever will. They will not manufacture, because they find it much more profitable to cultivate their lands, which are exceedingly fertile. Hence they import almost every thing, not excepting the carriages in which they ride, the hoes with which they fill the ground, and the boots which they wear. If we doubt of the extent of their importations, let us look at their, exports. So exceedingly fertile and profitable are their lands, that a hundred large ships are every year loaded with rice and indigo from the single port of Charleston. The rich return of these cargoes of immense value will be all subject to the impost. Nothing is omitted; a duty is to be paid upon the blacks which they import. From Virginia, their exports are valued at a million sterling per annum: the single article of tobacco amounts to seven or eight hundred thousand. How does this come back? Not in money; for the Virginians are poor, to a proverb, in money. They anticipate their crops: they spend faster than they earn: they aide ever in debt. Their rich exports return in eatables, in drinkables, and in wearables. All these are subject to the impost. In Maryland, their exports are as great in proportion as those in Virginia. The imports and exports of the Southern States are quite as great in proportion as those of the Northern. Where, then, exists this partiality, which has been objected? It exists nowhere but in the uninformed mind.",
+      "uncertain": [
+        {
+          "end": 1171,
+          "readings": {
+            "primary": "fill",
+            "toronto": "till"
+          },
+          "start": 1167
+        },
+        {
+          "end": 1928,
+          "readings": {
+            "primary": "aide",
+            "toronto": "are"
+          },
+          "start": 1924
+        }
+      ]
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 8",
+      "pages": [
+        "195"
+      ],
+      "ref": "Connecticut1788.Jan7.8",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          211
+        ]
+      },
+      "text": "But there is one objection, Mr. President, which is broad enough in cover the whole subject. Says the objector, Congress ought not to have power to raise any money at all. Why? Because they have the power of the sword; and if we give them the power of the purse, they are despotic. But I ask, sir, if ever there were a government without the power of the sword and the purse? This is not a new-coined phrase; but it is misapplied: it belongs to quite another subject. It was brought into use in Great Britain, where they have a king vested with hereditary power. Here, say they, it is dangerous to place the power of the sword and the purse in the hands of one man, who claims an authority independent of the people: therefore we will have a Parliament. But the king and Parliament together, the supreme power of the nation,—they have the sword and the purse. And they must have both; else, how could the country be defended? For the sword without the purse is of no effect: it is a sword in the scabbard. But does it follow, because it is dangerous to give the power of the sword and purse in an hereditary prince, who is independent of the people, that therefore it is dangerous to give it to the Parliament—to Congress, which is your Parliament—to men appointed by yourselves, and dependent upon yourselves? This argument amounts to this: you must cut a man in two in the middle, to prevent his hurting himself.",
+      "uncertain": [
+        {
+          "end": 67,
+          "readings": {
+            "primary": "in",
+            "toronto": "to"
+          },
+          "start": 65
+        },
+        {
+          "end": 1093,
+          "readings": {
+            "primary": "in",
+            "toronto": "to"
+          },
+          "start": 1091
+        }
+      ]
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 9",
+      "pages": [
+        "195",
+        "196",
+        "197"
+      ],
+      "ref": "Connecticut1788.Jan7.9",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          211,
+          212,
+          213
+        ]
+      },
+      "text": "But, says the honorable objector, if Congress levies money, the must legislate I admit it. Two legislative powers, says he, cannot legislate in the same place. I ask, Why can they nor? It is not enough to say they cannot. I wish for some reason. I grant that both cannot legislate upon the same object at the same time, and carry into effect laws which are contrary to each other. But the Constitution excludes every thing of this kind. Each legislature has its province; their limits may be distinguished. If dray will run foul of each other, if they will be trying who has the hardest head, it cannot be helped. The road is broad enough; but if two men will jostle each other, the fault is not in the road. Two several legislatures have in fact existed and acted at the same time in the same territory. It is in vain to say they cannot exist, when they actually have done it. In the time of the war, we an army who made the laws for the army? By whose authority were offenders tried and executed? Congress. By their authority a man was taken, tried, condemned, and hanged, in this very city. He belonged to the army; he was a proper, subject of military law; he deserted to the enemy; he deserved his fate. Wherever the army was, in whatever state, there Congress had complete legislative, judicial, and executive power. This very spot where we now are is a city. It has complete legislative, judicial, and executive powers; it is a complete state in miniature. Yet it breeds no confusion, it makes no schism. The city has not eaten up the state, nor the state the city. But if there be a new city, if it have not had time to unfold its principles, I will instance the city of New York, which is, and long has been, an important part of that state; it has been found beneficial; its powers and privileges have not clashed with the state. The city of London contains three or four times as many inhabitants as the whole state of Connecticut. It has extensive powers of government, and yet it makes no interference with the general government of the kingdom. This Constitution defines the extent of the powers of the general government. If the general legislature should at any time overleap their limits, the judicial department is a constitutional check. If the United States go beyond their powers, if they make a law which the Constitution does not authorize, it is void; and the judicial power, the national judges, who, to secure their impartiality, are to be made independent, will declare it to be void. On the other hand, if the states go beyond their limits, if they make a law which is a usurpation upon the general government, the law is void; and upright, independent judges will declare it to be so. Still, however, if the United States and the individual states will quarrel; if they want to fight, they may do it, and no frame of government can possibly prevent it. It is sufficient for this Constitution, that, solar from laying them under a necessity of contending, it provides every reasonable cheek against it. But perhaps, at some time or other, there will be a contest; the states may rise against the general government. If this do take place, if all the states combine, if all oppose, the whole will not eat up the members, but the measure which is opposed to the sense of the people will prove abortive. In republics, it is a fundamental principle that the majority govern, and that the minority, comply with the, general voice. How contrary, then, to republican principles, how humiliating, is our present situation! A single state can rise up, and put a veto upon the most important public measures. We have seen this actually take place. A single state has controlled the general voice of the Union; a minority, a very small minority, has governed us. So far is this from being consistent with republican principles, that it is, in effect, the worst species of monarchy.",
+      "uncertain": [
+        {
+          "end": 63,
+          "readings": {
+            "primary": "the",
+            "toronto": "they"
+          },
+          "start": 60
+        },
+        {
+          "end": 184,
+          "readings": {
+            "primary": "nor?",
+            "toronto": "not"
+          },
+          "start": 180
+        },
+        {
+          "end": 514,
+          "readings": {
+            "primary": "dray",
+            "toronto": "they"
+          },
+          "start": 510
+        },
+        {
+          "end": 2933,
+          "readings": {
+            "primary": "solar",
+            "toronto": "so far"
+          },
+          "start": 2928
+        },
+        {
+          "end": 3018,
+          "readings": {
+            "primary": "cheek",
+            "toronto": "check"
+          },
+          "start": 3013
+        },
+        {
+          "end": 3859,
+          "readings": {
+            "primary": "in",
+            "toronto": "iii"
+          },
+          "start": 3857
+        }
+      ]
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 10",
+      "pages": [
+        "197"
+      ],
+      "ref": "Connecticut1788.Jan7.10",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          213
+        ]
+      },
+      "text": "Hence we see how necessary for the Union is a coercive principle. No man pretends the contrary: we all see and feel this necessity. The only question is, Shall it be a coercion of law, or a coercion of arms? There is no other possible alternative. Where will those who oppose a coercion of law come out? Where will they end? A necessary consequence of their principles is a war of the states one against the other. I am for coercion by law—that coercion which acts only upon delinquent individuals. This Constitution does not attempt to coerce sovereign bodies, states, in their political capacity. No coercion is applicable to such bodies, but that of an armed force. If we should attempt to execute the laws of the Union by sending an armed force against a delinquent state, it would involve the good and bad, the innocent and guilty, in the same calamity."
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 11",
+      "pages": [
+        "197"
+      ],
+      "ref": "Connecticut1788.Jan7.11",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          213
+        ]
+      },
+      "text": "But this legal coercion singles out the guilty individual, and punishes him for breaking the laws of the Union. All men will see the reasonableness, of this; they will acquiesce, and say, Let the guilty suffer."
+    },
+    {
+      "label": "Connecticut convention, January 7, 1788, ¶ 12",
+      "pages": [
+        "197"
+      ],
+      "ref": "Connecticut1788.Jan7.12",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          213
+        ]
+      },
+      "text": "How have the morals of the people been depraved for the want of an efficient government, which might establish justice and righteousness! For the want of this, iniquity has come in upon us like an overflowing flood. If we wish to prevent this alarming evil, if we wish to protect the good citizen in his right, we must lift up the standard of justice; we must establish a national government, to be enforced by the equal decisions of law, and the peaceable arm of the magistrate."
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 1",
+      "pages": [
+        "197",
+        "198"
+      ],
+      "ref": "Connecticut1788.Jan9.1",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          213,
+          214
+        ]
+      },
+      "text": "January 9, 1788. Gov. HUNTINGDON. Mr. President, I do not rise to detain this Convention for any length of time. The subject has been so fully discussed, that very little can be added to what has already been offered, I have heard and attended with pleasure to what has been said on it. The importance of it merited a full and ample discussion. It does not give me pain, but pleasure, to hear the sentiments of those gentlemen who differ from me. It is not to be expected from human nature that we should all have the same opinion. The best way to learn the nature and effects of different systems of government, is not from theoretical dissertations, but from experience—from what has actually taken place among mankind. From this same source it is that mankind have obtained a more complete knowledge of the nature of government than they had in ages past. It is an established truth that no nation can exist without a coercive power—a power to enforce the execution of its political regulations. There is such a love of liberty implanted in the human heart, that no nation ever willingly gave up its liberty. If they lose this inestimable birthright of men, it is not for a want of the will, but of the proper means to support it. If we look into history, we shall find that the common avenue, through which tyranny has entered in, and enslaved nations who were once free, has been their not supporting government."
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 2",
+      "pages": [
+        "198",
+        "199"
+      ],
+      "ref": "Connecticut1788.Jan9.2",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          214,
+          215
+        ]
+      },
+      "text": "The great secret of preserving liberty is, to lodge the supreme power so as to be well supported, and not abused. If this could be effected, no nation would ever lose its liberty. The history of man clearly shows that it is dangerous to intrust the supreme power in the hands of one man. The same source of knowledge proves that it is not only inconvenient, but dangerous to liberty, for the people of a large community to attempt to exercise in person the supreme authority. Hence arises the necessity that the people should act by their representatives; but this method, so necessary for civil liberty, is an improvement of modern times. Liberty, however, is not so well secured as it ought to be, when the supreme power is lodged in one body of representatives. There ought to be two branches of the legislature, that one may be a check upon the other. It is difficult for the people at large to know when the supreme power is verging towards abuse, and to apply the proper remedy. But if the government be properly balanced, it will possess a renovating principle, by which it will be able to right itself. The constitution of the British nation affords us great light upon the subject of government. Learned men in other countries have admired it, though they thought it too fine-spun to prove beneficial in practice. But a long trial has now shown its excellence; and the difficulties which, that nation now experiences arise not from their constitution, but from other circumstances."
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 3",
+      "pages": [
+        "199"
+      ],
+      "ref": "Connecticut1788.Jan9.3",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          215
+        ]
+      },
+      "text": "The Author of nature has given mankind a certain degree of insight into futurity. As far as we can see a probability that certain events will happen, so far we do well to provide and guard. But we may attempt to go too far. It is in vain to think of providing against every possible contingency. The happiness of society depends not merely upon its constitution of government, but upon a variety of circumstances. One constitution may suit one particular nation exceedingly well, when a different one would suit another nation in different circumstances. Even among the American states, there is such a difference in sentiments, habits, and customs, that a government which might be very suitable for one might not be agreeable to the other."
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 4",
+      "pages": [
+        "199"
+      ],
+      "ref": "Connecticut1788.Jan9.4",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          215
+        ]
+      },
+      "text": "I am fully of opinion that the great council of the Union must have a controlling power with respect to national concerns. There is, at present, an extreme want of power in the national government; and it is my opinion that this Constitution does not give too much. As to the subject of representation, at the first view k appears small; but, on the whole, the purposes of the Union could not be so well answered by a greater number. It is impracticable to have the number of the representatives as great, and times of election as frequent, as they are in our state governments. Nor is this necessary for the security of our liberty. It is sufficient if the choice of our representatives be so frequent that they must depend upon the people, and that an inseparable connection be kept up between the electors and the elected."
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 5",
+      "pages": [
+        "199",
+        "200"
+      ],
+      "ref": "Connecticut1788.Jan9.5",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          215,
+          216
+        ]
+      },
+      "text": "The state governments, I think, will not be endangered by the powers vested by this Constitution in the general government. While I have attended in Congress, I have observed that the members were quite as strenuous advocates for the rights of their respective states, as for those of the Union. I doubt not but that this will continue to be the case; and hence I infer that the general government will not have the disposition to encroach upon the states. But still the people themselves must be the chief support of liberty. While the great body of freeholders are acquainted with the duties which they owe to their God, to themselves, and to men, they will remain free. But if ignorance and depravity should prevail, they will inevitably lead to slavery and ruin. Upon the whole view of this Constitution, I am in favor of it, and think it bids fair to promote our national prosperity."
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 6",
+      "pages": [
+        "200"
+      ],
+      "ref": "Connecticut1788.Jan9.6",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          216
+        ]
+      },
+      "text": "This is a new event in the history of mankind. Heretofore most governments have been formed by tyrants, and imposed on mankind by force. Never before did a people, in time of peace and tranquillity, meet together by their representatives, and, with calm deliberation, frame for themselves a system of government. This noble attempt does honor to our country. While I express my sentiments in favor of this Constitution, I candidly believe that those gentlemen who oppose it are actuated by principles of regard to the public welfare. If we will exercise mutual candor for each other, and sincerely endeavor to maintain our liberties, we may long continue to be a free and happy people."
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 7",
+      "pages": [
+        "200"
+      ],
+      "ref": "Connecticut1788.Jan9.7",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          216
+        ]
+      },
+      "text": "Hon. RICHARD LAW. Mr. President, the important subject before us has been examined so particularly, that I do not expect to add any thing new. As we have been a long time poring upon the defective parts of the Constitution, I think it will not be amiss to pay some attention to its excellences. There is one clause in it which provides a remedy for whatever defects it may have. The clause to which I refer is that which provides that, whenever two thirds of Congress, or a convention to be called at the instance of two thirds of the states, shall propose amendments, and they be agreed to by three fourths of the states, such amendments shall be valid, as part of the Constitution. This is an easy and peaceable way of amending any parts of the Constitution which may be found inconvenient in practice."
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 8",
+      "pages": [
+        "200",
+        "201"
+      ],
+      "ref": "Connecticut1788.Jan9.8",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          216,
+          217
+        ]
+      },
+      "text": "As this is a most important question, as it concerns not only present but future generations, we ought to consider it upon its real merits, without suffering our minds to be misled by examples of other nations, whose circumstances are very different from ours. Some haves been led into a mistake, by comparing a part of this Constitution with that of Great Britain. But this is very different from theirs. Our President is not a King, nor our Senate a House of Lords. They do not claim an independent, hereditary authority. But the whole is elective; all dependent on the people. The President, the Senate, the Representatives, are all creatures of the people. Therefore the people will be secure from oppression; though I admit that, if our President and Senate were possessed of an independent, hereditary authority, the democratical branch would be too weak for the others.",
+      "uncertain": [
+        {
+          "end": 271,
+          "readings": {
+            "primary": "haves",
+            "toronto": "have"
+          },
+          "start": 266
+        }
+      ]
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 9",
+      "pages": [
+        "201"
+      ],
+      "ref": "Connecticut1788.Jan9.9",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          217
+        ]
+      },
+      "text": "Some suppose that the general government, which extends over the whole, will annihilate the state governments. But consider that this general government rests upon the state governments for its support. It is like a vast and magnificent bridge, built upon thirteen strong and stately pillars. Now, the rulers, who occupy the bridge, cannot be so beside themselves as to knock away the pillars which support the whole fabric. But, some say, a free government, like this, has not energy enough to pervade a country of such vast extent."
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 10",
+      "pages": [
+        "201"
+      ],
+      "ref": "Connecticut1788.Jan9.10",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          217
+        ]
+      },
+      "text": "We are not satisfied with this assertion. We want to try the experiment. A free system of government is now presented to our acceptance. We shall be wanting to ourselves, if, instead of adopting it, we wait for the arm of tyranny to impose upon us a system of despotism. The finger of Providence is evidently to be seen in the political affairs of this country. The old Articles of Confederation were once the best that we should have been willing to adopt. We have been led on by imperceptible degrees to see that they are defective; and now, if it be the design of Providence to make us a great and happy people, I believe that he who turns the hearts of the children of men as the rivers of water are turned, will induce the people of the United States to accept of a Constitution which is well calculated to promote their national welfare."
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 11",
+      "pages": [
+        "201",
+        "202"
+      ],
+      "ref": "Connecticut1788.Jan9.11",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          217,
+          218
+        ]
+      },
+      "text": "Hon. OLIVER WOLCOTT. Mr. President, I do not expect to throw any new light on a subject which has been so fully discussed. Yet I cannot content myself without giving my opinion more explicitly than by a silent vote. It is generally agreed that the present Confederation is inadequate to the exigencies of our national affairs. We must therefore adopt this plan of government, or some other, or risk the consequences of disunion. As the present Articles of Confederation are inadequate, we ought to consider whether this Constitution be as good as can be agreed on by so many different states, or whether it be a dangerous system; whether it secures the liberties of the people, or whether its tendency be unfavorable to the rights of a free people. I have given it all the consideration in my power, and I have, a considerable time since, made up my mind on the subject, and think it my duty to give my voice in favor of adopting it. It is founded upon the election of the people. If it varies kern the former system, or if it is to be altered hereafter, it must be with the consent of the people. This is all the security in favor of liberty that can be expected. Mankind may become corrupt, and give up the cause of freedom; but I believe that love of liberty which prevails among the people of this country will prevent such a direful calamity.",
+      "uncertain": [
+        {
+          "end": 998,
+          "readings": {
+            "primary": "kern",
+            "toronto": "from"
+          },
+          "start": 994
+        }
+      ]
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 12",
+      "pages": [
+        "202"
+      ],
+      "ref": "Connecticut1788.Jan9.12",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          218
+        ]
+      },
+      "text": "The Constitution effectually secures the states in their several rights. It must secure them for its own sake; for they are the pillars which uphold the general system. The Senate, a constituent branch of the general legislature, without whose assent no public act can be made, are appointed by the states, and will secure the rights of the several states. The other branch of the legislature, the Representatives, are to be elected by the people at large. They will therefore be the guardians of the rights of the great body of the citizens. So well guarded is this Constitution throughout, that it seems impossible that the rights either of the states or of the people should be destroyed."
+    },
+    {
+      "label": "Connecticut convention, January 9, 1788, ¶ 13",
+      "pages": [
+        "202"
+      ],
+      "ref": "Connecticut1788.Jan9.13",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          218
+        ]
+      },
+      "text": "I do not see the necessity of such a test as some gentlemen wish for. The Constitution enjoins an oath upon all the officers of the United States. This is a direct appeal to that God who is the avenger of perjury. Such an appeal to him is a full acknowledgment of his being and providence. An acknowledgment of these great truths is all that the gentleman contends for. For myself, I should be content either with or without that clause in the Constitution which excludes test laws. Knowledge and liberty are so prevalent in this country, that I do not believe that the United States would ever be disposed to establish one religious sect, and lay all others under legal disabilities. But as we know not what may take place hereafter, and any such test would be exceedingly injurious to the rights of free citizens, I cannot think it altogether superfluous to have added a clause, which secures us from the possibility of such oppression. I shall only add, that I give my assent to this Constitution, and am happy to see the states in a fair way to adopt a Constitution which will protect their rights and promote their welfare."
+    }
+  ],
+  "short": "Connecticut convention",
+  "source_ids": [
+    "loc-lled-002-xml",
+    "ia-elliot-v2-1907-toronto-xml"
+  ],
+  "title": "Debates in the Connecticut Ratifying Convention, 1788"
+}

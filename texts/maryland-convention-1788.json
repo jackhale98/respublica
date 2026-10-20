@@ -1,0 +1,1103 @@
+{
+  "date": "1788-04-21",
+  "divisions": [
+    {
+      "label": "Maryland convention",
+      "level": 1,
+      "ref": "Maryland1788"
+    }
+  ],
+  "edition": {
+    "name": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 2 (2nd ed., Washington, 1836)",
+    "notes": "Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, vol. 2 (2nd ed., Washington, 1836), pp. 547–556, headed “A Fragment Of Facts, Disclosing The Conduct Of The Maryland Convention …”. The text is the Library of Congress's typed transcription (A Century of Lawmaking for a New Nation, 1997; lled002), not OCR, divided by day as Elliot prints the days. Every word was checked against the Internet Archive's scan of the 1907 Lippincott printing of the same pages (debatesinseveral02elliuoft); where the scans read another word, the transcription's word is kept and marked as uncertain, with every reading, for a person to check against the page image. See docs/editions.md."
+  },
+  "id": "maryland-convention-1788",
+  "ref_prefix": "Maryland1788",
+  "segments": [
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 1",
+      "pages": [
+        "547"
+      ],
+      "ref": "Maryland1788.1",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          563
+        ]
+      },
+      "text": "ADDRESS TO THE PEOPLE OF MARYLAND."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 2",
+      "pages": [
+        "547"
+      ],
+      "ref": "Maryland1788.2",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          563
+        ]
+      },
+      "text": "Annapolis, April 21, 1788."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 3",
+      "pages": [
+        "547"
+      ],
+      "ref": "Maryland1788.3",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          563
+        ]
+      },
+      "text": "The following facts, disclosing the conduct of the late Convention of Maryland, are submitted to the serious consideration of the citizens of the state."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 4",
+      "pages": [
+        "547"
+      ],
+      "ref": "Maryland1788.4",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          563
+        ]
+      },
+      "text": "On Monday, the 21st of April, the Convention met in Annapolis, and elected the Hon. George Plater, Esq., president. On Tuesday, they established rules for the conduct of business; and, on the same day, the following question was propounded to the Convention:—"
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 5",
+      "pages": [
+        "547"
+      ],
+      "ref": "Maryland1788.5",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          563
+        ]
+      },
+      "text": "“When a motion is made and seconded, the matter of the motion, shall receive a determination by the question, or be postponed, by general sent, or the previous question, before any other motion Shall be received.”"
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 6",
+      "pages": [
+        "547"
+      ],
+      "ref": "Maryland1788.6",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          563
+        ]
+      },
+      "text": "And the following question, viz.,—"
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 7",
+      "pages": [
+        "547"
+      ],
+      "ref": "Maryland1788.7",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          563
+        ]
+      },
+      "text": "“Every question shall be entered on the journal; and the yeas and nays may be called for, by any member, on any question, and the name of the member requiring them shall be entered on the journal.”"
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 8",
+      "pages": [
+        "547"
+      ],
+      "ref": "Maryland1788.8",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          563
+        ]
+      },
+      "text": "Which two questions the Convention determined in the negative."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 9",
+      "pages": [
+        "547",
+        "548"
+      ],
+      "ref": "Maryland1788.9",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          563,
+          564
+        ]
+      },
+      "text": "On Wednesday, the proposed plan of government was read the first time, and thereupon it was resolved, “That this Convention will not enter into any resolution upon any particular part of the proposed plan of federal government for the United States; but that the whole thereof shall be read through a second time, after which the subject may be fully debated and considered; and then the president Shall put the question, “That this Convention do assent, to and ratify the same Constitution.” On which question, the yeas and nays shall be taken."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 10",
+      "pages": [
+        "548",
+        "549"
+      ],
+      "ref": "Maryland1788.10",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          564,
+          565
+        ]
+      },
+      "text": "On Thursday, the members who were opposed to the ratification of the Constitution, without such previous amendments could be obtained as they thought essentially necessary to secure the liberty and happiness of the people, (being confined, by the last resolution, to consider, in one view, the whole of the plan of government,) stated some of their objections to the Constitution. The Convention met in the evening, when Mr. Paca, member from Hartford, having just taken his seat, rose, and informed the president that he had great objections to the Constitution proposed, in its present form, and meant to propose a variety of amendments, not to prevent, but to accompany the ratification; but, having just arrived, he was not ready to lay them before the house; and requested indulgence, until the morning, for that purpose. The proposal being seconded, and the house asked if they would give the indulgence, it was granted without a division; and they adjourned for that purpose. On Friday, at the meeting of the house, Mr. Paca rose, and informed the president, that, in consequence of the permission of the house, given him the preceding evening, he had prepared certain amendments, which he would read in his place, and then lay on the table; when he was interrupted, and one member from each of the following counties, viz., Frederic, Talbot, Charles, Kent, Somerset, Prince George's, Worcester, Queen Anne's, Dorchester, Calvert, and Caroline, and one member from the city of Annapolis,* and one from Baltimore town, arose in their places, and declared, for themselves and their colleagues, “that they were elected and instructed, by the people they represented, to ratify the proposed Constitution, and that as speedily as possible, and to do no other act; that, after the ratification, their power ceased, and they did not consider themselves as authorized by their constituents to consider any amendments.” After this, Mr. Paca was not permitted even to read his amendments. The opponents continued to make their objections to the Constitution until Saturday noon. The advocates of the government, although repeatedly called on, and earnestly requested, to answer the objections, if not just, remained inflexibly silent, and called for the question, that “the Convention assent to and ratify the proposed plan of federal government for the United States;” which was carried in the affirmative, by sixty-three to eleven."
+    },
+    {
+      "kind": "footnote",
+      "label": "Maryland convention, Maryland convention, note 1",
+      "pages": [
+        "549"
+      ],
+      "ref": "Maryland1788.fn1",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          565
+        ]
+      },
+      "text": "* The member from the City of Annapolis did not give it as his opinion that he was not at liberty to consider amendments, but said he had consulted his colleague, and that his colleague had informed him the citizens were against amendments."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 11",
+      "pages": [
+        "549"
+      ],
+      "ref": "Maryland1788.11",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          565
+        ]
+      },
+      "text": "The vote of ratification having thus passed, Mr. Paca again rose, and laid before the Convention his propositions for amending the Constitution thus adopted, which he had prepared by leave of the house; declaring that he had only given his assent to the government under the firm persuasion, and in full confidence that such amendments would be peaceably obtained so as to enable the people to live happy under the government; that the people of the county he represented, and that he himself, would support the government with such amendments; but, without them, not, a man in the state, and no people, would be more firmly opposed to it than himself and those he represented, Sentiments highly favorable to amendments were expressed, and a general murmur of approbation seemed to arise from all parts of the house, expressive of a desire to consider amendments, either in their characters as members of convention, or in their individual capacities as citizens; and the question was put on the following motion:—"
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 12",
+      "pages": [
+        "549"
+      ],
+      "ref": "Maryland1788.12",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          565
+        ]
+      },
+      "text": "“Resolved, That a committee be appointed to take into consideration, and report to this house on Monday morning next, a draught of such and alterations as may be thought necessary, in the proposed amendments Constitution for the United States, to be recommended to the consideration of the people of this state, if approved of by this Convention; and Mr. Paca, Mr. Johnson, Mr. S. Chase, Mr. Potts, Mr. Mercer, Mr. Goldsborough, Mr. Tilghman, Mr. Hanson, Mr. J. T. Chase, Mr. Lee, Mr. W. Tilghman, Mr. M'Henry, and Mr. G. Gale, be appointed a committee for that purpose.”"
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 13",
+      "pages": [
+        "549"
+      ],
+      "ref": "Maryland1788.13",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          565
+        ]
+      },
+      "text": "A division was called for on this resolution, when there appeared sixty-six members for, and not more than seven against it."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 14",
+      "pages": [
+        "549"
+      ],
+      "ref": "Maryland1788.14",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          565
+        ]
+      },
+      "text": "And then it was resolved, “That the amendments proposed to the Constitution by the delegate from Hartford county should be referred to the above committee.”"
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 15",
+      "pages": [
+        "549"
+      ],
+      "ref": "Maryland1788.15",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          565
+        ]
+      },
+      "text": "The committee thus appointed, the Convention adjourned to give them time to prepare their propositions; and they proceeded, with every appearance of unanimity, to execute the trust reposed in them."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 16",
+      "pages": [
+        "549",
+        "550"
+      ],
+      "ref": "Maryland1788.16",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          565,
+          566
+        ]
+      },
+      "text": "The following amendments to the proposed Constitution were separately agreed to by the committee, most of them by a unanimous vote, and all of them by a great majority."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 17",
+      "pages": [
+        "550"
+      ],
+      "ref": "Maryland1788.17",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          566
+        ]
+      },
+      "text": "1. That Congress shall exercise no power but What is expressly delegated by this Constitution."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 18",
+      "pages": [
+        "550"
+      ],
+      "ref": "Maryland1788.18",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          566
+        ]
+      },
+      "text": "By this amendment, the general powers given to Congress by the first and last paragraphs of the 8th sect. of art. 1, and the 2d paragraph of the 6th article, would be in a great measure restrained; those dangerous expressions, by which the bills of rights, and constitutions, of the several states may be repealed by the laws of Congress, in some degree moderated; and the exercise of constructive powers wholly prevented."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 19",
+      "pages": [
+        "550"
+      ],
+      "ref": "Maryland1788.19",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          566
+        ]
+      },
+      "text": "2. That there shall be a trial by jury in all criminal cases, according to the course of proceeding in the state where the offence is committed; and that there be no appeal from matter of fact, or second trial after acquittal; but this provision shall not extend to such cases as may arise in the government of the land or naval forces."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 20",
+      "pages": [
+        "550"
+      ],
+      "ref": "Maryland1788.20",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          566
+        ]
+      },
+      "text": "3. That, in all actions on debts or contracts, and in all other controversies respecting property, of which the inferior federal courts have jurisdiction, the trial of facts shall be by jury, if required by either party; and that it be expressly declared that the state courts, in such cases, have a concurrent jurisdiction with the federal courts, with an appeal from either, only as to matter of law, to the Supreme Federal Court, if the matter in dispute be of the value of dollars."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 21",
+      "pages": [
+        "550"
+      ],
+      "ref": "Maryland1788.21",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          566
+        ]
+      },
+      "text": "4. That the inferior federal courts shall not have jurisdiction of less than dollars; and there may be an appeal, in all cases of revenue, as well to matter of fact as law; and Congress may give the state courts jurisdiction of revenue cases, for such forms, and in such manner, as they may think proper."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 22",
+      "pages": [
+        "550"
+      ],
+      "ref": "Maryland1788.22",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          566
+        ]
+      },
+      "text": "5. That, in all cases of trespasses done within the body of a county, and within the inferior federal jurisdiction, the party injured shall be entitled to trial by jury in the state where the injury shall be committed; and that it be expressly declared that the state courts, in such cases, shall have concurrent jurisdiction with the federal courts, and there shall be no appeal from either, except on matter of law; and that no person be exempt from such jurisdiction and trial but ambassadors and ministers privileged by the law of nations."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 23",
+      "pages": [
+        "550"
+      ],
+      "ref": "Maryland1788.23",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          566
+        ]
+      },
+      "text": "6. That the federal courts shall not be entitled to jurisdiction by fictions or collusion."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 24",
+      "pages": [
+        "550"
+      ],
+      "ref": "Maryland1788.24",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          566
+        ]
+      },
+      "text": "7. That the federal judges do not hold any other office of profit, or receive the profits of any other office under Congress, during the time they hold their commission."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 25",
+      "pages": [
+        "550",
+        "551"
+      ],
+      "ref": "Maryland1788.25",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          566,
+          567
+        ]
+      },
+      "text": "The great objects of these amendments were, 1st. To secure the trial by jury in all cases, the boasted birthright of Englishmen and their descendants, and the palladium of civil liberty; and to prevent the appeal from fact, which not only destroys that trial in civil cases, but, by construction, may also elude it in criminal cases—a mode of proceeding both expensive and burdensome, and which, by blending law with fact, will destroy all check on the judiciary authority, render it almost impossible to convict judges of corruption, and may lay the foundation of that gradual and silent attack on individuals, by which the approaches of tyranny become irresistible. 2d. To give a concurrent jurisdiction to the state courts, in order that Congress may not be compelled, as they will be under the present form, to establish inferior federal courts, which, if not numerous, are very expensive; the circumstances of the people being unequal to the increased expense of double courts and double officer—an arrangement that will render the law so complicated and confused, that few men can know how to conduct themselves with safety to their persons or property, the great and only security of freemen. 3d. To give such jurisdiction to the state courts that transient foreigners, and persons from other states, committing injuries in this state, may be amenable to the state whose laws they violate and whose citizens they injure. 4th. To prevent an extension of the federal jurisdiction, which may, and in all probability will, swallow up the state jurisdictions, and consequently sap those rules of descent and regulations of personal property, by which men hold their estates. And lastly, to secure the independence of the federal judges, to whom the happiness of the people of this great continent will be so greatly committed by the extensive powers assigned them.",
+      "uncertain": [
+        {
+          "end": 1000,
+          "readings": {
+            "primary": "officer",
+            "toronto": "officers"
+          },
+          "start": 993
+        }
+      ]
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 26",
+      "pages": [
+        "551"
+      ],
+      "ref": "Maryland1788.26",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          567
+        ]
+      },
+      "text": "8. That all warrants without oath, or affirmation of a person conscientiously scrupulous of taking an oath, to search suspected places, or seize any person or his property, are grievous and oppressive; and all general warrants to search suspected places, or to apprehend any person suspected, without naming or describing the place or person in special, are dangerous, and ought not to be granted."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 27",
+      "pages": [
+        "551",
+        "552"
+      ],
+      "ref": "Maryland1788.27",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          567,
+          568
+        ]
+      },
+      "text": "This amendment was considered indispensable by many of the committee; for, Congress having the power of laying excises, (the horror of a free people,) by which our dwelling-houses, those castles considered so sacred by the English law, will be laid open to the insolence and oppression of office, there could be no constitutional check provided that would prove so effectual a safeguard to our citizens. General warrants, too, the great engine by which power may destroy those individuals who resist usurpation, are also hereby forbidden to those magistrates who are to administer the general government."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 28",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.28",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "9. That no soldier be enlisted for a longer time than four years, except in time of war, and then only during the war."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 29",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.29",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "10. That soldiers be not quartered, in time of peace, upon private houses, without the consent of the owners."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 30",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.30",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "11. That no mutiny bill continue in force longer than two years."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 31",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.31",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "These were the only checks that could be obtained against the unlimited power of raising and regulating standing armies, the natural enemies to freedom; and even with these restrictions, the new Congress will not be under such constitutional restraints as the Parliament of Great Britain—restraints which our ancestors have bled to establish, and which have hitherto preserved the liberty of their posterity."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 32",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.32",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "12. That the freedom of the press be inviolably preserved."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 33",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.33",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "In prosecutions in the federal courts for libels, the constitutional preservation of this great and fundamental right may prove invaluable."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 34",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.34",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "13. That the militia shall not be subject to martial law, except in time of war, invasion, or rebellion."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 35",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.35",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "This provision to restrain the powers of Congress over the militia, although by no means so ample as that provided by Magna Charta, and the other great fundamental and constitutional laws of Great Britain, (it being contrary to Magna Charts to punish a freeman by martial law, in time of peace, and murder to execute him,) yet it may prove an inestimable check; for all other provisions in favor of the rights of men would be vain and nugatory, if the power of subjecting all men, able to bear arms, to martial law at any moment should remain vested in Congress.",
+      "uncertain": [
+        {
+          "end": 240,
+          "readings": {
+            "primary": "Charts",
+            "toronto": "Charta"
+          },
+          "start": 234
+        }
+      ]
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 36",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.36",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "Thus far the amendments were agreed to."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 37",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.37",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "The following amendments were laid before the committee, and negatived by a majority."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 38",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.38",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "1. That the militia, unless selected by lot, or voluntarily enlisted, shall not be marched beyond the limits of an adjoining state, without the consent of their legislature or executive."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 39",
+      "pages": [
+        "552"
+      ],
+      "ref": "Maryland1788.39",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568
+        ]
+      },
+      "text": "2. That the Congress shall have no power to alter or Change the time, place, or manner of holding elections for senators or representatives, unless a state shall neglect to make regulations, or to execute its regulations, or shall be prevented by invasion or rebellion; in which cases only, Congress may interfere, until the cause be removed.",
+      "uncertain": [
+        {
+          "end": 155,
+          "readings": {
+            "primary": "state",
+            "toronto": "stale"
+          },
+          "start": 150
+        }
+      ]
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 40",
+      "pages": [
+        "552",
+        "553"
+      ],
+      "ref": "Maryland1788.40",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          568,
+          569
+        ]
+      },
+      "text": "3. That, in every law of Congress imposing direct, taxes, the collection thereof shall be suspended for a certain reasonable time, therein limited; and on payment of the sum by any state, by the time appointed, such taxes shall not be collected."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 41",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.41",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "4. That no standing army shall be kept up in time of peace, unless with the consent of two thirds of the members present of each branch of Congress."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 42",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.42",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "5. That the President shall not command the army in person, without the consent of Congress."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 43",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.43",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "6. That no treaty shall be effectual to repeal or abrogate the constitutions or bills of rights of the states, or any part of them."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 44",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.44",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "7. That no regulation of commerce, or navigation act, shall be made, unless with the consent of two thirds of the members of each branch of Congress."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 45",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.45",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "8. That no member of Congress shall be eligible to any office of profit under Congress, during the time for which he shall be appointed."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 46",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.46",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "9. That Congress shall have no power to lay a poll tax."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 47",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.47",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "10. That no person conscientiously scrupulous of bearing arms, in any case, shall be compelled personally to serve as a soldier."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 48",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.48",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "11. That there be a responsible council to the President."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 49",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.49",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "12. That there be no national religion established by law; but that all persons be equally entitled to protection in their religious liberty."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 50",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.50",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "13. That all imposts and duties laid by Congress shall be placed to the credit of the state in which the same shall be collected, and be deducted out of such state's quota of the common or general expenses of government."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 51",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.51",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "14. That every man hath a right to petition the legislature for the redress of grievances, in a peaceable and orderly manner."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 52",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.52",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "15. That it be declared, that all persons intrusted with the legislative or executive powers of government are the trustees and servants of the public; and, as such, accountable for their conduct. Wherefore, whenever the ends of government are perverted, and public liberty manifestly endangered, and all other means of redress are ineffectual, the people may, and of right ought to, reform the old, or establish a new government. The doctrine of non-resistance against arbitrary power and oppression is absurd. Slavish, and destructive of the good and happiness of mankind."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 53",
+      "pages": [
+        "553"
+      ],
+      "ref": "Maryland1788.53",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569
+        ]
+      },
+      "text": "The committee having proceeded thus far, all the members who voted for the ratification declared that they would engage themselves, under every tie of honor, to support the amendments they had agreed to, both in their public and private characters, until they should become a part of the general government; but a great majority of them insisted on this express condition, that none of the propositions rejected, or any others, should be laid before the Convention for their consideration, except those the committee had so agreed to."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 54",
+      "pages": [
+        "553",
+        "554"
+      ],
+      "ref": "Maryland1788.54",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          569,
+          570
+        ]
+      },
+      "text": "The gentlemen of the minority, who had made the propositions which had been rejected, reduced to the necessity of accommodating their sentiments to the majority, through fear of obtaining no security whatever for the people,—notwithstanding withstanding they considered all the amendments as highly important to the welfare and happiness of the citizens of the states,—yet, to conciliate, they agreed to confine themselves to the first three of those propositions, and solemnly declared and pledged themselves, that, if these were added, and supported by other gentlemen, they would not only cease to oppose the government, but give all their assistance to carry it into execution so amended. Finally, they only required liberty to take the sense of the Convention on the first three propositions, agreeing that they would hold themselves bound by the decision of a majority of that body."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 55",
+      "pages": [
+        "554"
+      ],
+      "ref": "Maryland1788.55",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          570
+        ]
+      },
+      "text": "The first of these objections, concerning the militia, they considered as essential; for, to march beyond the limits of a neighboring state the general militia, which consists of so many poor people that can illy be spared from their families and domestic concerns, by power of Congress, (who could know nothing of their circumstances,) without consent of their own legislature or executive, ought to be restrained."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 56",
+      "pages": [
+        "554"
+      ],
+      "ref": "Maryland1788.56",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          570
+        ]
+      },
+      "text": "The second objection, respecting the power of Congress to alter elections, they thought indispensable. Montesquieu says that the rights of elections should be established unalterably by fundamental laws, in a free government."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 57",
+      "pages": [
+        "554"
+      ],
+      "ref": "Maryland1788.57",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          570
+        ]
+      },
+      "text": "The third objection, concerning previous requisitions, they conceived highly important: they thought, if the money required by direct taxation could be paid with certainty, and in due time, to Congress, that every good consequence would be secured to the Union, and the people of the state thereby relieved from the great inconvenience and expense of a double collection, and a double set of tax-gatherers, and they might also get rid of those odious taxes by excise and poll, without injury to the general government."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 58",
+      "pages": [
+        "554"
+      ],
+      "ref": "Maryland1788.58",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          570
+        ]
+      },
+      "text": "They were, however, again proposed and rejected."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 59",
+      "pages": [
+        "554"
+      ],
+      "ref": "Maryland1788.59",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          570
+        ]
+      },
+      "text": "Affirmative.—Mr. Paca, Mr. Johnson, Mr. Mercer, Mr. J. T. Chase, Mr. S. Chase."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 60",
+      "pages": [
+        "554"
+      ],
+      "ref": "Maryland1788.60",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          570
+        ]
+      },
+      "text": "Negative.—Mr. Lee, Mr. Potts, Mr. Goldsborough, Mr. J. T. Tilghman, Mr. W. Tilghman, Mr. Hanson, Mr. G. Gale, Mr. M'Henry."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 61",
+      "pages": [
+        "554"
+      ],
+      "ref": "Maryland1788.61",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          570
+        ]
+      },
+      "text": "Previous to this, a motion was made on Monday, the 29th, in the Convention, while the committee were sitting, in the following Words, to wit:—"
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 62",
+      "pages": [
+        "554"
+      ],
+      "ref": "Maryland1788.62",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          570
+        ]
+      },
+      "text": "“Resolved, That this Convention will consider of no propositions for amendment of the federal government, except such as shall be submitted to them by the committee of thirteen.”"
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 63",
+      "pages": [
+        "555"
+      ],
+      "ref": "Maryland1788.63",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          571
+        ]
+      },
+      "text": "The committee being sent for by the Convention, the gentlemen of the majority in committee then determined that they would make no report of any amendments whatever, not even of those which they had almost unanimously agreed to; and the committee, under those circumstances, attended the house. Mr. Paca, as chairman, stated to the Convention what had passed in the committee, read the amendments which had there been agreed to, and assigned the reason why no report had been formally made. A member then rose, and proposed that a vote of thanks to the president, which had been once read before the attendance of the committee, should have a second reading; and upon the second reading thereof, the previous question was called for by the members who wished to consider the amendments agreed to by the committee, and such other amendments as might be proposed. The house thereupon divided, and the yeas and nays were called for by the minority; the sense of the Convention was taken thereon; and a majority determined that the yeas and nays should not be taken, nor would they permit the vote to be entered on the journal, by which the yeas and nays were prohibited; to preclude the consideration of any amendments."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 64",
+      "pages": [
+        "555"
+      ],
+      "ref": "Maryland1788.64",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          571
+        ]
+      },
+      "text": "A motion was then made, “that the Convention adjourn without day,” on which the yeas and nays were taken, and appeared as follows:—"
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 65",
+      "pages": [
+        "555"
+      ],
+      "ref": "Maryland1788.65",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          571
+        ]
+      },
+      "text": "Affirmative.—The Hon. the President, Messrs, Barns, Chilton, Sewel, W. Tilghman, Yates, Granger, Chesly, Smith, Brown, Turner, Stone, Goldsborough, Stevens, G. Gale, Waggaman, Stewart, J. Gale, Sulivane, Shaw, Gilpin, Hollingsworth, Heron, Evans, O. Sprigg, Hall, Digges, Hanson, J. Tilghman, Holliday, Hemsley, Morris, Lee, Potts, Faw, J. Richardson, Edmondson, M'Henry, Coulter, T. Sprigg, Stull, Rawlins, Shryoch, Cramphin, Thomas, Deakins, Edwards. 47."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 66",
+      "pages": [
+        "555"
+      ],
+      "ref": "Maryland1788.66",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          571
+        ]
+      },
+      "text": "Negative.—Messrs. Perkins, J. T. Chase, S. Chase, Mercer, Wilkinson, Grahame, Parnham, Ridgely, Cockey, Cromwell, Lloyd, Hammond, Bowie, Carroll, Seney, Chaile, Martin, Done, Johnson, Paca, Love, Pinckney, L. Martin, W. Richardson, Driver, and Harrison. 27."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 67",
+      "pages": [
+        "555",
+        "556"
+      ],
+      "ref": "Maryland1788.67",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          571,
+          572
+        ]
+      },
+      "text": "We consider the proposed form of national government as very defective, and that the liberty and happiness of the people will be endangered if the system be not greatly changed and altered. The amendments agreed to by the committee, and those proposed by the minority, are now laid before you for your consideration, that you may express your sense as to such alterations as you may think proper to be made in the new Constitution.",
+      "uncertain": [
+        {
+          "end": 211,
+          "readings": {
+            "primary": "agreed",
+            "toronto": "agrees!"
+          },
+          "start": 205
+        }
+      ]
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 68",
+      "pages": [
+        "556"
+      ],
+      "ref": "Maryland1788.68",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          572
+        ]
+      },
+      "text": "We remain persuaded that the importance of the alterations proposed, calculated to preserve public liberty by those checks on power which the experience of ages has rendered venerable, and to promote the happiness of the people, by a due attention to their ease and convenience, will justify the steps we have taken, to obtain them, to our constituents and the world."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 69",
+      "pages": [
+        "556"
+      ],
+      "ref": "Maryland1788.69",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          572
+        ]
+      },
+      "text": "Having no interest that can distinguish us from the rest of the community, we neither fear censure nor wish applause. Having thus discharged the duty of citizens and trustees of the public, we shall now submit to the people those precautions and securities, which, on mature reflection on this momentous subject, we deem necessary for that safety and happiness."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 70",
+      "pages": [
+        "556"
+      ],
+      "ref": "Maryland1788.70",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          572
+        ]
+      },
+      "text": "May the all-wise and omnipotent Being, who made us masters of a fair and fruitful empire, inspire us with wisdom and fortitude to perpetuate to posterity that freedom which we received from our fathers!"
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 71",
+      "pages": [
+        "556"
+      ],
+      "ref": "Maryland1788.71",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          572
+        ]
+      },
+      "text": "Members of the Committee.—William Paca, Samuel Chase, John F. Mercer, Jeremiah T. Chase."
+    },
+    {
+      "label": "Maryland convention, Maryland convention, ¶ 72",
+      "pages": [
+        "556"
+      ],
+      "ref": "Maryland1788.72",
+      "scan": {
+        "item": "debatesinseveral02elliuoft",
+        "leaves": [
+          572
+        ]
+      },
+      "text": "Members of the Convention.—John Love, Charles Ridgely, Edward Cockey, Nathan Cromwell, Charles Ridgely, of Wm., Luther Martin, Benjamin Harrison, Wm. Pinckney."
+    }
+  ],
+  "short": "Maryland convention",
+  "source_ids": [
+    "loc-lled-002-xml",
+    "ia-elliot-v2-1907-toronto-xml"
+  ],
+  "title": "A Fragment of Facts: the Maryland Ratifying Convention, 1788"
+}
