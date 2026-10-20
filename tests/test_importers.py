@@ -23,6 +23,46 @@ class FederalistImportTests(unittest.TestCase):
         disputed = [d["ref"] for d in self.doc["divisions"] if d["attribution"]["kind"] == "disputed"]
         self.assertEqual(len(disputed), 11)
 
+    def test_paragraph_breaks_restored_in_40_to_59(self):
+        # Decision 70: No. 51 was one paragraph in the e-text; McLean has ten.
+        paras = [s["ref"] for s in self.doc["segments"] if s["ref"].startswith("Federalist.51.")
+                 and s.get("kind") != "footnote"]
+        self.assertEqual(len(paras), 10)
+        old = {r["ref"]: r["now"] for r in self.doc["renumbered"]}
+        self.assertEqual(old["Federalist.51.1"], [f"Federalist.51.{k}" for k in range(1, 11)])
+        self.assertTrue(all(r["ref"].split(".")[1] in {str(n) for n in range(40, 60)} for r in self.doc["renumbered"]))
+
+
+class RestoreBreaksTests(unittest.TestCase):
+    """Toy strings, not source text: only break positions come from the second text."""
+
+    def test_splits_where_the_other_text_breaks_keeping_these_words(self):
+        from importers.federalist import restore_breaks
+        ours = ["alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu"]
+        other = ["Alpha beta gamma delta epsilon zeta,", "eta theta iota kappa lambda mu"]
+        paras, origin, report = restore_breaks(ours, other)
+        self.assertEqual(paras, ["alpha beta gamma delta epsilon zeta", "eta theta iota kappa lambda mu"])
+        self.assertEqual(origin, [0, 0])
+        self.assertEqual([b["action"] for b in report], ["split"])
+
+    def test_never_joins_and_skips_breaks_without_enough_context(self):
+        from importers.federalist import restore_breaks
+        ours = ["alpha beta gamma delta", "epsilon zeta eta theta iota"]
+        other = ["alpha beta gamma delta epsilon zeta eta theta iota"]
+        self.assertEqual(restore_breaks(ours, other)[0], ours)
+        other = ["alpha beta gamma delta epsilon", "omega psi chi phi"]
+        paras, _origin, report = restore_breaks(ours, other)
+        self.assertEqual(paras, ours)
+        self.assertEqual([b["action"] for b in report], ["unaligned"])
+
+    def test_no_break_inside_italics(self):
+        from importers.federalist import restore_breaks
+        ours = ["alpha beta gamma _delta epsilon zeta eta_ theta iota kappa"]
+        other = ["alpha beta gamma delta epsilon", "zeta eta theta iota kappa"]
+        paras, _origin, report = restore_breaks(ours, other)
+        self.assertEqual(paras, ours)
+        self.assertEqual([b["action"] for b in report], ["inside italics"])
+
 
 class DeclarationImportTests(unittest.TestCase):
     @classmethod

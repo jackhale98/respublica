@@ -295,6 +295,14 @@ def check_texts(corpus: Corpus) -> list[str]:
                               "which is not a passage of this work")
             if not str(r.get("ref", "")).startswith(prefix) or not str(r.get("reason", "")).strip():
                 errors.append(f"{name}: retired ref {r.get('ref')!r} needs this work's prefix and a reason")
+        for r in doc.get("renumbered", []):
+            # A ref renumbered before launch by an owner's decision (decision 70): the
+            # passages its text is now in, all of this work.
+            now = r.get("now")
+            if not (str(r.get("ref", "")).startswith(prefix) and isinstance(r.get("decision"), int)
+                    and isinstance(now, list) and now and all(x in own for x in now)):
+                errors.append(f"{name}: renumbered ref {r.get('ref')!r} needs this work's prefix, a decision "
+                              "and the passages of this work it is now in")
         for s in doc.get("segments", []):
             ref = s.get("ref", "")
             if not REF.match(ref) or not ref.startswith(prefix):
