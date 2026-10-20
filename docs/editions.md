@@ -167,6 +167,51 @@ OCR (`importers/tcp.py`):
   superseded or changed text. They are kept as transcribed.
 - Importer: `importers/nara.py`.
 
+## The road to independence, 1774–1776
+
+Seven works on the way to the Declaration (decision 66), imported by
+`importers/independence.py` and shown together at `/independence/`. Where
+the Text Creation Partnership has keyed a printing of the time (Evans-TCP,
+American imprints to 1800; released under CC0), its transcription is the
+text (`importers/tcp.py`); where it has not, the text is read from scans by
+OCR consensus (`docs/ocr.md`). The 1904–06 Library of Congress edition of
+the Journals is not in Evans, and no Evans-TCP text prints the 1774 resolves,
+the May 1776 resolutions, the Lee Resolution or the Journals of July 1776;
+Jefferson's draft was first printed by Ford in 1893.
+
+| Work | Printing | Source | Imported |
+|---|---|---|---|
+| The Declaration and Resolves (October 14, 1774) | *Journals of the Continental Congress, 1774–1789*, ed. Worthington C. Ford, vol. 1 (Washington, 1904), pp. 63–73 | `journalsofcontin01unit` (DjVu XML); checked against `journalscontine08statgoog` and `journals-of-the-continental-congress-1774-1789-vol-1-1774` | The day's entry and the resolutions as adopted, which the Journals print in the right-hand column beside John Sullivan's draft (left out); the editor's note on the day's debates and his note that the paragraph on non-importation "was struck out" |
+| A Declaration … Setting forth the Causes and Necessity of their Taking up Arms (July 6, 1775) | the broadside sold at the printing-office in Portsmouth, N.H. [Daniel Fowle], 1775 (Evans 14550) | Evans-TCP N11512 (TEI) | The whole text, from the heading to the closing attestation; the woodcut view of Boston and its caption are left out. No scan of this printing was found, so the transcription is not cross-checked; its illegible letters and spans stay as the TCP marks them |
+| The resolution of May 10, 1776 and its preamble of May 15 | Journals, vol. 4 (1906), pp. 342, 357–358 | `journalsofcontin04unit` (DjVu XML); checked against `journals-of-the-continental-congress-1774-1789-vol-4-jan-1-jun-4-1776`, `journalscontine00statgoog` and `journalscontine05statgoog` | The day's entries on the resolution and the preamble (May 10: from the report of the committee of the whole to the committee named to draft a preamble; May 15: from the preamble's consideration to the order to publish it), with the editor's note on the preamble |
+| The Lee Resolution (June 7, 1776) | Journals, vol. 5 (1906), pp. 425–426 | `journalscontinen05unit` (DjVu XML); checked against `journalsofcontin05unit`, `journalscontine06conggoog` (which lacks these pages) and `journals-of-the-continental-congress-1774-1789-vol-5-june-5-oct-8-1776` | From "Certain resolutions respecting independency" to their referral to the next day, with the editor's note on Lee's manuscript |
+| The Virginia Declaration of Rights (June 12, 1776) | *The Articles of Confederation; the Declaration of Rights; the Constitution of the Commonwealth …* (Richmond: Dixon and Holt, [1784 or 1785]), pp. 12–14 (Evans 18818) | Evans-TCP N15245 (TEI); checked against the OCR of the Internet Archive's scan of the same printing, `bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784` | The heading and the sixteen articles |
+| Jefferson's draft preamble for the Virginia constitution (June 1776) | Paul Leicester Ford, ed., *The Writings of Thomas Jefferson*, vol. 2 (New York: Putnam, 1893), pp. 7–13 | `writingsofthom02jeff` (DjVu XML); checked against `writingsthomasj01fordgoog` and `writingsthomasj09unkngoog` | The fair copy, from the bill's title to the end of the clause deposing the king, as Ford prints it in the right-hand column beside the first draft (left out), with Ford's note on the manuscripts |
+| The proceedings on independence (July 2 and 4, 1776) | Journals, vol. 5 (1906), pp. 506–507, 510–516 | as for the Lee Resolution | July 2: from the resolution of independence to the order to consider the declaration the next day; July 4: from the committee of the whole's report to the orders for printing and proclaiming the Declaration, with its text, the signers and the editor's notes on them |
+
+**What the importer does not change.** The Journals' editorial marks are
+kept as OCR reads them: words the editor printed between double bars
+(entries of the rough journal) and his bracketed names
+("Mr. J[ohn] Adams"). Ford prints Jefferson's deletions struck through, his
+own insertions in brackets and his conjectures in italics; OCR reads struck
+words as words, so the fair copy's text holds Jefferson's deletions without
+a mark (erratum 113). The TCP's transcriptions keep the printings' spelling,
+the long s ("ſ", where the TCP keys it) and their punctuation; letters the keyers could not read
+are their placeholders (`•`, `〈…〉`, `▪`), marked uncertain and never filled
+in (decision 66). Their TEI markup (quotations, highlighting) is removed
+(rule 2 above), and a word the TEI marks as broken at a line's end
+(`char:EOLhyphen`) is rejoined without its hyphen, as the OCR importers
+rejoin a hyphenated word; in the OCR, a line-end hyphen read apart from its
+word ("independ - ence.") is rejoined only where the whole is a word of the
+clean texts.
+
+**Not imported.** The other column on the parallel pages (Sullivan's draft
+of the resolves; Jefferson's first draft); the Journals' other business on
+the same days; the 1775 declaration's drafts by Jefferson and Dickinson,
+which the Journals print beside its final form (vol. 2, pp. 128–157), since
+the text comes from the broadside; the Virginia printing's other contents
+(the Articles of Confederation, the state constitution, the treaty).
+
 ## The Federalist
 
 - **Base:** Project Gutenberg eBook #18, *The Federalist Papers* (source

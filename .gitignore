@@ -13,5 +13,16 @@ sources/raw/ia-globe-*
 # The bound Congressional Record's govinfo PDFs (one per house per day) and the Internet Archive's microfilm OCR of its parts: `make fetch` restores them (decision 61)
 sources/raw/govinfo-crecb-*
 sources/raw/ia-record-*
+# Internet Archive scans of the Journals of the Continental Congress and of Ford's Writings of Thomas Jefferson (the road to independence): `make fetch` restores them (decision 66)
+sources/raw/ia-road-*
 # Internet Archive scans that check the TCP texts of Common Sense and Locke (decision 67): `make fetch` restores them
 sources/raw/ia-decl-*
+# Moved out of git (decision 71): `make fetch` restores them.
+sources/raw/unt-globe-*
+sources/raw/ia-part-*
+sources/raw/ia-page-*
+sources/raw/ia-elliot-*
+sources/raw/ia-mcmaster-*
+sources/raw/ia-ford-*
+sources/raw/ia-mass-*
+sources/raw/loc-nyjournal-*

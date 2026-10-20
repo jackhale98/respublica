@@ -93,6 +93,48 @@ The articles keep the 1789 numbering: Article the third is the First
 Amendment, Article the twelfth the Tenth, and Article the second the
 Twenty-seventh.
 
+## The road to independence, 1774–1776
+
+Seven works imported by `importers/independence.py` (decision 66), each
+with a prefix of its own; no other work uses these prefixes.
+
+| Work | Prefix | Source |
+|---|---|---|
+| `texts/resolves-1774.json` | `Resolves1774` | Journals of the Continental Congress, vol. 1, pp. 63–73 |
+| `texts/causes-1775.json` | `Causes1775` | Evans-TCP N11512 (the Portsmouth broadside, 1775) |
+| `texts/new-governments-1776.json` | `Governments1776` | Journals, vol. 4, pp. 342, 357–358 |
+| `texts/lee-resolution-1776.json` | `LeeResolution` | Journals, vol. 5, pp. 425–426 |
+| `texts/virginia-declaration-of-rights.json` | `VirginiaRights` | Evans-TCP N15245 (Richmond, 1784 or 1785) |
+| `texts/jefferson-virginia-preamble-1776.json` | `JeffersonPreamble` | Ford, Writings of Thomas Jefferson, vol. 2, pp. 7–13 |
+| `texts/independence-1776.json` | `Independence1776` | Journals, vol. 5, pp. 506–507, 510–516 |
+
+- **Works of one day or one text** (`Resolves1774`, `LeeResolution`,
+  `JeffersonPreamble`): `{Prefix}.{paragraph}`, the paragraphs as the
+  edition prints them, numbered from 1. `Resolves1774.1` is the Journals'
+  entry for the day ("The Congress met according to adjournment …"),
+  `Resolves1774.2` the first "Whereas"; `LeeResolution.1` is "Certain
+  resolutions … being moved and seconded.", `LeeResolution.2` to `.4` the
+  three resolutions. `JeffersonPreamble.1` is the bill's title, and each
+  charge against the king ("by putting his negative on laws …") is a
+  paragraph, as Ford prints it with a hanging indent.
+- **Works of more than one day** (`Governments1776`, `Independence1776`):
+  one division per day, named by its date as month and day
+  (`Governments1776.May10`, `Independence1776.Jul4`), and
+  `{Prefix}.{day}.{paragraph}` its paragraphs from 1. In `Independence1776.Jul4`
+  the Declaration's title, each of its paragraphs (each grievance, as the
+  Journals set it) and the line introducing the signers are paragraphs of
+  the day; the signers' names, printed as a list in two columns, are one
+  paragraph, in the Journals' order.
+- **Typed transcriptions** (`Causes1775`, `VirginiaRights`): the printing's
+  heading is `{Prefix}.Heading`, its paragraphs `{Prefix}.{n}` from 1, and a
+  closing signature and date (`closer` in the TEI) `{Prefix}.Closing`. The
+  Virginia printing numbers its articles ("FIRST,", "2d.", … "16th."), and
+  `VirginiaRights.{n}` is article *n*.
+- **Notes**: the editor's notes a work takes in (those whose marks stand in
+  its text) are `{Prefix}.fn{k}` or `{Prefix}.{day}.fn{k}`, numbered in
+  order. Notes on the text printed in the other column (John Sullivan's
+  draft, Jefferson's first draft) are left out, with that text.
+
 ## The Federalist (`texts/federalist.json`)
 
 Source: Project Gutenberg eBook #18 (see `docs/editions.md`).

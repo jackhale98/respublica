@@ -1,0 +1,562 @@
+{
+  "attribution": {
+    "byline": "Thomas Jefferson",
+    "kind": "single",
+    "names": [
+      "Thomas Jefferson"
+    ],
+    "source": "Ford, Writings of Thomas Jefferson, vol. 2, p. 7 (\"Proposed Constitution for Virginia\")"
+  },
+  "date": "1776-06",
+  "edition": {
+    "name": "Paul Leicester Ford, ed., The Writings of Thomas Jefferson, vol. 2 (New York: G. P. Putnam's Sons, 1893)",
+    "notes": "Paul Leicester Ford, ed., The Writings of Thomas Jefferson, vol. 2 (New York: G. P. Putnam's Sons, 1893), pp. 7–13. The fair copy of Jefferson's proposed constitution for Virginia, from its title to the end of the clause deposing the king (its preamble, which the Virginia Convention adopted in amended form, and the first enacting clause), as Ford prints it in the right-hand column beside the first draft (left out), with Ford's note on the manuscripts; Jefferson's deletions are printed struck through and are read by OCR as words. Read from the OCR of the University of California's scan and checked word by word against the OCR of 2 other copies; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "jefferson-virginia-preamble-1776",
+  "ref_prefix": "JeffersonPreamble",
+  "segments": [
+    {
+      "label": "Jefferson's draft preamble, ¶ 1",
+      "pages": [
+        "7"
+      ],
+      "ref": "JeffersonPreamble.1",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          43
+        ]
+      },
+      "text": "[A Bil]\\ for new-modelling the form of Government and for establishing the Fundamental principles thereof in future,",
+      "uncertain": [
+        {
+          "end": 8,
+          "readings": {
+            "harvard": "Bt/\\l",
+            "primary": "Bil]\\",
+            "ucgoogle": "Bil\\L"
+          },
+          "start": 3
+        }
+      ]
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 2",
+      "pages": [
+        "7",
+        "8"
+      ],
+      "ref": "JeffersonPreamble.2",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          43,
+          44
+        ]
+      },
+      "text": "Whereas George Guelf king of Great Britain and Ireland and Elector of Hanover, heretofore entrusted with the exercise of the kingly office in this government hath endeavored to pervert the same into a detestable and insupportable tyranny ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 3",
+      "pages": [
+        "8"
+      ],
+      "ref": "JeffersonPreamble.3",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          44
+        ]
+      },
+      "text": "by putting his negative on laws the most wholesome & necessary for ye public good ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 4",
+      "pages": [
+        "9"
+      ],
+      "ref": "JeffersonPreamble.4",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          45
+        ]
+      },
+      "text": "by denying to his governors permission to pass laws of immediate and pressing importance, unless suspended in their operations for his assent, and, when so suspended, neglecting to attend to them for many years ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 5",
+      "pages": [
+        "10"
+      ],
+      "ref": "JeffersonPreamble.5",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "by refusing to pass certain other laws, unless the person to be benefited by them would relinquish the inestimable right of representation in the legislature"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 6",
+      "pages": [
+        "10"
+      ],
+      "ref": "JeffersonPreamble.6",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "by dissolving legislative assemblies repeatedly and continually for opposing with manly firmness his invasions on the rights of the people ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 7",
+      "pages": [
+        "10"
+      ],
+      "ref": "JeffersonPreamble.7",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "when dissolved, by refusing to call others for a long space of time, thereby leaving the political system without any legislative head ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 8",
+      "pages": [
+        "10"
+      ],
+      "ref": "JeffersonPreamble.8",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "by endeavoring to prevent the population of our country, & for that purpose obstructing the laws for the naturalization of foreigners & raising the condition \\lackmg appro\\'^x\\z.- tions of lands ;",
+      "uncertain": [
+        {
+          "end": 165,
+          "readings": {
+            "primary": "\\lackmg",
+            "ucgoogle": "[lacking"
+          },
+          "start": 158
+        },
+        {
+          "end": 179,
+          "readings": {
+            "primary": "appro\\'^x\\z.-",
+            "ucgoogle": "appro]"
+          },
+          "start": 166
+        },
+        {
+          "end": 185,
+          "readings": {
+            "primary": "tions",
+            "ucgoogle": "priations"
+          },
+          "start": 180
+        }
+      ]
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 9",
+      "pages": [
+        "10"
+      ],
+      "ref": "JeffersonPreamble.9",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "[by keeping among «]s, in times, of peace, standing armies and ships of war ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 10",
+      "pages": [
+        "10"
+      ],
+      "ref": "JeffersonPreamble.10",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "[/aeh'ng^ing to render the military independent of & superior to the civil power ;",
+      "uncertain": [
+        {
+          "end": 12,
+          "readings": {
+            "primary": "[/aeh'ng^ing",
+            "ucgoogle": "[lacking^ing"
+          },
+          "start": 0
+        }
+      ]
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 11",
+      "pages": [
+        "10"
+      ],
+      "ref": "JeffersonPreamble.11",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "by combining with others to subject us to a foreign jurisdiction, giving his assent to their pretended acts of legislation."
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 12",
+      "pages": [
+        "10"
+      ],
+      "ref": "JeffersonPreamble.12",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "for quartering large bodies of troops among us ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 13",
+      "pages": [
+        "10"
+      ],
+      "ref": "JeffersonPreamble.13",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          46
+        ]
+      },
+      "text": "for cutting off our trade with all parts of the world ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 14",
+      "pages": [
+        "11"
+      ],
+      "ref": "JeffersonPreamble.14",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          47
+        ]
+      },
+      "text": "for imposing taxes on us without our consent ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 15",
+      "pages": [
+        "11"
+      ],
+      "ref": "JeffersonPreamble.15",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          47
+        ]
+      },
+      "text": "for depriving us of the benefits of trial by jury ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 16",
+      "pages": [
+        "11"
+      ],
+      "ref": "JeffersonPreamble.16",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          47
+        ]
+      },
+      "text": "for transporting us beyond seas to be tried for pretended offences ; and"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 17",
+      "pages": [
+        "11"
+      ],
+      "ref": "JeffersonPreamble.17",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          47
+        ]
+      },
+      "text": "for suspending our own legislatures & declaring themselves invested with power to legislate for us in all cases whatsoever ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 18",
+      "pages": [
+        "11"
+      ],
+      "ref": "JeffersonPreamble.18",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          47
+        ]
+      },
+      "text": "by plundering our seas, ravaging our coasts, burning our towns and destroying the lives of our people ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 19",
+      "pages": [
+        "11"
+      ],
+      "ref": "JeffersonPreamble.19",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          47
+        ]
+      },
+      "text": "by inciting insurrections of our fellow subjects with the allurements of forfeiture & confiscation ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 20",
+      "pages": [
+        "11"
+      ],
+      "ref": "JeffersonPreamble.20",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          47
+        ]
+      },
+      "text": "by prompting our negroes to rise in arms among us ; those very negroes whom he hath human use of his negative he hath refused permission to exclude by law ;",
+      "uncertain": [
+        {
+          "end": 89,
+          "readings": {
+            "harvard": "inhuman",
+            "primary": "human",
+            "ucgoogle": "inhuman"
+          },
+          "start": 84
+        }
+      ]
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 21",
+      "pages": [
+        "11"
+      ],
+      "ref": "JeffersonPreamble.21",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          47
+        ]
+      },
+      "text": "by endeavoring to bring on the inhabitants of our frontiers the merciless Indian savages, whose known rule of warfare is an undistinguished destruction of all ages, sexes, & conditions of existence ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 22",
+      "pages": [
+        "11",
+        "12"
+      ],
+      "ref": "JeffersonPreamble.22",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          47,
+          48
+        ]
+      },
+      "text": "by transporting at this time a large army of foreign mercenaries \\to complete] the works of death, desolation & tyranny already begun with circum- \\5tanccs\\ of cruelty & perfidy so unworthy the head of a civilized nation ;",
+      "uncertain": [
+        {
+          "end": 68,
+          "readings": {
+            "harvard": "\\to",
+            "primary": "\\to",
+            "ucgoogle": "\\to"
+          },
+          "start": 65
+        },
+        {
+          "end": 156,
+          "readings": {
+            "harvard": "[sfanc^s]",
+            "primary": "\\5tanccs\\",
+            "ucgoogle": "\\5tances\\"
+          },
+          "start": 147
+        }
+      ]
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 23",
+      "pages": [
+        "12"
+      ],
+      "ref": "JeffersonPreamble.23",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          48
+        ]
+      },
+      "text": "by answering our repeated petitions for redress with a repetition of injuries ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 24",
+      "pages": [
+        "12"
+      ],
+      "ref": "JeffersonPreamble.24",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          48
+        ]
+      },
+      "text": "and finally by abandoning the helm of government and declaring us out of his allegiance & protection ;"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 25",
+      "pages": [
+        "12"
+      ],
+      "ref": "JeffersonPreamble.25",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          48
+        ]
+      },
+      "text": "by which several acts of misrule the said George Guelf has forfeited the kingly office and has rendered it necessary for the preservation of the people that he should be immediately deposed from the same, and divested of all its privileges powers, & prerogatives :"
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 26",
+      "pages": [
+        "12"
+      ],
+      "ref": "JeffersonPreamble.26",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          48
+        ]
+      },
+      "text": "And forasmuch as the public liberty may be more certainly secured by abolishing an office which all experience hath shewn to be inveterately inimical thereto or which and it will thereupon become further necessary to re-establish such ancient principles as are friendly to the rights of the people and to declare certain others which may co-operate with and fortify the same in future."
+    },
+    {
+      "label": "Jefferson's draft preamble, ¶ 27",
+      "pages": [
+        "12",
+        "13"
+      ],
+      "ref": "JeffersonPreamble.27",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          48,
+          49
+        ]
+      },
+      "text": "Be it therefore enacted by the authority of the people that the said, George Guelf be, and he hereby is deposed from the kingly office within this government and absolutely divested of all it's rights, powers, and prerogatives : and that he and his descendants and all persons acting by or through him, and all other persons whatsoever shall be and forever remain incapable of the same : and that the said office shall henceforth cease and never more either in name or substance be re-established within this colony."
+    },
+    {
+      "kind": "footnote",
+      "label": "Jefferson's draft preamble, note 1",
+      "pages": [
+        "7",
+        "8",
+        "9"
+      ],
+      "ref": "JeffersonPreamble.fn1",
+      "scan": {
+        "item": "writingsofthom02jeff",
+        "leaves": [
+          43,
+          44,
+          45
+        ]
+      },
+      "text": "' The fair copy is endorsed in Jefferson's handwriting, \"A Bill for new modelling the form of government, & for establishing the fundamental principles thereof in future. It is proposed that this bill, after correction by the Convention, shall be referred by them to the people, to be assembled in their respective counties and that the suffrages of two thirds of the counties shall be requisite to establish it.\" The rough draft has no preamble, though space was left for it. In both copies the erasures and interlineations are indicated. The bracketed portions in Roman are so written by Jefferson. Those in italic are inserted by the editor. For these most important papers I am under obligation to the courtesy of Mr. Cassius F. Lee of Alexandria, Va., and Mr. Worthington Chauncey Ford, of Brooklyn, N. Y., not merely for photographic reproductions, but also for the facts concerning them given at large in his Jt'ffi.r- son's Constitution for Virginia (The Nation, LI, 107). This constitution, though mentioned in several of the histories and other works concerning Virginia, and though seen by Wirt {Life of Patrick Henry, p. 196), and by Leigh (Debates of Virginia Convention, i8jo, p. 160), has never yet been printed or even quoted. The history of its production is as follows : On December 4, 1775, the Continental Congress resolved that if the \" Convention of Virginia shall find it necessary to establish a form of government in that Colony, it be recommended to that Convention to call a full and free representation of the people, and that the said representatives, if they think it necessary, establish such forms of government as in their judgment will best produce the happiness of the people.\" The Convention received this resolution on Dec. 13th, but took no action upon it. In April a new Convention was elected, which met on May 6th, and on May 15th appointed a Committee to pre- pare a \" Declaration of Rights\" and a \" Form of Government.\" In the mean time the Continental Congress, on motion of John Adams, May lo, 1776, \" recommended to the respective assemblies and conventions of these United Colonies where no government sufficient to the exigencies of their affairs hath been hitherto established, to adopt such government as shall in the opinion of the representatives of the people best conduce to the happiness and safety of their constituents in particular, and America in general.\" On May 27th the resolutions of the Virginia Convention were laid before the Continental Congress, and between that date and the middle part of June, Jefferson, while attending Congress, drew up this constitution. This he forwarded to Pendleton in the Convention, by George Wythe, who was returning from Congress to Virginia, and the latter wrote him, July 27, 1776 : \"When I came here the plan of government had been committed to the whole house. To those who had the chief hand in forming it the one you put into my hands was shewn. Two or three parts of this were, with little alteration, inserted in that : but such was the impatience of sitting long enough to discuss several important points in which they differ, and so many other matters were necessary to be dispatched before the adjournment that I was persuaded the revision of a subject the members seemed tired of would at that time have been unsuccessfully proposed.\" Of it, Jefferson, in 1825, wrote : \" I was then at Philadelphia with Congress; and knowing that the Convention of Virginia was engaged in forming a plan of government, I turned my mind to the same subject, and drew a sketch or outline of a Constitution, with a preamble, which I sent to Mr. Pendleton, president of the convention, on the mere possibility that it might suggest something worth incorporation into that before the Convention. He informed me afterwards by letter, that he received it on the day on which the Committee of the Whole had reported to the House the plan they had agreed to ; that that had been so long in hand, so disputed inch by inch, and the subject of so much altercation and debate ; that they were worried with the contentions it had produced, and could not, from mere lassitude, have been induced to open the instrument again ; but that, being pleased with the Preamble to mine, they adopted it in the House, by way of amendment to the Report of the Committee ; and thus my Preamble became tacked to the work of George Mason. The Constitution, with the Preamble, was passed on the 29th of June, and the Committee of Congress had only the day before that reported to that body the draught of the Declaration of Independence. The fact is, that that Preamble was prior in composition to the Declaration ; and both having the same object, of justifying our separation from Great Britain, they used necessarily the same materials of justification, and hence their similitude.\" Jefferson, both at the time, and afterwards, denied the power of the Virginia Convention to adopt a permanent constitution, on the grounds that it was chosen an executive body to carry on the war, and that independence and the establishment of a state government were not before the people when they chose the delegates to it. Edmund Randolph (MS. History of Virginia, p. 63) states that : \" Mr. Jefferson, who was in Congress, urged a youthful friend in the convention to oppose a permanent constitution until the people should elect deputies for the special purpose. He denied the power of the body elected (as he conceived them to be agents for the management of the war) to exceed some temporary regimen.\" The leading members of the convention, however, according to Randolph, \"saw no distinction between the conceded powers to declare independence, and its necessary consequence, the fencing of society by the institution of government.\" In pursuance of his opinion, Jefferson's proposed constitution was given the form of a mere act, and much is included which has no place in a constitution. The non-concurrence of the convention in his view, and even more, the aristocratic limits on the franchise and the unfavorable discrimination against the western counties, that the planter and tide-water representatives secured, which made \" no grosser error than to suppose that the Constitution of Virginia was formed in 1776, [for] its two great distinctive features, the sectional, and the aristocratic, had been given to it a century before \" (Debates of Virginia Convention, i8jo), were the causes for his dislike of the Constitution adopted in 1776, and of his constant attempts to obtain its alteration. His objections are indicated in his Notes on Virginia (Query xni, ^ 5) as well as in his correspondence, and his preparation of his \" Fundamental Constitution \" in 1783 and his \"Notes for a Constitution \" in 1794; both of which form striking examples, in contrast to this, of the democratic development of his mind.",
+      "uncertain": [
+        {
+          "end": 931,
+          "readings": {
+            "harvard": "Jefferson*s",
+            "primary": "Jt'ffi.r- son's",
+            "ucgoogle": "Jeff^:^' sofCs"
+          },
+          "start": 916
+        },
+        {
+          "end": 1111,
+          "readings": {
+            "harvard": "{Life",
+            "primary": "{Life",
+            "ucgoogle": "{Life"
+          },
+          "start": 1106
+        },
+        {
+          "end": 1190,
+          "readings": {
+            "harvard": "^Sjo,",
+            "primary": "i8jo,",
+            "ucgoogle": "'SjOy"
+          },
+          "start": 1185
+        },
+        {
+          "end": 2038,
+          "readings": {
+            "harvard": "10,",
+            "primary": "lo,",
+            "ucgoogle": "10,"
+          },
+          "start": 2035
+        },
+        {
+          "end": 6626,
+          "readings": {
+            "harvard": "xili,",
+            "primary": "xni,",
+            "ucgoogle": "xiii,"
+          },
+          "start": 6622
+        },
+        {
+          "end": 6628,
+          "readings": {
+            "harvard": "1[",
+            "primary": "^"
+          },
+          "start": 6627
+        }
+      ]
+    }
+  ],
+  "short": "Jefferson's draft preamble",
+  "source_ids": [
+    "ia-road-ford-v2-uc-xml",
+    "ia-road-ford-v2-harvard-xml",
+    "ia-road-ford-v2-ucgoogle-xml"
+  ],
+  "title": "Jefferson's Draft Preamble for the Virginia Constitution"
+}

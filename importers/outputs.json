@@ -2793,6 +2793,40 @@
       "unt-globe-1869-p999-words"
     ]
   },
+  "independence": {
+    "outputs": [
+      "texts/causes-1775.json",
+      "texts/independence-1776.json",
+      "texts/jefferson-virginia-preamble-1776.json",
+      "texts/lee-resolution-1776.json",
+      "texts/new-governments-1776.json",
+      "texts/resolves-1774.json",
+      "texts/virginia-declaration-of-rights.json"
+    ],
+    "raw": [
+      "gutenberg-federalist-18",
+      "ia-ecco-va-1784-xml",
+      "ia-road-ford-v2-harvard-xml",
+      "ia-road-ford-v2-uc-xml",
+      "ia-road-ford-v2-ucgoogle-xml",
+      "ia-road-jcc-v1-google-xml",
+      "ia-road-jcc-v1-uc-xml",
+      "ia-road-jcc-v1-upload-xml",
+      "ia-road-jcc-v4-google-xml",
+      "ia-road-jcc-v4-michigan-xml",
+      "ia-road-jcc-v4-uc-xml",
+      "ia-road-jcc-v4-upload-xml",
+      "ia-road-jcc-v5-acpl-xml",
+      "ia-road-jcc-v5-michigan-xml",
+      "ia-road-jcc-v5-uc-xml",
+      "ia-road-jcc-v5-upload-xml",
+      "nara-amendments-11-27",
+      "nara-bill-of-rights",
+      "nara-constitution",
+      "tcp-n11512-xml",
+      "tcp-n15245-xml"
+    ]
+  },
   "locke": {
     "outputs": [
       "texts/locke-second-treatise.json"

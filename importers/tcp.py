@@ -17,8 +17,10 @@ modernized. What the TCP itself marks is kept as it marks it:
     mark for them (its `<desc>`, "•" for a letter), and so is a stop they
     could not make out ("▪", `char:punc`); the word is marked uncertain:
     they are never filled in;
-  * the TCP gives the long s as a round s (its keying rules), so these
-    texts have a modern s; the editions' notes say so.
+  * the TCP gives the long s as a round s in its EEBO-era texts (its keying
+    rules), so those texts have a modern s; some Evans texts keep "ſ"
+    (the Virginia Declaration of Rights, decision 66), and it is kept;
+  * a figure (a woodcut and its caption) is left out.
 
 Each block's words are then checked against the OCR of Internet Archive
 scans of the same printing (`check`), as the Anti-Federalist Library's text
@@ -130,11 +132,14 @@ class Walker:
             elif t == "gap":
                 desc = " ".join("".join(child.itertext()).split()) or "•"
                 out.append(f"{GAP_OPEN}{desc}{GAP_CLOSE}")
+            elif t == "figure":
+                pass  # a woodcut and its caption (the Portsmouth broadside's view of Boston): not the text
             elif t == "expan":
                 ex = child.findall(f"{TEI}ex")
                 out.append("".join("".join(e.itertext()) for e in ex) if ex else "".join(self.pieces(child, notes)))
             elif t in ("hi", "q", "abbr", "g", "bibl", "l", "lg", "seg", "date", "name", "foreign", "label", "am", "ex",
-                       "sic", "corr", "choice", "orig", "reg", "ref", "num", "head", "p", "trailer", "signed", "closer"):
+                       "sic", "corr", "choice", "orig", "reg", "ref", "num", "head", "p", "trailer", "signed", "closer",
+                       "dateline"):
                 inner = self.pieces(child, notes)
                 # A block inside the text (a quotation's attribution, a line
                 # of verse) stands apart from the words before it.
@@ -211,6 +216,8 @@ def to_block(raw: str, kind: str, page: str | None, n: str | None = None, mark: 
     """Words from text with markers: a broken word is joined across the line
     end (and any page break there), page breaks give each word its page,
     and words holding a gap are noted."""
+    # (The line-end mark can follow a space, after a gap: "m<gap/> <g/>ry".)
+    raw = re.sub(f"\\s+{HYPH}", HYPH, raw)
     raw = re.sub(f"{HYPH}((?:\\s|{PB_OPEN}[^{PB_CLOSE}]*{PB_CLOSE})*)",
                  lambda m: re.sub(r"\s", "", m.group(1)), raw)
     tokens, page_of, gaps, pages = [], [], set(), [page] if page else []
