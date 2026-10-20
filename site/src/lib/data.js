@@ -103,6 +103,10 @@ const SCANS = { primary: "main scan", brittle: "second scan", google: "Google sc
 
 // "Uncertain reading. The scans read: “Delibeiatc,” (main scan), …"
 export function uncertainTitle(readings = {}, lib = false) {
+  // A word holding the Text Creation Partnership's marks for letters its
+  // transcribers could not read (decision 69): the transcription is the only reading.
+  const only = Object.values(readings);
+  if (only.length === 1 && /[•◊…▪]/.test(only[0])) return "Not legible in the copy the Text Creation Partnership transcribed (• a letter, 〈◊〉 a word, 〈…〉 more, ▪ a stop).";
   const parts = Object.entries(readings).map(([k, v]) => `“${v}” (${SCANS[k] || k})`);
   const scans = `${parts.length > 1 ? "The scans read" : "Only one scan has this word"}: ${parts.join(", ")}`;
   // The Anti-Federalist Library's reading, accepted without a check against the page (decision 56).

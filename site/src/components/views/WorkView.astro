@@ -68,7 +68,7 @@ const anchorOf = (t) => t.url.split("#")[1];
       <span class="chip">{formatNumber(work.passages)} {debate ? "paragraphs" : "passages"}</span>
       {!debate && <span class="chip">{work.edition.name}</span>}
     </div>
-    {debate && <DocLines header={d?.header} />}
+    {debate && <DocLines header={d?.header} typed={work.typed} />}
     {hasChanged && (
       <p class="doc-note" data-pagefind-ignore>
         Spelling and punctuation follow the original. <mark class="chg">Highlighted text</mark> is marked by the

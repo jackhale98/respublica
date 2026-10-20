@@ -606,6 +606,7 @@ class Uncertain:
     end: int
     readings: dict[str, str]
     suggestion: str | None = None  # the Anti-Federalist Library's reading, where no scan's agrees with it
+    suggested_by: str | None = None  # a typed text's name, where the suggestion is its reading, not the Library's
 
 
 def align(tokens: list[str], refs: list[Reference], hints: dict[str, int]) -> list[dict[str, str]]:
@@ -756,7 +757,8 @@ def attested(readings: list[dict[str, str]]) -> set[str]:
 
 
 def consensus(readings: list[dict[str, str]], known: set[str], library: list[str | None] | None = None,
-              strict: bool = False, doubtful: list[bool] | None = None) -> tuple[list[str], list[Uncertain]]:
+              strict: bool = False, doubtful: list[bool] | None = None,
+              typed: tuple[str, list[str | None]] | None = None) -> tuple[list[str], list[Uncertain]]:
     """Vote on each word (see `vote`); return the words and the unsettled ones.
 
     Where a scan read two of the primary's tokens as one word (a reading of
@@ -766,7 +768,11 @@ def consensus(readings: list[dict[str, str]], known: set[str], library: list[str
     `library`: the Anti-Federalist Library's reading of each token, a
     tie-breaker only (see `tie_break`; `strict` as there). `doubtful`: tokens
     the primary scan's OCR read with little confidence, which count as
-    unsettled unless another scan or the Library agrees."""
+    unsettled unless another scan or the Library agrees. `typed`: a typed
+    text of another printing (its name and its reading of each token; the
+    Text Creation Partnership's, decision 69), a second tie-breaker, never
+    strict: it is asked only about a word the Library has left unsettled
+    without a suggestion of its own."""
     out: list[str] = []
     uncertain: list[Uncertain] = []
     i = 0
@@ -793,18 +799,35 @@ def consensus(readings: list[dict[str, str]], known: set[str], library: list[str
                 word, settled = " ".join(w for w, _ in votes), True
         if doubtful and settled and len(joint) == 1 and any(doubtful[i:end]):
             settled = False  # one scan, read with little confidence: nothing corroborates it
-        suggestion = None
+        suggestion = by = None
         # The Library's reading of the same words: none where it has no word
         # there, or reads them together with a word outside them.
-        if (library and all(x is not None for x in library[i:end]) and library[i]
-                and not (end < len(library) and library[end] == "")):
-            lib = " ".join(x for x in library[i:end] if x)
+        lib = reading_of(library, i, end)
+        if lib:
             word, settled, suggestion = tie_break(joint, word, settled, lib, strict, known)
+        other = reading_of(typed[1], i, end) if typed and not settled and suggestion is None else None
+        if other:
+            word, settled, suggestion = tie_break(joint, word, settled, other, False, known)
+            # Another printing may word it otherwise ("Twelfth." for "12."):
+            # its reading is suggested only as a reading of the scans' word.
+            if suggestion and max(SequenceMatcher(None, key(suggestion), key(v), autojunk=False).ratio()
+                                  for v in joint.values()) < 0.5:
+                suggestion = None
+            by = typed[0] if suggestion else None
         out.append(word)
         if not settled:
-            uncertain.append(Uncertain(len(out) - 1, len(out), joint, suggestion))
+            uncertain.append(Uncertain(len(out) - 1, len(out), joint, suggestion, by))
         i = end
     return out, uncertain
+
+
+def reading_of(texts: list[str | None] | None, i: int, end: int) -> str | None:
+    """A tie-breaker's reading of tokens i..end: none where it has no word
+    there, or reads them together with a word outside them."""
+    if (texts and all(x is not None for x in texts[i:end]) and texts[i]
+            and not (end < len(texts) and texts[end] == "")):
+        return " ".join(x for x in texts[i:end] if x)
+    return None
 
 
 def edge_marks(v: str) -> tuple[str, str]:

@@ -197,6 +197,10 @@ def check_uncertain(where: str, text: str, spans: Any) -> list[str]:
         if "suggestion" in u and not (isinstance(sug, str) and sug.strip() and "\n" not in sug and len(sug) <= 200
                                       and sug != text[start:stop]):
             errors.append(f"{where}: uncertain span {start}-{stop} has a bad suggestion {sug!r}")
+        # A typed text's suggestion names the text (decision 69).
+        if "suggested_by" in u and not ("suggestion" in u and isinstance(u["suggested_by"], str)
+                                        and re.fullmatch(r"Evans-TCP N\d{5}", u["suggested_by"])):
+            errors.append(f"{where}: uncertain span {start}-{stop} has a bad suggested_by {u['suggested_by']!r}")
     return errors
 
 

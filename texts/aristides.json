@@ -1,0 +1,2667 @@
+{
+  "attribution": {
+    "byline": "By Aristides (the title page and the signature); attributed to Alexander Contee Hanson",
+    "kind": "pseudonym",
+    "names": [
+      "Alexander Contee Hanson"
+    ],
+    "pseudonym": "Aristides",
+    "source": "the catalogue record of Evans-TCP N16445: \"Signed on p. 42: Aristides. Annapolis, January 1, 1788. Attributed to Hanson in the Dictionary of American biography.\""
+  },
+  "date": "1788-01-01",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "By Aristides (the title page and the signature); attributed to Alexander Contee Hanson",
+        "kind": "pseudonym",
+        "names": [
+          "Alexander Contee Hanson"
+        ],
+        "pseudonym": "Aristides",
+        "source": "the catalogue record of Evans-TCP N16445: \"Signed on p. 42: Aristides. Annapolis, January 1, 1788. Attributed to Hanson in the Dictionary of American biography.\""
+      },
+      "label": "Aristides",
+      "level": 1,
+      "publication": [
+        "REMARKS, &c."
+      ],
+      "ref": "Aristides",
+      "signature": "ANNAPOLIS, January 1, 1788. ARISTIDES."
+    }
+  ],
+  "edition": {
+    "name": "Remarks on the Proposed Plan of a Federal Government (Annapolis [Md.]: Printed by Frederick Green, printer to the state. [1788]), Evans 21131",
+    "notes": "Remarks on the Proposed Plan of a Federal Government (Annapolis [Md.]: Printed by Frederick Green, printer to the state. [1788]), Evans 21131: the Text Creation Partnership's typed transcription, Evans-TCP N16445 (https://github.com/textcreationpartnership/N16445), CC0. The transcription is the text, with the printing's spelling and the long s as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (183 in 13743 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
+  },
+  "id": "aristides",
+  "position": "federalist",
+  "ref_prefix": "Aristides",
+  "segments": [
+    {
+      "label": "Aristides, dedication",
+      "pages": [],
+      "ref": "Aristides.Dedication",
+      "text": "To GEORGE WASHINGTON, Eſquire,\nNOT AS A TRIBUTE TO THE WORTH, WHICH NO ACKNOWLEDGEMENT TO DISTINCTIONS, CAN REWARD; BUT TO DO HIMSELF AN HONOUR, WHICH, BY LABOURING IN THE SAME COMMON CAUSE, HE FLATTERS 〈…〉, IN SOME DEGREE, HE ••TH DESERVED; THE AUTHOR BEGS L•••• TO INSCRIBE THE FOLLOWING ••••FECT ESSAY.",
+      "uncertain": [
+        {
+          "end": 207,
+          "readings": {
+            "primary": "〈…〉,"
+          },
+          "start": 203
+        },
+        {
+          "end": 231,
+          "readings": {
+            "primary": "••TH"
+          },
+          "start": 227
+        },
+        {
+          "end": 263,
+          "readings": {
+            "primary": "L••••"
+          },
+          "start": 258
+        },
+        {
+          "end": 298,
+          "readings": {
+            "primary": "••••FECT"
+          },
+          "start": 290
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 1",
+      "pages": [
+        "[5]"
+      ],
+      "ref": "Aristides.1",
+      "text": "IT is my intention, with all poſſible plainneſs, to examine the propoſed plan of a federal government. Its enemies and its advocates have laid particular ſtreſs on the names, wherewith it is ſubſcribed. As one ſide would obtain your implicit aſſent, 〈◊〉 a re•••nce to characters, and as the other wou•• •efeat meaſures, by exciting your jealouſy of men, per••me, in the firſt place to make ſome general obſervations on the perſons who •••poſed the late memorable convention.—",
+      "uncertain": [
+        {
+          "end": 253,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 250
+        },
+        {
+          "end": 264,
+          "readings": {
+            "primary": "re•••nce"
+          },
+          "start": 256
+        },
+        {
+          "end": 302,
+          "readings": {
+            "primary": "wou••"
+          },
+          "start": 297
+        },
+        {
+          "end": 309,
+          "readings": {
+            "primary": "•efeat"
+          },
+          "start": 303
+        },
+        {
+          "end": 362,
+          "readings": {
+            "primary": "per••me,"
+          },
+          "start": 354
+        },
+        {
+          "end": 443,
+          "readings": {
+            "primary": "•••poſed"
+          },
+          "start": 435
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 2",
+      "pages": [
+        "[5]"
+      ],
+      "ref": "Aristides.2",
+      "text": "In general, they had been diſtinguiſhed by their talents and 〈◊〉 ▪ They were not principally the m•• to whom th• 〈◊〉 convention firſt ſuggeſted itſelf, and it is noto• 〈…〉 they accepted their appointments 〈…〉 would ſeem, however, according to ſom• 〈◊〉 •••nuaſions, that, no ſooner did they find themſ••••• conven••• 〈◊〉 their natures became changed; and 〈…〉 they continued for the deſtruction of your liberti•• 〈◊〉 •ow this altogether ſhocks my ſaith. I ſhould ſooner in 〈…〉 the ſacredneſs of the truſt, the unparalleled 〈…〉 the occaſion, and the fellowſhip of the great 〈…〉 •ight have elected the ſoul of the moſt aban••ed 〈◊〉 had it 〈◊〉 poſſible for ſuch to obtain a ſeat in that illuſtrious aſſemblage.",
+      "uncertain": [
+        {
+          "end": 64,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 61
+        },
+        {
+          "end": 66,
+          "readings": {
+            "primary": "▪"
+          },
+          "start": 65
+        },
+        {
+          "end": 100,
+          "readings": {
+            "primary": "m••"
+          },
+          "start": 97
+        },
+        {
+          "end": 112,
+          "readings": {
+            "primary": "th•"
+          },
+          "start": 109
+        },
+        {
+          "end": 116,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 113
+        },
+        {
+          "end": 167,
+          "readings": {
+            "primary": "noto•"
+          },
+          "start": 162
+        },
+        {
+          "end": 171,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 168
+        },
+        {
+          "end": 208,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 205
+        },
+        {
+          "end": 247,
+          "readings": {
+            "primary": "ſom•"
+          },
+          "start": 243
+        },
+        {
+          "end": 251,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 248
+        },
+        {
+          "end": 264,
+          "readings": {
+            "primary": "•••nuaſions,"
+          },
+          "start": 252
+        },
+        {
+          "end": 305,
+          "readings": {
+            "primary": "themſ•••••"
+          },
+          "start": 295
+        },
+        {
+          "end": 315,
+          "readings": {
+            "primary": "conven•••"
+          },
+          "start": 306
+        },
+        {
+          "end": 319,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 316
+        },
+        {
+          "end": 357,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 354
+        },
+        {
+          "end": 410,
+          "readings": {
+            "primary": "liberti••"
+          },
+          "start": 401
+        },
+        {
+          "end": 414,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 411
+        },
+        {
+          "end": 418,
+          "readings": {
+            "primary": "•ow"
+          },
+          "start": 415
+        },
+        {
+          "end": 474,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 471
+        },
+        {
+          "end": 524,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 521
+        },
+        {
+          "end": 574,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 571
+        },
+        {
+          "end": 580,
+          "readings": {
+            "primary": "•ight"
+          },
+          "start": 575
+        },
+        {
+          "end": 623,
+          "readings": {
+            "primary": "aban••ed"
+          },
+          "start": 615
+        },
+        {
+          "end": 627,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 624
+        },
+        {
+          "end": 638,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 635
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 3",
+      "pages": [
+        "[5]"
+      ],
+      "ref": "Aristides.3",
+      "text": "If thoſe, who would inſpire ſuſpicion and diſtruſt, can ſuggeſt ••y preciſe idea, it muſt be this, that the members of the convention will be elected into the firſt federal congreſs, and there combining again will compoſe a body capable of bearing down al oppoſition to their own aggrandiſement.",
+      "uncertain": [
+        {
+          "end": 67,
+          "readings": {
+            "primary": "••y"
+          },
+          "start": 64
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 4",
+      "pages": [
+        "[5]",
+        "6"
+      ],
+      "ref": "Aristides.4",
+      "text": "By their ſcheme, however, thus deeply concerted, the houſe of repreſentatives is to be choſen by the people once in two years; and if they have acted ſo as to warrant any reaſonable apprehenſion of their deſigns, it wil be eaſy, at any time, to prevent their election. The truth is, that very few of them either wiſh to be elected, or would conſent to ſerve, either in that houſe, or in the ſenate. I have exerciſed my imagination to deviſe in what manner they, or any other men, ſuppoſing them to bear full ſway in both houſes, could erect this imaginary fabric of power. I requeſt any perſon to point out any law, or ſyſtem of laws, that could be poſſibly contrived for that purpoſe, obtain the final aſſent of each branch, and be carried into effect, contrary to the intereſts ••d wiſhes of a free, intelligent, prying people, accuſtomed to the moſt unbounded freedom of inquiry. To begin by 〈◊〉 attempt to reſtrain the preſs, inſtead of promoting their d•ſign• would be the moſt effectual thing to prevent them.",
+      "uncertain": [
+        {
+          "end": 783,
+          "readings": {
+            "primary": "••d"
+          },
+          "start": 780
+        },
+        {
+          "end": 898,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 895
+        },
+        {
+          "end": 964,
+          "readings": {
+            "primary": "d•ſign•"
+          },
+          "start": 957
+        }
+      ]
+    },
+    {
+      "emphasis": [
+        [
+          21,
+          27
+        ],
+        [
+          317,
+          434
+        ]
+      ],
+      "label": "Aristides, ¶ 5",
+      "pages": [
+        "6"
+      ],
+      "ref": "Aristides.5",
+      "text": "I am app•••ed of the almoſt univerſal diſpoſition for the increaſe and abuſe of authority. But if we are to with-hold power becauſe there is a poſſibility of its perverſion, we muſt aboliſh government, and ſubmit to thoſe evils, which it was inten••• to prevent. The perfection of politic ſcience conſiſts chiefly in providing mutual checks amo•••• ••e ſeveral departments of power, preſerv•• 〈…〉 the dependence of the greateſt on the 〈…〉 with reference to a ſingle government. Th• ••••ſity of another ſpecies of government, for the mut••l defence and protection of theſe American ſtates, no man of fo••• 〈◊〉 honeſty, that I know of, has ever yet denied.",
+      "uncertain": [
+        {
+          "end": 13,
+          "readings": {
+            "primary": "app•••ed"
+          },
+          "start": 5
+        },
+        {
+          "end": 250,
+          "readings": {
+            "primary": "inten•••"
+          },
+          "start": 242
+        },
+        {
+          "end": 348,
+          "readings": {
+            "primary": "amo••••"
+          },
+          "start": 341
+        },
+        {
+          "end": 352,
+          "readings": {
+            "primary": "••e"
+          },
+          "start": 349
+        },
+        {
+          "end": 392,
+          "readings": {
+            "primary": "preſerv••"
+          },
+          "start": 383
+        },
+        {
+          "end": 396,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 393
+        },
+        {
+          "end": 438,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 435
+        },
+        {
+          "end": 481,
+          "readings": {
+            "primary": "Th•"
+          },
+          "start": 478
+        },
+        {
+          "end": 490,
+          "readings": {
+            "primary": "••••ſity"
+          },
+          "start": 482
+        },
+        {
+          "end": 539,
+          "readings": {
+            "primary": "mut••l"
+          },
+          "start": 533
+        },
+        {
+          "end": 604,
+          "readings": {
+            "primary": "fo•••"
+          },
+          "start": 599
+        },
+        {
+          "end": 608,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 605
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 6",
+      "pages": [
+        "6"
+      ],
+      "ref": "Aristides.6",
+      "text": "The convention had the above principle conſtantly 〈◊〉 their view. They have contrived, that it ſhall 〈…〉 difficult, if not altogether impracticable, for any 〈◊〉 exceed or abuſe his lawful authority. There is nothing in their plan like the cloathing of individuals with power, for their own gratification. Every delegation, and every advantage that may be derived to individuals, has a ſtrict reference to the general good.—",
+      "uncertain": [
+        {
+          "end": 53,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 50
+        },
+        {
+          "end": 104,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 101
+        },
+        {
+          "end": 160,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 157
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 7",
+      "pages": [
+        "6",
+        "7"
+      ],
+      "ref": "Aristides.7",
+      "text": "To examine their conſtitution, by arti•e and ſection, would be a painful and needleſs undertaking. I ſhall endeavour to anſwer ſuch objections, as I have already heard, to anticipate others; to point out ſome advantages not generally known; and to correct certain errors, with reſpect to conſtruction. When the convention was appointed, I much feared, that the numerous ſeeds, and principles of diſcord amongſt the ſtates, would, for ever, prevent them from agreeing to any efficient ſyſtem whatever. I apprehended, in particular, that the diſpute about repreſentation would be the rock, on which the veſſel containing all our hopes would be daſhed. When, therefore, I diſcerned that equitable compromiſe between the larger and leſſer ſtates, my anxiety was inſtantly removed, and my ſoul enlightened by a ſudden ray.",
+      "uncertain": [
+        {
+          "end": 40,
+          "readings": {
+            "primary": "arti•e"
+          },
+          "start": 34
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 8",
+      "pages": [
+        "7"
+      ],
+      "ref": "Aristides.8",
+      "text": "How then was I, ſome months after, diſguſted at the repetition of the arguments, reſpecting the inequality of repre••••••ives in the firſt branch. We were told, that the mi•••ity in convention reaſoned upon firſt principles, that, as all ••n, in a ſtate of nature, are equal with re••••• to rights, ſo alſo are equal all ſeparate and diſtinct ſtates; •hat, when individuals form a free government, they muſt all have equal ſuffrage, either in framing laws by themſelves, or in chooſing repreſentatives, although one man be ten times ſtronger, richer or wiſer, than another; ſo alſo, when •••eral ſtates unite, 〈◊〉 common convenience, they muſt meet on terms of per••• ••lit• though one be ten times more wealthy, 〈…〉 •s, •an another;—that, under our preſent 〈…〉 ſtates are equal, and that no injury has reſulted from th• equality.—",
+      "uncertain": [
+        {
+          "end": 125,
+          "readings": {
+            "primary": "repre••••••ives"
+          },
+          "start": 110
+        },
+        {
+          "end": 178,
+          "readings": {
+            "primary": "mi•••ity"
+          },
+          "start": 170
+        },
+        {
+          "end": 242,
+          "readings": {
+            "primary": "••n,"
+          },
+          "start": 238
+        },
+        {
+          "end": 287,
+          "readings": {
+            "primary": "re•••••"
+          },
+          "start": 280
+        },
+        {
+          "end": 356,
+          "readings": {
+            "primary": "•hat,"
+          },
+          "start": 351
+        },
+        {
+          "end": 595,
+          "readings": {
+            "primary": "•••eral"
+          },
+          "start": 588
+        },
+        {
+          "end": 613,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 610
+        },
+        {
+          "end": 667,
+          "readings": {
+            "primary": "per•••"
+          },
+          "start": 661
+        },
+        {
+          "end": 674,
+          "readings": {
+            "primary": "••lit•"
+          },
+          "start": 668
+        },
+        {
+          "end": 716,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 713
+        },
+        {
+          "end": 720,
+          "readings": {
+            "primary": "•s,"
+          },
+          "start": 717
+        },
+        {
+          "end": 724,
+          "readings": {
+            "primary": "•an"
+          },
+          "start": 721
+        },
+        {
+          "end": 761,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 758
+        },
+        {
+          "end": 820,
+          "readings": {
+            "primary": "th•"
+          },
+          "start": 817
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 9",
+      "pages": [
+        "7"
+      ],
+      "ref": "Aristides.9",
+      "text": "〈◊〉 theſe arguments, we may imagine, was oppoſed ſomething like the following: \"You talk of firſt principles, and, at the ſame time, would let 180,000 free inhabitants of •••aryl• 〈◊〉 have no more to do in the choice of repreſenta•••• 〈…〉 only 30,000 inhabitants of Delaware. Do you propoſe, that theſe 30,000 ſhall bear an equal part of burthens and impoſitions? As to no injury having reſulted from the equality, as you call it, under the articles of confederation, we think the reverſe; and that this pretended* equality was a poiſon, which pervaded all our affairs.\"",
+      "uncertain": [
+        {
+          "end": 3,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 0
+        },
+        {
+          "end": 179,
+          "readings": {
+            "primary": "•••aryl•"
+          },
+          "start": 171
+        },
+        {
+          "end": 183,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 180
+        },
+        {
+          "end": 234,
+          "readings": {
+            "primary": "repreſenta••••"
+          },
+          "start": 220
+        },
+        {
+          "end": 238,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 235
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 10",
+      "pages": [
+        "7",
+        "8"
+      ],
+      "ref": "Aristides.10",
+      "text": "The anticipation of arguments like theſe had raiſed thoſe apprehenſions of an irreconcileable difference. It were needleſs to repeat more. Had an angel been the umpire, he could propoſe no expedient more equitable, and more politic, not only as a compromiſe, but to eſtabliſh ſuch a decided difference between the two branches of congreſs, as will make them indeed two diſtinct bodies, operating by way of mutual balance and check.—"
+    },
+    {
+      "emphasis": [
+        [
+          136,
+          168
+        ]
+      ],
+      "label": "Aristides, ¶ 11",
+      "pages": [
+        "8",
+        "9"
+      ],
+      "ref": "Aristides.11",
+      "text": "By this expedient, is ſafety ſecured to the leſſer ſtates as completely as if the ſenate were the only legiſlative body. It is poſſible (if ſuch a thing can be deviſed) that, from the inequality in the firſt branch, propoſitions will be made to give the larger ſtates ſome advantage over the leſſer; but the equality in the ſenate will, for e•••• preclude its adoption. It is well worthy of remark, that not more than three of 〈◊〉 thirteen a•• •t preſent, deemed larger ſtates, in the peculiar ſenſe of the word. There is no reaſon for ſuppoſing, in the federal, like a ſtate, legiſlature, the ſenate will be intimidated o• overawed, by the more numerous branch. A demagogue may declaim, rave, menace and foam, with as little impreſſion as the roaring billows produce upon t•• ſoli• beach. Were it not for this equality in one, and inequality in the other, a jealouſy might be entertained of too perfect a coincidence of ſentiment.—",
+      "uncertain": [
+        {
+          "end": 346,
+          "readings": {
+            "primary": "e••••"
+          },
+          "start": 341
+        },
+        {
+          "end": 430,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 427
+        },
+        {
+          "end": 443,
+          "readings": {
+            "primary": "a••"
+          },
+          "start": 440
+        },
+        {
+          "end": 446,
+          "readings": {
+            "primary": "•t"
+          },
+          "start": 444
+        },
+        {
+          "end": 623,
+          "readings": {
+            "primary": "o•"
+          },
+          "start": 621
+        },
+        {
+          "end": 776,
+          "readings": {
+            "primary": "t••"
+          },
+          "start": 773
+        },
+        {
+          "end": 782,
+          "readings": {
+            "primary": "ſoli•"
+          },
+          "start": 777
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 12",
+      "pages": [
+        "9"
+      ],
+      "ref": "Aristides.12",
+      "text": "The convention has been cenſured for an exceſs of its authority. But with no other power was it inveſted, than is poſſeſſed by every free citizen of the ſtates. Its office was to adviſe, and no further has it proceeded. Had it been even inveſted with full powers to amend the preſent compact, their propoſed plan would not have exceeded their truſt. Amendment, in parliamentary language, means either ••dition, or diminution, or ſtriking out the whole, and ſubſtituting ſomething in its room. The convention were not limited. The ſtates did not tell them, this article muſt ſtand, this muſt be ſtruck out, and this may be altered. The avowed object of a convention was to conſult on the additional powers neceſſary to be veſted in •••greſs. But the members of this convention perceiving, 〈◊〉 the experience of theſe ſtates, from the hiſtory of ancient and modern ſtates, and, I may add, from the principles of human nature, that the ſame body of men ought not to make and execute laws; and that one body alone ought •ot to do the firſt, have ſeparated the executive, ſo far as was proper, from the legiſlative; and this laſt they have divided into two branches, compoſe of different materials, diſtinct from, and total 〈…〉 •ent of, each other.—",
+      "uncertain": [
+        {
+          "end": 410,
+          "readings": {
+            "primary": "••dition,"
+          },
+          "start": 401
+        },
+        {
+          "end": 740,
+          "readings": {
+            "primary": "•••greſs."
+          },
+          "start": 731
+        },
+        {
+          "end": 791,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 788
+        },
+        {
+          "end": 1019,
+          "readings": {
+            "primary": "•ot"
+          },
+          "start": 1016
+        },
+        {
+          "end": 1222,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 1219
+        },
+        {
+          "end": 1227,
+          "readings": {
+            "primary": "•ent"
+          },
+          "start": 1223
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 13",
+      "pages": [
+        "9",
+        "10"
+      ],
+      "ref": "Aristides.13",
+      "text": "The ho• 〈◊〉 repreſentatives* is to be the immediate choice of the people, and one man is to repreſent 30,000 ſouls. In an affair of ſo much importance, and in diſtricts containing ſo many ſuffrages, it is not to be ſuppoſed, that a worthleſs character will ſucceed by thoſe arts, which have, ſometimes, prevailed in county elections. It is to be expected, that, in general, the people will chooſe men of tal•••s and character. Were they even ſo inclined, they can ch••ſe none but men of ripe age, who have been, at leaſt, ſeven years citizens of the United States, and, at the time of election, reſidents of the reſpective ſtate. Whatever laws ſhall be propoſed, or aſſented to, by theſe men, are to bind themſelves, their children, and their connexions. If a ſingle man, or a party, ſhall propoſe a meaſure, calculated to pro••cute private intereſt, at the expence of public good, is it 〈◊〉 •de, that the whole houſe will be brought into the meaſure▪ Suppoſe it ſhould. The meaſure cannot be adopted into a law, without the concurrence of another houſe, conſiſting of men ſtill more ſelect, poſſeſſing ſuperior qualifications of reſidence and age, and equally bound by the laws. After ga••ing the aſſent of the ſenate, the bill muſt be ſubmitted to the objections of the preſident. He is not in any manner dependent on the legiſlature, which can, in no manner, puniſh him, except for ſome crime known to the laws. He is elected by perſons choſen for that ſpecial purpoſe. He ••••••es a compenſation, which cannot be diminiſhed or in•••ſed, during his continuance in office. The term of his commiſſion is limited to four years, unleſs he ſhall have acted ſo as to merit the people's favour. From the mode of his election, it is impoſſible he can intrigue to advantage; and, from the nature of other things, he will never ſucceed by bribery and corruption. Like any other individual, he is liable to puniſhment. Finally at the expiration of his office, he returns into the maſs of the people.—",
+      "uncertain": [
+        {
+          "end": 7,
+          "readings": {
+            "primary": "ho•"
+          },
+          "start": 4
+        },
+        {
+          "end": 11,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 8
+        },
+        {
+          "end": 411,
+          "readings": {
+            "primary": "tal•••s"
+          },
+          "start": 404
+        },
+        {
+          "end": 470,
+          "readings": {
+            "primary": "ch••ſe"
+          },
+          "start": 464
+        },
+        {
+          "end": 832,
+          "readings": {
+            "primary": "pro••cute"
+          },
+          "start": 823
+        },
+        {
+          "end": 891,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 888
+        },
+        {
+          "end": 896,
+          "readings": {
+            "primary": "•de,"
+          },
+          "start": 892
+        },
+        {
+          "end": 951,
+          "readings": {
+            "primary": "meaſure▪"
+          },
+          "start": 943
+        },
+        {
+          "end": 1193,
+          "readings": {
+            "primary": "ga••ing"
+          },
+          "start": 1186
+        },
+        {
+          "end": 1484,
+          "readings": {
+            "primary": "••••••es"
+          },
+          "start": 1476
+        },
+        {
+          "end": 1540,
+          "readings": {
+            "primary": "in•••ſed,"
+          },
+          "start": 1531
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 14",
+      "pages": [
+        "10"
+      ],
+      "ref": "Aristides.14",
+      "text": "In ſpite of all theſe circumſtances, a 〈…〉 amongſt the enemies of the plan, and they labour to impreſs it on your minds, that whatever power may be exerciſed by theſe delegates of the people, will be uſed contrary to the intereſts of their conſtituents. This is a ſuppoſition, ſo repulſive to my mind, that I wonder any man of the 〈◊〉 ••neroſity, or reflection, can poſſibly adopt it. The 〈…〉 of Maryland, with reſpect to internal regulations, is almoſt omnipotent. And yet, is there a man who ſuppoſes th• aſſembly would, intentionally, paſs laws injurious to the people? Why then ſhould we diſtruſt the federal aſſembly, choſen for a ſhort term, bound by the ſame ties, and ſelected on account of their talents and patriotiſm?—",
+      "uncertain": [
+        {
+          "end": 42,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 39
+        },
+        {
+          "end": 334,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 331
+        },
+        {
+          "end": 346,
+          "readings": {
+            "primary": "••neroſity,"
+          },
+          "start": 335
+        },
+        {
+          "end": 392,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 389
+        },
+        {
+          "end": 506,
+          "readings": {
+            "primary": "th•"
+          },
+          "start": 503
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 15",
+      "pages": [
+        "10",
+        "11"
+      ],
+      "ref": "Aristides.15",
+      "text": "But, ſay the objectors, although we might probably confide with ſafety in congreſs, it is not conſiſtent with prudence, without a manifeſt neceſſity, to empower any men to do us an injury."
+    },
+    {
+      "label": "Aristides, ¶ 16",
+      "pages": [
+        "11"
+      ],
+      "ref": "Aristides.16",
+      "text": "Whenever the propoſed plan delegates authority, which you imagine might ſafety be denied, be aſſured, that a little reflection will ſuggeſt abundant reaſon for granting it. At the ſame time you may be convinced, that, as ſome powers were not intended to be exerciſed, ſo they never will be exerciſed, without abſolute neceſſity."
+    },
+    {
+      "label": "Aristides, ¶ 17",
+      "pages": [
+        "11"
+      ],
+      "ref": "Aristides.17",
+      "text": "I have been amuſed by the writings of an avowed friend to the plan. \"Let no man,\" ſays he, \"think of propoſing amendments. Should each perſon object, and ſhould his objections prevail, not a tittle of the ſyſtem will be left. You are to accept the whole, or reject the whole.\" 〈◊〉 ſpeaking in this very ſenſible way, he adviſes the ſtates 〈◊〉 reject with unanimity and firmneſs, the following proviſion.",
+      "uncertain": [
+        {
+          "end": 280,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 277
+        },
+        {
+          "end": 342,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 339
+        }
+      ]
+    },
+    {
+      "emphasis": [
+        [
+          165,
+          285
+        ]
+      ],
+      "label": "Aristides, ¶ 18",
+      "pages": [
+        "11"
+      ],
+      "ref": "Aristides.18",
+      "text": "Art. 1, ſect. 4. The times, places, and manner of holding elections for ſenators and repreſentatives, ſhall be preſcribed in each ſtate, by the legiſlature thereof; but the congreſs may, at any time, by law, make or alter ſuch regulations, except as to the places of chooſing ſenators."
+    },
+    {
+      "label": "Aristides, ¶ 19",
+      "pages": [
+        "11"
+      ],
+      "ref": "Aristides.19",
+      "text": "Can this writer imagine, that congreſs will preſume to uſe this power, without the occurrence of ſome one or more of the caſes, 〈◊〉 contemplation whereof induced the conve• 〈…〉 it. Theſe are the caſes of invaſion by a 〈…〉 of neglect, or obſtinate refuſal, in a ſtate le•••at•; of the prevalence of a party, preſcribing ſo as to 〈◊〉 •niſter purpoſe, or injure the general government. Others might perhaps occur to the convention. But theſe 〈◊〉 office to evince the propriety of ſuch a power in the 〈…〉. It was never meant, that congreſs ſhould at 〈…〉 interfere, unleſs on the failure of a ſtate legiſlature, 〈◊〉 alter ſuch regulations as may be obviouſly improper. The exerciſe of this power muſt at all times be ſo very invidious, that congreſs will not venture upon it without ſome very cogent and ſubſtantial reaſon. Let congreſs, even officiouſly, exert every power given by this clauſe, the repreſentatives muſt ſtill be choſen by the people, and the ſenate by the ſtate legiſlatures. The proviſion cannot by any poſſibility admit of a different conſtruction.—",
+      "uncertain": [
+        {
+          "end": 131,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 128
+        },
+        {
+          "end": 172,
+          "readings": {
+            "primary": "conve•"
+          },
+          "start": 166
+        },
+        {
+          "end": 176,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 173
+        },
+        {
+          "end": 221,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 218
+        },
+        {
+          "end": 276,
+          "readings": {
+            "primary": "le•••at•;"
+          },
+          "start": 267
+        },
+        {
+          "end": 331,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 328
+        },
+        {
+          "end": 339,
+          "readings": {
+            "primary": "•niſter"
+          },
+          "start": 332
+        },
+        {
+          "end": 442,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 439
+        },
+        {
+          "end": 501,
+          "readings": {
+            "primary": "〈…〉."
+          },
+          "start": 497
+        },
+        {
+          "end": 549,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 546
+        },
+        {
+          "end": 610,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 607
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 20",
+      "pages": [
+        "11",
+        "12"
+      ],
+      "ref": "Aristides.20",
+      "text": "Should the bare appointment to congreſs have the magic to pervert the tempers and principles of men, I perceive not the temptation for abuſing this, or any other of their powers. There are bad men to be found at times, in every numerous aſſembly. But, under all circumſtances, I predict, that, in congreſs, their party will be ſmall. Should there be thither ſent the moſt proſtituted character, that ever acte•, like a peſt, to his own ſtate; ſhould he poſſeſs talents ſuperior to the reſt, I ſhould have little dread of his influence, unleſs I could ſuppoſe, that a majority of like characters may be choſen. Even then, I repeat it—they will be under no temptation ſufficient to influence a ſenſible mind; and no man of ripe age was ever yet wicked for the ſake of wickedneſs 〈◊〉",
+      "uncertain": [
+        {
+          "end": 411,
+          "readings": {
+            "primary": "acte•,"
+          },
+          "start": 405
+        },
+        {
+          "end": 780,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 777
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 21",
+      "pages": [
+        "12"
+      ],
+      "ref": "Aristides.21",
+      "text": "You have heard, that, by the privilege of nominating perſons to office, the preſident will find the congreſs ob••quious enough 〈◊〉 paſs any laws, he ſhall think fit to propoſe. It is incumbent on the authors of this ſuggeſtion to ſhew ſome intereſt in the preſident, inducing him to propoſe prejudicial meaſures. I have remarked, that under the conſtition, his ſalary can be neither augmented nor curtailed, during his commiſſion; and, to change the conſtitution, is not in the power of congreſs. Should he, however, deviſe, and endeavour to procure, ſome dangero•• 〈◊〉 of that body, can we conceive, that this lure will be powerful enough to corrupt a majority in each houſe. No member can be appointed to an office, created, or of which the profits 〈…〉 increaſed, during the time for which he was elected. 〈…〉 expectation of ſuch, as may fall vacant, within fou• 〈…〉 will hardly corrupt even the ſmalleſt number, that 〈…〉 any poſſible caſe, be a majority in the two houſes 〈◊〉 make the members of each houſe ineligible to any other office whatever, would be even impolitic, on account of its precluding theſe ſtates from the ſervices perhaps of its beſt men. And it would be unjuſt to deny men the poſſibility of benefits, which might be attained by others leſs deſerving.",
+      "uncertain": [
+        {
+          "end": 119,
+          "readings": {
+            "primary": "ob••quious"
+          },
+          "start": 109
+        },
+        {
+          "end": 130,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 127
+        },
+        {
+          "end": 565,
+          "readings": {
+            "primary": "dangero••"
+          },
+          "start": 556
+        },
+        {
+          "end": 569,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 566
+        },
+        {
+          "end": 754,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 751
+        },
+        {
+          "end": 811,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 808
+        },
+        {
+          "end": 864,
+          "readings": {
+            "primary": "fou•"
+          },
+          "start": 860
+        },
+        {
+          "end": 868,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 865
+        },
+        {
+          "end": 923,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 920
+        },
+        {
+          "end": 978,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 975
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 22",
+      "pages": [
+        "12",
+        "13"
+      ],
+      "ref": "Aristides.22",
+      "text": "In aſcertaining and defining the powers of congreſs, the convention evidently purſued this obvious principle, that all things, which concern the union in general, ſhould be regulated by the federal head; and that each ſtate legiſlature ſhould regulate thoſe things, which concern only its own internal government, together with the ſeparate intereſts of its citizens. The enemies of the propoſed conſtitution have deemed it material to ſhew, that ſuch a one never exiſted before. It does not indeed agree with definitions in books, taken from the Amphyctionic council, the United Netherlands, or the Helvetic body. They would therefore infer, that it is wrong. This mode of reaſoning deſerves not a ſerious refutation. The convention examined thoſe ſeveral conſtitutions, if ſuch they can be called. It found them either woefully defective, as do their own particulars, object, or inapplicable to ours. Peradventure, our own article 〈◊〉 confederation, in theory, appear more perfect than any of 〈◊〉. Theſe articles were made according 〈◊〉 rule; the legiſlative and executive authorities being veſt•• in one aſſembly. The extreme caution of its framers to ſecure the independence of the ſeveral ſtates, on account of its principle, was much to be commended. But experience having fully demonſtrated this conſtitution to be inadequate to the purpoſes for which it was framed, and a general conviction of its defects having occaſioned the convention, it is aſtoniſhing, that attempts are now made to prefer ſtill a theory, not founded on the nature of things, but derived merely from a •ew deplorable examples. If two branches in a ſtate legiſlature be proper, why, in the name of common ſenſe, ••••th•• •ot ſo in a confederate legiſlature?—Many inſtances of haſty unadviſed proceedings of congreſs, as a legiſlature have by other writers been adduced; and ſo long 〈…〉 ſhall remain under the influence of paſſion or intereſt, there will be ſuch proceedings in every numerous aſſembly of men.",
+      "uncertain": [
+        {
+          "end": 936,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 933
+        },
+        {
+          "end": 999,
+          "readings": {
+            "primary": "〈◊〉."
+          },
+          "start": 995
+        },
+        {
+          "end": 1038,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 1035
+        },
+        {
+          "end": 1099,
+          "readings": {
+            "primary": "veſt••"
+          },
+          "start": 1093
+        },
+        {
+          "end": 1586,
+          "readings": {
+            "primary": "•ew"
+          },
+          "start": 1583
+        },
+        {
+          "end": 1700,
+          "readings": {
+            "primary": "••••th••"
+          },
+          "start": 1692
+        },
+        {
+          "end": 1704,
+          "readings": {
+            "primary": "•ot"
+          },
+          "start": 1701
+        },
+        {
+          "end": 1865,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 1862
+        }
+      ]
+    },
+    {
+      "emphasis": [
+        [
+          88,
+          92
+        ]
+      ],
+      "label": "Aristides, ¶ 23",
+      "pages": [
+        "13",
+        "14"
+      ],
+      "ref": "Aristides.23",
+      "text": "It is univerſally, by good writers, agreed, that where any one political body poſſeſſes full powers, legiſlative and executive, whether it be a ſingle man, or a ſelect ſay, or a numerous aſſembly, it matters not;—the government muſt, in a ſhort time, become deſpotic. That in a free government, therefore, the legiſlative and executive ought to be ever diſtinct and ſeparate, is a poſition in the Maryland declaration of rights. This hackneyed principle has been urged, with great confidence, againſt conſtituting the ſenate a council to the preſident. It has been urged too, even by the men who would have the whole powers of the federal gevernment centered in a ſingle aſſembly. I mean the men who inſiſt that the convention ought to have done no more than adviſe in what manner the powers of the preſent congreſs ſhould be increaſed. Let us underſtand the principle in its proper extent. It does not follow, that a body, whoſe aſſent is required in making laws, but who cannot, by themſelves, do any legiſlative act, may not be a fit council to the ſupreme executive magiſtrate, deriving his authority, like them from the people, in no manner dependent on them, o• the immediate repreſentatives of the people, for any pri•••• advantage, and poſſeſſed of no ſhare in legiſlation except that of offering his advice.",
+      "uncertain": [
+        {
+          "end": 1167,
+          "readings": {
+            "primary": "o•"
+          },
+          "start": 1165
+        },
+        {
+          "end": 1228,
+          "readings": {
+            "primary": "pri••••"
+          },
+          "start": 1221
+        }
+      ]
+    },
+    {
+      "emphasis": [
+        [
+          360,
+          368
+        ]
+      ],
+      "label": "Aristides, ¶ 24",
+      "pages": [
+        "14"
+      ],
+      "ref": "Aristides.24",
+      "text": "The objection to this part of the conſtitution, I confeſs, at firſt, appeared formidable. The reaſons which I now conjecture to have influenced the convention, did not then occur. But I have long adhered to a maxim, which I warmly recommend to others—never to condemn, abſolutely, even within myſelf, any one kind, until I can hit upon ſome other kind which I conceive better. As no human inſtitution can poſſeſs abſolute perfection, it is an •aſ• matter to eſpy ſome fault or defect in almoſt every thing, which the wit of man can contrive, or, at leaſt, to reaſon plauſibly againſt it. But this faculty of finding faults is by no means ſufficient to conſtitute the politician or ſtateſman. I delib•rated, what kind of council might be preferable, under 〈◊〉 circumſtances, to the ſenate. The plaineſt thing in •••ture! Exclaims he, who ſolves all difficulties at once, Why not appoint a body to act as council and nothing elſe?",
+      "uncertain": [
+        {
+          "end": 447,
+          "readings": {
+            "primary": "•aſ•"
+          },
+          "start": 443
+        },
+        {
+          "end": 706,
+          "readings": {
+            "primary": "delib•rated,"
+          },
+          "start": 694
+        },
+        {
+          "end": 758,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 755
+        },
+        {
+          "end": 819,
+          "readings": {
+            "primary": "•••ture!"
+          },
+          "start": 811
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 25",
+      "pages": [
+        "14"
+      ],
+      "ref": "Aristides.25",
+      "text": "One reaſon, and that not very unpopular, is the great additional expence. However, this reaſon I deem the lighteſt of all; and the general propoſition involves a great variety of other conſiderations.—"
+    },
+    {
+      "label": "Aristides, ¶ 26",
+      "pages": [
+        "14",
+        "15"
+      ],
+      "ref": "Aristides.26",
+      "text": "It is eſſential to a council, that the members be free, as poſſible, from all bias, or improper influence. This ſeparate and diſtinct council muſt be elected by the people, or by ſpecial electors; by the legiſlature, or by one of its branches; or by ſome other department; or by the preſident.—"
+    },
+    {
+      "label": "Aristides, ¶ 27",
+      "pages": [
+        "15"
+      ],
+      "ref": "Aristides.27",
+      "text": "That the people ſhould either make laws to bind themſelves, or elect perſons, without whoſe conſent, no laws ſhall be made, is eſſential to their freedom. But univerſal experience forbids, that they ſhould alſo immediately chooſe perſons for the execution of the laws. Shall the legiſlature then, or the ſenate, or the houſe of repreſentatives, have this appointment? A council thus choſen would be dependent on its electors; and is 〈◊〉 be the ſame thing, in many reſpects, as if the legiſlature ſhould execute its own laws. Can you believe, that a council, choſen actually, or once in two or three years, would dare to purſue, in all caſes the dictates of its own judgment, contrary to the known will of thoſe, who will ſoon have an opportunity 〈◊〉 removing them? Would they not be emulous to pleaſe leading men; and would there not be opened, at every period of election, a fine field for intrigue and cabal? There would be one way only of rendering a council, thus choſen, independent of their electors; and that is, the chooſing them for life, with ſalaries, not to be augmented or diminiſhed.",
+      "uncertain": [
+        {
+          "end": 436,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 433
+        },
+        {
+          "end": 749,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 746
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 28",
+      "pages": [
+        "15"
+      ],
+      "ref": "Aristides.28",
+      "text": "Againſt chooſing an executive for life the reaſons are weighty indeed. Should they then hold their commiſſions during good behaviour, there muſt be ſome tribunal to determine on that good behaviour; and what body it can be, except the congreſs, would be difficult to decide. Beſides 〈◊〉 behaviour in a member of council is not determinable, 〈◊〉 that of a judge, which has relation to the laws, and things univerſally known. In the office of the former, there is ſo much leſt to diſcretion, that I cannot perceive with what propriety he can hold it on the condition of good behaviour. There can be no ſure criterion, and the deciſion muſt therefore unavoidably depend on the diſcretion, or mere opinion, of his judges, founded on no eſtabliſhed principles whatever.—",
+      "uncertain": [
+        {
+          "end": 286,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 283
+        },
+        {
+          "end": 344,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 341
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 29",
+      "pages": [
+        "15",
+        "16"
+      ],
+      "ref": "Aristides.29",
+      "text": "A council, choſen by the preſident himſelf would probably conſiſt of creatures devoted to his will. I can diſcern no reaſon, wherefore any other officers of the government ſhould make the appointment. There remains then only the people's chooſing electors, and placing the council of the preſident on the ſame footing with himſelf. Here occurs the objection of expence; and here again would ariſe the controverſy reſpecting equality of repreſentation.—"
+    },
+    {
+      "label": "Aristides, ¶ 30",
+      "pages": [
+        "16"
+      ],
+      "ref": "Aristides.30",
+      "text": "The ſenate will, in all human likelihood, conſiſt of the moſt important characters, men of enlightened minds, mature in judgment, independent in their circumſtances, and not deriving their principal ſubſiſtence from their pay, as probably would the members of a board, diſtinct and ſeparate from all other public employments.—"
+    },
+    {
+      "label": "Aristides, ¶ 31",
+      "pages": [
+        "16"
+      ],
+      "ref": "Aristides.31",
+      "text": "I am not, therefore, barely reconciled to the article in queſtion▪ It commands my wa••eſt admiration, and entire •••uſe.—",
+      "uncertain": [
+        {
+          "end": 66,
+          "readings": {
+            "primary": "queſtion▪"
+          },
+          "start": 57
+        },
+        {
+          "end": 89,
+          "readings": {
+            "primary": "wa••eſt"
+          },
+          "start": 82
+        },
+        {
+          "end": 121,
+          "readings": {
+            "primary": "•••uſe.—"
+          },
+          "start": 113
+        }
+      ]
+    },
+    {
+      "emphasis": [
+        [
+          1071,
+          1080
+        ]
+      ],
+      "label": "Aristides, ¶ 32",
+      "pages": [
+        "16",
+        "17"
+      ],
+      "ref": "Aristides.32",
+      "text": "Is there any power improperly truſted to that ſelect aſſembly, in which all the ſtates have equall intereſt, and to which they will aſſuredly make a determined point of ſending their beſt men? It is this equality, almoſt as much as any other circumſtance, which recommends it as an executive council. The ſenate are to try impeachments. By their advice only, may the preſident make treaties, appoint ambaſſadors, miniſters, conſuls, judges of the ſupreme court, and officers, not otherwiſe provided for in the conſtitution. Let us reflect, whether theſe things could be better done, by any other body, and whether it be proper for any one man (ſuppoſe even the ſaviour of his country to be immortal) to have the appointment of all thoſe important officers. It has always appeared to me, that neither one man, nor many men ſhould poſſeſs this tranſcendent authority, in a republic 〈◊〉 ſingle man in high power, if he always mean right, •an with difficulty diſcern the true characters of men. Continual efforts are made to impoſe on his judgment. But, indeed, a ſingle man generally confers offices by favour. In a large aſſembly the• is perhaps equal partiality; and elections are conducted by intrigue and cabal. A ſelect aſſembly is not ſo open to direct application; and although each may be ſuppoſed to entertain his partialities, he cannot recommend his favourites, without pointing out their eſſential qualifications, and becoming, in ſome meaſure, reſponſible for their conduct. It is here, that characters are moſt fairly inveſtigated, and appointments moſt deliberately made. I appeal to univerſal experience, whether theſe remarks be not ſtrictly founded on fact, and whether the moſt judicious appointments have not been made by ſmall ſelect aſſemblies. I confeſs, that, the number of the ſenators for this purpoſe only is exceſſive. But I can confidently ••ly on the extraordinary ſelection to compenſate for the exceſs.",
+      "uncertain": [
+        {
+          "end": 883,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 880
+        },
+        {
+          "end": 938,
+          "readings": {
+            "primary": "•an"
+          },
+          "start": 935
+        },
+        {
+          "end": 1132,
+          "readings": {
+            "primary": "the•"
+          },
+          "start": 1128
+        },
+        {
+          "end": 1870,
+          "readings": {
+            "primary": "••ly"
+          },
+          "start": 1866
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 33",
+      "pages": [
+        "17"
+      ],
+      "ref": "Aristides.33",
+      "text": "THE power of the preſident is alarming peculiarly to that claſs, who cannot bear to view others in poſſeſſion of that fancied bleſſing, to which, alas! they muſt themſelves aſpire in vain. They •ell you, this ſupreme magiſtrate, although he be called 〈◊〉 the modeſt name of preſident, and elected for only four years, will, in every eſſential, be an emperor, king, or ſtockholder at leaſt; and that his dignity, in a few years, will become hereditary. Let us examine the foundation of this alarming prediction.—",
+      "uncertain": [
+        {
+          "end": 198,
+          "readings": {
+            "primary": "•ell"
+          },
+          "start": 194
+        },
+        {
+          "end": 254,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 251
+        }
+      ]
+    },
+    {
+      "emphasis": [
+        [
+          31,
+          40
+        ]
+      ],
+      "label": "Aristides, ¶ 34",
+      "pages": [
+        "17"
+      ],
+      "ref": "Aristides.34",
+      "text": "Before this appointment can be entailed, and before even the term can be enlarged, the conſtitution muſt be changed, by conſent of the people. By what method, then, ſhall the preſident effect this alteration? Every citizen in the union will be a cenſor on his conduct. Not even his perſon is particularly protected; and the means of oppreſſion are little in his power. Let the jealouſy of the people once take the alarm, and, at the expiration of his term, he is diſmiſſed as inevitably as light ſucceeds to darkneſs. The electi••• of a preſident is not carried on in a ſingle aſſembly, ••nere the ſeveral arts of corruption, may be eſſayed. He is elected by perſons choſen by the people; and thoſe electors give their ſuffrages on the ſame day, in thirteen different aſſemblies, in thirteen different ſtates. An elective monarchy has long been ſeverely reprobated. But had the countries, where it prevailed, enjoyed regulations like theſe, they would perhaps, at this time, be preferred to the rules of hereditary ſucceſſion, which have ſo often placed fools and tyrants on the throne.",
+      "uncertain": [
+        {
+          "end": 531,
+          "readings": {
+            "primary": "electi•••"
+          },
+          "start": 522
+        },
+        {
+          "end": 593,
+          "readings": {
+            "primary": "••nere"
+          },
+          "start": 587
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 35",
+      "pages": [
+        "17",
+        "18"
+      ],
+      "ref": "Aristides.35",
+      "text": "It ſeems, however, that the preſident may poſſibly be continued for life. He may ſo, provided he deſerve it. If not, he retires to obſcurity, without even the conſolation of having produced any of the convulſions, attendant uſually on grand revolutions. Should he be wicked or frantic enough to make the attempt, he attones for it, with the certain loſs of wealth, liberty or life.—"
+    },
+    {
+      "emphasis": [
+        [
+          122,
+          138
+        ]
+      ],
+      "label": "Aristides, ¶ 36",
+      "pages": [
+        "18"
+      ],
+      "ref": "Aristides.36",
+      "text": "I return to the powers of congreſs. They are almoſt univerſally admitted to be proper for a federal head, except only the ſweeping clauſe, and the power of raiſing fleets and armies, without any ſtint or limitation, in time of peace. The clauſe ru•• thus:",
+      "uncertain": [
+        {
+          "end": 249,
+          "readings": {
+            "primary": "ru••"
+          },
+          "start": 245
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 37",
+      "pages": [
+        "18"
+      ],
+      "ref": "Aristides.37",
+      "text": "Art. 1, ſect•••, par. the laſt. To make all laws, which ſhall 〈◊〉 neceſſary and proper for carrying into execution the foregoing powers, and all other powers veſted by this conſtitution, in the government of the United States, or in any department or officer thereof.",
+      "uncertain": [
+        {
+          "end": 16,
+          "readings": {
+            "primary": "ſect•••,"
+          },
+          "start": 8
+        },
+        {
+          "end": 65,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 62
+        }
+      ]
+    },
+    {
+      "emphasis": [
+        [
+          29,
+          44
+        ]
+      ],
+      "label": "Aristides, ¶ 38",
+      "pages": [
+        "18"
+      ],
+      "ref": "Aristides.38",
+      "text": "It is apprehended, that this ſweeping clauſe will afford pretext, for freeing congreſs from all conſtitutional reſtraints."
+    },
+    {
+      "label": "Aristides, ¶ 39",
+      "pages": [
+        "18"
+      ],
+      "ref": "Aristides.39",
+      "text": "I will not here again inſiſt on the pledge we enjoy, in the common intereſt, and ſure attachment of the repreſentatives and ſenate; ſetting aſide the little probability of a majority in each branch lying under the ſame temptation. Conſider the import of the words."
+    },
+    {
+      "emphasis": [
+        [
+          387,
+          396
+        ]
+      ],
+      "label": "Aristides, ¶ 40",
+      "pages": [
+        "18"
+      ],
+      "ref": "Aristides.40",
+      "text": "I take the conſtruction of theſe words to be preciſely the ſame, as if the clauſe had proceeded further and ſaid, No act of congreſs ſhall be valid, unleſs it have relation to the foregoing powers, and be neceſſary and proper for carrying them into execution. But ſay the objectors, The congreſs, being itſelf to judge of the neceſſity and propriety, may paſs any act, which it may deem expedient for any other purpoſe. This objection applies with equal force to each particular power, defined by the conſtitution; and, if there were a bill of rights, congreſs might be ſaid to be the judge of that alſo. They may reflect however, that every judge in the union, whether of federal or ſtate appointment, (and ſome perſons would ſay every jury) will have a right to reject any act, handed to him as a law which he may conceive repugnant to the conſtitution."
+    },
+    {
+      "label": "Aristides, ¶ 41",
+      "pages": [
+        "18",
+        "19"
+      ],
+      "ref": "Aristides.41",
+      "text": "It may nevertheleſs ſtrike you at firſt view, that a proviſion, ſo obviouſly apt to excite diſtruſt, might have wel• been omitted. So indeed it might, were there a poſſibility of providing every thing, neceſſary and proper, for carrying into effect the various powers, intended to be conferred. Without this general clauſe, it were eaſy to ſuppoſe caſes, wherein a particular clauſe might be incompetent to its own purpoſe.—",
+      "uncertain": [
+        {
+          "end": 116,
+          "readings": {
+            "primary": "wel•"
+          },
+          "start": 112
+        }
+      ]
+    },
+    {
+      "emphasis": [
+        [
+          727,
+          735
+        ]
+      ],
+      "label": "Aristides, ¶ 42",
+      "pages": [
+        "19"
+      ],
+      "ref": "Aristides.42",
+      "text": "For want of ſome plain and obvious diſtinctions, there has been vented ſo much ſenſeleſs clamour againſt ſtanding armies, that they are become a political bugbear. A limited monarch, with the means of maintaining, at all times, an army devoted to his will, might ſoon tr•mple on the natural and civil rights of his ſubjects. Could the preſent congreſs find means of augmenting the force, which it now maintains, which of you, on that account, would experience the ſlighteſt anxiety? Which of all the European powers is deſtitute of an army? Which of them, if they were free, could be ſecure of remaining ſo, without a ſtanding force? I might go further, and demand, whether any of them have loſt their liberties, by means of a ſtanding army? The troops, continually kept up in Great-Britain, are formidable to its neighbours, and yet no rational Engliſhman apprehends the deſtruction of his rights. It is true, that he knows, theſe troops cannot be maintained, without the conſent of his repreſentatives, annually obtained. But the neceſſity of an army he readily conceives; and the number he leaves to the diſcretion of parliament. Ought then an American to have greater fears of a preſident, than an Engliſhman has of his king? Or may he not truſt his repreſentatives and the ſenate, with as much confidence, as the Engliſhman repoſes in the commons and lords?",
+      "uncertain": [
+        {
+          "end": 275,
+          "readings": {
+            "primary": "tr•mple"
+          },
+          "start": 268
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 43",
+      "pages": [
+        "19"
+      ],
+      "ref": "Aristides.43",
+      "text": "Let the federal head be conſtituted as it may, there can be no perfect ſecurity, without both a land force, and naval armament. It is impoſſible to ſay how much will, at all times of peace, be ſufficient. We have the ſame ſecurity againſt the abuſe of this, as of any other authority. The expences of an army might indeed raiſe fears of a different kind,—that we ſhall not be able to maintain force enough for the moſt proper occaſion."
+    },
+    {
+      "emphasis": [
+        [
+          151,
+          161
+        ]
+      ],
+      "label": "Aristides, ¶ 44",
+      "pages": [
+        "19",
+        "20"
+      ],
+      "ref": "Aristides.44",
+      "text": "Suppoſe a limitation in time of peace. What then is to be done on the proſpect of a war? Should you make the diſtinction between profound peace, and a threatened war, who is there, but congreſs, to determine on the exigency? If you make no diſtinction, then will it be expedient to declare war, at the inſtant in which the danger ſhall be conceived, in order that it may be lawful to prepare for only a juſt defence. In fine, I conſider this grand objection, as a ••ere pretext for terrifying you, like children, with ſpectres •nd hobgobblins. It may be material here to remark, that although a well regulated militia has ever been conſidered as the true defence of a free republic, there are always honeſt purpoſes, which are not to be anſwered by a militia. If they were, the burthen on the militia would be ſo great, that a free people would, by no means, be willing to ſuſtain it. If indeed it be poſſible in the nature of things, that congreſs ſhall, at any future period, alarm us by an improper augmentation of troops, could we not, in that caſe, depend on the militia, which is ourſelves. In ſuch a caſe it would be ridiculous to urge, that the federal government is inveſted with a power over the whole militia of the union. Even when congreſs ſhall exerciſe this power, on the moſt proper occaſions, it is provided in the conſtitution, that each ſtate ſhall officer, and train its own militia.—",
+      "uncertain": [
+        {
+          "end": 469,
+          "readings": {
+            "primary": "••ere"
+          },
+          "start": 464
+        },
+        {
+          "end": 530,
+          "readings": {
+            "primary": "•nd"
+          },
+          "start": 527
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 45",
+      "pages": [
+        "20"
+      ],
+      "ref": "Aristides.45",
+      "text": "The objections againſt the judiciary are probably more ſincere. The article has been generally miſconceived, or 〈◊〉 preſented; and after beſtowing much attention, I am 〈◊〉 •ertain, that I fully comprehend it. I am, however, at length ſatisfied, that no rational conſtruction can be given to this part of the propoſed plan, either to warrant a rejection of the whole, or to place matters on a worſe footing, than they are at preſent.",
+      "uncertain": [
+        {
+          "end": 115,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 112
+        },
+        {
+          "end": 171,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 168
+        },
+        {
+          "end": 180,
+          "readings": {
+            "primary": "•ertain,"
+          },
+          "start": 172
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 46",
+      "pages": [
+        "20"
+      ],
+      "ref": "Aristides.46",
+      "text": "The judiciary power is to be veſted in one ſupreme court, fixed at the ſeat of government; and, for the advantage of government, with the eaſe and convenience of the people, the congreſs may hereafter appoint inferior courts in each of the ſtates. The juriſdiction of this ſupreme court is to be partly original, and partly appellate. With reſpect to the extent of either, there can be no poſſible doubt, as there is neither ambiguity nor uncertainty in the relative expreſſions."
+    },
+    {
+      "label": "Aristides, ¶ 47",
+      "pages": [
+        "20",
+        "21"
+      ],
+      "ref": "Aristides.47",
+      "text": "The original juriſdiction of the ſupreme court extends"
+    },
+    {
+      "label": "Aristides, ¶ 48",
+      "pages": [
+        "21"
+      ],
+      "ref": "Aristides.48",
+      "text": "1. To all caſe, in which may be concerned an ambaſſador, any other public miniſter, or a conſul."
+    },
+    {
+      "label": "Aristides, ¶ 49",
+      "pages": [
+        "21"
+      ],
+      "ref": "Aristides.49",
+      "text": "2. To all caſes whatever, in which a ſtate may be a party.—This ſecond diviſion may be branched into 1. Caſes between the United States, and one or more of the individual ſtates. 2. Caſes between two or more ſtates. 3. Caſes between a ſtate, and its own citizens. 4. Caſes between a ſtate, and the citizens of another ſtate. 5. Caſes between a ſtate, and a foreign ſtate. 6. Caſes between a ſtate, and the citizens, or ſubjects, of a foreign ſtate."
+    },
+    {
+      "label": "Aristides, ¶ 50",
+      "pages": [
+        "21"
+      ],
+      "ref": "Aristides.50",
+      "text": "The appellate juriſdiction of the ſupreme court extends"
+    },
+    {
+      "label": "Aristides, ¶ 51",
+      "pages": [
+        "21"
+      ],
+      "ref": "Aristides.51",
+      "text": "1. To all caſes whatever between parties of every kind, in law and equity, ariſing under this conſtitution, and the laws of congreſs, paſſed agreeably thereto, and to treaties already, or hereafter to be, made."
+    },
+    {
+      "label": "Aristides, ¶ 52",
+      "pages": [
+        "21"
+      ],
+      "ref": "Aristides.52",
+      "text": "2. To all caſes of admiralty or maritime juriſdiction."
+    },
+    {
+      "label": "Aristides, ¶ 53",
+      "pages": [
+        "21"
+      ],
+      "ref": "Aristides.53",
+      "text": "3. To all caſes, in which the United States ſhall be a party."
+    },
+    {
+      "label": "Aristides, ¶ 54",
+      "pages": [
+        "21"
+      ],
+      "ref": "Aristides.54",
+      "text": "4. To all caſes between citizens of different ſtates."
+    },
+    {
+      "label": "Aristides, ¶ 55",
+      "pages": [
+        "21"
+      ],
+      "ref": "Aristides.55",
+      "text": "5. To all caſes between citizens of the ſame ſtate, claiming lands under the grants of different ſtates."
+    },
+    {
+      "label": "Aristides, ¶ 56",
+      "pages": [
+        "21"
+      ],
+      "ref": "Aristides.56",
+      "text": "6. To all caſes between citizens of a ſtate, and foreign ſtates, or their citizens or ſubjects."
+    },
+    {
+      "label": "Aristides, ¶ 57",
+      "pages": [
+        "21"
+      ],
+      "ref": "Aristides.57",
+      "text": "One doubt ariſing on the judiciary article is, whether in theſe caſes of appellate juriſdiction, the appeal has both from the ſtate courts, and the inferior federal courts, or only from the former, or only from the latter."
+    },
+    {
+      "emphasis": [
+        [
+          264,
+          272
+        ],
+        [
+          332,
+          341
+        ]
+      ],
+      "label": "Aristides, ¶ 58",
+      "pages": [
+        "21"
+      ],
+      "ref": "Aristides.58",
+      "text": "Another doubt is, whether the inferior federal courts are to be branches of the ſupreme court, conſtituted for convenience, and having equal juriſdiction, both original and appellate, with the ſupreme court; or whether the inferior courts are to be confined to an original juriſdiction in thoſe caſes, wherein the ſupreme court has appellate juriſdiction."
+    },
+    {
+      "label": "Aristides, ¶ 59",
+      "pages": [
+        "21",
+        "22"
+      ],
+      "ref": "Aristides.59",
+      "text": "I ſhall not preſume to decide abſolutely on the genuine conſtruction of an article, which is ſaid to have cauſed much private debate and perplexity. I am however fully perſuaded, that, as the article ſpeaks of an original and appellate juriſdiction, of a ſupreme court, and inferior courts; and, as there is no intimation of appeals from the ſeveral ſtate tribunals, the inferior federal courts are intended to have original juriſdiction in all caſes, wherein the ſupreme court has appellate juriſdiction; and the appeal lies only from them. I can, almoſt, with confidence, maintain, that, as there is no expreſs clauſe, or neceſſary implication, to ouſt the juriſdiction of ſtate courts, an action, after the adoption of the plan, may be inſtituted in any court, having, at this time, a juriſdiction. And if an action be brought in a ſtate court, I do not, at preſent, perceive, that it can, in any manner, be transferred to the ſupreme or inferior federal court."
+    },
+    {
+      "emphasis": [
+        [
+          502,
+          606
+        ],
+        [
+          789,
+          955
+        ]
+      ],
+      "label": "Aristides, ¶ 60",
+      "pages": [
+        "22"
+      ],
+      "ref": "Aristides.60",
+      "text": "According then to the beſt of my judgment the affair ſtands thus. The ſupreme federal court will have an excluſive original juriſdiction in all caſes relative to the rights of ambaſſadors, other miniſters, and conſuls; becauſe, as I humbly conceive, the ſeveral ſtate governments have at this time nothing to do with theſe caſes. With reſpect to the caſes, in which a ſtate may be party, the ſupreme federal court, and the ſeveral ſtate courts, will have, I conceive, concurrent original juriſdiction, provided a ſtate may, at this time, inſtitute an action in its own name, in the courts of another ſtate. The inferior federal courts, and the ſtate courts, will, I conceive, have concurrent original juriſdiction in all the enumerated caſes, wherein all appeal lies to the ſupreme court, except only the caſes created by or under the propoſed conſtitution, in which, as they do not now exiſt, the inferior federal courts will have excluſive juriſdiction. From the ſtate inferior courts, I further apprehend, that an appeal will lie, in all caſes, to their own high courts of appeal, as heretofore."
+    },
+    {
+      "label": "Aristides, ¶ 61",
+      "pages": [
+        "22",
+        "23"
+      ],
+      "ref": "Aristides.61",
+      "text": "A choice of juriſdictions has been ever eſteemed a valuable right, even where there are both of the ſame kind. The purpoſe of extending ſo far the juriſdiction of the federal judiciary, is to give every aſſurance to the general government, of a faithful execution of its laws, and to give citizens, ſtates, and foreigners, an aſſurance of the impartial adminiſtration of juſtice. Without this ſalutary inſtitution, the federal government might frequently be obſtructed, and its ſervants want protection. It is calculated not as an engine of oppreſſion, but to ſecure the bleſſings of peace and good order. The proviſions reſpecting different ſtates, their citizens, and foreigners, if not abſolutely neceſſary, are much to be applauded. The human mind is ſo framed, that the ſlighteſt circumſtance may prevent the moſt upright and well known tribunal from giving complete ſatisfaction; and there may happen a variety of caſes, where the diſtruſt and ſuſpicion may not be altogether deſtitute of a juſt foundation.—"
+    },
+    {
+      "label": "Aristides, ¶ 62",
+      "pages": [
+        "23"
+      ],
+      "ref": "Aristides.62",
+      "text": "On theſe principles, an appeal as to fact is no leſs proper, than the appeal from judges of law. A jury, whoſe legal qualifications are only property and ripe age, may more probably incur the imputation of weakneſs, partiality, or undue influence. But in regard to appeals, it is very material to remark, that congreſs is to make ſuch regulations and exceptions, as upon mature deliberation, it ſhall think proper. And indeed, before ſuch regulations and exceptions ſhall be made, the manner of appeal will not be aſcertained. Is it then to be preſumed, that, in making regulations and exceptions, this appellate juriſdiction ſhall be calculated as an engine of oppreſſion, or to ſerve only the purpoſes of vexation and delay.—"
+    },
+    {
+      "emphasis": [
+        [
+          63,
+          68
+        ]
+      ],
+      "label": "Aristides, ¶ 63",
+      "pages": [
+        "23"
+      ],
+      "ref": "Aristides.63",
+      "text": "As the rod of Aaron once ſwallowed up the rods of the Egyptian magi, ſo alſo is it feared, that theſe federal courts will, at length, ſwallow up the ſtate tribunals. A miracle, in one caſe, is as neceſſary, as in the other."
+    },
+    {
+      "label": "Aristides, ¶ 64",
+      "pages": [
+        "23",
+        "24"
+      ],
+      "ref": "Aristides.64",
+      "text": "But let not the officers of ſtate courts be overmuch alarmed! The cauſes, which, by poſſibility, may be* inſtituted in the federal courts bear no compariſon to the reſt. In the courſe of ten years, not one action, that I know of, in Maryland, has concerned either another ſtate, or an ambaſſador, conſul, or other miniſter. It is hoped, that actions by foreigners will, in a few years, become much rarer than at any time heretofore, and theſe may ſtill be determined in the ſtate courts.—"
+    },
+    {
+      "emphasis": [
+        [
+          411,
+          441
+        ],
+        [
+          524,
+          593
+        ]
+      ],
+      "label": "Aristides, ¶ 65",
+      "pages": [
+        "24",
+        "25"
+      ],
+      "ref": "Aristides.65",
+      "text": "A gentleman, as it is conjectured, in the law department of a neighbouring ſtate, has been pleaſed to infer, that fictions, ſimilar to thoſe in the king's bench and exchequer of England, will be contrived, to draw cauſes into the federal courts. He ſeems not aware, that, even in England, the eſtabliſhed fictions of law are not of modern date. They were ingenious devices, to remedy defects in the common law, without the aid of parliament. The fundamental principle however, with reſpect to their adoption, was, that they conſiſt with equity, and be requiſite for the advancement of juſtice. Now every man, who would eſtabliſh over his cauſe a juriſdiction in a federal court, muſt ſhew, that ſuch cauſe comes under the deſcription of the conſtitution. If he do not, there will be wanting that equity, which is the ſupport of legal fiction. But can any man ſeriouſly imagine, that fiction will be permitted, to give the judges a power of legiſlation, denied to congreſs itſelf? Wherefore ſhould the judges, holding their commiſſions during good behaviour, be guilty of ſuch groſs falſhood, perjury, and breach of truſt? Would there not be a general revolt againſt ſuch barefaced impudent innovations? Away then with your trumpery of fictions! Accuſe not the illuſtrious members of the convention of having in their contemplation ſuch ſophiſtry, pettifogging and chicane! But another fear is, that whatever actions may be inſtituted in the federal courts will there ſeek an admiſſion, on account of a more ſpeedy deciſion. That man alone, \"on whoſe brow ſhame is aſhamed to ſit,\" will avow his oppoſition to a more ſpeedy adminiſtration of juſtice."
+    },
+    {
+      "label": "Aristides, ¶ 66",
+      "pages": [
+        "25"
+      ],
+      "ref": "Aristides.66",
+      "text": "The inſtitution of the trial by jury has been ſanctified by the experience of ages. It has been recogniſed by the conſtitution of every ſtate in the union. It is deemed the birthright of Americans; and it is imagined, that liberty cannot ſubſiſt without it. The propoſed plan expreſsly adopts it, for the deciſion of all criminal accuſations, except impeachment; and is ſilent with reſpect to the determination of facts in civil cauſes."
+    },
+    {
+      "label": "Aristides, ¶ 67",
+      "pages": [
+        "25",
+        "26"
+      ],
+      "ref": "Aristides.67",
+      "text": "The inference, hence drawn by many, is not warranted by the premiſes. By recogniſing the jury trial in criminal caſes, the conſtitution effectually provides, that it ſhall prevail, ſo long as the conſtitution itſelf ſhall remain unimpaired and unchanged. But, from the great variety of civil caſes, ariſing under this plan of government, it would be unwiſe and impolitic to ſay ought about it, in regard to theſe. Is there not a great variety of caſes, in which this trial is taken away in each of the ſtates? Are there not many more caſes, where it is denied in England? For the convention to aſcertain in what caſes it ſhall prevail, and in what others it may be expedient to prefer other modes, was impracticable. On this ſubject, a future congreſs is to decide; and I ſee no foundation under Heaven for the opinion, that congreſs will deſpiſe the known prejudices and inclination of their countrymen. A very ingenious writer of Philadelphia has mentioned the objections without deigning to refute that, which he conceives to have originated \"in ſheer malice.\"—"
+    },
+    {
+      "emphasis": [
+        [
+          115,
+          130
+        ]
+      ],
+      "label": "Aristides, ¶ 68",
+      "pages": [
+        "26"
+      ],
+      "ref": "Aristides.68",
+      "text": "I proceed to attack the whole body of anti-federaliſts in their ſtrong hold. The propoſed conſtitution contains no bill of rights."
+    },
+    {
+      "label": "Aristides, ¶ 69",
+      "pages": [
+        "26"
+      ],
+      "ref": "Aristides.69",
+      "text": "Conſider again the nature and intent of a federal republic. It conſiſts of an aſſemblage of diſtinct ſtates, each completely organized for the protection of its own citizens, and the whole conſolidated, by expreſs compact, under one head, for their general welfare and common defence."
+    },
+    {
+      "label": "Aristides, ¶ 70",
+      "pages": [
+        "26"
+      ],
+      "ref": "Aristides.70",
+      "text": "Should the compact authoriſe the ſovereign, or head, to do all things it may think neceſſary and proper, then is there no limitation to its authority; and the liberty of each citizen in the union has no other ſecurity, than the ſound policy, good faith, virtue, and perhaps proper intereſts, of the head."
+    },
+    {
+      "label": "Aristides, ¶ 71",
+      "pages": [
+        "26"
+      ],
+      "ref": "Aristides.71",
+      "text": "When the compact confers the aforeſaid general power, making nevertheleſs ſome ſpecial reſervations and exceptions, then is the citizen protected further, ſo far as theſe reſervations and exceptions ſhall extend."
+    },
+    {
+      "emphasis": [
+        [
+          181,
+          190
+        ]
+      ],
+      "label": "Aristides, ¶ 72",
+      "pages": [
+        "26"
+      ],
+      "ref": "Aristides.72",
+      "text": "But, when the compact aſcertains and defines the power delegated to the federal head, then cannot this government, without manifeſt uſurpation, exert any power not expreſsly, or by neceſſary implication, conferred by the compact."
+    },
+    {
+      "label": "Aristides, ¶ 73",
+      "pages": [
+        "26",
+        "27"
+      ],
+      "ref": "Aristides.73",
+      "text": "This doctrine is ſo obvious and plain, that I am amazed any good man ſhould deplore the omiſſion of a bill of rights. When we were told, that the celebrated Mr. Wilſon had advanced this doctrine in effect, it was ſaid, Mr. Wilſon would not dare to ſpeak thus to a CONSTITUTIONALIST. With talents inferior to that gentleman's, I will maintain the doctrine againſt any CONSTITUTIONALIST who will condeſcend to enter the liſts, and behave like a gentleman.—"
+    },
+    {
+      "emphasis": [
+        [
+          1270,
+          1283
+        ],
+        [
+          1380,
+          1391
+        ]
+      ],
+      "label": "Aristides, ¶ 74",
+      "pages": [
+        "27"
+      ],
+      "ref": "Aristides.74",
+      "text": "It is, however, the idea of another moſt reſpectable character, that, as a bill of rights could do no harm, and might quiet the minds of many good people, the convention would have done well to indulge them.—With all due deference, I apprehend, that a bill of rights might not be this innocent quieting inſtrument. Had the convention entered on the work, they muſt have comprehended within it every thing, which the citizens of the United States claim as a natural or a civil right. An omiſſion of a ſingle article would have cauſed more diſcontent, than is either felt, or pretended, on the preſent occaſion. A multitude of articles might be the ſource of infinite controverſy, by claſhing with the powers intended to be given. To be full and certain, a bill of rights might have coſt the convention more time, than was expended on their other work. The very appearance of it might raiſe more clamour than its omiſſion,—I mean from thoſe, who ſtudy pretexts for condemning the whole fabric of the conſtitution.—What! (might they ſay) did theſe exalted ſpirits imagine, that the natural rights of mankind depend on their gracious conceſſions. If indeed they poſſeſſed that tyrannic ſway, which the kings of England had once uſurped, we might humbly thank them for their magna charta, defective as it is. As that is not the caſe, we will not ſuffer it to be underſtood, that their new-fangled federal head ſhall domineer with the powers not excepted by their precious bill of rights. What! If the owner of 1000 acres of land thinks proper to ſell one half, is it neceſſary for him to take a releaſe from the vendee of the other half? Juſt as neceſſary is i• for the people to have a grant of their natural rights from a government, which derives every thing it has, from the grant of the people.—",
+      "uncertain": [
+        {
+          "end": 1656,
+          "readings": {
+            "primary": "i•"
+          },
+          "start": 1654
+        }
+      ]
+    },
+    {
+      "label": "Aristides, ¶ 75",
+      "pages": [
+        "27",
+        "28"
+      ],
+      "ref": "Aristides.75",
+      "text": "The reſtraints laid on the ſtate legiſlatures will tend to ſecure domeſtic tranquillity, more than all the bills, or declarations, of rights, which human policy could deviſe. It is very juſtly aſſerted, that the plan contains an avowal of many rights. It provides, that no man ſhall ſuffer by expoſt facto laws, or bills of attainder. It declares, that gold and ſilver only ſhall be a tender for ſpecie debts; and that no law ſhall impair the obligation of a contract."
+    },
+    {
+      "label": "Aristides, ¶ 76",
+      "pages": [
+        "28"
+      ],
+      "ref": "Aristides.76",
+      "text": "I have here perhaps touched a ſtring, which ſecretly draws together many of the foes to the plan. Too long have we ſuſtained evils, reſulting from injudicious emiſſions of paper, and from the operation of tender laws. To bills of credit, as they are now falſely called, may we impute the entire loſs of confidence between men. Hence is it, that ſpecie has, in a great degree, ceaſed its proper office, and been confined to ſpeculations, baneful to the public, and enriching a few enterpriſing ſharp-ſighted men, at the expence not only of the ignorant, ſlothful, and needy, but of their country's beſt benefactors. Hence chiefly are the bankruptcies throughout America, and the diſreputable ruinous ſtate of our commerce. Hence is it principally, that America hath loſt its credit abroad, and American faith become a proverb. The convention plainly ſaw, that nothing ſhort of a renunciation of the right to emit bills of credit could produce that grand conſummation of policy, the RESTORATION of PUBLIC and PRIVATE FAITH."
+    },
+    {
+      "emphasis": [
+        [
+          278,
+          295
+        ]
+      ],
+      "label": "Aristides, ¶ 77",
+      "pages": [
+        "28",
+        "29"
+      ],
+      "ref": "Aristides.77",
+      "text": "Were it poſſible for the nations abroad to ſuppoſe Great-Britain would emit bills on the terms whereon they have iſſued in America, how ſoon would the wide arch of that mighty empire tumble into ruins? In no other country in the univerſe has prevailed the idea of ſupplying, by promiſſory notes, the want of coin, for commerce and taxes. In America, indeed, they have heretofore ſerved many valuable purpoſes. •••s this conſideration, which has ſo powerfully attached to 〈◊〉 many well meaning honeſt citizens; and they talk of •••titude to paper money, as if it were a ſenſible benefactor, entitled to the higheſt rank and diſtinction; and as if, to abandon it, would be a deadly ſin. But when every thing demonſtrates the ſeaſon to be paſt; when the credit of America, in all places, depends on the ſecurity 〈◊〉 had ••e to contracts, it would be madneſs in the ſtates to be tenacious of their right. So long as Europe ſhall believe we regard not juſtice, gratitude and honour, ſo long will America labour under the diſadvantages of an individual, who attempts to make good his way through the world with a blaſted reputation. To the man, who ſhall ſay, it is of no conſequence to conſult national honour,\" I only anſwer thus,— If thy ſoul be ſo narrow and depraved, as to believe this, it were a needleſs attempt to cure thee of thy error.",
+      "uncertain": [
+        {
+          "end": 414,
+          "readings": {
+            "primary": "•••s"
+          },
+          "start": 410
+        },
+        {
+          "end": 474,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 471
+        },
+        {
+          "end": 536,
+          "readings": {
+            "primary": "•••titude"
+          },
+          "start": 527
+        },
+        {
+          "end": 812,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 809
+        },
+        {
+          "end": 820,
+          "readings": {
+            "primary": "••e"
+          },
+          "start": 817
+        }
+      ]
+    },
+    {
+      "emphasis": [
+        [
+          801,
+          817
+        ],
+        [
+          1003,
+          1007
+        ],
+        [
+          1034,
+          1046
+        ]
+      ],
+      "label": "Aristides, ¶ 78",
+      "pages": [
+        "29"
+      ],
+      "ref": "Aristides.78",
+      "text": "On this ſubject, there is no neceſſity for enlarging, to the people of my native ſtate; their conduct on a recent occaſion having acquired them great and deſerved applauſe. Is it neceſſary to enlarge on the propriety of giving more efficient powers to a federal head? At this moment, congreſs is little more than a name, without power to effect a ſingle thing, which is the object of a confederate republic. Reflect on the recent period, when, in a ſiſter ſtate, a numerous body of her frantic citizens appeared armed for the deſtruction of a government, framed by the people. When that unhappy ſtate was devoted to the miſeries of a civil war, did congreſs even dare to interpoſe? Conſcious of its inability to protect, it could only await the reſult, in ſilence and in terror. It indeed ventured to make application to the ſtates for a ſmall body of troops, under the poor pretext of another, and a neceſſary, deſtination. But, notwithſtanding the univerſal contagion of the alarm, did the ſtates, on that occaſion, comply with the requiſition? Suppoſe even an invaſion by a foreign power,—in what manner could congreſs provide for its own defence? In the contemptible light, in which America has lately ſtood, is it reaſonable to expect ſhe will be ſuffered to remain long in peace? The diſtance between the two continents is the only circumſtance, on which we can rely. All Europe is now in ſuſpence; and the reſult of your deliberations will inſtruct her in the part ſhe ſhall act."
+    },
+    {
+      "label": "Aristides, ¶ 79",
+      "pages": [
+        "29",
+        "30"
+      ],
+      "ref": "Aristides.79",
+      "text": "With amazement, her nations contemplate a ſcene; of which the world is too young to furniſh a parallel. We aſſembled our ſages, patriots, and ſtateſmen, to conſult what mode of government is capable of producing the greateſt ſum of general good, with the leaſt mixture of general, and partial evil. Not that each individual in this auguſt aſſembly was expected to offer a ſyſtem; but that the product of their joint wiſdom ſhould be referred to the ſeveral ſtates, to be adopted, or rejected, as the great body of the people ſhall determine on a free and full deliberation."
+    },
+    {
+      "label": "Aristides, ¶ 80",
+      "pages": [
+        "30"
+      ],
+      "ref": "Aristides.80",
+      "text": "As the occaſion was unparalleled, ſo alſo is the plan, which, after many months of painful inveſtigation, is ſubmitted, with an unanimity, alſo unparalleled."
+    },
+    {
+      "label": "Aristides, ¶ 81",
+      "pages": [
+        "30"
+      ],
+      "ref": "Aristides.81",
+      "text": "If there be any man, who approves the great outlines of the plan, and, at the ſame time, would reject it, becauſe he views ſome of the minute parts as imperfect, he ſhould reflect, that, if the ſtates ſhall think as he does, an alteration may be hereafter effected, at leiſure. When the convention determined, that the whole ſhould be received, or the whole fail, they did it not on an arrogant conceit of their own infallibity, but on the ſoundeſt principles of policy and common ſenſe. Were each ſtate legiſlature, or convention, to take it up, article by article, and ſection by ſection, with the liberty of adopting ſome, and rejecting the reſt, in all probability, ſo ſmall a part would be approved by nine ſtates, on the narrow view which each has of the ſubject, and attached as each is to its own ſuppoſed intereſt, that, in its mutilated condition, it would be worſe than the preſent confederation. For thirteen different aſſemblies, in that way, to approve ſo much of any plan whatever, as might merit the name of ſyſtem, the convention well knew to be impoſſible. Were there any one body of men, inveſted with full power, in behalf of the whole United States, to conſider, and amend the plan, then would it be proper to debate it by ſections, in the ſame manner as it was originally debated."
+    },
+    {
+      "emphasis": [
+        [
+          149,
+          154
+        ],
+        [
+          206,
+          211
+        ]
+      ],
+      "label": "Aristides, ¶ 82",
+      "pages": [
+        "30"
+      ],
+      "ref": "Aristides.82",
+      "text": "With a view to defeat totally the plan, another general convention is propoſed; not with the power of giving a finiſhing hand to a conſtitution; but again to conſider objections, to ſtrike out, to add, and again to make their report to the ſeveral ſtates."
+    },
+    {
+      "label": "Aristides, ¶ 83",
+      "pages": [
+        "30"
+      ],
+      "ref": "Aristides.83",
+      "text": "In this way, there can never be an end. We muſt at laſt return to this,—that whatever is agreed on, by the aſſembly appointed to propoſe, muſt be either adopted in the whole, or in the whole rejected."
+    },
+    {
+      "label": "Aristides, ¶ 84",
+      "pages": [
+        "30",
+        "31"
+      ],
+      "ref": "Aristides.84",
+      "text": "The idea of a new convention is ſtarted by ſome men, with the vain expectation of having amendments made to ſuit a particular ſtate, or to advance their own ſelfiſh views. Were this fatal idea adopted, I ſhould bid a laſt adieu to that elevated hope, which now inſpires me, of living under the happieſt form of government which the ſun ever beheld. Recollect again and again, that almoſt every ſtate in the union made a determined point of delegating its firſt characters to this grand convention. Reflect upon the time ſpent in the arduous work, and the ſacrifices which thoſe diſtinguiſhed perſons made to their country. Should the ſame men be deputed again, would they not, think you, with the ſame unanimity, ſubſcribe and recommend the ſame plan? So far as I have been informed, thoſe members, who, in the progreſſion of the plan, had oppoſed certain parts, and yet afterwards ſubſcribed cheerfully to the whole, have, with the candour which becomes them, acknowledged their errors in debate. Even an illuſtrious character, who was of the minority, conſiſting only of three, I have been told, has ſince regretted his refuſal."
+    },
+    {
+      "emphasis": [
+        [
+          501,
+          511
+        ]
+      ],
+      "label": "Aristides, ¶ 85",
+      "pages": [
+        "31"
+      ],
+      "ref": "Aristides.85",
+      "text": "Suppoſe then a ſecond convention, with a different choice of delegates. Theſe too would either ſpeedily ſubſcribe, or they might propoſe ſome other ſyſtem, to be debated, paragraph by paragraph, in thirteen different aſſemblies; and then there would be the ſame probability of a mutilated plan; or they would propoſe ſomething, to be adopted or rejected in the whole; and there would be the ſame neceſſity of another convention. Beſides, as the ſecond convention, if it conſiſt of different men, muſt inevitably be inferior to the firſt, there is little probability that their work will be ſuperior. Never again, in an aſſembly conſtituted as that was, will there be found the ſame liberality of ſentiment, \"the ſame ſpirit of amity, and the ſame mutual deference and conceſſion.\""
+    },
+    {
+      "label": "Aristides, ¶ 86",
+      "pages": [
+        "31",
+        "32"
+      ],
+      "ref": "Aristides.86",
+      "text": "If it be contended, that the ſecond, being poſſeſſed of the various objections from the ſeveral ſtates, muſt be better able to determine, I would aſk, what conduct this ſecond convention ſhould adopt? Are they to take the propoſed plan, and ſtrike out every thing objected to by nine ſtates, or by ſeven ſtates, or by any one of the ſtates? Or may they like wiſe adopt and recommend the entire plan? In ſhort, to appoint a ſecond convention, merely to conſult and propoſe, would be the moſt abſurd expedient, that ever, in a matter of this amazing magnitude, was propoſed. Does any man then entertain the thought of another kind of convention, inveſted with full powers to conſult, amend, adopt, and confirm? A ſcheme like this was never yet, I truſt, in agitation. But, if it were, I would propoſe this ſingle queſtion. Whether is it better to amend, before it be tried, that plan, which may be termed the reſult of the wiſdom of America, or leave it to be amended, at leiſure, as mature experience ſhall direct?"
+    },
+    {
+      "emphasis": [
+        [
+          193,
+          219
+        ]
+      ],
+      "label": "Aristides, ¶ 87",
+      "pages": [
+        "32"
+      ],
+      "ref": "Aristides.87",
+      "text": "Although a very great variety of ſenſible objections have been publicly offered, the real and ſincere objections are hardly ever diſcloſed in private. There is a claſs, oppoſed to the union of thirteen different ſtates, and the reaſon they aſſign, is the vaſt extent of our territory. Let us conſider well their objection."
+    },
+    {
+      "emphasis": [
+        [
+          571,
+          577
+        ],
+        [
+          759,
+          768
+        ]
+      ],
+      "label": "Aristides, ¶ 88",
+      "pages": [
+        "32"
+      ],
+      "ref": "Aristides.88",
+      "text": "To conſolidate the whole thirteen ſtates into a ſingle organization, was out of the convention's contemplation,—for two unanſwerable reaſons. In the firſt place, they were ſatisfied, that not one of the ſtates would renounce its ſovereignty. In the next place, they conſidered, that, in a ſingle government, with a great extent of territory, the advantages are moſt unequally diffuſed. As the extreme parts are ſcarcely ſenſible of its protection, ſo are they ſcarcely under its domination. It is generally agreed, that a great extended nation can long continue under no ſingle form of government, except a deſpotiſm, into which, either a republic, or a limited monarchy, will be certain to degenerate. And hence, if I underſtand the man who ſtyles himſelf a Centinel, he inſinuates, that, if theſe ſtates will perſiſt in remaining under one head, they muſt ſoon fall under the dominion of a deſpot. But, my fellow-citizens, in a confederate republic, conſiſting of diſtinct ſtates, completely organized within themſelves, and each of no greater extent than is proper for a republican form, almoſt all the bleſſings of government are equally diffuſed. Its protection extends to the remoteſt corner, and there every man is under reſtraint of laws."
+    },
+    {
+      "emphasis": [
+        [
+          117,
+          337
+        ]
+      ],
+      "label": "Aristides, ¶ 89",
+      "pages": [
+        "32",
+        "33"
+      ],
+      "ref": "Aristides.89",
+      "text": "A true federal republic is always capable of acceſſion by the peaceable and friendly admiſſion of new ſingle ſtates. Its true ſize is neither greater nor leſs than that, which may comprehend all the ſtates, which, by their contiguity, may become enemies, unleſs united under one common head, capable of reconciling all their differences. Such a government as this, excels any ſingle government, extending over the ſame territory, as a band of brothers is ſuperior to a band of ſlaves, or as thirteen common men, for the purpoſes of agriculture, would be ſuperior to a giant, enjoying ſtrength of body equal to them all."
+    },
+    {
+      "label": "Aristides, ¶ 90",
+      "pages": [
+        "33"
+      ],
+      "ref": "Aristides.90",
+      "text": "The idea of a balance has long influenced the politics of Europe. But how much ſuperior to this almoſt impracticable balance would be a general league, conſtituting a kind of federal republic, conſiſting of all the independent powers in Europe, for preventing the impoſitions and encroachments of one upon another! A true and perfect confederate government, however, in her ſituation, is not to be attained; although the great ſoul of HENRY THE FOURTH is ſaid to have conceived the idea."
+    },
+    {
+      "label": "Aristides, ¶ 91",
+      "pages": [
+        "33"
+      ],
+      "ref": "Aristides.91",
+      "text": "Shall America then form one grand federal republic? Or ſhall ſhe, after experiencing the benefits of even an imperfect union, and when a union the moſt perfect is requiſite for her permanent ſafety;—ſhall ſhe, in this ſituation, divide into thirteen contemptible ſingle governments, expoſed to every inſult and wrong from abroad, and watching each other's motions, with all the captiouſneſs of jealous rivals? Or ſhall ſhe divide into two or more federal republics, actuated by the ſame malignant diſpoſitions? In either of theſe caſes, after ſtruggling through infinite toils, difficulty, and danger, ſhould the thirteen ſingle ſtates be, at laſt, delivered from foreign foes, they will fall upon each other; and no man can predict, what forms of government, or diviſion of territory, ſhall finally obtain—. Two or three federal republics might poſſibly retain their independence. But they would be in the ſame ſituation, with reſpect to each other, as France, England, and Spain, ſcarcely ever free from war; practiſing the arts of diſſimulation and intrigue; in vain ſtriving to impoſe, by endleſs negotiation; and, after all, relying only on the immenſe naval and land forces, which they continually maintain."
+    },
+    {
+      "label": "Aristides, ¶ 92",
+      "pages": [
+        "33",
+        "34"
+      ],
+      "ref": "Aristides.92",
+      "text": "Let us, then, my countrymen, embrace thoſe bleſſings, which Providence is ready to ſhower on us. Open and extend your views! Let the proſpect comprehend the preſent and future generations, yourſelves, your children, your relatives, your fellow-citizens, dwellers on the ſame continent, and inhabitants of the whole terraqueous globe.—"
+    },
+    {
+      "emphasis": [
+        [
+          163,
+          165
+        ],
+        [
+          825,
+          841
+        ]
+      ],
+      "label": "Aristides, ¶ 93",
+      "pages": [
+        "34"
+      ],
+      "ref": "Aristides.93",
+      "text": "With the proſpect of my country's future glory, preſented to my glowing imagination, it is difficult to reſiſt the ſtrong impulſe of enthuſiaſm. But it is neither my talent, nor deſire, to miſlead. I wiſh only to impreſs the genuine advantages of the propoſed plan; and, if poſſible, to rouſe every man from that ſupineneſs, into which he is lulled by the preſent deceitful calm. To acquit themſelves, like men, when viſible danger aſſails; and, when it is repelled, to ſink like ſavages, into indolence, is ſaid to be the characteriſtic of Americans. I am not, however, one of thoſe, who imagine a neceſſity for embracing almoſt any ſcheme, which the convention might have deviſed, for giving to the union more efficient powers. Had the plan, they have propoſed, contained the ſeeds of much, though diſtant, evil, perhaps a faithful patriot might addreſs you thus:"
+    },
+    {
+      "emphasis": [
+        [
+          154,
+          182
+        ]
+      ],
+      "label": "Aristides, ¶ 94",
+      "pages": [
+        "34"
+      ],
+      "ref": "Aristides.94",
+      "text": "Let us not, my friends, in a fit of unmanly apprehenſion, betray that immenſe charge, with which Americans, at this day, are entruſted! Let us confide in the wiſdom of our great men, with the aſſiſtance of Heaven, to eſtabliſh yet our ſafety and happineſs! Let us, in the mean time, ſuſtain all our evils, with reſignation and firmneſs! Let us hope, that no foreign power, or lawleſs internal combinations, ſhall do us a mighty injury! Let us be frugal, economical, induſtrious! Let us ſuſpend the cruel collection of debts! Let commerce continue to droop! Let us awhile ſubmit even to infamy; and turn a callous ear to the indignant reproaches of our late faithful and affectionate ſervants, friends and benefactors."
+    },
+    {
+      "emphasis": [
+        [
+          190,
+          201
+        ]
+      ],
+      "label": "Aristides, ¶ 95",
+      "pages": [
+        "34",
+        "35"
+      ],
+      "ref": "Aristides.95",
+      "text": "To this purpoſe might a man plauſibly declaim; provided the propoſed plan contained many and great faults; provided it were not calculated to promote the general good, without violating the juſt rights of a ſingle individual; and provided it were not the beſt, which, under all circumſtances, could be reaſonably expected. It was the parting declaration of the American NESTOR, to his exalted fellow-labourers, that he would ſubſcribe, becauſe he thought it good, and becauſe he did not know, but it was the beſt that could be contrived. My own declaration, which would be the ſame, were I now ſtanding on the verge of eternity, is, that if the whole matter were left to my diſcretion, I would not change a ſingle part. On reflection, I was pleaſed with the conduct of the Virginia and Maryland aſſemblies, in appointing diſtant days for the meeting of their ſtate conventions. Not that I greatly admired the ſuppoſed motive; but becauſe I ſincerely wiſhed every man might have time to comprehend and weigh the plan, before the ultimate deciſion of theſe two ſtates ſhould be pronounced. The longer it is contemplated, after it is underſtood, the greater, I am perſuaded, will be the approbation of thoſe, who wiſh the public good, and to whoſe private views and expectations, nothing, which tends to promote that good, can be greatly detrimental.—"
+    },
+    {
+      "label": "Aristides, ¶ 96",
+      "pages": [
+        "35"
+      ],
+      "ref": "Aristides.96",
+      "text": "But alas! My fellow-citizens, on the adoption of this fatal plan, and when every part of the great complicated machine ſhall be put in motion, the luſtre of our ſtate aſſemblies will be diminiſhed by the ſuperior ſplendour of the federal head. This ſingle conſideration, although many heſitate to avow it, will cauſe more oppoſition, than all the reſt united. Weigh well the objection. If ever it be material to inquire, by whom reaſons are adduced, it is on this peculiar occaſion. From the objection itſelf, may perhaps be diſcerned the danger we are expoſed to, from the ſecret views and ſelfiſh conſiderations of the objector."
+    },
+    {
+      "emphasis": [
+        [
+          912,
+          940
+        ],
+        [
+          1056,
+          1084
+        ]
+      ],
+      "label": "Aristides, ¶ 97",
+      "pages": [
+        "35",
+        "36"
+      ],
+      "ref": "Aristides.97",
+      "text": "What at this moment to the nations abroad is the ſtate of Maryland? The poor member of a defenceleſs ſyſtem of petty republics—. In what light is ſhe viewed by her ſiſter ſtates?—Whatever rank ſhe now poſſeſſes, will remain after the great alteration of the ſyſtem. They will all riſe or fall in the proportion which now exiſts—. What then are the powers an individual ſtate will loſe?—She will no longer be able to deny congreſs that, which congreſs, at this moment, has a right to demand. She will have no power to enter into a treaty, alliance, or confederation. She ſhall, in time of war, grant no letters of marque and repriſal. She ſhall coin no money, emit no bills of credit, nor make any thing but gold and ſilver a tender in payment of debts. She ſhall paſs no bill of attainder, or ex poſt facto ſaw, or law impairing the obligation of a contract. She ſhall grant no title of nobility. She ſhall not, without conſent of congreſs, lay any duty on imports or exports, except what may be neceſſary for executing her inſpection laws. She ſhall not, without conſent of congreſs, lay any duty on tonnage, keep troops or* ſhips of war, in time of peace; enter into any agreement, or compact, with another ſtate, or with a foreign power; or engage in war, unleſs actually invaded, or in ſuch imminent danger, as will not admit of delay."
+    },
+    {
+      "label": "Aristides, ¶ 98",
+      "pages": [
+        "36"
+      ],
+      "ref": "Aristides.98",
+      "text": "Of the ſeveral powers, from which an individual ſtate is thus reſtrained, ſome are improper to be uſed at all; others belong not even now to the individual ſtates; and the reſt are ſtrictly proper for only the federal head. The avertion from ceding them to congreſs, is juſt as reaſonable as in a ſtate of nature would be the reluctance of an individual to relinquiſh any of his natural rights, upon entering into a ſtate of ſociety. The principle, on which, at length, he ſurrenders, is the neceſſity of every one's making a ceſſion of ſome rights, to enable the ſovereign to protect the reſt. Each ſtate is fully ſenſible, that ſhe cannot protect herſelf; and yet ſhe would enjoy the advantages of an union, without making the neceſſary contributions. To diſcern how prepoſterous is the idea, requires not more than a moment's reflection."
+    },
+    {
+      "label": "Aristides, ¶ 99",
+      "pages": [
+        "36",
+        "37"
+      ],
+      "ref": "Aristides.99",
+      "text": "For the honour of my countrymen, I hope this extreme reluctance to ſurrender power is confined to thoſe, whoſe ambition, or private intereſt, would have all things ſubſervient to the omnipotence of aſſembly. In the few years that the ſtate conſtitutions have endured, has not every one ſeen pregnant proofs of the vain love of domination? Has he not alſo ſeen deciſive marks of overbearing ſecret influence? Where are the inſtances of exalted patriotiſm?—But I forbear. Far from me is the wiſh to caſt wantonly one ſtinging or diſagreeable reflection. The ſubject naturally required the general remark, and I hope, this ſhort hint may be excuſed.—"
+    },
+    {
+      "label": "Aristides, ¶ 100",
+      "pages": [
+        "37"
+      ],
+      "ref": "Aristides.100",
+      "text": "Is there a poſſible advantage to be derived to the public, from a ſingle ſtate's exerciſing powers proper only for the federal head; ſuppoſe even each ſtate ſhould uſe them properly and alike; which, in the nature of things, is not to be expected? If there be men, who delight in parliamentary warfare; who chooſe a fair wide field for diſplaying their talents; who wiſh to ſee every ſervant of the public proſtrate before them; whoſe ears are ſoothed by humble ſupplication; they may ſtill enjoy rich ſources of gratification. Are not the regulations of property, the regulations of the penal law, the protection of the weak, the promotion of uſeful arts, the whole internal government of their reſpective republics; are not theſe the main objects of every wiſe and honeſt legiſlature? Are not theſe things ſtill in their power; and, whilſt free from invaſion or injuries abroad, are not theſe almoſt the only things, in which ſovereignty is exerciſed?"
+    },
+    {
+      "label": "Aristides, ¶ 101",
+      "pages": [
+        "37"
+      ],
+      "ref": "Aristides.101",
+      "text": "That the ſtate legiſlatures will ſoon \"drop out of ſight,\" is an idea moſt extravagant and abſurd; becauſe, in addition to the importance of their duties, the very exiſtence of the congreſs depends upon them. That they will, at leaſt, dwindle into ſomething like city corporations, is an apprehenſion, founded on no better principle. May the Ruler of the univerſe inſpire them with wiſdom to diſcharge thoſe numerous and extenſive duties, which they will find remaining. To do this, as they ought, will be far proferable to the* breaking all uſeful national meaſures, and marring the concerns of a continent. To do this, as they ought, will afford more true pleaſure to a good mind, than the carrying, by conſummate eloquence and addreſs, the moſt intereſting federal meaſure, which can now be contrived by an enlightened honeſt politician, in a ſtate aſſembly, poſſeſſing all its darling ſovereignties!"
+    },
+    {
+      "emphasis": [
+        [
+          105,
+          111
+        ]
+      ],
+      "label": "Aristides, ¶ 102",
+      "pages": [
+        "37",
+        "38"
+      ],
+      "ref": "Aristides.102",
+      "text": "You have been aſſured, that, ſoon as this fatal plan ſhall ſucceed, an hoſt of rapacious collectors will invade the land; that they will wreſt from you the hard product of your induſtry, turn out your children from their dwellings, perhaps commit your bodies to a jail; and your own immediate repreſentatives will have no power to relieve you.— This is the mere phrenzy of declamation, the ridiculous conjuration of ſpectres and hobgobblins!"
+    },
+    {
+      "label": "Aristides, ¶ 103",
+      "pages": [
+        "38"
+      ],
+      "ref": "Aristides.103",
+      "text": "To the five per cent. impoſt moſt of the ſtates have more than once given their aſſent. This is the only tax which congreſs wiſhes immediately to impoſe. Of the impoſition of aſſeſſment, capitation, or direct taxes of any kind, the congreſs entertains no idea at preſent; and although it be proper for the federal head to poſſeſs this power in reſerve, nothing but ſome unforeſeen diſaſter will ever drive them to ſuch ineligible expedients. Setting aſide the immediate advantages of revived credit and trade, and the increaſed value of your property and labour, you will be delivered, in a great meaſure, from that load of direct taxation, which has been ſo unequally borne, and produced ſo little ſubſtantial good."
+    },
+    {
+      "label": "Aristides, ¶ 104",
+      "pages": [
+        "38"
+      ],
+      "ref": "Aristides.104",
+      "text": "Permit me to demand, what mighty benefit has reſulted from the exerciſe of thoſe ſovereign rights, that, in general, you ſhould be loth to reſign them? Has not a perpetual clamour been kept up (it matters not whether juſtly or otherwiſe) concerning the enormous impoſitions on the people? And what are the advantages derived to the people of the reſpective ſtates, to the union, or to meritorious individuals? Has not the far greater part of a ſtate's internal expences been owing to the extreme length of ſeſſions? Have not theſe ſeſſions been conſumed in diſguſting altercation, and in paſſing laws, ſerving to little better purpoſe, than to ſwell the ſtatute book, encourage a negligence of duty, and obſtruct the adminiſtration of juſtice?"
+    },
+    {
+      "label": "Aristides, ¶ 105",
+      "pages": [
+        "38",
+        "39"
+      ],
+      "ref": "Aristides.105",
+      "text": "To trace each real and oſtenſible objection up to its proper ſource, would be a taſk equally invidious, irkſome and unneceſſary. The characters of the principal advocates and opponents are well known. To him who declines not a public avowal of his ſentiments, ſome credit is due, for his candour; and he is entitled to your patient attention. But, he that prefers a ſecret corner, for dealing forth his objections, and expoſitions, ſhould be heard with caution and diſtruſt. It is in a land of ſlavery alone, where truth ſhuns the open day—. Each ſide has imputed to the other illiberal and ſelfiſh motives. Conſider then the particular intereſts of each; and bear this in your minds, that an intereſt may be either honourable and praiſe worthy, or directly the reverſe."
+    },
+    {
+      "label": "Aristides, ¶ 106",
+      "pages": [
+        "39"
+      ],
+      "ref": "Aristides.106",
+      "text": "You have been told, that the propoſed plan was calculated peculiarly for the rich. In all governments, not merely deſpotic, the wealthy muſt, in moſt things, find an advantage, from the poſſeſſion of that, which is too much the end and aim of all mankind. In the propoſed plan, there is nothing like a diſcrimination in their favour. How this amazing objection is to be ſupported, I am at a loſs to conjecture. Is it a juſt cauſe of reproach, that the conſtitution effectually ſecures property? Or would the objectors introduce a general ſcramble? In eligibility to office, in ſuffrage, and in every other civil right, all men are on terms of perfect equality. And yet, notwithſtanding this juſt equality, each man is to pay taxes in proportion to his ability, or his expences.—"
+    },
+    {
+      "label": "Aristides, ¶ 107",
+      "pages": [
+        "39"
+      ],
+      "ref": "Aristides.107",
+      "text": "A ſtill more ſurpriſing objection remains to be conſidered. This new conſtitution, ſo much be praiſed and admired, will commence in a moderate ariſtocracy. To a corrupt and oppreſſive one the tranſition is eaſy, and inevitable, unleſs ſome Caeſar, or a Cromwell, in their ſtead, ſhall make a ſeizure of your liberties. As to the houſe of repreſentatives, they will either be inſignificant ſpectators of the conteſt between the preſident and the ſenate, or their weight will be thrown into one of the ſcales."
+    },
+    {
+      "label": "Aristides, ¶ 108",
+      "pages": [
+        "39"
+      ],
+      "ref": "Aristides.108",
+      "text": "No man, indeed, has exactly uſed theſe words; but they contain the ſum and ſcope of ſeveral recent publications."
+    },
+    {
+      "emphasis": [
+        [
+          345,
+          351
+        ]
+      ],
+      "label": "Aristides, ¶ 109",
+      "pages": [
+        "39",
+        "40"
+      ],
+      "ref": "Aristides.109",
+      "text": "In the courſe of my remarks, I have already ſaid enough to expoſe the futility of certain objections, which are uſhered to the world, under the auſpices of a pair of honourable names. Notwithſtanding the care and pompoſity, with which they are circulated, it is not worth while to draw an invidious compariſon. One gentleman, whoſe name is thus freely uſed, I think, calls the houſe of repreſentatives a mere ſhred, or rag of repreſentation. Does he conſider the diſtinction between the objects of a confederate republic, and of a ſingle government? It is a poor return for that ſingular reſpect, which the convention paid to the majeſty of the people, in contriving, that congreſs ſhall not only be a repreſentation of ſtates, as heretofore, but alſo an immediate repreſentation of the people. Were 5, 10, or even 20,000, the ratio propoſed, then peradventure the honourable objector might clamour about the expence of a mobbiſh legiſlature. The fact is, that the new government, conſtructed on the broad baſis of equality, mutual benefits, and national good, is not calculated to ſecure a ſingle ſtate all her natural advantages, at the expence of the natural and acquired advantages of her reſpectable brethren of New-England.—"
+    },
+    {
+      "emphasis": [
+        [
+          608,
+          613
+        ]
+      ],
+      "label": "Aristides, ¶ 110",
+      "pages": [
+        "40"
+      ],
+      "ref": "Aristides.110",
+      "text": "His real objection againſt conſtituting the ſenate an executive council ariſes, I conceive, from the equality of repreſentation. As to the trite maxim, that the legiſlative and executive ought ever to be diſtinct and ſeparate, I would, in addition to my foregoing obſervations on this head, refer him to Monteſquieu's chapter on the Engliſh government. I could wiſh, the writings of that great man, and of judge Blackſtone, ſo often either copied, or cited for concluſive authority, were better underſtood. Should a ſecond, or a third convention, be obtained, the aforeſaid honourable gentlemen can never be fully indulged in their main object of a proportionate repreſentation."
+    },
+    {
+      "label": "Aristides, ¶ 111",
+      "pages": [
+        "40"
+      ],
+      "ref": "Aristides.111",
+      "text": "The examples of a genuine ariſtocracy are rare. They were founded in times of profound ignorance, and when the maſs of property was in the hands of a few, whilſt the reſt pined in want and wretchedneſs. One European ariſtocratic government, if ſuch it can be called, has grown out of an original defective form, the offspring of neceſſity, and commenced amidſt the horrors of a civil war. Although the people of that country fought, and intended, to be free, their compact of government never was complete; they did not attend to the principle of rotation, and checks; and a genuine repreſentation did never there prevail.—"
+    },
+    {
+      "emphasis": [
+        [
+          385,
+          391
+        ]
+      ],
+      "label": "Aristides, ¶ 112",
+      "pages": [
+        "40",
+        "41"
+      ],
+      "ref": "Aristides.112",
+      "text": "An ariſtocracy can perhaps ſubſiſt only with a moderate extent of territory and population.—But it is a farce to talk of an ariſtocracy; when there are two branches, ſo differently formed; when the members of each are choſen for a reaſonable term; and when their re-appointment depends on the good opinion of their countrymen. It is not in nature, that a man with the leaſt portion of common ſenſe can believe, the people of America will conſent to ſuch a deplorable change in their conſtitution, as ſhall confine all power to a few noble families, or that, without their conſent, the change will be effected, by internal policy, or force."
+    },
+    {
+      "label": "Aristides, ¶ 113",
+      "pages": [
+        "41"
+      ],
+      "ref": "Aristides.113",
+      "text": "Whilſt mankind ſhall believe freedom to be better than ſlavery; whilſt our lands ſhall be generally diſtributed, and not held by a few inſolent barons, on the debaſing terms of vaſſallage; whilſt we ſhall teach our children to read and write; whilſt the liberty of the preſs, that grand palladium, which tyrants are compelled to reſpect, ſhall remain; whilſt a ſpark of public love ſhall animate even a ſmall part of the people; whilſt even ſelf-love ſhall be the general ruling principle; ſo long will it be impoſſible for an ariſtocracy to ariſe from the propoſed plan.—Should Heaven, in its wrath, inflict blindneſs on the people of America; ſhould they reject this fair offer of permanent ſafety and happineſs;—to predict, what ſpecies of government ſhall at laſt ſpring from diſorder, is beyond the ſhort reach of political foreſight."
+    },
+    {
+      "label": "Aristides, ¶ 114",
+      "pages": [
+        "41",
+        "42"
+      ],
+      "ref": "Aristides.114",
+      "text": "Believe me, my fellow-citizens, that no overweening ſelf-conceit, no vain ambition, no reſtleſs meddling ſpirit, has produced this addreſs. Long had I waited to ſee this vaſt queſtion treated, as it deſerves; and the publication diſſeminated in my native ſtate. Many judicious obſervations had appeared in news-papers and hand-bills. But no publication, that I have ſeen, has gone fully into the merits, conſidered the objections, and explained that, which is doubtful and obſcure. On this account I, at length, made the attempt. That my performance is equal to my wiſhes, I can by no means believe. I have, however, a conſolation in reflecting, that it will be difficult for any man to demonſtrate, that, in this buſineſs, I have a particular intereſt.—In many of my remarks, I have been anticipated by writings, which I have ſeen; and I have collected materials, wherever I could find them. Could I be convinced, that I have ſa•d nothing, which had not before been ſaid or thought by thouſands, the reflection would yield far leſs mortification than pleaſure.",
+      "uncertain": [
+        {
+          "end": 931,
+          "readings": {
+            "primary": "ſa•d"
+          },
+          "start": 927
+        }
+      ]
+    },
+    {
+      "emphasis": [
+        [
+          457,
+          504
+        ]
+      ],
+      "kind": "footnote",
+      "label": "Aristides, note 1",
+      "pages": [
+        "7"
+      ],
+      "ref": "Aristides.fn1",
+      "text": "Againſt what is called equality in repreſentation, the great Monteſquieu ſeems to have declared by the ſtrongeſt implication. In his Spirit of Laws, b• 〈…〉, that the confederate republic of Lycia con〈7 letters〉 〈…〉 •e aſſociated towns: that, in the common council, the 〈◊〉 towns had three votes, the middling towns two, and the leſſer only one; that they contributed to the common expence according to the proportion of ſuffrages; and, that were he to give the model of an excellent confederate republic, it ſhould be that of Lycia. Could the immortal ſpirit of Monteſquieu reviſit the earth, and behold the model now offered to America, how quickly would his favourite republic ſink in his eſtimation. In a new quarter of the globe ſcarcely heard of by the greater part of Europeans in his day, and ſince the commencement of the preſent century, he would ſee men who have attained a perfection in the ſcience moſt conducive to hunan happineſs, in that ſtudy which was the principal occupation of his life, in which his predeceſſors had acquired only a few glimmering lights, and of which it was reſerved for him to develope moſt of the true firſt principles.",
+      "uncertain": [
+        {
+          "end": 151,
+          "readings": {
+            "primary": "b•"
+          },
+          "start": 149
+        },
+        {
+          "end": 156,
+          "readings": {
+            "primary": "〈…〉,"
+          },
+          "start": 152
+        },
+        {
+          "end": 201,
+          "readings": {
+            "primary": "con〈7"
+          },
+          "start": 196
+        },
+        {
+          "end": 210,
+          "readings": {
+            "primary": "letters〉"
+          },
+          "start": 202
+        },
+        {
+          "end": 214,
+          "readings": {
+            "primary": "〈…〉"
+          },
+          "start": 211
+        },
+        {
+          "end": 217,
+          "readings": {
+            "primary": "•e"
+          },
+          "start": 215
+        },
+        {
+          "end": 272,
+          "readings": {
+            "primary": "〈◊〉"
+          },
+          "start": 269
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Aristides, note 2",
+      "pages": [
+        "9"
+      ],
+      "ref": "Aristides.fn2",
+      "text": "Whether the ſtate of Maryland ſhall be divided into ſix diſtricts, for each to chooſe one man, or the people at large give their ſuffrage for the whole ſix, is hereafter to be ſettled by the aſſembly. The latter mode, on a variety of occaſions, would be preferable."
+    },
+    {
+      "emphasis": [
+        [
+          1400,
+          1411
+        ],
+        [
+          1688,
+          1699
+        ]
+      ],
+      "kind": "footnote",
+      "label": "Aristides, note 3",
+      "pages": [
+        "23"
+      ],
+      "ref": "Aristides.fn3",
+      "text": "The importance of having the weſtern territory determined a common ſtock, needs only to be mentioned, to excite attention.— As the articles of confederation contain no proviſion, for adjuſting the diſpute between the United, and particular, ſtates, Maryland, for a long time, refuſed her ratification. An adequate proviſion is made by the propoſed plan. That the United States will aſſuredly inſtitute actions againſt two of the ſtates, ſetting up claims equally wild and extenſive, may appear from the following ſtatement. New-Hampſhire, Rhode-Iſland, New-Jerſey, Delaware and Maryland, have been always intereſted in making good the common claim; as they never laid any particular claim to the territory in queſtion.— Maſſachuſetts, if the province of Main be ſeparate, is likewiſe become intereſted in the ••••on claim. Connecticut, and New-York, have both made ceſſions, which congreſs has accepted. Theſe two are therefore become intereſted. Pennſylvania, although very extenſive, has her limits aſcertained. She likewiſe is intereſted.— Virginia, having made a ceſſion to congreſs, has ſince relinquiſhed a part of the reſerved lands, or at leaſt offered independence, to Kentucky.— North-Carolina, having once made a ceſſion, thought proper, in the omnipotence of her diſtinct ſovereignty, to repeal the act. Will not the ceſſion be determined valid, and the repeal void? South-Carolina alſo, it is ſaid, has ceded part of that territory, which lately ſhe diſputed with Geo••••. In this caſe the United States have their claim fortified.— But Georgia, the weakeſt of all, lays claim to an immenſe tract of country. In this territory there are warlike and independent tribes of the aborigines, now carrying terror and deſolation towards the heart of the country occupied by the whites. It is expected, that this circumſtance, with a conſciouſneſs of the weak foundation of her claims, will diſpoſe Georgia to give up without a ſuit, and conſent to be circumſcribed within narrower limits, ſo ſoon as a proper tribunal ſhall have power to enter upon a rational inveſtigation.— N. B. For the above ſtatement I am principally indebted to a member of the late continental convention, and who for a conſiderable time, was a member of congreſs, a gentleman of eſtabliſhed honour and accuracy.",
+      "uncertain": [
+        {
+          "end": 815,
+          "readings": {
+            "primary": "••••on"
+          },
+          "start": 809
+        },
+        {
+          "end": 1485,
+          "readings": {
+            "primary": "Geo••••."
+          },
+          "start": 1477
+        }
+      ]
+    },
+    {
+      "kind": "footnote",
+      "label": "Aristides, note 4",
+      "pages": [
+        "36"
+      ],
+      "ref": "Aristides.fn4",
+      "text": "The advantage derived from this to the ſouthern ſtates, is eaſily perceived. Have not ſerious apprehenſions been entertained on account of the vaſt ſuperiority of the eaſtern ſtates by ſea?"
+    },
+    {
+      "kind": "footnote",
+      "label": "Aristides, note 5",
+      "pages": [
+        "37"
+      ],
+      "ref": "Aristides.fn5",
+      "text": "Is it poſſible to reflect, without indignation, on the fate of the five per cent. impoſt ſcheme?"
+    }
+  ],
+  "short": "Aristides",
+  "source_ids": [
+    "tcp-n16445"
+  ],
+  "title": "Remarks on the Proposed Plan of a Federal Government"
+}

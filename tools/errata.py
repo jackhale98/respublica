@@ -110,7 +110,9 @@ def apply(decisions: list[dict], reviewer: str, today: str) -> dict:
 
 
 def accept_library(owner: str, today: str) -> dict:
-    """Record every Library suggestion as accepted by `owner` (decision 56)."""
+    """Record every Library suggestion as accepted by `owner` (decision 56).
+    A typed text's suggestion (`suggested_by`, decision 69) is not the
+    Library's and is left for a person."""
     recorded, quotes = 0, 0
     CORRECTIONS_DIR.mkdir(exist_ok=True)
     for f in sorted(TEXTS_DIR.glob("*.json")):
@@ -118,7 +120,7 @@ def accept_library(owner: str, today: str) -> dict:
         items = []
         for seg in doc.get("segments", []):
             for i, u in enumerate(seg.get("uncertain", [])):
-                if u.get("suggestion") and "accepted" not in u:
+                if u.get("suggestion") and "accepted" not in u and not u.get("suggested_by"):
                     items.append({"at": today, "by": owner, "index": i, "now": u["suggestion"], "ref": seg["ref"],
                                   "source": "library", "was": seg["text"][u["start"]:u["end"]]})
         if not items:

@@ -361,7 +361,8 @@ POSITION_LABELS = {"anti": "Anti-Federalist", "federalist": "Federalist", "other
 
 
 # What a ratification-debate work's parts are called, where not essays.
-PARTS = {"patrick-henry": "speeches"}
+PARTS = {"patrick-henry": "speeches", "coxe-examination": "parts", "randolph-letter": "letters",
+         "native-of-virginia": "parts"}
 
 # A work's sources as the about page lists them: each on a line, but the
 # Congressional Globe's page-by-page OCR from the UNT Digital Library (two
@@ -1118,6 +1119,9 @@ class SiteBuilder:
             if work.get("position"):
                 notes = sum(1 for s in work["segments"] if s.get("kind") == "footnote")
                 info["notes"] = notes
+                # Typed by the Text Creation Partnership, not read from scans (decision 69).
+                if all(sid.startswith("tcp-") for sid in work["source_ids"]):
+                    info["typed"] = True
             if not cfg["paged"]:
                 pid = wid
                 single = work.get("position") and len(work.get("divisions", [])) == 1
@@ -1745,6 +1749,7 @@ def build_errata(corpus: Corpus, refs: dict[str, dict]) -> tuple[dict, dict[str,
                  "before": words_before(text[:u["start"]].replace("\n", " ")),
                  "index": i, "readings": u["readings"], "was": text[u["start"]:u["end"]],
                  **({"suggestion": u["suggestion"]} if u.get("suggestion") else {}),
+                 **({"suggested_by": u["suggested_by"]} if u.get("suggested_by") else {}),
                  **({"accepted": True} if u.get("accepted") else {})}
                 for i, u in enumerate(spans)]})
         if not items and not corrected:

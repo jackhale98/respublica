@@ -20,8 +20,10 @@ const IMAGE_HOSTS = /^https:\/\/(archive\.org|[a-z0-9-]+\.us\.archive\.org|digit
 
 // `suggestion`: the Anti-Federalist Library's reading, where no scan reads the
 // word so: to check against the page image, never to take on trust.
+// `suggested_by`: the typed text the suggestion comes from instead (the Text
+// Creation Partnership's text of a 1788 reprint; decision 69).
 type Word = {
-  index: number; was: string; before: string; after: string; readings: Record<string, string>; suggestion?: string;
+  index: number; was: string; before: string; after: string; readings: Record<string, string>; suggestion?: string; suggested_by?: string;
   // The text has the Library's reading, accepted by the owner without a check against the page (decision 56).
   accepted?: boolean;
 };
@@ -182,7 +184,7 @@ function wordRow(p: Passage, w: Word, card: HTMLElement): HTMLElement {
     b.type = "button";
     b.dataset.reading = suggestion;
     b.title = "No scan reads this. Choose it only if the page image shows it.";
-    b.append(suggestion, el("small", undefined, "Anti-Federalist Library: check the page"));
+    b.append(suggestion, el("small", undefined, `${w.suggested_by ? `${w.suggested_by} (a 1788 reprint)` : "Anti-Federalist Library"}: check the page`));
     b.addEventListener("click", () => choose(fixes[row.dataset.key!]?.now === suggestion ? null : suggestion));
     readings.append(b);
   }

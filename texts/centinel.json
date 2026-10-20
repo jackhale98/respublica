@@ -165,19 +165,7 @@
       "publication": [],
       "ref": "Centinel.6",
       "salutation": "To the People of Pennsylvania.",
-      "signature": "Centinel. Philadelphia, December 23, 1787.",
-      "uncertain": {
-        "signature": [
-          {
-            "end": 36,
-            "readings": {
-              "pitt": "22,",
-              "primary": "23,"
-            },
-            "start": 33
-          }
-        ]
-      }
+      "signature": "Centinel. Philadelphia, December 22, 1787."
     },
     {
       "attribution": {
@@ -559,7 +547,7 @@
   ],
   "edition": {
     "name": "John Bach McMaster and Frederick D. Stone, eds., Pennsylvania and the Federal Constitution, 1787–1788 (Lancaster, 1888)",
-    "notes": "John Bach McMaster and Frederick D. Stone, eds., Pennsylvania and the Federal Constitution, 1787–1788 (Lancaster, 1888), pp. 565–698. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. Where the scans disagreed, the Anti-Federalist Library's text was used to choose among their readings, never to add one. See docs/editions.md."
+    "notes": "John Bach McMaster and Frederick D. Stone, eds., Pennsylvania and the Federal Constitution, 1787–1788 (Lancaster, 1888), pp. 565–698. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. Where the scans disagreed, the Anti-Federalist Library's text was used to choose among their readings, never to add one. For Centinel I–IX, the Text Creation Partnership's typed text of a reprint of 1788 (Evans-TCP N16599: Observations on the Proposed Constitution for the United States of America (Printed in the State of New-York, 1788; Evans 21344)) was used the same way for words still unsettled. See docs/editions.md."
   },
   "id": "centinel",
   "position": "anti",
@@ -1363,7 +1351,9 @@
             "pitt": "Dickinson^",
             "primary": "Dickinson.,"
           },
-          "start": 819
+          "start": 819,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "Dickenson,"
         }
       ]
     },
@@ -1435,25 +1425,7 @@
           634
         ]
       },
-      "text": "Mr. Wilson has recourse to the most flimsy sophistry in his attempt to refute the charge that the new plan of general government will supersede and render powerless the state governments. His quibble upon the term Corporation, as sometimes equivalent to communities which possess sovereignty, is unworthy of him. The same comparison in the case of the British parliament assuming to tax the colonies, is made in the Xth of the Farmer's Letters, and was not misunderstood in 1768 by any. He says that the existence of the proposed federal plan depends on the existence of the State governments, as the senators are to be appointed by the several legislatures, who are also to nominate the electors who choose the President of the United States; and that hence all fears of the several States being melted down into one empire, are groundless and imaginary. But who is so dull as not to comprehend, that the semblance and forms of an ancient establishment may remain, after the reality is gone. Augustus, by the aid of a great army, assumed despotic power, and notwithstanding this, we find even under Tiberius, Caligula and Nero, princes who disgraced human nature by their excesses, the shadows of the ancient constitution held up to amuse the people. The senate sat as formerly; consuls, tribunes of the people, censors and other officers were annually chosen as before, and the forms of republican government continued. Yet all this was in appearance only. — Every senatus consultum was dictated by him or his ministers, and every Roman found himself constrained to submit in all things to the despot.",
-      "uncertain": [
-        {
-          "end": 1474,
-          "readings": {
-            "pitt": "seiiatus",
-            "primary": "senatus"
-          },
-          "start": 1467
-        },
-        {
-          "end": 1484,
-          "readings": {
-            "pitt": "cotisidtum",
-            "primary": "consultum"
-          },
-          "start": 1475
-        }
-      ]
+      "text": "Mr. Wilson has recourse to the most flimsy sophistry in his attempt to refute the charge that the new plan of general government will supersede and render powerless the state governments. His quibble upon the term Corporation, as sometimes equivalent to communities which possess sovereignty, is unworthy of him. The same comparison in the case of the British parliament assuming to tax the colonies, is made in the Xth of the Farmer's Letters, and was not misunderstood in 1768 by any. He says that the existence of the proposed federal plan depends on the existence of the State governments, as the senators are to be appointed by the several legislatures, who are also to nominate the electors who choose the President of the United States; and that hence all fears of the several States being melted down into one empire, are groundless and imaginary. But who is so dull as not to comprehend, that the semblance and forms of an ancient establishment may remain, after the reality is gone. Augustus, by the aid of a great army, assumed despotic power, and notwithstanding this, we find even under Tiberius, Caligula and Nero, princes who disgraced human nature by their excesses, the shadows of the ancient constitution held up to amuse the people. The senate sat as formerly; consuls, tribunes of the people, censors and other officers were annually chosen as before, and the forms of republican government continued. Yet all this was in appearance only. — Every senatus consultum was dictated by him or his ministers, and every Roman found himself constrained to submit in all things to the despot."
     },
     {
       "label": "Centinel 2, ¶ 11",
@@ -1546,16 +1518,8 @@
           635
         ]
       },
-      "text": "In addition to the respectable authorities quoted in my first number, to show that the right of taxation includes all the powers of government, I beg leave to adduce the Farmer's Letters, see particularly letter gth, in which Mr. Dickinson has clearly proved, that if the British Parliament assumed the power of taxing the colonies, internally^ as well as externally^ and it should be submitted to, the several colony legislatures would soon become contemptible, and before long fall into disuse. Nothing, says he, would be left for them to do, higher than to frame by-laws for empounding of cattle or the yoking of hogs.",
+      "text": "In addition to the respectable authorities quoted in my first number, to show that the right of taxation includes all the powers of government, I beg leave to adduce the Farmer's Letters, see particularly letter 9th, in which Mr. Dickinson has clearly proved, that if the British Parliament assumed the power of taxing the colonies, internally^ as well as externally^ and it should be submitted to, the several colony legislatures would soon become contemptible, and before long fall into disuse. Nothing, says he, would be left for them to do, higher than to frame by-laws for empounding of cattle or the yoking of hogs.",
       "uncertain": [
-        {
-          "end": 216,
-          "readings": {
-            "pitt": "9th,",
-            "primary": "gth,"
-          },
-          "start": 212
-        },
         {
           "end": 344,
           "readings": {
@@ -1612,7 +1576,9 @@
             "pitt": "purse-strings^",
             "primary": "purse-strings^"
           },
-          "start": 1731
+          "start": 1731,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "purse strings,"
         }
       ]
     },
@@ -1720,7 +1686,9 @@
             "pitt": "they^r^/jr",
             "primary": "theyac^j"
           },
-          "start": 81
+          "start": 81,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "the facts,"
         }
       ]
     },
@@ -1746,7 +1714,9 @@
             "pitt": "instant:es",
             "primary": "instarifces"
           },
-          "start": 1040
+          "start": 1040,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "instances"
         }
       ]
     },
@@ -1762,17 +1732,7 @@
           639
         ]
       },
-      "text": "Mr. Wilson skips very lightly over the danger apprehended from the standing army allowed by the new plan. This grand machine of power and oppression, may be made a fatal instrument to overturn the public liberties, especially as the funds to support the troops may be granted for two years, whereas in Britain, the grants ever since the revolution in 1688, have been from year to year. A standing army with regular provision of pay and contingencies, would afford a strong temptation to some ambitious man to step up into the throne, and to seize absolute power. The keeping on foot a hired military force in time of peace ought not to be gone into, unless two-thirds of the members of the federal legislature agree to the necessity of the measure, and adjust the numbers employed. Surely Mr. Wilson is not serious when he adduces the instance of the troops now stationed on the Ohio, as a proof of the propriety of a standing army. They are a mere occasional armament for the purpose of restraining divers hostile tribes of savages. It is contended that under the present confederation, Congress possess the power of raising armies at pleasure; but the opportunity which the States severally have of withholding the supplies necessary to keep these armies on foot, is a sufficient check on the present Congress.",
-      "uncertain": [
-        {
-          "end": 91,
-          "readings": {
-            "pitt": "b}^",
-            "primary": "by"
-          },
-          "start": 89
-        }
-      ]
+      "text": "Mr. Wilson skips very lightly over the danger apprehended from the standing army allowed by the new plan. This grand machine of power and oppression, may be made a fatal instrument to overturn the public liberties, especially as the funds to support the troops may be granted for two years, whereas in Britain, the grants ever since the revolution in 1688, have been from year to year. A standing army with regular provision of pay and contingencies, would afford a strong temptation to some ambitious man to step up into the throne, and to seize absolute power. The keeping on foot a hired military force in time of peace ought not to be gone into, unless two-thirds of the members of the federal legislature agree to the necessity of the measure, and adjust the numbers employed. Surely Mr. Wilson is not serious when he adduces the instance of the troops now stationed on the Ohio, as a proof of the propriety of a standing army. They are a mere occasional armament for the purpose of restraining divers hostile tribes of savages. It is contended that under the present confederation, Congress possess the power of raising armies at pleasure; but the opportunity which the States severally have of withholding the supplies necessary to keep these armies on foot, is a sufficient check on the present Congress."
     },
     {
       "label": "Centinel 2, ¶ 24",
@@ -2092,41 +2052,7 @@
           646
         ]
       },
-      "text": "John 3d, verse 20th. — \"For every one that doeth evil, hateth the light, neither Cometh to the light, lest his deeds should be reproved.\" But \" there is nothing covered that shall not be revealed ; neither hid that shall not be known. Therefore whatever ye have spoken in darkness, shall be heard in the light : and that which ye have spoken in the ear in closets, shall be proclaimed on the housetops.\" — St. Luke, chap, xii, 2d and 3d verses.",
-      "uncertain": [
-        {
-          "end": 20,
-          "readings": {
-            "pitt": "2otli.",
-            "primary": "20th."
-          },
-          "start": 15
-        },
-        {
-          "end": 72,
-          "readings": {
-            "pitt": "lights",
-            "primary": "light,"
-          },
-          "start": 66
-        },
-        {
-          "end": 106,
-          "readings": {
-            "pitt": "test",
-            "primary": "lest"
-          },
-          "start": 102
-        },
-        {
-          "end": 137,
-          "readings": {
-            "pitt": "7'eproved.^^",
-            "primary": "reproved.\""
-          },
-          "start": 127
-        }
-      ]
+      "text": "John 3d, verse 20th. — \"For every one that doeth evil, hateth the light, neither Cometh to the light, lest his deeds should be reproved.\" But \" there is nothing covered that shall not be revealed ; neither hid that shall not be known. Therefore whatever ye have spoken in darkness, shall be heard in the light : and that which ye have spoken in the ear in closets, shall be proclaimed on the housetops.\" — St. Luke, chap, xii, 2d and 3d verses."
     },
     {
       "label": "Centinel 3, ¶ 2",
@@ -2247,22 +2173,6 @@
             "primary": "few^"
           },
           "start": 116
-        },
-        {
-          "end": 237,
-          "readings": {
-            "pitt": "zipstai-t^",
-            "primary": "upstart,"
-          },
-          "start": 229
-        },
-        {
-          "end": 311,
-          "readings": {
-            "pitt": "cJuirl",
-            "primary": "churl"
-          },
-          "start": 306
         }
       ]
     },
@@ -2340,7 +2250,9 @@
           "readings": {
             "primary": "yorw"
           },
-          "start": 244
+          "start": 244,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "form"
         },
         {
           "end": 300,
@@ -2348,7 +2260,9 @@
             "pitt": "for7n.,",
             "primary": "y^rw,"
           },
-          "start": 295
+          "start": 295,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "form"
         }
       ]
     },
@@ -2491,17 +2405,7 @@
           653
         ]
       },
-      "text": "Section 8th of article ist, vests Congress with power \"to provide for calling forth the militia to execute the laws of the union, suppress insurrections and repel invasions; to provide for organizing, arming, and disciplining the militia, and for governing such part of them as may be employed in the service of the United States, reserving to the States respectively, the appointment of the officers, and the authority of training the militia according to the discipline prescribed by Congress.\" This section will subject the citizens of these States to the most arbitary military discipline: even death may be inflicted on the disobedient; in the character of militia, you may be dragged from your families and homes to any part of the continent and for any length of time, at the discretion of the future Congress; and as militia you may be made the unwilling instruments of oppression, under the direction of government; there is no exemption upon account of conscientious scruples of bearing arms, no equivalent to be received in lieu of personal services. The militia of Pennsylvania may be marched to Georgia or New Hampshire, however incompatible with their interests or consciences ; in short, they may be made as mere machines as Prussian soldiers.",
-      "uncertain": [
-        {
-          "end": 11,
-          "readings": {
-            "pitt": "Sth",
-            "primary": "8th"
-          },
-          "start": 8
-        }
-      ]
+      "text": "Section 8th of article ist, vests Congress with power \"to provide for calling forth the militia to execute the laws of the union, suppress insurrections and repel invasions; to provide for organizing, arming, and disciplining the militia, and for governing such part of them as may be employed in the service of the United States, reserving to the States respectively, the appointment of the officers, and the authority of training the militia according to the discipline prescribed by Congress.\" This section will subject the citizens of these States to the most arbitary military discipline: even death may be inflicted on the disobedient; in the character of militia, you may be dragged from your families and homes to any part of the continent and for any length of time, at the discretion of the future Congress; and as militia you may be made the unwilling instruments of oppression, under the direction of government; there is no exemption upon account of conscientious scruples of bearing arms, no equivalent to be received in lieu of personal services. The militia of Pennsylvania may be marched to Georgia or New Hampshire, however incompatible with their interests or consciences ; in short, they may be made as mere machines as Prussian soldiers."
     },
     {
       "label": "Centinel 3, ¶ 21",
@@ -2745,15 +2649,9 @@
           "readings": {
             "primary": "levyiiig"
           },
-          "start": 1385
-        },
-        {
-          "end": 2922,
-          "readings": {
-            "pitt": "imprepared",
-            "primary": "unprepared"
-          },
-          "start": 2912
+          "start": 1385,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "levying"
         }
       ]
     },
@@ -3002,7 +2900,9 @@
             "pitt": "pai:t",
             "primary": "paxt"
           },
-          "start": 266
+          "start": 266,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "part"
         }
       ]
     },
@@ -6870,7 +6770,8 @@
     "afl-centinel6",
     "afl-centinel7",
     "afl-centinel8",
-    "afl-centinel9"
+    "afl-centinel9",
+    "tcp-n16599"
   ],
   "title": "The Letters of Centinel"
 }

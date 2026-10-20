@@ -21,22 +21,12 @@
       "label": "Dissent of the Pennsylvania Minority",
       "level": 1,
       "publication": [
-        "OF the Convention op the State of Pennsylvania",
+        "OF the Convention of the State of Pennsylvania",
         "TO their Constituents.*"
       ],
       "ref": "PennsylvaniaMinority",
       "signature": "Nathaniel Breading, John Smilie, Richard Bard, Adam Orth, John A. Hannah, John Whitehill, John Harris, Robert Whitehill, John Reynolds, Jonathan Hoge, John lyudwig, Abraham I/incoln, John Bishop, Joseph Hiester, Joseph Powell, James Martin, William Findley, John Baird, James Edgar, William Todd. Nicholas L,utz,",
       "uncertain": {
-        "publication.0": [
-          {
-            "end": 20,
-            "readings": {
-              "pitt": "of",
-              "primary": "op"
-            },
-            "start": 18
-          }
-        ],
         "signature": [
           {
             "end": 102,
@@ -46,67 +36,31 @@
             "start": 95
           },
           {
-            "end": 135,
-            "readings": {
-              "primary": "Reynolds,"
-            },
-            "start": 126
-          },
-          {
-            "end": 150,
-            "readings": {
-              "primary": "Hoge,"
-            },
-            "start": 145
-          },
-          {
             "end": 164,
             "readings": {
               "primary": "lyudwig,"
             },
-            "start": 156
+            "start": 156,
+            "suggested_by": "Evans-TCP N16599",
+            "suggestion": "Ludwig,"
           },
           {
             "end": 182,
             "readings": {
               "primary": "I/incoln,"
             },
-            "start": 173
-          },
-          {
-            "end": 195,
-            "readings": {
-              "primary": "Bishop,"
-            },
-            "start": 188
+            "start": 173,
+            "suggested_by": "Evans-TCP N16599",
+            "suggestion": "Lincoln,"
           },
           {
             "end": 211,
             "readings": {
               "primary": "Hiester,"
             },
-            "start": 203
-          },
-          {
-            "end": 269,
-            "readings": {
-              "primary": "Baird,"
-            },
-            "start": 263
-          },
-          {
-            "end": 282,
-            "readings": {
-              "primary": "Edgar,"
-            },
-            "start": 276
-          },
-          {
-            "end": 296,
-            "readings": {
-              "primary": "Todd."
-            },
-            "start": 291
+            "start": 203,
+            "suggested_by": "Evans-TCP N16599",
+            "suggestion": "Heister,"
           },
           {
             "end": 305,
@@ -128,7 +82,7 @@
   ],
   "edition": {
     "name": "John Bach McMaster and Frederick D. Stone, eds., Pennsylvania and the Federal Constitution, 1787–1788 (Lancaster, 1888)",
-    "notes": "John Bach McMaster and Frederick D. Stone, eds., Pennsylvania and the Federal Constitution, 1787–1788 (Lancaster, 1888), pp. 454–482. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. See docs/editions.md."
+    "notes": "John Bach McMaster and Frederick D. Stone, eds., Pennsylvania and the Federal Constitution, 1787–1788 (Lancaster, 1888), pp. 454–482. Read from OCR scans and checked word by word against independent scans; words the scans could not settle are marked as uncertain. For the Dissent, the Text Creation Partnership's typed text of a reprint of 1788 (Evans-TCP N16599: Observations on the Proposed Constitution for the United States of America (Printed in the State of New-York, 1788; Evans 21344)) was used the same way for words still unsettled. See docs/editions.md."
   },
   "id": "pennsylvania-minority",
   "position": "anti",
@@ -162,17 +116,7 @@
           505
         ]
       },
-      "text": "The requisition of Congress for the five per cent, impost was made before the peace, so early as the first of February, 1781, but was prevented taking effect by the refusal of one State; yet it is probable every State in the Union would have agreed to this measure at that period, had it not been for the extravagant terms in which it was demanded. The requisition was new moulded in the year 1783, and accompanied with an additional demand of certain supplementary funds for twenty-five years. Peace had now taken place, and the United States found themselves laboring under a considerable foreign and domestic debt, incurred during the war. The requisition of 1783 was commensurate with the interest of the debt, as it was then calculated ; but it has been more accurately ascertained since that time. The domestic debt has been found to fall several millions of dollars short of the calculation, and it has lately been considerably diminished by large sales of the Western lands. The States have been called on by Congress annually for supplies until the general system of finance proposed in 1783 should take place.",
-      "uncertain": [
-        {
-          "end": 125,
-          "readings": {
-            "pitt": "78",
-            "primary": "1781,"
-          },
-          "start": 120
-        }
-      ]
+      "text": "The requisition of Congress for the five per cent, impost was made before the peace, so early as the first of February, 1781, but was prevented taking effect by the refusal of one State; yet it is probable every State in the Union would have agreed to this measure at that period, had it not been for the extravagant terms in which it was demanded. The requisition was new moulded in the year 1783, and accompanied with an additional demand of certain supplementary funds for twenty-five years. Peace had now taken place, and the United States found themselves laboring under a considerable foreign and domestic debt, incurred during the war. The requisition of 1783 was commensurate with the interest of the debt, as it was then calculated ; but it has been more accurately ascertained since that time. The domestic debt has been found to fall several millions of dollars short of the calculation, and it has lately been considerably diminished by large sales of the Western lands. The States have been called on by Congress annually for supplies until the general system of finance proposed in 1783 should take place."
     },
     {
       "label": "Dissent of the Pennsylvania Minority, ¶ 3",
@@ -204,17 +148,7 @@
           507
         ]
       },
-      "text": "The majority of the legislature of this commonwealth were at that time under the influence of the members from the city of Philadelphia. They agreed that the deputies sent by them , to convention should have no compensation for their services, which determination was calculated to prevent the election of any member who resided at a distance from the city. It was in vain for the minority to attempt electing delegates to the convention who understood the circumstances, and the feelings of the people, and had a common interest with them. They found a disposition in the leaders of the majority of the house to choose themselves and some of their dependents. The minority attempted to prevent this by agreeing to vote for some of the leading members, who they knew had influence enough to be appointed at any rate, in hopes of carrying with them some respectable citizens of Philadelphia, ii, whose principles and integrity they could have more confidence, but even in this they were disappointed, except in one member: the eighth member was added at a subsequent session of the assembly.",
-      "uncertain": [
-        {
-          "end": 894,
-          "readings": {
-            "pitt": "in",
-            "primary": "ii,"
-          },
-          "start": 891
-        }
-      ]
+      "text": "The majority of the legislature of this commonwealth were at that time under the influence of the members from the city of Philadelphia. They agreed that the deputies sent by them , to convention should have no compensation for their services, which determination was calculated to prevent the election of any member who resided at a distance from the city. It was in vain for the minority to attempt electing delegates to the convention who understood the circumstances, and the feelings of the people, and had a common interest with them. They found a disposition in the leaders of the majority of the house to choose themselves and some of their dependents. The minority attempted to prevent this by agreeing to vote for some of the leading members, who they knew had influence enough to be appointed at any rate, in hopes of carrying with them some respectable citizens of Philadelphia, in whose principles and integrity they could have more confidence, but even in this they were disappointed, except in one member: the eighth member was added at a subsequent session of the assembly."
     },
     {
       "label": "Dissent of the Pennsylvania Minority, ¶ 5",
@@ -644,7 +578,9 @@
             "pitt": "ol Mr.",
             "primary": "oiMr."
           },
-          "start": 126
+          "start": 126,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "of Mr."
         },
         {
           "end": 139,
@@ -722,17 +658,7 @@
           516
         ]
       },
-      "text": "The powers of Congress under the new constitution are complete and unlimited over the purse and the sword, and are perfectly independent of and supreme over the State governments, whose intervention in these great points is entirely destroyed. By virtue of their power of taxation. Congress may command the whole or any part of the property of the people. They may impose what imposts upon commerce, they may impose what land taxes, poll taxes, excises, duties on all written instruments and duties on every other article, that they may judge proper; in short, every species of taxation, whether of an external or internal nature, is comprised in section the eighth of article the first, viz. :",
-      "uncertain": [
-        {
-          "end": 85,
-          "readings": {
-            "pitt": "'i}^^",
-            "primary": "the"
-          },
-          "start": 82
-        }
-      ]
+      "text": "The powers of Congress under the new constitution are complete and unlimited over the purse and the sword, and are perfectly independent of and supreme over the State governments, whose intervention in these great points is entirely destroyed. By virtue of their power of taxation. Congress may command the whole or any part of the property of the people. They may impose what imposts upon commerce, they may impose what land taxes, poll taxes, excises, duties on all written instruments and duties on every other article, that they may judge proper; in short, every species of taxation, whether of an external or internal nature, is comprised in section the eighth of article the first, viz. :"
     },
     {
       "label": "Dissent of the Pennsylvania Minority, ¶ 36",
@@ -907,7 +833,9 @@
             "pitt": "Montesquieu^",
             "primary": "Montesquieu^"
           },
-          "start": 15
+          "start": 15,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "Montesquien,"
         },
         {
           "end": 574,
@@ -1011,7 +939,9 @@
             "pitt": "eflfect",
             "primary": "efiect"
           },
-          "start": 106
+          "start": 106,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "effect"
         }
       ]
     },
@@ -1259,7 +1189,7 @@
           525
         ]
       },
-      "text": "Not to enlarge upon the loss of the invaluable right of trial by an unbiased jury, so dear to every friend of liberty, the monstrous expense and inconveniences of the mode of proceeding to be adopted, are such as will prove intolerable to the people of this country. The lengthy proceedings of the civil law courts in the chancery of England, and in the courts of Scotland and France, are such that few men of moderate fortune can endure the expense of; the poor man must therefore submit to the wealthy. Length of purse will too often prevail against right and justice. For instance, we are told by the learned Judge Blackstone^ that a question only on the property of an ox, of the value of .three guineas, originating under the civil law proceedings in Scotland, after many interlocutory orders and sentences below, was carried at length from the court of sessions, the highest court in that part of Great Britain, by way of appeal to the House of Lords, where the question of law and fact was finally determined. He adds, that no pique or spirit could in the court of king's bench or common pleas at Westminster, have given continuance to such a cause for a tenth part of the time, nor have cost a twentieth part of the expense. Yet the costs in the courts of king's bench and common pleas in England, are infinitely greater than those which the people of this country have ever experienced. We abhor the idea of losing the transcendent privilege of trial by jury, with the loss of which, it is remarked by the same learned author, that in Sweden, the liberties of the commons were extinguished by an aristocratic Senate; and that trial by jury and the liberty of the people went out together. At the same time we regret the intolerable delay, the enormous expense, and infinite vexation, ta which the people of this country will be exposed from the volumnious proceedings of the courts of civil law, and especially from the appellate jurisdiction, by means of which a man may be drawn from the utmost boundaries of this extensive country to the seat of the Supreme Court of the nation to contend, perhaps, with a wealthy and powerful adversary. The consequence of this establishment will be an absolute confirmation of the power of aristocratical influence in the courts of justice; for the common people will not be able to contend or struggle against it.",
+      "text": "Not to enlarge upon the loss of the invaluable right of trial by an unbiased jury, so dear to every friend of liberty, the monstrous expense and inconveniences of the mode of proceeding to be adopted, are such as will prove intolerable to the people of this country. The lengthy proceedings of the civil law courts in the chancery of England, and in the courts of Scotland and France, are such that few men of moderate fortune can endure the expense of; the poor man must therefore submit to the wealthy. Length of purse will too often prevail against right and justice. For instance, we are told by the learned Judge Blackstone^ that a question only on the property of an ox, of the value of .three guineas, originating under the civil law proceedings in Scotland, after many interlocutory orders and sentences below, was carried at length from the court of sessions, the highest court in that part of Great Britain, by way of appeal to the House of Lords, where the question of law and fact was finally determined. He adds, that no pique or spirit could in the court of king's bench or common pleas at Westminster, have given continuance to such a cause for a tenth part of the time, nor have cost a twentieth part of the expense. Yet the costs in the courts of king's bench and common pleas in England, are infinitely greater than those which the people of this country have ever experienced. We abhor the idea of losing the transcendent privilege of trial by jury, with the loss of which, it is remarked by the same learned author, that in Sweden, the liberties of the commons were extinguished by an aristocratic Senate; and that trial by jury and the liberty of the people went out together. At the same time we regret the intolerable delay, the enormous expense, and infinite vexation, to which the people of this country will be exposed from the volumnious proceedings of the courts of civil law, and especially from the appellate jurisdiction, by means of which a man may be drawn from the utmost boundaries of this extensive country to the seat of the Supreme Court of the nation to contend, perhaps, with a wealthy and powerful adversary. The consequence of this establishment will be an absolute confirmation of the power of aristocratical influence in the courts of justice; for the common people will not be able to contend or struggle against it.",
       "uncertain": [
         {
           "end": 629,
@@ -1268,14 +1198,6 @@
             "primary": "Blackstone^"
           },
           "start": 618
-        },
-        {
-          "end": 1795,
-          "readings": {
-            "pitt": "to",
-            "primary": "ta"
-          },
-          "start": 1793
         }
       ]
     },
@@ -1299,7 +1221,9 @@
             "pitt": "ofiices,",
             "primary": "ofl&ces,"
           },
-          "start": 1017
+          "start": 1017,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "offices,"
         }
       ]
     },
@@ -1325,7 +1249,9 @@
             "pitt": "ofiicers",
             "primary": "ofiScers"
           },
-          "start": 389
+          "start": 389,
+          "suggested_by": "Evans-TCP N16599",
+          "suggestion": "officers"
         }
       ]
     },
@@ -1674,7 +1600,8 @@
   "short": "Dissent of the Pennsylvania Minority",
   "source_ids": [
     "ia-mcmaster-stone-1888-cornell-xml",
-    "ia-mcmaster-stone-1888-pitt-txt"
+    "ia-mcmaster-stone-1888-pitt-txt",
+    "tcp-n16599"
   ],
   "title": "The Address and Reasons of Dissent of the Minority of the Convention of Pennsylvania"
 }

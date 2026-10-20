@@ -6346,6 +6346,78 @@
     "url": "https://www.supremecourt.gov/opinions/21pdf/597us2r62_d92h.pdf"
   },
   {
+    "id": "tcp-n16126",
+    "license": "CC0 1.0 Universal (the TEI header's availability statement: \"This Phase I text is available for reuse, according to the terms of Creative Commons 0 1.0 Universal\").",
+    "notes": "Evans-TCP N16126 (github.com/textcreationpartnership/N16126, commit 3cdf2ac34efd8db4ed3383dda4b719957e022c56): the Text Creation Partnership's typed transcription, TEI P5 XML.",
+    "path": "sources/raw/tcp-n16126.xml",
+    "retrieved_at": "2026-10-20",
+    "sha256": "4d17436e31307ea1c5d9e3198d85accb696de3f8d099692ed0a663b30ffd9a9a",
+    "url": "https://raw.githubusercontent.com/textcreationpartnership/N16126/3cdf2ac34efd8db4ed3383dda4b719957e022c56/N16126.xml"
+  },
+  {
+    "id": "tcp-n16378",
+    "license": "CC0 1.0 Universal (the TEI header's availability statement: \"This Phase I text is available for reuse, according to the terms of Creative Commons 0 1.0 Universal\").",
+    "notes": "Evans-TCP N16378 (github.com/textcreationpartnership/N16378, commit f3dfd68f63c10749115a0dec5c4150b749108dce): the Text Creation Partnership's typed transcription, TEI P5 XML.",
+    "path": "sources/raw/tcp-n16378.xml",
+    "retrieved_at": "2026-10-20",
+    "sha256": "7d303fcf70d6279c04c0b8f0a0dbc95ca38d00ec0c1eb19ddfad6af8d07647d6",
+    "url": "https://raw.githubusercontent.com/textcreationpartnership/N16378/f3dfd68f63c10749115a0dec5c4150b749108dce/N16378.xml"
+  },
+  {
+    "id": "tcp-n16431",
+    "license": "CC0 1.0 Universal (the TEI header's availability statement: \"This Phase I text is available for reuse, according to the terms of Creative Commons 0 1.0 Universal\").",
+    "notes": "Evans-TCP N16431 (github.com/textcreationpartnership/N16431, commit 6fdb10c9ee94639d3c54564a1bafae5a533e2bf9): the Text Creation Partnership's typed transcription, TEI P5 XML.",
+    "path": "sources/raw/tcp-n16431.xml",
+    "retrieved_at": "2026-10-20",
+    "sha256": "2ec504c3c905feabf20a2e6f680312da9d3725d9b955f03af79e8dfc2f16f116",
+    "url": "https://raw.githubusercontent.com/textcreationpartnership/N16431/6fdb10c9ee94639d3c54564a1bafae5a533e2bf9/N16431.xml"
+  },
+  {
+    "id": "tcp-n16445",
+    "license": "CC0 1.0 Universal (the TEI header's availability statement: \"This Phase I text is available for reuse, according to the terms of Creative Commons 0 1.0 Universal\").",
+    "notes": "Evans-TCP N16445 (github.com/textcreationpartnership/N16445, commit 6fe82e912780c613d1a8b24311edfed92ffa49d2): the Text Creation Partnership's typed transcription, TEI P5 XML.",
+    "path": "sources/raw/tcp-n16445.xml",
+    "retrieved_at": "2026-10-20",
+    "sha256": "30c93845a44646a163bd259a2f0453af6b9b778aea879aae943a53f30b20338c",
+    "url": "https://raw.githubusercontent.com/textcreationpartnership/N16445/6fe82e912780c613d1a8b24311edfed92ffa49d2/N16445.xml"
+  },
+  {
+    "id": "tcp-n16481",
+    "license": "CC0 1.0 Universal (the TEI header's availability statement: \"This Phase I text is available for reuse, according to the terms of Creative Commons 0 1.0 Universal\").",
+    "notes": "Evans-TCP N16481 (github.com/textcreationpartnership/N16481, commit 0ee6facbbd1dfcfbcdc156fd150a12fcbd380240): the Text Creation Partnership's typed transcription, TEI P5 XML.",
+    "path": "sources/raw/tcp-n16481.xml",
+    "retrieved_at": "2026-10-20",
+    "sha256": "fca6cd259158fb3125d4c782b4e60e85cda4c95aba5e606d0b549d62cd810675",
+    "url": "https://raw.githubusercontent.com/textcreationpartnership/N16481/0ee6facbbd1dfcfbcdc156fd150a12fcbd380240/N16481.xml"
+  },
+  {
+    "id": "tcp-n16546",
+    "license": "CC0 1.0 Universal (the TEI header's availability statement: \"This Phase I text is available for reuse, according to the terms of Creative Commons 0 1.0 Universal\").",
+    "notes": "Evans-TCP N16546 (github.com/textcreationpartnership/N16546, commit 6e7d414b83757497cad41e7eb0539cf482a1bb3a): the Text Creation Partnership's typed transcription, TEI P5 XML.",
+    "path": "sources/raw/tcp-n16546.xml",
+    "retrieved_at": "2026-10-20",
+    "sha256": "68cffb0756c3755f04cf2d9b0d69b9277542829e00d108249dff470b3eaaf9ea",
+    "url": "https://raw.githubusercontent.com/textcreationpartnership/N16546/6e7d414b83757497cad41e7eb0539cf482a1bb3a/N16546.xml"
+  },
+  {
+    "id": "tcp-n16547",
+    "license": "CC0 1.0 Universal (the TEI header's availability statement: \"This Phase I text is available for reuse, according to the terms of Creative Commons 0 1.0 Universal\").",
+    "notes": "Evans-TCP N16547 (github.com/textcreationpartnership/N16547, commit 81467b24a8ca827e8575564c5081f4ba830f1a55): the Text Creation Partnership's typed transcription, TEI P5 XML.",
+    "path": "sources/raw/tcp-n16547.xml",
+    "retrieved_at": "2026-10-20",
+    "sha256": "72b468df75bdc5db7433a236a33d1727949c31540fd194741588414b5800a94f",
+    "url": "https://raw.githubusercontent.com/textcreationpartnership/N16547/81467b24a8ca827e8575564c5081f4ba830f1a55/N16547.xml"
+  },
+  {
+    "id": "tcp-n16599",
+    "license": "CC0 1.0 Universal (the TEI header's availability statement: \"This Phase I text is available for reuse, according to the terms of Creative Commons 0 1.0 Universal\").",
+    "notes": "Evans-TCP N16599 (github.com/textcreationpartnership/N16599, commit fcace6de9e18b1b5b4c257bb17ad3d70e970b372): the Text Creation Partnership's typed transcription, TEI P5 XML.",
+    "path": "sources/raw/tcp-n16599.xml",
+    "retrieved_at": "2026-10-20",
+    "sha256": "c916b474b6ee3ee3c834c724dedac6896064b4c82324e643bdb17e837f329156",
+    "url": "https://raw.githubusercontent.com/textcreationpartnership/N16599/fcace6de9e18b1b5b4c257bb17ad3d70e970b372/N16599.xml"
+  },
+  {
     "encoding": "gzip",
     "id": "unt-globe-1864-p1129-text",
     "license": "Public domain (the Congressional Globe, 1864). OCR as served by the UNT Digital Library; credit: UNT Libraries Government Documents Department, UNT Digital Library.",

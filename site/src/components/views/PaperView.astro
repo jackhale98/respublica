@@ -70,7 +70,7 @@ const printed = d.publication.map((l) => l).join(" ");
           : <a href={href(u)}>{i + 1}</a>))}
       </nav>
     )}
-    {debate && <DocLines header={d.header} />}
+    {debate && <DocLines header={d.header} typed={work.typed} />}
     {d.notes.length > 0 && <p class="doc-note" data-pagefind-ignore>{d.notes[0]}</p>}
   </header>
 

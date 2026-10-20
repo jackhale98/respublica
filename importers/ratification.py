@@ -26,7 +26,7 @@ from difflib import SequenceMatcher
 from functools import lru_cache
 from pathlib import Path
 
-from importers import corrections, library
+from importers import corrections, library, tcp
 from importers.ocr import (TOKEN, Block, Reference, Vocabulary, align, attested, blocks, classify, consensus, key, known_words,
                           parse_djvu_xml, set_aside)
 from importers.ratification_series import BOOKS, SERIES
@@ -322,6 +322,9 @@ class Prepared:
     # id(block) -> words the one scan read with little confidence (the New-York
     # Journal's essays: importers/nyjournal.py)
     doubtful: dict[int, list[bool]] = field(default_factory=dict)
+    # id(block) -> a typed text's reading of each token (a second tie-breaker:
+    # the Text Creation Partnership's, decision 69)
+    typed: dict[int, list[str | None]] = field(default_factory=dict)
     # id(block) -> the scan it is read from, where not the series' book
     scans: dict[int, dict] = field(default_factory=dict)
     # essay id -> the issue dates it was printed in (the New-York Journal's essays)
@@ -349,6 +352,7 @@ def prepare(series: dict) -> Prepared:
     hints: dict[str, int] = {}
     readings: dict[int, list[dict]] = {}
     lib: dict[int, list[str | None]] = {}
+    typed: dict[int, list[str | None]] = {}
     for n, head, eb in raw:
         eb = split_greetings(eb)
         if series.get("end_at"):
@@ -361,12 +365,15 @@ def prepare(series: dict) -> Prepared:
         tokens = [TOKEN.findall(b.text) for b in stream]
         flat = [t for ts in tokens for t in ts]
         aligned = align(flat, book.refs, hints)
-        # The Library's reading, where it has this essay (a tie-breaker).
+        # The Library's reading, where it has this essay (a tie-breaker), and a
+        # typed text's, where the series names one.
         lib_flat = library.readings(flat, library.page_for(series["slug"], n))
+        typed_flat = tcp.readings(flat, typed_reference(series, n))
         at = 0
         for b, ts in zip(stream, tokens):
             readings[id(b)] = aligned[at:at + len(ts)]
             lib[id(b)] = lib_flat[at:at + len(ts)]
+            typed[id(b)] = typed_flat[at:at + len(ts)]
             at += len(ts)
         for b in eb:
             if b.kind == "note":
@@ -375,10 +382,18 @@ def prepare(series: dict) -> Prepared:
         if series.get("heading_in_publication"):
             e.header.insert(0, head)  # the heading is the newspaper's name
         essays.append(e)
-    prepared = Prepared(series, essays, readings, lib)
+    prepared = Prepared(series, essays, readings, lib, typed={k: v for k, v in typed.items() if any(v)})
     if series.get("continued_in") == "nyjournal":
         prepare_nyjournal(prepared)
     return prepared
+
+
+def typed_reference(series: dict, essay: str):
+    """The typed text of an essay that a series names as a tie-breaker
+    (`typed`: the TCP file and the heading of each essay's division), if any."""
+    t = series.get("typed")
+    heading = t["headings"].get(essay) if t else None
+    return tcp.reference(t["source"], heading) if heading else None
 
 
 def prepare_nyjournal(prepared: Prepared) -> None:
@@ -422,16 +437,27 @@ def text_of(block, prepared: Prepared, known: set[str]) -> tuple[str, list[dict]
     # printing.
     one_scan = id(block) in prepared.doubtful
     return text_of_readings(prepared.readings[id(block)], known, prepared.library.get(id(block)), strict=one_scan,
-                            doubtful=prepared.doubtful.get(id(block)))
+                            doubtful=prepared.doubtful.get(id(block)), typed=typed_of(prepared, block))
+
+
+def typed_of(prepared: Prepared, block, last: int | None = None) -> tuple[str, list[str | None]] | None:
+    """The series' typed text (its name) and its reading of a block's tokens,
+    if it has one; `last`: of only the last tokens."""
+    t = prepared.typed.get(id(block))
+    if not t:
+        return None
+    return prepared.series["typed"]["name"], t[-last:] if last else t
 
 
 def text_of_readings(readings: list[dict], known: set[str], lib: list[str | None] | None = None,
-                     strict: bool = False, doubtful: list[bool] | None = None) -> tuple[str, list[dict]]:
+                     strict: bool = False, doubtful: list[bool] | None = None,
+                     typed: tuple[str, list[str | None]] | None = None) -> tuple[str, list[dict]]:
     """Text decided by vote, with uncertain spans as character offsets.
-    `lib`, `strict`, `doubtful`: see `ocr.consensus`. A word the scans could
-    not settle carries the Library's reading as its `suggestion` where no
-    scan reads it so."""
-    words, unsettled = consensus(readings, known, lib, strict, doubtful)
+    `lib`, `strict`, `doubtful`, `typed`: see `ocr.consensus`. A word the
+    scans could not settle carries the Library's reading as its
+    `suggestion` where no scan reads it so (or the typed text's, named in
+    `suggested_by`)."""
+    words, unsettled = consensus(readings, known, lib, strict, doubtful, typed)
     pos = [0]
     for w in words:
         pos.append(pos[-1] + len(w) + 1)
@@ -440,6 +466,8 @@ def text_of_readings(readings: list[dict], known: set[str], lib: list[str | None
         span = {"end": pos[u.end] - 1, "readings": dict(sorted(u.readings.items())), "start": pos[u.start]}
         if u.suggestion:
             span["suggestion"] = u.suggestion
+        if u.suggested_by:
+            span["suggested_by"] = u.suggested_by
         spans.append(span)
     return " ".join(words), spans
 
@@ -506,8 +534,11 @@ def build(prepared: Prepared, known: set[str]) -> dict:
             doubt = prepared.doubtful.get(id(last))
             lead = text_of_readings(prepared.readings[id(last)][-e.inline_tokens:], known,
                                     lib[-e.inline_tokens:] if lib else None, strict=doubt is not None,
-                                    doubtful=doubt[-e.inline_tokens:] if doubt else None)
+                                    doubtful=doubt[-e.inline_tokens:] if doubt else None,
+                                    typed=typed_of(prepared, last, e.inline_tokens))
             prepared.readings[id(last)] = prepared.readings[id(last)][:-e.inline_tokens]
+            if id(last) in prepared.typed:
+                prepared.typed[id(last)] = prepared.typed[id(last)][:-e.inline_tokens]
             if lib:
                 prepared.library[id(last)] = lib[:-e.inline_tokens]
             if doubt:
@@ -534,6 +565,7 @@ def build(prepared: Prepared, known: set[str]) -> dict:
                "notes": f"{bookdef['edition']}, pp. {series['pages'][0]}–{series['pages'][1]}. Read from OCR "
                         "scans and checked word by word against independent scans; words the scans could not "
                         "settle are marked as uncertain." + (LIBRARY_NOTE if library.PAGES.get(prefix) else "")
+                        + (TYPED_NOTE.format(**series["typed"]) if series.get("typed") else "")
                         + " See docs/editions.md."}
     source_ids = [bookdef["primary"], *bookdef["references"].values()]
     if prepared.dates:
@@ -550,7 +582,8 @@ def build(prepared: Prepared, known: set[str]) -> dict:
         "ref_prefix": prefix,
         "segments": segments,
         "short": series["short"],
-        "source_ids": [*source_ids, *library.source_ids(series["slug"], [e.id for e in prepared.essays])],
+        "source_ids": [*source_ids, *library.source_ids(series["slug"], [e.id for e in prepared.essays]),
+                       *([series["typed"]["source"]] if series.get("typed") else [])],
         "title": series["title"],
     }
     if retired:
@@ -561,6 +594,8 @@ def build(prepared: Prepared, known: set[str]) -> dict:
 
 LIBRARY_NOTE = (" Where the scans disagreed, the Anti-Federalist Library's text was used to choose among their "
                 "readings, never to add one.")
+TYPED_NOTE = (" For {essays}, the Text Creation Partnership's typed text of a reprint of 1788 ({name}: {printing}) "
+              "was used the same way for words still unsettled.")
 
 
 def run(out_dir: Path = TEXTS_DIR) -> list[Path]:
