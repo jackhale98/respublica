@@ -13,7 +13,8 @@ Two kinds of source:
   the text (the Declaration of the Causes, from Fowle's Portsmouth broadside
   of 1775; the Declaration of Rights, from the Richmond printing of 1784 or
   1785). Where the Internet Archive has a scan of the same printing, every
-  word is checked against the scan's OCR (`tcp.cross_check`).
+  word is checked against the scan's OCR (`tcp.check`, the shared reader of
+  decision 67).
 - **Scans read by consensus** (`importers/ocr.py`), where no TCP text
   exists: the Library of Congress's edition of the Journals of the
   Continental Congress (ed. Worthington C. Ford, 1904–06), whose volumes are
@@ -181,8 +182,22 @@ class Work:
     attribution: dict
     book: str | None  # BOOKS key, for a work read from scans
     parts: tuple[Part, ...] = ()
-    tcp: tcp.Text | None = None  # for a work from a TCP transcription
+    tcp: Typed | None = None  # for a work from a TCP transcription
     about: str = ""  # what the work takes in, for its edition notes
+
+
+@dataclass(frozen=True)
+class Typed:
+    """A work's TCP transcription: its source id, TCP and Evans numbers, the
+    type of the TEI division that holds it, the printing as the edition note
+    names it, and a scan of the same printing to check it against."""
+    source: str
+    tcp: str
+    evans: str
+    div: str
+    printing: str
+    scan: str | None = None  # source id of the scan's DjVu XML
+    scan_item: str | None = None  # its Internet Archive item (page links)
 
 
 CONGRESS = {"byline": "The Continental Congress", "kind": "body", "names": ["Continental Congress"]}
@@ -199,7 +214,7 @@ WORKS = (
     Work("causes-1775", "Causes1775",
          "A Declaration Setting Forth the Causes and Necessity of Taking Up Arms", "Causes and Necessity",
          "1775-07-06", CONGRESS, None,
-         tcp=tcp.Text("tcp-n11512-xml", "N11512", "Evans 14550", "declaration",
+         tcp=Typed("tcp-n11512-xml", "N11512", "Evans 14550", "declaration",
                       "A Declaration by the Representatives of the United Colonies of North-America, now met in "
                       "General Congress at Philadelphia, Setting forth the Causes and Necessity of their Taking up "
                       "Arms ([Portsmouth, N.H.]: sold at the printing-office in Portsmouth [Daniel Fowle], 1775), "
@@ -248,12 +263,12 @@ WORKS = (
     Work("virginia-declaration-of-rights", "VirginiaRights", "The Virginia Declaration of Rights",
          "Virginia Declaration of Rights", "1776-06-12",
          {"byline": "The Virginia Convention", "kind": "body", "names": ["Virginia Convention"]}, None,
-         tcp=tcp.Text("tcp-n15245-xml", "N15245", "Evans 18818", "declaration_of_rights",
+         tcp=Typed("tcp-n15245-xml", "N15245", "Evans 18818", "declaration_of_rights",
                       "The Articles of Confederation; the Declaration of Rights; the Constitution of the "
                       "Commonwealth, and the Articles of the Definitive Treaty between Great-Britain and the United "
                       "States of America (Richmond: Dixon and Holt, [1784 or 1785]), pp. 12–14",
-                      scan=tcp.Scan("ia-ecco-va-1784-xml",
-                                    "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784")),
+                      scan="ia-ecco-va-1784-xml",
+                      scan_item="bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784"),
          about="The Declaration of Rights adopted by the Virginia Convention on June 12, 1776, as the Commonwealth "
                "printed it by order of the General Assembly in 1784 or 1785, with its heading and sixteen articles."),
     Work("jefferson-virginia-preamble-1776", "JeffersonPreamble",
@@ -490,25 +505,58 @@ def build_scanned(work: Work, out_dir: Path) -> Path:
 # ------------------------------------------------------------ a work from a TCP transcription
 
 
+def typed_blocks(t: Typed) -> list[tcp.Block]:
+    """The TEI division's heading, paragraphs and closer, each a block
+    (`tcp.Walker`), its kind the element's."""
+    div = next((el for el in tcp.load(t.source).iter(f"{tcp.TEI}div") if el.get("type") == t.div), None)
+    _expect(div is not None, f"{t.source}: no division of type {t.div!r}")
+    walker, out = tcp.Walker(), []
+    for child in div:
+        kind = tcp.tag(child)
+        if kind == "pb":
+            walker.page = child.get("n") or None
+            continue
+        _expect(kind in ("head", "p", "closer"), f"{t.source}: an unexpected <{kind}> in the division")
+        notes: list = []
+        out += walker.block(child, kind, notes)
+        _expect(not notes, f"{t.source}: a note in the division")
+    return out
+
+
+def gap_spans(b: tcp.Block) -> list[dict]:
+    """The words holding something the keyers could not read, as uncertain
+    spans with the transcription's reading only."""
+    spans, at = [], 0
+    for i, word in enumerate(b.tokens):
+        if i in b.gaps:
+            spans.append({"end": at + len(word), "readings": {"tcp": word}, "start": at})
+        at += len(word) + 1
+    return spans
+
+
 def build_tcp(work: Work, out_dir: Path) -> Path:
     t = work.tcp
-    paras = tcp.paragraphs(t)
-    checked = tcp.cross_check(t, paras, Vocabulary(clean_vocabulary())) if t.scan else None
+    blocks_ = typed_blocks(t)
+    checked = None
+    if t.scan:
+        clean = clean_vocabulary()
+        scan = tcp.Scan.from_xml("scan", t.scan_item, t.scan)
+        checked = tcp.check(blocks_, [scan], tcp.vocabulary(clean, blocks_), {tcp.fkey(w) for w in clean})
     segments = []
     n = 0
-    for k, p in enumerate(paras):
-        if p.kind == "head":
+    for k, b in enumerate(blocks_):
+        if b.kind == "head":
             ref, label = f"{work.prefix}.Heading", f"{work.short}, heading"
-        elif p.kind == "closer":
+        elif b.kind == "closer":
             ref, label = f"{work.prefix}.Closing", f"{work.short}, closing"
         else:
             n += 1
             ref, label = f"{work.prefix}.{n}", f"{work.short}, ¶ {n}"
-        spans = checked[k][0] if checked else tcp.gap_spans(p)
-        text, spans, fixed = corrections.apply(ref, p.text, spans)
-        seg = {"label": label, "pages": p.pages, "ref": ref, "text": text}
+        spans = checked[k][0] if checked else gap_spans(b)
+        text, spans, fixed = corrections.apply(ref, b.text, spans)
+        seg = {"label": label, "pages": b.pages, "ref": ref, "text": text}
         if checked and checked[k][1]:
-            seg["scan"] = {"item": t.scan.item, "leaves": checked[k][1]}
+            seg["scan"] = {"item": t.scan_item, "leaves": checked[k][1]}
         if spans:
             seg["uncertain"] = spans
         if fixed:
@@ -516,7 +564,7 @@ def build_tcp(work: Work, out_dir: Path) -> Path:
         segments.append(seg)
     _expect(len({s["ref"] for s in segments}) == len(segments), f"{work.id}: two passages share a ref")
     check = (f" Checked word by word against the OCR of the Internet Archive's scan of the same printing "
-             f"({t.scan.item}): where the scan reads another word, the word is marked as uncertain, with the "
+             f"({t.scan_item}): where the scan reads another word, the word is marked as uncertain, with the "
              f"scan's reading beside it." if t.scan else
              " No scan of this printing was found to check it against.")
     doc = {
@@ -531,7 +579,7 @@ def build_tcp(work: Work, out_dir: Path) -> Path:
         "ref_prefix": work.prefix,
         "segments": segments,
         "short": work.short,
-        "source_ids": [t.source, *([t.scan.source] if t.scan else [])],
+        "source_ids": [t.source, *([t.scan] if t.scan else [])],
         "title": work.title,
     }
     path = out_dir / f"{work.id}.json"

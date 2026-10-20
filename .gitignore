@@ -15,3 +15,5 @@ sources/raw/govinfo-crecb-*
 sources/raw/ia-record-*
 # Internet Archive scans of the Journals of the Continental Congress and of Ford's Writings of Thomas Jefferson (the road to independence): `make fetch` restores them (decision 66)
 sources/raw/ia-road-*
+# Internet Archive scans that check the TCP texts of Common Sense and Locke (decision 67): `make fetch` restores them
+sources/raw/ia-decl-*

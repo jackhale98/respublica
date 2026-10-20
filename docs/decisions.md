@@ -1449,6 +1449,61 @@ debate:
   one file reads a debate's file the same way when a ref's prefix entry
   names one. The URLs of decision 17 do not change.
 
+## 64. Reading settings, where you've been, and continue reading
+
+The project owner found the text size hard to reach (a button at the top of
+reading pages only), seeming not to save (it scaled only the passages of
+reading pages), and asked for a way back after following a link. Decided:
+
+- **Reading settings.** An "Aa" button in the header (which stays on screen)
+  opens text size (five steps), line spacing and theme. Text size scales the
+  library's texts everywhere (`--read-scale`: passages, clause text,
+  excerpts, previews, search results, errata context), not menus and
+  buttons; the passage at the top of the screen stays in place when it
+  changes. Applied before first paint (`public/theme.js`).
+- **Where you've been** (`scripts/history.ts`). A list of the places read,
+  kept across visits in the reader's browser only (up to 100), with Back,
+  Forward and Clear. A page or a jump within a page adds a place; going back
+  to one moves to it without adding one, and leaving an earlier place for
+  somewhere new moves it to the end, so Back means "where I came from". The
+  current place follows the passage being read (the selected one, or the
+  first mostly on screen), so returning lands there. After a jump a "Back to
+  …" button offers the way back for twenty seconds. On a phone the list is a
+  sheet from the bottom.
+- **Continue reading** on the home page and each work's page, from the same
+  places.
+- **Privacy.** Nothing is sent anywhere; the About page says what is kept.
+  The list's script loads only when it is first opened, to keep each page's
+  up-front JavaScript within its 60 KB budget. The full nav shows from 62rem
+  so the header fits its new buttons.
+
+## 65. The errata and link-review workflows check only what they change
+
+With the debates in the Congressional Record, re-running every importer
+takes over twenty minutes (the Record about twelve, the Globe five, the
+cases two) and restoring every raw family several GB. The errata and
+link-review workflows did both before every commit. The project owner asked
+that they re-import only what changed and restore only the caches they need:
+
+- **A map of the importers.** `make import` runs each importer in a process
+  of its own, which records the raw sources it reads (`tools.common.raw_path`),
+  and writes `importers/outputs.json`: each importer's output files and raw
+  sources. The full `make verify` runs the importers the same way and fails
+  if the map is out of date, so it is checked on every push to main.
+- **Errata.** The workflow records the corrections, finds the importers of
+  the corrected works and the raw families they read (`python -m
+  tools.scope`), restores only those caches and raw files, re-runs only
+  those importers, and checks that nothing changed outside their outputs,
+  `corrections/` and `links/`. Then the tests and every check run, with the
+  reproducibility check limited to those importers (`python -m tools.verify
+  --importers`). A correction to an essay of the ratification debate re-runs
+  one importer for about half a minute instead of all of them.
+- **Link review.** A review changes only `links/`; the workflow checks that,
+  restores no raw files and re-runs no importer.
+- **Nothing is weakened.** Given the guard, the files a narrower run does not
+  rebuild cannot have changed. The full check still runs in CI on every push
+  to main, the one these workflows make included.
+
 ## 66. The road to independence, 1774–1776
 
 The project owner approved adding the documents on the way to the
@@ -1465,8 +1520,10 @@ road to independence"), reached from the home page and the footer.
 
 - **Typed transcriptions first** (approved by the owner during the work).
   Where the Text Creation Partnership has keyed a contemporary printing
-  (Evans-TCP, released under CC0), its TEI text is the text, read by
-  `importers/tcp.py`: the Declaration of the Causes from Daniel Fowle's
+  (Evans-TCP, released under CC0), its TEI text is the text, read by the
+  shared TCP reader of decision 67 (`importers/tcp.py`; it was taught to
+  leave out a figure, to read a closer's dateline, and to rejoin a word
+  broken at a line's end after a gap): the Declaration of the Causes from Daniel Fowle's
   Portsmouth broadside of 1775 (N11512, Evans 14550), the Declaration of
   Rights from the Commonwealth's Richmond printing of 1784 or 1785 (N15245,
   Evans 18818). Each file is a raw source, fetched from the TCP's public
@@ -1474,10 +1531,11 @@ road to independence"), reached from the home page and the footer.
   stays as their placeholder and is marked uncertain, never filled in. Where
   the Internet Archive has a scan of the same printing (the Richmond
   printing, from Eighteenth Century Collections Online), every word is
-  checked against its OCR as the Anti-Federalist Library's text was
-  (decision 55): where the scan reads another word the clean texts know, the
-  word is marked uncertain with both readings, never changed. OCR's garble
-  of old type and figures are not counted as readings. No scan of the
+  checked against its OCR by the same rules as Common Sense and Locke
+  (`tcp.check`, decision 67): where the scan reads another real word, or
+  lacks one, the word is marked uncertain with both readings (`tcp` and the
+  scan's), never changed. OCR's garble of old type is not counted as a
+  reading. The Richmond printing keeps the long s ("ſ"), and so does the text. No scan of the
   Portsmouth broadside was found, so that text has only the transcription's
   own marks; the edition notes say which TCP text and printing each work
   follows. The Journals of 1904–06 are not in Evans, and no Evans-TCP text
@@ -1510,10 +1568,69 @@ road to independence"), reached from the home page and the footer.
   own (`ia-road-*`, cached in CI under its own key); the TCP files and the
   ECCO scan's XML (under 1 MB) are in git.
 - **Quality.** About 4,600 words from the Journals with 36 marked uncertain,
-  1,860 from Ford with 14, the Declaration of Rights with 16 (4 of the
+  1,860 from Ford with 14, the Declaration of Rights with 10 (4 of the
   keyers' gaps), the 1775 declaration with 11 gaps. Errata 110–115 record
   what the marks miss: a display initial read "Wit", the editor's double
   bars and the signers' abbreviations, Jefferson's struck-through deletions
   read as words (Ford's typography; the fair copy needs them marked against
   the page images), and the broadside's illegible spans.
+- **On the site** each work is one page, its notes after the text; the
+  collection page lists the works in order and, below them, each work's
+  edition notes and sources, which the about page points to instead of
+  listing them (it is at 396 KB of its 400 KB budget with them moved).
 - **No links yet.** These works have no proposed links; a later run will.
+
+## 67. Sources of the Declaration: Common Sense and Locke, from the Text Creation Partnership
+
+The project owner asked for two works that shaped the Declaration of
+Independence: Thomas Paine's *Common Sense* (Philadelphia, January 1776) and
+the second of John Locke's *Two Treatises of Government*. Locke is English;
+the library includes him as a source the Declaration's language draws on
+and says nothing more about influence. Decided:
+
+- **The Text Creation Partnership's transcriptions as the text** (the
+  owner's choice, made while the work was under way, in place of OCR). The
+  TCP (the University of Michigan and Oxford) keyed early printed books by
+  hand from page images and released them under CC0 as TEI P5 XML, one
+  repository per text on GitHub; each file is a raw source pinned to a
+  commit. Where a TCP text of a printing exists it is used; where none does,
+  the OCR method of decision 27 stands. `importers/tcp.py` reads the TEI:
+  words broken at a line end are joined, abbreviations the TCP expands are
+  given expanded, and letters it could not read ("•") and stops it could
+  not make out ("▪") are kept as it marks them and marked uncertain, never
+  filled in. The TCP gives the long s as a round s, so these texts have a
+  modern "s"; the editions' notes say so. Nothing else is modernized.
+- **Checked against scans of the same printing**, as the Anti-Federalist
+  Library's text was (decision 55), with the roles turned round: a word no
+  scan reads alike is marked uncertain, with the transcription's reading
+  (`tcp`) and the scans', where a scan reads another real word there, lacks
+  it where it reads the words around cleanly, or has a word more. The
+  transcription's word always stays: a difference is marked, never chosen.
+  Verify accepts `tcp` in place of the main scan's reading (`primary`), and
+  the site names it "TCP transcription". The rules are in
+  `docs/editions.md`.
+- ***Common Sense*: the first edition** (R. Bell, January 1776), Evans-TCP
+  N11839, checked against the John Carter Brown Library's copy of the first
+  edition, first issue, whose page images are the passages'. Bell's second
+  and third editions were reset and revised ("to quit his work" for "from
+  his work"), and Bradford's enlarged edition of February 1776 is another
+  text, so none is used as a check; no second scan of the first edition was
+  found. Refs `CommonSense.Introduction.{n}` and `CommonSense.{part}.{n}`,
+  parts 1–4 as the title page numbers them.
+- **Locke: the first edition** (London: Awnsham Churchill, 1690), EEBO-TCP
+  A48901, Book II only, checked against the University of Illinois's copy
+  and a microfilm. Refs `Locke.{chapter}.{section}` with Locke's own
+  section numbers, the usual citation; a section of several paragraphs is
+  one passage. This printing has no § 21 (later editions have one), so
+  `Locke.3.21` is not used.
+- **Raw files.** The TCP files (about 0.85 MB) are in git; the Internet
+  Archive files (about 11 MB) are kept out of git as a family of their own,
+  `iadecl` (`ia-decl-*`), cached in CI like the others.
+- **On the site** each work has an index page and a page per part of
+  *Common Sense* or chapter of Locke, in a collection of its own, "sources"
+  (`SourcesView`), with a card on the home page after the Declaration's
+  (Locke's text, about 53,500 words, is too long for one page). Another
+  agent is adding the documents of the Continental Congress; these two may
+  join that section later.
+- **Not done:** no links have been proposed for these works. Slips of the
+  transcriptions the check found or missed are errata 130–133.

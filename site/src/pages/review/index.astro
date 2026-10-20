@@ -54,7 +54,7 @@ const review = loadReview();
         </div>
         <div class="review-batches">
           {g.batches.map((b) => (
-            <details class="review-batch card" data-batch={b.batch} data-ids={b.ids.join(" ")}
+            <details class="review-batch card" data-batch={b.batch}
                      data-high={b.by_confidence.high.join(" ")} data-medium={b.by_confidence.medium.join(" ")} data-low={b.by_confidence.low.join(" ")}>
               <summary>
                 <span class="rb-label">{b.label}</span>

@@ -1,7 +1,8 @@
 ---
 import "../../styles/collection.css";
+import "../../styles/about.css";
 import Base from "../../layouts/Base.astro";
-import { href, formatDate, formatNumber, loadSite } from "../../lib/data.js";
+import { href, formatDate, formatNumber, loadManifest, loadSite, safeUrl } from "../../lib/data.js";
 
 // The road to independence (decision 66): the documents of 1774-1776 that
 // lead to the Declaration, in the order they were adopted.
@@ -9,6 +10,7 @@ const { page } = Astro.props;
 const works = Object.fromEntries(loadSite().works.map((w) => [w.id, w]));
 const all = page.works.map((id) => works[id]);
 const words = all.reduce((s, w) => s + w.words, 0);
+const sourceById = Object.fromEntries(loadManifest().map((s) => [s.id, s]));
 ---
 <Base title={page.title} section="independence" description="The documents on the road to the Declaration of Independence, 1774–1776: the resolves and declarations of the Continental Congress, the Lee Resolution, the Virginia Declaration of Rights and Jefferson's draft preamble, with a permanent reference for every paragraph.">
   <section class="page-head">
@@ -45,6 +47,28 @@ const words = all.reduce((s, w) => s + w.words, 0);
           </li>
         ))}
       </ol>
+    </section>
+
+    <section class="debate-group" aria-labelledby="editions">
+      <h2 id="editions">Editions and sources</h2>
+      {all.map((w) => (
+        <section class="edition card">
+          <h3>{w.title}</h3>
+          <p class="muted">{w.edition.name}</p>
+          <p>{w.edition.notes}</p>
+          <ul class="src-list">
+            {w.source_ids.map((id) => sourceById[id]).filter(Boolean).map((s) => {
+              const url = safeUrl(s.url);
+              return (
+                <li>
+                  {url ? <a href={url} rel="noopener noreferrer">{s.notes || s.id}</a> : (s.notes || s.id)}
+                  <span class="muted"> Retrieved {formatDate(s.retrieved_at)}. {s.license}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ))}
     </section>
   </div>
 </Base>

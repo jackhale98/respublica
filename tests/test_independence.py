@@ -28,40 +28,40 @@ of Right make <q>Laws to bind us</q> and all Danger o<gap reason="illegible" ext
 
 
 class TcpTests(unittest.TestCase):
-    def paragraphs(self):
+    """The broadside's TEI read by the shared reader (importers/tcp.py)."""
+
+    def blocks(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "t.xml"
             path.write_text(TEI, encoding="utf-8")
             with mock.patch.object(tcp, "raw_path", lambda sid: path):
-                return tcp.paragraphs(tcp.Text("x", "N1", "Evans 1", "declaration", "a printing"))
+                return independence.typed_blocks(independence.Typed("x", "N1", "Evans 1", "declaration", "a printing"))
 
     def test_paragraphs_and_kinds(self):
-        ps = self.paragraphs()
-        self.assertEqual([p.kind for p in ps], ["head", "p", "p", "closer"])
-        self.assertEqual(ps[3].text, "By Order of CONGRESS, JOHN HANCOCK, President. PHILADELPHIA, July 6th, 1775.")
+        bs = self.blocks()
+        self.assertEqual([b.kind for b in bs], ["head", "p", "p", "closer"])
+        self.assertEqual(bs[3].text, "By Order of CONGRESS, JOHN HANCOCK, President. PHILADELPHIA, July 6th, 1775.")
 
     def test_line_end_hyphen_rejoined_and_figure_left_out(self):
-        text = self.paragraphs()[1].text
+        text = self.blocks()[1].text
         self.assertIn("at the Expence of", text)
         self.assertNotIn("BOSTON", text)
         self.assertIn("tho' of Right make Laws to bind us and", text)
 
     def test_gaps_are_kept_as_keyed_and_marked(self):
-        p = self.paragraphs()[1]
-        self.assertEqual([p.text[s:e] for s, e in p.gaps], ["•••abitants", "o•", "▪"])
-        spans = tcp.gap_spans(p)
-        self.assertEqual(spans[0]["readings"], {"primary": "•••abitants"})
+        b = self.blocks()[1]
+        self.assertEqual([b.tokens[i] for i in sorted(b.gaps)], ["•••abitants", "o•", "▪"])
+        spans = independence.gap_spans(b)
+        self.assertEqual(spans[0]["readings"], {"tcp": "•••abitants"})
+        self.assertEqual(b.text[spans[0]["start"]:spans[0]["end"]], "•••abitants")
 
-    def test_long_s_kept_and_pages_named(self):
-        ps = self.paragraphs()
-        self.assertIn("veſted", ps[2].text)
-        self.assertEqual(ps[1].pages, ["[1]"])
-        self.assertEqual(ps[2].pages, ["[2]"])
+    def test_word_broken_after_a_gap_is_rejoined(self):
+        b = tcp.to_block("the m\x03•••••\x04 \x07ry ſhould", "p", None)
+        self.assertEqual(b.tokens, ["the", "m•••••ry", "ſhould"])
+        self.assertEqual(b.gaps, {1})
 
-    def test_fold(self):
-        self.assertEqual(tcp.fold("firſt"), tcp.fold("firft"))
-        self.assertEqual(tcp.fold("Veſted,"), "vested")
-        self.assertNotEqual(tcp.fold("inadequate"), tcp.fold("adequate"))
+    def test_long_s_kept(self):
+        self.assertIn("veſted", self.blocks()[2].text)
 
 
 def line(text: str, x0: int, y: int, w: int = 30) -> Line:

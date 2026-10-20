@@ -14,13 +14,19 @@ Read `CLAUDE.md` first; its rules apply to people and agents alike.
 | Command | What it does |
 |---|---|
 | `make fetch` | Restores any raw file listed in `sources/manifest.json` that is missing locally. Refuses a download whose checksum no longer matches. |
-| `make import` | Runs every importer (`python -m importers`), writing `texts/`. |
+| `make import` | Runs every importer (`python -m importers`), each in a process of its own, writing `texts/` and `cases/` and `importers/outputs.json` (which files each importer writes and which raw sources it reads; decision 65). `python -m importers --only a,b` runs just those. |
 | `make verify` | Runs the unit tests and every data check. Must pass before any task is finished. |
 | `make lock-refs` | Adds any new refs to `refs.lock`. Run it when an importer adds passages. |
 | `make build` | Builds the site data (`tools/site_data.py`), the site and its Pagefind search index into `site/dist/`, then checks the output. |
 | `make dev` | Runs the site locally (search needs `make build`; the dev server has no index). |
 
-CI runs `make verify` and `make build` on every pull request. Every push to
+CI runs `make verify` and `make build` on every pull request and every push to
+`main`. The errata and link-review workflows run a narrower check before they
+commit (decision 65): the errata workflow re-runs only the importers of the
+corrected works (`python -m tools.scope`, `python -m tools.fetch --importers`,
+`python -m tools.verify --importers`), the link review none, and both first
+check that nothing outside those importers' outputs, `corrections/` and
+`links/` changed. Every push to
 `main` is built and deployed by Cloudflare to <https://respublicalibrary.org>
 (`wrangler.jsonc`; build command `make build`, deploy command
 `npx wrangler@4.147.0 deploy`; decision 44).
@@ -117,7 +123,9 @@ authors in `names`), `pseudonym` or `body`.
 Texts read from scans add, per passage, `pages` (printed page numbers),
 `scan` (`{item, leaves}`; for a newspaper page in Chronicling America also
 `site: "loc"`, `issue`, `image` and `regions`), `uncertain` (`[{start, end,
-readings}]`, with `suggestion` where the Anti-Federalist Library reads the
+readings}]`: the main scan's reading as `primary`, or, for a text from the
+Text Creation Partnership, the transcription's as `tcp` (decision 67); with
+`suggestion` where the Anti-Federalist Library reads the
 word differently from every scan, or `accepted` (`{source: "library", by,
 at}`) where the text has the Library's reading, accepted by the owner
 unchecked, decision 56) and,
@@ -159,7 +167,7 @@ Linking criteria and tools are in [`linking.md`](linking.md). In short:
 |---|---|
 | `budgets` | Raw files stay under 40 MB each and 300 MB in total in git (files kept out of git: 4 GiB in total, with no limit per file, and `.gitignore` must list them; CI caches each family of them under its own key); data files under 20 MB (decisions 15, 46, 49, 61). |
 | `sources` | Every manifest entry has id, url, retrieved_at, sha256, license, notes and path; every raw file matches its sha256; every file in `sources/raw/` is in the manifest; every URL is http(s); `auth_env` names an environment variable; `encoding`, if any, is gzip; every file in `sources/ocr/` is recorded, matches its sha256, and names the raw images it was read from as they are in the manifest. |
-| `texts` | Required fields; refs are unique and start with the work's `ref_prefix`; texts are non-empty and contain no markup; `source_ids` are in the manifest; emphasis spans are in range; every `changed_by` quote is in its text and names a real amendment; every division has segments; every URL field is http(s). For texts read from scans: each `uncertain` span lies in order inside its text (or its division's heading line, salutation or signature) and the text there is one of the scans' readings (or, for an `accepted` Library reading, the span names the owner's login and date), and a `suggestion` is one line that differs from it; `scan` names a valid archive.org item and page numbers; `kind` and `position` take known values; each `corrected` span lies in order inside its text, apart from the uncertain words, and names who corrected it and when. |
+| `texts` | Required fields; refs are unique and start with the work's `ref_prefix`; texts are non-empty and contain no markup; `source_ids` are in the manifest; emphasis spans are in range; every `changed_by` quote is in its text and names a real amendment; every division has segments; every URL field is http(s). For texts read from scans: each `uncertain` span lies in order inside its text (or its division's heading line, salutation or signature) and the text there is one of the scans' readings, with the main scan's (`primary`) or a transcription's (`tcp`) among them (or, for an `accepted` Library reading, the span names the owner's login and date), and a `suggestion` is one line that differs from it; `scan` names a valid archive.org item and page numbers; `kind` and `position` take known values; each `corrected` span lies in order inside its text, apart from the uncertain words, and names who corrected it and when. |
 | `corrections` | Each file in `corrections/` is named after a work; each line has exactly at, by, index, now, ref, was, names a passage of that work, a GitHub login and a date, and gives one line of text. |
 | `reproducible` | Re-runs every importer into a temporary directory and requires `texts/` and `cases/` to match byte for byte. Every file in them must come from an importer. |
 | `refs` | Every ref in `refs.lock` still exists. Published refs are never dropped or renumbered. |

@@ -15,9 +15,14 @@ books and series); `importers/elliot.py` (Patrick Henry, Elliot's
 `importers/library.py` (the Anti-Federalist Library as a tie-breaker);
 `importers/independence.py` with `importers/parallel.py` (the road to
 independence: the Journals of the Continental Congress and Ford's
-*Writings of Thomas Jefferson*, pages printed in parallel columns) and
-`importers/tcp.py` (typed transcriptions checked against a scan).
-Tests: `tests/test_ocr.py`, `tests/test_library.py`, `tests/test_independence.py`.
+*Writings of Thomas Jefferson*, pages printed in parallel columns);
+`importers/tcp.py` with `importers/paine.py`, `importers/locke.py` and
+`importers/independence.py` (a typed transcription as the text, checked
+against scans: see "A transcription as the text" below; the 1775
+Declaration of the Causes and the Virginia Declaration of Rights, decision
+66, are read the same way).
+Tests: `tests/test_ocr.py`, `tests/test_library.py`, `tests/test_tcp.py`,
+`tests/test_independence.py`.
 
 ## The idea in one paragraph
 
@@ -320,21 +325,22 @@ found in the other scans together, sixty words at a time, so that a short
 paragraph has context and a passage that runs over a page break is matched
 on both sides of it.
 
-## A typed transcription checked against a scan (`importers/tcp.py`)
+## A transcription as the text: the TCP (`importers/tcp.py`)
 
-Where the Text Creation Partnership has keyed a printing (decision 66), its
-text is the text, not a scan's OCR. Where the Internet Archive has a scan of
-the same printing (the Virginia Declaration of Rights, Richmond, 1784 or
-1785: Eighteenth Century Collections Online's scan), each word is lined up
-with the scan's OCR (`ocr.align`) and compared, the long s and OCR's f for
-it counted as s. Where the scan reads a different word that the clean texts
-know ("adequate" for "inadequate", "fate" for "ſafe"), the word is marked
-uncertain, with both readings (the transcription's as "primary"), and never
-changed; a reading that is no word (OCR's garble of eighteenth-century
-type) and figures are not compared. Letters the keyers could not read stay
-as the TCP's placeholders, marked uncertain, with the scan's reading beside
-them where there is one. A printing with no scan (the Portsmouth broadside
-of 1775) has only the transcription's own marks.
+Decision 67. Where the Text Creation Partnership has keyed the printing by
+hand (CC0, TEI P5), its transcription is the text and the scans only check
+it: Paine's *Common Sense* (1776) and Locke's Second Treatise (1690). No
+vote is held. Each of the transcription's words is lined up with the OCR of
+one or two scans of the same printing, compared by its letters with the
+long s set aside ("s", "f" and "l" compare alike), and marked uncertain,
+with the transcription's reading (`tcp`) beside the scans', where no scan
+reads it alike and a scan reads another real word there, lacks it where it
+reads the words around cleanly, or has a word more; letters the keyers
+could not read ("•") are always marked. The transcription's word is never
+replaced. A scan photographed in its binding (the John Carter Brown
+Library's) has its words outside the block of text dropped and its lines
+rebuilt from where the words stand. The rules and what they cannot see are
+in `docs/editions.md`, "Sources of the Declaration".
 
 ## Step 4: structure (`ratification.py`)
 
@@ -469,14 +475,22 @@ later, is below).
   Ford's *Writings of Jefferson*, three copies: about 1,860 words with 14
   marked. Nearly every word has a reading from another copy (99–100% from at
   least one; the Michigan copy of vol. 5 lacks pp. 425–426). The two TCP
-  transcriptions: the Declaration of Rights, 883 words with 16 marked (4 of
-  them the keyers' gaps, 12 where the scan of the same printing reads another
+  transcriptions: the Declaration of Rights, 883 words with 10 marked (4 of
+  them the keyers' gaps, 6 where the scan of the same printing reads another
   word); the Declaration of the Causes, 2,567 words with 11 gaps.
 
 - **The Congressional Record, 1932–71** (decision 62; the same method):
   about 1,371,000 words with 18,700 marked, 14 per thousand; from 4.5 (the
   Senate, 1965) to 23 (1947) and 47 (the Senate, 1971, whose debate prints
   long tables). About 7,500 of the marked words are figures.
+
+- **The TCP texts** (decision 67; the transcription is the text, the scans
+  a check): *Common Sense*, about 15,800 words with 61 marked, 4 per
+  thousand, against one scan that was lined up with 92% of the words;
+  Locke's Second Treatise, about 53,500 words with 162 marked, 3 per
+  thousand, against two scans (95% and 80% of the words; 2% with neither).
+  Most marks are OCR misreadings of real words ("dear" for "clear"); some
+  are the transcription's slips (errata 130–133).
 
 The rules lean toward marking a word uncertain rather than guessing: a
 wrong word that looks settled is worse than a right word with a dotted

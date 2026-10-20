@@ -44,6 +44,9 @@ UNTRACKED_FAMILIES = {
     "govinfo": "govinfo-crecb-*",
     "iarecord": "ia-record-*",
     "road": "ia-road-*",
+    # Internet Archive scans that check the TCP texts of Common Sense and
+    # Locke (decision 67): DjVu XML and OCR text.
+    "iadecl": "ia-decl-*",
 }
 UNTRACKED_RAW = tuple(UNTRACKED_FAMILIES.values())
 
@@ -170,10 +173,17 @@ def load_manifest() -> list[dict]:
     return read_json(MANIFEST_PATH)
 
 
+# The raw sources this process has asked for, when an importer is run to
+# record what it reads (importers/__main__.py, importers/outputs.json).
+RAW_READ: set[str] | None = None
+
+
 def raw_path(source_id: str) -> Path:
     """Path of the raw file for a manifest entry."""
     for entry in load_manifest():
         if entry["id"] == source_id:
+            if RAW_READ is not None:
+                RAW_READ.add(source_id)
             return ROOT / entry["path"]
     raise KeyError(f"source {source_id!r} is not in sources/manifest.json")
 

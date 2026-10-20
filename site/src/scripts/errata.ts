@@ -14,8 +14,8 @@ const SCANS: Record<string, string> = {
   microfilm: "microfilm scan", tesseract: "second OCR", lincoln: "Lincoln Foundation scan",
   michigan: "Michigan scan", cornell: "Cornell scan", harvard: "Harvard scan", uc: "UC scan",
   nypl: "NYPL scan", "nypl-ocr": "second OCR of the NYPL scan",
-  tcp: "TCP transcription", scan: "scan of the same printing", upload: "uploaded scan", acpl: "Allen County scan",
-  ucgoogle: "UC Google scan",
+  tcp: "TCP transcription", jcb: "John Carter Brown Library scan", illinois: "Illinois scan",
+  scan: "scan of the same printing", upload: "uploaded scan", acpl: "Allen County scan", ucgoogle: "UC Google scan",
 };
 // Page images only from the hosts the page's Content Security Policy allows.
 const IMAGE_HOSTS = /^https:\/\/(archive\.org|[a-z0-9-]+\.us\.archive\.org|digital\.library\.unt\.edu|tile\.loc\.gov)\//;

@@ -16,6 +16,8 @@ const constitution = works.constitution;
 const amendments = works.amendments;
 const federalist = works.federalist;
 const resolution = works["joint-resolution-1789"];
+// Works the Declaration's language draws on (decision 67).
+const sources = site.works.filter((w) => w.collection === "sources");
 const articles = loadPage("constitution").toc.filter((t) => t.kind === "division" && t.level === 1 && t.label.startsWith("Article")).length;
 const clauses = loadPage("constitution").blocks.filter((b) => b.type === "passage" && /^Constitution\.\d/.test(b.ref)).length;
 
@@ -48,9 +50,10 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
         <p class="eyebrow">Free · Nonpartisan · Open source</p>
         <h1>America's founding texts, <span class="grad">connected.</span></h1>
         <p class="lede">
-          Read the Declaration of Independence, the Constitution and its amendments, The Federalist and the
-          essays of the ratification debate, with a permanent reference for every passage and links you can
-          check between them.
+          Read the Declaration of Independence, the Constitution and its amendments, The Federalist, the
+          ratification debate, Congress debating every amendment from the Bill of Rights to the Twenty-sixth,
+          and the Supreme Court's landmark cases, with a permanent reference for every passage and links you
+          can check between them.
         </p>
         <a class="hero-search" href={href("/search/")} data-search-open>
           <Icon name="search" />
@@ -101,6 +104,14 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
           <div class="work-meta"><span>{road.length} works</span><span>1774–1776</span></div>
         </a>
       )}
+      {sources.map((w) => (
+        <a class="card work-card w-declaration" href={href(w.url)}>
+          <span class="work-icon"><Icon name="book" /></span>
+          <h3>{w.title}</h3>
+          <p>{w.edition.name}. A source the Declaration's language draws on, from the Text Creation Partnership's transcription, checked against scans of the printing.</p>
+          <div class="work-meta"><span>{w.passages} {w.id === "locke-second-treatise" ? "sections" : "paragraphs"}</span><span>{formatDate(w.date)}</span></div>
+        </a>
+      ))}
       <a class="card work-card w-constitution" href={href(constitution.url)}>
         <span class="work-icon"><Icon name="scroll" /></span>
         <h3>The Constitution</h3>
@@ -138,7 +149,7 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
         <a class="card work-card w-debate" href={href("/ratification/")}>
           <span class="work-icon"><Icon name="feather" /></span>
           <h3>The ratification debate</h3>
-          <p>Cato, Centinel, the Federal Farmer, Agrippa, the Landholder and more: {debateEssays} essays and letters for and against the Constitution, from public-domain printings.</p>
+          <p>Brutus, Cato, Centinel, the Federal Farmer, the Landholder, Patrick Henry's speeches in the Virginia convention and more: {debateEssays} essays, letters and speeches for and against the Constitution, from public-domain printings.</p>
           <div class="work-meta"><span>{sideCount("anti")} Anti-Federalist works</span><span>{sideCount("federalist")} Federalist</span></div>
         </a>
       )}
@@ -146,7 +157,7 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
         <a class="card work-card w-debate" href={href("/congress/")}>
           <span class="work-icon"><Icon name="feather" /></span>
           <h3>Debates in Congress</h3>
-          <p>The House debates the Bill of Rights in 1789, from Madison's speech of June 8; both houses debate the Thirteenth Amendment in 1864–65, the Fourteenth in 1866 and the Fifteenth in 1869. As printed in the Annals of Congress and the Congressional Globe.</p>
+          <p>Congress on the amendments, from Madison's speech of June 8, 1789 proposing the Bill of Rights to the vote of 1971 on the Twenty-sixth: the Eleventh and Twelfth in the Annals of Congress, the Reconstruction amendments in the Congressional Globe, and the Sixteenth to the Twenty-sixth in the Congressional Record.</p>
           <div class="work-meta"><span>{congress.length} works</span><span>{congress.reduce((s, w) => s + w.top_divisions, 0)} days of debate</span></div>
         </a>
       )}

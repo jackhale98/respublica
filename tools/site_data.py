@@ -41,6 +41,17 @@ WORKS = {
     "amendments": {"collection": "founding", "order": 2, "paged": False, "short": "Amendments", "slug": "amendments"},
     "joint-resolution-1789": {"collection": "founding", "order": 2.5, "paged": False, "short": "Resolution of 1789",
                               "slug": "joint-resolution-1789"},
+    # Works the Declaration's language draws on (decision 67): one page per part or chapter.
+    "common-sense": {"collection": "sources", "order": 0.1, "paged": True, "short": "Common Sense",
+                     "slug": "common-sense",
+                     "summary": "Thomas Paine's pamphlet, published anonymously in Philadelphia in January 1776: the "
+                                "first edition, its Introduction and four parts."},
+    "locke-second-treatise": {"collection": "sources", "order": 0.2, "paged": True,
+                              "short": "Locke, Second Treatise", "slug": "locke-second-treatise",
+                              "summary": "John Locke's essay “concerning the true original, extent, and end of civil "
+                                         "government”, the second of his Two Treatises (London, 1690): the first "
+                                         "edition, in Locke's numbered sections. Locke was English; the work is here as "
+                                         "a source the Declaration's language draws on."},
     "federalist": {"collection": "federalist", "order": 3, "paged": True, "short": "Federalist", "slug": "federalist"},
     # Debates in Congress (decision 46): one page per day.
     "house-amendments-1789": {"collection": "congress", "order": 4, "paged": True, "short": "House debates, 1789",
@@ -401,8 +412,9 @@ POSITIONS = ("anti", "federalist", "other")
 POSITION_LABELS = {"anti": "Anti-Federalist", "federalist": "Federalist", "other": "Other"}
 
 
-# What a ratification-debate work's parts are called, where not essays.
-PARTS = {"patrick-henry": "speeches"}
+# What a work's parts are called, where not essays (the index pages of the ratification debate and of
+# the sources of the Declaration).
+PARTS = {"patrick-henry": "speeches", "common-sense": "parts", "locke-second-treatise": "chapters"}
 
 # A work's sources as the about page lists them: each on a line, but the
 # Congressional Globe's page-by-page OCR from the UNT Digital Library (two
@@ -689,6 +701,10 @@ def work_group(corpus: Corpus, wid: str) -> str:
     return {"anti": "anti", "federalist": "federalist"}.get(doc.get("position"), "other")
 
 
+# Links drawn from each second-hop neighbour in a page's graph.
+GRAPH_SECOND = 25
+
+
 def build_graph(links: list[dict], corpus: Corpus, url_for, page_refs: dict[str, list[str]],
                 shorts: dict[str, str] | None = None) -> dict[str, dict]:
     """For each page, the links within two hops of its passages.
@@ -714,9 +730,16 @@ def build_graph(links: list[dict], corpus: Corpus, url_for, page_refs: dict[str,
         hop0 = {r for r in refs if r in adj}
         hop1 = {(l["to"] if l["from"] == r else l["from"]) for r in hop0 for l in adj[r]}
         edges: dict[str, dict] = {}
-        for r in hop0 | hop1:
-            for l in adj.get(r, []):
-                edges[l["id"]] = {k: l[k] for k in ("id", "from", "to", "type", "status", "confidence")}
+        keep = lambda l: {k: l[k] for k in ("id", "from", "to", "type", "status", "confidence")}  # noqa: E731
+        for r in hop0:
+            for l in adj[r]:
+                edges[l["id"]] = keep(l)
+        # The second hop: at most GRAPH_SECOND links from each neighbour,
+        # reviewed first, so that a clause linked a thousand times (Article
+        # V) does not bring its whole neighbourhood into every page's graph.
+        for r in hop1 - hop0:
+            for l in sorted(adj.get(r, []), key=lambda l: (l.get("status") != "reviewed", l["id"]))[:GRAPH_SECOND]:
+                edges[l["id"]] = keep(l)
         nodes = {r: node(r) for e in edges.values() for r in (e["from"], e["to"])}
         out[pid] = {"edges": sorted(edges.values(), key=lambda e: e["id"]), "nodes": dict(sorted(nodes.items()))}
     return out
@@ -800,18 +823,6 @@ def runs_for(segment: dict, changed: list[dict]) -> list[list[list[dict]]]:
 
 
 # ------------------------------------------------------------ structure
-
-
-def typed(work: dict) -> bool:
-    """A work whose text is a typed transcription (the Text Creation
-    Partnership's, decision 66), not a scan's OCR."""
-    return any(sid.startswith("tcp-") for sid in work.get("source_ids", []))
-
-
-def tcp_readings(readings: dict[str, str]) -> dict[str, str]:
-    """An uncertain word's readings with the transcription's named as such
-    (in the data it is the "primary" reading, as a main scan's is)."""
-    return {("tcp" if k == "primary" else k): v for k, v in readings.items()}
 
 
 def work_url(wid: str, settings: dict | None = None) -> str:
@@ -991,13 +1002,14 @@ class SiteBuilder:
         # The cases that interpret a clause come last, in date order (their labels end with the year).
         conns.sort(key=lambda e: (e["type"] == "interprets", e["other_label"][-5:-1] if e["type"] == "interprets" else ""))
         paras = runs_for(s, changed)
-        if typed(work):
-            paras = [[[{**r, "unc": tcp_readings(r["unc"])} if "unc" in r else r for r in line] for line in para]
-                     for para in paras]
         block = {
             "changed": changed,
             "clause_url": clause_url(s["ref"]) if s["ref"] in self.clause_refs else None,
             "connections": conns,
+            # The list shown without JavaScript: a clause with its own page
+            # lists the first NOJS_CONNS there, and the clause page the rest,
+            # so the busiest pages stay within their HTML budget.
+            "fallback": conns[:NOJS_CONNS] if s["ref"] in self.clause_refs else conns,
             "gutter": gutter(s["ref"], work, s),
             "label": s.get("label", s["ref"]),
             "paras": paras,
@@ -1570,6 +1582,11 @@ def founding_passages(corpus: Corpus, works: tuple[str, ...] = ("declaration", "
     return out
 
 
+# Connections listed under a clause on its reading page without JavaScript
+# (the panel lists them all; the clause page too).
+NOJS_CONNS = 12
+
+
 def clause_url(ref: str) -> str | None:
     """A clause page's URL, which mirrors its ref: Constitution.1.8.18 ->
     /constitution/1/8/18/, Amendment.14.1 -> /amendments/14/1/."""
@@ -1790,8 +1807,7 @@ def build_errata(corpus: Corpus, refs: dict[str, dict]) -> tuple[dict, dict[str,
             items.append({"label": info["label"], "pages": pages, "ref": seg["ref"], "url": info["url"], "words": [
                 {"after": words_after(text[u["end"]:].replace("\n", " ")),
                  "before": words_before(text[:u["start"]].replace("\n", " ")),
-                 "index": i, "readings": tcp_readings(u["readings"]) if typed(work) else u["readings"],
-                 "was": text[u["start"]:u["end"]],
+                 "index": i, "readings": u["readings"], "was": text[u["start"]:u["end"]],
                  **({"suggestion": u["suggestion"]} if u.get("suggestion") else {}),
                  **({"accepted": True} if u.get("accepted") else {})}
                 for i, u in enumerate(spans)]})

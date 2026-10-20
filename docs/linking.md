@@ -259,6 +259,80 @@ or the Annals' own notes or the record of votes ("yeas and nays").
 Confidence and rationale follow run 1. Every run is checked by a second
 agent against both texts before it is proposed, as in run 2.
 
+**Notes from the runs on 1794–1971** (October 2026), followed in those runs:
+
+- **The Constitution "as it stood"** includes every amendment ratified by the
+  day of the debate: 1–15 for 1909–12, 1–17 for 1917, 1–18 for 1919. A
+  quote or citation of one of those is pass 1; the amendment under debate is
+  pass 2.
+
+- **A whole amendment named.** An amendment of one section, named by
+  number, cites that section at `high` ("the tenth amendment"); one of
+  several sections cites the section the context picks out, at `medium`
+  ("the amendment abolishing slavery" is `Amendment.13.1`). A bare "the
+  fourteenth amendment" with nothing that picks out a section is not a link,
+  nor is a mention in an account of an amendment's ratification.
+- **"Section N" without its article** is linked only when the article was
+  named just before, at `medium`. A named section ("article I, section 2")
+  may be cited as a whole (`Constitution.1.2`); a multi-section amendment
+  named only as a whole is not a link (the project owner's decision, after
+  the 1932–71 run proposed 514 such links and they were dropped).
+- **The subject of the debate is not a citation**: "repeal of the eighteenth
+  amendment" in 1933 names what is being debated. Nor are a resolution's
+  formulas that echo Article V ("valid to all intents and purposes as part
+  of the Constitution") or the ratification clauses.
+- **Clause numbering that differs from ours** ("article II, section 1,
+  clause 5" for the succession clause, our 2.1.6) is linked to the clause
+  the words fit, with the numbering noted in the rationale.
+- **Several proposals in one debate** (1960: the District of Columbia
+  electors and the poll tax): pass 2 compares each proposal with the
+  amendment it became, if any.
+- **Run 4 targets only the Constitution and the amendments.** Quotations of
+  The Federalist, the Declaration, the 1787 Convention's drafts or state
+  constitutions are left for a later run.
+- **Misnumbered references.** Speakers often misnumber ("the first section
+  of the fourth article" for Article IV, section 2). Where the words quote
+  or unmistakably describe a clause, link that clause at `medium` (or
+  `high` if quoted verbatim) and note the misnumber in the rationale.
+- **Proposals that rewrite a clause.** A proposal that says "the third
+  paragraph of the first section of the second article … shall be amended
+  to read" `cites` that clause; its new wording is not a quote of it, and a
+  draft that repeats the existing clause is linked to it only where it
+  explicitly quotes the existing text. Its wording is linked in pass 2 to
+  the ratified amendment under the eight-word rule.
+- **Pass 2 and "substance".** A run counts as the substance of the clause
+  when it states the guarantee or rule the amendment makes (for the Twelfth,
+  the electoral rules: counting, quorum, the majority, the three highest,
+  the Vice President acting). Speakers reading the proposal's words in
+  debate, and motions to strike out or insert words, are pass-2 links like
+  the Clerk's reading. "The right of citizens of the United States to vote"
+  alone is accepted as substance for the Fifteenth and Nineteenth, at
+  `high`; reviewers may reject it. So is an enforcement section ("power to
+  enforce this article by appropriate legislation"), following the 1866
+  links to `Amendment.14.5`. The eight words must be unbroken in the text
+  as stored: a word OCR split ("elect e d") breaks the run. A run that
+  needs a word marked uncertain, read as another scan reads it, is at most
+  `medium`, and the rationale says so.
+- **Pass 1 never targets the amendment under debate**: until ratified it is
+  a proposal, reached only by pass 2's exact runs.
+- **Article V** is linked from each paragraph that names it ("the fifth
+  article", "the amendatory clause"), not from a generic "amend the
+  Constitution in the mode it provides".
+- **Clauses cited inside other proposals** (the Crittenden articles, a
+  substitute): `high` in the proposer's own text, `medium` when a speaker
+  reads someone else's proposal.
+- **Who may be linked from.** The Speaker's rulings and the Clerk's readings
+  may be; vote tallies and the reporter's narration of how a question was
+  decided may not. A reporter's parenthesis ("here he cited the
+  Constitution") is the Annals' own note. Documents a member reads or prints
+  in the record (reports, statutes, editorials, state resolutions, court
+  opinions) may be linked from where they quote or cite a clause, and the
+  rationale says whose words they are.
+- **The 1789 Joint Resolution.** A speaker naming one of its twelve articles
+  ("the first of the twelve amendments") cites `Resolution1789.Article.{n}`.
+- **Quotes are cut from the segment text** in `texts/`, never from
+  `tools.show`'s printout, which can render an uncertain word differently.
+
 ## Imported links: Supreme Court cases (phase 7)
 
 Links between cases and the Constitution are not proposed by a linker but
