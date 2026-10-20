@@ -18,6 +18,8 @@ const debate = work.collection === "ratification";
 // A day of a debate in Congress: the date is the heading, and the item's
 // printed heading ("AMENDMENTS TO THE CONSTITUTION.") is shown as printed.
 const congress = work.collection === "congress";
+// A part of Common Sense, a chapter of Locke (decision 67): named by its label ("Chapter II").
+const sources = work.collection === "sources";
 const num = (label) => label.split(" ").at(-1);
 // Parts known by their date, not a number (Patrick Henry's speeches).
 const dated = work.part_name === "speeches";
@@ -32,7 +34,7 @@ const printed = d.publication.map((l) => l).join(" ");
     {debate && <li><a href={href("/ratification/")}>Ratification debate</a></li>}
     {congress && <li><a href={href("/congress/")}>Debates in Congress</a></li>}
     <li><a href={href(work.url)}>{work.title}</a></li>
-    <li aria-current="page">{congress || dated ? d.label : `No. ${num(d.label)}`}</li>
+    <li aria-current="page">{congress || dated || sources ? d.label : `No. ${num(d.label)}`}</li>
   </ol>
 
   <Fragment slot="toc">
@@ -95,7 +97,7 @@ const printed = d.publication.map((l) => l).join(" ");
     </details>
   ))}
 
-  <nav class="pager" aria-label={dated ? "Speeches" : debate ? "Essays" : "Papers"} data-pagefind-ignore>
+  <nav class="pager" aria-label={dated ? "Speeches" : debate ? "Essays" : sources ? "Parts" : "Papers"} data-pagefind-ignore>
     {page.prev && (
       <a class="card prev" rel="prev" href={href(page.prev.url)}>
         <small><Icon name="left" />Previous</small>
@@ -113,7 +115,7 @@ const printed = d.publication.map((l) => l).join(" ");
   </nav>
 
   <Fragment slot="panel">
-    <span class="eyebrow">{congress ? "About this day" : dated ? "About this speech" : debate ? "About this essay" : "About this paper"}</span>
+    <span class="eyebrow">{congress ? "About this day" : dated ? "About this speech" : debate ? "About this essay" : sources ? "About this part" : "About this paper"}</span>
     <h2>{d.label}</h2>
     <dl>
       {attr && <Fragment><dt>Author</dt><dd>{authorText(attr)}</dd></Fragment>}

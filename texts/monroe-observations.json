@@ -29,7 +29,7 @@
   ],
   "edition": {
     "name": "Some Observations on the Constitution ([Petersburg Va.: s.n. 1788]), Evans 21263",
-    "notes": "Some Observations on the Constitution ([Petersburg Va.: s.n. 1788]), Evans 21263: the Text Creation Partnership's typed transcription, Evans-TCP N16546 (https://github.com/textcreationpartnership/N16546), CC0. The transcription is the text, with the printing's spelling and the long s as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (143 in 14588 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
+    "notes": "Some Observations on the Constitution ([Petersburg Va.: s.n. 1788]), Evans 21263: the Text Creation Partnership's typed transcription, Evans-TCP N16546 (https://github.com/textcreationpartnership/N16546), CC0. The transcription is the text, with the printing's spelling and the long s (ſ) as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (143 in 14588 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
   },
   "id": "monroe-observations",
   "position": "anti",
@@ -46,7 +46,7 @@
         {
           "end": 653,
           "readings": {
-            "primary": "er•or,"
+            "tcp": "er•or,"
           },
           "start": 647
         }
@@ -64,7 +64,7 @@
         {
           "end": 619,
           "readings": {
-            "primary": "•f"
+            "tcp": "•f"
           },
           "start": 617
         }
@@ -139,7 +139,7 @@
         {
           "end": 399,
           "readings": {
-            "primary": "th•ſe"
+            "tcp": "th•ſe"
           },
           "start": 394
         }
@@ -157,7 +157,7 @@
         {
           "end": 880,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 877
         }
@@ -175,238 +175,238 @@
         {
           "end": 1655,
           "readings": {
-            "primary": "ſca•e"
+            "tcp": "ſca•e"
           },
           "start": 1650
         },
         {
           "end": 1689,
           "readings": {
-            "primary": "principa•lities"
+            "tcp": "principa•lities"
           },
           "start": 1674
         },
         {
           "end": 2220,
           "readings": {
-            "primary": "ſtoi•k"
+            "tcp": "ſtoi•k"
           },
           "start": 2214
         },
         {
           "end": 2409,
           "readings": {
-            "primary": "wa•"
+            "tcp": "wa•"
           },
           "start": 2406
         },
         {
           "end": 2487,
           "readings": {
-            "primary": "pa••"
+            "tcp": "pa••"
           },
           "start": 2483
         },
         {
           "end": 3088,
           "readings": {
-            "primary": "c•nſiderations,"
+            "tcp": "c•nſiderations,"
           },
           "start": 3073
         },
         {
           "end": 3791,
           "readings": {
-            "primary": "Miſſiſſ•ppi,"
+            "tcp": "Miſſiſſ•ppi,"
           },
           "start": 3779
         },
         {
           "end": 4370,
           "readings": {
-            "primary": "thi•gs?"
+            "tcp": "thi•gs?"
           },
           "start": 4363
         },
         {
           "end": 4835,
           "readings": {
-            "primary": "ſpea•i•g"
+            "tcp": "ſpea•i•g"
           },
           "start": 4827
         },
         {
           "end": 4871,
           "readings": {
-            "primary": "gover•ment,"
+            "tcp": "gover•ment,"
           },
           "start": 4860
         },
         {
           "end": 4926,
           "readings": {
-            "primary": "informatio•"
+            "tcp": "informatio•"
           },
           "start": 4915
         },
         {
           "end": 5099,
           "readings": {
-            "primary": "Wi•l"
+            "tcp": "Wi•l"
           },
           "start": 5095
         },
         {
           "end": 5680,
           "readings": {
-            "primary": "cou•d"
+            "tcp": "cou•d"
           },
           "start": 5675
         },
         {
           "end": 5796,
           "readings": {
-            "primary": "wi•h"
+            "tcp": "wi•h"
           },
           "start": 5792
         },
         {
           "end": 5814,
           "readings": {
-            "primary": "•his"
+            "tcp": "•his"
           },
           "start": 5810
         },
         {
           "end": 5854,
           "readings": {
-            "primary": "governme•t,"
+            "tcp": "governme•t,"
           },
           "start": 5843
         },
         {
           "end": 5870,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 5867
         },
         {
           "end": 5951,
           "readings": {
-            "primary": "delightfu•"
+            "tcp": "delightfu•"
           },
           "start": 5941
         },
         {
           "end": 5971,
           "readings": {
-            "primary": "t•e"
+            "tcp": "t•e"
           },
           "start": 5968
         },
         {
           "end": 6017,
           "readings": {
-            "primary": "thoſ•"
+            "tcp": "thoſ•"
           },
           "start": 6012
         },
         {
           "end": 6054,
           "readings": {
-            "primary": "fr•m"
+            "tcp": "fr•m"
           },
           "start": 6050
         },
         {
           "end": 6144,
           "readings": {
-            "primary": "huma•ity,"
+            "tcp": "huma•ity,"
           },
           "start": 6135
         },
         {
           "end": 6198,
           "readings": {
-            "primary": "fi•led,"
+            "tcp": "fi•led,"
           },
           "start": 6191
         },
         {
           "end": 6218,
           "readings": {
-            "primary": "remarkab•e"
+            "tcp": "remarkab•e"
           },
           "start": 6208
         },
         {
           "end": 6350,
           "readings": {
-            "primary": "h•p•s,"
+            "tcp": "h•p•s,"
           },
           "start": 6344
         },
         {
           "end": 6354,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 6351
         },
         {
           "end": 6376,
           "readings": {
-            "primary": "inſurmo••"
+            "tcp": "inſurmo••"
           },
           "start": 6367
         },
         {
           "end": 6394,
           "readings": {
-            "primary": "wo••d"
+            "tcp": "wo••d"
           },
           "start": 6389
         },
         {
           "end": 6409,
           "readings": {
-            "primary": "••••tuation"
+            "tcp": "••••tuation"
           },
           "start": 6398
         },
         {
           "end": 6438,
           "readings": {
-            "primary": "••s"
+            "tcp": "••s"
           },
           "start": 6435
         },
         {
           "end": 6443,
           "readings": {
-            "primary": "thi•"
+            "tcp": "thi•"
           },
           "start": 6439
         },
         {
           "end": 6484,
           "readings": {
-            "primary": "lead•"
+            "tcp": "lead•"
           },
           "start": 6479
         },
         {
           "end": 6503,
           "readings": {
-            "primary": "up••"
+            "tcp": "up••"
           },
           "start": 6499
         },
         {
           "end": 6521,
           "readings": {
-            "primary": "t••t"
+            "tcp": "t••t"
           },
           "start": 6517
         }
@@ -420,105 +420,105 @@
         "10"
       ],
       "ref": "Monroe.13",
-      "text": "Perhaps an attention for a moment in this reſpect to thoſe politi••l eſtabli••ments which have been erected in 〈◊〉 quarters of the globe, in 〈◊〉 and modern times, may fur•i•h an inſtructive leſſon, upon the preſent occaſion. In but few inſtances, and thoſe at diſtant intervals of time, hath a democracy or government of the people ever been eſtabliſhed. To what cauſe it is to be attributed, philoſophers and ſtateſmen may differ, but it is an unqueſtionable truth, that there hath been a conſtant effort in all ſocieties, to exterpate it from off the face of the earth. The conteſt hath been often violent, and the manly exertions which the friends of equal liberty, have made againſt this diſeaſe of human nature, is the great, the inſtructive ſubject of hiſtory. They have had to contend againſt difficulties thrown in their way by all ranks of ſociety: If the poor and thoſe in moderate circumſtances only, where an union might have been e•pected had united, a tyranny had never been erected. But the ignorance, the folly, and often times the vices of the lower claſſes have perhaps favoured this tendency as ſtrongly as the luſt for dominion and power in the wealthy. To illuſtrate this poſition by a review of the commencement, progreſs, and decline of thoſe nations with which hiſtory furniſhes us examples, with the cauſes that have contributed to hurry them to this their laſt ſtage, would not only preſent to your view a melancholy monument of the weakneſs of human inſtitutions, but lead me beyond the bounds of the preſent enquiry. Be aſſured however there is no fact better eſtabliſhed by hiſtory, than this tendency or effort in all ſocieties, to defeat the purpoſe of their own inſtitution, and terminate in deſpotiſm. If then we are not the unfaithful guardians of thoſe rights, which an all gracious providence hath beſtowed upon us, ſhould we not attend to every circumſtance that may contribute to preſerve them? And will it be queſtioned, that the extent of territory is one of thoſe that will have no influence on the ſubject? The governments that have been purely democratic, to which only we ſhould reſort for ſatisfactory information upon this head, if any ever were, are but few. In ſeveral it is true the people have had ſome ſhare of power, as in that of Rome. But it cannot be queſtioned that in this the Nobles or ariſtocracy had the prevailing influence. The endleſs quarrels between the different branches or rather orders of the people, the Senate and plebians, is perhaps the real cauſe of the perpetual warfare and extenſive conqueſts, made by this rapacious miſtreſs of the world. When the people became incenſed againſt the Senate, as they often had reaſon to be, the latter had always ſufficient addreſs, to give their paſſions other objects to act on, by turning them againſt foreign powers. With this view it ſeems to have been a political maxim with that branch, in whoſe hands the executive authority was alſo lodged, never to be at peace with all nations at the ſame time, and in this they ſucceeded tolerably well, for from the commencement to the final diſſolution of the empire, the temple of Janus, always open in time of war, if we may credit the tradition of their beſt hiſtorians, was hardly ever cloſed. But ſo ſoon as the whole globe had acknowledged her authority, and bowed beneath the yoke, the immenſe fabric ſhe had thus raiſed fell to pieces. External oppoſition that had raiſed it to the height it had attained, having ceaſed, its foundation was taken away. There was no principle within it to unite its parts together. From this it is to be preſumed that if her government had been organized upon harmonious principles, and made the people happy under it, her dominion would never have extended over more than one-ten•h the territory it did. But be this as it may, the government of Rome acknowledged diſtinct orders of people, in which indeed the ariſtocracy prevailed, and can of courſe furniſh n• example for us. This may be ſaid of Lacedemon and of Carthage, for according to the opinion of a profound hiſtorian and obſerver on the ſubject of government, that of Carthage was alſo divided and the greater portion of power taken from the people and placed in the ha•ds of the ariſtocracy.* If any ever were, Athens, Thebes, and Corinth, were for• time, 〈◊〉 ••••cracies. But ſhall we draw our concluſion from their example, whoſe juriſdiction was more confined than that of ſome of our ſmalleſt ſtates? In ſ••rt, let us contemplate what forms, in what countries and times we pleaſe, where the rights •• the people, and the ſpirit of liberty, were in any degree preſerved, and we have the moſt ſolemn admonition to beware even making the attempt. The monarchy of Britain in which the executive power is armed with almoſt deſpotic authority, comprehends within it a territory ſmaller than that of this commonwealth, and yet it is believed its adminiſtration is happier than if it were more extenſive. Even the king of France, ſenſible that his government will be happier for his ſubjects, and more faithful and beneficial for himſelf, has ſhewn a diſpoſition to re-eſtabliſh the provincial aſſemblies for this purpoſe, yet it cannot be denied that his powers are otherwiſe ſufficiently great, or that any monarch was ever, in a greater degree, or more deſervedly beloved by his people. But if theſe examples are not ſufficient to warn us of the fatal conſequences that will attend the veſting ſuch powers in the Congreſs, let us turn our attention to thoſe nearer at home, and which perhaps will make a deeper impreſſion on our minds, and do we not behold the province of Maine ſeparating from Maſſachuſetts, and Vermont from New York, Wyomin from Pennſylvania, and the diſtrict of Kentucky from Virginia, on this very principle, with others no leſs ſtriking that might be enumerated.",
+      "text": "Perhaps an attention for a moment in this reſpect to thoſe politi••l eſtabli••ments which have been erected in 〈◊〉 quarters of the globe, in 〈◊〉 and modern times, may fur•i•h an inſtructive leſſon, upon the preſent occaſion. In but few inſtances, and thoſe at diſtant intervals of time, hath a democracy or government of the people ever been eſtabliſhed. To what cauſe it is to be attributed, philoſophers and ſtateſmen may differ, but it is an unqueſtionable truth, that there hath been a conſtant effort in all ſocieties, to exterpate it from off the face of the earth. The conteſt hath been often violent, and the manly exertions which the friends of equal liberty, have made againſt this diſeaſe of human nature, is the great, the inſtructive ſubject of hiſtory. They have had to contend againſt difficulties thrown in their way by all ranks of ſociety: If the poor and thoſe in moderate circumſtances only, where an union might have been e•pected had united, a tyranny had never been erected. But the ignorance, the folly, and often times the vices of the lower claſſes have perhaps favoured this tendency as ſtrongly as the luſt for dominion and power in the wealthy. To illuſtrate this poſition by a review of the commencement, progreſs, and decline of thoſe nations with which hiſtory furniſhes us examples, with the cauſes that have contributed to hurry them to this their laſt ſtage, would not only preſent to your view a melancholy monument of the weakneſs of human inſtitutions, but lead me beyond the bounds of the preſent enquiry. Be aſſured however there is no fact better eſtabliſhed by hiſtory, than this tendency or effort in all ſocieties, to defeat the purpoſe of their own inſtitution, and terminate in deſpotiſm. If then we are not the unfaithful guardians of thoſe rights, which an all gracious providence hath beſtowed upon us, ſhould we not attend to every circumſtance that may contribute to preſerve them? And will it be queſtioned, that the extent of territory is one of thoſe that will have no influence on the ſubject? The governments that have been purely democratic, to which only we ſhould reſort for ſatisfactory information upon this head, if any ever were, are but few. In ſeveral it is true the people have had ſome ſhare of power, as in that of Rome. But it cannot be queſtioned that in this the Nobles or ariſtocracy had the prevailing influence. The endleſs quarrels between the different branches or rather orders of the people, the Senate and plebians, is perhaps the real cauſe of the perpetual warfare and extenſive conqueſts, made by this rapacious miſtreſs of the world. When the people became incenſed againſt the Senate, as they often had reaſon to be, the latter had always ſufficient addreſs, to give their paſſions other objects to act on, by turning them againſt foreign powers. With this view it ſeems to have been a political maxim with that branch, in whoſe hands the executive authority was alſo lodged, never to be at peace with all nations at the ſame time, and in this they ſucceeded tolerably well, for from the commencement to the final diſſolution of the empire, the temple of Janus, always open in time of war, if we may credit the tradition of their beſt hiſtorians, was hardly ever cloſed. But ſo ſoon as the whole globe had acknowledged her authority, and bowed beneath the yoke, the immenſe fabric ſhe had thus raiſed fell to pieces. External oppoſition that had raiſed it to the height it had attained, having ceaſed, its foundation was taken away. There was no principle within it to unite its parts together. From this it is to be preſumed that if her government had been organized upon harmonious principles, and made the people happy under it, her dominion would never have extended over more than one-ten•h the territory it did. But be this as it may, the government of Rome acknowledged diſtinct orders of people, in which indeed the ariſtocracy prevailed, and can of courſe furniſh n• example for us. This may be ſaid of Lacedemon and of Carthage, for according to the opinion of a profound hiſtorian and obſerver on the ſubject of government, that of Carthage was alſo divided and the greater portion of power taken from the people and placed in the ha•ds of the ariſtocracy. If any ever were, Athens, Thebes, and Corinth, were for• time, 〈◊〉 ••••cracies. But ſhall we draw our concluſion from their example, whoſe juriſdiction was more confined than that of ſome of our ſmalleſt ſtates? In ſ••rt, let us contemplate what forms, in what countries and times we pleaſe, where the rights •• the people, and the ſpirit of liberty, were in any degree preſerved, and we have the moſt ſolemn admonition to beware even making the attempt. The monarchy of Britain in which the executive power is armed with almoſt deſpotic authority, comprehends within it a territory ſmaller than that of this commonwealth, and yet it is believed its adminiſtration is happier than if it were more extenſive. Even the king of France, ſenſible that his government will be happier for his ſubjects, and more faithful and beneficial for himſelf, has ſhewn a diſpoſition to re-eſtabliſh the provincial aſſemblies for this purpoſe, yet it cannot be denied that his powers are otherwiſe ſufficiently great, or that any monarch was ever, in a greater degree, or more deſervedly beloved by his people. But if theſe examples are not ſufficient to warn us of the fatal conſequences that will attend the veſting ſuch powers in the Congreſs, let us turn our attention to thoſe nearer at home, and which perhaps will make a deeper impreſſion on our minds, and do we not behold the province of Maine ſeparating from Maſſachuſetts, and Vermont from New York, Wyomin from Pennſylvania, and the diſtrict of Kentucky from Virginia, on this very principle, with others no leſs ſtriking that might be enumerated.",
       "uncertain": [
         {
           "end": 68,
           "readings": {
-            "primary": "politi••l"
+            "tcp": "politi••l"
           },
           "start": 59
         },
         {
           "end": 83,
           "readings": {
-            "primary": "eſtabli••ments"
+            "tcp": "eſtabli••ments"
           },
           "start": 69
         },
         {
           "end": 114,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 111
         },
         {
           "end": 144,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 141
         },
         {
           "end": 174,
           "readings": {
-            "primary": "fur•i•h"
+            "tcp": "fur•i•h"
           },
           "start": 167
         },
         {
           "end": 951,
           "readings": {
-            "primary": "e•pected"
+            "tcp": "e•pected"
           },
           "start": 943
         },
         {
           "end": 3779,
           "readings": {
-            "primary": "one-ten•h"
+            "tcp": "one-ten•h"
           },
           "start": 3770
         },
         {
           "end": 3959,
           "readings": {
-            "primary": "n•"
+            "tcp": "n•"
           },
           "start": 3957
         },
         {
           "end": 4231,
           "readings": {
-            "primary": "ha•ds"
+            "tcp": "ha•ds"
           },
           "start": 4226
         },
         {
-          "end": 4309,
+          "end": 4308,
           "readings": {
-            "primary": "for•"
+            "tcp": "for•"
           },
-          "start": 4305
+          "start": 4304
         },
         {
-          "end": 4319,
+          "end": 4318,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
-          "start": 4316
+          "start": 4315
         },
         {
-          "end": 4332,
+          "end": 4331,
           "readings": {
-            "primary": "••••cracies."
+            "tcp": "••••cracies."
           },
-          "start": 4320
+          "start": 4319
         },
         {
-          "end": 4474,
+          "end": 4473,
           "readings": {
-            "primary": "ſ••rt,"
+            "tcp": "ſ••rt,"
           },
-          "start": 4468
+          "start": 4467
         },
         {
-          "end": 4564,
+          "end": 4563,
           "readings": {
-            "primary": "••"
+            "tcp": "••"
           },
-          "start": 4562
+          "start": 4561
         }
       ]
     },
@@ -529,49 +529,49 @@
         "11"
       ],
       "ref": "Monroe.14",
-      "text": "It is true the improvement of government under this form, by repreſentation, the diſcovery of which is attributed to modern times, might make ſome difference in this reſpect, but are there no bounds within which it ſhould ſtill be reſtrained? Shall it attempt things that ſeem from the concurrent teſtimony of all hiſtory to be the appropriate object of deſpotiſm? Maladies that are incurable after they have afflicted the body with all the pain and anguiſh incident, to a frail and feveriſh being, exhauſted its efforts, and worn out its conſtitution, complete the work by terminating its exiſtence. This government too, after having experienced the viciſitudes of fortune that might accompany its natural imperfections, of laws badly formed and indifferently executed, of anarchy diſorder and confuſion, after having worn out and broken the ſpirits of the people, would alſo have its end. But what form it would then aſſume is left for time to develope. The diſeaſes of every government ſuggeſt its remedy. Other circumſtances it is true give it a byas, but theſe have a principal influence in direct•ng its courſe. Thoſe of the federal ſyſtem and which owed their birth and enormity to the want of ſtrength in the federal head, had diſpoſed the people to agree to an annihilation of their ſtate governments, which yielded to the preſent one. Had this change been accompliſhed, by the deſigns of wicked and abandoned men, by the uſurpations of a tyrant, o• the ſeductions of art and intrigue, it is to be preſumed, and the experience ••ther countries hath approved it, that the people would now return to that they had forſake ••ith a degree of zeal and fervor proportioned to the ſufferings they had borne.* But if a long and patient experience had ſhewn its defects, a calm and diſpaſſionate appeal had been made to their underſtandings, and a recollection of the great calamities, it had inflicted on them, demonſtrated it was neither calculated, for the care of their liberties, their ſafety or common intereſts, they would make a new experiment and take a different courſe. From the cauſes above ſtated the incapacity of the legiſlative branch to form happy, wiſe, or uniform laws for the government of a territory ſo extenſive, and of a people in purſuit of objects ſo oppoſite in their nature, had perhaps already often clogged its operations and ſuſpended its courſe. This had gradually alienated the affections of the people and created in them a contempt for this branch of the government. The powers of the executive had of courſe been proportionably increaſed, for it is natural for the latter to ſupply the defects of the former. Accuſtomed to behold it in miniature, and to derive relief from its friendly interference, the people are at length prepared to have recourſe to a Royal government, as the laſt reſort the only ſafe aſſylum for the miſerable and oppreſſed. And this perhaps would be the iſſue of the preſent government; and for theſe reaſons I ſhould dread its eſtabliſhment over theſe ſtates. For to howe•• low a• pitiable a condition we may have fallen; however deſervedly we may have acquired the contempt and ſcorn of nations, yet I had rather ſubmit in peace and quiet, to thoſe reproaches which the proud and diſdainful may throw upon us, than by commencing on a ſtage upon which the fortunes of all nations have been wrecked, however ſplendid and meteor like our tranſient exhibition might be, riſk the enjoyment of thoſe bleſſings we now poſſeſs",
+      "text": "It is true the improvement of government under this form, by repreſentation, the diſcovery of which is attributed to modern times, might make ſome difference in this reſpect, but are there no bounds within which it ſhould ſtill be reſtrained? Shall it attempt things that ſeem from the concurrent teſtimony of all hiſtory to be the appropriate object of deſpotiſm? Maladies that are incurable after they have afflicted the body with all the pain and anguiſh incident, to a frail and feveriſh being, exhauſted its efforts, and worn out its conſtitution, complete the work by terminating its exiſtence. This government too, after having experienced the viciſitudes of fortune that might accompany its natural imperfections, of laws badly formed and indifferently executed, of anarchy diſorder and confuſion, after having worn out and broken the ſpirits of the people, would alſo have its end. But what form it would then aſſume is left for time to develope. The diſeaſes of every government ſuggeſt its remedy. Other circumſtances it is true give it a byas, but theſe have a principal influence in direct•ng its courſe. Thoſe of the federal ſyſtem and which owed their birth and enormity to the want of ſtrength in the federal head, had diſpoſed the people to agree to an annihilation of their ſtate governments, which yielded to the preſent one. Had this change been accompliſhed, by the deſigns of wicked and abandoned men, by the uſurpations of a tyrant, o• the ſeductions of art and intrigue, it is to be preſumed, and the experience ••ther countries hath approved it, that the people would now return to that they had forſake ••ith a degree of zeal and fervor proportioned to the ſufferings they had borne. But if a long and patient experience had ſhewn its defects, a calm and diſpaſſionate appeal had been made to their underſtandings, and a recollection of the great calamities, it had inflicted on them, demonſtrated it was neither calculated, for the care of their liberties, their ſafety or common intereſts, they would make a new experiment and take a different courſe. From the cauſes above ſtated the incapacity of the legiſlative branch to form happy, wiſe, or uniform laws for the government of a territory ſo extenſive, and of a people in purſuit of objects ſo oppoſite in their nature, had perhaps already often clogged its operations and ſuſpended its courſe. This had gradually alienated the affections of the people and created in them a contempt for this branch of the government. The powers of the executive had of courſe been proportionably increaſed, for it is natural for the latter to ſupply the defects of the former. Accuſtomed to behold it in miniature, and to derive relief from its friendly interference, the people are at length prepared to have recourſe to a Royal government, as the laſt reſort the only ſafe aſſylum for the miſerable and oppreſſed. And this perhaps would be the iſſue of the preſent government; and for theſe reaſons I ſhould dread its eſtabliſhment over theſe ſtates. For to howe•• low a• pitiable a condition we may have fallen; however deſervedly we may have acquired the contempt and ſcorn of nations, yet I had rather ſubmit in peace and quiet, to thoſe reproaches which the proud and diſdainful may throw upon us, than by commencing on a ſtage upon which the fortunes of all nations have been wrecked, however ſplendid and meteor like our tranſient exhibition might be, riſk the enjoyment of thoſe bleſſings we now poſſeſs",
       "uncertain": [
         {
           "end": 1105,
           "readings": {
-            "primary": "direct•ng"
+            "tcp": "direct•ng"
           },
           "start": 1096
         },
         {
           "end": 1458,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 1456
         },
         {
           "end": 1542,
           "readings": {
-            "primary": "••ther"
+            "tcp": "••ther"
           },
           "start": 1536
         },
         {
           "end": 1634,
           "readings": {
-            "primary": "••ith"
+            "tcp": "••ith"
           },
           "start": 1629
         },
         {
-          "end": 3034,
+          "end": 3033,
           "readings": {
-            "primary": "howe••"
+            "tcp": "howe••"
           },
-          "start": 3028
+          "start": 3027
         },
         {
-          "end": 3041,
+          "end": 3040,
           "readings": {
-            "primary": "a•"
+            "tcp": "a•"
           },
-          "start": 3039
+          "start": 3038
         }
       ]
     },
@@ -586,7 +586,7 @@
         {
           "end": 846,
           "readings": {
-            "primary": "preponder•te."
+            "tcp": "preponder•te."
           },
           "start": 833
         }
@@ -603,7 +603,7 @@
         {
           "end": 116,
           "readings": {
-            "primary": "a•"
+            "tcp": "a•"
           },
           "start": 114
         }
@@ -622,70 +622,70 @@
         {
           "end": 321,
           "readings": {
-            "primary": "Helveti•"
+            "tcp": "Helveti•"
           },
           "start": 313
         },
         {
           "end": 458,
           "readings": {
-            "primary": "p•wers"
+            "tcp": "p•wers"
           },
           "start": 452
         },
         {
           "end": 615,
           "readings": {
-            "primary": "deſt•oying"
+            "tcp": "deſt•oying"
           },
           "start": 605
         },
         {
           "end": 1022,
           "readings": {
-            "primary": "ſhou•d"
+            "tcp": "ſhou•d"
           },
           "start": 1016
         },
         {
           "end": 1499,
           "readings": {
-            "primary": "eſtab•i•hed"
+            "tcp": "eſtab•i•hed"
           },
           "start": 1488
         },
         {
           "end": 2037,
           "readings": {
-            "primary": "indivi•ual"
+            "tcp": "indivi•ual"
           },
           "start": 2027
         },
         {
           "end": 4557,
           "readings": {
-            "primary": "deſtroy•r"
+            "tcp": "deſtroy•r"
           },
           "start": 4548
         },
         {
           "end": 4709,
           "readings": {
-            "primary": "with•ut"
+            "tcp": "with•ut"
           },
           "start": 4702
         },
         {
           "end": 4822,
           "readings": {
-            "primary": "requi••tions,"
+            "tcp": "requi••tions,"
           },
           "start": 4809
         },
         {
           "end": 5041,
           "readings": {
-            "primary": "u•der"
+            "tcp": "u•der"
           },
           "start": 5036
         }
@@ -702,28 +702,28 @@
         {
           "end": 1568,
           "readings": {
-            "primary": "ſ•ates,"
+            "tcp": "ſ•ates,"
           },
           "start": 1561
         },
         {
           "end": 2002,
           "readings": {
-            "primary": "me••y"
+            "tcp": "me••y"
           },
           "start": 1997
         },
         {
           "end": 2799,
           "readings": {
-            "primary": "t•is"
+            "tcp": "t•is"
           },
           "start": 2795
         },
         {
           "end": 2951,
           "readings": {
-            "primary": "••pends?"
+            "tcp": "••pends?"
           },
           "start": 2943
         }
@@ -740,77 +740,77 @@
         {
           "end": 146,
           "readings": {
-            "primary": "•ocke,"
+            "tcp": "•ocke,"
           },
           "start": 140
         },
         {
           "end": 230,
           "readings": {
-            "primary": "on•y,"
+            "tcp": "on•y,"
           },
           "start": 225
         },
         {
           "end": 241,
           "readings": {
-            "primary": "t•ree"
+            "tcp": "t•ree"
           },
           "start": 236
         },
         {
           "end": 351,
           "readings": {
-            "primary": "l•berty."
+            "tcp": "l•berty."
           },
           "start": 343
         },
         {
           "end": 416,
           "readings": {
-            "primary": "••potiſm,"
+            "tcp": "••potiſm,"
           },
           "start": 407
         },
         {
           "end": 526,
           "readings": {
-            "primary": "divi••on"
+            "tcp": "divi••on"
           },
           "start": 518
         },
         {
           "end": 543,
           "readings": {
-            "primary": "poſ••ble,"
+            "tcp": "poſ••ble,"
           },
           "start": 534
         },
         {
           "end": 589,
           "readings": {
-            "primary": "orga••z•"
+            "tcp": "orga••z•"
           },
           "start": 581
         },
         {
           "end": 592,
           "readings": {
-            "primary": "•o"
+            "tcp": "•o"
           },
           "start": 590
         },
         {
           "end": 633,
           "readings": {
-            "primary": "poſ•tion"
+            "tcp": "poſ•tion"
           },
           "start": 625
         },
         {
           "end": 661,
           "readings": {
-            "primary": "wil•"
+            "tcp": "wil•"
           },
           "start": 657
         }
@@ -836,7 +836,7 @@
         {
           "end": 2055,
           "readings": {
-            "primary": "apprehen•ion"
+            "tcp": "apprehen•ion"
           },
           "start": 2043
         }
@@ -849,7 +849,7 @@
         "15"
       ],
       "ref": "Monroe.22",
-      "text": "But the power of the legiſlature ſhould be confined to thoſe objects, which were intirely legiſlative in their nature, as the regulation of trade, requiſitions for money, and the like. The ſoundeſt authorities and the melancholy experience of our ſtate governments have ſhewn the propriety of this reſtraint, in a conſtitution over one ſtate, and for reaſons that are obvious the expedience, will be the more urgent, in the preſent inſtance. Its natural effort in all caſes is, to graſp to itſelf all the powers delegated from the people,* and to proſtrate the other branches before it; ſtimulated on by the ſtate ſpirit, which will in ſome degree ſtill remain, the difficulty here will be proportionably increaſed. The ingenuity of man can deviſe no other, without an appeal to the people, which if poſſible ſhould always be avoided, than that of giving the Executive, the other active branch an abſolute negative on the laws; for otherwiſe its enterprizes muſt be ſucceſsful. Many reſtraints might be diſignated by the conſtitution, but without effect. And from this at the ſame time that it preſerved the balance of the government, no injury could be ſuſtained Againſt the encroachments of the Executive the fears and apprehenſions of the whole continent would be awake, with a watchful jealouſy they would obſerve its movements. But againſt the legiſlature (if we may reaſon by analogy of that branch in this) from thoſe in other governments, no ſuch apprehenſions could be entertained. Its movements comparitively would be accompanied with the confidence of the people. Every incroachment upon its rights would be popular. In every conteſt between them it muſt of courſe yield the ground. In ſhort unleſs the Executive had a negative on the laws of the legiſlature, it would ſoon exiſt only in name."
+      "text": "But the power of the legiſlature ſhould be confined to thoſe objects, which were intirely legiſlative in their nature, as the regulation of trade, requiſitions for money, and the like. The ſoundeſt authorities and the melancholy experience of our ſtate governments have ſhewn the propriety of this reſtraint, in a conſtitution over one ſtate, and for reaſons that are obvious the expedience, will be the more urgent, in the preſent inſtance. Its natural effort in all caſes is, to graſp to itſelf all the powers delegated from the people, and to proſtrate the other branches before it; ſtimulated on by the ſtate ſpirit, which will in ſome degree ſtill remain, the difficulty here will be proportionably increaſed. The ingenuity of man can deviſe no other, without an appeal to the people, which if poſſible ſhould always be avoided, than that of giving the Executive, the other active branch an abſolute negative on the laws; for otherwiſe its enterprizes muſt be ſucceſsful. Many reſtraints might be diſignated by the conſtitution, but without effect. And from this at the ſame time that it preſerved the balance of the government, no injury could be ſuſtained Againſt the encroachments of the Executive the fears and apprehenſions of the whole continent would be awake, with a watchful jealouſy they would obſerve its movements. But againſt the legiſlature (if we may reaſon by analogy of that branch in this) from thoſe in other governments, no ſuch apprehenſions could be entertained. Its movements comparitively would be accompanied with the confidence of the people. Every incroachment upon its rights would be popular. In every conteſt between them it muſt of courſe yield the ground. In ſhort unleſs the Executive had a negative on the laws of the legiſlature, it would ſoon exiſt only in name."
     },
     {
       "label": "James Monroe, ¶ 23",
@@ -869,12 +869,6 @@
       "text": "But although the legiſlative branch ſhall be elected by the people, and amenable to them alone for their conduct, yet as the ſtate ſovereignties though qualified, will ſtill remain, and of courſe the ſtate ſpirit, in contradiction to a foederal one, from neceſſity be more or leſs influential in its councils, we ſhould turn our attention to the other branches of the government, as our firm reſource. The Executive is that upon which, in many reſpects, we ſhould reſt our hopes, for an equal, a foederal, and a wiſe adminiſtration. Every poſſible effort ſhould therefore be uſed to expell from the hearts of thoſe who fill it, a preference of one part of the community to another. The experience of other governments hath taught us, it is poſſible to deviſe checks, which from motives of policy and private intereſt, will even make bad men faithful public ſervants. The proſpect of reward and the fear of puniſhment, as has already been obſerved, are the moſt powerful incentives to virtuous action. It ſhould therefore be ſo organized, as to give every quarter indeed every man of the union, under the influence of theſe principles, as to thoſe who fill it, an equal acceſs to the human heart, whenever this equipoiſe is deſtroyed, and this high character taught to look up to this, or that ſtate, or combination of ſtates for the ſmiles or the frowns of government, from that moment will its oppreſſion be felt, and a dreadful anarchy inſue. And if you take from thoſe whom the choice of their country hath called forth to this high ſtation, the hope of further favour, and mark to them the extent of ſervice, after the completion of which the door ſhall be forever cloſed upon them, in that degree will you deprive yourſelf of one of the principal inſtruments by which you are to preſerve the equilibrium, and ſecure the public ſafety. Diſcharged forever from the ſervice of the United States, will not the approbation of the union, ceaſe to be the ruling paſſion, and an accommodation to ſtate intereſts take its place and influence many of the public meaſures? For theſe reaſons I could wiſh to ſee the right of impeachment, extended upon as liberal ground as poſſible, given for inſtance to the repreſentatives of one third of the confederacy; and I could likewiſe wiſh to ſee the citizen at the head of this department, capable of re-election at the expiration of his ſervice which ſhould be at the end of every three or four years, ſo long as he ſhould merit the confidence of his country."
     },
     {
-      "emphasis": [
-        [
-          843,
-          853
-        ]
-      ],
       "label": "James Monroe, ¶ 25",
       "pages": [
         "16"
@@ -885,7 +879,7 @@
         {
           "end": 251,
           "readings": {
-            "primary": "deci••on"
+            "tcp": "deci••on"
           },
           "start": 243
         }
@@ -920,84 +914,84 @@
         {
           "end": 469,
           "readings": {
-            "primary": "wh•m"
+            "tcp": "wh•m"
           },
           "start": 465
         },
         {
           "end": 907,
           "readings": {
-            "primary": "inconveni•••ce"
+            "tcp": "inconveni•••ce"
           },
           "start": 893
         },
         {
           "end": 1091,
           "readings": {
-            "primary": "T•e"
+            "tcp": "T•e"
           },
           "start": 1088
         },
         {
           "end": 1741,
           "readings": {
-            "primary": "pu•••c"
+            "tcp": "pu•••c"
           },
           "start": 1735
         },
         {
           "end": 1926,
           "readings": {
-            "primary": "ſ•••e,"
+            "tcp": "ſ•••e,"
           },
           "start": 1920
         },
         {
           "end": 2124,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 2121
         },
         {
           "end": 2128,
           "readings": {
-            "primary": "••e"
+            "tcp": "••e"
           },
           "start": 2125
         },
         {
           "end": 2164,
           "readings": {
-            "primary": "Cou••"
+            "tcp": "Cou••"
           },
           "start": 2159
         },
         {
           "end": 2224,
           "readings": {
-            "primary": "a••ve"
+            "tcp": "a••ve"
           },
           "start": 2219
         },
         {
           "end": 2319,
           "readings": {
-            "primary": "••ſpec•ive"
+            "tcp": "••ſpec•ive"
           },
           "start": 2309
         },
         {
           "end": 2410,
           "readings": {
-            "primary": "••ate,"
+            "tcp": "••ate,"
           },
           "start": 2404
         },
         {
           "end": 2449,
           "readings": {
-            "primary": "cogn•zance"
+            "tcp": "cogn•zance"
           },
           "start": 2439
         }
@@ -1014,7 +1008,7 @@
         {
           "end": 119,
           "readings": {
-            "primary": "pow•rs,"
+            "tcp": "pow•rs,"
           },
           "start": 112
         }
@@ -1031,84 +1025,84 @@
         {
           "end": 133,
           "readings": {
-            "primary": "reſour•e,"
+            "tcp": "reſour•e,"
           },
           "start": 124
         },
         {
           "end": 151,
           "readings": {
-            "primary": "reſp•ctability"
+            "tcp": "reſp•ctability"
           },
           "start": 137
         },
         {
           "end": 913,
           "readings": {
-            "primary": "wou•d"
+            "tcp": "wou•d"
           },
           "start": 908
         },
         {
           "end": 1135,
           "readings": {
-            "primary": "th•ſe"
+            "tcp": "th•ſe"
           },
           "start": 1130
         },
         {
           "end": 1264,
           "readings": {
-            "primary": "ſatisf•ctory"
+            "tcp": "ſatisf•ctory"
           },
           "start": 1252
         },
         {
           "end": 1280,
           "readings": {
-            "primary": "conc•uſ•ve,"
+            "tcp": "conc•uſ•ve,"
           },
           "start": 1269
         },
         {
           "end": 1488,
           "readings": {
-            "primary": "t•e"
+            "tcp": "t•e"
           },
           "start": 1485
         },
         {
           "end": 1663,
           "readings": {
-            "primary": "p•rhaps"
+            "tcp": "p•rhaps"
           },
           "start": 1656
         },
         {
           "end": 1672,
           "readings": {
-            "primary": "o•ly"
+            "tcp": "o•ly"
           },
           "start": 1668
         },
         {
           "end": 1769,
           "readings": {
-            "primary": "pri•ciples"
+            "tcp": "pri•ciples"
           },
           "start": 1759
         },
         {
           "end": 1966,
           "readings": {
-            "primary": "branch••,"
+            "tcp": "branch••,"
           },
           "start": 1957
         },
         {
           "end": 1984,
           "readings": {
-            "primary": "examin•tion"
+            "tcp": "examin•tion"
           },
           "start": 1973
         }
@@ -1117,8 +1111,7 @@
     {
       "label": "James Monroe, ¶ 31",
       "pages": [
-        "18",
-        "[19]"
+        "18"
       ],
       "ref": "Monroe.31",
       "text": "Its diviſion into two branches an houſe of repreſentatives and ſenate has appeared to me to to be perfectly right; and the mode preſcribed for the election of the members o• the former by the people not only practicable, but highly commendable. The right of originating money bills, and of impeachment, have alſo been properly aſſigned to this bran•h; the term of ſ•rvice and the principle of repreſentation upon which its houſe will be formed appear likewiſe inexceptionable. In ſhort this branch of the legiſlative is organized entirely to my wiſhes. I muſt however confeſs my mind has not as yet acknowledged in there reſpects, the ſame prepoſſeſſions poſſeſſions in favour of the ſenate. The great defect as has been already often obſerved in the preſent form, is that of its being a diplomatic corps, a government by and for ſtates, and not in any view of it a national one. In changing it, the object ſhould be to correct that defect in all caſes whatever, ſo far as it might be practicable, which can only be done by taking the appointment of 〈…〉 of the hands of the ſtates, in their legiſlative characters, and placing it in thoſe of the people, or electors by them appointed for the pu•poſe. This has been done with the members of the houſe of repreſentatives, but departed from with thoſe of the Senate. This branch will therefore be in every reſpect the repreſentative of the ſtates, dependent on and reſponſible to them for their conduct. In forming a right eſtimate of the conſequences reſulting from this property in the choracter of this body, and of the tone it may give to the meaſures of the government, we muſt examine its powers in every direction, and purſue its operation upon every ſubject. And firſt as to its ſhare in the legiſlature •• its influence upon all legiſlative acts.",
@@ -1126,42 +1119,42 @@
         {
           "end": 173,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 171
         },
         {
           "end": 351,
           "readings": {
-            "primary": "bran•h;"
+            "tcp": "bran•h;"
           },
           "start": 344
         },
         {
           "end": 371,
           "readings": {
-            "primary": "ſ•rvice"
+            "tcp": "ſ•rvice"
           },
           "start": 364
         },
         {
           "end": 1053,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 1050
         },
         {
           "end": 1200,
           "readings": {
-            "primary": "pu•poſe."
+            "tcp": "pu•poſe."
           },
           "start": 1192
         },
         {
           "end": 1761,
           "readings": {
-            "primary": "••"
+            "tcp": "••"
           },
           "start": 1759
         }
@@ -1169,38 +1162,29 @@
     },
     {
       "label": "James Monroe, ¶ 32",
-      "pages": [
-        "[19]"
-      ],
+      "pages": [],
       "ref": "Monroe.32",
       "text": "The ſenate has an abſolute negative upon all laws; from this it reſults that thoſe not for the advantage of the ſtates, or the prevailing fac•ion in the government, to which they reſpectively belong will by thoſe thus circumſtanced be rejected; for is it to be preſumed that becauſe ten members from Virginia, eight from Maſſachuſetts or Pennſylvania in the houſe of repreſentatives, have paſſed a bill, whilſt one from Rhode Iſland or Delaware only had rejected it, that theſe ſtates will give up their equal ſuffrage in the ſenate? Is it not more preſumable that their ſenators will look on at the nominal and unimportant ſuperiority of thoſe ſtates, in the other houſe, laugh at their ſuppoſed triumph, and await coolly its ſubmiſſion to their board, where its ſate will be inevitable? Or is it to be ſuppoſed, that the right to orig•nate money bills, a thing proper in itſelf, being the more democratic branch, in the houſe of repreſentatives, will controul this diſpoſition, eſpecially when we recollect that they are both only repreſentative branches, equally dependent on the paſſage of ſuch a bill for their wages or ſalary, and that the members of the latter holding their offices for a ſhorter term, have perhaps not been able to introduce ſuch a degree of oeconomy and order into their finances. This is a check of great importance in the Engliſh conſtitution, and indeed the preſervation of the democracy, but the conſtruction and principles of the two governments are ſo radically different, that it will be eaſily perceived by the ſlighteſt obſerver, the ſame effects are not to be expected from it, at leaſt not to the ſame extent in this, that are experienced in that. Making due allowance for thoſe conſiderations that ſhould be taken into view, I am therefore led to believe that the defective principles of the preſent government, through the means of the ſenate, in reſpect to form and repreſentation, have been communicated to this branch of the conſtitution. Appointed by the ſtates and of courſe reſponſible to them for their conduct, the ſenators will act for thoſe to which they reſpectively belong; nor can we reaſonably expect from their conceſſion any great accommodation. Thus the ſtate ſpirit, with an equality among the members of the union, will be preſerved in this branch of the government, and if there was an abſolute neceſſity for yielding the point of repreſentation, yet none ſuggeſts itſelf, at leaſt to me, for not remedying the defect in the form, which has been found ſo pernicious in the preſent one.",
       "uncertain": [
         {
           "end": 145,
           "readings": {
-            "primary": "fac•ion"
+            "tcp": "fac•ion"
           },
           "start": 138
         },
         {
           "end": 841,
           "readings": {
-            "primary": "orig•nate"
+            "tcp": "orig•nate"
           },
           "start": 832
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          45,
-          53
-        ]
-      ],
       "label": "James Monroe, ¶ 33",
       "pages": [
-        "[19]",
         "20"
       ],
       "ref": "Monroe.33",
@@ -1209,14 +1193,14 @@
         {
           "end": 393,
           "readings": {
-            "primary": "〈…〉,"
+            "tcp": "〈…〉,"
           },
           "start": 389
         },
         {
           "end": 628,
           "readings": {
-            "primary": "〈…〉."
+            "tcp": "〈…〉."
           },
           "start": 624
         }
@@ -1233,16 +1217,15 @@
     {
       "label": "James Monroe, ¶ 35",
       "pages": [
-        "20",
-        "[21]"
+        "20"
       ],
       "ref": "Monroe.35",
-      "text": "The placing the executive power in the hands of one perſon, appears to be perfectly right. If this branch had been put into commiſſion, the ſtate ſpirit would have been communicated to it, and have tainted all its meaſures; in addition to this there would have been leſs reſponſibility. But the mode of election, does not in all reſpects appear, to merit ſuch commendation A departure from the ſtrict repreſentative line, by adding the equal vote of the ſenate to the number each ſtate hath in the houſe of repreſentatives, is made in the firſt inſtance; but it is ſtill more exceptionable in other reſpects. If an election ſhall not be made, and in all probability this will often be the caſe, indeed the preſumption is the contrary will ſeldom happen, a very extraordinary ſubſidiary mode is reſorted to. Thoſe having the five higheſt votes are to be ballotted for by the houſe of repreſentatives, the vote to be taken by ſtates, and one member from each 〈◊〉 the vote of the ſtate. All caſes that the conſtitution will admit of, ſhould be conſidered as likely to happen ſome time or other. No perſon then I am perſuaded who will make the calculation, can behold the facility by which the chair of the United States may be approached and atchieved, even contrary to the wiſhes of the people, without equal anxiety and ſurprize*. Let it be admitted that the temper of the times and the ardent ſpirit of liberty which now prevails, will guard it for the preſent from ſuch eaſy acceſs; but that perſon has profited but little, from the faithful admonition which all hiſtory has given him, who ſhall conclude from thence, that this will always be the caſe. His right to remain in office after impeachment, with the influence though diminiſhed, ſtill attending it, appears to be highly improper. That of adjournment in caſe of impeachment, between the two branches, to ſuch time as he ſhall think fit, is certainly too unqualified and extenſive. The impropriety of the union of this branch with the ſenate has already been ſufficiently dilated on; it will therefore be unneceſſary to repeat the ſame arguments here. Contemplating however the conſequences of this union, the expiration of his ſervice, ſhould in my opinion be accompanied with a temporary diſqualification. The ſenators, would to ſave the commonwealth from injury, be able to give inſtruction to a new priſident, and it would perhaps be better, to change occaſionally the acting party, of a combination that might otherwiſe be dangerous.",
+      "text": "The placing the executive power in the hands of one perſon, appears to be perfectly right. If this branch had been put into commiſſion, the ſtate ſpirit would have been communicated to it, and have tainted all its meaſures; in addition to this there would have been leſs reſponſibility. But the mode of election, does not in all reſpects appear, to merit ſuch commendation A departure from the ſtrict repreſentative line, by adding the equal vote of the ſenate to the number each ſtate hath in the houſe of repreſentatives, is made in the firſt inſtance; but it is ſtill more exceptionable in other reſpects. If an election ſhall not be made, and in all probability this will often be the caſe, indeed the preſumption is the contrary will ſeldom happen, a very extraordinary ſubſidiary mode is reſorted to. Thoſe having the five higheſt votes are to be ballotted for by the houſe of repreſentatives, the vote to be taken by ſtates, and one member from each 〈◊〉 the vote of the ſtate. All caſes that the conſtitution will admit of, ſhould be conſidered as likely to happen ſome time or other. No perſon then I am perſuaded who will make the calculation, can behold the facility by which the chair of the United States may be approached and atchieved, even contrary to the wiſhes of the people, without equal anxiety and ſurprize. Let it be admitted that the temper of the times and the ardent ſpirit of liberty which now prevails, will guard it for the preſent from ſuch eaſy acceſs; but that perſon has profited but little, from the faithful admonition which all hiſtory has given him, who ſhall conclude from thence, that this will always be the caſe. His right to remain in office after impeachment, with the influence though diminiſhed, ſtill attending it, appears to be highly improper. That of adjournment in caſe of impeachment, between the two branches, to ſuch time as he ſhall think fit, is certainly too unqualified and extenſive. The impropriety of the union of this branch with the ſenate has already been ſufficiently dilated on; it will therefore be unneceſſary to repeat the ſame arguments here. Contemplating however the conſequences of this union, the expiration of his ſervice, ſhould in my opinion be accompanied with a temporary diſqualification. The ſenators, would to ſave the commonwealth from injury, be able to give inſtruction to a new priſident, and it would perhaps be better, to change occaſionally the acting party, of a combination that might otherwiſe be dangerous.",
       "uncertain": [
         {
           "end": 960,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 957
         }
@@ -1251,7 +1234,6 @@
     {
       "label": "James Monroe, ¶ 36",
       "pages": [
-        "[21]",
         "22"
       ],
       "ref": "Monroe.36",
@@ -1260,7 +1242,7 @@
         {
           "end": 3448,
           "readings": {
-            "primary": "th•ir"
+            "tcp": "th•ir"
           },
           "start": 3443
         }
@@ -1278,28 +1260,28 @@
         {
           "end": 903,
           "readings": {
-            "primary": "di••ction."
+            "tcp": "di••ction."
           },
           "start": 893
         },
         {
           "end": 1057,
           "readings": {
-            "primary": "••ate"
+            "tcp": "••ate"
           },
           "start": 1052
         },
         {
           "end": 4678,
           "readings": {
-            "primary": "calcul•ted"
+            "tcp": "calcul•ted"
           },
           "start": 4668
         },
         {
           "end": 4957,
           "readings": {
-            "primary": "fal•s"
+            "tcp": "fal•s"
           },
           "start": 4952
         }
@@ -1317,70 +1299,70 @@
         {
           "end": 173,
           "readings": {
-            "primary": "u•d•r"
+            "tcp": "u•d•r"
           },
           "start": 168
         },
         {
           "end": 533,
           "readings": {
-            "primary": "reſu•ts"
+            "tcp": "reſu•ts"
           },
           "start": 526
         },
         {
           "end": 634,
           "readings": {
-            "primary": "a•d"
+            "tcp": "a•d"
           },
           "start": 631
         },
         {
           "end": 1447,
           "readings": {
-            "primary": "wie•ding"
+            "tcp": "wie•ding"
           },
           "start": 1439
         },
         {
           "end": 1530,
           "readings": {
-            "primary": "controu•ing"
+            "tcp": "controu•ing"
           },
           "start": 1519
         },
         {
           "end": 1850,
           "readings": {
-            "primary": "bl•d"
+            "tcp": "bl•d"
           },
           "start": 1846
         },
         {
           "end": 1879,
           "readings": {
-            "primary": "an•"
+            "tcp": "an•"
           },
           "start": 1876
         },
         {
           "end": 2073,
           "readings": {
-            "primary": "ſup••ſ•d"
+            "tcp": "ſup••ſ•d"
           },
           "start": 2065
         },
         {
           "end": 2085,
           "readings": {
-            "primary": "un•eſs"
+            "tcp": "un•eſs"
           },
           "start": 2079
         },
         {
           "end": 2163,
           "readings": {
-            "primary": "•ooſe"
+            "tcp": "•ooſe"
           },
           "start": 2158
         }
@@ -1397,14 +1379,14 @@
         {
           "end": 283,
           "readings": {
-            "primary": "extreme••"
+            "tcp": "extreme••"
           },
           "start": 274
         },
         {
           "end": 957,
           "readings": {
-            "primary": "attachment•"
+            "tcp": "attachment•"
           },
           "start": 946
         }
@@ -1421,26 +1403,20 @@
         {
           "end": 107,
           "readings": {
-            "primary": "\"〈◊〉\""
+            "tcp": "\"〈◊〉\""
           },
           "start": 102
         },
         {
           "end": 156,
           "readings": {
-            "primary": "\"〈◊〉\""
+            "tcp": "\"〈◊〉\""
           },
           "start": 151
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          9
-        ]
-      ],
       "kind": "footnote",
       "label": "James Monroe, note 1",
       "pages": [
@@ -1450,12 +1426,6 @@
       "text": "Polybius, vol. 3, page 92."
     },
     {
-      "emphasis": [
-        [
-          25,
-          36
-        ]
-      ],
       "kind": "footnote",
       "label": "James Monroe, note 2",
       "pages": [
@@ -1485,7 +1455,7 @@
         {
           "end": 98,
           "readings": {
-            "primary": "•r"
+            "tcp": "•r"
           },
           "start": 96
         }

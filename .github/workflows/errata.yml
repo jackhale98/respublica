@@ -102,6 +102,12 @@ jobs:
           path: sources/raw/ia-record-*
           key: raw-iarecord-${{ steps.raw-keys.outputs.iarecord }}
           restore-keys: raw-iarecord-
+      - if: contains(format(',{0},', steps.scope.outputs.families), ',iadecl,')
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: sources/raw/ia-decl-*
+          key: raw-iadecl-${{ steps.raw-keys.outputs.iadecl }}
+          restore-keys: raw-iadecl-
       - name: Re-run the importers the corrections touch
         env:
           IMPORTERS: ${{ steps.scope.outputs.importers }}

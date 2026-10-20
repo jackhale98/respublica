@@ -29,7 +29,7 @@
   ],
   "edition": {
     "name": "Substance of an Address to a Meeting of the Citizens of Philadelphia (Philadelphia: Printed by Zachariah Poulson, Junr. in Fourth-Street, between Market and Arch-Streets. MDCCLXXXVIII. [1788]), Evans 21028",
-    "notes": "Substance of an Address to a Meeting of the Citizens of Philadelphia (Philadelphia: Printed by Zachariah Poulson, Junr. in Fourth-Street, between Market and Arch-Streets. MDCCLXXXVIII. [1788]), Evans 21028: the Text Creation Partnership's typed transcription, Evans-TCP N16378 (https://github.com/textcreationpartnership/N16378), CC0. The transcription is the text, with the printing's spelling and the long s as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (0 in 2426 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
+    "notes": "Substance of an Address to a Meeting of the Citizens of Philadelphia (Philadelphia: Printed by Zachariah Poulson, Junr. in Fourth-Street, between Market and Arch-Streets. MDCCLXXXVIII. [1788]), Evans 21028: the Text Creation Partnership's typed transcription, Evans-TCP N16378 (https://github.com/textcreationpartnership/N16378), CC0. The transcription is the text, with the printing's spelling and the long s (ſ) as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (0 in 2426 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
   },
   "id": "wilson-speech",
   "position": "federalist",
@@ -38,7 +38,6 @@
     {
       "label": "James Wilson's Speech, ¶ 1",
       "pages": [
-        "[25]",
         "26"
       ],
       "ref": "WilsonSpeech.1",
@@ -105,19 +104,9 @@
         "33"
       ],
       "ref": "WilsonSpeech.8",
-      "text": "After all, my fellow-citizens, it is neither extraordinary nor unexpected, that the conſtitution offered to your conſideration, ſhould meet with oppoſition. It is the nature of man to purſue his own intereſt, in preference to the public good; and I do not mean to make any perſonal reflection, when I add, that it is the intereſt of a very numerous, powerful, and reſpectable body, to counteract and deſtroy the excellent work produced by the late convention. All the officers of government, and all the appointments for the adminiſtration of juſtice and the collection of the public revenue, which are transferred from the individual to the aggregate ſovereignty of the ſtates, will neceſſarily turn the ſtream of influence and emolument into a new channel. Every perſon, therefore, who either enjoys, or expects to enjoy a place of profit under the preſent eſtabliſhment, will object to the propoſed innovation? not, in truth, becauſe it is injurious to the liberties of his country, but becauſe it effects his ſchemes of wealth and conſequence. I will confeſs, indeed, that I am not a blind admirer of this plan of government, and that there are ſome parts of it, which, if my wiſh had prevailed, would certainly have been altered. But, when I reflect how widely men differ in their opinions, and that every man (and the obſervation applies likewiſe to every ſtate) has an equal pretenſion to aſſert his own, I am ſatisfied that any thing nearer to perfection could not have been accompliſhed. If there are errors, it ſhould be remembered, that the ſeeds of reformation are ſown in the work itſelf, and the concurrence of two thirds of the congreſs may at any time introduce alterations and amendments. Regarding it, then, in every point of view, with a candid and diſintereſted mind, I am bold to aſſert, that it is the BEST FORM OF GOVERNMENT WHICH HAS EVER BEEN OFFERED TO THE WORLD.*"
+      "text": "After all, my fellow-citizens, it is neither extraordinary nor unexpected, that the conſtitution offered to your conſideration, ſhould meet with oppoſition. It is the nature of man to purſue his own intereſt, in preference to the public good; and I do not mean to make any perſonal reflection, when I add, that it is the intereſt of a very numerous, powerful, and reſpectable body, to counteract and deſtroy the excellent work produced by the late convention. All the officers of government, and all the appointments for the adminiſtration of juſtice and the collection of the public revenue, which are transferred from the individual to the aggregate ſovereignty of the ſtates, will neceſſarily turn the ſtream of influence and emolument into a new channel. Every perſon, therefore, who either enjoys, or expects to enjoy a place of profit under the preſent eſtabliſhment, will object to the propoſed innovation? not, in truth, becauſe it is injurious to the liberties of his country, but becauſe it effects his ſchemes of wealth and conſequence. I will confeſs, indeed, that I am not a blind admirer of this plan of government, and that there are ſome parts of it, which, if my wiſh had prevailed, would certainly have been altered. But, when I reflect how widely men differ in their opinions, and that every man (and the obſervation applies likewiſe to every ſtate) has an equal pretenſion to aſſert his own, I am ſatisfied that any thing nearer to perfection could not have been accompliſhed. If there are errors, it ſhould be remembered, that the ſeeds of reformation are ſown in the work itſelf, and the concurrence of two thirds of the congreſs may at any time introduce alterations and amendments. Regarding it, then, in every point of view, with a candid and diſintereſted mind, I am bold to aſſert, that it is the BEST FORM OF GOVERNMENT WHICH HAS EVER BEEN OFFERED TO THE WORLD."
     },
     {
-      "emphasis": [
-        [
-          82,
-          90
-        ],
-        [
-          175,
-          183
-        ]
-      ],
       "kind": "footnote",
       "label": "James Wilson's Speech, note 1",
       "pages": [

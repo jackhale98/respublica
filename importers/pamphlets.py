@@ -174,63 +174,53 @@ WORKS = [
 ]
 
 FINIS = re.compile(r"^FINIS\.?$")
-BODY = ("p", "l", "bibl", "item", "byline")
 
 
-def check_header(work: dict) -> tcp.Header:
+def check_header(work: dict) -> dict:
     """The TCP header must name this printing, and its pages must all be there."""
     sid = tcp.source_id(work["tcp"])
-    h = tcp.header(sid)
+    root = tcp.load(sid)
+    h = tcp.header(root)
     want = work["expect"]
-    _expect(h.tcp == work["tcp"], f"{sid}: the header's TCP number is {h.tcp!r}")
-    _expect(h.evans == want["evans"], f"{sid}: the header's Evans number is {h.evans!r}, not {want['evans']!r}")
-    _expect(want["publisher"] in h.publisher, f"{sid}: the imprint reads {h.publisher!r}")
-    _expect(want["date"] in h.date, f"{sid}: the date reads {h.date!r}")
-    _expect(h.extent.startswith(f"{want['pages']}"), f"{sid}: the extent reads {h.extent!r}")
-    _expect("Creative Commons 0 1.0 Universal" in h.licence, f"{sid}: the licence reads {h.licence!r}")
-    # Every page has a page break, in order, and the last numbered one is
-    # the last the catalogue counts.
-    pages = tcp.page_list(sid)
-    numbered = [int(p) for p in pages if p.isdigit()]
-    counted = [int(p.strip("[]")) for p in pages if p]
-    _expect(counted == list(range(counted[0], counted[0] + len(counted))) and max(numbered) == want["pages"],
-            f"{sid}: the pages are not 1–{want['pages']} in order: {pages}")
+    _expect(h["tcp"] == work["tcp"], f"{sid}: the header's TCP number is {h['tcp']!r}")
+    _expect(h["catalogue"] == want["evans"], f"{sid}: the header's Evans number is {h['catalogue']!r}")
+    _expect(want["publisher"] in h["publisher"], f"{sid}: the imprint reads {h['publisher']!r}")
+    _expect(want["date"] in h["date"], f"{sid}: the date reads {h['date']!r}")
+    _expect(h["extent"].startswith(f"{want['pages']}"), f"{sid}: the extent reads {h['extent']!r}")
+    _expect("Creative Commons 0 1.0 Universal" in h["licence"], f"{sid}: the licence reads {h['licence']!r}")
+    # Every page has a page break, in order: between two numbered pages, as
+    # many breaks as their numbers are apart; the last numbered page is the
+    # last the catalogue counts.
+    pbs = [pb.get("n") or "" for pb in root.find(f"{tcp.TEI}text").iter(f"{tcp.TEI}pb")]
+    numbered = [(i, int(n)) for i, n in enumerate(pbs) if n.isdigit()]
+    _expect(all(b[1] - a[1] == b[0] - a[0] for a, b in zip(numbered, numbered[1:]))
+            and numbered[-1][1] == want["pages"], f"{sid}: pages missing or out of order: {pbs}")
     return h
 
 
-def find(divs: list[tcp.Div], sel: tuple[str, str, int]) -> tcp.Div:
+def find(divs: list[tcp.Division], sel: tuple[str, str, int]) -> tcp.Division:
     part, kind, k = sel
-    found = [d for top in divs if top.part == part for d in top.walk() if d.type == kind]
+    found = [d for d in divs if d.part == part and d.type == kind]
     _expect(k < len(found), f"no division {sel}")
     return found[k]
 
 
 def joined(blocks: list[tcp.Block], sep: str = " ") -> tuple[str, list[dict]]:
-    """Blocks as one line (or, with sep "\\n", one line each), with the words
-    holding a gap as uncertain spans. Lines inside a block (a list of
-    names) are joined with spaces in a heading line."""
+    """Blocks as one line (or, with sep "\\n", a line each), with the words
+    holding a gap as uncertain spans."""
     parts, spans, at = [], [], 0
     for b in blocks:
-        text = b.text.replace("\n", " ") if sep == " " else b.text
         spans += [{**s, "end": s["end"] + at, "start": s["start"] + at} for s in tcp.gap_spans(b)]
-        parts.append(text)
-        at += len(text) + len(sep)
+        parts.append(b.text)
+        at += len(b.text) + len(sep)
     return sep.join(parts), spans
 
 
 def segment(ref: str, label: str, blocks: list[tcp.Block], kind: str | None = None) -> dict:
     text, spans = joined(blocks, "\n")
-    emphasis, at = [], 0
-    for b in blocks:
-        emphasis += [[s + at, e + at] for s, e in b.emphasis]
-        at += len(b.text) + 1
     text, spans, fixed = corrections.apply(ref, text, spans)
-    if fixed:
-        emphasis = []  # (a correction moves the text; italics are not kept across one)
     pages = list(dict.fromkeys(p for b in blocks for p in b.pages))
     seg = {"label": label, "pages": pages, "ref": ref, "text": text}
-    if emphasis:
-        seg["emphasis"] = emphasis
     if kind:
         seg["kind"] = kind
     if spans:
@@ -240,24 +230,22 @@ def segment(ref: str, label: str, blocks: list[tcp.Block], kind: str | None = No
     return seg
 
 
-def read_part(work: dict, divs: list[tcp.Div], part: dict) -> tuple[dict, list[dict]]:
+def read_part(work: dict, divs: list[tcp.Division], part: dict) -> tuple[dict, list[dict]]:
     """A part's division and its passages."""
     d = find(divs, part["div"])
     single = part["ref"] == ""
     base = work["slug"] if single else f"{work['slug']}.{part['ref']}"
     label = part["label"] if single else f"{work['short']}, {part['label']}"
-    heads = [b for b in find(divs, part["lead"]).blocks if b.kind == "head"] if part.get("lead") else []
+    heads = [b for b in find(divs, part["lead"]).blocks() if b.kind == "head"] if part.get("lead") else []
     salute, body, closing, notes = [], [], [], []
-    for b in d.blocks:
+    for b in d.blocks():
         if b.kind == "note":
             notes.append(b)
-        elif b.kind in ("head", "dateline") and not body and not salute:
-            heads.append(b)
+        elif b.kind in ("head", "dateline") and not body:
+            heads.append(b)  # (a date line above or under the salutation)
         elif b.kind == "salute" and not body:
             salute.append(b)
-        elif b.kind == "dateline" and not body:
-            heads.append(b)  # a date line under the salutation
-        elif b.kind in BODY or (b.kind == "head" and body):
+        elif b.kind == "p" or (b.kind == "head" and body):
             _expect(not closing, f"{base}: text after the signature: {b.text[:60]!r}")
             body.append(b)
         elif b.kind in ("signed", "dateline", "salute") or (b.kind == "trailer" and not FINIS.match(b.text)):
@@ -287,26 +275,26 @@ def read_part(work: dict, divs: list[tcp.Div], part: dict) -> tuple[dict, list[d
     segments = []
     for x in part.get("extra", []):
         if x["at"] == "start":
-            segments.append(segment(f"{base}.{x['ref']}", f"{label}, {x['label']}", find(divs, x["div"]).blocks))
+            segments.append(segment(f"{base}.{x['ref']}", f"{label}, {x['label']}", find(divs, x["div"]).blocks()))
     segments += [segment(f"{base}.{n}", f"{label}, ¶ {n}", [b]) for n, b in enumerate(body, 1)]
     for x in part.get("extra", []):
         if x["at"] == "end":
-            segments.append(segment(f"{base}.{x['ref']}", f"{label}, {x['label']}", find(divs, x["div"]).blocks))
+            segments.append(segment(f"{base}.{x['ref']}", f"{label}, {x['label']}", find(divs, x["div"]).blocks()))
     segments += [segment(f"{base}.fn{k}", f"{label}, note {k}", [b], "footnote") for k, b in enumerate(notes, 1)]
     return division, segments
 
 
-def imprint(h: tcp.Header) -> str:
+def imprint(h: dict) -> str:
     """The printing as the TCP header gives it."""
-    place = h.place.rstrip(" :,")
-    publisher = h.publisher.rstrip(" ,")
-    return f"{place}: {publisher}{' ' if publisher.endswith('.') else ', '}{h.date.rstrip(' .')}"
+    place = h["place"].rstrip(" :,")
+    publisher = h["publisher"].rstrip(" ,")
+    return f"{place}: {publisher}{' ' if publisher.endswith('.') else ', '}{h['date'].rstrip(' .')}"
 
 
 def build(work: dict) -> dict:
     h = check_header(work)
     sid = tcp.source_id(work["tcp"])
-    divs = tcp.read(sid)
+    divs = tcp.divisions(tcp.load(sid))
     divisions, segments = [], []
     for part in work["parts"]:
         d, segs = read_part(work, divs, part)
@@ -314,14 +302,14 @@ def build(work: dict) -> dict:
         segments += segs
     words = sum(len(s["text"].split()) for s in segments)
     gaps = sum(len(s.get("uncertain", [])) for s in segments)
-    name = f"{work['title']} ({imprint(h)}), {h.evans}"
+    name = f"{work['title']} ({imprint(h)}), {h['catalogue']}"
     edition = {"name": name,
-               "notes": f"{name}: the Text Creation Partnership's typed transcription, Evans-TCP {h.tcp} "
-                        f"({tcp.REPO_URL.format(tcp=h.tcp)}), CC0. The transcription is the text, with the printing's "
-                        "spelling and the long s as keyed; words holding letters the transcribers could not read are "
-                        f"marked as uncertain, with their marks (• a letter, 〈◊〉 a word) ({gaps} in {words} words). No "
-                        "scan of this printing was found to check the transcription against. See docs/editions.md."}
-    doc = {
+               "notes": f"{name}: the Text Creation Partnership's typed transcription, Evans-TCP {h['tcp']} "
+                        f"({tcp.REPO_URL.format(tcp=h['tcp'])}), CC0. The transcription is the text, with the printing's "
+                        "spelling and the long s (ſ) as keyed; words holding letters the transcribers could not read "
+                        f"are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) ({gaps} in {words} words). "
+                        "No scan of this printing was found to check the transcription against. See docs/editions.md."}
+    return {
         "attribution": work["attribution"],
         "date": work["date"],
         "divisions": divisions,
@@ -334,7 +322,6 @@ def build(work: dict) -> dict:
         "source_ids": [sid],
         "title": work["title"],
     }
-    return doc
 
 
 def run(out_dir: Path = TEXTS_DIR) -> list[Path]:

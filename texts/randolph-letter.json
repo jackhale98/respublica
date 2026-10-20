@@ -91,7 +91,7 @@
   ],
   "edition": {
     "name": "A Letter of His Excellency Edmund Randolph, Esquire, on the Federal Constitution ([Richmond: Printed by Augustine Davis, 1787]), Evans 20669",
-    "notes": "A Letter of His Excellency Edmund Randolph, Esquire, on the Federal Constitution ([Richmond: Printed by Augustine Davis, 1787]), Evans 20669: the Text Creation Partnership's typed transcription, Evans-TCP N16126 (https://github.com/textcreationpartnership/N16126), CC0. The transcription is the text, with the printing's spelling and the long s as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (6 in 6145 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
+    "notes": "A Letter of His Excellency Edmund Randolph, Esquire, on the Federal Constitution ([Richmond: Printed by Augustine Davis, 1787]), Evans 20669: the Text Creation Partnership's typed transcription, Evans-TCP N16126 (https://github.com/textcreationpartnership/N16126), CC0. The transcription is the text, with the printing's spelling and the long s (ſ) as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (6 in 6145 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
   },
   "id": "randolph-letter",
   "position": "other",
@@ -104,12 +104,6 @@
       "text": "THE incloſed letter contains the reaſons of his Excellency Governor Randolph for refuſing his ſignature to the propoſed Foederal Conſtitution of Government ſubmitted to the ſeveral ſtates by the late Convention at Philadelphia. The manner in which we have obtained it, and the authority by which we convey it to the Public, through the channel of your Preſs, will be explained by the letter herewith ſent to you, which, we requeſt may precede his Excellency's letter to the Speaker of the Houſe of Delegates in your publication of them."
     },
     {
-      "emphasis": [
-        [
-          0,
-          2
-        ]
-      ],
       "label": "Edmund Randolph, Letter of December 2, 1787, ¶ 1",
       "pages": [],
       "ref": "RandolphLetter.Request.1",
@@ -122,12 +116,6 @@
       "text": "We are ſatisfied, ſir, that the time is paſſed, when you might with propriety have been requeſted to communicate your ſentiments to the General Aſſembly on this ſubject; but, as you have been pleaſed to favor us wih your obſervations in private, and we conceive they would not only afford ſatisfaction to the public, but alſo be uſeful by the information and inſtruction they will convey, we hope, you can have no objection to enable us to make them public through the medium of the Preſs. We have the honor to be, with reſpectful eſteem, Sir, your moſt obedient ſervants,"
     },
     {
-      "emphasis": [
-        [
-          0,
-          4
-        ]
-      ],
       "label": "Edmund Randolph, Reply of December 10, 1787, ¶ 1",
       "pages": [],
       "ref": "RandolphLetter.Reply.1",
@@ -147,40 +135,31 @@
     },
     {
       "label": "Edmund Randolph, Letter of October 10, 1787, ¶ 1",
-      "pages": [
-        "[3]"
-      ],
+      "pages": [],
       "ref": "RandolphLetter.Letter.1",
       "text": "THE Conſtitution, which I incloſed to the General Aſſembly in a late official letter, appears without my ſignature. This circumſtance, although trivial in its own nature, has been rendered rather important to myſelf at leaſt, by being miſunderſtood by ſome, and miſrepreſented by others —As I diſdain to conceal the reaſons for with-holding my ſubſcription, I have always been, ſtill am, and ever ſhall be, ready to proclaim them to the world. To the legiſlature therefore, by whom I was deputed to the Foederal Convention, I beg leave now to addreſs them; affecting no indifference to public opinion, but reſolved not to court it by an unmanly ſacrifice of my own judgment."
     },
     {
       "label": "Edmund Randolph, Letter of October 10, 1787, ¶ 2",
-      "pages": [
-        "[3]"
-      ],
+      "pages": [],
       "ref": "RandolphLetter.Letter.2",
       "text": "As this explanation will involve a ſummary, but general review of our foederal ſituation, you will pardon me, I truſt, although I ſhould tranſgreſs the uſual bounds of a letter."
     },
     {
       "label": "Edmund Randolph, Letter of October 10, 1787, ¶ 3",
-      "pages": [
-        "[3]"
-      ],
+      "pages": [],
       "ref": "RandolphLetter.Letter.3",
       "text": "Before my departure for the Convention, I believed, that the confederation was not ſo eminently defective, as it had been ſuppoſed. But after I had entered into a free communication with thoſe, who were beſt informed of the condition and intereſt of each ſtate; after I had compared the intelligence derived from them, with the properties which ought to characterize the government of our union, I became perſuaded, that the confederation was deſtitute of every energy, which a conſtitution of the United States ought to poſſeſs."
     },
     {
       "label": "Edmund Randolph, Letter of October 10, 1787, ¶ 4",
-      "pages": [
-        "[3]"
-      ],
+      "pages": [],
       "ref": "RandolphLetter.Letter.4",
       "text": "For the objects propoſed by its inſtitution were, that it ſhould be a ſhield againſt foreign hoſtility, and a firm reſort againſt domeſtic commotion: that it ſhould cheriſh trade, and promote the proſperity of the ſtates under its care."
     },
     {
       "label": "Edmund Randolph, Letter of October 10, 1787, ¶ 5",
       "pages": [
-        "[3]",
         "4"
       ],
       "ref": "RandolphLetter.Letter.5",
@@ -254,7 +233,7 @@
         {
           "end": 881,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 878
         }
@@ -379,7 +358,7 @@
         {
           "end": 276,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 273
         }
@@ -397,14 +376,14 @@
         {
           "end": 109,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 106
         },
         {
           "end": 259,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 256
         }
@@ -586,7 +565,7 @@
         {
           "end": 609,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 606
         }
@@ -628,7 +607,7 @@
         {
           "end": 1161,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 1158
         }

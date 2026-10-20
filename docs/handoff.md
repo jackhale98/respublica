@@ -43,6 +43,21 @@ breaks first (erratum 63). Not imported, for want of a scan to check the
 Library against: Old Whig, Maryland Farmer, Impartial Examiner, John
 DeWitt, Philadelphiensis, Melancton Smith.
 
+**Sources of the Declaration** (decision 67): Paine's *Common Sense*
+(first edition, R. Bell, January 1776; `importers/paine.py`) and Locke's
+Second Treatise (first edition, 1690, Book II; `importers/locke.py`), a
+page per part or chapter in a collection of its own ("sources"), with
+home-page cards.
+The text is the Text Creation Partnership's CC0 transcription
+(`importers/tcp.py`), checked word by word against Internet Archive scans
+of the same printing (one for Paine, two for Locke); 61 and 162 words are
+marked uncertain, mostly OCR misreadings, some the transcription's slips
+(errata 130–133: "the car" for "the ear" was missed by the check). Refs
+`CommonSense.{part}.{n}`, `Locke.{chapter}.{section}` (no § 21 in 1690).
+No links proposed yet. Where the Continental Congress documents get a
+section of their own, these two may move into it (`tools/site_data.py`,
+their `collection`).
+
 **Debates in Congress** (`/congress/`): the House's 1789 debate on the
 amendments, from the Annals of Congress (`importers/annals.py`, decision
 46); both houses' proceedings on the Eleventh Amendment (1794) and the

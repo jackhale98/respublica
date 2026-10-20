@@ -91,6 +91,7 @@ export function newspaper(publication = []) {
 
 export const COLLECTIONS = {
   founding: "Founding document",
+  sources: "A source of the Declaration",
   federalist: "The ratification debate",
   ratification: "The ratification debate",
   congress: "Debates in Congress",
@@ -99,16 +100,15 @@ export const COLLECTIONS = {
 export const POSITION_LABELS = { anti: "Anti-Federalist", federalist: "Federalist", other: "Other" };
 
 // Scan names in readings ("primary", "brittle", "google", "pitt") -> words.
-const SCANS = { primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan", microfilm: "microfilm scan", tesseract: "second OCR of the main scan", lincoln: "Lincoln Foundation scan", nypl: "NYPL scan", harvard: "Harvard scan", michigan: "Michigan scan", "nypl-ocr": "second OCR of the NYPL scan" };
+const SCANS = { primary: "main scan", brittle: "second scan", google: "Google scan", pitt: "Pittsburgh scan", microfilm: "microfilm scan", tesseract: "second OCR of the main scan", lincoln: "Lincoln Foundation scan", nypl: "NYPL scan", harvard: "Harvard scan", michigan: "Michigan scan", "nypl-ocr": "second OCR of the NYPL scan", tcp: "TCP transcription", jcb: "John Carter Brown Library scan", illinois: "Illinois scan" };
 
 // "Uncertain reading. The scans read: “Delibeiatc,” (main scan), …"
 export function uncertainTitle(readings = {}, lib = false) {
-  // A word holding the Text Creation Partnership's marks for letters its
-  // transcribers could not read (decision 69): the transcription is the only reading.
-  const only = Object.values(readings);
-  if (only.length === 1 && /[•◊…▪]/.test(only[0])) return "Not legible in the copy the Text Creation Partnership transcribed (• a letter, 〈◊〉 a word, 〈…〉 more, ▪ a stop).";
   const parts = Object.entries(readings).map(([k, v]) => `“${v}” (${SCANS[k] || k})`);
-  const scans = `${parts.length > 1 ? "The scans read" : "Only one scan has this word"}: ${parts.join(", ")}`;
+  // A text from the Text Creation Partnership: the transcription against the scans (decision 67).
+  const scans = "tcp" in readings
+    ? `${parts.length > 1 ? "The transcription and the scans read" : "The transcription marks letters it could not read"}: ${parts.join(", ")}`
+    : `${parts.length > 1 ? "The scans read" : "Only one scan has this word"}: ${parts.join(", ")}`;
   // The Anti-Federalist Library's reading, accepted without a check against the page (decision 56).
   if (lib) return `Uncertain reading. The text gives the Anti-Federalist Library's reading, not yet checked against the page. ${scans}`;
   return `Uncertain reading. ${scans}`;

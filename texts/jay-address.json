@@ -32,36 +32,21 @@
   ],
   "edition": {
     "name": "An Address to the People of the State of New-York, on the Subject of the Constitution (New-York: Printed by Samuel and John Loudon, printers to the state. [1788]), Evans 21175",
-    "notes": "An Address to the People of the State of New-York, on the Subject of the Constitution (New-York: Printed by Samuel and John Loudon, printers to the state. [1788]), Evans 21175: the Text Creation Partnership's typed transcription, Evans-TCP N16481 (https://github.com/textcreationpartnership/N16481), CC0. The transcription is the text, with the printing's spelling and the long s as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (0 in 6609 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
+    "notes": "An Address to the People of the State of New-York, on the Subject of the Constitution (New-York: Printed by Samuel and John Loudon, printers to the state. [1788]), Evans 21175: the Text Creation Partnership's typed transcription, Evans-TCP N16481 (https://github.com/textcreationpartnership/N16481), CC0. The transcription is the text, with the printing's spelling and the long s (ſ) as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (0 in 6609 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
   },
   "id": "jay-address",
   "position": "federalist",
   "ref_prefix": "JayAddress",
   "segments": [
     {
-      "emphasis": [
-        [
-          33,
-          46
-        ]
-      ],
       "label": "A Citizen of New-York, ¶ 1",
-      "pages": [
-        "[3]"
-      ],
+      "pages": [],
       "ref": "JayAddress.1",
       "text": "THERE are times and ſeaſons when general evils ſpread general alarm and uneaſineſs, and yet ariſe from cauſes too complicated, and too little underſtood by many, to produce a unanimity of opinions reſpecting their remedies. Hence it is, that on ſuch occaſions, the conflict of arguments too often excites a conflict of paſſions, and introduces a degree of diſcord and animoſity, which, by agitating the public mind, diſpoſe it to precipitation and extravagance. They who on the ocean have been unexpectedly inveloped with tempeſts, or ſuddenly entangled among rocks and ſhoals, know the value of that ſerene, ſelf-poſſeſſion and preſence of mind, to which in ſuch caſes they owed their preſervation: nor will the heroes who have given us victory and peace, heſitate to acknowledge, that we are as much indebted for thoſe bleſſings to the calm previſion, and cool intrepidity which planned and conducted our military meaſures, as to the glowing animation with which they were executed."
     },
     {
-      "emphasis": [
-        [
-          420,
-          424
-        ]
-      ],
       "label": "A Citizen of New-York, ¶ 2",
       "pages": [
-        "[3]",
         "4"
       ],
       "ref": "JayAddress.2",
@@ -117,16 +102,6 @@
       "text": "Experience is a ſevere preceptor, but it teaches uſeful truths, and however harſh, is always honeſt—Be calm and diſpaſſionate, and liſten to what it tells us."
     },
     {
-      "emphasis": [
-        [
-          161,
-          164
-        ],
-        [
-          177,
-          179
-        ]
-      ],
       "label": "A Citizen of New-York, ¶ 9",
       "pages": [
         "5",
@@ -153,12 +128,6 @@
       "text": "From this new and wonderful ſyſtem of Government, it has come to paſs, that almoſt every national object of every kind, is at this day unprovided for; and other nations taking the advantage of its imbecility, are daily multiplying commercial reſtraints upon us. Our fur trade is gone to Canada, and Britiſh garriſons keep the keys of it. Our ſhip-yards have almoſt ceaſed to diſturb the repoſe of the neighbourhood by the noiſe of the axe and hammer; and while foreign flags fly triumphantly above our higheſt houſes, the American Stars ſeldom do more than ſhed a few feeble rays about the humbler maſts of river ſloops and coaſting ſchooners. The greater part of our hardy ſeamen are plowing the ocean in foreign pay; and not a few of our ingenious ſhipwrights are now building veſſels on alien ſhores. Although our increaſing agriculture and induſtry extend and multiply our productions, yet they conſtantly diminiſh in value; and although we permit all nations to fill our country with their merchandizes, yet their beſt markets are ſhut againſt us. Is there an Engliſh, or a French, or a Spaniſh iſland or port in the Weſt-Indies to which an American veſſel can carry a cargo of flour for ſale? Not one. The Algerines exclude us from the Mediterranean, and adjacent countries; and we are neither able to purchaſe, nor to command the free uſe of thoſe ſeas. Can our little towns or larger cities conſume the immenſe productions of our fertile country? or will they without trade be able to pay a good price for the proportion which they do conſume? The laſt ſeaſon gave a very unequivocal anſwer to thoſe queſtions—What numbers of fine cattle have returned from this city to the country for want of buyers? What great quantities of ſalted and other proviſions ſtill lay uſeleſs in the ſtores? To how much below the former price, is our corn and wheat and flour and lumber rapidly falling? Our debts remain undiminiſhed, and the intereſt on them accumulating—our credit abroad is nearly extinguiſhed, and at home unreſtored—they who had money have ſent it beyond the reach of our laws, and ſcarcely any man can borrow of his neighbour. Nay, does not experience alſo tell us, that it is as difficult to pay as to borrow? That even our houſes and lands cannot command money—that law ſuits and uſurious contracts abound —that our farms ſell on executions for leſs than half their value, and that diſtreſs in various forms, and in various ways, is approaching faſt to the doors of our beſt citizens."
     },
     {
-      "emphasis": [
-        [
-          1109,
-          1115
-        ]
-      ],
       "label": "A Citizen of New-York, ¶ 12",
       "pages": [
         "7",
@@ -168,16 +137,6 @@
       "text": "Theſe things have been gradually coming upon us ever ſince the peace—they have been perceived and proclaimed, but the univerſal rage and purſuit of private gain conſpired with other cauſes, to prevent any proper efforts being made to meliorate our condition by due attention to our national affairs, until the late Convention was convened for that purpoſe. From the reſult of their deliberations, the States expected to derive much good, and ſhould they be diſappointed, it will probably be not leſs their misfortune than their fault. That Convention was in general compoſed of excellent and tried men—men who had become conſpicuous for their wiſdom and public ſervices, and whoſe names and characters will be venerated by poſterity. Generous and candid minds cannot perceive without pain, the illiberal manner in which ſome have taken the liberty to treat them; nor forbear to impute it to impure and improper motives—zeal for public good, like zeal for religion, may ſometimes carry men beyond the bounds of reaſon, but it is not conceivable, that on this occaſion, it ſhould find means ſo to enebriate any candid American, as to make him forget what he owed to truth and to decency, or induce him either to believe or to ſay, that the almoſt unanimous advice of the Convention, proceeded from a wicked combination and conſpiracy againſt the liberties of their country. This is not the temper with which we ſhould receive and conſider their recommendations, nor the treatment that would be worthy either of us or of them. Let us continue careful therefore that facts do not warrant hiſtorians to tell future generations, that envy, malice and uncharitableneſs purſued our patriotic benefactors to their graves, and that not even pre-eminence in virtue, nor lives devoted to the public, could ſhield them from obloquy and detraction. On the contrary, let our boſoms always retain a ſufficient degree of honeſt indignation to diſappoint and diſcourage thoſe who expect our thanks or applauſe for calumniating our moſt faithful and meritorious friends."
     },
     {
-      "emphasis": [
-        [
-          80,
-          115
-        ],
-        [
-          1183,
-          1189
-        ]
-      ],
       "label": "A Citizen of New-York, ¶ 13",
       "pages": [
         "8",
@@ -245,18 +204,12 @@
       "text": "As the importance of this queſtion muſt be obvious to every man, whatever his private opinions reſpecting it may be, it becomes us all to treat it in that calm and temperate manner, which a ſubject ſo deeply intereſting to the future welfare of our country and poſterity requires. Let us therefore as much as poſſible repreſs and compoſe that irritation in our minds, which too warm diſputes about it may have excited. Let us endeavor to forget that this or that man, is on this or that ſide; and that we ourſelves, perhaps without ſufficient reflection, have claſſed ourſelves with one or the other party. Let us remember that this is not to be regarded as a matter that only touches our local parties, but as one ſo great, ſo general, and ſo extenſive in its future conſequences to America, that for our deciding upon it according to the beſt of our unbiaſſed judgment, we muſt be highly reſponſible both here and hereafter."
     },
     {
-      "emphasis": [
-        [
-          46,
-          51
-        ]
-      ],
       "label": "A Citizen of New-York, ¶ 21",
       "pages": [
         "11"
       ],
       "ref": "JayAddress.21",
-      "text": "The queſtion now before us naturally leads to three enquiries:\n1. Whether it is probable that a better plan can be obtained?\n2. Whether, if attainable, it is likely to be in ſeaſon?\n3. What would be our ſituation, if after rejecting this, all our efforts to obtain a better ſhould prove fruitleſs?"
+      "text": "The queſtion now before us naturally leads to three enquiries: 1. Whether it is probable that a better plan can be obtained? 2. Whether, if attainable, it is likely to be in ſeaſon? 3. What would be our ſituation, if after rejecting this, all our efforts to obtain a better ſhould prove fruitleſs?"
     },
     {
       "label": "A Citizen of New-York, ¶ 22",
@@ -293,20 +246,6 @@
       "text": "Suppoſe this plan to be rejected, what meaſures would you propoſe for obtaining a better? Some will anſwer, let us appoint another Convention, and as every thing has been ſaid and written, that can well be ſaid and written on the ſubject, they will be better informed than the former one was, and conſequently be better able to make and agree upon a more eligible one."
     },
     {
-      "emphasis": [
-        [
-          288,
-          306
-        ],
-        [
-          1726,
-          1729
-        ],
-        [
-          1744,
-          1747
-        ]
-      ],
       "label": "A Citizen of New-York, ¶ 26",
       "pages": [
         "13",
@@ -392,16 +331,6 @@
       "text": "You cannot be certain, that by rejecting the propoſed plan you would not place yourſelves in a very awkward ſituation. Suppoſe nine States ſhould nevertheleſs adopt it, would you not in that caſe be obliged either to ſeparate from the Union, or reſcind your diſſent? The firſt would not be eligible, nor could the latter be pleaſant—A mere hint is ſufficient on this topic—You cannot but be aware of the conſequences."
     },
     {
-      "emphasis": [
-        [
-          204,
-          220
-        ],
-        [
-          530,
-          536
-        ]
-      ],
       "label": "A Citizen of New-York, ¶ 36",
       "pages": [
         "18"
@@ -419,12 +348,6 @@
       "text": "Let us alſo be mindful that the cauſe of freedom greatly depends on the uſe we make of the ſingular opportunities we enjoy of governing ourſelves wiſely; for if the event ſhould prove, that the people of this country either cannot or will not govern themſelves, who will hereafter be advocates for ſyſtems, which however charming in theory and proſpect, are not reducible to practice. If the people of our nation, inſtead of conſenting to be governed by laws of their own making and rulers of their own chooſing, ſhould let licentiouſneſs, diſorder and confuſion reign over them, the minds of men every where, will inſenſibly become alienated from republican forms, and prepared to prefer and acquieſce in Governments, which, though leſs friendly to liberty, afford more peace and ſecurity."
     },
     {
-      "emphasis": [
-        [
-          0,
-          166
-        ]
-      ],
       "label": "A Citizen of New-York, ¶ 38",
       "pages": [
         "19"

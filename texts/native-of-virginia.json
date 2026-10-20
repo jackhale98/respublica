@@ -209,7 +209,7 @@
   ],
   "edition": {
     "name": "Observations upon the Proposed Plan of Federal Government (Petersburg [Va.]: Printed by Hunter and Prentis. M,DCC,LXXXVIII. [1788]), Evans 21264",
-    "notes": "Observations upon the Proposed Plan of Federal Government (Petersburg [Va.]: Printed by Hunter and Prentis. M,DCC,LXXXVIII. [1788]), Evans 21264: the Text Creation Partnership's typed transcription, Evans-TCP N16547 (https://github.com/textcreationpartnership/N16547), CC0. The transcription is the text, with the printing's spelling and the long s as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (377 in 18782 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
+    "notes": "Observations upon the Proposed Plan of Federal Government (Petersburg [Va.]: Printed by Hunter and Prentis. M,DCC,LXXXVIII. [1788]), Evans 21264: the Text Creation Partnership's typed transcription, Evans-TCP N16547 (https://github.com/textcreationpartnership/N16547), CC0. The transcription is the text, with the printing's spelling and the long s (ſ) as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (377 in 18781 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
   },
   "id": "native-of-virginia",
   "position": "federalist",
@@ -218,7 +218,6 @@
     {
       "label": "A Native of Virginia, Observations, ¶ 1",
       "pages": [
-        "[3]",
         "4"
       ],
       "ref": "NativeOfVirginia.Observations.1",
@@ -227,147 +226,147 @@
         {
           "end": 120,
           "readings": {
-            "primary": "•f"
+            "tcp": "•f"
           },
           "start": 118
         },
         {
           "end": 187,
           "readings": {
-            "primary": "•ational"
+            "tcp": "•ational"
           },
           "start": 179
         },
         {
           "end": 303,
           "readings": {
-            "primary": "•redit,"
+            "tcp": "•redit,"
           },
           "start": 296
         },
         {
           "end": 359,
           "readings": {
-            "primary": "•he"
+            "tcp": "•he"
           },
           "start": 356
         },
         {
           "end": 427,
           "readings": {
-            "primary": "Confe•eration."
+            "tcp": "Confe•eration."
           },
           "start": 413
         },
         {
           "end": 481,
           "readings": {
-            "primary": "•nſwered"
+            "tcp": "•nſwered"
           },
           "start": 473
         },
         {
           "end": 536,
           "readings": {
-            "primary": "•ut"
+            "tcp": "•ut"
           },
           "start": 533
         },
         {
           "end": 597,
           "readings": {
-            "primary": "•tates"
+            "tcp": "•tates"
           },
           "start": 591
         },
         {
           "end": 654,
           "readings": {
-            "primary": "•he"
+            "tcp": "•he"
           },
           "start": 651
         },
         {
           "end": 719,
           "readings": {
-            "primary": "•uotas"
+            "tcp": "•uotas"
           },
           "start": 713
         },
         {
           "end": 778,
           "readings": {
-            "primary": "•he"
+            "tcp": "•he"
           },
           "start": 775
         },
         {
           "end": 840,
           "readings": {
-            "primary": "•hich"
+            "tcp": "•hich"
           },
           "start": 835
         },
         {
           "end": 900,
           "readings": {
-            "primary": "•ave"
+            "tcp": "•ave"
           },
           "start": 896
         },
         {
           "end": 965,
           "readings": {
-            "primary": "•uotas"
+            "tcp": "•uotas"
           },
           "start": 959
         },
         {
           "end": 1024,
           "readings": {
-            "primary": "•ain"
+            "tcp": "•ain"
           },
           "start": 1020
         },
         {
           "end": 1090,
           "readings": {
-            "primary": "•heir"
+            "tcp": "•heir"
           },
           "start": 1085
         },
         {
           "end": 1153,
           "readings": {
-            "primary": "•n"
+            "tcp": "•n"
           },
           "start": 1151
         },
         {
           "end": 1218,
           "readings": {
-            "primary": "•mmediate"
+            "tcp": "•mmediate"
           },
           "start": 1209
         },
         {
           "end": 1279,
           "readings": {
-            "primary": "•ongreſs"
+            "tcp": "•ongreſs"
           },
           "start": 1271
         },
         {
           "end": 1329,
           "readings": {
-            "primary": "ap•ove"
+            "tcp": "ap•ove"
           },
           "start": 1323
         },
         {
           "end": 1390,
           "readings": {
-            "primary": "••ht"
+            "tcp": "••ht"
           },
           "start": 1386
         }
@@ -410,7 +409,7 @@
         {
           "end": 793,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 790
         }
@@ -444,7 +443,7 @@
         {
           "end": 542,
           "readings": {
-            "primary": "a•"
+            "tcp": "a•"
           },
           "start": 540
         }
@@ -470,14 +469,14 @@
         {
           "end": 1039,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 1036
         },
         {
           "end": 1143,
           "readings": {
-            "primary": "ſancti•ied"
+            "tcp": "ſancti•ied"
           },
           "start": 1133
         }
@@ -495,14 +494,14 @@
         {
           "end": 158,
           "readings": {
-            "primary": "•ſtabliſhing"
+            "tcp": "•ſtabliſhing"
           },
           "start": 146
         },
         {
           "end": 182,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 179
         }
@@ -519,7 +518,7 @@
         {
           "end": 603,
           "readings": {
-            "primary": "tha•"
+            "tcp": "tha•"
           },
           "start": 599
         }
@@ -536,42 +535,42 @@
         {
           "end": 112,
           "readings": {
-            "primary": "the•"
+            "tcp": "the•"
           },
           "start": 108
         },
         {
           "end": 175,
           "readings": {
-            "primary": "tha•"
+            "tcp": "tha•"
           },
           "start": 171
         },
         {
           "end": 238,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 235
         },
         {
           "end": 299,
           "readings": {
-            "primary": "inſtanc•"
+            "tcp": "inſtanc•"
           },
           "start": 291
         },
         {
           "end": 479,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 476
         },
         {
           "end": 601,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 599
         }
@@ -589,27 +588,13 @@
         {
           "end": 107,
           "readings": {
-            "primary": "chuſ•"
+            "tcp": "chuſ•"
           },
           "start": 102
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          283,
-          295
-        ],
-        [
-          304,
-          317
-        ],
-        [
-          321,
-          329
-        ]
-      ],
       "label": "A Native of Virginia, Plan of the Constitution, ¶ 1",
       "pages": [
         "10"
@@ -628,19 +613,13 @@
         {
           "end": 121,
           "readings": {
-            "primary": "••ntrary"
+            "tcp": "••ntrary"
           },
           "start": 113
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          11,
-          163
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 1",
       "pages": [
         "11"
@@ -651,7 +630,7 @@
         {
           "end": 126,
           "readings": {
-            "primary": "•"
+            "tcp": "•"
           },
           "start": 125
         }
@@ -668,26 +647,20 @@
         {
           "end": 59,
           "readings": {
-            "primary": "of•"
+            "tcp": "of•"
           },
           "start": 56
         },
         {
           "end": 301,
           "readings": {
-            "primary": "agre•"
+            "tcp": "agre•"
           },
           "start": 296
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          9,
-          262
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 3",
       "pages": [
         "11"
@@ -698,21 +671,21 @@
         {
           "end": 57,
           "readings": {
-            "primary": "•"
+            "tcp": "•"
           },
           "start": 56
         },
         {
           "end": 118,
           "readings": {
-            "primary": "ſever•"
+            "tcp": "ſever•"
           },
           "start": 112
         },
         {
           "end": 249,
           "readings": {
-            "primary": "Sta•"
+            "tcp": "Sta•"
           },
           "start": 245
         }
@@ -729,96 +702,90 @@
         {
           "end": 118,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 115
         },
         {
           "end": 240,
           "readings": {
-            "primary": "tha•"
+            "tcp": "tha•"
           },
           "start": 236
         },
         {
           "end": 299,
           "readings": {
-            "primary": "•"
+            "tcp": "•"
           },
           "start": 298
         },
         {
           "end": 362,
           "readings": {
-            "primary": "ſom•"
+            "tcp": "ſom•"
           },
           "start": 358
         },
         {
           "end": 423,
           "readings": {
-            "primary": "•"
+            "tcp": "•"
           },
           "start": 422
         },
         {
           "end": 546,
           "readings": {
-            "primary": "g•"
+            "tcp": "g•"
           },
           "start": 544
         },
         {
           "end": 611,
           "readings": {
-            "primary": "whic•"
+            "tcp": "whic•"
           },
           "start": 606
         },
         {
           "end": 671,
           "readings": {
-            "primary": "thr•"
+            "tcp": "thr•"
           },
           "start": 667
         },
         {
           "end": 734,
           "readings": {
-            "primary": "u•ſtable"
+            "tcp": "u•ſtable"
           },
           "start": 726
         },
         {
           "end": 790,
           "readings": {
-            "primary": "governme••"
+            "tcp": "governme••"
           },
           "start": 780
         },
         {
           "end": 851,
           "readings": {
-            "primary": "ma•"
+            "tcp": "ma•"
           },
           "start": 848
         },
         {
           "end": 913,
           "readings": {
-            "primary": "pla••"
+            "tcp": "pla••"
           },
           "start": 908
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          1046
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 5",
       "pages": [
         "11",
@@ -830,77 +797,77 @@
         {
           "end": 126,
           "readings": {
-            "primary": "ac•••ing"
+            "tcp": "ac•••ing"
           },
           "start": 118
         },
         {
           "end": 186,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 183
         },
         {
           "end": 251,
           "readings": {
-            "primary": "••nd"
+            "tcp": "••nd"
           },
           "start": 247
         },
         {
           "end": 316,
           "readings": {
-            "primary": "••xed,"
+            "tcp": "••xed,"
           },
           "start": 310
         },
         {
           "end": 380,
           "readings": {
-            "primary": "•hall"
+            "tcp": "•hall"
           },
           "start": 375
         },
         {
           "end": 447,
           "readings": {
-            "primary": "•ongreſs"
+            "tcp": "•ongreſs"
           },
           "start": 439
         },
         {
           "end": 505,
           "readings": {
-            "primary": "•f"
+            "tcp": "•f"
           },
           "start": 503
         },
         {
           "end": 571,
           "readings": {
-            "primary": "••mber"
+            "tcp": "••mber"
           },
           "start": 565
         },
         {
           "end": 638,
           "readings": {
-            "primary": "•houſand,"
+            "tcp": "•houſand,"
           },
           "start": 629
         },
         {
           "end": 883,
           "readings": {
-            "primary": "〈◊〉,"
+            "tcp": "〈◊〉,"
           },
           "start": 879
         },
         {
           "end": 998,
           "readings": {
-            "primary": "North-Caro••na,"
+            "tcp": "North-Caro••na,"
           },
           "start": 983
         }
@@ -918,112 +885,112 @@
         {
           "end": 53,
           "readings": {
-            "primary": "•ount"
+            "tcp": "•ount"
           },
           "start": 48
         },
         {
           "end": 63,
           "readings": {
-            "primary": "•y"
+            "tcp": "•y"
           },
           "start": 61
         },
         {
           "end": 126,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 123
         },
         {
           "end": 190,
           "readings": {
-            "primary": "•gue"
+            "tcp": "•gue"
           },
           "start": 186
         },
         {
           "end": 250,
           "readings": {
-            "primary": "•on"
+            "tcp": "•on"
           },
           "start": 247
         },
         {
           "end": 308,
           "readings": {
-            "primary": "con••der"
+            "tcp": "con••der"
           },
           "start": 300
         },
         {
           "end": 372,
           "readings": {
-            "primary": "•ents"
+            "tcp": "•ents"
           },
           "start": 367
         },
         {
           "end": 434,
           "readings": {
-            "primary": "•ves"
+            "tcp": "•ves"
           },
           "start": 430
         },
         {
           "end": 499,
           "readings": {
-            "primary": "con••quently"
+            "tcp": "con••quently"
           },
           "start": 487
         },
         {
           "end": 556,
           "readings": {
-            "primary": "in•••aſe"
+            "tcp": "in•••aſe"
           },
           "start": 548
         },
         {
           "end": 622,
           "readings": {
-            "primary": "pro••rty,—but"
+            "tcp": "pro••rty,—but"
           },
           "start": 609
         },
         {
           "end": 679,
           "readings": {
-            "primary": "•••oduce"
+            "tcp": "•••oduce"
           },
           "start": 671
         },
         {
           "end": 736,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 733
         },
         {
           "end": 793,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 790
         },
         {
           "end": 855,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 852
         },
         {
           "end": 917,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 914
         }
@@ -1048,7 +1015,7 @@
         {
           "end": 184,
           "readings": {
-            "primary": "al•"
+            "tcp": "al•"
           },
           "start": 181
         }
@@ -1063,12 +1030,6 @@
       "text": "INDIANS are mentioned in this clauſe becauſe there are nations of Indians within the limits of ſeveral of the States."
     },
     {
-      "emphasis": [
-        [
-          0,
-          145
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 10",
       "pages": [
         "13",
@@ -1086,12 +1047,6 @@
       "text": "THE Convention attentive to the preſervation of the conſequence of each State, have intruſted to the Executives thereof, the power of iſſuing writs of elections when vacancies happen. An additional ſecurity to the independance of the individual States."
     },
     {
-      "emphasis": [
-        [
-          0,
-          120
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 12",
       "pages": [
         "14"
@@ -1110,33 +1065,27 @@
         {
           "end": 70,
           "readings": {
-            "primary": "•mpeachment:"
+            "tcp": "•mpeachment:"
           },
           "start": 58
         },
         {
           "end": 124,
           "readings": {
-            "primary": "•mpeach"
+            "tcp": "•mpeach"
           },
           "start": 117
         },
         {
           "end": 179,
           "readings": {
-            "primary": "expul•on,"
+            "tcp": "expul•on,"
           },
           "start": 170
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          9,
-          178
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 14",
       "pages": [
         "14"
@@ -1147,14 +1096,14 @@
         {
           "end": 64,
           "readings": {
-            "primary": "•o"
+            "tcp": "•o"
           },
           "start": 62
         },
         {
           "end": 129,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 126
         }
@@ -1171,7 +1120,7 @@
         {
           "end": 60,
           "readings": {
-            "primary": "••en"
+            "tcp": "••en"
           },
           "start": 56
         }
@@ -1188,49 +1137,49 @@
         {
           "end": 61,
           "readings": {
-            "primary": "••r"
+            "tcp": "••r"
           },
           "start": 58
         },
         {
           "end": 124,
           "readings": {
-            "primary": "••tent"
+            "tcp": "••tent"
           },
           "start": 118
         },
         {
           "end": 188,
           "readings": {
-            "primary": "circum••nces."
+            "tcp": "circum••nces."
           },
           "start": 175
         },
         {
           "end": 246,
           "readings": {
-            "primary": "••ght"
+            "tcp": "••ght"
           },
           "start": 241
         },
         {
           "end": 305,
           "readings": {
-            "primary": "•••d"
+            "tcp": "•••d"
           },
           "start": 301
         },
         {
           "end": 368,
           "readings": {
-            "primary": "•is"
+            "tcp": "•is"
           },
           "start": 365
         },
         {
           "end": 429,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 426
         }
@@ -1248,19 +1197,13 @@
         {
           "end": 65,
           "readings": {
-            "primary": "••ich"
+            "tcp": "••ich"
           },
           "start": 60
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          654
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 18",
       "pages": [
         "15"
@@ -1271,19 +1214,13 @@
         {
           "end": 457,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 455
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          230
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 19",
       "pages": [
         "15"
@@ -1294,7 +1231,7 @@
         {
           "end": 204,
           "readings": {
-            "primary": "fo•"
+            "tcp": "fo•"
           },
           "start": 201
         }
@@ -1312,19 +1249,13 @@
         {
           "end": 479,
           "readings": {
-            "primary": "libert•"
+            "tcp": "libert•"
           },
           "start": 472
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          129
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 21",
       "pages": [
         "16"
@@ -1333,16 +1264,6 @@
       "text": "The Vice-Preſident of the United States ſhall be Preſident of the Senate, but ſhall have no vote, unleſs they be equally divided."
     },
     {
-      "emphasis": [
-        [
-          0,
-          66
-        ],
-        [
-          80,
-          190
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 22",
       "pages": [
         "16"
@@ -1353,7 +1274,7 @@
         {
           "end": 129,
           "readings": {
-            "primary": "••e"
+            "tcp": "••e"
           },
           "start": 126
         }
@@ -1371,26 +1292,20 @@
         {
           "end": 190,
           "readings": {
-            "primary": "Con•titution."
+            "tcp": "Con•titution."
           },
           "start": 177
         },
         {
           "end": 312,
           "readings": {
-            "primary": "•lected"
+            "tcp": "•lected"
           },
           "start": 305
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          308
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 24",
       "pages": [
         "17"
@@ -1399,12 +1314,6 @@
       "text": "The Senate ſhall have the ſole power to try all impeachments. When ſitting for that purpoſe, they ſhall be on oath or affirmation. When the Preſident of the United States is tried, the Chief Juſtice ſhall preſide: And no perſon ſhall be convicted without the concurrence of two-thirds of the members preſent."
     },
     {
-      "emphasis": [
-        [
-          0,
-          317
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 25",
       "pages": [
         "17"
@@ -1415,7 +1324,7 @@
         {
           "end": 255,
           "readings": {
-            "primary": "t•"
+            "tcp": "t•"
           },
           "start": 253
         }
@@ -1433,77 +1342,77 @@
         {
           "end": 53,
           "readings": {
-            "primary": "an•"
+            "tcp": "an•"
           },
           "start": 50
         },
         {
           "end": 176,
           "readings": {
-            "primary": "ſhoul•"
+            "tcp": "ſhoul•"
           },
           "start": 170
         },
         {
           "end": 235,
           "readings": {
-            "primary": "powe•"
+            "tcp": "powe•"
           },
           "start": 230
         },
         {
           "end": 292,
           "readings": {
-            "primary": "Wh•"
+            "tcp": "Wh•"
           },
           "start": 289
         },
         {
           "end": 406,
           "readings": {
-            "primary": "hol•"
+            "tcp": "hol•"
           },
           "start": 402
         },
         {
           "end": 465,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 462
         },
         {
           "end": 585,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 582
         },
         {
           "end": 705,
           "readings": {
-            "primary": "reaſon,—t••"
+            "tcp": "reaſon,—t••"
           },
           "start": 694
         },
         {
           "end": 726,
           "readings": {
-            "primary": "••pointed"
+            "tcp": "••pointed"
           },
           "start": 717
         },
         {
           "end": 825,
           "readings": {
-            "primary": "mo••"
+            "tcp": "mo••"
           },
           "start": 821
         },
         {
           "end": 888,
           "readings": {
-            "primary": "ſervan•"
+            "tcp": "ſervan•"
           },
           "start": 881
         }
@@ -1520,26 +1429,20 @@
         {
           "end": 501,
           "readings": {
-            "primary": "•an"
+            "tcp": "•an"
           },
           "start": 498
         },
         {
           "end": 685,
           "readings": {
-            "primary": "•hemſelves,"
+            "tcp": "•hemſelves,"
           },
           "start": 674
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          9,
-          274
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 28",
       "pages": [
         "18"
@@ -1550,26 +1453,20 @@
         {
           "end": 189,
           "readings": {
-            "primary": "•ime,"
+            "tcp": "•ime,"
           },
           "start": 184
         },
         {
           "end": 253,
           "readings": {
-            "primary": "•laces"
+            "tcp": "•laces"
           },
           "start": 247
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          165
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 29",
       "pages": [
         "18",
@@ -1579,12 +1476,6 @@
       "text": "The Congreſs ſhall aſſemble at leaſt once in every year, and ſuch meeting ſhall be on the firſt Monday in December, unleſs they ſhall by law appoint a different day."
     },
     {
-      "emphasis": [
-        [
-          9,
-          354
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 30",
       "pages": [
         "19"
@@ -1593,12 +1484,6 @@
       "text": "Sect. 5. Each Houſe ſhall be the judge of the elections, returns, and qualifications, of its own members, and a majority of each ſhall conſtitute a quorum to do buſineſs; but a ſmaller number may adjourn from day to day, and may be authorized to compel the attendance of abſent members, in ſuch manner, and under ſuch penalties as each Houſe may provide."
     },
     {
-      "emphasis": [
-        [
-          0,
-          155
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 31",
       "pages": [
         "19"
@@ -1607,12 +1492,6 @@
       "text": "Each Houſe may determine the rules of its proceedings, puniſh its members for diſorderly behaviour, and with the concurrence of two-thirds, expel a member."
     },
     {
-      "emphasis": [
-        [
-          0,
-          304
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 32",
       "pages": [
         "19"
@@ -1621,12 +1500,6 @@
       "text": "Each Houſe ſhall keep a journal of its proceedings, and from time to time publiſh the ſame, excepting ſuch parts as may in their judgement require ſecrecy; and the yeas and nays of the members of either Houſe on any queſtion, ſhall, at the deſire of one-fifth of thoſe preſent, be entered on the journal."
     },
     {
-      "emphasis": [
-        [
-          0,
-          196
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 33",
       "pages": [
         "19"
@@ -1643,12 +1516,6 @@
       "text": "EXPERIENCE and a change of circumſtances may render it neceſſary that the Congreſs ſhould have the power of regulating the elections: But as the Senate is elected by the State Legiſlatures, the place of ſuch election muſt be the place where they meet. Beſides which, this power was neceſſary leſt ſome of the States from obſtinacy, or ſelfiſh views, ſhould alter the time and place of holding the elections in ſuch a manner, as might impede the operation of the federal government."
     },
     {
-      "emphasis": [
-        [
-          9,
-          473
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 35",
       "pages": [
         "19",
@@ -1658,12 +1525,6 @@
       "text": "Sect. 6. The Senators and Repreſentatives ſhall receive a compenſation for their ſervices, to be aſcertained by law, and paid out of the treaſury of the United States. They ſhall in all caſes, except treaſon, felony and breach of the peace, be privileged from arreſt during their attendance at the ſeſſion of their reſpective houſes, and in going to and returning from the ſame; and for any ſpeech or debate in either Houſe, they ſhall not be queſtioned in any other place."
     },
     {
-      "emphasis": [
-        [
-          0,
-          379
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 36",
       "pages": [
         "20"
@@ -1697,12 +1558,6 @@
       "text": "IN the latter part of this ſection there is an admirable check upon the members of both Houſes; as nothing can tend in a greater degree, to preſcribe their independence of conduct, and prevent intriguing, than that no member ſhall be eligible to any office which has been created, or whoſe emoluments have been increaſed, ſince the time of his election, and during the time for which he has been elected."
     },
     {
-      "emphasis": [
-        [
-          9,
-          159
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 40",
       "pages": [
         "21"
@@ -1721,47 +1576,41 @@
         {
           "end": 55,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 53
         },
         {
           "end": 114,
           "readings": {
-            "primary": "bu•"
+            "tcp": "bu•"
           },
           "start": 111
         },
         {
           "end": 170,
           "readings": {
-            "primary": "though•"
+            "tcp": "though•"
           },
           "start": 163
         },
         {
           "end": 234,
           "readings": {
-            "primary": "powe•"
+            "tcp": "powe•"
           },
           "start": 229
         },
         {
           "end": 293,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 291
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          1145
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 42",
       "pages": [
         "21",
@@ -1773,84 +1622,84 @@
         {
           "end": 123,
           "readings": {
-            "primary": "preſente•"
+            "tcp": "preſente•"
           },
           "start": 114
         },
         {
           "end": 190,
           "readings": {
-            "primary": "fig•"
+            "tcp": "fig•"
           },
           "start": 186
         },
         {
           "end": 260,
           "readings": {
-            "primary": "Houſ•"
+            "tcp": "Houſ•"
           },
           "start": 255
         },
         {
           "end": 457,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 454
         },
         {
           "end": 527,
           "readings": {
-            "primary": "t••"
+            "tcp": "t••"
           },
           "start": 524
         },
         {
           "end": 652,
           "readings": {
-            "primary": "B•"
+            "tcp": "B•"
           },
           "start": 650
         },
         {
           "end": 719,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 716
         },
         {
           "end": 777,
           "readings": {
-            "primary": "a•"
+            "tcp": "a•"
           },
           "start": 775
         },
         {
           "end": 840,
           "readings": {
-            "primary": "Hou••"
+            "tcp": "Hou••"
           },
           "start": 835
         },
         {
           "end": 905,
           "readings": {
-            "primary": "Preſide••"
+            "tcp": "Preſide••"
           },
           "start": 896
         },
         {
           "end": 975,
           "readings": {
-            "primary": "pr•ſented"
+            "tcp": "pr•ſented"
           },
           "start": 966
         },
         {
           "end": 1100,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 1097
         }
@@ -1867,33 +1716,27 @@
         {
           "end": 974,
           "readings": {
-            "primary": "•ndecent"
+            "tcp": "•ndecent"
           },
           "start": 966
         },
         {
           "end": 1029,
           "readings": {
-            "primary": "•o"
+            "tcp": "•o"
           },
           "start": 1027
         },
         {
           "end": 1099,
           "readings": {
-            "primary": "in•erpoſed"
+            "tcp": "in•erpoſed"
           },
           "start": 1089
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          456
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 44",
       "pages": [
         "22"
@@ -1904,42 +1747,42 @@
         {
           "end": 64,
           "readings": {
-            "primary": "•he"
+            "tcp": "•he"
           },
           "start": 61
         },
         {
           "end": 128,
           "readings": {
-            "primary": "•n"
+            "tcp": "•n"
           },
           "start": 126
         },
         {
           "end": 194,
           "readings": {
-            "primary": "•f"
+            "tcp": "•f"
           },
           "start": 192
         },
         {
           "end": 262,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 259
         },
         {
           "end": 327,
           "readings": {
-            "primary": "re••ſſed"
+            "tcp": "re••ſſed"
           },
           "start": 319
         },
         {
           "end": 395,
           "readings": {
-            "primary": "••cording"
+            "tcp": "••cording"
           },
           "start": 386
         }
@@ -1955,12 +1798,6 @@
       "text": "THE reaſoning upon the laſt clauſe applies alſo to this."
     },
     {
-      "emphasis": [
-        [
-          9,
-          38
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 46",
       "pages": [
         "23"
@@ -1969,12 +1806,6 @@
       "text": "Sect. 8. The Congreſs ſhall have power"
     },
     {
-      "emphasis": [
-        [
-          0,
-          233
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 47",
       "pages": [
         "23"
@@ -1988,7 +1819,7 @@
         "23"
       ],
       "ref": "NativeOfVirginia.Article1.48",
-      "text": "IT is here to be obſerved, that all taxes, impoſts, &c. are to be applied only for the common defence and general welfare, of the United States. By no poſſibility will the words admit of any other conſtruction. Yet ſeveral popular* declaimers have attempted to ſound the alarm by their illeberal and ill-founded ſuggeſtions of peculation, bribery, and corruption, and of the probability of the public Treaſury being converted to the uſe of the Preſident and Congreſs. But how will this be poſſible? They will have all fixed ſalaries, and perquiſites. The public accounts of receipts and expenditures will be regularly kept and regularly publiſhed, for the public inſpection: Beſides which, the public offices will always be open for the ſearch and inquiries of every individual. I doubt if human wiſdom could deviſe any better mode of ſecuring a juſt application of the public money."
+      "text": "IT is here to be obſerved, that all taxes, impoſts, &c. are to be applied only for the common defence and general welfare, of the United States. By no poſſibility will the words admit of any other conſtruction. Yet ſeveral popular declaimers have attempted to ſound the alarm by their illeberal and ill-founded ſuggeſtions of peculation, bribery, and corruption, and of the probability of the public Treaſury being converted to the uſe of the Preſident and Congreſs. But how will this be poſſible? They will have all fixed ſalaries, and perquiſites. The public accounts of receipts and expenditures will be regularly kept and regularly publiſhed, for the public inſpection: Beſides which, the public offices will always be open for the ſearch and inquiries of every individual. I doubt if human wiſdom could deviſe any better mode of ſecuring a juſt application of the public money."
     },
     {
       "label": "A Native of Virginia, Article I, ¶ 49",
@@ -2000,12 +1831,6 @@
       "text": "AS ſcarcely any article of the propoſed plan has eſcaped cenſure, there are objections made to the grant of the impoſts to Congreſs. But when we conſider that the purpoſes for which the impoſts are to be applied are merely national, and falls directly within the deſign of the Union, that of making all America one State for great political purpoſes, the objection falls; for in this view America compoſes but one great republic, all the ſubjects of which ſtand preciſely upon the ſame ground, and pay only in proportion to their conſumption of foreign articles. To this we may add, that thoſe States which export the chief of the produce of their labour, and in conſequenec of that circumſtance, import more than thoſe which manufacture, receive a compenſation for the increaſed import, by the exported produce being free from duties. And beſides, we may fairly conclude, that the conſumption of foreign articles throughout America, is nearly in proportion to the enumeration, which is the meaſure of the reſpective quotas."
     },
     {
-      "emphasis": [
-        [
-          0,
-          51
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 50",
       "pages": [
         "24"
@@ -2022,12 +1847,6 @@
       "text": "THIS power is lodged with the preſent Congreſs."
     },
     {
-      "emphasis": [
-        [
-          0,
-          100
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 52",
       "pages": [
         "24"
@@ -2046,7 +1865,7 @@
         {
           "end": 179,
           "readings": {
-            "primary": "〈◊〉;"
+            "tcp": "〈◊〉;"
           },
           "start": 175
         }
@@ -2073,14 +1892,14 @@
         {
           "end": 122,
           "readings": {
-            "primary": "•he"
+            "tcp": "•he"
           },
           "start": 119
         },
         {
           "end": 182,
           "readings": {
-            "primary": "•o"
+            "tcp": "•o"
           },
           "start": 180
         }
@@ -2113,14 +1932,14 @@
         {
           "end": 186,
           "readings": {
-            "primary": "•gnorance"
+            "tcp": "•gnorance"
           },
           "start": 177
         },
         {
           "end": 428,
           "readings": {
-            "primary": "•ugars"
+            "tcp": "•ugars"
           },
           "start": 422
         }
@@ -2133,35 +1952,35 @@
         "27"
       ],
       "ref": "NativeOfVirginia.Article1.59",
-      "text": "IF Maſſachuſetts can furniſh us with ſhoes, cards, train oil and ſpermacaeti candles; Pennſylvania with nails, white ſugar carriages, and paper, as cheap as we can procure them from beyond the Atlantic, why ſhould not ſuch European article be probibited? There is no probability that either the northern or ſouthern States, will in many years become extenſive manufacturers. The price of labour and cheapneſs of land will prevent it; and the daily migrations from all the States to the weſtern parts of America, will keep up the one, and keep down the other. I have been informed, and I believe rightly informed, that the amount of the imports from Europe, is a great or greater in the eaſtern or middle States, as in the ſouthern, in proportion to their numbers.* This, to many, may appear doubtful; but I believe it, becauſe I have good reaſon to think, that the domeſtic manufactures of the ſouthern States particularly of Virginia, are of greater value than the dome•tic manufactures of the northern and middle States, in the ſam• proportion. This has ariſen from the cultivation of cotton which will not come to perfection to the northward; and tha• article is manufactured with much leſs trouble than eithe• flax or hemp.",
+      "text": "IF Maſſachuſetts can furniſh us with ſhoes, cards, train oil and ſpermacaeti candles; Pennſylvania with nails, white ſugar carriages, and paper, as cheap as we can procure them from beyond the Atlantic, why ſhould not ſuch European article be probibited? There is no probability that either the northern or ſouthern States, will in many years become extenſive manufacturers. The price of labour and cheapneſs of land will prevent it; and the daily migrations from all the States to the weſtern parts of America, will keep up the one, and keep down the other. I have been informed, and I believe rightly informed, that the amount of the imports from Europe, is a great or greater in the eaſtern or middle States, as in the ſouthern, in proportion to their numbers. This, to many, may appear doubtful; but I believe it, becauſe I have good reaſon to think, that the domeſtic manufactures of the ſouthern States particularly of Virginia, are of greater value than the dome•tic manufactures of the northern and middle States, in the ſam• proportion. This has ariſen from the cultivation of cotton which will not come to perfection to the northward; and tha• article is manufactured with much leſs trouble than eithe• flax or hemp.",
       "uncertain": [
         {
-          "end": 974,
+          "end": 973,
           "readings": {
-            "primary": "dome•tic"
+            "tcp": "dome•tic"
           },
-          "start": 966
+          "start": 965
         },
         {
-          "end": 1034,
+          "end": 1033,
           "readings": {
-            "primary": "ſam•"
+            "tcp": "ſam•"
           },
-          "start": 1030
+          "start": 1029
         },
         {
-          "end": 1154,
+          "end": 1153,
           "readings": {
-            "primary": "tha•"
+            "tcp": "tha•"
           },
-          "start": 1150
+          "start": 1149
         },
         {
-          "end": 1213,
+          "end": 1212,
           "readings": {
-            "primary": "eithe•"
+            "tcp": "eithe•"
           },
-          "start": 1207
+          "start": 1206
         }
       ]
     },
@@ -2177,7 +1996,7 @@
         {
           "end": 58,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 55
         }
@@ -2192,12 +2011,6 @@
       "text": "AFTER all, ſuppoſe theſe objections are founded in fact: Had we not better ſubmit to the ſlight inconveniencies which might ariſe from this combination; than the ſerious evils that muſt neceſſarily follow from diſunion?"
     },
     {
-      "emphasis": [
-        [
-          0,
-          125
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 62",
       "pages": [
         "28"
@@ -2208,19 +2021,13 @@
         {
           "end": 64,
           "readings": {
-            "primary": "•aws"
+            "tcp": "•aws"
           },
           "start": 60
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          109
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 63",
       "pages": [
         "28"
@@ -2231,19 +2038,13 @@
         {
           "end": 63,
           "readings": {
-            "primary": "•oin,"
+            "tcp": "•oin,"
           },
           "start": 58
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          101
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 64",
       "pages": [
         "28"
@@ -2254,19 +2055,13 @@
         {
           "end": 66,
           "readings": {
-            "primary": "•nd"
+            "tcp": "•nd"
           },
           "start": 63
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          41
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 65",
       "pages": [
         "28"
@@ -2275,12 +2070,6 @@
       "text": "To eſtabliſh poſt-offices and poſt roads;"
     },
     {
-      "emphasis": [
-        [
-          0,
-          170
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 66",
       "pages": [
         "28"
@@ -2291,19 +2080,13 @@
         {
           "end": 66,
           "readings": {
-            "primary": "•r"
+            "tcp": "•r"
           },
           "start": 64
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          54
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 67",
       "pages": [
         "28"
@@ -2312,12 +2095,6 @@
       "text": "To conſtitute tribunals inferior to the Supreme Court;"
     },
     {
-      "emphasis": [
-        [
-          0,
-          111
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 68",
       "pages": [
         "28"
@@ -2328,19 +2105,13 @@
         {
           "end": 64,
           "readings": {
-            "primary": "••gh"
+            "tcp": "••gh"
           },
           "start": 60
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          107
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 69",
       "pages": [
         "28"
@@ -2351,7 +2122,7 @@
         {
           "end": 62,
           "readings": {
-            "primary": "•ake"
+            "tcp": "•ake"
           },
           "start": 58
         }
@@ -2368,19 +2139,13 @@
         {
           "end": 59,
           "readings": {
-            "primary": "•ne"
+            "tcp": "•ne"
           },
           "start": 56
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          113
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 71",
       "pages": [
         "28",
@@ -2398,12 +2163,6 @@
       "text": "BY this regulation every Houſe of Repreſentatives will have a ſhare in the appropriations; and no miſchief can enſue from appropriations of two years, ſince the proceedings of each Houſe of Congreſs are to be publiſhed from time to time, as well as regular ſtatements and accounts of the receipts and expenditures of all public money."
     },
     {
-      "emphasis": [
-        [
-          0,
-          31
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 73",
       "pages": [
         "29"
@@ -2412,12 +2171,6 @@
       "text": "To provide and maintain a navy;"
     },
     {
-      "emphasis": [
-        [
-          0,
-          77
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 74",
       "pages": [
         "29"
@@ -2434,12 +2187,6 @@
       "text": "THE preſent Congreſs poſſeſs the powers given by theſe clauſes."
     },
     {
-      "emphasis": [
-        [
-          0,
-          118
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 76",
       "pages": [
         "29"
@@ -2448,12 +2195,6 @@
       "text": "To provide for calling forth the militia to execute the laws of the union, ſuppreſs inſurrections and repel invaſions;"
     },
     {
-      "emphasis": [
-        [
-          0,
-          320
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 77",
       "pages": [
         "29"
@@ -2476,7 +2217,7 @@
         "30"
       ],
       "ref": "NativeOfVirginia.Article1.79",
-      "text": "THESE clauſes have been extremely miſunderſtood, or purpoſely miſconſtrued, by the enemies to the Conſtitution. Some have ſaid, the abſolute unqualified command that Congreſs have over the militia may be made inſtrumental to the deſtruction of all liberty, both public and private, whether of a perſonal, civil, or religious nature.*"
+      "text": "THESE clauſes have been extremely miſunderſtood, or purpoſely miſconſtrued, by the enemies to the Conſtitution. Some have ſaid, the abſolute unqualified command that Congreſs have over the militia may be made inſtrumental to the deſtruction of all liberty, both public and private, whether of a perſonal, civil, or religious nature."
     },
     {
       "label": "A Native of Virginia, Article I, ¶ 80",
@@ -2501,15 +2242,9 @@
         "31"
       ],
       "ref": "NativeOfVirginia.Article1.82",
-      "text": "CAN any one ſeriouſly ſuppoſe, that Congreſs will ever think of drawing the militia of one State out, in order to deſtroy the liberties of another? Of Virginia, for inſtance, to deſtroy the liberties of Pennſylvania? Or ſhould they be ſo wicked, that an American militia, officered by the States, would obey ſo odious a mandate?* The ſuppoſition is monſtrous."
+      "text": "CAN any one ſeriouſly ſuppoſe, that Congreſs will ever think of drawing the militia of one State out, in order to deſtroy the liberties of another? Of Virginia, for inſtance, to deſtroy the liberties of Pennſylvania? Or ſhould they be ſo wicked, that an American militia, officered by the States, would obey ſo odious a mandate? The ſuppoſition is monſtrous."
     },
     {
-      "emphasis": [
-        [
-          0,
-          460
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 83",
       "pages": [
         "31"
@@ -2537,19 +2272,13 @@
         {
           "end": 860,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 857
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          232
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 86",
       "pages": [
         "32"
@@ -2566,12 +2295,6 @@
       "text": "BY this clauſe, Congreſs have no farther legiſlative authority than ſhall be deemed neceſſary to carry into execution the powers veſted by this Conſtitution. This regulation is neceſſary; as without it the different States might counteract all the laws of Congreſs, and render the Federal Government nugatory."
     },
     {
-      "emphasis": [
-        [
-          9,
-          309
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 88",
       "pages": [
         "32"
@@ -2589,12 +2312,6 @@
       "text": "THIS clauſe is a proof of deference in the members of the Convention, to each other, and of conceſſion of the northern to the ſouthern States. There is no doubt but far the greater part of that Convention hold domeſtic ſlavery in abhorrence. But the members from South-Carolina and Georgia, thinking ſlaves abſolutely neceſſary for the cultivation and melioration of their States, inſiſted upon this clauſe. But it affects not the law of Virginia which prohibits the importation of ſlaves."
     },
     {
-      "emphasis": [
-        [
-          0,
-          146
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 90",
       "pages": [
         "33"
@@ -2611,12 +2328,6 @@
       "text": "BY this clauſe the Congreſs have the right of ſuſpending the habeas corpus in the two caſes of inſurrection and rebellion—a power which follows from the neceſſity of the thing."
     },
     {
-      "emphasis": [
-        [
-          0,
-          58
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 92",
       "pages": [
         "33"
@@ -2627,7 +2338,7 @@
         {
           "end": 26,
           "readings": {
-            "primary": "or•ex"
+            "tcp": "or•ex"
           },
           "start": 21
         }
@@ -2644,33 +2355,27 @@
         {
           "end": 301,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 299
         },
         {
           "end": 364,
           "readings": {
-            "primary": "tha•"
+            "tcp": "tha•"
           },
           "start": 360
         },
         {
           "end": 428,
           "readings": {
-            "primary": "diſcove•"
+            "tcp": "diſcove•"
           },
           "start": 420
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          136
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 94",
       "pages": [
         "33"
@@ -2687,12 +2392,6 @@
       "text": "THIS clauſe is a confirmation of the third clauſe of the ſecond ſection of the firſt article."
     },
     {
-      "emphasis": [
-        [
-          0,
-          287
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 96",
       "pages": [
         "33"
@@ -2710,12 +2409,6 @@
       "text": "ALL writers upon finance hold taxes upon exports to be impolitic. Yet there are doubtleſs ſome articles which will with propriety bear an export duty; ſuch as tobacco and perhaps indigo. But then theſe articles are of the growth of only five of the States; and it would be a manifeſt injuſtice that the produce of ſome States ſhould be taxed for the benefit of others. The latter part of the clauſe provides that all Naval Officers fees and port charges ſhall be the ſame throughout the United States; and that a veſſel bound to one State from another, and calling at any intermediate State, ſhall not be obliged to enter, clear, or pay duty, in ſuch State. This tends to facilitate the intercourſe among the States, and may produce many commercial conveniencies."
     },
     {
-      "emphasis": [
-        [
-          0,
-          220
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 98",
       "pages": [
         "34"
@@ -2732,12 +2425,6 @@
       "text": "AS all appropriations of money are to be made by law, and regular ſtatements thereof publiſhed, no money can be applied but to the uſe of the United States."
     },
     {
-      "emphasis": [
-        [
-          0,
-          279
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 100",
       "pages": [
         "34"
@@ -2754,12 +2441,6 @@
       "text": "THE firſt part of this clauſe proves the Convention had no ariſtocratical views, nor any idea of eſtabliſhing an order in the State, with rights independent of the people. The latter part of it is introduced to prevent the officers of the Federal Government being warped from their duty."
     },
     {
-      "emphasis": [
-        [
-          10,
-          342
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 102",
       "pages": [
         "34",
@@ -2777,12 +2458,6 @@
       "text": "THE States, in their individual capacities, ſhould be reſtrained from the exerciſe of the powers enumerated in this clauſe, for a variety of reaſons. If any State ſhould have a right of making treaties, granting letters of marque, and the like, America might be perpetually involved in foreign wars. By exerciſing the right of coinage and of emitting bills of credit, a State might, by the former, debaſe the currency of the United States, by mixing great quantities of alloy, and by that means defraud the Federal Treaſury; and by the latter it might defraud not only its own citizens, but the citizens of other States. But this is not all. An exerciſe of theſe rights would materially interfere with the exerciſe of the like by the Congreſs; and therefore the particular, ſhould give way to the general intereſt. The making any thing but gold and ſilver a tender in payment of debts, and the impairing the obligation of contracts, is ſo great a political injuſtice, that the Conſtitution here requires of the States, that they will forever relinquiſh the exerciſe of a power ſo odious. This part of the clauſe would probably never have been introduced, had not ſome of the States afforded too frequent inſtances of unjuſt laws upon theſe ſubjects."
     },
     {
-      "emphasis": [
-        [
-          0,
-          707
-        ]
-      ],
       "label": "A Native of Virginia, Article I, ¶ 104",
       "pages": [
         "35",
@@ -2805,7 +2480,7 @@
         "36"
       ],
       "ref": "NativeOfVirginia.Article1.106",
-      "text": "THE exigencies of the Union may however require direct taxes. By this clauſe, a door is open to the States, to raiſe their reſpective quotas, in lieu of direct taxes; by laying a duty upon exports; or even duties upon imports. But as the amount of theſe duties are to be paid into the public Treaſury, no inconvenience can, on the one hand, ariſe to the general welfare from them; and, on the other, the power of reviſion in the Congreſs will be the means of ſecuring a due attention to the intereſts of all the States, in the mode of laying the duty, as well as in the application of it. The latter part of the clauſe is no more than a confirmation of principles antecedently eſtabliſhed, and of powers before veſted in the Congreſs; but ſuch as are abſolutely neceſſary for the good order, dignity, and harmony of the whole; and are ſuch as the States have already yielded to the preſent Congreſs.*"
+      "text": "THE exigencies of the Union may however require direct taxes. By this clauſe, a door is open to the States, to raiſe their reſpective quotas, in lieu of direct taxes; by laying a duty upon exports; or even duties upon imports. But as the amount of theſe duties are to be paid into the public Treaſury, no inconvenience can, on the one hand, ariſe to the general welfare from them; and, on the other, the power of reviſion in the Congreſs will be the means of ſecuring a due attention to the intereſts of all the States, in the mode of laying the duty, as well as in the application of it. The latter part of the clauſe is no more than a confirmation of principles antecedently eſtabliſhed, and of powers before veſted in the Congreſs; but ſuch as are abſolutely neceſſary for the good order, dignity, and harmony of the whole; and are ſuch as the States have already yielded to the preſent Congreſs."
     },
     {
       "kind": "footnote",
@@ -2828,61 +2503,55 @@
         {
           "end": 60,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 57
         },
         {
           "end": 190,
           "readings": {
-            "primary": "conſideratio•"
+            "tcp": "conſideratio•"
           },
           "start": 177
         },
         {
           "end": 253,
           "readings": {
-            "primary": "iro•"
+            "tcp": "iro•"
           },
           "start": 249
         },
         {
           "end": 317,
           "readings": {
-            "primary": "gre••"
+            "tcp": "gre••"
           },
           "start": 312
         },
         {
           "end": 377,
           "readings": {
-            "primary": "ſhipp•"
+            "tcp": "ſhipp•"
           },
           "start": 371
         },
         {
           "end": 442,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 439
         },
         {
           "end": 504,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 501
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          21,
-          27
-        ]
-      ],
       "kind": "footnote",
       "label": "A Native of Virginia, Article I, note 3",
       "pages": [
@@ -2910,12 +2579,6 @@
       "text": "See Article the 6th of the Confederation."
     },
     {
-      "emphasis": [
-        [
-          9,
-          235
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 1",
       "pages": [
         "37"
@@ -2924,12 +2587,6 @@
       "text": "Sect. 1. The Executive power ſhall be veſted in a Preſident of the United States of America. He ſhall hold his office during the term of four years, and together with the Vice-Preſident, choſen for the ſame term, be elected as follows:"
     },
     {
-      "emphasis": [
-        [
-          0,
-          348
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 2",
       "pages": [
         "37"
@@ -2938,12 +2595,6 @@
       "text": "Each State ſhall appoint, in ſuch manner as the Legiſlature thereof may direct, a number of Electors, equal to the whole number of Senators and Repreſentatives to which the State may be entitled in the Congreſs: But no Senator or Repreſentative, or perſon holding an office of truſt or profit under the United States, ſhall be appointed an Elector."
     },
     {
-      "emphasis": [
-        [
-          0,
-          1579
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 3",
       "pages": [
         "37",
@@ -2955,70 +2606,70 @@
         {
           "end": 395,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 392
         },
         {
           "end": 523,
           "readings": {
-            "primary": "a•"
+            "tcp": "a•"
           },
           "start": 521
         },
         {
           "end": 968,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 966
         },
         {
           "end": 1033,
           "readings": {
-            "primary": "Preſiden•"
+            "tcp": "Preſiden•"
           },
           "start": 1024
         },
         {
           "end": 1158,
           "readings": {
-            "primary": "quoru•"
+            "tcp": "quoru•"
           },
           "start": 1152
         },
         {
           "end": 1221,
           "readings": {
-            "primary": "tw•"
+            "tcp": "tw•"
           },
           "start": 1218
         },
         {
           "end": 1295,
           "readings": {
-            "primary": "n•ceſſary"
+            "tcp": "n•ceſſary"
           },
           "start": 1286
         },
         {
           "end": 1358,
           "readings": {
-            "primary": "Preſ•dent,"
+            "tcp": "Preſ•dent,"
           },
           "start": 1348
         },
         {
           "end": 1486,
           "readings": {
-            "primary": "•or"
+            "tcp": "•or"
           },
           "start": 1483
         },
         {
           "end": 1551,
           "readings": {
-            "primary": "••y"
+            "tcp": "••y"
           },
           "start": 1548
         }
@@ -3035,98 +2686,98 @@
         {
           "end": 118,
           "readings": {
-            "primary": "•e"
+            "tcp": "•e"
           },
           "start": 116
         },
         {
           "end": 177,
           "readings": {
-            "primary": "•hat"
+            "tcp": "•hat"
           },
           "start": 173
         },
         {
           "end": 238,
           "readings": {
-            "primary": "•ad"
+            "tcp": "•ad"
           },
           "start": 235
         },
         {
           "end": 294,
           "readings": {
-            "primary": "•e"
+            "tcp": "•e"
           },
           "start": 292
         },
         {
           "end": 425,
           "readings": {
-            "primary": "con•inuance"
+            "tcp": "con•inuance"
           },
           "start": 414
         },
         {
           "end": 483,
           "readings": {
-            "primary": "•f"
+            "tcp": "•f"
           },
           "start": 481
         },
         {
           "end": 550,
           "readings": {
-            "primary": "pro•ably"
+            "tcp": "pro•ably"
           },
           "start": 542
         },
         {
           "end": 608,
           "readings": {
-            "primary": "•f"
+            "tcp": "•f"
           },
           "start": 606
         },
         {
           "end": 675,
           "readings": {
-            "primary": "•ill"
+            "tcp": "•ill"
           },
           "start": 671
         },
         {
           "end": 792,
           "readings": {
-            "primary": "•e"
+            "tcp": "•e"
           },
           "start": 790
         },
         {
           "end": 857,
           "readings": {
-            "primary": "•very"
+            "tcp": "•very"
           },
           "start": 852
         },
         {
           "end": 923,
           "readings": {
-            "primary": "•lectors"
+            "tcp": "•lectors"
           },
           "start": 915
         },
         {
           "end": 979,
           "readings": {
-            "primary": "•ill"
+            "tcp": "•ill"
           },
           "start": 975
         },
         {
           "end": 1042,
           "readings": {
-            "primary": "•bility,"
+            "tcp": "•bility,"
           },
           "start": 1034
         }
@@ -3143,14 +2794,14 @@
         {
           "end": 61,
           "readings": {
-            "primary": "•e"
+            "tcp": "•e"
           },
           "start": 59
         },
         {
           "end": 184,
           "readings": {
-            "primary": "••ty,"
+            "tcp": "••ty,"
           },
           "start": 179
         }
@@ -3167,35 +2818,35 @@
         {
           "end": 53,
           "readings": {
-            "primary": "•ecks"
+            "tcp": "•ecks"
           },
           "start": 48
         },
         {
           "end": 111,
           "readings": {
-            "primary": "•e"
+            "tcp": "•e"
           },
           "start": 109
         },
         {
           "end": 171,
           "readings": {
-            "primary": "•on"
+            "tcp": "•on"
           },
           "start": 168
         },
         {
           "end": 294,
           "readings": {
-            "primary": "•e"
+            "tcp": "•e"
           },
           "start": 292
         },
         {
           "end": 355,
           "readings": {
-            "primary": "dan••rs"
+            "tcp": "dan••rs"
           },
           "start": 348
         }
@@ -3216,7 +2867,7 @@
         "39"
       ],
       "ref": "NativeOfVirginia.Article2.8",
-      "text": "NONE of its citizens poſſeſs diſtinct principalities, from whence money may be drawn to purchaſe, or armies raiſed to intimidate the votes. Fortunately for America, ſhe has no neighbouring Princeſs to interfere in her elections, or her councils: No Empreſs of Ruſſia to place the Crown upon the head of her favorite Powniotowſky.*"
+      "text": "NONE of its citizens poſſeſs diſtinct principalities, from whence money may be drawn to purchaſe, or armies raiſed to intimidate the votes. Fortunately for America, ſhe has no neighbouring Princeſs to interfere in her elections, or her councils: No Empreſs of Ruſſia to place the Crown upon the head of her favorite Powniotowſky."
     },
     {
       "label": "A Native of Virginia, Article II, ¶ 9",
@@ -3230,19 +2881,13 @@
         {
           "end": 1539,
           "readings": {
-            "primary": "•onſult"
+            "tcp": "•onſult"
           },
           "start": 1532
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          169
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 10",
       "pages": [
         "40"
@@ -3253,19 +2898,13 @@
         {
           "end": 130,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 127
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          346
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 11",
       "pages": [
         "40"
@@ -3276,26 +2915,20 @@
         {
           "end": 197,
           "readings": {
-            "primary": "per•••"
+            "tcp": "per•••"
           },
           "start": 191
         },
         {
           "end": 331,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 328
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          494
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 12",
       "pages": [
         "40",
@@ -3307,26 +2940,20 @@
         {
           "end": 371,
           "readings": {
-            "primary": "•ct"
+            "tcp": "•ct"
           },
           "start": 368
         },
         {
           "end": 377,
           "readings": {
-            "primary": "word•"
+            "tcp": "word•"
           },
           "start": 372
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          287
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 13",
       "pages": [
         "41"
@@ -3335,12 +2962,6 @@
       "text": "The Preſident ſhall, at ſtated times, receive for his ſervices, a compenſation, which ſhall neither be increaſed nor diminiſhed during the period for which he ſhall have been elected, and he ſhall not receive within that period any other emolument from the United States, or any of them."
     },
     {
-      "emphasis": [
-        [
-          0,
-          97
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 14",
       "pages": [
         "41"
@@ -3357,12 +2978,6 @@
       "text": "THE firſt of theſe clauſes is intended to prevent intrigue and tumult in chuſing the Electors: And the reaſons already offered, why Congreſs ſhould have the right of altering \"the times and manner of holding the elections for Senators,\" apply why they ſhould have the power of determining the time of chuſing Electors. The fifth is an additional check upon the Preſident."
     },
     {
-      "emphasis": [
-        [
-          9,
-          492
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 16",
       "pages": [
         "41",
@@ -3393,15 +3008,9 @@
         "42"
       ],
       "ref": "NativeOfVirginia.Article2.19",
-      "text": "WHY Governor Randolph ſhould wiſh to take from him this power, at leaſt in caſes of treaſon; and why he ſhould have made a diſtinction between the power of pardoning before, and after conviction; I am at a loſs to conceive; and ſhall therefore attempt no further anſwer to an objection which appears to me, unſupported by reaſon.*"
+      "text": "WHY Governor Randolph ſhould wiſh to take from him this power, at leaſt in caſes of treaſon; and why he ſhould have made a diſtinction between the power of pardoning before, and after conviction; I am at a loſs to conceive; and ſhall therefore attempt no further anſwer to an objection which appears to me, unſupported by reaſon."
     },
     {
-      "emphasis": [
-        [
-          0,
-          629
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 20",
       "pages": [
         "42",
@@ -3424,7 +3033,7 @@
         "43"
       ],
       "ref": "NativeOfVirginia.Article2.22",
-      "text": "WRITERS upon government have eſtabliſhed it as a maxim, that the Executive and Legiſlative authority ſhould be kept ſeparate. But the poſition ſhould be taken with conſiderable latitude. The Executive authority here given to a branch of the Legiſlature, is no novelty, in free governments. In England, the Executive, or Cabinet Council, is taken indifferently from either Houſe of Parliament. In the States of New York and Jerſey, the Senate not only act as an Executive Council, but alſo form a part of the Court of Appeals.*"
+      "text": "WRITERS upon government have eſtabliſhed it as a maxim, that the Executive and Legiſlative authority ſhould be kept ſeparate. But the poſition ſhould be taken with conſiderable latitude. The Executive authority here given to a branch of the Legiſlature, is no novelty, in free governments. In England, the Executive, or Cabinet Council, is taken indifferently from either Houſe of Parliament. In the States of New York and Jerſey, the Senate not only act as an Executive Council, but alſo form a part of the Court of Appeals."
     },
     {
       "label": "A Native of Virginia, Article II, ¶ 23",
@@ -3452,12 +3061,6 @@
       "text": "IN the Dutch Republic the States-General are obliged to conſult their conſtituents, upon this, as upon every important occaſion, however urgent may be the neceſſity. This vice in their Federal Conſtitution has more than once brought them to the brink of ruin."
     },
     {
-      "emphasis": [
-        [
-          0,
-          181
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 26",
       "pages": [
         "44"
@@ -3474,12 +3077,6 @@
       "text": "THIS inoffenſive clauſe is made a ground of objection by Governor Randolph! I wiſh he had informed us wherefore."
     },
     {
-      "emphasis": [
-        [
-          9,
-          580
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 28",
       "pages": [
         "44"
@@ -3496,12 +3093,6 @@
       "text": "THE powers given by this ſection are ſuch as in all governments, have always been, and muſt neceſſarily be, veſted in the firſt magiſtrate."
     },
     {
-      "emphasis": [
-        [
-          9,
-          209
-        ]
-      ],
       "label": "A Native of Virginia, Article II, ¶ 30",
       "pages": [
         "44"
@@ -3546,12 +3137,6 @@
       "text": "It is to be obſerved, that this is the only inſtance where the Senate have the ſhadow of Executive power."
     },
     {
-      "emphasis": [
-        [
-          9,
-          413
-        ]
-      ],
       "label": "A Native of Virginia, Article III, ¶ 1",
       "pages": [
         "45"
@@ -3562,47 +3147,41 @@
         {
           "end": 57,
           "readings": {
-            "primary": "b•"
+            "tcp": "b•"
           },
           "start": 55
         },
         {
           "end": 121,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 118
         },
         {
           "end": 178,
           "readings": {
-            "primary": "Th•"
+            "tcp": "Th•"
           },
           "start": 175
         },
         {
           "end": 311,
           "readings": {
-            "primary": "receiv•"
+            "tcp": "receiv•"
           },
           "start": 304
         },
         {
           "end": 377,
           "readings": {
-            "primary": "deminiſhe•"
+            "tcp": "deminiſhe•"
           },
           "start": 367
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          9,
-          691
-        ]
-      ],
       "label": "A Native of Virginia, Article III, ¶ 2",
       "pages": [
         "45"
@@ -3613,33 +3192,27 @@
         {
           "end": 61,
           "readings": {
-            "primary": "la•"
+            "tcp": "la•"
           },
           "start": 58
         },
         {
           "end": 252,
           "readings": {
-            "primary": "publi•"
+            "tcp": "publi•"
           },
           "start": 246
         },
         {
           "end": 378,
           "readings": {
-            "primary": "ſhal•"
+            "tcp": "ſhal•"
           },
           "start": 373
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          363
-        ]
-      ],
       "label": "A Native of Virginia, Article III, ¶ 3",
       "pages": [
         "45"
@@ -3648,12 +3221,6 @@
       "text": "In all caſes affecting Ambaſſadors, other public Miniſters, and Conſuls, and thoſe in which a State ſhall be a party, the Supreme Court ſhall have original juriſdiction. In all the other caſe before mentioned, the Supreme Court ſhall have appellate juriſdiction, both as to law and fact with ſuch exceptions, and under ſuch regulations as the Congreſs ſhall make."
     },
     {
-      "emphasis": [
-        [
-          0,
-          292
-        ]
-      ],
       "label": "A Native of Virginia, Article III, ¶ 4",
       "pages": [
         "45"
@@ -3662,12 +3229,6 @@
       "text": "The trial of all crimes, except in caſes of impeachment, ſhall be by jury; and ſuch trial ſhall be held in the State where the ſaid crimes ſhall have been committed; but when not committed within any State, the trial ſhall be at ſuch place or places, as the Congreſs may by law have directed."
     },
     {
-      "emphasis": [
-        [
-          309,
-          318
-        ]
-      ],
       "label": "A Native of Virginia, Article III, ¶ 5",
       "pages": [
         "45",
@@ -3701,24 +3262,18 @@
       "text": "THE only queſtion then is, whether the enumeration of the caſes aſſigned to the Federal Court, by this article, is likely to produce oppreſſion? Or if there be any ground to apprehend that Congreſs will not, by law provide a remedy for all probable hardſhips, and render the federal juriſdiction convenient to every part of the United States?"
     },
     {
-      "emphasis": [
-        [
-          206,
-          228
-        ]
-      ],
       "label": "A Native of Virginia, Article III, ¶ 9",
       "pages": [
         "46",
         "47"
       ],
       "ref": "NativeOfVirginia.Article3.9",
-      "text": "THERE has been no objection raiſed to the Federal Court having original juriſdiction, in all caſes reſpecting public Miniſters, and where a State may be a party; and theſe are the only caſes wherein it has original juriſdiction. In theſe caſes, in controverſies between two or more States, and between a State and citizens of another State, and between citizens of the •ame claiming lands under grants of different States, the preſent Congreſs have the right of determining.* Here the judiciary is blended in an eminent degree with the Legiſlative authority; a ſtrong reaſon, among many others, for new modeling that unſkilful organized body.†",
+      "text": "THERE has been no objection raiſed to the Federal Court having original juriſdiction, in all caſes reſpecting public Miniſters, and where a State may be a party; and theſe are the only caſes wherein it has original juriſdiction. In theſe caſes, in controverſies between two or more States, and between a State and citizens of another State, and between citizens of the •ame claiming lands under grants of different States, the preſent Congreſs have the right of determining. Here the judiciary is blended in an eminent degree with the Legiſlative authority; a ſtrong reaſon, among many others, for new modeling that unſkilful organized body.",
       "uncertain": [
         {
           "end": 373,
           "readings": {
-            "primary": "•ame"
+            "tcp": "•ame"
           },
           "start": 369
         }
@@ -3752,21 +3307,21 @@
         {
           "end": 754,
           "readings": {
-            "primary": "•hat"
+            "tcp": "•hat"
           },
           "start": 750
         },
         {
           "end": 826,
           "readings": {
-            "primary": "de•ermination."
+            "tcp": "de•ermination."
           },
           "start": 812
         },
         {
           "end": 938,
           "readings": {
-            "primary": "where•n"
+            "tcp": "where•n"
           },
           "start": 931
         }
@@ -3783,7 +3338,7 @@
         {
           "end": 248,
           "readings": {
-            "primary": "•ver"
+            "tcp": "•ver"
           },
           "start": 244
         }
@@ -3801,56 +3356,56 @@
         {
           "end": 1286,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 1283
         },
         {
           "end": 1407,
           "readings": {
-            "primary": "hi•"
+            "tcp": "hi•"
           },
           "start": 1404
         },
         {
           "end": 1464,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 1461
         },
         {
           "end": 1523,
           "readings": {
-            "primary": "lamen•"
+            "tcp": "lamen•"
           },
           "start": 1517
         },
         {
           "end": 1583,
           "readings": {
-            "primary": "hav•"
+            "tcp": "hav•"
           },
           "start": 1579
         },
         {
           "end": 1763,
           "readings": {
-            "primary": "forc•"
+            "tcp": "forc•"
           },
           "start": 1758
         },
         {
           "end": 1816,
           "readings": {
-            "primary": "unde•"
+            "tcp": "unde•"
           },
           "start": 1811
         },
         {
           "end": 1875,
           "readings": {
-            "primary": "ca•"
+            "tcp": "ca•"
           },
           "start": 1872
         }
@@ -3867,7 +3422,7 @@
         {
           "end": 118,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 116
         }
@@ -3884,7 +3439,7 @@
         {
           "end": 380,
           "readings": {
-            "primary": "a••ry,"
+            "tcp": "a••ry,"
           },
           "start": 374
         }
@@ -3910,21 +3465,21 @@
         {
           "end": 124,
           "readings": {
-            "primary": "unequivocal•y."
+            "tcp": "unequivocal•y."
           },
           "start": 110
         },
         {
           "end": 246,
           "readings": {
-            "primary": "•e"
+            "tcp": "•e"
           },
           "start": 244
         },
         {
           "end": 367,
           "readings": {
-            "primary": "•e"
+            "tcp": "•e"
           },
           "start": 365
         }
@@ -3941,77 +3496,77 @@
         {
           "end": 67,
           "readings": {
-            "primary": "•ariety"
+            "tcp": "•ariety"
           },
           "start": 60
         },
         {
           "end": 132,
           "readings": {
-            "primary": "•erious"
+            "tcp": "•erious"
           },
           "start": 125
         },
         {
           "end": 186,
           "readings": {
-            "primary": "juſt•y"
+            "tcp": "juſt•y"
           },
           "start": 180
         },
         {
           "end": 308,
           "readings": {
-            "primary": "tri•l,"
+            "tcp": "tri•l,"
           },
           "start": 302
         },
         {
           "end": 373,
           "readings": {
-            "primary": "•hief"
+            "tcp": "•hief"
           },
           "start": 368
         },
         {
           "end": 440,
           "readings": {
-            "primary": "••able"
+            "tcp": "••able"
           },
           "start": 434
         },
         {
           "end": 558,
           "readings": {
-            "primary": "per•on,"
+            "tcp": "per•on,"
           },
           "start": 551
         },
         {
           "end": 617,
           "readings": {
-            "primary": "•uch"
+            "tcp": "•uch"
           },
           "start": 613
         },
         {
           "end": 676,
           "readings": {
-            "primary": "•efend"
+            "tcp": "•efend"
           },
           "start": 670
         },
         {
           "end": 732,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 729
         },
         {
           "end": 798,
           "readings": {
-            "primary": "•rial"
+            "tcp": "•rial"
           },
           "start": 793
         }
@@ -4028,21 +3583,21 @@
         {
           "end": 66,
           "readings": {
-            "primary": "•lthough"
+            "tcp": "•lthough"
           },
           "start": 58
         },
         {
           "end": 184,
           "readings": {
-            "primary": "de•lare"
+            "tcp": "de•lare"
           },
           "start": 177
         },
         {
           "end": 248,
           "readings": {
-            "primary": "pre••rved,"
+            "tcp": "pre••rved,"
           },
           "start": 238
         }
@@ -4059,14 +3614,14 @@
         {
           "end": 65,
           "readings": {
-            "primary": "ju•ſdiction"
+            "tcp": "ju•ſdiction"
           },
           "start": 54
         },
         {
           "end": 119,
           "readings": {
-            "primary": "〈◊〉:"
+            "tcp": "〈◊〉:"
           },
           "start": 115
         }
@@ -4084,7 +3639,7 @@
         {
           "end": 181,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 179
         }
@@ -4096,24 +3651,18 @@
         "51"
       ],
       "ref": "NativeOfVirginia.Article3.23",
-      "text": "TO this it may be anſwered, that the out-lines of the piece are traced with ſufficient accuracy: That to have entered minutely into this ſubject, to have filled it with all its parts would have employed almoſt as much time as framing the Conſtitution itſelf, and would have ſpun out the work to a tedious length. In that caſe the Convention muſt have aſcertained the number of inferior Courts neceſſary, the number o• Judges, and other officers, with their ſalaries, the times of holding the Federal Courts, the duration of their terms; in what caſes the trial ſhall be by jury, in what not, with an infinite variety of circumſtances, the introduction of which in a ſyſtem of government, would have made a ſtrange appearance. They therefore properly left to the Congreſs the power of organizing by law the Federal Court: Well knowing that at leaſt eight of the States muſt, from their local ſituation, concur in rendering it convenient to the whole.*",
+      "text": "TO this it may be anſwered, that the out-lines of the piece are traced with ſufficient accuracy: That to have entered minutely into this ſubject, to have filled it with all its parts would have employed almoſt as much time as framing the Conſtitution itſelf, and would have ſpun out the work to a tedious length. In that caſe the Convention muſt have aſcertained the number of inferior Courts neceſſary, the number o• Judges, and other officers, with their ſalaries, the times of holding the Federal Courts, the duration of their terms; in what caſes the trial ſhall be by jury, in what not, with an infinite variety of circumſtances, the introduction of which in a ſyſtem of government, would have made a ſtrange appearance. They therefore properly left to the Congreſs the power of organizing by law the Federal Court: Well knowing that at leaſt eight of the States muſt, from their local ſituation, concur in rendering it convenient to the whole.",
       "uncertain": [
         {
           "end": 417,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 415
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          9,
-          289
-        ]
-      ],
       "label": "A Native of Virginia, Article III, ¶ 24",
       "pages": [
         "51"
@@ -4124,19 +3673,13 @@
         {
           "end": 252,
           "readings": {
-            "primary": "over•"
+            "tcp": "over•"
           },
           "start": 247
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          194
-        ]
-      ],
       "label": "A Native of Virginia, Article III, ¶ 25",
       "pages": [
         "51",
@@ -4148,21 +3691,21 @@
         {
           "end": 63,
           "readings": {
-            "primary": "•f"
+            "tcp": "•f"
           },
           "start": 61
         },
         {
           "end": 132,
           "readings": {
-            "primary": "•lood,"
+            "tcp": "•lood,"
           },
           "start": 126
         },
         {
           "end": 194,
           "readings": {
-            "primary": "at•ained."
+            "tcp": "at•ained."
           },
           "start": 185
         }
@@ -4177,12 +3720,6 @@
       "text": "THIS ſection is equally humane and juſt."
     },
     {
-      "emphasis": [
-        [
-          0,
-          1
-        ]
-      ],
       "kind": "footnote",
       "label": "A Native of Virginia, Article III, note 1",
       "pages": [
@@ -4203,7 +3740,7 @@
         {
           "end": 127,
           "readings": {
-            "primary": "•eaſon"
+            "tcp": "•eaſon"
           },
           "start": 121
         }
@@ -4219,12 +3756,6 @@
       "text": "The four eaſtern States, and the four ſouthern, being at a great diſtance from the center, will neceſſarily concur in making the Federal Court as convenient as poſſible: And therefore appeals to the Supreme Court will be allowed only in caſes of great conſequence."
     },
     {
-      "emphasis": [
-        [
-          0,
-          8
-        ]
-      ],
       "label": "A Native of Virginia, Article IV, ¶ 1",
       "pages": [
         "52"
@@ -4235,40 +3766,34 @@
         {
           "end": 62,
           "readings": {
-            "primary": "•o"
+            "tcp": "•o"
           },
           "start": 60
         },
         {
           "end": 128,
           "readings": {
-            "primary": "•ther"
+            "tcp": "•ther"
           },
           "start": 123
         },
         {
           "end": 186,
           "readings": {
-            "primary": "•he"
+            "tcp": "•he"
           },
           "start": 183
         },
         {
           "end": 247,
           "readings": {
-            "primary": "•e"
+            "tcp": "•e"
           },
           "start": 245
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          8
-        ]
-      ],
       "label": "A Native of Virginia, Article IV, ¶ 2",
       "pages": [
         "52"
@@ -4279,7 +3804,7 @@
         {
           "end": 71,
           "readings": {
-            "primary": "•rivileges"
+            "tcp": "•rivileges"
           },
           "start": 61
         }
@@ -4296,21 +3821,21 @@
         {
           "end": 67,
           "readings": {
-            "primary": "•rime,"
+            "tcp": "•rime,"
           },
           "start": 61
         },
         {
           "end": 134,
           "readings": {
-            "primary": "•hall,"
+            "tcp": "•hall,"
           },
           "start": 128
         },
         {
           "end": 268,
           "readings": {
-            "primary": "•uriſdiction"
+            "tcp": "•uriſdiction"
           },
           "start": 256
         }
@@ -4327,40 +3852,34 @@
         {
           "end": 64,
           "readings": {
-            "primary": "•aws"
+            "tcp": "•aws"
           },
           "start": 60
         },
         {
           "end": 129,
           "readings": {
-            "primary": "•aw"
+            "tcp": "•aw"
           },
           "start": 126
         },
         {
           "end": 195,
           "readings": {
-            "primary": "•abour,"
+            "tcp": "•abour,"
           },
           "start": 188
         },
         {
           "end": 256,
           "readings": {
-            "primary": "•uch"
+            "tcp": "•uch"
           },
           "start": 252
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          70
-        ]
-      ],
       "label": "A Native of Virginia, Article IV, ¶ 5",
       "pages": [
         "52"
@@ -4371,19 +3890,13 @@
         {
           "end": 70,
           "readings": {
-            "primary": "•bvious."
+            "tcp": "•bvious."
           },
           "start": 62
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          194
-        ]
-      ],
       "label": "A Native of Virginia, Article IV, ¶ 6",
       "pages": [
         "52"
@@ -4394,33 +3907,27 @@
         {
           "end": 65,
           "readings": {
-            "primary": "•orthern"
+            "tcp": "•orthern"
           },
           "start": 57
         },
         {
           "end": 117,
           "readings": {
-            "primary": "un•er"
+            "tcp": "un•er"
           },
           "start": 112
         },
         {
           "end": 182,
           "readings": {
-            "primary": "•awful"
+            "tcp": "•awful"
           },
           "start": 176
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          8
-        ]
-      ],
       "label": "A Native of Virginia, Article IV, ¶ 7",
       "pages": [
         "52",
@@ -4438,26 +3945,14 @@
       "text": "The Congreſs ſhall have power to diſpoſe of and make all needful rules and regulations reſpecting the territory or other property belonging to the United States; and nothing in this Conſtitution ſhall be ſo conſtrued as to prejudice any claims of the United States, or of any particular State."
     },
     {
-      "emphasis": [
-        [
-          0,
-          728
-        ]
-      ],
       "label": "A Native of Virginia, Article IV, ¶ 9",
       "pages": [
         "53"
       ],
       "ref": "NativeOfVirginia.Article4.9",
-      "text": "UPON this ſection I ſhall only obſerve, that illiberal and groundleſs prejudices againſt the northern States too generally prevail in this country. Hence the unwarranted jealouſy of the politics of thoſe States. But were they well founded, the powers given under this ſection will manifeſtly tend to allay our fears of a northern combination. For as the greater portion of thoſe immenſe tracts of fertile land which remain uninhabited, or but thinly ſettled, and which are yet to be divided into new governments, lie on the ſouth-weſtern boundary; the ſouthern intereſt will be ſtrengthened by the Repreſentatives of the new States. Would we could forget our provincial prejudices, and conſider ourſelves as citizens of America! *"
+      "text": "UPON this ſection I ſhall only obſerve, that illiberal and groundleſs prejudices againſt the northern States too generally prevail in this country. Hence the unwarranted jealouſy of the politics of thoſe States. But were they well founded, the powers given under this ſection will manifeſtly tend to allay our fears of a northern combination. For as the greater portion of thoſe immenſe tracts of fertile land which remain uninhabited, or but thinly ſettled, and which are yet to be divided into new governments, lie on the ſouth-weſtern boundary; the ſouthern intereſt will be ſtrengthened by the Repreſentatives of the new States. Would we could forget our provincial prejudices, and conſider ourſelves as citizens of America!"
     },
     {
-      "emphasis": [
-        [
-          9,
-          280
-        ]
-      ],
       "label": "A Native of Virginia, Article IV, ¶ 10",
       "pages": [
         "53",
@@ -4469,33 +3964,27 @@
         {
           "end": 126,
           "readings": {
-            "primary": "•ach"
+            "tcp": "•ach"
           },
           "start": 122
         },
         {
           "end": 191,
           "readings": {
-            "primary": "Legiſla•ure,"
+            "tcp": "Legiſla•ure,"
           },
           "start": 179
         },
         {
           "end": 253,
           "readings": {
-            "primary": "con••ned)"
+            "tcp": "con••ned)"
           },
           "start": 244
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          0,
-          193
-        ]
-      ],
       "label": "A Native of Virginia, Article IV, ¶ 11",
       "pages": [
         "54"
@@ -4506,14 +3995,14 @@
         {
           "end": 125,
           "readings": {
-            "primary": "•rom"
+            "tcp": "•rom"
           },
           "start": 121
         },
         {
           "end": 193,
           "readings": {
-            "primary": "•overnment."
+            "tcp": "•overnment."
           },
           "start": 182
         }
@@ -4529,12 +4018,6 @@
       "text": "The vulgar in Maſſachuſetts believe, that the practice of gouging in Virginia is ſo common, that half of its inhabitants have but one eye. This opinion is on a level with a declaration of a gentlemen high in office, in this country, who declared him ſelf againſt the Federal Government, becauſe the eaſtern people were all rogues."
     },
     {
-      "emphasis": [
-        [
-          0,
-          825
-        ]
-      ],
       "label": "A Native of Virginia, Article V, ¶ 1",
       "pages": [
         "54"
@@ -4545,70 +4028,70 @@
         {
           "end": 124,
           "readings": {
-            "primary": "••"
+            "tcp": "••"
           },
           "start": 122
         },
         {
           "end": 197,
           "readings": {
-            "primary": "•tates,"
+            "tcp": "•tates,"
           },
           "start": 190
         },
         {
           "end": 257,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 254
         },
         {
           "end": 326,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 323
         },
         {
           "end": 396,
           "readings": {
-            "primary": "•••rths"
+            "tcp": "•••rths"
           },
           "start": 389
         },
         {
           "end": 463,
           "readings": {
-            "primary": "•••reof,"
+            "tcp": "•••reof,"
           },
           "start": 455
         },
         {
           "end": 524,
           "readings": {
-            "primary": "pro••ſed"
+            "tcp": "pro••ſed"
           },
           "start": 516
         },
         {
           "end": 579,
           "readings": {
-            "primary": "•ay"
+            "tcp": "•ay"
           },
           "start": 576
         },
         {
           "end": 641,
           "readings": {
-            "primary": "〈◊〉,"
+            "tcp": "〈◊〉,"
           },
           "start": 637
         },
         {
           "end": 704,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 701
         }
@@ -4625,35 +4108,35 @@
         {
           "end": 63,
           "readings": {
-            "primary": "•embers"
+            "tcp": "•embers"
           },
           "start": 56
         },
         {
           "end": 120,
           "readings": {
-            "primary": "•hey"
+            "tcp": "•hey"
           },
           "start": 116
         },
         {
           "end": 183,
           "readings": {
-            "primary": "inconve•iences"
+            "tcp": "inconve•iences"
           },
           "start": 169
         },
         {
           "end": 236,
           "readings": {
-            "primary": "ar•cle"
+            "tcp": "ar•cle"
           },
           "start": 230
         },
         {
           "end": 295,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 292
         }
@@ -4671,21 +4154,21 @@
         {
           "end": 64,
           "readings": {
-            "primary": "•cater"
+            "tcp": "•cater"
           },
           "start": 58
         },
         {
           "end": 122,
           "readings": {
-            "primary": "••uld"
+            "tcp": "••uld"
           },
           "start": 117
         },
         {
           "end": 186,
           "readings": {
-            "primary": "••ſſible"
+            "tcp": "••ſſible"
           },
           "start": 178
         }
@@ -4706,7 +4189,7 @@
         "56"
       ],
       "ref": "NativeOfVirginia.Article5.5",
-      "text": "BUT, ſay the friends to previous amendments, friends, as many of them pretend even to an energetic Federal Government,* why not amend the Conſtitution before it is adopted? To this it may be anſwered, that they ſhould firſt demonſtrate their objections to be well founded; and that their propoſed amendments, if they can be ſaid to have offered any, would make it better. I am inclined to think, that neither Mr. Gerry's, Mr. Maſon's, nor Governor Randolph's, would. Upon this occaſion I hope I ſhall be excuſed for recommending to thoſe gentlemen, as well as to other objectors, Dr. Franklin's laſt ſpeech in the Convention, which is replete with good ſenſe, as well as a marked deference for the opinions of others. If the objections of theſe gentlemen be groundleſs, the Conſtitution needs no amendment; if they be not, it cannot be amended in the manner they propoſe. Mr. Maſon, Mr. Randolph, the State of Virginia, raiſe objections: Mr. Gerry, and the State of Maſſachuſetts, do the ſame: Every other citizen, every other State, has an equal right. A new Convention is formed, the propoſed plan is amended, or a new one produced. It is again preſented to the public eye. New blemiſhes appear new amendments are thought neceſſary. That which Mr. Maſon may think a perfection, another may think a fault: What would be agreeable to Maſſachuſetts, might diſpleaſe Virginia. In a word, there would be no end to objections, amendments, and Conventions. All federal government falls to the ground. Anarchy enſues, and produces convulſions, which inevitably end in deſpotiſm."
+      "text": "BUT, ſay the friends to previous amendments, friends, as many of them pretend even to an energetic Federal Government, why not amend the Conſtitution before it is adopted? To this it may be anſwered, that they ſhould firſt demonſtrate their objections to be well founded; and that their propoſed amendments, if they can be ſaid to have offered any, would make it better. I am inclined to think, that neither Mr. Gerry's, Mr. Maſon's, nor Governor Randolph's, would. Upon this occaſion I hope I ſhall be excuſed for recommending to thoſe gentlemen, as well as to other objectors, Dr. Franklin's laſt ſpeech in the Convention, which is replete with good ſenſe, as well as a marked deference for the opinions of others. If the objections of theſe gentlemen be groundleſs, the Conſtitution needs no amendment; if they be not, it cannot be amended in the manner they propoſe. Mr. Maſon, Mr. Randolph, the State of Virginia, raiſe objections: Mr. Gerry, and the State of Maſſachuſetts, do the ſame: Every other citizen, every other State, has an equal right. A new Convention is formed, the propoſed plan is amended, or a new one produced. It is again preſented to the public eye. New blemiſhes appear new amendments are thought neceſſary. That which Mr. Maſon may think a perfection, another may think a fault: What would be agreeable to Maſſachuſetts, might diſpleaſe Virginia. In a word, there would be no end to objections, amendments, and Conventions. All federal government falls to the ground. Anarchy enſues, and produces convulſions, which inevitably end in deſpotiſm."
     },
     {
       "kind": "footnote",
@@ -4718,12 +4201,6 @@
       "text": "See Mr. Gerry's, Mr. Maſon's, and Governor Randolph's, objections."
     },
     {
-      "emphasis": [
-        [
-          0,
-          188
-        ]
-      ],
       "label": "A Native of Virginia, Article VI, ¶ 1",
       "pages": [
         "56"
@@ -4732,12 +4209,6 @@
       "text": "All debts contracted and engagements entered into before the adoption of this Conſtitution, ſhall be as valid againſt the United States under this Conſtitution, as under the Confederation."
     },
     {
-      "emphasis": [
-        [
-          0,
-          360
-        ]
-      ],
       "label": "A Native of Virginia, Article VI, ¶ 2",
       "pages": [
         "56"
@@ -4746,12 +4217,6 @@
       "text": "This Conſtitution, and the laws of the United States which ſhall be made in purſuance thereof, and all treaties made, or which ſhall be made, under the authority of the United States, ſhall be the ſupreme law of the land; and the Judges in every State ſhall be bound thereby; any thing in the Conſtitution or laws of any State, to the contrary notwithſtanding."
     },
     {
-      "emphasis": [
-        [
-          0,
-          383
-        ]
-      ],
       "label": "A Native of Virginia, Article VI, ¶ 3",
       "pages": [
         "56"
@@ -4779,7 +4244,7 @@
         {
           "end": 59,
           "readings": {
-            "primary": "tha•"
+            "tcp": "tha•"
           },
           "start": 55
         }
@@ -4804,44 +4269,34 @@
         {
           "end": 180,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 178
         },
         {
           "end": 235,
           "readings": {
-            "primary": "no•"
+            "tcp": "no•"
           },
           "start": 232
         },
         {
           "end": 294,
           "readings": {
-            "primary": "treatie•"
+            "tcp": "treatie•"
           },
           "start": 286
         },
         {
           "end": 417,
           "readings": {
-            "primary": "b•"
+            "tcp": "b•"
           },
           "start": 415
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          672,
-          686
-        ],
-        [
-          1254,
-          1262
-        ]
-      ],
       "label": "A Native of Virginia, Article VI, ¶ 8",
       "pages": [
         "57",
@@ -4853,98 +4308,98 @@
         {
           "end": 59,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 56
         },
         {
           "end": 123,
           "readings": {
-            "primary": "ultimatel•"
+            "tcp": "ultimatel•"
           },
           "start": 113
         },
         {
           "end": 184,
           "readings": {
-            "primary": "treatie•"
+            "tcp": "treatie•"
           },
           "start": 176
         },
         {
           "end": 246,
           "readings": {
-            "primary": "b•"
+            "tcp": "b•"
           },
           "start": 244
         },
         {
           "end": 307,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 304
         },
         {
           "end": 368,
           "readings": {
-            "primary": "e•fect"
+            "tcp": "e•fect"
           },
           "start": 362
         },
         {
           "end": 482,
           "readings": {
-            "primary": "•nd"
+            "tcp": "•nd"
           },
           "start": 479
         },
         {
           "end": 555,
           "readings": {
-            "primary": "•ommentator,"
+            "tcp": "•ommentator,"
           },
           "start": 543
         },
         {
           "end": 1415,
           "readings": {
-            "primary": "•e"
+            "tcp": "•e"
           },
           "start": 1413
         },
         {
           "end": 1480,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 1477
         },
         {
           "end": 1534,
           "readings": {
-            "primary": "•w"
+            "tcp": "•w"
           },
           "start": 1532
         },
         {
           "end": 1598,
           "readings": {
-            "primary": "•oy"
+            "tcp": "•oy"
           },
           "start": 1595
         },
         {
           "end": 1725,
           "readings": {
-            "primary": "•reaty"
+            "tcp": "•reaty"
           },
           "start": 1719
         },
         {
           "end": 1781,
           "readings": {
-            "primary": "•le"
+            "tcp": "•le"
           },
           "start": 1778
         }
@@ -4961,28 +4416,28 @@
         {
           "end": 66,
           "readings": {
-            "primary": "Con••ution."
+            "tcp": "Con••ution."
           },
           "start": 55
         },
         {
           "end": 122,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 119
         },
         {
           "end": 183,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 180
         },
         {
           "end": 247,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 244
         }
@@ -5000,14 +4455,14 @@
         {
           "end": 63,
           "readings": {
-            "primary": "Con•••"
+            "tcp": "Con•••"
           },
           "start": 57
         },
         {
           "end": 125,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 122
         }
@@ -5019,19 +4474,9 @@
         "59"
       ],
       "ref": "NativeOfVirginia.Article6.11",
-      "text": "CAN it be for a moment ſuppoſed, that Congreſs will not preſerve the liberty of the preſs in the government of that diſtrict? Or that there exiſt American citizens ſo loſt to a ſenſe of liberty, as to reſide under a govenment where it ſhall be taken away?*"
+      "text": "CAN it be for a moment ſuppoſed, that Congreſs will not preſerve the liberty of the preſs in the government of that diſtrict? Or that there exiſt American citizens ſo loſt to a ſenſe of liberty, as to reſide under a govenment where it ſhall be taken away?"
     },
     {
-      "emphasis": [
-        [
-          899,
-          904
-        ],
-        [
-          931,
-          938
-        ]
-      ],
       "label": "A Native of Virginia, Article VI, ¶ 12",
       "pages": [
         "59",
@@ -5051,21 +4496,21 @@
         {
           "end": 613,
           "readings": {
-            "primary": "•nfuſed"
+            "tcp": "•nfuſed"
           },
           "start": 606
         },
         {
           "end": 674,
           "readings": {
-            "primary": "•eſtored;"
+            "tcp": "•eſtored;"
           },
           "start": 665
         },
         {
           "end": 730,
           "readings": {
-            "primary": "•hat"
+            "tcp": "•hat"
           },
           "start": 726
         }
@@ -5083,140 +4528,140 @@
         {
           "end": 62,
           "readings": {
-            "primary": "va•iſh•"
+            "tcp": "va•iſh•"
           },
           "start": 55
         },
         {
           "end": 174,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 171
         },
         {
           "end": 297,
           "readings": {
-            "primary": "whic•"
+            "tcp": "whic•"
           },
           "start": 292
         },
         {
           "end": 409,
           "readings": {
-            "primary": "tha•"
+            "tcp": "tha•"
           },
           "start": 405
         },
         {
           "end": 469,
           "readings": {
-            "primary": "•"
+            "tcp": "•"
           },
           "start": 468
         },
         {
           "end": 532,
           "readings": {
-            "primary": "ſ•••"
+            "tcp": "ſ•••"
           },
           "start": 528
         },
         {
           "end": 593,
           "readings": {
-            "primary": "••vive"
+            "tcp": "••vive"
           },
           "start": 587
         },
         {
           "end": 647,
           "readings": {
-            "primary": "Pennſylvan••"
+            "tcp": "Pennſylvan••"
           },
           "start": 635
         },
         {
           "end": 709,
           "readings": {
-            "primary": "unit•"
+            "tcp": "unit•"
           },
           "start": 704
         },
         {
           "end": 767,
           "readings": {
-            "primary": "Ma•"
+            "tcp": "Ma•"
           },
           "start": 764
         },
         {
           "end": 828,
           "readings": {
-            "primary": "P••"
+            "tcp": "P••"
           },
           "start": 825
         },
         {
           "end": 890,
           "readings": {
-            "primary": "Pennſyl••nia,"
+            "tcp": "Pennſyl••nia,"
           },
           "start": 877
         },
         {
           "end": 945,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 942
         },
         {
           "end": 1004,
           "readings": {
-            "primary": "wh•"
+            "tcp": "wh•"
           },
           "start": 1001
         },
         {
           "end": 1122,
           "readings": {
-            "primary": "regulatio•"
+            "tcp": "regulatio•"
           },
           "start": 1112
         },
         {
           "end": 1242,
           "readings": {
-            "primary": "wh•"
+            "tcp": "wh•"
           },
           "start": 1239
         },
         {
           "end": 1306,
           "readings": {
-            "primary": "calam•ties"
+            "tcp": "calam•ties"
           },
           "start": 1296
         },
         {
           "end": 1362,
           "readings": {
-            "primary": "A••rica;"
+            "tcp": "A••rica;"
           },
           "start": 1354
         },
         {
           "end": 1416,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 1413
         },
         {
           "end": 1525,
           "readings": {
-            "primary": "fortun•"
+            "tcp": "fortun•"
           },
           "start": 1518
         }
@@ -5229,70 +4674,70 @@
         "62"
       ],
       "ref": "NativeOfVirginia.Article6.15",
-      "text": "EXAMINE then, my countrymen, diſpaſſionately the p••poſed plan of federal government, and you will find that far from being full of defects, it is a ſyſtem well calculated preſerve the liberty, and enſure the happineſs of Ame• and that it reflects additional honor on the names of a D•ck• •n, a Franklin, and a Waſhington.* You can not for a mo•ent ſuppoſe that ſuch men would deceive you! If human •ature were capable of falling at once from the height of vir•e to the depth of depravity; even then you were ſafe—for ••ey could conſtruct no government which would oppreſs you, ••at would not equally oppreſs themſelves, and their poſterity.",
+      "text": "EXAMINE then, my countrymen, diſpaſſionately the p••poſed plan of federal government, and you will find that far from being full of defects, it is a ſyſtem well calculated preſerve the liberty, and enſure the happineſs of Ame• and that it reflects additional honor on the names of a D•ck• •n, a Franklin, and a Waſhington. You can not for a mo•ent ſuppoſe that ſuch men would deceive you! If human •ature were capable of falling at once from the height of vir•e to the depth of depravity; even then you were ſafe—for ••ey could conſtruct no government which would oppreſs you, ••at would not equally oppreſs themſelves, and their poſterity.",
       "uncertain": [
         {
           "end": 57,
           "readings": {
-            "primary": "p••poſed"
+            "tcp": "p••poſed"
           },
           "start": 49
         },
         {
           "end": 226,
           "readings": {
-            "primary": "Ame•"
+            "tcp": "Ame•"
           },
           "start": 222
         },
         {
           "end": 288,
           "readings": {
-            "primary": "D•ck•"
+            "tcp": "D•ck•"
           },
           "start": 283
         },
         {
           "end": 292,
           "readings": {
-            "primary": "•n,"
+            "tcp": "•n,"
           },
           "start": 289
         },
         {
-          "end": 348,
+          "end": 347,
           "readings": {
-            "primary": "mo•ent"
+            "tcp": "mo•ent"
           },
-          "start": 342
+          "start": 341
         },
         {
-          "end": 405,
+          "end": 404,
           "readings": {
-            "primary": "•ature"
+            "tcp": "•ature"
           },
-          "start": 399
+          "start": 398
         },
         {
-          "end": 462,
+          "end": 461,
           "readings": {
-            "primary": "vir•e"
+            "tcp": "vir•e"
           },
-          "start": 457
+          "start": 456
         },
         {
-          "end": 522,
+          "end": 521,
           "readings": {
-            "primary": "••ey"
+            "tcp": "••ey"
           },
-          "start": 518
+          "start": 517
         },
         {
-          "end": 582,
+          "end": 581,
           "readings": {
-            "primary": "••at"
+            "tcp": "••at"
           },
-          "start": 578
+          "start": 577
         }
       ]
     },
@@ -5308,7 +4753,7 @@
         {
           "end": 82,
           "readings": {
-            "primary": "〈◊〉,"
+            "tcp": "〈◊〉,"
           },
           "start": 78
         }
@@ -5335,133 +4780,133 @@
         {
           "end": 107,
           "readings": {
-            "primary": "•s"
+            "tcp": "•s"
           },
           "start": 105
         },
         {
           "end": 176,
           "readings": {
-            "primary": "•xpected,"
+            "tcp": "•xpected,"
           },
           "start": 167
         },
         {
           "end": 230,
           "readings": {
-            "primary": "ob•tions"
+            "tcp": "ob•tions"
           },
           "start": 222
         },
         {
           "end": 289,
           "readings": {
-            "primary": "••e"
+            "tcp": "••e"
           },
           "start": 286
         },
         {
           "end": 355,
           "readings": {
-            "primary": "••e"
+            "tcp": "••e"
           },
           "start": 352
         },
         {
           "end": 413,
           "readings": {
-            "primary": "im••rtant"
+            "tcp": "im••rtant"
           },
           "start": 404
         },
         {
           "end": 468,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 465
         },
         {
           "end": 531,
           "readings": {
-            "primary": "inter•"
+            "tcp": "inter•"
           },
           "start": 525
         },
         {
           "end": 572,
           "readings": {
-            "primary": "h••ever,"
+            "tcp": "h••ever,"
           },
           "start": 564
         },
         {
           "end": 596,
           "readings": {
-            "primary": "ob•••ve,"
+            "tcp": "ob•••ve,"
           },
           "start": 588
         },
         {
           "end": 652,
           "readings": {
-            "primary": "of•••"
+            "tcp": "of•••"
           },
           "start": 647
         },
         {
           "end": 714,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 711
         },
         {
           "end": 780,
           "readings": {
-            "primary": "•l,"
+            "tcp": "•l,"
           },
           "start": 777
         },
         {
           "end": 839,
           "readings": {
-            "primary": "•eral"
+            "tcp": "•eral"
           },
           "start": 834
         },
         {
           "end": 891,
           "readings": {
-            "primary": "•s"
+            "tcp": "•s"
           },
           "start": 889
         },
         {
           "end": 953,
           "readings": {
-            "primary": "•ck"
+            "tcp": "•ck"
           },
           "start": 950
         },
         {
           "end": 1011,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 1008
         },
         {
           "end": 1124,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 1121
         },
         {
           "end": 1134,
           "readings": {
-            "primary": "•••llible"
+            "tcp": "•••llible"
           },
           "start": 1125
         }
@@ -5479,304 +4924,128 @@
         {
           "end": 118,
           "readings": {
-            "primary": "•"
+            "tcp": "•"
           },
           "start": 117
         },
         {
           "end": 365,
           "readings": {
-            "primary": "•hat"
+            "tcp": "•hat"
           },
           "start": 361
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          1034,
-          1048
-        ]
-      ],
       "label": "A Native of Virginia, To the Reader, ¶ 1",
-      "pages": [
-        "[65]"
-      ],
+      "pages": [],
       "ref": "NativeOfVirginia.ToTheReader.1",
       "text": "THE foregoing little piece was intended to counteract the miſrepreſentations of the propoſed Federal Government, which the antifederaliſts have moſt induſtriouſly diſſeminated in the ſouthern counties. The writer had no idea of publiſhing any thing upon the ſubject of the Conſtitution, till a viſit he made to one of thoſe counties, where at the deſire of his friend, he was induced to write in haſte the pamphlet now offered to the public. It was to have been publiſhed time enough to be diſperſed before the elections, but the Printer found it impoſſible to deliver it in time. The primary intention being thus defeated, it would not have been publiſhed at all, had it not been put into the preſs at the time ſtipulated. The writer had neither Mr. Maſon's, Mr. Gerry's, nor Mr. Lee's objections by him: This it is hoped will be a ſufficient apology for its inaccuracies, as far as their objections have been taken notice of. He takes this opportunity of obſerving, that perhaps he, and not Governor Randolph, is miſtaken as to the impeachability of the Senate: He acknowledges that he has never converſed with any member of the late Convention upon the ſubject, though he ſtill thinks that the arguments be has uſed are ſufficiently ſtrong to prove that the Senators neither are nor ought to be impeachable. He does not pretend to have gone fully into the objections which have been raiſed to the government: His deſign was to obviate only the moſt popular, and in a manner as popular as he was able."
     },
     {
-      "emphasis": [
-        [
-          22,
-          25
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 1",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.1",
       "text": "Page 4, Line 22, dele the"
     },
     {
-      "emphasis": [
-        [
-          11,
-          17
-        ],
-        [
-          23,
-          32
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 2",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.2",
       "text": "—, 24, for modify read new-model"
     },
     {
-      "emphasis": [
-        [
-          11,
-          22
-        ],
-        [
-          28,
-          38
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 3",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.3",
       "text": "6, 28, for diſtinction read definition"
     },
     {
-      "emphasis": [
-        [
-          10,
-          18
-        ],
-        [
-          24,
-          31
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 4",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.4",
       "text": "9, 7, for contract read compact"
     },
     {
-      "emphasis": [
-        [
-          12,
-          16
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 5",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.5",
       "text": "15, 2, dele ones"
     },
     {
-      "emphasis": [
-        [
-          11,
-          20
-        ],
-        [
-          26,
-          34
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 6",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.6",
       "text": "21, 3, for preſcribe read preſerve"
     },
     {
-      "emphasis": [
-        [
-          12,
-          17
-        ],
-        [
-          23,
-          29
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 7",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.7",
       "text": "22, 17, for prove read proves"
     },
     {
-      "emphasis": [
-        [
-          19,
-          34
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 8",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.8",
       "text": "23, 16, add before perquiſites, no"
     },
     {
-      "emphasis": [
-        [
-          17,
-          25
-        ],
-        [
-          31,
-          39
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 9",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.9",
       "text": "—, the laſt, for ſubjects read citizens"
     },
     {
-      "emphasis": [
-        [
-          12,
-          17
-        ],
-        [
-          23,
-          28
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 10",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.10",
       "text": "25, 10, for their read there"
     },
     {
-      "emphasis": [
-        [
-          11,
-          13
-        ],
-        [
-          19,
-          22
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 11",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.11",
       "text": "—, 14, for to read for"
     },
     {
-      "emphasis": [
-        [
-          12,
-          15
-        ],
-        [
-          21,
-          24
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 12",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.12",
       "text": "26, 13, for not read now"
     },
     {
-      "emphasis": [
-        [
-          12,
-          19
-        ],
-        [
-          25,
-          31
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 13",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.13",
       "text": "27, 20, for trouble read labour"
     },
     {
-      "emphasis": [
-        [
-          12,
-          19
-        ],
-        [
-          25,
-          32
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 14",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.14",
       "text": "30, 22, for raiſing read ruining"
     },
     {
-      "emphasis": [
-        [
-          11,
-          20
-        ],
-        [
-          26,
-          37
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 15",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.15",
       "text": "47, 4, for unſkilful read unſkilfully"
     },
     {
-      "emphasis": [
-        [
-          12,
-          16
-        ],
-        [
-          22,
-          27
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 16",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.16",
       "text": "48, 21, for then read theſe"
     },
     {
-      "emphasis": [
-        [
-          11,
-          15
-        ],
-        [
-          21,
-          23
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 17",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.17",
       "text": "51, 7, for with read in"
     },
     {
-      "emphasis": [
-        [
-          12,
-          21
-        ],
-        [
-          27,
-          37
-        ]
-      ],
       "label": "A Native of Virginia, Errata, ¶ 18",
       "pages": [],
       "ref": "NativeOfVirginia.Errata.18",

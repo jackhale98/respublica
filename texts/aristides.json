@@ -31,7 +31,7 @@
   ],
   "edition": {
     "name": "Remarks on the Proposed Plan of a Federal Government (Annapolis [Md.]: Printed by Frederick Green, printer to the state. [1788]), Evans 21131",
-    "notes": "Remarks on the Proposed Plan of a Federal Government (Annapolis [Md.]: Printed by Frederick Green, printer to the state. [1788]), Evans 21131: the Text Creation Partnership's typed transcription, Evans-TCP N16445 (https://github.com/textcreationpartnership/N16445), CC0. The transcription is the text, with the printing's spelling and the long s as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (183 in 13743 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
+    "notes": "Remarks on the Proposed Plan of a Federal Government (Annapolis [Md.]: Printed by Frederick Green, printer to the state. [1788]), Evans 21131: the Text Creation Partnership's typed transcription, Evans-TCP N16445 (https://github.com/textcreationpartnership/N16445), CC0. The transcription is the text, with the printing's spelling and the long s (ſ) as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (182 in 13743 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
   },
   "id": "aristides",
   "position": "federalist",
@@ -46,28 +46,28 @@
         {
           "end": 207,
           "readings": {
-            "primary": "〈…〉,"
+            "tcp": "〈…〉,"
           },
           "start": 203
         },
         {
           "end": 231,
           "readings": {
-            "primary": "••TH"
+            "tcp": "••TH"
           },
           "start": 227
         },
         {
           "end": 263,
           "readings": {
-            "primary": "L••••"
+            "tcp": "L••••"
           },
           "start": 258
         },
         {
           "end": 298,
           "readings": {
-            "primary": "••••FECT"
+            "tcp": "••••FECT"
           },
           "start": 290
         }
@@ -75,51 +75,49 @@
     },
     {
       "label": "Aristides, ¶ 1",
-      "pages": [
-        "[5]"
-      ],
+      "pages": [],
       "ref": "Aristides.1",
       "text": "IT is my intention, with all poſſible plainneſs, to examine the propoſed plan of a federal government. Its enemies and its advocates have laid particular ſtreſs on the names, wherewith it is ſubſcribed. As one ſide would obtain your implicit aſſent, 〈◊〉 a re•••nce to characters, and as the other wou•• •efeat meaſures, by exciting your jealouſy of men, per••me, in the firſt place to make ſome general obſervations on the perſons who •••poſed the late memorable convention.—",
       "uncertain": [
         {
           "end": 253,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 250
         },
         {
           "end": 264,
           "readings": {
-            "primary": "re•••nce"
+            "tcp": "re•••nce"
           },
           "start": 256
         },
         {
           "end": 302,
           "readings": {
-            "primary": "wou••"
+            "tcp": "wou••"
           },
           "start": 297
         },
         {
           "end": 309,
           "readings": {
-            "primary": "•efeat"
+            "tcp": "•efeat"
           },
           "start": 303
         },
         {
           "end": 362,
           "readings": {
-            "primary": "per••me,"
+            "tcp": "per••me,"
           },
           "start": 354
         },
         {
           "end": 443,
           "readings": {
-            "primary": "•••poſed"
+            "tcp": "•••poſed"
           },
           "start": 435
         }
@@ -127,184 +125,182 @@
     },
     {
       "label": "Aristides, ¶ 2",
-      "pages": [
-        "[5]"
-      ],
+      "pages": [],
       "ref": "Aristides.2",
       "text": "In general, they had been diſtinguiſhed by their talents and 〈◊〉 ▪ They were not principally the m•• to whom th• 〈◊〉 convention firſt ſuggeſted itſelf, and it is noto• 〈…〉 they accepted their appointments 〈…〉 would ſeem, however, according to ſom• 〈◊〉 •••nuaſions, that, no ſooner did they find themſ••••• conven••• 〈◊〉 their natures became changed; and 〈…〉 they continued for the deſtruction of your liberti•• 〈◊〉 •ow this altogether ſhocks my ſaith. I ſhould ſooner in 〈…〉 the ſacredneſs of the truſt, the unparalleled 〈…〉 the occaſion, and the fellowſhip of the great 〈…〉 •ight have elected the ſoul of the moſt aban••ed 〈◊〉 had it 〈◊〉 poſſible for ſuch to obtain a ſeat in that illuſtrious aſſemblage.",
       "uncertain": [
         {
           "end": 64,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 61
         },
         {
           "end": 66,
           "readings": {
-            "primary": "▪"
+            "tcp": "▪"
           },
           "start": 65
         },
         {
           "end": 100,
           "readings": {
-            "primary": "m••"
+            "tcp": "m••"
           },
           "start": 97
         },
         {
           "end": 112,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 109
         },
         {
           "end": 116,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 113
         },
         {
           "end": 167,
           "readings": {
-            "primary": "noto•"
+            "tcp": "noto•"
           },
           "start": 162
         },
         {
           "end": 171,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 168
         },
         {
           "end": 208,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 205
         },
         {
           "end": 247,
           "readings": {
-            "primary": "ſom•"
+            "tcp": "ſom•"
           },
           "start": 243
         },
         {
           "end": 251,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 248
         },
         {
           "end": 264,
           "readings": {
-            "primary": "•••nuaſions,"
+            "tcp": "•••nuaſions,"
           },
           "start": 252
         },
         {
           "end": 305,
           "readings": {
-            "primary": "themſ•••••"
+            "tcp": "themſ•••••"
           },
           "start": 295
         },
         {
           "end": 315,
           "readings": {
-            "primary": "conven•••"
+            "tcp": "conven•••"
           },
           "start": 306
         },
         {
           "end": 319,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 316
         },
         {
           "end": 357,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 354
         },
         {
           "end": 410,
           "readings": {
-            "primary": "liberti••"
+            "tcp": "liberti••"
           },
           "start": 401
         },
         {
           "end": 414,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 411
         },
         {
           "end": 418,
           "readings": {
-            "primary": "•ow"
+            "tcp": "•ow"
           },
           "start": 415
         },
         {
           "end": 474,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 471
         },
         {
           "end": 524,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 521
         },
         {
           "end": 574,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 571
         },
         {
           "end": 580,
           "readings": {
-            "primary": "•ight"
+            "tcp": "•ight"
           },
           "start": 575
         },
         {
           "end": 623,
           "readings": {
-            "primary": "aban••ed"
+            "tcp": "aban••ed"
           },
           "start": 615
         },
         {
           "end": 627,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 624
         },
         {
           "end": 638,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 635
         }
@@ -312,16 +308,14 @@
     },
     {
       "label": "Aristides, ¶ 3",
-      "pages": [
-        "[5]"
-      ],
+      "pages": [],
       "ref": "Aristides.3",
       "text": "If thoſe, who would inſpire ſuſpicion and diſtruſt, can ſuggeſt ••y preciſe idea, it muſt be this, that the members of the convention will be elected into the firſt federal congreſs, and there combining again will compoſe a body capable of bearing down al oppoſition to their own aggrandiſement.",
       "uncertain": [
         {
           "end": 67,
           "readings": {
-            "primary": "••y"
+            "tcp": "••y"
           },
           "start": 64
         }
@@ -330,7 +324,6 @@
     {
       "label": "Aristides, ¶ 4",
       "pages": [
-        "[5]",
         "6"
       ],
       "ref": "Aristides.4",
@@ -339,37 +332,27 @@
         {
           "end": 783,
           "readings": {
-            "primary": "••d"
+            "tcp": "••d"
           },
           "start": 780
         },
         {
           "end": 898,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 895
         },
         {
           "end": 964,
           "readings": {
-            "primary": "d•ſign•"
+            "tcp": "d•ſign•"
           },
           "start": 957
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          21,
-          27
-        ],
-        [
-          317,
-          434
-        ]
-      ],
       "label": "Aristides, ¶ 5",
       "pages": [
         "6"
@@ -380,84 +363,84 @@
         {
           "end": 13,
           "readings": {
-            "primary": "app•••ed"
+            "tcp": "app•••ed"
           },
           "start": 5
         },
         {
           "end": 250,
           "readings": {
-            "primary": "inten•••"
+            "tcp": "inten•••"
           },
           "start": 242
         },
         {
           "end": 348,
           "readings": {
-            "primary": "amo••••"
+            "tcp": "amo••••"
           },
           "start": 341
         },
         {
           "end": 352,
           "readings": {
-            "primary": "••e"
+            "tcp": "••e"
           },
           "start": 349
         },
         {
           "end": 392,
           "readings": {
-            "primary": "preſerv••"
+            "tcp": "preſerv••"
           },
           "start": 383
         },
         {
           "end": 396,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 393
         },
         {
           "end": 438,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 435
         },
         {
           "end": 481,
           "readings": {
-            "primary": "Th•"
+            "tcp": "Th•"
           },
           "start": 478
         },
         {
           "end": 490,
           "readings": {
-            "primary": "••••ſity"
+            "tcp": "••••ſity"
           },
           "start": 482
         },
         {
           "end": 539,
           "readings": {
-            "primary": "mut••l"
+            "tcp": "mut••l"
           },
           "start": 533
         },
         {
           "end": 604,
           "readings": {
-            "primary": "fo•••"
+            "tcp": "fo•••"
           },
           "start": 599
         },
         {
           "end": 608,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 605
         }
@@ -474,21 +457,21 @@
         {
           "end": 53,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 50
         },
         {
           "end": 104,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 101
         },
         {
           "end": 160,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 157
         }
@@ -506,7 +489,7 @@
         {
           "end": 40,
           "readings": {
-            "primary": "arti•e"
+            "tcp": "arti•e"
           },
           "start": 34
         }
@@ -523,98 +506,98 @@
         {
           "end": 125,
           "readings": {
-            "primary": "repre••••••ives"
+            "tcp": "repre••••••ives"
           },
           "start": 110
         },
         {
           "end": 178,
           "readings": {
-            "primary": "mi•••ity"
+            "tcp": "mi•••ity"
           },
           "start": 170
         },
         {
           "end": 242,
           "readings": {
-            "primary": "••n,"
+            "tcp": "••n,"
           },
           "start": 238
         },
         {
           "end": 287,
           "readings": {
-            "primary": "re•••••"
+            "tcp": "re•••••"
           },
           "start": 280
         },
         {
           "end": 356,
           "readings": {
-            "primary": "•hat,"
+            "tcp": "•hat,"
           },
           "start": 351
         },
         {
           "end": 595,
           "readings": {
-            "primary": "•••eral"
+            "tcp": "•••eral"
           },
           "start": 588
         },
         {
           "end": 613,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 610
         },
         {
           "end": 667,
           "readings": {
-            "primary": "per•••"
+            "tcp": "per•••"
           },
           "start": 661
         },
         {
           "end": 674,
           "readings": {
-            "primary": "••lit•"
+            "tcp": "••lit•"
           },
           "start": 668
         },
         {
           "end": 716,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 713
         },
         {
           "end": 720,
           "readings": {
-            "primary": "•s,"
+            "tcp": "•s,"
           },
           "start": 717
         },
         {
           "end": 724,
           "readings": {
-            "primary": "•an"
+            "tcp": "•an"
           },
           "start": 721
         },
         {
           "end": 761,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 758
         },
         {
           "end": 820,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 817
         }
@@ -626,40 +609,40 @@
         "7"
       ],
       "ref": "Aristides.9",
-      "text": "〈◊〉 theſe arguments, we may imagine, was oppoſed ſomething like the following: \"You talk of firſt principles, and, at the ſame time, would let 180,000 free inhabitants of •••aryl• 〈◊〉 have no more to do in the choice of repreſenta•••• 〈…〉 only 30,000 inhabitants of Delaware. Do you propoſe, that theſe 30,000 ſhall bear an equal part of burthens and impoſitions? As to no injury having reſulted from the equality, as you call it, under the articles of confederation, we think the reverſe; and that this pretended* equality was a poiſon, which pervaded all our affairs.\"",
+      "text": "〈◊〉 theſe arguments, we may imagine, was oppoſed ſomething like the following: \"You talk of firſt principles, and, at the ſame time, would let 180,000 free inhabitants of •••aryl• 〈◊〉 have no more to do in the choice of repreſenta•••• 〈…〉 only 30,000 inhabitants of Delaware. Do you propoſe, that theſe 30,000 ſhall bear an equal part of burthens and impoſitions? As to no injury having reſulted from the equality, as you call it, under the articles of confederation, we think the reverſe; and that this pretended equality was a poiſon, which pervaded all our affairs.\"",
       "uncertain": [
         {
           "end": 3,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 0
         },
         {
           "end": 179,
           "readings": {
-            "primary": "•••aryl•"
+            "tcp": "•••aryl•"
           },
           "start": 171
         },
         {
           "end": 183,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 180
         },
         {
           "end": 234,
           "readings": {
-            "primary": "repreſenta••••"
+            "tcp": "repreſenta••••"
           },
           "start": 220
         },
         {
           "end": 238,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 235
         }
@@ -675,12 +658,6 @@
       "text": "The anticipation of arguments like theſe had raiſed thoſe apprehenſions of an irreconcileable difference. It were needleſs to repeat more. Had an angel been the umpire, he could propoſe no expedient more equitable, and more politic, not only as a compromiſe, but to eſtabliſh ſuch a decided difference between the two branches of congreſs, as will make them indeed two diſtinct bodies, operating by way of mutual balance and check.—"
     },
     {
-      "emphasis": [
-        [
-          136,
-          168
-        ]
-      ],
       "label": "Aristides, ¶ 11",
       "pages": [
         "8",
@@ -692,49 +669,49 @@
         {
           "end": 346,
           "readings": {
-            "primary": "e••••"
+            "tcp": "e••••"
           },
           "start": 341
         },
         {
           "end": 430,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 427
         },
         {
           "end": 443,
           "readings": {
-            "primary": "a••"
+            "tcp": "a••"
           },
           "start": 440
         },
         {
           "end": 446,
           "readings": {
-            "primary": "•t"
+            "tcp": "•t"
           },
           "start": 444
         },
         {
           "end": 623,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 621
         },
         {
           "end": 776,
           "readings": {
-            "primary": "t••"
+            "tcp": "t••"
           },
           "start": 773
         },
         {
           "end": 782,
           "readings": {
-            "primary": "ſoli•"
+            "tcp": "ſoli•"
           },
           "start": 777
         }
@@ -751,42 +728,42 @@
         {
           "end": 410,
           "readings": {
-            "primary": "••dition,"
+            "tcp": "••dition,"
           },
           "start": 401
         },
         {
           "end": 740,
           "readings": {
-            "primary": "•••greſs."
+            "tcp": "•••greſs."
           },
           "start": 731
         },
         {
           "end": 791,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 788
         },
         {
           "end": 1019,
           "readings": {
-            "primary": "•ot"
+            "tcp": "•ot"
           },
           "start": 1016
         },
         {
           "end": 1222,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 1219
         },
         {
           "end": 1227,
           "readings": {
-            "primary": "•ent"
+            "tcp": "•ent"
           },
           "start": 1223
         }
@@ -799,84 +776,84 @@
         "10"
       ],
       "ref": "Aristides.13",
-      "text": "The ho• 〈◊〉 repreſentatives* is to be the immediate choice of the people, and one man is to repreſent 30,000 ſouls. In an affair of ſo much importance, and in diſtricts containing ſo many ſuffrages, it is not to be ſuppoſed, that a worthleſs character will ſucceed by thoſe arts, which have, ſometimes, prevailed in county elections. It is to be expected, that, in general, the people will chooſe men of tal•••s and character. Were they even ſo inclined, they can ch••ſe none but men of ripe age, who have been, at leaſt, ſeven years citizens of the United States, and, at the time of election, reſidents of the reſpective ſtate. Whatever laws ſhall be propoſed, or aſſented to, by theſe men, are to bind themſelves, their children, and their connexions. If a ſingle man, or a party, ſhall propoſe a meaſure, calculated to pro••cute private intereſt, at the expence of public good, is it 〈◊〉 •de, that the whole houſe will be brought into the meaſure▪ Suppoſe it ſhould. The meaſure cannot be adopted into a law, without the concurrence of another houſe, conſiſting of men ſtill more ſelect, poſſeſſing ſuperior qualifications of reſidence and age, and equally bound by the laws. After ga••ing the aſſent of the ſenate, the bill muſt be ſubmitted to the objections of the preſident. He is not in any manner dependent on the legiſlature, which can, in no manner, puniſh him, except for ſome crime known to the laws. He is elected by perſons choſen for that ſpecial purpoſe. He ••••••es a compenſation, which cannot be diminiſhed or in•••ſed, during his continuance in office. The term of his commiſſion is limited to four years, unleſs he ſhall have acted ſo as to merit the people's favour. From the mode of his election, it is impoſſible he can intrigue to advantage; and, from the nature of other things, he will never ſucceed by bribery and corruption. Like any other individual, he is liable to puniſhment. Finally at the expiration of his office, he returns into the maſs of the people.—",
+      "text": "The ho• 〈◊〉 repreſentatives is to be the immediate choice of the people, and one man is to repreſent 30,000 ſouls. In an affair of ſo much importance, and in diſtricts containing ſo many ſuffrages, it is not to be ſuppoſed, that a worthleſs character will ſucceed by thoſe arts, which have, ſometimes, prevailed in county elections. It is to be expected, that, in general, the people will chooſe men of tal•••s and character. Were they even ſo inclined, they can ch••ſe none but men of ripe age, who have been, at leaſt, ſeven years citizens of the United States, and, at the time of election, reſidents of the reſpective ſtate. Whatever laws ſhall be propoſed, or aſſented to, by theſe men, are to bind themſelves, their children, and their connexions. If a ſingle man, or a party, ſhall propoſe a meaſure, calculated to pro••cute private intereſt, at the expence of public good, is it 〈◊〉 •de, that the whole houſe will be brought into the meaſure▪ Suppoſe it ſhould. The meaſure cannot be adopted into a law, without the concurrence of another houſe, conſiſting of men ſtill more ſelect, poſſeſſing ſuperior qualifications of reſidence and age, and equally bound by the laws. After ga••ing the aſſent of the ſenate, the bill muſt be ſubmitted to the objections of the preſident. He is not in any manner dependent on the legiſlature, which can, in no manner, puniſh him, except for ſome crime known to the laws. He is elected by perſons choſen for that ſpecial purpoſe. He ••••••es a compenſation, which cannot be diminiſhed or in•••ſed, during his continuance in office. The term of his commiſſion is limited to four years, unleſs he ſhall have acted ſo as to merit the people's favour. From the mode of his election, it is impoſſible he can intrigue to advantage; and, from the nature of other things, he will never ſucceed by bribery and corruption. Like any other individual, he is liable to puniſhment. Finally at the expiration of his office, he returns into the maſs of the people.—",
       "uncertain": [
         {
           "end": 7,
           "readings": {
-            "primary": "ho•"
+            "tcp": "ho•"
           },
           "start": 4
         },
         {
           "end": 11,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 8
         },
         {
-          "end": 411,
+          "end": 410,
           "readings": {
-            "primary": "tal•••s"
+            "tcp": "tal•••s"
           },
-          "start": 404
+          "start": 403
         },
         {
-          "end": 470,
+          "end": 469,
           "readings": {
-            "primary": "ch••ſe"
+            "tcp": "ch••ſe"
           },
-          "start": 464
+          "start": 463
         },
         {
-          "end": 832,
+          "end": 831,
           "readings": {
-            "primary": "pro••cute"
+            "tcp": "pro••cute"
           },
-          "start": 823
+          "start": 822
         },
         {
-          "end": 891,
+          "end": 890,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
-          "start": 888
+          "start": 887
         },
         {
-          "end": 896,
+          "end": 895,
           "readings": {
-            "primary": "•de,"
+            "tcp": "•de,"
           },
-          "start": 892
+          "start": 891
         },
         {
-          "end": 951,
+          "end": 950,
           "readings": {
-            "primary": "meaſure▪"
+            "tcp": "meaſure▪"
           },
-          "start": 943
+          "start": 942
         },
         {
-          "end": 1193,
+          "end": 1192,
           "readings": {
-            "primary": "ga••ing"
+            "tcp": "ga••ing"
           },
-          "start": 1186
+          "start": 1185
         },
         {
-          "end": 1484,
+          "end": 1483,
           "readings": {
-            "primary": "••••••es"
+            "tcp": "••••••es"
           },
-          "start": 1476
+          "start": 1475
         },
         {
-          "end": 1540,
+          "end": 1539,
           "readings": {
-            "primary": "in•••ſed,"
+            "tcp": "in•••ſed,"
           },
-          "start": 1531
+          "start": 1530
         }
       ]
     },
@@ -891,35 +868,35 @@
         {
           "end": 42,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 39
         },
         {
           "end": 334,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 331
         },
         {
           "end": 346,
           "readings": {
-            "primary": "••neroſity,"
+            "tcp": "••neroſity,"
           },
           "start": 335
         },
         {
           "end": 392,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 389
         },
         {
           "end": 506,
           "readings": {
-            "primary": "th•"
+            "tcp": "th•"
           },
           "start": 503
         }
@@ -953,26 +930,20 @@
         {
           "end": 280,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 277
         },
         {
           "end": 342,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 339
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          165,
-          285
-        ]
-      ],
       "label": "Aristides, ¶ 18",
       "pages": [
         "11"
@@ -991,77 +962,77 @@
         {
           "end": 131,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 128
         },
         {
           "end": 172,
           "readings": {
-            "primary": "conve•"
+            "tcp": "conve•"
           },
           "start": 166
         },
         {
           "end": 176,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 173
         },
         {
           "end": 221,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 218
         },
         {
           "end": 276,
           "readings": {
-            "primary": "le•••at•;"
+            "tcp": "le•••at•;"
           },
           "start": 267
         },
         {
           "end": 331,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 328
         },
         {
           "end": 339,
           "readings": {
-            "primary": "•niſter"
+            "tcp": "•niſter"
           },
           "start": 332
         },
         {
           "end": 442,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 439
         },
         {
           "end": 501,
           "readings": {
-            "primary": "〈…〉."
+            "tcp": "〈…〉."
           },
           "start": 497
         },
         {
           "end": 549,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 546
         },
         {
           "end": 610,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 607
         }
@@ -1079,14 +1050,14 @@
         {
           "end": 411,
           "readings": {
-            "primary": "acte•,"
+            "tcp": "acte•,"
           },
           "start": 405
         },
         {
           "end": 780,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 777
         }
@@ -1103,70 +1074,70 @@
         {
           "end": 119,
           "readings": {
-            "primary": "ob••quious"
+            "tcp": "ob••quious"
           },
           "start": 109
         },
         {
           "end": 130,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 127
         },
         {
           "end": 565,
           "readings": {
-            "primary": "dangero••"
+            "tcp": "dangero••"
           },
           "start": 556
         },
         {
           "end": 569,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 566
         },
         {
           "end": 754,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 751
         },
         {
           "end": 811,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 808
         },
         {
           "end": 864,
           "readings": {
-            "primary": "fou•"
+            "tcp": "fou•"
           },
           "start": 860
         },
         {
           "end": 868,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 865
         },
         {
           "end": 923,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 920
         },
         {
           "end": 978,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 975
         }
@@ -1184,68 +1155,62 @@
         {
           "end": 936,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 933
         },
         {
           "end": 999,
           "readings": {
-            "primary": "〈◊〉."
+            "tcp": "〈◊〉."
           },
           "start": 995
         },
         {
           "end": 1038,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 1035
         },
         {
           "end": 1099,
           "readings": {
-            "primary": "veſt••"
+            "tcp": "veſt••"
           },
           "start": 1093
         },
         {
           "end": 1586,
           "readings": {
-            "primary": "•ew"
+            "tcp": "•ew"
           },
           "start": 1583
         },
         {
           "end": 1700,
           "readings": {
-            "primary": "••••th••"
+            "tcp": "••••th••"
           },
           "start": 1692
         },
         {
           "end": 1704,
           "readings": {
-            "primary": "•ot"
+            "tcp": "•ot"
           },
           "start": 1701
         },
         {
           "end": 1865,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 1862
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          88,
-          92
-        ]
-      ],
       "label": "Aristides, ¶ 23",
       "pages": [
         "13",
@@ -1257,26 +1222,20 @@
         {
           "end": 1167,
           "readings": {
-            "primary": "o•"
+            "tcp": "o•"
           },
           "start": 1165
         },
         {
           "end": 1228,
           "readings": {
-            "primary": "pri••••"
+            "tcp": "pri••••"
           },
           "start": 1221
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          360,
-          368
-        ]
-      ],
       "label": "Aristides, ¶ 24",
       "pages": [
         "14"
@@ -1287,28 +1246,28 @@
         {
           "end": 447,
           "readings": {
-            "primary": "•aſ•"
+            "tcp": "•aſ•"
           },
           "start": 443
         },
         {
           "end": 706,
           "readings": {
-            "primary": "delib•rated,"
+            "tcp": "delib•rated,"
           },
           "start": 694
         },
         {
           "end": 758,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 755
         },
         {
           "end": 819,
           "readings": {
-            "primary": "•••ture!"
+            "tcp": "•••ture!"
           },
           "start": 811
         }
@@ -1342,14 +1301,14 @@
         {
           "end": 436,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 433
         },
         {
           "end": 749,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 746
         }
@@ -1366,14 +1325,14 @@
         {
           "end": 286,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 283
         },
         {
           "end": 344,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 341
         }
@@ -1407,33 +1366,27 @@
         {
           "end": 66,
           "readings": {
-            "primary": "queſtion▪"
+            "tcp": "queſtion▪"
           },
           "start": 57
         },
         {
           "end": 89,
           "readings": {
-            "primary": "wa••eſt"
+            "tcp": "wa••eſt"
           },
           "start": 82
         },
         {
           "end": 121,
           "readings": {
-            "primary": "•••uſe.—"
+            "tcp": "•••uſe.—"
           },
           "start": 113
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          1071,
-          1080
-        ]
-      ],
       "label": "Aristides, ¶ 32",
       "pages": [
         "16",
@@ -1445,28 +1398,28 @@
         {
           "end": 883,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 880
         },
         {
           "end": 938,
           "readings": {
-            "primary": "•an"
+            "tcp": "•an"
           },
           "start": 935
         },
         {
           "end": 1132,
           "readings": {
-            "primary": "the•"
+            "tcp": "the•"
           },
           "start": 1128
         },
         {
           "end": 1870,
           "readings": {
-            "primary": "••ly"
+            "tcp": "••ly"
           },
           "start": 1866
         }
@@ -1483,26 +1436,20 @@
         {
           "end": 198,
           "readings": {
-            "primary": "•ell"
+            "tcp": "•ell"
           },
           "start": 194
         },
         {
           "end": 254,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 251
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          31,
-          40
-        ]
-      ],
       "label": "Aristides, ¶ 34",
       "pages": [
         "17"
@@ -1513,14 +1460,14 @@
         {
           "end": 531,
           "readings": {
-            "primary": "electi•••"
+            "tcp": "electi•••"
           },
           "start": 522
         },
         {
           "end": 593,
           "readings": {
-            "primary": "••nere"
+            "tcp": "••nere"
           },
           "start": 587
         }
@@ -1536,12 +1483,6 @@
       "text": "It ſeems, however, that the preſident may poſſibly be continued for life. He may ſo, provided he deſerve it. If not, he retires to obſcurity, without even the conſolation of having produced any of the convulſions, attendant uſually on grand revolutions. Should he be wicked or frantic enough to make the attempt, he attones for it, with the certain loſs of wealth, liberty or life.—"
     },
     {
-      "emphasis": [
-        [
-          122,
-          138
-        ]
-      ],
       "label": "Aristides, ¶ 36",
       "pages": [
         "18"
@@ -1552,7 +1493,7 @@
         {
           "end": 249,
           "readings": {
-            "primary": "ru••"
+            "tcp": "ru••"
           },
           "start": 245
         }
@@ -1569,26 +1510,20 @@
         {
           "end": 16,
           "readings": {
-            "primary": "ſect•••,"
+            "tcp": "ſect•••,"
           },
           "start": 8
         },
         {
           "end": 65,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 62
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          29,
-          44
-        ]
-      ],
       "label": "Aristides, ¶ 38",
       "pages": [
         "18"
@@ -1605,12 +1540,6 @@
       "text": "I will not here again inſiſt on the pledge we enjoy, in the common intereſt, and ſure attachment of the repreſentatives and ſenate; ſetting aſide the little probability of a majority in each branch lying under the ſame temptation. Conſider the import of the words."
     },
     {
-      "emphasis": [
-        [
-          387,
-          396
-        ]
-      ],
       "label": "Aristides, ¶ 40",
       "pages": [
         "18"
@@ -1630,19 +1559,13 @@
         {
           "end": 116,
           "readings": {
-            "primary": "wel•"
+            "tcp": "wel•"
           },
           "start": 112
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          727,
-          735
-        ]
-      ],
       "label": "Aristides, ¶ 42",
       "pages": [
         "19"
@@ -1653,7 +1576,7 @@
         {
           "end": 275,
           "readings": {
-            "primary": "tr•mple"
+            "tcp": "tr•mple"
           },
           "start": 268
         }
@@ -1668,12 +1591,6 @@
       "text": "Let the federal head be conſtituted as it may, there can be no perfect ſecurity, without both a land force, and naval armament. It is impoſſible to ſay how much will, at all times of peace, be ſufficient. We have the ſame ſecurity againſt the abuſe of this, as of any other authority. The expences of an army might indeed raiſe fears of a different kind,—that we ſhall not be able to maintain force enough for the moſt proper occaſion."
     },
     {
-      "emphasis": [
-        [
-          151,
-          161
-        ]
-      ],
       "label": "Aristides, ¶ 44",
       "pages": [
         "19",
@@ -1685,14 +1602,14 @@
         {
           "end": 469,
           "readings": {
-            "primary": "••ere"
+            "tcp": "••ere"
           },
           "start": 464
         },
         {
           "end": 530,
           "readings": {
-            "primary": "•nd"
+            "tcp": "•nd"
           },
           "start": 527
         }
@@ -1709,21 +1626,21 @@
         {
           "end": 115,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 112
         },
         {
           "end": 171,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 168
         },
         {
           "end": 180,
           "readings": {
-            "primary": "•ertain,"
+            "tcp": "•ertain,"
           },
           "start": 172
         }
@@ -1827,16 +1744,6 @@
       "text": "One doubt ariſing on the judiciary article is, whether in theſe caſes of appellate juriſdiction, the appeal has both from the ſtate courts, and the inferior federal courts, or only from the former, or only from the latter."
     },
     {
-      "emphasis": [
-        [
-          264,
-          272
-        ],
-        [
-          332,
-          341
-        ]
-      ],
       "label": "Aristides, ¶ 58",
       "pages": [
         "21"
@@ -1854,16 +1761,6 @@
       "text": "I ſhall not preſume to decide abſolutely on the genuine conſtruction of an article, which is ſaid to have cauſed much private debate and perplexity. I am however fully perſuaded, that, as the article ſpeaks of an original and appellate juriſdiction, of a ſupreme court, and inferior courts; and, as there is no intimation of appeals from the ſeveral ſtate tribunals, the inferior federal courts are intended to have original juriſdiction in all caſes, wherein the ſupreme court has appellate juriſdiction; and the appeal lies only from them. I can, almoſt, with confidence, maintain, that, as there is no expreſs clauſe, or neceſſary implication, to ouſt the juriſdiction of ſtate courts, an action, after the adoption of the plan, may be inſtituted in any court, having, at this time, a juriſdiction. And if an action be brought in a ſtate court, I do not, at preſent, perceive, that it can, in any manner, be transferred to the ſupreme or inferior federal court."
     },
     {
-      "emphasis": [
-        [
-          502,
-          606
-        ],
-        [
-          789,
-          955
-        ]
-      ],
       "label": "Aristides, ¶ 60",
       "pages": [
         "22"
@@ -1889,12 +1786,6 @@
       "text": "On theſe principles, an appeal as to fact is no leſs proper, than the appeal from judges of law. A jury, whoſe legal qualifications are only property and ripe age, may more probably incur the imputation of weakneſs, partiality, or undue influence. But in regard to appeals, it is very material to remark, that congreſs is to make ſuch regulations and exceptions, as upon mature deliberation, it ſhall think proper. And indeed, before ſuch regulations and exceptions ſhall be made, the manner of appeal will not be aſcertained. Is it then to be preſumed, that, in making regulations and exceptions, this appellate juriſdiction ſhall be calculated as an engine of oppreſſion, or to ſerve only the purpoſes of vexation and delay.—"
     },
     {
-      "emphasis": [
-        [
-          63,
-          68
-        ]
-      ],
       "label": "Aristides, ¶ 63",
       "pages": [
         "23"
@@ -1909,19 +1800,9 @@
         "24"
       ],
       "ref": "Aristides.64",
-      "text": "But let not the officers of ſtate courts be overmuch alarmed! The cauſes, which, by poſſibility, may be* inſtituted in the federal courts bear no compariſon to the reſt. In the courſe of ten years, not one action, that I know of, in Maryland, has concerned either another ſtate, or an ambaſſador, conſul, or other miniſter. It is hoped, that actions by foreigners will, in a few years, become much rarer than at any time heretofore, and theſe may ſtill be determined in the ſtate courts.—"
+      "text": "But let not the officers of ſtate courts be overmuch alarmed! The cauſes, which, by poſſibility, may be inſtituted in the federal courts bear no compariſon to the reſt. In the courſe of ten years, not one action, that I know of, in Maryland, has concerned either another ſtate, or an ambaſſador, conſul, or other miniſter. It is hoped, that actions by foreigners will, in a few years, become much rarer than at any time heretofore, and theſe may ſtill be determined in the ſtate courts.—"
     },
     {
-      "emphasis": [
-        [
-          411,
-          441
-        ],
-        [
-          524,
-          593
-        ]
-      ],
       "label": "Aristides, ¶ 65",
       "pages": [
         "24",
@@ -1948,12 +1829,6 @@
       "text": "The inference, hence drawn by many, is not warranted by the premiſes. By recogniſing the jury trial in criminal caſes, the conſtitution effectually provides, that it ſhall prevail, ſo long as the conſtitution itſelf ſhall remain unimpaired and unchanged. But, from the great variety of civil caſes, ariſing under this plan of government, it would be unwiſe and impolitic to ſay ought about it, in regard to theſe. Is there not a great variety of caſes, in which this trial is taken away in each of the ſtates? Are there not many more caſes, where it is denied in England? For the convention to aſcertain in what caſes it ſhall prevail, and in what others it may be expedient to prefer other modes, was impracticable. On this ſubject, a future congreſs is to decide; and I ſee no foundation under Heaven for the opinion, that congreſs will deſpiſe the known prejudices and inclination of their countrymen. A very ingenious writer of Philadelphia has mentioned the objections without deigning to refute that, which he conceives to have originated \"in ſheer malice.\"—"
     },
     {
-      "emphasis": [
-        [
-          115,
-          130
-        ]
-      ],
       "label": "Aristides, ¶ 68",
       "pages": [
         "26"
@@ -1986,12 +1861,6 @@
       "text": "When the compact confers the aforeſaid general power, making nevertheleſs ſome ſpecial reſervations and exceptions, then is the citizen protected further, ſo far as theſe reſervations and exceptions ſhall extend."
     },
     {
-      "emphasis": [
-        [
-          181,
-          190
-        ]
-      ],
       "label": "Aristides, ¶ 72",
       "pages": [
         "26"
@@ -2009,16 +1878,6 @@
       "text": "This doctrine is ſo obvious and plain, that I am amazed any good man ſhould deplore the omiſſion of a bill of rights. When we were told, that the celebrated Mr. Wilſon had advanced this doctrine in effect, it was ſaid, Mr. Wilſon would not dare to ſpeak thus to a CONSTITUTIONALIST. With talents inferior to that gentleman's, I will maintain the doctrine againſt any CONSTITUTIONALIST who will condeſcend to enter the liſts, and behave like a gentleman.—"
     },
     {
-      "emphasis": [
-        [
-          1270,
-          1283
-        ],
-        [
-          1380,
-          1391
-        ]
-      ],
       "label": "Aristides, ¶ 74",
       "pages": [
         "27"
@@ -2029,7 +1888,7 @@
         {
           "end": 1656,
           "readings": {
-            "primary": "i•"
+            "tcp": "i•"
           },
           "start": 1654
         }
@@ -2053,12 +1912,6 @@
       "text": "I have here perhaps touched a ſtring, which ſecretly draws together many of the foes to the plan. Too long have we ſuſtained evils, reſulting from injudicious emiſſions of paper, and from the operation of tender laws. To bills of credit, as they are now falſely called, may we impute the entire loſs of confidence between men. Hence is it, that ſpecie has, in a great degree, ceaſed its proper office, and been confined to ſpeculations, baneful to the public, and enriching a few enterpriſing ſharp-ſighted men, at the expence not only of the ignorant, ſlothful, and needy, but of their country's beſt benefactors. Hence chiefly are the bankruptcies throughout America, and the diſreputable ruinous ſtate of our commerce. Hence is it principally, that America hath loſt its credit abroad, and American faith become a proverb. The convention plainly ſaw, that nothing ſhort of a renunciation of the right to emit bills of credit could produce that grand conſummation of policy, the RESTORATION of PUBLIC and PRIVATE FAITH."
     },
     {
-      "emphasis": [
-        [
-          278,
-          295
-        ]
-      ],
       "label": "Aristides, ¶ 77",
       "pages": [
         "28",
@@ -2070,55 +1923,41 @@
         {
           "end": 414,
           "readings": {
-            "primary": "•••s"
+            "tcp": "•••s"
           },
           "start": 410
         },
         {
           "end": 474,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 471
         },
         {
           "end": 536,
           "readings": {
-            "primary": "•••titude"
+            "tcp": "•••titude"
           },
           "start": 527
         },
         {
           "end": 812,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 809
         },
         {
           "end": 820,
           "readings": {
-            "primary": "••e"
+            "tcp": "••e"
           },
           "start": 817
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          801,
-          817
-        ],
-        [
-          1003,
-          1007
-        ],
-        [
-          1034,
-          1046
-        ]
-      ],
       "label": "Aristides, ¶ 78",
       "pages": [
         "29"
@@ -2152,16 +1991,6 @@
       "text": "If there be any man, who approves the great outlines of the plan, and, at the ſame time, would reject it, becauſe he views ſome of the minute parts as imperfect, he ſhould reflect, that, if the ſtates ſhall think as he does, an alteration may be hereafter effected, at leiſure. When the convention determined, that the whole ſhould be received, or the whole fail, they did it not on an arrogant conceit of their own infallibity, but on the ſoundeſt principles of policy and common ſenſe. Were each ſtate legiſlature, or convention, to take it up, article by article, and ſection by ſection, with the liberty of adopting ſome, and rejecting the reſt, in all probability, ſo ſmall a part would be approved by nine ſtates, on the narrow view which each has of the ſubject, and attached as each is to its own ſuppoſed intereſt, that, in its mutilated condition, it would be worſe than the preſent confederation. For thirteen different aſſemblies, in that way, to approve ſo much of any plan whatever, as might merit the name of ſyſtem, the convention well knew to be impoſſible. Were there any one body of men, inveſted with full power, in behalf of the whole United States, to conſider, and amend the plan, then would it be proper to debate it by ſections, in the ſame manner as it was originally debated."
     },
     {
-      "emphasis": [
-        [
-          149,
-          154
-        ],
-        [
-          206,
-          211
-        ]
-      ],
       "label": "Aristides, ¶ 82",
       "pages": [
         "30"
@@ -2187,12 +2016,6 @@
       "text": "The idea of a new convention is ſtarted by ſome men, with the vain expectation of having amendments made to ſuit a particular ſtate, or to advance their own ſelfiſh views. Were this fatal idea adopted, I ſhould bid a laſt adieu to that elevated hope, which now inſpires me, of living under the happieſt form of government which the ſun ever beheld. Recollect again and again, that almoſt every ſtate in the union made a determined point of delegating its firſt characters to this grand convention. Reflect upon the time ſpent in the arduous work, and the ſacrifices which thoſe diſtinguiſhed perſons made to their country. Should the ſame men be deputed again, would they not, think you, with the ſame unanimity, ſubſcribe and recommend the ſame plan? So far as I have been informed, thoſe members, who, in the progreſſion of the plan, had oppoſed certain parts, and yet afterwards ſubſcribed cheerfully to the whole, have, with the candour which becomes them, acknowledged their errors in debate. Even an illuſtrious character, who was of the minority, conſiſting only of three, I have been told, has ſince regretted his refuſal."
     },
     {
-      "emphasis": [
-        [
-          501,
-          511
-        ]
-      ],
       "label": "Aristides, ¶ 85",
       "pages": [
         "31"
@@ -2210,12 +2033,6 @@
       "text": "If it be contended, that the ſecond, being poſſeſſed of the various objections from the ſeveral ſtates, muſt be better able to determine, I would aſk, what conduct this ſecond convention ſhould adopt? Are they to take the propoſed plan, and ſtrike out every thing objected to by nine ſtates, or by ſeven ſtates, or by any one of the ſtates? Or may they like wiſe adopt and recommend the entire plan? In ſhort, to appoint a ſecond convention, merely to conſult and propoſe, would be the moſt abſurd expedient, that ever, in a matter of this amazing magnitude, was propoſed. Does any man then entertain the thought of another kind of convention, inveſted with full powers to conſult, amend, adopt, and confirm? A ſcheme like this was never yet, I truſt, in agitation. But, if it were, I would propoſe this ſingle queſtion. Whether is it better to amend, before it be tried, that plan, which may be termed the reſult of the wiſdom of America, or leave it to be amended, at leiſure, as mature experience ſhall direct?"
     },
     {
-      "emphasis": [
-        [
-          193,
-          219
-        ]
-      ],
       "label": "Aristides, ¶ 87",
       "pages": [
         "32"
@@ -2224,16 +2041,6 @@
       "text": "Although a very great variety of ſenſible objections have been publicly offered, the real and ſincere objections are hardly ever diſcloſed in private. There is a claſs, oppoſed to the union of thirteen different ſtates, and the reaſon they aſſign, is the vaſt extent of our territory. Let us conſider well their objection."
     },
     {
-      "emphasis": [
-        [
-          571,
-          577
-        ],
-        [
-          759,
-          768
-        ]
-      ],
       "label": "Aristides, ¶ 88",
       "pages": [
         "32"
@@ -2242,12 +2049,6 @@
       "text": "To conſolidate the whole thirteen ſtates into a ſingle organization, was out of the convention's contemplation,—for two unanſwerable reaſons. In the firſt place, they were ſatisfied, that not one of the ſtates would renounce its ſovereignty. In the next place, they conſidered, that, in a ſingle government, with a great extent of territory, the advantages are moſt unequally diffuſed. As the extreme parts are ſcarcely ſenſible of its protection, ſo are they ſcarcely under its domination. It is generally agreed, that a great extended nation can long continue under no ſingle form of government, except a deſpotiſm, into which, either a republic, or a limited monarchy, will be certain to degenerate. And hence, if I underſtand the man who ſtyles himſelf a Centinel, he inſinuates, that, if theſe ſtates will perſiſt in remaining under one head, they muſt ſoon fall under the dominion of a deſpot. But, my fellow-citizens, in a confederate republic, conſiſting of diſtinct ſtates, completely organized within themſelves, and each of no greater extent than is proper for a republican form, almoſt all the bleſſings of government are equally diffuſed. Its protection extends to the remoteſt corner, and there every man is under reſtraint of laws."
     },
     {
-      "emphasis": [
-        [
-          117,
-          337
-        ]
-      ],
       "label": "Aristides, ¶ 89",
       "pages": [
         "32",
@@ -2282,16 +2083,6 @@
       "text": "Let us, then, my countrymen, embrace thoſe bleſſings, which Providence is ready to ſhower on us. Open and extend your views! Let the proſpect comprehend the preſent and future generations, yourſelves, your children, your relatives, your fellow-citizens, dwellers on the ſame continent, and inhabitants of the whole terraqueous globe.—"
     },
     {
-      "emphasis": [
-        [
-          163,
-          165
-        ],
-        [
-          825,
-          841
-        ]
-      ],
       "label": "Aristides, ¶ 93",
       "pages": [
         "34"
@@ -2300,12 +2091,6 @@
       "text": "With the proſpect of my country's future glory, preſented to my glowing imagination, it is difficult to reſiſt the ſtrong impulſe of enthuſiaſm. But it is neither my talent, nor deſire, to miſlead. I wiſh only to impreſs the genuine advantages of the propoſed plan; and, if poſſible, to rouſe every man from that ſupineneſs, into which he is lulled by the preſent deceitful calm. To acquit themſelves, like men, when viſible danger aſſails; and, when it is repelled, to ſink like ſavages, into indolence, is ſaid to be the characteriſtic of Americans. I am not, however, one of thoſe, who imagine a neceſſity for embracing almoſt any ſcheme, which the convention might have deviſed, for giving to the union more efficient powers. Had the plan, they have propoſed, contained the ſeeds of much, though diſtant, evil, perhaps a faithful patriot might addreſs you thus:"
     },
     {
-      "emphasis": [
-        [
-          154,
-          182
-        ]
-      ],
       "label": "Aristides, ¶ 94",
       "pages": [
         "34"
@@ -2314,12 +2099,6 @@
       "text": "Let us not, my friends, in a fit of unmanly apprehenſion, betray that immenſe charge, with which Americans, at this day, are entruſted! Let us confide in the wiſdom of our great men, with the aſſiſtance of Heaven, to eſtabliſh yet our ſafety and happineſs! Let us, in the mean time, ſuſtain all our evils, with reſignation and firmneſs! Let us hope, that no foreign power, or lawleſs internal combinations, ſhall do us a mighty injury! Let us be frugal, economical, induſtrious! Let us ſuſpend the cruel collection of debts! Let commerce continue to droop! Let us awhile ſubmit even to infamy; and turn a callous ear to the indignant reproaches of our late faithful and affectionate ſervants, friends and benefactors."
     },
     {
-      "emphasis": [
-        [
-          190,
-          201
-        ]
-      ],
       "label": "Aristides, ¶ 95",
       "pages": [
         "34",
@@ -2337,23 +2116,13 @@
       "text": "But alas! My fellow-citizens, on the adoption of this fatal plan, and when every part of the great complicated machine ſhall be put in motion, the luſtre of our ſtate aſſemblies will be diminiſhed by the ſuperior ſplendour of the federal head. This ſingle conſideration, although many heſitate to avow it, will cauſe more oppoſition, than all the reſt united. Weigh well the objection. If ever it be material to inquire, by whom reaſons are adduced, it is on this peculiar occaſion. From the objection itſelf, may perhaps be diſcerned the danger we are expoſed to, from the ſecret views and ſelfiſh conſiderations of the objector."
     },
     {
-      "emphasis": [
-        [
-          912,
-          940
-        ],
-        [
-          1056,
-          1084
-        ]
-      ],
       "label": "Aristides, ¶ 97",
       "pages": [
         "35",
         "36"
       ],
       "ref": "Aristides.97",
-      "text": "What at this moment to the nations abroad is the ſtate of Maryland? The poor member of a defenceleſs ſyſtem of petty republics—. In what light is ſhe viewed by her ſiſter ſtates?—Whatever rank ſhe now poſſeſſes, will remain after the great alteration of the ſyſtem. They will all riſe or fall in the proportion which now exiſts—. What then are the powers an individual ſtate will loſe?—She will no longer be able to deny congreſs that, which congreſs, at this moment, has a right to demand. She will have no power to enter into a treaty, alliance, or confederation. She ſhall, in time of war, grant no letters of marque and repriſal. She ſhall coin no money, emit no bills of credit, nor make any thing but gold and ſilver a tender in payment of debts. She ſhall paſs no bill of attainder, or ex poſt facto ſaw, or law impairing the obligation of a contract. She ſhall grant no title of nobility. She ſhall not, without conſent of congreſs, lay any duty on imports or exports, except what may be neceſſary for executing her inſpection laws. She ſhall not, without conſent of congreſs, lay any duty on tonnage, keep troops or* ſhips of war, in time of peace; enter into any agreement, or compact, with another ſtate, or with a foreign power; or engage in war, unleſs actually invaded, or in ſuch imminent danger, as will not admit of delay."
+      "text": "What at this moment to the nations abroad is the ſtate of Maryland? The poor member of a defenceleſs ſyſtem of petty republics—. In what light is ſhe viewed by her ſiſter ſtates?—Whatever rank ſhe now poſſeſſes, will remain after the great alteration of the ſyſtem. They will all riſe or fall in the proportion which now exiſts—. What then are the powers an individual ſtate will loſe?—She will no longer be able to deny congreſs that, which congreſs, at this moment, has a right to demand. She will have no power to enter into a treaty, alliance, or confederation. She ſhall, in time of war, grant no letters of marque and repriſal. She ſhall coin no money, emit no bills of credit, nor make any thing but gold and ſilver a tender in payment of debts. She ſhall paſs no bill of attainder, or ex poſt facto ſaw, or law impairing the obligation of a contract. She ſhall grant no title of nobility. She ſhall not, without conſent of congreſs, lay any duty on imports or exports, except what may be neceſſary for executing her inſpection laws. She ſhall not, without conſent of congreſs, lay any duty on tonnage, keep troops or ſhips of war, in time of peace; enter into any agreement, or compact, with another ſtate, or with a foreign power; or engage in war, unleſs actually invaded, or in ſuch imminent danger, as will not admit of delay."
     },
     {
       "label": "Aristides, ¶ 98",
@@ -2386,15 +2155,9 @@
         "37"
       ],
       "ref": "Aristides.101",
-      "text": "That the ſtate legiſlatures will ſoon \"drop out of ſight,\" is an idea moſt extravagant and abſurd; becauſe, in addition to the importance of their duties, the very exiſtence of the congreſs depends upon them. That they will, at leaſt, dwindle into ſomething like city corporations, is an apprehenſion, founded on no better principle. May the Ruler of the univerſe inſpire them with wiſdom to diſcharge thoſe numerous and extenſive duties, which they will find remaining. To do this, as they ought, will be far proferable to the* breaking all uſeful national meaſures, and marring the concerns of a continent. To do this, as they ought, will afford more true pleaſure to a good mind, than the carrying, by conſummate eloquence and addreſs, the moſt intereſting federal meaſure, which can now be contrived by an enlightened honeſt politician, in a ſtate aſſembly, poſſeſſing all its darling ſovereignties!"
+      "text": "That the ſtate legiſlatures will ſoon \"drop out of ſight,\" is an idea moſt extravagant and abſurd; becauſe, in addition to the importance of their duties, the very exiſtence of the congreſs depends upon them. That they will, at leaſt, dwindle into ſomething like city corporations, is an apprehenſion, founded on no better principle. May the Ruler of the univerſe inſpire them with wiſdom to diſcharge thoſe numerous and extenſive duties, which they will find remaining. To do this, as they ought, will be far proferable to the breaking all uſeful national meaſures, and marring the concerns of a continent. To do this, as they ought, will afford more true pleaſure to a good mind, than the carrying, by conſummate eloquence and addreſs, the moſt intereſting federal meaſure, which can now be contrived by an enlightened honeſt politician, in a ſtate aſſembly, poſſeſſing all its darling ſovereignties!"
     },
     {
-      "emphasis": [
-        [
-          105,
-          111
-        ]
-      ],
       "label": "Aristides, ¶ 102",
       "pages": [
         "37",
@@ -2453,12 +2216,6 @@
       "text": "No man, indeed, has exactly uſed theſe words; but they contain the ſum and ſcope of ſeveral recent publications."
     },
     {
-      "emphasis": [
-        [
-          345,
-          351
-        ]
-      ],
       "label": "Aristides, ¶ 109",
       "pages": [
         "39",
@@ -2468,12 +2225,6 @@
       "text": "In the courſe of my remarks, I have already ſaid enough to expoſe the futility of certain objections, which are uſhered to the world, under the auſpices of a pair of honourable names. Notwithſtanding the care and pompoſity, with which they are circulated, it is not worth while to draw an invidious compariſon. One gentleman, whoſe name is thus freely uſed, I think, calls the houſe of repreſentatives a mere ſhred, or rag of repreſentation. Does he conſider the diſtinction between the objects of a confederate republic, and of a ſingle government? It is a poor return for that ſingular reſpect, which the convention paid to the majeſty of the people, in contriving, that congreſs ſhall not only be a repreſentation of ſtates, as heretofore, but alſo an immediate repreſentation of the people. Were 5, 10, or even 20,000, the ratio propoſed, then peradventure the honourable objector might clamour about the expence of a mobbiſh legiſlature. The fact is, that the new government, conſtructed on the broad baſis of equality, mutual benefits, and national good, is not calculated to ſecure a ſingle ſtate all her natural advantages, at the expence of the natural and acquired advantages of her reſpectable brethren of New-England.—"
     },
     {
-      "emphasis": [
-        [
-          608,
-          613
-        ]
-      ],
       "label": "Aristides, ¶ 110",
       "pages": [
         "40"
@@ -2490,12 +2241,6 @@
       "text": "The examples of a genuine ariſtocracy are rare. They were founded in times of profound ignorance, and when the maſs of property was in the hands of a few, whilſt the reſt pined in want and wretchedneſs. One European ariſtocratic government, if ſuch it can be called, has grown out of an original defective form, the offspring of neceſſity, and commenced amidſt the horrors of a civil war. Although the people of that country fought, and intended, to be free, their compact of government never was complete; they did not attend to the principle of rotation, and checks; and a genuine repreſentation did never there prevail.—"
     },
     {
-      "emphasis": [
-        [
-          385,
-          391
-        ]
-      ],
       "label": "Aristides, ¶ 112",
       "pages": [
         "40",
@@ -2524,19 +2269,13 @@
         {
           "end": 931,
           "readings": {
-            "primary": "ſa•d"
+            "tcp": "ſa•d"
           },
           "start": 927
         }
       ]
     },
     {
-      "emphasis": [
-        [
-          457,
-          504
-        ]
-      ],
       "kind": "footnote",
       "label": "Aristides, note 1",
       "pages": [
@@ -2548,49 +2287,42 @@
         {
           "end": 151,
           "readings": {
-            "primary": "b•"
+            "tcp": "b•"
           },
           "start": 149
         },
         {
           "end": 156,
           "readings": {
-            "primary": "〈…〉,"
+            "tcp": "〈…〉,"
           },
           "start": 152
         },
         {
-          "end": 201,
+          "end": 210,
           "readings": {
-            "primary": "con〈7"
+            "tcp": "con〈7 letters〉"
           },
           "start": 196
         },
         {
-          "end": 210,
-          "readings": {
-            "primary": "letters〉"
-          },
-          "start": 202
-        },
-        {
           "end": 214,
           "readings": {
-            "primary": "〈…〉"
+            "tcp": "〈…〉"
           },
           "start": 211
         },
         {
           "end": 217,
           "readings": {
-            "primary": "•e"
+            "tcp": "•e"
           },
           "start": 215
         },
         {
           "end": 272,
           "readings": {
-            "primary": "〈◊〉"
+            "tcp": "〈◊〉"
           },
           "start": 269
         }
@@ -2606,16 +2338,6 @@
       "text": "Whether the ſtate of Maryland ſhall be divided into ſix diſtricts, for each to chooſe one man, or the people at large give their ſuffrage for the whole ſix, is hereafter to be ſettled by the aſſembly. The latter mode, on a variety of occaſions, would be preferable."
     },
     {
-      "emphasis": [
-        [
-          1400,
-          1411
-        ],
-        [
-          1688,
-          1699
-        ]
-      ],
       "kind": "footnote",
       "label": "Aristides, note 3",
       "pages": [
@@ -2627,14 +2349,14 @@
         {
           "end": 815,
           "readings": {
-            "primary": "••••on"
+            "tcp": "••••on"
           },
           "start": 809
         },
         {
           "end": 1485,
           "readings": {
-            "primary": "Geo••••."
+            "tcp": "Geo••••."
           },
           "start": 1477
         }
