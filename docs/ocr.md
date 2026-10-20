@@ -12,8 +12,11 @@ Code: `importers/ocr.py` (the general method) and
 `importers/ratification.py` with `importers/ratification_series.py` (the
 books and series); `importers/elliot.py` (Patrick Henry, Elliot's
 *Debates*); `importers/nyjournal.py` (Brutus V–XVI, one newspaper scan);
-`importers/library.py` (the Anti-Federalist Library as a tie-breaker).
-Tests: `tests/test_ocr.py`, `tests/test_library.py`.
+`importers/library.py` (the Anti-Federalist Library as a tie-breaker);
+`importers/tcp.py` with `importers/paine.py` and `importers/locke.py` (a
+typed transcription as the text, checked against scans: see "A
+transcription as the text" below).
+Tests: `tests/test_ocr.py`, `tests/test_library.py`, `tests/test_tcp.py`.
 
 ## The idea in one paragraph
 
@@ -279,6 +282,23 @@ changed into "s": that would be typing text. Each passage links to its
 newspaper page at the Library of Congress, and the errata page shows the
 part of the page the paragraph fills (`scan.regions`).
 
+## A transcription as the text: the TCP (`importers/tcp.py`)
+
+Decision 67. Where the Text Creation Partnership has keyed the printing by
+hand (CC0, TEI P5), its transcription is the text and the scans only check
+it: Paine's *Common Sense* (1776) and Locke's Second Treatise (1690). No
+vote is held. Each of the transcription's words is lined up with the OCR of
+one or two scans of the same printing, compared by its letters with the
+long s set aside ("s", "f" and "l" compare alike), and marked uncertain,
+with the transcription's reading (`tcp`) beside the scans', where no scan
+reads it alike and a scan reads another real word there, lacks it where it
+reads the words around cleanly, or has a word more; letters the keyers
+could not read ("•") are always marked. The transcription's word is never
+replaced. A scan photographed in its binding (the John Carter Brown
+Library's) has its words outside the block of text dropped and its lines
+rebuilt from where the words stand. The rules and what they cannot see are
+in `docs/editions.md`, "Sources of the Declaration".
+
 ## Step 4: structure (`ratification.py`)
 
 Each series lists, in `ratification_series.py`, its book, the printed pages
@@ -409,6 +429,14 @@ later, is below).
   about 1,371,000 words with 18,700 marked, 14 per thousand; from 4.5 (the
   Senate, 1965) to 23 (1947) and 47 (the Senate, 1971, whose debate prints
   long tables). About 7,500 of the marked words are figures.
+
+- **The TCP texts** (decision 67; the transcription is the text, the scans
+  a check): *Common Sense*, about 15,800 words with 61 marked, 4 per
+  thousand, against one scan that was lined up with 92% of the words;
+  Locke's Second Treatise, about 53,500 words with 162 marked, 3 per
+  thousand, against two scans (95% and 80% of the words; 2% with neither).
+  Most marks are OCR misreadings of real words ("dear" for "clear"); some
+  are the transcription's slips (errata 130–133).
 
 The rules lean toward marking a word uncertain rather than guessing: a
 wrong word that looks settled is worse than a right word with a dotted

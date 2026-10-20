@@ -157,6 +157,52 @@ Imported by `importers/elliot.py` from Elliot's *Debates*, vol. 3.
   Henry's, each opening with its speaker's name.
 - Notes, if any: `Henry.{day}.fn{k}`.
 
+## Sources of the Declaration
+
+Texts from the Text Creation Partnership's transcriptions, checked against
+scans (decision 67).
+
+### Common Sense (`texts/common-sense.json`)
+
+Thomas Paine's pamphlet, first edition (Philadelphia: R. Bell, 1776),
+imported by `importers/paine.py`.
+
+- `CommonSense.Introduction`, `CommonSense.1` … `CommonSense.4`: the
+  Introduction and the four parts, numbered as the title page numbers its
+  subjects (I. "Of the Origin and Design of Government in general …", II.
+  "Of Monarchy and Hereditary Succession", III. "Thoughts on the present
+  State of American Affairs", IV. "Of the present Ability of America …").
+  The part's printed heading is the division's `title`.
+- `CommonSense.{part}.{paragraph}`: the paragraphs, numbered from 1 in each
+  part (`CommonSense.Introduction.1` is "PERHAPS the Sentiments …").
+  Quotations set apart from the text (Dragonetti, in part III) are
+  paragraphs, numbered with the rest.
+- `CommonSense.{part}.fn{k}`: Paine's notes, numbered within the part
+  (`CommonSense.3.fn1`, on Massanello).
+- The title page, the running title "COMMON SENSE." over part I, "FINIS."
+  and the bookseller's advertisement are not passages.
+
+### Locke, the Second Treatise (`texts/locke-second-treatise.json`)
+
+Book II of John Locke's *Two Treatises of Government*, first edition
+(London, 1690), imported by `importers/locke.py`. The prefix `Locke` is
+the Second Treatise's; the First Treatise, if imported, needs another.
+
+- `Locke.{chapter}`: the nineteen chapters, numbered as printed ("CHAP.
+  II."); the chapter's title ("Of the State of Nature.") is the division's
+  `title` (chapter I has none).
+- `Locke.{chapter}.{section}`: Locke's own numbered sections, the usual way
+  to cite the work (`Locke.2.4` is § 4, "TO understand Political Power …").
+  The section number is Locke's, not counted within the chapter, so the
+  sections run from `Locke.1.1` to `Locke.19.243`. A section of several
+  paragraphs (or with a list, as § 1) is one passage, its paragraphs
+  separated by a blank line, as for the amendments. This printing has no
+  § 21 (later editions add one), so there is no `Locke.3.21`; were it
+  imported from another printing it would take that ref. § 236 begins
+  inside Barclay's Latin, which the printing sets inside § 235.
+- `Locke.{chapter}.fn{k}`: the notes printed in the margin (Hooker's
+  words), numbered within the chapter.
+
 ## Debates in Congress
 
 ### The Bill of Rights, 1789 (`texts/house-amendments-1789.json`)
