@@ -401,8 +401,7 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 2366,
-          "suggested_by": "loc"
+          "start": 2366
         }
       ]
     },
@@ -772,8 +771,7 @@
             "google": "^om",
             "primary": "yrow"
           },
-          "start": 17,
-          "suggested_by": "loc"
+          "start": 17
         }
       ]
     },
@@ -820,8 +818,7 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 2059,
-          "suggested_by": "loc"
+          "start": 2059
         }
       ]
     },
@@ -970,8 +967,7 @@
             "cornell": "1",
             "primary": "1"
           },
-          "start": 10,
-          "suggested_by": "loc"
+          "start": 10
         }
       ]
     },
@@ -1076,8 +1072,7 @@
             "cornell": "svsHenry.]",
             "primary": "svsterns"
           },
-          "start": 587,
-          "suggested_by": "loc"
+          "start": 587
         }
       ]
     },
@@ -1124,8 +1119,7 @@
             "harvard": "[HBNRr. linquishment",
             "primary": "relinquishmenl"
           },
-          "start": 158,
-          "suggested_by": "loc"
+          "start": 158
         }
       ]
     },
@@ -1314,8 +1308,7 @@
           "readings": {
             "primary": "\\Am"
           },
-          "start": 1657,
-          "suggested_by": "loc"
+          "start": 1657
         }
       ]
     },
@@ -1524,8 +1517,7 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 1680,
-          "suggested_by": "loc"
+          "start": 1680
         }
       ]
     },
@@ -2550,8 +2542,7 @@
             "harvard": "[IbbMMMf. inconveniences,",
             "primary": "mconreniences,"
           },
-          "start": 119,
-          "suggested_by": "loc"
+          "start": 119
         }
       ]
     },
@@ -2907,8 +2898,7 @@
           "readings": {
             "primary": "administerea"
           },
-          "start": 849,
-          "suggested_by": "loc"
+          "start": 849
         }
       ]
     },
@@ -3459,8 +3449,7 @@
             "harvard": "oi",
             "primary": "o^"
           },
-          "start": 156,
-          "suggested_by": "loc"
+          "start": 156
         }
       ]
     },
@@ -3490,8 +3479,7 @@
           "readings": {
             "primary": "J"
           },
-          "start": 170,
-          "suggested_by": "loc"
+          "start": 170
         }
       ]
     },
@@ -3790,8 +3778,7 @@
           "readings": {
             "primary": "lo"
           },
-          "start": 2441,
-          "suggested_by": "loc"
+          "start": 2441
         }
       ]
     },
@@ -3984,8 +3971,7 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 1004,
-          "suggested_by": "loc"
+          "start": 1004
         }
       ]
     },
@@ -4033,8 +4019,7 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 1586,
-          "suggested_by": "loc"
+          "start": 1586
         }
       ]
     },
@@ -4078,8 +4063,7 @@
             "google": "theWth",
             "primary": "the llth"
           },
-          "start": 335,
-          "suggested_by": "loc"
+          "start": 335
         }
       ]
     },
@@ -4249,8 +4233,7 @@
           "readings": {
             "primary": "trapquillity"
           },
-          "start": 112,
-          "suggested_by": "loc"
+          "start": 112
         }
       ]
     },
@@ -4355,8 +4338,7 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 325,
-          "suggested_by": "loc"
+          "start": 325
         },
         {
           "end": 940,
@@ -4457,8 +4439,7 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 794,
-          "suggested_by": "loc"
+          "start": 794
         }
       ]
     },
@@ -4489,8 +4470,7 @@
             "cornell": "iini",
             "primary": "ii(<i"
           },
-          "start": 868,
-          "suggested_by": "loc"
+          "start": 868
         },
         {
           "end": 1902,
@@ -4630,8 +4610,7 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 330,
-          "suggested_by": "loc"
+          "start": 330
         }
       ]
     },
@@ -4724,8 +4703,7 @@
             "harvard": "1",
             "primary": "1"
           },
-          "start": 689,
-          "suggested_by": "loc"
+          "start": 689
         },
         {
           "end": 1883,
