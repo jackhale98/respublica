@@ -1,0 +1,163 @@
+{
+  "attribution": {
+    "byline": "The Continental Congress",
+    "kind": "body",
+    "names": [
+      "Continental Congress"
+    ]
+  },
+  "date": "1776-06-07",
+  "edition": {
+    "name": "Worthington Chauncey Ford, ed., Journals of the Continental Congress, 1774–1789 (Washington: Government Printing Office), vol. 5 (1906)",
+    "notes": "Worthington Chauncey Ford, ed., Journals of the Continental Congress, 1774–1789 (Washington: Government Printing Office), vol. 5 (1906), pp. 425–426. The Journals' entry for June 7, 1776: the resolutions respecting independency as moved and seconded, and their referral to the next day, with the editor's note on the manuscript. Read from the OCR of the University of California's scan and checked word by word against the OCR of 3 other copies; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "lee-resolution-1776",
+  "ref_prefix": "LeeResolution",
+  "segments": [
+    {
+      "label": "Lee Resolution, ¶ 1",
+      "pages": [
+        "425"
+      ],
+      "ref": "LeeResolution.1",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          17
+        ]
+      },
+      "text": "Certain resolutions Hrespecting independency] | being moved and seconded.",
+      "uncertain": [
+        {
+          "end": 31,
+          "readings": {
+            "primary": "Hrespecting"
+          },
+          "start": 20
+        },
+        {
+          "end": 47,
+          "readings": {
+            "acpl": "||",
+            "primary": "|"
+          },
+          "start": 46
+        }
+      ]
+    },
+    {
+      "label": "Lee Resolution, ¶ 2",
+      "pages": [
+        "425"
+      ],
+      "ref": "LeeResolution.2",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          17
+        ]
+      },
+      "text": "Resolved, That these United Colonies are, and of right ought to be, free and independent States, that they are absolved from all allegiance to the British Crown, and that all political connection between them and the State of Great Britain is, and ought to be, totally dissolved."
+    },
+    {
+      "label": "Lee Resolution, ¶ 3",
+      "pages": [
+        "425"
+      ],
+      "ref": "LeeResolution.3",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          17
+        ]
+      },
+      "text": "That it is expedient forthwith to take the most effectual measures for forming foreign Alliances."
+    },
+    {
+      "label": "Lee Resolution, ¶ 4",
+      "pages": [
+        "425"
+      ],
+      "ref": "LeeResolution.4",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          17
+        ]
+      },
+      "text": "That a plan of confederation be prepared and transmitted to the respective Colonies for their consideration and approbation."
+    },
+    {
+      "label": "Lee Resolution, ¶ 5",
+      "pages": [
+        "426"
+      ],
+      "ref": "LeeResolution.5",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          18
+        ]
+      },
+      "text": "Resolved, That the consideration of them be referred till to morrow morning ; and, that the members be enjoined to attend punctually at 10 o'Clock, in order to take the same into consideration."
+    },
+    {
+      "kind": "footnote",
+      "label": "Lee Resolution, note 1",
+      "pages": [
+        "425",
+        "426"
+      ],
+      "ref": "LeeResolution.fn1",
+      "scan": {
+        "item": "journalscontinen05unit",
+        "leaves": [
+          17,
+          18
+        ]
+      },
+      "text": "' This resolution, in the writing of Richard Henry Lee, is in the Papers of the Continental Congress, No. 23, folio 11. It has the following endorsement in three writings: \"Resolved that it is the Opinion of this Com. that the first Resolution [Benjamin Harrison] be postponed to this day three 'sreeks, and that in the mean time [Charles Thomson], least any time sh* be lost in case the Congress agree to this resolution [Robert K. Li\\-ingston], a committee be appointed to prepare a Declaration to the effect of the said first resolution [Charles Thomson].\" The postponement was made t'j give an opportunity to the Delegates from those Colonies which had not aa yet given authority to adopt this decisive measure, to consult their constituents. The motion was seconded by John Adams.",
+      "uncertain": [
+        {
+          "end": 303,
+          "readings": {
+            "acpl": "weelis,",
+            "primary": "'sreeks,"
+          },
+          "start": 295
+        },
+        {
+          "end": 432,
+          "readings": {
+            "primary": "K."
+          },
+          "start": 430
+        },
+        {
+          "end": 446,
+          "readings": {
+            "acpl": "Livingston]",
+            "primary": "Li\\-ingston],"
+          },
+          "start": 433
+        },
+        {
+          "end": 663,
+          "readings": {
+            "acpl": "as",
+            "primary": "aa"
+          },
+          "start": 661
+        }
+      ]
+    }
+  ],
+  "short": "Lee Resolution",
+  "source_ids": [
+    "ia-road-jcc-v5-uc-xml",
+    "ia-road-jcc-v5-acpl-xml",
+    "ia-road-jcc-v5-michigan-xml",
+    "ia-road-jcc-v5-upload-xml"
+  ],
+  "title": "The Lee Resolution"
+}

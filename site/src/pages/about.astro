@@ -63,7 +63,9 @@ const sourceById = Object.fromEntries(sources.map((s) => [s.id, s]));
       <p>Any quotation shown in a connection is checked by code against the text, letter for letter.</p>
 
       <h2 id="editions">Editions</h2>
-      {site.works.filter((w) => w.collection !== "ratification").map((w) => (
+      {/* The road to independence (decision 66) lists its editions and sources on its own page. */}
+      <p>The editions and sources of the documents on the road to independence, 1774–1776, are listed on <a href={href("/independence/#editions")}>their page</a>.</p>
+      {site.works.filter((w) => w.collection !== "ratification" && w.collection !== "independence").map((w) => (
         <section class="edition card">
           <h3>{w.title}</h3>
           <p class="muted">{w.edition.name}{w.date && ` · ${formatDate(w.date)}`}</p>

@@ -1,0 +1,352 @@
+{
+  "attribution": {
+    "byline": "The Virginia Convention",
+    "kind": "body",
+    "names": [
+      "Virginia Convention"
+    ]
+  },
+  "date": "1776-06-12",
+  "edition": {
+    "name": "The Articles of Confederation; the Declaration of Rights; the Constitution of the Commonwealth, and the Articles of the Definitive Treaty between Great-Britain and the United States of America (Richmond: Dixon and Holt, [1784 or 1785]), pp. 12–14",
+    "notes": "The Articles of Confederation; the Declaration of Rights; the Constitution of the Commonwealth, and the Articles of the Definitive Treaty between Great-Britain and the United States of America (Richmond: Dixon and Holt, [1784 or 1785]), pp. 12–14. The Declaration of Rights adopted by the Virginia Convention on June 12, 1776, as the Commonwealth printed it by order of the General Assembly in 1784 or 1785, with its heading and sixteen articles. The text is the Text Creation Partnership's keyed transcription, Evans-TCP N15245 (Evans 18818), released under CC0; letters and words the transcribers could not read are marked as uncertain, as the transcription marks them, never filled in. Checked word by word against the OCR of the Internet Archive's scan of the same printing (bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784): where the scan reads another word, the word is marked as uncertain, with the scan's reading beside it. See docs/editions.md."
+  },
+  "id": "virginia-declaration-of-rights",
+  "ref_prefix": "VirginiaRights",
+  "segments": [
+    {
+      "label": "Virginia Declaration of Rights, heading",
+      "pages": [
+        "12"
+      ],
+      "ref": "VirginiaRights.Heading",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          12
+        ]
+      },
+      "text": "THE DECLARATION OF RIGHTS Made by the Repreſentatives of the good people of Virginia, aſſembled in full and free Convention; which rights do pertain to them, and their poſterity, as the baſis and foundation of Government."
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 1",
+      "pages": [
+        "12"
+      ],
+      "ref": "VirginiaRights.1",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          12
+        ]
+      },
+      "text": "FIRST, THAT all men are by nature equally free and independent, and have certain inherent rights, of which, when they enter into a ſtate of ſociety, they cannot, by any c•m••ct, deprive or diveſt their poſterity; namely, the enjoyment of life and liberty, with the means of acquiring and poſſeſſing property, and purſuing and obtaining happineſs and ſafety.",
+      "uncertain": [
+        {
+          "end": 136,
+          "readings": {
+            "scan": "fate",
+            "tcp": "ſtate"
+          },
+          "start": 131
+        },
+        {
+          "end": 177,
+          "readings": {
+            "scan": "comp ct,",
+            "tcp": "c•m••ct,"
+          },
+          "start": 169
+        }
+      ]
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 2",
+      "pages": [
+        "12"
+      ],
+      "ref": "VirginiaRights.2",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          12
+        ]
+      },
+      "text": "2d. That all power is veſted in, and conſequently derived from, the people; that magiſtrates are their truſtees and ſervants, and at all times amenable to them."
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 3",
+      "pages": [
+        "12"
+      ],
+      "ref": "VirginiaRights.3",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          12
+        ]
+      },
+      "text": "3d. That government is, or ought to be inſtituted for the common benefit, protection and ſecurity, of the people, nation, or community, of all the various modes and forms of government that is beſt, which is capable of producing the greateſt degree of happineſs and ſafety, and is moſt effectually ſecured againſt the danger of mal-adminiſtration; and that wherever any government ſhall be found inadequate or contrary to theſe purpoſes, a majority of the community hath an indubitable, unalienable, and indefe•ſible right, to perform, alter, or aboliſh it, in ſuch manner as ſhall be judged moſt conducive to the public weal.",
+      "uncertain": [
+        {
+          "end": 516,
+          "readings": {
+            "scan": "indefenſible",
+            "tcp": "indefe•ſible"
+          },
+          "start": 504
+        }
+      ]
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 4",
+      "pages": [
+        "12"
+      ],
+      "ref": "VirginiaRights.4",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          12
+        ]
+      },
+      "text": "4th. That no man, or ſet of men, are intitled to excluſive or ſeparate emoluments or privileges from the community, but in conſideration of public ſervices; which, not being deſcendible, neither ought the offices of magiſtrate, legiſlature, or judge, to be the hereditary."
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 5",
+      "pages": [
+        "12"
+      ],
+      "ref": "VirginiaRights.5",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          12
+        ]
+      },
+      "text": "5th. That the Legiſlative and Executive powers of the ſtate ſhould be ſeparate and diſtinct from the judicary; and that the members of the two firſt may be reſtrained from oppreſſion, by feeling and participating the burthens of the people, they ſhould at fixed periods, be reduced to a private ſtation, return into that body from which they were originally taken, and the vacancies be ſupplied by frequent, certain, and regular elections, in which all, or any part of the former members, to be again eligible, or ineligible, as the laws ſhall direct."
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 6",
+      "pages": [
+        "12",
+        "13"
+      ],
+      "ref": "VirginiaRights.6",
+      "text": "6th. That elections of members to ſerve as repreſentatives of the people, in Aſſembly, ought to be free, and that all men, having ſufficient evidence of permanent common intereſt with, and attachment to, the community, have the right of ſuffrage, and cannot be taxed or deprived of their property for public uſes without their own conſent, or that of their repreſentatives ſo elected, nor bound by any law to which they have not, in like manner, aſſented for the public good."
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 7",
+      "pages": [
+        "13"
+      ],
+      "ref": "VirginiaRights.7",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "7th. That all power of ſuſpending law, or the execution of laws, by any authority without conſent of the repreſentatives of the people, is injurious to their rights, and ought not to be exerciſed.",
+      "uncertain": [
+        {
+          "end": 64,
+          "readings": {
+            "scan": "Jaws,",
+            "tcp": "laws,"
+          },
+          "start": 59
+        }
+      ]
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 8",
+      "pages": [
+        "13"
+      ],
+      "ref": "VirginiaRights.8",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "8th. That in all capital or criminal proſecutions, a man hath a right to demand the cauſe and nature of his accuſation, to be confronted with the accuſers and witneſſes, to call for evidence in his favor, and to a ſpeedy trial by an impartial jury of his vicinage, whithout whoſe unanimous conſent he cannot be found guilty, nor can he be compelled to give evidence againſt himſelf; that no man be deprived of his liberty, except by the law of the land, or the judgment of his peers."
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 9",
+      "pages": [
+        "13"
+      ],
+      "ref": "VirginiaRights.9",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "9th. That exceſſive bail ought not to be required, nor exceſſive fines impoſed, nor cruel unuſual puniſhments inflicted."
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 10",
+      "pages": [
+        "13"
+      ],
+      "ref": "VirginiaRights.10",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "10th. The general warrants, whereby any officer or meſſenger may be commanded to ſearch ſuſpected places without evidence of a fact committed, or to ſeize any perſon or perſons not named, or whoſe offence is not particularly deſcribed and ſupported by evidence, are grievous and oppreſſive, and ought not to be granted.",
+      "uncertain": [
+        {
+          "end": 190,
+          "readings": {
+            "scan": "of",
+            "tcp": "or"
+          },
+          "start": 188
+        }
+      ]
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 11",
+      "pages": [
+        "13"
+      ],
+      "ref": "VirginiaRights.11",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "11th. That in controverſies reſpecting property, and in ſuits between man and man, the ancient trial by jury is preferable to any other, and ought to be held ſacred."
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 12",
+      "pages": [
+        "13"
+      ],
+      "ref": "VirginiaRights.12",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "12th. That the freedom of the preſs is one of the great bulwarks of liberty, and can never be reſtrained but by diſpotic governments."
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 13",
+      "pages": [
+        "13"
+      ],
+      "ref": "VirginiaRights.13",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "13th. That a well regulated militia, compoſed of the body of the people trained to arms, is the proper, natural, and ſafe defence of a free ſtate; that ſtanding armies, in time of peace, ſhould be avoided, as dangerous to liberty; and that, in all caſes, the m•••••ry ſhould be under ſtrict ſubordination to, and governed by, the civil power.",
+      "uncertain": [
+        {
+          "end": 121,
+          "readings": {
+            "scan": "fate",
+            "tcp": "ſafe"
+          },
+          "start": 117
+        },
+        {
+          "end": 267,
+          "readings": {
+            "scan": "military",
+            "tcp": "m•••••ry"
+          },
+          "start": 259
+        }
+      ]
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 14",
+      "pages": [
+        "13"
+      ],
+      "ref": "VirginiaRights.14",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "14th. That the people have a right to uniform government; and therefore, that no government ſeparate from, or independent of the government of Virginia, ought to be erected or eſtabliſhed within the limits thereof."
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 15",
+      "pages": [
+        "13"
+      ],
+      "ref": "VirginiaRights.15",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          13
+        ]
+      },
+      "text": "15th. That no free government, or the bleſſing of liberty, can be preſerved to any people but by a fi•n• adherence to juſtice, moderation, temperance, frugality, and virtue, and by frequent recurrence to fundimental principles.",
+      "uncertain": [
+        {
+          "end": 104,
+          "readings": {
+            "scan": "firni",
+            "tcp": "fi•n•"
+          },
+          "start": 99
+        }
+      ]
+    },
+    {
+      "label": "Virginia Declaration of Rights, ¶ 16",
+      "pages": [
+        "13",
+        "14"
+      ],
+      "ref": "VirginiaRights.16",
+      "scan": {
+        "item": "bim_eighteenth-century_the-articles-of-confeder_virginia-constitution_1784",
+        "leaves": [
+          14
+        ]
+      },
+      "text": "16th. That religion, or the duty which we owe to our CREATOR, and the manner of diſcharging it, can be directed only by reaſon and conviction, not by force or violence, and therefore all men are equally entitled to the free exerciſe of religion, according to the dictates of conſcience; and that it is the mutual duty of all to practice Chriſtian forbearance, love, and charity, towards each other.",
+      "uncertain": [
+        {
+          "end": 45,
+          "readings": {
+            "scan": "awe",
+            "tcp": "owe"
+          },
+          "start": 42
+        },
+        {
+          "end": 186,
+          "readings": {
+            "scan": "",
+            "tcp": "all"
+          },
+          "start": 183
+        }
+      ]
+    }
+  ],
+  "short": "Virginia Declaration of Rights",
+  "source_ids": [
+    "tcp-n15245-xml",
+    "ia-ecco-va-1784-xml"
+  ],
+  "title": "The Virginia Declaration of Rights"
+}

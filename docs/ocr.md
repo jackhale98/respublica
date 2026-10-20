@@ -13,10 +13,16 @@ Code: `importers/ocr.py` (the general method) and
 books and series); `importers/elliot.py` (Patrick Henry, Elliot's
 *Debates*); `importers/nyjournal.py` (Brutus V–XVI, one newspaper scan);
 `importers/library.py` (the Anti-Federalist Library as a tie-breaker);
-`importers/tcp.py` with `importers/paine.py` and `importers/locke.py` (a
-typed transcription as the text, checked against scans: see "A
-transcription as the text" below).
-Tests: `tests/test_ocr.py`, `tests/test_library.py`, `tests/test_tcp.py`.
+`importers/independence.py` with `importers/parallel.py` (the road to
+independence: the Journals of the Continental Congress and Ford's
+*Writings of Thomas Jefferson*, pages printed in parallel columns);
+`importers/tcp.py` with `importers/paine.py`, `importers/locke.py` and
+`importers/independence.py` (a typed transcription as the text, checked
+against scans: see "A transcription as the text" below; the 1775
+Declaration of the Causes and the Virginia Declaration of Rights, decision
+66, are read the same way).
+Tests: `tests/test_ocr.py`, `tests/test_library.py`, `tests/test_tcp.py`,
+`tests/test_independence.py`.
 
 ## The idea in one paragraph
 
@@ -53,6 +59,8 @@ For each book, in `sources/raw/` (downloaded by `tools/fetch.py`, listed in
 | *Congressional Record*, bound edition, vols. 44, 47, 48, 55, 56 and 58 (1909–19), and 75, 76, 93, 106, 108, 111 and 117 (1932–71) | govinfo's text layer of its scans, one PDF per house per day (`govinfo-crecb-{granule}`) | the Internet Archive's page-indexed OCR of a microfilm of the same part (`ia-record-{part}-text`) (one) |
 | Elliot's *Debates*, vol. 3 (standard pagination; 1907 printing) | `ia-elliot-v3-1907-toronto-xml` | `ia-elliot-v3-1876-cornell-txt`, `-1861-google-txt`, `-1836-google-txt` (three) |
 | *The New-York Journal* (1787–88), Brutus V–XVI | the Library of Congress's ALTO XML (`loc-nyjournal-{date}-p{n}-alto`) | none: one scan (see "One scan" below) |
+| *Journals of the Continental Congress*, vols. 1, 4 and 5 (1904–06) | the University of California's scan of each volume (`ia-road-jcc-v{n}-uc-xml`) | two or three other copies of each, read from their DjVu XML like the main scan (`ia-road-jcc-v{n}-{copy}-xml`) |
+| Ford, *Writings of Thomas Jefferson*, vol. 2 (1893) | `ia-road-ford-v2-uc-xml` | `-harvard-xml`, `-ucgoogle-xml` (two) |
 
 With two references a word can be outvoted 2 to 1; with one, disagreements
 are ties and depend on the tie rules below, so those books have
@@ -296,6 +304,41 @@ changed into "s": that would be typing text. Each passage links to its
 newspaper page at the Library of Congress, and the errata page shows the
 part of the page the paragraph fills (`scan.regions`).
 
+## Two texts side by side: the right column (`importers/parallel.py`)
+
+The Journals print the Declaration and Resolves of 1774 in the right-hand
+column beside John Sullivan's draft, and Ford prints the fair copy of
+Jefferson's proposed constitution beside his first draft (decision 66). On
+the pages the importer's configuration lists (`independence.BOOKS`,
+`columns`), each scan's page is cut before the steps above:
+
+1. The page's running head and printer's signature mark are set aside, and
+   the editor's notes found: in the Journals by their smaller type at the
+   foot of the page (`parallel.mark_notes`; the notes' marks are superscript
+   figures, which OCR reads as "'" or "^", not the marks of step 1); in Ford,
+   whose notes are set nearly as large as the text, from the line a pattern
+   in the configuration names (`notes_from`) to the foot of the page.
+2. Full-width lines above the columns (the day's proceedings before the
+   resolutions) are kept; the columns begin at the first line, or at the line
+   a pattern names (`columns_from`).
+3. The gutter is found from the lines that sit in one column
+   (`columns.find_gutters`), or, on a page with few of them, is the middle of
+   the page's text. Each word goes to the column its first letter is in: some
+   scans' word boxes take in the space after the word and reach across the
+   gutter. A page whose lines all lie right of its middle (the left column has
+   ended) is all right column.
+4. The right column becomes a page of its own; its paragraphs are found as in
+   step 1, and in Ford also by the hanging indent of Jefferson's charges
+   against the king (`parallel.outdented`).
+
+The reference scans are cut the same way, so each copy's text is the right
+column only: the drafts beside it, which share many words with it, are never
+taken for it. A reference's notes are kept apart from its text, so a passage
+is never matched with a note that quotes it. Each part's paragraphs are
+found in the other scans together, sixty words at a time, so that a short
+paragraph has context and a passage that runs over a page break is matched
+on both sides of it.
+
 ## A transcription as the text: the TCP (`importers/tcp.py`)
 
 Decision 67. Where the Text Creation Partnership has keyed the printing by
@@ -448,6 +491,17 @@ later, is below).
   of words have a reading from the microfilm; the rest (names in roll
   calls, lines the two OCRs read in different orders) keep govinfo's
   reading alone.
+- **The road to independence** (decision 66): the Journals of the
+  Continental Congress, three or four copies a volume: about 4,600 words with
+  36 marked (8 per thousand), most of them the editor's double bars around
+  entries of the rough journal, figures, and the signers' abbreviated names;
+  Ford's *Writings of Jefferson*, three copies: about 1,860 words with 14
+  marked. Nearly every word has a reading from another copy (99–100% from at
+  least one; the Michigan copy of vol. 5 lacks pp. 425–426). The two TCP
+  transcriptions: the Declaration of Rights, 883 words with 10 marked (4 of
+  them the keyers' gaps, 6 where the scan of the same printing reads another
+  word); the Declaration of the Causes, 2,567 words with 11 gaps.
+
 - **The Congressional Record, 1932–71** (decision 62; the same method):
   about 1,371,000 words with 18,700 marked, 14 per thousand; from 4.5 (the
   Senate, 1965) to 23 (1947) and 47 (the Senate, 1971, whose debate prints

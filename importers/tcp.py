@@ -17,11 +17,13 @@ modernized. What the TCP itself marks is kept as it marks it:
     mark for them (its `<desc>`, "•" for a letter), and so is a stop they
     could not make out ("▪", `char:punc`); the word is marked uncertain:
     they are never filled in;
-  * the long s is as the TCP keyed it: Common Sense and Locke's text give
-    a round s (their keying rules), the Evans-TCP pamphlets of the
-    ratification debate the long s (ſ); the editions' notes say which;
+  * the long s is as the TCP keyed it: its EEBO-era texts (Locke) and
+    Common Sense give a round s (its keying rules); some Evans texts keep
+    "ſ" (the Virginia Declaration of Rights, decision 66; the pamphlets of
+    the ratification debate, decision 69), and it is kept;
   * a word broken at a line end without a hyphen (`char:EOLunhyphen`) is
-    joined too.
+    joined too;
+  * a figure (a woodcut and its caption) is left out.
 
 Each block's words are then checked against the OCR of Internet Archive
 scans of the same printing (`check`), as the Anti-Federalist Library's text
@@ -62,8 +64,8 @@ TEI = "{http://www.tei-c.org/ns/1.0}"
 HYPH = "\x07"  # a word broken at a line end
 PB_OPEN, PB_CLOSE = "\x05", "\x06"  # a page break, with its printed number
 GAP_OPEN, GAP_CLOSE = "\x03", "\x04"  # characters the TCP could not read
-SPLIT = "\x08"
-KEEP = "\x02"  # a space inside a gap's mark  # a numbered paragraph begins (inside a quotation), around its number
+SPLIT = "\x08"  # a numbered paragraph begins (inside a quotation), around its number
+KEEP = "\x02"  # a space inside a gap's mark
 
 
 def tag(el: ET.Element) -> str:
@@ -113,7 +115,7 @@ class Block:
 
 
 # Parts of a block that stand apart from the words around them.
-APART = ("bibl", "l", "p", "item", "salute", "dateline", "opener", "epigraph", "byline")
+APART = ("bibl", "l", "p", "item", "salute", "opener", "epigraph", "byline")
 
 
 class Walker:
@@ -148,12 +150,14 @@ class Walker:
             elif t == "gap":
                 desc = " ".join("".join(child.itertext()).split()) or "•"
                 out.append(f"{GAP_OPEN}{desc}{GAP_CLOSE}")
+            elif t == "figure":
+                pass  # a woodcut and its caption (the Portsmouth broadside's view of Boston): not the text
             elif t == "expan":
                 ex = child.findall(f"{TEI}ex")
                 out.append("".join("".join(e.itertext()) for e in ex) if ex else "".join(self.pieces(child, notes)))
             elif t in ("hi", "q", "abbr", "g", "bibl", "l", "lg", "seg", "date", "name", "foreign", "label", "am", "ex",
                        "sic", "corr", "choice", "orig", "reg", "ref", "num", "head", "p", "trailer", "signed", "closer",
-                       "item", "list", "salute", "dateline", "opener", "epigraph", "byline"):
+                       "dateline", "item", "list", "salute", "opener", "epigraph", "byline"):
                 inner = self.pieces(child, notes)
                 # A block inside the text (a quotation's attribution, a line
                 # of verse, an item of a list) stands apart from the words before it.
@@ -234,7 +238,8 @@ def to_block(raw: str, kind: str, page: str | None, n: str | None = None, mark: 
     """Words from text with markers: a broken word is joined across the line
     end (and any page break there), page breaks give each word its page,
     and words holding a gap are noted."""
-    raw = re.sub(f"\\s+{HYPH}", HYPH, raw)  # (the TEI may break the line before a line-end mark)
+    # (The line-end mark can follow a space, after a gap: "m<gap/> <g/>ry".)
+    raw = re.sub(f"\\s+{HYPH}", HYPH, raw)
     raw = re.sub(f"{HYPH}((?:\\s|{PB_OPEN}[^{PB_CLOSE}]*{PB_CLOSE})*)",
                  lambda m: re.sub(r"\s", "", m.group(1)), raw)
     tokens, page_of, gaps, pages = [], [], set(), [page] if page else []

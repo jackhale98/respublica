@@ -12,6 +12,7 @@ import { href, COLLECTIONS, authorText, formatDate, formatNumber } from "../../l
 // essay or letter of the ratification debate).
 const { page, work } = Astro.props;
 const debate = work.collection === "ratification";
+const road = work.collection === "independence";
 const d = page.division;
 const attr = work.attribution;
 // Contents (tools/site_data.py `_toc`): top-level divisions and stand-alone
@@ -27,6 +28,7 @@ const anchorOf = (t) => t.url.split("#")[1];
   <ol class="crumbs" slot="crumbs">
     <li><a href={href("/")}>Library</a></li>
     {debate && <li><a href={href("/ratification/")}>Ratification debate</a></li>}
+    {road && <li><a href={href("/independence/")}>The road to independence</a></li>}
     <li aria-current="page">{work.short}</li>
   </ol>
 
@@ -99,6 +101,7 @@ const anchorOf = (t) => t.url.split("#")[1];
       <dt>Passages</dt><dd>{formatNumber(work.passages)}</dd>
       <dt>Edition</dt><dd>{work.edition.name}</dd>
     </dl>
-    <p><a href={href(debate ? "/about/#ocr" : "/about/#editions")}>How this text was imported</a></p>
+    {road && <p class="doc-note">{work.edition.notes}</p>}
+    <p><a href={href(debate || road ? "/about/#ocr" : "/about/#editions")}>How this text was imported</a></p>
   </Fragment>
 </Reader>

@@ -1,0 +1,167 @@
+{
+  "attribution": {
+    "byline": "The Continental Congress",
+    "kind": "body",
+    "names": [
+      "Continental Congress"
+    ]
+  },
+  "date": "1776-05-10/1776-05-15",
+  "divisions": [
+    {
+      "date": "1776-05-10",
+      "label": "May 10, 1776",
+      "level": 1,
+      "ref": "Governments1776.May10"
+    },
+    {
+      "date": "1776-05-15",
+      "label": "May 15, 1776",
+      "level": 1,
+      "ref": "Governments1776.May15"
+    }
+  ],
+  "edition": {
+    "name": "Worthington Chauncey Ford, ed., Journals of the Continental Congress, 1774–1789 (Washington: Government Printing Office), vol. 4 (1906)",
+    "notes": "Worthington Chauncey Ford, ed., Journals of the Continental Congress, 1774–1789 (Washington: Government Printing Office), vol. 4 (1906), pp. 342–358. The Journals' entries for May 10, 1776 (the resolution recommending that the colonies adopt governments, and the committee to prepare a preamble) and May 15 (the preamble, and the order to publish both). Read from the OCR of the University of California's scan and checked word by word against the OCR of 3 other copies; words the scans could not settle are marked as uncertain. See docs/editions.md."
+  },
+  "id": "new-governments-1776",
+  "ref_prefix": "Governments1776",
+  "segments": [
+    {
+      "label": "Resolution and preamble, May 1776, May 10, 1776, ¶ 1",
+      "pages": [
+        "342"
+      ],
+      "ref": "Governments1776.May10.1",
+      "scan": {
+        "item": "journalsofcontin04unit",
+        "leaves": [
+          348
+        ]
+      },
+      "text": "The Congress then resumed the consideration of the report from the committee of the whole, which being read was agreed to as follows :"
+    },
+    {
+      "label": "Resolution and preamble, May 1776, May 10, 1776, ¶ 2",
+      "pages": [
+        "342"
+      ],
+      "ref": "Governments1776.May10.2",
+      "scan": {
+        "item": "journalsofcontin04unit",
+        "leaves": [
+          348
+        ]
+      },
+      "text": "Resolved, That it be recommended to the respective assemblies and conventions of the United Colonies, where no government sufficient to the exigencies of their affairs have been hitherto established, to adopt such government as shall, in the opinion of the representatives of the people, best conduce to the happiness and safety of their constituents in particular, and America in general."
+    },
+    {
+      "label": "Resolution and preamble, May 1776, May 10, 1776, ¶ 3",
+      "pages": [
+        "342"
+      ],
+      "ref": "Governments1776.May10.3",
+      "scan": {
+        "item": "journalsofcontin04unit",
+        "leaves": [
+          348
+        ]
+      },
+      "text": "Resolved, That a committee of three be appointed to prepare a preamble to the foregoing resolution :"
+    },
+    {
+      "label": "Resolution and preamble, May 1776, May 10, 1776, ¶ 4",
+      "pages": [
+        "342"
+      ],
+      "ref": "Governments1776.May10.4",
+      "scan": {
+        "item": "journalsofcontin04unit",
+        "leaves": [
+          348
+        ]
+      },
+      "text": "The members chosen, Mr. J[ohn] Adams, Mr. [Edward] Rutledge, and Mr. R[ichard] H[enry] Lee."
+    },
+    {
+      "label": "Resolution and preamble, May 1776, May 15, 1776, ¶ 1",
+      "pages": [
+        "357"
+      ],
+      "ref": "Governments1776.May15.1",
+      "scan": {
+        "item": "journalsofcontin04unit",
+        "leaves": [
+          363
+        ]
+      },
+      "text": "The Congress took into consideration the draught of the preamble brought in by the committee, which was agreed to as follows :"
+    },
+    {
+      "label": "Resolution and preamble, May 1776, May 15, 1776, ¶ 2",
+      "pages": [
+        "357",
+        "358"
+      ],
+      "ref": "Governments1776.May15.2",
+      "scan": {
+        "item": "journalsofcontin04unit",
+        "leaves": [
+          363,
+          364
+        ]
+      },
+      "text": "Whereas his Britannic Majesty, in conjunction with the lords and commons of Great Britain, has, by a late act of Parliament, excluded the inhabitants of these United Colonies from the protection of his crown ; And whereas, no answer, whatever, to the humble petitions of the colonies for redress of grievances and reconciliation with Great Britain, has been or is likely to be given; but, the whole force of that kingdom, aided by foreign mercenaries, is to be exerted for the destruction of the good people of these colonies; And whereas, it appears absolutely irreeoncileable to reason and good Conscience, for the people of these colonies now to take the oaths and affirmations necessary for the support of any government under the crown of Great Britain, and it is necessary that the exercise of every kind of authority under the said crown should be totally suppressed, and all the powers of government exerted, under the authority of the people of the colonies, for the preservation of internal peace, virtue, and good order, as well as for the defence of their lives, liberties, and properties, against the hostile invasions and cruel depredations of their enemies; therefore, resolved, &c.",
+      "uncertain": [
+        {
+          "end": 577,
+          "readings": {
+            "google": "irreconcileable",
+            "michigan": "irreeoncileable",
+            "primary": "irreeoncileable",
+            "upload": "irreconcileable"
+          },
+          "start": 562
+        }
+      ]
+    },
+    {
+      "label": "Resolution and preamble, May 1776, May 15, 1776, ¶ 3",
+      "pages": [
+        "358"
+      ],
+      "ref": "Governments1776.May15.3",
+      "scan": {
+        "item": "journalsofcontin04unit",
+        "leaves": [
+          364
+        ]
+      },
+      "text": "Ordered, That the said preamble, with the resolution passed the 10th instant, be published.’"
+    },
+    {
+      "kind": "footnote",
+      "label": "Resolution and preamble, May 1776, May 15, 1776, note 1",
+      "pages": [
+        "358"
+      ],
+      "ref": "Governments1776.May15.fn1",
+      "scan": {
+        "item": "journalsofcontin04unit",
+        "leaves": [
+          364
+        ]
+      },
+      "text": "'This preamble was drawn up by John Adams. Autobiography, Works, III, 46. It is printed in the Pennsylvania Gazette, 22 May, 1776."
+    }
+  ],
+  "short": "Resolution and preamble, May 1776",
+  "source_ids": [
+    "ia-road-jcc-v4-uc-xml",
+    "ia-road-jcc-v4-upload-xml",
+    "ia-road-jcc-v4-google-xml",
+    "ia-road-jcc-v4-michigan-xml"
+  ],
+  "title": "The Resolution of May 10, 1776, and its Preamble of May 15"
+}

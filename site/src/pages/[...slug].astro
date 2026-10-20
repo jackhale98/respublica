@@ -3,6 +3,7 @@ import CollectionView from "../components/views/CollectionView.astro";
 import IndexView from "../components/views/IndexView.astro";
 import DebateView from "../components/views/DebateView.astro";
 import CongressView from "../components/views/CongressView.astro";
+import IndependenceView from "../components/views/IndependenceView.astro";
 import SeriesView from "../components/views/SeriesView.astro";
 import PaperView from "../components/views/PaperView.astro";
 import WorkView from "../components/views/WorkView.astro";
@@ -30,6 +31,7 @@ const { page, work } = Astro.props;
 {page.kind === "index" && (work.collection === "ratification" ? <SeriesView work={work} /> : work.collection === "congress" ? <DebateView work={work} /> : work.collection === "sources" ? <SourcesView work={work} /> : <IndexView work={work} />)}
 {page.kind === "collection" && <CollectionView page={page} />}
 {page.kind === "congress" && <CongressView page={page} />}
+{page.kind === "independence" && <IndependenceView page={page} />}
 {page.kind === "case" && <CaseView page={page} />}
 {page.kind === "cases" && <CasesView page={page} />}
 {page.kind === "clause" && <ClauseView page={page} />}
