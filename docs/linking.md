@@ -294,7 +294,17 @@ agent against both texts before it is proposed, as in run 2.
   `high`; reviewers may reject it. So is an enforcement section ("power to
   enforce this article by appropriate legislation"), following the 1866
   links to `Amendment.14.5`. The eight words must be unbroken in the text
-  as stored: a word OCR split ("elect e d") breaks the run.
+  as stored: a word OCR split ("elect e d") breaks the run. A run that
+  needs a word marked uncertain, read as another scan reads it, is at most
+  `medium`, and the rationale says so.
+- **Pass 1 never targets the amendment under debate**: until ratified it is
+  a proposal, reached only by pass 2's exact runs.
+- **Article V** is linked from each paragraph that names it ("the fifth
+  article", "the amendatory clause"), not from a generic "amend the
+  Constitution in the mode it provides".
+- **Clauses cited inside other proposals** (the Crittenden articles, a
+  substitute): `high` in the proposer's own text, `medium` when a speaker
+  reads someone else's proposal.
 - **Who may be linked from.** The Speaker's rulings and the Clerk's readings
   may be; vote tallies and the reporter's narration of how a question was
   decided may not. A reporter's parenthesis ("here he cited the
