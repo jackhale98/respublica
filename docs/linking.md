@@ -259,12 +259,21 @@ or the Annals' own notes or the record of votes ("yeas and nays").
 Confidence and rationale follow run 1. Every run is checked by a second
 agent against both texts before it is proposed, as in run 2.
 
-**Notes from the runs on 1794–1869** (October 2026), followed in those runs:
+**Notes from the runs on 1794–1919** (October 2026), followed in those runs:
 
-- **A whole amendment named.** "The thirteenth amendment" or "the amendment
-  abolishing slavery" cites `Amendment.13.1`; a bare "the fourteenth
-  amendment" (five sections) is not a link unless the text picks out a
-  section.
+- **The Constitution "as it stood"** includes every amendment ratified by the
+  day of the debate: 1–15 for 1909–12, 1–17 for 1917, 1–18 for 1919. A
+  quote or citation of one of those is pass 1; the amendment under debate is
+  pass 2.
+
+- **A whole amendment named.** An amendment of one section, named by
+  number, cites that section at `high` ("the tenth amendment"); one of
+  several sections cites the section the context picks out, at `medium`
+  ("the amendment abolishing slavery" is `Amendment.13.1`). A bare "the
+  fourteenth amendment" with nothing that picks out a section is not a link,
+  nor is a mention in an account of an amendment's ratification.
+- **"Section N" without its article** is linked only when the article was
+  named just before, at `medium`.
 - **Misnumbered references.** Speakers often misnumber ("the first section
   of the fourth article" for Article IV, section 2). Where the words quote
   or unmistakably describe a clause, link that clause at `medium` (or
@@ -282,11 +291,17 @@ agent against both texts before it is proposed, as in run 2.
   debate, and motions to strike out or insert words, are pass-2 links like
   the Clerk's reading. "The right of citizens of the United States to vote"
   alone is accepted as substance for the Fifteenth and Nineteenth, at
-  `high`; reviewers may reject it.
+  `high`; reviewers may reject it. So is an enforcement section ("power to
+  enforce this article by appropriate legislation"), following the 1866
+  links to `Amendment.14.5`. The eight words must be unbroken in the text
+  as stored: a word OCR split ("elect e d") breaks the run.
 - **Who may be linked from.** The Speaker's rulings and the Clerk's readings
   may be; vote tallies and the reporter's narration of how a question was
   decided may not. A reporter's parenthesis ("here he cited the
-  Constitution") is the Annals' own note.
+  Constitution") is the Annals' own note. Documents a member reads or prints
+  in the record (reports, statutes, editorials, state resolutions, court
+  opinions) may be linked from where they quote or cite a clause, and the
+  rationale says whose words they are.
 - **The 1789 Joint Resolution.** A speaker naming one of its twelve articles
   ("the first of the twelve amendments") cites `Resolution1789.Article.{n}`.
 - **Quotes are cut from the segment text** in `texts/`, never from
