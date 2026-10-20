@@ -42,6 +42,9 @@ UNTRACKED_FAMILIES = {
     "globe": "ia-globe-*",
     "govinfo": "govinfo-crecb-*",
     "iarecord": "ia-record-*",
+    # Internet Archive scans that check the TCP texts of Common Sense and
+    # Locke (decision 67): DjVu XML and OCR text.
+    "iadecl": "ia-decl-*",
 }
 UNTRACKED_RAW = tuple(UNTRACKED_FAMILIES.values())
 

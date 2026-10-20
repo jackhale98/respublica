@@ -41,6 +41,17 @@ WORKS = {
     "amendments": {"collection": "founding", "order": 2, "paged": False, "short": "Amendments", "slug": "amendments"},
     "joint-resolution-1789": {"collection": "founding", "order": 2.5, "paged": False, "short": "Resolution of 1789",
                               "slug": "joint-resolution-1789"},
+    # Works the Declaration's language draws on (decision 67): one page per part or chapter.
+    "common-sense": {"collection": "sources", "order": 0.1, "paged": True, "short": "Common Sense",
+                     "slug": "common-sense",
+                     "summary": "Thomas Paine's pamphlet, published anonymously in Philadelphia in January 1776: the "
+                                "first edition, its Introduction and four parts."},
+    "locke-second-treatise": {"collection": "sources", "order": 0.2, "paged": True,
+                              "short": "Locke, Second Treatise", "slug": "locke-second-treatise",
+                              "summary": "John Locke's essay “concerning the true original, extent, and end of civil "
+                                         "government”, the second of his Two Treatises (London, 1690): the first "
+                                         "edition, in Locke's numbered sections. Locke was English; the work is here as "
+                                         "a source the Declaration's language draws on."},
     "federalist": {"collection": "federalist", "order": 3, "paged": True, "short": "Federalist", "slug": "federalist"},
     # Debates in Congress (decision 46): one page per day.
     "house-amendments-1789": {"collection": "congress", "order": 4, "paged": True, "short": "House debates, 1789",
@@ -360,8 +371,9 @@ POSITIONS = ("anti", "federalist", "other")
 POSITION_LABELS = {"anti": "Anti-Federalist", "federalist": "Federalist", "other": "Other"}
 
 
-# What a ratification-debate work's parts are called, where not essays.
-PARTS = {"patrick-henry": "speeches"}
+# What a work's parts are called, where not essays (the index pages of the ratification debate and of
+# the sources of the Declaration).
+PARTS = {"patrick-henry": "speeches", "common-sense": "parts", "locke-second-treatise": "chapters"}
 
 # A work's sources as the about page lists them: each on a line, but the
 # Congressional Globe's page-by-page OCR from the UNT Digital Library (two

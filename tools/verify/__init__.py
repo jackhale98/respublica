@@ -179,9 +179,11 @@ def check_uncertain(where: str, text: str, spans: Any) -> list[str]:
             errors.append(f"{where}: uncertain span {start}-{stop} is out of place")
             continue
         end = stop
-        if not (isinstance(readings, dict) and "primary" in readings
+        # The main scan's reading ("primary"), or for a text from the Text
+        # Creation Partnership the transcription's ("tcp", decision 67).
+        if not (isinstance(readings, dict) and ("primary" in readings) != ("tcp" in readings)
                 and all(isinstance(v, str) for v in readings.values())):
-            errors.append(f"{where}: uncertain span {start}-{stop} needs the primary scan's reading")
+            errors.append(f"{where}: uncertain span {start}-{stop} needs the primary scan's (or the TCP's) reading")
         elif "accepted" in u:
             # The Anti-Federalist Library's reading, accepted by the owner
             # without a check against the page (decision 56): still marked.

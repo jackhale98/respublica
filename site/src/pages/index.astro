@@ -16,6 +16,8 @@ const constitution = works.constitution;
 const amendments = works.amendments;
 const federalist = works.federalist;
 const resolution = works["joint-resolution-1789"];
+// Works the Declaration's language draws on (decision 67).
+const sources = site.works.filter((w) => w.collection === "sources");
 const articles = loadPage("constitution").toc.filter((t) => t.kind === "division" && t.level === 1 && t.label.startsWith("Article")).length;
 const clauses = loadPage("constitution").blocks.filter((b) => b.type === "passage" && /^Constitution\.\d/.test(b.ref)).length;
 
@@ -92,6 +94,14 @@ const sideCount = (k) => debate.filter((w) => w.position === k).length;
           <div class="work-meta"><span>{declParas} paragraphs</span><span>{declSigners} signers</span></div>
         </a>
       )}
+      {sources.map((w) => (
+        <a class="card work-card w-declaration" href={href(w.url)}>
+          <span class="work-icon"><Icon name="book" /></span>
+          <h3>{w.title}</h3>
+          <p>{w.edition.name}. A source the Declaration's language draws on, from the Text Creation Partnership's transcription, checked against scans of the printing.</p>
+          <div class="work-meta"><span>{w.passages} {w.id === "locke-second-treatise" ? "sections" : "paragraphs"}</span><span>{formatDate(w.date)}</span></div>
+        </a>
+      ))}
       <a class="card work-card w-constitution" href={href(constitution.url)}>
         <span class="work-icon"><Icon name="scroll" /></span>
         <h3>The Constitution</h3>
