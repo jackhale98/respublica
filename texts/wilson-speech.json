@@ -1,0 +1,124 @@
+{
+  "attribution": {
+    "byline": "Delivered, October sixth, MDCCLXXXVII, by the Honorable James Wilson, Esquire",
+    "kind": "single",
+    "names": [
+      "James Wilson"
+    ],
+    "source": "the heading of the speech, p. [25], in Coxe's pamphlet (Evans-TCP N16378)"
+  },
+  "date": "1787-10-06",
+  "divisions": [
+    {
+      "attribution": {
+        "byline": "Delivered, October sixth, MDCCLXXXVII, by the Honorable James Wilson, Esquire",
+        "kind": "single",
+        "names": [
+          "James Wilson"
+        ],
+        "source": "the heading of the speech, p. [25], in Coxe's pamphlet (Evans-TCP N16378)"
+      },
+      "label": "James Wilson's Speech",
+      "level": 1,
+      "publication": [
+        "SUBSTANCE OF AN ADDRESS TO A MEETING OF THE CITIZENS OF PHILADELPHIA: DELIVERED, OCTOBER SIXTH, MDCCLXXXVII, BY THE HONORABLE JAMES WILSON, ESQUIRE, ONE OF THE DELEGATES FROM THE STATE OF PENNSYLVANIA TO THE LATE CONTINENTAL CONVENTION."
+      ],
+      "ref": "WilsonSpeech",
+      "salutation": "Mr. CHAIRMAN and FELLOW CITIZENS,"
+    }
+  ],
+  "edition": {
+    "name": "Substance of an Address to a Meeting of the Citizens of Philadelphia (Philadelphia: Printed by Zachariah Poulson, Junr. in Fourth-Street, between Market and Arch-Streets. MDCCLXXXVIII. [1788]), Evans 21028",
+    "notes": "Substance of an Address to a Meeting of the Citizens of Philadelphia (Philadelphia: Printed by Zachariah Poulson, Junr. in Fourth-Street, between Market and Arch-Streets. MDCCLXXXVIII. [1788]), Evans 21028: the Text Creation Partnership's typed transcription, Evans-TCP N16378 (https://github.com/textcreationpartnership/N16378), CC0. The transcription is the text, with the printing's spelling and the long s (ſ) as keyed; words holding letters the transcribers could not read are marked as uncertain, with their marks (• a letter, 〈◊〉 a word) (0 in 2426 words). No scan of this printing was found to check the transcription against. See docs/editions.md."
+  },
+  "id": "wilson-speech",
+  "position": "federalist",
+  "ref_prefix": "WilsonSpeech",
+  "segments": [
+    {
+      "label": "James Wilson's Speech, ¶ 1",
+      "pages": [
+        "26"
+      ],
+      "ref": "WilsonSpeech.1",
+      "text": "HAVING received the honour of an appointment to repreſent you in the late convention, it is, perhaps, my duty to comply with the requeſt of many gentlemen, whoſe characters and judgments I ſincerely reſpect, and who have urged that this would be a proper occaſion to lay before you any information, which will ſerve to elucidate and explain the principles and arrangements of the conſtitution that has been ſubmitted to the conſideration of the United States. I confeſs that I am unprepared for ſo extenſive and ſo important a diſquiſition: but the inſidious attempts, which are clandeſtinely and induſtriouſly made to pervert and deſtroy the new plan, induce me the more readily to engage in its defence: and the impreſſions of four months conſtant attendance to the ſubject, have not been ſo eaſily effaced, as to leave me without an anſwer to the objections which have been raiſed."
+    },
+    {
+      "label": "James Wilson's Speech, ¶ 2",
+      "pages": [
+        "26",
+        "27"
+      ],
+      "ref": "WilsonSpeech.2",
+      "text": "It will be proper, however, before I enter into the refutation of the charges that are alledged, to mark the leading diſcrimination between the ſtate conſtitutions, and the conſtitution of the United States. When the people eſtabliſhed the powers of legiſlation under their ſeparate governments, they inveſted their repreſentatives with every right and authority which they did not in explicit terms reſerve: and therefore upon every queſtion, reſpecting the juriſdiction of the houſe of aſſembly, if the frame of government is ſilent, the juriſdiction is efficient and complete. But in delegating foederal powers, another criterion was neceſſarily introduced: and the congreſſional authority is to be collected, not from tacit implication, but from the poſitive grant, expreſſed in the inſtrument of union. Hence, it is evident, that in the former caſe, every thing which is not reſerved, is given: but in the latter, the reverſe of the propoſition prevails, and every thing which is not given, is reſerved. This diſtinction being recognized, will furniſh an anſwer to thoſe who think the omiſſion of a bill of rights, a defect in the propoſed conſtitution: for it would have been ſuperfluous and abſurd, to have ſtipulated with a foederal body of our own creation, that we ſhould enjoy thoſe privileges, of which we are not diveſted either by the intention or the act that has brought that body into exiſtence. For inſtance, the liberty of the preſs, which has been a copious ſubject of declamation and oppoſition: what controul can proceed from the foederal government, to ſhackle or deſtroy that ſacred palladium of national freedom? If, indeed, a power ſimilar to that which has been granted for the regulation of commerce, had been granted to regulate literary publications, it would have been as neceſſary to ſtipulate that the liberty of the preſs ſhould be preſerved inviolate, as that the impoſt ſhould be general in its operation. With reſpect, likewiſe, to the particular diſtrict of ten miles, which is to be the ſeat of government, it will undoubtedly be proper to obſerve this ſalutary precaution, as there the legiſlative power will be veſted in the preſident, ſenate, and houſe of repreſentatives of the United States. But this could not be an object with the convention: for it muſt naturally depend upon a future compact; to which the citizens immediately intereſted, will, and ought to be parties: and there is no reaſon to ſuſpect, that ſo popular a privilege will in that caſe be neglected. In truth, then, the propoſed ſyſtem poſſeſſes no influence whatever upon the preſs; and it would have been merely nugatory, to have introduced a formal declaration upon the ſubject: nay, that very declaration might have been conſtrued to imply that ſome degree of power was given, ſince we undertook to define its extent."
+    },
+    {
+      "label": "James Wilson's Speech, ¶ 3",
+      "pages": [
+        "27",
+        "28"
+      ],
+      "ref": "WilsonSpeech.3",
+      "text": "Another objection that has been fabricated againſt the new conſtitution, is expreſſed in this diſingenuous form—\"the trial by jury is aboliſhed in civil caſes.\" I muſt be excuſed, my fellow citizens, if, upon this point, I take advantage of my profeſſional experience, to detect the futility of the aſſertion. Let it be remembered, then, that the buſineſs of the foederal convention was not local, but general—not limited to the views and eſtabliſhments of a ſingle ſtate, but co-extenſive with the continent, and comprehending the views and eſtabliſhments of thirteen independant ſovereignties. When, therefore, this ſubject was in diſcuſſion, we were involved in difficulties, which preſſed on all ſides, and no precedent could be diſcovered to direct our courſe. The caſes open to a jury, differed in the different ſtates: it was therefore impracticable, on that ground, to have made a general rule. The want of uniformity would have rendered any reference to the practice of the ſtates idle and uſeleſs: and it could not, with any propriety, be ſaid, that \"the trial by jury ſhall be as heretofore:\" ſince there has never exiſted any foederal ſyſtem of juriſprudence, to which the declaration could relate. Beſides, it is not in all caſes that the trial by jury is adopted in civil queſtions: for cauſes depending in courts of admiralty, ſuch as relate to maritime captures, and ſuch as are agitated in the courts of equity, do not require the intervention of that tribunal. How, then, was the line of diſcrimination to be drawn? The convention found the taſk too difficult for them: and they left the buſineſs as it ſtands—in the fulleſt confidence, that no danger could poſſibly enſue, ſince the proceedings of the ſupreme court are to be regulated by the congreſs, which is a faithful repreſentation of the people: and the oppreſſion of government is effectually barred, by declaring that in all criminal caſes, the trial by jury ſhall be preſerved."
+    },
+    {
+      "label": "James Wilson's Speech, ¶ 4",
+      "pages": [
+        "28",
+        "29"
+      ],
+      "ref": "WilsonSpeech.4",
+      "text": "This conſtitution, it has been further urged, is of a pernicious tendency, becauſe it tolerates a ſtanding army in the time of peace. This has always been a popular topic of declamation: and yet I do not know a nation in the world, which has not found it neceſſary and uſeful to maintain the appearance of ſtrength in a ſeaſon of the moſt profound tranquility. Nor is it a novelty with us; for under the preſent articles of confederation, congreſs certainly poſſeſſes this reprobated power: and the exerciſe of it is proved at this moment by the cantonments along the banks of the Ohio. But what would be our national ſituation, where it otherwiſe? Every principle of policy muſt be ſubverted, and the government muſt declare war before they are prepared to carry it on. Whatever may be the provocation, however important the object in view, and however neceſſary diſpatch and ſecrecy may be, ſtill the declaration muſt precede the preparation, and the enemy will be informed of your intention, not only before you are equipped for an attack, but even before you are fortified for a defence. The conſequence is too obvious to require any further delineation; and no man, who regards the dignity and ſafety of his country, can deny the neceſſity of a military force, under the controul, and with the reſtrictions which the new conſtitution provides."
+    },
+    {
+      "label": "James Wilson's Speech, ¶ 5",
+      "pages": [
+        "29"
+      ],
+      "ref": "WilsonSpeech.5",
+      "text": "Perhaps there never was a charge made with leſs reaſon, than that which predicts the inſtitution of a baneful ariſtocracy in the foederal ſenate. This body branches into two characters, the one legiſlative, and the other executive. In its legiſlative character, it can effect no purpoſe without the co-operation of the houſe of repreſentatives: and in its executive character, it can accompliſh no object, without the concurrence of the preſident. Thus fettered, I do not know any act which the ſenate can of itſelf perform: and ſuch dependence neceſſarily precludes every idea of influence and ſuperiority. But I will confeſs, that in the organization of this body, a compromiſe between contending intereſts is diſcernible: and when we reflect how various are the laws, commerce, habits, population, and extent of the confederated ſtates, this evidence of mutual conceſſion and accommodation ought rather to command a generous applauſe, than to excite jealouſy and reproach. For my part, my admiration can only be equalled by my aſtoniſhment, in beholding ſo perfect a ſyſtem formed from ſuch heterogeneous materials."
+    },
+    {
+      "label": "James Wilson's Speech, ¶ 6",
+      "pages": [
+        "29",
+        "30",
+        "31"
+      ],
+      "ref": "WilsonSpeech.6",
+      "text": "The next accuſation I ſhall conſider, is that which repreſents the foederal conſtitution as not only calculated, but deſignedly framed, to reduce the ſtate governments to mere corporations, and eventually to annihilate them. Thoſe who have employed the term corporation, upon this occaſion, are not perhaps aware of its extent. In common parlance, indeed, it is generally applied to petty aſſociations for the eaſe and conveniency of a few individuals; but in its enlarged ſenſe, it will comprehend the government of Pennſylvania, the exiſting union of the ſtates, and even this projected ſyſtem is nothing more than a formal act of incorporation. But upon what pretence can it be alledged that it was deſigned to annihilate the ſtate governments? For, I will undertake to prove that upon their exiſtence depends the exiſtence of the foederal plan. For this purpoſe, permit me to call your attention to the manner in which the preſident, ſenate, and houſe of repreſentatives, are propoſed to be appointed. The preſident is to be choſen by electors, nominated in ſuch manner as the legiſlature of each ſtate may direct; ſo that if there is no legiſlature, there can be no ſenate. The houſe of repreſentatives is to be compoſed of members choſen every ſecond year by the people of the ſeveral ſtates, and the electors in each ſtate ſhall have the qualifications requiſite to electors of the moſt numerous branch of the ſtate legiſlature—unleſs, therefore, there is a ſtate legiſlature, that qualification cannot be aſcertained, and the popular branch of the foederal conſtitution muſt likewiſe be extinct. From this view, then, it is evidently abſurd to ſuppoſe, that the annihilation of the ſeparate governments will reſult from their union; or, that, having that intention, the authors of the new ſyſtem would have bound their connection with ſuch indiſſoluble ties. Let me here advert to an arrangement highly advantageous; for you will perceive, without prejudice to the powers of the legiſlature in the election of ſenators, the people at large will acquire an additional privilege in returning members to the houſe of repreſentatives—whereas, by the preſent confederation, it is the legiſlature alone that appoints the delegates to congreſs."
+    },
+    {
+      "label": "James Wilson's Speech, ¶ 7",
+      "pages": [
+        "31",
+        "32"
+      ],
+      "ref": "WilsonSpeech.7",
+      "text": "The power of direct taxation has likewiſe been treated as an improper delegation to the foederal government; but when we conſider it as the duty of that body to provide for the national ſafety, to ſupport the dignity of the union, and to diſcharge the debts contracted upon the collective faith of the ſtates, for their common benefit, it muſt be acknowledged that thoſe, upon whom ſuch important obligations are impoſed, ought, in juſtice and in policy, to poſſeſs every means requiſite for a faithful performance of their truſt. But why ſhould we be alarmed with viſionary evils? I will venture to predict, that the great revenue of the United States muſt, and always will, be raiſed by impoſt; for, being at once leſs obnoxious, and more productive, the intereſt of the government will be beſt promoted by the accommodation of the people. Still, however, the object of direct taxation ſhould be within reach in all caſes of emergency; and there is no more reaſon to apprehend oppreſſion in the mode of collecting a revenue from this reſource, than in the form of an impoſt, which, by univerſal aſſent, is leſt to the authority of the foederal government. In either caſe, the force of civil conſtitutions will be adequate to the purpoſe; and the dread of military violence, which has been aſſiduouſly diſſeminated, muſt eventually prove the mere effuſion of a wild imagination, or a factious ſpirit. But the ſalutary conſequences that muſt flow from thus enabling the government to relieve and ſupport the credit of the union, will afford another anſwer to the objections upon this ground. The ſtate of Pennſylvania, particularly, which has encumbered itſelf with the aſſumption of a great proportion of the public debt, will derive conſiderable relief and advantage; for, as it was the imbecility of the preſent confederation, which gave riſe to the funding law, that law muſt naturally expire, when a complete and energetic foederal ſyſtem ſhall be ſubſtituted—the ſtate will then be diſcharged from an extraordinary burden, and the national creditor will find it to be his intereſt to return to his original ſecurity."
+    },
+    {
+      "label": "James Wilson's Speech, ¶ 8",
+      "pages": [
+        "32",
+        "33"
+      ],
+      "ref": "WilsonSpeech.8",
+      "text": "After all, my fellow-citizens, it is neither extraordinary nor unexpected, that the conſtitution offered to your conſideration, ſhould meet with oppoſition. It is the nature of man to purſue his own intereſt, in preference to the public good; and I do not mean to make any perſonal reflection, when I add, that it is the intereſt of a very numerous, powerful, and reſpectable body, to counteract and deſtroy the excellent work produced by the late convention. All the officers of government, and all the appointments for the adminiſtration of juſtice and the collection of the public revenue, which are transferred from the individual to the aggregate ſovereignty of the ſtates, will neceſſarily turn the ſtream of influence and emolument into a new channel. Every perſon, therefore, who either enjoys, or expects to enjoy a place of profit under the preſent eſtabliſhment, will object to the propoſed innovation? not, in truth, becauſe it is injurious to the liberties of his country, but becauſe it effects his ſchemes of wealth and conſequence. I will confeſs, indeed, that I am not a blind admirer of this plan of government, and that there are ſome parts of it, which, if my wiſh had prevailed, would certainly have been altered. But, when I reflect how widely men differ in their opinions, and that every man (and the obſervation applies likewiſe to every ſtate) has an equal pretenſion to aſſert his own, I am ſatisfied that any thing nearer to perfection could not have been accompliſhed. If there are errors, it ſhould be remembered, that the ſeeds of reformation are ſown in the work itſelf, and the concurrence of two thirds of the congreſs may at any time introduce alterations and amendments. Regarding it, then, in every point of view, with a candid and diſintereſted mind, I am bold to aſſert, that it is the BEST FORM OF GOVERNMENT WHICH HAS EVER BEEN OFFERED TO THE WORLD."
+    },
+    {
+      "kind": "footnote",
+      "label": "James Wilson's Speech, note 1",
+      "pages": [
+        "33"
+      ],
+      "ref": "WilsonSpeech.fn1",
+      "text": "The candid Reader will ſuppoſe Mr. WILSON here means, that it is the beſt form of foederal government, which has ever been offered to the world—and it is ſurely true that the foederal conſtitution, conſidered in due connexion with the ſtate conſtitutions, is the beſt form of government that has ever been communicated to mankind."
+    }
+  ],
+  "short": "James Wilson's Speech",
+  "source_ids": [
+    "tcp-n16378"
+  ],
+  "title": "Substance of an Address to a Meeting of the Citizens of Philadelphia"
+}

@@ -220,6 +220,39 @@ Essays and letters imported by `importers/ratification.py` (series listed in
   is one essay, its paragraphs numbered through both (`Brutus.12.1` …), and
   each passage records the issue it is in (`scan.issue`).
 
+### Pamphlets typed by the Text Creation Partnership
+
+Imported by `importers/pamphlets.py` (decision 69) from Evans-TCP
+transcriptions of the first printings. One prefix per work:
+`ColumbianPatriot`, `JayAddress`, `CoxeExamination`, `WilsonSpeech`,
+`Aristides`, `RandolphLetter`, `Monroe` (*Some Observations on the
+Constitution*), `NativeOfVirginia`.
+
+- A single piece: `{Name}.{paragraph}` from 1 (`ColumbianPatriot.1`,
+  `JayAddress.21`, `WilsonSpeech.1`, `Aristides.1`, `Monroe.1`); notes
+  `{Name}.fn{k}`. Matter printed before or after the text is a passage
+  named for it: `Aristides.Dedication` (to Washington), `Monroe.Errata`
+  (the printed errata, one line each).
+- A pamphlet in parts: `{Name}.{part}.{paragraph}`, notes
+  `{Name}.{part}.fn{k}`. Parts:
+  - `CoxeExamination.Preface` ("To the Candid Reader") and
+    `CoxeExamination.1` … `.4` (Numbers I–IV). James Wilson's speech,
+    printed after them in the same pamphlet, is a work of its own,
+    `WilsonSpeech`.
+  - `RandolphLetter.Printer` (the letter to the printer),
+    `RandolphLetter.Request` (the delegates' letter to Randolph of December
+    2, 1787), `RandolphLetter.Reply` (his reply of December 10) and
+    `RandolphLetter.Letter` (the letter of October 10, 1787), in the
+    pamphlet's order.
+  - `NativeOfVirginia.Observations` (the introduction, "Observations on
+    the Federal Government"), `.Plan` (the Preamble and the author's remarks
+    on it, under "Plan of the Federal Constitution"), `.Article1` …
+    `.Article6` (his remarks on each article, the article's clauses quoted
+    as paragraphs of their own, as printed), `.Note`, `.ToTheReader` and
+    `.Errata` (each printed erratum a passage).
+- Headings, date lines, salutations and signatures are fields of the
+  division, as for the essays. The title pages are not imported.
+
 ### Patrick Henry in the Virginia convention (`texts/patrick-henry.json`)
 
 Imported by `importers/elliot.py` from Elliot's *Debates*, vol. 3.

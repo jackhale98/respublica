@@ -17,9 +17,12 @@ modernized. What the TCP itself marks is kept as it marks it:
     mark for them (its `<desc>`, "•" for a letter), and so is a stop they
     could not make out ("▪", `char:punc`); the word is marked uncertain:
     they are never filled in;
-  * the TCP gives the long s as a round s in its EEBO-era texts (its keying
-    rules), so those texts have a modern s; some Evans texts keep "ſ"
-    (the Virginia Declaration of Rights, decision 66), and it is kept;
+  * the long s is as the TCP keyed it: its EEBO-era texts (Locke) and
+    Common Sense give a round s (its keying rules); some Evans texts keep
+    "ſ" (the Virginia Declaration of Rights, decision 66; the pamphlets of
+    the ratification debate, decision 69), and it is kept;
+  * a word broken at a line end without a hyphen (`char:EOLunhyphen`) is
+    joined too;
   * a figure (a woodcut and its caption) is left out.
 
 Each block's words are then checked against the OCR of Internet Archive
@@ -35,6 +38,13 @@ clean texts more just after it. A scan's reading that is not a word
 word settled. The TCP's word is always the one in the text: a difference is
 marked, never chosen. The first scan also gives each passage its page
 images (`scan.leaves`).
+
+The pamphlets of the ratification debate (`importers/pamphlets.py`,
+decision 69) are read by division (`divisions`), a letter's salutation,
+date line and signature apart (`Walker(letters=True)`); no scan of their
+printings was found, so only their gaps are marked (`gap_spans`). One of
+them, N16599, is also a tie-breaker between the scans of two other works
+(`reference`, `readings`; importers/ratification.py).
 """
 
 from __future__ import annotations
@@ -55,6 +65,7 @@ HYPH = "\x07"  # a word broken at a line end
 PB_OPEN, PB_CLOSE = "\x05", "\x06"  # a page break, with its printed number
 GAP_OPEN, GAP_CLOSE = "\x03", "\x04"  # characters the TCP could not read
 SPLIT = "\x08"  # a numbered paragraph begins (inside a quotation), around its number
+KEEP = "\x02"  # a space inside a gap's mark
 
 
 def tag(el: ET.Element) -> str:
@@ -103,12 +114,19 @@ class Block:
         return " ".join(self.tokens)
 
 
+# Parts of a block that stand apart from the words around them.
+APART = ("bibl", "l", "p", "item", "salute", "opener", "epigraph", "byline")
+
+
 class Walker:
     """Reads a TEI division in document order into blocks, keeping track of
-    the printed page."""
+    the printed page. With `letters`, a letter's opening and closing are
+    read into blocks of their parts (`salute`, `dateline`, `signed`;
+    decision 69) instead of one paragraph each."""
 
-    def __init__(self, page: str | None = None):
+    def __init__(self, page: str | None = None, letters: bool = False):
         self.page = page
+        self.letters = letters
 
     def pieces(self, el: ET.Element, notes: list[tuple[ET.Element, str | None]]) -> list[str]:
         """The text of an element as pieces with markers (see the top). Notes
@@ -119,7 +137,7 @@ class Walker:
             out.append(el.text)
         for child in el:
             t = tag(child)
-            if t == "g" and child.get("ref") == "char:EOLhyphen":
+            if t == "g" and child.get("ref") in ("char:EOLhyphen", "char:EOLunhyphen"):
                 out.append(HYPH)
             elif t == "pb":
                 # (An unnumbered page has an empty number: its words have no printed page.)
@@ -139,18 +157,18 @@ class Walker:
                 out.append("".join("".join(e.itertext()) for e in ex) if ex else "".join(self.pieces(child, notes)))
             elif t in ("hi", "q", "abbr", "g", "bibl", "l", "lg", "seg", "date", "name", "foreign", "label", "am", "ex",
                        "sic", "corr", "choice", "orig", "reg", "ref", "num", "head", "p", "trailer", "signed", "closer",
-                       "dateline"):
+                       "dateline", "item", "list", "salute", "opener", "epigraph", "byline"):
                 inner = self.pieces(child, notes)
                 # A block inside the text (a quotation's attribution, a line
-                # of verse) stands apart from the words before it.
-                if t in ("bibl", "l", "p"):
+                # of verse, an item of a list) stands apart from the words before it.
+                if t in APART:
                     out.append(" ")
                 if t == "p" and child.get("n"):
                     # A numbered paragraph (a section) that begins inside a
                     # quotation: the block ends here and the section begins.
                     out.append(f"{SPLIT}{child.get('n')}{SPLIT}")
                 out.extend(inner)
-                if t in ("bibl", "l", "p"):
+                if t in APART:
                     out.append(" ")
             else:
                 raise ValueError(f"TCP text: no rule for <{t}>")
@@ -191,7 +209,11 @@ class Walker:
             if t == "pb":
                 self.page = child.get("n") or None
                 continue
-            if t in ("head", "p", "q", "trailer", "item", "closer", "signed", "lg"):
+            if self.letters and t in ("opener", "closer", "epigraph"):
+                out += self.blocks(child, skip)
+            elif self.letters and t in ("salute", "dateline", "signed"):
+                out += self.block(child, t, notes)
+            elif t in ("head", "p", "q", "trailer", "item", "closer", "signed", "lg", "bibl", "byline"):
                 out += self.block(child, {"head": "head", "trailer": "trailer"}.get(t, "p"), notes)
             elif t == "list":
                 out += self.blocks(child, skip)
@@ -229,7 +251,10 @@ def to_block(raw: str, kind: str, page: str | None, n: str | None = None, mark: 
         if to and to not in pages:
             pages.append(to)
 
+    # The TCP's mark for a gap may hold a space ("〈7 letters〉"): it stays in its word.
+    raw = re.sub(f"{GAP_OPEN}[^{GAP_CLOSE}]*{GAP_CLOSE}", lambda m: m.group().replace(" ", KEEP), raw)
     for tok in raw.split():
+        tok = tok.replace(KEEP, " ")
         # A page break before a word puts it on the new page; one inside or
         # after it (a word broken across the page) puts the next word there.
         lead = re.match(f"(?:{PB_OPEN}[^{PB_CLOSE}]*{PB_CLOSE})*", tok).group()
@@ -577,3 +602,125 @@ def fetch(sources: list[tuple[str, str, str, str, str]]) -> None:
         add_source(sid, url, licence, notes, ext=ext)
         print(sid, flush=True)
 
+
+
+# ------------------------------------------------------------ the pamphlets of the debate (decision 69)
+
+# Evans-TCP texts read by importers/pamphlets.py (and N16599, a tie-breaker
+# for importers/ratification.py): TCP number -> the commit pinned.
+TEXTS = {
+    "N16599": "fcace6de9e18b1b5b4c257bb17ad3d70e970b372",
+    "N16431": "6fdb10c9ee94639d3c54564a1bafae5a533e2bf9",
+    "N16481": "0ee6facbbd1dfcfbcdc156fd150a12fcbd380240",
+    "N16378": "f3dfd68f63c10749115a0dec5c4150b749108dce",
+    "N16445": "6fe82e912780c613d1a8b24311edfed92ffa49d2",
+    "N16126": "3cdf2ac34efd8db4ed3383dda4b719957e022c56",
+    "N16546": "6e7d414b83757497cad41e7eb0539cf482a1bb3a",
+    "N16547": "81467b24a8ca827e8575564c5081f4ba830f1a55",
+}
+REPO_URL = "https://github.com/textcreationpartnership/{tcp}"
+
+
+def source_id(tcp_id: str) -> str:
+    """The manifest id of a TCP file: "tcp-n16599"."""
+    return f"tcp-{tcp_id.lower()}"
+
+
+@dataclass
+class Division:
+    part: str  # front | body | back
+    type: str  # the TEI division's type
+    el: ET.Element
+    page: str | None  # the printed page it starts on
+
+    def blocks(self) -> list[Block]:
+        """Its own blocks (not those of divisions inside it), a letter's
+        opening and closing read into their parts."""
+        return Walker(self.page, letters=True).blocks(self.el, skip=("div",))
+
+    def heads(self) -> list[str]:
+        return [" ".join("".join(h.itertext()).split()) for h in self.el.findall(f"{TEI}head")]
+
+
+def divisions(root: ET.Element) -> list[Division]:
+    """Every division of the text (front matter, body, back matter), those
+    inside others too, in document order, with the page each starts on."""
+    out: list[Division] = []
+    page: list[str | None] = [None]
+
+    def walk(el: ET.Element, part: str) -> None:
+        for child in el:
+            t = tag(child)
+            if t == "pb":
+                page[0] = child.get("n") or None
+            elif t == "div":
+                out.append(Division(part, child.get("type", ""), child, page[0]))
+                walk(child, part)
+            else:
+                for pb in child.iter(f"{TEI}pb"):
+                    page[0] = pb.get("n") or None
+
+    text = root.find(f"{TEI}text")
+    for part in ("front", "body", "back"):
+        if text.find(f"{TEI}{part}") is not None:
+            walk(text.find(f"{TEI}{part}"), part)
+    return out
+
+
+def gap_spans(b: Block) -> list[dict]:
+    """The words of a block holding something the keyers could not read, as
+    uncertain spans of its text: the transcription's reading is the only one."""
+    spans, at = [], 0
+    for i, tok in enumerate(b.tokens):
+        if i in b.gaps:
+            spans.append({"end": at + len(tok), "readings": {"tcp": tok}, "start": at})
+        at += len(tok) + 1
+    return spans
+
+
+def plain_words(b: Block) -> str:
+    """A block's words for lining up with a scan's: the long s as s, an em
+    dash apart from the words beside it, and a word holding a gap as "◊",
+    which reads as no word."""
+    words = ["◊" if i in b.gaps else tok.replace("ſ", "s") for i, tok in enumerate(b.tokens)]
+    return re.sub(r"\s*—\s*", " — ", " ".join(words))
+
+
+_REFERENCES: dict[tuple[str, str], Reference] = {}
+
+
+def reference(source: str, heading: str) -> Reference:
+    """The text of the division of a TCP file whose heading matches
+    `heading` (a pattern), as a reference to line a scan's words up with
+    (a tie-breaker; importers/ratification.py). Notes are left out (a
+    scan's notes are read apart from its text)."""
+    if (source, heading) not in _REFERENCES:
+        found = [d for d in divisions(load(source)) if any(re.search(heading, h) for h in d.heads())]
+        if len(found) != 1:
+            raise ValueError(f"{source}: {len(found)} divisions headed {heading!r}")
+        text = "\n".join(plain_words(b) for b in found[0].blocks() if b.kind != "note")
+        _REFERENCES[(source, heading)] = Reference("tcp", text)
+    return _REFERENCES[(source, heading)]
+
+
+def readings(tokens: list[str], ref: Reference | None) -> list[str | None]:
+    """The TCP's reading of each of a run of a scan's words (None where it
+    has none, or cannot be read; "" where it reads this word together with
+    the one before)."""
+    from importers.ocr import align
+    if ref is None or not tokens:
+        return [None] * len(tokens)
+    return [None if r is None or "◊" in r else r for r in (x.get("tcp") for x in align(tokens, [ref], {}))]
+
+
+def fetch_texts() -> None:
+    """Record the pamphlets' TCP files, at their pinned commits, as raw sources."""
+    fetch([(source_id(t), tcp_url(t, c), TCP_LICENSE,
+            f"Evans-TCP {t} (github.com/textcreationpartnership/{t}, commit {c}): the Text Creation "
+            "Partnership's typed transcription, TEI P5 XML.", ".xml") for t, c in TEXTS.items()])
+
+
+if __name__ == "__main__":
+    import sys
+    if sys.argv[1:] == ["fetch"]:
+        fetch_texts()

@@ -1635,6 +1635,65 @@ and says nothing more about influence. Decided:
 - **Not done:** no links have been proposed for these works. Slips of the
   transcriptions the check found or missed are errata 130–133.
 
+## 69. Pamphlets of the debate from the Text Creation Partnership, and a typed reprint as a tie-breaker
+
+After the survey of typed transcriptions (Evans-TCP and the Library of
+Congress), the project owner approved two uses of Evans-TCP texts in the
+ratification debate:
+
+- **A tie-breaker for the Pennsylvania Minority and Centinel I–IX.**
+  Evans-TCP N16599 (Evans 21344, *Observations on the Proposed Constitution
+  …*, "Printed in the State of New-York", 1788) reprints the Dissent and
+  Centinel I–IX. It is another printing than McMaster and Stone's sources,
+  so it is used as the Anti-Federalist Library is in works whose printing
+  the Library does not follow (decision 55, not `strict`): after the
+  Library, and only for a word still unsettled with no suggestion of the
+  Library's, it may choose among the scans' readings or confirm the main
+  scan's; where no scan reads it so, its reading becomes the word's
+  `suggestion`, with `suggested_by: "Evans-TCP N16599"`, on `/errata/`, and
+  only where its letters are mostly a scan's (it words some things
+  otherwise). `tools.errata accept-library` leaves these suggestions alone.
+  No ref or paragraph changed. Five words changed, each to another scan's
+  reading: `PennsylvaniaMinority.4` "ii," to "in"; `PennsylvaniaMinority.65`
+  "ta" to "to"; the Dissent's heading line "op" to "of"; `Centinel.2.14`
+  "gth," to "9th,"; Centinel VI's date line "23," to "22,". Nineteen marks
+  were dropped where it confirmed the main scan (among them six signers'
+  names of the Dissent); sixteen suggestions were added (erratum 184).
+- **Seven pamphlets as new works, the TCP transcription as the text**
+  (`importers/pamphlets.py`), as Common Sense and Locke are (decision 67),
+  read with the shared reader `importers/tcp.py` (extended to read a
+  letter's salutation, date line and signature apart, and to join words
+  broken at a line end without a hyphen): the Columbian Patriot (N16431),
+  Jay's Address (N16481), Coxe's Examination (N16378) with James Wilson's
+  speech of October 6, 1787 printed in the same pamphlet as a work of its
+  own, Aristides (N16445), Randolph's letter with the letters that sent it
+  to the printer (N16126), Monroe's *Some Observations* (N16546) and the
+  Native of Virginia's *Observations* (N16547). The import checks each TEI
+  header (TCP and Evans numbers, imprint, date, licence, every page
+  present) before reading the text. The long s is kept as keyed (these
+  Evans texts key it). Words holding letters the keyers could not read are
+  marked uncertain, with the transcription's reading (`tcp`) only, never
+  filled in: 724 in about 77,000 words.
+- **No cross-check.** No Internet Archive scan of any of these printings was
+  found (only later reprints), so nothing else is marked, and the marked
+  words are not on `/errata/`, which needs a page image (erratum 183).
+- **Attribution and side.** Authors are recorded as the TCP's catalogue
+  record gives them, quoted in `attribution.source` (the Columbian Patriot
+  as Mercy Otis Warren, with the record's note that the work was formerly
+  given to Elbridge Gerry; the Native of Virginia as James Monroe "by
+  Evans"). Randolph's letter is `other`, the rest `anti` or `federalist`
+  (`docs/editions.md`).
+- **Refs** one prefix per work: `ColumbianPatriot.{n}`, `JayAddress.{n}`,
+  `CoxeExamination.{Preface,1–4}.{n}`, `WilsonSpeech.{n}`, `Aristides.{n}`
+  (and `Aristides.Dedication`), `RandolphLetter.{Printer,Request,Reply,Letter}.{n}`,
+  `Monroe.{n}` (and `Monroe.Errata`), `NativeOfVirginia.{part}.{n}`
+  (`docs/references.md`).
+- **On the site** they join the ratification debate (by `position`); a
+  work typed by the TCP says so instead of "read from OCR scans", and a
+  series' part may name its own numeral (`numeral`; "" for none).
+- **Not done:** no links proposed; the TCP texts of the Federal Farmer and
+  The Federalist (cross-checks only, in the survey) are not used.
+
 ## 70. The Federalist's lost paragraph breaks, restored from McLean (1788)
 
 The Project Gutenberg e-text lost most of its paragraph breaks in Nos. 40–59

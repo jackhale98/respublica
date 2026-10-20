@@ -314,8 +314,10 @@ the text comes from the broadside; the Virginia printing's other contents
 Imported by `importers/ratification.py` (phase 5) from four public-domain
 compilations, read from the Internet Archive's scans, and (Brutus V–XVI) from
 the original newspaper; Patrick Henry's speeches by `importers/elliot.py`
-from Elliot's *Debates*. Modern compilations (Storing, 1981; Borden, 1965)
-are not candidates because of copyright.
+from Elliot's *Debates*; seven pamphlets by `importers/pamphlets.py` from
+the Text Creation Partnership's typed transcriptions of their first
+printings (below). Modern compilations (Storing, 1981; Borden, 1965) are not
+candidates because of copyright.
 
 | Book | Scans used | Imported |
 |---|---|---|
@@ -404,6 +406,25 @@ Agrippa I–XI, the Federal Farmer I–V, Centinel I and V–XVIII and Henry's
 speeches; not for Cato (its pages are duplicated or cut short) or Centinel
 II–IV (excerpts).
 
+**A typed reprint as a second tie-breaker** (decision 69). *Observations on
+the Proposed Constitution for the United States of America* ("Printed in
+the State of New-York", 1788; Evans 21344, 126 pp.) reprints the Dissent of
+the Pennsylvania Minority (pp. [3]–30), Randolph's letter (pp. 30–45),
+Centinel I–IX (pp. 46–111) and the Constitution. The Text Creation
+Partnership's transcription of it (Evans-TCP N16599, CC0) is used for the
+Dissent and Centinel I–IX exactly as the Library is, after it: it chooses
+among the scans' readings of a word still unsettled, and where no scan reads
+it so, its reading is a suggestion on `/errata/`, marked "Evans-TCP". It is
+another printing than McMaster and Stone's sources (spelling such as
+"controul", and some wording, differ), so it never unsettles a settled word.
+It changed five words, each to another scan's reading: `PennsylvaniaMinority.4`
+"ii," to "in", `PennsylvaniaMinority.65` "ta" to "to", the Dissent's heading
+line "op" to "of", `Centinel.2.14` "gth," to "9th,", and Centinel VI's date
+line "23," to "22,"; it confirmed the main scan's reading in 19 more words
+(the marks were dropped), and gave 16 suggestions (8 in the Dissent, 3 of
+them names among its signers, and 8 in Centinel II–IV). Refs and paragraphs
+did not change.
+
 **Not yet imported:**
 
 - **Old Whig, Maryland Farmer, Impartial Examiner, John DeWitt,
@@ -414,10 +435,80 @@ II–IV (excerpts).
   is not a source of text.
 - **The Federal Farmer's *Additional Letters* (1788).** The only copies found
   are 1962 facsimile reprints, lending-only.
-- The rest of Ford's *Pamphlets* (the Columbian Patriot, Jay, Webster, Coxe,
-  Wilson's speech, Fabius, Aristides, Randolph, Mason's Objections, Marcus,
-  Civis, A Plebeian): planned. That scan has missing pages and bracketed
-  original page numbers that need handling first.
+- The rest of Ford's *Pamphlets* (Webster, Fabius, Mason's Objections,
+  Marcus, Civis, A Plebeian): planned. That scan has missing pages and
+  bracketed original page numbers that need handling first. The Columbian
+  Patriot, Jay, Coxe, Wilson's speech, Aristides and Randolph are imported
+  from their first printings instead (below).
+
+### Pamphlets typed by the Text Creation Partnership
+
+Decision 69, `importers/pamphlets.py`. Eight works from seven pamphlets,
+each from the Evans-TCP transcription (CC0, `importers/tcp.py`) of its first
+printing, keyed from the Readex microprint of the copy Evans records. The
+importer checks the TEI header before it reads a word: the TCP and Evans
+numbers, the imprint, the date, the licence, and that every page has its
+page break, in order, up to the last page the catalogue counts.
+
+| Work (texts/…) | Printing (TEI header) | TCP | Refs | Words | Uncertain |
+|---|---|---|---|---|---|
+| `columbian-patriot` | *Observations on the New Constitution, and on the Foederal and State Conventions*, by a Columbian Patriot (Boston printed, New-York re-printed [by Thomas Greenleaf], 1788), 22 pp.; Evans 21112 | N16431 | `ColumbianPatriot.{n}` | 7,748 | 9 |
+| `jay-address` | *An Address to the People of the State of New-York, on the Subject of the Constitution* (New-York: Samuel and John Loudon, [1788]), 19 pp., signed "A Citizen of New-York"; Evans 21175 | N16481 | `JayAddress.{n}` | 6,609 | 0 |
+| `coxe-examination` | *An Examination of the Constitution for the United States of America*, by an American Citizen (Philadelphia: Zachariah Poulson, Junr., 1788), 33 pp.; Evans 21028 | N16378 | `CoxeExamination.Preface.1`, `CoxeExamination.{1–4}.{n}` | 6,947 | 6 |
+| `wilson-speech` | James Wilson's speech of October 6, 1787 ("Substance of an Address to a Meeting of the Citizens of Philadelphia"), printed in the same pamphlet, pp. [25]–33 | N16378 | `WilsonSpeech.{n}` | 2,426 | 0 |
+| `aristides` | *Remarks on the Proposed Plan of a Federal Government*, by Aristides (Annapolis: Frederick Green, [1788]), 42 pp.; Evans 21131 | N16445 | `Aristides.Dedication`, `Aristides.{n}` | 13,748 | 183 |
+| `randolph-letter` | Edmund Randolph's letter of October 10, 1787, with the letters that sent it to the printer ([Richmond]: Augustine Davis, [1787]), 16 pp.; Evans 20669 | N16126 | `RandolphLetter.{Printer,Request,Reply,Letter}.{n}` | 6,145 | 6 |
+| `monroe-observations` | *Some Observations on the Constitution* ([Petersburg, 1788]), 24 pp., the only known copy (Library of Congress) without its title page; Evans 21263 | N16546 | `Monroe.{n}`, `Monroe.Errata` | 14,589 | 143 |
+| `native-of-virginia` | *Observations upon the Proposed Plan of Federal Government*, by a Native of Virginia (Petersburg: Hunter and Prentis, 1788), 64 pp.; Evans 21264 | N16547 | `NativeOfVirginia.{part}.{n}` | 18,792 | 377 |
+
+- **The transcription is the text.** Nothing is typed, modernized or filled
+  in. The printing's spelling and its long s (ſ) are kept as keyed (these
+  Evans-TCP texts key the long s, unlike Common Sense and Locke); so are
+  slips such as "fir" for "sir" (errata 180–181). Words broken at a line
+  end are joined. Letters the keyers could not read are "•", a word "〈◊〉",
+  more "〈…〉", a stop they could not make out "▪", as the TCP marks them, and
+  every word holding one is marked uncertain with the transcription's
+  reading (`tcp`) as the only one. Italics are not kept, nor the marks of
+  notes in the text; notes are footnotes of their part.
+- **No scan to check against.** The Internet Archive was searched for each
+  printing (titles, authors, Evans numbers, the eighteenth-century
+  microfilm collection): it holds only later reprints (Ford's 1888 reprint
+  of Jay, an Old South Leaflet of the Columbian Patriot), which are other
+  printings. So, unlike Common Sense and Locke, nothing but the gaps is
+  marked, and the marked words are not on `/errata/`, which needs a page
+  image; the TCP's page images (Readex) are not public. Keying slips the
+  TCP's proofreading missed may remain (erratum 183).
+- **Structure.** A work in parts (Coxe's four numbers and his preface; the
+  four letters of Randolph's pamphlet; the Native of Virginia's
+  introduction, his plan, his six articles, a note, an address to the
+  reader and the errata) has a page per part; a single piece one page. A
+  part's headings, and a date line before or under its salutation, are its
+  heading lines; its salutation and its signature (with a place, date or
+  addressee printed after it) are fields of its division; paragraphs,
+  items of a list and quotations set apart are passages. Not imported:
+  title pages (the work's title and edition name the printing), Aristides'
+  motto from Montesquieu on his title page, and the printers' "FINIS." The
+  dedication to Washington (`Aristides.Dedication`) and the printed errata
+  (`Monroe.Errata`, `NativeOfVirginia.Errata.{n}`) are passages; the errata
+  are not applied to the text.
+- **Pages.** Each passage records the printed pages it is on. An
+  unnumbered page has no number in the TCP and none here.
+- **Attribution.** None of these pamphlets prints its author's name except
+  Randolph's and Wilson's. The name recorded is the one the TCP's catalogue
+  record gives, quoted in `attribution.source`: the Columbian Patriot is
+  Mercy Otis Warren there ("Attributed to Mercy Otis Warren in: Warren,
+  Charles … (1932) … Commonly attributed to Elbridge Gerry"); the Citizen
+  of New-York John Jay (from Ford's *Bibliography*, 1896); the American
+  Citizen Tench Coxe and the Native of Virginia James Monroe (both "by
+  Evans"); Aristides Alexander Contee Hanson (the *Dictionary of American
+  Biography*); *Some Observations* James Monroe (the catalogue's author
+  heading). The attribution of the Native of Virginia to Monroe is Evans's
+  and is recorded as such ("attributed to James Monroe by Evans").
+- **Side.** The Columbian Patriot and Monroe are `anti`; Jay, Coxe, Wilson,
+  Aristides and the Native of Virginia `federalist`. Randolph's letter is
+  `other`, as William Williams's is: Randolph refused to sign the
+  Constitution and later voted for it in the Virginia convention.
+
 
 ## Debates in Congress
 

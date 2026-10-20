@@ -42,7 +42,7 @@ const attr = work.attribution;
           <li>
             <a class="card paper" href={href(p.url)}>
               <div class="paper-top">
-                {work.part_name !== "speeches" && <span class="paper-no">{p.label.split(" ").at(-1)}</span>}
+                {work.part_name !== "speeches" && (p.numeral ?? p.label.split(" ").at(-1)) && <span class="paper-no">{p.numeral ?? p.label.split(" ").at(-1)}</span>}
                 <AuthorChip attribution={p.attribution} short />
               </div>
               <h3>{p.label}</h3>
@@ -56,7 +56,7 @@ const attr = work.attribution;
       })}
     </ol>
     <p class="legend-note">
-      Text of {work.edition.name}, read from OCR scans. <a href={href("/about/#ocr")}>How this text was made</a>
+      Text of {work.edition.name}, {work.typed ? "as typed by the Text Creation Partnership" : "read from OCR scans"}. <a href={href("/about/#ocr")}>How this text was made</a>
     </p>
   </div>
 </Base>

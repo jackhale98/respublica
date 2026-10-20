@@ -269,6 +269,20 @@ or less than the main scan's word ("property" for "prop-" before "erty",
 confusion of a scan's reading and not a known word ("discemable" against
 "discernable") is ignored. Works and pages used: `library.PAGES`.
 
+**A typed reprint as a second tie-breaker** (decision 69). For the Dissent
+of the Pennsylvania Minority and Centinel I–IX, the Text Creation
+Partnership's typed text of a New York collection of 1788 that reprints
+them (Evans-TCP N16599; `importers/tcp.py`, `reference`, `readings`) is
+used the same way, never strictly, after the Library: it is asked only
+about a word the vote and the Library have left unsettled with no
+suggestion of the Library's. It can settle the word with a scan's reading
+or corroborate the main scan's; where no scan reads it so, its reading is
+the word's `suggestion`, with `suggested_by` naming it ("Evans-TCP
+N16599"), but only where its letters are mostly a scan's (another printing
+may word it otherwise: "Twelfth." against the scans' "12."). Words the
+transcription could not read give no reading. Works and divisions used:
+`typed` in `importers/ratification_series.py`.
+
 ## One scan: the New-York Journal (`importers/nyjournal.py`)
 
 Brutus V–XVI exist only in the original newspaper, scanned once by the
@@ -342,6 +356,13 @@ Library's) has its words outside the block of text dropped and its lines
 rebuilt from where the words stand. The rules and what they cannot see are
 in `docs/editions.md`, "Sources of the Declaration".
 
+Seven pamphlets of the ratification debate (decision 69,
+`importers/pamphlets.py`) are imported from Evans-TCP transcriptions of
+their first printings the same way, but no scan of those printings was
+found, so only the words holding letters the keyers could not read are
+marked (`docs/editions.md`, "Pamphlets typed by the Text Creation
+Partnership"). Those words are not on `/errata/`, which needs a page image.
+
 ## Step 4: structure (`ratification.py`)
 
 Each series lists, in `ratification_series.py`, its book, the printed pages
@@ -390,7 +411,9 @@ In `texts/{work}.json` (validated by `make verify`, see
 
 - `suggestion` on an uncertain span: the Anti-Federalist Library's reading,
   where no scan's reading agrees with it. Verify checks it is one line and
-  differs from the text.
+  differs from the text. With `suggested_by` ("Evans-TCP N16599"), it is
+  that typed text's reading instead (decision 69); `python -m tools.errata
+  accept-library` leaves those for a person.
 - `accepted` on an uncertain span (`{source: "library", by, at}`): the text
   has the Library's reading there, accepted by the project owner without a
   check against the page (decision 56); the span keeps the scans' readings

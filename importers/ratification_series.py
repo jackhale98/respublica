@@ -66,6 +66,15 @@ BOOKS = {
     },
 }
 
+# The Text Creation Partnership's typed text of the New York collection of
+# 1788 that reprints the Dissent of the Pennsylvania Minority and Centinel
+# I-IX: a second tie-breaker between scans (importers/tcp.py; decision 69).
+# Each essay's division is found by its heading.
+N16599 = {"source": "tcp-n16599", "name": "Evans-TCP N16599",
+          "printing": "Observations on the Proposed Constitution for the United States of America (Printed in the "
+                      "State of New-York, 1788; Evans 21344)"}
+CENTINEL_ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
+
 # Roman numeral as OCR reads it (I as 1, l, | or !; II as H; V as Y).
 NUM = r"(?P<n>[IVXLHYl1|!vxi]{1,6})[.,;]?"
 
@@ -208,6 +217,8 @@ SERIES = [
         "attribution": {"byline": "Attributed to Samuel Bryan", "kind": "single", "names": ["Samuel Bryan"],
                         "source": "Ford, Essays on the Constitution (1892), Bibliography, p. 415"},
         "position": "anti", "date": "1787-10-05/1788-11-24",
+        "typed": {**N16599, "essays": "Centinel I–IX",
+                  "headings": {str(n): rf"^CENTINEL\W.*NUMBER {r}\." for n, r in enumerate(CENTINEL_ROMAN, 1)}},
     },
     # The Address and Reasons of Dissent of the Minority of the Convention of
     # Pennsylvania (chapter VI, "After the Convention Rose"), signed by
@@ -226,6 +237,8 @@ SERIES = [
                         "names": ["Minority of the Pennsylvania ratifying convention"],
                         "source": "McMaster and Stone, Pennsylvania and the Federal Constitution (1888), p. 454, the title"},
         "position": "anti", "date": "1787-12-18",
+        "typed": {**N16599, "essays": "the Dissent",
+                  "headings": {"1": r"^The ADDRESS and REASONS of DISSENT of the MINORITY"}},
     },
     # ---- Ford, Pamphlets on the Constitution (1888).
     {
