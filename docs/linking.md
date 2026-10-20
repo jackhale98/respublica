@@ -259,6 +259,39 @@ or the Annals' own notes or the record of votes ("yeas and nays").
 Confidence and rationale follow run 1. Every run is checked by a second
 agent against both texts before it is proposed, as in run 2.
 
+**Notes from the runs on 1794–1869** (October 2026), followed in those runs:
+
+- **A whole amendment named.** "The thirteenth amendment" or "the amendment
+  abolishing slavery" cites `Amendment.13.1`; a bare "the fourteenth
+  amendment" (five sections) is not a link unless the text picks out a
+  section.
+- **Misnumbered references.** Speakers often misnumber ("the first section
+  of the fourth article" for Article IV, section 2). Where the words quote
+  or unmistakably describe a clause, link that clause at `medium` (or
+  `high` if quoted verbatim) and note the misnumber in the rationale.
+- **Proposals that rewrite a clause.** A proposal that says "the third
+  paragraph of the first section of the second article … shall be amended
+  to read" `cites` that clause; its new wording is not a quote of it, and a
+  draft that repeats the existing clause is linked to it only where it
+  explicitly quotes the existing text. Its wording is linked in pass 2 to
+  the ratified amendment under the eight-word rule.
+- **Pass 2 and "substance".** A run counts as the substance of the clause
+  when it states the guarantee or rule the amendment makes (for the Twelfth,
+  the electoral rules: counting, quorum, the majority, the three highest,
+  the Vice President acting). Speakers reading the proposal's words in
+  debate, and motions to strike out or insert words, are pass-2 links like
+  the Clerk's reading. "The right of citizens of the United States to vote"
+  alone is accepted as substance for the Fifteenth and Nineteenth, at
+  `high`; reviewers may reject it.
+- **Who may be linked from.** The Speaker's rulings and the Clerk's readings
+  may be; vote tallies and the reporter's narration of how a question was
+  decided may not. A reporter's parenthesis ("here he cited the
+  Constitution") is the Annals' own note.
+- **The 1789 Joint Resolution.** A speaker naming one of its twelve articles
+  ("the first of the twelve amendments") cites `Resolution1789.Article.{n}`.
+- **Quotes are cut from the segment text** in `texts/`, never from
+  `tools.show`'s printout, which can render an uncertain word differently.
+
 ## Imported links: Supreme Court cases (phase 7)
 
 Links between cases and the Constitution are not proposed by a linker but
