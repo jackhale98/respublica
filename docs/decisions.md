@@ -121,7 +121,7 @@ Budgets, enforced in CI so growth is caught long before a limit:
 
 | Where | Budget |
 |---|---|
-| Built site (`tools/check_site.py`) | 250 MB total, 10,000 files (half of Cloudflare Pages' 20,000 should we ever move), 5 MB per file, 400 KB of HTML per page, 60 KB of JavaScript loaded up front per page |
+| Built site (`tools/check_site.py`) | 250 MB total, 10,000 files (half of Cloudflare Pages' 20,000 should we ever move), 5 MB per file, 400 KB of HTML per page (450 KB for `/about/`, decision 72), 60 KB of JavaScript loaded up front per page |
 | Repository (`make verify`) | 40 MB per raw file, 300 MB of raw files in total, 20 MB per data file |
 
 At launch the site is about 7 MB in about 250 files; a reader page is 13–17 KB
@@ -1821,3 +1821,14 @@ checked against its recorded sha256, and restored in the errata workflow only
 when a correction's importers read it (decision 65). The raw files left in
 git are 42 MB. The files stay in git's history; what changes is the working
 tree the budget measures, and its growth. Out of git: about 3.5 of 4 GiB.
+
+## 72. The about page may be over the page budget
+
+The state ratifying conventions brought `/about/`, which lists every
+source, to 404 KB of HTML, over the 400 KB page budget. The owner chose to
+keep the page as it is rather than group its source lines further, since
+the page budget is ours, not the host's: Cloudflare's free plan limits
+files (20,000; the site has about 9,300) and file size (25 MiB), and the
+site's total stays inside its 250 MB budget. `tools/check_site.py` gives
+`/about/` a budget of its own, 450 KB, so its growth is still caught; every
+other page keeps 400 KB.

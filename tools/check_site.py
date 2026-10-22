@@ -44,6 +44,9 @@ BUDGET_TOTAL_BYTES = 250 * 2**20
 BUDGET_FILES = 10_000
 BUDGET_FILE_BYTES = 5 * 2**20
 BUDGET_PAGE_HTML_BYTES = 400 * 2**10
+# The about page lists every source, one line each; the owner allows it more
+# (decision 72). Its own budget, so growth there is still caught.
+BUDGET_PAGE_HTML_OVERRIDES = {"/about/": 450 * 2**10}
 BUDGET_PAGE_JS_BYTES = 60 * 2**10     # scripts a page loads up front (search loads on demand)
 
 
@@ -143,8 +146,9 @@ def check_budgets(pages: list[Path]) -> list[str]:
             errors.append(f"budget: {f.relative_to(DIST)} is {f.stat().st_size / 2**20:.1f} MB (budget {BUDGET_FILE_BYTES // 2**20} MB)")
     for path in pages:
         size = path.stat().st_size
-        if size > BUDGET_PAGE_HTML_BYTES:
-            errors.append(f"budget: {page_url(path)} HTML is {size // 1024} KB (budget {BUDGET_PAGE_HTML_BYTES // 1024} KB)")
+        budget = BUDGET_PAGE_HTML_OVERRIDES.get(page_url(path), BUDGET_PAGE_HTML_BYTES)
+        if size > budget:
+            errors.append(f"budget: {page_url(path)} HTML is {size // 1024} KB (budget {budget // 1024} KB)")
         root = parse_html(path.read_text(encoding="utf-8"))
         js = 0
         for n in root.find_all("script"):
