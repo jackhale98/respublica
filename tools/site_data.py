@@ -1733,7 +1733,10 @@ def build_map(corpus: Corpus, links: list[dict], refs: dict[str, dict], shorts: 
     for m in by_case:
         spine[m[0]]["totals"]["cases"] += 1
     return {
-        "arcs": sorted(arcs.values(), key=lambda x: (x["from"], x["to"], x["kind"])),
+        # Only arcs between works on the map (a link to a passage off the spine,
+        # such as the Constitution as a whole, has no work to draw it to).
+        "arcs": sorted((x for x in arcs.values() if x["from"] in works and x["to"] in works),
+                       key=lambda x: (x["from"], x["to"], x["kind"])),
         "cases": dict(sorted(cases.items())),
         "debate": debate,        # [spine index, side, kind, reviewed, work]
         "interprets": by_case,   # [spine index, "case", kind, reviewed, case ref]
