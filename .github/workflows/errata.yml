@@ -120,12 +120,6 @@ jobs:
           path: sources/raw/ia-road-*
           key: raw-road-${{ steps.raw-keys.outputs.road }}
           restore-keys: raw-road-
-      - if: contains(format(',{0},', steps.scope.outputs.families), ',untglobe,')
-        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
-        with:
-          path: sources/raw/unt-globe-*
-          key: raw-untglobe-${{ steps.raw-keys.outputs.untglobe }}
-          restore-keys: raw-untglobe-
       - if: contains(format(',{0},', steps.scope.outputs.families), ',iapart,')
         uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:

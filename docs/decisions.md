@@ -1832,3 +1832,23 @@ files (20,000; the site has about 9,300) and file size (25 MiB), and the
 site's total stays inside its 250 MB budget. `tools/check_site.py` gives
 `/about/` a budget of its own, 450 KB, so its growth is still caught; every
 other page keeps 400 KB.
+
+## 73. The UNT Globe pages go back into git; the scoped source check
+
+Decision 71 kept the Congressional Globe's UNT pages (`unt-globe-*`) out of
+git, to be fetched in CI. They cannot be: each page UNT serves carries a
+token made for that request (`csrftoken`), so no fetch matches the sha256
+recorded when the page was saved, `make fetch` refused all 1,313 of them,
+and CI on `main` failed from then on. They are back in git (72 MB; the raw
+files in git are about 114 MB of their 300 MB budget), and are no longer a
+cache family. The merge of decision 68 had also fused this family's cache
+step in `ci.yml` with the Library of Congress's, which made the workflow
+invalid.
+
+The errata workflow restores only the families of the importers a
+correction re-runs (decision 65), but `tools.verify --importers` still
+asked for every raw file in the manifest, so the first correction after
+decision 71 failed its check. Scoped, the source check now requires only
+the raw files those importers read (`importers/outputs.json`); every file
+that is present is still checked against its sha256, and the full
+`make verify` on `main` still requires them all.

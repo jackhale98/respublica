@@ -20,7 +20,6 @@ sources/raw/ia-road-*
 # Internet Archive scans that check the TCP texts of Common Sense and Locke (decision 67): `make fetch` restores them
 sources/raw/ia-decl-*
 # Moved out of git (decision 71): `make fetch` restores them.
-sources/raw/unt-globe-*
 sources/raw/ia-part-*
 sources/raw/ia-page-*
 sources/raw/ia-elliot-*

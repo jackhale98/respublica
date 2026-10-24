@@ -74,6 +74,13 @@ def check_manifest() -> list[str]:
     entries = load_manifest()
     seen: set[str] = set()
     listed: set[Path] = set()
+    # Scoped (the errata and link-review workflows, decision 65): only the raw
+    # files the chosen importers read are fetched, so only those must be here.
+    needed = None
+    if ONLY_IMPORTERS is not None:
+        from importers.__main__ import load_map
+        m = load_map()
+        needed = {r for n in ONLY_IMPORTERS for r in m.get(n, {}).get("raw", [])}
     for e in entries:
         eid = e.get("id", "?")
         missing = MANIFEST_KEYS - e.keys()
@@ -105,7 +112,8 @@ def check_manifest() -> list[str]:
             continue
         listed.add(path)
         if not path.exists():
-            errors.append(f"manifest {eid}: {e['path']} is missing (run make fetch)")
+            if needed is None or eid in needed:
+                errors.append(f"manifest {eid}: {e['path']} is missing (run make fetch)")
         elif sha256_file(path) != e["sha256"]:
             errors.append(f"manifest {eid}: {e['path']} does not match its sha256 (raw files must not be edited)")
     if entries != sorted(entries, key=lambda x: x.get("id", "")):

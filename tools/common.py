@@ -51,8 +51,8 @@ UNTRACKED_FAMILIES = {
     # vols. 2-4 (decision 68); the scans it is checked against are `elliot`.
     "lled": "loc-lled-*",
     # Moved out of git when the tracked raw files neared their 300 MB budget
-    # (decision 71).
-    "untglobe": "unt-globe-*",
+    # (decision 71). Not the UNT Globe pages: they cannot be fetched again
+    # unchanged, so they stay in git (decision 73).
     "iapart": "ia-part-*",
     "iapage": "ia-page-*",
     "elliot": "ia-elliot-*",
