@@ -367,6 +367,21 @@ follows run 2's rules for its links, with these batches and additions:
 Every run's links are checked by a second pass against both texts before
 they are proposed, as in run 2. Confidence and rationale follow run 1.
 
+**Results.** Seven runs by agents, each with its own second pass, proposed
+851 links. The sources of the Declaration: 84 (`decl-*`), among them the
+Declaration's last paragraph quoting the Lee Resolution, seven grievances
+quoting Jefferson's draft preamble, and readings of the Virginia Declaration
+of Rights in the Virginia convention, Henry's speeches and later debates.
+The pamphlets: 315 (291 to the Constitution, 1 to the Declaration, 23
+between works). The conventions: Virginia 209 (167 to the Constitution,
+42 to the Virginia Declaration of Rights), New York 33, North and South
+Carolina 80, Massachusetts, Connecticut, New Hampshire, Maryland and
+Pennsylvania 130. Left out on purpose and worth a person's eye: Williams's
+speech of June 26 in New York reproduces Brutus V without naming it, and
+the Virginia convention's proposed declaration of rights (June 27)
+repeats twelve articles of Virginia's without naming it; neither is a link
+under run 2. Slips found while linking are errata 202–204.
+
 ## Imported links: Supreme Court cases (phase 7)
 
 Links between cases and the Constitution are not proposed by a linker but
