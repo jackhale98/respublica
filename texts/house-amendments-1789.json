@@ -111,6 +111,64 @@
         "440",
         "441"
       ],
+      "corrected": [
+        {
+          "at": "2026-10-26",
+          "by": "jackhale98",
+          "end": 45,
+          "start": 41,
+          "was": "tlm^his"
+        },
+        {
+          "at": "2026-10-26",
+          "by": "jackhale98",
+          "end": 90,
+          "start": 81,
+          "was": "namelUor"
+        },
+        {
+          "at": "2026-10-26",
+          "by": "jackhale98",
+          "end": 237,
+          "start": 233,
+          "was": "'^|is"
+        },
+        {
+          "at": "2026-10-26",
+          "by": "jackhale98",
+          "end": 291,
+          "start": 276,
+          "was": "foiN^UM^to"
+        },
+        {
+          "at": "2026-10-26",
+          "by": "jackhale98",
+          "end": 331,
+          "start": 321,
+          "was": "amend mltits"
+        },
+        {
+          "at": "2026-10-26",
+          "by": "jackhale98",
+          "end": 560,
+          "start": 553,
+          "was": "finally"
+        },
+        {
+          "at": "2026-10-26",
+          "by": "jackhale98",
+          "end": 565,
+          "start": 563,
+          "was": "jr"
+        },
+        {
+          "at": "2026-10-26",
+          "by": "jackhale98",
+          "end": 1014,
+          "start": 1013,
+          "was": "1"
+        }
+      ],
       "label": "House, June 8, 1789, ¶ 1",
       "ref": "House1789.Jun8.1",
       "scan": {
@@ -120,75 +178,7 @@
           243
         ]
       },
-      "text": "Mr. Madison rose, and reminded the House tlm^his was the day that he had heretofore namelUor bringing forward amendments to the constitution, as contemplated in the fifth article of the constitution, addressing the Speaker as follows: '^|is day, Mr. Speaker, is the day assigned foiN^UM^to consideration the subject of amend mltits to the constitution. As I considered myself bound in honor and in duty to do what I have done on this subject, I shall proceed to bring the amendments before you as soon as possible, and advocate them until they shall be finally I jr adopted or rejected by a constitutional majority of this House. With a view of drawing your attention to this important object, I shall move that this House do now resolve itself into a Committee of the whole on the state of the Union; by which an opportunity will be given, to bring forward some propositions, which I have strong hopes will meet with the unanimous approbation of this House, after the fullest discussion and most serious regard. 1 therefore move you, that the House now go into a committee on this business.",
-      "uncertain": [
-        {
-          "end": 48,
-          "readings": {
-            "microfilm": "this",
-            "primary": "tlm^his"
-          },
-          "start": 41
-        },
-        {
-          "end": 92,
-          "readings": {
-            "microfilm": "named for",
-            "primary": "namelUor"
-          },
-          "start": 84
-        },
-        {
-          "end": 240,
-          "readings": {
-            "microfilm": "This",
-            "primary": "'^|is"
-          },
-          "start": 235
-        },
-        {
-          "end": 289,
-          "readings": {
-            "microfilm": "into",
-            "primary": "foiN^UM^to",
-            "tesseract": "forYakipgeinto"
-          },
-          "start": 279
-        },
-        {
-          "end": 331,
-          "readings": {
-            "microfilm": "amendments",
-            "primary": "amend mltits",
-            "tesseract": "amendm&nts"
-          },
-          "start": 319
-        },
-        {
-          "end": 560,
-          "readings": {
-            "microfilm": "finally",
-            "primary": "final",
-            "tesseract": "finally"
-          },
-          "start": 553
-        },
-        {
-          "end": 565,
-          "readings": {
-            "primary": "jr"
-          },
-          "start": 563
-        },
-        {
-          "end": 1014,
-          "readings": {
-            "microfilm": "I",
-            "primary": "1"
-          },
-          "start": 1013
-        }
-      ]
+      "text": "Mr. Madison rose, and reminded the House this was the day that he had heretofore named for bringing forward amendments to the constitution, as contemplated in the fifth article of the constitution, addressing the Speaker as follows: This day, Mr. Speaker, is the day assigned for taking into consideration the subject of amendments to the constitution. As I considered myself bound in honor and in duty to do what I have done on this subject, I shall proceed to bring the amendments before you as soon as possible, and advocate them until they shall be finally I be adopted or rejected by a constitutional majority of this House. With a view of drawing your attention to this important object, I shall move that this House do now resolve itself into a Committee of the whole on the state of the Union; by which an opportunity will be given, to bring forward some propositions, which I have strong hopes will meet with the unanimous approbation of this House, after the fullest discussion and most serious regard. I therefore move you, that the House now go into a committee on this business."
     },
     {
       "columns": [
