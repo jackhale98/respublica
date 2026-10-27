@@ -17,7 +17,7 @@ Read `CLAUDE.md` first; its rules apply to people and agents alike.
 | `make import` | Runs every importer (`python -m importers`), each in a process of its own, writing `texts/` and `cases/` and `importers/outputs.json` (which files each importer writes and which raw sources it reads; decision 65). `python -m importers --only a,b` runs just those. |
 | `make verify` | Runs the unit tests and every data check. Must pass before any task is finished. |
 | `make lock-refs` | Adds any new refs to `refs.lock`. Run it when an importer adds passages. |
-| `make build` | Builds the site data (`tools/site_data.py`), the site and its Pagefind search index into `site/dist/`, then checks the output. |
+| `make build` | Builds the site data (`tools/site_data.py`), the site and its Pagefind search index (`tools/search_site.py`, which reads the long s as s, decision 74) into `site/dist/`, then checks the output. |
 | `make dev` | Runs the site locally (search needs `make build`; the dev server has no index). |
 
 CI runs `make verify` and `make build` on every pull request and every push to

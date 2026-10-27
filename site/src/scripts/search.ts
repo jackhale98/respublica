@@ -240,6 +240,7 @@ const SINGLE_PAGE_WORKS = ["The Constitution of the United States", "Amendments 
 export async function search(q: string, filters: Record<string, string> = {}, debounce = 0): Promise<Search | null | "stale"> {
   const pf = await loadPagefind();
   if (!pf) return null;
+  q = q.replace(/ſ/g, "s"); // the index reads the long s as s (tools/search_site.py, decision 74)
   const f = Object.fromEntries(Object.entries(filters).filter(([, v]) => v));
   const res = debounce ? await pf.debouncedSearch(q, { filters: f }, debounce) : await pf.search(q, { filters: f });
   if (!res) return "stale";

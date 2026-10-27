@@ -38,6 +38,7 @@ site/node_modules: site/package.json site/package-lock.json
 
 build: site-data site/node_modules
 	cd site && $(NPM) run build
+	$(PYTHON) -m tools.search_site
 	$(PYTHON) -m tools.check_site
 
 dev: site-data site/node_modules

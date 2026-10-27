@@ -55,9 +55,8 @@ letters the transcribers could not read marked uncertain (mostly in
 Aristides, Monroe and the Native of Virginia, whose microprints were poor).
 No scan of these printings was found, so they are not cross-checked and
 their marked words are not on `/errata/` (no page image); keying slips may
-remain (errata 180–183). Long s (ſ) is kept as keyed, so site search does
-not find "Congreſs" under "Congress": an open question for the owner
-(folding ſ into s for the search index only). The same decision made
+remain (errata 180–183). Long s (ſ) is kept as keyed; the search index
+reads it as s, so "Congress" finds "Congreſs" (decision 74). The same decision made
 Evans-TCP N16599, a New York reprint of 1788, a second tie-breaker for the
 Dissent of the Pennsylvania Minority and Centinel I–IX (5 words changed,
 19 marks dropped, 16 suggestions marked "Evans-TCP" on `/errata/`). No

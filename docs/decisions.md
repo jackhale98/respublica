@@ -1852,3 +1852,13 @@ decision 71 failed its check. Scoped, the source check now requires only
 the raw files those importers read (`importers/outputs.json`); every file
 that is present is still checked against its sha256, and the full
 `make verify` on `main` still requires them all.
+
+## 74. Search reads the long s as s
+
+The pamphlets keep the long s (ſ) as the Text Creation Partnership keyed
+it (decision 69), so a search for "Congress" missed "Congreſs". On the
+owner's decision, the search index folds it: `tools/search_site.py` (run by
+`make build` after `astro build`) gives Pagefind a copy of the pages with ſ
+as s, and the search box folds the query the same way, so "Congress" and
+"Congreſs" find the same passages. The pages keep the long s as printed;
+only the index, and so the excerpts in search results, read "s".

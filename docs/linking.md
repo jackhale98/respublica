@@ -333,6 +333,40 @@ agent against both texts before it is proposed, as in run 2.
 - **Quotes are cut from the segment text** in `texts/`, never from
   `tools.show`'s printout, which can render an uncertain word differently.
 
+## Run 5: the state conventions, the pamphlets and the sources of the Declaration
+
+Three groups of works imported after run 4 (decisions 66–69). Each run
+follows run 2's rules for its links, with these batches and additions:
+
+- **The pamphlets** (`ColumbianPatriot`, `JayAddress`, `CoxeExamination`,
+  `WilsonSpeech`, `Aristides`, `RandolphLetter`, `Monroe`,
+  `NativeOfVirginia`): exactly run 2. Batch `deb-{work}-{part}` in lower
+  case (`deb-aristides`, `deb-nativeofvirginia-article1`). Their long s is
+  kept as keyed, so a quote copied from one keeps its ſ.
+- **The state conventions** (`Massachusetts1788` … `SouthCarolina1788`):
+  run 2's three kinds of link, one run per day (`conv-{ref}`:
+  `conv-virginia1788-jun5`). The delegates debated the Constitution as
+  signed in 1787, so never link to an amendment; their proposed amendments
+  are not links either. A speaker's reference to the Declaration of
+  Rights of his own state is a link only to the Virginia Declaration of
+  Rights (`VirginiaRights.{n}`), and only where he quotes it or names it.
+  Speakers' names and the reporter's remarks are not quotes of anyone.
+  A speech that answers another delegate is not a link (the debate is one
+  work); a reference to an essay or pamphlet in the library is (run 2,
+  third kind). Use `python3 -m tools.candidates --ref Virginia1788.Jun5`.
+- **The sources of the Declaration** (`Resolves1774`, `Causes1775`,
+  `LeeResolution`, `Governments1776`, `VirginiaRights`,
+  `JeffersonPreamble`, `Independence1776`, `CommonSense`, `Locke`): batch
+  `decl-{work}`. Links run from the later text to the earlier: the
+  Declaration (or a later work in the library) `quotes` an earlier source
+  only where at least eight consecutive words of it appear there unchanged
+  (spelling and capitals aside), or `cites` it where it names it. A shared
+  idea or a phrase in common use ("unalienable rights" alone) is not a
+  link; `shared_theme` is not used in this run.
+
+Every run's links are checked by a second pass against both texts before
+they are proposed, as in run 2. Confidence and rationale follow run 1.
+
 ## Imported links: Supreme Court cases (phase 7)
 
 Links between cases and the Constitution are not proposed by a linker but
