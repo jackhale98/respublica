@@ -121,7 +121,7 @@ Budgets, enforced in CI so growth is caught long before a limit:
 
 | Where | Budget |
 |---|---|
-| Built site (`tools/check_site.py`) | 250 MB total, 10,000 files (half of Cloudflare Pages' 20,000 should we ever move), 5 MB per file, 400 KB of HTML per page (450 KB for `/about/`, decision 72), 60 KB of JavaScript loaded up front per page |
+| Built site (`tools/check_site.py`) | 300 MB total (250 MB until decision 75), 10,000 files (half of Cloudflare Pages' 20,000 should we ever move), 5 MB per file, 400 KB of HTML per page (450 KB for `/about/`, decision 72), 60 KB of JavaScript loaded up front per page |
 | Repository (`make verify`) | 40 MB per raw file, 300 MB of raw files in total, 20 MB per data file |
 
 At launch the site is about 7 MB in about 250 files; a reader page is 13–17 KB
@@ -1862,3 +1862,12 @@ owner's decision, the search index folds it: `tools/search_site.py` (run by
 as s, and the search box folds the query the same way, so "Congress" and
 "Congreſs" find the same passages. The pages keep the long s as printed;
 only the index, and so the excerpts in search results, read "s".
+
+## 75. The site's total budget is 300 MB
+
+The links of run 5 brought the built site to 252.5 MB, over the 250 MB
+total budget `tools/check_site.py` keeps. That budget is ours, not the
+host's: Cloudflare's free plan limits files (20,000; the site has about
+9,300) and the size of each (25 MiB), not their total. On the owner's
+decision the total budget is now 300 MB, so growth is still caught well
+before anything the host limits; the other budgets are unchanged.

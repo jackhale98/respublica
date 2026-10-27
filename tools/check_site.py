@@ -40,7 +40,7 @@ PAGE_IMAGES = {"/errata/": "img-src 'self' https://archive.org https://*.us.arch
 # Free-tier budgets (docs/decisions.md 15, 44). Cloudflare static assets:
 # 20,000 files and 25 MiB per file on the free plan. Budgets sit well inside
 # so growth is caught early.
-BUDGET_TOTAL_BYTES = 250 * 2**20
+BUDGET_TOTAL_BYTES = 300 * 2**20  # decision 75
 BUDGET_FILES = 10_000
 BUDGET_FILE_BYTES = 5 * 2**20
 BUDGET_PAGE_HTML_BYTES = 400 * 2**10
