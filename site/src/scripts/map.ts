@@ -156,7 +156,10 @@ function drawChart(data: MapData) {
   let w = slot;
 
   function layout(animate: boolean) {
-    const unit = BAR / maxBar;
+    // A bar's length grows with the square root of its count, so a passage
+    // with a few links (the Declaration's) is visible beside one with
+    // hundreds; the table below the map and each tooltip give the counts.
+    const unitOf = (total: number) => (total ? (BAR * Math.sqrt(total / maxBar)) / total : 0);
     const r = Math.max(1.2, Math.min(w / 2 - 0.6, 3.2));
     const step = Math.min(2 * r + 1, DOTS / maxDots);
     const t = (sel: Selection<any, any, any, any>) => (animate && !reduceMotion() ? sel.transition().duration(350) : sel);
@@ -165,6 +168,7 @@ function drawChart(data: MapData) {
     const segs: { i: number; side: string; from: number; len: number }[] = [];
     stacks.forEach((s, i) => {
       let acc = 0;
+      const unit = unitOf(SIDES.reduce((t, k) => t + s[k], 0));
       for (const side of SIDES) {
         if (s[side]) segs.push({ i, side, from: acc, len: s[side] * unit });
         acc += s[side] * unit;
