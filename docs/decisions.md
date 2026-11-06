@@ -1871,3 +1871,19 @@ host's: Cloudflare's free plan limits files (20,000; the site has about
 9,300) and the size of each (25 MiB), not their total. On the owner's
 decision the total budget is now 300 MB, so growth is still caught well
 before anything the host limits; the other budgets are unchanged.
+
+## 76. Cloudflare Web Analytics
+
+Cloudflare's request counts (about 97,000 requests and 52,000 "page views"
+in the site's first three weeks) count crawlers and scanners along with
+readers, and the free plan cannot tell them apart. On the owner's decision
+the site uses Cloudflare Web Analytics, which counts only browsers that run
+its script and sets no cookies. With `cloudflare_analytics_token` set in
+`site/site.config.json` (the site's public token from the Web Analytics
+dashboard), every page loads `https://static.cloudflareinsights.com/beacon.min.js`,
+and its Content Security Policy allows that script source and
+`https://cloudflareinsights.com`, where the beacon reports. It is the only
+script loaded from another site; `tools/check_site.py` allows exactly that
+script and those two sources, and only when the token is set. The About
+page says so under Privacy. An empty token removes the script and the
+policy's sources.

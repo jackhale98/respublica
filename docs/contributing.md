@@ -179,7 +179,8 @@ Unit tests in `tests/` exercise these checks against bad records.
 `make build` also runs `tools/check_site.py` on the built site: one strict
 Content Security Policy per page (only `'self'`, hashes, and
 `'wasm-unsafe-eval'` for search; the errata page alone may load page images
-from the Internet Archive, UNT and the Library of Congress), no third-party or inline scripts, no inline
+from the Internet Archive, UNT and the Library of Congress; every page may load Cloudflare's Web Analytics
+beacon when `site/site.config.json` has a token, decision 76), no other third-party or inline scripts, no inline
 event handlers or style attributes, only http(s) absolute URLs, no broken
 internal links or anchors, every segment ref rendered on some page, and the
 free-tier budgets of decision 15.
@@ -199,5 +200,6 @@ free-tier budgets of decision 15.
 - Styles live in `site/src/styles/` (`tokens.css` holds the design tokens
   shared with CommonHall). Scripts live in `site/src/scripts/`; each is a
   progressive enhancement, and every page must work without JavaScript.
-- No third-party scripts or fonts are loaded from other sites. Fonts come
+- No third-party scripts or fonts are loaded from other sites, except
+  Cloudflare's Web Analytics beacon (decision 76). Fonts come
   from pinned Fontsource packages. Ask before adding any dependency.

@@ -1,5 +1,6 @@
 {
   "base": "",
   "url": "https://respublicalibrary.org",
-  "repo": "jackhale98/respublica"
+  "repo": "jackhale98/respublica",
+  "cloudflare_analytics_token": ""
 }
