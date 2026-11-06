@@ -179,8 +179,8 @@ Unit tests in `tests/` exercise these checks against bad records.
 `make build` also runs `tools/check_site.py` on the built site: one strict
 Content Security Policy per page (only `'self'`, hashes, and
 `'wasm-unsafe-eval'` for search; the errata page alone may load page images
-from the Internet Archive, UNT and the Library of Congress; every page may load Cloudflare's Web Analytics
-beacon when `site/site.config.json` has a token, decision 76), no other third-party or inline scripts, no inline
+from the Internet Archive, UNT and the Library of Congress; every page's policy may allow Cloudflare's Web
+Analytics beacon, which Cloudflare inserts, decision 76), no other third-party or inline scripts, no inline
 event handlers or style attributes, only http(s) absolute URLs, no broken
 internal links or anchors, every segment ref rendered on some page, and the
 free-tier budgets of decision 15.

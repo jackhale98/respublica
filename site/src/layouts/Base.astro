@@ -1,6 +1,5 @@
 ---
 import { href } from "../lib/data.js";
-import siteConfig from "../../site.config.json";
 import "@fontsource-variable/inter/wght.css";
 import "@fontsource-variable/bricolage-grotesque/wght.css";
 import "@fontsource-variable/source-serif-4/wght.css";
@@ -57,10 +56,6 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <link rel="apple-touch-icon" href={href("/apple-touch-icon.png")} />
     <link rel="manifest" href={href("/site.webmanifest")} />
     <script is:inline src={href("/theme.js")}></script>
-    {siteConfig.cloudflare_analytics_token && (
-      <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js"
-        data-cf-beacon={JSON.stringify({ token: siteConfig.cloudflare_analytics_token })}></script>
-    )}
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>

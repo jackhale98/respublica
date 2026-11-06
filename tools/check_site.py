@@ -37,11 +37,11 @@ ALLOWED_UNSAFE = {"'wasm-unsafe-eval'"}
 PAGE_IMAGES = {"/errata/": "img-src 'self' https://archive.org https://*.us.archive.org https://digital.library.unt.edu "
                           "https://tile.loc.gov"}
 
-# Cloudflare Web Analytics (decision 76), when site.config.json has a token:
-# the one third-party script, and the CSP sources it needs, on every page.
-ANALYTICS_TOKEN = json.loads((ROOT / "site" / "site.config.json").read_text(encoding="utf-8")).get(
-    "cloudflare_analytics_token", "")
-ANALYTICS_SCRIPT = "https://static.cloudflareinsights.com/beacon.min.js"
+# Cloudflare Web Analytics (decision 76), when site.config.json turns it on:
+# Cloudflare inserts its beacon as it serves each page, so the built pages
+# hold no third-party script; the CSP may allow the beacon's two sources.
+ANALYTICS_ON = bool(json.loads((ROOT / "site" / "site.config.json").read_text(encoding="utf-8")).get(
+    "cloudflare_web_analytics"))
 ANALYTICS_CSP = {"https://static.cloudflareinsights.com", "https://cloudflareinsights.com"}
 
 # Free-tier budgets (docs/decisions.md 15, 44). Cloudflare static assets:
@@ -93,7 +93,7 @@ def check() -> list[str]:
             allowed = PAGE_IMAGES.get(url[len(BASE):] if url.startswith(BASE) else url)
             if allowed:
                 csp = ";".join(d for d in csp.split(";") if d.strip() != allowed)
-            if ANALYTICS_TOKEN:
+            if ANALYTICS_ON:
                 csp = re.sub(r"\s(" + "|".join(map(re.escape, ANALYTICS_CSP)) + r")(?=[;\s]|$)", "", csp)
             unsafe = set(re.findall(r"'[a-z-]*unsafe-[a-z-]*'", csp)) - ALLOWED_UNSAFE
             if unsafe or re.search(r"(https?:|\*|data:|blob:)", csp):
@@ -192,8 +192,6 @@ def _check_url(page: str, node, attr: str, value: str, links: list) -> list[str]
         if scheme or v.startswith("//"):
             if not is_safe_url(v):
                 errs.append(f"{page}: unsafe URL in <{node.tag} {attr}>: {v!r}")
-            elif ANALYTICS_TOKEN and node.tag == "script" and attr == "src" and v == ANALYTICS_SCRIPT:
-                pass
             elif node.tag in ("script", "img", "iframe", "object", "embed", "source") or (
                     node.tag == "link" and set(node.attrs.get("rel", "").lower().split()) & RESOURCE_RELS):
                 errs.append(f"{page}: third-party resource in <{node.tag} {attr}>: {v}")

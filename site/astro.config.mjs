@@ -7,10 +7,11 @@ import { defineConfig } from "astro/config";
 // "url" to that domain and "base" to "".
 const where = JSON.parse(fs.readFileSync(new URL("./site.config.json", import.meta.url), "utf-8"));
 
-// Cloudflare Web Analytics (decision 76): with a token in site.config.json,
-// each page loads Cloudflare's beacon, which reports page views without
-// cookies; the policy then allows that one script and where it reports.
-const ANALYTICS = where.cloudflare_analytics_token
+// Cloudflare Web Analytics (decision 76): Cloudflare inserts its beacon,
+// which reports page views without cookies, into each page as it serves
+// it; with "cloudflare_web_analytics" in site.config.json the policy allows
+// that one script and where it reports.
+const ANALYTICS = where.cloudflare_web_analytics
   ? { script: "https://static.cloudflareinsights.com", report: "https://cloudflareinsights.com" }
   : null;
 

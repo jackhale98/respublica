@@ -1878,12 +1878,13 @@ Cloudflare's request counts (about 97,000 requests and 52,000 "page views"
 in the site's first three weeks) count crawlers and scanners along with
 readers, and the free plan cannot tell them apart. On the owner's decision
 the site uses Cloudflare Web Analytics, which counts only browsers that run
-its script and sets no cookies. With `cloudflare_analytics_token` set in
-`site/site.config.json` (the site's public token from the Web Analytics
-dashboard), every page loads `https://static.cloudflareinsights.com/beacon.min.js`,
-and its Content Security Policy allows that script source and
-`https://cloudflareinsights.com`, where the beacon reports. It is the only
-script loaded from another site; `tools/check_site.py` allows exactly that
-script and those two sources, and only when the token is set. The About
-page says so under Privacy. An empty token removes the script and the
-policy's sources.
+its script and sets no cookies. The owner turned it on in the dashboard
+(automatic setup), so Cloudflare inserts its beacon
+(`https://static.cloudflareinsights.com/beacon.min.js`) into each page as
+it serves it; the built pages hold no third-party script. Each page's
+Content Security Policy would block it, so with `"cloudflare_web_analytics":
+true` in `site/site.config.json` the policy allows that script's source and
+`https://cloudflareinsights.com`, where the beacon reports, and
+`tools/check_site.py` allows exactly those two sources. It is the only
+script loaded from another site, and the About page says so under Privacy.
+Turning it off in the dashboard and setting the flag to false removes both.
